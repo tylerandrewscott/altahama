@@ -1,0 +1,38 @@
+Files	Contents
+Assessment SITEINFO	Contains information about sites used to develop the 2010 National Coastal Condition Assessment (i.e. Index sites) whether they were sampled or not.
+NonAssessment SITEINFO	Contains information about sites that were NOT used to develop the 2010 National Coastal Condition Assessment. Sites may have been supplemental study sites or sites that were dropped and replaced with oversample sites.
+	
+	
+Variable	Definition
+PUBLICATION_DATE	Most recent date that data were published in NARS IM database
+UID	Unique identifier for the site/visit
+SITE_ID	Site identifier
+VISIT_NO	"Sequential site visit in each year, data/samples collected during site visit 1 (i.e. the ""Index"" visit) are used in the Assessment. Site visit 2 indicates a revisit. Visit ""3"" indicates special study visits. Visit ""99"" indicates deprecated visit."
+DATE_COL	Date the site visit occurred
+SITESAMP	Identifies sites sampled (Y) vs sites not sampled (N)
+INDEX_VISIT	Identifies visit used for analysis of 2010 Sample data
+STATE	State where the site is located
+EPA_REG	Identifies EPA Region within which the site is located
+NCCR_REG	Reporting region designations used in the National Coastal Condition Assessment Reports 
+NCA_REGION	Alternate reporting region designations used for design purposes only
+COUNTRY	Identifies the country within which the site is located
+PROVINCE	Biogeographic province
+WTBDY_NM	Waterbody name
+STATION_DEPTH	Depth of water at station
+STATION_DEPTH_UNITS	Units for depth of water
+ALAT_DD	Actual Latitude sampled (decimal degrees)
+ALON_DD	Actual Longitude sampled (decimal degrees)
+TLAT_DD	"Target Latitude for site (removed from ""Assessment SITEINFO"" tab)"
+TLON_DD	"Target Longitude for site (removed from ""Assessment SITEINFO"" tab)"
+DSNTYPE	Identifies site as part of NCCA draw or Supplemental draw
+MDCATY	Probability survey design categories used to assign unequal probability of selection
+NEP_NM	Name of National Estuary Program study area within which site is located area (if applicable)
+NPSPARK	Name of National Park within which site is located (if applicable)
+PANEL	Probability survey design categories
+STATUS10	"Status of sampling at that site.  Status10 of index visit in ""Assessment SITEINFO"" tab are either ""Target_sampled"" (if site was sampled) or ""Target_presumed"" (if site was not sampled).  In ""NonAssessment SITEINFO"" tab Other values indicate reason target was not sampled."
+STRATUM	Probability survey design stratum used to identify assessment region
+TNT	Target or not Target
+WGT	Initial site weight based on base design. DO NOT USE for population estimation (removed from Assessment SITEINFO tab)
+WGT_CAT	category used to derive weight
+WGT_NCCA10	Adjusted site weight. USE for population estimation Units are Square miles.
+RSRC_CLASS	resource classification

@@ -12,6 +12,41 @@ sed.data = read.csv('Input/epa_coastal_sedtoxicity_data.csv')
 grant.data = read.csv('Input/epa_nps_management_program_grants.csv')
 
 
+require(foreign)
+require(plyr)
+require(dplyr)
+require(rgdal)
+require(sp)
+require(rgeos)
+require(maptools)
+require(ggplot2)
+require(reshape2)
+library(RcppRoll)
+library(devtools)
+library(RCurl)
+library(gdata)
+require(proj4)
+library(lubridate)
+require(RODBC)
+require(gridExtra)
+require(lattice)
+require(splancs)
+require(fields)
+library(raster)
+library(shapefiles)
+
+library(rasterVis)  # raster visualisation
+library(rWBclimate)
+library(stargazer)
+library(texreg)
+library(xtable)
+
+oregon <- readOGR(dsn='../quinalt/SpatialData/government_units/','state_nrcs_a_or')
+
+oregon@data$id = rownames(oregon@data)
+oregon.points = fortify(oregon, region="id")
+oregon.df = join(oregon.points, oregon@data, by="id")
+
 
 library(ggplot2);library(plyr);library(dplyr)
 ggplot(wq.data,aes(y=Latitude.Decimal.Degrees,x=Longitude.Decimal.Degrees)) + geom_point() + facet_wrap(~Sampling.Year)
@@ -21,6 +56,16 @@ wq.data$Station.Abbrev = gsub('[[:digit:]]|[[:punct:]]','',wq.data$Station.Name)
 
 wq.data = wq.data %>% filter(wq.data$Station.Abbrev %in% state.abb)
 wq.data$State.Name = cbind(state.abb,state.name)[,2][match(wq.data$Station.Abbrev,cbind(state.abb,state.name)[,1])]
+
+
+oregon.wq <- filter(wq.data,State.Name =='Oregon')
+
+ggplot() + geom_path(aes(x=long,y=lat,group=group), data= oregon.df[oregon.df$long<=-122,]) +
+  geom_point(aes(x=Longitude.Decimal.Degrees,y=Latitude.Decimal.Degrees),data=oregon.wq,col='blue',pch=19)
+                   
+                   oregon.wq$Longitude.Decimal.Degrees))
+
+head(oregon.df)
 
 library(RCurl)
 library(mosaic)

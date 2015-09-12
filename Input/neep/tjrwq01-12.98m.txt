@@ -1,0 +1,1135 @@
+Tijuana River Estuary (TJR) NERR Site Water Quality Metadata Form
+January to December 1998
+Last Revised April 23, 2002
+
+I. Data Set and Research Descriptors
+
+1. Principal Investigators and contact persons
+
+
+Dick Zembal, Research Coordinator			
+
+Phil Jenkins, Reserve Manager			301 Caspian Way  
+							Imperial Beach, CA 91932  
+							phone: (619) 575-3615 
+							
+Michelle Cordrey, Research Associate	Pacific Estuarine Research 
+Laboratory
+							San Diego State University
+							San Diego, California	92182-4625
+							e-mail:	 mcordrey@perl.sdsu.edu
+							phone: (619)594-7422			
+		
+
+2.  Entry Verification:
+	The data are uploaded directly from the YSI model 6000upg dataloggers to 
+the YSI PC6000 software into a file appended with the suffix .dat. The data are 
+also downloaded directly from the datalogger into a spreadsheet importable file 
+appended with the suffix .csv.  The data are then reviewed for major problems 
+(i.e. logger out of water, probe malfunction, battery failure etc.) using the 
+YSI PC6000 plotting software.  The resulting plot is printed out  and saved in a 
+folder named "datalogger deployment log".  The .csv file is imported into Excel 
+5.0 for Macintosh and is edited and formatted.
+	The tails of each sampling period are deleted and any suspect data is 
+identified with the aid of Excel CDMO 5.0 macros and are evaluated and dealt 
+with according to CDMO Operations Manual (ver.3.0) guidelines.  The parameter 
+columns are checked for proper order and formatted to the correct decimal places 
+using the "column reformat" macro supplied by the CDMO.  Missing data fields are 
+inserted into the Excel spreadsheet and are denoted by periods (.).  Reasons for 
+any missing or anomalous data are entered directly into the data file and the 
+edited file is saved as a two-week excel file.  When an entire month of two-week 
+edited data files have been collected, the files are combined into a 1 month 
+excel file.   Any dates and times when data was not collected are inserted and 
+the reason for the missing data (from the deployment log) are entered directly 
+into the excel file along with the editing information from the two-week files.  
+All editing and missing data documentation are also recorded in an excel file 
+named "missing data log".  The information in the "missing data log" is 
+transferred to the metadata form. The edited and raw files are archived on a Sun 
+Sparc 20 workstation and backed up to tape weekly.  Data and metadata files are 
+uploaded via ftp to the CDMO. The person responsible for the data management is 
+Michelle Cordrey. 
+
+3.  Research Objectives:
+	The Tijuana Estuarine Research Reserve is impacted heavily by both 
+periodic raw sewage outflows and urban development. Only about a quarter of the 
+reserve's 2,531 acres are tidally influenced with few channels deep enough for 
+deployment of dataloggers.   Initially two stations were set up;  the 
+"treatment" station was set up close to the mouth on the Southern end of the 
+Oneonta Slough.  It was thought that this location would be best suited for 
+monitoring changes caused by sewage outflow events.   The "control" station was 
+set up on the northern end of Oneonta Slough.  Deployment at the treatment 
+station, however, was continually halted by both shifting sediment and massive 
+wracks of Kelp (macrocystis pyrifera) which would often bury the deployment set-
+up on incoming tides.  After a number of different deployment equipment designs 
+were implemented, with no success, logging at this site was terminated.  
+Recently, however, a new channel was dredged in the northeast section of the 
+estuary to increase tidal flushing.  This restoration site named the "Tidal 
+Linkage" will be the new location of the "treatment" site.  Comparisons will be 
+made with the natural site as the hydrology of the constructed treatment site 
+changes over time.
+
+4.  Research Methods (Dataloggers)
+	A 4 inch diameter PVC pipe was strapped to a 6 ft length of steel fencing 
+post and driven into the sediment until refusal prior to datalogger deployment 
+in the center of the channel.  The bottom of the pipe is raised 1' off of the 
+channel bottom and is capped. Multiple 1.5" holes have been drilled in the 
+bottom  cap and sides to permit unrestricted flow to the sensors.  The 
+datalogger units are then placed into and rest on the bottom of the tubes during 
+deployment.  The sampling period is two weeks with measurements being taken 
+every 30 minutes.  Measurements for specific conductivity, salinity, dissolved 
+oxygen (percent saturation), dissolved oxygen (mg/l), pH, temperature, turbidity 
+and water level are recorded.  At the end of each two-week period, the YSI data 
+logger unit  is replaced by another YSI datalogger unit and brought back to the 
+laboratory for downloading, cleaning and recalibration. These procedures are 
+carried out according to the methods described in the YSI Operations Manual (see 
+sections 3 and 7). Calibration standards for Specific Conductivity, pH and 
+turbidity are purchased pre-made from VWR scientific.  The QA/QC procedures for 
+the collected data are followed as given in the CDMO Operations Manual version 
+3.0. 
+	In May 1997 sampling at the "Tidal Linkage" station began.  All 
+deployment, calibration and QA/QC procedures were followed exactly as they are 
+at the Oneonta Slough station. Additionally, on May 23, 1997 plastic mesh 
+sleeves were placed on the datasondes at both stations to inhibit crabs from 
+interfering with the sensors.
+
+5.  Site location and character
+General site Characteristics (TJE)
+a) Tidal exchange (extremes): approx. -2 +7 MLLW,
+b) Salinity: 4 ppt (extreme rain events) to 38 ppt
+c) Latitude and longitude:  32 deg. 34 min. N, 117 deg. 07 min. W
+d) Potential impacts: storm drain runoff from military airfield and adjacent 
+residential areas, occasional sewage spills (10-15 MGD) into the Tijuana River 
+from Mexico.  The area surrounding the estuary is heavily developed by 
+residential housing as is the watershed which drains into the estuary.  
+Approximately 2/3 of the watershed is in Mexico.  The North Eastern section of 
+the reserve is bordered by a military helicopter training base.  Vegetation in 
+the area is dominated by common pickleweed (Spartina virginica) and Pacific 
+cordgrass (Spartina foliosa).  
+
+Specific Site characteristics: Oneonta Slough
+a) Orientation of site:  Datalogger is located on the upper portion of Oneonta 
+Slough.  The channel runs North to South and is located on the northwestern 
+edge of the reserve.
+b) b) The elevation of the channel bottom directly below the datalogger is 
+approx. 0.55m below Mean Sea Level.
+c) Channel width is approx. 20 meters.  Datalogger site is located 1km from 
+mouthd) Bottom type: sand and sediment
+e) Area adjacent to west side of channel is developed. There is a 50 meter 
+buffer of natural vegetation between development and the channel.  Area adjacent 
+to east side of channel is relatively natural.
+f) Direct impacts are estimated to be runoff from streets into channel during 
+rain events.
+g) Site location: 32? 34’ 4.8”N, 117? 07’ 52.3”W
+
+Specific Site Characteristics: The Tidal Linkage
+a) Orientation of site:  Datalogger is located in the middle of the newly 
+constructed channel.  The channel runs Northwest to Southwest and is located 
+adjacent to the visitor's center in the northeastern section of the reserve.
+b)  The elevation of the channel bottom is approximately 0.9m below Mean Sea 
+Level.
+c) Channel width:  Approximately 5 meters. 
+d) Bottom type: mostly sand in the area of the datalogger with a change to 
+mostly mud at either end of the channel.
+e) Site location: 32? 34’ 24.9”N, 117? 07’ 32.2”W
+
+6.  Data Collection period
+	Oneonta Slough data collection began July 1, 1995.  Multiple instrument 
+problems (defective sensors,  software bugs, exploding batteries) and subsequent 
+repairs and upgrades delayed data processing and compromised some of the data 
+acquired between July 1995 and January 1, 1996. Sampling at the Tidal Linkage 
+began in May 1997.  Sampling is ongoing.
+
+7.  Associated researchers and projects
+	A computer animated salinity model is being developed by Phil Williams 
+Assoc. in collaboration with the Pacific Estuarine Research Laboratory (PERL) at 
+San Diego State University (SDSU).  The datalogger data will be used to adjust 
+and validate the model.  The salinity data and dilution model will be used to 
+determine the distribution and dilution of human pathogens resulting form sewage 
+spills into Tijuana Estuary.  The pathogen study is being conducted by Dr. Rick 
+Gersberg, SDSU Grad. School of Public Health and PERL. The newly constructed 
+channel is the site of research being conducted by PERL which focuses on methods 
+for increasing the success of saltmarsh revegetation projects.
+
+
+II. Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution and accuracy:
+
+YSI 6000upg datalogger:
+
+Variable       Range of Measurements (units)    Resolution          Accuracy
+Date           1-12,1-31,00-99 (Mo,Day,Yr)      1 mo,1 day, 1 yr    NA
+Time           0-24,0-60,0-60 (Hr,Min,Sec)      1 hr, 1 min, 1 sec  NA
+Temp               -5 TO 45 ( C)                0.01 C              +/-0.15C
+SpCond               0-100 (mS/cm)              0.01 mS/cm          +/-(.5% of 
+reading)+ 0.001 mS/cm
+Sal            0-70 parts per thousand (ppt)    0.01 ppt            +/-1.0% of 
+reading or 0.01 ppt (whichever is greater)
+DO             0-200 (% air Saturation)         0.1% @air sat       +/-2.0%@air 
+sat.
+DO             200-500 (% air saturation)       0.1% @air sat       +/-6%@air 
+sat.
+DO                  0-20 (mg/l)                 0.01 mg/l           +/-0.2 mg/l
+DO                  20-50 (mg/l)                0.01 mg/l           +/-0.6 mg/l
+Depth               0-152 (m)                   0.001m              +/-0.3 m
+PH                  2-14 units                  0.01 units          +/-0.2 units
+Turbidity           0-1000 (NTU)                0.1 NTU             +/-5% of 
+reading or 2 NTU (whichever is greater)
+
+data columns are separated by tabs
+
+9.  Coded variable indicator and variable code definitions
+Site definitions:  OS = Oneonta Slough  TL = Tidal Linkage
+
+
+10.  Data anomalies (suspect data):
+
+January 1998
+Oneonta Sough
+a) 01/28(16:30)-01/31(23:30), Sp Cond and Salinity - readings unusually high.  
+Post calibration checked out ok. Data were not 
+removed
+Tidal Linkage
+a)The following negative turbidity values were recorded:
+Date		Time		Turb
+01/01/98	19:30:00	-0066
+01/01/98	20:00:00	-0075
+01/01/98	20:30:00	-0067
+01/01/98	21:00:00	-0072
+01/01/98	21:30:00	-0082
+01/01/98	22:00:00	-0100
+01/01/98	22:30:00	-0049
+01/01/98	23:00:00	-0034
+01/01/98	23:30:00	-0027
+01/02/98	00:00:00	-0004
+01/02/98	22:30:00	-0054
+01/02/98	23:00:00	-0032
+01/02/98	23:30:00	-0022
+01/03/98	00:00:00	-0023
+01/03/98	01:30:00	-0003
+01/04/98	01:30:00	-0343
+01/04/98	02:00:00	-0366
+01/04/98	02:30:00	-0248
+01/04/98	03:00:00	-0199
+01/04/98	03:30:00	-0162
+01/04/98	04:00:00	-0137
+01/04/98	04:30:00	-0118
+01/04/98	05:00:00	-0107
+01/04/98	05:30:00	-0096
+01/04/98	06:00:00	-0083
+01/04/98	06:30:00	-0443
+01/04/98	07:00:00	-0446
+01/04/98	07:30:00	-0434
+01/04/98	23:30:00	-0307
+01/05/98	01:30:00	-0012
+01/05/98	02:00:00	-0064
+01/05/98	02:30:00	-0191
+01/05/98	03:00:00	-0182
+01/05/98	03:30:00	-0131
+01/05/98	04:00:00	-0138
+01/05/98	04:30:00	-0104
+01/05/98	05:00:00	-0101
+01/05/98	05:30:00	-0107
+01/05/98	06:00:00	-0106
+01/05/98	06:30:00	-0106
+01/05/98	07:00:00	-0101
+01/05/98	07:30:00	-0097
+01/05/98	08:00:00	-0097
+01/05/98	08:30:00	-0101
+01/05/98	09:00:00	-0118
+01/05/98	09:30:00	-0101
+01/05/98	10:00:00	-0100
+01/05/98	10:30:00	-0096
+01/05/98	11:00:00	-0120
+01/05/98	11:30:00	-0116
+01/05/98	12:00:00	-0158
+01/05/98	12:30:00	-0164
+01/05/98	13:00:00	-0135
+01/05/98	13:30:00	-0166
+01/05/98	14:00:00	-0156
+01/05/98	14:30:00	-0142
+01/05/98	15:00:00	-0070
+01/05/98	15:30:00	-0005
+01/05/98	16:00:00	-0005
+01/05/98	16:30:00	-0256
+01/05/98	17:00:00	-0267
+01/05/98	17:30:00	-0251
+01/05/98	18:00:00	-0257
+01/05/98	18:30:00	-0263
+01/05/98	19:00:00	-0251
+01/05/98	19:30:00	-0258
+01/05/98	20:00:00	-0272
+01/05/98	20:30:00	-0239
+01/05/98	21:00:00	-0233
+01/05/98	21:30:00	-0236
+01/05/98	22:00:00	-0222
+01/05/98	22:30:00	-0239
+01/05/98	23:00:00	-0272
+01/05/98	23:30:00	-0278
+01/06/98	00:00:00	-0289
+01/06/98	00:30:00	-0317
+01/06/98	01:00:00	-0233
+01/06/98	01:30:00	-0194
+01/06/98	02:00:00	-0176
+01/06/98	02:30:00	-0162
+01/06/98	03:00:00	-0269
+01/06/98	03:30:00	-0005
+01/06/98	04:00:00	-0005
+01/06/98	04:30:00	-0005
+01/06/98	05:00:00	-0005
+01/06/98	05:30:00	-0392
+01/06/98	06:00:00	-0326
+01/06/98	06:30:00	-0312
+01/06/98	07:00:00	-0288
+01/06/98	07:30:00	-0258
+01/06/98	08:00:00	-0192
+01/06/98	08:30:00	-0069
+01/06/98	11:00:00	-0005
+01/06/98	11:30:00	-0005
+01/06/98	12:00:00	-0005
+01/06/98	12:30:00	-0005
+01/06/98	13:00:00	-0127
+01/06/98	15:30:00	-0005
+01/07/98	22:00:00	-0180
+01/07/98	22:30:00	-0117
+01/07/98	23:00:00	-0120
+01/07/98	23:30:00	-0064
+01/08/98	00:00:00	-0067
+01/08/98	02:30:00	-0005
+01/08/98	03:00:00	-0005
+01/08/98	03:30:00	-0005
+01/08/98	05:00:00	-0005
+01/08/98	05:30:00	-0005
+01/08/98	06:00:00	-0005
+01/08/98	06:30:00	-0005
+01/08/98	07:00:00	-0005
+01/08/98	07:30:00	-0005
+01/08/98	08:00:00	-0005
+01/08/98	08:30:00	-0005
+01/08/98	09:00:00	-0005
+01/08/98	09:30:00	-0005
+01/08/98	10:00:00	-0005
+01/08/98	10:30:00	-0005
+01/08/98	11:00:00	-0005
+01/08/98	11:30:00	-0609
+01/08/98	12:00:00	-0604
+01/08/98	18:00:00	-0005
+01/08/98	18:30:00	-0005
+01/08/98	19:00:00	-0005
+01/08/98	19:30:00	-0005
+01/08/98	20:00:00	-0005
+01/08/98	20:30:00	-0005
+01/08/98	21:00:00	-0005
+01/08/98	21:30:00	-0005
+01/08/98	22:00:00	-0005
+01/08/98	22:30:00	-0005
+01/08/98	23:00:00	-0005
+01/08/98	23:30:00	-0005
+01/09/98	00:00:00	-0005
+01/09/98	00:30:00	-0005
+01/09/98	01:00:00	-0005
+01/09/98	01:30:00	-0171
+01/09/98	02:00:00	-0155
+01/09/98	02:30:00	-0175
+01/09/98	03:00:00	-0166
+01/09/98	03:30:00	-0148
+01/09/98	04:00:00	-0144
+01/09/98	04:30:00	-0153
+01/09/98	05:00:00	-0154
+01/09/98	05:30:00	-0005
+01/09/98	06:00:00	-0005
+01/09/98	06:30:00	-0005
+01/09/98	07:00:00	-0005
+01/09/98	07:30:00	-0005
+01/09/98	08:00:00	-0005
+01/09/98	08:30:00	-0005
+01/09/98	09:00:00	-0005
+01/09/98	09:30:00	-0005
+01/09/98	10:00:00	-0005
+01/09/98	10:30:00	-0005
+01/09/98	11:00:00	-0005
+01/09/98	11:30:00	-0005
+01/09/98	12:00:00	-0005
+01/09/98	12:30:00	-0005
+01/09/98	13:00:00	-0199
+01/09/98	13:30:00	-0222
+01/09/98	14:00:00	-0330
+01/09/98	14:30:00	-0345
+01/09/98	15:00:00	-0345
+01/09/98	15:30:00	-0373
+01/09/98	16:00:00	-0375
+01/09/98	16:30:00	-0138
+01/09/98	17:00:00	-0157
+01/09/98	17:30:00	-0125
+01/09/98	18:00:00	-0103
+01/09/98	18:30:00	-0184
+01/09/98	19:00:00	-0195
+01/09/98	19:30:00	-0245
+01/09/98	20:00:00	-0187
+01/09/98	20:30:00	-0152
+01/09/98	21:00:00	-0126
+01/09/98	21:30:00	-0005
+01/09/98	22:00:00	-0005
+01/09/98	22:30:00	-0005
+01/09/98	23:00:00	-0005
+01/09/98	23:30:00	-0005
+01/10/98	00:00:00	-0005
+01/10/98	00:30:00	-0005
+01/10/98	01:00:00	-0005
+01/10/98	01:30:00	-0005
+01/10/98	02:00:00	-0005
+01/10/98	02:30:00	-0005
+01/10/98	03:00:00	-0005
+01/10/98	03:30:00	-0005
+01/10/98	04:00:00	-0005
+01/10/98	04:30:00	-0005
+01/10/98	05:00:00	-0005
+01/10/98	05:30:00	-0005
+01/10/98	06:00:00	-0593
+01/10/98	06:30:00	-0005
+01/10/98	07:00:00	-0005
+01/10/98	07:30:00	-0005
+01/10/98	08:00:00	-0005
+01/10/98	08:30:00	-0267
+01/10/98	09:00:00	-0192
+01/10/98	09:30:00	-0188
+01/10/98	10:00:00	-0149
+01/10/98	10:30:00	-0258
+01/10/98	11:00:00	-0125
+01/10/98	11:30:00	-0101
+01/10/98	12:00:00	-0102
+01/10/98	12:30:00	-0162
+01/10/98	13:00:00	-0073
+01/10/98	13:30:00	-0115
+01/10/98	14:00:00	-0068
+01/10/98	14:30:00	-0061
+01/10/98	15:00:00	-0052
+01/10/98	15:30:00	-0034
+01/10/98	16:00:00	-0011
+01/10/98	16:30:00	-0021
+01/10/98	17:00:00	-0031
+01/10/98	17:30:00	-0034
+01/10/98	18:00:00	-0039
+01/10/98	18:30:00	-0032
+01/10/98	19:00:00	-0185
+01/10/98	19:30:00	-0079
+01/10/98	20:00:00	-0045
+01/10/98	20:30:00	-0036
+01/10/98	21:00:00	-0044
+01/10/98	21:30:00	-0040
+01/10/98	22:00:00	-0057
+01/10/98	22:30:00	-0041
+01/10/98	23:00:00	-0057
+01/10/98	23:30:00	-0080
+01/11/98	00:00:00	-0020
+01/11/98	00:30:00	-0047
+01/11/98	01:00:00	-0061
+01/11/98	01:30:00	-0085
+01/11/98	02:00:00	-0003
+01/11/98	04:00:00	-0003
+01/11/98	04:30:00	-0019
+01/11/98	05:00:00	-0026
+01/11/98	06:00:00	-0003
+01/11/98	06:30:00	-0238
+01/11/98	07:00:00	-0148
+01/11/98	07:30:00	-0144
+01/11/98	08:00:00	-0074
+01/11/98	08:30:00	-0041
+01/11/98	09:00:00	-0062
+01/11/98	09:30:00	-0040
+01/11/98	10:00:00	-0011
+01/11/98	10:30:00	-0014
+01/11/98	12:00:00	-0021
+01/11/98	12:30:00	-0011
+01/11/98	13:00:00	-0105
+01/11/98	13:30:00	-0115
+01/11/98	14:00:00	-0120
+01/11/98	14:30:00	-0132
+01/11/98	15:00:00	-0098
+01/11/98	15:30:00	-0189
+01/11/98	16:00:00	-0219
+01/11/98	16:30:00	-0005
+01/11/98	17:00:00	-0005
+01/11/98	17:30:00	-0005
+01/11/98	18:00:00	-0005
+01/11/98	18:30:00	-0005
+01/11/98	19:00:00	-0005
+01/11/98	19:30:00	-0005
+01/11/98	20:00:00	-0005
+01/11/98	20:30:00	-0495
+01/11/98	21:00:00	-0496
+01/11/98	21:30:00	-0493
+01/11/98	22:00:00	-0457
+01/11/98	22:30:00	-0434
+01/11/98	23:00:00	-0425
+01/11/98	23:30:00	-0427
+01/12/98	00:00:00	-0429
+01/12/98	00:30:00	-0428
+01/12/98	01:00:00	-0425
+01/12/98	01:30:00	-0429
+01/12/98	02:00:00	-0400
+01/12/98	02:30:00	-0397
+01/12/98	03:00:00	-0395
+01/12/98	03:30:00	-0379
+01/12/98	04:00:00	-0389
+01/12/98	04:30:00	-0386
+01/12/98	05:00:00	-0354
+01/12/98	05:30:00	-0327
+01/12/98	06:00:00	-0299
+01/12/98	06:30:00	-0258
+01/12/98	07:00:00	-0245
+01/12/98	07:30:00	-0235
+01/12/98	08:00:00	-0252
+01/12/98	08:30:00	-0222
+01/12/98	09:00:00	-0193
+01/12/98	09:30:00	-0183
+01/12/98	10:00:00	-0167
+01/12/98	10:30:00	-0177
+01/12/98	12:30:00	-0017
+01/12/98	13:00:00	-0007
+01/12/98	13:30:00	-0019
+01/12/98	14:00:00	-0021
+01/12/98	14:30:00	-0019
+
+February 1998
+Oneonta Slough
+a) 02/01(00:00)-02/11(15:00), Sp cond. and salinity maximum values unusually 
+high. No reason found, post calibration ok.  Data 
+were not removed
+b) The following negative turbidity values were recorded: 
+Date		Time		Turb
+02/14/98	15:30:00	-0001
+02/14/98	19:30:00	-0001
+02/14/98	20:00:00	-0001
+02/14/98	21:30:00	-0001
+02/14/98	22:00:00	-0001
+02/14/98	22:30:00	-0001
+02/14/98	23:00:00	-0001
+02/14/98	23:30:00	-0001
+02/15/98	00:00:00	-0001
+02/15/98	00:30:00	-0001
+02/15/98	01:00:00	-0001
+02/15/98	01:30:00	-0001
+02/15/98	02:00:00	-0001
+02/15/98	02:30:00	-0001
+02/15/98	03:00:00	-0001
+02/15/98	09:30:00	-0001
+02/15/98	10:00:00	-0001
+02/15/98	10:30:00	-0001
+02/15/98	11:00:00	-0001
+02/15/98	11:30:00	-0001
+02/15/98	12:00:00	-0001
+02/15/98	12:30:00	-0001
+02/15/98	22:30:00	-0001
+02/15/98	23:00:00	-0001
+02/15/98	23:30:00	-0001
+02/16/98	00:00:00	-0001
+02/16/98	00:30:00	-0001
+02/16/98	01:00:00	-0001
+02/16/98	01:30:00	-0001
+02/17/98	07:00:00	-0001
+02/17/98	07:30:00	-0001
+02/17/98	08:00:00	-0001
+02/17/98	10:30:00	-0001
+02/17/98	23:30:00	-0001
+02/18/98	00:00:00	-0001
+02/18/98	00:30:00	-0001
+02/18/98	01:00:00	-0001
+02/18/98	02:00:00	-0001
+02/24/98	03:30:00	-0001
+02/24/98	04:00:00	-0001
+02/24/98	04:30:00	-0001
+02/24/98	05:00:00	-0001
+02/24/98	05:30:00	-0001
+02/24/98	06:00:00	-0001
+02/24/98	06:30:00	-0001
+02/24/98	07:00:00	-0001
+02/24/98	07:30:00	-0001
+02/24/98	08:00:00	-0001
+02/24/98	08:30:00	-0001
+02/24/98	09:00:00	-0001
+02/24/98	09:30:00	-0001
+02/24/98	10:00:00	-0001
+02/24/98	10:30:00	-0001
+02/24/98	11:00:00	-0001
+02/24/98	11:30:00	-0001
+02/24/98	12:00:00	-0001
+02/24/98	12:30:00	-0001
+02/24/98	13:00:00	-0001
+02/24/98	13:30:00	-0001
+02/24/98	14:00:00	-0001
+02/24/98	14:30:00	-0001
+02/24/98	15:00:00	-0001
+Tidal Linkage
+
+March 1998
+Oneonta Slough
+a) The following unexplained, large turbidity values were recorded:
+Date		Time		Turb
+03/12/98	17:00:00	0517
+03/12/98	17:30:00	0854
+03/13/98	16:00:00	0383
+03/16/98	16:00:00	0615
+03/19/98	13:30:00	0533
+03/23/98	15:00:00	0316
+03/24/98	14:30:00	0267
+03/25/98	16:00:00	0299
+03/25/98	17:00:00	0225
+03/25/98	17:30:00	0207
+03/25/98	18:00:00	0558
+03/26/98	06:00:00	0213
+03/30/98	20:00:00	0280
+03/30/98	20:30:00	0855
+03/30/98	21:00:00	0291
+03/31/98	15:30:00	0384
+03/31/98	21:00:00	0247
+Tidal Linkage
+a) 03/31(09:30)-03/31(23:30), pH missing - probe failure during deployment. Data 
+were removed
+
+April 1998
+Oneonta Slough
+a) 04/10(22:00)-04/14(10:00), pH missing - probe failure suspected. Data were 
+removed	
+b) The following abnormally high turbidity values were recorded.  May be 
+consistent with storm events.
+Date		Time		Turb		
+04/01/98	23:00:00	0569
+04/02/98	03:00:00	0533
+04/05/98	12:30:00	0833
+04/07/98	17:30:00	0441
+04/12/98	20:30:00	0637
+04/18/98	11:30:00	0635
+04/20/98	13:00:00	0323
+04/23/98	15:00:00	0737
+04/24/98	05:30:00	0387
+04/24/98	17:00:00	0353
+Tidal Linkage
+a) 04/01(00:00)-04/14(09:30), pH  missing - probe failure during deployment. 
+Data were removed
+b) 04/13(01:30)-04/14(09:30), DO% and DOmg missing - readings below range of 
+sensor (<0). Data were removed
+
+May 1998
+Oneonta Slough
+Tidal Linkage
+05/20(12:00)-05/31(23:30), turbidity missing - calibration error - most readings 
+below zero. Data were removed
+05/24 (22:00) –05/25 (01:00), negative DO values were removed from data file
+
+
+June 1998
+Oneonta Slough
+a) 06/02(13:00), DO% and DOmg - reading was above 500% saturation. Reason 
+unknown.  Data were removed		
+b) 06/11(21:30)-06/16(11:30), DO % & DOmg - readings below 0. Data were removed
+	
+c) The following abnormally high turbidity value was recorded:
+Date		Time		Turb
+06/20/98	18:00:00	0658
+Tidal Linkage
+a) 06/03(14:25)-06/16(11:25), time offset by -4min 35sec. times were adjusted to 
+nearest :00 or :30 minute interval.
+b) 06/18(09:30)-06/30(23:30), Average depth values abnormally low.
+c) Negative depth values were recorded as follows:
+Date		Time		Depth
+06/19/98	14:00:00	-0.01
+06/20/98	03:00:00	-0.01
+06/20/98	03:30:00	-0.01
+06/20/98	04:00:00	-0.01
+06/20/98	04:30:00	-0.01
+d) Negative turbidity values were recorded as follows:
+06/01/98	00:00:00	-0002
+06/01/98	00:30:00	-0003
+06/01/98	01:00:00	-0004
+06/01/98	01:30:00	-0006
+06/01/98	02:00:00	-0005
+06/01/98	02:30:00	-0005
+06/01/98	03:00:00	-0006
+06/01/98	03:30:00	-0009
+06/01/98	04:00:00	-0008
+06/01/98	04:30:00	-0004
+06/01/98	17:00:00	-0006
+06/01/98	17:30:00	-0006
+06/01/98	18:00:00	-0006
+06/01/98	18:30:00	-0007
+06/01/98	19:00:00	-0005
+06/01/98	19:30:00	-0006
+06/01/98	20:00:00	-0007
+06/01/98	20:30:00	-0007
+06/01/98	21:00:00	-0002
+06/01/98	21:30:00	-0005
+06/01/98	22:00:00	-0004
+06/01/98	22:30:00	-0007
+06/01/98	23:00:00	-0006
+06/01/98	23:30:00	-0005
+06/02/98	00:00:00	-0006
+06/02/98	00:30:00	-0007
+06/02/98	01:30:00	-0001
+06/02/98	02:00:00	-0005
+06/02/98	02:30:00	-0008
+06/02/98	03:00:00	-0008
+06/02/98	03:30:00	-0006
+
+
+July 1998
+Oneonta Slough
+a) 07/26(21:30)-07/28(10:00), DO% & DOmg - readings fell below 0.  Data were 
+removed.		
+b) 07/09(22:30)-07/15(12:30), Turbidity values showed abnormally large drift - 
+wiper problem suspected.  Data were removed.
+c) The following negative turbidity values were recorded:		
+Date		Time		Turb
+07/02/98	17:30:00	-0004
+07/03/98	18:00:00	-0001
+07/03/98	18:30:00	-0002
+07/04/98	18:30:00	-0001
+07/04/98	19:00:00	-0001
+07/05/98	19:30:00	-0002
+07/07/98	21:00:00	-0001
+07/08/98	21:30:00	-0001
+07/18/98	18:30:00	-0001
+
+Tidal Linkage
+a) 07/02(19:00), DO% and DOmg/l values were below range of sensor. Data was 
+removed	.	
+b) 07/16(11:30)-07/28(10:30), pH missing - readings showed anomalous drift and 
+low variability caused by suspected probe 
+failure. Data were removed
+c) 07/22(22:30)-07/28(10:30), DO% and DOmg anomalous.  Readings showed below 
+normal variation. Reason unknown. Data 
+were not removed.		
+d) 07/25(08:30)-07/28(10:30), turbidity values anomalously high and noisy.  No 
+probe or wiper malfunction apparent.  Data were 
+not removed.
+e) The following slightly negative turbidity values were recorded:
+Date	Time	Turb
+07/16/98	18:00:00	-0002
+07/16/98	18:30:00	-0003
+07/16/98	19:00:00	-0001
+07/16/98	19:30:00	-0001
+07/16/98	20:00:00	-0003
+07/16/98	22:00:00	-0001
+07/16/98	23:30:00	-0002
+07/17/98	01:00:00	-0002
+07/17/98	18:30:00	-0001
+07/17/98	19:00:00	-0003
+07/17/98	19:30:00	-0002
+07/17/98	20:00:00	-0002
+07/17/98	20:30:00	-0003
+07/17/98	21:30:00	-0001
+07/17/98	22:00:00	-0001
+07/18/98	02:00:00	-0001
+07/18/98	02:30:00	-0002
+07/18/98	03:30:00	-0001
+07/18/98	18:30:00	-0003
+07/18/98	19:00:00	-0003
+07/18/98	19:30:00	-0004
+07/18/98	20:00:00	-0004
+07/18/98	20:30:00	-0001
+07/18/98	22:30:00	-0004
+07/19/98	19:30:00	-0002
+07/19/98	20:30:00	-0001
+07/19/98	21:00:00	-0002
+07/20/98	21:00:00	-0001
+
+
+August 1998
+Oneonta Slough
+a) 08/01(00:00)-08/17(10:30), Salinity and Sp. Cond. readings appear to have 
+higher than average drift through course of 
+deployment. Post calibration ok. Data were not removed
+b) 08/01(00:00)-08/17(10:30), DOmg & DO% missing - readings fell below sensor 
+range (< 0).  Data were removed.
+c) 08/01(00:00)-08/17(10:30), pH values show abnormally low variability.  No 
+reason found. Post calibration and check normal. 
+Data were not removed
+
+Tidal Linkage
+a) 08/17(04:30)-08/17(11:00), DO% and DOmg missing - readings fell below range 
+of sensor (0). Data were removed	
+	
+b) 08/26(23:30)-08/31(23:30), DO% and DOmg missing - readings fell below range 
+of sensor (0). Data were removed	
+c) The following negative depth values were recorded:		
+Date		Time		Depth
+08/22/98	17:30:00	-0.01
+08/22/98	18:00:00	-0.01
+08/23/98	05:30:00	-0.01
+08/23/98	06:00:00	-0.02
+08/23/98	06:30:00	-0.02
+08/23/98	07:00:00	-0.02
+08/23/98	07:30:00	-0.02
+08/23/98	17:30:00	-0.01
+08/23/98	18:00:00	-0.02
+08/24/98	06:30:00	-0.01
+08/24/98	07:00:00	-0.01
+08/24/98	07:30:00	-0.01
+08/28/98	23:30:00	-0.01
+08/30/98	00:30:00	-0.01
+08/30/98	01:00:00	-0.01
+08/30/98	01:30:00	-0.01
+08/30/98	02:00:00	-0.01
+08/31/98	00:00:00	-0.01
+08/31/98	00:30:00	-0.01
+08/31/98	01:00:00	-0.02
+08/31/98	01:30:00	-0.03
+08/31/98	02:00:00	-0.03
+08/31/98	02:30:00	-0.03
+08/31/98	03:00:00	-0.03
+08/31/98	03:30:00	-0.01
+
+September 1998
+Oneonta Slough
+a) 09/10(21:30)-09/15(11:30), pH - variability abnormally low.  may be caused by 
+decreased tidal exchange -post calibration ok
+
+Tidal Linkage
+a) 09/01(00:00)-09/02(13:30), DO% and DOmg missing - Reading fell below range of 
+probe (<0). Data were removed
+b) 09/03(13:30)-09/15(11:00), average low depth values abnormally high - 
+calibration error suspected.
+c) The following negative depth values were recorded:
+Date		Time		Depth
+09/01/98	00:30:00	-0.01
+09/01/98	01:00:00	-0.02
+09/01/98	01:30:00	-0.03
+09/01/98	02:00:00	-0.03
+09/01/98	02:30:00	-0.04
+09/01/98	03:00:00	-0.05
+09/01/98	03:30:00	-0.05
+09/01/98	04:00:00	-0.04
+09/02/98	02:00:00	-0.01
+09/02/98	02:30:00	-0.03
+09/02/98	03:00:00	-0.04
+09/02/98	03:30:00	-0.04
+09/02/98	04:00:00	-0.05
+09/02/98	04:30:00	-0.05
+09/02/98	05:00:00	-0.02
+
+October 1998
+Oneonta Slough 
+Tidal Linkage
+a) 10/05(14:00)-10/15(13:00), DO% and DOmg missing - many values below range of 
+sensor.  Data were removed
+b) 10/02 (1430) to 10/15 (1230), DO% and DOmg/L deleted due to values averaging
+130 to 150% possibly due to calibration problem
+
+November 1998
+Oneonta Slough
+a) 11/13(15:31)-12/01(13:31), time values offset by +1.00 min. Time values were 
+adjusted to nearest :30 or :00 interval.
+b) The following anomalously high turbidity value was recorded.
+Date		Time		Turb
+11/02/98	04:00:00	0359
+Tidal Linkage
+a) 11/14(15:00)-11/30(23:30), time values offset by -11min 13sec. Time values 
+were adjusted to nearest :30 or :00 interval.
+b) The following negative depth values were recorded:
+Date		Time		Depth
+11/17/98	03:00:00	-0.01
+11/17/98	03:30:00	-0.01
+11/17/98	04:00:00	-0.01
+
+December 1998
+Oneonta Slough
+Tidal Linkage
+a) 12/01(00:00)-12/01(14:00), time values offset by -11min 13sec. Time values 
+were adjusted to nearest :30 or :00 interval.
+b) 12/27(23:30)-12/31(23:30), all parameters missing - sediment covered sensors. 
+Data were removed
+Date		Time		Depth
+12/08/98	23:30:00	-0.01
+12/09/98	00:00:00	-0.01
+12/09/98	00:30:00	-0.01
+12/13/98	00:00:00	-0.01
+12/13/98	00:30:00	-0.02
+12/13/98	01:00:00	-0.03
+12/13/98	01:30:00	-0.03
+12/13/98	02:00:00	-0.02
+12/13/98	02:30:00	-0.03
+12/13/98	03:00:00	-0.02
+12/13/98	16:00:00	-0.01
+12/13/98	16:30:00	-0.02
+12/13/98	17:00:00	-0.01
+12/14/98	00:00:00	-0.01
+12/14/98	00:30:00	-0.01
+12/14/98	01:00:00	-0.02
+12/14/98	01:30:00	-0.02
+12/14/98	02:00:00	-0.02
+12/14/98	02:30:00	-0.02
+12/14/98	03:00:00	-0.02
+12/14/98	13:00:00	-0.01
+12/14/98	13:30:00	-0.01
+12/14/98	14:00:00	-0.02
+12/14/98	14:30:00	-0.02
+12/14/98	15:00:00	-0.02
+12/14/98	15:30:00	-0.02
+12/14/98	16:00:00	-0.02
+12/14/98	16:30:00	-0.02
+12/14/98	17:00:00	-0.02
+12/15/98	00:30:00	-0.01
+12/15/98	01:00:00	-0.02
+12/15/98	01:30:00	-0.03
+12/15/98	02:00:00	-0.04
+12/15/98	02:30:00	-0.04
+12/15/98	03:00:00	-0.01
+12/15/98	14:00:00	-0.02
+12/15/98	14:30:00	-0.02
+12/15/98	15:00:00	-0.03
+12/15/98	15:30:00	-0.03
+12/15/98	16:00:00	-0.04
+12/15/98	16:30:00	-0.04
+12/15/98	17:00:00	-0.05
+12/15/98	17:30:00	-0.06
+12/15/98	18:00:00	-0.05
+12/16/98	01:00:00	-0.02
+12/16/98	01:30:00	-0.03
+12/16/98	02:00:00	-0.03
+12/16/98	02:30:00	-0.04
+12/16/98	03:00:00	-0.04
+12/16/98	03:30:00	-0.03
+12/16/98	15:00:00	-0.01
+12/16/98	15:30:00	-0.01
+12/16/98	16:00:00	-0.01
+12/16/98	16:30:00	-0.01
+12/16/98	17:00:00	-0.02
+12/16/98	17:30:00	-0.02
+12/16/98	18:00:00	-0.02
+12/16/98	18:30:00	-0.02
+12/17/98	01:30:00	-0.01
+12/17/98	02:00:00	-0.02
+12/17/98	02:30:00	-0.03
+12/17/98	03:00:00	-0.03
+12/17/98	03:30:00	-0.03
+12/17/98	14:30:00	-0.01
+12/17/98	15:00:00	-0.03
+12/17/98	15:30:00	-0.04
+12/17/98	16:00:00	-0.05
+12/17/98	16:30:00	-0.05
+12/17/98	17:00:00	-0.05
+12/17/98	17:30:00	-0.06
+12/17/98	18:00:00	-0.06
+12/17/98	18:30:00	-0.06
+12/17/98	19:00:00	-0.07
+12/18/98	16:00:00	-0.01
+12/18/98	16:30:00	-0.02
+12/18/98	17:00:00	-0.03
+12/18/98	17:30:00	-0.04
+12/18/98	18:00:00	-0.04
+12/18/98	18:30:00	-0.04
+12/18/98	19:00:00	-0.03
+12/18/98	19:30:00	-0.03
+12/19/98	02:30:00	-0.02
+12/19/98	03:00:00	-0.04
+12/19/98	03:30:00	-0.05
+12/19/98	04:00:00	-0.04
+12/19/98	16:30:00	-0.02
+12/19/98	17:00:00	-0.03
+12/19/98	17:30:00	-0.03
+12/19/98	18:00:00	-0.03
+12/19/98	18:30:00	-0.04
+12/19/98	19:00:00	-0.04
+12/19/98	19:30:00	-0.04
+12/19/98	20:00:00	-0.04
+12/19/98	20:30:00	-0.02
+12/20/98	03:00:00	-0.01
+12/20/98	03:30:00	-0.02
+12/20/98	04:00:00	-0.02
+12/20/98	04:30:00	-0.01
+12/22/98	17:30:00	-0.01
+
+11.  Missing Data:
+
+January 1998
+Oneonta Slough
+01/01(00:00)-01/12(15:00), pH and turbidity missing - no probes installed
+01/12(15:30)-01/14(15:30), all parameters missing- maintenance and calibration
+01/14(16:00)-01/27(14:30), pH and Turbidity missing- no probes installed
+01/27(15:00)-01/28(16:00), all parameters missing- maintenance and calibration
+01/28(16:30)-01/31(23:30), turbidity missing - no probe installed
+
+Tidal Linkage
+01/12(15:00)-01/14(16:00), all parameters missing - maintenance and calibration
+01/14(16:30)-01/27(14:00), turbidity missing - sensor not installed
+01/27(14:30)-01/28(16:00), all parameters missing - maintenance and calibration
+
+February 1998
+Oneonta Slough
+02/01(00:00)-02/11(15:00),turbidity - no probe installed
+02/11(15:30)-02/13(14:30),all - maintenance and calibration
+02/24(15:30)-02/26(16:30),all - maintenance and calibration
+
+Tidal Linkage
+02/11(15:30)-02/12(15:30), all parameters missing - maintenance and calibration
+02/12(16:00)-02/24(14:30), turbidity missing - no sensor installed.
+02/24(15:00)-02/26(15:30), all parameters missing - maintenance and calibration
+02/26(16:00)-02/28(23:30), turbidity - no sensor installed.
+
+March 1998
+Oneonta Slough
+03/11(14:30)-03/12(15:00),all - maintenance and calibration
+03/26(16:00)-03/30(15:30),all - maintenance and calibration
+
+Tidal Linkage
+03/01(00:00)-03/11(13:30), turbidity missing - no sensor installed
+03/11(14:00)-03/12(15:00), all parameters missing - maintenance and calibration
+03/12(15:30)-03/26(15:00), turbidity missing - no sensor installed
+03/26(15:30)-03/30(15:00), all parameters missing - maintenance and calibration
+03/30(15:30)-03/31(23:30), turbidity missing - no sensor installed
+03/31(09:30)-03/31(23:30), pH missing - probe failure during deployment. Data 
+were removed
+
+April 1998
+Oneonta Slough
+04/10(22:00)-04/14(10:00),pH - probe failure suspected, data were removed
+04/14(10:30)-04/16(15:00),all - maintenance and calibration
+04/16(15:30)-04/28(14:00),pH - no probe installed
+04/28(14:30)-04/30(15:00),all - maintenance and calibration
+04/30(15:30)-04/30(23:30),Turbidity - no probe installed
+
+Tidal Linkage
+04/01(00:00)-04/14(09:30), pH  missing - probe failure during deployment. Data 
+were removed
+04/01(00:00)-04/14(09:30), turbidity missing - no probes installed
+04/13(01:30)-04/14(09:30), DO% and DOmg missing - readings below range of sensor 
+(<0). Data were removed
+04/14(10:00)-04/16(15:30), all parameters missing - maintenance and calibration
+04/16(16:00)-04/24(13:00), pH and Turbidity missing - no probes installed
+04/24(13:30)-04/30(14:30), all parameters missing - maintenance and calibration 
+(tidal cycle prevented redeployment in a timely 
+fashion)
+04/30 (15:00-23:30), no pH - 
+
+May 1998
+Oneonta Slough
+05/01(00:00)-05/18(22:00), Turbidity missing
+05/18(22:30)-05/19(10:00), all parameters missing - battery voltage drop caused 
+logging to end before end of deployment
+05/19(10:30)-05/20(12:00), all parameters missing - maintenance and calibration
+05/20(12:30)-05/31(23:30), Turbidity missing
+
+Tidal Linkage
+05/01(00:00)-05/19(10:00), pH missing - no probe installed
+05/15(02:30)-05/19(10:00), Turbidity missing - wiper stopped rotating
+05/19(10:30)-05/20(11:30), all parameters missing - maintenance and calibration
+05/20(12:00)-05/31(23:30), pH missing - no probe installed
+05/20(12:00)-05/31(23:30), turbidity missing - calibration error - most readings 
+below zero. Data were removed
+05/24 (22:00) –05/25 (01:00), negative DO values were removed from data file
+
+June 1998
+Oneonta Slough
+06/01(00:00)-06/02(13:00), Turbidity missing - no probe installed
+06/02(13:30)-06/03(15:00), all parameters missing - maintenance and calibration
+06/02(13:00), DO% and DOmg missing - reading was above 500% saturation.  Data 
+were removed
+06/11(21:30)-06/16(11:30), DO % & DOmg missing - readings below 0. Data were 
+removed
+06/16(12:00)-06/18(09:30), All parameters missing - maintenance and calibration
+
+Tidal Linkage
+06/01(00:00)-06/02(12:30), pH missing - no probe
+06/02(13:00)-06/03(14:00), all parameters missing - maintenance and calibration
+06/03(14:30)-06/16(11:30), turbidity missing - no sensor
+06/16(12:00)-06/18(09:00), all parameters missing - maintenance and calibration
+06/18(09:30)-06/30(23:30), turbidity missing - no sensor
+
+July 1998
+Oneonta Slough
+07/01(10:30)-07/02(12:00), all parameters missing - maintenance and calibration
+07/09(22:30)-07/15(12:30), Turbidity values showed abnormally large drift - 
+wiper problem suspected.  Data were removed.
+07/15(13:00)-07/16(11:00), all parameters missing - maintenance and calibration
+07/26(21:30)-07/28(10:00), DO% & DOmg missing - readings fell below 0 , all DO 
+data removed after 
+07/28(10:30)-07/31(12:30), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+07/01(00:00)-07/01(10:00), turbidity missing - no probe installed
+07/01(10:30)-07/02(12:00), all parameters missing - maintenance and calibration
+07/02(19:00), DO% and DOmg/l values were below range of sensor. Data was removed
+07/02(12:30)-07/12(12:00), turbidity missing - no probe installed
+07/12(12:30)-07/16(11:00), all parameters missing - maintenance and calibration
+07/16(11:30)-07/28(10:30), pH missing - readings showed anomalous drift and low 
+variability caused by suspected probe 
+failure. Data were removed
+07/28(11:00)-07/31(23:30), all parameters missing - maintenance and calibration
+
+August 1998
+Oneonta Slough
+08/01(00:00)-08/17(10:30), DOmg & DO% missing - readings fell below sensor range 
+(< 0).  Data were removed.
+08/17(11:00)-08/18(13:00), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+08/01(00:00)-08/04(12:00), all parameters missing - maintenance and calibration
+08/04(12:30)-08/17(11:00), pH and turbidity missing - 
+08/17(04:30)-08/17(11:00), DO% and DOmg missing - readings fell below range of 
+sensor (<0). Data were removed
+08/17(11:30)-08/18(13:00), all parameters missing - maintenance and calibration
+08/18(13:30)-08/31(23:30), pH and turbidity missing - no probes installed
+08/26(23:30)-08/31(23:30), DO% and DOmg missing - readings fell below range of 
+sensor (<0). Data were removed
+
+September 1998
+Oneonta Slough
+09/02(12:00)-09/03(12:30), all parameters missing - maintenance and calibration
+09/15(12:00)-09/17(15:30), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+09/01(00:00)-09/02(13:30), DO% and DOmg missing - Reading fell below range of 
+probe (<0). Data were removed
+09/01(00:00)-09/02(13:30), pH and turbidity missing - no probes installed
+09/02(14:00)-09/03(13:00), all parameters missing - maintenance and calibration
+09/03(13:30)-09/15(11:00), pH and turbidity missing - no probes installed
+09/15(11:30)-09/17(15:00), all parameters missing - maintenance and calibration
+09/17(15:30)-09/30(23:30), pH and turbidity missing - 
+
+October 1998
+Oneonta Slough
+10/01(13:30)-10/02(14:00), all parameters missing - maintenance and calibration
+10/02 (1430) to 10/15 (1230), DO% and DOmg/L deleted due to values averaging
+130 to 150% possibly due to calibration problem
+10/15(13:00)-10/16(14:30), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+10/01(00:00)-10/01(13:30), pH and turbidity missing - no probes installed
+10/01(14:00)-10/05(13:30), all parameters missing - maintenance and calibration
+10/05(14:00)-10/15(13:00), DO% and DOmg missing - many values below range of 
+sensor. Reason unknown.  Data were 
+removed
+10/05(14:00)-10/15(13:00), pH and turbidity missing - no probes installed
+10/15(13:30)-10/16(14:30), all parameters missing - maintenance and calibration
+10/16(15:00)-10/31(23:30), salinity missing -  parameter not selected for report 
+output.  No .dat file to use for export.
+
+November 1998
+Oneonta Slough
+11/02(15:00)-11/03(15:30), all parameters missing - maintenance and calibration
+11/12(13:30)-11/13(04:00), all parameters missing -maintenance and calibration
+11/13(04:30)-11/30(23:30), pH - no probe installed
+
+Tidal Linkage
+11/01(00:00)-11/02(14:30), salinity missing - parameter not selected for report 
+output.  No .dat file to use for export.
+11/02(15:00)-11/03(14:30), all parameters missing - maintenance and calibration
+11/03(15:00)-11/12(13:00), Turbidity missing - no probe installed
+11/12(13:30)-11/13(14:30), all parameters missing - maintenance and calibration
+11/14(15:00)-11/30(23:30), turbidity missing - no probe installed
+
+December 1998
+Oneonta Slough
+12/01(00:00)-12/01(13:30), pH missing no probe installed
+12/01(14:00)-12/02(16:00), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+12/01(00:00)-12/01(14:00), turbidity missing - no probe installed
+12/01(14:30)-12/02(16:00), all parameters missing - maintenance and calibration
+12/02(16:30)-12/21(14:30), turbidity missing - no probe installed
+12/21(15:00)-12/22(15:00), all parameters missing - maintenance and calibration
+12/27(23:30)-12/31(23:30), all parameters missing - sediment covered sensors. 
+Data were removed
+
+12. Other Remarks
+The deep depth probe was installed on these dataloggers during all deployments.      

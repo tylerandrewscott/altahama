@@ -1,0 +1,993 @@
+Sapelo Island (SAP) NERR Water Quality Metadata 
+(January – December, 1997)
+Latest update: November 12, 2001
+
+I. Data set and Research Descriptors:
+
+1. Principal investigator & contact persons:
+
+Dorset Hurley, Research Coordinator		Georgia Department of Natural 
+Resources
+E-mail: dhurley@surf.nos.noaa.gov; (912) 485-2251		P.O. Box 15
+
+Jane Garbisch,  Reserve Technician				Sapelo Island, GA 31327
+(912) 485-2296
+
+Dr. James J. Alberts, Director				University of Georgia 
+E-mail: jalberts@ peachnet.campuscwix.net; (912) 485-2221	Marine Institute
+
+Georgianne Coker, Research Technician II			Sapelo Island, GA 31327
+E-mail: geocoker@peachnet.campuscwix.net; (912) 485-2115
+
+2. Entry Verification:
+
+	The data are downloaded to an IBM compatible computer from the Hydrolab 
+Datasonde I, Hydrolab Datasonde III, Hydrolab Recorder, or YSI 6000UPG as a raw 
+file.  The YSI 6000 data are reviewed using the YSI computer program PC6000 that 
+accompanies the YSI 6000 data logger.  After the file is uploaded from the 
+datatlogger, PC6000 is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std. dev.)  This information is printed out 
+and attached to the Field Log for the particular deployment.  The information 
+obtained from this printout is used during file review to detect any gross 
+outliers such as data taken when the datalogger was removed from the water or 
+those caused by instrument failure.  Georgianne Coker, Research Technician, was 
+responsible for the data collection, management, and monitoring of the three 
+sites.  The data are imported into a Microsoft Excel file that contains the 
+current month’s cumulative recordings.  When a complete month of data has been 
+recorded the file is ready for review.  The data review includes several steps.  
+The first step is to format the data so that the parameter columns are in the 
+correct order and the data has the correct number of decimal place holders by 
+using the Column Reformat CDMO Excel 5.0 Macro.   Secondly, the Date Hour Count 
+CDMO Excel 5.0 macro is used to determine if there are any dates and times that 
+data was not recorded due to maintenance, battery failure, or other causes.  
+Missing dates and times are inserted into the file and a period is inserted into 
+the cells where data would normally be.  The reason for the missing data is 
+recorded on the Water Quality Editing Log.  Next, the data are filtered using 
+the Find Variable Outlier CDMO Excel 5.0 macro to find readings outside the 
+instrument measurement range and the “normal” range for the site in question.  
+Data outside the instrument range is/are removed from the file and a period is 
+inserted to the cell(s).  An explanation for the missing dates and times are 
+recorded onto the Water Quality Editing Log.  Data that was outside the “normal” 
+range of water quality for a particular site is investigated for validity based 
+on weather data, field observations, QC checks, PC6000 printouts, and instrument 
+diagnostics.  If the data is/are rejected from the file a period is inserted to 
+the cell(s) and an explanation for the missing dates and times are recorded onto 
+the Water quality Editing Log.  The information recorded on the Water Quality 
+Editing Log is transferred to the Metadata form.  The Metadata form is the 
+submitted with the data file to the CDMO.  Stacey Webb, reserve fellow, was 
+responsible for the QA/QC of the database.   
+
+3. Research Objectives:
+
+	The purpose of research was only to perform long term water quality 
+monitoring and not a specific experiment.   Sapelo Island is only accessible by 
+passenger ferry.  Due to its isolation, the salt marsh and tidal waters of the 
+SINERR show little evidence of human impact.  The Marsh Landing site receives a 
+large amount of boat traffic, as it is the primary access point for the 
+approximately 200-300 residents, commuters and daily visitors plus barge off 
+loading.  The Barn Creek site receives moderate boat traffic, and is near a 
+mechanic shop on land and several residences.  The Flume Dock site is a 
+relatively isolated location compared to the other two sites.
+
+4.   Research Methods:
+
+	The monitoring program began in August of 1986 at the Flume Dock and Marsh 
+Landing sites.  The Barn Creek site was added in May 1995.  The units are hung 
+vertically from a float or floating dock so they hang two meters below the 
+surface.  Thus, depth was considered fixed and not measured.  Hydrolab units 
+were used exclusively until May 1995.  Beyond that point, YSI units were used as 
+well as the Hydrolabs.  The probes are cleaned three times weekly during the 
+warmer months.  No pre- or post-calibrations were performed.  The Dissolved 
+Oxygen probes are cleaned once weekly with a cotton swab soaked in methanol, 
+while the other probes are cleaned with cotton swabs or pipe cleaners and de-
+ionized water.  After two weeks the units are returned to the lab for 
+downloading, cleaning and recalibration, according to the manufacturers 
+manual.  Before each YSI PC6000 datalogger is deployed, calibration and 
+maintenance is performed following the manufacturer’s instructions.  Calibration 
+standards are only required for pH, conductivity, and turbidity, all other 
+parameters are done as described in the manual.  Buffer solutions for 2 point 
+calibration (pH 7 and 10) are purchased from a scientific supply house.  The 
+conductivity standard is made using a 0.2 M solution of KCl (24.82mS/cm=14.92 
+g/L).  The turbidity calibration uses distilled water made by the University of 
+Georgia-Athens Marine Institute.  The dissolved oxygen membranes are replaced 
+before deployment and are allowed to sit at least 24 hours prior to deployment. 
+	The datalogger is placed inside a length of PVC pipe attached to the dock.  
+Every 30 minutes during the sampling period measurements are taken for 
+temperature, specific conductance, salinity, pH, dissolved oxygen concentration, 
+depth and turbidity. 	During the stage of deployment the datalogger is checked 
+for fouling and cleaned.  This can be one to three times a week depending on the 
+time of year.  At the end of the sample period the datalogger is retrieved 
+and immediately replaced by another calibrated datalogger.  The datalogger is 
+then taken to the lab where the data is uploaded, and the probe is cleaned.
+
+5. Site Location and character:
+
+	The Sapelo Island Natinal Estuarine Research Reserve is located in a tidal 
+estuary on the western side of Sapelo Island on the coast of Georgia.  The 
+Duplin River, actually a tidal lagoon, that receives little fresh water and 
+opens into Doboy Sound, ca. 5 km inland from the Atlantic Ocean.  The marsh 
+is inundated twice daily by unequal tides with a mean range of 2.1m.  Salinity 
+ranges from 10 to 25 ppt.  The surrounding area vegetation is dominated by salt 
+marsh with Spartina alterniflora being the predominate flora.  There are three 
+monitoring stations located within the reserve.
+
+1) Marsh Landing: located on the lower Duplin River on Sapelo Island (Latitude: 
+31° 25’ 4”N, Longitude 81° 17’ 46”W). Water passing the Marsh landing site 
+during flood tide originates from the Doboy Sound.  The Doboy receives input 
+from the Atlantic Ocean, and the Altamaha River via the Intra-Coastal Waterway.  
+The water is pushed up the river or up smaller tidal creeks and some is pushed 
+onto the marsh surface by the flood tide and recedes into the main channel 
+during ebb tide.  The dock itself is used as the main dock to the island where 
+the ferry makes several daily runs.  There are also several small boats that are 
+docked there. 
+2) Barn Creek: located on a tributary of the Duplin river between the Marsh 
+Landing and Flume Dock sites (Lattitude: 31° 26’ 21N, Longitude 81° 16’ 43”W).  
+It is impacted by a small boat dock, a mechanic shop nearby on land, as well as 
+several houses near its marshes. 
+3) Flume Dock: located on the upper Duplin River on Sapelo Island (Lattitude: 
+31° 28’ 58N, Longitude 81° 17’ 3”W).  It is influenced by tidal currents which 
+flood the marsh on high tides and recede into the channel of the river and its 
+side creeks.  It receives far less boat traffic than the Marsh Landing site. 
+
+6. Data collection period: 
+
+	Although data has been collected at the Marsh Landing and Flume Dock sites 
+since 1986, an additional site, Barn Creek was added and all sites started May 
+1995 for the NERRS SWMP.  
+
+7.  Associated researchers and projects:
+
+	Sapelo Island has a long history of maintaining research.  In 1953, the 
+University of Georgia Marine Institute (UGAMI) was formed and the island became 
+a working laboratory for many.  Given UGAMI’s long history on Sapelo, a 
+bibliographic list of over 800 articles of current and previous research can be 
+found on the UGAMI website.  (http://www.uga.edu/UGAMI).  
+
+8. Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Hydrolab Datasonde I
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+Ph		2 to 14 (units)			0.01 unit		+/-0.2 units
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/-of range 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+
+Hydrolab Datasonde III
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/-of range 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+DO		0-200 (%air Saturation)		0.1% @air sat	+/-2% @ air sat.
+DO		0-20 (mg/L)				0.01 mg/L		+/-0.2 mg/L
+Ph		2 to 14 (units)			0.01 unit		+/-0.2 units
+
+Hydrolab Recorder
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+Ph		2 to 14 (units)			0.01 unit		+/-0.2 units
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/-of range 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt		+/-0.2 ppt
+DO		0 to 20 (mg/L)			0.01 mg/L		+/-0.2 mg/L
+
+YSI 6000 datalogger
+
+Variable Name	Range of measurement (units)	Resolution		Accuracy
+Date 		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 mo. 1 day 1 yr		NA
+Time		0-24,	0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min., 1 s		NA	
+Temp		-5 to 45 (C)			0.01 c			+/-0.15C
+SpCond		0-100 (mS/cm)		0.01 mS/cm		+/-0.5% of reading + 
+0.001 mS/cm
+Salinity		0-70 (ppt)			0.01 ppt		+/- 1.0% of reading 
+or 0.1ppt (which ever is greater)
+DO		0-200 (% air saturation)	0.1% @ air sat.		+/-2% @air sat
+DO		200-500 (% air sat.)		0.1% @ air sat.		+/-6% @ air 
+sat.
+DO		0-20 (mg/L)				0.01 mg/L		+/-0. 2mg/L
+DO		20-50 (mg/L)			0.01 mg/L		+/-0.6 mg/L
+pH		2-14 units				0.01 units		+/-0.2 units
+Turb		0-1000 (NTU)			0.1 NTU		+/-5% of reading 
+or 2 NTU (which ever is greater)
+
+
+9.  Coded variable indicator and variable code definitions:
+	ML= Marsh Landing, FD = Flume Dock, BC = Barn Creek 
+	File definitions: Deployment site/month/year (ex: ML0197 from January 
+1997). 
+
+10. Data anomalies:
+
+January 1997:
+FD: 1/1 00:00 – 1/3 13:00	DO, DO%		possible DO membrane fouling 
+FD: 1/3 13:30, 1/27 14:30	all		Out of water
+BC: 1/1 00:00 – 1/2 14:30	DO, DO%		deployment out of calibration
+
+February 1997: 
+FD: 2/26 13:30 – 14:00		all		out of water
+BC: 2/27 14:00			all		out of water
+
+March 1997:
+ML: 3/4/97 11:00		all		out of water
+ML: 3/7 09:00			turbidity	single negative number
+ML: 3/7 10:00			turbidity	single negative number
+ML: 3/10 20:00			turbidity	single negative number 
+BC: 3/25 03:00 – 3/25 03:30	DO, DO%		possible DO membrane fouling
+FD: 3/25 15:00			all		out of water
+
+April 1997:
+FD: 4/1 14:00  -- 4/8 12:30	DO, DO%		out of calibration after maintenance
+
+May 1997:
+FD: 5/6 00:30 – 12:30		turbidity	erratic numbers removed
+FD: 5/8 21:00 			DO, DO%		high spike in data removed
+BC: 5/11 05:30 – 5/20 13:30	turbidity	erratic negative numbers removed
+BC: 5/16 14:30 – 5/23 09:30	DO, DO%		suspect data after maintenance removed
+BC: 5/23 10:00 – 5/31 23:30	DO, DO%		data suspect: deployment > 100% saturation
+
+June 1997:
+FD: 6/27 14:00 – 6/30 23:30	DO, DO% 	suspect data after maintenance removed
+BC: 6/1 00:00 – 6/6 13:30	DO, DO%		DO data suspect: deployment > 100%
+BC: 6/4 12:00 – 6/6 13:00	turbidity	erratic numbers removed
+BC: 6/6 13:30 – 6/20 13:00	turbidity	erratic number removed
+BC: 6/14 00:00 – 6/20 13:00	DO, DO%		heavy fouling
+
+July 1997
+ML: 7/9 13:30 			all 		out of water
+FD: 7/3 00:00  -- 7/15 21:30	turbidity	erratic negative numbers removed
+FD: 7/3 12:30 – 7/15 12:30	DO, DO%		deployment out of calibration
+FD: 7/15 22:00 – 7/29 01:30	turbidity	erratic numbers removed
+FD: 7/29 02:00 – 7/30 13:00	turbidity	erratic numbers removed, possible fouling
+FD: 7/30 13:30 – 8/13 08:30	turbidity	erratic negative numbers removed 
+
+August 1997:
+ML: 8/2 00:00 – 8/4 14:30	DO, DO%		DO membrane fouling
+ML: 8/6 13:30			all		out of water
+ML: 8/16 00:00 – 8/18 15:00	DO, DO%		DO membrane fouling
+ML: 8/18 16:00-8/20 14:00	pH		pH probe broken
+ML: 8/28 00:00 – 8/31 23:30	DO, DO%		DO membrane fouling
+FD: 8/13 09:00  - 8/25 08:00	turbidity	data suspect, sonde needed new wiper 
+FD: 8/23 00:00  - 8/25 08:00	DO, DO%		DO membrane fouling
+FD: 8/25 08:30 – 8/31 23:30	turbidity	erratic numbers removed
+FD: 8/31 00:00 – 8/31 23:30	all but temp 	heavy fouling
+BC: 8/18 15:30			DO, DO%		out of calibration after maintenance
+BC: 8/23 04:00 – 8/25 07:30	DO, DO%		DO membrane fouling
+BC: 8/25 08:00 – 8/31 23:30	turbidity	erratic + and – numbers removed
+
+September 1997:
+ML: 9/1 00:00 – 9/4 12:30	DO, DO%		DO membrane fouling
+FD: 9/1 00:00 – 9/3 13:00	all but temp	heavy fouling
+FD: 9/8 13:30			all		out of water
+FD: 9/23 13:00 – 9/30 23:30	DO, DO%		data suspect: deployment > 400% saturation
+BC: 9/1 00:00 – 9/3 13:30	DO, DO%		DO membrane fouling
+
+October 1997:
+ML: 10/1 10:00, 10/29 15:00	all		out of water
+FD: 10/1 00:00 – 10/23 10:00	DO, DO%		data suspect: deployment > 300% saturation 
+FD: 10/7 22:30 – 10/8 17:30	turbidity	data suspect: high + and – numbers 
+BC: 10/9 03:00 – 10/13 12:00	DO, DO% 	DO membrane fouling
+
+December 1997:
+BC: 12/17 11:00 – 12/23 21:00	DO, DO%		calibration error, sensor failure	
+FD: 12/16 14:00 - 16:00		DO, DO%		first 5 records are high; membrane not settled
+
+
+11. Missing Data:
+
+January 1997:
+ML: 1/1 00:00 – 1/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 1/1 00:00 – 1/3 13:00	DO, DO%		possible DO membrane fouling 
+FD: 1/1 00:00 – 1/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 1/3 13:30			all variables	out of water between deployments
+FD: 1/27 14:30			all variables	out of water between deployments
+BC: 1/1 00:00 – 1/2 14:30	DO, DO%		deployment out of calibration
+BC: 1/1 00:00 – 1/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+
+February 1997:
+ML: 2/1 00:00 - 2/3 13:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 2/19 10:30 – 2/28 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 2/1 00:00 – 2/28 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 2/26 13:30 –14:00		all variables	out of water between deployments
+BC: 2/1 00:00 – 2/28 23:30	turbidity	sonde(s) not equipped with turbidity probe
+BC: 2/27 14:00 			all variables	out of water between deployments
+
+March 1997:
+ML: 3/1 00:00 – 3/5 13:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 3/4 11:00 			all variables	out of water between deployments
+ML: 3/18 14:00 		 	all variables	maintenance
+ML: 3/19 13:30 – 3/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 3/1 00:00 - 3/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 3/25 15:00 			all variables	out of water between deployments 
+BC: 3/1 00:00 – 3/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+BC: 3/25 03:00 – 3/25 03:30	DO, DO%		possible DO membrane fouling
+
+April 1997:
+ML: 4/1 00:00 - 4/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 4/3 9:30 			all variables	maintenance
+ML: 4/17 12:30			all variables	maintenance
+FD: 4/1 00:00  - 4/21 09:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 4/1 13:30 			all variables	maintenance
+FD: 4/1 14:00  - 4/8 12:30	DO, DO%		out of calibration after maintenance
+BC: 4/1 00:00 – 4/10 10:00	turbidity	sonde(s) not equipped with turbidity probe
+BC: 4/1 14:00 			all variables	maintenance
+BC: 4/24 12:30 – 4/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+
+May 1997:
+ML: 5/1 00:00 – 5/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 5/26 15:00 			all variables	maintenance		
+FD: 5/6 00:30 – 12:30		turbidity	erratic numbers removed
+FD: 5/6 13:00 -- 5/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 5/8 9:30 			all variables	maintenance
+FD: 5/8 21:00 			DO, DO%		high spike in data removed
+FD: 5/16 13:30 			all variables	maintenance
+BC: 5/1 00:00 – 5/8 09:30	turbidity	sonde(s) not equipped with turbidity probe
+BC: 5/11 05:30 – 5/20 13:30	turbidity	erratic negative numbers removed
+BC: 5/16 14:30 – 5/23 09:30	DO, DO%		suspect data after maintenance removed
+BC: 5/21 13:30 			all variables	maintenance
+BC: 5/23 10:00 – 5/31 23:30	DO, DO%		data suspect: deployment > 100% saturation
+
+June 1997:
+ML: 6/1 00:00 – 6/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 6/1 00:00 – 6/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 6/23 10:00 			all variables	maintenance
+FD: 6/27 13:30 			all variables	maintenance
+FD: 6/27 14:00 – 6/30 23:30	DO, DO% 	suspect data after maintenance removed
+BC: 6/1 00:00 – 6/6 13:30	DO, DO%		suspect data: deployment > 100%
+BC: 6/4 12:00 – 6/6 13:00	turbidity	erratic numbers removed
+BC: 6/6 13:30 – 6/20 13:00	turbidity	erratic numbers removed
+BC: 6/14 00:00 – 6/20 13:00	DO, DO%		heavy fouling
+BC: 6/25 8:30 			all variables	maintenance
+
+July 1997
+ML: 7/1 00:00 – 7/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 7/9 13:30 			all variables	out of water between deployments
+ML: 7/14 13:30			all variables	maintenance
+ML: 7/22 9:00 	 		all variables	maintenance
+FD: 7/1 00:00  -- 7/2 24:00	turbidity	sonde(s) not equipped with turbidity prob
+FD: 7/1 00:00 – 7/3 12:00	DO, DO%		suspect data after maintenance
+FD: 7/3 00:00  -- 7/15 21:30	turbidity	erratic negative numbers removed 
+FD: 7/3 12:30 – 7/15 12:30	DO, DO%		deployment out of calibration
+FD: 7/15 22:00 – 7/29 01:30	turbidity	erratic numbers removed
+FD: 7/28 13:30 			all variables		maintenance
+FD: 7/29 02:00 – 7/30 13:00	turbidity	erratic numbers removed, possible fouling
+FD: 7/30 13:30 – 8/13 08:30	turbidity	erratic negative numbers removed
+BC: 7/3 13:00 – 7/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+BC: 7/14 13:00 			all variables		maintenance
+BC: 7/22 8:30 			all variables		maintenance
+
+August 1997:
+ML: 8/1 00:00 – 8/31 24:00	turbidity	sonde(s) not equipped with turbidity probe
+ML: 8/2 00:00 – 8/4 14:30	DO, DO%		DO membrane fouling
+ML: 8/6 13:30 			all variables	out of water between deployment
+ML: 8/16 00:00 – 8/18 15:00	DO, DO%		DO membrane fouling 
+ML: 8/18 15:30 			all variables	maintenance
+ML: 8/18 16:00 - 8/20 14:00	pH		probe broken during maintenance 
+ML: 8/28 00:00 – 8/31 23:30	DO, DO%		DO membrane fouling 
+FD: 8/1 00:00 – 8/13 08:30	turbidity	erratic negative turbidity numbers removed
+FD: 8/6 18:30 – 8/6 19:00	all variables	maintenance
+FD: 8/7 13:00			all variables	maintenance
+FD: 8/13 09:00  - 8/25 08:00	turbidity	data suspect, sonde needed new wiper
+FD: 8/23 00:00  - 8/25 08:00	DO, DO%		DO membrane fouling
+FD: 8/25 08:30 – 8/31 23:30	turbidity	erratic numbers removed
+FD: 8/31 00:00 – 8/31 23:30	all but temp 	heavy fouling
+BC: 8/1 00:00 – 8/25 07:30	turbidity	sonde(s) not equipped with turbidity probe
+BC: 8/8 13:30 			all variables	maintenance
+BC: 8/18 15:00 			all variables	maintenance
+BC: 8/18 15:30 			DO, DO%		out of calibration after maintenence
+BC: 8/23 04:00 – 8/25 07:30	DO, DO%		DO membrane fouling
+BC: 8/25 08:00 – 8/31 23:30	turbidity	erratic + and – numbers removed 
+
+September 1997:
+ML: 9/1 00:00 – 9/4 12:30	DO, DO%		DO membrane fouling
+ML: 9/1 00:00 – 9/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 9/1 00:00 – 9/3 13:00	all but temp	heavy fouling
+FD: 9/1 00:00 – 9/30 24:00	turbidity	sonde(s) not equipped with turbidity probe
+FD: 9/8 13:30 			all variables	out of water between deployments
+FD: 9/12 13:30 			all variables	maintenance
+FD: 9/23 13:00 – 9/30 23:30	DO, DO%		data suspect: deployment > 400% saturation
+BC: 9/1 00:00 – 9/3 13:30	DO, DO%		DO membrane fouling
+BC: 9/1 00:00 – 9/26 9:00	turbidity	sonde(s) not equipped with turbidity probe
+BC: 9/29 13:30 			all variables	maintenance
+
+October 1997:
+ML: 10/1 00:00 – 10/31 23:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 10/1 10:00 			all variables	out of water between deployments
+ML: 10/8 23:30 – 10/16 14:30	all variables	low battery, stopped logging
+ML: 10/29 15:00 		all variables	out of water between deployments
+FD: 10/1 00:00 –10/3 12:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 10/1 00:00 – 10/23 10:00	DO, DO%		data suspect: deployment > 300% saturation 
+FD: 10/7 22:30 – 10/8 17:30	turbidity	data suspect: high + and – numbers
+FD: 10/23 10:30 – 13:00		all variables	deployment time ran out too early
+FD: 10/23 13:30 – 10/31 18:00	turbidity	sonde(s) not equipped with turbidity probe
+FD: 10/29 14:00 		all variables	maintenance
+BC: 10/3 18:30 – 19:00		all variables	internal device error
+BC: 10/5 15:30 			all variables	internal device error
+BC: 10/9 03:00 – 10/13 12:00	DO, DO% 	DO membrane fouling
+BC: 10/11 04:30 – 5:00		all variables	internal device error
+BC: 10/13 12:30 – 10/24 9:00	turbidity	sonde(s) not equipped with turbidity probe
+BC: 10/31 19:30 –  20:30	all variables	internal device error
+
+November 1997:
+ML: 11/1 00:00 – 11/30 24:00	turbidity	sonde(s) not equipped with turbidity probe
+FD: 11/1 00:00 – 11/20 13:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 11/27 00:30 – 11/30 23:30 	all variables	dead battery
+BC: 11/7 10:30 – 11/30 23:30	turbidity	sonde(s) not equipped with turbidity probe
+
+December 1997:
+ML: 12/1 00:00 – 12/16 11:30	turbidity	sonde(s) not equipped with turbidity probe
+ML: 12/16 12:00 – 14:00		all variables	deployment time ran out too early
+ML: 12/23 21:00 		all variables	internal device error
+FD: 12/1 00:00 – 12/2 14:00	all variables	dead battery
+FD: 12/2 14:30 – 12/16 13:30	turbidity	sonde(s) not equipped with turbidity probe
+FD: 12/16 14:00 - 16:00		DO, DO%		first 5 records are high; membrane not settled
+BC: 12/1 00:00 – 12/23 21:00	turbidity	sonde(s) not equipped with turbidity probe
+BC: 12/17 10:30			all variables	maintenance
+BC: 12/17 11:00 – 12/23 21:00	DO, DO%		calibration error, sensor failure	
+BC: 12/23 21:30 – 12/31 23:30	all variables	power loss due to bad connection
+
+12. Other Remarks
+	Depth was absent from each monthly file due to the fixed depth off the 
+dock.  The following was a list of deployments for the year:
+
+brand
+
+
+location
+month
+day
+year
+ysi
+
+
+bc
+1
+2
+97
+hydrolab
+
+
+ml
+1
+3
+97
+hydrolab
+
+
+fd
+1
+3
+97
+ysi
+
+
+fd
+1
+13
+97
+ysi
+
+
+bc
+1
+16
+97
+hydrolab
+
+
+ml
+1
+17
+97
+hydrolab
+
+
+fd
+1
+27
+97
+hydrolab
+
+
+bc
+1
+29
+97
+ysisi
+
+
+ml
+2
+3
+97
+ysi
+
+
+fd
+2
+12
+97
+hydrolab
+
+
+bc
+2
+13
+97
+ysi
+
+
+ml
+2
+19
+97
+hydrolab
+
+
+fd
+2
+26
+97
+hydrolab
+
+
+bc
+2
+27
+97
+ysi
+
+
+ml
+3
+5
+97
+hydrolab
+
+
+fd
+3
+13
+97
+ysi
+
+
+bc
+3
+13
+97
+ysi
+
+
+ml
+3
+19
+97
+hydrolab
+
+
+fd
+3
+25
+97
+hydrolab
+
+
+bc
+3
+27
+97
+hydrolab
+
+
+ml
+4
+1
+97
+ysi
+
+
+fd
+4
+8
+97
+ysi
+
+
+bc
+4
+10
+97
+ysi
+
+
+ml
+4
+15
+97
+ysi
+
+
+fd
+4
+21
+97
+hydrolab
+
+
+.
+4
+24
+97
+hydrolab
+
+
+bc
+4
+24
+97
+hydrolab
+
+
+ml
+4
+30
+97
+ysi
+
+
+fd
+5
+6
+97
+ysi
+
+
+bc
+5
+8
+97
+ysi
+
+
+ml
+5
+14
+97
+hydrolab
+
+
+fd
+5
+21
+97
+ysi
+
+
+bc
+5
+23
+97
+hydrolab 
+
+
+ml
+5
+29
+97
+ysi
+
+
+fd
+6
+6
+97
+ysi
+
+
+bc
+6
+6
+97
+ysi
+
+
+ml
+6
+11
+97
+hydrolab
+
+
+fd
+6
+18
+97
+ysi
+
+
+bc
+6
+20
+97
+hydrolab
+
+
+ml
+6
+25
+97
+ysi
+
+
+fd
+7
+3
+97
+ysi
+
+
+bc
+7
+3
+97
+hydrolab
+
+
+ml
+7
+9
+97
+ysi
+
+
+fd
+7
+14
+97
+ysi
+
+
+bc
+7
+17
+97
+hydrolab
+
+
+ml
+7
+23
+97
+ysi
+
+
+fd
+7
+30
+97
+ysi
+
+
+bc
+8
+1
+97
+hydrolab
+
+
+ml
+8
+6
+97
+ysi
+
+
+fd
+8
+13
+97
+ysi
+
+
+bc
+8
+13
+97
+hydrolab
+
+
+ml
+8
+20
+97
+ysi
+
+
+fd
+8
+25
+97
+ysi
+
+
+bc
+8
+25
+97
+ysi
+
+
+ml
+9
+4
+97
+hydrolab
+
+
+fd
+9
+8
+97
+hydrolab
+
+
+bc
+9
+11
+97
+ysi
+
+
+ml
+9
+17
+97
+ysi
+
+
+fd
+9
+23
+97
+ysi
+
+
+bc
+9
+26
+97
+hydrolab
+
+
+ml
+10
+1
+97
+ysi
+
+
+fd
+10
+3
+97
+hydrolab
+
+
+bc
+10
+13
+97
+ysi
+
+
+ml
+10
+16
+97
+ysi
+
+
+fd
+10
+23
+97
+ysi
+
+
+bc
+10
+24
+97
+hydrolab
+
+
+ml
+10
+29
+97
+ysi
+
+
+fd
+11
+5
+97
+hydrolab
+
+
+bc
+11
+7
+97
+ysi
+
+
+ml
+11
+12
+97
+ysi
+
+
+fd
+11
+19
+97
+hydrolab
+
+
+bc
+11
+21
+97
+ysi
+
+
+ml
+11
+26
+97
+ysi
+
+
+fd
+12
+2
+97
+hydrolab
+
+
+bc
+12
+5
+97
+ysi
+
+
+ml
+12
+16
+97
+ysi
+
+
+fd
+12
+16
+97
+hydrolab
+
+
+bc
+12
+17
+97
+
+

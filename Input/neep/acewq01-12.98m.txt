@@ -1,0 +1,1472 @@
+             ACE Basin National Estuarine Research Reserve
+          January-December 1998 Water Quality Metadata Report
+          Lastest Update: September 26, 2001
+
+I.    Data Set & Research Descriptors
+1.    Principal investigator & contact persons:
+      Dr. Elizabeth Wenner, Research Coordinator
+         E-mail: wennere@mrd.dnr.state.sc.us;  (843)762-5050 
+      Saundra Upchurch, Reserve Biologist
+         E-mail: upchurchs@mrd.dnr.state.sc.us;  (843)762-5000 ext. 2032
+      Christopher Graffeo, Reserve Technician
+         E-mail: graffeoc@mrd.dnr.state.sc.us; (843)762-5000 ext. 2078
+      Mark Thompson, Water Quality Technician
+         E-mail: thompsonm@mrd.dnr.state.sc.us; (843)795-6350 ext. 2179
+
+2.    Entry verification:
+      The data are directly downloaded from the YSI Model 6000 sonde to comma-
+delimited files (*.csv) and PC6000 files (*.dat). The comma-delimited files are 
+imported into Excel 97 where they are formatted and processed by macros that are 
+supplied by the CDMO. Various macros are designed to: 1) check data files for 
+missing data points, 2) fill all cells that do not contain data with periods 
+(.), 3) convert the data columns to the CDMO-approved formats for time, date and 
+numeric variables, 4) find all data that are out of acceptable range for the 
+data logger's sensors and out the anomalous data to an output file (*.dat), and 
+5) save the files as Excel worksheets (*.xls).
+      The anomalous data are evaluated to determine whether to flag or delete 
+the suspect data.  Data are flagged if the values are: 1) outside the range 
+expected for the site, 2) outside the range established for the sensors, or 3) 
+outside the range established for good water quality conditions (i.e., dissolved 
+oxygen <28%).  Data are deleted if  the anomalies are attributed to: 1) a sensor 
+malfunction, 2) exposure of sensors during low tide,  or 3) fouling of sensors 
+by aquatic organisms, debris, or sediment.  Sensor malfunctions are detected if 
+the voltage reading of the sensor is outside the range established for the 
+sensor or the sensor will not calibrate.  Fouling of sensors is detected by 
+comparing in-situ sensor readings with measurements  (see Research Methods 
+section).  In addition, sensor readings that differ significantly (>10%) from 
+standard solution (i.e., conductivity) suggest that the sensor was fouled during 
+deployment. After corrections are made to the Excel worksheet (*.xls), the files 
+are exported as tab-delimited files (*.txt) to the CDMO.  Christopher Graffeo, 
+Mark Thompson, and Saundra Upchurch are responsible for these tasks.
+
+3.    Research Objectives:
+      Based/ on discussions with local CZM personnel and our knowledge of land 
+use within the Reserve, the South Edisto River drainage basin appears well 
+suited for studying contrasting hydrographic conditions and land use patterns. 
+One NERR water quality monitoring station has been established near Edisto Beach 
+within a tributary of Big Bay Creek.  Surrounded by residential and commercial 
+development and subject to nonpoint source pollution, this station is designated 
+as the "treatment" site. The second NERR water quality monitoring station has 
+been situated near Bailey Island, within a tributary of St. Pierre Creek.  Urban 
+development in the immediate area of this station has been sparse to date so 
+this station will serve as our "control" site. 
+      The ACE Basin water quality monitoring program began on March 3, 1995 at 
+two tributaries off Big Bay and St. Pierre creeks (see Site Location and 
+Character section for description of sites).  YSI electronic data loggers were 
+deployed to measure the water temperature, specific conductance, dissolved 
+oxygen, pH, and turbidity conditions, approximately 0.1 meters above the creek 
+bottom, at 30 minute intervals. Change in water level was also recorded. 
+
+4.    Research methods
+       Data loggers are deployed at a permanent monitoring station constructed 
+at each site.  The station at Big Bay Creek was constructed in 1995, and it 
+consists of a PVC pipe mounted vertically on 12-foot galvanized pole.  To 
+facilitate water flow across the sensors, approximately two-inch diameter holes 
+are drilled into the PVC pipes.  The pipes are also positioned to ensure that 
+the sensors are approximately 0.1 meters from the creek bottom.  In 1997, the 
+St. Pierre Creek station was modified: the PVC pipe is now mounted horizontally 
+in a pyramid-shaped cage (2.5 ft long by 1.5 ft  high) tethered to the original 
+12-foot galvanized pole.  Later that year, we began to put the data loggers in 
+1/8-inch mesh net bags before placing them in the PVC pipe to reduce damage by 
+crabs and fish. During the summer, the data loggers are left at the sites for 
+one week, and the sampling period is extended to one month during the cooler 
+months.
+      At the end of the sampling period, the data loggers are brought back to 
+the laboratory for cleaning, calibration, and servicing, by methods outlined in 
+the YSI Operating and Service Manual. Downtime for doing these procedures ranges 
+from 24 to 48 hours. After cleaning the data loggers, the pH, conductivity, 
+depth, and turbidity sensors are calibrated, using the following standards: pH 7 
+and 10, conductivity standard of 58.64mS/cm depth in the air, and turbidity 
+standards of 0 and 100 NTU, respectively.  The dissolved oxygen (DO) membrane is 
+replaced and is allowed to stretch for 24 hours before the DO sensor is 
+calibrated in air-saturated water. In addition the procedures outlined in the 
+manual, we conduct a DO membrane integrity test to determine if the membrane was 
+punctured during deployment.
+       Several quality assurance checks are used to determine if the sensor 
+readings drifted significantly during deployment. In-situ measurements of 
+dissolved oxygen, expressed in mg/L, salinity, and water temperature are taken 
+during the first and last sampling interval.  Water samples are collected at the 
+same depth as the sensors. Water temperature and salinity are measured directly 
+with a thermistor and refractometer, respectively, and dissolved oxygen level is 
+determined by the Winkler procedure.  Post- deployment measurements of all the 
+parameters are taken before cleaning the data loggers.  Sensors are immersed in 
+the appropriate standard solutions (i.e., pH) and readings are recorded. The 
+results of these checks are used to evaluate the validity of the data (see Entry 
+Verification section). 
+
+5.    Site location and character:
+      The two sampling sites are in separate tributaries of the South Edisto 
+River. The descriptions of the sites are as follows:
+      Station A--this site is in a tidal marsh creek off Big Bay Creek (GPS 
+coordinates: 32  29.662N and 80 19.427W). Surrounded by residential and 
+commercial development and subject to nonpoint source pollution, this station is 
+designated as the "treatment" site. Pollution sources include houses bordering 
+the creek, many of them with little setbacks from the bordering Spartina marsh; 
+forty docks in the area constructed of creosote, concrete and Wolmanized 
+pilings; boat dockage and heavy boat traffic through the creek; a paved road and 
+three boat ramps off the creek; a marina with 75 slips, CCA treated bulkheads 
+and fueling areas located about 0.5 miles downstream; two commercial seafood 
+docks with 8-10 commercial shrimp boats; and three restaurants. The creek is 
+closed to shellfish harvesting because of  the human development in the 
+vicinity. Vegetation in the area includes salt marsh dominated by Spartina 
+alterniflora with isolated areas of Salicornia. Upland fringe areas consist of 
+cabbage palmetto, live oak and cedars. Reefs of American oyster (Crassostrea 
+virginica) fringe the creek banks. At the time of reconnaissance, depth of the 
+creek midway through ebb tide was 5 feet and salinity was 23 parts per thousand 
+(ppt).
+
+      Station B--this site is in a tidal creek off St. Pierre Creek (GPS 
+coordinates: 32 31.724N and 80 21.573W). It is surrounded by a wide expanse of 
+Spartina alterniflora marsh. Extensive mud flats and oyster reefs fringe the 
+banks.  Maritime forest communities comprised of species such as wax myrtles, 
+live oaks, and palmettos dominate the upland areas.  Development in the 
+immediate area is sparse. This creek is subject to relatively light boat 
+traffic. At the time of reconnaissance, depth at low tide was 2.5 feet and 
+salinity was 21 ppt. 
+
+      The following discussions of trends in water quality at the monitoring 
+stations are based on data collected from March 1995 through December 1997. 
+During this period, water temperature at both monitoring sites exhibited a 
+seasonal pattern with lowest values occurring in December-January.  The lowest 
+monthly water temperature observed was 8.9oC which occurred in February 1996 at 
+St. Pierre Creek.  Temperature maxima occurred in July and August with the 
+highest monthly water temperature (30.9oC) occurring in July 1995 at Big Bay 
+Creek.  Diurnal variation in temperature was evident with warmest temperatures 
+occurring from 1300 hr to 1800 hr at both sites. Salinity also exhibited 
+seasonal variability during the same period, with lowest values occurring in 
+March at Big Bay and St. Pierre creeks.  Another period of low average monthly 
+salinity occurred at Big Bay Creek in December 1997.  Average annual salinity 
+for both sites was in the polyhaline regime, with a mean of 29.4   at Big Bay 
+Creek and 26.3  at St. Pierre Creek; however, for all years, salinity ranged 
+from 0.3-41.7   at Big Bay and from 0- 41.7  at St. Pierre Creek.  Local 
+precipitation and evaporation conditions are most likely the major contributors 
+to monthly variability in salinity.  Analysis of the data indicates that tidal 
+stage strongly influences salinity.  As expected, highest values of salinity 
+occurred on the flood tide. 
+      It appears that tidal stage also influences pH. Spectral analysis revealed 
+a periodicity for pH and water depth with a sinusoidal period at ~ 12 hrs., 
+representing tidal periodicity.  Time series plots of pH indicated variability 
+of ~1 standard unit (su) on a daily basis. The pH at both sites was very 
+similar, ranging from 5.3-8.4; however, the preponderance of measurements were 
+>7 at both sites.  The pH observed at the two monitoring sites appear to be 
+attributable to natural conditions. Marked variations in pH can also occur 
+diurnally due to changes in primary production and respiration.
+      Dissolved oxygen concentrations appear to tracked depth for part of the 
+cycle, with lowest values occurring on low tides.  Afternoon and evening values 
+were not as low as early morning values, suggesting a diurnal component.  
+Dissolved oxygen values at the two monitoring sites were generally high 
+throughout the year with averages of 83.6% saturation and 6.6 mg/l for Big Bay 
+Creek and 78.5% saturation and 6.3 mg/l for St. Pierre Creek.  However, hypoxic 
+events, as indicated by points below the reference line at 28% air saturation, 
+were observed in every season but summer was clearly the season with the 
+greatest percent of time that DO was ó 28%.  There were clearly differences 
+among the sites with hypoxic conditions occurring over a greater percent of time 
+at St. Pierre Creek. Seasonal periodicity explains most of the variations in 
+dissolved oxygen concentrations at both sites, with highest mean concentrations 
+in winter and lowest DO values in summer.
+      Unlike the other parameters monitored at Big Bay and St. Pierre creeks, 
+there appears to be no distinct seasonal trend in turbidity; however, monthly 
+variability appeared greater at the St. Pierre site. This may be due to 
+fluctuations in the amount of detritus being washed form the extensive salt 
+marsh and upland sites that surround St. Pierre Creek.
+
+6.    Data collection period:
+      BEGAN                      ENDED
+      Big Bay
+      01/01/98, 00:00:00         01/06/98, 09:00:00
+      01/13/98, 10:30:00         01/31/98, 23:30:00
+      02/01/98, 00:00:00         02/05/98, 12:00:00
+      02/10/98, 12:00:00         02/28/98, 23:30:00
+      03/01/98, 00:00:00         03/10/98, 08:30:00
+      03/16/98, 12:30:00         03/31/98, 23:30:00
+      04/01/98, 00:00:00         04/07/98, 07:30:00
+      04/10/98, 09:00:00         04/30/98, 23:30:00
+      05/01/98, 00:00:00         05/05/98, 09:00:00
+      05/08/98, 12:30:00         05/31/98, 23:30:00
+      06/01/98, 00:00:00         06/02/98, 08:00:00
+      06/05/98, 11:00:00         06/24/98, 10:30:00
+      06/30/98, 10:00:00         06/30/98, 23:30:00
+      07/01/98, 00:00:00         07/07/98, 08:00:00
+      07/09/98, 11:00:00         07/22/98, 10:30:00
+      07/24/98, 10:00:00         07/31/98, 23:30:00
+      08/01/98, 00:00:00         08/04/98, 09:00:00
+      08/06/98, 11:30:00         08/19/98, 09:30:00
+      08/21/98, 09:30:00         08/24/98, 15:00:00
+      09/02/98, 10:30:00         09/16/98, 08:30:00
+      09/18/98, 09:00:00         09/30/98, 09:00:00
+      10/02/98, 09:00:00         10/20/98, 09:00:00
+      10/22/98, 09:30:00         10/31/98, 23:30:00
+      11/01/98, 00:00:00         11/09/98, 09:30:00
+      11/11/98, 10:00:00         11/30/98, 23:30:00
+      12/01/98, 00:00:00         12/02/98, 09:30:00
+      12/04/98, 10:30:00         12/16/98, 10:00:00
+      12/21/98, 11:00:00         12/31/98, 23:30:00
+
+      St. Pierre
+      01/01/98, 00:00:00         01/06/98, 09:30:00
+      01/13/98, 09:30:00         01/31/98, 23:30:00
+      02/01/98, 00:00:00         02/05/98, 12:00:00
+      02/10/98, 12:00:00         02/28/98, 23:30:00
+      03/01/98, 00:00:00         03/10/98, 09:00:00
+      03/16/98, 13:00:00         03/31/98, 23:30:00
+      04/01/98, 00:00:00         04/07/98, 08:00:00
+      04/10/98, 09:30:00         04/30/98, 23:30:00
+      05/01/98, 00:00:00         05/05/98, 08:30:00
+      05/08/98, 13:00:00         05/31/98, 23:30:00
+      06/01/98, 00:00:00         06/02/98, 08:30:00
+      06/05/98, 12:00:00         06/24/98, 11:30:00
+      06/30/98, 11:00:00         06/30/98, 23:30:00
+      07/01/98, 00:00:00         07/07/98, 08:30:00
+      07/09/98, 11:30:00         07/22/98, 10:30:00
+      07/24/98, 09:30:00         07/31/98, 23:30:00
+      08/01/98, 00:00:00         08/04/98, 10:00:00
+      08/06/98, 10:00:00         08/19/98, 08:30:00
+      08/21/98, 10:30:00         08/24/98, 16:00:00
+      09/02/98, 09:30:00         09/16/98, 09:00:00
+      09/18/98, 08:30:00         09/30/98, 09:00:00
+      10/02/98, 09:30:00         10/20/98, 08:30:00
+      10/22/98, 09:00:00         10/31/98, 23:30:00
+      11/01/98, 00:00:00         11/09/98, 09:00:00
+      11/11/98, 10:30:00         11/30/98, 23:30:00
+      12/01/98, 00:00:00         12/02/98, 08:30:00
+      12/04/98, 11:00:00         12/16/98, 10:00:00
+      12/21/98, 10:30:00         12/31/98, 23:30:00
+
+7.   Associated researchers and projects:
+      In 1993, the Reserve staff initiated a long-term survey of the decapod 
+crustaceans and juvenile fish that utilize the estuarine waters of the Reserve 
+as a nursery ground. There are four sampling stations in each of the three major 
+rivers, Ashepoo, Combahee and South Edisto, of the Reserve. Stations are located 
+along a salinity gradient, ranging from polyhaline to oligohaline or limnetic. 
+Sampling is done each month during daylight flood tide. Trawls are 10 minutes 
+long and tows are made against the tide. Several physical parameters are 
+measured at each station: air and water temperature, salinity, wind speed and 
+direction, water depth and tidal stage. Cloud cover and rainfall conditions are 
+also recorded at each station. To date, we have caught seventy-one species of 
+fish and twenty-eight species of decapod crustacean species.
+      Drs. Geoff Scott and Tom Mathews are assessing the distribution 
+ofcontaminants (i.e., trace metals, PAHs, pesticides) in sediments within the 
+rivers of the Reserve. Surface sediment grabs were collected from twelve sites 
+in the Reserve. Ten sites are located along a salinity gradient in Ashepoo, 
+Combahee and South Edisto rivers, and two sites are located in the vicinity of 
+our data logger sites. Surface sediment grabs were collected in 1996 from each 
+site, and the samples will be analyzed for trace metals (Al, As, Cd, Cr, Cu, Pb, 
+Zn, etc.), PAHs and pesticides.
+
+II. Physical Structure Descriptors
+8.    Variable sequence, range of measurements, units,  resolution, and 
+accuracy:
+Variable Name  Range of Measurements (Units)      Resolution          Accuracy
+DATE         1-12, 1-31, 00-99 (mo,day,yr)        1 mo, 1d, 1 y      N/A
+HOUR         0-24, 0-60, 0-60 (hr,min,sec)        1 hr, 1 min, 1 s   N/A
+TEMP         -5 to +45oC                          0.01oC             +/- 0.15oC
+SPCOND       0-100 mS/cm                          0.01 mS/cm         +/- 0.5% of 
+reading + 0.001 mS/cm 
+SALINITY     0-70 parts per thousand (ppt)        0.01 ppt           +/-1% or 
+reading or 0.1 ppt or whichever is greater 
+DO           0-200 % air saturation (air sat)     0.1 % air sat  +/-2% air sat
+DO           200-500 % air saturation (air sat)   0.1 % air sat  +/-6% air sat
+DO           0-20 mg/L                            0.01 mg/L          +/-0.2 mg/L
+DO           20-50 mg/L                           0.01 mg/L          +/-0.6 mg/L
+DEPTH        0-9.1 meters                         0.001 m            +/-0.018 m
+pH           2-14 units                           0.01 units        +/-0.2 units
+TURBIDITY    0-1000 NTU@                          0.1 NTU            +/-5% of 
+reading or 2 NTU or whichever is greater
+@As of March 16, our data loggers have the capability to record turbidity 
+readings greater than 1000 NTU. 
+
+9. Coded variable indicator and variable code definitions:
+             SP=St. Pierre       BB=Big Bay         
+
+10.        Data anomalies:
+January 1-31, 1998 Sampling Period
+Big Bay
+a) The following records include low salinity readings that are less than 18 
+ppt. These readings are not within normal polyhaline/euhaline salinity range (18 
+and 40 ppt) for this site. The low readings were probably due to extremely low 
+tides or heavy rainfall events.  
+   01/01/98              00:00:00-07:00:00            13:30:00-19:30:00
+   01/02/98              01:00:00-05:00:00            06:30:00-08:00:00   
+14:00:00-17:00:00   
+19:00:00-20:30:00
+   01/03/98              02:00:00-04:00:00            08:00:00-08:30:00   
+15:00:00-17:30:00   
+20:00:00-21:00:00
+   01/04/98              03:00:00-04:30:00            09:00:00-09:30:00   
+15:30:00-22:00:00
+   01/05/98              10:00:00-10:30:00            17:00:00-17:30:00   
+22:30:00-23:00:00
+   01/14/98              05:30:00
+   01/16/98              20:00:00-20:30:00
+   01/17/98              07:30:00-08:30:00            14:00:00-15:30:00   
+20:00:00-20:30:00
+   01/18/98              01:30:00-02:00:00            08:30:00-09:00:00   
+15:00:00-17:30:00
+   01/19/98              09:30:00-10:00:00            14:00:00-15:00:00   
+21:00:00-21:30:00
+   01/20/98              05:30:00-07:00:00
+   01/23/98              06:30:00-12:30:00            19:00:00-23:30:00
+   01/24/98              00:00:00-02:00:00            08:30:00-13:30:00   
+20:00:00-23:30:00
+   01/25/98              00:00:00-03:00:00            09:30:00-12:00:00   
+14:30:00            
+22:30:00
+   01/26/98              02:30:00-03:00:00
+   01/28/98              04:30:00-05:30:00            11:30:00-12:30:00   
+17:30:00-19:00:00   
+23:00:00-23:30:00
+   01/29/98              00:00:00-06:30:00            17:30:00-19:00:00
+   01/30/98              06:00:00-07:00:00            18:30:00-19:30:00
+   01/31/98              06:30:00-07:30:00            19:30:00-20:00:00
+b) From 00:00 on January 1 to 09:00 on January 6, pH data were deleted because 
+sensor malfunctioned during the December 11, 1997-January 6, 1998 deployment.
+c) From 10:30 on January 13 to 23:30 on January 31, pH data were deleted because 
+probe malfunctioned during the January 13-February 5 deployment.
+d) The following records include dissolved oxygen readings that are less than 
+28% air saturation.  The low readings occurred during late ebb tides and early 
+flood tides.
+   01/14/98              05:00:00
+   01/26/98              02:00:00
+
+St. Pierre
+a) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the December 11, 1997-January 6, 1998 
+deployment by sediment from the nearby eroding bank. DO readings were extremely 
+low (<1.0 mg/L), indicating that the DO membrane was blocked by debris or 
+sediment. Post-deployment DO calibration check indicated that the DO membrane 
+was not damaged by the fouling.   
+   01/01/98              00:00:00 THRU 01/06/98    09:30:00
+b) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward during similar time period as the DO 
+downward drift, suggesting that the sediment from the eroding bank was the cause 
+of  the low readings.
+   01/01/98              00:00:00 THRU 01/06/98    09:30:00
+c) The following records include low salinity readings that are less than 18 
+ppt. These readings are not within normal polyhaline/euhaline salinity range (18 
+and 40 ppt) for this site. The low readings were probably due to extremely low 
+tides or heavy rainfall events. 
+   01/13/98              13:00:00-18:00:00            23:30:00
+   01/14/98              00:00:00-05:30:00            14:00:00-18:30:00
+   01/15/98              02:30:00-06:30:00
+   01/16/98              06:00:00-07:00:00            19:00:00-21:30:00
+   01/17/98              02:00:00-08:00:00            14:30:00-21:00:00
+   01/18/98              03:30:00-09:00:00
+   01/19/98              18:30:00-19:00:00            21:30:00
+   01/25/98              01:30:00-03:00:00            13:30:00-15:00:00
+   01/26/98              00:00:00-03:30:00
+   01/28/98              16:30:00-18:30:00
+   01/29/98              01:00:00-06:30:00            16:30:00-19:00:00
+   01/30/98              02:30:00-07:30:00            17:00:00-19:30:00
+   01/31/98              04:30:00-08:00:00            19:00:00-20:30:00
+d) From 00:00 on January 1 to 09:30 on January 6, the turbidity data were 
+deleted because the wiper malfunctioned during the December 11, 1997-January 6, 
+1998 deployment.
+e) The following records include negative turbidity readings ranging from -700 
+to -001; however, the data were not deleted.  The negative readings were caused 
+by debris on the lens, a wiper malfunction, or animal interference. The post-
+deployment check indicated that the turbidity functioned properly during 
+deployment: turbidity read 0.4 NTU in 0 NTU standard and 112 NTU in 
+100 NTU standard. 
+   01/16/98              02:00:00
+   01/18/98              16:00:00-16:30:00
+   01/21/98              06:00:00      20:00:00
+   01/22/98              17:30:00
+   01/23/98              18:30:00
+   01/24/98              05:30:00
+
+February 1-28, 1998 Sampling Period
+   Big Bay
+a) The following records include low salinity readings that are less than 18 
+ppt. These readings are not within normal polyhaline/euhaline salinity range (18 
+and 40 ppt) for this site. The low readings were probably due to extremely low 
+tides or heavy rainfall events. 
+   02/01/98              07:30:00-08:30:00            20:00:00-21:00:00
+   02/02/98              08:30:00-09:30:00            20:30:00-21:30:00
+   02/03/98              22:00:00-23:00:00
+   02/04/98              11:30:00-23:30:00
+   02/05/98              00:00:00-12:00:00
+   02/10/98              16:00:00-17:00:00
+   02/11/98              04:00:00-05:00:00            16:30:00-17:30:00
+   02/12/98              00:00:00-02:00:00            05:30:00-07:00:00   
+11:30:00-23:30:00
+   02/13/98              00:00:00-07:00:00            13:00:00-19:00:00
+   02/14/98              00:30:00-07:30:00            13:00:00-19:30:00
+   02/15/98              02:00:00-07:30:00            15:00:00-19:00:00
+   02/16/98              07:30:00-08:00:00            15:00:00-20:30:00
+   02/17/98              03:00:00-09:30:00            15:00:00-23:00:00
+   02/18/98              02:30:00-23:30:00
+   02/19/98              00:00:00-00:30:00            03:00:00-11:30:00   
+15:30:00-23:30:00
+   02/20/98              00:00:00      04:30:00-23:30:00
+   02/21/98              00:00:00-01:00:00            05:30:00-13:30:00   
+17:30:00-23:30:00
+   02/22/98              00:00:00-01:00:00            07:30:00-12:00:00   
+20:00:00-23:30:00
+   02/23/98              00:00:00-00:30:00
+   02/24/98              02:30:00-03:30:00            09:30:00-12:00:00   
+14:30:00-16:30:00   
+21:00:00-23:30:00
+   02/25/98              00:00:00-04:00:00            15:30:00-16:30:00
+b) From 00:00 on February 1 to 12:00 on February 5, pH data were deleted because 
+sensor malfunctioned during the January 13-February 5 deployment.
+c) The following records include negative depth readings. The depth data were 
+not deleted because the salinity and dissolved oxygen readings indicate the data 
+logger was submerged during these periods. The negative depth values may be 
+correlated to low barometric pressure weather systems.
+   02/04/98              20:30:00-21:00:00
+   02/23/98              22:30:00-23:30:00
+   02/24/98              00:00:00-00:30:00  
+d) The following records include dissolved oxygen readings that are less than 
+28% saturation.  The low readings occurred during late ebb tides and early flood 
+tides.
+   02/21/98              07:30:00-10:30:00            19:30:00-22:00:00
+   02/22/98              02:00:00      09:30:00-12:00:00                  
+23:30:00
+   02/23/98              00:00:00-01:00:00            09:00:00-10:30:00
+e) During the following period, the dissolved oxygen (DO) data gradually drifted 
+upward with each successive tidal cycle. The high DO readings occurred during a 
+period of intense rainfall and during spring tide.
+   02/23/98   12:30:00   THRU    02/28/98 23:30:00
+f) During the following period, the salinity data gradually drifted downward 
+with each successive tidal cycle. The low salinity readings occurred during a 
+period of intense rainfall and during spring tide.
+   02/27/98   16:00:00   THRU    02/28/98 23:30:00
+
+   St. Pierre
+a) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   02/01/98              06:30:00-09:00:00            18:00:00-21:30:00
+   02/02/98              05:30:00-10:00:00            18:30:00-22:00:00
+   02/03/98              08:00:00-11:00:00            21:30:00-23:00:00
+   02/04/98              09:00:00-13:00:00            17:00:00-23:30:00
+   02/05/98              00:00:00-12:00:00
+   02/10/98              12:00:00-23:30:00
+   02/11/98              00:00:00-05:30:00            11:30:00-19:00:00   
+22:30:00-23:30:00
+   02/12/98              00:00:00     THRU            02/15/98   10:00:00
+   02/17/98              05:30:00     THRU            02/23/98   03:00:00
+   02/24/98              18:00:00     THRU            02/25/98   18:30:00
+   02/25/98              22:00:00     THRU            02/26/98   05:30:00
+   02/26/98              12:00:00-17:30:00
+   02/27/98              01:00:00-05:30:00            14:30:00-18:00:00
+   02/28/98              02:00:00-06:30:00            13:30:00-19:30:00
+b) The following records include negative turbidity data.  The negative readings 
+were caused by debris on the lens, a wiper malfunction, or animal interference.
+   02/12/98              21:00:00       22:00:00
+   02/13/98              22:30:00
+   02/16/98              15:30:00
+   02/21/98              16:30:00
+   02/26/98              16:30:00
+   02/27/98              02:00:00
+   02/28/98              15:30:00
+d) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment. 
+   02/10/98              12:00:00   THRU      02/28/98   23:30:00
+   
+e) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward and did not exhibit the diurnal cyclic 
+pattern during similar time periods as the DO downward drift, suggesting that 
+the sediment from the eroding bank was the cause of the low readings.
+   02/13/98              16:00:00   THRU      02/25/98   21:00:00
+f) The following records include dissolved oxygen (DO) readings that are less 
+than 28% air saturation. 
+   The low readings occurred during late ebb tides and early flood tides.
+   02/13/98              14:30:00-15:30:00
+   02/26/98              07:00:00-08:00:00
+
+March 1-31, 1998
+   Big Bay
+a) During the following period, the dissolved oxygen (DO) data gradually drifted 
+upward with each successive tidal cycle. The high DO readings occurred during a 
+period of intense rainfall and during spring tide.  Post-deployment calibration 
+check of 108.4% indicated that the unit was working properly.
+   03/01/98  00:00   THRU   03/10/98   08:30
+b) The following records include turbidity readings greater than 1000 NTU.  
+These high values reflect the very turbid conditions that exist during heavy 
+rainfall and high wind events. Heavy rainfall during February 28 and March 17-18 
+may explain the spikes in turbidity data on March 1 and March 18, respectively.
+   03/01/98              23:00:00 - 23:30:00
+   03/02/98              01:30:00 - 05:00:00          09:00:00            
+16:30:00
+   03/18/98              16:00:00 - 16:30:00
+c) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   03/02/98              21:00:00     THRU     03/10/98     08:30:00
+   03/16/98              13:00:00-16:00:00            17:30:00-18:30:00
+   03/17/98              07:30:00      19:00:00-20:00:00
+   03/18/98              03:00:00-20:30:00
+   03/19/98              02:30:00-11:00:00            13:30:00-22:30:00
+   03/20/98              03:30:00-11:00:00            14:30:00-23:30:00
+   03/21/98              00:00:00-23:30:00
+   03/22/98              00:00:00-13:00:00            17:00:00-23:30:00
+   03/23/98              00:00:00-01:00:00            06:30:00-12:00:00   
+19:30:00-23:30:00
+   03/24/98              00:00:00-01:30:00            09:30:00-14:00:00   
+20:30:00-23:30:00
+   03/25/98              01:30:00-02:30:00            14:00:00-14:30:00
+   03/26/98              03:00:00      15:30:00
+   03/27/98              03:30:00-04:00:00            16:30:00-17:00:00
+   03/28/98              04:30:00-05:30:00            17:00:00-17:30:00
+   03/29/98              05:30:00-06:30:00            18:00:00-18:30:00
+   03/30/98              06:30:00-07:30:00            14:00:00            
+18:30:00-19:30:00
+   03/31/98              07:30:00-08:00:00            19:00:00-20:00:00
+d) The following records include negative depth readings. The depth data were 
+not deleted because the salinity and dissolved oxygen readings indicate the data 
+logger was submerged during these periods.
+   Low barometric pressure may account for the negative values.
+   03/02/98              17:30:00 - 18:00:00
+   03/03/98              06:00:00 - 06:30:00
+
+   St. Pierre
+a) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment. 
+   03/01/98              08:30:00     THRU     03/10/98   09:00:00
+b) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward and did not exhibit the diurnal cyclic 
+pattern during similar time periods as the DO downward drift, suggesting that 
+the sediment from the eroding bank was the cause of the low readings.
+   03/01/98              08:30:00     THRU     03/10/98   09:00:00
+c) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   03/16/98              13:00:00-19:00:00
+   03/17/98              01:00:00-08:00:00            12:30:00-19:30:00
+   03/18/98              02:00:00-08:30:00            13:00:00-21:30:00
+   03/19/98              02:00:00-11:30:00            13:00:00-22:30:00
+   03/20/98              02:30:00    THRU     03/22/98    23:30:00
+   03/23/98              00:00:00-01:00:00            05:30:00-12:30:00   
+19:00:00-23:30:00
+   03/24/98              00:00:00-01:30:00            08:00:00-15:00:00   
+19:30:00-23:30:00
+   03/25/98              00:00:00-02:30:00            09:00:00-15:30:00   
+21:00:00-23:30:00
+   03/26/98              00:00:00-03:30:00            10:00:00-16:30:00   
+22:30:00-23:30:00
+   03/27/98              00:00:00-05:00:00            11:00:00-17:30:00   
+23:30:00
+   03/28/98              00:00:00-05:30:00            11:30:00-18:00:00
+   03/29/98              00:30:00-07:00:00            12:00:00-19:00:00   
+   03/30/98              01:00:00-07:30:00            12:30:00-19:30:00
+   03/31/98              02:00:00-08:30:00            13:00:00-20:30:00                       
+d) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   03/02/98              16:00:00
+   03/03/98              04:00:00
+   03/07/98              15:00:00
+   03/09/98              00:00:00      03:00:00-03:30:00                  
+04:30:00
+   03/16/98              20:00:00
+   03/18/98              15:00:00-17:00:00            21:30:00-22:00:00   
+   03/19/98              02:00:00-03:30:00            18:30:00            
+23:00:00
+   03/22/98              20:00:00
+   03/23/98              13:30:00-14:00:00            22:00:00
+   03/24/98              02:00:00      14:30:00
+   03/25/98              02:30:00-03:00:00
+   03/26/98              03:30:00-04:00:00
+   03/27/98              16:30:00
+   03/28/98              06:00:00      18:00:00
+   03/29/98              06:00:00      18:30:00
+   03/30/98              06:00:00
+   03/31/98              20:30:00
+
+April 1-30, 1998 Sampling Period
+   Big Bay
+a) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   04/01/98              08:00:00-09:00:00            14:30:00- 15:30:00  
+20:00:00 - 21:30:00
+   04/02/98              03:30:00-06:00:00            09:00:00- 10:00:00  
+15:00:00 - 18:00:00 
+21:00:00 - 22:00:00
+   04/03/98              04:30:00-06:00:00            10:00:00-11:00:00   
+16:00:00 - 22:30:00
+   04/04/98                            06:00:00-14:00:00                  
+16:00:00 - 23:30:00
+   04/05/98              00:00:00      07:30:00-10:00:00                  
+11:30:00 - 12:00:00 
+   04/06/98                            00:00:00-01:00:00
+b) The following records include dissolved oxygen readings that are less than 
+28% saturation. The low readings occurred  during late ebb tides and early flood 
+tides.
+   04/01/98                            20:00:00
+   04/02/98                            08:30:00-09:00:00
+   04/03/98                            09:30:00
+   04/07/98                            00:00:00
+c) The following records include turbidity readings greater than 1000 NTU. These 
+high values reflect the very turbid conditions that exist during heavy rainfall 
+and high wind events.
+   04/03/98              18:30:00-19:30:00
+
+   St. Pierre
+a) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   04/01/98              02:30:00-09:00:00            13:30:00-21:30:00   
+   04/02/98              02:30:00-10:00:00            14:00:00-22:00:00
+   04/03/98              03:30:00-11:00:00            15:30:00-23:00:00
+   04/04/98              05:00:00-13:00:00            19:00:00-23:30:00
+   04/05/98              00:00:00-12:30:00            18:00:00-23:30:00
+   04/06/98              00:00:00-00:30:00            07:30:00-13:00:00   
+19:30:00-23:30:00
+   04/07/98              00:00:00-01:30:00            08:00:00            
+   04/10/98              10:00:00-16:30:00            23:30:00
+   04/11/98              00:00:00-04:00:00
+   04/15/98              19:00:00
+   04/16/98              19:30:00-20:00:00
+   04/17/98              21:00:00
+   04/18/98              08:30:00-09:30:00
+b) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   04/01/98              18:00:00
+   04/03/98              16:00:00-23:30:00
+   04/04/98              00:00:00      03:00:00-06:00:00                  
+07:00:00
+   04/05/98              00:30:00      01:30:00       20:00:00
+   04/06/98              14:30:00-23:30:00
+   04/07/98              00:00:00-07:30:00
+c) The following records include turbidity readings that are greater than 1000 
+NTU. These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   04/14/98              08:30:00-09:00:00            12:30:00            
+14:30:00            15:30:00-
+16:00:00
+           17:00:00-17:30:00           23:00:00
+   04/15/98              00:00:00      02:00:00-02:30:00                  
+03:30:000           7:00:00
+           11:30:00      14:00:00      22:30:00
+   04/16/98              06:00:00      08:30:00-09:00:00                  
+22:00:00
+   04/17/98              13:30:00      17:00:00
+   04/18/98              12:30:00      18:00:00-18:30:00                  
+20:30:00-21:00:00
+   04/19/98              01:00:00-01:30:00            02:30:00-04:00:00   
+12:00:00            
+13:00:00
+           22:00:00
+   04/20/98              21:00:00      23:00:00
+   04/21/98              23:00:00
+   04/23/98              03:00:00-04:00:00
+   04/26/98              00:00:00-00:30:00            07:30:00            
+09:00:00            11:00:00
+           12:00:00      14:00:00      17:00:00       19:30:00
+           20:00:00-21:00:00
+   04/27/98              23:30:00
+   04/28/98              01:00:00      06:00:00       07:00:00            
+12:00:00-12:30:00
+           13:30:00
+   04/29/98              02:00:00      03:00:00       06:30:00
+   04/30/98              02:30:00-03:00:00            04:00:00-04:30:00   
+05:30:00-09:00:00             
+16:00:00  17:30:00 
+d) The following records include dissolved oxygen (DO) reading that are less 
+than 28% air saturation.  The low readings occurred during late ebb tides and 
+early flood tides.
+   04/04/98              00:30:00-02:30:00
+   04/29/98              00:30:00-08:30:00            11:30:00-12:00:00   
+15:30:00-20:00:00
+e) From 09:00 on April 10 to 23:30 on April 30, pH data were deleted because the 
+probe malfunctioned during deployment.
+f) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.
+   04/25/98              16:30:00          THRU   04/30/98    23:30:00
+
+May 1-31, 1998 Sampling Period
+   Big Bay
+a) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal mesohaline/polyhaline salinity range (18 
+and 35 ppt ) for this site.  The low readings were probably due to extremely low 
+tides or heavy rainfall events.
+   05/16/98              19:30:00-20:00:00
+   05/17/98              20:30:00-21:30:00
+   05/18/98              09:30:00      21:30:000-22:00:00
+   05/21/98              00:00:00      12:30:00
+b) The following records include dissolved oxygen readings that are less than 
+28% air saturation. The low readings occurred during late ebb tides and early 
+flood tides.
+   05/17/98              07:30:00      19:30:00-20:00:00
+   05/18/98              08:30:00      20:30:00-21:00:00
+   05/19/98              21:30:00
+   05/20/98              22:00:00-23:00:00
+   05/21/98              22:00:00                     23:30:00
+   05/22/98              00:00:00-00:30:00            12:00:00-12:30:00
+   05/23/98              01:00:00
+   05/24/98              02:30:00
+   05/25/98              03:30:00
+   05/26/98              04:30:00
+   05/27/98              05:30:00
+   05/28/98              06:00:00
+   05/29/98              06:00:00-06:30:00            18:30:00
+   05/30/98              06:30:00-07:30:00            19:00:00-19:30:00
+   05/31/98              07:00:00-08:00:00            19:30:00-20:00:00
+
+   St. Pierre
+a) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal mesohaline/polyhaline salinity range (18 
+and 35 ppt) for this site. The low readings were probably due to extremely low 
+tides or heavy rainfall events.
+   05/01/98              16:30:00-21:30:00
+   05/02/98              04:30:00-11:00:00            16:00:00-22:30:00
+   05/03/98              05:30:00-11:30:00            17:00:00-23:00:00
+   05/04/98              05:30:00-12:30:00            18:00:00-23:30:00
+   05/05/98              00:00:00-01:00:00            06:30:00-08:30:00   
+   05/08/98              13:30:00-15:00:00            22:30:00-23:30:00
+   05/09/98              00:00:00-04:30:00            09:30:00-16:00:00
+   05/10/98              01:00:00-05:00:00            12:00:00-16:30:00
+   05/11/98              01:00:00-05:30:00            13:00:00-17:00:00
+   05/12/98              05:00:00      16:00:00-18:00:00                  
+   05/13/98              06:00:00      17:00:00-18:00:00
+   05/14/98              06:30:00      18:30:00 
+   05/15/98              18:30:00-19:30:00            
+   05/16/98              04:00:00-09:00:00            14:30:00-21:30:00   
+   05/17/98              03:30:00-11:00:00            14:30:00-23:00:00
+   05/18/98              04:00:00-11:30:00            15:30:00-23:30:00
+   05/19/98              05:30:00-12:00:00            17:30:00-23:30:00
+   05/20/98              00:00:00      06:00:00-13:30:00                  
+18:30:00-23:30:00
+   05/21/98              00:00:00-02:30:00            06:30:00-14:30:00   
+20:00:00-23:30:00
+   05/22/98              00:00:00-03:00:00            08:00:00-14:30:00   
+22:30:00-23:30:00
+   05/23/98              00:00:00-03:00:00            10:30:00-15:30:00
+   05/24/98              01:00:00-04:30:00            11:30:00-16:30:00
+   05/25/98              16:30:00
+   05/26/98              17:00:00-18:00:00
+   05/27/98              03:30:00-08:00:00            16:00:00-20:00:00
+b) From 00:00 on May 1 to 08:30 on May 5, pH data were deleted because the probe 
+malfunctioned during the April 10-May 5 deployment.
+c) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment. 
+   05/01/98              00:00:00      THRU           05/05/98 08:30:00
+   05/23/98              08:30:00-15:00:00            20:30:00-23:30:00
+   05/24/98              00:00:00-04:30:00            09:00:00-15:30:00   
+21:30:00-23:30:00
+   05/25/98              00:00:00-06:00:00            09:00:00-15:30:00   
+22:30:00-23:30:00
+   05/26/98              00:00:00-18:30:00            22:30:00-23:30:00
+   05/27/98              00:00:00      THRU   05/31/98  23:30:00
+d) The following records include turbidity readings that are greater than 1000 
+NTU.  These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   05/23/98              21:00:00      22:00:00       23:30:00
+   05/24/98              01:00:00      02:00:00       23:00:00-23:30:00
+   05/28/98              22:30:00-23:30:00
+e) The following records include dissolved oxygen readings that are less than 
+28% air saturation. The low readings occurred  during late ebb tides and early 
+flood tides.
+   05/25/98              16:30:00-17:00:00
+
+June 1-30, 1998 Sampling Period
+   Big Bay
+a) The following records include dissolved oxygen (DO) readings that are less 
+than 28% air saturation.
+   The low values occurred during late ebb tides and early flood tides.
+   06/01/98              08:30:00-09:30:00            21:00:00
+   06/08/98              02:30:00
+   06/09/98              03:00:00-03:30:00
+   06/10/98              04:00:00-04:30:00            15:30:00-16:30:00
+   06/12/98              03:30:00-05:30:00
+   06/13/98              05:00:00-07:00:00            16:00:00
+   06/14/98              03:30:00-08:00:00            15:30:00-16:30:00   
+18:30:00-19:00:00
+   06/18/98              16:00:00      21:00:00-23:30:00
+   06/19/98              23:00:00-23:30:00
+   06/20/98              00:00:00
+   06/21/98              00:30:00-01:00:00
+   06/24/98              03:30:00-04:00:00
+b) From 11:00 on June 5 to 10:30 on June 24, pH data were deleted because the 
+sensor malfunctioned during deployment.
+c) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal mesohaline/polyhaline salinity range (18 
+and 35 ppt) for this site. The heavy rainfall events during June may have caused 
+the low salinity conditions.
+   6/10/98 15:30:00-16:00:00
+   6/11/98 00:00:00-03:30:00
+d) The following records include turbidity readings that are greater than 1000 
+NTU. These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   06/10/98              15:30:00
+   06/10/98              16:30:00
+   06/14/98              13:00:00
+e) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.
+   06/16/98              06:30:00      THRU  06/17/98     23:00:00
+f) From 10:00 to 23:30 on June 30, dissolved oxygen (DO) data were deleted 
+because the DO membrane was damaged during deployment.
+
+   St. Pierre
+   During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.
+   06/01/98              00:00:00   THRU   06/02/98   13:30:00
+
+July 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on July 1 to 08:00 on July 7, dissolved oxygen (DO) data were 
+deleted because the membrane was damaged during the June 5-July 7 deployment.
+b) The following records include turbidity readings that are greater than 1000 
+NTU. These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   07/01/98              00:30:00
+   07/06/98              23:30:00
+   07/18/98              01:30:00
+   07/28/98              19:30:00
+c) The following records include salinity readings that are less than 18 ppt. 
+These readings are not within normal polyhaline/euhaline salinity range (18 and 
+40 ppt) for this site. The low readings were probably due to extremely low tides 
+or heavy rainfall events.
+   07/05/98              08:00:00-09:30:00
+   07/26/98              18:30:00
+   07/27/98              02:00:00-05:00:00
+   07/28/98              20:00:00-20:30:00
+   07/29/98              03:00:00-07:00:00
+d) The following records included dissolved oxygen (DO) readings that are less 
+than 28% air saturation.
+   The low readings occurred  during late ebb tides and early flood tides.  
+   07/10/98              04:00:00-04:30:00
+   07/11/98              04:30:00-05:00:00
+   07/12/98              05:30:00
+   07/14/98              07:00:00-07:30:00
+   07/15/98              07:30:00-08:00:00            20:00:00
+   07/16/98              08:00:00-08:30:00            21:00:00
+   07/17/98              21:30:00
+   07/18/98              22:30:00-23:30:00
+   07/20/98              00:00:00-01:00:00
+   07/21/98              01:00:00-02:00:00
+   07/22/98              02:00:00-03:00:00
+e) From 10:00 on July 24 to 23:30 on July 31, dissolved oxygen (DO) data were 
+deleted because the DO membrane was accidentally punctured prior to deployment.
+
+   St. Pierre
+a) The following records included dissolved oxygen (DO) readings that are less 
+than 28% air saturation. Most of the low readings occurred during late ebb tides 
+and early flood tides; a few low readings occurred during other tidal cycles 
+(see section c)).
+   07/12/98              02:30:00      08:30:00-09:00:00                  
+10:00:00            11:00:00
+           12:00:00      20:30:00
+   07/13/98              19:00:00-20:00:00
+   07/15/98              07:30:00
+   07/16/98              02:00:00      05:30:00       07:00:00            
+08:00:00
+           09:00:00-12:00:00           13:00:00       14:00:00            
+19:30:00
+           21:30:00-23:30:00
+   07/17/98              00:00:00      08:00:00       21:30:00            
+22:30:00
+           23:30:00
+   07/18/98              00:00:00-16:30:00            22:30:00            
+23:30:00
+   07/19/98              00:00:00-07:30:00            08:30:00-12:30:00   
+15:00:00            
+16:00:00-17:00:00
+           18:00:00
+   07/29/98              17:00:00      18:00:00
+b) The following records include dissolved oxygen (DO) readings that remain low 
+during two successive tidal cycles, and many of the readings are less than 28% 
+air saturation. It does not appear that the DO membrane was fouled, and a post-
+deployment DO calibration check of 90% air saturation indicates that membrane 
+was damaged during the deployment. Further investigations are required to 
+ascertain the cause of the anomalous events.
+   07/12/98              02:00:00-12:00:00
+   07/16/98              02:00:00-14:30:00
+   07/18/98              00:00:00-17:00:00
+   07/19/98              00:00:00-17:00:00
+c) The following record includes a turbidity readings greater than 1000 NTU. The 
+high value reflects the very turbid conditions that exist during heavy rainfall 
+and high wind events.
+   07/16/98              00:30:00
+
+August 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on August 1 to 09:00 on August 4, dissolved oxygen (DO) data were 
+deleted because the DO membrane was accidentally punctured prior to the July 24-
+August 4 deployment period.
+b) The following records include negative turbidity readings.  The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   08/17/98              10:30:00
+   08/18/98              00:00:00-01:00:00            04:30:00-05:00:00   
+06:00:00
+   08/18/98              12:30:00      18:00:00
+   08/19/98              00:00:00-01:30:00
+c) The following record includes a turbidity reading that is greater than 1000 
+NTU. The high values reflect the very turbid conditions that exist during heavy 
+rainfall and high wind events.
+   08/16/98              18:00:00
+
+   St. Pierre
+   The following records include dissolved oxygen (DO) readings that are less 
+than 28% air saturation. The low readings occurred  during late ebb tides and 
+early flood tides.
+   08/15/98              07:30:00-08:00:00
+   08/18/98              00:30:00      23:00:00-23:30:00
+
+September 1-30, 1998 Sampling Period
+   Big Bay
+   The following records include negative depth readings. The depth data were 
+not deleted because the salinity and dissolved oxygen readings indicate the data 
+logger was submerged during these periods.
+   The negative depth values may be correlated to low barometric pressure 
+weather systems.
+   09/04/98              00:30:00-01:00:00            10:30:00-13:00:00
+   09/05/98              01:00:00
+   09/08/98              03:30:00-04:00:00            15:00:00-16:30:00
+   09/09/98              03:30:00-04:00:00
+
+   St. Pierre
+a) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   09/09/98              00:30:00      21:30:00
+   09/10/98              04:30:00      06:30:00
+   09/12/98              09:00:00
+   09/13/98              14:30:00
+   09/16/98              09:30:00-10:00:00
+b) The following records include turbidity readings that are greater than 1000 
+NTU.  The high values reflect the very turbid conditions that exist during heavy 
+rainfall and high wind events.
+   09/04/98              05:00:00
+   09/09/98              03:30:00-05:00:00            20:30:00
+   09/10/98              10:30:00      13:30:00
+   09/11/98              00:00:00      16:00:00
+   09/12/98              14:00:00
+   09/13/98              07:30:00      10:00:00-10:30:00
+   09/14/98              14:30:00      15:30:00
+   09/15/98              05:30:00      07:00:00
+   09/19/98              16:00:00
+b) At 16:30 on September 19, the dissolved oxygen (DO) reading was less than 28% 
+air saturation.  The low reading occurred during an ebb tide.
+
+October 1-31, 1998 Sampling Period
+   Big Bay
+a) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   10/23/98              00:30:00      01:30:00-02:00:00                  
+04:30:00
+   10/24/98              01:00:00-01:30:00            02:30:00            
+03:30:00-05:00:00   
+22:30:00
+           23:30:00
+   10/25/98              00:30:00-04:30:00            05:30:00-06:00:00   
+22:30:00-23:30:00
+   10/26/98              00:00:00-06:30:00            23:30:00
+   10/27/98              00:00:00-06:30:00            07:30:00-08:30:00
+   10/28/98              00:30:00-02:30:00            03:30:00-08:00:00   
+21:00:00
+   10/29/98              01:30:00-06:30:00            08:00:00
+   10/30/98              03:30:00      10:00:00       16:30:00
+   10/31/98              04:30:00      17:30:00
+b) During the following period, the pH data were deleted because the sensor 
+malfunctioned during the October 22-November 9 deployment
+   10/22/98              09:30:00      THRU           10/31/98    23:30:00
+
+   St. Pierre
+a) The following records include dissolved oxygen (DO) readings that are less 
+than 28% saturation.  The low readings occurred  during late ebb tides and early 
+flood tides.
+   10/05/98              13:30:00      16:30:00-17:00:00                  
+22:30:00
+   10/06/98              05:30:00-06:00:00            10:30:00            
+19:30:00
+   10/07/98              00:00:00      08:30:00
+b) The following records include turbidity readings that are greater than 1000 
+NTU. These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   10/06/98              01:30:00      12:00:00       18:00:00
+   10/07/98              11:00:00-11:30:00
+   10/11/98              00:00:00      10:00:00
+   10/12/98              23:30:00
+   10/15/98              05:00:00      16:30:00
+   10/16/98              16:00:00      17:00:00       18:00:00-18:30:00
+   10/18/98              15:00:00-15:30:00            23:30:00
+   10/19/98              06:30:00      19:30:00
+c) During the following period, the dissolved oxygen (DO) data were deleted 
+because the readings were negative.
+   10/07/98              00:30:00      08:00:00       
+
+November 1-30, 1998 Sampling Period
+   Big Bay
+a) During the following period, the pH data were deleted because the sensor 
+malfunctioned during the October 22-November 9 deployment
+   11/01/98              00:00:00      THRU           11/09/98    09:30:00
+b) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   11/01/98              06:00:00      18:30:00
+   11/04/98              21:00:00
+   11/07/98              23:30:00
+   11/09/98              07:30:00
+   11/11/98              22:30:00
+   11/12/98              02:30:00-03:30:00            04:30:00-06:00:00   
+10:30:00            
+22:00:00
+           23:30:00
+   11/15/98              00:30:00-01:00:00
+   11/16/98              01:30:00
+   11/17/98              13:00:00      19:00:00
+   11/18/98              01:30:00      02:30:00-03:00:00                  
+08:00:00
+   11/20/98              00:00:00      03:30:00-04:00:00
+   11/21/98              20:30:00      21:30:00
+   11/22/98              22:00:00
+   11/23/98              05:30:00-06:00:00            22:30:00
+   11/24/98              00:00:00      11:30:00            22:30:00-23:30:00
+   11/25/98              00:00:00      01:00:00       03:00:00-03:30:00   
+07:30:00
+           20:00:00
+   11/26/98              00:00:00
+   11/27/98              05:00:00      09:00:00-09:30:00                  
+14:00:00            22:00:00-
+22:30:00
+   11/28/98              03:00:00      10:30:00
+   11/29/98              04:00:00      10:30:00-11:30:00                  
+16:30:00
+   11/30/98              12:00:00
+c) From 10:00 on November 11 to 23:30 on November 30, dissolved oxygen (DO) data 
+were deleted because the membrane was damaged at the beginning of the November 
+11-December 2 deployment. 
+d) From 10:00 on November 11 to 23:30 on November 30, pH data were deleted 
+because sensor was fouled during the November 11-December 2 deployment.
+
+   St. Pierre
+a) The following records include turbidity readings that are greater than 1000 
+NTU. These high values reflect the very turbid conditions that exist during 
+heavy rainfall and high wind events.
+   11/06/98              16:30:00
+   11/17/98              08:30:00
+   11/18/98              08:30:00
+b) From 10:30 on November 11 to 23:30 on November 30, dissolved oxygen (DO) data 
+were deleted because the DO membrane was damaged during the November 11-December 
+2 deployment.
+c) From 10:30 on November 11 to 23:30 on November 30, pH data were deleted 
+because the sensor malfunctioned during the November 11-December 2 deployment.
+
+December 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on December 1 to 17:30 on December 1, dissolved oxygen (DO) data 
+were deleted because the membrane was damaged during the November 11-December 2 
+deployment.
+b) From 00:00 on December 1 to 17:30 on December 1, pH data were deleted because 
+the sensor malfunctioned during the November 11-December 2 deployment.
+c) The following records include negative turbidity readings. The negative 
+readings were caused by debris on the lens, a wiper malfunction, or animal 
+interference.
+   12/01/98              13:00:00      14:00:00
+d) From 10:30 on December 4 to 10:00 on December 16, pH data were deleted 
+because the sensor malfunctioned during deployment.
+e) From 11:00 on December 21 to 23:30 on December 31, turbidity data were 
+deleted because the sensor's wiper malfunctioned during the December 21, 1998-
+January 20, 1999 deployment.
+f) The following record include a negative depth reading. The depth datum was 
+not deleted because the salinity and dissolved oxygen readings indicate the data 
+logger was submerged during this periods.
+The negative depth value may be correlated to a low barometric pressure 
+weather system.
+   12/29/98              23:00:00
+
+   St. Pierre
+b) From 00:00 on December 1 to 08:30 on December 2, dissolved oxygen (DO) data 
+were deleted because the DO membrane was damaged during deployment. A DO spike 
+and subsequent very high readings indicated the membrane was punctured at the 
+beginning of the deployment; however, a membrane integrity test was not 
+performed during post-deployment calibration check.
+b) From 00:00 on December 1 to 08:30 on December 2, pH data were deleted because 
+the sensor malfunction during the November 11-December 2 deployment. 
+c) From 11:00 on December 4 to 09:00 on December 7, pH data were deleted because 
+the sensor malfunctioned during deployment.
+d) The following records include pH readings that are higher than expected for 
+this site (pH 8.5-10).
+   However, the data were not deleted because the pH calibration held through 
+the December 21, 1998-January 20, 1999 deployment. The cause of the high 
+readings are not known at this time.
+   12/21/98              10:30:00 THRU   12/31/98   23:30:00
+
+11.        Missing data
+January 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on January 1 to 23:30 on January 31, turbidity sensor was not 
+installed. The sensor was   sent to YSI for repairs to the wiper gear box.
+b) From 00:00 on January 1 to 09:00 on January 6, pH data were deleted because 
+sensor malfunctioned during the December 11, 1997-January 6, 1998 deployment. 
+The malfunction was probably caused by faulting controlling circuit of pH probe 
+port. Data logger returned to YSI for repair, and another unit (#95a28372) was 
+deployed at site. 
+c) From 09:30 on January 6 to 10:00 on January 13, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+d) From 10:30 on January 13 to 23:30 on January 31, pH data were deleted because 
+probe malfunctioned during the January 13-February 5 deployment, as determined 
+by post-deployment check. The probe read pH 7 while immersed in the pH 10 
+standard solution.
+
+   St. Pierre
+a) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the December 11, 1997-January 6, 1998 
+deployment by sediment from the nearby eroding bank. DO readings were extremely 
+low (<1.0 mg/L), indicating that the DO membrane was blocked by debris or 
+sediment.  However, a post-deployment DO calibration reading of 102% air sat.   
+indicated that the DO membrane was not damaged by the fouling.
+   01/01/98  00:00:00   THRU  01/06/98   09:30:00
+b) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward during similar time periods as the DO 
+downward drift, suggesting that the sediment from the eroding bank was the cause 
+of  the low readings.
+   01/01/98              00:00:00 THRU 01/06/98    09:30:00
+c) From 00:00 on January 1 to 09:30 on January 6, turbidity data were deleted 
+because the wiper malfunctioned during the December 11, 1997-January 6, 1998 
+deployment. The gear box jammed, preventing the wiper from clearing the lens.
+d) From 10:00 on January 6 to 09:00 on January 13, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+February 1-28, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on February 1 to 11:30 on February 10, turbidity sensor not 
+installed. The sensor was sent to YSI for repairs to the wiper gear box.
+b) From 12:00 on February 1 to 12:00 on February 5, pH data were deleted because 
+the sensor malfunctioned during the January 13-February 5 deployment, as 
+determined by post-deployment check. The probe read pH 7 while immersed in the 
+pH 10 standard solution.
+c) From 12:30 on February 5 to 11:30 on February 10, no data are available due 
+to downtime for servicing and calibrating of data loggers.
+d) From 12:00 on February 10 to 23:30 on February 28, pH sensor was not 
+installed because sensor malfunctioned during previous deployment. Replacement 
+sensor was ordered.
+
+   St. Pierre
+a) From 12:30 on February 5 to 11:30 on February 10, no data are available due 
+to downtime for servicing and calibrating of data loggers.
+b) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment. 
+   02/10/98              12:00:00   THRU      02/28/98   23:30:00
+c) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward and did not exhibit the diurnal cyclic 
+pattern during similar time periods as the DO downward drift, suggesting that 
+the sediment from the eroding bank was the cause of the low readings.
+   02/13/98              16:00:00   THRU      02/25/98   21:00:00
+
+March 1-31, 1998 Sampling Period
+   Big Bay
+a) The pH sensor was not installed during March because sensor malfunctioned 
+during previous deployment. Replacement sensor was ordered.
+b) From 09:00 on March 10 to 12:00 on March 16, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+   St. Pierre
+a) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.  Most of the DO readings 
+were extremely low (<2.0 mg/L), indicating that the DO membrane was blocked by 
+debris or sediment. However, a post-deployment DO calibration reading of 104.6.% 
+air sat. indicated that the DO membrane was not damaged by the fouling.
+   03/01/98              00:00:00     THRU     03/10/98   09:00:00
+b) During the following period, the specific conductance and salinity data were 
+deleted.  The readings drifted downward and did not exhibit the diurnal cyclic 
+pattern during similar time periods as the DO downward drift, suggesting that 
+the sediment from the eroding bank was the cause of the low readings.
+   03/01/98              08:30:00     THRU     03/10/98   09:00:00
+c) From 09:30 on March 10 to 12:30 on March 16, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+April 1-30, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on April 1 to 07:30 on April 7, pH sensor was not installed. 
+Replacement sensor was ordered.
+b) From 08:00 on April 7 to 08:30 on April 10, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+c) From 09:00 on April 10 to 23:30 on April 30, no data were collected because 
+data logger did not start recording data at the preset start-time for the April 
+10-May 5 deployment. We do not know why the unattended mode was not initiated 
+during the April 10-May 5 deployment; however, the logger work properly during 
+the next deployment period.
+
+   St. Pierre
+a) From 08:30 on April 7 to 09:00 on April 10, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+b) From 09:30 on April 10 to 23:30 on April 30, no depth data were collected 
+because the sensor was accidentally deactivated before data logger was deployed.
+c) From 09:00 on April 10 to 23:30 on April 30, pH data were deleted because the 
+probe malfunctioned during deployment, as determined by post-deployment check. 
+The probe read pH 7 while immersed in the pH 10 standard solution.
+d) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.  DO readings were low (<4.0 
+mg/L), indicating that the DO membrane was blocked by debris or sediment. 
+However, a post-deployment DO calibration reading of 104.6.% air sat. indicated 
+that the DO membrane was not damaged by the fouling.
+   04/25/98              16:30:00          THRU   04/30/98    23:30:00
+
+May 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on May 1 to 09:00 on May 5, no data was collected because data 
+logger did not start recording data at the preset time. We do not know why the 
+unattended mode was not initiated during the April 10-May 5 deployment; however, 
+the logger work properly during the next deployment period.
+b) From 09:30 on May 5 to 12:00 on May 8, no data are available due to downtime 
+for servicing and calibrating of data loggers.
+c) From 12:30 on May 8 to 23:30 on May 31, pH sensor was not installed because 
+the data logger could not calibrate sensor during pre-deployment calibration 
+procedures.
+
+   St. Pierre 
+a) From 00:00 on May 1 to 08:30 on May 5, no depth data were collected because 
+the sensor was accidentally deactivated before data logger was deployed on April 
+10.
+b) From 00:00 on May 1 to 08:30 on May 5, pH data were deleted because the probe 
+malfunctioned during deployment, as determined by post-deployment check. The 
+probe read pH 7 while immersed in the pH 10 standard solution.
+c) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.  The DO exhibited little or 
+no cyclic pattern, and many of the DO readings were low (<4.0 mg/L), indicating 
+that the DO membrane was blocked by debris or sediment. 
+   However, a post-deployment DO calibration reading of 101.1% air sat. 
+indicated that the DO membrane was not damaged by the fouling.
+   05/01/98              00:00:00      THRU           05/05/98 08:30:00
+   05/23/98              08:30:00-15:00:00            20:30:00-23:30:00
+   05/24/98              00:00:00-04:30:00            09:00:00-15:30:00   
+21:30:00-23:30:00
+   05/25/98              00:00:00-06:00:00            09:00:00-15:30:00   
+22:30:00-23:30:00
+   05/26/98              00:00:00-18:30:00            22:30:00-23:30:00
+   05/27/98              00:00:00    THRU   05/31/98  23:30:00
+d) From 09:00 on May 5 to 12:30 on May 8 , no data are available due to downtime 
+for servicing and calibrating of data loggers.
+e) From 13:00 on May 8 to 23:30 on May 31, pH sensor was not installed because 
+the sensor malfunctioned during previous deployment. Replacement sensor was 
+ordered.
+
+June 1-30, 1998 Sampling Period
+   Big Bay 
+a) From 00:00 on June 1 to 08:00 on June 2, pH sensor was not installed because 
+the data logger could not calibrate sensor during pre-deployment calibration 
+procedures on May 8.
+b) From 08:30 on June 2 to 10:30 on June 5 , no data are available due to 
+downtime for servicing and calibrating of data loggers.
+c) From 11:00 on June 5 to 10:30 on June 24, pH data were deleted because the 
+sensor malfunctioned during deployment, as determined by post-deployment check.  
+The sensor read pH 8.7 while immersed in the pH 7 standard solution. During 
+deployment, the pH increased from 7.74 to 16.44 and did not exhibit normal 
+diurnal fluctuations. The sensor was re-conditioned and worked properly during 
+the next deployment.
+d) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.  The low readings and lack 
+of a cyclic pattern indicated that the DO membrane was blocked by debris or 
+sediment. However, a post-deployment DO calibration reading of 109% air sat. 
+indicated that the DO membrane was not damaged by the fouling.
+   06/16/98              06:30:00      THRU  06/17/98     23:00:00
+e)  From 11:00 on June 24 to 09:30 on June 30, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+f) From 10:00 to 23:30 on June 30, dissolved oxygen (DO) data were deleted 
+because the DO membrane was damaged during deployment, as determined by post-
+deployment check. The high DO readings during the membrane integrity test 
+indicated that the membrane was punctured.
+
+   St. Pierre 
+a) During the following period, the dissolved oxygen (DO) data were deleted 
+because the sensor was fouled during the deployment.  The DO exhibited little or 
+no cyclic pattern, and many of the DO readings were low (<4.0 mg/L), indicating 
+that the DO membrane was blocked by debris or sediment. 
+   However, a post-deployment DO calibration reading of 101.1% air sat. 
+indicated that the DO membrane was not damaged by the fouling.
+   06/01/98              00:00:00   THRU   06/02/98   13:30:00
+b) From 00:00 on June 1 to 13:30 on June 2, pH sensor was not installed because 
+probe could not calibrate before sonde was deployed on May 8. Replacement sensor 
+was ordered.
+c) From 09:00 on June 2 to 11:30 on June 5 , no data are available due to 
+downtime for servicing and calibrating of data loggers.
+d) From 12:00 on June 5 to 11:30 on June 24, no data were collected because data 
+logger did not start recording data at the preset time. We do not know why the 
+unattended mode was not initiated during the June 5-24 deployment; however, the 
+logger work properly during the next deployment period.
+e) From 12:00 on June 24 to 10:30 on June 30, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+July 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on July 1 to 08:00 on July 7, dissolved oxygen (DO) data were 
+deleted because the membrane was damaged during the June 5-July 7 deployment, as 
+determined by post-deployment check. The high DO readings recorded during the 
+membrane integrity test indicated that the membrane was punctured.
+b) From 08:30 on July 7 to 10:30 on July 9, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+c) From 11:00 on July 22 to 09:30 on July 24, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+d) From 10:00 on July 24 to 23:30 on July 31, dissolved oxygen (DO) data were 
+deleted because the DO membrane was accidentally punctured prior to deployment. 
+Unfortunately, a membrane integrity test was not conducted; however similar 
+results occurred when the DO sensor was switched from the air saturated storage 
+cup to the saltwater environment and then back to an air saturated storage 
+cup. The reading immediately rose from 100% to 600% air saturation when the data 
+logger was deployed at the site, and immediately dropped to 100% air saturation 
+when switched from the saltwater to the air saturated environment.
+
+   St. Pierre
+a) From 09:00 on July 7 to 11:00 on July 9, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+b) From 19:30 on July 20 to 10:30 on July 22, no data were collected because the 
+logger stopped working when battery voltage dropped below 10 volts; however, 
+reason for premature drain on battery is not known.
+c) From 11:00 on July 22 to 09:00 on July 24, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+August 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on August 1 to 09:00 on August 4, dissolved oxygen (DO) data were 
+deleted because the DO membrane was accidentally punctured prior to the July 9-
+August 4 deployment.  Unfortunately, a membrane integrity test was not 
+conducted; however similar results occurred when the DO sensor was switched from 
+the air saturated storage cup to the saltwater environment and then back to an 
+air saturated storage cup. The reading immediately rose from 100% to 600% air 
+saturation when the data logger was deployed at the site, and immediately 
+dropped to 100% air saturation when switched from the saltwater to the air 
+saturated environment. deployment.
+b) From 09:30 on August 4 to 12:00 on August 6, no data are available due to 
+downtime for servicing and calibrating of data loggers. 
+c) From 09:30 on August 19 to 09:00 on August 21, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+d) At 15:00 on August 24, data logger was retrieved because Hurricane Bonnie and 
+Hurricane Earl were expected to come ashore near the deployment site. Logger was 
+not deployed during the remainder of the month.
+
+   St. Pierre
+a) From 10:00 on August 4 to 09:30 on August 6, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+b) From 09:00 on August 19 to 10:00 on August 21, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+c) At 16:00 on August 24, data logger was retrieved because Hurricane Bonnie and 
+Hurricane Earl were expected to come ashore near the deployment site. Logger was 
+not deployed during the remainder of the month.
+
+September 1-30, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on September 1 to 10:00 September 2, data logger was not deployed 
+because Hurricane Bonnie and Hurricane Earl were expected to come ashore near 
+the deployment site.
+b) From 09:00 on September 16 to 08:30 on September 18, no data are available 
+due to downtime for servicing and calibrating of data loggers.
+c) From 09:30 on September 30 to 23:30 on September 30, no data are available 
+due to downtime for servicing and calibrating of data loggers.
+
+   St. Pierre
+a) From 00:00 on September 1 to 09:00 on September 2, data logger was deployed 
+because Hurricane Bonnie and Hurricane Earl were expected to come ashore near 
+the deployment site. Logger was not deployed during the remainder of the month.
+b) From 09:30 on September 16 to 08:00 on September 18, no data are available 
+due to downtime for servicing and calibrating of data loggers.
+c) From 21:30 on September 21 to 09:00 on September 30, data logger stopped 
+because battery voltage dropped below 10 volts.
+d) From 09:30 on September 30 to 23:30 on September 30, no data are available 
+due to downtime for servicing and calibrating of data loggers.
+
+October 1-31, 1998 Sampling Period
+   Big Bay
+a) From 00:00 on October 1 to 08:30 on October 2, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+b) From 09:30 on October 20 to 09:00 on October 22, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+c) During the following period, the pH data were deleted because the sensor 
+malfunctioned during the October 22-November 9 deployment, as determined by 
+post-deployment check. The probe read pH 7 while immersed in the pH 10 standard 
+solution.
+   10/22/98              09:30:00      THRU           10/31/98    23:30:00
+
+   St. Pierre
+a) From 00:00 on October 1 to 09:00 on October 2, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+b) During the following period, the dissolved oxygen (DO) data were deleted 
+because the readings were negative. The negative readings were probably caused 
+by debris on the DO membrane. 
+   10/07/98              00:30:00      08:00:00
+c) From 09:00 on October 20 to 08:30 on October 22, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+
+November 1-30, 1998 Sampling Period
+   Big Bay
+a) During the following period, the pH data were deleted because the sensor 
+malfunctioned during the October 22-November 9 deployment, as determined by 
+post-deployment check. The probe read pH 7 while immersed in the pH 10 standard 
+solution.
+   11/01/98              00:00:00      THRU           11/09/98    09:30:00
+b) From 10:00 on November 9 to 09:30 on November 11, no data are available due 
+to downtime for servicing and calibrating of data loggers.
+c) From 10:00 on November 11 to 23:30 on November 30, dissolved oxygen (DO) data 
+were deleted  because the membrane was damaged at the beginning of the 
+deployment.  DO spike and subsequent high readings indicated a punctured 
+membrane at the beginning of deploy; however, the membrane integrity test was 
+not performed.
+d) From 10:00 on November 11 to 23:30 on November 30, pH data were deleted 
+because sensor was  fouled during deployment. The probe read pH 7 while immersed 
+in the pH 10 standard solution.
+
+   St. Pierre
+a) From 09:30 on November 9 to 10:00 on November 11, no data are available due 
+to downtime for servicing and calibrating of data loggers.
+b) From 10:30 on November 11 to 23:30 on November 30, dissolved oxygen (DO) data 
+were deleted   because the DO membrane was damaged during deployment.  A spike 
+in DO readings and subsequent   high readings indicated that membrane was 
+punctured membrane at the beginning of deployment.   However, the membrane 
+integrity test was not performed during post-deployment calibration check.
+c) From 10:30 on November 11 to 23:30 on November 30, pH data were deleted 
+because the sensor malfunction during deployment, as determined by post-
+deployment check. The probe read pH 7 while   immersed in the pH 10 standard 
+solution.
+
+December 1-31, 1998 Sampling Period
+   Big Bay 
+a) From 00:00 on December 1 to 17:30 on December 1, dissolved oxygen (DO) data 
+were deleted   because the membrane was damaged during the November 11-December 
+2 deployment. DO spike   and subsequent high readings indicated that membrane 
+was punctured at the beginning of the   deployment; however, the membrane 
+integrity test was not performed during post-deployment   calibration check.
+b) From 00:00 on December 1 to 17:30 on December 1, pH data were deleted because 
+the sensor malfunctioned during the November 11-December 2 deployment.  The 
+probe read pH 7 while immersed in the pH 10 standard solution.  The sensor was 
+re-conditioned, as per YSI instruction, after the deployment; the sensor 
+calibrated properly prior to the next deployment.
+c) From 18:00 on December 1 to 09:30 on December 2, no data were collected 
+because the data logger's memory was full.
+d) From 10:00 on December 2 to 10:00 on December 4, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+e) From 10:30 on December 4 to 10:00 on December 16, pH data were deleted 
+because the sensor  malfunctioned during deployment, as determined by post-
+deployment check. The 
+probe read pH 7   while immersed in the pH 10 standard solution.  The sensor was 
+re-conditioned, as per YSI   instruction after the deployment; the sensor 
+calibrated properly prior to the next deployment. 
+f) From 10:30 on December 16 to 10:30 on December 21, no data are available due 
+to downtime for   servicing and calibrating of data loggers.
+g) From 11:00 on December 21 to 23:30 on December 31, turbidity data were 
+deleted because the   sensor's wiper malfunctioned during the December 21, 1998-
+January 20, 1999 deployment.  It was   discovered during the post-deployment 
+check that the wiper was jammed. Note: all readings during   this period 
+exceeded 1600 NTU.
+
+   St. Pierre
+a) From 00:00 on December 1 to 08:30 on December 2, pH data were deleted because 
+the sensor   malfunction during deployment, as indicated by the post-deployment 
+check. The sensor read pH 7   while immersed in the pH 10 standard solution.
+b) From 00:00 on December 1 to 08:30 on December 2, dissolved oxygen (DO) data 
+were deleted   because the DO membrane was damaged during deployment. A DO spike 
+and subsequent very high   readings indicated the membrane was punctured at the 
+beginning of the deployment; however, a   membrane integrity test was not 
+performed during post-deployment calibration check.
+c) From 09:00 on December 2 to 10:30 on December 4, no data are available due to 
+downtime for servicing and calibrating of data loggers.
+d) From 11:00 on December 4 to 09:00 on December 7, pH data were deleted because 
+the sensor malfunctioned during deployment, as indicated by the post-deployment 
+check. 
+The sensor read pH 7 while immersed in the pH 10 standard solution.
+e) From 09:30 on December 7 to 11:00 on December 16, no data were collected 
+because the logger stopped working when battery voltage dropped below 10 volts; 
+however, reason for premature drain   on battery is not known.
+f) From 10:30 on December 16 to 10:00 on December 21, no data are available due 
+to downtime for   servicing and calibrating of data loggers.
+

@@ -1,0 +1,1594 @@
+North Carolina (NOC) NERR Water Quality Metadata
+January - December 2001
+Revised January 11, 2011
+    
+I. Data Set & Research Descriptors
+
+1) Principal Investigator(s) and Contacts:
+
+Principal Investigator:
+
+Dr. Steve W. Ross
+Research Coordinator
+North Carolina NERR 
+Center for Marine Science
+5600 Marvin K. Moss Lane
+Wilmington, NC 28409
+910-395-3905
+email: rosss@uncwil.edu
+
+Contact Persons:
+
+Dr. Steve W. Ross
+See above
+
+Tara L. Nye
+Research Biologist
+North Carolina NERR 
+Center for Marine Science
+5600 Marvin K. Moss Lane
+Wilmington, NC 28409
+910-350-2021
+email: nyet@uncwil.edu
+
+2) Entry Verification Process:
+
+The data are uploaded using the computer program EcoWatch that accompanies the 
+YSI 6000 series dataloggers.  After the file is uploaded from the water quality 
+instrument, EcoWatch is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std.dev.).  This information is printed out 
+and attached to the Field Log for the particular deployment. This printout is 
+used during file review to detect any gross outliers such as data taken when the 
+water quality instrument was removed from the water or those caused by 
+instrument failure. The data are exported as a .csv file and then opened into 
+a Microsoft Excel file that contains the current month's cumulative recordings. 
+When a complete month of data has been recorded the file is then reviewed.  The 
+first step is to format the data so that the parameter columns are in the 
+correct order and the data have the correct number of decimal place holders. The 
+CDMO 5.0 Excel macro is used to check for any dates and times that data were not 
+recorded due to maintenance, battery failure, or other causes. Missing dates and 
+times are inserted into the file and a period is inserted into the cells where 
+data would normally be. An explanation for the missing data is recorded onto the 
+Water Quality Editing Log.  Next, the data are filtered using an Excel macro to 
+find readings outside the instrument measurement range and the "normal" range 
+for the site in question. Data outside the instrument range are removed from the 
+file and a period is inserted into the cell(s).  An explanation for the missing 
+dates and times are recorded onto the Water Quality Editing Log. Data outside 
+the "normal" range of water quality for a particular site were investigated for 
+validity based on weather data, field observations, QC checks, PC6000 printouts, 
+and instrument diagnostics. If the data are rejected from the file a period is 
+inserted into the cell(s) and an explanation for the missing dates and times are 
+recorded onto metadata form.  The metadata form is then submitted with the data 
+file to the CDMO.  Tara Nye, Research Biologist, was responsible for data 
+management during 2001.  
+
+
+3) Research Objectives:
+
+Water quality instruments are deployed at the Masonboro Island and Zeke's Island 
+components of North Carolina's National Estuarine Research Reserve and are 
+anchored to the bottom of the selected sites. Measurements are taken at 30-
+minute intervals for approximately two-week periods. These sites are relatively 
+unimpacted by manmade perturbations and are considered long term monitoring 
+locations.  The goal is to establish long-term water quality monitoring at 
+relatively unimpacted sites by collecting data for each day of the year. 
+
+
+4) Research Methods:
+
+The Estuarine Water Quality Monitoring Program began on 2 March 1992 at the 
+Masonboro Island component, and 19 May 1994 at the Zeke's Island component. The 
+procedures described below were instituted in June 1995 and thus do not cover 
+data recorded previously. At this time we are only performing long term water 
+quality monitoring and not a specific experiment.
+
+Before each YSI 6000 is deployed, calibration and maintenance is performed 
+following the manufacturer's instructions (YSI Manual addendum 7/94, sections 
+3,4, and 7).  Calibration standards are only required for pH, turbidity and 
+salinity; all other parameters are done as described in the manual.  Buffer 
+solutions for a two-point pH calibration (pH 7 and 10) are purchased pre-made 
+from a scientific supply house. The conductivity standard is obtained from YSI. 
+The dissolved oxygen membranes are replaced before deployment and are allowed to 
+settle at least 24 hrs prior to deployment. 
+
+During deployment the weather conditions and tide stage are recorded in the 
+field observation log. The water quality instrument is placed inside a locked 
+steel cage, then anchored approximately 10cm off the bottom, and chained to a 
+post at the monitoring site. Every 30 minutes during the sampling period 
+measurements are taken for temperature, specific conductance, salinity, 
+dissolved oxygen saturation, dissolved oxygen concentration, depth, pH, and 
+turbidity. 
+
+At the end of the sample period the water quality instrument is brought back to 
+the laboratory.  The weather and water quality measurements are again noted in 
+the field observation log. The calibration drift and the effect of biofouling on 
+the water quality instrument are checked by comparing data readings in 
+calibration standards. The water quality data are then uploaded, and the 
+instrument is cleaned and calibrated as noted previously. 
+
+
+5) Site Location and Character:
+
+The four components of North Carolina's National Estuarine Research Reserve 
+(from north to south) are: 
+Currituck Banks, Rachel Carson, Masonboro Island and Zeke's Island. They are 
+located along the southeastern coast of the United States in the Atlantic Ocean. 
+Currently, only data from Masonboro Island and Zeke's Island components are 
+transferred to the CDMO. 
+
+1. Research Creek, Masonboro Island
+The Masonboro Island site is 0.72 km north east from the mouth of Whiskey
+Creek, and east of the Intracoastal Waterway (ICW), in a small navigable channel 
+called Research Creek at 34° 09'21.7" latitude and 77° 50'59.9" longitude. The 
+site has a salinity range from 18-35 ppt and a tidal range that averages 1.7 
+meters.  The creek bottom is characterized by sand and detritus based sediment 
+with areas of soft mud with a depth ranging from 0.34 to 2.45 m.  The sole 
+source for freshwater is rain.  Spartina spp. marsh and dunes surround the site, 
+which is relatively unimpacted by manmade perturbations and is not accessible to 
+road traffic.  The site does experience minimal boat traffic.  
+
+
+2. East Cribbing, Zeke's Island
+The Zeke's Island site is located 1.8 km south of Federal Point boat launch in a 
+tidal basin estuary at 33( 56'23.5" latitude and 77( 56'28.1" longitude. This 
+site receives minimal freshwater input from leakage of the Cape Fear River 
+through the 5.6 km rock jetty that separate the two bodies of water.  The site 
+has a salinity range from 15-35 ppt and a tidal range that averages 2 meters.  
+Depth varies, but typically it can be found to range from 0.11 to 2.30 meters.  
+Bottom type substratum consists of sand and detritus based sediment.  There are 
+no pollutants from land.  The site is surrounded by marsh and dunes, not 
+accessible to road traffic and minimal boat traffic.
+
+
+6) Data Collection Period
+
+Research Creek data collection began on 2 March 1992, while East Cribbing data 
+collection commenced on 19 May 1994. All monitoring is considered long term.
+
+Deployment and Retrieval Dates for 2001
+
+Began						Ended
+Research Creek:
+12/19/00, 14:00				01/12/00, 10:30
+01/12/01, 11:30				02/09/01, 10:30
+02/09/01, 11:00				02/28/01, 12:00
+02/28/01, 12:30				03/22/01, 11:30
+03/22/01, 12:00				04/11/01, 12:00
+04/11/01, 13:00				05/09/01, 11:30
+05/09/01, 13:30				05/23/01, 14:00
+05/23/01, 14:30				06/06/01, 10:30
+06/06/01, 11:00				06/19/01, 15:00
+06/19/01, 15:30				07/05/01, 12:30
+07/05/01, 13:00				07/19/01, 09:00
+07/19/01, 09:30				08/02/01, 14:30
+08/02/01, 15:00				08/16/01, 15:00
+08/16/01, 15:30				09/07/01, 10:00
+09/07/01, 11:00				09/13/01, 15:00
+09/13/01, 17:00				10/16/01, 11:30
+10/16/01, 12:30				11/01/01, 10:30
+11/01/01, 11:00				11/20/01, 13:30
+11/20/01, 14:00				12/12/01, 14:30
+12/12/01, 15:00				01/10/02, 14:30
+
+East Cribbing:
+12/18/00, 16:00				01/11/01, 09:30
+01/11/01, 10:00				01/31/01, 13:30
+01/31/01, 14:30				03/02/01, 13:00
+03/02/01, 13:30				03/23/01, 10:00
+03/23/01, 11:00				04/16/01, 15:30
+04/16/01, 16:00				05/11/01, 12:30
+05/11/01, 13:30				05/25/01, 09:30
+05/25/01, 10:30				06/07/01, 10:00
+06/07/01, 10:30				06/20/01, 09:30
+06/20/01, 10:00				07/06/01, 09:30
+07/06/01, 10:30				07/20/01, 08:30
+07/20/01, 09:30				08/03/01, 09:30
+08/03/01, 10:00				08/09/01, 11:00
+08/09/01, 12:00				08/30/01, 09:00
+08/30/01, 09:30				09/17/01, 10:00
+09/17/01, 10:30				10/18/01, 11:00
+10/18/01, 11:30				11/02/01, 10:30
+11/02/01, 11:00				11/19/01, 11:30
+11/19/01, 12:30				12/13/01, 10:30
+12/13/01, 11:30				01/09/02, 16:30
+
+7) Distribution
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from this NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and 
+Atmospheric Administration.  The data set enclosed within this 
+package/transmission is only as good as the quality assurance and quality 
+control procedures outlined by the enclosed metadata reporting statement.  The 
+user bears all responsibility for its subsequent use/misuse in any further 
+analyses or comparisons.  The Federal government reimburses or indemnifies the 
+Recipient for its liability due to any losses resulting in any way from the use 
+of this data.
+
+NERR water quality data and metadata can be obtained form the Research 
+Coordinator at the individual NERR site (please see Section 2.2-1 Principal 
+Investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page 
+http://inlet.geol.sc.edu/cdmohome.html.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+
+8)Associated Researchers and Projects
+Projects are ongoing and continually changing.  Check with the Research 
+Coordinator or other contact person for an updated list of research.
+
+Ross, S./NOC NERR
+Grimshaw, P./NOC NERR
+Effects of non-point source pollution on estuarine water quality
+ 
+
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, range of measurements, units, resolution, and 
+accuracy: 
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column.
+
+
+
+10) Coded variable indicator and variable code definitions:
+
+Site definitions:		RC= South Research Creek, Masonboro Island* 
+				EC= East Crib, Zeke's Island*
+
+File definitions: site/wq/month/year (ex.: ZIwq0899 = Zeke's Island data from 
+August of 1999). 
+
+*The RC site was formerly designated as Masonboro Island (MS) and EC was formerly designated as Zeke’s Island (ZI).  Name changes were made on 1/11/2011 to be consistent with later station designations made necessary by the addition of an additional station in each component, and to clearly indicate that the station location throughout the North Carolina Reserve’s historical data set.  Raw file names were not changed. Please contact the Reserve directly or the NERRS Centralized Data Management Office for more information on this update.
+
+11) Data anomalies (suspect data):
+
+This section lists and explains all anomalous (suspect) data that has either 
+been deleted or still remains in the data set.  The data are either extreme for 
+the aquatic system being monitored or are outside the measurement range of the 
+instrument. The cause of such anomalies may be a bad calibration, boat traffic 
+disturbances, malfunction of the instrument, or the measurements may be correct.
+
+
+Research Creek, January
+
+All parameters missing due to sonde exchange on the following date and time.
+01/12/01 11:00
+
+Anomalous specific conductivity, salinity and DO data, possibly due to fouling.  
+Consider this data suspect.  However, it's possible that the sensors are 
+responding to a real event.
+01/01/01 00:00 - 01/12/01 10:30
+
+Anomalous pH data possibly due to fouling.  Consider these data suspect.  Data 
+were retained.
+01/11/01 13:00 - 01/12/01 10:30 
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+1/7/01	8:00:00	1323
+1/9/01	19:30:00	1474
+1/11/01	13:30:00	1478
+1/11/01	14:00:00	1481
+1/11/01	14:30:00	1483
+1/11/01	15:00:00	1484
+1/11/01	15:30:00	1484
+1/11/01	16:30:00	1484
+1/11/01	23:30:00	1476
+1/12/01	0:00:00	1476
+1/12/01	3:00:00	1477
+1/12/01	6:00:00	1477
+
+
+Research Creek, February
+	
+During the following dates the DO data were high, especially for the time of 
+year.  Data should be considered suspect.  DO sensor passed the post deployment 
+calibration check.  Data were retained. 
+02/05/01 12:00-13:30
+02/06/01 12:30-14:30
+02/07/01 13:00-15:00
+02/08/01 14:00-16:30
+02/15/01 10:30 - 11:00
+During the following dates, DO data were noisy, due to membrane puncture.  Data 
+deleted.
+02/15/01 21:00 - 02/28/01 12:00
+
+Anomalous specific conductivity data were noted during the following dates, just 
+prior to retrieval.  Within an hour, specific conductivity values increased in 
+relatively large increments from 39 to 46 to 51 mS/cm.  Data were retained.
+02/28/01 11:30-12:30
+
+During the following date the turbidity data point was outside of the sensors 
+range.  The datum was retained.  The high value reflects the turbid conditions 
+that occur during heavy rainfall and high wind events, when the probe is covered 
+by sediment, or if a fish gets caught in the probe guard cup.
+02/20/01 10:30 1330
+
+
+
+
+Research Creek, March
+
+During the following dates specific conductivity, DO, turbidity and pH all seem 
+to be responding to something, possibly caused by sediment and fouling.   When 
+the sonde was retrieved, it was covered with sediment and algae, and smelled of 
+sulfur.  In the presence of sulfur, the DO probe will not work properly.  
+Sensors tested OK during post deployment calibration check.  Data were retained.  
+03/13/01 18:30 - 03/22/01 11:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+3/10/01	10:00:00	1152
+3/10/01	11:00:00	1259
+3/13/01	0:00:00	1508
+3/13/01	2:30:00	1513
+3/13/01	3:00:00	1514
+3/13/01	12:00:00	1341
+3/13/01	12:30:00	1419
+3/14/01	4:30:00	1513
+3/14/01	17:30:00	1538
+3/14/01	21:00:00	1528
+3/14/01	23:00:00	1520
+3/15/01	4:00:00	1035
+3/15/01	9:00:00	1517
+3/15/01	15:00:00	1500
+3/15/01	19:00:00	1528
+3/16/01	3:30:00	1372
+3/22/01	15:00:00	1211
+3/27/01	20:30:00	1127
+3/29/01	3:00:00	1498
+3/29/01	4:30:00	1498
+3/29/01	6:30:00	1406
+3/29/01	9:30:00	1460
+3/29/01	16:30:00	1224
+3/29/01	20:00:00	1506
+3/29/01	20:30:00	1079
+3/29/01	21:00:00	1035
+3/29/01	22:30:00	1475
+3/30/01	10:00:00	1042
+3/31/01	2:00:00	1515
+3/31/01	3:30:00	1059
+3/31/01	22:00:00	1078
+3/31/01	23:30:00	1090
+
+			
+During the following dates the turbidity readings were small negative values, 
+which were probably caused by contaminated zero turbidity standard.  Data were 
+retained.
+3/22/01	21:30:00	-1
+3/22/01	23:00:00	-1
+3/22/01	23:30:00	-1
+3/23/01	0:00:00	-2
+3/23/01	0:30:00	-2
+3/23/01	1:00:00	-3
+3/23/01	1:30:00	-3
+3/23/01	2:00:00	-1
+3/23/01	2:30:00	-1
+3/23/01	10:00:00	-1
+3/23/01	10:30:00	-1
+3/23/01	11:30:00	-1
+3/23/01	12:00:00	-1
+3/23/01	13:00:00	-1
+3/23/01	13:30:00	-2
+3/23/01	14:00:00	-2
+3/23/01	21:00:00	-1
+3/23/01	21:30:00	-1
+3/23/01	22:00:00	-1
+3/23/01	22:30:00	-1
+3/23/01	23:00:00	-1
+3/23/01	23:30:00	-1
+3/24/01	0:00:00	-2
+3/24/01	0:30:00	-1
+3/24/01	1:00:00	-2
+3/24/01	1:30:00	-3
+3/24/01	2:00:00	-3
+3/24/01	3:00:00	-3
+3/24/01	3:30:00	-3
+3/24/01	9:30:00	-2
+3/24/01	10:00:00	-2
+3/24/01	10:30:00	-1
+3/24/01	11:00:00	-2
+3/25/01	2:00:00	-1
+3/25/01	4:00:00	-1
+3/25/01	15:00:00	-1
+3/26/01	10:30:00	-1
+3/26/01	15:00:00	-1
+3/26/01	21:00:00	-1
+3/26/01	22:00:00	-1
+3/26/01	22:30:00	-2
+3/26/01	23:00:00	-1
+3/27/01	0:00:00	-1
+3/27/01	0:30:00	-2
+3/27/01	1:00:00	-2
+3/27/01	1:30:00	-1
+3/27/01	2:00:00	-1
+3/27/01	3:00:00	-2
+3/27/01	3:30:00	-3
+3/27/01	4:00:00	-2
+3/27/01	4:30:00	-1
+3/27/01	5:00:00	-2
+3/27/01	5:30:00	-1
+3/27/01	6:00:00	-1
+3/27/01	7:30:00	-1
+3/27/01	8:00:00	-1
+3/27/01	9:00:00	-1
+3/27/01	9:30:00	-2
+3/27/01	10:00:00	-2
+3/27/01	11:00:00	-2
+3/27/01	11:30:00	-2
+3/27/01	12:00:00	-2
+3/27/01	12:30:00	-2
+3/27/01	23:30:00	-2
+3/28/01	1:30:00	-2
+3/28/01	2:00:00	-3
+3/28/01	2:30:00	-2
+3/28/01	3:00:00	-2
+3/28/01	3:30:00	-1
+3/28/01	4:00:00	-1
+3/28/01	5:00:00	-1
+3/28/01	7:00:00	-2
+3/28/01	8:00:00	-1
+3/28/01	12:00:00	-2
+3/28/01	13:00:00	-2
+3/28/01	13:30:00	-1
+3/28/01	15:30:00	-1
+3/28/01	17:00:00	-2
+3/28/01	20:30:00	-1
+3/29/01	1:30:00	-1
+3/29/01	5:30:00	-1
+3/29/01	6:00:00	-1
+3/31/01	6:30:00	-2
+3/31/01	7:00:00	-2
+3/31/01	8:30:00	-1
+
+
+
+Research Creek, April
+
+All parameters missing data due to sonde exchange.
+04/11/01 12:30
+
+An anomalous DO data point was recorded at the following date and time.  Do not 
+know if this was an error or if a real event caused a sudden drop in DO.  The 
+data point was retained.
+04/08/01 22:30 3.6%
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+4/1/01	3:00:00	1503
+4/1/01	4:30:00	1518
+4/1/01	15:30:00	1042
+4/1/01	16:30:00	1207
+4/1/01	17:00:00	1344
+4/1/01	17:30:00	1257
+4/2/01	12:30:00	1506
+4/2/01	13:30:00	1021
+4/2/01	14:00:00	1482
+4/3/01	11:30:00	1111
+4/3/01	15:00:00	1507
+4/16/01	10:30:00	1243
+4/26/01	11:00:00	1471
+4/27/01	11:30:00	1475
+		
+During the following dates the turbidity readings were small negative values, 
+which were probably caused by contaminated zero turbidity standard.  Data were 
+retained.
+4/3/01	17:00:00	-1
+4/3/01	19:30:00	-1
+4/4/01	7:30:00	-1
+4/4/01	11:30:00	-1
+4/4/01	18:00:00	-2
+4/4/01	18:30:00	-2
+4/4/01	19:00:00	-1
+4/4/01	19:30:00	-1
+4/4/01	20:00:00	-1
+4/4/01	21:00:00	-1
+4/4/01	21:30:00	-2
+4/5/01	8:00:00	-1
+4/5/01	9:00:00	-1
+4/5/01	9:30:00	-1
+4/5/01	10:00:00	-1
+4/5/01	12:30:00	-1
+4/5/01	13:00:00	-1
+4/5/01	22:00:00	-1
+4/5/01	22:30:00	-1
+4/5/01	23:00:00	-1
+4/6/01	1:30:00	-1
+4/6/01	2:00:00	-2
+4/6/01	2:30:00	-1
+4/6/01	8:30:00	-2
+4/6/01	9:00:00	-1
+4/6/01	13:00:00	-1
+4/6/01	18:00:00	-1
+4/6/01	19:00:00	-2
+4/8/01	8:00:00	-1
+4/8/01	9:00:00	-1
+4/8/01	10:00:00	-1
+4/8/01	10:30:00	-1
+4/8/01	11:00:00	-1
+4/8/01	22:30:00	-1
+4/9/01	5:00:00	-1
+4/9/01	8:30:00	-2
+4/9/01	9:00:00	-3
+4/9/01	10:00:00	-2
+4/9/01	10:30:00	-1
+4/9/01	15:00:00	-1
+4/9/01	22:00:00	-2
+4/9/01	22:30:00	-2
+4/9/01	23:00:00	-1
+4/10/01	0:30:00	-2
+4/10/01	3:00:00	-1
+4/10/01	9:30:00	-1
+4/10/01	10:00:00	-1
+4/10/01	10:30:00	-3
+4/10/01	11:30:00	-2
+4/10/01	12:00:00	-1
+4/10/01	13:00:00	-1
+4/10/01	16:30:00	-2
+4/10/01	17:00:00	-1
+4/10/01	21:00:00	-2
+4/10/01	21:30:00	-2
+4/10/01	22:00:00	-1
+4/10/01	23:00:00	-2
+4/10/01	23:30:00	-2
+4/11/01	2:00:00	-1
+4/11/01	3:00:00	-2
+4/11/01	3:30:00	-3
+4/11/01	4:00:00	-3
+4/11/01	4:30:00	-1
+4/11/01	5:00:00	-1
+4/11/01	5:30:00	-2
+4/11/01	7:30:00	-1
+4/11/01	9:00:00	-2
+4/11/01	10:00:00	-2
+4/11/01	10:30:00	-2
+4/11/01	11:30:00	-3
+4/11/01	12:00:00	-3
+
+
+Research Creek, May
+
+During the following time period DO data were noisy, due to a membrane puncture.  
+DO data were removed.
+05/05/01 13:00 - 05/09/01 11:30
+
+During the following dates DO data were low and erratic.  Data should be 
+considered suspect.
+05/26/01 14:00 - 05/31/01 23:30
+
+Specific conductivity and pH data drifted downward during deployment dated 
+05/09/0113:30 to 05/23/01 14:00.  Data near the end of this time period may be 
+suspect, 
+including DO in mg/l.  Drifting was probably caused by excessive fouling.  There 
+was also an increase in turbidity during this same time period (see below 
+comment).  Post deployment calibration check for both of these sensors was good.  
+Data retained.
+
+Specific conductivity displayed anomalous data at the following date and time.  
+The specific conductivity values decreased and then increased by a relatively 
+large amount in a short period of time.  Data were retained. 
+05/26/01 15:30 - 17:30
+05/23/01 14:00 - 14:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+05/03/2001	13:30:00	1497
+05/05/2001	12:30:00	1183
+05/05/2001	19:00:00	1467
+05/06/2001	07:00:00	1099
+05/21/2001	18:30:00	1533
+05/21/2001	19:00:00	1533
+05/21/2001	22:00:00	1195
+05/23/2001	12:30:00	1533
+05/23/2001	13:00:00	1550
+05/23/2001	13:30:00	1480
+05/23/2001	14:00:00	1555
+05/27/2001	08:30:00	1348
+05/28/2001	19:30:00	1538
+
+
+
+Research Creek, June
+
+DO data erratic and low during the following dates.  Sonde retrieved with a hole 
+in DO membrane.  The following data were deleted.
+06/01/01 00:00 - 06/06/01 10:30
+
+Gradual declines in conductivity, DO, and pH can be seen during deployment, 
+06/06/0112:00  - 06/19/01 19:00.  It did rain fairly regularly in June, 
+especially from 13-
+16 June.  Sensors were also probably becoming gradually fouled causing data to 
+be suspect.  DO and pH sensors passed the post deployment calibration check.  
+All data were retained.
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+6/14/01	22:30:00	1582
+6/19/01	8:30:00	1039
+6/20/01	0:30:00	1532
+6/27/01	18:30:00	1453
+6/30/01	9:30:00	1550
+6/30/01	20:30:00	1546
+6/30/01	22:30:00	1539
+
+
+
+Research Creek, July
+
+DO data showed a great deal of noise during the following dates.  There was a 
+toadfish and a blenny in the datalogger probe guard cup upon retrieval.  
+However, 
+the post deployment calibration check was good, so data were retained.
+07/03/01 12:00 - 07/05/01 12:30 
+
+The conductivity data appears to have drifted during the deployment from 
+07/05/01 - 07/19/01.  Data should be considered suspect, including DO (mg/l) 
+data.  Data were retained.
+
+During the following period the DO data were deleted due to compromised probe 
+membrane integrity.
+07/21/01 19:00 - 07/31/01 23:30
+
+During the deployment the pH bulb broke.  Data during the following period were 
+deleted. 
+07/22/01 00:00 - 07/31/01 23:30		
+
+The conductivity and salinity data were deleted for the following dates.  The 
+drop in data may have been caused by sediment covering the sensor.
+07/24/01 12:00 - 07/30/01 17:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if an animal gets caught in the probe guard cup.
+7/3/01	18:30:00	1533
+7/18/01	19:30:00	2082
+7/18/01	20:00:00	2000
+7/18/01	20:30:00	1232
+7/18/01	21:00:00	2080
+7/18/01	22:30:00	2080
+7/24/01	23:30:00	1558
+7/25/01	2:30:00	1559
+7/25/01	3:00:00	1559
+7/25/01	3:30:00	1558
+7/25/01	4:00:00	1558
+7/25/01	4:30:00	1557
+7/25/01	5:00:00	1557
+7/25/01	5:30:00	1556
+7/25/01	6:00:00	1556
+7/25/01	6:30:00	1555
+7/25/01	7:00:00	1556
+7/25/01	7:30:00	1556
+7/25/01	8:00:00	1556
+7/25/01	8:30:00	1557
+7/25/01	9:00:00	1163
+7/25/01	9:30:00	1558
+7/25/01	10:00:00	1558
+7/25/01	10:30:00	1262
+7/25/01	11:00:00	1492
+7/25/01	12:00:00	1497
+7/25/01	12:30:00	1558
+7/25/01	13:00:00	1560
+7/25/01	13:30:00	1562
+7/25/01	14:00:00	1202
+7/25/01	14:30:00	1565
+7/25/01	15:00:00	1124
+7/25/01	15:30:00	1437
+7/25/01	16:00:00	1567
+7/25/01	16:30:00	1266
+7/25/01	17:00:00	1569
+7/25/01	17:30:00	1568
+7/25/01	18:00:00	1567
+7/25/01	18:30:00	1144
+7/25/01	19:00:00	1132
+7/25/01	19:30:00	1566
+7/25/01	20:00:00	1393
+7/25/01	20:30:00	1566
+7/25/01	21:00:00	1566
+7/25/01	21:30:00	1325
+7/25/01	22:00:00	1312
+7/25/01	22:30:00	1565
+7/25/01	23:00:00	1421
+7/25/01	23:30:00	1563
+7/26/01	0:30:00	1561
+7/26/01	1:00:00	1413
+7/26/01	1:30:00	1492
+7/26/01	2:00:00	1561
+7/26/01	2:30:00	1147
+7/26/01	3:00:00	1522
+7/26/01	3:30:00	1270
+7/26/01	4:00:00	1199
+7/26/01	4:30:00	1560
+7/26/01	5:00:00	1343
+7/26/01	5:30:00	1188
+7/26/01	6:00:00	1558
+7/26/01	6:30:00	1291
+7/26/01	7:00:00	1191
+7/26/01	8:00:00	1436
+7/26/01	8:30:00	1453
+7/26/01	9:00:00	1355
+7/26/01	10:00:00	1166
+7/26/01	10:30:00	1262
+7/26/01	11:00:00	1353
+7/26/01	11:30:00	1561
+7/26/01	12:00:00	1173
+7/26/01	12:30:00	1124
+7/26/01	13:00:00	1296
+7/26/01	13:30:00	1542
+7/26/01	14:00:00	1294
+7/26/01	14:30:00	1052
+7/26/01	15:00:00	1281
+7/26/01	15:30:00	1548
+7/26/01	16:00:00	1126
+7/26/01	16:30:00	1409
+7/26/01	17:00:00	1057
+7/26/01	18:00:00	1417
+7/26/01	19:00:00	1058
+7/26/01	19:30:00	1291
+7/26/01	20:00:00	1412
+7/26/01	21:30:00	1166
+7/26/01	22:00:00	1561
+7/26/01	22:30:00	1077
+7/27/01	1:30:00	1150
+7/27/01	3:30:00	1090
+7/27/01	7:30:00	1511
+7/27/01	8:00:00	1556
+7/27/01	10:30:00	1557
+7/27/01	11:30:00	1092
+7/29/01	4:00:00	1366
+7/29/01	5:00:00	1555
+7/29/01	14:30:00	1557
+7/29/01	20:00:00	1543
+7/30/01	2:30:00	1558
+7/30/01	5:30:00	1428
+7/30/01	6:30:00	1547
+7/30/01	7:00:00	1051
+7/30/01	9:30:00	1181
+7/30/01	14:30:00	1023
+7/31/01	12:00:00	1561
+
+
+
+Research Creek, August
+
+During the following period the DO data were deleted due to a compromised probe 
+membrane integrity.
+08/01/01 00:00 - 08/02/01 14:30
+
+During the deployment the pH bulb broke.  The following data were deleted.
+08/01/01 00:00 - 08/02/01 14:30
+
+Towards the end of deployment dated 08/02/01 - 08/16/01 DO readings appear noisy 
+and unstable.  This may be due to fouling of or sediment covering the DO 
+membrane.  Corresponds to high turbidity readings (see below). DO data were 
+deleted.
+08/14/01 21:30 - 08/16/01 15:00
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+8/10/01	14:00:00	1153
+8/13/01	10:00:00	1612
+8/13/01	20:00:00	1231
+8/13/01	20:30:00	1617
+8/13/01	21:00:00	1617
+8/13/01	21:30:00	1617
+8/13/01	22:00:00	1617
+8/13/01	22:30:00	1618
+8/13/01	23:00:00	1620
+8/13/01	23:30:00	1622
+8/14/01	0:00:00	1621
+8/14/01	0:30:00	1622
+8/14/01	1:00:00	1621
+8/14/01	1:30:00	1621
+8/14/01	2:00:00	1620
+8/14/01	2:30:00	1620
+8/14/01	3:00:00	1617
+8/14/01	3:30:00	1616
+8/14/01	4:00:00	1615
+8/14/01	4:30:00	1614
+8/14/01	5:00:00	1613
+8/14/01	5:30:00	1612
+8/14/01	6:00:00	1611
+8/14/01	6:30:00	1609
+8/14/01	7:00:00	1609
+8/14/01	7:30:00	1608
+8/14/01	8:00:00	1609
+8/14/01	8:30:00	1609
+8/14/01	9:00:00	1608
+8/14/01	9:30:00	1600
+8/14/01	10:00:00	1603
+8/14/01	10:30:00	1601
+8/14/01	11:00:00	1609
+8/14/01	11:30:00	1613
+8/14/01	12:00:00	1615
+8/14/01	12:30:00	1616
+8/14/01	13:00:00	1617
+8/14/01	13:30:00	1618
+8/14/01	14:00:00	1618
+8/14/01	14:30:00	1617
+8/14/01	15:00:00	1616
+8/14/01	15:30:00	1616
+8/14/01	16:00:00	1616
+8/14/01	16:30:00	1616
+8/14/01	17:00:00	1617
+8/14/01	17:30:00	1618
+8/14/01	18:00:00	1618
+8/14/01	18:30:00	1618
+8/14/01	19:00:00	1618
+8/14/01	19:30:00	1618
+8/14/01	20:00:00	1617
+8/14/01	20:30:00	1616
+8/14/01	21:00:00	1615
+8/14/01	21:30:00	1614
+8/14/01	22:00:00	1613
+8/14/01	22:30:00	1614
+8/14/01	23:00:00	1614
+8/14/01	23:30:00	1615
+8/15/01	0:00:00	1615
+8/15/01	0:30:00	1616
+8/15/01	1:00:00	1616
+8/15/01	1:30:00	1616
+8/15/01	2:00:00	1616
+8/15/01	2:30:00	1616
+8/15/01	3:00:00	1616
+8/15/01	3:30:00	1614
+8/15/01	4:00:00	1615
+8/15/01	4:30:00	1614
+8/15/01	5:00:00	1613
+8/15/01	5:30:00	1611
+8/15/01	6:00:00	1610
+8/15/01	6:30:00	1609
+8/15/01	7:00:00	1609
+8/15/01	7:30:00	1608
+8/15/01	8:00:00	1608
+8/15/01	8:30:00	1611
+8/15/01	9:00:00	1613
+8/15/01	9:30:00	1613
+8/15/01	10:00:00	1615
+8/15/01	10:30:00	1616
+8/15/01	11:00:00	1616
+8/15/01	11:30:00	1618
+8/15/01	12:00:00	1614
+8/15/01	12:30:00	1616
+8/15/01	13:00:00	1616
+8/15/01	13:30:00	1617
+8/15/01	14:00:00	1618
+8/15/01	14:30:00	1617
+8/15/01	15:00:00	1616
+8/15/01	15:30:00	1616
+8/15/01	16:00:00	1616
+8/15/01	16:30:00	1616
+8/15/01	17:00:00	1616
+8/15/01	17:30:00	1617
+8/15/01	18:00:00	1619
+8/15/01	18:30:00	1620
+8/15/01	19:00:00	1619
+8/15/01	19:30:00	1618
+8/15/01	20:00:00	1618
+8/15/01	20:30:00	1618
+8/15/01	21:00:00	1619
+8/15/01	21:30:00	1618
+8/15/01	22:00:00	1617
+8/15/01	22:30:00	1615
+8/15/01	23:00:00	1614
+8/15/01	23:30:00	1615
+8/16/01	0:00:00	1615
+8/16/01	0:30:00	1615
+8/16/01	1:00:00	1616
+8/16/01	1:30:00	1617
+8/16/01	2:00:00	1617
+8/16/01	2:30:00	1616
+8/16/01	3:00:00	1616
+8/16/01	3:30:00	1616
+8/16/01	4:00:00	1615
+8/16/01	4:30:00	1615
+8/16/01	5:00:00	1614
+8/16/01	5:30:00	1614
+8/16/01	6:00:00	1613
+8/16/01	6:30:00	1613
+8/16/01	7:00:00	1612
+8/16/01	7:30:00	1612
+8/16/01	8:00:00	1613
+8/16/01	8:30:00	1613
+8/16/01	9:00:00	1615
+8/16/01	9:30:00	1617
+8/16/01	10:00:00	1621
+8/16/01	10:30:00	1623
+8/16/01	11:00:00	1625
+8/16/01	11:30:00	1625
+8/16/01	12:00:00	1625
+8/16/01	12:30:00	1626
+8/16/01	13:00:00	1620
+8/16/01	13:30:00	1619
+8/16/01	14:00:00	1619
+8/16/01	14:30:00	1620
+8/16/01	15:00:00	1620
+8/17/01	20:00:00	1059
+
+
+
+Research Creek, September
+
+Data from all the parameters were not recorded due to sonde exchange and 
+deployment structure maintenance.
+09/07/01 10:30
+09/13/01 15:30-16:30
+
+Conductivity readings drifted downward throughout the month after each 
+deployment.  Consider the data on the following dates suspect, including DO 
+(mg/l).
+09/03/01 22:00 - 09/07/01 10:00
+09/07/01 11:00 - 09/13/01 15:00
+
+Conductivity and pH data showed downward drift in the following time periods.  
+They were either both responding to a real event, or were covered by sediment.  
+Turbidity data were exceedingly high during the same time period values (see 
+turbidity comment below), corroborating the presence of sediment or other 
+interfering object.  Data were retained, but should be considered suspect, 
+including DO (mg/l).  Both conductivity and pH rebounded prior to datalogger 
+retrieval.
+09/13/01 17:00 - 09/30/01 13:30
+
+Conductivity and pH data both make anomalous jumps up in value.  It's possible 
+that whatever was causing the downward drift (see above comment) moved or 
+changed.  All data were retained.
+09/30/01 13:30-14:00
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+9/3/01	17:00:00	1390
+9/4/01	15:00:00	2054
+9/16/01	16:00:00	2106
+9/16/01	17:30:00	2112
+9/16/01	22:30:00	1458
+9/18/01	11:30:00	2114
+9/18/01	12:00:00	1775
+9/18/01	12:30:00	1830
+9/19/01	12:30:00	2113
+9/19/01	13:00:00	2115
+9/19/01	13:30:00	2115
+9/19/01	14:00:00	2116
+9/19/01	14:30:00	2118
+9/19/01	15:00:00	2120
+9/19/01	15:30:00	2123
+9/19/01	16:00:00	2123
+9/19/01	16:30:00	2123
+9/19/01	17:00:00	1454
+9/19/01	17:30:00	2117
+9/19/01	18:00:00	2116
+9/19/01	18:30:00	2116
+9/19/01	19:00:00	2115
+9/19/01	19:30:00	2115
+9/19/01	20:00:00	2115
+9/19/01	20:30:00	2115
+9/19/01	21:00:00	2115
+9/19/01	21:30:00	2115
+9/19/01	22:00:00	2115
+9/19/01	22:30:00	2114
+9/19/01	23:00:00	2113
+9/19/01	23:30:00	2113
+9/20/01	0:00:00	2113
+9/20/01	0:30:00	2112
+9/20/01	1:00:00	2112
+9/20/01	1:30:00	2112
+9/20/01	2:00:00	2111
+9/20/01	2:30:00	2110
+9/20/01	3:00:00	2109
+9/20/01	3:30:00	2109
+9/20/01	4:00:00	2109
+9/20/01	4:30:00	2109
+9/20/01	5:00:00	2109
+9/20/01	5:30:00	2109
+9/20/01	6:00:00	2110
+9/20/01	6:30:00	2110
+9/20/01	7:00:00	2111
+9/20/01	7:30:00	2111
+9/20/01	8:00:00	2112
+9/20/01	8:30:00	2113
+9/20/01	9:00:00	2114
+9/20/01	9:30:00	2115
+9/20/01	10:00:00	2115
+9/20/01	10:30:00	2116
+9/20/01	11:00:00	2117
+9/20/01	11:30:00	2119
+9/20/01	12:00:00	2120
+9/20/01	12:30:00	2120
+9/20/01	13:00:00	2122
+9/20/01	13:30:00	2125
+9/20/01	14:00:00	2128
+9/20/01	14:30:00	2130
+9/21/01	1:30:00	2119
+9/21/01	2:00:00	2115
+9/21/01	2:30:00	2118
+9/21/01	3:00:00	2117
+9/21/01	3:30:00	2116
+9/21/01	4:00:00	2115
+9/21/01	4:30:00	2114
+9/21/01	5:00:00	2114
+9/21/01	5:30:00	2114
+9/21/01	6:00:00	2114
+9/21/01	6:30:00	2116
+9/21/01	7:00:00	2118
+9/21/01	14:30:00	2122
+9/21/01	15:00:00	2123
+9/21/01	15:30:00	2124
+9/21/01	16:00:00	2124
+9/22/01	3:00:00	2118
+9/22/01	8:30:00	1341
+9/22/01	10:30:00	2119
+9/22/01	13:00:00	2124
+9/22/01	13:30:00	2126
+9/22/01	14:00:00	2129
+9/22/01	14:30:00	2130
+9/22/01	15:30:00	2132
+9/22/01	16:00:00	2134
+9/22/01	16:30:00	2134
+9/22/01	17:00:00	2135
+9/22/01	17:30:00	2135
+9/22/01	18:00:00	1545
+9/22/01	18:30:00	2132
+9/22/01	19:30:00	2133
+9/22/01	21:30:00	2132
+9/22/01	23:00:00	2128
+9/23/01	1:30:00	2126
+9/23/01	2:00:00	2126
+9/23/01	3:30:00	2126
+9/23/01	4:00:00	2125
+9/23/01	4:30:00	2085
+9/23/01	5:00:00	2123
+9/23/01	6:00:00	2122
+9/23/01	6:30:00	1234
+9/23/01	7:00:00	2121
+9/23/01	7:30:00	1136
+9/23/01	9:00:00	2125
+9/23/01	9:30:00	2125
+9/23/01	10:30:00	2125
+9/23/01	11:00:00	2125
+9/23/01	11:30:00	2124
+9/23/01	12:30:00	2123
+9/23/01	13:00:00	2124
+9/23/01	14:30:00	2131
+9/23/01	15:00:00	2133
+9/23/01	16:00:00	2135
+9/23/01	16:30:00	2135
+9/23/01	17:00:00	2135
+9/23/01	17:30:00	2135
+9/23/01	18:00:00	2135
+9/23/01	18:30:00	2134
+9/23/01	19:00:00	2133
+9/23/01	19:30:00	2132
+9/23/01	20:00:00	2132
+9/23/01	20:30:00	2132
+9/23/01	21:00:00	2133
+9/23/01	21:30:00	2133
+9/23/01	22:00:00	2133
+9/23/01	22:30:00	2133
+9/23/01	23:00:00	2133
+9/23/01	23:30:00	2132
+9/24/01	0:00:00	2131
+9/24/01	0:30:00	2129
+9/24/01	1:00:00	2128
+9/24/01	1:30:00	2127
+9/24/01	2:00:00	2128
+9/24/01	2:30:00	2128
+9/24/01	3:00:00	2128
+9/24/01	3:30:00	2129
+9/24/01	4:00:00	2128
+9/24/01	4:30:00	2128
+9/24/01	5:00:00	2091
+9/24/01	5:30:00	2004
+9/24/01	6:00:00	2126
+9/24/01	6:30:00	2125
+9/24/01	7:00:00	2125
+9/24/01	7:30:00	1855
+9/24/01	8:00:00	2125
+9/24/01	8:30:00	2126
+9/24/01	9:00:00	2128
+9/24/01	9:30:00	2128
+9/24/01	10:00:00	2129
+9/24/01	10:30:00	2129
+9/24/01	11:00:00	2129
+9/24/01	11:30:00	2129
+9/24/01	12:00:00	1036
+9/24/01	13:00:00	2127
+9/24/01	13:30:00	2126
+9/24/01	14:00:00	2126
+9/24/01	15:00:00	2131
+9/24/01	15:30:00	2132
+9/24/01	16:00:00	2132
+9/24/01	16:30:00	2132
+9/24/01	17:00:00	2132
+9/24/01	17:30:00	2133
+9/24/01	18:00:00	2133
+9/24/01	18:30:00	2132
+9/24/01	19:00:00	2131
+9/24/01	19:30:00	2130
+9/24/01	20:00:00	2129
+9/24/01	20:30:00	2128
+9/24/01	21:00:00	2113
+9/24/01	21:30:00	2128
+9/24/01	22:00:00	2098
+9/24/01	22:30:00	2120
+9/24/01	23:00:00	2124
+9/24/01	23:30:00	2131
+9/25/01	0:00:00	2131
+9/25/01	0:30:00	2131
+9/25/01	1:00:00	2109
+9/25/01	1:30:00	1586
+9/25/01	2:00:00	1997
+9/25/01	2:30:00	1882
+9/25/01	3:00:00	2127
+9/25/01	3:30:00	1924
+9/25/01	4:00:00	1944
+9/25/01	4:30:00	1839
+9/25/01	5:00:00	2120
+9/25/01	5:30:00	2122
+9/25/01	6:00:00	2120
+9/25/01	6:30:00	1727
+9/25/01	7:00:00	1846
+9/25/01	7:30:00	1697
+9/25/01	8:00:00	2109
+9/25/01	8:30:00	2057
+9/25/01	9:00:00	2118
+9/25/01	9:30:00	2120
+9/25/01	10:00:00	2119
+9/25/01	10:30:00	2122
+9/25/01	11:00:00	2124
+9/25/01	11:30:00	2125
+9/25/01	12:00:00	2125
+9/25/01	12:30:00	2125
+9/25/01	13:30:00	2103
+9/25/01	14:00:00	1790
+9/25/01	14:30:00	1782
+9/25/01	15:00:00	2121
+9/25/01	15:30:00	2122
+9/25/01	16:00:00	2123
+9/25/01	16:30:00	2026
+9/25/01	17:00:00	2125
+9/25/01	17:30:00	2125
+9/25/01	18:00:00	2124
+9/25/01	18:30:00	2101
+9/25/01	19:00:00	2122
+9/25/01	20:30:00	2119
+9/25/01	21:00:00	2116
+9/26/01	5:00:00	1089
+9/26/01	5:30:00	2105
+9/26/01	13:30:00	2109
+9/26/01	14:00:00	2111
+9/26/01	14:30:00	2030
+9/26/01	15:00:00	1015
+9/26/01	15:30:00	2113
+9/26/01	16:00:00	1345
+9/26/01	16:30:00	2114
+9/26/01	17:30:00	2112
+9/26/01	18:00:00	2111
+9/26/01	19:30:00	1702
+9/26/01	22:30:00	1513
+9/28/01	11:00:00	2106
+9/28/01	12:00:00	1920
+9/28/01	15:00:00	2107
+9/28/01	18:00:00	1616
+ 
+
+
+Research Creek, October
+
+Data from all the parameters were not recorded due to sonde exchange.
+10/16/01 12:00			
+
+During the following dates the DO data were deleted due to a membrane puncture.
+10/04/01 03:00 - 10/16/01 11:30
+
+During the datalogger deployment dated 10/16/01 - 11/01/01, conductivity data 
+drifted downward, possibly caused by sediment covering the sensor or fouling.  
+Consider data suspect during the following dates.
+10/18/01 01:00 - 10/31/01 23:30
+
+During the following dates there was a drop in pH readings, most likely due to 
+sediment accumulating on the sensor.  Data were retained.
+10/19/01 15:30 - 10/21/01 12:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+10/12/01	14:00:00	2103
+10/19/01	13:30:00	1402
+10/19/01	14:00:00	1531
+10/19/01	14:30:00	1531
+10/19/01	15:00:00	1532
+10/19/01	15:30:00	1533
+10/19/01	16:00:00	1534
+10/19/01	16:30:00	1535
+10/19/01	17:00:00	1535
+10/19/01	17:30:00	1535
+10/19/01	18:00:00	1533
+10/19/01	18:30:00	1532
+10/19/01	19:00:00	1532
+10/19/01	19:30:00	1532
+10/19/01	20:00:00	1532
+10/19/01	20:30:00	1532
+10/19/01	21:00:00	1532
+10/19/01	21:30:00	1532
+10/19/01	22:00:00	1532
+10/19/01	22:30:00	1532
+10/19/01	23:00:00	1532
+10/19/01	23:30:00	1531
+10/20/01	0:00:00	1531
+10/20/01	0:30:00	1531
+10/20/01	1:00:00	1531
+10/20/01	1:30:00	1530
+10/20/01	2:00:00	1530
+10/20/01	2:30:00	1530
+10/20/01	3:00:00	1529
+10/20/01	3:30:00	1529
+10/20/01	4:00:00	1529
+10/20/01	4:30:00	1529
+10/20/01	5:00:00	1529
+10/20/01	5:30:00	1529
+10/20/01	6:00:00	1529
+10/20/01	6:30:00	1529
+10/20/01	7:00:00	1529
+10/20/01	7:30:00	1529
+10/20/01	8:00:00	1530
+10/20/01	8:30:00	1530
+10/20/01	9:00:00	1531
+10/20/01	9:30:00	1532
+10/20/01	10:00:00	1532
+10/20/01	10:30:00	1533
+10/20/01	11:00:00	1533
+10/20/01	11:30:00	1329
+10/20/01	12:00:00	1534
+10/20/01	12:30:00	1533
+10/20/01	13:00:00	1534
+10/20/01	13:30:00	1534
+10/20/01	14:00:00	1534
+10/20/01	14:30:00	1534
+10/20/01	15:00:00	1534
+10/20/01	15:30:00	1535
+10/20/01	16:00:00	1535
+10/20/01	16:30:00	1535
+10/20/01	17:00:00	1535
+10/20/01	17:30:00	1535
+10/20/01	18:00:00	1535
+10/20/01	18:30:00	1535
+10/20/01	19:00:00	1534
+10/20/01	19:30:00	1534
+10/20/01	20:00:00	1534
+10/20/01	20:30:00	1534
+10/20/01	21:00:00	1534
+10/20/01	21:30:00	1534
+10/20/01	22:00:00	1534
+10/20/01	22:30:00	1534
+10/20/01	23:00:00	1534
+10/20/01	23:30:00	1534
+10/21/01	0:00:00	1534
+10/21/01	0:30:00	1534
+10/21/01	1:00:00	1533
+10/21/01	1:30:00	1533
+10/21/01	2:00:00	1533
+10/21/01	2:30:00	1533
+10/21/01	3:00:00	1533
+10/21/01	3:30:00	1533
+10/21/01	4:00:00	1532
+10/28/01	22:30:00	1004
+10/31/01	17:30:00	1518
+10/31/01	23:00:00	1448
+10/31/01	23:30:00	1017
+
+
+
+Research Creek, November
+
+During the following dates the conductivity data may have drifted downward, 
+possibly caused by sediment covering the sensor or fouling.  Consider data 
+suspect during the following dates, including DO (mg/l) data.
+11/01/01 00:00-10:30
+11/06/01 16:00 - 11/07/01 06:30
+11/12/01 09:30 - 11/13/01 21:30
+11/16/01 12:00 - 11/24/01 12:00
+
+During the following period pH readings decreased suddenly and stayed lower than 
+normal for the duration of the deployment.  May be responding to the same event 
+that affected the conductivity readings (see above).  Data retained.
+11/17/01 13:00 - 11/20/01 15:30
+
+An anomalous drop of a single pH data point occurred during the following time, 
+cause unknown.  Data retained.
+11/24/01 21:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+11/1/01	1:30:00	1518
+11/1/01	6:00:00	1519
+11/1/01	6:30:00	1038
+11/1/01	7:30:00	1521
+
+
+
+Research Creek, December
+
+Sonde was pulled out of water during the following dates for 
+hardwiring/telemetry cable repair.  All parameter data were deleted.
+12/05/01 13:00-14:30
+12/06/01 12:30
+12/18/01 11:00-12:00
+
+
+During the following dates the conductivity data may have drifted downward, 
+possibly caused by sediment covering the sensor or fouling.  Consider data, 
+including DO (mg/l), suspect during the following dates.
+12/11/01 03:30 - 12/12/01 19:00
+12/31/01 06:30 - 23:30
+
+
+East Cribbing, January
+
+All parameters missing data due to sonde exchange.
+1/31/01 14:00
+
+For the duration of the deployment dated 01/09/01 to 01/31/01, depth appeared to 
+be off.  The sonde was probably shifted soon after deployment due to the strong 
+currents in the area.  Data were retained.
+
+For the following dates and times depth readings were negative. However, based 
+on the other parameters measured, the sonde was not out of the water. All data 
+were retained.
+1/12/01	5:00:00	-0.01
+1/12/01	5:30:00	-0.06
+1/12/01	6:00:00	-0.05
+1/12/01	6:30:00	-0.06
+1/12/01	18:30:00	-0.02
+1/12/01	19:00:00	-0.04
+1/13/01	6:30:00	-0.04
+1/13/01	7:00:00	-0.04
+1/15/01	21:00:00	-0.01
+1/15/01	21:30:00	-0.02
+1/16/01	22:00:00	-0.02
+1/17/01	23:00:00	-0.01
+1/17/01	23:30:00	-0.01
+1/18/01	23:30:00	-0.01
+1/19/01	0:00:00	-0.03
+1/20/01	13:30:00	-0.03
+1/20/01	14:00:00	-0.03
+1/21/01	1:00:00	-0.01
+1/21/01	1:30:00	-0.05
+1/21/01	2:00:00	-0.06
+1/21/01	2:30:00	-0.06
+1/21/01	3:00:00	-0.06
+1/23/01	2:30:00	-0.01
+1/23/01	3:00:00	-0.02
+1/30/01	7:30:00	-0.01
+1/30/01	19:30:00	-0.02
+1/30/01	20:00:00	-0.04
+1/30/01	20:30:00	-0.02
+1/31/01	8:00:00	-0.02
+1/31/01	8:30:00	-0.02
+
+East Cribbing, February
+No data anomalies/deletions to report.
+
+East Cribbing, March
+
+All parameters missing data due to sonde exchange.
+3/23/01 10:30:00
+
+For the following date and time, depth was deleted.  During retrieval, sonde had 
+been shifted and was at the wrong depth at time of sampling.
+03/02/01 13:00
+
+
+East Cribbing, April
+
+DO data deleted due to compromised DO membrane integrity.
+4/30/01 08:00 - 23:30
+
+Depth shifts mid-deployment.  Sonde may have been relocated by strong currents 
+during the rising tide, or by a curious citizen.  Data retained.
+4/15/01 13:00 - 4/16/01 15:30
+
+
+East Cribbing, May
+
+All parameters missing data due to sonde exchange.
+5/11/01 13:00
+5/25/01 10:00
+
+DO data deleted due to compromised DO membrane integrity
+5/01/01 00:00 - 5/11/01 12:30
+
+On the following dates and times turbidity readings were large negative values, 
+indicating that the sensor was blocked pushed beyond its capabilities by a 
+large, unknown object.  The anomalous data were deleted.
+5/05/01 17:00 -440
+5/07/01 08:30 -456
+5/07/01 23:30 -627
+
+
+East Cribbing, June
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+6/4/01	2:30:00	1554
+6/8/01	20:00:00	1053
+6/8/01	22:00:00	2035
+6/10/01	1:30:00	1177
+
+
+East Cribbing, July
+
+All parameters missing data due to sonde exchange.
+7/06/01 10:00
+7/20/01 09:00
+
+Towards the end of deployment dating 06/20/01 - 07/06/01, the DO data appear to 
+drift downward.  Data retained.  Data may be suspect during the following dates.
+07/02/01 06:30 - 07/06/01 09:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+7/6/01	14:00:00	1626
+7/6/01	15:30:00	1625
+7/6/01	17:00:00	1624
+7/7/01	2:30:00	1618
+7/7/01	3:00:00	1617
+7/7/01	7:00:00	1614
+7/8/01	14:00:00	1624
+7/8/01	18:30:00	1626
+7/9/01	2:30:00	1623
+7/9/01	3:00:00	1623
+7/9/01	4:00:00	1622
+7/9/01	4:30:00	1622
+7/9/01	6:30:00	1621
+7/10/01	18:00:00	1650
+7/11/01	20:00:00	1647
+7/12/01	3:30:00	1640
+7/13/01	3:00:00	1637
+7/13/01	14:30:00	1632
+7/13/01	19:30:00	1625
+7/13/01	21:00:00	1622
+7/13/01	23:00:00	1616
+7/14/01	0:00:00	1617
+7/14/01	4:30:00	1616
+7/17/01	2:00:00	1628
+7/17/01	8:30:00	1628
+7/19/01	19:30:00	1637
+7/19/01	20:00:00	1226
+7/20/01	8:00:00	1629
+
+
+East Cribbing, August
+
+All parameters missing data due to sonde exchange.
+8/09/01 11:30
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+8/12/01 12:00 1660
+
+
+East Cribbing, September
+
+DO data bad due to puncture in DO membrane.  All data were deleted.
+9/05/01 21:30 - 9/17/01 10:00
+
+
+East Cribbing, October
+
+DO data, on the following date and times, appears to be abnormally high, however 
+the DO pattern and data look good before and after.  DO probe passed the post 
+deployment calibration check.  Data retained.
+10/11/01 11:00 - 10/15/01 15:00
+
+During the following periods, the specific conductivity and salinity readings 
+may have drifted downward as a result of fouling.  Data at end of deployment 
+considered suspect, including DO mg/l data.  Data were retained.  
+10/15/01 - 10/18/01 11:00
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+10/4/01	12:00:00	1011
+10/16/01	7:00:00	1066
+10/16/01	20:30:00	1565
+10/29/01	12:00:00	1159
+10/29/01	14:30:00	1331
+
+
+East Cribbing, November
+
+All parameters missing data due to sonde exchange.
+11/19/01 11:00
+
+
+East Cribbing, December
+
+All parameters missing data due to sonde exchange.
+12/13/01 11:00
+
+During the following dates the turbidity data were outside of the sensors range.  
+The data were retained.  The high value reflects the turbid conditions that 
+occur during heavy rainfall and high wind events, when the probe is covered by 
+sediment, or if a fish gets caught in the probe guard cup.
+12/04/01 20:30 1569
+12/12/01 10:00 1568
+
+
+11) Missing data:
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, and elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+
+13) Notes:
+
+High turbidity values above instruments top range (1000 NTU), caused by blockage 
+of light transmittance by an obstruction are left in the file.
+
+Whenever specific conductivity or salinity data (referred to as conductivity 
+data) were suspect, consider DO data in mg/l suspect as well, since specific 
+conductivity is used to calculate DO data in mg/l.
+
+Start times of each sample were off by 52 seconds and were corrected to the hour 
+and half hour for all of the deployments in 2001, except for data gathered 
+during 04/16/01 - 05/11/01 at East Cribbing.
+
+Negative or zero depth readings were not deleted because the salinity and DO 
+readings indicated that the sonde was submerged during these periods.		

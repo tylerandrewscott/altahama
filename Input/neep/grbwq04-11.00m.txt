@@ -1,0 +1,478 @@
+Great Bay (GRB) NERR Water Quality Metadata
+(April-November 2000)
+Latest update: October 15, 2001
+
+I.  Data Set & Research Descriptors
+
+1. Principal investigators and contact persons
+
+Richard Langan, Ph.D. Co-Director of CICEET and Research Scientist, 
+Jackson Estuarine Laboratory, email: rlangan@cisunix.unh.edu 
+Jaimie Wolf, Research Technician, email: jswolf@cisunix.unh.edu 
+	
+Jackson Estuarine Laboratory
+85 Adams Point Road
+Durham, NH 03824
+Phone: (603)862-2175
+
+2. Entry verification
+The data are transmitted every thirty minutes from YSI 6600 datasondes 
+via VHF packet radio using Ecowatch software to a base station PC. Files 
+are first examined and graphed using Ecowatch software.  Missing and/or 
+anomalous data are noted. Files are then transferred to a Macintosh 
+computer and opened in Excel 5.0 software and edited. Missing data due 
+to routine YSI maintenance and probe failure or communication errors are 
+inserted into the spreadsheet and denoted by periods (.). Edited files are 
+merged to contain one full month of data.  Files are verified by means of CDMO 
+Excel 5.0 macros. 
+The CDMO cdmomac3.xls macro will allow the user to automatically format column 
+widths to the correct number decimal places based on the YSI sensor 
+specifications. It also allows the user to QA/QC each data logger generated file 
+for missing data points, fill all cells that do not contain data with periods, 
+and find all data points that fall outside the range of what the datalogger is 
+designed to measure (outliers). The CDMO import.xls macro will allow PC users 
+with 30-minute data to automatically create a monthly Excel file from a two-week 
+deployment and insert periods for missing data. Edited files are merged to 
+contain one full month of data. In addition, in November 1999 a graphing 
+capability was added to this macro allowing users to produce single parameter 
+and missing point graphs on a monthly basis. All files are graphed in Excel and 
+examined by Jaimie Wolf and Dr. Richard Langan in order that anomalous data 
+points can be identified.
+
+
+
+3. Research Objectives
+In 2000, YSI 6600 datasondes were deployed in Great Bay and in the 
+Squamscott and Lamprey Rivers part of the National Estuarine Research 
+Reserves' (NERRS) Systemwide Monitoring Program (SWMP). The goal is to 
+develop and maintain temporally intensive long-term datasets of physio-
+chemical parameters of water quality at locations that are 
+representative of the Great Bay Estuarine System. The Great Bay site is 
+relatively unimpacted, while the two tidal river sites (Lamprey and
+Squamscott) have large drainage basins and are impacted by both point 
+(wastewater treatment plants) and nonpoint sources of pollution.  In 
+addition to establishing a baseline of water quality, and understanding 
+the spatial and temporal variability of important indicators of 
+estuarine water quality, the data is used by a number of researchers in 
+the analysis of physical and biological processes.
+
+4. Research Methods
+Datasondes are programmed to obtain measurements of specific 
+conductivity, salinity, dissolved oxygen, percent saturation, pH, 
+temperature, water level, and turbidity every half-hour. 
+The instruments are deployed continuously during ice-free seasons, 
+except for brief periods when they are removed for cleaning, maintenance 
+and recalibration. Pre and post-deployment calibrations are performed 
+using the diagnostics menu of the YSI Ecowatch program and QA/QC 
+procedures developed by NERR Research Coordinators and YSI engineers. 
+VWR conductivity and pH standards are used for calibration. Hach 
+formazin is used to calibrate turbidity probes. 
+The sonde in Great Bay is deployed in a YSI EM 550 buoy, while the 
+Lamprey and Squamscott river stations are piling mounted deployments 
+(see below). Because the sonde at the central Great Bay site (GB) is 
+deployed in an EM 550 surface buoy, it does not measure depth data. 
+Depth data for the GB site was obtained using time adjusted water level 
+data from the Squamscott River site (SQ).
+
+5. Site Location and Character
+
+Site #1 Great Bay  (GB)
+Location
+Central area of Great Bay proper.  The coordinates of the deployment are 
+43( 04' 20" N latitude and 70( 52' 10" W longitude.
+Salinity range: 5-32 ppt (seasonally); 0-5ppt from high to low tide.
+Temperature range: -1(C to 24(C (seasonally); 0-3( from high to low tide
+Depth: 6.5 meters at MLW
+Tidal height of 2.7 meters
+Bottom type: Mud and rock channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Squamscott, Lamprey and Winnicut Rivers plus smaller 
+streams. High tide influence from Little Bay and associated rivers
+Pollutant influence: clean reference site
+
+Deployment
+The instrument is attached to an EM 550 communications buoy equipped 
+with a YSI 1240 VHF radio transmitter.  The instrument is configured 
+with the probes held at a depth of 1 meter below the surface. 
+
+Site #2 Squamscott River (SQ)
+Location
+Mid channel of the Squamscott River at the Boston and Maine Railroad 
+bridge, Stratham, NH.
+Coordinates are 43( 02' 30" N latitude and 70( 55' 20" W longitude
+Salinity range: 0-30ppt (seasonally); 5-20 ppt from high to low tide
+Temperature range: -1(C to 27(C (seasonally);difference of 0-5( from high to low 
+tide
+Depth: 3.5 meters at MLW
+Tidal height of 2.7 m
+Bottom type: Mud/oyster channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Exeter River, adjacent marshes
+Pollutant influence: Urban stormwater, agriculture, two municipal 
+wastewater treatment plants, residential septic systems
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling 
+at a fixed 0.5m height above the bottom and connected to a YSI 1240 
+radio transmitter mounted on the piling.
+
+Site #3 Lamprey River (LR)
+Location 
+West bank of the tidal portion of the Lamprey River, approximately 300 m 
+downstream of the dam at Route 108 in Newmarket, NH
+Coordinates are 43( 04' 48" N latitude and 70( 56' 04" W longitude
+Salinity range 0 to 27 (seasonally); difference of up to 15 ppt between 
+high and low tides
+Temperature range -1(C to 27( (seasonally); difference of up to 5(C 
+between high and low tides
+Depth: 3.5 m
+Tidal height 2.7 m
+Bottom type: mud/rock
+Tidal velocity: maximum 40 cm/sec
+Watershed: Lamprey River
+Pollutant influence:  Urban stormwater, adjacent marina, upstream and 
+downstream wastewater treatment plants, upstream agriculture
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling 
+at a fixed height of 0.5 m above the bottom connected to a YSI 1240 
+radio transmitter mounted on the piling.
+ 
+
+6.  Data collection period
+Great Bay data collection began April 25, 2000 and ended November 30, 
+2000.  Squamscott River data collection began May 10, 2000 and ended  
+November 30, 2000.  Lamprey River data collection began May 17, 2000 and 
+ended November 30, 2000.  The instruments are removed from the water 
+during the winter months due to icing.
+Deployment dates for 2000
+
+Great Bay
+Began			            Ended		
+04/25/00 09:30			06/16/00 14:00
+06/16/00 15:00			06/20/00 13:00
+06/20/00 14:30			07/25/00 10:00
+07/25/00 17:00			08/21/00 09:00
+08/21/00 11:00			10/12/00 10:00
+10/12/00 14:00			10/19/00 10:00
+10/19/00 11:30			11/03/00 09:00
+11/03/00 13:30			11/06/00 14:00
+11/06/00 14:00			12/01/00 09:00
+
+Squamscott River
+05/10/00 16:00			06/30/00 10:30
+06/30/00 10:30			07/26/00 11:00
+07/26/00 14:00			08/22/00 16:00
+08/23/00 09:30			10/17/00 14:00
+10/17/00 15:00			11/30/00 08:30
+
+Lamprey River
+05/17/00 10:30			06/01/00 15:00
+06/01/00 15:00			08/11/00 09:30
+08/11/00 13:00			09/28/00 14:00
+09/28/00 16:00			11/30/00 14:30
+
+
+
+
+
+7. Distribution:
+NOAA/ERD retains the right to analyze, synthesize and publish summaries 
+of the NERRS System-wide Monitoring Program data. Following academic 
+courtesy standards, the PI and NERR site where the data were collected 
+will be contacted and fully acknowledged in any subsequent publications 
+in which any part of the data are used. Manuscripts resulting from this 
+NOAA/ORCM supported research that are produced for publication in open 
+literature, including refereed scientific journals, will acknowledge 
+that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, 
+National Ocean Service, National Oceanic and Atmospheric Administration. 
+The data set enclosed within this package/transmission is only as good 
+as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement. The user bears all responsibility 
+for its subsequent use/misuse in any further analyses or comparisons. 
+The Federal government does not assume liability to the Recipient or 
+third persons, nor will the Federal government reimburse or indemnify 
+the Recipient for its liability due to any losses resulting in any way 
+from the use of this data.
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 2.2-1 
+Principal investigators and contact persons), from the Data Management 
+at the Centralized Data Management Office (please see personnel 
+directory under the general information link on the CDMO home page) and 
+online at the CDMO home page http://inlet.geol.sc.edu/cdmohome.html. 
+Data are available in text tab-delimited format, Microsoft Excel 
+spreadsheet format and comma-delimited format. 
+
+8.  Associated researchers and projects:
+Great Bay Monitoring Project - Dr. Richard Langan. Supported by 
+NOAA/NERR.
+Includes twice-monthly discrete sampling and analysis of dissolved 
+inorganic nutrients, suspended sediments, particulate organic matter, 
+chlorophyll a concentration and microbial indicators at the three sonde 
+sites.
+
+Lobster migration and behavior research - Dr. Winsor Watson and Dr. 
+Hunting Howell.  Ten years of studies supported by USDA and Sea Grant 
+that track lobster abundance, movement and behavior in relation to 
+physical and biological variables in the Great Bay Estuary.
+
+Eelgrass modeling studies.  Dr. Fred Short.  Supported by NOAA/UNH 
+CICEET.
+Modeling changes in eelgrass populations .
+
+Oyster disease studies: Supported by EPA/NEP, NOAA/NMFS, NH Fish and 
+Game.
+Monitoring of the prevalence and intensity of MSX and Dermo infections 
+in indigenous oyster populations and their relation to temperature and 
+salinity regimes.
+
+Microbial studies of estuarine Vibrio spp..  Dr. Stephen H. Jones.
+Supported by NIH, Sea Grant.  The relationship of prevalence and 
+abundance of Vibrios to temperature and salinity regimes.
+
+Monitoring groundwater inflows in the Great Bay Estuary.  Dr. Larry
+Brannaka and Dr. Thomas Ballestero.  Supported by NOAA/UNH CICEET
+
+Sources of suspended sediments in the Great Bay Estuary.  Dr. Larry 
+Ward. Supported by NOAA/UNH CICEET
+
+Three-dimensional hydrodynamic modeling of the Great Bay Estuary.  Drs.
+Wendel Brown, Rob Swift, Frank Bub.  Supported by NOAA/UNH CICEET.
+
+II. Physical Structure Descriptors
+
+9.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column. 
+
+10.  Coded variable indicator and variable code definitions:
+Site definitions: GB = Great Bay, SQ = Squamscott River, LR = Lamprey 
+River
+
+11. Data Anomalies:
+Any anomalous or suspect data was removed from the data sets. Anomalous 
+data was the result of either fouling of the probes, probe failure, lack 
+of communication between the 1240 radio and the sonde, out of range 
+data, or maintenance/calibration during which the sonde was in the lab.
+
+Great Bay
+April
+No data 4/1/00 0:00 - 4/26 8:30 GB Sonde not yet deployed
+No depth data entire month. SQ sonde not yet deployed
+No temperature data 4/29 11:30-18:30 out of range and deleted
+May
+No depth data 5/1 0:00 - 5/10 9:30 SQ sonde not yet deployed
+No depth data 5/11 12:30 - 5/12 9:00 No corresponding SQ data
+No depth data 5/19 20:00 - 5/23 12:00 No corresponding SQ data
+Turbidity data out of range and deleted for the following dates 5/22 22:00 - 
+22:30, 5/23 16:30-17:00, 5/25 15:00, 5/26 3:30-4:30, 7:00-7:30, 8:30, 9:30-
+11:00, 19:00-19:30, 5/27 3:00, 7:30, 5/30 20:30, 5/31 20:30 
+No depth data 5/24 17:30 - 5/28 11:00 No corresponding SQ data 
+June
+No turbidity data 6/1 0:00 - 6/16 14:00 data was out of range due to fouling of 
+the probe and was deleted
+No temperature data 6/2 15:00 sonde did not record, for unknown reasons
+No specific conductivity, salinity, dissolved oxygen, temperature, pH and 
+turbidity. 
+data 6/2 8:00 - 11:30 sonde did not record, for unknown reasons
+No specific conductivity, salinity, dissolved oxygen, temperature, pH and 
+turbidity.  
+data 6/2 15:30 - 18:30 sonde did not record, for unknown reasons
+No depth data 6/7 3:30 - 6/20 6:00 No corresponding SQ data
+No specific conductivity, salinity, dissolved oxygen temperature, or pH 6/16 
+14:30 - 6/20 13:00 data was out of range and deleted
+No pH data 6/20 14:30 - 6/30 23:30 broken probe
+No dissolved oxygen data 6/20 18:30 - 22:00 data out of range and deleted.
+July
+No ph data 7/1 00:00 - 7/31 23:00 ph probe broken. Waiting for replacement.
+Dissolved oxygen data was out of range and deleted during the following times:
+7/1 15:30 - 19:00, 7/2 16:00 - 20:00, 7/3 17:00 - 20:00, 7/4 18:00 - 20:30, 7/6 
+20:00 - 22:00, 7/9 12:30 - 17:00, 7/10 14:00 - 16:30, 7/11 12:30 - 19:30, 7/12 
+13:00 - 21:30, 7/13 1:00 - 4:00, 7/13 12:00 - 7/14 5:30, 7/14 10:00 - 7/15 2:00, 
+7/15 15:00 - 19:30, 7/25 17:00 - 7/26 18:30, 7/29 14:00 - 20:00
+No data 7/25 11:00 - 16:30 sonde in lab for cleaning and calibration.
+No depth data 7/26 11:00 - 13:00 No corresponding SQ data.
+No depth data 7/29 2:30 - 7:31 23:30 No corresponding SQ data.
+August
+No ph data 8/1 0:00 - 8/21 09:00 Broken probe.
+No dissolved oxygen data 8/15 15:30 out of range, deleted.
+No data 8/21 9:30 - 11:00 sonde in lab for cleaning and calibration.
+No depth data 8/1 00:00 - 8/4 16:30, 8/21 2:00, 8/5 11:00, 8/7 19:30 - 8/10 
+22:30, 8/11 6:30 - 15:30, 8/17 10:00, 8/17 11:00, 8/18 3:00, 8/19 4:00, 6:30, 
+22:00, 8/21 2:00, 8/22 11:00, 16:00 - 8/23 9:00, 8/27 6:00, 14:00, 8/29 18:00, 
+8/31 16:00 No corresponding SQ data.
+The turbidity data, data was out of range and deleted at the following times: 
+8/12 21:00, 8/15 3:00, 8/16 22:00, 8/23 15:00, 8/24 15:00, 22:00, 8/25 23:30, 
+8/27 7:00, 8/28 1:00 - 1:30, 8/29 2:00 - 2:30, 4:30, 8/30 2:30, 8/31 3:30 - 4:00
+September
+No depth data 9/1 1:00, 9/2 10:00,18:00, 20:00, 9/3 11:00, 9/4 23:00, 9/6 2:00, 
+16:00, 20:00, 
+9/7 9:00, 9/8 0:00, 7:00, 9/10 7:00, 21:00, 9/11 17:00, 9/12 18:00, 9/13 00:00, 
+9/15 3:00, 5:00, 9/17 11:00, 9/18 1:00, 11:00, 9/19 2:00, 9/24 14:00, 9/26 6:00, 
+16:00, 9/27 6:00, 9/28 8:00, 9/29 3:00 No corresponding SQ data.
+No dissolved oxygen data 9/15 20:30 - 9/30 23:30 data was out of range probably 
+due to fouling and deleted.
+October
+No depth data 10/1 10:00, 10/4 5:00, 10/5 5:00, 10/6 15:00, 10/7 3:00. 10/8 
+11:00, 10/9 12:00, 10/10 8:00, 10/11 15:00, 23:00, 10/12 23:00, 10/13 9:00, 
+10/14 10:00, 10/15 1:00, 10/16 2:00, 10/17 2:00, 13:30 - 14:30, 10/18 5:00, 
+10/19 10:00, 15:00, 10/24 3:00, 11:00, 16:00, 10/28 23:00, 10/29 19:00, 10/31 
+18:00, 21:00 No corresponding SQ data.
+No salinity, specific conductivity, pH or dissolved oxygen data 10/1 0:00 - 
+10/12 9:30 out of range probably due to fouling.
+No data 10/12 10:00 - 12:30 sonde in the lab for cleaning and calibration.
+No temperature, salinity or conductivity data 10/12 13:00 - 10/23 15:00 probe 
+failure.
+No dissolved oxygen data 10/12 13:00 - 10/31 23:00 out of range, deleted.
+No data 10/19 10:00 - 11:00 sonde in lab to check DO membrane and calibration 
+because very high numbers recorded in Ecowatch.
+No data 10/23 13:30 - 15:00 sonde did not communicate for unknown reasons.
+No turbidity data 10/3 7:30, 10/11 15:00 - 18:00, 10/28 17:00 - 10/29 1:00 out 
+of range and deleted.
+November
+No dissolved oxygen data 11/1 0:00 - 11/6 13:30 out of range and deleted.
+No pH data 11/1 0:00 - 11/6 14:00 data out of range, deleted.
+No depth data 11/2 5:00, 11/4 12:00, 11/13 9:00, 11/13 10:00, 20:00, 11/14 3:00, 
+11/15 2:00, 3:00, 11/17 3:00, 11/17 7:00, 11/18 17:00, 11/21 2:30 - 6:30, 8:00, 
+11/22 8:00, 11:00, 18:00, 11/23 3:30, 8:00, 14:00, 16:00, 11/24 8:00, 14:00, 
+11/25 8:00, 11/29 9:00, 15:00, 17:00, 11/30 8:30 - 23:30 No corresponding SQ 
+data.
+
+Squamscott River
+May
+No data 5/1 00:00 - 5/10 10:00 sonde not yet deployed.
+No turbidity data 5/10 10:30, 16:00, 19:00, 5/11 1:30 - 2:30, 5/13 6:30, 14:30, 
+5/14 
+11:00, 18:30, 22:30, 5/15 2:00, 5/18 1:30, 5/24 4:00, 5/28 12:00 - 5/31 23:30 
+out of range and deleted.
+No data 5/11 13:00 - 5/12 9:30 sonde failed to record off and on for most of 
+this period 
+for unknown reasons so all data was deleted.
+No data 5/19 20:30 - 5/23 12:30 sonde failed to record for unknown reasons.
+No data 5/24 18:00 - 5/28 11:30 sonde failed to record possibly because tree 
+leaf growth impaired the line of sight from the sonde radio to the lab radio. A 
+radio repeater on a tower was added at this point and sonde resumed recording.
+June
+No turbidity data 6/1 0:00 - 6/30 23:30 possible probe failure. Data out of 
+range and deleted.
+No data 6/7 4:00 - 6/18 1:00 and 6/19 8:30 - 6/20 6:30 The sonde recorded very 
+few data points during this time period so all data was considered questionable 
+and deleted. Possible communication problem between the 1240 radios.
+July
+No turbidity data 7/1 0:00 - 7/31 23:30 possible probe failure. Data out of 
+range and deleted.
+No dissolved oxygen data 7/15 2:00 - 7/26 11:00 data out of range, possibly due 
+to fouling, and was deleted.
+No data 7/26 11:30 - 13:30 sonde in the lab for cleaning and calibration.
+No pH data 7/26 14:00 - 7/31 23:30 probe failure.
+No data 7/29 6:30 - 7:30 and 7/29 10:30 - 7/31 23:30 sonde failed to record. 
+Possible communication problem.
+August
+No data 8/1 0:00 - 8/4 17:00 sonde failed to record. Possible communication 
+problem.
+No pH data 8/4 17:30 8/23 9:00 probe failure. Probe replaced on 8/23
+No turbidity data 8/14 16:30 - 8:31 23:30 data out of range and deleted.
+No data for the following times because the sonde failed to record: 8/5 12:00, 
+8/7 20:00 - 8/10 23:00, 8/11 7:00 - 16:00, 8/17 10:30, 11:30, 8/18 3:30, 8/19 
+4:30, 7:00, 22:30, 8/21 2:30, 8/22 11:30, 8/27 6:30, 14:30, 8/29 18:30, 8/31 
+16:30
+No data 8/22 16:30 - 8/23 9:00 sonde in the lab for cleaning and calibration.
+September
+No turbidity data 9/1 0:00 - 9/30 23:30 all data very erratic and out of range, 
+deleted.
+No pH data 9/1 0:00 - 9/30 23:30 all data out of range, deleted.
+During the month of September, the SQ had 29 isolated one half hour intervals 
+where the radio and/or sonde failed to record or communicate. The data was not 
+anomalous and not deleted because it didn't exist.
+October
+No pH data 10/1 0:00 - 10/17 13:30 out of range and deleted.
+No data 10/17 14:00 - 15:00 sonde in lab for cleaning and calibration.
+No turbidity data 10/1 0:00 - 10/17 13:30 and 10/28 23:00 - 10/31 23:30 data out 
+of range probably due to fouling and deleted.
+During the month of October, the SQ had 26 isolated one half hour intervals 
+where the radio and/or sonde failed to record or communicate. The data was not 
+anomalous and not deleted because it didn't exist.
+November
+No turbidity data 11/1 0:00 - 11/30 23:30 all data out of range and deleted.
+During the month of November, the SQ had 36 one half hour intervals where the 
+radio and/or sonde failed to record or communicate. The data was not anomalous 
+and not deleted because it didn't exist. This includes the period of time 11/21 
+3:00 - 7:00.
+No depth data 11/15 22:30 and 11/16 2300 - 23:30 data out of range, deleted.
+No data 11/30 9:00 - 23:30 sonde removed for the winter.
+
+Lamprey River
+May
+No data 5/1 0:00 - 5/17 9:30 sonde not deployed.
+No dissolved oxygen 5/22 19:00 out of range, deleted.
+No dissolved oxygen data 5/24 13:00 - 5/31 23:30 data out of range and deleted 
+due to probe failure.
+Salinity very low 5/25 - 5/28 without the higher salinity fluctuations that 
+normally occur with the tides. This was caused by 1.43 inches of rain that fell 
+between 5/23 and 5/25. The data is correct.
+No turbidity data 5/30 0:30, 5/31 1:30 out of range, deleted.
+June
+No dissolved oxygen data 6/1 0:00 - 14:30 deleted due to probe failure.
+No data 6/11 10:30 and 13:30 sonde did not record, for unknown reasons.
+July
+No turbidity data 7/7 9:30, 7/13 10:00, 7/17 15:00 - 15:30 out of range, 
+deleted.
+No conductivity or salinity data 7/13 6:30 - 7:00 out of range, deleted.
+No depth data 7/13 16:30 - 18:30 out of range, deleted.
+No dissolved oxygen data 7/13 17:30 - 19:30  out of range, deleted.
+No pH data 7/13 17:30 - 19:00 out of range, deleted.
+August
+During August there were many turbidity data points that were out of range and 
+deleted. Too numerous to list.
+No depth, pH, turbidity data 8/5 17:00 sonde did not record these parameters for 
+unknown reasons.
+No data 8/5 17:30 - 20:30 sonde did not record for unknown reasons.
+No data 8/11 9:30 - 12:30 sonde did not record for unknown reasons.
+September
+No turbidity data 9/1 10:00, 9/6 4:00, 9/12 0:30, 9/18 13:00 data out of range 
+and deleted.
+No data 9/28 14:30 - 9/29 3:30 sonde in lab for cleaning and calibration.
+October 
+No turbidity 10/7 6:30, 10/22 6:30, 9:30, 10:00 out of range and deleted
+Sonde failed to record or communicate on the following dates. The data was not 
+anomalous and not deleted because it didn't exist. 10/9 20:30, 10/26 8:00, 10/29 
+1:00
+November
+No pH data 11/12 1:00, 11/13 13:30, 11/15 4:00, 15:30, 11/16 6:00 - 17:30, 11/16 
+21:30 - 
+11/17 17:30, 11/18 1:00 - 18:30, 11/19 2:30 - 10:00, 11/19 11:00 - 19:30, 11/20 
+8:00, 11/21 8:00, 20:30, 11/22 9:00, 21:00, 11/28 14:00
+No data 11/30 14:30 - 23:30 sonde removed for the winter. 
+
+12. Missing Data:
+All missing data is noted with a period (.). Data are missing due to equipment 
+failure where no probes were deployed, maintenance/calibration of equipment, 
+elimination of obvious outliers or elimination of data due to calibration 
+problems, (both pre and post). For more details on the deleted data, see the 
+Data Anomalies Section. To find out more details about missing data, please 
+contact the research technician at the Great Bay site.
+
+
+

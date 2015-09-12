@@ -1,0 +1,791 @@
+Guana Tolomato Matanzas (GTM) NERR Water Quality Metadata 
+January - December 2001 
+Latest Update: July 29, 2009
+
+1) Principal investigator & contact persons:
+
+Principal Investigator:
+
+Richard Gleeson, Ph.D., Research Coordinator
+9741 Ocean Shore Blvd.
+St. Augustine, FL 32080
+(904) 461-4054
+rglee@whitney.ufl.edu
+
+Other Contact Persons:
+
+Laura Wick, M.S., Research Assistant
+E-mail:  lwick@bellsouth.net; (904) 461-4054.
+
+
+The following individuals from the Florida Department of Environmental 
+Protection (Northeast District Office), particularly Michael Kuhman, provided 
+invaluable support by assuming responsibility for sonde management (i.e., 
+deployments, calibrations, maintenance and initial data management) at both of 
+the GTM NERR SWMP sites:
+
+Michael Kuhman, Environmental Specialist I
+E-mail: michael.kuhman@dep.state.fl.us; (904) 807-3300.
+
+Bipin Adhyaru, Environmental Specialist III
+Email: Bipin.Adhyaru@dep.state.fl.us; (904) 807-3300.
+
+Lee Banks, Environmental Specialist III
+E-mail: lee.banks@dep.state.fl.us; (904) 807-3300.
+
+Tom Kellemyne, Environmental Specialist I
+E-mail: tom.kellemyne@dep.state.fl.us; (904) 807-3300.
+
+
+2) Entry verification:
+
+Data are uploaded to a PC from the YSI Model 6600 data sonde and graphs are 
+produced using EcoWatch software Version 3.13.  EcoWatch is used to plot the 
+data and perform basic statistical analysis (i.e., min, max, mean, std dev).  
+Graphs are evaluated for suspect data, as may result from probe failure.  Notes 
+are made of any unusual data, and sensors are reconditioned as necessary.  Each 
+data file is exported as a comma delimited file (.cdf) using EcoWatch software.  
+Two copies of this .cdf file are saved in the .csv format; one file is used to 
+archive the raw data, whereas the second file is edited to adjust the time to 
+read exactly at the top or bottom of the hour (e.g., 00:00:00; true times on 
+sondes were 00:00:40 past the top and bottom of the hour), to remove headers and 
+footers, and to delete data at the beginning and end of each record when the 
+instruments were out of the water.  These latter data are identified by field 
+notes that document the times in and out of the water, together with depth and 
+conductivity values near zero.  Sonde clocks had been incorrectly set to 
+Daylight Savings Time for many deployments; therefore, several data files 
+required further editing to convert all time values to Eastern Standard Time.  
+Files for each deployment that required this time adjustment are marked with an 
+asterisk in section 6 (Data collection period).
+
+Using the edited .csv files, monthly data are compiled and processed by various 
+macros distributed by the CDMO.  These macros are designed to: 1) check data 
+files for missing data points, 2) fill all cells that do not contain data with 
+periods (.), 3) convert the data columns to the CDMO-approved formats for time, 
+date and numeric variables, 4) find all data that are out of acceptable range 
+for the sensors, 5) save the files as Excel worksheets (*.xls) and 6) generate 
+single parameter monthly graphs.Anomalous data are evaluated to determine 
+whether to flag or delete the suspect values.  Data are flagged if the values 
+are: 1) outside the range expected for the site, or 2) outside the range of 
+measurements established for the sensors (see Table 1).  Data outside the 
+"normal" range of water quality parameters for a particular site were 
+investigated for validity based on weather data, field observations, QC checks, 
+PC6000 printouts, and instrument diagnostics.  Data are deleted if the anomalies 
+are attributed to sensor malfunction.  In addition to observations of any 
+physical damage (e.g., a torn DO probe membrane), sensor malfunctions are 
+detected if the voltage reading of the probe is outside the range established 
+for the sensor or the sensor will not calibrate.  After corrections are made to 
+the monthly Excel worksheet (*.xls), the edited files are exported as tab-
+delimited files (*.txt) and sent to the CDMO.  Raw data (*.csv) files are also 
+sent to the CDMO for archiving.  Laura Wick is responsible for these tasks.
+
+
+3) Research objectives:
+
+To begin the SWMP initiative in the GTM NERR it was desirable to establish one 
+permanent station in both the northern and the southern sections of the reserve.  
+The stations needed to be somewhat centrally located to be representative of the 
+conditions within that region.  Existing Channel Markers in the Atlantic 
+Intracoastal Waterway (ICW) were selected as the preferred mounting locations.  
+Sondes at the Pine Island site are deployed in a PVC pipe fixed to Channel 
+Marker 25 (30° 03.050´N; 81° 22.048´W) in the Tolomato River.  This site is 
+located within the Guana River Marshes State Aquatic Preserve in the northern 
+section of the GTM NERR.  Channel Marker 25 is adjacent to Pine Island near the 
+mouth of Deep Creek, which provides freshwater drainage from uplands in the 
+northwestern portion of the Tolomato River Basin.  Sondes at the Fort Matanzas 
+site (in the southern section of the GTM NERR) are deployed in a PVC pipe fixed 
+to ICW Channel Marker 75 (29° 44.220´N; 81° 14.762´W) in the Matanzas River.  
+This site is located 2.5 miles (4.0 km) north of the Matanzas Inlet and is near 
+a shoreline on Anastasia Island that is undergoing residential development.  
+Both the Matanzas River and Tolomato River sites are within Class II Shellfish 
+Harvesting Waters.
+
+
+4) Research methods:
+
+YSI 6600 data sondes have been continuously operated (data collection interval: 
+30 minutes) at each of the two permanent monitoring stations in the GTM NERR 
+since December 2000.  At each site the sonde is contained within a 4 inch 
+diameter PVC pipe mounted vertically on a channel marker piling.  A steel pin at 
+the bottom end of the pipe holds the sonde at a postion within 1 meter from the 
+bottom.  To facilitate water flow across the sensors, several 2 cm diameter 
+holes were drilled into the submerged portion of the pipe.  Hole density is 
+greatest near the base where the sonde sensors are located.  To avoid heavy 
+fouling, sondes were exchanged more frequently during the summer than in cooler 
+months (see deployment times in section 6: Data collection period).  Exchanges 
+usually took less than 5 minutes, thus no planned downtime occurred.  At the end 
+of a sampling period, sondes were returned to the laboratory where post-
+deployment readings and reconditioning took place in accordance with the methods 
+outlined in the YSI Operating and Service Manual.  After a superficial rinse of 
+the sonde in tap water, post deployment readings were recorded for temperature 
+and in standards for pH (Fisher 7.00 and 10.00 buffer solutions) and 
+conductivity (Exaxol 25.00 or 50.00 mS/cm standard); a post-deployment turbidity 
+reading in 100.0 NTU standard was recorded after a more thorough rinse of 
+the turbidity sensor.  This rinse was done to avoid contamination of the NTU 
+standard.  The results of these post-deployment readings were used to evaluate 
+the validity of data (see Tables 4 and 5).  The dissolved oxygen (DO) membrane 
+was replaced and allowed to equilibrate for 24 hours before the DO sensor was 
+pre-calibrated in water-saturated air for the following deployment.
+
+
+5) Site location and character:
+
+The GTM NERR (North section [NW and SE corners]: 30.1632º N, 81.3447º W and 
+29.9698º N, 81.2488º W; South section: 29.8295º N, 81.3294º W and 29.6017º N, 
+81.1936º W), located in the Florida Upper East Coast Drainage Basin, includes 
+approximately 55,000 acres of publicly owned forested uplands, tidal wetlands, 
+estuarine lagoons and offshore seas.  Geographically separated by the greater 
+St. Augustine area, the Reserve is associated with the riverine systems of the 
+Tolomato and Guana River estuaries to the north and the Matanzas River 
+estuary to the south.  The Tolomato River Basin is about 18 miles (29 km) in 
+length with a drainage area of approximately 53,802 acres; it converges with the 
+Matanzas River and Salt Run from the south before flowing into the Atlantic 
+Ocean at the St. Augustine Inlet.  The headwaters of the Guana River originate 
+in the Diego Plains drainage area in Ponte Vedra Beach.  This drainage basin 
+encompasses approximately 7,800 acres.  The Guana River runs parallel to the 
+Tolomato on the seaward side, with the two lagoons joining 7 miles (11.3 km) 
+north of the St. Augustine Inlet.  The Matanzas River estuary is approximately 
+20 miles (32 km) in length and extends 8 miles (13 km) south of the Matanzas 
+Inlet.  The Matanzas River sub-basin has a drainage area of approximately 
+103,615 acres and is bounded to the west by the Atlantic Coastal Ridge, which 
+separates it from the lower St. Johns River basin.  Both the St. Augustine and 
+Matanzas Inlets provide oceanic exchange to the system.  The Matanzas Inlet, one 
+of the last "natural" inlets on Florida's east coast, has been unimproved and is 
+suitable only for small watercraft.  The natural hydrology of the Guana Tolomato 
+Matanzas system has been somewhat altered by water control structures, including 
+dikes, inland wells, drainage ditches and a dam across a portion of the Guana 
+River.  In addition, the Intracoastal Waterway traverses both the Tolomato and 
+Matanzas estuaries.
+The climate of northeast Florida is classified as humid subtropical and is 
+characteristic of the Gulf and Atlantic coastal plain of the Southeastern United 
+States.  The average annual rainfall is approximately 52 inches per year, with 
+the wet season extending from June through September.  Seasonal variation in 
+temperature within the Reserve follows that of rainfall with a summer period of 
+high temperatures between June and September and a cooler period extending 
+from December through March.  The annual mean air temperature within the Reserve 
+is approximately 21ºC.  During 2001, water depth at both the Pine Island and 
+Fort Matanzas sites ranged between 1.5 and 4.0 m.  Mean depth at the Pine Island 
+site was 2.8 +/- 0.5 m (+/- S.D.; n=15463) with an average monthly tidal range 
+of +/- 1.0 m.  Similarly, the meandepth at the Fort Matanzas site was 2.6 +/- 
+0.4 m (+/- S.D.; n = 15162) with an average monthly tidal range of +/- 0.9 m.  
+Depth is recorded as the amount of water above the sensors, which are located 
+less than 1 m above the bottom at both sites.  During 2001, salinity at the Fort 
+Matanzas site ranges between 11.6 and 37.2 ppt; the mean was 34.6 +/- 2.3 ppt 
+(+/- S.D.; n = 15162) with an average monthly range of +/- 4.5 ppt.  Salinity at 
+the Pine Island site ranged between 6.3 and 38.4 ppt; the mean was 31.3 +/- 6.5 
+ppt (+/- S.D.; n = 16980) with an average monthly range of +/- 5.5 ppt.
+Initial observations suggest that the benthic structure within the GTM NERR 
+ranges from silty sediment to hardbottom habitat including the eastern oyster 
+Crassostrea virginica, sponges, and hard and soft corals.  The benthic habitat 
+surrounding the Pine Island site is composed of dynamic fine grain sediment.  A 
+hardbottom community comprised primarily of oysters, sponges, and corals exists 
+at the Fort Matanzas site.  A more detailed analysis of benthic structure will 
+be presented in future metadata reports.
+
+Station Locations:
+The Pine Island (gtmpinut) station is at Channel Marker 25 (30º 
+03.051´N; 81º 22.048´W) in the Tolomato River.  
+
+The Fort Matanzas (gtmfmnut) site (in the southern section of the GTMNERR) is located at 
+Channel Marker 75 (29º 44.222´N; 81º 14.757´W) in the Matanzas River.
+
+
+6) Data collection period:
+
+Data sondes were first deployed on December 21, 2000 at the Pine Island site and 
+December 26, 2000 at the Fort Matanzas site, and have been continuously in 
+service since then.  All monitoring is considered long-term.  Individual sonde 
+deployment and retrieval dates and times for 2001 are as follows:
+
+BEGAN			ENDED
+
+Pine Island Site
+12/21/00, 14:30:00		02/01/01, 14:30:00
+* 02/01/01, 15:00:00		02/15/01, 14:00:00
+02/15/01, 14:30:00		03/01/01, 13:00:00
+03/01/01, 13:30:00		03/16/01, 12:30:00
+* 03/16/01, 13:00:00		04/02/01, 12:00:00
+* 04/02/01, 12:30:00		04/12/01, 13:30:00
+* 04/12/01, 14:00:00		04/26/01, 12:00:00
+* 04/26/01, 12:30:00		05/10/01, 14:30:00
+* 05/10/01, 15:00:00		05/24/01, 13:00:00
+* 05/24/01, 13:30:00		06/07/01, 12:30:00
+* 06/07/01, 13:00:00		06/18/01, 09:30:00
+* 06/18/01, 10:00:00		06/29/01, 09:00:00
+* 06/29/01, 09:30:00		07/05/01, 11:30:00
+* 07/05/01, 12:00:00		07/12/01, 13:30:00
+* 07/12/01, 14:00:00		07/20/01, 12:30:00
+* 07/20/01, 13:30:00		07/30/01, 09:00:00
+* 07/30/01, 09:30:00		08/06/01, 10:00:00
+* 08/06/01, 10:30:00		08/16/01, 10:30:00
+* 08/16/01, 11:00:00		08/24/01, 14:00:00
+* 08/24/01, 14:30:00		08/31/01, 09:00:00
+* 08/31/01, 10:00:00		09/10/01, 14:00:00
+* 09/10/01, 14:30:00		09/27/01, 13:30:00
+* 09/27/01, 14:30:00		10/18/01, 12:30:00
+* 10/18/01, 13:00:00		11/02/01, 11:00:00
+11/02/01, 11:30:00		11/16/01, 13:00:00
+11/20/01, 15:00:00		12/06/01, 16:00:00
+12/06/01, 16:30:00		12/21/01, 12:30:00
+* 12/21/01, 13:30:00		01/07/01, 13:30:00
+
+Fort Matanzas Site
+12/26/00, 14:00:00		02/08/01, 13:00:00
+02/08/01, 14:00:00		02/22/01, 11:30:00
+* 02/22/01, 12:00:00		03/08/01, 12:30:00
+03/08/01, 13:00:00		03/26/01, 12:00:00
+03/26/01, 12:30:00		04/05/01, 12:30:00
+* 04/05/01, 13:00:00		04/19/01, 14:00:00
+* 04/19/01, 14:30:00 		05/03/01, 12:00:00
+* 05/03/01, 12:30:00		05/17/01, 12:00:00
+* 05/17/01, 12:30:00		05/31/01, 13:00:00
+* 05/31/01, 13:30:00		06/15/01, 10:30:00
+* 06/15/01, 11:00:00		06/29/01, 12:30:00
+* 06/29/01, 13:00:00		07/05/01, 14:30:00
+* 07/05/01, 15:00:00		07/13/01, 12:30:00
+* 07/13/01, 13:00:00		07/23/01, 11:00:00
+* 07/23/01, 11:30:00		07/26/01, 12:30:00
+* 07/26/01, 13:00:00		08/06/01, 12:00:00
+* 08/06/01, 12:30:00		08/16/01, 13:30:00
+* 08/16/01, 14:00:00		08/24/01, 13:00:00
+* 08/24/01, 13:30:00		08/31/01, 12:30:00
+* 08/31/01, 13:00:00		09/17/01, 13:00:00
+* 09/17/01, 13:30:00		10/05/01, 13:00:00
+* 10/05/01, 13:30:00		10/22/01, 14:30:00
+* 10/22/01, 15:00:00		11/02/01, 13:30:00
+11/02/01, 13:30:00		11/20/01, 09:30:00
+11/20/01, 10:00:00		12/07/01, 12:00:00
+12/07/01, 12:30:00		12/21/01, 15:00:00
+12/21/01, 15:30:00		01/09/02, 12:00:00
+
+*  indicates deployments for which time data required correction 
+to Eastern Standard Time in the edited .csv file.
+
+7)  Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,  NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data 
+are used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals. Will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient of third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (see section 1), from the Data Manager 
+at the Centralized Data Management Office (see personnel directory under general 
+information link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+ 
+8) Associated researchers and projects:
+
+The GTM NERR has formed partnerships with other agencies and organizations 
+actively involved in resource protection in the GTM NERR watershed.  Cooperating 
+managers of lands within the NERR include:  1) National Park Service (NPS), 2) 
+St. Johns River Water Management District (SJRWMD), 3) Department of 
+Environmental Protection (DEP) Division of Recreation and Parks/Florida Park 
+Service (FPS), 4) DEP Aquatic Preserve Program, 5) Florida Fish and Wildlife 
+Conservation Commission, and 6) Flagler County.  The SJRWMD Northern Coastal 
+Basin Program, established in 1995, covers the watersheds along the Intracoastal 
+Waterway from Ponce Inlet in Volusia County, north through Flagler and St. Johns 
+Counties, to the Guana River marshes at Ponte Vedra in southern Duval 
+County. This program was developed in response to concerns about the impacts of 
+population growth and development on water quality in the Northern Coastal Basin 
+(NCB).  Some of the major research activities conducted within the boundaries of 
+the NERR through the NCB program include: 1) a fisheries monitoring project in 
+conjunction with United States Geological Survey, 2) hydrodynamic modeling of 
+the estuarine systems, and 3) water quality monitoring.  
+Many of the water quality monitoring and assessment activities of the NCB 
+program are aimed at pollution source identification and the development of 
+pollution load reduction goals.Other water quality research and monitoring 
+initiatives within the GTM NERR include: 1) studies of nutrient profiles by the 
+laboratory of Dr. Edward Phlips at the University of Florida (this work 
+compliments and extends the GTM NERR's SWMP nutrient monitoring efforts), and 
+2) regular monitoring of fecal coliform levels in shellfish harvesting waters by 
+the Department of Agriculture and Consumer Services.NERR-specific research 
+projects currently in progress include: 1) a CICEET funded study by Dr. Jody 
+Harwood at the University of South Florida to develop a real-time, fiber-optic 
+biosensor for human pathogens in estuarine waters, 2) a NERR-funded graduate 
+research project to decipher the parameters affecting reforestation of spoil 
+islands, 3) a NERR-funded graduate research project to develop an estuarine 
+planning strategy through an assessment of human use patterns together with a 
+delineation of ecological resources, and 4) a collaboration with the 
+National Weather Service in Jacksonville and University of North Florida to test 
+a web-enabled, wireless communication system for real-time data acquisition from 
+field instruments.
+
+9) Variable Sequence, range of measurements, units, resolution, and 
+accuracy: 
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+10) Coded variable indicator and variable code definitions:
+
+File definitions: YSI deployment site/month/year (e.g., FMWQ0301 = monthly data 
+from the Fort Matanzas site for March of 2001).  PI = Pine Island; FM = Fort 
+Matanzas.  
+
+
+11) Anomalous data:
+  	
+Note that slight shifts in data are sometimes correlated with sonde exchanges.  
+These shifts are most noticeable in pH, specific conductivity, salinity, DO% and 
+DO conc, and may be related to sensor drift (e.g., due to fouling) and/or 
+calibration differences between sondes.
+
+January 1-31, 2001
+PI
+a)	Deleted all depth data between 01/01 at 00:00:00 and 1/31 at 23:30:00 
+(entire month) - plastic wrap on sonde (to prevent fouling) interfered with 
+depth gauge operation.
+b)	Suspect DO% and DO conc data between 1/18 at 10:30:00 and 1/23 at 
+00:00:00; further analysis is required.
+c)	Anomalous DO% and DO conc data on 1/12 at 12:00:00 - reason unknown.
+d)	Anomalous specific conductivity and salinity data on 1/28 at 16:00:00 - 
+reason unknown.
+e) Turbidity outliers for the following dates and times were not deleted:
+01/01/2001	06:30:00	1301
+01/04/2001	03:30:00	1270
+01/07/2001	21:00:00	1261
+01/09/2001	12:30:00	1092
+01/20/2001	15:00:00	1332
+01/21/2001	01:30:00	1124
+01/22/2001	20:00:00	1316
+01/26/2001	00:00:00	1312
+01/28/2001	10:30:00	1314
+01/29/2001	19:00:00	1325
+01/31/2001	18:30:00	1329
+
+FM
+No anomalies
+
+February 1-28, 2001
+PI
+a)	Deleted depth data between 2/01 at 00:00:00 and 2/01 at 14:30:00 due to 
+plastic wrap covering the depth gauge port.
+b) Turbidity outliers for the following dates and times were not deleted:
+02/01/2001	21:30:00	1372
+02/04/2001	20:00:00	1368
+02/04/2001	21:00:00	1238
+02/08/2001	01:00:00	1372
+02/09/2001	18:30:00	1374
+02/09/2001	20:30:00	1383
+02/15/2001	08:00:00	1331
+
+FM
+a)	Missing data 2/8 at 13:30 due to sonde change.
+b) Turbidity outliers for the following dates and times were not deleted:
+02/01/2001	13:00:00	1461
+02/16/2001	15:00:00	1109
+02/21/2001	11:30:00	1030
+
+March 1-31, 2001
+PI
+a)	Deleted DO data between 3/14 at 04:00 and 3/16 at 12:30 due to 
+the accumulation of  fouling organisms on the DO membrane.
+b)	pH data from 3/01 at 13:30:00 to 3/16 at 12:30:00 may be suspect since 
+bulb was found broken upon retrieval.
+c) Turbidity outliers for the following dates and times were not deleted:
+03/15/2001	17:00:00	1029
+
+FM
+a)	Missing data on 3/8 at 13:00:00 due to sonde exchange.
+b)	Increased turbidity readings between 3/15 at 00:00:00 and 3/22 at 10:30:00 
+may be related to local rain events.
+c)	Data from all sensors were deleted on 3/22 at 14:00:00 and 14:30:00 due to 
+an apparent sonde failure.
+
+April 1-30, 2001
+PI
+a)	The conductivity and salinity data for 4/11 at 13:00:00 maybe an artifact, 
+but were not deleted.  The same parameters were suspect between 4/20 10:00:00 
+and 4/26 at 12:00:00.  The irregular profile may be due to local rain events.
+b)	Drift in turbidity may have occurred between 4/09 17:30:00 and 4/12 
+13:30:00, reason unknown.
+c) Turbidity outliers for the following dates and times were not deleted:
+04/24/2001	21:00:00	1047
+
+FM
+No anomalies.
+
+May 1-31, 2001
+PI
+a)  	Drop in specific conductivity and salinity on 5/25 at 01:00:00, reason 
+unknown.  The same parameters also dropped between 5/7 at 17:00:00 and 5/10 at 
+14:30:00 possibly due to the combination of exceedingly high amounts of mud and 
+worm casings on the conductivity sensor as well as local rain events.  A similar 
+decrease in specific conductivity and salinity occurred between 5/29 at 23:30:00 
+and 5/31at 03:30:00, possibly due to local rain events.
+b)	One crab and one blenny were found within the sensor guard upon retrieval 
+on 5/24.
+c) Turbidity outliers for the following dates and times were not deleted:
+05/28/2001	03:00:00	1207
+
+FM
+a)	Data missing from 5/20 04:00:00 until 5/31 23:30:00 due to battery 
+failure.
+b)	Drop in specific conductivity and salinity occurred between 5/06 at 
+15:30:00 and 5/13 at 01:00:00 likely due to local rain events.
+
+June 1-30, 2001
+PI
+a)	Several small crabs and fish were found within the sensor guard upon 
+retrieval on 6/18.
+b)	Turbidity and DO data were deleted between 6/20 at 18:30 and 6/29 at 09:00 
+due to evidence of partial burial of the sonde in fine sediments together with 
+barnacle fouling of the DO membrane when retrieved on 6/29.  Benthic sediment 
+movements appeared to be dynamic throughout the month.  Field observations 
+suggest that specific conductivity and therefore, salinity measurements may be 
+affected by high amounts of silt on the conductivity sensor.
+
+FM
+a)	Data were missing from 6/01 00:00:00 until 6/15 10:30:00 due to battery 
+failure.
+b)	Two small crabs were found within the guard when retrieved on 6/29. 
+
+July 1-31, 2001
+PI
+a)	Data from 7/30 09:30:00 to 7/31 23:30:00 were not collected due to a 
+programming error.
+b)	Deleted pH data between 7/12 14:00:00 and 7/20 12:30:00.  Pre-calibration 
+readings were not out of range, but the readings were low (8.69 for a 10.00 
+buffer solution).  Post-calibration reading for the pH 7.0 buffer was also low 
+(4.49).
+c)	Suspect specific conductivity and salinity data between 7/03 16:00:00 and 
+7/05 11:00:00 due to high amounts of mud associated with the sonde at retrieval. 
+d)	Suspect specific conductivity and salinity data between 7/10 at 00:00:00 
+and 7/12 at 13:30:00.  This decline is possibly associated with local rain 
+events, but the interpretation is complicated by the presence of high amounts of 
+mud and small crabs found within the guard upon retrieval.
+e)	A crab was found within the sensor guard upon retrieval on 7/20.
+f) Turbidity outliers for the following dates and times were not deleted:
+07/28/2001	14:00:00	1377
+07/28/2001	22:30:00	1105
+
+FM
+a)	The shift in the pH data at 7/5 15:00:00 is possibly due to calibration 
+differences between the deployed and retrieved sondes.
+b)	One large (width: 2.5 inches) and one small (width: 1 inch) crab was found 
+within sensor guard upon retrieval on 7/13 and 7/23, respectively.
+c)	Rain events were frequent between 7/10 and 7/26.  These events likely 
+affected the salinity readings at this time.
+d) Turbidity outliers for the following dates and times were not deleted:
+07/17/2001	05:30:00	1488
+
+August 1-31, 2001
+PI
+a)	Data were not collected between 8/01 00:00:00 and 8/06 10:00:00 due to a 
+programming error.
+b)	Missing data 8/31 09:30:00 due to the deployment/retrieval sonde exchange 
+process.
+c)	One small crab (width: 0.25 inch) found within sensor guard upon retrieval 
+on 8/24.
+
+FM
+a)	One large (length: 4 inches) blenny was found within the sensor guard upon 
+retrieval on 8/31.  Apparently, the fish damaged the DO membrane on 8/31 at 
+01:00:00.  DO% and DO conc data were deleted between 8/31 at 1:00:00 and 8/31 at 
+12:30:00 when the sonde was retrieved.  
+
+September 1-30, 2001
+
+Tropical storm Gabrielle passed near the GTM NERR on 9/15.  Rain events occurred 
+between 9/11 and 9/15 with a peak in rainfall on 9/13 (information is based on 
+Stokes Landing rain gauge maintained by the St. Johns River Water Management 
+District).
+
+PI
+a)	Data are missing at the following times: 9/08 08:30:00, 9/08 17:00:00, and 
+9/27 14:00:00.  Dropouts on 9/08 occurred with the same sonde -  reason is 
+unknown; the missing data point on 9/27 was due to sonde exchange.
+
+FM
+a)	Data are missing between 9/17 13:30:00 and 9/18 16:30:00, on 9/19 between 
+7:00:00 and 11:00:00, between 9/22 12:30:00 and 9/22 14:00:00, between 9/23 
+11:00:00 and 9/23 16:00:00, between 9/24 13:30:00 and 9/24 17:30, and between 
+9/25 00:00:00 and 9/30 23:30:00 - apparently due to faulty sonde.
+
+October 1-31, 2001
+PI
+a)	Deleted DO% and DO conc data between 10/17 at 03:30:00 and 10/18 at 
+12:30:00 due to a torn DO membrane.  Crabs found within the sensor guard upon 
+retrieval on 10/18 most likely damaged the DO membrane.
+b) Turbidity outliers for the following dates and times were not deleted:
+10/16/2001	04:30:00	1290
+
+FM
+a)	Data are missing from 10/01 00:00:00 to 10/05 13:00:00 apparently due to a 
+faulty sonde (note missed ranges in September at Fort Matanzas occurred during 
+the same deployment period).
+b)	Two  crabs (width: 0.5 inches) were found within the sensor guard upon 
+retrieval on 10/22.
+c) Turbidity outliers for the following dates and times were not deleted:
+10/28/2001	08:30:00	1369
+
+November 1-30, 2001
+
+A northeastern storm event may be responsible for the increase in water depth 
+and decrease in salinity seen in November.  Rain events were common between 
+11/12 and 11/14 with a peak on 11/14, based on the Stokes Landing rain guage.
+
+PI
+a)	Missing data between 11/16 13:30:00 and 11/20 14:30:00.  PVC sonde housing 
+and cap were damaged, therefore, deployment was delayed until the cap and lock 
+were replaced.
+b)	A few small crabs and moderate barnacle growth was discovered on the 
+sensors and within the sensor guard upon retrieval on 11/2.
+c) Turbidity outliers for the following dates and times were not deleted:
+11/12/2001	03:00:00	1363
+11/23/2001	21:30:00	1372
+11/24/2001	20:00:00	1374
+11/28/2001	20:00:00	1379
+11/28/2001	20:30:00	1379
+11/30/2001	01:30:00	1380
+11/30/2001	14:30:00	1342
+11/30/2001	20:30:00	1380
+
+FM 
+a)	Data are missing from 11/27 04:00:00 until 11/30 23:30:00 due to battery 
+failure.
+b)	Deleted DO% and DO conc data between 11/13 at 17:30:00 and 11/20 at 
+09:30:00 due to discontinuity.  It is suspected that the DO membrane was damaged 
+since the DO values dropped precipitously to negative values, however there were 
+no field or laboratory notes to confirm this.
+
+December 1-31, 2001
+PI
+a)	DO data are suspect between 12/1 at 12:30 and 12/1 at 14:00.  The reason 
+for the low values is unknown.
+b)	Data are missing on 12/21 13:00:00 due to sonde exchange.
+c)	Deleted turbidity data between 12/14 00:00:00 and 12/21 12:30:00 
+due to a blenny (length: 4 inches) and high number of deposited 
+eggs/mud casings found on the sensors and within sensor guard upon retrieval on 
+12/21.
+d) Turbidity outliers for the following dates and times were not deleted:
+12/05/2001	16:00:00	1375
+12/05/2001	16:30:00	1376
+12/05/2001	18:00:00	1376
+12/06/2001	11:00:00	1095
+12/06/2001	16:00:00	1377
+
+FM
+a)	Data missing from 12/01 00:00:00 to 12/07 12:00:00 due to battery failure. 
+b)	A blenny (length: 4 inches) was found within the sensor guard and both the 
+DO membrane and pH bulbs were missing upon retrieval on 12/21.  Consequently, 
+the data described below (c and d) were deleted.
+c)	Deleted DO% and DO conc. data between 12/17 at 05:30:00 and 12/21 at 
+15:00:00 and then again between 12/22 at 14:00:00 to 12/31 at 23:30 due to a 
+torn DO membrane. 
+d)	Deleted pH data between 12/17 at 00:00:00 and 12/21 at 15:00:00 due to 
+broken pH bulb.
+e)	Suspect specific conductivity and salinity data on 12/25 at 05:00:00, 
+12/26 at 03:30:00, 12/27 at 09:30:00, and 12/31 at 15:30:00.
+f) Turbidity outliers for the following dates and times were not deleted:
+12/08/2001	01:30:00	-0001
+12/08/2001	02:00:00	-0001
+12/08/2001	02:30:00	-0001
+12/08/2001	07:00:00	-0001
+12/08/2001	14:00:00	-0001
+12/08/2001	14:30:00	-0002
+12/08/2001	19:30:00	-0001
+12/09/2001	03:30:00	-0002
+12/09/2001	15:00:00	-0001
+12/09/2001	15:30:00	-0001
+12/09/2001	16:00:00	-0001
+12/10/2001	03:00:00	-0001
+12/10/2001	03:30:00	-0001
+12/10/2001	04:00:00	-0002
+12/10/2001	04:30:00	-0002
+12/10/2001	16:00:00	-0002
+12/10/2001	16:30:00	-0002
+12/10/2001	17:00:00	-0001
+12/10/2001	17:30:00	-0001
+12/10/2001	18:00:00	1122
+12/10/2001	21:30:00	-0001
+12/11/2001	05:00:00	-0001
+12/11/2001	05:30:00	-0002
+12/11/2001	06:00:00	-0002
+12/11/2001	17:00:00	-0001
+12/11/2001	17:30:00	-0001
+12/11/2001	18:00:00	-0001
+12/12/2001	05:00:00	-0001
+12/12/2001	05:30:00	-0001
+12/12/2001	06:00:00	-0002
+12/12/2001	06:30:00	-0001
+12/12/2001	07:00:00	-0001
+12/12/2001	18:00:00	-0002
+12/12/2001	18:30:00	-0002
+12/12/2001	19:00:00	-0001
+12/12/2001	23:00:00	-0001
+12/13/2001	06:00:00	-0001
+12/13/2001	06:30:00	-0001
+12/13/2001	07:00:00	-0002
+12/13/2001	07:30:00	-0001
+12/13/2001	19:00:00	-0001
+12/13/2001	19:30:00	-0002
+12/13/2001	20:00:00	-0001
+12/14/2001	00:00:00	-0001
+12/14/2001	06:30:00	-0001
+12/14/2001	07:30:00	-0002
+12/14/2001	08:00:00	-0002
+12/14/2001	13:00:00	-0001
+12/14/2001	20:00:00	-0002
+12/14/2001	20:30:00	-0002
+12/15/2001	00:30:00	-0001
+12/15/2001	20:30:00	-0001
+12/15/2001	21:00:00	-0001
+12/16/2001	02:00:00	-0001
+12/16/2001	09:30:00	-0001
+12/16/2001	10:00:00	-0001
+12/16/2001	20:00:00	-0001
+12/16/2001	21:30:00	-0002
+12/16/2001	22:00:00	-0001
+12/16/2001	22:30:00	-0001
+12/17/2001	02:00:00	-0002
+12/17/2001	08:00:00	-0001
+12/17/2001	09:30:00	-0001
+12/17/2001	10:00:00	-0001
+12/17/2001	22:30:00	-0001
+12/18/2001	02:30:00	-0001
+12/18/2001	15:30:00	-0002
+12/20/2001	04:00:00	-0001
+12/20/2001	04:30:00	-0001
+12/20/2001	11:30:00	-0001
+12/21/2001	00:00:00	-0001
+12/21/2001	00:30:00	-0001
+12/21/2001	05:00:00	-0001
+12/21/2001	05:30:00	-0001
+12/21/2001	06:00:00	-0001
+12/21/2001	07:00:00	-0001
+12/21/2001	12:30:00	-0001
+g) The steep drop in DO between 12/21 18:30 and 12/21 21:00 may be related to 
+similar drops observed at both the Pine Island and Fort Matanzas sites at 
+various periods throughout the year.  This interesting phenomenon is 
+currently being studied in more detail to identify possible causes.
+
+
+12) Missing data:  
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For details on deleted data, see 
+"Anomalous data" (Section 11).  For more details about missing data, contact 
+the Research Coordinator. 
+
+
+13) Post deployment information:
+
+
+Table 1.  Post-deployment readings of all sondes deployed at the Pine Island 
+site during 2001.
+
+Date		pH		Temp (C)  	Sp.Cond	DO% sat.	DO mg/L   Turbidity
+(standard)	7.00/10.00	n/a		25.00/50.00 100.0	n/a		100.0
+02/01/01	no data	no data	no data	no data	no data	no data
+02/15/01	no data	no data	no data	no data	no data	no data
+03/01/01	7.0/10.11	24.83		24.77		100.1		8.31		0.1/98.3
+03/16/01	7.05/10.02	20.62		24.34		83.1		7.02		100.2
+04/02/01	7.07/9.96	21.86		49.60		92.6		8.40		99.2
+04/12/01	7.10/10.04	21.54		50.77		96.7		7.67		99.8
+04/26/01	6.97/9.95	21.00		50.64		101.2		9.00		104.2
+05/10/01	6.95/9.93	25.21		49.82		100.0		8.20		100.0
+05/24/01	7.11/10.10	30.70		50.12		99.1		7.39		94.6
+06/07/01	7.07/10.01	21.63		49.97		98.0		8.62		95.6
+06/18/01	7.14/9.97	24.01		45.63		94.2		7.93		105.6
+06/29/01	7.03/9.72	20.60		49.23		no data	no data	103.7
+07/05/01	7.04/10.03	21.56		47.03		88.8		7.83		94.0
+07/12/01	7.00/10.07	21.39		50.08		97.5		8.63		88.7
+07/20/01	4.49/9.98	24.17		50.05		98.9		8.30		108.9
+07/30/01	7.05/10.08	20.19		49.97		93.1		8.44		98.8
+08/06/01	no data	no data	no data	no data	no data	no data
+08/16/01	7.03/10.04	19.23		48.72		102.2		9.44		89.9
+08/24/01	7.00/10.00	19.49		51.20		61.2		5.62		100.0
+08/31/01	7.02/10.09	19.74		48.05		101.3		9.26		99.7
+09/10/01	7.03/10.04	19.46		51.40		97.7		8.98		97.5
+09/27/01	7.06/10.05	19.88		50.82		101.6		9.26		80.8
+10/18/01	7.10/10.03	19.49		49.98		95.3		8.80		111.1
+11/02/01	6.94/10.01	20.82		49.51		93.7		8.45		96.8
+11/16/01	7.09/9.95	21.44		50.16		107.2		9.12		97.0
+12/06/01	7.05/10.04	20.57		48.82		98.9		8.65		99.1
+12/21/01	7.18/10.12	20.98		50.46		16.0		1.42		95.0
+01/07/01	7.03/10.04	21.65		49.29		102.3		10.62		98.3
+
+Table 2.  Post-deployment readings of all sondes deployed at the Fort Matanzas 
+site during 2001.
+Date		pH		Temp		Sp. Cond. 	DO % sat.	DO mg/L  Turbidity 
+(standard)	7.00/10.00	n/a	     25.00/50.00 	100.0		n/a		100.0
+02/08/01	no data	no data	no data	no data	no data	no data
+02/22/01	no data	no data	no data	no data	no data	no data
+03/08/01	6.99/9.98	20.76		24.88		100.6		8.99		104.0
+03/26/01	6.86/9.73	21.75		51.21		99.7		9.26		98.6
+04/05/01	7.01/10.01	21.74		48.49		99.7		8.65		98.8
+04/19/01	7.04/10.02	21.26		49.64		103.2		9.15		99.6
+05/03/01	7.04/10.02	23.60		48.90		96.0		8.09		98.7
+05/17/01	7.02/10.00	28.38		49.60		96.4		7.49		100.3
+05/31/01	6.98/9.99	22.07		49.97		100.0		7.23		102.9
+06/15/01	no data	no data	no data	no data	no data	no data
+06/29/01	7.06/10.10	20.43		49.36		no data	no data	98.4
+07/05/01	6.99/9.98	20.17		50.66		104.0		9.43		93.3
+07/13/01	7.03/10.37	20.26		49.47		95.7		8.66		85.6
+07/23/01	7.00/9.99	21.24		50.12		114.0		10.12		113.3
+07/26/01	7.18/10.2	21.57		49.48		98.1		8.66		104.0
+08/06/01	7.09/10.00	20.50		50.35		99.2		8.93		94.5
+08/16/01	7.06/10.06	19.90		49.75		98.3		8.96		90.1
+08/24/01	7.00/10.02	19.42		48.14		97.4		8.96		100.3
+08/31/01	7.07/10.05	18.77		49.65		67.9		6.33		104.0
+09/17/01	no data	19.99		50.37		90.6		8.23		89.7
+09/26/01	no data	19.99		50.37		90.6		8.23		89.7
+10/05/01	7.00/10.02	22.81		50.54		101.6		8.75		99.0
+10/22/01	6.99/9.98	19.96		49.81		99.4		9.04		91.6
+11/02/01	7.11/10.08	20.88		48.77		96.5		8.68		102.3
+11/20/01	7.05/10.04	22.21		50.43		103.4		9.05		98.3
+12/07/01	7.01/10.01	20.60		49.23		96.2		8.81		101.7
+12/21/01	5.15/	20.66	48.08		119.1		10.59		101.1
+01/09/02	no data	no data	no data	no data	no data	no data
+
+14) Other remarks/notes:
+
+a)	Sondes deployed at the Pine Island site were often coated with mud 
+apparently due to the dynamic nature of the bottom at this site.
+
+
+
+

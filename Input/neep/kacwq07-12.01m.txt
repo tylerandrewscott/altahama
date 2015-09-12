@@ -1,0 +1,582 @@
+Kachemak Bay Research Reserve (KAC) NERR Water Quality Metadata
+July - December 2001
+Latest Update: August 28, 2002 
+
+I.	Data Set and Research Descriptors
+
+1)	Principle Investigators & Contact Persons:
+
+Address:	Kachemak Bay Research Reserve
+		2181 Kachemak Drive
+		Homer, AK 99603
+		Tel: 907-235-4799 
+		Fax: 907-235-4794
+
+Contact Persons:
+Dr. G. Carl Schoch : Research Coordinator
+Email:  (Carl_Schoch@fishgame.state.ak.us )
+Katie Gaut : Assistant Researcher 
+Email:  (Katie_Gaut@fishgame.state.ak.us )
+
+2)	Entry Verification:
+	
+	The 15-minute data are uploaded to the PC from the YSI Model 6200 Data 
+Acquisition System via modem at 60-minute intervals.  The text files are 
+imported into Excel.  Data that were recorded when the instruments were out of 
+the water are deleted from the beginning and end of each record.  These data are 
+identified by field notes that document the times in and out of the water, and 
+by unusual depth and salinity data (usually near zero).  Graphs from Excel are 
+evaluated for suspect data, as may result from probe failure.  Notes are made of 
+any unusual data, and sensors are reconditioned as necessary.  
+	The CDMO cdmomac3.xls macro will allow the user to automatically format 
+column widths to the correct number of decimal places based on YSI sensor 
+specifications.  It also allows the user to QA/QC each data logger generated 
+file for missing data points, fill all cells that do not contain data with 
+periods, and find all data points that fall outside the range of what the data 
+logger is designed to measure (outliers).  In addition, a graphing capability is 
+included to produce a single parameter and missing data graphs on a monthly 
+basis.
+	Anomalous data are evaluated to determine whether to flag or delete the 
+suspect values.  Data are flagged if they fall outside the normal values seen at 
+the site or outside the range of measurements and accuracy established for the 
+sensors.  Data outside the "normal" range of water quality for a particular site 
+were investigated for validity based on weather data, field observations, QC 
+checks, and instrument diagnostics.  Data are deleted if anomalies are 
+attributed to sensor malfunction or fouling of the sensors by aquatic organisms, 
+debris, or sediment.  Fouling of sensors is detected by comparing in-situ sensor 
+readings with measurements.  In addition, sensor readings that differ 
+significantly  (>10%) from calibration standards suggest that the sensor was 
+fouled during deployment.  After corrections are made to the Excel worksheet 
+(*.xls) and  anomalies noted in the metadata report, the edited files are 
+exported as tab delimited (*.txt) and sent to the CDMO.  Monthly raw (*.dat) 
+files are also sent to the CDMO for archival.  Carl Schoch and Katie Gaut are 
+responsible for these tasks.
+
+3)	Research Objectives:
+	  The YSI electronic data loggers are programmed to measure the water 
+temperature, specific conductivity, dissolved oxygen, pH, and turbidity 
+conditions at 15-minute intervals.  Presently, two instruments are located in 
+Kachemak Bay.  One is located on the north side of the bay at the end of the 
+Homer spit.  The second is located on the southern side of the bay in Seldovia.  
+	The circulation in Kachemak Bay is driven primarily by the 10 meter tidal 
+flux.  Regional circulation is characterized by generally cyclonic ocean 
+currents in the Gulf of Alaska flowing onto the shelf off of Cook Inlet.  
+Nutrient rich bottom water is upwelled and mixed with surface water.  
+These enriched waters stream into Kachemak Bay, the inflow tending to stay along 
+the southern shore and the Seldovia instrument, while water flowing out of the 
+bay stays along the north shore and the Homer instrument.  These trapped coastal 
+flows separate the bay into two distinct ecosystems.
+	As the inflowing water proceeds up the bay, fresh water runoff from the 
+surrounding ice fields and watersheds dilute the salinity and increase the 
+sediment load in the path of the Homer instrument.  The inflowing water, in the 
+path of the Seldovia instrument, therefore, initially supports a marine system 
+while the north out flowing water is more estuarine.  The Kachemak Bay water 
+quality instruments capture this difference with deployments along the north and 
+south shores.  Additional instruments deployed seasonally will monitor the 
+degradation of the marine water along and across the axis of the bay.  These 
+data will be used to supplement studies on primary productivity, larval 
+distribution, settlement, recruitment, growth rates, community dynamics, and 
+biodiversity in the bay.
+
+4)	Research Methods:
+	Two YSI 6600 Sonde Probes connected to 6200 Data Acquisition Systems were 
+used for data collection.  The Data Acquisition System was connected via modem 
+to a computer at the Research Reserve.  The data is collected in 15-minute 
+intervals, stored on the 6200 DCP and interrogated, or downloaded, by our office 
+computer once an hour.  Both instruments are housed in ABS pipe mounted 
+vertically on the ferry docks of Homer and Seldovia.  The pipes are positioned 
+to ensure that the sensors are approximately 1 meter above the bottom.  
+	Calibration and deployment occurred monthly at both sites, using methods 
+outlined in the YSI Operating and Service Manual.  After cleaning the data 
+loggers, the dissolved oxygen (DO) membrane is replaced and allowed to stretch 
+for 12 hours before the DO sensor is calibrated in water-saturated air.  The pH, 
+conductivity, depth, and turbidity sensors are calibrated using the following 
+standards purchased from YSI (except depth): pH 7 and 10, conductivity standards 
+of 50 mS/cm, turbidity standards of 0 and 100 NTU, respectively, and depth of 0.  
+	
+5)	Site Location and Character:
+Kachemak Bay is located approximately 150 miles south of Anchorage, on the 
+western shore of the Kenai Peninsula.  Kachemak Bay, at 59.6oNand 151.5o W, is a 
+temperate regional fjord with hydrographic conditions unique among the NERR 
+system estuaries.  The tidal range of 9 meters is the second largest in the 
+world and salinity ranges from near zero at stream mouths to 34.0 at the 
+entrance to the inner Bay.  The bay is 24 miles wide at its mouth and 
+approximately 36 miles long.   The head of Kachemak Bay is located to the 
+northeast at the Fox River Flats, and the mouth lies to the southwest, along a 
+line between Anchor Point and Point Pogibshi. Kachemak Bay is split into inner 
+and outer Bays by the four mile long Homer Spit that extends into the Bay from 
+the northern shoreline. The Kachemak Bay NERR comprises the entire inner Bay and 
+the outer Bay.  Water flows between the inner and outer Bays through a narrow 
+opening formed between the Spit and the southern shoreline. The Bay has an 
+average depth of 25 fathoms (150 feet) and a maximum of 100 fathoms (600 ft).
+Fresh water introduced primarily by the Fox, Bradley, and Martin rivers and 
+Sheep Creek at the head of the Bay, flows along the northwest shore of the inner 
+Bay.  Peak release of fresh water from Bradley Creek alone results in flows of 
+1200 cubic feet per second. This peak flow occurs in conjunction with the 
+warmest summer temperatures.
+The Homer YSI data logger site is located on the north side of Kachemak Bay 
+(latitude and longitude: 59.6029ºN, 151.4081ºW).  It is mounted 1 meter above 
+the bottom on the ferry terminal dock in water fluctuating between 1.8 and 10.8 
+meters.  The bottom habitat is predominantly sand.  Pollutants in the area are 
+primarily due to the excessive boat traffic at the entrance of the Homer harbor.  
+Since monitoring began in July 2001, salinity has ranged from 20.5 to 31.7 ppt 
+at this site.
+	The Seldovia YSI data logger site is located on the south side of Kachemak 
+Bay, approximately 15 miles from the Homer instrument (latitude and longitude: 
+59.4413ºN, 151.7186ºW).  It is also situated on the ferry terminal dock, one 
+meter above the bottom and located in water fluctuating between 5 and 13.3 
+meters.  The access to Seldovia is limited to boat or air, as the site is 
+remotely located off the highway system.  The power and phone line connection 
+are occasionally inoperative due to the remote location and position at the end 
+of the power grid.  The bottom habitat is predominantly rocky substrate.  
+Pollutants in the area are minimal.  Since monitoring began in August 2001, 
+salinity has ranged from 30 to 35.9 ppt at this site.
+
+6)	Data Collection Period:
+	Monitoring at the Homer site began on July 12, 2001 at 16:15.  
+Monitoring at the Seldovia site began on August 17, 2001 at 15:15.  Deployment 
+and retrieval dates and times for following months are listed below:
+	
+Began					Ended
+Homer Site
+07/12/01, 07:45				08/18/01, 16:15 
+08/22/01, 15:30				09/09/01, 15:45
+09/09/01, 16:15	 			10/06/01, 16:00
+10/10/01, 07:45				11/27/01, 08:45
+11/27/01, 10:30				01/07/02, 16:15
+
+Seldovia Site
+08/17/01, 15:15				09/08/01, 09:30
+09/10/01, 19:30	 			10/09/01, 05:30
+10/15/01, 06:45				12/04/01, 11:00
+12/04/01, 11:15				12/11/01, 11:00
+12/11/01, 11:30				01/11/02, 11:30 
+
+7)	Distribution
+	According to the Ocean and Coastal Resource Management Data Dissemination 
+Policy for the NERRS System-wide Monitoring Program, NOAA/ERD retains the rights 
+to analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where data were collected will be contacted and fully acknowledged 
+in any subsequent publications in which any part of the data are used.  
+Manuscripts resulting from this NOAA/OCRM supported research that are produced 
+for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Oceanic and Atmospheric Administration.  The data 
+set enclosed within this package/transmission is only as good as the quality 
+assurance and quality control procedures outlined by the enclosed metadata 
+reporting statement.  The user bears all responsibility for its subsequent 
+use/misuse in any further analyses or comparisons.  The Federal government does 
+not assume liability to the Recipient or third persons, nor will the Federal 
+government reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data.
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site, from the Data Manager at the 
+Centralized Data Management Office (please see personnel directory under the 
+general information link on the CDMO home page) and online at the CDMO home page 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+8)	Associated Researchers and Projects:
+	Additional instruments deployed seasonally monitor the degradation of the 
+marine water along and across the axis of the bay. These data are being used to 
+supplement studies on primary productivity, larval distribution, settlement, 
+recruitment, growth rates, community dynamics, and biodiversity in the bay.  
+	In August 2000 and 2001, the spatial distribution of Nereocystis leutkeana 
+kelp beds was mapped in the Kachemak Bay Research Reserve using low altitude 
+aerial photography.  The photos were taken using a medium-format camera and a 
+light fixed-wing aircraft to produce vertical and oblique digital imagery of 
+individual kelp beds.  These images were geometrically corrected and the 
+kelp beds delineated.  The polygon data were entered into a GIS so that 
+estimates of areal extent and adjacency can be compared among beds and among 
+years.  Results to date indicate a >10% decline in surface area of kelp beds.  
+This was mostly due to the inundation of rocky habitat by sand over a small 
+subtidal bench near the Homer Spit.  The variability of each kelp bed area and 
+density will be tracked over time as an indicator of change and kelp community 
+health.  We intend to continue these surveys for a minimum of ten years to track 
+the kelp beds through at least one major cycle of known oceanic variability (the 
+El Nino/Southern Oscillation).  The correlative work stemming from aerial 
+surveys will help focus our experimental studies to determine the mechanisms of 
+observed changes in population sizes and density.  In order to attribute the 
+shifts in spatial patterns to specific agents of change, on-going research by 
+our science staff is focusing on the effects of light limitation, salinity, and 
+herbivory on kelp growth rates.
+
+II.Physical Structure Descriptors
+
+9)	Variable Sequence, Range of Measurements, Units, Resolution, and Accuracy:
+
+YSI 6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+						
+
+3Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two-line column header 
+at the top of the page that identifies measurements and units for each column.
+		
+10)	Coded variable indicator and variable code definitions:
+
+File definitions:  YSI deployment site/month/year (ex: ho0701 = Homer data from 
+July of 2001).
+HO = Homer      SE = Seldovia
+
+11)	Data anomalies:
+
+July 2001
+
+Homer
+a)	No data were logged during the following times possibly due to a power 
+surge or other interruption in transmission of data:
+07/12, 08:00:00
+07/17, 09:15:00 - 13:45:00
+
+b) During the following times, spikes in turbidity are suspect.  These reading 
+were possibly caused by a clump of plant matter or sediment passing by the 
+sensor optics during the sampling interval.
+7/14, 22:00:00 (49 NTU)
+7/27, 08:30:00 (62 NTU)
+7/30, 08:30:00, 09:15:00, 19:30:00 (68, 56, 52 NTU)
+7/31, 12:45:00, 13:00:00, 14:15:00, 22:45:00, 23:45:00 (56, 68, 66, 37, 45 NTU)
+
+
+August 2001
+
+Homer
+	
+a)   During this month, intensive construction was being performed on the pier 
+where the   instrument was located.  Large spikes in the turbidity could be a 
+result of this disturbance during the following time periods:
+8/1,  07:00:00, 07:30:00, 21:30:00 (452, 211, 70 NTU)
+8/6,  23:45:00 (578 NTU)
+8/17, 08:30:00 (513 NTU)
+8/18, 12:15:00 - 2:30:00, 13:30:00 - 14:00:00, 16:15:00 (883, 202, 625, 880, 
+271, 1295 NTU)
+
+b)	Specific Conductivity and DO concentration data were not logged during 
+the following period due to an programming/setup incompatibility between the 
+6200 DCP and 6600 sonde:
+8/14, 06:45:00 - 8/18, 16:15:00
+8/22, 15:30:00 - 8/23, 05:45:00
+8/23, 18:30:00 - 8/24, 05:00:00
+8/24, 17:15:00 - 8/25, 06:00:00
+
+c)	Because of heavy construction on the pier where the instrument was 
+located, the instrument was retrieved during the following time period:  
+8/18, 16:30:00 - 8/22, 15:15:00
+
+d)	During deployment that began on 08/22, there was a suspected problem with 
+DO membrane integrity or puncture on 08/25 (spikes of 288% at 23:00).  All DO 
+data generated from this puncture during the deployment were deleted during the 
+following dates/times:
+8/25, 06:15:00 - 9/09, 15:45:00
+
+e)	At the following time there is an unexpected dip in DO% and concentration 
+that is suspect:  
+8/13, 18:45:00  (39.8% and 3.7 ms/cm).
+
+f)	For an unknown reason, on 8/26, there are two sets of data for the entire 
+day.  These data are duplicates and one set is deleted.
+
+g)	During the following periods, pH falls below the normal range usually 
+observed for this site (pH 7.8-8.2).  The causes of the low readings are not 
+known at this time and are suspect.
+8/14, 23:15:00 - 8/15, 00:00:00
+8/25, 06:45:00 - 14:45:00, 20:30:00 - 22:45:00
+8/26, 02:00:00 - 02:15:00
+
+h)	During the following time period there is an unexplained dip in DO % that 
+is suspect:  
+8/18, 12:00:00 - 12:30:00 (33.6, 23.8, and 44.4 %).
+
+i)	No data were logged during the following times possibly due to a power 
+surge or other interruption in transmission of data:
+8/23, 00:15:00, 06:00:00 - 18:15:00
+8/24, 05:15:00 - 17:00:00
+       
+Seldovia
+	
+a)	Turbidity data showed spikes on the following times are regarded as 
+suspect:
+8/27, 19:45:00 (17 NTU) 
+8/31, 15:30:00, 17:00:00 - 17:30:00, 18:15:00 - 19:30:00, 20:30:00 (14-50 NTU) 
+
+b)	The Specific Conductivity and DO mg/L data were not logged during the 
+entire deployment period due to a programming/setup incompatibility between the 
+6200 DCP and 6600 sonde.
+
+c)   No data were logged during the following times possibly due to a power 
+surge or interruption in relaying data:
+8/20/01, 05:45:00 - 06:30:00
+8/20/01, 07:30:00 - 08:00:00
+8/21/01, 00:30:00 - 08/24/01, 17:00:00
+8/25/01, 05:45:00 - 06:00:00
+
+September 2001
+
+Homer
+
+a)   The following records are deleted turbidity readings greater than 1000 NTU, 
+possibly due to debris or wiper covering the sensor optics during the sampling 
+interval.
+09/17, 06:15:00, 06:45:00 (1725, 1652 NTU)
+09/18, 10:15:00 (1726 NTU)
+09/20, 07:30:00, 15:15:00 (1727, 1320 NTU)
+			
+b)	The following records include turbidity spikes that are suspect:
+09/17, 09:30:00 (30 NTU)
+09/18, 08:45:00 (532 NTU)
+09/20, 00:15:00, 07:00:00, 09:15:00 (749, 289, 473 NTU)
+09/22, 23:15:00, 23:30:00 (71, 56 NTU)
+09/25, 13:15:00 (42 NTU)
+09/26, 17:15:00 - 17:45:00 (53,105,53 NTU)
+09/28, 06:45:00 (33 NTU)
+
+c) 	No data were logged during the following times due to sonde maintenance:
+09/16, 09:15:00 - 10:00:00
+
+d)	An increase in DO % is suspect during the following period:
+09/07, 18:15:00 - 09/08 11:45:00 (122-165 NTU)
+
+
+Seldovia
+	
+a)	No data were reported during the following periods possibly due to a power 
+surge or interruption in transmission of data.
+09/11, 09:45:00-10:00:00
+09/12, 09:45:00
+09/16, 09:45:00 - 10:30:00
+09/17, 14:45:00 - 15:15:00
+09/18, 06:45:00, 10:45:00, 11:00:00
+09/19, 05:45:00, 06:00:00
+09/20, 06:45:00 - 07:15:00
+
+b)	 Specific Conductivity and DO concentration data were not logged during 
+the following period due to a programming/setup incompatibility between the 6200 
+DCP and 6600 sonde:
+09/01, 00:00:00 - 09/16, 09:30:00
+
+c)	Data recorded on 09/08, 09:45 was probably measured while probe was out of 
+water (salinity reading of 0.6, depth reading of 0.4, etc) and were deleted.
+
+d)	Following the sonde deployment on 09/10, 19:30, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+
+e)	On 09/11, a duplicate 07:30:00 reading was reported for an unknown reason.  
+Both of the readings were deleted.  
+
+f)	DO percentage reported out-of-range values during the following period 
+most likely due to column heading mislabeling.  These data were deleted.    
+09/11, 07:30:00 - 09/12, 09:30:00
+
+g)	Turbidity values were reported out-of-range during the following period 
+most likely due to mislabeled column headings due to 6200/6600 setup 
+incompatibility.  These data were deleted.
+09/10, 19:30 - 09/11, 09:30:00  
+
+h)	From September through October, DO was higher than normal, 
+however it was left in the dataset in order to compare the data for trends.  
+
+October 2001
+
+Homer
+
+a)	Turbidity spikes at the following times are suspect:
+10/3, 02:45:00 (823 NTU)
+10/5, 23:45:00 (788 NTU)
+10/6, 15:00:00 (490 NTU)
+10/19, 02:00:00, 10:00:00  (237, 982 NTU)
+
+b)	After deployment of sonde, setup incompatibility between the 6200 and 6600 
+caused mislabeling of column headings.  The ph mV was left on, causing the 
+turbidity reading to be unreported during the following period:
+10/10, 07:45:00 - 10/15, 06:00:00
+
+c)	Following the above period, the pH mV reading was disabled which allowed 
+turbidity reading to again be reported correctly following 10/15, 06:15.
+
+d)	No data were reported during the following periods possibly due to a power 
+surge or interruption in transmission of data.
+10/14, 08:15:00 - 08:45:00
+
+
+
+Seldovia
+
+a)	No data were reported during the following periods possibly due to a power 
+surge or interruption in transmission of data.:
+10/4, 9:45:00 - 10:00:00, 16:45:00 - 17:15:00
+
+b)	All data abruptly reported out of range during the following period due to 
+an unknown cause and deleted:
+10/8, 9:15:00 - 10/9, 5:30:00
+
+c)	From October through December, strong winds and dropping temperatures resulted
+in higher salinities for this site.  
+
+d)	From September through October, DO was higher than normal, 
+however it was left in the dataset in order to compare the data for trends.  
+
+November 2001
+
+Homer
+
+a)	Turbidity spikes are suspect at the following times:
+11/14, 17:30:00, 17:45:00, 18:15:00, 18:30:00 (1388, 907, 1383, 1387 NTU)
+11/15, 07:30:00 (1386 NTU)
+11/16, 05:30:00 (122 NTU)
+11/17, 18:30:00 (1381 NTU)
+11/22, 22:00:00 (425 NTU)
+11/23, 00:30:00, 08:30:00 (1242, 1397 NTU)
+11/28, 18:00:00 (265 NTU)
+
+b)	Suspect values for all probes are reported at the following time, most 
+likely an error experienced while correction to programming between the 6600 and 
+6200 was taking place:
+11/29, 13:00:00 
+
+c)   Setup incompatibility between the 6200 and 6600 caused mislabeling of 
+column headings.  The ph mV, DO Charge, and Battery readings were left on from 
+calibration, causing the DO concentration and salinity readings to be unreported 
+during the following period: 
+11/27, 10:30:00 - 11/29, 13:00:00
+
+c)	Correction to the column headings caused a interruption in transmission of 
+data during the following period: 
+11/29, 13:15:00 - 14:15:00
+
+d)	No data were reported during the following periods possibly due to a power 
+surge or interruption in transmission of data:
+11/23, 09:00:00
+11/27, 17:15:00
+
+e)	Depth data were reported in feet during beginning period of deployment.  
+The data were converted to meters post-deployment during the following period:
+11/27, 10:30:00 - 11/29, 13:00:00
+
+f)	Shift in DO on 11/27 1030 through end of the year is perhaps a result of 
+instrument drift from previous deployments in October and November.  
+
+Seldovia
+		
+a)	Dissolved oxygen concentration and percentage readings show an unexplained 
+dip at the following times that are suspect:
+11/11, 13:45:00  (8.2 mg/L, 85.2 %)
+
+b)	The following turbidity spikes are suspect:
+11/06, 20:00:00  (151 NTU)
+11/08, 03:15:00, 17:45:00  (433, 455 NTU)
+11/12, 14:15:00  (1374 NTU)
+11/19, 19:00:00  (104 NTU)
+11/25, 22:15:00, 23:00:00  (78, 271 NTU)
+11/28, 03:15:00  (58 NTU)
+11/29, 16:15:00  (258 NTU)
+
+c)	No data were logged during the following times possibly due to a power 
+surge or interruption in transmission of data.
+11/29/01, 14:30:00
+
+d)	From October through December, strong winds and dropping temperatures resulted
+in higher salinities for this site.  
+
+December 2001
+
+Homer
+	 
+a)	No data were logged during the following times possibly due to a power 
+surge or interruption in transmission of data:
+12/17, 17:15:00
+12/21, 08:00:00
+
+b)	Turbidity spikes are suspect at the following times:
+12/12, 09:00:00, 09:15:00 (264, 125 NTU)
+12/16, 02:00:00  (1391 NTU)
+12/29, 06:00:00  (114 NTU)
+
+Seldovia
+
+a)	Deployment of new sonde during the following period resulted in no data 
+collection.  The internal chip of the sonde was defective and returned to YSI 
+for reprogramming.
+12/4, 11:15:00 - 12/11, 11:00:00
+
+b)	Deployment of calibrated sonde during the following period resulted in no 
+data collection.  The modem connection was down and recovered after rebooting of 
+machine on 1/11.  
+12/11, 11:30:00 - 1/11, 11:30:00
+
+c)	From October through December, strong winds and dropping temperatures resulted
+in higher salinities for this site.  
+
+
+12)	Missing Data:
+
+	Missing data are denoted by a period in the data set.  Data are missing 
+due to equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For more details about missing data, 
+contact the Research Coordinator at the Kachemak Bay Research Reserve.
+
+13)	Post Deployment Information
+
+Control Sonde End of Deployment Readings:
+** n/r = not recorded**
+
+Site	Date	Conductivity	pH	pH	Turbidity	DO (Air Sat)		
+		(Std:50.0)      (Std:7)(Std:10)(Std:100)  (Std:100%)		
+HO	08/18/01	50.23		n/r	n/r	n/r	     	n/r   
+	09/09/01	n/r		n/r	n/r	n/r		n/r
+	10/06/01	44.01		6.89	10.38	123.9	      95.7
+	11/27/01	50.0		7.04	9.96  98.6	      n/r
+	1/07/02	n/r		n/r	n/r	n/r		n/r
+
+SE	09/08/01	n/r		n/r	n/r	n/r		n/r
+	10/09/01	49.23		7.14	9.8	105.0	      116.7
+	12/04/01	55.7		6.86	9.88	97.7	      101.6
+
+End of Deployment Post-Calibration Readings in Standard Solutions:
+Site	Date	Conductivity	pH	pH	Turbidity	DO (Air Sat) 	Chloro 
+		(Std:50.0)     (Std:7) (Std:10)(Std:100)   (Std:100%)	(Std:0)	
+HO	07/31/01	50.00		7.0	10.0	100.0	         100.0	  0.0
+	08/31/01	50.00		7.0	10.0	100.0	         100.0	  0.0	
+	09/30/01	50.00		7.0	10.0	100.0	         100.0	  0.0
+	11/22/01	50.0		7.0	10.0	100.0	         100.0   	  0.1
+	1/08/02	50.0		7.0	10.0	100.0	         100.0 	  0.0
+
+SE	08/31/01	50.0		7.0	10.0	100.0	         100.0	  0.0
+	09/16/01	50.0		7.0	10.0	100.0	         100.0	  0.0
+	11/22/01	50.0		7.0	10.0	100.0	         100.0	  -0.1
+	01/12/02	50.0		7.0	10.0	100.0	         100.0	  0.0
+
+14)	Other Remarks/Notes
+
+a) In conversion to excel format for editing, the following raw .dat files were 
+accidentally erased:
+Homer: 	11/13, 15:15:00 - 11/22, 08:00:00
+	    
+Seldovia:	08/21, 00:30:00 - 08/24, 17:00:00
+		11/13, 15:45:00 - 11/22, 08:30:00
+	
+b) During the first few months of monitoring, post deployment calibration checks 
+were not initially made.  
+c) YSI standards were used for all calibrations.

@@ -1,0 +1,1576 @@
+Kachemak Bay Research Reserve (KAC) NERR Water Quality Metadata
+January – December 2002
+Latest Update: September 11, 2003 
+
+I.	Data Set and Research Descriptors
+
+1)	Principle Investigators & Contact Persons:
+
+	Address:	Kachemak Bay Research Reserve
+		      2181 Kachemak Drive
+		      Homer, AK 99603
+		       Tel: 907-235-4799 
+		       Fax: 907-235-4794
+
+	Contact Persons:
+		Dr. G. Carl Schoch : Research Coordinator
+Email:  (Carl_Schoch@fishgame.state.ak.us )
+		Katie Gaut : Research Assistant
+Email:  ( Katie_Gaut@fishgame.state.ak.us )
+		Scott Pegau : Oceanographer
+Email:  (Scott_Pegau@fishgame.state.ak.us)
+
+2)	Entry Verification:
+	
+	For the Homer, Homer Dolphin, and Seldovia sites, the 15 minute data are 
+uploaded to the PC from the YSI Model 6200 Data Acquisition System via modem at 
+60 minute intervals.  For the Port Graham and Bear Cove sites, the data are 
+uploaded to the PC from the YSI Model 6600 datasonde.  The text files are 
+initially viewed with Ecowatch software and graphs are produced to look for 
+suspect data, as may result from probe failure.  Notes are made of any unusual 
+data, and sensors are reconditioned as necessary.  
+	The text data files are run through a Matlab routine created by Scott 
+Pegau for processing.  This routine is attached at the end of this report.   For 
+the Homer and Seldovia permanent sites, a separate sonde reading was taken, in 
+addition to the reading stored in the DCP, for backup purposes in the event of 
+power or modem failure.  For periods when two sets of data are recorded the 
+routine returns the averages of the two data sets.  Due to changes in sampling 
+during the year the routine is set to only output data every half-hour.   Data 
+that were recorded when the instruments were out of the water are deleted from 
+the beginning and end of each record.  These data are identified by unusual 
+depth and salinity data (usually near zero).  The routine outputs a data file 
+listing the missing data points, fills all cells that do not contain data with 
+periods, and finds and removes all data points that fall outside the range of 
+what the data logger is designed to measure or are out of realistic ranges for 
+Kachemak Bay.  The routine then processes the data through several filters to 
+flag and remove suspect data points that are greater than 4 standard deviations 
+from data gathered in the 24 hour period surrounding the point.  In addition, a 
+graphing capability is included to produce single and multi-parameter graphs on 
+a monthly or yearly basis.  The routine outputs monthly files with column widths 
+formatted to the correct number of decimal places based on YSI sensor 
+specifications.
+	Anomalous data are evaluated to determine whether to flag or delete the 
+suspect values.  Data are flagged if they fall outside the normal values seen at 
+the site or outside the range of measurements and accuracy established for the 
+sensors.  Data outside the "normal" range of water quality for a particular site 
+were investigated for validity based on weather data, field observations, 
+QC checks, and instrument diagnostics.  Data are deleted if anomalies are 
+attributed to sensor malfunction or fouling of the sensors by aquatic organisms, 
+debris, or sediment.  Fouling of sensors is detected by comparing in-situ sensor 
+readings with measurements.  In addition, sensor readings that differ 
+significantly  (>10%) from calibration standards suggest that the sensor was 
+fouled during deployment.  After corrections are made to the text files and  
+anomalies noted in the metadata report, the edited files are exported as tab 
+delimited (*.txt) and sent to the CDMO.  Monthly raw (*.dat) files are also sent 
+to the CDMO for archival.  Katie Gaut and Scott Pegau are responsible for these 
+tasks.
+
+3)	Research Objectives:
+	  The YSI electronic data loggers are programmed to measure the water 
+temperature, specific conductivity, dissolved oxygen, pH, and turbidity 
+conditions at 15-minute intervals.  Two permanent and two seasonal instruments 
+are located in Kachemak Bay.  The permanent sites are located on the northeast 
+side of the bay at the end of the Homer spit and the second on the southwest 
+side of the bay in Seldovia.  The seasonal moorings are located at endpoints of 
+the Bay, Port Graham and Bear Cove, spanning a 40 mile distance.  
+	The circulation in Kachemak Bay is driven primarily by the 10 meter tidal 
+flux.  Regional circulation is characterized by generally cyclonic ocean 
+currents in the Gulf of Alaska flowing onto the shelf off of Cook Inlet.  
+Nutrient rich bottom water is upwelled and mixed with surface water.  
+These enriched waters stream into Kachemak Bay, the inflow tending to stay along 
+the southern shore and the Port Graham and Seldovia instruments, while water 
+flowing out of the bay stays along the Inner Bay and north shore, flowing past 
+the Bear Cove and  Homer instruments.  These trapped coastal flows separate the 
+bay into two distinct ecosystems and the instruments are positioned to reflect 
+this distinction. 
+	As the inflowing water proceeds up the bay, fresh water runoff from the 
+surrounding ice fields and watersheds dilute the salinity and increase the 
+sediment load in the path of the Bear Cove and then Homer instrument.  The 
+inflowing water, in the path of the Port Graham and Seldovia instruments, 
+therefore, initially supports a marine system while the north out flowing water 
+of the Bear Cove, and Homer sites, is more estuarine.  The Kachemak Bay water 
+quality instruments capture this difference with deployments along the north and 
+south shores.  These seasonal moorings monitor the degradation of the marine 
+water along and across the axis of the bay.  These data will be used to 
+supplement studies on primary productivity, larval distribution, settlement, 
+recruitment, growth rates, community dynamics, and biodiversity in the bay.
+
+4)	Research Methods:
+	The permanent sites of Homer and Seldovia have YSI 6600 Sonde Data Loggers 
+connected to 6200 Data Acquisition Systems that are used for data collection.  
+The Data Acquisition System is connected via modem to a computer at the Research 
+Reserve.  The raw data is collected in 15-minute intervals, stored on the 6200 
+DCP and interrogated, or downloaded, by our office computer hourly.  Both 
+instruments are housed in ABS pipe mounted vertically on the ferry docks of 
+Homer and Seldovia.  The pipes are positioned to ensure that the sensors are 
+approximately 1 meter above the bottom.  
+	Port Graham and Bear Cove have YSI 6600 Sonde Data Loggers attached to 
+seasonal moorings in an average of 10 meters (mean tide) of water and 
+constructed to ensure the data logger rested 1 meter above the bottom.  
+
+	Calibration and deployment occurred monthly during winter months and 
+biweekly during summer month (weather dependent), using methods outlined in the 
+YSI Operating and Service Manual.  After cleaning the data loggers, the 
+dissolved oxygen (DO) membrane is replaced and allowed to burn in for 12 hours 
+before the DO sensor is calibrated in water-saturated air.  The pH, 
+conductivity, depth, and turbidity sensors are calibrated using the following 
+standards purchased from YSI (except depth): pH 7 and 10, conductivity standards 
+of 50 mS/cm, respectively, and depth of 0.  Turbidity standard of 100 NTU is 
+purchased through Riccia.  Errors in the calibration of the turbidity sensors 
+adversely affected turbidity data collected once the new turbidity probes were 
+attached.  
+	
+5)	Site Location and Character:
+Kachemak Bay is located approximately 150 miles south of Anchorage, on the 
+western shore of the Kenai Peninsula.  Kachemak Bay, at 59.6º N and 151.5º W, is 
+a temperate regional fjord with hydrographic conditions unique among the NERR 
+system estuaries.  The tidal range of 9 meters is the second largest in the 
+world and salinity ranges from near zero at stream mouths to 34.0 at the 
+entrance to the inner Bay.  The bay is 24 miles wide at its mouth and 
+approximately 36 miles long.   The head of Kachemak Bay is located to the 
+northeast at the Fox River Flats, and the mouth lies to the southwest, along a 
+line between Anchor Point and Point Pogibshi. Kachemak Bay is split into inner 
+and outer Bays by the four mile long Homer Spit that extends into the Bay from 
+the northern shoreline. The Kachemak Bay NERR comprises the entire inner Bay and 
+the outer Bay.  Water flows between the inner and outer Bays through a narrow 
+opening formed between the Spit and the southern shoreline. The Bay has an 
+average depth of 25 fathoms (150 feet) and a maximum of 100 fathoms (600 ft).
+Fresh water introduced primarily by the Fox, Bradley, and Martin rivers and 
+Sheep Creek at the head of the Bay, flows along the northwest shore of the inner 
+Bay.  Peak release of fresh water from Bradley Creek alone results in flows of 
+1200 cubic feet per second. This peak flow occurs in conjunction with the 
+warmest summer temperatures.
+
+The Bear Cove data logger site is the eastern endpoint monitoring site and 
+located on the southern side of the Inner Bay at 59.6833N, 151.1250W.  It is 
+mounted 1 meter above the bottom in an average of 10 meters of water (mean tide) 
+on a seasonal mooring.  The bottom habitat is predominantly sand and pollutants 
+in the area are few.  The site is primarily influenced by the glacial Portlock 
+and Grewingk Rivers.   This innermost site has salinity ranges between 20.1 and 
+31.9 ppt, due to the stratified nature of the water column.  The stratification 
+is a result of freshwater runoff in the summer months.  During low tide, the 
+instrument detects the upper section of the stratified water column and records 
+low salinity levels.  With a tidal range of 8.2m, at high tide the instrument 
+rests in the lower, more marine section of the stratified water column and 
+higher salinities are recorded.  During the winter months, the system reverts 
+more marine-like with little glacial runoff at a minimum and a near constant 
+salinity of 32 ppt.  The access to Bear Cove is limited to boat and weather 
+dependent.  During the winter months, icing of the inner bay and strong winds 
+from the east make access to the site impossible.  Due to these factors, the 
+deployment period for this site is limited to June to October.
+
+The Homer YSI data logger site is located on the north side of Kachemak Bay at 
+59.6029º N, 151.4081º W.  From January 2002 until November 2002, the instrument 
+was mounted 1 meter above the bottom on the ferry terminal dock in water 
+fluctuating between 1.8 and 10.8 meters.  Data for the Homer site was collected 
+through November 20, 2002, which was then removed after a storm destroyed the 
+datalogger mount. 
+
+In October 2002, relocation for the Homer datalogger site began due to a more 
+desirable location that became available after the installation of a new ferry 
+dock. The Homer Dolphin datalogger site began collecting data October 24, 2002 
+at latitude 59.6028ºN, and longitude 151.4081ºW. This new site, called Homer 
+Dolphin, places the instrument 1 meter from the bottom in water fluctuating 
+between 8.0 and 17.0 meters.  At both locations the bottom habitat is 
+predominantly sand.  Pollutants in the area are primarily due to the excessive 
+boat traffic at the entrance of the Homer harbor.  Throughout the year, salinity 
+has ranged from 20.5 to 31.7 ppt at both of these sites, as the instrument's 
+location in the stratified water column is dependent on tide height, with a 
+tidal range of 8.1m.  As with Bear Cove, it is predominately an estuarine 
+environment during summer months when glacial runoff is highest and during the 
+winter months, the system reverts more marine-like with glacial runoff at a 
+minimum.  
+
+	The Seldovia YSI data logger site is located on the south side of Kachemak 
+Bay at 59.4413ºN, 151.7186ºW, approximately 15 miles west of the Homer site and 
+11 miles east of the Bear Cove site.  As with the Homer site, it is situated on 
+the ferry terminal dock, one meter above the bottom and located in water 
+fluctuating between 5 and 13.3 meters.  The access to Seldovia is limited to 
+boat or air, as the site is remotely located off the highway system.  The power 
+and phone line connection are occasionally inoperative due to the remote 
+location and position at the end of the power grid.  The bottom habitat is 
+predominantly rocky substrate.  Pollutants in the area are minimal.  Throughout 
+the year, salinity has ranged from 30 to 35.9 ppt at this site with a tidal 
+range of 8m. 
+
+The Port Graham data logger site is the western endpoint monitoring site, 
+located at the mouth of Kachemak Bay and the entrance to Cook Inlet at 
+59.3383ºN 151.8917ºW.  It is situated off the coast of the native village of 
+Nanwalek, and approximately 40 miles from the innermost site at Bear Cove.  All 
+water entering the bay, conceptually, passes by the Port Graham site, and is a 
+true marine environment, with salinity ranging from 26.4 to 32.5 and a tidal 
+range of 7.7m.  It is mounted 1 meter above the bottom in 10 meters of water 
+(mean tide) on a seasonal mooring.  The bottom habitat is predominantly rocky 
+substrate and near a kelp bed.  The pollutants in the area are few.  The access 
+to Port Graham is limited to boat and  weather dependent.  During the winter 
+months extreme weather conditions of the outer Bay and Cook Inlet make access to 
+the site impossible.  Due to these factors, the deployment period at this site 
+is limited to June – October. 
+
+
+6)	Data Collection Period:
+Monitoring at the Homer and Seldovia sites was continuous throughout 2002.  
+Monitoring at the Bear Cove site began on June 18, 2002 at 11:30.  Due to 
+inclement weather conditions, the Bear Cove mooring was unable to be retrieved 
+in the Fall and will be recovered in the Spring.  The data presented runs 
+through September 11, 2002 at 11:00, but upon retrieval of the currently 
+deployed instrument, data will be available through approximately mid October 
+2002.   Monitoring at the Port Graham site was conducted between June 21, 2002 
+at 10:00 and October 2, 2002 at 12:30.  Deployment and retrieval dates and times 
+for following months are listed below:
+	
+Began			Ended			Sonde		Comments
+Homer Site
+11/27/01, 10:30	01/07/02, 16:30 	ioco778	none
+01/12/02, 13:00	02/20/02, 11:30 	oico778	fish in guard
+02/20/02, 12:00	03/11/02, 11:00	Zeus		fish in guard
+03/11/02, 11:30	03/12/02, 15:30	Cortez	lg fish in guard
+03/12/02, 16:00	04/16/02, 09:00	Zeus		low turb (-9.8)
+04/19/02, 11:30	05/27/02, 19:30	Zeus		sea slug in guard
+05/29/02, 15:30	07/02/02, 14:30	Cortez	none
+07/02/02, 15:00	07/30/02, 20:30	Zeus		DO punct; low turb(89)
+07/30/02, 21:00	08/28/02, 14:30	Neptune
+08/28/02, 15:00	10/01/02, 14:00	Cortez	Do recond, new turb
+10/02/02, 05:00	11/15/02, 14:00	Zeus		15 hr interval set, not 15 min. 
+11/15/02, 14:00	11/20/02, 12:30	Cortez
+
+Homer Dolphin site
+10/24/02, 10:00	11/07/02, 13:00	Neptune		
+11/19/02, 10:30	12/10/02, 10:00	Zeus		
+12/10/02, 10:30	01/07/03, 14:30	Neptune		
+
+Seldovia Site
+12/09/01, 13:30	01/11/02, 16:30	ico778	no data /modem dwn
+01/11/02, 17:00	02/21/02, 09:30	**New**	none
+02/21/02, 10:00	03/13/02, 11:00	Neptune	High SpCon(57.7)/ Doreco
+03/13/02, 11:30	04/22/02, 09:30	Cortez	none
+04/22/02, 11:00	04/24/02, 12:00	Nautilus	moved to CI 4/24 ; Turbhigh(136)
+04/24/02, 14:00	05/28/02, 10:30	Cortez	none
+05/28/02, 11:30	06/18/02, 15:30	Zeus		none
+06/18/02, 16:00	07/04/02, 09:00	Neptune	DO punct;Installed new turbprobe
+07/04/02, 10:00	08/01/02, 14:00	Cortez	DO recond; new turb probe
+08/01/02, 14:30	09/04/02, 12:30	Zeus		DO punct, Serpulids present
+09/04/02, 13:00	10/09/02, 18:00	Neptune		
+10/09/02, 18:30	11/14/02, 14:00	Cortez	DO punct; Turb wiper stop
+11/14/02, 14:30	12/09/02, 10:30	Neptune		
+12/09/02, 11:00	01/07/03, 10:45	Cortez	recondition DO, 
+								Turbidity wiper not functioning
+
+Port Graham Site
+06/21/02, 10:00	07/10/02, 08:30	Calypso	none
+07/10/02, 09:30	07/28/02, 10:30	Neptune	none
+07/28/02, 18:00	09/03/02, 20:00	Calypso	BAD pH 
+09/03/02, 20:30	10/02/02, 12:30	Kozloff	Wiper NOT functioning
+
+Bear Cove Site
+06/18/02, 11:30	07/02/02, 08:30	Kozloff	none
+07/03/02, 18:30	07/31/02, 14:30	Triton	none
+08/01/02, 20:00	09/11/02, 11:00	Triton	DO punt
+
+
+
+7)	Distribution
+	According to the Ocean and Coastal Resource Management Data Dissemination 
+Policy for the NERRS System-wide Monitoring Program, NOAA/ERD retains the rights 
+to analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where data were collected will be contacted and fully acknowledged 
+in any subsequent publications in which any part of the data are used.  
+Manuscripts resulting from this NOAA/OCRM supported research that are produced 
+for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Oceanic and Atmospheric Administration.  The data 
+set enclosed within this package/transmission is only as good as the quality 
+assurance and quality control procedures outlined by the enclosed metadata 
+reporting statement.  The user bears all responsibility for its subsequent 
+use/misuse in any further analyses or comparisons.  The Federal government does 
+not assume liability to the Recipient or third persons, nor will the Federal 
+government reimburse or indemnify the Recipient for its liability due to 
+any losses resulting in any way from the use of this data.
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site, from the Data Manager at the 
+Centralized Data Management Office (please see personnel directory under the 
+general information link on the CDMO home page) and online at the CDMO home page 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+8)	Associated Researchers and Projects:
+	Additional instruments deployed seasonally monitor the degradation of the 
+marine water along and across the axis of the bay. These data are being used to 
+supplement studies on primary productivity, larval distribution, settlement, 
+recruitment, growth rates, community dynamics, and biodiversity in the bay.  
+	In August 2000, 2001,and 2002, the spatial distribution of Nereocystis 
+leutkeana kelp beds was mapped in the Kachemak Bay Research Reserve using low 
+altitude aerial photography.  The photos were taken using a medium-format camera 
+and a light fixed-wing aircraft to produce vertical and oblique digital imagery 
+of individual kelp beds.  These images were geometrically corrected and the kelp 
+beds delineated.  The polygon data were entered into a GIS so that estimates of 
+areal extent and adjacency can be compared among beds and among years.  Results 
+of 2000 and 2001 data (2002 still in processing) to date indicate a >10% decline 
+in surface area of kelp beds.  This was mostly due to the inundation of rocky 
+habitat by sand over a small subtidal bench near the Homer Spit.  The 
+variability of each kelp bed area and density will be tracked over time as an 
+indicator of change and kelp community health.  We intend to continue these 
+surveys for a minimum of ten years to track the kelp beds through at least one 
+major cycle of known oceanic variability (the El Nino/Southern Oscillation).  
+The correlative work stemming from aerial surveys will help focus our 
+experimental studies to determine the mechanisms of observed changes in 
+population sizes and density.  In order to attribute the shifts in spatial 
+patterns to specific agents of change, on-going research by our science staff is 
+focusing on the effects of light limitation, salinity, and herbivore on kelp 
+growth rates.
+
+II.Physical Structure Descriptors
+
+9)	Variable Sequence, Range of Measurements, Units, Resolution, and Accuracy:
+
+YSI 6600 Datalogger Sonde
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+		
+10)	Coded variable indicator and variable code definitions:
+
+File definitions:  YSI deployment site/file definition/month/year (ex: HOwq0701 
+= Homer water quality data from July of 2001).
+BC = Bear Cove
+HO = Homer  
+SE = Seldovia 
+PG = Port Graham 
+DL = Homer Dolphin 
+
+
+11)	Data anomalies:
+
+Note: Outliers in the data are defined to be any point greater than 4 standard 
+deviations from the mean of the 24 hour period surrounding that point. Points 
+flagged as an outliers were removed from the dataset.  
+Note: Between sonde rotations we typically encounter the following jumps in data 
+as a result of calibration offsets and probe accuracy:  
+	
+	pH:	+/-  0.01
+	DO %:	+/-  10
+	DO Conc:+/- 1 mg/l
+	
+
+January 1–-31 2002
+
+Homer
+
+a)	Following the sonde deployment on 1/12, 13:00, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+b)	Time gaps appear at the following period, due to no instrument deployed.
+1/7, 17:00 – 1/12, 12:30  
+c)	A DO percent outlier was removed by software on 01/12 13:00
+d)	A pH outlier was removed at 01/12 13:00
+
+
+Seldovia
+a)	For the sonde deployment between the periods of 01/11, 17:00 and 01/12, 
+12:30, incompatibilities of programming and setup was experienced between the 
+6200 DCP and 6600 sonde.  Due to these differences in setup, DO Concentration 
+and Specific Conductivity data were not recorded for this period.
+b)	Time gaps appear during the following periods, possibly due to a power 
+surge or interruption in relaying data.  No data is recorded for the following 
+periods.
+1/01, 00:00 - 1/11, 16:30
+c)	High turbidity values were removed at 01/15 00:00, 01/27 08:30
+d)	Turbidity outliers were removed at 01/19 14:00, 01/26 20:00
+e)	A pH outlier was removed at 01/17 22:30
+f) 	Do (% and mg/L) were deleted for the following dates/times due to probe 
+malfunction. Probe had to be reconditioned for next deployment. 
+01/11/02 17:00 through 02/21/02 09:30
+
+
+
+
+February 1-28, 2002
+
+Homer
+a)	Following the sonde deployment on 02/20, 11:30, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+b)	There is a suspect drop in salinity that appears to be the result of a low 
+calibration offset during the following deployment:  2/20, 12:00 – 3/11, 11:00
+c)	Turbidity >400 was removed at 02/25 07:30
+d)	Turbidity < -2 was removed at 02/20 11:30, 02/23 08:30, 02/23 23:30 - 
+02/24: 01:30
+e)	Turbidity outliers were removed at 02/09 17:30, 02/12 04:00, 02/23 02:00
+f)	PH outlier was removed at 02/09 17:00
+       
+Seldovia
+a)	There is suspect high DO during the end of the 01/02 deployment period, 
+especially with the drop of DO values with the deployment of the next sonde on 
+2/21, 10:00.  A punctured membrane is suspected during the following period: 
+1/12,12:45 – 2/21, 09:45
+b)	High specific conductivity and salinity were recorded during the following 
+deployment period. Data has been deleted: 2/21 10:00 - 3/13 11:00
+c)	Negative turbidity was removed at 02/21 10:00
+d)	Turbidity outliers were removed at 02/12 11:00, 02/19 16:30, 02/26 03:00
+e)	PH outliers were removed at 02/03 13:00, 02/05 15:00, 02/07 10:00, 
+02/08 01:00, 02/23 14:00, 02/25 09:00 - 09:30,
+f) 	Do (% and mg/L) were deleted for the following dates/times due to probe 
+malfunction. Probe had to be reconditioned for next deployment. 
+01/11/02 17:00 through 02/21/02 09:30
+
+
+
+
+March 1 – 31, 2002
+
+Homer
+
+a)	During mid-deployment the data and time are recorded twice in the data, 
+causing the columns headings to be reported incorrectly on the raw data.   The 
+6200 was re-configured after the error was found and started reporting data 
+correctly.   3/11/02 16:00 – 3/12/02 14:45
+b)	During the following time period the 6600 was reporting depth in feet and 
+conversion to meters was performed.
+3/1/02 00:00 – 3/28/02 11:00
+c)	Following the sonde deployment on 03/12 15:00, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+d)	Time gaps appear during the following periods, possibly due to a power 
+surge or interruption in relaying data.  No data is recorded for these periods. 
+3/28, 11:30 – 3/28, 13:00
+e)	PH was out of range and deleted 03/11 16:00 – 03/12/02 15:00, 03/15 05:30
+f) 	Turbidity was not recorded for deployment 03/12 15:00 – 04/16 09:00.
+
+
+
+
+Seldovia
+a)	Following the sonde deployment on 03/13 11:30, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+b)	Time gaps appear during the following periods, possibly due to a power 
+surge or interruption in relaying data.  No data is recorded for the following 
+periods:  03/28 17:00
+c)	High specific conductivity and salinity were recorded during the following 
+deployment period. Data were deleted: 2/21 10:00 - 3/13 11:30
+d)	High turbidity values were removed from 03/13 14:00, 03/28 14:00 – 3/31 
+23:30
+e)	Turbidity outliers were removed from 03/09 12:30, 03/10 19:00, 03/11 
+23:00, 03/26 20:00
+
+
+April 1-30, 2002
+
+Homer
+a)	The first deployment, during the following time period, contains data 
+collected from the 6600 via 6200 DCP, in 15 minute intervals.  
+04/01 00:00 – 04/16 09:00
+b)	The second deployment, during the following time period, contains data 
+collected directly from the 6600, in 30 minute intervals.  
+04/19 11:30 – 04/30 23:45
+c)	Time gaps appear during the following period.  Loss of data a result of 
+hard-drive failure of receiving DCP computer.  No data is recorded for these 
+periods.
+04/08 00:30 – 01:00
+d)	A pH outlier was removed 04/30 00:00
+e)	Following the sonde deployment on 03/12 15:00, incompatibilities of 
+programming and setup was experienced between the 6200 DCP and 6600 sonde.  Due 
+to these differences in setup, the column headings are reported incorrectly on 
+the raw data, but properly aligned for the edited version.  
+f)	Turbity outliers were removed at 04/21 06:30, 04/22 07:30, 04/28 08:30
+g) 	Turbidity was not recorded for deployment 03/12 15:00 – 04/16 09:00.
+
+Seldovia
+a)	Time gaps appear during the following period because of a hard-drive 
+failure on the logging computer.  04/16 09:00 –04/22 10:30
+b)	Time gaps appear during the following periods, possibly due to a power 
+surge or interruption in relaying data.  No data is recorded for these periods:  
+4/08 01:00 – 01:30
+c)	Following the sonde deployment on 03/28, 14:00, (continuing until 04/22, 
+11:00) incompatibilities of programming and setup was experienced between the 
+6200 DCP and 6600 sonde.  Due to these differences in setup, the column headings 
+are reported incorrectly on the raw data, but properly aligned for the edited 
+version.  
+d)	The pH data from the following deployment is suspect: 4/22 11:00 – 4/24 
+12:00
+e)	PH outliers were removed at 04/01 14:00, 04/03/02 19:00, 04/04/02 06:00, 
+04/07 01:00, 04/11 04:00
+f)	Turbidity outliers were removed at 04/25 22:00, 04/27 19:00
+g)	An error in setup caused DO percent, DO concentration, and Salinity to not 
+be recorded between 4/24 14:00 and 5/28 11:00
+h) 	High turbidity values were removed from 04/01 00:00 – 04/16 08:30
+
+
+May  1-31, 2002
+
+Homer
+a)	Time gaps appear during the following period.  Loss of data a result of 
+hard-drive failure of receiving DCP computer.  No data is recorded for these 
+periods.  5/08 14:30 – 5/08 15:30, 5/30 09:00
+b)	Turbidity outliers were removed at 05/01 11:00, 05/03 06:00, 05/15 
+12:30, 05/18 13:30, 05/21 15:00, 05/23 05:00, 05/25 18:30, 05/27 05:00
+
+Seldovia
+a)	An error in setup caused DO percent, DO concentration, and Salinity to not 
+be recorded between 4/24 12:30 and 5/28 10:30
+b)	Turbidity outliers were removed at 05/07 10:00, 05/10 13:00, 05/13 
+13:30, 05/15 03:30, 17:00, 05/17 18:30, 05/23 16:00, 05/29 23:30
+
+June 1-30, 2002
+
+Homer
+a)	Time gaps appear during the following period.  Loss of data a result of 
+hard-drive failure of receiving DCP computer.  No data is recorded for these 
+periods.  6/20 15:30
+b)	High turbidity values were removed at 06/04 18:30, 06/14 11:30, 22:00, 
+06/15 21:30, 06/16 09:30, 06/26 16:00, 17:00, 18:00
+c)	Turbidity outliers were removed at 06/06 19:00, 06/07 18:00, 06/08 
+08:00, 06/11 21:30, 06/13 17:00, 06/20 01:00, 22:30, 06/21 19:30, 06/24 19:00
+d)	A DO percent and DO concentration outlier was removed at 06/25 15:30,
+
+Seldovia
+a)	There is a suspect DO drop during the following deployment period:  5/28 
+11:30 – 6/18 15:30
+b)	The DO membrane was punctured and data removed for the following time 
+period:  
+6/18 16:00 - 7/4 09:00
+c)	Negative turbidity values, most likely caused by an error in calibration 
+technique were removed from  06/18 16:00, 17:00 - 06/19 12:30, 17:30, 18:30, 
+19:30 - 06/20 02:30, 03:30 - 06:00, 07:00 - 13:00, 14:00 - 16:30, 17:30 - 
+18:00, 19:00 - 19:30, 20:30 - 06/21 03:00, 04:00 - 05:30, 07:00, 08:00 - 08:30, 
+09:30, 10:30 - 15:00, 17:30, 18:30 - 06/22 04:00, 06:00, 12:00 - 14:00, 15:00, 
+16:30 - 18:00, 19:30 - 06/23 03:30, 04:30, 08:00 - 09:30, 10:30, 13:30 - 16:00, 
+18:00, 19:30 - 20:00, 21:00, 22:00 - 06/24 03:00, 05:00, 06:00, 10:30, 11:30, 
+12:30, 14:00 - 17:00, 18:30, 21:00 - 22:00, 23:00 - 06/25 04:30, 06:00, 10:00 - 
+10:30, 11:30 - 12:30, 13:30 - 17:00, 19:30 - 20:30, 21:30 - 23:00, 06/26 00:00 
+- 03:00, 04:00, 05:00 - 05:30, 06:30, 06/27 01:00 - 04:00, 09:30, 11:00, 12:00, 
+13:30 - 16:00, 17:00 - 17:30, 22:00 - 06/28 04:00, 05:00 - 05:30, 09:30, 11:30 
+- 14:30, 15:30 - 18:00, 22:30 - 06/29 06:00, 07:30, 12:30 - 14:30, 15:30 - 
+18:00, 19:00 - 21:30, 22:30 - 23:30, 06/30 00:30 - 05:00, 06:00 - 08:00, 09:00, 
+11:00, 13:00 - 13:30, 15:30 - 18:30, 19:30 - 20:30,
+d)	All turbidity data 06/18 1600 through the end of the month is suspect 
+because of calibration.
+e)	Turbidity outliers were removed on 06/01 13:30, 06/03 14:30, 06/09 18:00, 
+06/14 22:00, 06/17 12:30, 06/20 16:30, 06/27 13:00
+
+Port Graham
+a)	The sonde during the following deployment period experienced a pH sensor 
+failure.  The pH data for this deployment is deleted:  6/21 10:00 – 7/10 08:30
+b)	Negative turbidity data was deleted during the following deployment 
+period:  6/21 10:00 – 7/10 08:30
+
+Bear Cove
+a)	Data does not begin until 6/18 11:30
+b)	Turbidity reported a –22 in 0 post-cal, yet recorded no negative data 
+during the deployment.  The turbidity data is suspect for this deployment 
+period: 6/18 11:30 - 7/02 08:30
+	c)	Turbidity outliers were removed on 06/21 14:00, 06/22 20:00
+
+July 1-31, 2002
+
+Homer
+a)	The DO membrane was punctured and data deleted for the following time 
+period: 7/2 15;00 – 7/30 20:30
+b)	High turbidity values were removed at 07/01 09:00, 07/12 22:00, 07/13 
+10:00, 07/24 01:30, 07/29 22:00
+
+
+Seldovia
+a)	The DO membrane was punctured and data removed for the following time 
+period:  6/18 16:00 - 7/4 09:00
+b)	Negative turbidity data was removed from 07/01 01:00, 02:30, 04:00 - 
+05:30, 08:30, 17:30 - 19:00, 20:30, 21:30, 22:30 - 07/02 00:30, 01:30, 02:30 - 
+04:00, 05:00, 06:00, 07:00 - 08:00, 09:30, 15:00 - 18:00, 19:00 - 07/03 03:30, 
+04:30, 05:30 - 19:00, 20:30 - 21:30
+c)  All turbidity data before 07/04 09:30 should be considered suspect.
+
+Port Graham
+a)	The sonde during the following deployment period experienced a pH sensor 
+failure.  The pH data for this deployment is deleted:  6/21, 10:00 – 7/10, 08:30
+b)	The sonde during the following deployment had experienced pH failure and 
+probe was removed during this deployment:  7/28 18:00 – 9/3 20:00
+c)	A DO outlier was removed from 07/10 09:30
+d)	Turbidity outliers were removed from 07/15 05:30, 07/16 05:00, 07/17 
+08:30, 07/20 06:30, 07/22 00:30.
+
+Bear Cove
+a)	The mooring was moved to deeper water from 7/3 18:30 to 7/9 7:30, then 
+moved back to it's original location:  
+b)	pH outliers were removed on 07/07 05:00, 07/08 04:30
+c)	A high turbidity value was removed on 07/12 20:00
+d)	Turbidity outliers were removed on 07/07 06:00, 07/08 06:00, 07/11 
+22:00, 07/14 01:00, 07/18 12:30 07/26 22:00,
+
+
+August 1-31, 2002
+
+Homer
+a)	Turbidity data is negative and removed for the following deployment 
+period:  8/28 15:00 – 10/1 14:00
+b)	A turbidity outlier was removed 08/25: 07:30.
+c)	DO membrane was punctured during following deployment and data is suspect:  
+8/28 15:00 – 10/1 14:00
+
+
+Seldovia
+a)	The DO membrane was puncture and data deleted for the following time 
+period: 8/1 14:30 – 9/4 13:30
+b)	Negative turbidity due to incorrect calibrations have been removed for 
+8/1 14:30 – 9/4 13:30
+
+Port Graham
+a)	Data gaps exits on 8/31 11:30, 14:00, 16:30 - 17:30 due to possible 
+battery problems
+b)	The sonde during the following deployment had experienced pH failure and 
+probe was removed during this deployment:  7/28 18:00 – 9/3 20:00
+c)	High turbidity values were removed on 08/22 23:30, 08/23 00:30, 06:00, 
+15:00, 08/24 16:00, 08/26 10:00, 08/27 10:00, 08/30 12:30, 08/31 00:30 - 
+01:00, 12:30 - 13:30, 20:00, 23:30
+d)	A DO outlier was removed on 08/25 11:30
+e)	Turbidity outliers were removed on 08/01 01:30, 08/14 04:00, 08/18 
+03:30, 08/19 09:30, 23:30, 08/21 21:30, 08/2: 10:00, 08/24 07:30.
+
+
+Bear Cove
+a)	DO membrane was punctured during following deployment and data were 
+deleted:  8/1 20:00 – 9/11 11:00
+b)	A suspect drop in pH is reported during the following period:  8/28 15:00 
+– 8/30 20:30
+c)	A pH outlier was removed on 08/18 04:00
+d)	Turbidity outliers were removed on 08/08 07:30, 08/11 06:30, 08/15 
+14:30, 08/19 08:30, 08/21 08:00, 08/24 05:00, 08/28 04:00, 08/29 19:30, 
+08/31 07:00
+
+September 1-30, 2002
+
+Homer
+a)	Turbidity data is negative and removed for the following deployment 
+period:  8/28 15:00 – 10/1 14:00
+b) DO membrane was punctured during following deployment and data is suspect:  
+8/28 15:00 – 10/1 14:00
+
+
+Seldovia
+a)	The DO membrane was puncture and data deleted for the following time 
+period: 8/1 14:30 – 9/4 13:30
+b)	Turbidity data is negative because of incorrect calibration and is removed 
+up to 9/4 13:30
+c)	Turbidity data after 9/4 13:30 remains negative, but within the instrument 
+accuracy so it has been retained.  It should be considered suspect data.
+d) 	High Turbidity value (174 NTU) on 09/06/02 02:30 considered suspect. 
+
+Port Graham
+a)	The sonde during the following deployment had experienced pH failure and 
+probe was removed during this deployment:  7/28 18:00 – 9/3 20:00
+b)	There is a suspect drop in specific conductivity and salinity during the 
+following period:  9/20 00:00 – 9/20 13:00
+c)	Turbidity data is negative and removed for the following deployment 
+period: 9/3 20:30 – 10/2 12:30
+d) Turbidity anomalies for the following period were removed: 09/01 01:00, 
+19:30; 09/02 02:00, 06:30, 23:00; 09/03 08:00
+
+Bear Cove
+a)	Data gaps exist on 9/7 00:00, 04:00, 05:30, and 07:30-08:30 because of 
+unknown problems with the instrument.
+b)	A pH outlier was removed on 09/05: 00:30
+c)	Turbidity outliers were removed on 09/01 07:30, 09/04 03:30, 09/05 05:30, 
+09/06 04:30, 09/08 15:30
+d)	The last instrument recovery occurred on 9/11 at 11:00, no data exists 
+after that time.  
+e) DO membrane was punctured during following deployment and data were 
+deleted:  8/1 20:00 – 9/11 11:00
+
+
+October 1-31, 2002
+
+Homer
+a)	Turbidity wiper was covering optic during the following deployment periods 
+and all turbidity data have been deleted: 10/01 14:30 – 10/31 11:00 and 10/31 
+14:00.
+b)	The unattended sampling interval was set to 15 hours instead of 15 minutes 
+due to an error in programming during the following deployment interval:  10/02 
+05:00 – 11/15 14:00
+c)	DO percent errors were removed at 10/14 12:00, 10/27 13:00
+d) 	DO membrane was punctured during following deployment and data is suspect:  
+8/28 15:00 – 10/1 14:00
+e) 	Negative turbidity data removed 10/01 00:00 – 10/01 14:00
+
+Seldovia
+a)	There is a suspect drop in pH that appears to be the result of a low 
+calibration offset during the following deployment:  10/9 18:30 – 11/14 14:15
+b)	There is a suspect rise in DO for an unknown reason during the following 
+deployment period:  10/9 18:30 – 11/14 14:15
+c)	Turbidity data until 10/12 10:30 remains negative but normally within the 
+instrument accuracy.  This data has been retained, but should be considered 
+suspect.  
+d) 	The following turbidity data was negative below the accuracy of the 
+instrument and has been removed:
+10/10 04:00, 10:00, 18:00, 19:00 – 21:00
+10/12 04:30, 09:30 – 10:00
+10/12 11:00 – 10/31 23:30
+e) High turbidity value 10/5 04:00 (326 NTU) suspect. Possibly caused by fish.
+f) 	DO (% and mg/L) were deleted for the following dates/times due to membrane 
+puncture:
+10/13/02 13:00 through 11/14/02 14:00
+
+Port Graham
+a)	Turbidity readings for the following deployment were all negative and 
+deleted:  9/3 20:30 – 10/2 12:30
+
+
+Homer Dolphin
+a)	An initial test deployment began on 10/24 10:00
+b)	A DO outlier was removed on 10/26 23:30
+c)	PH ouliers were removed on 10/25 23:00, 10/26 23:30
+d)	Turbidity outliers were removed on 10/25 08:30, 10/31 09:30
+
+November 1-30, 2002
+
+Homer 
+a)	The unattended sampling interval was set to 15 hours instead of 15 minutes 
+due to an error in programming during the following deployment interval:  10/02 
+05:00 – 11/15 14:00
+b)	High turbidity values were removed at 11/01 05:00, 20:00, 11/02 11:00, 
+11/03 02:00, 17:00, 11/04 08:00, 23:00, 11/05 14:00, 11/06 05:00, 20:00, 
+11/07 11:00, 11/08 02:00, 17:00, 11/09 08:00, 23:00, 11/10 14:00, 11/11 05:00, 
+20:00, 11/12 11:00, 11/13 02:00, 17:00, 11/14 08:00, 23:00, 11/15 14:00, 11/16 
+08:30 – 11/17 09:00, 11/18 10:00 – 17:30
+c)	A DO percent and concentration outlier was removed at 11/15 14:00 
+d)	A pH outlier was removed at 11/15 14:00
+e)	The Homer site was removed on 11/20 13:00 after a storm destroyed the 
+mount.  Future data will be collected at the Homer Dolphin site
+f) Negative turbidity values less than –2 were deleted for the following 
+dates/times:
+11/20/02 04:00 – 05:30
+ 
+	 
+
+Seldovia
+a)	Turbidity data 11/1 00:00 – 11/14 14:30 remains negative below the 
+instrument accuracy and has been removed.  Turbidity data after this time remain 
+near zero, but typically within the stated instrument accuracy.  Values <-2 have 
+been removed.  The negative values are likely a combination of poor calibration 
+technique, instrument accuracy, and clear water. 
+b)	A pH outlier was removed on 11/24 23:00
+c) 	There is a suspect drop in salinity for an unknown reason during the 
+following period:  11/10 08:30 – 11/14 15:00. Data retained. 
+d) 	Turbidity for the following dates/times were deleted because they fell 
+outside the 4 standard deviation: 11/16 21:30, 11/19 20:30, 11/21 00:30, 11/29 
+08:00.
+e) 	DO (% and mg/L) were deleted for the following dates/times due to membrane 
+puncture:
+10/13/02 13:00 through 11/14/02 14:00
+
+Homer Dolphin
+a)	DO and pH outliers were removed on 11/02 18:00, 11/19 21:00, 11/20 
+21:00, 11/21 21:30, 11/28 02:30(DO only).  These outliers may be the result of 
+a fish processing effluent pipe 
+in the area.  The effects of the effluent remain unknown at this time.
+b)	Turbidity outliers were removed at 11/01 00:00, 11/02 04:00
+c)	High turbidity values were removed at 11/23 08:30, 13:00
+
+
+December 1-31, 2002
+
+Homer Dolphin
+a)   DO percent outliers were removed on 12/01: 18:30, 12/03: 20:00, 12/04: 
+21:00, 12/05: 21:30, 12/07: 23:00, 12/08: 11:30, 12/14: 17:00, 12/16: 18:00, 
+12/18: 19:30, 12/19: 20:00, 12/22: 22:00, 12/25: 23:30, 12/29: 16:00, 12/30: 
+17:30.  
+b)   DO concentration outliers were removed on 12/01: 18:30, 12/04: 21:00, 
+12/18: 19:30, 12/19: 20:00,  12/25: 23:30, 12/30: 17:30.     
+c)   pH outliers were removed on  12/01: 18:30, 12/02: 19:30, 12/03: 20:30, 
+12/04: 21:00, 12/05: 21:30, 12/12: 01:30, 12/16: 18:00, 12/18: 19:30-20:00, 
+12/19: 20:00-20:30,  12/25: 23:30, 12/30: 17:30-18:00.    The DO and pH 
+outliers are all low values and may be the result of a fish processing effluent 
+pipe in the area.  The effects of the effluent remain unknown at this time.
+d)   Turbidity outliers were removed at 12/03: 06:00, 12/07: 21:30, 12/18: 
+09:00, 12/19: 13:00
+
+
+
+Seldovia
+a)	Turbidity data through the month remains near zero, but typically within 
+the stated instrument accuracy.  Values <-2 have been removed.  The negative 
+values are likely a combination of poor calibration technique, instrument 
+accuracy, and clear water.
+b)	High Turbidity data (>400 NTU) were removed on 12/26 12:30 – 12/27 06:00
+c)	PH outliers were removed on 12/06 09:30, 12/07 00:00
+d) 	DO (% and mg/L) are suspect for deployment 12/09/02 11:00 through 12/31/02 
+23:30. Low DO reading (66.4%) at post deployment calibration check. DO electrode 
+had to be reconditioned prior to following deployment. 
+e) Turbidity outliers were removed 12/07 17:30 and 12/29 18:30.
+
+
+
+12)	Missing Data:
+
+	Missing data are denoted by a period in the data set.  Data are missing 
+due to equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For more details about missing data, 
+contact the Research Coordinator at the Kachemak Bay Research Reserve.
+
+13)	Post Deployment Information
+
+End of Deployment Post-Calibration Readings in Standard Solutions:
+** n/r = not recorded**
+
+Site	Date	Conductivity	pH  	Turbidity	  DO (Air Sat)	Depth
+		(Std:50.0)     (Std:7)  (Std:0)      (Std:100%)		(m)
+HO	01/07/02	**	      **  	**	        	 **		**
+	02/20/02	47.80	      7.08  0.00	      108.0		0.102
+	03/11/02	48.9		7.08	4.5		103.0		0.305	
+	03/12/02	49.72		6.83	2.1		93.2		0.209	  	
+	04/18/02	48.7		7.01	-9.8		104.9	   	0.217	
+	04/19/02	49.7		6.93	5.0		104.2		0.003
+	05/27/02	54.4		7.02	0.5		98.2	   	-0.204	
+	07/02/02	50.01		6.88	2.2		105.9		0.182			
+	07/30/02	49.87		7.06	5.1		DO Punct	0.086
+	08/28/02	50.45		7.22	14.1		96.6		-0.153
+	10/01/02	49.65		7.01	-5.3		97.8		-0.049
+	11/15/02	49.92		6.99	4.8		106.2		-0.257
+	11/20/02	50.75		6.79	-3.3		97.5		-0.084
+
+SE	01/11/02	49.32	      7.02  0.02	       102.0	0.002
+	02/21/02	**		**	**		**		**
+	03/13/02	57.7		7.17	**		98.3		-0.117		
+	04/22/02	51.1		6.86	0.8		**		**		
+	05/28/02	50.24		7.09	-0.1		102.0		0.01
+	06/18/02	49.7		7.01	2.00		**		0.292		
+	07/04/02	50.02		6.88	**		**		0.03
+	08/01/02	**		**	**		96.2		**
+	09/04/02	50.33		7.05	-7.3		DO Punct	-0.21
+	10/09/02	49.48		6.96	1.7		101.6		0.129
+	11/14/02	50.88		7.01	-1.4		117.1		-0.173
+	12/09/02	49.8		7.15	0.4		95.5		-0.195
+	01/07/03	49.16		6.74	-1.1		66.4		0.260
+
+DL	11/07/02	50.55		7.06	1.4		92.9		-0.137
+	12/10/02	49.91		6.87	-0.3		103.1		0.115
+	01/07/03	48.61		7.09	0		105.3		0.262
+
+BC	07/02/02	49.95	     	6.98  -22.0	      DO Punct	0.033
+	07/31/02	49.90		7.1	-0.5		105.2		0.03
+	09/11/02	50.61		6.96	-0.5		DO Punct	-0.629
+
+PG	07/10/02	59.61		6.99	-9.0		99.2		0.052
+	07/28/02	50.10		7.03	0.0		98.5		0.002
+	09/03/02	50.40		9.42	0.8		97.8		**
+	10/02/02	50.05		7.02	-7.1		**		-0.074
+
+14)	Other Remarks/Notes
+a) There were a few instances at this NERR site where turbidity recorded small 
+negative values (-0001 and -0002). Because turbidity has a range of accuracy of 
++/-2 NTU, the technician did not edit or deleted these values in any way. 
+
+b) Below is the matlab routine used to process water quality data
+
+% kbsonde.m  This routine converts the sonde data the CDMO format
+% W. Scott Pegau  1/10/2003
+
+
+clear all
+
+%Adding some operating triggers  1= yes  0=no
+print_graphs=0;
+process_monthly=1;
+access_on=0;
+chl_on=0;
+fluor_on=0;
+tmint=30;  % this is the binning time interval
+st_id='SEwq'; % the letter designator for the station
+
+
+%set up variables and matrix needed to parse the data
+date_time=[]; temper=[]; cond=[]; sal=[]; doperc=[]; doconc=[]; pH=[]; depth=[]; 
+turb=[]; 
+chl=[]; fluor=[]; errcode = [];
+w=',';   
+fignumber = 2;
+
+% Read in all *.cdf comma delimited files
+
+[file_list,n_file]=list_file('*.cdf'); %currently assumes that list_file.m and 
+all *.cdf files are 
+in the working directory
+
+for i=1:n_file  %Begin loop to read in the data and append into a single matrix
+   file_name_current_in=file_list(i,:);
+
+   %chl_on=1;        % to re-turn on switches, if were turned off in prior loop
+   %fluor_on=1;
+   
+   % remove empty characters from each filename
+   fname_length=size(file_name_current_in,2);
+   j=0;
+   while file_name_current_in(1,fname_length-j)==' '
+      file_name_current_in=file_name_current_in(1,1:fname_length-j-1);
+   	j=j+1;   
+   end
+   
+   
+   fname_length=size(file_name_current_in,2); %let the user know the file being 
+processed
+   fprintf( '%s\n',file_name_current_in);
+   
+%Begin reading the data in
+   fid=fopen(file_name_current_in);
+
+
+%assume 2 lines of header in a .cdf file
+HDR=fgetl(fid);  %DETERMINE THE NUMBER AND NAME OF VARIABLES HERE
+units=fgetl(fid);  %DETERMINE THE UNITS OF THE VARIABLES HERE
+
+%determine the variables in the file
+    ww=findstr(HDR,w); %find commas in the header
+    ww=[ww length(HDR)]; %accounts for a header beyond the last comma
+    fprintf(' %d Variables in the file \r\n',length(ww))
+%determine the variables of interest
+  %this set of routines looks through the header to determine where the desired 
+data is
+    dc=findstr(HDR,'Date'); dcc=find(ww>dc); date_col=dcc(1);
+    dc=findstr(HDR,'Time'); dcc=find(ww>dc); time_col=dcc(1);
+    dc=findstr(HDR,'Temp'); dcc=find(ww>dc); temp_col=dcc(1);
+    dc=findstr(HDR,'SpCond'); dcc=find(ww>dc); cond_col=dcc(1);
+    dc=findstr(HDR,'Salinity'); dcc=find(ww>dc); sal_col=dcc(1);
+    dc=findstr(HDR,'DO%'); if ~isempty(dc); dcc=find(ww>dc); doperc_col=dcc(1); 
+end;
+    dc=findstr(HDR,'DO %'); if ~isempty(dc); dcc=find(ww>dc); doperc_col=dcc(1); 
+end;
+    dc=findstr(HDR,'DO Conc'); dcc=find(ww>dc); doconc_col=dcc(1);
+    dc=findstr(HDR,'Depth'); dcc=find(ww>dc); depth_col=dcc(1);
+    dc=findstr(HDR,'pH'); dcc=find(ww>dc(1)); pH_col=dcc(1);
+    dc=findstr(HDR,'Turbidity'); dcc=find(ww>dc); turb_col=dcc(1);
+    dc=findstr(HDR,'Chloro'); 
+        if isempty(dc); 
+            no_chl=1;
+            fprintf('No chlorophyll data.  Chlorophyll processing off. \r\n');
+    else; 
+            no_chl=0;
+            dcc=find(ww>dc); chl_col=dcc(1);
+        end;
+    dc=findstr(HDR,'Fluor'); 
+        if isempty(dc);
+            no_fluor=1;
+            fprintf('No fluorescence data.  Fluor turned off \r\n');
+        else;
+            no_fluor=0;
+            dcc=find(ww>dc); fluor_col=dcc(1); 
+        end;
+
+
+    clear ww;
+
+while 1; %read in each line of data and parse the data out
+    a=fgetl(fid);
+    if ~ischar(a), break, end;
+    a=strcat(',',a,','); %add commas at the beginning and end of the string for 
+parsing
+    ww=findstr(a,w); %find commas
+ 
+    %separate the date information 
+    if strcmp(a(ww(date_col)+1),'"'); %this if statement is necessary if a file 
+was 
+manipulated in excel prior to being input into this routine
+    d=datenum(a(ww(date_col)+2:ww(date_col+1)-
+2))+datenum(a(ww(time_col)+2:ww(time_col+1)-2));  %reads in date and time 
+columns
+    date_time=[date_time;d]; %store as number in a vector
+    else
+    d=datenum(a(ww(date_col)+1:ww(date_col+1)-
+1))+datenum(a(ww(time_col)+1:ww(time_col+1)-1));  %reads in date and time 
+columns
+    date_time=[date_time;d]; %store as number in a vector
+    end
+        
+     %read in the data
+     tt=str2num(a(ww(temp_col)+1:ww(temp_col+1)-1)); temper=[temper;tt];
+     tt=str2num(a(ww(cond_col)+1:ww(cond_col+1)-1)); cond=[cond;tt]; 
+     tt=str2num(a(ww(sal_col)+1:ww(sal_col+1)-1)); sal=[sal;tt];
+     tt=str2num(a(ww(doperc_col)+1:ww(doperc_col+1)-1)); doperc=[doperc;tt];
+     tt=str2num(a(ww(doconc_col)+1:ww(doconc_col+1)-1)); doconc=[doconc;tt];
+     tt=str2num(a(ww(depth_col)+1:ww(depth_col+1)-1)); depth=[depth;tt];
+     tt=str2num(a(ww(pH_col)+1:ww(pH_col+1)-1)); pH=[pH;tt];
+     tt=str2num(a(ww(turb_col)+1:ww(turb_col+1)-1)); turb=[turb;tt];
+     if chl_on 
+         if no_chl;
+             tt=NaN;
+             chl=[chl;tt];
+         else;
+             tt=str2num(a(ww(chl_col)+1:ww(chl_col+1)-1)); 
+             chl=[chl;tt]; 
+         end;
+     end;
+    if fluor_on; 
+        if no_fluor;
+            tt=NaN;
+            fluor=[fluor;tt];
+        else;
+             tt=str2num(a(ww(fluor_col)+1:ww(fluor_col+1)-1)); 
+             fluor=[fluor;tt]; 
+        end;
+    end;
+     
+     
+     
+ end;
+  fclose(fid);
+
+end
+
+%SORT THE DATA BY DATE
+
+tdata=[date_time temper cond sal doperc doconc depth pH turb chl ]; % removed 
+fluoro
+ttdata=sortrows(tdata,1);
+date_time=ttdata(:,1); temper=ttdata(:,2); cond=ttdata(:,3); sal=ttdata(:,4);
+doperc=ttdata(:,5); doconc=ttdata(:,6); depth=ttdata(:,7); pH=ttdata(:,8);
+turb=ttdata(:,9); 
+if chl_on; chl=ttdata(:,10); end;  
+if fluor_on; fluor=ttdata(:,11); end;
+
+
+%BEGIN CLEANING UP THE DATA
+
+%throw out obvious bad or missing data
+%the limits are in part from CDMO absolute rejection criteria
+%I trust the cals on temperature the most so if it is out the rest of the data 
+is assumed to be 
+garbage
+good_data=find(temper>-5&temper<40&cond>10&depth>0);  %finding "good" 
+temperature and conductivity data (conductivity test to ensure in water)
+
+    date_time=date_time(good_data); %only keep "good" data
+    temper=temper(good_data);
+    cond=cond(good_data);
+    sal=sal(good_data);
+    doperc=doperc(good_data);
+    doconc=doconc(good_data);
+    depth=depth(good_data);
+    pH=pH(good_data);
+    turb=turb(good_data);
+    if chl_on; chl=chl(good_data); end;
+    if fluor_on; fluor=fluor(good_data); end;
+
+    
+%identify gaps caused by bad or missing data
+   kk=find(diff(date_time)>(tmint*.0104166667/15+.001));
+   fnamr=fopen('report.txt','w');
+    for i=1:length(kk);
+        fprintf(fnamr,'Data gap between %s %s 
+\r\n',datestr(date_time(kk(i))),datestr(date_time(kk(i)+1)));
+    end
+ 
+
+
+%print the time covered by this data
+    fprintf('\r\n Begining date %s \r\n',datestr(date_time(1)));
+    fprintf('End date %s \r\n',datestr(date_time(end)));
+
+%PROBABLY WANT PLOTS OF LARGE DATA SET TO IDENTIFY PROBLEMS
+
+%process complete months of data
+
+[Y,M,D,H,MI,S]=datevec(date_time); %separate out the date info
+%begin looping over years
+     for I=Y(1):Y(end);       %loop over years
+        yyy=find(Y==I);
+        %plot the years worth of data to look for oddities
+        yjd=date_time(yyy)-datenum(I-1,12,31);
+        stdate=min(yjd); endate=max(yjd);
+        subplot(7,1,1); plot(yjd,temper(yyy),'k'); axis([stdate endate -2 15]); 
+ylabel('Temperature');
+        subplot(7,1,2); plot(yjd,sal(yyy),'k'); axis([stdate endate 22 33]); 
+ylabel('Salinity');
+        subplot(7,1,3); plot(yjd,doperc(yyy),'k'); axis([stdate endate 80 130]); 
+ylabel('DO 
+percent');
+        subplot(7,1,4); plot(yjd,depth(yyy),'k'); axis([stdate endate 2 17]); 
+ylabel('Depth');
+        subplot(7,1,5); plot(yjd,pH(yyy),'k'); axis([stdate endate 7.5 8.5]); 
+ylabel('pH');
+        subplot(7,1,6); plot(yjd,turb(yyy),'k'); axis([stdate endate -100 
+200]);ylabel('Turbidity');
+        if chl_on; subplot(7,1,7); plot(yjd,chl(yyy),'k'); axis([stdate endate -
+10 
+30]);ylabel('Chlorophyll'); xlabel('Julian day'); end; 
+        set(gcf,'Paperposition',[.5 .5 7 10])
+        year_title=num2str(Y(yyy(1))); subplot(7,1,1); title(year_title);
+        pause(5);
+
+        if print_graphs; print; end
+        
+        
+        for J=1:12;  %loop over months
+            mmm=find(M(yyy)==J); %find data within a month
+            if ~isempty(mmm)&process_monthly; %continue if data in the month is 
+available
+                mmm=mmm+yyy(1)-1; %adjust month pointer to full data set
+                
+ ftemper=[]; fcond=[]; fsal=[]; fdoperc=[]; fdoconc=[]; fdepth=[]; fpH=[]; 
+fturb=[]; 
+fchl=[]; fjd=[]; % ffluor=[];
+
+
+                    mdate_time=date_time(mmm); %pull out the single month of 
+data to work 
+with
+                    mtemper=temper(mmm);
+                    mcond=cond(mmm);
+                    msal=sal(mmm);
+                    mdoperc=doperc(mmm);
+                    mdoconc=doconc(mmm);
+                    mdepth=depth(mmm);
+                    mpH=pH(mmm);
+                    mturb=turb(mmm);
+                    if chl_on; mchl=chl(mmm); end;
+                    if fluor_on; mfluor=fluor(mmm); end;
+                    mjd=mdate_time-datenum(I-1,12,31);
+                    
+                    %save monthly data in matlab file
+                    fnm=datestr(datenum(I,J,1),2);
+                    fnam=strcat(st_id,fnm(1:2),fnm(7:8));
+                    fprintf('Year is %u and month is %u 
+\r\n',Y(mmm(1)),M(mmm(1)));
+                    if chl_on; eval(['save ' fnam ' mjd mdate_time mtemper mcond 
+msal mdoperc 
+mdoconc mdepth mpH mturb mchl']); 
+                    else eval(['save ' fnam ' mjd mdate_time mtemper mcond msal 
+mdoperc 
+mdoconc mdepth mpH mturb']);
+                    end;
+                    
+                    %loop through the month averaging available data into 15 min 
+intervals and 
+filling gaps with NaN
+                    %also applying a filter to the data
+                    date_int=tmint*.0104166667/15;
+                    fnamo=strcat(fnam,'.txt');
+                    fido=fopen(fnamo,'w');
+                    fprintf(fido,'Date \t Time \t Temp \t SpCond \t Sal \t DO \t 
+DO \t Depth \t pH 
+\t Turb \r\n');
+                    fprintf(fido,'MM/DD/YYYY \t hh:mm:ss \t C \t mS/cm \t ppt \t 
+percent \t 
+mg/L \t m \t \t NTU \r\n');
+ 
+                      if access_on;
+                            % open output files and put headers on
+                            fida1=fopen(strcat(fnam,'temperAccess.txt'),'w');
+                            fida2=fopen(strcat(fnam,'CondAccess.txt'),'w');
+                            fida3=fopen(strcat(fnam,'SalinityAccess.txt'),'w');
+                            fida4=fopen(strcat(fnam,'DOAccess.txt'),'w');
+                            fida5=fopen(strcat(fnam,'DepthAccess.txt'),'w');
+                            fida6=fopen(strcat(fnam,'pHAccess.txt'),'w');
+                            fida7=fopen(strcat(fnam,'TubidityAccess.txt'),'w');
+                            if chl_on; 
+fida8=fopen(strcat(fnam,'ChlAccess.txt'),'w'); end;
+                            fprintf(fida1, 'StationCode \t TimeCode \t Depth \t 
+Temp(C) \r\n');
+                            fprintf(fida2, 'StationCode \t TimeCode \t SpCond 
+\r\n');
+                            fprintf(fida3, 'StationCode \t TimeCode \t Salinity 
+\r\n');
+                            fprintf(fida4, 'StationCode \t TimeCode \t DOperc \t 
+DOConc \r\n');
+                            fprintf(fida5, 'StationCode \t TimeCode \t Depth 
+\r\n');
+                            fprintf(fida6, 'StationCode \t TimeCode \t pH 
+\r\n');
+                            fprintf(fida7, 'StationCode \t TimeCode \t Turbidity 
+\r\n');
+                            if chl_on; fprintf(fida8, 'StationCode \t TimeCode 
+\t Chl \r\n'); end;
+                      end;
+                        
+                    for II=datenum(I,J,1):date_int:datenum(I,J+1,1);
+                        cdate=datestr(II,23); ctime=datestr(II,13);
+                        cjd=II-datenum(I-1,12,31);
+                        ll=find(mdate_time>(II-
+date_int/2)&mdate_time<(II+date_int/2)); %find 
+data +-7.5 minutes from desired output time
+                        lm=find(mdate_time>(II-.5)&mdate_time<(II+.5)); %find 
+data within 12 
+hours for filtering purpose (should expand to allow data out of the month)
+                        if isempty(ll); %missing data is listed as NaN
+                            ctemper=NaN; ccond=NaN; csal=NaN; cdoperc=NaN; 
+                            cdoconc=NaN; cdepth=NaN; cpH=NaN; cturb=NaN; 
+cchl=NaN;
+                            %save data in CDMO formatted tab delimited text 
+files
+                            fprintf(fido,'%s \t %s \t %04.1f \t %06.2f \t %04.1f 
+\t %05.1f \t %04.1f \t 
+%05.2f \t %04.1f \t %05.0f \r\n',cdate, ctime, ctemper,ccond, csal, cdoperc, 
+cdoconc, 
+cdepth, cpH, cturb);
+
+                            %save filtered data to compare against raw data
+                            ftemper=[ftemper;ctemper]; fcond=[fcond;ccond]; 
+fsal=[fsal;csal]; 
+fdoperc=[fdoperc;cdoperc]; fjd=[fjd;cjd];
+                            fdoconc=[fdoconc;cdoconc]; fdepth=[fdepth;cdepth]; 
+fpH=[fpH;cpH]; 
+fturb=[fturb;cturb]; fchl=[fchl;cchl]; %ffluor=[ffluor;ffluor];
+
+                        else;  %use nanmean so that filters can be put in place 
+before this step
+
+                            
+                            ctemper=nanmean(mtemper(ll)); 
+ccond=nanmean(mcond(ll)); 
+csal=nanmean(msal(ll)); cdoperc=nanmean(mdoperc(ll)); 
+                            cdoconc=nanmean(mdoconc(ll)); 
+cdepth=nanmean(mdepth(ll)); 
+cpH=nanmean(mpH(ll)); cturb=nanmean(mturb(ll)); 
+                            if chl_on; cchl=nanmean(mchl(ll)); end;
+%                            if fluor_on; cfluor=nanmean(mfluor(ll)); end;
+                            
+                            %ADDING INDIVIDUAL COMPONENT FILTERS  
+                            %BEWARE OF ALL FILTERS
+                               %absolute data rejection filters as specified by 
+CDMO or more 
+restrictive based on realistic values
+                            if ctemper<-2|ctemper>25; ctemper=NaN; 
+errcode=[errcode; 1,II];  end; 
+%CDMO -5 to 45
+                            if ccond<0|ccond>100; ccond=NaN; errcode=[errcode; 
+2,II]; 
+end;%CDMO cond 0 to 100
+                            if csal<10|csal>36; csal=NaN; errcode=[errcode; 
+3,II]; end; %CDMO 
+salinity 10 to 36
+                            if cdoperc<0|cdoperc>200; cdoperc=NaN; cdoconc=NaN; 
+errcode=[errcode; 4, II]; end; %CDMO dopercent 0 to 200
+                            if cpH<4|cpH>12; cpH=NaN; errcode=[errcode; 5,II]; 
+end; %CDMO pH 
+2 to 14
+                             
+                            if cturb>400; cturb=NaN; errcode=[errcode;6,II]; 
+end;    
+                            if cturb<-2; cturb=NaN; errcode=[errcode;7,II]; end;
+                            if chl_on&cchl>50; cchl=NaN; errcode=[errcode;8 
+,II]; end;
+                            if chl_on&cchl<0; cchl=NaN; errcode=[errcode; 9,II]; 
+end;
+%                            if fluor_on&cfluor<0; cfluro=NaN; 
+fprintf(fnamr,'negative 
+fluorescence on %s \r\n',datestr(II)); end;
+                            
+                               %outlier filter; the filter looks for data within 
+12 hours of the data point 
+and removes the data point if it is 
+                               % more than 4 standard deviations from the mean 
+(not applied to 
+temperature and salinity because of the two layer system)
+                      
+                            if 
+cdoperc>(nanmean(mdoperc(lm))+4*nanstd(mdoperc(lm)))|cdoperc<(nanmean(mdoperc(l
+m))-4*nanstd(mdoperc(lm))); 
+                                cdoperc=NaN;
+                                errcode=[errcode; 10,II];
+                            end;
+                            if 
+cdoconc>(nanmean(mdoconc(lm))+4*nanstd(mdoconc(lm)))|cdoconc<(nanmean(mdocon
+c(lm))-4*nanstd(mdoconc(lm)));
+                                cdoconc=NaN; 
+                                errcode=[errcode; 11,II];
+                            end;
+                            if 
+cpH>(nanmean(mpH(lm))+4*nanstd(mpH(lm)))|cpH<(nanmean(mpH(lm))-
+4*nanstd(mpH(lm))); 
+                                cpH=NaN; 
+                                errcode=[errcode; 12,II];
+                            end;
+                            if 
+cturb>(nanmean(mturb(lm))+4*nanstd(mturb(lm)))|cturb<(nanmean(mturb(lm))-
+4*nanstd(mturb(lm))); 
+                                cturb=NaN; 
+                                errcode=[errcode; 13 ,II];
+                            end;
+                            if 
+chl_on&(cchl>(nanmean(mchl(lm))+4*nanstd(mchl(lm)))|cchl<(nanmean(mchl(lm))-
+4*nanstd(mchl(lm)))); 
+                                cchl=NaN; 
+                                errcode=[errcode; 14,II];
+                            end;
+%                            if 
+fluor_on&(cfluor>(nanmean(mfluor(lm))+4*nanstd(mfluor(lm)))|cfluor<(nanmean(mchl
+(l
+m))-4*nanstd(mfluor(lm)))); 
+%                                cfluor=NaN; 
+%                                fprintf(fnamr,'Fluorescence outlier on %s 
+\r\n',datestr(II));
+%                            end;
+                            
+                            %Print out the data in CDMO format
+                            fprintf(fido,'%s \t %s \t %04.1f \t %06.2f \t %04.1f 
+\t %05.1f \t %04.1f \t 
+%05.2f \t %04.1f \t %04.0f \r\n',cdate, ctime, ctemper, ccond, csal, cdoperc, 
+cdoconc, 
+cdepth, cpH, cturb);
+                            
+                            %save filtered data to compare against raw data
+                            ftemper=[ftemper;ctemper]; fcond=[fcond;ccond]; 
+fsal=[fsal;csal]; 
+fdoperc=[fdoperc;cdoperc]; fjd=[fjd;cjd];
+                            fdoconc=[fdoconc;cdoconc]; fdepth=[fdepth;cdepth]; 
+fpH=[fpH;cpH]; 
+fturb=[fturb;cturb]; 
+                            if chl_on; fchl=[fchl;cchl]; end;
+ %                           if fluor_on; ffluor=[ffluor;cfluor]; end;
+                            
+                        %SET UP TO OUTPUT ACCESS DATA FILES   
+                        % only want filtered data without any NaNs
+                         if access_on;
+                            [AY,AM,AD,AH,AMI,AS]=datevec(II); % develop the time 
+code
+                            AYS = num2str(AY);
+                            AJDS = num2str(floor(II-datenum(I-1,12,31)));
+                            if length(AJDS)== 1; AJDS=strcat('00',AJDS); end;
+                            if length(AJDS)== 2; AJDS=strcat('0',AJDS); end;
+                           
+                            AHS = num2str (AH);
+                            if length(AHS) ~= 2;
+                                AHS = strcat('0', AHS);
+                            end;
+                            AMS = num2str (AMI);
+                            if length(AMS) ~= 2;
+                                AMS = strcat('0', AMS);
+                            end;
+                                
+                            TimeCode = strcat(AYS(3:4),AJDS,AHS,AMS);
+                                %output the Access data
+                                    accessdepth='Low';
+                                    if ~isnan(ctemper); fprintf(fida1,'%s \t %s 
+\t %s \t %04.2f \r\n',st_id, 
+TimeCode, accessdepth, ctemper); end;
+                                    if ~isnan(ccond); fprintf(fida2,'%s \t %s \t 
+%06.2f \r\n',st_id, 
+TimeCode, ccond); end;                                                                      
+                                    if ~isnan(cdoperc); fprintf(fida4,'%s \t %s 
+\t %05.1f \t %04.1f 
+\r\n',st_id, TimeCode, cdoperc, cdoconc);  end;                                  
+                                    if ~isnan(csal); fprintf(fida3,'%s \t %s \t 
+%04.1f \r\n',st_id, 
+TimeCode, csal); end;                                   
+                                    if ~isnan(cdepth); fprintf(fida5,'%s \t %s 
+\t %05.2f \r\n',st_id, 
+TimeCode, cdepth);  end;                                  
+                                    if ~isnan(cpH); fprintf(fida6,'%s \t %s \t 
+%04.1f \r\n',st_id, 
+TimeCode, cpH); end;                                    
+                                    if ~isnan(cturb); fprintf(fida7,'%s \t %s \t 
+%05.0f \r\n',st_id, 
+TimeCode, cturb); end;                                    
+                                    if ~isnan(cchl); fprintf(fida8,'%s \t %s \t 
+%05.0f \r\n',st_id, 
+TimeCode, cchl); end;                                    
+  %                                  if ~isnan(cfluor); fprintf(fida9,'%s \t %s 
+\t %05.0f \r\n',st_id, 
+TimeCode, cfluor); end;                                    
+                                end;
+                         
+                        end; 
+                    end;
+                     fclose(fido);
+                     if access_on;
+                         
+fclose(fida1);fclose(fida2);fclose(fida3);fclose(fida4);fclose(fida5);fclose(fid
+a6);
+                         fclose(fida7);
+                     end;
+                     if chl_on; fclose(fida8); end;
+   %                  if fluoro_on; fclose(fida8); end;
+
+
+
+                           
+                    %plot the monthly data 
+                    
+                    figure(fignumber);
+                    subplot(3,1,1); plot(mjd,mdepth,'-k',fjd,fdepth,'.r'); 
+ylabel('Depth');
+                    subplot(3,1,2); plot(mjd,mtemper,'-k',fjd,ftemper,'.r'); 
+ylabel('Temperature');
+                    subplot(3,1,3); plot(mjd,msal,'-k',fjd,fsal,'.r'); 
+ylabel('Salinity'); xlabel('Julian 
+Day');
+                    set(gcf,'Paperposition',[.5 .5 7 10])
+                    subplot(3,1,1); title(fnam);
+                    plotfnam1= strcat(fnam, '1');
+                    if print_graphs; print; end;
+                    fignumber=fignumber+1;
+                    
+                    figure(fignumber);
+                    subplot(4,1,1); plot(mjd,mdoperc,'-k',fjd,fdoperc,'.r'); 
+ylabel('DO percent');
+                    subplot(4,1,2); plot(mjd,mpH,'-k',fjd,fpH,'.r'); 
+ylabel('pH');
+                    subplot(4,1,3); plot(mjd,mturb,'-k',fjd,fturb,'.r'); 
+ylabel('Turbidity');
+                    if chl_on; subplot(4,1,4); plot(mjd,mchl,'-
+k',fjd,fchl,'.r'); ylabel('Chlorophyll'); 
+xlabel('Julian Day'); end;
+                    set(gcf,'Paperposition',[.5 .5 7 10])
+                    subplot(4,1,1); title(fnam);
+                    plotfnam2= strcat(fnam, '2');
+                    if print_graphs; print; end;
+                    fignumber=fignumber+1;
+                    pause(5)
+                 
+            end
+        end
+     end;
+            for errloop=1:14;       
+                % Finds all errcodes of each number
+                kk=find(errcode(:,1)==errloop);
+                % Assigning messages for error codes
+                if errloop==1; errprint='Temperature Out of Range';end;
+                if errloop==2; errprint='Sp Cond Out of Range';end;
+                if errloop==3; errprint='Salinity Out of Range';end;
+                if errloop==4; errprint='DO Percent Out of Range';end;
+                if errloop==5; errprint='pH  Out of Range';end;
+                if errloop==6; errprint='High Turbidity';end;
+                if errloop==7; errprint='Negative Turbidity';end;
+                if errloop==8; errprint='High Chlorophyll';end;
+                if errloop==9; errprint='Negative Chlorophyll';end;
+                if errloop==10; errprint='DO Percent Outlier';end;
+                if errloop==11; errprint='DO Conc Outlier';end;
+                if errloop==12; errprint='pH Outlier';end;
+                if errloop==13; errprint='Turbidity Outlier';end;
+                if errloop==14; errprint='Chlorophyll Outlier';end;
+                % Prints error code message
+                fprintf(fnamr,'\r\n %s %s \r\n',errprint, ':');
+                % Cycles through errors of same errcode
+                for count=1:length(kk);
+
+                    if count == 1;
+                        fprintf(fnamr, '\r\n %s: ', 
+datestr(errcode(kk(count),2),6));
+                        if (errcode(kk(count+1),2)-errcode(kk(count),2)) > 
+(tmint*.0104166667/15+.001);
+                          fprintf(fnamr, '%s, ', 
+datestr(errcode(kk(count),2),15));
+                        else
+                          begseq=errcode(kk(count),2); %start of sequence
+                          begcount=count;
+                        end
+                        
+                    elseif count==length(kk);
+                       if (errcode(kk(count),2)-errcode(kk(count-1),2)) < 
+(tmint*.0104166667/15+.001); %is sequential with previous
+                           endseq=errcode(kk(count),2);
+                              if begcount>1&(floor(begseq)-
+floor(errcode(kk(begcount-1),2)))<1;
+                                if (floor(endseq)-floor(begseq))>=1;
+                                    fprintf(fnamr,'%s - %s: 
+%s',datestr(begseq,15), datestr(endseq,6), 
+datestr(endseq,15));
+                                else;
+                                    fprintf(fnamr,'%s - %s, 
+',datestr(begseq,15), datestr(endseq,15));
+                                end;
+                              else
+                                if (floor(errcode(kk(count),2))-
+floor(errcode(kk(count-1),2)))>=1;
+                                    fprintf(fnamr,'\r\n %s: %s, 
+',datestr(errcode(kk(count),2),6), 
+datestr(errcode(kk(count),2),15));
+                                else;
+                                    fprintf(fnamr,'%s, ', 
+datestr(errcode(kk(count),2),15));
+                                end;
+
+                              end;
+                       elseif  (floor(errcode(kk(count),2))-
+floor(errcode(kk(count-1),2)))>1;
+                           fprintf(fnamr,'\r\n %s: %s, 
+',datestr(errcode(kk(count),2),6), 
+datestr(errcode(kk(count),2),15));
+                       else;
+                           fprintf(fnamr,'%s, ', 
+datestr(errcode(kk(count),2),15));
+                       end;
+                    else;
+                        if (errcode(kk(count),2)-errcode(kk(count-1),2)) < 
+(tmint*.0104166667/15+.001); %is sequential with previous
+                            if (errcode(kk(count+1),2)-errcode(kk(count),2)) > 
+(tmint*.0104166667/15+.001); %check if at end of sequence
+                                endseq=errcode(kk(count),2);
+                             if begcount>1;
+                              if (floor(begseq)-floor(errcode(kk(begcount-
+1),2)))<1;
+                                if (floor(endseq)-floor(begseq))>=1;
+                                    fprintf(fnamr,'%s - %s: %s, ', 
+datestr(begseq,15), datestr(endseq,6), 
+datestr(endseq,15));
+                                else;
+                                    fprintf(fnamr,'%s - %s, ', 
+datestr(begseq,15), datestr(endseq,15));
+                                end;    
+                              else;   
+                                if (floor(errcode(kk(count),2))-
+floor(errcode(kk(count-1),2)))>=1;
+                                    fprintf(fnamr,'\r\n %s: %s - %s: %s, 
+',datestr(begseq,6), 
+datestr(begseq,15),datestr(endseq,6), datestr(endseq,15));
+                                else;
+                                    fprintf(fnamr,'\r\n %s: %s - %s, ', 
+datestr(begseq,6), 
+datestr(begseq,15),datestr(endseq,15));
+                                end;
+                              end;
+                             else;
+                                if (floor(endseq)-floor(begseq))>=1;
+                                    fprintf(fnamr,'\r\n %s: %s - %s: %s, 
+',datestr(begseq,6), 
+datestr(begseq,15),datestr(endseq,6), datestr(endseq,15));
+                                else;
+                                    fprintf(fnamr,'%s - %s, ', 
+datestr(begseq,15),datestr(endseq,15));
+                                end;
+                             end;
+                            end;
+                        else; %not in sequence with previous
+                            if (errcode(kk(count+1),2)-errcode(kk(count),2)) < 
+(tmint*.0104166667/15+.001); %check if at begining of sequence
+                                begseq=errcode(kk(count),2); %start of sequence
+                                begcount=count;
+                            else;
+                                if (floor(errcode(kk(count),2))-
+floor(errcode(kk(count-1),2)))>=1;
+                                    fprintf(fnamr,'\r\n %s: %s, 
+',datestr(errcode(kk(count),2),6), 
+datestr(errcode(kk(count),2),15));
+                                else;
+                                    fprintf(fnamr,'%s, ', 
+datestr(errcode(kk(count),2),15));
+                                end;
+                            end;
+                        end;
+                    end;
+                end;
+            end;                   
+               
+       fclose(fnamr);

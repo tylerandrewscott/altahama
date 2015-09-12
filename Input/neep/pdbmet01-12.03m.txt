@@ -1,0 +1,740 @@
+Padilla Bay (PDB) NERR Meteorological Metadata 
+January – December 2003
+Latest Update: November 1, 2004
+
+I. Data Set & Research Descriptors
+
+
+1) Principal investigator & contact persons:
+
+Contact Persons: 	
+Dr. Douglas Bulthuis, Research Coordinator; 
+Email: bulthuis@padillabay.gov
+Robin Cottrell, Lab Manager;			
+Email: cottrell@padillabay.gov
+
+Address: 
+Padilla Bay NERR 
+10441 Bayview-Edison Road 
+Mount Vernon, WA 98273-9668 
+Phone: (360) 428-1558
+
+
+2) Entry verification 
+
+a) Data Input Procedures:
+
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each 
+instrument on the weather station to a Campbell Scientific CR10X datalogger.  From 
+January 1, 2003 through November 26,2003 the CDMO Data Logger Program 
+(PADBA_01.csi) was loaded into the CR10X and controlled the sensors and data 
+collection schedule (see 2b of the Entry Verification section for the data collection 
+schedule).  The data were downloaded once a month in the field to a Toshiba laptop 
+computer connected to the storage module using PC208W software or a Palm m515 
+using PConnect software, both are Campbell Scientific software. Once an entire month of 
+data were available, the CDMO Weather Data Management Program (WDMP) was used 
+to convert the files to an Access database.  This program was developed in Visual Basic 
+to interface with the NERRS data collection schedule (see 2b of the Entry Verification 
+section for the data collection schedule).  The WDMP automatically inputs and converts 
+the monthly raw data file into an Access Database.  There are three main steps the 
+WDMP performs.  First, it converts the comma delimited monthly raw data file into an 
+Access Database.  Secondly, it checks the data against a predetermined set of error 
+criteria (see Part C of this section).  Finally, it produces error and summary reports. All 
+anomalous data were investigated and are noted below in the "Anomalous Data/Suspect 
+Data" section, along with any corrections that were preformed.  The raw data and Access 
+tables are stored on the laptop, on the desktop SWMP computer in the lab and archived 
+on compact discs. 
+
+After November 26, 2003 at 12:00 the new CDMO data logger program 
+(NERR_4.CSI) was loaded into the CR10X and a larger storage module (SM4M) was 
+installed. Data are downloaded to a Toshiba laptop computer using PC208W. The files are 
+exported in a comma-delimited format (.DAT) and opened in Microsoft Excel for pre-
+processing with the EQWin format macro (EQWinFormat.xls) that was developed by the 
+CDMO to reformat the header columns, insert station codes, insert a date column 
+(mm/dd/yyyy), correct the time column format and reformat the data to the appropriate 
+number of decimal places. The pre-processed file is then ready to be copied into the 
+EQWin weather.eqi file where the data are QA/QC checked and archived in a database. 
+EQWin queries, reports and graphs are used to discover data set outliers (values which 
+fall outside the range that the instrument is designed to measure) and large changes in the 
+data. The raw data, Excel files and EQWin database are stored on the laptop, on the 
+desktop SWMP computer in the lab and archived on an external hard drive and compact 
+discs. 
+
+EQwin now replaces the WDMP as the NERR MET primary QA/QC program. 
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.
+
+Any anomalous data are investigated and noted in the Anomalous Data/Suspect Data 
+section. Any missing data are noted in the Missing Data section. The most common 
+errors/anomalies noted in 2003 are: 
+
+1. Air temp difference (over a 15 minute time period) is greater than 3.0 degrees C 
+2. Relative humidity difference (over a 15 minute time period) is greater than 25%
+3. Wind speed is less than 0.5 m/s 
+
+All errors were double checked with other data that could support such "anomalous" 
+weather changes and noted in Section 11.
+
+b) Data Collection Schedule
+
+i) Data are collected in the following formats:
+
+1) 15 minute data are instantaneous readings except for PAR and precipitation 
+data that are totalized from 5 second samples sorted by date and time. (Arrays 
+150 and 151). (EQWin array 15).
+2) Hourly averages (Arrays 101 and 102) are calculated from 5 second 
+samples sorted by date and time except for PAR and precipitation data that are 
+hourly totals calculated from 15 minute totals (Arrays 105 and 106). (EQWin 
+array 60).
+3) Daily average (arrays 241 and 242), maximum with time, and minimum 
+with time (arrays 243 and 244) are calculated from 5 second samples sorted 
+by date and time except for PAR and precipitation data which are 24 hour 
+totals calculated from hourly totals (arrays 245 and 246). (EQWin array 144).
+
+ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), Relative 
+Humidity (%), LiCor (PAR), Barometric Pressure (mb), Wind Speed (m/s), Wind 
+Direction, Rainfall (mm)
+
+iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+(%), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction, Wind Direction 
+Standard Deviation (using Yamartino's Algorithm)
+ 
+iv) Hourly total parameters: LiCor (PAR), Rainfall (mm)
+
+v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+(%), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction
+
+vi) Daily Total parameter: LiCor (PAR), Rainfall (mm)
+
+vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+Speed (m/s), Time, Battery Voltage, Time
+
+viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+Speed (m/s), Time, Battery Voltage, Time
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes (WDMP only)
+- Max and min temp recorded for the day (WDMP only)
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 50 C or less than –30 C (EQWin only)
+
+Relative Humidity:
+-Not changed by more than 25% from the previous 15 minutes (WDMP only)
+-Max and min humidity recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the   
+hour (WDMP only)
+-Sample not greater than 100% or less than 0% (EQWin only)
+
+Pressure:
+- Pressure not greater than 1040 mb or less than 980 mb (WDMP only)
+- Pressure changes greater than 5 mb per hour (WDMP only)
+- Maximum and minimum values recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 1060 mb or less than 900 mb (EQWin only)
+
+Wind Speed:
+- Wind speed not greater than 65 m/s or less than 0.5 m/s (WDMP only)
+-Wind speed not greater than 30 m/s (EQWin only)
+-Wind speed not less than 0.5 m/s for 12 consecutive hours (EQWin only)
+
+Wind Direction:
+- Wind direction not greater than 360 degrees or less than 0 degrees
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month (WDMP only)
+
+Photosynthetically Active Radiation (PAR):
+ -Sample not greater than 5000 mmol/m^2 or less than –0.5 mmol/m^2
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- No duplicate data		
+
+
+3) Research objectives:
+
+The principal objective is to record meteorological data at Padilla Bay for use in studies 
+investigating correlations between meteorological data and water quality data, biological 
+data, or other phenomenon in Padilla Bay and its watershed.
+
+
+4) Research methods:
+
+From January through November 26,2003 data were downloaded once a month from the 
+weather station because the storage module could only hold 49 days of data before the 
+datalogger began to overwrite data and the Weather Data Management Program could not 
+organize and sort raw data files that span more than two months. In November a new 
+program was uploaded to the CR10X that is formatted to be used with EQWin, which is a 
+database application that is replacing the Weather Data Management Program. 
+The sensors are visually inspected at this time for debris or damage except for the PAR 
+sensor that cannot be seen from the ground so is inspected less often. Due to the location of 
+the weather station in the middle of flat farm fields the sensors require very little cleaning. 
+The most common problem occurs seasonally from air borne seeds partially blocking the rain 
+gauge funnel. To mitigate this problem weeds near the site are cut before they set seed. 
+Sensors are sent in to Campbell Scientific to be calibrated according to their maintenance 
+schedule recommendations. On occasion very high or very low barometric pressures were 
+checked against weather data collected in Oak Harbor on Whidbey Island.
+
+
+5) Site location and character:
+
+Padilla Bay (48º 30' N; 122º 30' W) is a shallow embayment in northern Puget Sound 
+located in the greater Puget Sound-Georgia Basin estuary. It is an "orphaned" estuary in that 
+the Skagit River, which formed the delta mud flats of Padilla Bay, no longer enters the bay 
+directly. The tide flats are dominated by the eelgrass Zostera marina, which covers 
+approximately 3,000 ha. Zostera japonica, a recent invader to the region, now covers about 
+350 ha of the bay. Tides are mixed semi-diurnal with a mean range of 1.55m. Salinity varies 
+from about 15 to 30 PSU. Most of the land in the 9300 ha Padilla Bay watershed is 
+agricultural, and is drained by four sloughs which empty into the bay. Some freshwater from 
+the Skagit now enters Padilla Bay from the south through the Swinomish Channel which 
+connects Padilla Bay to Skagit Bay. Other major freshwater flows into this area of the Puget 
+Sound-Georgia Basin estuary from the Fraser and Nooksack Rivers to the north. 
+Padilla Bay is bordered on the east and south by flat, diked farmland; farther to the east are 
+foothills of the Cascade Range. March Point, on the western edge of the reserve, is the site of 
+two large oil refineries. To the north and west are the San Juan Islands of northern Puget 
+Sound. 
+
+The weather station is located near the southeast corner (122° 28' 4.81" W; 48° 27' 50.58" N) 
+of Padilla Bay on a 40 hectare demonstration farm that is owned by the Reserve. Flat fields 
+that are farmed for seasonal crops surround the site. Access is off of Bayview-Edison road 
+about 150 m down a gravel driveway.
+
+The sensors are mounted on a 3 m tower that is secured to a concrete pad as specified by the 
+manufacturer, Campbell Scientific. The relative humidity/temperature sensor is mounted 2 m 
+high and the wind and PAR sensors are at the top of the tower 3 m above ground level. The 
+tipping-bucket rain gauge is bolted to a slab of wood that is attached to the top of a 55 gallon 
+metal drum filled with water for stability, the top of the rain gauge is1.2 m above ground 
+level. Surrounding the site is a six foot high chain link fence for security. The weather station 
+is about 300 m from the diked edge of the bay and approximately 4 km SE of the Bayview 
+Channel YSI deployment site and about 4 km south of the Padilla Bay Research Reserve 
+laboratory. 
+
+
+6) Data collection period:
+January 1 at 00:00 to December 31 at 24:00.
+
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for 
+the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic courtesy 
+standards, the PI and NERR site where the data were collected will be contacted and 
+fully acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration.  The data set 
+enclosed within this package/transmission is only as good as the quality 
+assurance/quality control procedures outlined by the enclosed metadata reporting 
+statement.  The user bears all responsibility for its subsequent use/misuse in any 
+further analyses or comparisons.  The Federal government does not assume liability 
+to the Recipient or third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any way from 
+the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 Principal investigators and contact persons), 
+from the Data Manager at the Centralized Data Management Office (please see personnel 
+directory under the general information link on the CDMO home page) and online at the 
+CDMO home page http://cdmo.baruch.sc.edu/.  Data are available in text format.
+
+
+8) Associated researchers and projects:
+
+None
+
+
+II. Physical Structure Descriptors
+
+
+9) Sensor specifications, operating range, accuracy, date of last calibration: 
+
+LiCor Quantum Sensor 
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40°C to 65°C
+Sensitivity:  typically 5 µA per 1000 µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  December 2000
+
+Wind Sentry
+Model # 03001
+Wind Speed Range: 0-50 m/s; Threshold: 0.5 m/s 
+Wind Direction Range: 360° mechanical, 355° electrical (5° open)
+Date of last calibration: December 2000
+
+Temperature and Relative Humidity
+Model #:  HMP35C
+Operating Temperature:  -40°C to +60°C 
+Temperature Measurement Range: -40°C to +60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration:  December 2000
+New sensor (HMP45C, same specifications) installed: November 2003
+
+Vaisala Barometric Sensor
+Model # CS-105
+Operating Range:
+Pressure: 600-1060 mb
+Temperature:  -40°C to +60°C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20°C to +60°C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  December 2000
+New sensor installed: November 2003
+
+Fluid Isolation Technology Tipping Bucket Rain Gauge
+Model #:  RG-2000-C
+Range:  0.01 inch per tip
+Accuracy:  ±1.0% (at 14? per hour)
+Date of Last calibration: June 2001
+Field calibration check: November 2003
+
+Campbell Scientific CR10X Wiring Panel.  Has 128K of flash memory (EEPROM), in 
+which it stores the operating system and it's program (that it uses to run the weather 
+station).  Additionally, there are 128K of SRAM, which it uses to run the program and 
+store its measurements and for final data storage.  
+
+
+10) Coded variable indicator and variable code definitions:  
+Sampling station:	Sampling site code:	Station code:
+Padilla Bay Farm	PF			pdbpfmet	
+
+
+11) Anomalous Data/Suspect Data:
+
+January 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+
+150	3	3	145	Air temp difference from  3 ( 3) 145 ( 10.103) to  3 ( 3) 200 ( 6.8001) is greater than 
+3.0 degrees C
+102	8	8	1800	Wind speed is less than 0.5 m/s from  8 ( 8)  1800 to  9 ( 9)  700
+102	13	13	2300	Wind speed is less than 0.5 m/s from  13 ( 13)  2300 to  15 ( 15)  800
+102	15	15	1700	Wind speed is less than 0.5 m/s from  15 ( 15)  1700 to  16 ( 16)  1000
+102	19	19	1700	Wind speed is less than 0.5 m/s from  19 ( 19)  1700 to  20 ( 20)  500
+102	24	24	2100	Wind speed is less than 0.5 m/s from  24 ( 24)  2100 to  25 ( 25)  1300
+102	26	26	2000	Wind speed is less than 0.5 m/s from  26 ( 26)  2000 to  27 ( 27)  1000
+102	29	29	2400	Wind speed is less than 0.5 m/s from  29 ( 29)  2400 to  30 ( 30)  1300
+
+February 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+150	12	43	45	Air temp difference from  12 ( 43) 45 ( 4.5801) to  12 ( 43) 100 (-.05412) is greater 
+than 3.0 degrees C
+102	1	32	1700	Wind speed is less than 0.5 m/s from  1 ( 32)  1700 to  2 ( 33)  1000
+102	5	36	2100	Wind speed is less than 0.5 m/s from  5 ( 36)  2100 to  6 ( 37)  1200
+102	9	40	2000	Wind speed is less than 0.5 m/s from  9 ( 40)  2000 to  10 ( 41)  900
+102	10	41	2100	Wind speed is less than 0.5 m/s from  10 ( 41)  2100 to  11 ( 42)  900
+102	26	57	2000	Wind speed is less than 0.5 m/s from  26 ( 57)  2000 to  27 ( 58)  900
+101	5	36	2300	Air temp average in 1 hour data (-.40945) is greater than 15 minute maximum (-
+.45568) by at least 10% 
+
+March 2003
+
+None
+
+April 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+150	19	109	1545	Rel hum difference from  19 ( 109) 1545 ( 47.746) to  19 ( 109) 1600 ( 73.856) is 
+greater than 25%
+
+May 2003
+
+None
+
+June 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+150	4	155	500	Air temp difference from  4 ( 155) 500 ( 7.633) to  4 ( 155) 515 ( 11.252) is greater 
+than 3.0 degrees C
+150	5	156	2230	Air temp difference from  5 ( 156) 2230 ( 18.793) to  5 ( 156) 2245 ( 14.654) is 
+greater than 3.0 degrees C
+150	7	158	300	Air temp difference from  7 ( 158) 300 ( 13.218) to  7 ( 158) 315 ( 16.324) is greater 
+than 3.0 degrees C
+
+July 2003
+
+None
+
+August 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+150	5	217	1545	Air temp difference from  5 ( 217) 1545 ( 24.918) to  5 ( 217) 1600 ( 21.787) is 
+greater than 3.0 degrees C
+150	19	231	300	Air temp difference from  19 ( 231) 300 ( 10.853) to  19 ( 231) 315 ( 14.149) is 
+greater than 3.0 degrees C
+
+September 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+
+150	1	244	230	Air temp difference from  1 ( 244) 230 ( 6.8485) to  1 ( 244) 245 ( 13.109) is greater 
+than 3.0 degrees C
+150	26	269	530	Air temp difference from  26 ( 269) 530 ( 7.428) to  26 ( 269) 545 ( 10.766) is greater 
+than 3.0 degrees C
+
+
+October 2003
+
+The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+150	6	279	1315	Air temp difference from  6 ( 279) 1315 ( 20.254) to  6 ( 279) 1330 ( 15.884) is 
+greater than 3.0 degrees C
+150	31	304	400	Air temp difference from  31 ( 304) 400 ( .81028) to  31 ( 304) 415 (-2.193) is greater 
+than 3.0 degrees C
+150	6	279	1315	Rel hum difference from  6 ( 279) 1315 ( 49.533) to  6 ( 279) 1330 ( 76.903) is 
+greater than 25%
+
+November 2003
+
+ The following data appear to be correct:
+Array   Day     Julian	Time	Error message 
+102	1	305	1900	Wind speed is less than 0.5 m/s from  1 ( 305)  1900 to  3 ( 307)  1300
+
+
+December 2003
+
+None
+
+
+12) Deleted data:
+
+November 2003
+
+Sensors were rewired on November 5 to conform to a new program developed for the 
+weather station. Due to difficulties loading the new program there are no data for the following 
+sensors from 11/5 to 11/26 (bogus values were removed by the technician): temperature; 
+relative humidity; barometric pressure and wind direction. 
+Array   Day     Julian Time	Error message 
+101	5	309	1300	Technician changed 101 Array data from 5 ( 309) 1300 to  26 ( 330) 1100
+102	5	309	1300	Technician changed 102 Array from 5 ( 309) 1300 to  26 ( 330) 1100
+150	5	309	1230	Technician changed 150 Array data from  5 ( 309) 1230 to  12 ( 316) 1215
+150	12	316	1245	Technician changed 150 Array data from  12 ( 316) 1245 to  26 ( 330) 1130
+241	5	309	2400	Technician changed 241 Array from  5 ( 309) 2400 to  25 ( 329) 2400
+242	5	309	2400	Technician changed 242 Array from  5 ( 309) 2400 to  25 ( 329) 2400
+243	5	309	2400	Technician changed 243 Array data from  5 ( 309) 2400 to  25 ( 329) 2400
+244	5	309	2400	Technician changed 244 Array data from  5 ( 309) 2400 to  25 ( 329) 2400
+
+Precipitation data were removed for the following time periods because they were the result of 
+a calibration check of the rain gauge:	
+Array   Day     Julian 	Time	Error message 
+151	5	309	1145	Technician changed 151 Array at  5 ( 309) 1145
+151	6	310	1100	Technician changed 151 Array at  6 ( 310) 1100
+
+Precipitation data were removed for the following time periods because they occurred when 
+the rain gauge tipping bucket was being cleaned:
+Array   Day     Julian 	Time	Error message 
+151	12	316	1215	Technician changed 151 Array at  12 ( 316) 1215
+151	12	316	1245	Technician changed 151 Array at  12 ( 316) 1245
+151	20	324	1230	Technician changed 151 Array at  20 ( 324) 1230
+
+During the following period data are missing because the power was turned off for more than 
+15 minutes, therefore the following data were removed:
+Array   Day     Julian Time	Error message 
+101	12	316	1300	Missing 101 Array (Hourly data)
+102	12	316	1300	Missing 102 Array (Hourly data)
+241	12	316	2400	Missing 241 Array (Daily data)
+242	12	316	2400	Missing 242 Array (Daily data)
+243	12	316	2400	Missing 243 Array (Daily data)
+244	12	316	2400	Missing 244 Array (Daily data)	
+
+On 11/5 at about 13:45 and on 11/20 at about 12:15 the technician attempted to upload a new 
+program to the CR10X, because this erases the 5 second data for that day the one hour and 24 
+hour average data for those periods were deleted. 
+On November 26 a new program was uploaded to the CR10X so the hourly data (60) for 
+12:00 and the daily data (144) were deleted.
+
+
+13) Missing data:
+
+November 2003
+
+During the following period data are missing because the power was turned off for more than 
+15 minutes:
+Array   Day     Julian	Time	Error message 
+150	12	316	1230	Missing 150 Array (15 minute data)
+
+
+14) Other Remarks/notes
+
+During the first week of November there were very low temperatures associated with a cold
+weather event with the low temperatures in the negative temperature range. 
+
+Occasionally throughout the year, prior to the installation of the new NERR_4.CSI program 
+on 11/26/2003, wind direction values were recorded as small negative numbers (<-0.99). 
+According to Campbell Scientific newer programs correct this to zero so these values have 
+been changed to zero.
+
+PAR values:
+Prior to the installation of the new NERR_4.CSI program on 11/26/2003, all values less than 
+0 were altered in the raw data to read 0. Those values may have indicated an incorrect 
+multiplier, calibration problems or a sensor malfunction. Because they were changed in the 
+raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity values:
+Prior to the installation of the new NERR_4.CSI program on 11/26/2003, all values over 
+100% were altered in the raw data to read 100%. Those values may have indicated super 
+saturated air, calibration problems or a sensor malfunction. Because they were changed in the 
+raw data, we cannot confirm that they are all valid data points.
+
+
+Rainfall:
+
+January 
+
+   Day 		Daily Precip.
+
+
+      3         3.810
+      4         3.048
+      1         7.620
+     11          .254
+     12         2.700
+     13         4.826
+     14          .254
+     15          .254
+     19          .508
+     21         0.668
+     22         8.128
+     23         1.430
+     24          .762
+     25         3.048
+     26         7.366
+     27         1.270
+     29         7.366
+     30         6.604
+     31          .254
+
+   Monthly   90.2
+
+February 
+
+ Day	     Daily Precip.
+
+
+      1         1.270
+      2         1.016
+      3          .254
+      5          .254
+      7          .254
+      9          .254
+     12          .254
+     15         1.524
+     16         7.366
+     17          .508
+     18          .254
+     19         2.032
+     20         6.858
+     21         4.224
+     22          .254
+     28         3.810
+
+   Monthly   40.4
+
+March
+
+Day  		Daily Precip
+
+
+      2         4.318
+      3          .254
+      5         1.524
+      6         1.524
+      7          .254
+      8         3.302
+      9         3.556
+     10          .254
+     11         7.874
+     12         1.270
+     13         1.778
+     14          .508
+     15          .762
+     16         2.794
+     17          .762
+     19         1.016
+     20         3.810
+     21         1.270
+     22         4.064
+     23         1.778
+     24          .254
+     26         3.302
+     27         3.556
+     30         8.128
+     31         2.032
+
+   Monthly   59.9
+
+April
+
+ Day 		Daily Precip
+
+
+      1         3.048
+      2          .254
+      3         1.684
+      4         1.270
+      5         3.556
+      6         3.810
+      8         6.858
+      9          .254
+     12         1.016
+     13         2.540
+     15          .254
+     16         2.032
+     17         1.684
+     18          .762
+     19          .254
+     21         1.778
+     23         8.382
+     24         6.604
+
+   Monthly    66.0
+
+May
+
+  Day 		Daily Precip
+
+
+      3         2.540
+      4          .254
+      6          .508
+     14         1.778
+     15         1.778
+     16         3.556
+     18          .508
+     20          .508
+     21          .254
+     22         2.286
+     24         2.032
+     30         1.270
+     31          .254
+
+   Monthly 	  17.5
+
+June
+
+
+  Day 		Daily Precip
+
+
+      1          .254
+     10         1.016
+     13          .254
+     22          .254
+     30         3.048
+
+   Monthly 	  4.8
+
+August
+
+
+  Day 		Daily Precip
+
+
+      5          .508
+      6         2.032
+      9         2.794
+
+   Monthly 	   5.3
+
+September
+
+ Day 		Daily Precip
+
+
+      6          .762
+      7         5.080
+      8         1.524
+     10         4.572
+     11         1.524
+     14          .254
+     15         2.286
+     16         1.524
+     17          .254
+
+   Monthly 	  17.8
+
+October
+
+ Day 		Daily Precip
+
+
+      4          .254
+      6         1.176
+      7          .254
+     11          .508
+     12         9.398
+     15         3.302
+     16         0.066
+     17         6.096
+     18          .254
+     19         6.350
+     20         8.702
+     21         6.604
+     22         1.176
+     23         6.096
+     27          .254
+     28         8.128
+     29         5.080
+     30          .254
+
+   Monthly 	 24.0
+
+November
+
+ Day 		Daily Precip
+
+
+     10         3.020
+     13          .254
+     15         4.064
+     16         1.176
+     17         9.906
+     18         8.354
+     19         6.858
+     20          .254
+     21          .254
+     23         1.270
+     24          .508
+     25         4.572
+     26         1.524
+
+   Monthly 	 12.0
+
+

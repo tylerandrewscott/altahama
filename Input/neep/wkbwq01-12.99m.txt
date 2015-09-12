@@ -1,0 +1,813 @@
+Weeks Bay (WKB) NERR Water Quality  Metadata
+January - December 1999 
+Latest Update: November 27, 2000
+
+I. Data Set and Research Descriptors
+1. Principal Investigator(s) and Contact Persons:
+
+Mr. L. G. Adams, Manager, LG.Adams@noaa.gov
+Mr. Scott W. Phipps, Research Coordinator, Scott.Phipps@noaa.gov
+Mr. Bob McCormack, Interpretive Coordinator, Bob.McCormack@noaa.gov
+	
+Weeks Bay NERR
+11300 U.S. Hwy. 98		
+Fairhope, AL	36532			
+ph:  (334) 928-9792
+		
+2. Entry Verification:
+
+Data are uploaded to the PC from the Data loggers and graphs are produced using 
+EcoWatch software.  Graphs are evaluated for suspect data, as may result from 
+probe failure.  Notes are made of any unusual data, and sensors are 
+reconditioned as necessary.  Files are then exported as .csv files using 
+EcoWatch software.  The .csv files are imported into EXCEL, edited by removing 
+headers and footers, and saved as EXCEL files.  Data at the beginning and end of 
+each data record that were recorded when the instruments were out of the water 
+are deleted.  These data are identified by field notes that document the times 
+in and out of the water, and by unusual depth data (usually negative or near 
+zero).  The appropriate files are merged to form complete monthly data sets and 
+are saved as separate EXCEL files.  Data that are missing because the 
+instruments were not deployed (as during maintenance periods) are denoted by 
+periods (.).  These times are noted in section 11 (Missing Data) of this 
+document. Two types of post-calibration values are also used to determine 
+operational viability of the sensors while deployed.  One is obtained in the lab 
+by placing uncleaned probes in standard solutions and recording the values given 
+by the Data loggers.  The second type is obtained in the field using a newly 
+calibrated Data logger (referred to as a control sonde).  Data from this 
+instrument are recorded in the field at the time of the last scheduled reading 
+by the deployed Data loggers.  Both post-calibration values are reported in 
+section 12 (Other Remarks/Notes) of this document, and may be used to determine 
+the quality of the data recorded by the instruments (particularly DO) after two 
+weeks in the field.  Any erroneous data that are identified as being caused by 
+probe failures (as determined upon examination of the data plots, or by post-
+calibration values) are deleted and replaced with periods, and noted in section 
+11 (Missing Data) of this document.  Sensor readings that greatly deviate from 
+known values of standards after the two week deployment are not necessarily 
+believed to be a result of probe failure, however.  If biofouling is believed to 
+be the reason for poor agreement between the sensors and the standard values at 
+the end of a deployment, the data are retained and noted in section 10 (Data 
+Anomalies) of this document.  Symptoms of probe failures are extreme noise in 
+the record, unrealistically high or negative data, or noisy or negative readings 
+in standard solutions.  Examples of many such failures are given in the CDMO 
+Manual (Version 3.0). .  Finally, the CDMO macros (update version 11/96) are 
+then run on these new monthly files to identify missing times and/or dates, to 
+format the width and decimal places of columns, and to identify outliers and 
+other erroneous data. Scott Phipps is responsible for all data management.
+
+3. Research Objectives/Study Purpose:
+
+The Data loggers are programmed to record water quality parameters every 30 
+minutes.  Presently, two instruments are located in the Weeks Bay Reserve.  One 
+is located at the mouth of Fish River (provides ~73% of Weeks Bay's freshwater), 
+and the other is located at the eastern side of Weeks Bay, near the mouth.
+
+Beyond the mouth of Weeks Bay is a larger embayment referred to as Bon Secour 
+Bay.  Hydrographic profiles made in Bon Secour Bay in past years show that 
+bottom waters (which flow into Weeks Bay on a rising tide) are often anoxic in 
+summer and fall months.  Fish River water quality is also in question, as 
+largely non-point source nutrient loading to this river may be quite high during 
+periods of high flow in the river.  Therefore, it is of interest to determine if 
+poor water quality periodically observed in Weeks Bay is generated within the 
+bay proper, or is being washed in from Fish River or Bon Secour Bay with 
+changing tides.  By using salinity and water level as tracers, data from these 
+two sites may be used to infer the source and fate of low oxygen water.  
+
+There is a great deal of value in having a baseline data set for any management 
+site.  Changes or trends in any monitored parameters are readily apparent.  
+Weeks Bay is useful as a model for estuary function and this data is necessary 
+for the profile of the model. 
+
+4. Research Methods:
+
+Data loggers are moored on private docks.  At each dock, a PVC tube is attached 
+to a piling at the end of the dock using ratchets equipped with zinc disks (to 
+help reduce corrosion) and nylon straps.  A chain, attached to the cap of the 
+tube, is shackled to the bail of the Data logger.  Chains and tubes were cut to 
+a length that places the Data logger probes just below the bottom of the tube 
+and 0.5 m above the sediment when in place.  A nylon rope tied to the bottom of 
+the piling also runs through the tube and is attached to the bale of the Data 
+logger to serve as a safeguard against the loss of the Data loggers in the event 
+that the tube breaks away from the piling.
+
+The Data loggers are programmed to record temperature, specific conductivity, 
+salinity, dissolved oxygen (DO) percent saturation and concentration, pH, water 
+level and turbidity every 30 minutes central standard time (CST).  A newly 
+calibrated Data logger is also used to record the above parameters at the same 
+time the deployed Data logger takes its first reading to insure its initial 
+accuracy.  The instruments are usually serviced (instruments post-calibrated, 
+data uploaded, instruments cleaned and re-calibrated) every 14 days; however, 
+they are programmed to log for 30 days in the event they cannot be serviced on 
+schedule.  Just before deployment, window screening (1mm mesh size) is wrapped 
+once around the cage that protects the sensors, and secured with plastic cable 
+ties.  Window screening is also secured in the bottom of the cage with silicone 
+sealant.  This is done to reduce error in the data that may be due to larger 
+animals moving in and out of the cage during the deployment.  This does not, 
+however, preclude smaller animals such as barnacle and polychaete larvae from 
+entering the cage and settling on the sensors.
+
+Before the Data loggers are retrieved, a newly calibrated Data logger is lowered 
+to the depth of the deployed instrument, and readings are logged at the same 
+time that the deployed instruments are programmed to record.  Post-calibration 
+values are obtained in the lab by placing uncleaned probes in standard solutions 
+and recording the values given by the Data loggers.
+
+Uploading, cleaning, maintenance, and calibration are conducted as described in 
+the YSI Operating Manual (addendum 7/94, sections 3, 4, and 7).  Calibration 
+standards, required for pH turbidity and salinity, are purchased from a 
+scientific supply house.  Dissolved oxygen is calibrated using a calibration cup 
+filled with about 1/2 cm tap water, which creates a 100% water-saturated air 
+environment for the sensors when the sonde is placed in the cup.  The sensors 
+are allowed to equilibrate for at least 15 minutes in the cup before DO 
+(%Saturation) is calibrated.  Servicing the instruments results in a period of 
+about 3 to 4 hours of missing data every two weeks at each site. 
+
+5. Site Location and Character:
+
+Weeks Bay (30 23' N, 87 50' W) is a small, shallow, microtidal sub-estuary, 
+located on the eastern shore of Mobile Bay in the northern Gulf of Mexico.  It 
+is nearly diamond shaped, and its longitudinal axis (3.4 km long) runs nearly 
+north-south from the head, where the Fish River flows in, to the mouth, where 
+water is exchanged with Mobile Bay.  Its widest point (3.1 km) is located near 
+the center of the estuary, where the Magnolia River discharges into eastern side 
+of Weeks Bay.  Average depth is 1.4 m, although there are two areas where depths 
+are significantly greater.  The first is in the mouth of the bay, where the 
+average depth is 6 m; the second is about 200 m upstream of the mouth of the 
+Fish River, where the average depth is 3.5 m.  Tides are principally diurnal, 
+and have a mean range of 0.4 m.
+
+The Fish River drainage basin encompasses 14300 hectares and contributes 
+approximately 73% to the total incoming freshwater flow with the Magnolia River 
+supplying the rest.  Mean combined discharge is 9 cubic meters per second; 
+although freshets up to 4 times larger occur throughout the year.  These 
+characteristics result in a freshwater residence time of 13 days under average 
+discharge conditions, with a range from 0.5 to 100 days.  Salinity in Weeks Bay 
+varies substantially both temporally and spatially.  During periods of high flow 
+in the river, salinity in the bay may be fresh from the head to the mouth, 
+except in the deeper holes of the estuary that are not as easily flushed.  
+However, during periods of low flow in the river, wind velocity and tidal stage 
+are strong factors influencing salinity structure.  Salinity greater than 25 ppt 
+is rarely observed in Weeks Bay and is usually restricted to the southern 
+portion of the estuary near the mouth.
+
+Site FR (Fish River; 30 24.97'N, 87 49.37'W) is located at the mouth of Fish 
+River at a mean depth of about 2m.  Sediment type is sandy-silt, and there are 
+small patches of Vallisineria sp. growing near (but not directly under) the Data 
+logger.  Land use in the water shed is largely agricultural, with some 
+residential use.  Directly surrounding the site, land use is largely public and 
+semi-public.  Nutrient concentrations at this site are variable and may be quite 
+high, with nitrate and phosphate concentrations ranging from approximately 4-100 
+µM and <0.5 to 7.5 µM, respectively, over the previous 10 years (Alabama 
+Department of Environmental Management).  Over the past year, salinity ranged 
+from 0.0 to 21.3 ppt at this site.
+
+Site WB (Weeks Bay; 30 19.98' N, 87 48.54' W) is located near the south-eastern 
+shore of the Weeks Bay, about 0.5 miles from the mouth of the estuary.  Mean 
+water depth at this site is about 0.9 m; sediment type is sandy-silt.  Land use 
+around this site is almost exclusively residential, with agriculture occurring 
+inland.  Nutrient concentrations are much lower at this site than at site FR; 
+over the previous 10  years, nitrate and phosphate concentrations here ranged 
+from approximately 0.1 to 50 µM and 0.04 to 0.45 µM, respectively.  Salinity 
+ranged from approximately 0 to 24.3 ppt over the past year.  
+
+6. Data Collection Periods:
+
+The Data loggers were first deployed at both sites on 27 October 1995, and have 
+been continuously in service since then. Deployment dates and times for 1999 
+follow, starting with deployment 82.
+
+Site FR
+fr82: 12/29/98; 1230
+fr83: 1/14/99; 1330
+fr84: 1/28/99; 1130
+fr85: 2/25/99; 1430
+fr86: 3/11/99; 1330
+fr87: 3/26/99; 1130
+fr88: 4/14/99; 1600
+fr89: 4/22/99; 1100
+fr90: 5/6/99; 1230
+fr91: 5/18/99; 1230
+fr92: 6/3/99; 1300
+fr93: 6/16/99; 1430
+fr94: 7/1/99; 1700
+fr95: 7/9/99; 1730
+fr96: 7/29/99; 1700
+fr97: 8/13/99; 1000
+fr98: 8/26/99; 1300
+fr99: 9/9/99; 800
+fr100: 9/23/99; 1200
+fr101: 10/7/99; 1300
+fr102: 10/21/99; 1630
+fr103: 11/4/99; 1330
+fr104: 11/18/99; 1600
+fr105: 12/2/99; 1230
+fr106: 12/16/99; 1000
+fr107: 12/30/99; 1130
+
+Site WB
+wb82: 12/29/98; 1300
+wb83: 1/14/99; 1400
+wb84: 1/28/99; 1200
+wb85: 2/25/99; 1000
+wb86: 3/11/99; 930
+wb87: 3/26/99; 930
+wb88: 4/14/99; 1100
+wb89: 4/22/99; 1000
+wb90: 5/6/99; 1000
+wb91: 5/18/99; 930
+wb92: 6/3/99; 930
+wb93: 6/16/99; 1430
+wb94: 7/1/99; 1730
+wb95: 7/9/99; 1800
+wb96: 7/29/99; 1730
+wb97: 8/13/99; 1030
+wb98: 8/26/99; 1330
+wb99: 9/9/99; 1200
+wb100: 9/23/99; 1300
+wb101: 10/7/99; 1230
+wb102: 10/21/99; 1330
+wb103: 11/4/99; 1300
+wb104: 11/18/99; 1600
+wb105: 12/2/99; 1300
+wb106: 12/16/99; 830
+wb107: 12/30/99; 930
+
+7. Associated Researchers and Projects:
+
+Alabama Water Watch, Auburn University.  Establishing a citizen monitoring group 
+in the Weeks Bay Watershed, Weeks Bay Reserve established twenty-four sites for 
+monitoring water quality in the watershed by volunteers in May 1995.  These 
+sites are monitored once every two weeks for fecal coliform counts, secchi 
+depth, DO concentration, temperature, pH, alkalinity, hardness, and at some 
+sites salinity, nitrate, phosphate and fecal coliform levels..
+
+EPA Watershed Project: Alabama Department of Public Health.  Construction and 
+monitoring of alternative on-site treatment systems in Weeks Bay watershed.
+
+Geological Survey of Alabama.  Monitoring agricultural BMP's (chemical, 
+physical, and biological parameters) on Fish and Magnolia Rivers.
+
+Geological Survey of Alabama.  Weeks Bay Watershed Geographic Information System 
+(GIS) Database.  Pesticides and groundwater data-thematic map.
+
+United States Geological Survey.  Two USGS stage and one instream gauging 
+stations are maintained in the Weeks Bay watershed.
+
+Baldwin County Soil and Water Conservation District.  Weeks Bay pollution 
+prevention project: works with farmers, developers, and homebuilders to promote 
+BMP's within the watershed.
+
+Weeks Bay Management Plan. This effort completes the development of a management 
+plan for the Weeks Bay NERR.
+
+Pennock, J. R. and J. H. Cowan, Jr.  Nutrient enhanced production and trophic 
+dynamics in Weeks Bay, Alabama.  Funded by Mississippi-Alabama Sea Grant.
+
+Schotts, Kelly and J. R. Pennock. Non-Point Source Nutrients and their Role in 
+the Food Web of Weeks Bay. Conducting stable isotope analysis of food web 
+dynamics in Weeks Bay. Funded by NOAA/Sanctuaries and Reserves Division, 
+Graduate Fellowship Program.
+
+Lytle, J. S. and T. F. Lytle.  Field validation of pesticide impact in Weeks 
+Bay, Alabama.  Funded by US Environmental Protection Agency.
+
+Phipps, S. W.  Effect of the arsenic/phosphorus ratio on benthic microalgal 
+assemblage structure in an estuary.  Funded by NOAA/Sanctuaries and Reserves 
+Division, Graduate Fellowship Program.
+
+II. Physical Structure Descriptors
+
+8. Variable Sequence, Range of Measurements, Units, Resolution, and Accuracy:
+
+Date, 1-12,1-31,00-99, (Mo,Day,Yr), 1 month,1 day, 1 year, NA
+Time, 0-24,0-60,0-60, (Hr,Min, Sec), 1 hr 1 min 1 sec, NA
+Temperature (TEMP), -5-45, degrees C, 0.01, +/-0.15
+Specific Conductivity (SP COND), 0-100, mS/cm, 0.01, +/-0.5% of reading + 
+0.001mS/cm
+Salinity (SAL), 0-70, ppt, 0.01, +/-1.0% or 0.1ppt whichever is greater
+Dissolved oxygen % saturation (DO%), 0-200, % saturation, 0.1%, +/-2%@air sat.
+Dissolved oxygen % saturation (DO%), 200-500, % saturation, 0.1%, +/-6%@air sat.
+Dissolved oxygen concentration (DO MG), 0-20, mg/L, 0.01mg/l, +/-0.2mg/l
+Dissolved oxygen concentration (DO MG), 20-50, mg/L, 0.01 mg/l, +/-0.6 mg/l
+Depth, 0-9.1, m, 0.001m, +/-0.018m
+pH, 2-14, pH units, 0.01units, +/-0.2units
+Turbidity (TURB), 0-1000, NTU, 0.1NTU, +/-5% or 2 NTU whichever is greater 
+
+9. Coded Variable Indicator and Variable Code Definitions:
+	
+FR = Fish River, WB = Weeks Bay.  File definitions: deployment site, month, 
+year; for example WB0898 = Weeks Bay data from August of 1998.
+
+10. Data Anomalies:
+
+Specific information: 
+January 1999: At site FR, 1/14/99 - 1/28/99, DO record seems erratic, especially 
+during the beginning of deployment but post-calibration was normal, data left in 
+the record.
+At site FR, 1/28/99 11:30 – 1/31/99 23:30:00, all DO data were deleted for this 
+deployment, data was erratic and upon post calibration it was found that the 
+probe had a high charge and was not functioning properly.
+At site WB, 1/14/99 - 1/28/99, DO record seems normal but the probe read very 
+low on post-calibration, reason unknown, data left in the record.
+ 
+February 1999: At site FR, 2/01/99, 00:00:00 - 2/25/99, 09:00:00; DO went 
+negative for 2 days starting at 00:00:00 on 2/01/99 and then returned to normal.  
+Post calibration indicated that the probe 
+was functioning properly and it continued to function properly after re-
+calibration.  The reason for this malfunction is unknown but all DO data 
+following the negative readings for this deployment were deleted.
+At site FR, 2/25/99 16:00:00 - 3/11/99 08:30:00, unknown DO probe malfunction, 
+possibly damaged 
+membrane, all data for this deployment was deleted.
+At site WB, 1/28/99 - 2/25/99, Heavy biofouling, lots of barnacles.  On 2/20/99, 
+at 1:30:00, DO went abruptly negative and the record was erratic after that, 
+torn membrane suspected. DO data were deleted from 02/20/99 01:30:00 to 2/25/99 
+09:30:00. On 2/19/99, at 8:30:00, turbidity went off scale and continued very 
+erratic, readings were above probe's range, this may have been a probe 
+malfunction or barnacles, however, all turbidity data for this month were 
+deleted.
+ 
+March 1999:	At site FR, 3/11/99 13:00:00 - 3/26/99 07:30:00, DO data highly 
+erratic for entire 
+deployment, large air bubble found under the membrane, all DO data for this 
+deployment were deleted.  Turbidity data for this deployment were negative for 
+much of the deployment, reason unknown, also deleted.
+At site WB, 3/01/99 00:00:00- 3/15/99 07:00:00, Heavy biofouling, barnacle on DO 
+membrane causing very low post-calibration, however, when barnacle was removed 
+the probe read normal.  Turbidity data was very erratic for this deployment due 
+to biofouling and highly turbid conditions. All turbidity data were deleted for 
+this deployment.
+At site WB, 3/15/99, 07:30:00 to 3/26/99, 09:00:00, batteries failed and no more 
+data were recorded for this deployment.  
+		
+April 1999: At site FR, 3/26/99 - 4/14/99, battery voltage dropped abruptly at 
+21:00:00 on 4/2/99 and did not pick up again until 16:00:00 on 4/14/99. All data 
+between 4/2/99 21:00:00 and 4/14/99 15:30:00 were deleted. 
+At site WB, 4/09/99 - 4/14/99, heavy biofouling, turbidity very noisy and 
+becoming worse throughout the deployment, going off scale at 4/9/99, 0:00:00 and 
+all turbidity data at this time were deleted.
+At site WB, 4/14/99 - 4/22/99, Heavy biofouling, DO record low near end of 
+deployment due to biofouling, data were left in the record. 
+At site WB, 4/22/99 11:00:00 to 4/30/99 23:30:00, heavy biofouling due to 
+barnacles, DO membrane covered with barnacles resulting in low response, data 
+were left in the record. Turbidity probe malfunctioned and read 1700 
+continuously for the deployment, all turbidity data were deleted.
+
+May 1999: At site FR, 4/22/99 - 5/6/99, heavy biofouling due to barnacles, DO 
+membrane covered with barnacles resulting in low response, data were left in the 
+record.  Turbidity probe malfunctioned and read 1700 continuously for the 
+deployment, all turbidity data for this deployment were deleted from 5/18/99 
+12:30:00 to 5/31/99 23:30:00.
+At site WB, 5/11/99 00:00:00 to 5/06/99 09:30:00, heavy biofouling due to 
+barnacles, DO membrane covered with barnacles resulting in low response, data 
+were left in the record. Turbidity probe malfunctioned and read 1700 
+continuously for the deployment, all turbidity data were deleted.
+At site WB, 5/6/99 - 5/18/99, DO and pH readings low due to biofouling, data 
+left in the record.  On 5/12/99 at 17:00:00 turbidity spiked for a single 
+reading and then returned to normal, it is assumed that the wiper stopped over 
+the port; this single datum was deleted.
+At site WB, 5/18/99, 09:30:00 to 6/3/99, 09:00:00, sonde did not log in 
+unattended mode, reason unknown, probable error in programming, no data 
+recorded.
+	
+June 1999: At site FR, 6/1/00 00:00:00 - 6/13/99 08:30:00, turbidity probe 
+malfunctioned and read 1700 continuously for the deployment, all turbidity data 
+for this deployment were deleted.
+At site FR, 6/3/99 - 6/16/99, DO was negative frequently throughout 
+this deployment, apparently from a torn membrane, all DO data from this 
+deployment were deleted.
+At site FR, 6/16/99 - 6/30/99, Negative DO readings possibly due to leakage, all 
+DO data for this deployment were deleted.
+At site WB, 6/3/99 - 6/16/99, extreme biofouling, all data is suspect for this 
+deployment.  From 6/11/99, at 2:00:00 to 6/30/99 23:30:00, turbidity abruptly 
+went to twice its range, all turbidity data for this deployment were deleted.
+At site WB, 6/16/99 - 7/1/99, Extreme biofouling, all data are suspect for this 
+deployment.
+
+July 1999: At site FR, 7/1/99 - 7/9/99, some biofouling, data suspect towards 
+the end of the deployment, DO very erratic and several negative readings 
+possibly due to damaged membrane, all DO data for this deployment were deleted.
+At site FR, 7/30/99, 08:30:00 to 8/13/99, 10:00:00, batteries failed and no more 
+data were recorded for this deployment. 
+At site WB, 7/01/99, from 00:00:00 to 10:30:00, turbidity abruptly went to twice 
+its range, all turbidity data for this time were deleted 
+At site WB, 7/1/99 - 7/9/99, Heavy biofouling, all data suspect for this 
+deployment. DO went negative, reason unknown, all DO data for this deployment 
+were deleted.
+At site WB, 7/9/99 - 7/29/99, Heavy biofouling, all data suspect for this 
+deployment, salinity and specific conductivity were very low upon post-
+calibration as was DO.
+
+August 1999: At site FR, 8/26/99 - 9/9/99, heavy biofouling, all data suspect 
+for this deployment. Turbidity was erratic, spiking above the probes range 
+during this deployment, reason unknown, all turbidity data were deleted for this 
+deployment. DO data was low and erratic for the entire deployment, reason 
+unknown, possibly due to a damaged membrane. All DO data was deleted for this 
+deployment.
+At site WB, no turbidity probe was deployed for the month of August.
+At site WB, 7/29/99 - 8/11/99, Heavy biofouling, all data suspect for this 
+deployment.
+At site WB, 8/11/99, 11:00:00 to 8/13/99, 10:00:00, no sonde was deployed.
+At site WB, 8/13/99 10:30:00  - 8/31/99 23:30:00, DO reading negative 
+erratically throughout this deployment possibly due to leakage, all DO data for 
+this deployment were deleted.
+
+September 1999: At site FR, 9/9/99 - 9/23/99 and 9/23/99 - 10/7/99, heavy 
+biofouling, barnacles due to high salinity, all data suspect for this 
+deployment.
+At site FR, 8/26/99 - 9/9/99, heavy biofouling, all data suspect for this 
+deployment. Turbidity was erratic, spiking above the probes range during this 
+deployment, reason unknown, all turbidity data were deleted for this deployment.
+At site FR, 9/9/99 through end of month, no turbidity probe was deployed due to 
+electronic malfunction.
+At site WB, no turbidity probe deployed for the month of September.
+At site WB, 8/26/99 - 9/9/99, heavy biofouling, DO readings fluctuating wildly 
+from -20 to +200, leaking membrane suspected, All DO data deleted for this 
+deployment.
+At site WB, 9/9/99 - 9/23/99, heavy biofouling, all data from this deployment 
+should be suspect. 
+
+October 1999: At site FR, no turbidity probe was deployed for the month of 
+October.	
+At site FR, 9/23/99 - 10/7/99, heavy biofouling, barnacles due to high salinity, 
+all data suspect for this deployment.
+At site FR, 10/7/99 - 10/21/99, heavy biofouling, barnacles due to high 
+salinity, data suspect towards the end of this deployment.
+At site WB, no turbidity probe was deployed for the month of October.
+At site WB, 9/23/99 - 10/7/99 07:30:00, heavy biofouling, barnacles due to high 
+salinity, all data suspect for this deployment.
+At site WB, 10/7/99 12:30:00 - 10/21/99 07:30:00, heavy biofouling, barnacles 
+due to high salinity, data suspect towards the end of this deployment.
+At site WB, 10/22/99, 12:30:00; Sonde was removed and data were uploaded for 
+previous 24 h for the use of the Alabama Math/Science School students to compare 
+with their data taken from dataloggers that they built in their class. This was 
+not accomplished quickly enough to replace the sonde for the 12:30 measurement 
+and this datum is missing from the record.
+
+November 1999: At site FR, no turbidity probe was deployed for the month of 
+November.
+At site WB, no turbidity probe was deployed for the month of November.
+
+December 1999: At site FR, 12/2/99, 12:30:00 through the end of the month; depth 
+data was incorrect due to possible incorrect calibration, all depth data were 
+deleted.
+At site FR, no turbidity probe was deployed until 12/2/99 at 12:30:00.
+At site WB, no turbidity probe was deployed for the month of December.
+At site WB, 12/22/99 - 12/24/99; combination of full moon and winter solstice 
+produced very strong spring tides and lows were 0.25m below mean low tide.  
+Probes appeared to be out of the water or at the surface several times during 
+these 3 days.  Several depth outliers occurred, but this data were left in the 
+record. 
+
+General Information:
+We have deleted data only when technical difficulties resulted in questionable 
+data.  Therefore, we feel that extreme caution should be used when evaluating 
+these data (especially DO % sat. and concentration) because of problems with 
+biofouling.  Particularly during the summer months, biofouling can cause severe 
+degradation of the DO calibration over the two-week deployments.  At times the 
+DO deviation from calibration at the end of a deployment was greater than 80% 
+(in a water-saturated air environment).  We have made note of any data that we 
+consider suspect because of biofouling, based on post-calibration values 
+reported by the sensors.  We also have provided the data that were taken in the 
+field at the time of the final logging interval before retrieval of the deployed 
+Data loggers, as well as the post-calibration values (for details see section 4, 
+above) in section 12 (Other Remarks/Notes) below.  We encourage anyone using the 
+YSI data to first compare these data to these discrete Data logger readings and 
+post-calibration values on the given dates before evaluating the data.  If the 
+user desires, it is possible to use these data to correct the deployed YSI data 
+using regression analysis.  If not, then the user should delete compromised data 
+at his or her own discretion.
+
+11.	Missing Data:
+
+January 1999
+FR: 1/14/99 from 09:30:00 to 13:00:00, no data, servicing sonde.
+1/28/99 from 09:30:00 to 11:00:00, no data, servicing sonde.
+1/28/99 11:30:00 to 1/31/99 23:30:00 no data, see section 10, Data Anomalies.
+WB: 1/14/99 from 10:00:00 to 13:30:00, no data, servicing sonde.
+1/28/99 from 09:00:00 to 11:30:00, no data, servicing sonde.
+
+February 1999
+FR: 2/01/99 00:00:00 - 2/25/99, 09:00:00; no DO data, see section 10, Data 
+Anomalies.
+2/25/99 from 09:30:00 to 15:30:00, no data, servicing sonde.
+02/25/99 16:00:00 to 02/28/99 23:30: no DO data, see section 10, Data Anomalies.
+WB: 2/19/99 08:30:00 - 2/28/99, 23:30:00; no turbidity data, see section 10, 
+Data Anomalies.
+2/20/99, 01:30:00 - 2/25/99, 09:30:00; no DO data, see section 10, Data 
+Anomalies.
+
+March 1999
+FR: 03/01/99 00:00:00 to 03/11/99 08:30:00: no Do data, see section 10, Data 
+Anomalies.
+3/11/99 from 09:00:00 to 12:30:00, no data, servicing sonde.
+3/11/99, 13:00:00 - 3/26/99, 07:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+3/11/99, 13:00:00 - 3/26/99, 07:30:00; no DO data, see section 10, Data 
+Anomalies.
+3/26/99 from 08:00:00 to 11:00:00, no data, servicing sonde.
+WB: 3/1/99, 00:00:00 - 3/15/99, 07:00:00; no turbidity data, see section 10, 
+Data Anomalies.
+3/15/99, 07:30:00 - 3/26/99, 09:00:00; no data, battery failure.
+	
+April 1999
+FR: 4/2/99,21:00:00 - 4/14/99, 15:30:00; no data, see section 10, Data 
+Anomalies.
+4/22/99 from 08:30:00 to 10:30:00, no data, servicing sonde.
+WB: 4/9/99, 00:00:00 - 4/14/99, 11:00:00; no turbidity data, see section 10, 
+Data Anomalies.
+4/22/99 from 09:00:00 to 10:30:00, no data, servicing sonde.
+4/22/99, 11:00:00 - 4/30/99, 23:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+
+May 1999
+FR: 5/6/99 from 09:30:00 to 12:00:00, no data, servicing sonde.
+5/18/99 from 09:00:00 to 12:00:00, no data, servicing sonde.
+5/18/99, 12:30:00 - 5/31/99, 23:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+WB: 5/1/99, 00:00:00 - 5/6/99, 09:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+5/12/99, 17:00:00, no turbidity datum for this time period, see section 10, Data 
+Anomalies.
+5/18/99,09:30:00 - 5/31/99, 23:30:00; no data, sonde did not log for this 
+deployment, reason unknown.
+
+June 1999
+FR: 6/1/99, 00:00:00 - 6/3/99, 08:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+6/3/99 from 09:00:00 to 12:30:00, no data, servicing sonde.
+6/3/99, 13:00:00 - 6/30/99, 23:30:00; no DO data, see section 10, Data 
+Anomalies.
+6/16/99 from 11:00:00 to 14:00:00, no data, servicing sonde.
+WB: 6/1/99, 00:00:00 - 6/3/99, 09:00:00; no data, sonde did not log for this 
+deployment, reason unknown.
+6/11/99, 02:00:00 - 6/30/99, 23:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+6/16/99 from 10:30:00 to 14:00:00, no data, servicing sonde.
+		
+July 1999
+FR: 7/1/99 from 00:00:00 to 10:30:00, no DO data, see section 10, Data 
+Anomalies.
+7/1/99 from 11:00:00 to 16:30:00, no data, servicing sonde.
+7/1/99, 17:00:00 - 7/9/99, 10:30:00; no DO data, see section 10, Data Anomalies. 
+7/9/99 from 11:00:00 to 17:00:00, no data, servicing sonde.
+7/29/99 from 11:30:00 to 16:30:00, no data, servicing sonde.
+7/30/99, 08:30:00 - 7/31/99, 23:30:00; no data, battery failure.
+WB: 7/1/99 from 00:00:00 to 10:00:00, no turbidity data, see section 10, Data 
+Anomalies. 
+7/1/99 from 10:30:00 to 17:00:00, no data, servicing sonde.
+7/1/99, 17:30:00 - 7/9/99, 10:00:00; no DO data, see section 10, Data Anomalies.
+7/1/99, 17:30:00 - 7/31/99, 23:30:00; no turbidity data, no probe deployed.
+7/9/99 from 10:30:00 to 17:30:00, no data, servicing sonde.
+7/29/99 from 11:00:00 to 17:00:00, no data, servicing sonde.
+
+August 1999
+FR: 8/1/99, 00:00:00 - 8/13/99, 09:30:00; no data, battery failure.
+8/26/99 from 09:30:00 to 12:30:00, no data, servicing sonde.
+8/26/99 13:00:00 - 8/31/99 23:30:00; no DO data, see section 10, Data Anomalies.
+8/26/99, 13:00:00 - 8/31/99, 23:30:00; no turbidity data, see section 10, Data 
+Anomalies.
+WB: No turbidity data for August, no probe deployed.
+8/11/99, 11:00:00 - 8/13/99, 10:00:00; no data, sonde not deployed.
+8/13/99, 10:30:00 - 8/26/99, 08:30:00; no DO data, see section 10, Data 
+Anomalies
+8/26/99 from 09:00:00 to 13:00:00, no data, servicing sonde.
+8/26/99,13:30:00 - 8/31/99, 23:30:00; no DO data, see section 10, Data 
+Anomalies.
+
+September 1999
+FR: 9/1/99, 00:00:00 - 9/9/99, 07:30:00; no turbidity data and no DO data, see 
+section 10, Data Anomalies.
+9/9/99, 08:00:00 - 9/30/98, 23:30:00; no turbidity data, no probe deployed.
+9/23/99 from 09:00:00 to 11:30:00, no data, servicing sonde.
+WB: No turbidity data for the month of September, no probe deployed.
+9/1/99, 00:00:00 - 9/9/99, 07:00:00; no DO data, see section 10, Data Anomalies.
+9/9/99 from 07:30:00 to 11:30:00, no data, servicing sonde.
+9/23/99 from 08:30:00 to 12:30:00, no data, servicing sonde.
+
+October 1999
+FR: No turbidity data for the month of October, no probe deployed.
+10/7/99 from 09:00:00 to 12:30:00, no data, servicing sonde.
+10/21/99 from 08:30:00 to 14:00:00, no data, servicing sonde.
+WB: No turbidity data for the month of October, no probe deployed
+10/7/99 from 08:00:00 to 12:00:00, no data, servicing sonde.
+10/21/99 from 08:00:00 to 13:00:00, no data, servicing sonde.
+10/22/99 12:30:00, no data, sonde was removed from the water, data were being 
+uploaded for a special project involving the Alabama Math Science Academy.
+
+November 1999
+FR: No turbidity data for the month of November, no probe deployed.
+11/04/99 from 09:00:00 to 13:00:00, no data, servicing sonde.
+11/18/99 from 11:30:00 to 16:00:00, no data, servicing sonde.
+WB: No turbidity data for the month of November, no probe deployed.
+11/04/99 from 08:30:00 to 12:30:00, no data, servicing sonde.
+11/18/99 from 11:00:00 to 15:30:00, no data, servicing sonde.
+
+December 1999
+FR: 12/1/99, 00:00:00 to 12/2/99, 7:30:00, no turbidity data, no probe deployed.
+12/2/99 from 8:00:00 to 12:00:00, no data, servicing sonde.
+12/2/99, 12:30:00 through the end of the month, no depth data, see section 10, 
+Data Anomolies 
+12/16/99 from 9:00:00 to 9:30:00, no data, servicing sonde.
+12/30/99 from 9:30:00 to 11:00:00, no data, servicing sonde.
+WB: No turbidity data for the month of December, no probe deployed.
+12/2/99 from 8:30:00 to 12:30:00, no data, servicing sonde.
+
+
+12. Other Remarks/Notes:
+
+Control Sonde End of Deployment Readings:
+Site   Date         Time(CST)   Temp( C)    Salinity(ppt)    DO(%sat)     
+DO(mg/l)   Depth (m)        pH
+FR    01/14/99   09:30:00        ----                   ----                   -
+---                   ----       ----                  ----
+         01/28/99   09:00:00        ----                   ----                   
+----                   ----       ----                  ----
+         02/25/99   09:00:00	14.16               1.8                   95.7                 
+9.73     1.6                  7.57
+         03/11/99   08:30:00	17.70               0.6                   94.9                 
+8.88     1.6                  6.60
+         03/26/99   07:30:00        18.20               1.2                   
+88.7                 8.30     1.4                  6.66
+         04/14/99   11:30:00        ----                   ----                  
+----                    ----       ----                  ----
+         04/22/99   08:00:00        21.95               1.1                   
+92.7                 8.05     1.8                  7.42
+         05/06/99   09:00:00        23.60               3.2                   
+89.7                 7.47     2.2                  7.67
+         05/18/99   08:30:00        25.20               2.8                   
+80.0                 6.47     1.9                  7.51
+         06/03/99   08:30:00        26.70               2.3                   
+93.2                 7.29     2.0                  8.01
+         06/16/99   10:30:00        28.64               4.8                   
+61.3                 4.59     2.1                  7.15
+         07/01/99   10:30:00        28.20               4.6                   
+67.4                 5.14     2.1                  7.61
+         07/09/99   10:30:00        ----                   ----                   
+----                   ----      ----                   ----
+         07/29/99   11:00:00        ----                   ----                   
+----                   ----      ----                   ----
+         08/11/99   10:00:00        27.18               0.5                  
+61.2                  4.84     2.2                  6.37
+         08/26/99   09:00:00        ----                   ----                  
+----                    ----      ----                   ----
+         09/09/99   08:00:00        29.79               12.1                 
+90.1                 6.37     2.0                  7.90
+         09/23/99   09:00:00        23.50               17.2                 
+76.6                 5.90     1.9                  8.02
+         10/07/99   08:30:00        24.20               17.5                 
+103.1               7.82     2.0                  8.15
+         10/21/99   08:00:00        20.61               17.6                 
+86.3                 6.99     1.9                  8.02
+         11/04/99   08:30:00        17.77               16.5                 
+97.9                 8.44     1.6                  7.97
+         11/18/99   11:00:00        19.07               17.5                
+117.7                9.51     1.6                  8.33
+         12/02/99   07:30:00        15.79               17.1                
+121.3               10.85    1.5                  8.28
+         12/16/99   08:30:00        ----                   ----                  
+----                    ----      ----                   ----
+         12/30/99   10:00:00        ----                   ----                  
+----                    ----      ----                   ----
+WB   01/14/99   09:30:00        ----                   ----                  ---
+-                    ----      ----                   ----
+         01/28/99   08:30:00        ----                   ----                  
+----                    ----      ----                   ----
+         02/25/99   09:30:00        13.41               3.0                   
+117.1               12.02   0.3                   9.21
+         03/15/99   09:00:00        17.45               2.7                   
+117.3               11.11   0.2                   7.61
+         03/26/99   08:00:00        16.55               4.1                   
+118.5               11.40   0.1                   8.16
+         04/14/99   11:00:00        23.74               3.6                   
+117.0               9.68     0.4                   8.91
+         04/22/99   08:30:00        22.13               4.3                   
+90.4                 7.71     0.5                   7.98
+         05/06/99   09:30:00        23.93               9.0                   
+87.0                 6.90     0.9                   7.87
+         05/18/99   09:00:00        26.80               6.6                   
+93.1                 7.60     0.8                   8.37
+         06/03/99   09:00:00        27.90               11.1                 
+95.2                 7.01     0.7                   8.14
+         06/16/99   10:00:00        29.60               11.2                 
+78.8                 5.63     0.8                   8.18
+         07/01/99   10:00:00        28.77               10.6                 
+69.8                 5.07     0.7                   7.92
+         07/09/99   10:00:00        ----                   ----                  
+----                   ----        ----                   ----
+         07/29/99   10:30:00        ----                   ----                  
+----                   ----        ----                   ----
+         08/11/99   10:30:00       29.00               12.0                 88.4                 
+6.35      0.8                   8.80
+         08/26/99   08:30:00        ----                   ----                  
+----                   ----        ----                   ----
+         09/09/99   07:00:00        29.06               17.4                 
+91.0                 6.34     0.6                   8.07
+         09/23/99   08:00:00        22.20               22.0                 
+86.5                 6.62     0.5                   8.05
+         10/07/99   07:30:00        23.48               21.4                 
+88.0                 6.61     0.6                   8.03
+         10/21/99   08:00:00        18.41               19.5                 
+91.8                 7.67     0.4                   7.16
+         11/04/99   09:00:00        13.24               14.9                 
+97.9                 9.37     0.2                   7.95
+         11/18/99   10:30:00        15.03               19.4                
+130.2                11.66   0.3                   8.52
+         12/02/99   08:00:00        12.48               16.8                
+114.1                11.14   0.2                   8.29
+         12/16/99   08:00:00        ----                   ----                   
+----                   ----       ----                  ----
+         12/30/99   09:00:00        ----                   ----                   
+----                   ----       ----                  ----
+    
+---- : Control Sonde was not available to record data 
+
+End of Deployment Post-calibration Readings in Standard Solutions:
+Site    Date      Conductivity (mS)      Salinity (ppt)   DO (Air Sat.)   DO 
+(mg/l)        pH
+                              (Std:  30.1)            (Std: 18.6)      (Std: 
+100%)    (Std: Variable) (Std: 7)
+FR   01/14/99              29.73               18.4                 126.8               
+11.49               6.37
+        01/28/99              30.26               18.8                 91.4                  
+8.48                6.75
+        02/25/99              28.20               17.4                 114.0               
+10.32               6.73
+        03/11/99              22.98               13.9                 46.6                 
+4.23                 6.12
+        03/26/99              29.64               18.4                 41.0                 
+3.69                 6.14
+        04/14/99              30.31               18.8                 88.7                 
+7.65                 7.04
+        04/22/99              29.17               18.0                 99.6                 
+8.798               6.97
+        05/06/99              28.50               17.6                 76.8                 
+6.52                 7.10
+        05/18/99              29.08               18.0                 ND                  
+ND                  6.82
+        06/03/99              29.51               18.3                 71.6                 
+5.66                 6.97
+        06/16/99              29.07               18.0                 -17.8               
+-1.53                6.98
+        07/01/99              31.16               19.4                 101.7               
+8.58                 7.17
+        07/09/99              29.38               18.2                 99.7                 
+8.45                 7.31
+        07/29/99              30.00               18.6                 98.9                 
+8.31                 7.11
+        08/11/99              31.30               19.5                 93.1                 
+7.67                 7.16
+        08/26/99              30.50               18.9                 94.6                 
+8.07                 7.75
+        09/09/99              29.86               18.5                 42.4                 
+3.58                 6.76
+        09/23/99              27.19               16.7                 78.6                 
+6.67                 7.41
+        10/07/99              30.04               18.6                 86.3                 
+7.50                 7.27
+        10/21/99              29.45               18.2                 55.8                 
+4.52                 7.46
+        11/04/99              29.37               18.2                 85.6                 
+7.34                 7.30
+        11/18/99              30.23               18.8                104.3                
+9.29                 6.95
+        12/02/99              28.58               17.7                 99.3                 
+8.23                 7.64
+        12/29/98              29.94               18.6		122.7	
+	11.22		7.14
+        01/14/99		29.73		18.4		126.8		11.49		6.37
+WB  01/14/99		29.74		18.4		48.5		4.21		5.97	
+	
+        01/28/99		29.72		18.4		41.2		3.80		7.27
+        02/25/99		4.70		2.5		33.7		2.89		7.56
+        03/15/99		28.58		17.7		10.9		0.98		7.41
+        03/26/99		25.64		16.7		-16.2		-1.52		6.96
+        04/14/99		22.29		13.4		46.4		4.08		7.03
+        04/22/99		27.98		17.3		45.0		3.89		6.50
+        05/06/99		25.82		15.8		25.8		2.16		6.98
+        05/18/99		28.75		17.4		24.1		1.93		5.61
+        06/03/99		----		----		----		----		----
+        06/16/99		2.73		17.1		41.9		3.56		6.86
+        07/01/99		29.05		18.0		19.8		1.69		7.13
+        07/09/99		29.73		18.4		46.3		3.98		5.54
+        07/29/99		1.90		1.0		19.8		1.68		7.14
+        08/11/99		29.09		18.0		49.8		4.20		7.00
+        08/26/99		30.28		18.8		26.0		2.21		7.10
+        09/09/99		29.80		18.5		62.0		5.25		7.19
+        09/23/99		29.58		18.3		12.6		1.09		6.97
+        10/07/99		30.37		18.9		82.8		7.08		6.98
+        10/21/99		30.20		18.7		102.2		9.29		7.16
+        11/04/99		29.46		18.3		75.9		6.89		7.29	
+	
+        11/18/99		29.26		18.1		76.7		6.87		7.26
+        12/02/99		29.42		18.2		99.3		8.71		6.69
+        12/29/98		30.08		18.7		-15.3		-1.37		7.04
+        01/14/99		29.74		18.4		48.5		4.21		5.97	
+
+ND : no probe was deployed
+---- : sonde was not operational at end of deployment
+
+
+
+
+
+

@@ -1,0 +1,1126 @@
+Rookery Bay (RKB) NERR Water Quality Metadata
+Covering Period of January - December, 1999
+Metadata File Name: RKB01-12.99m
+Latest Update: Feb. 12, 2000
+
+
+I.  Dataset and Research Descriptors
+
+1. Principal investigator & contact person.
+            Principal Investigator:
+Dr. Michael Shirley, Resource Management Coordinator	
+Rookery Bay NERR					
+300 Tower Rd.						
+Naples, FL 34113						
+Tel:  941-417-6310						
+Fax: 941-417-6315					
+Email:  michael.shirley@dep.state.fl.us		
+
+Contact:
+Heather E. Stoffel, Water Quality Specialist
+Rookery Bay NERR	
+300 Tower Rd.
+Naples, FL 34113
+Tel:  941-417-6310
+Fax: 941-417-6315
+Email:  stoffelh@hotmail.com
+
+2. Entry verification.
+	The data contained herein were directly downloaded from the YSI 6000 data 
+sonde to the PC6000 software on a DOS-based 486 computer.  The data were graphed 
+and printed using the PC6000 software and then exported to Microsoft Excel.  
+Charting and plotting routines within PC6000 and Excel were used to verify the 
+accuracy of the data.  In addition, the Excel 5.0 Macros provided by the CDMO 
+were used to format and check the dataset for outliers beyond what the probes 
+measure.  Outliers and erroneous data were checked manually using the protocol 
+defined in Appendix B of CDMO Operations Manual (v. 3.0).  Heather Stoffel was 
+responsible for all data management.  
+
+3. Research objectives.
+	Henderson Creek, the system site #1 is located, is Rookery Bay's principal 
+water conduit feeding the estuary.  Most of the Henderson Creek system is under 
+public ownership, though historically much of its watershed was privately owned 
+and developed.  Additional components include a water control structure 
+maintained by the South Florida Water Management District.  The structure is a 
+gated arcflow spillway with a vertical sluice gate and flap gate.  There are two 
+additional gated weirs on the east and west-side ditches downstream of the main 
+weir. This structure prevents salt water intrusion and controls the water level  
+to prevent  continuous drainage for the Henderson Creek basin. Consequently, 
+Henderson Creek represents an altered system and serves as a management model 
+for water control issues in southwest Florida.  Altered timing and quality of 
+freshwater has the potential to disrupt the biological processes of the Rookery 
+Bay estuarine system.  The long term water quality monitoring began in early 
+November 1996. Site  # 1 is located high within the estuary where salinities 
+fluctuate drastically through tidal, seasonal, and management influences. In 
+contrast to the Henderson Creek system, the Blackwater River system is a 
+relatively undisturbed system. The Blackwater River watershed is primarily under 
+state ownership with lessor amounts of agricultural influences.  The objective 
+of moving the second site to the Blackwater River system is to compare an 
+altered estuarine system (Henderson Creek) with a relatively undisturbed 
+estuarine system (Blackwater River).  The second site was established in late 
+February 1998 in the upper portion of the river (to be comparable to site # 1) 
+and will remain the second site until February 2000.	These water quality 
+stations are providing essential information to guide restoration efforts.  
+Grant funding through NMFS has been obtained to retrofit the Henderson Creek 
+weir.  Water releases strategies based on the water quality information will be 
+implemented to allow for a more natural freshwater inflow pattern.
+
+4. Research methods.
+	Prior to deployment, the sondes are calibrated for pH, specific 
+conductivity, turbidity and dissolved oxygen following the procedures outlined 
+in the YSI Operating and Service Manual.  A two point calibration is used for pH 
+(Fisher buffers 7& 10) and turbidity (0 & 100 NTU from Advanced Polymer Systems, 
+Inc.).  A 0.5M KCL solution (YSI conductivity calibrator) is used to calibrate 
+specific conductivity.  Dissolved oxygen is calibrated by % saturation.  Sondes 
+are deployed for up to 2 weeks time. After approximately 2 weeks time the 
+fouling on the probes becomes critical.  Sampling period is set for 30-minute 
+intervals (readings are made every 30 minutes on the half-hour).  The following 
+physical water quality parameters are recorded: temperature, specific 
+conductivity, salinity, dissolved oxygen (mg/l), dissolved oxygen (% 
+saturation), depth, pH and turbidity.  A post-deployment calibration is done 
+after the sonde is taken out of the water using the same calibration protocol.   
+NOTE:  All data within this metadata file and the original data files are 
+reported in Eastern Standard Time (EST).
+	Both sondes are housed within 4-inch diameter, PVC pipes, which are 
+attached to "aid-to-navigation" pilings.  The pipes are oriented vertically and 
+are attached tightly with stainless steel hose clamps.  The bottom portion of 
+the pipe is open and sits 6 inches above the bottom.  Probe readings are 
+measured approximately 6-8 inches above the substrate.  Numerous 1-inch diameter 
+holes are drilled circumferentially around the lowest 8 inches of the pipe to 
+ensure adequate water flow around the probes.  Sondes are hung by plastic coated 
+steel chain inside the pipes; the chain is bolted to the piling.  A 'kryptonite' 
+bicycle lock is used to secure the sonde inside the housing.
+	The sondes are further protected from fouling by restricting the openings 
+within the sonde guard with plastic screening. The plastic mesh (with 0.5-cm 
+square holes) was attached on the inside of the guards' circumference and on the 
+inside of the guards' lowermost disk. 
+
+
+5. Site location & character.
+Site #1- Upper Henderson (UH):
+	The "Upper Henderson" site, site #1, is located on the upper region of 
+Henderson Creek.  The piling (manatee caution sign) is located right of center 
+(while facing downstream) of the creek channel, approximately 50 meters 
+downstream of State Hwy 951's crossing of Henderson Creek.  Facing the channel, 
+this segment of Henderson Creek has RKBNERR headquarters on the left bank and a 
+mangrove restoration site on the right.  A residential area, consisting of 
+trailer parks, is located immediately upstream.  These may be delivering point-
+source pollutants.
+	The substrate within the channel is composed of organic-rich silt layer 
+over fine grain sand.  The bottom is riddled with road debris and rocks from old 
+seawalls.  Henderson Creek has tidal influences along with a fresh water control 
+structure in its headwaters controlling its salinity range. The tide range for 
+Henderson Creek varies between 0.5 and 1.5 meters.
+	UTM GPS coordinates (using UTM zone 17, datum NAD-27):
+		E429855.23
+		N2881137.96
+	Lat/Long:	
+		26° 02' 56.46587" N
+		81° 42'   4.21595" W
+	 
+
+Site #2- Upper Blackwater River (BR):	
+	The " Upper Blackwater River" sonde, site #2, is located upstream at a 
+juncture which leads to a small bay named Mud Bay.  The sonde is affixed to 
+navigational marker #47 within the river channel.
+		The substrate within the channel is a mixture of sand and silt with 
+little to no organics.  Mature red mangrove forests dominate the banks of the 
+river.  Upstream influences consist of Collier-Semonile State Parks boat basin 
+and upstream agricultural fields, adjacent to Blackwater River's main feeder 
+canal, SR 41 canal.  Salinities range from 0-30ppt on average and fluctuate 
+daily with the tides and seasonal rainfall.UTM GPS coordinates (using UTM zone 
+17, datum NAD-27):
+		E440798
+		N2872324
+	Lat/Long:
+		25° 58.067' N
+		81° 35.450' W
+
+	To reference these sites on a nautical chart, see NOAA chart #11430 - 
+"Lostmans River to Wiggens Pass".
+
+6. Data collection period.
+	Between January & December 1999, 26 sonde deployments occurred at Upper 
+Henderson Creek; 22 deployments occurred at Blackwater River.
+ 
+Site #1 -- Upper Henderson Creek:
+	1st Reading:						Last Reading: 
+	12/23/98  14:00  					01/06/99  09:00
+	01/06/99  09:30					01/20/99  08:00
+	01/20/99  08:30					02/03/99  08:00
+	02/03/99  08:30					02/17/99  08:30
+	02/17/99  09:00					03/03/99  14:30
+	03/03/99  15:05					03/17/99  12:35**timing off
+	03/17/99  13:07					03/31/99  13:07**timing off
+	03/31/99  14:00					04/14/99  12:00
+	04/14/99  12:30					04/28/99  09:00
+	04/28/99  09:30					05/12/99  08:30
+	05/12/99  09:00					05/26/99  12:30
+	05/26/99  13:00					06/09/99  08:00
+	06/09/99  08:30					06/22/99  06:00
+	06/22/99  06:30					07/07/99  09:30**mis-timed
+	07/07/99  10:30					07/23/99  09:30
+	07/23/99  10:00					08/04/99  07:00**mis-timed
+	08/04/99  08:00					08/18/99  09:30
+	08/18/99  10:00					09/01/99  11:00
+	09/01/99  11:30					09/16/99  13:00
+	09/16/99  13:30					09/29/99  08:00
+	09/29/99  08:30					10/13/99  10:30
+	10/13/99  11:00					10/27/99  07:00
+	10/27/99  07:30					11/10/99  14:30
+	11/10/99  15:00					11/19/99  12:30
+	11/19/99  13:00					12/08/99  11:30
+	12/08/99  12:00					12/22/99  13:00
+	12/22/99  13:30					01/05/00  12:00
+
+Site #2 - Blackwater River:
+	1st Reading:						Last Reading: 
+	12/23/98  12:00					01/06/99  12:00
+	01/06/99  12:30					01/20/99  11:30
+	01/20/99  12:00					02/03/99  11:00
+	02/03/99  11:30					02/17/99  12:30
+	02/17/99  13:00					03/03/99  10:30
+	03/03/99  11:02					03/17/99  11:32**timing off
+	03/17/99  11:55					03/31/99  12:25**timing off
+	03/31/99  13:00					04/14/99  10:30
+	04/14/99  11:00					04/28/99  10:00
+	04/28/99  10:30					05/12/99  09:00**mis-timed
+	05/12/99  10:00					05/26/99  12:00
+	05/26/99  12:30					06/09/99  08:00
+	06/09/99  08:48					06/23/99  11:18**timing off
+	06/23/99  12:00					07/07/99  09:00
+	07/07/99  09:30					07/23/99  08:30
+	07/23/99  09:00					08/04/99  10:00**mis-timed
+	08/04/99  11:00					08/18/99  08:30
+	08/18/99  09:00					09/01/99  08:00
+	09/01/99  08:30					09/16/99  10:30**mis-data
+	09/16/99  11:00					09/29/99  09:30
+	09/29/99  10:00					10/13/99  14:00
+	10/13/99  14:30					10/27/99  09:00
+	10/27/99  09:30					11/10/99  12:00
+	11/10/99  12:30					11/19/99  11:00
+	11/19/99  11:30					12/08/99  13:30
+	12/08/99  14:00					12/22/99  12:00**mis-timed
+	12/22/99  13:00					01/05/00  11:30
+
+7. Associated researchers & projects.
+	 RKBNERR also has a YSI 600XL, using telemetry data collection, and 
+YSI6600 monitoring station recording the same physical water quality parameters 
+(minus turbidity) at both sites downstream from the Upper Henderson Creek and 
+the Blackwater River sites.  These units are deployed, serviced and calibrated 
+using the same protocols, except for the sampling interval is hourly.  These 
+data are also available upon request.
+
+
+II.  Physical Structure Descriptors
+
+8. Sensor specifications, range of measurements, units, resolution, and 
+accuracy.
+Variable name:	Range of measurements (units):	Resolution:	Accuracy:
+Date	1-12,1-31,00-99  (Mo,Day,Yr)	1 mo, 1 day, 1yr	NA
+Time	0-24,0-60,0-60  (Hr,Min,Sec)	1 hr, 1 min, 1 s	NA
+Temp	-5 to 45°C	0.01°C	+/- 0.15°C
+SpCond	0 - 100 mS/cm	0.01 mS/cm           +/- 0.5% of reading 	
+			 + 0.001 mS/cm
+Sal	0 - 70 ppt	0.01 ppt	+/- 1.0% of reading 	
+			or 0.1 ppt , which-	
+			ever is greater
+DO %	0 - 200 % air saturation	0.1% @air saturation.	+/- 2% @air 
+saturation.
+DO %	200 - 500 % air saturation	0.1% @air saturation.	+/- 6% @air 
+saturation.
+DO mg/L	0 - 20 mg/L	0.01 mg/L	+/- 0.2 mg/L
+DO mg/L	20 - 50 mg/L	0.01 mg/L	+/- 0.6 mg/L
+Depth	0 - 9.1 m	0.001 m	+/- 0.018 m
+pH	2 - 14 units	0.01 units	+/- 0.2 units
+Turbidity	0 - 1000 NTU	0.1 NTU	+/- 5% of reading or 
+			2 NTU, whichever 	
+			is greater
+
+9. Coded variable code definitions.
+
+	#1 UH  = Upper Henderson Creek
+	
+	#2 BR  = Blackwater River
+
+
+
+10. Data anomalies.
+
+Site #1: Upper Henderson Creek, January 1999:
+	No data anomalies occurred
+
+Site #1: Upper Henderson Creek, February 1999:
+	No data anomalies occurred
+
+Site #1: Upper Henderson Creek, March 1999:
+(a)	Turbidity. Turbidity values were slightly negative throughout the month 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset. However, upon conversion to txt. Files, slight negatives were 
+converted to zero's.
+
+(b) 	Turbidity.  Many out of range (negative or >1000 NTU) anomalous values 
+were recorded (possibly due to the wiper not working properly) and will be 
+deleted for the following dates/times:
+		03/17/99   13:07, 13:37
+		03/18/99   09:37, 22:07, 23:07
+		03/19/99   01:07-02:07, 03:07, 04:07- 03/25/99 18:37
+		03/25/99   22:37, 23:37- 03/31/99 13:07 
+
+
+Site #1: Upper Henderson Creek, April 1999:
+(a)	Turbidity.   Many values were slightly negative (possibly due to 
+calibration error with 100 NTU standard), but will remain in the dataset. 
+Date
+Time
+
+Date
+Time
+04/14/99
+13:30:00
+
+04/19/99
+10:00:00
+04/14/99
+15:30:00
+
+04/20/99
+00:30:00
+04/14/99
+17:00:00
+
+04/20/99
+05:00:00
+04/14/99
+19:30:00
+
+04/20/99
+11:00:00
+04/14/99
+20:00:00
+
+04/20/99
+13:30:00
+04/15/99
+11:30:00
+
+04/20/99
+19:30:00
+04/15/99
+12:30:00
+
+04/20/99
+20:00:00
+04/15/99
+20:30:00
+
+04/20/99
+22:00:00
+04/15/99
+21:00:00
+
+04/20/99
+23:00:00
+04/15/99
+22:30:00
+
+04/21/99
+00:30:00
+04/15/99
+23:00:00
+
+04/21/99
+01:00:00
+04/15/99
+23:30:00
+
+04/23/99
+08:30:00
+04/16/99
+07:30:00
+
+04/23/99
+15:30:00
+04/16/99
+08:00:00
+
+04/23/99
+19:00:00
+04/16/99
+11:30:00
+
+04/23/99
+19:30:00
+04/16/99
+13:30:00
+
+04/23/99
+23:00:00
+04/16/99
+20:00:00
+
+04/24/99
+01:30:00
+04/16/99
+20:30:00
+
+04/24/99
+03:30:00
+04/16/99
+21:00:00
+
+04/24/99
+04:00:00
+04/16/99
+21:30:00
+
+04/24/99
+05:00:00
+04/16/99
+22:00:00
+
+04/24/99
+05:30:00
+04/17/99
+07:30:00
+
+04/24/99
+09:00:00
+04/17/99
+10:00:00
+
+04/24/99
+10:00:00
+04/17/99
+23:30:00
+
+04/24/99
+14:30:00
+04/18/99
+20:30:00
+
+04/24/99
+15:00:00
+04/18/99
+21:00:00
+
+04/24/99
+15:30:00
+04/19/99
+01:00:00
+
+04/24/99
+17:00:00
+04/19/99
+03:30:00
+
+04/24/99
+18:00:00
+04/19/99
+08:30:00
+
+04/25/99
+02:00:00
+04/19/99
+09:30:00
+
+04/25/99
+03:30:00
+
+Site #1: Upper Henderson Creek, May 1999:
+(a) Turbidity.   Many values were slightly negative (possibly due to calibration 
+error with 100 NTU standard), but will remain in the dataset. 
+Date
+Time
+05/12/99
+09:30:00
+05/12/99
+10:00:00
+05/12/99
+17:00:00
+05/12/99
+17:30:00
+05/12/99
+19:30:00
+05/14/99
+09:00:00
+05/14/99
+16:30:00
+05/14/99
+21:30:00
+05/15/99
+06:30:00
+05/15/99
+09:00:00
+05/15/99
+14:30:00
+05/16/99
+06:30:00
+05/16/99
+09:30:00
+05/16/99
+10:00:00
+05/17/99
+07:30:00
+
+(b) Turbidity.  A few out of range (negative or >1000 NTU) anomalous values were 
+recorded and will be deleted for the following dates/times:
+05/13/99  05:30	1613.1 NTU
+05/13/99  06:00	1636.8 NTU
+05/22/99  20:00	1469.8 NTU
+
+Site #1: Upper Henderson Creek, June 1999:
+(a) Turbidity. Many (but not all) turbidity values were slightly negative 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset for the following dates/times:
+          		06/09/99 02:30 through 06/17/99 16:30
+
+(b) Turbidity.  A few out of range (negative or >1000 NTU) anomalous values 
+were recorded and will be deleted for the following dates/times:
+	06/16/99  22:30  1002.2  NTU
+	06/19/99  18:00  1163.4  NTU
+
+Site #1: Upper Henderson Creek, July 1999:
+(a) Turbidity.  Turbidity values are questionable due to fouling of the sensor, 
+but will remain in the dataset for the following dates and times:
+ 		07/13/99  03:30 through 07/23/99  09:30
+
+(b) Turbidity.  A few out of range (negative or >1000 NTU) anomalous values 
+were recorded and will be deleted for the following dates/times:
+	07/16/99   00:30-02:30, 03:30-04:30, 06:00, 07:30-08:00
+			11:00, 12:30-14:00, 23:00-23:30
+	07/17/99   00:30
+
+Site #1: Upper Henderson Creek, August 1999:
+(a) Turbidity. Many turbidity values were slightly negative throughout the month 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset. However, upon conversion to txt. Files, slight negatives were 
+converted to zero's.
+
+(b) Turbidity.  Turbidity values are questionable due to fouling of the sensor, 
+but will remain in the dataset for the following dates and times:
+08/10/99  22:00 through 08/18/99  09:30
+
+Site #1: Upper Henderson Creek, September 1999:
+(a)	Turbidity. Many turbidity values were slightly negative (possibly due to 
+calibration error with 100 NTU standard), but will remain in the dataset. 
+Date
+Time
+
+Date
+Time
+9/2/99
+15:30:00
+
+9/30/99
+5:00:00
+9/2/99
+21:30:00
+
+9/30/99
+5:30:00
+9/2/99
+23:30:00
+
+9/30/99
+6:00:00
+9/3/99
+1:00:00
+
+9/30/99
+6:30:00
+9/3/99
+2:00:00
+
+9/30/99
+7:00:00
+9/3/99
+2:30:00
+
+9/30/99
+8:00:00
+9/3/99
+3:00:00
+
+9/30/99
+9:00:00
+9/29/99
+8:30:00
+
+9/30/99
+11:00:00
+9/29/99
+9:00:00
+
+9/30/99
+11:30:00
+9/29/99
+9:30:00
+
+9/30/99
+12:00:00
+9/29/99
+11:30:00
+
+9/30/99
+13:00:00
+9/29/99
+12:30:00
+
+9/30/99
+13:30:00
+9/29/99
+13:00:00
+
+9/30/99
+14:00:00
+9/29/99
+13:30:00
+
+9/30/99
+14:30:00
+9/29/99
+14:00:00
+
+9/30/99
+15:00:00
+9/29/99
+14:30:00
+
+9/30/99
+15:30:00
+9/29/99
+15:00:00
+
+9/30/99
+16:00:00
+9/29/99
+15:30:00
+
+9/30/99
+16:30:00
+9/29/99
+17:30:00
+
+9/30/99
+17:00:00
+9/29/99
+18:30:00
+
+9/30/99
+17:30:00
+9/29/99
+23:30:00
+
+9/30/99
+18:00:00
+9/30/99
+0:00:00
+
+9/30/99
+18:30:00
+9/30/99
+0:30:00
+
+9/30/99
+19:00:00
+9/30/99
+1:30:00
+
+9/30/99
+19:30:00
+9/30/99
+2:00:00
+
+9/30/99
+20:30:00
+9/30/99
+2:30:00
+
+9/30/99
+21:00:00
+9/30/99
+3:00:00
+
+9/30/99
+21:30:00
+9/30/99
+3:30:00
+
+9/30/99
+22:00:00
+9/30/99
+4:00:00
+
+9/30/99
+22:30:00
+9/30/99
+4:30:00
+
+9/30/99
+23:00:00
+
+
+
+9/30/99
+23:30:00
+
+(b) Turbidity. Anomalous turbidity >1000 NTU 
+Date
+Time
+
+Date
+Time
+9/1/99
+11:30:00
+
+9/1/99
+21:00:00
+9/1/99
+12:00:00
+
+9/1/99
+21:30:00
+9/1/99
+12:30:00
+
+9/1/99
+22:00:00
+9/1/99
+13:00:00
+
+9/1/99
+22:30:00
+9/1/99
+13:30:00
+
+9/1/99
+23:00:00
+9/1/99
+14:00:00
+
+9/1/99
+23:30:00
+9/1/99
+14:30:00
+
+9/2/99
+0:00:00
+9/1/99
+15:00:00
+
+9/2/99
+0:30:00
+9/1/99
+15:30:00
+
+9/2/99
+1:00:00
+9/1/99
+16:00:00
+
+9/2/99
+1:30:00
+9/1/99
+16:30:00
+
+9/2/99
+2:00:00
+9/1/99
+17:00:00
+
+9/2/99
+2:30:00
+9/1/99
+17:30:00
+
+9/2/99
+3:00:00
+9/1/99
+18:00:00
+
+9/2/99
+3:30:00
+9/1/99
+18:30:00
+
+9/2/99
+4:00:00
+9/1/99
+19:00:00
+
+9/2/99
+4:30:00
+9/1/99
+19:30:00
+
+9/2/99
+5:00:00
+9/1/99
+20:00:00
+
+9/2/99
+5:30:00
+9/1/99
+20:30:00
+
+9/2/99
+6:00:00
+
+Site #1: Upper Henderson Creek, October 1999:
+(a)	Turbidity. Many (but not all) turbidity values were slightly negative 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset for the following dates/times:
+		10/01/99  00:00 through 10/08/99  02:00  
+		10/13/99  13:00 through  10/21/99 23:00
+
+	
+Site #1: Upper Henderson Creek, November 1999:
+(a) Turbidity.  Turbidity values are questionable due to fouling of the sensor, 
+but will remain in the dataset for the following dates and times:
+			11/01/99  19:00 through 11/10/99  15:00
+
+(b) Turbidity.  A few out of range (negative or >1000 NTU) anomalous values 
+were recorded and will be deleted for the following dates/times:
+	11/06/99  12:00:00  1100.2 NTU
+	11/06/99  12:30:00  1229.3 NTU
+
+(c) pH.  pH value is questionable due to possible reading during deployment, but 
+will remain in the dataset for the following date and time:
+ 			11/10/99  15:00
+
+(d)	Turbidity. Many (but not all) turbidity values were slightly negative 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset for the following dates/times:
+		11/20/99  04:30 through 11/30/99  10:00  
+
+
+Site #1: Upper Henderson Creek, December 1999:
+(a) Turbidity.  Turbidity values are questionable due to fouling of the 
+sensor, but will remain in the dataset for the following dates and times:
+			12/03/99  04:30 through 12/03/99  11:30
+
+(b)	Turbidity. Many (but not all) turbidity values were slightly negative 
+(possibly due to calibration error with 100 NTU standard), but will remain in 
+the dataset for the following dates/times:
+		12/08/99  13:00 through 12/22/99  18:30  
+
+(c)	Dissolved Oxygen.  Dissolved Oxygen readings are questionable due to 
+fouling of the sensor, but will remain in the dataset for the following 
+dates and times:
+			12/22/99  12:30 through 12/31/99  23:30
+
+Site #2: Blackwater River, January 1999:
+(a) Turbidity.  One out of range (>1000 NTU) turbidity anomaly occurred and will 
+be deleted for the following dates/times:
+01/02/99  12:30    1387.6 NTU 
+
+Site #2: Blackwater River, February 1999:
+(a) Turbidity.  One out of range (>1000NTU) turbidity anomaly occurred and will 
+be deleted for the following dates/times:
+02/23/99  19:00    1797.8 NTU
+
+Site #2: Blackwater River, March 1999:
+(a) Turbidity. One out of range (>1000NTU) turbidity anomaly occurred and will 
+be deleted for the following dates/times:
+03/26/99  17:25    1860.7 NTU
+
+Site #2: Blackwater River, April 1999:
+	No data anomalies occurred
+
+Site #2: Blackwater River, May 1999:
+(a)	Turbidity.   Many (but not all) values were slightly negative (possibly 
+due to calibration error with 100 NTU standard), but will remain in the dataset. 
+Date	      Time		      Date	      Time
+5/12/99	15:00:00		5/15/99	07:30:00
+5/12/99	15:30:00		5/15/99	08:00:00
+5/13/99	01:30:00		5/15/99	09:30:00
+5/13/99	02:30:00		5/15/99	10:30:00
+5/13/99	03:30:00		5/15/99	11:00:00
+5/13/99	04:00:00		5/15/99	11:30:00
+5/13/99	06:00:00		5/15/99	12:00:00
+5/13/99	15:30:00		5/15/99	17:00:00
+5/13/99	16:30:00		5/15/99	18:00:00
+5/14/99	04:30:00		5/16/99	05:30:00
+5/14/99	05:30:00		5/16/99	07:00:00
+5/14/99	06:00:00		5/16/99	08:00:00
+5/14/99	07:30:00		5/18/99	13:30:00
+5/14/99	08:30:00		5/18/99	14:00:00
+5/14/99	09:00:00		5/20/99	09:30:00
+5/14/99	10:00:00		5/20/99	12:00:00
+5/14/99	11:00:00		5/20/99	12:30:00
+5/14/99	11:30:00		5/20/99	13:00:00
+5/15/99	06:30:00
+
+(b) 	Data logger did not take a reading for 05/12/99 09:30:00 due to 
+redeployment			
+
+Site #2: Blackwater River, June 1999:
+(a) Turbidity. Many of turbidity values were slightly negative throughout the 
+month (possibly due to calibration error with 100 NTU standard), but will remain 
+in the dataset. However, upon conversion to txt. Files, slight negatives were 
+converted to zero's.
+
+(b) Turbidity. One out of range (>1000NTU) turbidity anomaly occurred and will  
+be deleted for the following date/time:
+	06/21/99  22:18     1928.1 NTU
+
+Site #2: Blackwater River, July 1999:
+(a) Turbidity.  Turbidity values are questionable due to fouling of the 
+sensor, but will remain in the dataset for the following dates and times:
+		07/11/99  23:30 through 07/23/99  09:00
+
+(b)  Turbidity.  Turbidity values were slightly negative (possibly due to 
+calibration error with 100 NTU standard), and will be deleted  from the dataset 
+for the following dates/times:
+           07/24/99  01:30:00  -0.1 NTU
+           07/26/99  03:00:00  -0.2 NTU
+           07/27/99  03:30:00  -0.2 NTU
+
+Site #2: Blackwater River, August 1999:
+(a)  Turbidity.  One turbidity value (08/04/99 23:00:00) was  slightly 
+negative(possibly due to calibration error with 100 NTU standard), and will 
+remain in the dataset. However, upon conversion to txt. Files, slight negatives 
+were converted to zero's.
+
+(b)	Sampler was out of water when 08/04/99 10:30:00 sample occurred- No Data.
+
+Site #2: Blackwater River, September 1999:
+(a) Turbidity. Many (but not all) turbidity values were slightly negative 
+(possibly due to calibration error with 100 NTU standard), but will remain 
+in the dataset for the following dates/times:
+		09/16/99  00:00 through  09/29/99 23:00
+
+(b) Data was entered into an excel spreadsheet by hand from download printouts 
+because files were deleted after downloading for the following dates and 
+times:
+			09/16/99  11:00 through 09/29/99  9:30
+
+(c)  All variables are missing due to downloading errors for the following  
+dates/times:
+09/01/99  08:30 through 09/16/99  10:30
+
+Site #2: Blackwater River, October 1999:
+(a)	Dissolved Oxygen.  Dissolved Oxygen readings are questionable due to 
+fouling of the sensor, but will remain in the dataset for the following 
+dates and times:
+			10/08/99  14:30 through 10/13/99  14:00
+
+(b)	Turbidity. Many (but not all) turbidity values were slightly negative 
+throughout the month (possibly due to calibration error with 100 NTU standard), 
+but will remain in the dataset.  However, upon conversion to txt. Files, slight 
+negatives were converted to zero's.
+
+(c) Turbidity.  Turbidity values are questionable due to fouling of the 
+sensor, but will remain in the dataset for the following dates and times:
+10/22/99  21:30 through 10/27/99  09:00
+
+(d) Turbidity.  Two out of range (>1000 NTU) turbidity anomaly occurred and will 
+be deleted for the following dates/times:
+10/12/99  18:30:00  1880.7 NTU
+10/25/99  15:00:00  1745.0 NTU
+
+Site #2: Blackwater River, November 1999:
+(a)	Turbidity. Many (but not all) turbidity values were slightly negative 
+throughout the month(possibly due to calibration error with 100 NTU standard), 
+but will remain in t he dataset. However, upon conversion to txt. Files, slight 
+negatives were converted to zero's
+	Except for:  11/17/99  09:00 and 17:00
+				
+
+(b)	Turbidity.  Two out of range (>1000NTU) turbidity anomaly occurred and 
+will be deleted for the following dates/times:
+11/07/99  15:00:00  1461.7 NTU
+11/07/99  15:30:00  1035.6 NTU
+
+(c)	Turbidity.  Turbidity values are questionable due to possible calibration 
+error, but will remain in the dataset for the following dates and times:
+			11/10/99  12:30 through 11/19/99  11:00
+
+Site #2: Blackwater River, December 1999:
+(a) Turbidity.  Several out of range (>1000 NTU) turbidity anomalies occurred 
+(possibly due to wiper not working properly) and will be deleted for the 
+following dates/times:
+12/08/99  14:30 through 12/22/99  12:00 
+
+
+11. Missing data.
+
+Site #1: Upper Henderson Creek, January 1999:
+No data missing.
+
+Site #1: Upper Henderson Creek, February 1999:
+No data missing.
+
+Site #1: Upper Henderson Creek, March 1999:
+(a)  Turbidity.  Many out of range (negative or >1000 NTU) anomalous values were 
+recorded (possibly due to the wiper not working properly) and were deleted for 
+the following dates/times:
+		03/17/99   03:07, 13:37
+		03/18/99   09:37, 22:07, 23:07
+		03/19/99   01:07-02:07, 03:07, 04:07- 03/25/99 18:37
+		03/25/99   22:37, 23:37- 03/31/99 13:07
+
+(b) Time missed during deployment.  Servicing housing.
+ 		03/31/99  13:30
+
+Site #1: Upper Henderson Creek, April 1999:
+	No data missing.
+
+Site #1: Upper Henderson Creek, May 1999:
+(a) Turbidity.  A few out of range (negative or >1000 NTU) anomalous values 
+were recorded and were deleted for the following dates/times:
+05/13/99  05:30	1613.1 NTU
+05/13/99  06:00	1636.8 NTU
+05/22/99  20:00	1469.8 NTU
+
+Site #1: Upper Henderson Creek, June 1999:
+(a) Turbidity.  Two out of range (negative or >1000 NTU) anomalous values were 
+recorded and were deleted for the following dates/times:
+		06/16/99  22:30  1002.2  NTU
+		06/19/99  18:00  1163.4  NTU
+
+Site #1: Upper Henderson Creek, July 1999:
+(a) Turbidity.  A few out of range(negative or >1000 NTU) anomalous values 
+were recorded and were deleted for the following dates/times:
+		07/16/99 00:30 through 07/17/99  00:30
+
+(b) Time missed during deployment.  Servicing housing.
+07/07/99  10:00
+
+Site #1: Upper Henderson Creek, August 1999:
+(a)  Time missed during deployment. Servicing housing.
+08/04/99  07:30
+
+Site #1: Upper Henderson Creek, September 1999:
+	No data missing.
+
+Site #1: Upper Henderson Creek, October 1999:
+	No data missing.
+
+Site #1: Upper Henderson Creek, November 1999:
+(a) Turbidity.  Two out of range (negative or >1000 NTU) anomalous values were 
+recorded and were deleted for the following dates/times:
+	11/06/99  12:00:00  1100.2 NTU
+	11/06/99  12:30:00  1229.3 NTU
+
+Site #1: Upper Henderson Creek, December 1999:
+No data missing.
+
+Site #2: Blackwater River, January 1999:
+(a) Turbidity.  One out of range (>1000NTU) turbidity anomaly occurred and was 
+deleted for the following dates/times:
+01/02/99  12:30    1387.6 NTU
+
+Site #2: Blackwater River, February 1999:
+(a) Turbidity.  One out of range (>1000NTU) turbidity anomaly occurred and was 
+deleted for the following dates/times:
+02/23/99  19:00    1797.8 NTU
+
+Site #2: Blackwater River, March 1999:
+(a)  Turbidity. One out of range (>1000NTU) turbidity anomaly occurred and was 
+deleted for the following dates/times:
+03/26/99  17:25    1860.7 NTU
+
+Site #2: Blackwater River, April 1999:
+No data missing.
+
+Site #2: Blackwater River, May 1999:
+	05/12/99 09:30  Sampler did not take a reading during redeployment of new 
+sampler.
+
+Site #2: Blackwater River, June 1999:
+(a) Turbidity. One out of range (>1000NTU) turbidity anomaly occurred and was 
+deleted for the following date/time:
+	06/21/99  22:18     1928.1 NTU
+
+(b)	No Data Taken 06/23/99 11:30- switching data logger
+
+Site #2: Blackwater River, July 1999:
+No data missing.	
+
+Site #2: Blackwater River, August 1999:
+(a) 08/04/99 10:30  Sampler was out of water at time of sample.
+	
+Site #2: Blackwater River, September 1999:
+(a)  All variables are missing due to downloading errors for the following 
+dates/times:
+09/01/99  08:30 through 09/16/99  10:30
+
+Site #2: Blackwater River, October 1999:
+(a) Turbidity.  Two out of range (>1000NTU) turbidity anomalous values occurred 
+and were deleted for the following dates/times:
+10/12/99  18:30:00  1880.7 NTU
+10/25/99  15:00:00  1745.0 NTU
+
+Site #2: Blackwater River, November 1999:
+(a) Turbidity.  Two out of range(>1000NTU) turbidity anomalous values occurred 
+and were deleted for the following dates/times:
+11/07/99  15:00:00  1461.7 NTU
+11/07/99  15:30:00  1035.6 NTU
+
+Site #2: Blackwater River, December 1999:
+(a)  Turbidity.  A few out of range (negative or >1000 NTU) anomalous values 
+were recorded(probably due to wiper not working properly) and will be deleted 
+for the following dates/times:
+		12/08/99 14:30 through 12/22/99  12:00
+
+(b) Time missed during deployment.  Servicing housing.
+12/22/99  12:30
+
+
+12. Other remarks/notes.
+
+Site #1: Upper Henderson Creek, March 1999:
+ (a)	Data recorded at this site was logged at 00:05 and 00:35 minutes after 
+every hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		03/03/99  15:05 through 03/17/99  12:35
+
+Site #1: Upper Henderson Creek, March 1999:
+ (a)	Data recorded at this site was logged at 00:07 and 00:37 minutes after 
+every hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		03/17/99  13:07 through 03/31/99  13:07
+
+Site #2: Blackwater River, March 1999:
+(a)	Data recorded at this site was logged at 00:02 and 00:32 minutes after 
+every 
+hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		03/03/99  11:02 through 03/17/99  11:32
+
+(b)	Data recorded at this site was logged at 00:55 and 00:25 minutes after 
+every hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		03/17/99  11:55 through 03/31/99  12:25
+Due to a third sample taken on the 03/17/99 because of the time variances, these 
+times were corrected by pasting CDMO time templates over the incorrect times.
+
+Site #2: Blackwater River, June 1999:
+(a)	Data recorded at this site was logged at 00:18 and 00:48 minutes after 
+every hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		06/09/99  08:48 through 06/23/99  11:18
+
+
+The water control structure (weir) located upstream from the Upper Henderson 
+Creek station was altered on the following dates:
+
+Gates Opened:				Gates closed:
+West ditch gate	07/09/99		West ditch gate	10/26/99
+			11/02/99					11/08/99
+
+East ditch gate	10/14/99		East ditch gate	10/26/99
+			11/02/99					11/08/99
+
+Flap gate		09/21/99		Flap gate		09/27/99
+			10/14/99					10/15/99
+
+Main gates #1	08/19/99		Main gate (1)	10/13/99
+			10/14/99					10/15/99
+			11/02/99					11/08/99
+
+Main gate #2	08/19/99					10/27/99
+
+

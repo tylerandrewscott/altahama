@@ -1,0 +1,506 @@
+Sapelo Island (SAP) NERR Water Quality Metadata
+(January - December 1995)
+Latest Update: August 14, 2000
+
+I. Data Set and Research Descriptors
+
+1.  Principal Investigators and contact persons:
+Dorset Hurley 
+Research Coordinator 
+SINERR
+Sapelo Island, GA 31327
+(912) 485-2251
+
+Jane Garbisch
+Water Quality Technician
+UGA Marine Institute
+Sapelo Island, GA 31327
+(912) 485 - 2296
+
+
+2.  Entry Verification:
+
+	The data are downloaded to an IBM compatible computer from the Hydrolab 
+Datasonde I, Hydrolab Datasonde III, Hydrolab Recorder, or YSI 6000UPG as a raw 
+file.  The YSI 6000 data are reviewed using the YSI computer program PC6000 that 
+accompanies the YSI 6000 data logger.  After the file is uploaded from the 
+datatlogger, PC6000 is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std. dev.)    The information 
+obtained from this printout is used during file review to detect any gross 
+outliers such as data taken when the datalogger was removed from the water or 
+those caused by instrument failure.   Based on past measurements in the waters 
+near Sapelo Island, it was determined that the following data should be checked:
+		Salinity < 5 ppt or >35 ppt
+		pH < 6.5 or > 8.5
+		Temperature < 10 C or >30 C
+Upon close examination of the questionable data, the data that did appear 
+accurate was kept in the data set while the rest was removed and classified as 
+missing data.  The edited data are formatted according to the guidelines given 
+in the CDMO manual.  The data are imported into a Microsoft Excel file that 
+contains the current month’s cumulative recordings.  When a complete month of 
+data has been recorded the file is ready for review.  The data review includes 
+several steps.  
+The first step is to format the data so that the parameter columns are in the 
+correct order and the data has the correct number of decimal place holders by 
+using the Column Reformat CDMO Excel 5.0 Macro.   Secondly, the Date Hour Count 
+CDMO Excel 5.0 macro is used to determine if there are any dates and times that 
+data was not recorded due to maintenance, battery failure, or other causes.  
+Missing dates and times are inserted into the file and a period is inserted into 
+the cells where data would normally be.  The reason for the missing data is 
+recorded on the Water Quality Editing Log.  Next, the data are filtered using 
+the Find Variable Outlier CDMO Excel 5.0 macro to find readings outside the 
+instrument measurement range and the “normal” range for the site in question.  
+Data outside the instrument range is/are removed from the file and a period is 
+inserted to the cell(s).  An explanation for the missing dates and times are 
+recorded onto the Water Quality Editing Log.  Data that was outside the “normal” 
+range of water quality for a particular site is investigated for validity based 
+on weather data, field observations, QC checks, PC6000 printouts, and instrument 
+diagnostics.  If the data is/are rejected from the file a period is inserted to 
+the cell(s) and an explanation for the missing dates and times are recorded onto 
+the Water quality Editing Log.  The information recorded on the Water Quality 
+Editing Log is transferred to the Metadata form.  The Metadata form is the 
+submitted with the data file to the CDMO.  Greg Schultz, reserve fellow, was 
+responsible for the QA/QC of the database.   
+
+
+3. Research Objectives:
+The purpose of research was only to perform long-term water quality 
+monitoring and not a specific experiment.   Sapelo Island is only accessible by 
+passenger ferry.  Due to its isolation, the salt marsh and tidal waters of the 
+SINERR show little evidence of human impact.  The Marsh Landing site receives a 
+large amount of boat traffic, as it is the primary access point for the 
+approximately 100 residents, commuters and daily visitors plus barge off 
+loading.  The Barn Creek site receives moderate boat traffic, and is near a 
+mechanic shop on land and several residences.  The Flume Dock site is a 
+relatively isolated location compared to the other two sites.
+
+
+4. Research Methods:
+Water quality monitoring began at the Flume Dock and Marsh Landing sites in 
+August 1986.  The Barn Creek site was added in May 1995.  Monitoring units are 
+hung vertically from a float or floating dock so they hang two meters below the 
+water's surface.  Hydrolab units were used exclusively until May 1995.  After 
+May 1995, YSI units were used as well as the Hydrolabs.  
+
+The sondes are calibrated prior to deployment following manufacturers 
+instructions. pH is calibrated  using purchased 7.00 and 10.00 pH buffers.  
+Conductivity is calibrated using a solution made from KCl.  DO is calibrated by 
+using current barometric pressure and % saturation and a new DO membrane is used 
+for each deployment.  The probes are cleaned three times weekly while deployed 
+when the warmer months increase the rate of fouling. The dissolved oxygen probes 
+are cleaned once weekly with a cotton swab and soaked in methanol, while the 
+other probes are cleaned with cotton swabs or pipe cleaners and de-ionized 
+water.  After two weeks the units are returned to the lab for downloading, 
+cleaning, and recalibration, according to the manufacturers manual.  No post 
+calibration verifications were performed.  Data were collected at 30-minute 
+intervals.  
+
+5. Site Location and Character:
+	The Sapelo Island National Estuarine Research Reserve is located in a 
+tidal estuary on the western side of Sapelo Island on the coast of Georgia.  The 
+Duplin River, actually a tidal lagoon, that receives little fresh water and 
+opens into Doboy Sound, ca. 5-km inland from the Atlantic Ocean.  The marsh 
+is inundated twice daily by unequal tides with a mean range of 2.1m.  Salinity 
+ranges from 10 to 25 ppt.  The surrounding area vegetation is dominated by salt 
+marsh with Spartina alterniflora being the predominate flora.  There are three 
+monitoring stations located within the reserve.
+
+1) Marsh Landing: located on the lower Duplin River on Sapelo Island (Latitude: 
+31° 25’ 4”N, Longitude 81° 17’ 46”W). Water passing the Marsh landing site 
+during flood tide originates from the Doboy Sound.  The Doboy receives input 
+from the Atlantic Ocean, and the Altamaha River via the Intra-Coastal Waterway.  
+The water is pushed up the river or up smaller tidal creeks and some is pushed 
+onto the marsh surface by the flood tide and recedes into the main channel 
+during ebb tide.  The dock itself is used as the main dock to the island where 
+the ferry makes several daily runs.  There are also several small boats that are 
+docked there. 
+2) Barn Creek: located on a tributary of the Duplin river between the Marsh 
+Landing and Flume Dock sites (Latitude: 31° 26’ 21N, Longitude 81° 16’ 43”W).  
+It is impacted by a small boat dock, a mechanic shop nearby on land, as well as 
+several houses near its marshes. 
+3) Flume Dock: located on the upper Duplin River on Sapelo Island (Latitude: 
+31° 28’ 58N, Longitude 81° 16’ 3”W).  It is influenced by tidal currents which 
+flood the marsh on high tides and recede into the channel of the river and its 
+side creeks.  It receives far less boat traffic than the Marsh Landing site. 
+
+
+
+6.  Data collection period:
+Data collection began at the Flume Dock on August 23, 1986, at Marsh Landing on 
+August 27, 1986, and at the Barn Creek site on May 24, 1995. Measurements were 
+taken every hour from January 1 until May 21 and taken every half hour from May 
+22 to December 31.  
+
+
+7.  Associated researchers and projects:
+A variety of ecological research projects are conducted in the SINERR by 
+researchers associated with the University of Georgia Marine Institute.  In 
+addition, the Marine Institute has conducted meteorological and hydrological 
+monitoring since 1986.
+
+II. Physical Structure Descriptors
+
+8. Variable sequence, column format, range of measurement, units:
+
+
+Hydrolab Datasonde I
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr.	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+pH		2 to 14 (units)			0.01 unit		+/-0.2 units
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/- 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+
+Hydrolab Datasonde III
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr.	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/- 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+DO		0-200 (%air Saturation)		0.1% @air sat	+/-2% @ air sat.
+DO		0-20 (mg/L)				0.01 mg/L		+/-0.2 mg/L
+pH		2 to 14 (units)			0.01 unit		+/-0.2 units
+
+
+Hydrolab Recorder
+Variable Name	Range of Measurements		Resolution		Accuracy 
+Date			1-12, 1-31, 00-99 (mo., day, yr.)	1 mo., 1 day, 1year	NA
+Time			0-24, 0-60, 0-60 (hr, min, sec)	1 hr, 1 min, 1 sec	NA
+	
+Temp			-5 to 50 (degrees C)			0.01 C		
+	+/- 0.15 C
+SpCond		0 to 100 (mS/cm)			0.01 mS/cm		+/- 0.5%
+Salinity		0-70 (ppt)				.1 ppt			+/- 0.2 
+ppt
+DO%			0-200 (% air saturation)		0.1% air saturation
+	+/- 2%
+DO			0-20 (mg/L)				0.01 mg/L		+/- 0.2 mg/L
+pH			2-14 (units)				0.01 unit		+/- 0.2 
+units
+
+YSI 6000UPG
+Variable Name	Range of Measurements		Resolution		Accuracy 
+Date			1-12, 1-31, 00-99 (mo., day, yr.)	1 mo., 1 day, 1year	NA
+Time			0-24, 0-60, 0-60 (hr, min, sec)	1 hr, 1 min, 1 sec	NA
+	
+Temp			-5-45 (degrees C)			0.01 C			+/- 0.15 
+C
+SpCond		0-100 (mS/cm)			0.01 mS/cm		+/- 0.5% of 
+reading + 0.001mS/cm
+Salinity		0-70 (ppt)				0.01 ppt			+/- 1.0% 
+of reading or 0.1 ppt (whichever is greater)
+DO%			0-200 (% air saturation)		0.1% air saturation
+	+/- 2%
+DO%			200-500 (% air saturation)		0.1% air saturation
+	+/- 6%
+DO			0-20 (mg/L)				0.01 mg/L		+/- 0.2 mg/L
+DO			20-50 (mg/L)				0.01 mg/L		+/- 0.6 
+mg/L
+pH			2-14 (units)				0.01 unit		+/- 0.2 
+units
+Turbidity		0-1000 (NTU)				0.1 NTU		+/- 5% 
+or
+										2 NTU (if larger)
+							
+9. Coded variable indicator and variable code definitions:
+Site definitions: ML = Marsh Landing, FD  = Flume Dock, BC = Barn Creek
+
+10. Data Anomalies (suspect data):
+April, 1995
+FD:		4/4 10:30 - 4/25 9:30		noisy DO, all values removed
+		
+May, 1995
+FD:		5/13 9:00				DO spike removed
+		5/29 02:00				DO out of range (negative value); 
+removed
+		
+June, 1995
+ML:		6/27 09:30 - 6/30 23:30		all - sonde failure 
+FD:		6/1 23:00				DO - out of range (negative values); 
+removed
+		6/2 06:00, 09:00			DO - out of range (negative values); 
+removed
+		6/4 06:00				DO - out of range (negative values); 
+removed
+		6/5 01:30, 07:00			DO - out of range (negative values); 
+removed
+		6/24 21:30 - 6/28 08:30		all - sonde failure
+		
+July, 1995
+BC:		7/10 12:30 - 7/14 09:00		DO - unreasonably large values removed
+ML		7/1 00:00 - 7/3 11:00		all - sonde failure
+		
+
+August, 1995
+BC:		8/9 10:00 - 8/11 10:00		noisy DO removed
+		8/11 10:30 - 8/25 9:30		%DO, DO - suspected membrane puncture; 
+removed
+		
+ML:		8/7 11:00 - 8/14 11:30		pH probe error; removed
+FD		8/23 12:30 - 8/24 07:30		all - sonde stopped recording time
+		
+September, 1995
+BC:		9/8 10:00 - 9/22 9:00		%DO, DO - noisy, suspected membrane 
+		Puncture; removed
+ML		9/23 01:00 - 9/26 10:00		all - sonde failure
+		
+FD:		9/5 10:00 - 9/6 08:30		all - sonde stopped recording time 
+
+October, 1995
+BC:		10/2 3:30 -10/6 9:30 all - sonde had technical failure 
+		10/13 11:00 - 10/20 11:00	DO well beyond saturation; removed
+ML		10/24 11:00 - 10/31 23:30	all - sonde failure
+FD		10/31 12:00 - 10/31 23:30	all - sonde failure
+
+November, 1995
+BC		11/3 13:00 - 11/17 11:00	all - sonde failure
+ML		11/1 00:00 - 11/7 11:30		all - sonde failure
+		11/7 12:00 - 11/21 12:00	pH probe failure
+FD		11/1 00:00 - 11/14 10:30	all - sonde failure
+		11/25 13:30 - 11/29 10:00	noisy %DO, DO removed
+		11/29 10:30 - 11/29 11:30	all - sonde failure
+		
+December, 1995
+ML:		12/19 13:30 - 12/31 23:30	all - sonde failure
+FD:		12/22 13:30 - 16:00		all - out of water reason unknown
+		12/23 15:00 - 16:30		all - out of water reason unknown
+		12/30 05:00 			discontinuity in DO; removed
+		12/30 05:30				discontinuity in pH; removed
+
+11.  Missing Data:
+In all cases, depth was fixed at approximately 2 meters.
+Note:  FD Jan-May 21 data was taken in hourly increments 
+
+January, 1995:
+BC		1/1 00:00 - 1/31 23:30		site not set up yet
+ML		1/1 00:00 - 1/31 23:30		site not in use due to dock repair
+FD		1/1 00:00 - 1/31 23:30		%DO, DO, depth, turb - sonde not 
+equipped
+
+February, 1995:	
+BC		2/1 00:00 - 2/28 23:30		site not set up yet
+ML		2/1 00:00 - 2/28 23:30		site not in use due to dock repair
+FD		2/1 00:00 - 2/28 23:30		%DO, DO, depth, turb - sonde not 
+equipped
+
+March, 1995:
+BC		3/1 00:00 - 3/31 23:30		site not set up yet
+ML		3/1 00:00 - 3/31 23:30		site not in use due to dock repair
+FD		3/1 00:00 - 3/31 23:30		%DO, DO, depth, turb not measured
+
+April, 1995:
+BC		4/1 00:00 - 4/30 23:30		site not set up yet
+ML		4/1 00:00 - 4/30 23:30		site not in use due to dock repair
+FD		4/1 00:00 - 4/30 23:30		%DO, depth, turb not measured
+		4/1 00:00 - 4/4 09:30		DO not measured
+		4/4 10:00				all  - Sonde out of water for cleaning
+		4/4 10:30 - 4/25 9:30		noisy DO, all values removed
+		4/25 10:00				all -Sonde out of water for cleaning
+		4/25 11:00 - 4/30 23:30		DO not measured
+
+May, 1995:
+BC		5/1 00:00 - 5/24 10:30		site not set up yet
+		5/24 11:00 - 5/31 23:30		%DO, depth, turb not measured
+ML		5/1 00:00 - 5/22 08:30		all - site not in use
+		5/22  09:00 - 5/31 23:00	%DO, DO, depth, turb - not measured by 
+		DS3
+FD		5/1 00:00 – 5/22 10:00		readings were taken in hourly 	
+		increments
+		5/1 00:00 – 5/22 10:00		%DO, DO mg/L, depth, turb not measured
+		5/13 9:00				DO spike removed
+		5/19 12:00				sonde out of water
+		5/22 10:30 - 5/31 23:30		%DO, DO mg/L, depth, turb not measured
+		5/22 09:30 - 10:00		sonde out of water for cleaning
+		5/29 02:00				DO - out of range (negative values); 
+removed
+
+June, 1995:
+BC		6/1 00:00 - 6/30 23:30		%DO, depth, turb not measured
+		6/16 9:30 - 6/30 8:30		DO not measured 
+ML		6/1 00:00 - 6/27 09:00		%DO, depth, turb not measured
+		6/1 00:00 - 6/19 10:00		DO not measured
+		6/5 08:30				all - probe out of water for cleaning
+		6/19 10:30				all - probe out of water for cleaning
+		6/27 09:30 - 6/30 23:30		all - sonde failure
+FD		6/1 00:00 - 6/30 23:30		%DO, depth, turb not measured
+		6/1 23:00				DO - out of range (negative values); 
+removed
+		6/2 06:00, 09:00			DO - out of range (negative values); 
+removed
+		6/4 06:00				DO - out of range (negative values); 
+removed
+		6/5 01:30, 07:00			DO - out of range (negative values); 
+removed
+		6/5 10:30 - 6/14 09:30		DO not measured
+		6/24 21:30 - 6/28 08:30		all - sonde failure
+		6/28 09:00				all - out of water for cleaning
+		6/28 09:30 - 6/30 23:30		DO not measured
+
+July, 1995
+BC		7/1 00:00 - 7/31 23:30		%DO, depth, turb not measured
+		7/10 12:30 - 7/14 09:00		DO - unreasonably large values removed
+ML		7/1 00:00 - 7/3 11:00		all - sonde failure
+		7/3 11:30 - 7/31 23:30		%DO, DO, depth, turb not measured
+		7/19 10:00				all - out of water for cleaning
+		7/24 13:00				all - out of water for cleaning
+		7/28 11:30				all - out of water for cleaning
+		7/31 11:00				all - out of water for cleaning
+FD		7/1 00:00 - 7/31 23:30		%DO, DO, depth, turb not measured
+		7/3 09:00				all - out of water for cleaning
+		7/12 09:00				all - out of water for cleaning
+		7/17 10:00				all - out of water for cleaning
+		7/19 09:00				all - out of water for cleaning
+
+August, 1995:
+BC		8/1 00:00 - 8/31 23:30		depth, turb not measured
+		8/1 00:00 - 8/11 10:00		%DO not measured
+		8/9 10:00 - 8/11 10:00		noisy DO; removed
+		8/11 10:30 - 8/25 9:30		%DO, DO - suspected membrane puncture 
+removed
+		8/18 8:00				all - sonde out of water for cleaning
+		8/24 9:30				all - sonde out of water for cleaning
+ML		8/1 00:00 - 8/31 23:30		%DO, DO, depth, turb not measured
+		8/7 11:00 - 8/14 11:30		pH probe error; removed
+FD		8/1 00:00 - 8/23 12:00		%DO, DO, depth, turb not measured
+		8/23 12:30 - 8/24 07:30		all - sonde stopped recording time
+		8/24 08:00 – 09:00		all - out of water for cleaning
+		8/24 9:30 - 8/31 23:30		%DO, depth, turb not measured
+
+September, 1995:
+BC		9/1 00:00 - 9/30 23:30		depth, turb not measured
+		9/8 10:00 - 9/22 9:00		%DO, DO - noisy, suspected membrane 
+		puncture; removed
+		9/22 09:30				all - probes out of water for 	
+		maintenance
+		9/22 10:00 - 9/30 23:30		%DO not measured
+ML		9/1 00:00 - 9/30 23:30		%DO, DO, depth, turb not measured
+		9/1 10:30				all - out of water for cleaning
+		9/23 01:00 - 9/26 10:00		all - sonde failure
+		9/29 11:00				all - sonde out of water for cleaning
+FD		9/1 00 - 9/30 23:30		%DO, depth, turb not measured
+		9/5 10:00 - 9/6 08:30		all - sonde stopped recording time
+		9/6 09:00 - 9/30 23:30		DO not measured
+
+October, 1995
+BC		10/1 00:00 - 10/31 23:30	turb, depth not measured
+		10/1 00:00 - 10/2 03:00		%DO not measured
+		10/2 3:30 - 10/6  9:30  all - sonde had technical failure 
+		10/13 10:30 			all - probes out of water for 	
+		maintenance
+		10/13 11:00 - 10/20 11:00	DO well beyond saturation; removed
+ML		10/1 00:00 - 10/31 23:30	%DO, DO, depth, turb not measured
+		10/24 11:00 - 10/31 23:30	all - sonde failure
+FD		10/1 00:00 - 10/31 23:30	depth, turb not measured
+		10/1 00:00 - 10/3 12:00		%DO, DO not measured
+		10/17 09:30				all - sonde out of water for cleaning
+		10/17 10:00 - 10/31 11:30	%DO, DO not measured
+		10/31 12:00 - 10/31 23:30	all - sonde failure
+
+November, 1995:
+BC		11/1 00:00 - 11/30 23:30	depth, turb not measured
+		11/3 13:00 - 11/17 11:00	all - sonde failure
+		11/17 11:30 - 11/30 23:30	%DO, DO not measured
+ML		11/1 00:00 - 11/30 23:30 	depth, turb not measured
+		11/1 00:00 - 11/7 11:30		all  - sonde failure
+		11/7 12:00 - 11/21 12:00	pH probe failure
+		11/21 12:30 - 11/30 23:30	%DO not measured
+FD		11/1 00:00 - 11/30 23:30	depth, turb not measured
+		11/1 00:00 - 11/14 10:30	all - sonde failure
+		11/25 13:30 - 11/29 10:00	noisy %DO, DO removed
+		11/29 10:30 - 11/29 11:30	all - sonde failure
+		11/29 12:00 - 11/30 23:30	%DO, DO not measured
+
+December, 1995:
+BC		12/1 00:00 - 12/31 23:30 	turb not measured
+		12/1 00:00 - 12/15 10:00 	depth not measured
+		12/1 00:00 - 12/1 10:30		%DO, DO not measured
+ML		12/1 00:00 - 12/5 11:30		%DO, depth, turb not measured
+		12/5 12:00 - 12/19 13:00	%DO, DO, depth, turb - DS3 does not 
+		measure
+		12/19 13:30 - 12/31 23:30	all - sonde failure
+FD		12/1 00:00 - 12/31 23:30	%DO, depth, turb not measured
+		12/1 00:00 - 12/11 10:30	DO not measured
+		12/15 02:30 			temp, pH not measured
+		12/22 13:30 - 16:00		all - out of water reason unknown
+		12/23 15:00 - 16:30		all - out of water reason unknown
+		12/30 05:00 			discontinuity in DO; removed
+		12/30 05:30				discontinuity in pH; removed
+		
+12. Other Remarks
+
+Deployment Dates: 
+Hydrolab sonde = H  YSI sonde = Y
+BC
+5/22 H
+5/24 H
+6/2 H
+6/16 H
+6/30 H
+7/1 Y
+7/14 H
+7.28 Y
+8/11 Y
+8/25 Y
+9/8 Y
+9/22 H
+10/6 Y
+10/20 Y
+11/17 H
+12/1 Y
+12/15 Y
+
+FD
+1/1 H 
+1/3 H
+1/17 H
+1/31 H
+2/14 H
+2/28 H
+3/14 H
+3/28 H
+4/1 H
+4/11 Y
+4/25 H
+5/8 H
+5/22 Y
+6/5 h
+6/14 H
+6/28 H 
+7/1 H
+7/12 H
+7/26 H
+8/9 H 
+8/24 H
+9/5 H
+9/19 H
+10/3 Y
+10/17 H
+11/14 Y
+11/28 H
+12/11 H
+
+ML
+5/22 H
+6/5 H
+6/19 Y
+7/3 H
+7/17 H 
+&/31 H
+8/14 H
+8/28 H
+9/12 H
+9/26 H
+10/10 H
+11/7 Y
+11/21 H
+12/5 H
+
+
+
+
+
+		

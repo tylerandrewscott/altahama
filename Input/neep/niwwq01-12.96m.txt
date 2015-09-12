@@ -1,0 +1,669 @@
+NIW NERR Site Metadata Form
+January - December 1996
+Updated: August 23, 2001
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons
+Dr. Dennis Allen, Manager	
+Dr. Joe Schubauer-Berigan, Research Coordinator
+Paul Kenny, Research Technician	
+Ginger Ogburn-Matthews, Research Data Manager	
+Christopher Aadland, Research Specialist
+
+email:dallen@belle.baruch.sc.edu		Baruch Marine Laboratory
+							University of South Carolina  
+	Pkenny@belle.baruch.sc.edu		POB 1630, Georgetown, SC 29442
+ 	ginger@belle.baruch.sc.edu		Phone: (803) 546-6219	
+	caadland@belle.baruch.sc.edu	
+
+2.  Entry verification
+The data are uploaded to the PC from the YSI dataloggers. Data plots were 
+produced and examined using the PC6000 software. Files were also uploaded to a 
+PC in a comma delimited format. Comma delimited files are opened in EXCEL 5.0 
+software and edited by removing unnecessary headers, footers and spaces.  
+Suspect data are evaluated, edited, and documented.  Missing data due to YSI 
+maintenance (down time) are inserted into the spreadsheet and are denoted by 
+periods (.).  Edited and raw files are archived using a SUN Sparc II 
+workstation. Edited files are merged to contain one full month of data. All 1996 
+Thousand Acre and Oyster Landing files have been verified using Microsoft Excel 
+5.0 macro programs which discover outliers (values which fall outside the range 
+that the instrument is designed to measure - see section II.8 of this document) 
+and other erroneous data.  Outliers were determined according to the 
+instruments' manufacturers manual.  After macros were run, files with suspicious 
+data were charted in Microsoft Excel to determine problems with probes.  The 
+dissolved oxygen (DO) probe was most problematic.  In instances When the plot of 
+DO increased in an exponential fashion and or (DO) also intermittently went 
+outside the design specifications for that instrument and never returned to 
+normal readings, the data were considered bad and removed from the data file.  
+These macros are available on the NERRS CDMO home page. Paul Kenny, Chris 
+Aadland and Rick Clutter edited and archived the 1996 data for Thousand Acre and 
+Oyster Landing. 
+
+3.  Research Objectives
+Measurements were taken every 30 minutes over two week periods at he Oyster 
+Landing and Thousand Acre stations. 
+
+4.  Research methods (YSI dataloggers)
+Prior to the YSI Datalogger deployment, a 4" diameter PVC pipe was strapped to a 
+treated 2" X 6" board; this board was then nailed into a pier piling at the 
+Thousand Acre and Oyster Landing site.Each YSI Datalogger is lowered into a PVC 
+pipe which has two large windows cut out near the bottom for the probes to have 
+direct contact with the water column.  A stop bolt placed through the PVC pipe 
+below the cut out windows maintains the YSI Datalogger at each site exactly one 
+foot (30 cm) above the creek bottom.  Every half hour over a two week period, 
+measurements of specific conductivity, salinity, percent saturation, dissolved 
+oxygen, water temperature, pH, turbidity , and water level were recorded at each 
+site.  Sampling intervals were selected due to biofouling of the dissolved 
+oxygen membrane and expected battery life.  At the end of each sampling 
+interval, the YSI Datalogger is brought back into the laboratory for 
+downloading, cleaning and recalibration.  These procedures are carried out 
+according to the methods as described in the YSI Operating Manual (see sections 
+3 and 7).  After approximately 24 hours of down time for cleaning and overnight 
+recalibration (if necessary), the YSI dataloggers are redeployed.  If necessary, 
+a Hydrolab datalogger may be substituted for a YSI. All maintenance downtimes 
+and membrane cleaning periods are recorded in a log book.
+
+
+5.  Site location and character
+The North Inlet-Winyah Bay National Estuarine Research Reserve is located on the 
+southeastern coast of the United States on the Atlantic Ocean in two tidal 
+estuaries, North Inlet and Winyah Bay, near Georgetown, South Carolina.  The 
+North Inlet estuary, located approximately 10 km east of Georgetown, is a bar-
+built Class C type estuary (Pritchard, 1955)1.  The North Inlet estuary is 
+composed of numerous winding tidal creeks, and is considered a pristine tidal 
+estuary due to minimal anthropogenic impacts.  The watershed drains a 24.8 km2 
+area of mostly pine forest and a moderately developed residential watershed to 
+the north.  The Winyah Bay estuary, classified as a Class B type estuary by 
+Pritchard (1955)1, which originates in the Blue Ridge Mountains of North 
+Carolina, is one of the largest river-estuary ecosystems on the Eastern 
+Seaboard.  It is located 14.4 km south of North Inlet.  Winyah Bay drains the 
+sub-basins of 6 major rivers which are heavily impacted by agriculture, mining, 
+and industry.  The rivers drain approximately 46,736 km2 of uplands and marshes.  
+Descriptions of the two sampling stations are as follows:
+
+1)  Thousand Acre (TA) - (lat. 33:18:22; long. 79:15:4) The Thousand Acre 
+monitoring site is located in Thousand Acre marsh tidal creek approximately 30 
+meters northeast of the west bridge of Thousand Acre marsh.  The creek empties 
+into the northeastern  side of the mid portion of Winyah Bay and directly drains 
+pine forested upland and wetlands. Salinity ranges from 0 to 15 ppt.  
+Georgetown, 5 km upstream from the Thousand Acre site and on the southern side 
+of Winyah Bay, is the home port for a number of heavy industries including a 
+steel plant, paper mill, chemical plant, and a coal fired power plant.  A public 
+sewage treatment plant is also located in Georgetown.
+
+2) Oyster Landing (OL) - (lat  33:21:03; long.  79:11:24). The Oyster Landing 
+monitoring site is located in the upper reaches of Crabhaul Creek in the mid 
+western potion of North Inlet.
+
+6.  Data collection period
+Thousand Acre data collection began January 1, 1995, and Oyster Landing data 
+collection began  on January 1st, 1995.
+All sampling is ongoing.
+
+7.  Associated researchers and projects
+A water chemistry program is associated with the NIW core monitoring program. 
+Variables sampled include: chlorophyll, dissolved organic carbon, nitrate-
+nitrite, orthophosphate, and ammonia.  (See documentation on the NIW WWW home 
+page for further details).  TA is our permanent monitoring station for the NERR 
+National Monitoring Program.  This station is also included in our NIW core 
+monitoring program.
+
+
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, column format, range of measurements, units, resolution, accuracy (for YSI)
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by 1 tab.
+
+9.  Coded variable indicator and variable code definitions
+Site definitions: OL = Oyster Landing; TA = Thousand Acre
+
+10.  Data anomalies (suspect data)
+Any questionable outlying data points between January 1, 1996 and October 31, 
+1996, not 
+addressed below, have been checked and correspond to probable rainfall events.
+
+OYSTER LANDING(OL)
+
+Jan-96	
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+01/16/96	18:00:00	---/ /					Turb.		neg
+01/16/96	19:00:00	---/ /			19:30:00	Turb.		neg
+01/17/96	01:30:00	---/ /					Turb.		neg
+01/17/96	04:00:00	---/ /					Turb.		neg	
+01/17/96	08:30:00	---/ /					Turb.		neg
+01/17/96	09:30:00	---/ /			10:00:00	Turb.		neg
+01/17/96	13:00:00	---/ /			14:30:00	Turb.		neg
+01/24/96	22:00:00	---/ /					Turb.		neg
+01/24/96	23:00:00	---/ /	01/24/96	23:30:00	Turb. 	
+	neg
+01/25/96	01:30:00	---/ /			02:00:00	Turb.		neg
+01/25/96	09:00:00	---/ /					Turb.		sltly 
+neg
+01/25/96	11:00:00	---/ /					Turb.		sltly 
+neg
+01/25/96	14:00:00	---/ /					Turb.		sltly 
+neg
+01/25/96	15:00:00	---/ /					Turb.		sltly 
+neg
+01/25/96	16:30:00	---/ /					Turb.		sltly 
+neg
+01/25/96	17:30:00	---/ /			18:30:00	Turb.		sltly 
+neg
+01/25/96	19:30:00	---/ /					Turb.		sltly 
+neg	
+01/26/96	00:00:00	---/ /					Turb.		sltly 
+neg
+01/26/96	02:00:00	---/ /			02:30:00	Turb.		sltly 
+neg
+01/26/96	05:00:00	---/ /					Turb.		sltly 
+neg
+01/26/96	06:00:00	---/ /			08:00:00	Turb.		sltly 
+neg
+01/26/97	09:00:00	---/ /			10:30:00	Turb. 	
+	sltly neg
+01/26/96	13:00:00	---/ /			13:30:00	Turb.		sltly 
+neg
+01/26/96	15:00:00	---/ /			16:00:00	Turb.		sltly 
+neg
+01/26/96	18:00:00	---/ /					Turb.		sltly 
+neg
+01/26/96	19:00:00	---/ /	01/27/96	01:00:00	Turb.		sltly 
+neg
+01/27/96	02:00:00	---/ /					Turb.		sltly 
+neg
+01/27/96	03:00:00	---/ /					Turb.		sltly 
+neg
+01/27/96	04:00:00	---/ /			04:30:00	Turb.		sltly 
+neg
+
+Feb-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+02/10/96	11:00:00	---	02/10/96	13:00:00	Turb.		neg
+02/14/96	12:00:00	---	02/26/96	08:30:00	Turb. 		water in 
+cable connection
+
+Mar-96
+Oyster Landing(OL)
+Date		Time		through	Date		Time		Variable	Reason
+03/11/96	17:00:00	---	03/13/96	10:30:00	DO%, mg/l	suspect DO deleted
+03/17/96	13:30:00	---	03/17/96	14:30:00	Turb.		neg
+03/18/96	08:00:00	---/ /					Turb.		neg
+	
+April-96
+Oyster Landing(OL)
+Date		Time		through	Date		Time		Variable	Reason
+04/05/96	15:30:00	---/ /					Turb. 	
+	neg
+
+May-96
+Oyster Landing(OL)
+Date		Time		through	Date		Time		Variable	Reason
+05/31/96	12:30:00	---/ /					Turb. 	
+	neg
+
+
+June-96(OL)
+Oyster Landing(OL)
+Date		Time		through	Date		Time		Variable	Reason
+06/21/96	11:00:00	---/ /					Turb. 	
+	>1000
+
+
+
+Aug-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+08/08/96	10:00:00	---/ /			10:30:00	Turb. 	
+	neg
+08/11/96	09:00:00	---/ /					Turb. 	
+	neg
+08/14/96	07:00:00	---/ /					Turb. 	
+	neg
+08/29/96	01:30:00	---/ /					Turb.		>1000
+08/31/96	15:00:00	---/ /					Turb. 	
+	neg
+
+Oct-96
+Oyster Landing (OL)
+Date		Time		through	Date 		Time		Variable	Reason
+10/05/96	07:00:00	---	10/14/96 	14:00:00	DO%, mg/l	suspect DO deleted 	
+
+
+THOUSAND ACRE (TA)
+
+Jan-96
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+01/22/96	20:00:00	---/ /					Turb.		neg
+01/27/96	03:00:00	---/ /					Turb.		neg	
+01/27/96	10:00:00	---/ /					Turb.		neg
+
+Feb-96(TA)
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+02/01/96	05:30:00	---/ /					Turb.		neg
+02/02/96	13:00:00	---/ /					Turb.		neg
+02/04/96	06:00:00	---/ /					Turb.		neg
+02/04/96	08:00:00	---/ /					Turb.		neg
+02/06/96	00:30:00	---/ /					Turb.		neg
+02/06/96	08:00:00	---/ /					Turb.		neg
+02/06/96	09:30:00	---/ /					Turb.		neg
+02/06/96	18:00:00	---/ /					Turb.		neg
+02/06/96	19:30:00	---/ /					Turb.		neg
+02/07/96	06:30:00	---/ /					Turb.		neg
+02/07/96	07:30:00	---/ /					Turb.		neg
+02/07/96	08:30:00	---/ /					Turb.		neg
+02/07/96	09:30:00	---	02/07/96	10:00:00	Turb.		neg
+02/07/96	11:30:00	---/ /					Turb.		neg
+02/07/96	20:30:00	---/ /					Turb.		neg
+02/08/96	08:30:00	---/ /					Turb.		neg
+
+Mar-96
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+03/13/96	10:00:00	---	03/31/96	23:30:00	Turb.		Turbitity data
+is considered suspect for the whole month due to many negative values and values 
+>1000.
+
+April-96
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+04/08/96	16:00:00	---/ /					Turb.		neg
+
+May-96
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+5/10/96	16:00:00	---	5/27/96			16:00:00	DO%, DOmg/L	
+	DO is considered suspect because of probe failure and was deleted.
+
+June-96
+Thousand Acre(TA)
+Date		Time		through	Date		Time		Variable	Reason
+06/11/96	16:00:00	---/ /					Turb.		neg
+06/12/96	10:30:00	---	06/12/96			Turb.		>1000
+06/12/96	05:00:00	---/ /					Turb.		>1000
+06/12/96	10:00:00	---	06/12/96	11:00:00	Turb.		>1000
+06/12/96	19:30:00	---/ /					Turb.		>1000
+06/15/96	00:00:00	---/ /					Turb.		>1000
+06/16/96	04:00:00	---/ /					Turb.		neg
+06/16/96	08:00:00	---/ /					Turb.		>1000
+06/16/96	23:30:00	---/ /					Turb.		neg
+06/17/96	00:30:00	---/ /					Turb.		neg
+06/17/96	01:30:00	---/ /					Turb.		neg
+06/17/96	05:00:00	---/ /					Turb.		neg
+06/17/96	07:00:00	---/ /					Turb.		neg
+06/17/96	08:00:00	---/ /					Turb.		neg
+06/19/96	02:00:00	---/ /					Turb.		neg
+06/19/96	05:30:00	---/ /					Turb.		neg
+06/19/96	09:30:00	---/ /					Turb.		neg
+06/19/96	18:00:00	---/ /					Turb.		>1000
+06/22/96	16:30:00	---/ /					Turb.		>1000
+06/22/96	23:00:00	---/ /					Turb.		neg
+06/26/96	23:30:00	---/ /					Turb.		neg
+06/27/96	11:30:00	---/ /					Turb.		neg	
+06/28/96	11:30:00	---/ /					Turb.		neg
+06/28/96	14:30:00	---/ /					Turb.		neg
+06/28/96	15:00:00	---/ /					Turb.		>1000
+06/28/96	17:00:00	---/ /					Turb.		neg
+06/29/96	16:00:00	---/ /					Turb.		neg
+06/30/96	12:30:00	---/ /					Turb.		neg
+06/30/96	17:30:00	---/ /					Turb.		neg
+From 06/07/96-06/30/96 Turbidity considered suspect do to many neg. values and 
+values >1000.
+Jul-96
+
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+07/01/96 	00:00:00	---	07/31/96	23:30:00	Turb.		questionable 
+data  
+due to negative values and values >1000.  
+07/10/96	14:00:00	---	07/22/96	09:00:00	DO%,mg/L	suspect DO deleted
+07/25/96	14:30:00	---	07/31/95	23:30:00	Depth		Mud in sensor.
+
+Aug-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+08/01/96	00:00:00	---	08/05/96	16:00:00	Depth		Mud in sensor.
+08/07/96	15:00:00	---	08/31/96	23:30:00	Turb.		data suspect 
+do to 
+many neg. values and values >1000.
+
+Sept-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+09/01/96	00:30:00	---	09/01/96	01:00:00	Turb.		neg 
+09/01/96	03:00:00	---/ /					Turb.		neg
+09/01/96	11:30:00	---/ /					Turb.		neg
+09/01/96	13:00:00	---/ /					Turb.		neg
+09/03/96	06:30:00	---/ /					Turb.		>1000
+09/04/96	16:00:00	---	09/04/96	16:30:00	Turb.		neg
+09/04/96	18:00:00	---	09/05/96	04:30:00	Turb.		>1000
+09/06/96	09:30:00	---	09/06/96	15:00:00	Turb.		Lots of neg 
+and >1000 spikes.
+09/21/96	13:00:00	---/ /			13:00:00	Turb.		neg
+
+Oct-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+10/12/96	21:00:00	---/ /					Turb. 	
+	neg
+10/13/96	14:00:00	---/ /					Turb. 	
+	neg
+10/23/96	21:30:00	---/ /					Turb. 	
+	neg
+
+Nov-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+11/19/96	23:00:00	---/ /					Turb. 	
+	neg
+11/22/96	00:00:00	---/ /					Turb.		neg
+11/28/96	17:30:00	---/ /					Turb. 	
+	neg
+
+Dec-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+12/07/96	07:00:00	---/ /					Turb. 	
+	neg
+12/10/96	23:30:00	---    	12/12/96	13:00:00	all		low 
+battery power
+12/22/96	16:00:00	---/ /					Turb. 	
+	neg
+12/22/96	17:00:00	---/ /					Turb. 	
+	neg
+12/25/96	05:30:00	---/ /					Turb. 	
+	neg
+12/25/96	08:00:00	---/ /					Turb. 	
+	neg
+From 12/10/96 23:30:00 to 12/12/96 13:00:00 all data is considered suspect due 
+to low battery power.
+
+11. Missing Data 
+
+Every two weeks at TA and OL, there is a period of approximately 24 hours 
+of missing data due to maintenance and calibration requirements. 
+
+OYSTER LANDING (OL)
+
+Jan-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+01/01/96	00:00:00	---	01/04/96	08:30:00	ph,Turb.	Hydrolab Data
+01/04/96	09:00:00	---	01/04/96	11:30:00	all		maintenance
+01/22/96	09:30:00	---	01/24/96	09:00:00	all		maintenance
+The Hydrolab and YSI data have been combined into one file.  Hydrolab recorded 
+data from 01/01/96, 00:00:00- 
+01/04/96, 08:30:00.  YSI recorded data from this point through the end of the 
+month.
+			
+ Feb-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+02/08/96	10:00:00	---	02/09/96	12:30:00	all		maintenance
+02/14/96	12:00:00	---	02/26/96	08:30:00	turb. 		water in 
+cable connect.	
+02/26/96	09:00:00	---	02/29/96	23:30:00	all		maintenance
+
+Mar-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+03/01/96	00:00:00	---	03/01/96	13:30:00	all		maintenance
+03/11/96	17:00:00	---	03/13/96	10:30:00	DO%, mg/l	suspect DO deleted
+03/13/96	11:00:00	---	03/14/96	14:30:00	all		maintenance
+03/28/96	09:30:00	---	03/29/96	15:30:00	all		maintenance
+
+Apr-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+04/11/96	09:00:00	---	04/12/96	12:30:00	all		maintenance
+04/25/96	10:30:00	---	04/26/96	15:30:00	all		maintenance
+
+May-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+05/09/96	09:00:00	---	05/30/96	12:30:00	all		dead instrm.
+
+Jun-96				
+Oyster Landing (OL)					
+Date		Time		through	Date		Time		Variable	Reason
+06/11/96	08:30:00	---	06/12/96	13:30:00	all		maintenance
+06/25/96	11:30:00	---	06/26/96	13:00:00	all		maintenance 
+06/26/96	14:00:00	---	06/30/96	23:30:00	Turb. 		water in 
+bulkhead
+
+Jul-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+07/01/96	00:00:00	---	07/22/96	09:00:00	turb. 		water in 
+bulkhead
+07/08/96	09:30:00	---	07/10/96	13:30:00	all		maintenance
+07/22/96	09:00:00	---	07/25/96	14:00:00	all		maintenance
+07/25/96	14:30:00	---	07/31/96	23:30:00	depth		mud in sensor
+
+Aug-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+08/01/96	00:00:00	---	08/05/96	16:00:00	depth		mud in sensor
+08/05/96	16:30:00	---	08/07/96	14:30:00	all		maintenance
+08/19/96	10:30:00	---	08/20/96	16:00:00	all		maintenance
+
+Sep-96
+Oyster Landing (OL)
+Date		Time		through	Date		Time		Variable	Reason
+09/03/96	14:30:00	---	09/04/96	14:30:00	all		maintenance
+09/18/96	14:30:00	---	09/19/96	12:30:00	all		maintenance
+09/30/96	09:30:00	---	09/30/96	23:30:00	all		maintenance
+							
+Oct-96
+Oyster Landing (OL)
+Date		Time     	through	Date   		Time		Variable
+	Reason
+10/01/96	00:00:00	---	10/01/96	10:00:00	all		maintenance
+10/05/96	07:00:00	---	10/14/96 	14:00:00	DO%, mg/l	suspect DO deleted 	
+10/14/96	14:30:00	---	10/29/96	15:30:00	all		maintenance
+
+Nov-96
+Oyster Landing(OL)
+Date		Time     	through	Date   		Time		Variable
+	Reason
+11/12/96	14:30:00	---	11/14/96	11:30:00	all		maintenance
+11/26/96	12:30:00	---	11/27/96	11:00:00	all		maintenance
+
+Dec-96
+Oyster Landing(OL)
+Date		Time     	through	Date   		Time		Variable
+	Reason
+12/12/96	15:30:00	---	12/13/96	14:00:00	all		maintenance
+
+
+
+THOUSAND ACRE (TA)
+
+Jan-96
+Thousand Acre (TA)
+Date		Time     	through	Date		Time		Variable	Reason
+01/01/96	00:00:00	---	01/05/96	11:30:00	all		water in unit
+01/05/96	12:00:00	---	01/22/96	14:00:00	turb.		water in unit
+01/22/96	14:30:00	---	01/22/96	15:00:00	all		maintenance
+
+Feb-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+02/08/96	09:30:00	---	02/09/96	12:30:00	all		maintenance
+02/27/96	13:30:00	---	02/29/96	23:30:00	all		maintenance
+
+Mar-96
+Thousand Acre (TA)
+Date     	Time     	through	Date     	Time     	Variable	Reason
+03/01/96	00:00:00	---	03/01/96	13:30:00	all		maintenance
+03/13/96	10:30:00	---	03/14/96	15:00:00	all		maintenance
+03/28/96	09:00:00	---	03/29/96	15:00:00	all		maintenance
+
+Apr-96
+Thousand Acre (TA)
+Date     	Time     	through	Date     	Time     	Variable	Reason
+04/11/96	09:00:00	---	04/12/96	12:30:00	all		maintenance
+04/17/96	17:00:00	---	04/30/96	23:30:00	Turb. 		water in 
+bulkhead	
+04/25/96	09:30:00	---	04/26/96	15:30:00	all		maintenance
+
+May-96
+Thousand Acre (TA)
+Date     	Time     	through	Date     	Time     	Variable	Reason
+05/01/96	00:00:00	---	05/27/96	16:00:00	Turb. 		water in 
+bulkhead
+05/09/96	10:30:00	---	05/10/96	15:30:00	all		maintenance
+05/10/96	16:00:00	---	05/27/96	16:00:00	DO%,DOmg/l	probe failure, deleted
+05/27/96	16:30:00	---	05/31/96	23:30:00	all		maintenance
+
+Jun-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+06/01/96	00:00:00	---	06/07/96	09:00:00	all		maintenance 
+	
+redeployment delayed due to wait for turbity sensor replacement
+06/25/96	11:00:00	---	06/26/96	12:30:00	all		maintenance
+
+Jul-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+07/08/96	09:30:00	---	07/10/96	13:30:00	all		maintenance
+07/10/96	14:00:00	---	07/22/96	09:00:00	pH 		no probe
+07/10/96	14:00:00	---	07/22/96	09:00:00	DO%,mg/L	suspect DO deleted
+07/22/96	09:30:00	---	07/23/96	14:30:00	all		maintenance
+07/23/96	15:30:00	---	07/31/96	23:30:00	pH 		probe broken
+
+Aug-96
+Thousand Acre (TA)
+Date		Time		through	Date		Time		Variable	Reason
+08/01/96	00:00:00	---	08/19/96	10:30:00	pH 		probe broken
+08/06/96	09:30:00	---	08/07/96	14:30:00	all		maintenance
+08/19/96	11:00:00	---	08/20/96	15:30:00	all		maintenance
+
+Sep-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+09/03/96	11:00:00	---	09/04/96	14:30:00	all		maintenance
+09/18/96	15:00:00	---	09/19/96	13:00:00	all		maintenance
+09/30/96	10:30:00	---	09/30/96	23:30:00	all		maintenance
+
+Oct-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+10/01/96	00:00:00	---	10/01/96	14:30:00	all		maintenance
+10/14/96	13:00:00	---	10/16/96	13:00:00	all		maintenance
+10/28/96	10:30:00	---	10/31/96	23:30:00	all		maintenance
+
+Nov-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+11/01/96	00:00:00	---	11/14/96	12:30:00	all		Water in unit
+11/26/96	12:30:00	---	11/27/96	11:30:00	all		maintenance
+
+Dec-96
+Thousand Acre (TA)
+Date		Time		through	Date 		Time		Variable	Reason
+12/11/96	22:00:00	---/ /					all		low 
+battery
+12/12/96	06:00:00	---	12/12/96	06:30:00	all		low battery
+12/12/96	08:30:00	---/ /					all		low 
+battery
+12/12/96	10:00:00	---	12/12/96	11:30:00	all		low battery
+12/12/96	12:30:00	---/ /					all		low 
+battery
+12/12/96	13:30:00	---	12/13/96	15:30:00	all		maintenance
+12/30/96	17:00:00	---	12/31/96	23:30:00	all		water in 
+battery compartment
+
+12. Other Remarks
+Deployment and Retrieval Log:
+
+Oyster Landing
+
+Retrieval Date/Time	Deployment Date/Time
+1/4/96	9:00:00		1/4/96	11:30:00
+1/22/96	9:30:00		1/24/96	9:00:00
+2/8/96	10:00:00	2/9/96	12:30:00
+2/26/96	9:00:00		3/1/96	13:30:00
+3/13/96	11:00:00	3/14/96	14:30:00
+3/28/96	9:30:00		3/29/96	15:30:00
+4/11/96	9:30:00		4/12/96	12:30:00
+4/25/96	10:30:00	4/26/96	15:30:00
+5/9/96	10:30:00	5/30/96	12:30:00
+6/11/96	9:00:00		6/12/96	13:30:00
+6/25/96	11:30:00	6/26/96	12:30:00
+7/8/96	9:30:00		7/10/96	13:30:00
+7/22/96	9:00:00		7/25/96	8:00:00
+8/5/96	16:30:00	8/7/96	14:30:00
+8/19/96	10:30:00	8/20/96	15:30:00
+9/3/96	14:30:00	9/4/96	14:30:00
+9/18/96	14:30:00	9/19/96	12:30:00
+9/30/96	9:30:00		10/1/96	10:00:00
+10/14/96	14:30:00	10/29/96	15:30:00
+11/12/96	14:30:00	11/14/96	11:30:00
+11/26/96	12:30:00	11/27/96	11:00:00
+12/12/96	15:30:00	12/13/96	14:00:00
+
+Thousand Acres
+
+Retrieval Date/Time	Deployment Date/Time
+				1/5/96	11:30:00
+1/22/96	14:30:00	1/22/96	14:30:00
+2/8/96	9:30:00		2/9/96	12:30:00
+2/27/96	13:30:00	3/1/96	13:30:00
+3/13/96	11:00:00	3/14/96	15:00:00
+3/28/96	9:00:00		3/29/96	15:00:00
+4/11/96	9:00:00		4/12/96	12:30:00
+4/25/96	9:30:00		4/26/96	15:30:00
+5/9/96	10:30:00	5/10/96	15:30:00
+5/27/96	16:30:00	6/7/96	9:00:00
+6/25/96	11:00:00	6/26/96	12:30:00
+7/8/96	9:30:00		7/10/96	13:30:00
+7/22/96	9:30:00		7/23/96	15:00:00
+8/6/96	9:30:00		8/7/96	14:30:00
+8/19/96	11:00:00	8/20/96	15:30:00
+9/3/96	11:00:00	9/4/96	14:30:00
+9/18/96	15:00:00	9/19/96	13:00:00
+9/30/96	10:30:00	10/1/96	14:30:00
+10/14/96	13:00:00	10/16/96	13:00:00
+10/28/96	10:30:00	11/14/96	12:30:00
+11/26/96	12:30:00	11/27/96	11:30:00
+12/12/96	13:30:00	12/13/96	15:30:00
+12/30/96	17:00:00	1/8/97	14:00:00
+
+
+
+
+
+
+
+
+
+

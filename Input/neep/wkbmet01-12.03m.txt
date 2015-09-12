@@ -1,0 +1,871 @@
+Weeks Bay (WKB) NERR Meteorological Metadata 
+January – December 2003
+First submission: 03/30/04 
+Last Update: 6/21/05 
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator & contact persons:
+
+Contact Persons:
+L. G. Adams, Manager, lgadams@dcnr.state.al.us
+Scott Phipps, Research Coordinator, sphipps@dcnr.state.al.us
+Eric Brunden, Research Technician, ebrunden@dcnr.state.al.us
+	
+Address: 
+Weeks Bay NERR
+11300 U.S. Hwy 98		
+Fairhope, AL 36532			
+ph: (334) 928-9792
+
+
+2) Entry verification 
+
+a) Data Input Procedures:
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each instrument 
+on the weather station to a Campbell Scientific CR10X datalogger. The CDMO Data Logger 
+Program (nerr3.csi) was loaded into the CR10X and controls the sensors and data collection 
+schedule (see 2b of the Entry Verification section for the data collection schedule).  The 
+CR10X then interfaced with the Campbell SM192 memory module for long-term data 
+storage.
+
+From January through December 2003 Campbell PC208W software was used to 
+automatically dial up the weather station via a Campbell Com200 modem and upload data at 
+five-minute intervals. The uploaded raw data (none QA/QC'd) was periodically transferred to 
+a separate file for archival and future QA/QC purposes.
+
+From January through November 19th Real time data management (RTDM) software 
+produced joint photographic experts group (JPEG) image files displaying weather conditions 
+at time of collection. The JPEG image files were exported to a network server maintained by 
+Faulkner Community College in Fairhope, Al. and were available for viewing using an 
+Internet connection. 
+
+On November 19th the CR10X program was updated to match the requirements of the 
+EQWin database software program, which will be employed at all NERR sites and replaces 
+the WDMP. At this time a station identification number (711) was also introduced within 
+the CR10X program. The identification number allows a Dauphin Island Sea Lab computer to 
+remotely dial up and identify the Weeks Bay NERR weather station. The data generated from 
+the weather station is converted to graphic representation and posted on the internet at 
+http://cast-net.mobilebaynep.com/monitoringdata/default.asp 
+
+At the end of the year monthly data files were compiled. From the dates of January 1st 
+through November 19th (Julian day 323) the CDMO Weather Data Management Program 
+(WDMP) was used to convert the files to an Access database. The WDMP program was 
+developed in Visual Basic to interface with the NERRS data collection schedule (see 2b of 
+the Entry Verification section for the data collection schedule).  The WDMP will 
+automatically input and convert the monthly raw data file into an Access database.  There are 
+three main steps the WDMP performs.  First, it converts the comma delimited monthly raw 
+data file into an Access Database.  Secondly, it checks the data against a predetermined set of 
+error criteria (see Part C of this section).  Finally, it produces error and summary reports. Any 
+anomalous data were investigated and are noted below in Anomalous Data section.  Any data 
+corrections that were performed are noted in the Missing/Deleted Data section below.  	
+From November 19 1200 to the end of the year, compiled data files were opened in Microsoft 
+excel for pre-processing with the EQWin format macro that was developed by the CDMO to 
+insert a date column (mm/dd/yyyy), insert station codes, correct the time column format, and 
+reformat the data to the appropriate number of decimal places. The pre-processed file was 
+then copied into an EQWin weather.eqi file where the data was QA/QC checked and 
+archived into a database. EQWin queries, reports and graphs are used to discover data set 
+outliers (values which fall outside the range that the instrument is designed to measure) and 
+large changes in the data. EQWin is also used to generate statistics, view graphs, create 
+customized queries and finally export the data to the CDMO. Any anomalous data are 
+investigated and noted below is the Anomalous/Suspect Data Section. Any data corrections 
+that were performed are noted in the Deleted Data Section. Missing data due to probe failure 
+or other reason are noted in the missing data section. 
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+b) Data Collection Schedule
+
+i) Data is collected in the following formats.
+(1) Sample data points are collected every 15 minutes.
+(2) Hourly averages are collected every 60 minutes.
+(3) Daily average, maximum with time, and minimum with time.
+
+ii) 15 minute sample point parameters: Date, Time, Air Temperature (c), Relative Humidity 
+(%), LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction, Rainfall 
+(mm)
+
+iii) Hourly average parameters: Date, Time, Air Temperature (c), Relative Humidity (%), 
+LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction, Wind Direction 
+Standard Deviation (using Yamartino's Algorithm)
+
+iv) Daily Averages parameters: Date, Time, Air Temperature (c), Relative Humidity (%), 
+LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction
+
+v) Daily Maximum parameters: Date, Time, Air Temperature (c), Time, Relative Humidity 
+(%), Time, LiCor (par), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, 
+Battery Voltage, Time
+
+vi) Daily Minimum parameters: Date, Time, Air Temperature (c), Time, Relative Humidity 
+(%), Time, LiCor (par), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, 
+Battery Voltage, Time
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes
+- Max and min temp recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+- Not changed by more than 25% from the previous 15 minutes
+- Max and min humidity recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month
+
+Wind Speed:
+- Wind speed greater than 30 m/s
+- Wind speed less than .5 m/s
+
+Wind Direction:
+- Wind direction not greater than 360 degrees
+- Wind direction not less than 0 degrees
+
+Pressure:
+- Pressure greater than 1040 mb or less than 980 mb
+- Pressure changes greater than 5 mb per hour
+- Maximum and minimum values recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- Duplicate interval data	
+
+3) Research objectives:
+
+The principle objective is to record long-term meteorological data for Weeks Bay in order to 
+1)observe any environmental changes or trends over time, 2) use as a reference for research 
+projects at the reserve, and 3) give meteorological context to our half-hour SWMP water 
+quality data. 
+
+4) Research methods:
+
+The Campbell Scientific weather station samples every 5 seconds to produce hourly averages 
+for arrays 101 and 102 (array 60 after 11/19) and daily averages, maximums and minimums 
+for arrays 241,242 and 243 (array 144 after 11/19). Parameters measured are air temperature, 
+relative humidity, barometric pressure, rainfall, wind speed and wind direction.  An 
+instantaneous sample is taken every 15 minutes and assigned to array 150 (array 15 after 
+11/19). Periodically, sensors on the weather station are inspected for damage or debris. If any 
+is found, it is repaired and/or cleaned. Sensors are removed and calibrated on an annual or bi-
+annual basis. The sensors and tower were obtained in the fall of 1996. However the sensors 
+were not installed until the fall of 1998. Sensors were last calibrated in 2003. There were no 
+other analyses done on the meteorological data at present.  
+
+
+5) Site location and character:
+
+The Weeks Bay National Estuarine Research Reserve is located near the Gulf coast, 
+southeast of the city of Fairhope, Alabama. Weeks Bay (30deg 23' N, 87deg 50' W) is a small, 
+shallow, microtidal sub-estuary, located on the eastern shore of Mobile Bay in the northern 
+Gulf of Mexico. The bay is nearly diamond shaped, and its longitudinal axis (3.4 km long) 
+runs nearly north-south from the head, where the Fish River flows in, to the mouth, where 
+water is exchanged with Mobile Bay. Its widest point (3.1 km) is located near the center of 
+the estuary, where the Magnolia River discharges into eastern side of Weeks Bay.  Average 
+depth is 1.4 m, although there are two areas where depths are significantly greater.  The first 
+is in the mouth of the bay, where the average depth is 6 m; the second is about 100 m 
+upstream of the mouth of the Fish River, where the average depth is 3.5 m. Tides are 
+principally diurnal, and have a mean range of 0.4 m.
+
+The Fish River drainage basin encompasses 14300 hectares and contributes 
+approximately 73% to the total incoming freshwater flow with the Magnolia River supplying 
+the rest.  Mean combined discharge is 9 cubic meters per second; although freshets up to 4 
+times larger occur throughout the year.  These characteristics result in a freshwater residence 
+time of 13 days under average discharge conditions, with a range from 0.5 to 100 days.  
+Salinity in Weeks Bay varies substantially both temporally and spatially.  During periods of 
+high flow in the river, salinity in the bay may be fresh from the head to the mouth, except in 
+the deeper holes of the estuary that are not as easily flushed.  However, during periods of low 
+flow in the river, wind velocity and tidal stage are strong factors influencing salinity 
+structure.  Salinity greater than 25 ppt is infrequently observed in Weeks Bay and is usually 
+restricted to the southern portion of the estuary near the mouth.
+
+The weather station is located on a reserve owned pier (lat 30deg 24.89'N, long 87deg 
+49.56'W) just south of the highway 98 bridge, on the west side of the mouth of the Fish 
+River. Wind sentry, tipping bucket rain gauge, temperature/RH probe, and barometric 
+pressure sensor are mounted along an aluminum tower between 4.8 and 7.6 meters above 
+water surface. LI-COR quantum sensor was not deployed in 2001. Approximately 100 meters 
+upstream is an YSI datalogger deployment site for the continuous monitoring of water 
+quality. 
+
+
+6) Data collection period:
+
+Weather data has been collected from January 1, 2001 through December 31, 2003. 
+This metadata is applicable only to data collected from January 1, 2003 through December 
+31, 2003.
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for 
+the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic courtesy 
+standards, the PI and NERR site where the data were collected will be contacted and 
+fully acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration.  The data set 
+enclosed within this package/transmission is only as good as the quality 
+assurance/quality control procedures outlined by the enclosed metadata reporting 
+statement.  The user bears all responsibility for its subsequent use/misuse in any 
+further analyses or comparisons.  The Federal government does not assume liability 
+to the Recipient or third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any way from 
+the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 Principal investigators and contact persons), from 
+the Data Manager at the Centralized Data Management Office (please see personnel directory 
+under the general information link on the CDMO home page) and online at the CDMO home 
+page http://cdmo.baruch.sc.edu Data are available in text format and Access data tables.
+
+8) Associated researchers and projects:
+
+The Geological Survey of Alabama, in cooperation with the United States Geological 
+Survey, maintains two rain gauges within the Weeks Bay watershed. One is located at the 
+highway 98 Magnolia River overpass; the other is located at the highway 104 Fish River 
+overpass. 
+
+The following researchers have directly requested and received meteorological data 
+generated from the Weeks Bay weather station for use as either primary or ancillary 
+information significant to their respective projects.
+
+Mastioff, Gerald. Case Western Reserve University. Erosion and transport of fine 
+sediments from watersheds tributary to NERR estuaries.
+
+Chin, Yu-Ping. Ohio State University. Distribution and phototransformation of non-point 
+source agricultural pesticides in freshwater and marine NERR wetlands.
+
+Caffrey, Jane. University of West Florida. Modeling estuarine ecosystem trophic status 
+using continuous nitrate and water quality data.
+
+Landers, Stephen. Troy State University. Environmental factors affecting the distribution 
+and abundance of the benthic protozoological assemblages in Weeks Bay NERR.
+
+Wilson, Chris. Case Western Reserve University. The movement of sediment and 
+radionuclide through Weeks Bay NERR.
+
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, operating range, accuracy, date of last calibration 
+
+Parameter: Photosynthetically Active Radiation (PAR) 
+Units: micro-moles per square meter
+Sensor type: Li-Cor Quantum Sensor
+Model # LI190SB High stability silicon photovoltaic detector (blue enhanced)
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Calibration dates:  04/18/03
+
+Parameters: Wind Speed and Wind Direction
+Units: Wind speed - meter per second (m/s); Wind direction – degrees (°)
+Sensor type: Campbell Scientific Wind Sentry Set
+Model # 03001
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: 04/18/03
+
+Parameters: Temperature and Relative Humidity (up to 04/18/03)
+Units: Celsius for temperature and percent for relative humidity
+Sensor type: Campbell Scientific
+Model #:  HMP35C
+Operating Temperature:  -20-+60°C
+Temperature Measurement Range: -35-+50°C
+Temperature Accuracy: ± 0.4 °C over range of -24° to 48°C;  ±0.9 over range of -38° to 53°
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Date of Last calibration:  New HMP45C installed on 04/18/03
+
+Parameters: Temperature and Relative Humidity (post 04/18/03)
+Units: Celsius for temperature and percent for relative humidity
+Sensor type: Campbell Scientific
+Model #:  HMP45C
+Operating Temperature:  -40-+60°C
+Temperature Measurement Range: -40 to +60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy: at 20°C: +/- 2% RH(0-90%) and +/-3% (90-100%)
+Temperature dependence of RH measurement: +/- 0.05%RH/°C
+
+Parameter: Barometric Pressure
+Units: millibars (mb)
+Sensor type: Campbell Scientific Analog Barometer 
+Model # CS-105
+Operating Range:	 Pressure – 600-1060 mb
+Temperature:  -40-+60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20-60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  New as of 04/18/03
+
+Parameter: Precipitation
+Units: millimeters (mm)
+Sensor type: Tipping Bucket Rain Gauge
+Model #:  TE 525
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: 04/18/03
+
+10) Coded variable indicator and variable code definitions:  wkbwbmet = weeks bay weather 
+station
+
+11) Anomalous/Suspect Data:
+
+General comments: 
+1.	Rainfall differences of over 5mm between 15 minute samples can 
+occur during heavy rains and are common to this site.
+2.	Relative humidity differences greater than 25% between 15minute 
+samples are not unusual with frontal passages and are usually 
+associated with wind shifts.
+3.	Air temp differences between 15minute samples greater than 3 
+degrees are not unusual with frontal passages and are usually 
+associated with wind shifts.
+4.	Wind speed of less than 0.5m/s are not uncommon for this site.
+5.	Relative humidity at or near 100% can occur at this site. Reported 
+values up to 103% are within the accuracy range of sensor.
+
+January 2003: None
+
+February 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	5	36 	1615	   Rel hum difference from 5 (36) 1615 (30.724) to 5 (36) 1630 (56.753) is      
+greater than 25%
+
+151	16	47	145	Precip difference from 16 (47) 145 (5.588) to 16 (47) 200 (.254) is greater          
+than 5 mm
+
+151	21	52           1000	Precip difference from 21 (52) 1000 (.254) to 21 (52) 1015 (6.858) is greater 
+than 5 mm
+
+151	21	52	1500	Precip difference from 21 (52) 1500 (2.286) to 21 (52) 1515 (16.764) is greater 
+than 5 mm
+
+151	21	52	1515	Precip difference from 21 (52) 1515 (16.764) to 21 (52) 1530 (5.842) is greater 
+than 5 mm
+
+151	21	52	1630	Precip difference from 21 (52) 1630 (7.874) to 21 (52) 1645 (1.524) is greater 
+than 5 mm
+
+151	26	57	1815	Precip difference from 26 (57) 1815 (.254) to 26 (57) 1830 (7.366) is greater 
+than 5 mm
+
+March 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	29	88	230	Air temp difference from  29 ( 88) 230 ( 17.616) to  29 ( 88) 245 ( 20.769) is 
+greater than 3.0 degrees C
+
+April 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	13	103	1045	Air temp difference from  13 ( 103) 1045 ( 26.154) to  13 ( 103) 1100 ( 22.266) 
+is greater than 3.0 degrees C
+
+150	18	108	1115	Rel hum difference from  18 ( 108) 1115 ( 39.605) to  18 ( 108) 1130 ( 69.493) 
+is greater than 25%
+
+151	21	111	845	Precip difference from  21 ( 111) 845 ( .762) to  21 ( 111) 900 ( 6.858) is greater 
+than 5 mm
+
+151	21	111	900	Precip difference from  21 ( 111) 900 ( 6.858) to  21 ( 111) 915 ( .254) is greater 
+than 5 mm
+
+
+
+May 2003 
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	3	123	1200	Air temp difference from 3 (123) 1200 (26.544) to 3 (123) 1215 (22.456) is 
+greater than 3.0 degrees C
+
+150	13	133	1430	Air temp difference from  13 ( 133) 1430 ( 25.801) to  13 ( 133) 1445 ( 22.788) 
+is greater than 3.0 degrees C
+
+150	13	133	1430	Rel hum difference from  13 ( 133) 1430 ( 43.353) to  13 ( 133) 1445 ( 69.825) 
+is greater than 25%
+
+151	19	139	530	Precip difference from  19 ( 139) 530 ( 1.016) to  19 ( 139) 545 ( 8.128) is 
+greater than 5 mm
+
+151	19	139	600	Precip difference from  19 ( 139) 600 ( 10.414) to  19 ( 139) 615 ( 2.794) is 
+greater than 5 mm
+
+151	20	140	1915	Precip difference from  20 ( 140) 1915 ( .254) to  20 ( 140) 1930 ( 8.89) is 
+greater than 5 mm
+
+June 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	3	154	45	Air temp difference from  3 ( 154) 45 ( 25.281) to  3 ( 154) 100 ( 21.729) is 
+greater than 3.0 degrees C
+
+150	11	162	1300	Air temp difference from  11 ( 162) 1300 ( 26.329) to  11 ( 162) 1315 ( 23.316) 
+is greater than 3.0 degrees C
+
+150	22	173	1415	Air temp difference from  22 ( 173) 1415 ( 28.27) to  22 ( 173) 1430 ( 24.92) is 
+greater than 3.0 degrees C
+
+151	6	157	415	Precip difference from  6 ( 157) 415 ( 2.286) to  6 ( 157) 430 ( 11.176) is greater 
+than 5 mm
+
+151	6	157	430	Precip difference from  6 ( 157) 430 ( 11.176) to  6 ( 157) 445 ( 4.064) is greater 
+than 5 mm
+
+151	6	157	915	Precip difference from  6 ( 157) 915 ( .254) to  6 ( 157) 930 ( 6.096) is greater 
+than 5 mm
+
+151	6	157	1130	Precip difference from  6 ( 157) 1130 ( 7.112) to  6 ( 157) 1145 ( 1.27) is greater 
+than 5 mm
+
+151	8	159	545	Precip difference from  8 ( 159) 545 ( .508) to  8 ( 159) 600 ( 5.588) is greater 
+than 5 mm
+
+151	8	159	600	Precip difference from  8 ( 159) 600 ( 5.588) to  8 ( 159) 615 ( .508) is greater 
+than 5 mm
+
+151	13	164	2330	Precip difference from  13 ( 164) 2330 ( 7.366) to  13 ( 164) 2345 ( .254) is 
+greater than 5 mm
+
+151	20	171	330	Precip difference from  20 ( 171) 330 ( .254) to  20 ( 171) 345 ( 9.398) is greater 
+than 5 mm
+
+151	21	172	700	Precip difference from  21 ( 172) 700 ( 3.302) to  21 ( 172) 715 ( 9.906) is 
+greater than 5 mm
+
+151	21	172	715	Precip difference from  21 ( 172) 715 ( 9.906) to  21 ( 172) 730 ( 1.778) is 
+greater than 5 mm
+
+151	21	172	1500	Precip difference from  21 ( 172) 1500 ( .254) to  21 ( 172) 1515 ( 5.842) is 
+greater than 5 mm
+
+151	21	172	2245	Precip difference from  21 ( 172) 2245 ( 3.302) to  21 ( 172) 2300 ( 10.16) is 
+greater than 5 mm
+
+151	21	172	2300	Precip difference from  21 ( 172) 2300 ( 10.16) to  21 ( 172) 2315 ( 2.032) is 
+greater than 5 mm
+
+151	30	181	1615	Precip difference from  30 ( 181) 1615 ( 1.778) to  30 ( 181) 1630 ( 9.652) is 
+greater than 5 mm
+
+
+July 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	17	198	1430	Air temp difference from  17 ( 198) 1430 ( 28.398) to  17 ( 198) 1445 ( 24.185) 
+is greater than 3.0 degrees C
+
+150	22	203	1745	Air temp difference from  22 ( 203) 1745 ( 29.012) to  22 ( 203) 1800 ( 25.396) 
+is greater than 3.0 degrees C
+
+150	25	206	1530	Air temp difference from  25 ( 206) 1530 ( 27.535) to  25 ( 206) 1545 ( 23.985) 
+is greater than 3.0 degrees C
+
+150	31	212	1700	Air temp difference from  31 ( 212) 1700 ( 29.603) to  31 ( 212) 1715 ( 25.383) 
+is greater than 3.0 degrees C
+
+151	1	182	100	Precip difference from  1 ( 182) 100 ( 3.81) to  1 ( 182) 115 ( 16.51) is greater 
+than 5 mm
+
+151	1	182	115	Precip difference from  1 ( 182) 115 ( 16.51) to  1 ( 182) 130 ( 5.588) is greater 
+than 5 mm
+
+151	5	186	1900	Precip difference from  5 ( 186) 1900 ( 7.874) to  5 ( 186) 1915 ( .762) is greater 
+than 5 mm
+
+151	14	195	1145	Precip difference from  14 ( 195) 1145 ( 6.35) to  14 ( 195) 1200 ( 13.462) is 
+greater than 5 mm
+
+151	14	195	1215	Precip difference from  14 ( 195) 1215 ( 9.652) to  14 ( 195) 1230 ( 3.302) is 
+greater than 5 mm
+
+151	17	198	1445	Precip difference from  17 ( 198) 1445 ( .254) to  17 ( 198) 1500 ( 6.35) is 
+greater than 5 mm
+
+151	21	202	1030	Precip difference from  21 ( 202) 1030 ( 2.032) to  21 ( 202) 1045 ( 7.112) is 
+greater than 5 mm
+
+151	21	202	1045	Precip difference from  21 ( 202) 1045 ( 7.112) to  21 ( 202) 1100 ( 1.524) is 
+greater than 5 mm
+
+151	22	203	1915	Precip difference from  22 ( 203) 1915 ( 9.906) to  22 ( 203) 1930 ( 4.572) is 
+greater than 5 mm
+
+151	23	204	500	Precip difference from  23 ( 204) 500 ( 1.016) to  23 ( 204) 515 ( 13.716) is 
+greater than 5 mm
+
+151	23	204	515	Precip difference from  23 ( 204) 515 ( 13.716) to  23 ( 204) 530 ( 5.588) is 
+greater than 5 mm
+
+102	11	192	2000	Wind speed is less than 0.5 m/s from  11 ( 192)  2000 to  12 ( 193)  1200
+
+102	12	193	2100	Wind speed is less than 0.5 m/s from  12 ( 193)  2100 to  13 ( 194)  900
+
+102	15	196	1900	Wind speed is less than 0.5 m/s from  15 ( 196)  1900 to  16 ( 197)  800
+
+
+August 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	6	218	1030	Air temp difference from  6 ( 218) 1030 ( 27.668) to  6 ( 218) 1045 ( 24.256) is 
+greater than 3.0 degrees C
+
+150	20	232	1200	Air temp difference from  20 ( 232) 1200 ( 28.598) to  20 ( 232) 1215 ( 24.985) 
+is greater than 3.0 degrees C
+
+150	20	232	1515	Air temp difference from  20 ( 232) 1515 ( 27.091) to  20 ( 232) 1530 ( 23.941) 
+is greater than 3.0 degrees C
+
+150	30	242	1145	Air temp difference from  30 ( 242) 1145 ( 29.737) to  30 ( 242) 1200 ( 26.455) 
+is greater than 3.0 degrees C
+
+151	1	213	130	Precip difference from  1 ( 213) 130 ( 6.096) to  1 ( 213) 145 ( .508) is greater 
+than 5 mm
+
+151	1	213	215	Precip difference from  1 ( 213) 215 ( 7.366) to  1 ( 213) 230 ( 1.778) is greater 
+than 5 mm
+
+151	6	218	1030	Precip difference from  6 ( 218) 1030 ( .508) to  6 ( 218) 1045 ( 8.382) is greater 
+than 5 mm
+
+151	13	225	30	Precip difference from  13 ( 225) 30 ( 2.032) to  13 ( 225) 45 ( 11.938) is greater 
+than 5 mm
+
+151	13	225	45	Precip difference from  13 ( 225) 45 ( 11.938) to  13 ( 225) 100 ( 1.016) is 
+greater than 5 mm
+
+151	19	231	1345	Precip difference from  19 ( 231) 1345 ( .254) to  19 ( 231) 1400 ( 8.89) is 
+greater than 5 mm
+
+151	19	231	1400	Precip difference from  19 ( 231) 1400 ( 8.89) to  19 ( 231) 1415 ( .508) is 
+greater than 5 mm
+
+151	20	232	1315	Precip difference from  20 ( 232) 1315 ( 9.906) to  20 ( 232) 1330 ( 3.302) is 
+greater than 5 mm
+
+102	5	217	1800	Wind speed is less than 0.5 m/s from  5 ( 217)  1800 to  6 ( 218)  800
+
+102	7	219	1900	Wind speed is less than 0.5 m/s from  7 ( 219)  1900 to  8 ( 220)  700
+
+102	11	223	2000	Wind speed is less than 0.5 m/s from  11 ( 223)  2000 to  12 ( 224)  800
+
+September 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+150	5	248	1515	Air temp difference from  5 ( 248) 1515 ( 28.801) to  5 ( 248) 1530 ( 25.787) is 
+greater than 3.0 degrees C
+
+151	13	256	1845	Precip difference from  13 ( 256) 1845 ( 9.398) to  13 ( 256) 1900 ( 14.986) is 
+greater than 5 mm
+
+151	13	256	1900	Precip difference from  13 ( 256) 1900 ( 14.986) to  13 ( 256) 1915 ( .508) is 
+greater than 5 mm
+
+October 2003
+The following data appear to be correct:
+150	21	294	1230	Air temp difference from  21 ( 294) 1230 ( 26.941) to  21 ( 294) 1245 ( 23.922) 
+is greater than 3.0 degrees C
+
+150	22	295	1230	Air temp difference from  22 ( 295) 1230 ( 28.074) to  22 ( 295) 1245 ( 24.523) 
+is greater than 3.0 degrees C
+
+151	26	299	530	Precip difference from  26 ( 299) 530 ( 7.62) to  26 ( 299) 545 ( 1.27) is greater 
+than 5 mm
+
+102	4	277	1900	Wind speed is less than 0.5 m/s from  4 ( 277)  1900 to  5 ( 278)  700
+
+102	5	278	1900	Wind speed is less than 0.5 m/s from  5 ( 278)  1900 to  6 ( 279)  800
+
+102	13	286	1800	Wind speed is less than 0.5 m/s from  13 ( 286)  1800 to  14 ( 287)  700
+
+102	19	292	1800	Wind speed is less than 0.5 m/s from  19 ( 292)  1800 to  20 ( 293)  700
+
+102	20	293	1900	Wind speed is less than 0.5 m/s from  20 ( 293)  1900 to  21 ( 294)  800
+
+102	23	296	1900	Wind speed is less than 0.5 m/s from  23 ( 296)  1900 to  24 ( 297)  900
+
+102	28	301	1900	Wind speed is less than 0.5 m/s from  28 ( 301)  1900 to  29 ( 302)  800
+
+November 2003
+The following data appear to be correct:
+Array	Date	Day	Time	Error message
+151	18	322	615	Precip difference from 18 (322) 615 (.254) to 18 (322) 630 (7.62) is greater than 
+5 mm
+
+151	18	322	630	Precip difference from 18 (322) 630 (7.62) to 18 (322) 645  .254) is greater than 
+5 mm
+
+102	2	306	1700	Wind speed is less than 0.5 m/s from  2 ( 306)  1700 to  3 ( 307)  700
+
+102	11	315	1900	Wind speed is less than 0.5 m/s from  11 ( 315)  1900 to  12 ( 316)  900
+
+102	15	319	1800	Wind speed is less than 0.5 m/s from  15 ( 319)  1800 to  16 ( 320)  900
+
+Precipitation 	Date		time	mm
+11/23		23:30	6.1
+11/27		19:45	5.8
+
+December 2003
+
+The following data appear to be correct:
+Precipitation  (see comment 	
+Date		time	mm
+12/03		18:00	5.6
+12/03		18:15	5.3		
+12/03		18:30	5.1
+12/13		12:15	8.6
+12/29		16:30	8.6
+
+Relative humidity
+Date		time	mm
+12/15		01:15
+12/15		01:30
+12/15		01:45
+12/15		02:00
+12/15		02:15
+12/15		02:30
+12/15		02:45
+12/15		03:00
+12/15		03:15
+12/15		03:30
+12/15		06:15
+
+
+
+12) Deleted data:
+
+January 2003: 
+
+Hourly averages at 1600 hours on the 24th and daily averages for the 24th were erroneous due 
+to incomplete records for those days. LiCor (par) values were erroneous due to probe 
+malfunction. Technician eliminated the original data and replaced with code 55555, 
+indicating to WDMP program that values were altered by user.
+Array	Date	Day	Time	Error message
+150	24	24         1530	Technician changed 150 Array data at 24 ( 24) 1530 to  31 ( 31) 2400
+
+241	24	24	2400	Technician changed 241 Array from 24 ( 24) 2400 to  24 ( 24) 2400
+
+242	24	24	2400	Technician changed 242 Array from 24 ( 24) 2400 to  24 ( 24) 2400
+
+243	24	24	2400	Technician changed 243 Array data from 24 ( 24) 2400 to  30 ( 30) 2400
+
+244	24	24	2400	Technician changed 244 Array data from 24 ( 24) 2400 to  24 ( 24) 2400
+
+244	31	31	2400	Technician changed 244 Array data at 31 (31) 2400 to  31 ( 31) 2400
+
+February 2003:
+LiCor (par) values were erroneous for the entire month due to malfunctioning probe. 
+Technician eliminated the original data and replaced with code 55555, indicating to WDMP 
+program that values were altered by user.
+
+Array	Date	Day	Time	Error message
+150	1	32	15	Technician changed 150 Array data at 1 (32) 15 to 28 (59) 2400
+
+243	1	32	2400	Technician changed 243 Array data at 1  (32) 2400 to 28 (59) 2400
+
+244	1	32	2400	Technician changed 244 Array data at 1 (32) 2400 to 28 (59) 2400
+
+March 2003:  
+LiCor (par) values were erroneous for the entire month due to malfunctioning probe. 
+Technician eliminated the original data and replaced with code 55555, indicating to WDMP 
+program that values were altered by user.
+Array	Date	Day	Time	Error message
+150	1	60	15	Technician changed 150 Array data at  1 ( 60) 15 to  31 ( 90) 2400
+
+243	1	60	2400	Technician changed 243 Array data at  1 ( 60) 2400 to  31 ( 90) 2400
+
+244	1	60	2400	Technician changed 244 Array data at  1 ( 60) 2400 to  31 ( 90) 2400
+
+April 2003: 
+LiCor (par) values up to the installation of a repaired and calibrated probe on 04/18/03 (day 
+108) at 1430 were erroneous due to a malfunctioning probe. Technician eliminated the 
+original data and replaced with code 55555, indicating to WDMP program that values were 
+altered by user.
+
+Array	Date	Day	Time	Error message
+150	1	91	15	Technician changed 150 Array data from 1 (91) 15 to 18 (108) 1415
+
+243	1	91	2400	Technician changed 243 Array data from 1 (91) 2400 to 18 (108) 2400
+
+244	1	91	2400	Technician changed 244 Array data from 1 (91) 2400 to 18 (108) 2400
+
+243	19	109	2400	Technician changed 244 Array data (minimum temp) an erroneous MinTemp
+outlier of -40 C was recorded for an unknown reason, outlier was deleted from data
+
+Deleted all values from 4/18 1400-4/19 1430 plus the 60 array 4/19 1500 and 144 4/19 2400 data due to
+possible sensor malfunction affecting BP and RH.  
+
+May 2003:  None
+
+June 2003: None
+
+July 2003: None
+
+August 2003: 
+LiCor (par) values from 08/06 00:15 to end of month were erroneous due to a malfunctioning 
+probe. Technician eliminated the original data and replaced with code 55555, indicating to 
+WDMP program that values were altered by user.
+
+Array	Date	Day	Time	Error message
+150	6	218	15	Technician changed 150 Array data at 6 (218) 15 to 31 (243) 2400
+
+243	6	218	2400	Technician changed 243 Array data at 6 (218) 2400 to 31 (243) 2400
+
+244	6	218	2400	Technician changed 244 Array data at 6 (218) 2400 to 31 (243) 2400
+
+September 2003: 
+LiCor (par) values for entire month were erroneous due to a malfunctioning probe. 
+Technician eliminated the original data and replaced with code 55555, indicating to WDMP 
+program that values were altered by user.
+Array	Date	Day	Time	Error message
+150	1	244	15	Technician changed 150 Array data at  1 ( 244) 15 to  30 ( 273) 2400
+
+243	1	244	2400	Technician changed 243 Array data at  1 ( 244) 2400 to  30 ( 273) 2400
+
+244	1	244	2400	Technician changed 244 Array data at  1 ( 244) 2400 to  30 ( 273) 2400
+
+October 2003: 
+LiCor (par) values for entire month were erroneous due to a malfunctioning probe. 
+Technician eliminated the original data and replaced with code 55555, indicating to WDMP 
+program that values were altered by user.
+
+Array	Date	Day	Time	Error message
+150	1	274	15	Technician changed 150 Array data at 1 (274) 15 to 31 (304) 2400
+
+243	1	274	2400	Technician changed 243 Array data at 1 (274) 2400 to 31 (304) 2400
+
+244	1	274	2400	Technician changed 244 Array data at 1 (274) 2400 to 31 (304) 2400
+
+November 2003:
+LiCor (par) values for the entire month were erroneous due to a malfunctioning probe. 
+Technician eliminated the original data and replaced with code 55555, indicating to WDMP 
+program that values were altered by user.
+
+Array	Date	Day	Time	Error message
+150	1	305	15	Technician changed 150 Array data from 1 (305) 15 to 19 (323) 15
+
+243	1	305	2400	Technician changed 243 Array data from  1 ( 305) 2400 to  18 ( 322) 2400
+
+244	1	305	2400	Technician changed 244 Array data from  1 ( 305) 2400 to  18 ( 322) 2400
+
+The Weather Station was powered down on 11/19/2003 to load the new CR10X program (NERR4.csi)
+as a result data were lost so the daily averages for 11/19/2003 were deleted. 
+
+STNCODE	SMPLDATE	USRCODES	SMPLTIME	CLASS	
+
+wkbwbmet 11/20/2003      324		00:00		144	Daily Average/Max/Min
+
+
+December 2003:  
+
+LiCor (par) values for the entire month were erroneous due to a malfunctioning probe. 
+Data deleted from record.
+
+
+13) Missing data 
+
+January 2003
+All data are missing up to 15:30 on the 24th due to internal battery failure of the SM192 memory 
+module. Upon upload of memory module technician was unable to accurately identify dates 
+associated with data arrays. 
+Time values for the following maximum and minimum battery voltages were unrecorded, 
+reason unknown.
+   Array	Date	              Day	    Time	Error message
+	243	31	31	2400	Too few fields in record
+
+	244	25	25	2400	Too few fields in record
+
+	244	26	26	2400	Too few fields in record
+
+	244	27	27	2400	Too few fields in record
+
+	244	28	28	2400	Too few fields in record
+
+	244	29	29	2400	Too few fields in record
+
+        244	30	30      2400     Too few fields in record
+
+February 2003: None
+
+March 2003: None
+
+April 2003: None
+
+May 2003: None
+
+June 2003: None
+
+July 2003: None
+
+August 2003: None
+
+September 2003: None
+
+October 2003: None
+
+November 2003: Data from 11/19/03 1200 to end of year are formatted for use with EQWin software 
+program and was thus removed from the raw records prior to creating the monthly file for 
+processing through the WDMP. The following erroneous error reports resulted from this action.
+
+150	19	305	15	Missing 150 Array data (15 minute data) from 19 (305) 15 to 30 (334) 2400
+
+101	19	323	100	Missing 101 Array data (Hourly Averages) from 19 (323) 100 to 30 (334) 2400
+
+102	19	323	100	Missing 102 Array data (Hourly Average Wind Parameters) from 19 (323) 100 
+to 30 (334) 2300
+
+241	19	323	2400	Missing 241 data (Daily Averages) from  19 ( 323) 2400 to  29 ( 333) 2400
+
+242	19	323	2400	Missing 242 data (Daily Average Wind Parameters) from  19 ( 323) 2400 to  29 
+( 333) 2400
+
+243	19	323	2400	Missing 243 data (Daily Max/Time Values) from  19 ( 323) 2400 to  29 ( 333) 
+2400
+
+Due to the loading of the new CR10X program (NERR4.csi) data are missing from the data set
+from 00:30 until 11:45 on 11/19/2003.  
+
+
+14) Other Remarks/notes
+No data was lost due to power down in 2003. A dedicated computer at Weeks Bay NERR  
+calls up the weathers station at five-minute intervals retrieving and storing the data. At those 
+times when the modem is unable to connect i.e. line interruptions, power outages at reserve, 
+etc. the weather station information is stored in the SM192 module. Upon reconnecting with 
+the weather station the stored information is then downloaded.
+
+An amended software program for the CR10X was loaded on the 11/19/2003 as previously 
+noted in the metadata.
+
+LiCor:  
+Prior to the installation of the new NERR_4.CSI program, all values less 
+than 0 were altered in the raw data to read 0. These values may indicate an incorrect 
+multiplier, calibration problems, or a sensor malfunction. Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity:
+Prior to the installation of the new NERR_4.CSI program, all values over 
+100% were altered in the raw data to read 100%.  These values may indicate super 
+saturated air, calibration problems, or a sensor malfunction.  Because these values 
+are changed in the raw data, we cannot confirm that they are all valid data points. 

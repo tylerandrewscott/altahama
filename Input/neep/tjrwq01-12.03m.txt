@@ -1,0 +1,1281 @@
+Tijuana River (TJR) NERR Water Quality Metadata
+January to December 2003
+Last Revised: March 1, 2005
+
+I. Data Set and Research Descriptors
+
+
+1. Principal Investigators and contact persons
+
+Jeff Crooks, Research Coordinator			301 Caspian Way
+							Imperial Beach, CA 91932
+							Phone: (619) 575-3613
+							Fax: (619) 575-6913
+							E-mail: jcrooks@ixpres.com
+						
+
+Mike Wells, Reserve Manager				301 Caspian Way
+							Imperial Beach, CA 91932
+							Phone: (619) 575-3613
+							Fax: (619) 575-6913
+							E-mail: mwells@parks.ca.gov 
+						
+
+Michelle Cordrey, Research Specialist			Pacific Estuarine Research Laboratory
+							San Diego State University
+							San Diego, CA  92182-1870
+							fax:  619-575-6913
+							phone: 619-575-3614
+							E-mail: mcordrey@tijuanaestuary.org
+
+
+2.  Entry Verification
+
+The data are uploaded directly from the YSI model 6000 or 6600 data loggers to 
+the YSI Ecowatch for windows software into a file appended with the suffix 
+".dat". The data are also downloaded directly from the datalogger into a 
+spreadsheet importable file appended with the suffix ".csv". The data are then 
+reviewed for major problems (i.e. logger out of water, probe malfunction, 
+battery failure, etc.) using the YSI Ecowatch for windows plotting software.  
+The resulting plot is printed out and saved in a folder named "datalogger 
+deployment log".  The .csv file is imported into Excel 2000 for Windows, where 
+it is edited and formatted.
+
+The tails of each sampling period are deleted and any suspect data are 
+identified with the aid of CDMO Excel macros.  Suspect data are evaluated and 
+dealt with according to CDMO Operations Manual (ver.4.0) guidelines.  The 
+parameter columns are checked for proper order and correct heading labels and 
+formatted to the correct decimal places using the "column reformat" macro 
+supplied by the CDMO.  Reasons for any missing or anomalous data are entered 
+directly into the data file and the edited file is saved as a two-week excel 
+file.  When an entire month of two-week edited data files have been collected, 
+the files are edited and combined into a 1 month excel file using the excel 
+import.xls macro. All editing and missing data documentation are also recorded 
+in an excel file named "missing data log".  The information in the "missing 
+data log" is transferred to the metadata form. The edited and raw files are 
+archived on a Sun Sparc 20 workstation and backed up to tape weekly.  Data 
+and metadata files are uploaded via ftp to the CDMO. The person responsible 
+for the data management is Michelle Cordrey.
+
+
+3.  Research Objectives
+
+The Tijuana Estuarine Research Reserve is impacted heavily by both 
+periodic raw sewage outflows and urban development. Only about a quarter of the 
+reserve's 2,531 acres are tidally influenced, with few channels deep
+enough for datalogger deployment.  Two stations were originally set up:  a
+treatment station was set up close to the mouth on the Southern end of the 
+Oneonta Slough, while a control station was set up on the northern end of 
+Oneonta Slough.  The treatment station location was chosen because it would be 
+the site most affected by sewage outflow. Deployment at the treatment station, 
+however, was continually halted by both shifting sediment and massive wracks of 
+kelp (Macrocystis pyrifera), which would often bury the deployment set-up on 
+incoming tides.  After a number of different deployment equipment designs were 
+implemented, with no success, logging at this site was terminated.
+        
+We currently have four YSI datalogger stations installed at the reserve. 
+The siting of the stations is designed to investigate spatial gradients of water 
+quality parameters across the reserve as well as document the water quality 
+changes over time to areas in the reserve which have been restored to increase 
+tidal flushing.  The original control station in the northern end of Oneonta 
+Slough is still in place.  The second station, Tidal Linkage, is located in the 
+North arm of the reserve in a constructed channel designed to increase tidal 
+exchange in that portion of the reserve. Data logging at the Tidal Linkage 
+station began in May 1997 but has not been continuous due to episodic 
+sedimentation events. A third datalogger station is located at the inlet to the 
+Model Marsh, a recently constructed 20-acre restoration site in the southern arm 
+of the estuary.  The Model Marsh was opened to tidal flushing in February 2000 
+and data logging at the station began in October 2000. The most recent station 
+to be added was the River Channel.  The station is located on a tidally 
+influenced section of the Tijuana River, the largest source of freshwater to the 
+reserve. Data logging at the River Channel station began in August 2002.
+
+
+4. Research Methods (Dataloggers)
+
+Dataloggers at the Model Marsh, Oneonta Slough, and River Channel stations are 
+deployed using a 4-inch diameter PVC pipe that is strapped vertically to two 
+"rail" style fence posts driven into the sediment.  Multiple 1.5 inch holes have 
+been drilled around the bottom of the tube to permit unrestricted water flow to 
+the sensors.  During deployment the datalogger units are then placed into and 
+rest on a bolt fixed across the bottom of the tubes.  Dataloggers are deployed 
+at the Tidal Linkage station are deployed horizontally, in a 4-inch diameter pvc 
+pipe that is fastened to 4 copper pipes that have been driven into the sediment 
+until refusal.  
+
+The sampling period is two weeks for non-EDS loggers and between three and four 
+weeks when using EDS loggers, with measurements taken every 30 minutes.
+Measurements for specific conductivity, salinity, dissolved oxygen (percent
+saturation), dissolved oxygen (mg/l), temperature, turbidity and water level
+are recorded.  At the end of each two week period, the YSI data logger units
+are brought back to the laboratory for downloading, cleaning and recalibration 
+and are usually redeployed in the field within 24 to 48 hours. These procedures 
+are carried out according to the methods described in the YSI Operations Manual 
+(see sections 3 and 7). Calibration standards for specific conductivity and 
+turbidity are purchased from YSI and pH standards are purchased pre-made from 
+VWR scientific.  The QA/QC procedures for the collected data are followed as 
+given in the CDMO Operations Manual version 4.0.
+
+
+5.  Site location and character
+
+General site Characteristics (TJE)
+a) Tidal exchange (extremes): approx. -2 +7 MLLW,
+b) Salinity: 4 ppt (extreme rain events) to 38 ppt
+c) Latitude and longitude:  32 deg. 34 min. N, 117 deg. 07 min. W 
+d) Potential impacts: storm drain runoff from military airfield and adjacent 
+residential areas, occasional sewage spills (10-15 MGD) into the Tijuana River 
+from Mexico.  The area surrounding the estuary is heavily developed by 
+residential housing as is the watershed which drains into the estuary.  
+Approximately 2/3 of the watershed is in Mexico.  The North Eastern section of 
+the reserve is bordered by a military helicopter training base.  Vegetation in 
+the area is dominated by common pickleweed (Spartina virginica) and Pacific 
+cordgrass (Spartina foliosa).
+e) The dominant freshwater source to the estuary is the Tijuana River, which 
+drains a 4,483 sq. km watershed. Streamflows in the river vary considerably 
+from season to season and year to year with no flow during many months with 
+a mean annual discharge of .82 cubic meters per second (cms).  Additional 
+freshwater sources are stormdrains located mostly in the northern arm of the 
+estuary. The entire estuary is shallow and has a relatively small tidal prism 
+(0.36 Mm3) so even low freshwater flows result in reduced salinity throughout 
+the reserve.  Estimated residence times for freshwater entering the estuary 
+vary from 7 hours to a few days depending on the tidal and mouth conditions.  
+Rainfall within the watershed accounts for most of the freshwater entering the 
+reserve with 90 percent of the mean annual rainfall falling between November 
+and April.  Discharges of freshwater with untreated sewage occur year round 
+although these have decreased with the construction of binational water 
+treatment plant.
+ 
+Specific Site characteristics: Oneonta Slough (OS)
+a) Orientation of site:  The Datalogger station is located on the upper portion 
+of Oneonta Slough.  The channel runs North to South and is located on the 
+northwestern edge of the reserve. Latitude is 32 deg  34 min 04.8 sec N, 
+longitude is 117 deg 07 min 52.3 sec W.
+b) The elevation of the channel bottom directly below the datalogger is approx. 
+0.55m below Mean Sea Level.
+c) Channel width is approx. 20 meters.  Datalogger site is located 1km from 
+mouth
+d) Bottom type: sand and sediment
+e) Area adjacent to west side of channel is developed. There is a 50 meter 
+buffer of natural vegetation between development and the channel.  Area adjacent 
+to east side of channel is relatively natural.
+f) Direct impacts are estimated to be runoff from streets into channel during 
+rain events.
+
+Specific Site Characteristics:  Model Marsh (MM)
+a) Orientation of site: The datalogger station is located in the middle of a 
+natural channel which runs north to south.  The channel is approximately 20 
+meters north of a newly constructed 20 acre mudflat restoration area in
+the southern section or the reserve.  Latitude is 32 deg 32 min 52.5 sec N,
+longitude is 117 deg 07 min 22.9 sec W for data collected January and February 
+2003. As of March 13, 2003 site was relocated to lat:  32deg 32min 
+52.1sec long: 117deg 7min 22.5sec due to heavy sedimentation. 
+b) The elevation of the channel bottom: -.39 NGVD (last reading: 2001)
+c) Channel width: 5 meters
+d) Bottom type:  Mostly mud with some sand
+
+Specific Site Characteristics:  Tidal Linkage (TL)
+a) Orientation of site:  Datalogger station is located in the middle of the
+constructed channel known as the Tidal Linkage.  The channel runs Northwest
+to Southwest and is located adjacent to the visitor's center in the
+northeastern section of the reserve. Latitude is 32 deg 34 min 27.9 sec N,
+longitude is 117 deg 07 min 37.8 sec W. 
+b) The elevation of the channel bottom: no survey data available.
+c) Channel width:  Approximately 5 meters at both the old and new sites
+d) Bottom type: very fine mud.
+
+Specific Site Characteristics:  River Channel (RC)
+a) Orientation of site:  Datalogger station is located in the main channel of 
+the Tijuana River, the main drainage of the watershed. The channel runs East to 
+West. Latitude is 32 deg 33 min 28.4 sec N, longitude is 117 deg 06 min 21.8 sec 
+W, 
+b) The elevation of the channel bottom: no survey data available.
+c) Channel width:  Approximately 10 meters
+d) Bottom type: mostly sand, some mud.
+
+
+6.  Data Collection period
+
+Unless otherwise noted, YSI model 6600 EDS dataloggers were used to collect data 
+for the following dates and times.
+
+Oneonta Slough
+Began				Ended
+Date		Time		Date		Time
+12/06/2002	17:00		01/07/2003	16:00
+01/10/2003	11:00		02/18/2003	15:30
+02/18/2003	16:00		03/19/2003	15:00
+03/20/2003	16:30		04/22/2003	11:30
+04/24/2003	15:30		05/14/2003	13:30
+05/16/2003	16:30		06/11/2003	13:00
+06/20/2003	10:30		07/09/2003	12:30
+07/10/2003	13:30		08/05/2003	12:00
+08/06/2003	13:00		09/09/2003	14:30
+09/10/2003	16:00		09/23/2003	13:30
+09/24/2003	16:30		10/21/2003	13:00
+10/24/2003	14:00		11/20/2003	14:30
+11/21/2003	17:30		12/18/2003	12:00
+12/19/2003	15:30		01/14/2004	12:00
+
+Model Marsh
+Began				Ended
+Date		Time		Date		Time
+12/06/2002	16:00		01/07/2003	14:00
+01/10/2003	10:30		02/17/2003	15:00
+03/13/2003	11:30		03/19/2003	13:30
+03/20/2003	12:30		04/21/2003	12:30
+04/23/2003	15:00		05/14/2003	12:30
+05/16/2003	14:00		06/11/2003	12:30
+07/17/2003	6:00		08/13/2003	05:00
+08/14/2003	15:30		09/09/2003	13:00
+09/11/2003	15:30		09/23/2003	12:30
+09/24/2003	14:00		10/21/2003	11:30
+10/22/2003	15:00		11/20/2003	16:00
+11/21/2003	15:30		12/18/2003	13:00
+12/19/2003	16:30		01/14/2004	13:00
+
+Tidal Linkage
+Began				Ended
+Date		Time		Date		Time
+03/11/2003	12:00		03/19/2003	15:00
+03/21/2003	16:30		04/22/2003	12:30
+04/24/2003	17:00		05/14/2003	13:30
+05/19/2003	11:30		06/11/2003	14:00
+06/13/2003	15:30		07/09/2003	12:30
+07/10/2003	13:00		08/05/2003	12:00
+08/06/2003	13:30		09/09/2003	14:30
+09/10/2003	16:30		09/26/2003	05:30
+10/01/2003	11:30		10/21/2003	13:30
+10/25/2003	15:00		11/20/2003	14:00
+11/21/2003	17:30		12/18/2003	12:00
+12/19/2003	14:30		01/14/2004	12:00
+
+River Channel
+Began				Ended
+Date		Time		Date		Time
+12/09/2002	10:00		01/07/2003	13:00
+01/10/2003	12:00		02/18/2003	16:00
+02/18/2003	17:00		04/10/2003	14:00
+04/11/2003	15:00		04/22/2003	11:30
+04/23/2003	16:00		05/14/2003	13:00
+05/16/2003	15:30		06/11/2003	13:00
+06/13/2003	12:30		07/09/2003	12:00
+07/10/2003	14:00		08/05/2003	13:00
+08/06/2003	14:30		09/09/2003	13:30
+09/11/2003	16:00		09/23/2003	13:00
+09/24/2003	15:00		10/21/2003	12:30
+10/22/2003	16:00		11/20/2003	15:00
+11/21/2003	16:30		12/18/2003	12:30
+12/19/2003	16:00		01/14/2004	12:30
+
+
+7.  Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data. The PI retains the right to be fully credited for having collected 
+and processed the data. Following academic courtesy standards, the PI and NERR 
+site where the data were collected will be contacted and fully acknowledged in 
+any subsequent publications in which any part of the data are used. Manuscripts 
+resulting from the NOAA/OCRM supported research that are produced for 
+publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration. The data set 
+enclosed within this package/transmission is only as good as the quality 
+assurance and quality control procedures outlined by the enclosed metadata 
+reporting statement. The user bears all responsibility for its subsequent 
+use/misuse in any further analyses or comparisons. The Federal government does 
+not assume liability to the Recipient or third persons, nor will the Federal 
+government reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data. NERR water quality data 
+and metadata can be obtained from the Research Coordinator at the individual 
+NERR site (please see section 1. Principal investigators and contact persons), 
+from the Data Manager at the Centralized Data Management Office (please see 
+personnel directory under general information link on CDMO homepage) and online 
+at the CDMO homepage http://cdmo.baruch.sc.edu. Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+
+8.  Associated researchers and projects
+
+NERR SWMP tier 1 nutrient sampling is being conducted at all water quality 
+datalogger stations. NERR SWMP meteorological sampling is being conducted at 1 
+station  which is located near the Tidal Linkage water quality station.
+Within the watershed, above the River Channel site, nutrient sampling and flow 
+studies are being conducted by Dr. Richard Gersberg of the San Diego State 
+University Department of Public Health.  The Model Marsh is the ongoing site of 
+research being conducted by PERL which focuses on methods for increasing the 
+success of saltmarsh revegetation projects.
+
+
+II. Physical Structure Descriptors
+
+
+9. Variable Sequence, range of measurements, units, resolution, and accuracy
+
+YSI 6600 EDS datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+10.  Coded variable indicator and variable code definitions 
+
+Site definitions:  
+
+OS = Oneonta Slough  MM = Model Marsh TL = Tidal Linkage RC = River Channel
+
+Station codes: 
+
+tjroswq = Tijuana River Oneonta Slough Water Quality
+tjrmmwq = Tijuana River Model Marsh Water Quality
+tjrtlwq = Tijuana River Tidal Linkage Water Quality
+tjrrcwq = Tijuana River River Channel Water Quality
+
+
+11. Data anomalies (suspect data)
+
+January 2003
+
+OS
+a)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+01/03/2003	01:00:00	115
+01/03/2003	02:00:00	130
+01/06/2003	06:30:00	357
+01/12/2003	02:30:00	115
+01/14/2003	17:00:00	1849
+01/22/2003	01:00:00	1839
+01/23/2003	15:00:00	723
+01/25/2003	16:30:00	1855
+01/25/2003	17:30:00	1340
+
+
+MM
+a)	Periods of higher than average turbidity values were recorded during the 
+following dates.  A probable cause for these values was not found so data were 
+not removed.
+01/01/2003 - 01/07/2003
+01/13/2003 - 01/16/2003
+01/25/2003 - 01/30/2003
+
+c)	01/01/2003 00:00:00 - 01/07/2003 14:30:00, Time values offset by +00:00:20 
+(20 seconds), data were corrected to closest 00:00 or 00:30 min interval.
+
+
+RC
+a)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+01/23/2003 23:30:00
+01/27/2003 15:00:00 - 18:30:00
+01/27/2003 23:00:00 - 01/28/2003 02:00:00
+01/31/2003 04:30:00
+
+b)	01/01/2003 00:00:00 to 01/07/2003 13:00:00, pH values are missing due to 
+probe malfunction. Data were removed by technician.
+
+c)	01/01/2003 - 01/07/2003 and 01/10/2003 - 01/14/2003, higher than average 
+turbidity values were recorded. No probable cause found.
+
+e)	01/01/2003 00:00:00 - 01/07/2003 15:00:00, Time values offset by -1min, 
+data were corrected - closest 00:00 or 00:30 min interval.
+
+TL
+a)	Heavy sedimentation, redesign of the deployment holder and holder 
+installation at the station prevented deployment from 01/01/2003 through 
+01/31/2003.
+
+
+February 2003
+
+OS
+a)	02/08/2003 through 02/28/2003, lower than average specific conductivity 
+and salinity and higher than average turbidity values were recorded. Likely 
+correlated to rain events. See section 14 for rain event details.
+
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+02/24/2003 13:00:00 - 14:00:00
+
+c)	02/25/2003 8:30:00 - 02/28/2003 23:30:00, Turbidity values higher than 
+average. Post deployment calibration check showed wiper was not rotating 
+properly which may have caused higher than average readings in addition to 
+effects of rain event.
+
+MM
+a)	Data deleted for the following dates and times due to heavy sedimentation, 
+which caused site to be relocated for the March deployment.
+02/12/2003 12:30:00 - 02/17/2003 15:00:00 
+
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+02/10/2003 12:00:00 - 15:30:00
+02/11/2003 13:30:00 - 15:30:00
+
+c)	02/11/2003 - 02/12/2003, higher than average turbidity values were 
+recorded, likely correlated with rain events that occurred 02/11/2003 - 
+02/14/2003 or sedimentation problems that later caused the site to be relocated.  
+Data are suspect but were not removed.
+
+
+RC
+a)	02/11/2003 through 02/28/2003, lower than average specific conductivity, 
+salinity, and dissolved oxygen values were recorded. Likely correlated to rain 
+events and resulting changes in channel morphology which caused decreased tidal 
+exchange. See section 14 for rain event details.
+
+b)	02/12/2003 through 02/28/2003, higher than average depth values were 
+recorded. Likely correlated to rain events and resulting changes in channel 
+morphology. See section 14 for rain event details.  
+
+c)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+02/01/2003 03:00:00 - 05:00:00
+02/01/2003 17:30:00 - 20:30:00
+02/02/2003 03:30:00 - 05:30:00
+02/02/2003 19:00:00 - 21:00:00
+02/04/2003 05:00:00 - 07:30:00
+02/04/2003 17:00:00 - 22:00:00
+02/05/2003 04:30:00 - 08:30:00
+02/05/2003 16:30:00 - 22:30:00
+02/06/2003 06:00:00 - 07:00:00
+02/06/2003 17:00:00 - 23:00:00
+02/07/2003 06:30:00 - 11:30:00
+02/07/2003 15:30:00 - 23:00:00
+02/08/2003 08:00:00 - 19:00:00
+02/10/2003 11:00:00 - 23:30:00
+02/11/2003 12:00:00 - 16:00:00
+
+c)	02/07/2003 - 02/28/2003, higher than average turbidity values were 
+recorded. No probable cause found.
+
+
+TL
+a)	Heavy sedimentation, redesign of the deployment holder and holder 
+installation at the station prevented deployment from 02/01/2003 through 
+02/28/2003.
+
+
+March 2003
+
+OS
+a)	Lower than average specific conductivity and salinity values were recorded 
+throughout the month. Likely correlated to rain events. See section 14 for rain 
+event details.
+
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.	
+03/03/2003 18:00:00 - 18:30:00
+03/04/2003 17:30:00 - 18:30:00
+03/10/2003 11:30:00 - 13:00:00
+03/11/2003 11:00:00 - 14:30:00
+03/12/2003 12:30:00 - 16:00:00
+03/13/2003 14:30:00 - 16:00:00
+03/14/2003 15:00:00 - 16:30:00
+03/23/2003 11:30:00
+03/26/2003 14:30:00 - 16:00:00
+03/27/2003 12:30:00 - 16:00:00
+03/28/2003 15:00:00 - 16:30:00
+03/31/2003 03:30:00 - 04:30:00
+03/31/2003 15:30:00 - 17:30:00
+
+c)	03/01/2003 - 03/19/2003, higher than average turbidity values were 
+recorded. Likely correlated to rain events. See section 14 for rain event 
+details.
+
+d)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+03/25/2003	10:00:00	331
+
+
+MM
+a)	03/15/2003, 16:30:00 - 03/19/2003, 13:30:00; Lower than average specific 
+conductivity and salinity values were recorded. Likely correlated to rain 
+events. See section 14 for rain event details.
+
+b)	A period of higher than average turbidity values was recorded during the 
+following dates which was not consistent with the overall dataset.  A probable 
+cause for these values was not found so data were not removed.
+03/13/2003 to 03/14/2003
+
+c)	03/15/2003 to 03/19/2003, highly positive turbidity values were recorded, 
+likely correlated with rain events that occurred 03/15/2003 - 03/16/2003.  Data 
+were not removed.
+
+d)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+03/22/2003	03:00:00	108
+
+e)	03/20/2003 12:00:00 - 03/31/2003 23:30:00, Time values offset by -1min, 
+data were corrected to closest 00:00 or 00:30 min interval.
+
+f) No pH probe installed due to broken probe; therefore no pH data for the 
+following dates/times:
+03/13/03 11:30:00 - 03/19/03 13:30:00
+
+
+RC
+a)	Lower than average specific conductivity and salinity values were recorded 
+throughout the month. Likely correlated to rain events. See section 14 for rain 
+event details.
+
+b)	03/15/2003 through 03/16/2003, higher than average depth values were 
+recorded. Likely correlated to rain events. See section 14 for rain event 
+details.
+
+c)	03/28/2003 through 03/31/2003, Lower than average pH values were recorded. 
+Likely cause not known but possibly related to decreased tidal exchange caused 
+by changes in channel morphology.
+
+d)	03/01/2003 - 03/20/2003, higher than average turbidity values were 
+recorded.  Likely correlated to rain events. See section 14 for rain event 
+details.
+
+e)	03/22/2003 - 03/31/2003, higher than average turbidity values were 
+recorded. Likely cause not known as period does not correspond directly to rain 
+event dates. Data retained.
+
+f) Negative dissolved oxygen outliers from 03/13/2003 20:00:00 - 03/15/2003 08:00:00 
+were retained in dataset. Reason for anomalous data unknown. 
+
+g) Anomalous dissolved oxygen data 03/15/2003 19:30:00 - 03/23/2003 05:00:00 due to 
+rain. See Section 14 for more rain details. 
+
+
+TL
+a) Heavy sedimentation, redesign of the deployment holder and holder 
+installation at the station prevented deployment from 03/01/2003 00:00 through 
+03/11/2003 11:30:00.
+
+b)	03/11/2003 - 03/19/2003 and 03/21/2003 - 03/31/2003, higher than average 
+turbidity values were recorded. Likely correlated to rain events. See section 14 
+for rain event details.
+
+c)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+03/27/2003 14:00:00 - 17:00:00
+
+
+April 2003
+
+OS
+a)	04/14/2003 through 04/28/2003; Lower than average specific conductivity 
+and salinity values were recorded. Likely correlated to rain events. See section 
+14 for rain event details.
+
+b)	04/24/2003 through 05/03/2003, Much higher than average dissolved oxygen 
+values were recorded. Likely seasonal.
+
+c)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed
+04/01/2003 04:00:00 - 05:00:00
+04/01/2003 16:30:00 - 17:00:00
+04/07/2003 08:30:00
+04/08/2003 11:00:00 - 12:30:00
+04/09/2003 10:00:00 - 14:00:00
+04/10/2003 12:30:00 - 14:30:00
+04/11/2003 15:00:00
+04/12/2003 14:30:00 - 15:30:00
+04/16/2003 16:30:00
+04/17/2003 06:00:00
+04/17/2003 16:30:00
+04/18/2003 07:00:00
+04/20/2003 07:30:00 - 10:00:00
+04/21/2003 08:00:00 - 10:30:00
+04/22/2003 08:30:00 - 11:30:00
+04/25/2003 12:30:00 - 15:30:00
+04/26/2003 12:00:00 - 15:30:00
+04/27/2003 01:30:00 - 02:30:00
+04/27/2003 13:00:00 - 16:00:00
+04/28/2003 02:00:00 - 04:00:00
+04/28/2003 13:30:00 - 16:00:00
+04/29/2003 02:30:00 - 05:00:00
+04/29/2003 15:00:00 - 16:00:00
+04/30/2003 03:30:00 - 05:30:00
+04/30/2003 15:00:00 - 16:00:00
+
+d)	04/24/2003, 15:30:00 to 04/30/2003, 23:30:00; pH values were higher than 
+average. The reason for this is not known and the period of higher values does 
+not correspond directly to rain events. Data were not removed.
+
+e)	04/09/2003 though 04/22/2003, higher than average turbidity values were 
+recorded.  Likely correlated to rain events. See section 14 for rain event 
+details.
+
+
+MM
+a)	04/14/2003 15:30:00 - 04/21/2003 12:30:00, Lower than average specific 
+conductivity, salinity, and DO values were recorded. Likely correlated to rain 
+events. See section 14 for rain event details.
+
+b)	04/01/2003 through 04/14/2003, Lower than average pH values were recorded. 
+Likely cause not known but possibly related to decreased tidal exchange caused 
+by changes in channel morphology.
+
+c)	04/14/2003 through 04/16/2003, higher than average turbidity values were 
+recorded, likely correlated with rain events that occurred 04/13/2003 - 
+04/15/2003. See section 14 for rain event details.  Data were not removed.
+
+d)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+04/02/2003	09:30:00	1059
+04/07/2003	15:00:00	991
+04/21/2003	08:30:00	1858
+
+e) 04/01/2003 00:00:00 - 04/21/2003 12:30:00, Time values offset by -1min, data 
+were corrected - closest 00:00 or 00:30 min interval.
+
+
+RC
+a)	Lower than average specific conductivity and salinity and higher than 
+average turbidity values were recorded throughout the month. Likely correlated 
+to rain events and resulting changes in channel morphology which caused 
+decreased tidal exchange at the station. See section 14 for rain event details.
+
+b)	04/14/2003 through 04/22/2003, much lower than average dissolved oxygen 
+and were recorded, likely correlated to large rain event on 4/14/2003. See 
+section 14 for rain event details.
+
+c)	04/14/2003 through 04/15/2003, higher than average depth values were 
+recorded. Likely correlated to rain events. See section 14 for rain event 
+details.
+
+
+TL
+a)	04/01/2003 - 04/22/2003, a period of higher than average turbidity values 
+was recorded.  A probable cause for these values was not found so data were not 
+removed.  Rainfall events were recorded on 04/13/2003 - 04/15/2003, 04/17/2003, 
+and 04/22/2003.
+
+
+May 2003
+
+OS
+a)	05/03/2003 through 05/13/2003; Lower than average specific conductivity 
+and salinity and higher than average turbidity values were recorded. Likely 
+correlated to rain events. See section 14 for rain event details.
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+05/01/2003	04:00:00	- 	06:30:00	
+05/01/2003	15:30:00	-	16:00:00	
+05/02/2003	04:00:00	-	07:00:00	
+05/03/2003	04:30:00	-	07:30:00	
+05/05/2003	07:00:00	-	08:30:00	
+05/06/2003	08:00:00	-	09:30:00	
+05/07/2003	08:30:00	-	11:30:00	
+05/10/2003	12:30:00	-	14:00:00	
+05/11/2003	13:30:00	-	14:30:00	
+05/12/2003	14:30:00	
+05/13/2003	14:30:00	-	15:00:00	
+05/14/2003	03:30:00	-	04:30:00	
+05/30/2003	04:00:00	-	06:00:00	
+c)	04/24/2003 through 05/03/2003, Much higher than average dissolved oxygen 
+values were recorded. Likely seasonal.
+
+
+MM
+a)	05/16/2003, 14:00:00 - 05/31/2003, 23:30:00; all parameters are missing. 
+logger was buried under sediment during deployment. Data were removed by 
+technician.
+
+b)	05/04/2003 22:30:00 to 05/14/2003 12:30:00, pH values are missing due to 
+probe malfunction during deployment. Data were removed by technician.
+
+c)	05/16/2003 through 05/17/2003 and 05/21/2003 through 05/23/2003, higher 
+than average turbidity values were recorded.  A probable cause for these values 
+was not found so data were not removed.
+
+d)	05/18/2003 through 05/20/2003 and 05/25/2003 through 05/31/2003, Lower 
+than average turbidity values (0 and -1 NTU) were recorded.  A probable cause 
+for these values was not found so data were not removed.
+
+a)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A rain 
+event on 05/03/2003 may likely be correlated with this value so data were not 
+removed.
+Date		Time		Turbidity
+05/03/2003	06:00:00	2357
+
+
+RC
+a)	05/01/2003 through 05/13/2003, Lower than average specific conductivity 
+and salinity values were recorded. Likely correlated to rain events. See section 
+14 for rain event details.
+
+b)	05/01/2003 through 05/04/2003 and 05/09/2003 through 05/14/2003, higher 
+than average turbidity values were recorded.  Likely correlated to rain events. 
+See section 14 for rain event details.
+
+
+TL
+
+a)	05/04/2003 - 05/15/2003, a period of higher than average turbidity values 
+was recorded.  Likely correlated to rain events. See section 14 for rain event 
+details.
+
+b)	05/19/2003 - 05/22/2003 and 05/25/2003 - 05/31/2003, a period of higher 
+than average turbidity values was recorded.  A probable cause for these values 
+was not found so data were not removed.  
+
+c)	The following negative turbidity values were recorded which were not 
+consistent with the overall data set.  A probable cause for these values was not 
+found so data were not removed.
+Date		Time		Turbidity
+05/12/2003 10:00:00	-1
+05/13/2003 10:30:00	-1
+ 
+d)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+05/01/2003	07:30:00	348
+05/03/2003	07:30:00	372
+05/03/2003	09:00:00	383
+
+
+June 2003
+
+OS
+a)	06/01/2003 - 06/07/2003, higher than average turbidity values were 
+recorded. A probable cause is not known. Data were not removed.
+
+b)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  
+Date		Time		Turbidity
+06/10/2003	13:30:00	133
+06/20/2003	17:00:00	105
+06/27/2003	21:30:00	197
+06/29/2003	15:30:00	141
+
+c)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+06/02/2003	06:00:00	- 	07:30:00	
+06/04/2003	08:30:00	-	10:00:00	
+06/08/2003	11:00:00	-	12:00:00	
+06/24/2003	01:30:00	-	02:00:00	
+06/25/2003	02:30:00	-	03:30:00	
+06/28/2003	04:30:00	-	06:00:00	
+06/29/2003	04:30:00	-	05:30:00	
+
+d) 06/24/2003 - 06/25/2003, higher than average turbidity values were recorded.  
+Likely correlated to rain events. See section 14 for rain event details.
+
+
+MM
+a) 06/01/2003, 00:00:00 - 06/11/2003, 12:30:00; all parameters are missing. 
+logger was buried under sediment during deployment. Data were removed by 
+technician.
+
+b)	06/01/2003 through 06/11/2003, Lower than average turbidity values (0 and 
+-1 NTU) were recorded.  A probable cause could not be found. 
+
+c)	06/11/2003 13:00:00 - 06/30/2003 23:30:00, logger not deployed because 
+site had to be moved due to heavy sedimentation.
+
+
+RC
+a)	06/08/2003 through 06/11/2003 and 06/19/2003 through 06/20/2003, higher 
+than average turbidity values were recorded which do not correspond directly to 
+dates of rain events. 
+
+b)	06/23/2003 - 06/30/2003, higher than average turbidity values were 
+recorded.  Likely correlated to rain events. See section 14 for rain event 
+details.
+
+
+TL
+a)	06/13/2003 - 06/30/2003, a period of higher than average turbidity values 
+was recorded.  A probable cause for these values was not found so data were not 
+removed.  Rainfall events were recorded on 06/20/2003 and 06/21/2003.
+
+
+July 2003
+
+OS
+a)	07/18/2003 - 07/31/2003, higher than average turbidity values were 
+recorded. A probable cause is not known. Data were not removed.
+
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+07/03/2003 06:30:00 - 09:00:00
+07/04/2003 07:00:00 - 09:30:00
+07/05/2003 07:30:00 - 09:30:00
+07/06/2003 08:30:00 - 09:30:00
+07/15/2003 06:30:00 - 08:00:00
+07/16/2003 06:30:00 - 08:30:00
+07/17/2003 06:30:00
+
+c)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  
+Date		Time		Turbidity
+07/13/2003	15:30:00	182
+07/22/2003	16:30:00	217
+07/31/2003	01:00:00	235
+
+
+MM
+a) 07/01/2003 00:00:00 - 07/17/2003 05:30:00, logger not deployed because site 
+had to be moved due to heavy sedimentation.
+
+
+RC
+a)	07/01/2003 - 07/09/2003 and 07/24/2003 - 07/31/2003, higher than average 
+turbidity values were recorded.  A probable cause for these values was not 
+found.
+
+b)	The following slightly negative turbidity value was recorded.  A probable 
+cause for this value was not found so data was not removed.	
+Date	Time	Turbidity
+07/08/2003	20:00:00	-1
+
+
+TL
+a)	07/01/2003 - 07/09/2003 and 07/10/2003 - 07/31/2003, a period of higher 
+than average turbidity values was recorded.  A probable cause for these values 
+was not found so data were not removed.
+
+
+August 2003
+
+OS
+a)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+08/11/2003 05:00:00 - 06:00:00
+08/12/2003 05:30:00 - 06:30:00
+08/13/2003 06:00:00 - 06:30:00
+08/14/2003 06:00:00 - 07:00:00
+08/15/2003 06:00:00 - 06:30:00
+08/23/2003 02:00:00 - 04:00:00
+08/24/2003 03:00:00 - 04:30:00
+08/25/2003 03:30:00 - 05:00:00
+08/26/2003 04:00:00 - 05:30:00
+08/27/2003 05:00:00 - 06:00:00
+08/28/2003 05:00:00 - 06:00:00
+08/29/2003 05:30:00 - 06:30:00
+08/29/2003 17:00:00 - 17:30:00
+08/30/2003 05:30:00 - 06:30:00
+08/30/2003 18:00:00
+08/31/2003 05:30:00 - 07:00:00
+08/31/2003 19:00:00 - 19:30:00
+
+b)	08/03/2003 11:00:00 to 08/05/2003 12:00:00; pH values are missing due to 
+probe failure during deployment. Data were removed by technician.
+
+c)	08/01/2003 - 08/05/2003, higher than average turbidity values were 
+recorded. A probable cause is not known. Data were not removed.
+
+d) 08/06/2003 12:30:00 - 08/31/2003 23:30:00, Time values offset by -1min, data 
+were corrected - closest 00:00 or 00:30 min interval.
+
+
+MM
+a)	08/09/2003 through 08/11/2003, Higher than average turbidity values were 
+recorded.  A probable cause for these values was not found so data were not 
+removed.
+
+b)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+08/15/2003	09:30:00	157
+08/24/2003	18:30:00	801
+08/24/2003	19:00:00	1780
+08/27/2003	20:00:00	887
+
+
+RC
+a)	08/01/2003 - 08/05/2003, higher than average turbidity values were 
+recorded.  A probable cause for these values was not found.
+
+
+TL
+a)	08/01/2003 - 08/05/2003, a period of higher than average turbidity values 
+was recorded.  A probable cause for these values was not found so data were not 
+removed.
+
+b)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+08/10/2003	14:30:00	366
+
+
+September 2003
+
+OS
+a)	09/04/2003 20:30:00 - 09/09/2003 14:30:00, all values missing, batteries 
+died. 
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+09/02/2003 22:00:00 - 22:30:00
+09/03/2003 23:00:00 - 23:30:00
+09/04/2003 00:00:00 - 01:00:00
+09/12/2003 17:00:00 - 17:30:00
+09/13/2003 04:30:00 - 06:00:00
+09/13/2003 17:30:00 - 18:00:00
+09/16/2003 19:30:00 - 21:00:00
+09/17/2003 21:30:00 - 23:00:00
+09/18/2003 22:00:00 - 23:30:00
+09/19/2003 00:00:00 - 01:30:00
+09/19/2003 23:00:00 - 23:30:00
+09/20/2003 00:00:00 - 02:30:00
+09/21/2003 00:30:00 - 03:00:00
+09/22/2003 02:00:00 - 03:30:00
+09/23/2003 02:30:00 - 04:30:00
+09/25/2003 16:00:00
+09/26/2003 05:00:00
+09/26/2003 17:00:00
+09/27/2003 05:00:00
+c)	09/01/2003 00:00:00 - 09/04/2003 19:30:00, Time values offset by -1min, 
+data were corrected - closest 00:00 or 00:30 min interval.
+
+
+MM
+a)	09/01/2003 through 09/09/2003 and 09/15/2003 through 09/20/2003, Higher 
+than average turbidity values were recorded.  A probable cause for these values 
+was not found so data were not removed.
+
+b)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+09/21/2003	17:30:00	169
+09/22/2003	18:00:00	173
+
+c)	09/11/2003 14:30:00 - 09/23/2003 12:30:00, Time values offset by -1min, 
+data were corrected - closest 00:00 or 00:30 min interval.
+
+
+RC
+a)	09/03/2003 - 09/08/2003, higher than average turbidity values were 
+recorded.  A probable cause for these values was not found.
+
+a)	09/11/2003 15:30:00 - 09/23/2003 13:30:00, Time values offset by -1min, 
+data were corrected - closest 00:00 or 00:30 min interval.
+
+
+TL
+a)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+09/12/2003	16:00:00	102
+09/18/2003	20:00:00	103
+
+
+October 2003
+
+OS
+a) 10/01/2003 - 10/10/2003 Negative DO % and DO mg/l most likely due to red tide 
+conditions observed during retrieval of sonde as well as diurnal tidal conditions 
+occurring at time of anomalous DO data. Data were not deleted. 
+
+b)	10/11/2003 00:30:00 to 10/21/2003 13:00:00; DO % and DO mg/l missing. 
+probe malfunction during deployment. Data were removed by technician.
+
+c) Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+10/01/2003 22:00:00 - 22:30:00
+10/02/2003 23:00:00 - 23:30:00
+10/03/2003 00:00:00 - 01:00:00
+10/04/2003 00:30:00 - 02:00:00
+10/05/2003 02:00:00 - 02:30:00
+10/29/2003 21:30:00
+10/30/2003 22:00:00 - 22:30:00
+
+d)	10/15/2003, 08:00:00 - 10/21/2003, 13:00:00; lower than average variation 
+in pH values was recorded. Post calibration of the probe did not indicate any 
+problems so data were not removed.
+
+e)	10/06/2003 - 10/18/2003, Higher than average turbidity values were 
+recorded.  A probable cause for these values was not found so data were not 
+removed.
+
+f)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+10/19/2003	22:30:00	162
+10/20/2003	09:00:00	157
+
+
+MM
+a)	Highly positive turbidity spikes (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found so data were not removed.
+Date		Time		Turbidity
+10/10/2003	18:00:00	1615
+
+b) 10/14/2003 - 10/21/2003 Low DO % and DO mg/l values most likely due to red tide 
+conditions observed during retrieval of sonde as well as diurnal tidal conditions 
+occurring at time of anomalous DO data. Data were not deleted.
+
+
+RC
+a)	10/07/2003 22:30:00 to 10/21/2003 12:30:00, Lower than average dissolved 
+oxygen were recorded. Likely cause could not be determined. Data were not 
+removed.
+ 
+b)	10/14/2003 - 10/21/2003, Higher than average turbidity values were 
+recorded.  A probable cause for these values was not found so data were not 
+removed.
+
+
+TL
+a)	10/15/2003 23:30:00 to 10/21/2003 13:30:00, DO % and DO mg/l values 
+missing due to probe malfunction during deployment. Data were removed by 
+technician.
+
+b)	Negative or near 0 depth values were recorded during the following dates 
+and times. Sensors were not out of water so data were not removed.
+10/21/2003 14:00:00 - 16:00:00
+
+c)	10/12/2003 - 10/21/2003, a period of higher than average turbidity values 
+was recorded which was not consistent with the overall dataset.  A probable 
+cause for these values was not found so data were not removed.
+
+d) 10/18/2003 19:30:00 - 10/19/2003 05:00:00, a period of lower than average pH values 
+were recorded which was not consistent with the overall dataset. A probable cause for 
+these values was not found so data were not removed.
+
+
+November 2003
+
+OS
+a)	11/12/2003 through 11/20/2003 Lower than average specific conductivity and 
+salinity values were recorded. Likely correlated to rain events. See section 14 
+for rain event details.
+
+b)	11/27/2003 through 11/30/2003 Lower than average specific conductivity and 
+salinity values were recorded. Likely cause not known and the period of 
+decreased values does not correspond directly to recorded rain event.
+
+c)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+11/01/2003 00:00:00
+
+d)	11/12/2003 - 11/19/2003, higher than average turbidity values were 
+recorded. Likely correlated to rain events. See section 14 for rain event 
+details.
+
+
+MM
+a)	11/13/2003 08:00:00 to 11/14/2003 18:00:00, Lower than average specific 
+conductivity and salinity values were recorded. Likely correlated to rain 
+events. See section 14 for rain event details.
+
+
+RC
+a)	11/12/2003 - 11/14/2003, higher than average turbidity values were 
+recorded. Likely correlated to rain events. See section 14 for rain event 
+details.
+b) 11/12/2003 - 11/20/2003, Lower than average specific conductivity, salinity, 
+and DO values were recorded. Likely correlated to rain events. See section 14 
+for rain event details.
+
+
+TL
+a) 	11/12/2003 - 11/16/2003, lower than average salinity and specific 
+conductivity values, likely correlated with rain event. See section 14 for rain 
+event details.
+
+
+December 2003
+
+OS
+a)	12/25/2003 through 12/31/2003  Lower than average specific conductivity 
+and salinity and higher than average turbidity values were recorded. Likely 
+correlated to rain events. See section 14 for rain event details.
+
+b)	Negative or 0 depth values were recorded during the following dates and 
+times.  Sensors were not out of water so data were not removed.
+12/22/2003 16:30:00 - 18:00:00
+12/23/2003 17:00:00 - 19:00:00
+12/24/2003 17:30:00 - 20:00:00
+12/25/2003 18:00:00 - 20:00:00
+12/29/2003 19:00:00 - 23:00:00
+12/30/2003 20:30:00 - 22:30:00
+
+c)	Highly positive turbidity values (>100 NTU) were recorded on the following 
+dates and times which were not consistent with the overall data set.  A probable 
+cause for these values was not found.
+Date		Time		Turbidity
+12/23/2003 03:30:00	128
+12/23/2003 05:00:00	154
+12/25/2003 20:00:00 	190
+
+
+MM
+a)	12/25/2003 19:30:00 to 12/27/2003 18:30:00, Lower than average specific 
+conductivity and salinity values were recorded. Likely correlated to rain 
+events. See section 14 for rain event details.
+
+b)	12/27/2003 21:00:00 to 12/31/2003 23:30:00, Higher than average specific 
+conductivity and salinity values were recorded. Possible macro algal wrack 
+around deployment holder.
+
+c)	12/10/2003 through 12/18/2003, Higher than average turbidity values were 
+recorded.  A probable cause for these values was not found so data were not 
+removed.
+
+
+RC
+a)	12/25/2003 - 12/31/2003, higher than average turbidity values and lower 
+than average specific conductivity, salinity, and DO values were recorded. 
+Likely correlated to rain events. See section 14 for rain event details.
+
+
+TL 
+a)	12/23/2003 - 12/31/2003, a period of higher than average turbidity values 
+was recorded.  Likely correlated to rain events. See section 14 for rain event 
+details.
+
+
+12. Missing Data
+
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.    
+
+
+13. Post deployment information
+
+np = no probe installed
+nc = no calibration done
+
+Site	Date		SpCond	DO%		Depth		pH		Turb
+			Std(50)	std(100)	std(0)	std(7) 	std(0)
+
+MM	03/19/03	50.30	97.7	-0.012	np	0.6
+	04/21/03	48.98	99.4	0.000	7.15	0.0
+	05/14/03	49.92	98.6	-0.036	5.99*	0.0
+	06/11/03	51.95	111.1	0.016	np	0.0
+	08/13/03	48.52	98.1	0.010	7.16	0.2
+	09/09/03	50.98	99.7	-0.013	7.21	0.2
+	09/23/03	50.01	62.4	-0.050	7.08	0.2
+	10/21/03	49.16	103.1	-0.013	7.26	0.1
+	11/20/03	49.42	99.2	0.009	7.07	-0.3
+	12/18/03	49.25	101.3	0.039	7.08	0.0
+	01/14/04	49.59	93.6	-0.060	7.35	0.1
+						
+OS	03/19/03	49.79	91.1	-0.008	7.11	nc
+	04/22/03	49.55	66.7	-0.028	7.04	0.1
+	05/15/03	49.56	102.6	-0.018	7.05	0.2
+	06/11/03	49.56	71.4	0.016	7.04	-10.1
+	07/09/03	50.18	91.6	0.009	7.08	-2.7
+	08/05/03	50.15	99.9	0.013	4.93	0.0
+	09/09/03	50.64	97.4	-0.138	7.11	0.1
+	09/23/03	49.19	102.3	-0.034	7.04	0.0
+	10/21/03	50.22	139.5	-0.004	7.04	0.6
+	11/20/03	49.68	99.4	0.018	7.00	-0.8
+	12/18/03	49.66	103.5	0.046	7.02	0.3
+	01/14/04	50.03	101.0	-0.050	7.01	0.0
+						
+RC	04/10/03	49.37	108.5	-0.008	6.95	-0.5
+	04/22/03	49.55	98.9	-0.017	7.03	1.1
+	05/15/03	49.35	100.2	0.002	7.03	-0.6
+	06/11/03	49.42	99.8	0.018	7.04	0.3
+	07/09/03	49.21	76.9	0.004	7.04	0.8
+	08/05/03	49.69	48.8	0.014	7.13	0.0
+	09/09/03	49.72	100.5	-0.016	7.06	0.2
+	09/23/03	49.35	107.1	-0.042	7.05	0.2
+	10/21/03	48.97	126.0	-0.011	7.09	0.5
+	11/20/03	49.80	100.0	0.009	7.05	0.0
+	12/18/03	49.31	100.5	0.049	7.01	0.3
+	01/14/04	50.11	102.8	-0.052	7.02	-0.8
+						
+TL	03/19/03	49.12	96.5	0.016	7.20	0.4
+	04/22/03	49.59	100.9	-0.024	7.11	-0.1
+	05/15/03	49.30	???	-0.013	7.16	0.5
+	06/11/03	49.65	98.8	-0.006	7.05	-0.1
+	07/09/03	45.22	97.5	-0.031	6.99	nc
+	08/05/03	50.80	nc	0.012	7.04	0.0
+	09/09/03	15.47	95.6	-0.019	7.12	
+	09/26/03	48.42	93.0	0.005	7.06	0.3
+	10/21/03	50.35	104.2	-0.037	6.91	0.0
+	11/20/03	50.03	99.3	-0.016	7.05	0.5
+	12/18/03	49.67	98.8	0.050	7.02	-0.1
+	01/14/04	49.49	101.4	-0.040	7.05	-0.2
+
+
+14. Other Remarks
+
+a) There were a few instances at this NERR site where turbidity recorded small 
+negative values (-0001 and -0002). Because turbidity has a range of accuracy of 
++/-2 NTU, the technician did not edit or deleted these values in any way. 
+
+b) Hypoxic (< 20%) and super-saturation (>100%) dissolved oxygen events were 
+recorded at all sites. The events were cyclic (primarily diel) and the duration 
+of each event was less than 24hrs.
+
+c) 2003 Daily Rainfall Totals Recorded at Tijuana Estuary	
+Date		ppt_mm
+01/15/04	0.254b   
+01/20/04	1.27
+02/08/04	2.54
+02/11/04	9.906
+02/12/04	29.464
+02/13/04	7.62
+02/14/04	9.652
+02/20/04	1.016
+02/25/04	31.75
+02/27/04	6.604
+03/04/04	7.874
+03/05/04	0.254
+03/15/04	25.146
+03/16/04	13.97
+04/13/04	1.016
+04/14/04	28.702
+04/15/04	0.254
+04/17/04	3.81
+04/22/04	0.762
+05/03/04	3.302
+05/07/04	1.524
+05/08/04	0.254
+06/20/04	2.032
+06/21/04	0.508
+10/10/04	0.254
+10/25/04	0.254
+11/01/04	2.032
+11/12/03	6.35
+12/07/03	3.556
+12/14/03	0.254
+12/20/03	0.254
+12/21/03	0.254
+12/23/03	0.508
+12/24/03	0.508
+12/25/03	8.382

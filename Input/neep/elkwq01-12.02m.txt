@@ -1,0 +1,1462 @@
+Elkhorn Slough (ELK) NERR Water Quality Metadata 
+January - December, 2002
+Last updated August 25, 2003
+
+
+I. Data Set and Research Descriptors
+
+1. Principal Investigators and Contact Persons
+Kerstin Wasson, Research Coordinator		Elkhorn Slough NERR
+research@elkhornslough.org				1700 Elkhorn Rd
+John C. Haskins, Research Assistant 		Watsonville, CA 95076
+Jhaskins@mlml.calstate.edu				(831) 728-2822 
+						
+
+
+2. Entry verification:
+        Data are uploaded to the PC from the YSI Model 6000 and 6600 datasonde 
+and graphs are produced and examined using the Ecowatch program software. Data 
+are also uploaded in a comma-delimited format from the YSI to the PC. Edited 
+files are created by removing headers, footers, and spaces on a PC in Excel 5.0. 
+Suspect data are evaluated using QA/QC Excel 5.0 macros (version 3.0) from CDMO.
+The CDMO cdmomac3.xls macro will allow the user to automatically format 
+column widths to the correct number of decimal places based on YSI 
+sensor specifications.  It also allows the user to QA/QC each data 
+logger generated file for missing data points, fill all cells that do 
+not contain data with periods, and find all data points that fall 
+outside the range of what the data logger is designed to measure 
+(outliers).  The CDMO import.xls macro will allow PC users with 30-
+minute data to automatically create a monthly Excel file from a two-week 
+deployment and insert periods for missing data.  In addition, in 
+November 1999 a graphing capability was added to this macro allowing 
+users to produce single parameter and missing data point graphs on a 
+monthly basis. Edited and raw data are archived at Elkhorn Slough NERR then 
+uploaded to CDMO NERR server. John Haskins is responsible for the editing and 
+archiving of data.
+
+3. Research objectives:
+        Measurements are taken every 30 minutes over a three to four week period 
+at four sites in Elkhorn Slough. One site South Marsh (SM) is in a relatively 
+unimpacted side channel of the slough and the second, Azevedo Pond (AP) is in a 
+pond that receives fertilizer and pesticide runoff from an adjoining strawberry 
+field. The third site, North Marsh (NM), was added in April 1999 and is located 
+in an area where there is both agricultural and non-agricultural runoff. The 
+fourth site Vierra Mouth, added March 14, 2001, is located at the mouth of the 
+slough and is used to identify oceanic influence. The purpose of this research 
+is to identify the base parameters for Elkhorn Slough by using South Marsh as 
+the control site and the other three sites are impacted sites and monitored for 
+possible future problems.  
+
+4. Research methods: 
+        The Elkhorn Slough water-monitoring program began in July 1995. All 
+four sites described above are monitored simultaneously. Prior to YSI 
+deployment at SM, a 20-foot length of 4-inch diameter PVC pipe was placed in the 
+slough to house the YSI. Holes were drilled in the pipe to remove 10% of the 
+pipe's surface area and to allow water flow across the YSI. The pipe was 
+positioned vertically in the slough with one end pushed into the soft bottom 
+sediments and the other end secured to shore. A bolt in the pipe maintains the 
+YSI exactly one foot (30cm) above the bottom. This setup is exactly the same at 
+North Marsh.  Prior to YSI deployment at AP, a supportive framework of rope and 
+PVC was placed at the site to house the YSI. The structure maintains the YSI 
+exactly one foot (30cm) above the pond bottom. Every half hour over a 30-day 
+period, measurements of specific conductivity, salinity, dissolved oxygen, 
+temperature, depth, turbidity, and pH are recorded. 30-day periods were chosen 
+due to the limitations of the dissolved oxygen membrane and battery power. 
+        At the end of each 30-day period, the YSI is brought back into the lab 
+for downloading, cleaning, and recalibration. Data is downloaded on PC and 
+graphs are printed using the PC 6000 software.  Sonde body and probes are 
+cleaned.  DO membrane is changed and allowed to re-equilibrate for at least 
+eight hours before calibration.  Calibration is performed as outlined in the YSI 
+manual.  Buffer solutions of pH 7 and pH 10 are purchased from a scientific 
+supply house and used for two-point calibration of the pH probe.  A salinity 
+standard of 31.892 ppt was used for calibration of the conductivity probe and in 
+the beginning of July 1999 a conductivity standard of 53 mS/cm was used. The 
+turbidity probe is calibrated using a two-point calibration with DI water and 
+100 NTU standard. As of July 1998 a new YSI is calibrated in the lab in order to 
+replace the previous one in the field. This eliminates the loss of data due to 
+cleaning and calibration. QA/QC is done according to the CDMO manual by John 
+Haskins using the macros provided by the CDMO.  Data are then looked over more 
+rigorously to identify and document anomalies and missing data.  
+
+5. Site location and character:
+        
+Elkhorn Slough is located on the West Coast of the United States in 
+Central California. It connects with the Pacific Ocean in central Monterey Bay 
+near Moss Landing, California. There are three sampling sites.  SM (South 
+Marsh) is in a side channel of the slough and is relatively unimpacted by 
+anthropogenic influences.  The YSI is located on the side of a bank in one of 
+the secondary slough channels.  AP (Azevedo Pond) (36º 50' 44.64"N, 121º 45' 
+13.24" W) is in a pond that receives fertilizer and pesticide runoff from a 
+strawberry field in year-round production. The YSI is located about 10m from a 
+culvert connecting the pond to the slough. Tide ranges from 0 to 1.3 meters, 
+salinity ranges from 8.8 during heavy runoff to 41 ppt during strong 
+evaporation, the sonde is located approximately 30 cm off the bottom, the 
+bottom habitat is silty mud. Depth for this site is approximately 1 meter. NM 
+(North Marsh) (36º 50' 4.75" N, 121º 44' 18.33" W) is located in between South 
+Marsh and Azevedo Pond. This site is impacted by both agricultural and urban 
+runoff. With a mean depth of 1 meter, the tidal range is approximately 0.4 
+meters., salinity ranges between 20 and 40 parts per thousand, there is 
+freshwater runoff from agriculture and upland runoff. The sonde is approximately 
+30 cm off the bottom and the bottom habitat is silty mud. SM (South Marsh) (36º 
+49' 05.00"N, 121º 44' 21.83" W) is located approximately 3 km south of NM and is 
+surrounded by mostly reserve land. This site receives runoff mostly from uplands 
+and some from cattle ranches. This site receives the least amount of pollution. 
+The tidal range from 0 to 3 meters, the salinity range is from 22 to 36 parts 
+per thousand and is approximately 30 cm off the bottom. The bottom is slightly 
+compacted silty mud.  Depth for this site is approximately 2 meters. The fourth 
+site VM (Vierra Mouth) (36º 48' 39.95" N, 121º 44' 45.40" W) is located at the 
+mouth of the slough and is used to identify oceanic influence. With a mean depth 
+of 2.5 meters, the tidal range is from 0 to 3.2 meters, salinity ranges from 26 
+to 34 parts per thousand and the sonde is located approximately 30 cm off the 
+bottom. The bottom habitat is compacted mud and sand because there are strong 
+tidal currents. This site receives drainage from the entire watershed since it 
+is at the mouth. There are several auto wreaking yards located approximately 2 
+km east of this site. 
+
+
+6. Data collection period:
+Sampling at the South Marsh and Azevedo Pond sites began simultaneously at the 
+end of June 1995 and data collection is ongoing. North Marsh began sampling on 
+April 15 1999. Vierra Mouth began sampling on March 14, 2001. 
+
+Deployment dates and times for 2002 are as follows:
+Began					Ended
+Azevedo Pond site
+12/03/2001, 1530			01/03/2002, 0930
+01/03/2001, 1000			01/28/2002, 1300
+01/28/2002, 1330			02/27/2002, 1430
+02/27/2002, 1500			03/25/2002, 1200
+03/35/2002, 1230			04/22/2002, 0830
+04/22/2002, 0900			05/20/2002, 0930
+05/20/2002, 1300			06/17/2002, 0800
+06/17/2002, 1030			07/15/2002, 1330
+08/11/2002, 0800			09/09/2002, 1130
+09/09/2002, 1200			10/07/2002, 1030
+10/07/2002, 1100			11/04/2002, 0000
+11/04/2002, 1200			12/02/2002, 1130
+12/02/2002, 1200			12/30/2002, 1100
+12/30/2002, 1130			01/27/2003, 1100
+
+North Marsh Site
+12/21/2001, 1100			01/22/2002, 1400
+01/22/2002, 1430			02/19/2002, 1100
+02/19/2002, 1130			03/18/2002, 1100
+03/18/2002, 1130			04/15/2002, 1100
+04/15/2002, 1130			05/13/2002, 1000
+05/13/2002, 1300			06/10/2002, 0830
+06/10/2002, 1330			07/08/2002, 1030
+07/08/2002, 1100			08/05/2002, 1130
+08/05/2002, 1200			09/03/2002, 1000
+09/03/2002, 1030			10/01/2002, 1030
+10/01/2002, 1100			10/28/2002, 1200
+10/28/2002, 1500			11/10/2002, 0130
+11/25/2002, 1230			12/19/2002, 0930
+12/19/2002, 1200			01/20/2002, 1130
+
+South Marsh
+12/15/2001, 1500			01/14/2002, 1130
+01/14/2002, 1200			02/11/2002, 1230
+02/11/2002, 1300			03/11/2002, 1200
+03/11/2002, 1230			04/08/2002, 1200
+04/08/2002, 1230			05/06/2002, 0900
+05/06/2002, 1330			06/03/2002, 0730
+06/03/2002, 1230			07/01/2002, 1200
+07/01/2002, 1230			07/29/2002, 1030
+07/29/2002, 1100			08/26/2002, 1200
+08/26/2002, 1230			09/23/2002, 1030
+09/23/2002, 1130			10/21/2002, 0800
+10/21/2002, 1100			11/18/2002, 1100
+11/18/2002, 1130			12/16/2002, 1330
+12/16/2002, 1400			01/13/2002, 1100
+
+Vierra Mouth
+12/10/2002, 1100			01/07/2002, 1200
+01/07/2002, 1230			02/04/2002, 1130
+02/04/2002, 1200			03/04/2002, 1230
+03/04/2002, 1300			04/01/2002, 1100
+04/01/2002, 1130			04/29/2002, 0830
+04/29/2002, 1100			05/28/2002, 0630
+05/28/2002, 1030			06/24/2002, 0830
+06/24/2002, 0930			07/15/2002, 1030
+07/15/2002, 1100			07/22/2002, 0700
+07/22/2002, 1630			08/12/2002, 1300
+08/12/2002, 1400			09/16/2002, 1230
+09/16/2002, 1300			10/14/2002, 0800
+10/14/2002, 1230			11/11/2002, 1000
+11/11/2002, 1400			12/09/2002, 1030
+12/09/2002, 1100			01/06/2002, 1400
+
+7. Distribution
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from this NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and Coastal 
+Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.    
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.   
+
+
+8. Associated researchers and projects:
+	Elkhorn Slough National Estuarine Research Reserve and the Elkhorn Slough 
+Foundation have had an ongoing program to monitor estuarine water quality in the 
+central Monterey Bay region since 1988.  Currently, 24 stations are monitored 
+monthly for temperature, salinity, dissolved oxygen, pH, turbidity, nitrate, 
+ammonium and dissolved inorganic phosphate concentrations.  Two of these 
+stations on the Reserve are about 400 m from the SM site.  Data collection began 
+at these two stations in September 1989.  A monthly monitoring station is 
+also located at Azevedo Pond within 10 m of the YSI deployment.  Monthly data 
+from the Azevedo Pond are available from March 1992.
+	The University of California Santa Cruz Agro Ecology Program has an 
+ongoing project to examine the effects of agricultural production on an adjacent 
+wetland.  Matthew Werner, Marc Los Huertos, Felecia Rein, Sean Swezey, Mark 
+Silberstein, Andrew De Vogelaere, Ron Tjeerdema have been the principal 
+investigators.  
+
+	There are many projects associated with Elkhorn Slough. Please contact 
+this NERR site for a list of ongoing research projects. 
+
+
+II. Physical Structure Descriptors
+
+9. Variable sequence, column format, range of measurements, units:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column. 
+10. Coded variable indicator and variable code definitions:
+File Definitions: YSI deployment site/file definition/month/year (ex: smwq0102 = 
+south marsh water quality data for January 2002).
+SM = South Marsh	AP = Azevedo Pond	NM = North Marsh	VM = Vierra Mouth
+
+11. Data Anomalies:
+
+January 1-31, 2002 Sampling Period
+Azevedo Pond
+Turbidity data are deleted from Jan 12 1530 through the end of the deployment 
+Jan 28 1300 due to a probe malfunction. 
+
+During the following periods turbidity data were anomalously high or negative, 
+data deleted;
+Jan 01	1900
+Jan 02	1330
+Jan 03	0800
+Jan 28	2100-2200
+Jan 31	1330
+
+Salinity data was suspect from Jan 01 0000 through Jan 03 0930 because of probe 
+drift, probably because of mud clogging the probe. Post deployment readings were 
+48.48 in 53 ms/cm2.  Data were not deleted because readings were congruous with 
+the following deployment.
+
+There are no pH data Jan 01 0000 – Jan 03 0930 because the probe was not 
+installed on that deployment. 
+
+North Marsh 
+During the following periods turbidity data were anomalously high or negative;
+Jan 04	1000
+Jan 06	1300
+Jan 09	0500
+Jan 12	0430
+Jan 13	1800
+Jan 20	1500
+
+From the beginning of the month to the end of the first deployment 6 NTU was 
+added to the turbidity data because a poor zero calibration caused numerous 
+negative readings.
+
+South Marsh
+All data are deleted from Jan 28 1630 through 2230 and Jan 29 1700 because 
+salinity probe was out of water.
+
+Turbidity data are missing from the beginning of the second deployment Jan 14 
+1200 through the end of the month because probe was not deployed.
+
+Turbidity data were deleted from Jan 08 1530 through the end of the first 
+Deployment (01/14 1130) because of increasing probe drift.
+
+PH data are suspect from the beginning of the month through the end of the first 
+deployment because of a large jump in data from the end of the first deployment 
+to the beginning of the second deployment (8.11 to 7.88).
+
+DO% and DO mg/L data are suspect from the beginning of the second deployment 
+through Jan 27 because of an increase in data then leveling off.
+
+Vierra Mouth
+Turbidity data was deleted Jan 31 1430 because it was an outlier.
+
+All turbidity data were deleted from the beginning of the month through the end 
+of the first deployment Jan 07 1200 because no probe was deployed.
+
+4 NTU was added to all turbidity data from Jan 7 1230 through the end of the 
+month because numerous values were negative probably due to a poor calibration 
+in DI.
+
+DO% and DO mg/L data were deleted from the beginning of the month through the 
+end of the deployment Jan 07 1200 because data were anomalously high.
+
+All pH data are deleted from the beginning of the second deployment (01/07 1230) 
+through the end of the month because of a malfunctioning probe.
+
+February 1-29, 2002 Sampling Period
+Azevedo Pond
+A significant rain event occurred during feb 16 and 17 where 7 and 22 mm of rain 
+fell. This effect caused low salinity and high turbidity data in Azevedo during 
+these days. 
+
++ 2 NTU was added to turbidity data from the beginning of the month through the 
+end of the first deployment (Feb 27 1430) because there were numerous negative 
+values due to a poor calibration in DI.
+
++ 14 NTU was added to turbidity data from the beginning of the second deployment 
+(Feb 27 1430 through the end of the month) because there were numerous negative 
+values due to a poor calibration in DI.
+
+North Marsh
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Feb 1		2230
+Feb 2		0730
+Feb 3		1830, 0430
+Feb 4		1400
+Feb 5		0530
+Feb 9		1030
+Feb 18	1400, 1430
+
+Turbidity data are missing during the second deployment (02/19 1130 through 
+03/18 1100) because no probe was deployed.
+
+The storm event also affected the salinity at this site, causing decreased 
+salinity during low tides. 
+
+South Marsh
+Turbidity probe was not deployed for the first deployment thus there are no data 
+from the beginning of the month through Feb 11 1200.
+
+Salinity data were deleted from the beginning of the month through the end of 
+the deployment Feb 11 1200 because the probe only read 45.67 in 53 ms/cm. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Feb 21	1530
+Feb 25	1100, 1330
+
+Vierra Mouth
+All data are missing from Feb 02 0730 through 1130 and from Feb 03 0100 through 
+Feb 04 1130 due to a loss of data on the sonde for an unknown reason.
+
+4 NTU was added to all turbidity data from the beginning of the month through 
+the end of the deployment (Feb 02 0630) because numerous values were negative 
+probably due to a poor calibration in DI.
+
+4 NTU was added to all turbidity data from Feb 02 1200 through Feb 03 0030 
+because numerous values were negative probably due to a poor calibration in DI.
+
+19 NTU was added to all turbidity data from Feb 04 1200 through Feb 28 2330 
+because numerous values were negative probably due to a poor calibration in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Feb 06	1830
+Feb 07	1200-1230, 1930
+Feb 08	0430, 1800
+Feb 09	1400 - 1430
+Feb 21	1330
+
+DO data were deleted from Feb 15 0800 through the end of the month due to a 
+membrane puncture that happened at this time.
+
+DO data are suspect at the beginning of the month through the end of the first 
+deployment (02/04 1130) because there is a discontinuity between the end of the 
+first deployment and the beginning of the second deployment. The data were not 
+deleted because the post deployment check was 103% in 100% saturated air.
+
+All pH data are deleted from the beginning of the first deployment through end 
+of deployment 02/02 0630 because of a malfunctioning probe.
+
+All ph data are deleted 02/02 1200 through 02/03 0030 because of a 
+malfunctioning probe.
+
+March 1-30, 2002 Sampling Period
+Azevedo Pond
++ 14 NTU was added to turbidity data from the beginning of the month through the 
+end of the first deployment (Mar 25 1200) because there were numerous negative 
+values due to a poor calibration in DI.
+
+Turbidity data were deleted from the beginning of the second deployment (03/25 
+1230) though the end of the month because no probe was deployed.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Mar 10	1100
+Mar 14	0700
+Mar 22	0930
+
+There was a significant decrease in salinity corresponding to a significant rain 
+event (14 mm) on Mar 17.
+
+North Marsh 
+Turbidity data are missing during the second deployment (02/19 1130 through 
+03/18 1100) because no probe was deployed.
+
+Salinity data were deleted at the end of the first deployment (03/17 0130 
+through 03/18 1100) because they were not congruous with the following 
+deployment.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Mar 18	2200
+Mar 20	1830
+Mar 25	1700
+Mar 27	0000
+Mar 28	0230, 0300, 0500
+Mar 30	0530, 2200
+Mar 31	1630-1730
+
+South Marsh
+The pH data are suspect at the end of the first deployment because they are 
+incongruous with the following deployment and they are generally decreasing.
+
+Salinity data are suspect Mar 02 0200-0230 because there is a sharp drop then 
+back in line with the rest of the data.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Mar 02	0000
+Mar 03	0730
+Mar 05	1230
+Mar 09	1800
+Mar 10	0630
+Mar 12	1800
+Mar 16	1830, 2200
+Mar 17	1230
+Mar 19	1000, 1600, 1700
+Mar 21	1630
+Mar 25	2130
+Mar 27	1900, 2330
+Mar 28	0100-0530
+Mar 29	0200-0600
+Mar 30	0330-0500
+Mar 31	0500
+
+Turbidity data are suspect towards the end of the month because of high 
+concentrations. There was a slight rain of approximately 2 mm which may have 
+caused some higher turbidity values during this time.
+
+Vierra Mouth
+Salinity data were deleted from mar 09 0030 through the end of the month because 
+the conductivity probe malfunctioned.
+
+DO% and DO mg/L data were deleted from the beginning of the month through the 
+end of the deployment (Mar 04 1230) because of previously mentioned membrane 
+puncture.
+
+16 NTU was added to all turbidity data the entire month because numerous values 
+were negative probably due to a poor calibration in DI.
+
+The following turbidity data were anomalously high;
+Mar 13	0500
+Mar 14	0800
+Mar 16	1900
+Mar 17	0000
+Mar 23	1230
+Mar 24	0800
+Mar 25	0600
+Mar 26	1300
+Mar 27	0600,0730, 1300
+Mar 28	0030
+Mar 30	0130
+
+April 1-30, 20020 Sampling Period
+Azevedo Pond
+Turbidity data were deleted from the beginning of the month though the end of 
+the first deployment (April 22 0830) because no probe was deployed.
+
+Salinity data are suspect from the beginning of the month through the end of the 
+first deployment (April 22 0830) because the data are incongruous with the 
+following deployment and the post deployment check read 44.21 ms/cm in 53 ms/cm.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Apr 26	1130
+Apr 28	1930
+
+North Marsh 
+4 NTU was added to all turbidity data the entire month because numerous values 
+were negative probably due to a poor calibration in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Apr 01     06:00, 22:00 
+Apr 03     07:00, 14:30, 16:00, 17:30,
+Apr 05     01:00 
+Apr 06     02:30, 1400, 17:00, 20:00, 21:30, 23:30 
+Apr 07     14:30-15:00, 17:00, 21:00 
+Apr 16     16:00 
+Apr 17     07:30 
+Apr 19     15:00 
+Apr 20     05:30 
+
+Turbidity data were deleted from April 08 1000 through the end of the deployment 
+April 15 1100 because they were erratic and post deployment data read 37.2 in 
+100 NTU, and from April 22 2100 through the end of the month because values were 
+slowing increasing and erratic.
+
+Salinity data are suspect from the beginning of the month through the end of the 
+Deployment (04/15 1100) because values are at first slowly decreasing then 
+slowly increasing. 
+
+Depth data are suspect from approximately April 10 0000 through the end of the 
+Deployment (04/15 1100) because they slowly decrease through the end of the 
+deployment.
+
+pH data are suspect from approximately April 26 0730 through the end of the 
+deployment (05/13 1000).
+
+South Marsh
+Salinity data were deleted from the beginning of the second deployment (04/08 
+1230) through the end of the month because data were very low and the post 
+calibration was out of range reading 223 ms/cm in 53 ms/cm. 
+
+DO data were deleted during from Apr 21 0330 through the end of the month 
+because of a high and low spike in the data indicating the membrane was 
+punctured. 
+
+11 NTU was added to turbidity data from the beginning of the second deployment 
+(April 08 1200) through the end of the month because numerous values were 
+negative probably due to a poor calibration in DI.
+
+Turbidity data were deleted from April 01 0200 through the end of the first 
+deployment (04/18 1200) and from April 28 1130 through the end of the month 
+because values were high erratic.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Apr 18     07:00 
+Apr 20     01:30, 07:30 
+Apr 21     05:00-06:00, 08:00 
+Apr 24     23:30 
+Apr 26     08:00
+Apr 27     02:00 
+
+Vierra Mouth
+Salinity data are deleted from the beginning of the month through the end of the 
+first deployment Apr 01 1100 due to previously mentioned probe malfunction.
+
+DO data are deleted from Apr 06 1000 through the end of the second deployment 
+Apr 29 0830 because the membrane was found punctured upon recovery and there was 
+a sharp decrease in the values on Apr 06 which is most likely when it occurred.
+
+DO data are suspect from the beginning of the month through the end of the first 
+deployment Apr 01 1100 because they are not congruous with the following 
+deployment.
+
+3 NTU was added to all turbidity data from the beginning of the month through 
+the end of the second deployment Apr 29 0830 and 7 NTU was added the turbidity 
+data from Apr 29 1100 through the end of the month because numerous values were 
+negative probably due to a poor calibration in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative or negative;
+Apr 06     14:30 
+Apr 08     09:30, 13:30 
+Apr 12     04:30, 12:30 
+Apr 18     05:00 
+Apr 20     02:00 
+Apr 23     02:00, 06:30, 17:30 
+Apr 25     11:00, 17:00 
+Apr 26     11:30, 20:30 
+Apr 27     18:30, 21:30 
+Apr 28     13:30, 18:00 
+Apr 29     02:30
+
+May 1-31, 2000 Sampling Period
+Azevedo Pond
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+May 04     16:00-17:00 
+May 05     14:00-16:00, 21:30 
+May 06     13:00-15:00 
+May 07     15:30, 16:30-17:00 
+May 08     16:00-18:00 
+May 09     15:00-16:30 
+May 10     17:00-18:30 
+May 11     16:30-18:30 
+May 12     09:30, 17:00-19:00 
+May 13     17:00-19:00 
+May 14     17:30-19:00 
+May 15     17:30-19:30 
+May 16     18:30-20:00 
+May 28     03:30 
+
+North Marsh 
+Turbidity data are missing from the beginning of the month through the end of 
+the first deployment (05/13 1000) because of previously mentioned probe 
+malfunction.
+
+DO data are suspect from the beginning of the second deployment though May 16 
+0400 because data are not congruous with previous deployment but after this data 
+look ok. 
+
+pH data are missing from the beginning of the month through the end of the 
+deployment (05/13 1000) due to a malfunctioning probe. 
+
+Upon retrieval of the second deployment, on 06/10 0830, the sonde was noted to 
+be covered in mud probably due to a large sedimentation which occurred beginning 
+approximately May 17 when the pH probe began showing signs of being covered in 
+mud. The other probes began showing signs later. The following are when these 
+probes data were deleted.
+
+Salinity and Spec. Cond. data are deleted from May 24 2000 through the end of 
+the deployment (06/10 0830) because data are slowly decreasing probably from 
+being covered in mud.
+
+DO data are deleted from May 24 1730 through the end of the deployment (06/10 
+0830) because data make a sharp drop probably due to the probe being covered in 
+mud.
+
+pH data are missing from May 17 1500 through the end of the deployment (06/10 
+0830) because data are slowly decreasing probably due to probe being covered in 
+mud.
+
+28 NTU was added to all turbidity data the entire month because numerous values 
+were negative probably due to a poor calibration in DI.
+
+Turbidity data were deleted from May 15 1800 through the end of the month 
+because values were increasing suggesting they were being covered with mud.
+
+South Marsh
+All data are missing from May 07 1600-1630 because the turbidity probe was 
+added to the sonde and brought to the lab to calibrate.
+
+DO data are deleted from the beginning of the month through the end of the first 
+Deployment (05/06 0900) due to previously mentioned membrane puncture.
+
+Turbidity data are missing from the beginning of the month through the end 
+of the first deployment (05/06 0900) because of previously mentioned probe 
+malfunction. 
+
+Turbidity data are also deleted from the beginning of the second deployment May 
+06 1330 through May 07 1530 because no probe was deployed, probe was added to 
+sonde at May 07 1630. 
+
+10 NTU was added to all turbidity data from May 07 1700 through the end of the 
+month because numerous values were negative probably due to a poor calibration 
+in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+May 07     18:00 
+May 08     01:30, 15:30, 20:00 
+May 12     07:00, 21:00, 22:00 
+May 13     05:00 
+May 14     07:00, 13:30 
+May 15     00:30, 02:30, 10:30, 20:30 
+May 16     02:00 
+May 17     00:00-01:00, 21:00 
+May 18     02:00 
+May 23     01:00, 02:00 
+May 26     06:30, 12:30 
+May 28     18:30
+
+Salinity data were deleted from the beginning of the month through the end of 
+the first deployment (05/06 0900)  because of previously mentioned probe 
+malfunction.
+
+pH data are suspect from the beginning of the month through the end of the first 
+deployment because values are not congruous with the following deployment.
+
+Vierra Mouth
+7 NTU was added to all turbidity data from the beginning of the month through 
+the end of the first deployment May 28 0630 and 2 NTU was added the turbidity 
+data from May 28 1030 through the end of the month because numerous values were 
+negative probably due to a poor calibration in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative or negative;
+May 02     05:00 
+May 03     00:30 
+May 07     10:30 
+May 09     20:30 
+May 11     18:30 
+May 15     14:00, 23:30 
+May 17     02:30 
+May 18     19:30 
+May 23     23:00 
+May 24     15:00 
+May 25     11:30 
+May 27     05:30, 10:00 
+May 31     03:30
+
+June 1-30, 2002 Sampling Period
+Azevedo Pond
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jun 02	0430
+Jun 06	1300
+Jun 08	0000-0030
+Jun 13	0130-0200, 0300-0400
+Jun 15	1900-1930
+Jun 19	0900
+Jun 29	0200
+Jun 30	0030
+
+North Marsh 
+Salinity, Spec. Cond., DO, pH and turbidity data are missing from the beginning 
+of the month through the end of the first deployment (06/10 0830) because of 
+probes being covered in mud.
+
+pH data were deleted from June 15 1900 through the end of the month because of 
+the probe malfunctioning.
+
+Turbidity data were deleted from June 17 1000 through the end of the month 
+because the probe malfunctioned.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+June 10	2230
+June 11	1930, 2300
+June 14	0400
+June 16 0300, 1430
+
+Salinity data are suspect at the end of the month because data are not congruous 
+with the following deployment in July
+
+South Marsh
+9 NTU was added to all turbidity data for the entire month because numerous 
+values were negative probably due to poor calibrations in DI.
+
+Salinity data are suspect from the beginning of the month through the end of the 
+first deployment because values are non congruous with the following deployment. 
+They are also suspect towards the end of the month because the values are slowly 
+decreasing throughout the month.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jun 04     02:30, 07:30, 20:30 
+Jun 05     05:30, 23:00 
+Jun 06     22:30 
+Jun 07     01:00 
+Jun 09     03:00 
+Jun 10     15:00 
+Jun 11     23:00 
+Jun 12     01:00-02:00 
+Jun 13     07:00, 15:30, 17:30, 23:30 
+Jun 15     16:30, 21:30-22:00 
+Jun 16     06:00, 15:00, 16:00 
+Jun 17     05:30 
+Jun 18     00:00, 17:00, 21:30 
+Jun 19     04:30, 05:30-06:00, 11:30, 17:30, 20:30 
+Jun 20     10:00, 22:00 
+Jun 21     01:30, 03:00, 07:30, 11:30, 15:30, 18:00 
+Jun 22     02:00, 23:30 
+Jun 23     02:30, 21:00-21:30, 23:30 
+Jun 24     02:00, 03:30-04:00, 09:00, 11:30, 17:30, 21:00, 23:30 
+Jun 25     01:30, 04:00, 15:30, 21:00 
+Jun 26     23:30 
+Jun 27     00:30, 05:00-06:30, 14:00 
+Jun 28     05:00, 20:00, 22:30 
+Jun 29     01:30, 05:00 
+Jun 30     00:00, 17:30
+
+Vierra Mouth
+2 NTU was added to all turbidity data from the beginning of the month through 
+the end of the first deployment Jun 24 0830 because numerous values were 
+negative probably due to poor calibrations in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jun 01     10:30, 18:00 
+Jun 16     09:00, 13:30 
+Jun 17     22:00 
+Jun 18     13:30, 21:30 
+Jun 19     11:00 
+Jun 26     01:30, 06:30, 15:00 
+Jun 27     12:30-13:30, 15:30, 20:30 
+Jun 28     15:00, 20:00, 21:00 
+Jun 29     02:00, 03:30, 04:30-05:00, 07:00, 08:30, 12:30, 20:00 
+Jun 30     04:30, 06:30, 18:00, 22:30
+
+The following dissolved oxygen data were deleted due to punctured membrane:
+Jun 14 06:30 – Jun 24 08:30
+Jun 26 03:30 – July 15 10:30
+
+July 1-31, 2002 Sampling Period
+Azevedo Pond
+All data are missing from July 15 1400 through the end of the month because 
+sonde never started logging data.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+July 04	0900
+July 13	1530
+July 15	0030-0130
+
+North Marsh 
+pH and turbidity data are missing from the beginning of the month through the 
+end of the first deployment (07/08 1030) because of previously mentioned probe 
+malfunctions. 
+
+DO data are suspect from the beginning of the month through July 03 1000 because 
+there was a sudden spike in the data.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jul 08	1500
+Jul 10	1530, 1600
+Jul 13     1230, 13:00 
+Jul 17     13:00, 22:30 
+Jul 18     17:30 1900
+Jul 20     15:30, 16:30 
+Jul 22     12:00-12:30, 20:30 
+Jul 25     23:00 
+Jul 26     17:30 
+Jul 27     17:00 
+Jul 29     15:00 
+Jul 30     09:30, 12:00
+
+Depth data are suspect from the beginning of the month through the end of the 
+first deployment (07/08 1030) because data are not congruous with the following 
+deployment.
+
+Salinity data are deleted from the beginning of the month through the end of the 
+first deployment (07/08 1030) because probe fell out of calibration, the probe 
+read 38.56 in 53 ms/cm at the post deployment check.
+
+South Marsh
+Salinity data are suspect from the beginning of the month through the end of the 
+fist deployment and towards the end of the second deployment because values 
+slowly decrease and are not congruous with the following deployment.
+
+4 NTU was added to turbidity data from the beginning of the month through the 
+end of the first deployment (July 01 1200) because numerous values were negative 
+probably due to poor calibrations in DI.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jul 08     14:30 
+Jul 10     03:30 
+Jul 13     06:00 
+Jul 22     13:30 
+Jul 24     11:30 
+Jul 31     07:00 
+
+Vierra Mouth
+The following dissolved oxygen data were deleted due to punctured membrane:
+Jun 26 03:30 – July 15 10:30
+
+Salinity data is suspect July 12 1530 because they are significantly lower that 
+other values for unknown reasons.
+
+Salinity data are also suspect during the second deployment, from july 15 1130 
+through July 22 0630 because values are not congruous with the previous or 
+following deployments and are slowly increasing.
+
+DO data are suspect from Jul 15 11:00 through the end of the deployment on Jul 
+22 07:00 because values seem higher than normal and the post deployment check 
+indicated the probe was reading 74% in 100% saturated air. 
+
+DO data were deleted July 23 0400-0600 and July 29 0400-0500 because they were 
+anomalously high values for unknown reasons.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Jul 01     00:30-01:00, 02:30-04:30, 19:30 
+Jul 03     21:00-21:30 
+Jul 04     20:30, 22:30 
+Jul 05     15:30 
+Jul 06     20:30, 22:30 
+Jul 07     11:30, 15:30, 16:30, 21:00-21:30 
+Jul 08     15:30, 18:00, 22:30 
+Jul 09     05:00, 07:30, 16:30, 20:30, 22:30-23:00 
+Jul 10     01:00 
+Jul 11     03:00, 07:00 
+Jul 13     08:00, 10:00 
+Jul 14     07:00 
+Jul 15     06:00 
+Jul 31     21:00
+
+August 1-31, 2002 Sampling Period
+Azevedo Pond
+All data are missing from the beginning of the month through the beginning of 
+the second deployment (Aug 11 0730) due to sonde malfunction.  
+
+Salinity data are deleted Aug 11 0800 through Aug 17 0100 because of a probe 
+malfunction then it appears to operate properly after this time and date.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Aug 12	0100
+Aug 17	2100
+Aug 18	0800
+Aug 19	0030
+Aug 28	1200
+
+North Marsh
+Salinity and Spec. Cond. data are deleted from the beginning of the month 
+through the end of the first deployment (Aug 05 1100) because data are not 
+congruous with the following deployment and the probe read 24.69 in 53 ms/cm in 
+the post deployment check.
+
+The turbidity probe had a high number of anomalously high values possibly due to 
+wiper parking problems. 
+Instead of deleting all the data the following values were deleted because they 
+were anomalously high;
+Aug 02     19:30 
+Aug 03     07:30 
+Aug 05     09:30, 18:30 
+Aug 06     02:00, 06:30, 21:00-22:30 
+Aug 07     03:30 
+Aug 10     12:30, 16:30 
+Aug 11     20:30 
+Aug 14     13:00-13:30, 17:30-18:00 
+Aug 16     18:00, 19:00, 20:30, 23:00-23:30 
+Aug 17     01:00, 02:00, 03:00, 13:30-14:00, 19:00, 21:00, 22:00, 23:00 
+Aug 18     04:30-11:00, 15:00-15:30, 17:00-18:30, 22:30 
+Aug 19     01:30, 07:00, 17:00-17:30, 21:00 
+Aug 20     18:00, 21:00, 23:30 
+Aug 21     00:30-01:30, 04:30, 14:30, 19:30 
+Aug 22     13:30, 18:00-18:30 
+Aug 23     03:30, 04:30, 17:00 
+Aug 24     17:00 
+Aug 25     14:30, 15:30, 16:30, 18:30 
+Aug 26     07:30, 11:30, 17:00-18:00, 22:00-23:30 
+Aug 27     00:30, 03:00-05:30, 21:00, 22:00-23:00 
+Aug 28     00:30-01:00, 08:00-08:30 
+Aug 29     21:00 
+Aug 30     12:30
+
+South Marsh
+Salinity data were deleted from Aug 06 1630 through the end of the first 
+deployment (Aug 26 1200) because values slowly decreased and the post deployment 
+check indicated the probe was not reading properly, reading 37.03 in 53 ms/cm. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Aug 02     13:30 
+Aug 03     18:00 
+Aug 09     04:00 
+Aug 10     01:00 
+Aug 12     21:30 
+Aug 14     23:30 
+Aug 18     02:00 
+Aug 19     01:00 
+Aug 20     18:00 
+Aug 26     21:30 
+Aug 28     03:00 
+Aug 30     12:30
+
+Vierra Mouth
+Salinity data are suspect from the beginning of the month through the end of the 
+first deployment (08/12 1300) because values are not congruous with the 
+following deployment but the probe seemed to be reading with in range, 52.04 in 
+53 ms/cm. 
+
+DO data were deleted from Aug 10 2230 through the end of the deployment Aug 12 
+1300 and from Aug 21 0100 through the end of the month because values made a 
+sharp drop during this time and membrane was punctured upon retrieval. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Aug 02     03:30, 13:00-13:30 
+Aug 03     01:00 
+Aug 05     00:30 
+Aug 06     00:00, 04:00 
+Aug 08     22:30 
+Aug 12     01:00, 09:30 
+Aug 14     06:30-07:00 
+Aug 15     11:30 
+Aug 16     16:00, 20:30 
+Aug 17     12:00 
+Aug 18     12:30, 16:30-17:00 
+Aug 21     01:30, 13:30, 21:00 
+Aug 22     03:00, 08:30-10:00, 21:30 
+Aug 23     09:00 
+Aug 24     21:30 
+Aug 29     09:30 
+Aug 31     03:00
+
+September 1-30, 2002 Sampling Period
+Azevedo Pond
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Sept 04	1630-1700, 1830
+Sept 13	1330
+Sept 24	1230
+Sept 25	1130, 1330
+Sept 27	1030-1100, 1300-1400, 1600
+
+North Marsh
+Salinity data were deleted from the beginning of the month through the end of 
+the first deployment (09/13 1000) because values were low probably due to 
+sedimentation in the probe.
+
+Salinity data are suspect towards the end of the month because data 
+are slowly decreasing in values probably due to sedimentation in the probe.
+
+DO data are deleted from Sept 14 0730 through the end of the deployment (10/01 
+1030) because data were suppressed compared to the rest of the month probably 
+due to being covered by mud or a puncture in the membrane.
+
+Turbidity data are deleted from Sept 16 0700 through the end of deployment 
+(10/01 1030) because data are slowly increasing indicating that the probe was 
+covered in mud.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Sep 01     11:30 
+Sep 04     01:00, 16:00 
+Sep 05     14:30, 19:00, 23:00 
+Sep 06     13:30, 21:30 
+Sep 08     12:30-13:00, 14:00-14:30, 19:30 
+Sep 09     01:30-02:00, 04:30-05:30, 08:30-10:00, 19:00 
+Sep 10     14:00 
+Sep 11     02:30, 07:00, 13:30 
+Sep 13     15:30-16:30, 18:30, 22:00, 23:00-23:30 
+Sep 14     20:30-21:00 
+Sep 15     06:00-06:30, 18:30, 22:30
+
+South Marsh
+All data are missing Sept 04 1330 because sonde was out of water.
+
+Salinity data are deleted from Sept 06 0930 through the end of the first 
+deployment Sept 23 1030 because values were decreasing and post deployment check 
+indicated the probe was not functioning properly reading 50.21 in 53 ms/cm. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Sep 01     20:30 
+Sep 03     10:00 
+Sep 12     05:00 
+Sep 14     17:00 
+Sep 26     04:00
+Sept 30	  1400
+
+Vierra Mouth
+DO data were deleted from the beginning of the month through the end of the 
+first deployment Sept 16 1230 because of previously mentioned membrane punctured 
+upon retrieval. 
+
+pH data are suspect from the beginning of the month through the end of the first 
+deployment because they are not congruous with the following deployment. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Sep 01     06:30 
+Sep 06     22:30 
+Sep 13     21:00 
+Sep 17     01:30 
+Sep 18     01:00 
+Sep 19     01:30 
+Sep 20     14:30, 23:30 
+Sep 23     03:30 
+Sep 26     01:00, 23:00 
+Sep 27     05:30, 18:30
+
+October 1-31, 2002 Sampling Period
+Azevedo Pond
+All data were deleted during the following times because of out of water events;
+Oct 25	0600-0730
+Oct 28	0400
+Oct 30	0200-0530
+Oct 31	0000-0700
+
+PH data were deleted from Oct 06 1130 through Oct 07 1030 because of a probe 
+malfunction at the end of the deployment.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Oct 01     17:00-17:30, 18:30-19:30 
+Oct 05     00:30, 21:30 
+Oct 10     22:00 
+Oct 15     19:00 
+Oct 16     18:30
+
+North Marsh 
+Salinity data are deleted from the beginning of the month through the end of the 
+first deployment (Oct 01 1030) because data was incongruous and post cal read 
+50.81 in 53 ms/cm.
+
+Salinity data were deleted from Oct 09 1430 through the end of the deployment 
+(10/28 1200) because data are slowly decreasing in values probably due to 
+sedimentation in the probe.
+
+Turbidity data are deleted from the beginning of the month through the end of 
+the first deployment Oct 01 1030 because probe was suspected to be covered in 
+mud.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Oct 02     15:00 
+Oct 08     23:00 
+Oct 09     08:30, 17:30 
+Oct 10     03:00-03:30, 04:30-05:00, 07:30 
+Oct 11     05:30, 09:00, 18:00-18:30, 21:30-22:00 
+Oct 12     02:00, 05:30, 23:00 
+Oct 13     05:00, 18:00, 19:00, 22:30 
+Oct 15     11:00, 17:30 
+Oct 16     07:30 
+Oct 17     06:00, 11:30, 14:00, 18:30 
+Oct 18     16:00-16:30, 19:30 
+Oct 19     00:00, 16:00-16:30, 18:00, 22:00-22:30 
+Oct 20     02:30, 16:30 
+Oct 21     13:00, 18:30, 22:00 
+Oct 22     15:30-16:00, 19:00-19:30 
+Oct 23     15:00 
+Oct 24     06:00 
+Oct 25     03:00 
+Oct 26     12:30 
+Oct 27     18:30, 22:30, 23:30 
+Oct 28     09:00 
+Oct 29     00:30, 18:30-19:00 
+Oct 31     03:30
+
+South Marsh
+Salinity data are suspect from approximately Oct 04 1200 through the end of the 
+first deployment Oct 21 0800 because values slowly decrease but then level off 
+and are not congruous with the following deployment.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Oct 01     13:30 
+Oct 08     20:30 
+Oct 10     12:00 
+Oct 11     16:00 
+Oct 13     06:30 
+Oct 15     07:30, 09:30 
+Oct 30     17:00
+
+Vierra Mouth
+The rain which occurred during this month resulted in sharp drops in salinity 
+during these periods.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Oct 09     09:30 
+Oct 27     11:00 - 1300, 14:00-14:30, 16:30 
+Oct 31     00:00, 12:30
+
+DO data are deleted from Oct 27 0730 through the end of the deployment on
+Nov 11 1000 due to a sharp decrease in the data and a punctured DO membrane. 
+
+
+November 1-31, 2000 Sampling Period
+Azevedo Pond
+All data are missing during the following times due to out of water events;
+Nov 01	0000-0800
+Nov 02	0000-0930
+Nov 03	0030-1100
+
+Salinity data are deleted from 11/01 0830 through the end of the first 
+deployment (11/04 0000) because values are not congruous with the following 
+deployment and probe only read 34.30 ms/cm in 53 ms/cm in the post deployment 
+check. 
+
+Approximately 15 mm of rain fell on Nov 07 resulting in decreased salinity 
+values during that day and the one following.
+
+All turbidity data are deleted during the second deployment (11/04 1200 – 12/02 
+1130) because no probe was deployed.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Nov 03	1300-1330, 1830
+
+North Marsh 
+Turbidity data for the following dates/times were deleted due to malfunction of 
+probe:
+Nov 01 06:30 – Nov 02 03:30
+
+All data are missing during the following times because of loss of battery 
+power;
+Nov 01	0530-0600
+Nov 02	0400-0930
+Nov 03	0530-1000
+Nov 04	0530-1030
+Nov 05	0630-0800
+Nov 10	0200-Nov 25 1200
+
+Salinity data were deleted from Nov 07 1630 through Nov 10 0130 when there was a 
+loss of battery power. These data were deleted because values were decreasing 
+probably because the probe was covered in mud.
+
+pH data are deleted from Nov 04 1100 through the end of the deployment (11/25 
+1200) because values were decreasing suggesting that the probe was covered in 
+mud.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Nov 02     10:00, 23:30 
+Nov 03     03:00, 15:30 
+Nov 04     15:00 
+Nov 06     01:00, 07:00, 09:30, 14:30 
+Nov 07     04:30-05:00, 11:30 
+Nov 08     05:30, 07:30-08:00, 09:00, 12:00, 17:30, 20:00 
+Nov 09     02:30, 05:30, 12:30-13:00, 18:30 
+Nov 26     22:30 
+Nov 27     18:00 
+Nov 28     12:00, 15:00 
+
+South Marsh
+pH data are suspect from the beginning of the month through the end of the first 
+deployment because values are lower than the following deployment.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Nov 09     16:00 
+Nov 10     04:30 
+Nov 11     08:30, 09:30-10:30, 11:30, 13:30, 19:00-19:30, 20:30, 23:00 
+Nov 12     04:00, 07:30, 15:00, 17:00, 18:00, 19:30, 22:30 
+Nov 13     00:30, 04:30 
+Nov 14     18:00 
+Nov 15     19:30 
+Nov 17     08:30, 14:00, 21:30 
+Nov 18     05:00, 09:00, 10:30
+
+Vierra Mouth
+DO data are deleted from Oct 27 0730 through the end of the deployment on
+Nov 11 1000 due to a sharp decrease in the data and a punctured DO membrane. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Nov 01     11:30 
+Nov 03     08:30, 09:30 
+Nov 04     13:30 
+Nov 05     10:30 
+Nov 07     07:30-08:00, 14:30-15:00 
+Nov 08     04:00 
+Nov 09     08:00-10:30, 19:00, 22:30 
+Nov 15     16:00-16:30 
+Nov 17     22:00 
+Nov 26     2100
+
+December 1-31, 2002 Sampling Period
+Azevedo Pond
+December was a very wet month in this area and during this month. A total of 160 
+mm of rain fell for the month. This had significant effects on water quality at 
+our sites especially salinity and turbidity in Azevedo Pond. Most of the rain 
+fell from Dec 13 through Dec 21 (127 mm).
+
+Turbidity data were deleted from the beginning of the month through the end of 
+the first deployment, Dec 02 1130. 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Dec 10     08:30
+Dec 14     16:30-17:30 
+Dec 18     13:00 
+Dec 26     20:00 
+Dec 28     12:30 
+Dec 29     01:30
+
+North Marsh 
+Temperature data is suspect from the beginning of the second deployment through 
+Dec 20 1030 because they are low and erratic compared to the rest of the month. 
+
+Salinity data are suspect from Dec 09 through Dec 13 approximately 2030. This 
+was when the rains were hitting the heaviest and the salinity probe was probably 
+clogged with sediment and the increased flows may have released the 
+sediment. After this time the salinity probe appears to function properly and is 
+congruous with the following deployment. 
+
+DO data are suspect from Dec 13 0400 through the end of the first deployment 
+because data are not congruous with the following deployment and appear to be 
+muted. 
+
+pH data are suspect towards the end of the first deployment because the are not 
+congruous with the following deployment.
+
+2 NTU was added to all turbidity data the entire month because numerous values 
+were negative probably due to a poor calibration in DI.
+
+Turbididty data was deleted from Dec 06 1000 through Dec 08 1800 because there 
+were numerous high values probably because wiper was not parking properly 
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Dec 04    	  2130
+Dec 05	  1130
+Dec 13 	  2030
+Dec 14	  1330-1400, 2000
+Dec 15	  0330, 1400
+Dec 16	  1500
+Dec 17	  1600-1700
+
+There were very high turbidity values which corresponded with high rain on Dec 
+14 0600-1100.
+
+South Marsh
+Salinity data are suspect from the beginning of the month through approximately 
+Dec 14 0000 because values are muted compared to the rest of the month for an 
+unknown reason.
+
+Depth data are suspect during the beginning of the month through the end of the 
+first deployment because (12/16 1330) values are not congruous with the 
+following deployment.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Dec 02     11:00 
+Dec 04     16:00 
+Dec 13     08:30 
+Dec 16     10:00, 13:30 
+Dec 19     15:00-16:00 
+Dec 28     13:30 
+Dec 31     14:00
+
+Vierra Mouth
+Heavy rains during this month effected the salinity resulting in sharp decreases 
+in salinity values during rain events.
+
+DO data are missing from Dec 17 1530 through the end of the month because 
+the membrane was punctured and there was a sharp decrease in the data at this 
+time indicating this is when it occurred.
+
+The following turbidity data were deleted because they were anomalously high or 
+negative;
+Dec 03     22:30 
+Dec 07     19:30
+Dec 09     04:00 
+Dec 14     05:30
+Dec 17     06:30 
+Dec 19     13:00 
+Dec 20     19:30-20:30, 23:30
+Dec 25     07:00
+Dec 27     08:30 
+Dec 28     23:00 
+Dec 30     16:30 
+Dec 31     09:00, 05:00
+
+12. Missing Data:
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance and calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.   
+
+13. Post deployment information
+Site								
+Azevedo Pond								
+Retreival	 DO%	pH	pH	Depth	    Turb		Turb	 Salin	Batt
+Date		(100)	(7.0)	(10.0)(0.0m)  (0.0 NTU)	   (100 NTU) (53 ms/cm)	 (V)
+01/03/2002	102.8	NA	NA	0.066	    -0.1		127.2	50.18		10.0
+02/27/2002	100.6	6.96	10.3	NA	    24.9		113.8	50.53		8.9
+03/25/2002	100.6	7.23	9.99	0.028	    -15.2		116.1	52.35		11.4
+04/22/2002	87.9	7.07	10.06	-0.031	NA		NA	44.21		11.7
+05/20/2002	NA	7.33	9.93	-0.041	60.3		211.1	45.18		11.8
+06/17/2002	88.4	6.96	9.92	0.010	    0.0		89.4	47.78		11.5
+07/15/2002	87.8	7.0	9.96	-0.002	1.9		81.3	51.27		11.0
+08/11/2002	97.1	7.15	9.88	-0.078	-0.3		104.1	52.75		NA
+09/09/2002	100.5	6.91	9.86	0.024	    0.1		101.9	52.57		12.0
+09/16/2002	107.7	7.15	101.3	-0.002    0.0		100.3	52.15		12.0
+10/07/2002	88.7	NA	NA	-0.036    -0.3		100.7	50.65		11.7
+11/04/2002	90.3	7.28	10.13	0.027	    0.3		101.4	34.30		9.2
+12/02/2002	100.4	7.02	9.96	-0.021    0.0		97.4	52.63		12.2
+12/30/2002	98.5	7.05	9.85	0.052	    -0.8	125 in 123	52.43		12.6
+
+
+Site
+North Marsh
+Retreival	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date		(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 (V)
+01/22/2002	102.1	7.32	9.98	0.036	    -1.5	93.1		50.93		10.9
+02/19/2002	104.3	7.06	9.98	0.011	    3.4	106.8		39.46		11.6
+03/18/2002	107.3	6.97	10.37	-0.042	NA	NA		52.02		12.1
+04/15/2002	93.8	7.16	10.08	-0.086	-1.7	37.2		52.05		12.9
+05/13/2002	110.4	6.99	9.93	0.078	    39.5	127.1		52.51		12.4
+06/10/2002	96.4	6.95	9.95	-0.044   -3.04	95.5		53.01		12.1
+07/08/2002	102.0	7.31	10.01	0.024	    -0.8	100.4		38.56		11.8
+08/05/2002	97.1	7.17	10.06	0.011	    -2.4	79.5		24.69		9.9
+09/03/2002	105.3	7.06	9.96	-0.038    -0.8	101.4		51.04		12.1
+10/01/2002	79.7	7.23	87.9	0.016	    -1.6	87.9		50.81		10.4
+10/28/2002	100.2	7.20	9.80	0.018	    2.8	100.4		51.03		10.2
+11/25/2002	99.4	7.13	9.95	0.034	    -0.7	93.1		46.47		NA
+12/19/2002	100.0	7.48	10.06	-0.100    -4.0	101.6		52.14		10.5
+
+
+Site
+South Marsh
+Retreival	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date		(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 (V)
+01/14/2002	100.6	7.22	10.34	-0.082    0.9	100.4		52.53		11.9
+02/11/2002	118.1	7.02	9.86	0.115	    NA	NA		45.67		9.7
+03/11/2002	102.8	6.94	10.22	-0.036   16.5	116.2		51.85		5.9
+04/08/2002	97.5	7.09	10.15	-0.071    0.1	124.7		52.14		12.6
+05/06/2002	76.3	7.09	9.99	-0.011    14.5	130		223.8		11.4
+06/03/2002	117.5	7.18	10.15	-0.149    13.3	84.8		52.49		10.8
+07/01/2002	103.4	6.95	9.95	-0.040    9.7	88.1		51.8		10.5
+07/29/2002	53.2	7.14	9.97	0.028	    -1.3	101.1		52.38		12.6
+08/26/2002	99.3	7.22	10.16	-0.016    0.1	99.3		37.03		10.9
+09/23/2002	90.5	7.48	9.83	-0.053    0.6	99.1		50.21		11.0
+10/21/2002	100.2	7.36	10.22	0.165	    -0.6	82.7		53.14		11.5
+11/18/2002	105.4	7.2	10.12	0.344	    4.7	102.7		52.25		10.8
+12/16/2002	97.6	7.17	9.99	-0.673    -0.2	119.5		52.04		10.4
+
+
+Site
+Vierra Mouth
+Retreival	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date		(100)	(7.0)	(10.0)(0.0m)    (0.0 NTU)(100 NTU)	(53 ms/cm)	 (V)
+01/07/2002	105.8	7.08	10.05	0.140	    NA	NA		52.95		10.1
+02/04/2002	103.5	NA	NA	-0.046    -1.5	112.1		51.02		8.9
+03/04/2002	182.7	6.92	10.21	-0.027    -2.4	102.3		52.03		8.0
+04/01/2002	101.1	7.17	9.98	-0.370    0.5	103.1		4.86		11.8
+04/29/2002	111.7	7.11	10.09	0.053	    9.9	108.5		34.24		10.8
+05/28/2002	103.9	7.07	10.07	-0.022    7.4	96.0		52.22		10.1
+06/24/2002	108.6	7.21	9.98	-0.025    -2.7	93.6		52.12		8.6
+07/15/2002	44.2	7.08	9.96	-0.016    0.3	100.4		51.7		12.4
+07/22/2002	74.6	6.97	9.92	0.000	    -0.1	101.2		54.46		11.6
+08/12/2002	104.0	7.5	10.95	-0.040    0.3	100.5		52.04		11.5
+09/16/2002	126.5	7.4	10.26	0.058	    -0.4	100.4		51.68		11.8
+10/14/2002	63.7	7.11	9.97	0.010	    -0.8	101.5		52.73		11.5
+11/11/2002	99.1	7.10	9.88	0.073	    0.7	96.3		52.57		11.2
+12/09/2002	99.4	6.97	9.90	-0.024    -2.1	99.2		52.02		10.9
+01/06/2003	87.6	7.08	9.95	-0.042    -0.9	123.2 in 123 51.65	11.8
+
+14. Other Remarks/Notes:
+A) There were a few instances at this NERR site where turbidity recorded small 
+negative values (-0001 and -0002). Because turbidity has a range of accuracy of 
++/-2 NTU, the technician did not edit or deleted these values in any way. 
+
+B) December was a very wet month in this area and during this month. A total of 
+160 mm of rain fell for the month. This had significant effects on water quality 
+our sites especially salinity and turbidity.
+

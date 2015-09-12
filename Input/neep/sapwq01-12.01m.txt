@@ -1,0 +1,1921 @@
+Sapelo Island (SAP) NERR Water Quality Metadata
+January-December 2001 
+Latest update: March 29, 2002
+
+1. Principal investigator & contact persons:
+			
+Georgia Department of Natural Resources
+P.O. Box 15
+Sapelo Island, GA 31327
+(912) 485-2296
+
+Dorset Hurley, Research Coordinator 
+E-mail: dhurley@darientel.net  (912) 485-2251	
+	
+Jane Garbisch, Reserve Technician	
+E-mail: jgarbisch@aol.com		
+
+
+2. Entry Verification:
+
+	The data are reviewed using the YSI computer program Ecowin 
+ included with the YSI 6000/6600 data logger.  After the file is 
+uploaded from the data logger, Ecowin is used to plot the data and perform basic 
+statistical analyses (i.e., min., max., mean, std. dev.) The 
+information obtained from this is used during file review to detect any 
+gross outliers such as data taken when the data logger was removed from 
+the water or those caused by instrument failure.  The data are imported into a 
+Microsoft Excel file, which contains the current month's cumulative recordings.  
+When a complete month of data has been recorded the file is ready for review.  
+The data review includes several steps.  The first step is to format the data 
+using the Excel macros provided by CDMO. The CDMO macros will allow the user to 
+automatically format column widths to the correct number of decimal places based 
+on YSI sensor specifications.  It also allows the user to QA/QC each data logger 
+generated file for missing data points, fill all cells that do not contain data 
+with periods, and find all data points that fall outside the range of what the 
+data logger is designed to measure (i.e. outliers).  The CDMO import.xls macro 
+will allow PC users with 30-minute data to automatically create a monthly Excel 
+file from a two-week deployment and insert periods for missing data.  In 
+addition, in November 1999 a graphing capability was added to this macro 
+allowing users to produce single parameter and missing data point graphs on a 
+monthly basis.  Secondly, the Excel macro is used to determine if there 
+are any dates and times that data was not recorded due to maintenance, 
+battery failure, or other causes.  Missing dates and times are inserted 
+into the file and a period is inserted into the cells where data would 
+normally be.  The reason for the missing data is recorded on the 
+metadata document. 
+Data that was outside the "normal" range of water quality for a 
+particular site is investigated for validity based on weather data, 
+field observations, QC checks, PC6000 printouts, and instrument 
+diagnostics.  If the data is/are rejected from the file a period is 
+inserted to the cell(s) and an explanation for the missing dates and 
+times are recorded onto metadata document. The completed metadata form 
+is then submitted with the data file to the CDMO.  Jane Garbisch was 
+responsible for all 2001 data collection and management.  
+
+3. Research Objectives:
+Hydrological studies (Ragotskie and Bryson, 1955: Imberger et al., 
+1983) have shown that there are three tidal excursions along the length 
+of the Duplin River, resulting in three distinct water masses.  The two 
+monitoring sites in the Duplin River, called the Lower Duplin site and the Hunt 
+Camp site, are located within the lower and upper water masses, respectively.  
+Water passing the Lower Duplin site during flood tide has come from Doboy Sound, 
+which receives input from the Altamaha River via the Intra-Coastal Waterway and 
+from the Atlantic Ocean.  The water in the lower water mass is pushed further up 
+the Duplin or up smaller tidal creeks and some is pushed onto the marsh 
+surface by the flood tide and recedes into the main channel during ebb 
+tide.  The water in the upper water mass, which passes the Hunt Camp 
+station, is pushed up small creek channels and onto the marsh at each 
+high tide.  Thus the two stations monitor conditions in two hydrological 
+separate water masses, one of which is heavily influenced by exchanges with 
+Doboy Sound and the other, which is influenced by its twice-daily contact with 
+the marsh surface.  
+	Sapelo Island is only accessible by passenger ferry.  Due to its 
+isolation, the salt marsh and tidal waters of the SAP NERR show relatively 
+little evidence of human impact.  Thus the Marsh Landing dock, where the Lower 
+Duplin (LD) site is located, the primary access point for the approximately 200-
+300 residents, commuters and daily visitors plus barge off loading was chosen as 
+the most directly impacted site.  The Lower Duplin site is also readily 
+accessible and centrally located within the SAP NERR.  The University of Georgia 
+Marine Institute has used this as a monitoring site for years and SAP NERR 
+continues to do so.  The Hunt Dock (HD) site was selected in July 1999 for 
+monitoring.  It is a dock only used for transporting hunters during the fall 
+season.  It is further up the Duplin, where the primary usage of the river is 
+for pleasure boating and crabbing.  Therefore it is considered the least 
+impacted site.  The University of Georgia-Athens continues to monitor further up 
+the Duplin and the Flume Dock site.
+
+4.   Research Methods:
+
+	The SAP NERR Water Quality Monitoring began in October of 1999, at 
+the Marsh Landing Dock on the lower Duplin River.  At this time we are 
+only performing long term water quality monitoring and not a specific 
+experiment.  Prior to April 15, 1999 sampling was completed by the 
+University of Georgia-Athens Marine Institute(UGAMI). When SAP NERR 
+took over the NERR monitoring from the University of GA, a second site 
+was set up at the Marsh Landing site to be the NERR monitoring station.  
+In order to lesson the confusion between the 2 sites, the SAP NERR site 
+is referred to as the Lower Duplin site (LD) and is monitored at a 
+fixed depth from the bottom (0.5m).  The University continues to 
+monitor at a fixed depth just below the surface (Marsh Landing) but 
+this site is no longer considered a NERR monitoring station.  The Flume 
+Dock (FD)is also monitored by the University; but, data is no longer 
+reported to the SAP NERR. Therefore the Hunt Dock (HD) site was 
+established just south of the Flume Dock site as the new upper Duplin 
+site and also measures at 0.5m above the surface bottom.  
+
+	Before each YSI PC6000 data logger is deployed, calibration and 
+maintenance is performed following the manufacturer's instructions.  
+Calibration standards are only required for pH, conductivity, and 
+turbidity, all other parameters are done as described in the manual.  
+Buffer solutions for 2-point calibration (pH 7 and 10) are purchased 
+from a scientific supply house.  The conductivity standard is made 
+using a 0.2 M solution of KCl (24.82mS/cm = 14.92 g/L) or from serial 
+dilution of a certified conductivity standard.  The turbidity 
+calibration uses distilled water made by the University of Georgia-
+Athens Marine Institute and a purchased 100 NTU certified standard.  
+The dissolved oxygen membranes are replaced before deployment and are 
+allowed to sit at least 24 hours prior to deployment.  Calibration is 
+then verified by running a standard as a sample after each calibration. 
+
+	When deployed the weather conditions and tidal stage are recorded 
+in the field observation log. The data logger is placed inside a length 
+of PVC pipe attached to the dock.  The Lower Duplin data logger is 
+attached to the north side of a non-floating dock by a steal cable and 
+run down a PVC pipe to rest 0.5m above the surface bottom.  The Hunt 
+Dock data logger is attached to the south side of a fixed dock by steel 
+cable and run down a PVC pipe to take measurements 0.5m above the 
+surface bottom. Because of the large tidal range, water is continually 
+flushed through the pvc pipes, thus eliminating the problem 
+of creating a stagnate column of water within the pipe with data 
+logger. Every 30 minutes during the sampling period, measurements are taken for 
+temperature, specific conductance, salinity, pH, dissolved oxygen 
+concentration, percent saturation, depth and turbidity.
+
+	During the stage of deployment the data logger is checked for 
+fouling and cleaned.  This can be one to three times a week depending 
+on the time of year.  
+At the end of the sample period the data logger is retrieved and 
+immediately replaced by another calibrated data logger.  The data 
+logger is then taken to the lab and runs QA/QC standards for pH, and 
+conductivity, and dissolved oxygen, the data is uploaded, and the sonde 
+is cleaned.  Data is removed if the post calibration standards fail or 
+if technical problems are noted.  All data removed is noted for the 
+metadata.
+
+
+5.  Site Location and character:
+	
+	The monitoring site is located on the Marsh Landing Dock in the 
+Duplin River on Sapelo Island.  Water passing the Marsh Landing site 
+during flood tide originates from the Doboy Sound.  The Doboy receives 
+input from the Atlantic Ocean, and the Altamaha River via the Intra-
+Coastal Waterway. The water is pushed up the river or up smaller tidal 
+creeks and some is pushed onto the marsh surface by the flood tide and 
+recedes into the main channel during ebb tide.
+	The dock itself is used as the main dock to the island where the 
+ferry makes several daily runs.  There are also several small boats 
+that are docked there.  The surrounding area vegetation is dominated by 
+salt marsh with Spartina being the predominate flora. Latitude and 
+longitude for Lower Duplin site is as follows:  31 deg 25' 4" N, 81 deg 
+17' 46" W); Latitude and longitude for Hunt Dock site is as follows: 
+(31 deg 28' 43", 81 deg 16' 23" W); Tidal range maximum for both sites 
+is 14 feet and the salinity range is 5-35 ppt. 
+
+
+	The Hunt Dock monitoring site is located on the Duplin River, off 
+of Moses Hammock, which is separated by Sapelo Island by a small tidal 
+channel.  The primary runoff at the site is from tidal creeks flowing 
+through Spartina marsh and through the mud. There is little human 
+traffic this far up the Duplin and it is north of the people living on 
+Sapelo. During the fall, the Hunt dock and Moses Hammock are the 
+camping and docking site for deer hunters traveling to the island.  
+These are controlled hunts and dates are available from the SAP NERR 
+office if needed.
+
+6.	Data collection period:  (listed by each deployment)
+
+Lower Duplin: 
+
+12/26/2000 15:00 - 1/1/2001 0:00 technical malfunction
+1/18/01 12:30 - 2/10/01 15:30
+2/10/01 16:00 - 3/6/01 16:30
+3/6/01 17:00 - 3/27-01 10:00
+3/27/01 10:30 - 4/21/01 14:30
+4/21/01 15:00 - 5/13/01 14:30
+5/13/01 15:30 - 6/2/01 14:30
+6/2/01 15:00 - 6/22/01 13:30
+6/22/01 14:00 - 7/14/01 10:30
+7/14/01 11:30 - 8/2/01 13:00
+8/2/01 13:30 - 8/16/01 15:00
+8/16/01 15:30 - 9/2/01 10:00
+9/2/01 12:00 - 9/23/01 16:00
+9/23/01 16:30 - 10/16/14:30
+10/16/01 15:30 - 11/2/01 17:30
+11/2/01 18:00 - 11/25/01 9:30
+11/25/01 17:00 - 12/12/01 14:30
+12/12/01 15:00 - 1/3/02 sonde malfunction, data not retrieved.
+
+Hunt Dock:
+
+12/26/00 - 1/18/01 15:00
+1/18/01 16:00 - 2/10/01 14:30
+2/10/01 21:30 - 3/6/01 7:00
+3/6/01 17:30 - 3/27/01 10:00
+3/27/01 10:30 - 4/3/01 9:30
+4/3/01 11:30 - 4/22/01 18:30
+4/22/01 19:00 - 5/13/01 18:30
+5/13/01 19:00 - 6/6/01 13:00
+6/6/01 16:00 - 6/24/01 12:00
+6/24/01 1230 - 7/16/01 16:00
+7/16/01 16:30 - 8/7/01 13:30
+8/7/01 14:00 - 8/21/01 13:00
+8/21/01 13:30 - 9/2/01 11:00
+9/2/01 12:00 - 9/23/01 15:30
+9/23/01 16:00 - 10/23/01 14:00
+10/25/01 14:00 10/29/01 18:00
+11/18/01 10:00 - 11/22/01 9:00
+12/8/01 13:00 - 1/6/02 11:00
+
+7. Distribution
+
+According to the Ocean and Coastal Resource Management Data 
+Dissemination Policy for the NERRS System-wide Monitoring Program, 
+	NOAA/ERD retains the right to analyze, synthesize and publish 
+summaries of the NERRS System-wide Monitoring Program data.  The PI 
+retains the right to be fully credited for having collected and 
+processed the data.  Following academic courtesy standards, the PI and 
+NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the 
+data are used.  Manuscripts resulting from the NOAA/OCRM supported 
+research that are produced for publication in open literature, 
+including refereed scientific journals will acknowledge that the 
+research was conducted under an award from the Estuarine Reserves 
+Division, Office of Ocean and Coastal Resource Management, national Ocean 
+Service, National Oceanic and Atmospheric Administration.  The data set enclosed 
+within this package/transmission is only as good as the quality assurance and 
+quality control procedures outlined by the enclosed metadata reporting 
+statement.  The user bears all responsibility for it subsequent use/misuse in 
+any further analyses or comparisons.  The Federal government does not assume 
+liability to the Recipient of third persons, not will the Federal government 
+reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 2.2-1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page 
+http://inlet.geol.sc.edu/cdmohome.html.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.   
+
+
+8.  Associated researchers and projects:
+
+Sapelo Island has a long history of maintaining research.  In 1953, the 
+University of Georgia Marine Institute (UGAMI) was formed and the 
+island became a working laboratory for many.  The research continues 
+today with SAP NERR and UGAMI creating a unique partnership with much of 
+the current research being facilitated by SAP NERR and UGAMI 
+together.  Given UGAMI's long history on Sapelo, a bibliographic list 
+of over 800 articles of current and previous research can be found on 
+the UGAMI website.  (http://www.uga.edu/UGAMI).  
+
+
+
+9.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two-line column header 
+at the top of the page, which identifies measurements and units for each column. 
+
+10.  Coded variable indicator and variable code definitions:
+	LD = Lower Duplin        HD = Hunt Dock
+11. Data Anomalies:
+
+
+Hunt Dock 
+January
+1/18/2001 16:00-01/31/2001 23:30 all turbidity data removed due to post 
+deployment calibration failure.
+1/1/2001 0:00 - 1/18/2001 15:00 no turbidity, not deployed
+1/18/2001 15:30 no data taken, sonde between deployments
+The following times had all data removed due to exposure above the water's 
+surface during low tide:
+1/1/2001 1800-1930
+1/4/2001 2100-2230
+1/5/2001 1000-1030
+1/5/2001 2130-1/6/2001 0:00
+1/6/2001 1030 -1200
+1/6/2001 2230- 1/7/2001 0:30
+1/7/2001 1130-1300
+1/7/2001 2300-1/8/2001 130
+1/8/2001 1200-1430
+1/8/2001 2330-1/9/2001 330
+1/9/2001 1230-1600
+1/10 030-400
+1/10 1400-1630
+1/11 130-430
+1/11 1430-1730
+1/12 230-530
+1/12 1530-1830
+1/13 400-600
+1/13 1700-1830
+1/14 1800-1900
+1/15 630-800
+1/15 1830-2000
+1/16 730-830
+1/16 1930-2100
+1/18 2230
+1/19 1100
+1/19 2230-1/20 030
+1/20 1030-1330
+1/20 2200-1/21 200
+1/21 1130-1330
+1/21 2330-1/22 200
+1/22 1330-1400
+1/23 100-200
+1/24 130-300
+1/24 1430-1530
+1/25 130-400
+1/25 1430-1630
+1/26 300-330
+1/26 1530-1700
+1/27 300-500
+1/27 1530-1730
+1/28 330-530
+1/28 1600-1800
+1/29 500-530
+1/29 1700-1830
+1/30 530-630
+1/30 1700-1930
+1/31 600-730
+1/31 1730-2000
+
+
+
+February
+2/01/2001 00:00 - 2/15/2001 01:00 turbidity removed due to post deployment 
+calibration verification failure
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+2/1 630-900
+2/1 1830-2100
+2/2 730-930
+2/2 2000-2200
+2/3 830-1030
+2/3 2130- 2300
+2/4 1030-1130
+2/4 2200-2/5 000
+2/5 1100-1300
+2/5 2230-2/6 200
+2/6 1130-1430
+2/6 2330-2/7 0300
+2/7 1230-1530
+2/8 030-400
+2/8 1330-1630
+2/9 130- 500
+2/9 1400-1730
+2/10 230-530
+2/11 100-900
+2/11 1400-2100
+2/12 300-1000
+2/12 1430-2230
+2/13 300-1100
+2/13 1430-2330
+2/14 300-1200
+2/14 1500- 2/15 100
+2/15 400-1330
+2/15 1530-2/16 130
+2/16 500-1430
+2/16 1630- 2/17 230
+2/17 630- 1600
+2/17 1730-2/18 300
+2/18 730- 1600
+2/18 1900-2/19 330
+2/19 900-1630
+2/19 2000-2/20 430
+2/20 900-1730
+2/20 2030-2/21 530
+2/21 930-1800
+2/21 2100- 2/22 630
+2/22 1030- 1830
+2/22 2230-2/23 600
+2/23 1100-1900
+2/23 2330-2/24 0700
+2/24 1200-1930 
+2/24 2330- 2/25 730
+2/25 1200-2000
+2/26 000-830
+2/26 1230-2100
+2/27 030-900
+2/27 1300-2100
+2/28 130-1000
+2/28 1330-2130
+
+
+March 
+03/24/2001	12:30:00	 0163 Turbidity spike, cause unknown
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+03/01/2001	02:30:00								
+03/01/2001	03:00:00								
+03/01/2001	03:30:00								
+03/01/2001	04:00:00								
+03/01/2001	04:30:00								
+03/01/2001	05:00:00								
+03/01/2001	05:30:00								
+03/01/2001	06:00:00								
+03/01/2001	06:30:00								
+03/01/2001	07:00:00								
+03/01/2001	07:30:00								
+03/01/2001	08:00:00								
+03/01/2001	08:30:00								
+03/01/2001	09:00:00								
+03/01/2001	09:30:00								
+03/01/2001	10:00:00								
+03/01/2001	10:30:00								
+03/01/2001	11:00:00								
+03/01/2001	14:30:00								
+03/01/2001	15:00:00								
+03/01/2001	15:30:00								
+03/01/2001	16:00:00								
+03/01/2001	16:30:00								
+03/01/2001	17:00:00								
+03/01/2001	17:30:00								
+03/01/2001	18:00:00								
+03/01/2001	18:30:00								
+03/01/2001	19:00:00								
+03/01/2001	19:30:00								
+03/01/2001	20:00:00								
+03/01/2001	20:30:00								
+03/01/2001	21:00:00								
+03/01/2001	21:30:00
+03/01/2001	22:00:00
+03/01/2001	22:30:00
+03/02/2001	03:00:00
+03/02/2001	03:30:00
+03/02/2001	04:00:00
+03/02/2001	04:30:00
+03/02/2001	05:00:00
+03/02/2001	05:30:00
+03/02/2001	06:00:00
+03/02/2001	06:30:00
+03/02/2001	07:00:00
+03/02/2001	07:30:00
+03/02/2001	08:00:00
+03/02/2001	08:30:00
+03/02/2001	09:00:00
+03/02/2001	09:30:00
+03/02/2001	10:00:00
+03/02/2001	10:30:00
+03/02/2001	11:00:00
+03/02/2001	11:30:00
+03/02/2001	12:00:00
+03/02/2001	14:30:00
+03/02/2001	15:00:00
+03/02/2001	15:30:00
+03/02/2001	16:00:00
+03/02/2001	16:30:00
+03/02/2001	17:00:00
+03/02/2001	17:30:00
+03/02/2001	18:00:00
+03/02/2001	18:30:00
+03/02/2001	19:00:00
+03/02/2001	19:30:00
+03/02/2001	20:00:00
+03/02/2001	20:30:00
+03/02/2001	21:00:00
+03/02/2001	21:30:00
+03/02/2001	22:00:00
+03/02/2001	22:30:00
+03/02/2001	23:00:00
+03/02/2001	23:30:00
+03/03/2001	00:00:00
+03/03/2001	03:30:00
+03/03/2001	04:00:00
+03/03/2001	04:30:00
+03/03/2001	05:00:00
+03/03/2001	05:30:00
+03/03/2001	06:00:00
+03/03/2001	06:30:00
+03/03/2001	07:00:00
+03/03/2001	07:30:00
+03/03/2001	08:00:00
+03/03/2001	08:30:00
+03/03/2001	09:00:00
+03/03/2001	09:30:00
+03/03/2001	10:00:00
+03/03/2001	10:30:00
+03/03/2001	11:00:00
+03/03/2001	11:30:00
+03/03/2001	12:00:00
+03/03/2001	12:30:00
+03/03/2001	13:00:00
+03/03/2001	13:30:00
+03/03/2001	15:30:00
+03/03/2001	16:00:00
+03/03/2001	16:30:00
+03/03/2001	17:00:00
+03/03/2001	17:30:00
+03/03/2001	18:00:00
+03/03/2001	18:30:00
+03/03/2001	19:00:00
+03/03/2001	19:30:00
+03/03/2001	20:00:00
+03/03/2001	20:30:00
+03/03/2001	21:00:00
+03/03/2001	21:30:00
+03/03/2001	22:00:00
+03/03/2001	22:30:00
+03/03/2001	23:00:00
+03/03/2001	23:30:00
+03/04/2001	00:00:00
+03/04/2001	00:30:00
+03/04/2001	01:00:00
+03/04/2001	05:00:00
+03/04/2001	05:30:00
+03/04/2001	06:00:00
+03/04/2001	06:30:00
+03/04/2001	07:00:00
+03/04/2001	07:30:00
+03/04/2001	08:00:00
+03/04/2001	08:30:00
+03/04/2001	09:00:00
+03/04/2001	09:30:00
+03/04/2001	10:00:00
+03/04/2001	10:30:00
+03/04/2001	11:00:00
+03/04/2001	11:30:00
+03/04/2001	12:00:00
+03/04/2001	12:30:00
+03/04/2001	13:00:00
+03/04/2001	13:30:00
+03/04/2001	14:00:00
+03/04/2001	16:30:00
+03/04/2001	17:00:00
+03/04/2001	17:30:00
+03/04/2001	18:00:00
+03/04/2001	18:30:00
+03/04/2001	19:00:00
+03/04/2001	19:30:00
+03/04/2001	20:00:00
+03/04/2001	20:30:00
+03/04/2001	21:00:00
+03/04/2001	21:30:00
+03/04/2001	22:00:00
+03/04/2001	22:30:00
+03/04/2001	23:00:00
+03/04/2001	23:30:00
+03/05/2001	00:00:00
+03/05/2001	00:30:00
+03/05/2001	01:00:00
+03/05/2001	01:30:00
+03/05/2001	02:00:00
+03/05/2001	02:30:00
+03/05/2001	03:00:00
+03/05/2001	03:30:00
+03/05/2001	04:00:00
+03/05/2001	04:30:00
+03/05/2001	05:00:00
+03/05/2001	05:30:00
+03/05/2001	06:00:00
+03/05/2001	06:30:00
+03/05/2001	07:00:00
+03/05/2001	07:30:00
+03/05/2001	08:00:00
+03/05/2001	08:30:00
+03/05/2001	09:00:00
+03/05/2001	09:30:00
+03/05/2001	10:00:00
+03/05/2001	10:30:00
+03/05/2001	11:00:00
+03/05/2001	11:30:00
+03/05/2001	12:00:00
+03/05/2001	12:30:00
+03/05/2001	13:00:00
+03/05/2001	13:30:00
+03/05/2001	14:00:00
+03/05/2001	14:30:00
+03/05/2001	15:00:00
+03/05/2001	15:30:00
+03/05/2001	17:00:00
+03/05/2001	17:30:00
+03/05/2001	18:00:00
+03/05/2001	18:30:00
+03/05/2001	19:00:00
+03/05/2001	19:30:00
+03/05/2001	20:00:00
+03/05/2001	20:30:00
+03/05/2001	21:00:00
+03/05/2001	21:30:00
+03/05/2001	22:00:00
+03/05/2001	22:30:00
+03/05/2001	23:00:00
+03/05/2001	23:30:00
+03/06/2001	00:00:00
+03/06/2001	00:30:00
+03/06/2001	01:00:00
+03/06/2001	01:30:00
+03/06/2001	02:00:00
+03/06/2001	02:30:00
+03/06/2001	03:00:00
+03/06/2001	03:30:00
+03/06/2001	22:30:00
+03/06/2001	23:00:00
+03/06/2001	23:30:00
+03/07/2001	00:00:00
+03/07/2001	00:30:00
+03/07/2001	01:00:00
+03/07/2001	01:30:00
+03/07/2001	12:00:00
+03/07/2001	12:30:00
+03/07/2001	13:00:00
+03/08/2001	00:00:00
+03/08/2001	00:30:00
+03/08/2001	01:00:00
+03/08/2001	01:30:00
+03/08/2001	02:00:00
+03/08/2001	13:00:00
+03/08/2001	13:30:00
+03/08/2001	14:00:00
+03/08/2001	14:30:00
+03/09/2001	01:00:00
+03/09/2001	01:30:00
+03/09/2001	02:00:00
+03/09/2001	02:30:00
+03/09/2001	03:00:00
+03/09/2001	03:30:00
+03/09/2001	13:30:00
+03/09/2001	14:00:00
+03/09/2001	14:30:00
+03/09/2001	15:00:00
+03/09/2001	15:30:00
+03/10/2001	01:30:00
+03/10/2001	02:00:00
+03/10/2001	02:30:00
+03/10/2001	03:00:00
+03/10/2001	03:30:00
+03/10/2001	04:00:00
+03/10/2001	15:00:00
+03/10/2001	15:30:00
+03/10/2001	16:00:00
+03/11/2001	03:00:00
+03/11/2001	03:30:00
+03/11/2001	04:00:00
+03/11/2001	04:30:00
+03/11/2001	15:00:00
+03/11/2001	15:30:00
+03/11/2001	16:00:00
+03/11/2001	16:30:00
+03/11/2001	17:00:00
+03/12/2001	03:30:00
+03/12/2001	04:00:00
+03/12/2001	04:30:00
+03/12/2001	05:00:00
+03/12/2001	05:30:00
+03/12/2001	15:30:00
+03/12/2001	16:00:00
+03/12/2001	16:30:00
+03/12/2001	17:00:00
+03/12/2001	17:30:00
+03/12/2001	18:00:00
+03/13/2001	04:00:00
+03/13/2001	04:30:00
+03/13/2001	05:00:00
+03/13/2001	05:30:00
+03/13/2001	06:00:00
+03/13/2001	06:30:00
+03/13/2001	16:30:00
+03/13/2001	17:00:00
+03/13/2001	17:30:00
+03/13/2001	18:00:00
+03/13/2001	18:30:00
+03/14/2001	05:00:00
+03/14/2001	05:30:00
+03/14/2001	06:00:00
+03/14/2001	06:30:00
+03/14/2001	07:00:00
+03/14/2001	17:00:00
+03/14/2001	17:30:00
+03/14/2001	18:00:00
+03/14/2001	18:30:00
+03/14/2001	19:00:00
+03/15/2001	18:30:00
+03/15/2001	19:00:00
+03/21/2001	12:00:00
+03/21/2001	12:30:00
+03/21/2001	13:00:00
+03/22/2001	00:00:00
+03/22/2001	00:30:00
+03/22/2001	01:00:00
+03/22/2001	01:30:00
+03/22/2001	13:00:00
+03/22/2001	13:30:00
+03/22/2001	14:00:00
+03/23/2001	00:30:00
+03/23/2001	01:00:00
+03/23/2001	01:30:00
+03/23/2001	02:00:00
+03/23/2001	14:00:00
+03/24/2001	01:30:00
+03/24/2001	02:00:00
+03/24/2001	02:30:00
+03/24/2001	13:30:00
+03/24/2001	14:00:00
+03/24/2001	14:30:00
+03/24/2001	15:00:00
+03/25/2001	01:30:00
+03/25/2001	02:00:00
+03/25/2001	02:30:00
+03/25/2001	03:00:00
+03/25/2001	03:30:00
+03/25/2001	13:30:00
+03/25/2001	14:00:00
+03/25/2001	14:30:00
+03/25/2001	15:00:00
+03/25/2001	15:30:00
+03/25/2001	16:00:00
+03/26/2001	02:30:00
+03/26/2001	03:00:00
+03/26/2001	03:30:00
+03/26/2001	14:30:00
+03/26/2001	15:00:00
+03/26/2001	15:30:00
+03/26/2001	16:00:00
+03/26/2001	16:30:00
+03/27/2001	02:30:00
+03/27/2001	03:00:00
+03/27/2001	03:30:00
+03/27/2001	04:00:00
+03/27/2001	04:30:00
+03/27/2001	15:30:00
+03/27/2001	16:00:00
+03/27/2001	16:30:00
+03/29/2001	17:00:00
+03/30/2001	05:00:00
+03/30/2001	05:30:00
+03/30/2001	06:00:00
+03/30/2001	17:00:00
+03/30/2001	17:30:00
+03/30/2001	18:00:00
+03/30/2001	18:30:00
+03/30/2001	19:00:00
+03/31/2001	07:30:00
+03/31/2001	18:30:00
+03/31/2001	19:00:00
+03/31/2001	19:30:00
+
+April
+4/22/2001 21:00 -5/13/2001 14:30 DO% and DO mg/L data removed due to post 
+deployment calibration verification failure
+Turbidity spikes, data retained: 
+04/12/2001 22:00 373 NTU, cause unknown
+No turbidity probe deployed 04/22/2001 19:00 - 04/30/2001 23:30, therefore no 
+turbidity data is available. 
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+04/01/2001	07:30:00
+04/01/2001	08:00:00
+04/01/2001	18:30:00
+04/01/2001	19:00:00
+04/01/2001	19:30:00
+04/01/2001	20:00:00
+04/01/2001	20:30:00
+04/01/2001	21:00:00
+04/01/2001	21:30:00
+04/02/2001	09:00:00
+04/02/2001	21:00:00
+04/02/2001	21:30:00
+04/02/2001	22:00:00
+04/03/2001	22:00:00
+04/03/2001	22:30:00
+04/03/2001	23:00:00
+04/03/2001	23:30:00
+04/04/2001	00:00:00
+04/04/2001	10:30:00
+04/04/2001	11:00:00
+04/04/2001	11:30:00
+04/04/2001	12:00:00
+04/04/2001	12:30:00
+04/04/2001	23:00:00
+04/04/2001	23:30:00
+04/05/2001	00:00:00
+04/05/2001	00:30:00
+04/05/2001	12:00:00
+04/05/2001	12:30:00
+04/05/2001	13:00:00
+04/06/2001	00:00:00
+04/06/2001	00:30:00
+04/06/2001	01:00:00
+04/06/2001	01:30:00
+04/06/2001	02:00:00
+04/06/2001	12:00:00
+04/06/2001	12:30:00
+04/06/2001	13:00:00
+04/06/2001	13:30:00
+04/06/2001	14:00:00
+04/06/2001	14:30:00
+04/07/2001	00:00:00
+04/07/2001	00:30:00
+04/07/2001	01:00:00
+04/07/2001	01:30:00
+04/07/2001	02:00:00
+04/07/2001	02:30:00
+04/07/2001	03:00:00
+04/07/2001	12:30:00
+04/07/2001	13:00:00
+04/07/2001	13:30:00
+04/07/2001	14:00:00
+04/07/2001	14:30:00
+04/07/2001	15:00:00
+04/07/2001	15:30:00
+04/08/2001	01:00:00
+04/08/2001	01:30:00
+04/08/2001	02:00:00
+04/08/2001	02:30:00
+04/08/2001	03:00:00
+04/08/2001	03:30:00
+04/08/2001	04:00:00
+04/08/2001	13:00:00
+04/08/2001	13:30:00
+04/08/2001	14:00:00
+04/08/2001	14:30:00
+04/08/2001	15:00:00
+04/08/2001	15:30:00
+04/08/2001	16:00:00
+04/09/2001	02:00:00
+04/09/2001	02:30:00
+04/09/2001	03:00:00
+04/09/2001	03:30:00
+04/09/2001	04:00:00
+04/09/2001	04:30:00
+04/09/2001	05:00:00
+04/09/2001	14:00:00
+04/09/2001	14:30:00
+04/09/2001	15:00:00
+04/09/2001	15:30:00
+04/09/2001	16:00:00
+04/09/2001	16:30:00
+04/09/2001	17:00:00
+04/10/2001	02:30:00
+04/10/2001	03:00:00
+04/10/2001	03:30:00
+04/10/2001	04:00:00
+04/10/2001	04:30:00
+04/10/2001	05:00:00
+04/10/2001	05:30:00
+04/10/2001	15:00:00
+04/10/2001	15:30:00
+04/10/2001	16:00:00
+04/10/2001	16:30:00
+04/10/2001	17:00:00
+04/11/2001	04:00:00
+04/11/2001	04:30:00
+04/11/2001	05:00:00
+04/11/2001	05:30:00
+04/11/2001	16:00:00
+04/11/2001	16:30:00
+04/11/2001	17:00:00
+04/12/2001	05:00:00
+04/12/2001	05:30:00
+04/12/2001	06:00:00
+04/12/2001	17:30:00
+04/13/2001	18:00:00
+04/13/2001	18:30:00
+04/19/2001	11:00:00
+04/19/2001	11:30:00
+04/19/2001	12:00:00
+04/20/2001	11:30:00
+04/20/2001	12:00:00
+04/20/2001	12:30:00
+04/20/2001	13:00:00
+04/21/2001	00:00:00
+04/21/2001	00:30:00
+04/21/2001	01:00:00
+04/21/2001	12:00:00
+04/21/2001	12:30:00
+04/21/2001	13:00:00
+04/21/2001	13:30:00
+04/21/2001	14:00:00
+04/22/2001	00:30:00
+04/22/2001	01:00:00
+04/22/2001	01:30:00
+04/22/2001	02:00:00
+04/22/2001	02:30:00
+04/22/2001	12:30:00
+04/22/2001	13:00:00
+04/22/2001	13:30:00
+04/22/2001	14:00:00
+04/22/2001	14:30:00
+04/22/2001	15:00:00
+04/23/2001	01:00:00
+04/23/2001	01:30:00
+04/23/2001	02:00:00
+04/23/2001	02:30:00
+04/23/2001	03:00:00
+04/23/2001	13:00:00
+04/23/2001	13:30:00
+04/23/2001	14:00:00
+04/23/2001	14:30:00
+04/23/2001	15:00:00
+04/23/2001	15:30:00
+04/24/2001	01:30:00
+04/24/2001	02:00:00
+04/24/2001	02:30:00
+04/24/2001	03:00:00
+04/24/2001	03:30:00
+04/24/2001	04:00:00
+04/24/2001	13:30:00
+04/24/2001	14:00:00
+04/24/2001	14:30:00
+04/24/2001	15:00:00
+04/24/2001	15:30:00
+04/24/2001	16:00:00
+04/25/2001	02:00:00
+04/25/2001	02:30:00
+04/25/2001	03:00:00
+04/25/2001	03:30:00
+04/25/2001	04:00:00
+04/25/2001	04:30:00
+04/25/2001	14:00:00
+04/25/2001	14:30:00
+04/25/2001	15:00:00
+04/25/2001	15:30:00
+04/25/2001	16:00:00
+04/25/2001	16:30:00
+04/25/2001	17:00:00
+04/26/2001	04:00:00
+04/26/2001	04:30:00
+04/26/2001	15:30:00
+04/26/2001	16:00:00
+04/26/2001	16:30:00
+04/26/2001	17:00:00
+04/27/2001	04:30:00
+04/27/2001	05:00:00
+04/27/2001	05:30:00
+04/27/2001	16:00:00
+04/27/2001	16:30:00
+04/27/2001	17:00:00
+04/27/2001	17:30:00
+04/28/2001	05:30:00
+04/28/2001	06:00:00
+04/28/2001	17:00:00
+04/28/2001	17:30:00
+04/28/2001	18:00:00
+04/28/2001	18:30:00
+04/29/2001	06:00:00
+04/29/2001	06:30:00
+
+May/June
+5/27/2001 18:30 - 06/06/2001 13:00 DO% and mg/L were removed after 
+post-deployment calibration verification failed. It was at 18:30 where 
+a large DO spike occurred, possibly from membrane failure.
+No turbidity probe deployed for the month of May, therefore no turbidity data is 
+available. 
+No turbidity probe deployed 06/01/2001 00:00 - 06/06/2001 13:30, therefore no 
+turbidity data is available. 
+No turbidity probe deployed 06/24/2001 12:30 - 06/30/2001 23:30, therefore no 
+turbidity data is available. 
+06/24/2001 12:30 - 06/30 23:30 DO% and mg/L were deleted due to probe failure.
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+05/02/2001	10:00:00
+05/02/2001	22:30:00
+05/03/2001	10:30:00
+05/03/2001	11:00:00
+05/03/2001	11:30:00
+05/03/2001	12:00:00
+05/03/2001	23:00:00
+05/03/2001	23:30:00
+05/04/2001	00:00:00
+05/04/2001	00:30:00
+05/04/2001	11:00:00
+05/04/2001	11:30:00
+05/04/2001	12:00:00
+05/04/2001	12:30:00
+05/05/2001	00:00:00
+05/05/2001	00:30:00
+05/05/2001	01:00:00
+05/05/2001	01:30:00
+05/05/2001	12:00:00
+05/05/2001	12:30:00
+05/05/2001	13:00:00
+05/05/2001	13:30:00
+05/06/2001	00:30:00
+05/06/2001	01:00:00
+05/06/2001	01:30:00
+05/06/2001	02:00:00
+05/06/2001	02:30:00
+05/06/2001	12:30:00
+05/06/2001	13:00:00
+05/06/2001	13:30:00
+05/06/2001	14:00:00
+05/06/2001	14:30:00
+05/07/2001	02:30:00
+05/08/2001	15:00:00
+05/08/2001	15:30:00
+05/09/2001	03:30:00
+05/09/2001	04:00:00
+05/09/2001	04:30:00
+05/09/2001	15:30:00
+05/09/2001	16:00:00
+05/10/2001	04:30:00
+05/10/2001	05:00:00
+05/11/2001	05:30:00
+05/20/2001	12:00:00
+05/20/2001	12:30:00
+05/21/2001	12:30:00
+05/21/2001	13:00:00
+05/21/2001	13:30:00
+05/22/2001	01:30:00
+05/22/2001	12:30:00
+05/22/2001	13:00:00
+05/22/2001	13:30:00
+05/22/2001	14:00:00
+05/22/2001	14:30:00
+05/23/2001	01:00:00
+05/23/2001	01:30:00
+05/23/2001	02:00:00
+05/23/2001	02:30:00
+05/23/2001	03:00:00
+05/23/2001	13:30:00
+05/23/2001	14:00:00
+05/23/2001	14:30:00
+05/23/2001	15:00:00
+05/24/2001	02:30:00
+05/24/2001	03:00:00
+05/24/2001	03:30:00
+05/24/2001	14:30:00
+05/24/2001	15:00:00
+05/24/2001	15:30:00
+05/25/2001	03:00:00
+05/25/2001	03:30:00
+05/25/2001	04:00:00
+05/25/2001	04:30:00
+05/25/2001	15:00:00
+05/25/2001	15:30:00
+05/25/2001	16:00:00
+05/25/2001	16:30:00
+05/26/2001	04:00:00
+05/26/2001	04:30:00
+05/26/2001	05:00:00
+05/26/2001	16:00:00
+05/26/2001	16:30:00
+05/26/2001	17:00:00
+05/26/2001	17:30:00
+05/27/2001	05:00:00
+05/27/2001	05:30:00
+05/27/2001	06:00:00
+05/27/2001	17:30:00
+05/27/2001	18:00:00
+05/28/2001	06:00:00
+05/28/2001	06:30:00
+05/28/2001	07:00:00
+05/28/2001	18:30:00
+05/28/2001	19:00:00
+05/28/2001	19:30:00
+05/29/2001	06:30:00
+05/29/2001	07:00:00
+05/29/2001	07:30:00
+05/29/2001	08:00:00
+05/29/2001	19:00:00
+05/29/2001	19:30:00
+05/29/2001	20:00:00
+05/29/2001	20:30:00
+05/30/2001	08:00:00
+05/30/2001	08:30:00
+05/31/2001	09:00:00
+05/31/2001	09:30:00
+05/31/2001	10:00:00
+(June)
+06/01/2001	10:00:00
+06/01/2001	10:30:00
+06/01/2001	11:00:00
+06/01/2001	22:30:00
+06/01/2001	23:00:00
+06/01/2001	23:30:00
+06/02/2001	00:00:00
+06/02/2001	10:00:00
+06/02/2001	10:30:00
+06/02/2001	11:00:00
+06/02/2001	11:30:00
+06/02/2001	12:00:00
+06/02/2001	12:30:00
+06/02/2001	23:00:00
+06/02/2001	23:30:00
+06/03/2001	00:00:00
+06/03/2001	00:30:00
+06/03/2001	01:00:00
+06/03/2001	11:00:00
+06/03/2001	11:30:00
+06/03/2001	12:00:00
+06/03/2001	12:30:00
+06/03/2001	13:00:00
+06/04/2001	00:00:00
+06/04/2001	00:30:00
+06/04/2001	01:00:00
+06/04/2001	01:30:00
+06/04/2001	02:00:00
+06/04/2001	11:30:00
+06/04/2001	12:00:00
+06/04/2001	12:30:00
+06/04/2001	13:00:00
+06/04/2001	13:30:00
+06/04/2001	14:00:00
+06/05/2001	00:30:00
+06/05/2001	01:00:00
+06/05/2001	01:30:00
+06/05/2001	02:00:00
+06/05/2001	02:30:00
+06/05/2001	03:00:00
+06/05/2001	12:30:00
+06/05/2001	13:00:00
+06/05/2001	13:30:00
+06/05/2001	14:00:00
+06/05/2001	14:30:00
+06/06/2001	01:30:00
+06/06/2001	02:00:00
+06/06/2001	02:30:00
+06/06/2001	03:00:00
+06/06/2001	03:30:00
+06/07/2001	02:30:00
+06/07/2001	03:00:00
+06/07/2001	03:30:00
+06/07/2001	04:00:00
+06/07/2001	14:30:00
+06/07/2001	15:00:00
+06/07/2001	15:30:00
+06/07/2001	16:00:00
+06/08/2001	03:30:00
+06/08/2001	04:00:00
+06/08/2001	04:30:00
+06/08/2001	15:30:00
+06/08/2001	16:00:00
+06/09/2001	04:30:00
+06/09/2001	05:00:00
+06/09/2001	05:30:00
+06/14/2001	21:00:00
+06/14/2001	21:30:00
+06/15/2001	08:30:00
+06/16/2001	09:30:00
+06/16/2001	10:00:00
+06/16/2001	10:30:00
+06/16/2001	22:00:00
+06/16/2001	22:30:00
+06/16/2001	23:00:00
+06/17/2001	11:00:00
+06/18/2001	11:30:00
+06/18/2001	12:00:00
+06/19/2001	11:30:00
+06/19/2001	12:00:00
+06/19/2001	12:30:00
+06/19/2001	13:00:00
+06/19/2001	13:30:00
+06/20/2001	01:00:00
+06/20/2001	01:30:00
+06/20/2001	12:00:00
+06/20/2001	12:30:00
+06/20/2001	13:00:00
+06/20/2001	13:30:00
+06/20/2001	14:00:00
+06/20/2001	14:30:00
+06/21/2001	01:30:00
+06/21/2001	02:00:00
+06/21/2001	02:30:00
+06/21/2001	13:00:00
+06/21/2001	13:30:00
+06/21/2001	14:00:00
+06/21/2001	14:30:00
+06/21/2001	15:00:00
+06/21/2001	15:30:00
+06/22/2001	02:00:00
+06/22/2001	02:30:00
+06/22/2001	03:00:00
+06/22/2001	03:30:00
+06/22/2001	04:00:00
+06/22/2001	14:00:00
+06/22/2001	14:30:00
+06/22/2001	15:00:00
+06/22/2001	15:30:00
+06/22/2001	16:00:00
+06/23/2001	02:30:00
+06/23/2001	03:00:00
+06/23/2001	03:30:00
+06/23/2001	04:00:00
+06/23/2001	04:30:00
+06/23/2001	05:00:00
+06/23/2001	14:30:00
+06/23/2001	15:00:00
+06/23/2001	15:30:00
+06/23/2001	16:00:00
+06/23/2001	16:30:00
+06/23/2001	17:00:00
+06/24/2001	03:30:00
+06/24/2001	04:00:00
+06/24/2001	04:30:00
+06/24/2001	05:00:00
+06/24/2001	05:30:00
+06/24/2001	15:30:00
+06/24/2001	16:00:00
+06/24/2001	16:30:00
+06/24/2001	17:00:00
+06/24/2001	17:30:00
+06/25/2001	04:30:00
+06/25/2001	05:00:00
+06/25/2001	05:30:00
+06/25/2001	06:00:00
+06/25/2001	17:30:00
+06/25/2001	18:00:00
+06/26/2001	06:00:00
+06/26/2001	06:30:00
+06/26/2001	07:00:00
+06/26/2001	19:00:00
+06/27/2001	06:30:00
+06/27/2001	07:00:00
+06/27/2001	07:30:00
+06/27/2001	08:00:00
+06/27/2001	19:30:00
+06/27/2001	20:00:00
+06/28/2001	07:30:00
+06/28/2001	08:00:00
+06/28/2001	08:30:00
+06/29/2001	09:00:00
+06/29/2001	09:30:00
+06/30/2001	09:30:00
+06/30/2001	10:00:00
+06/30/2001	10:30:00
+06/30/2001	23:00:00
+
+
+July
+07/01/2001 00:00 - 07/16/2001 16:30 DO% and mg/L were removed after 
+post-deployment calibration verification failed.
+No turbidity probe deployed 07/01/2001 00:00 - 07/31/2001 23:30, therefore no 
+turbidity data is available. 
+The following data for DO% is unusually high, the data is kept in the 
+data set because post calibration verification passed within acceptable 
+limits.  The cause of this increase in DO is unknown.
+07/18/2001	16:00:00	620.8
+07/18/2001	16:30:00	620.5
+07/18/2001	17:00:00	620.6
+07/18/2001	17:30:00	620.3
+07/18/2001	18:00:00	620.1
+07/18/2001	18:30:00	620.3
+07/18/2001	19:00:00	620.5
+07/18/2001	19:30:00	620.5
+07/18/2001	20:00:00	620.7
+07/18/2001	20:30:00	621.3
+07/18/2001	21:00:00	621.8
+07/18/2001	21:30:00	622.4
+07/18/2001	22:00:00	623.1
+07/18/2001	22:30:00	623.6
+07/18/2001	23:00:00	623.8
+07/18/2001	23:30:00	624.3
+07/19/2001	01:30:00	625.8
+07/19/2001	02:00:00	625.3
+07/19/2001	02:30:00	625.6
+07/19/2001	03:00:00	624.9
+07/19/2001	03:30:00	624.5
+07/19/2001	04:00:00	623.9
+07/19/2001	04:30:00	623.8
+07/19/2001	05:00:00	623.8
+07/19/2001	05:30:00	623.8
+07/19/2001	06:00:00	623.8
+07/19/2001	06:30:00	623.8
+07/19/2001	07:00:00	623.7
+07/19/2001	07:30:00	623.7
+07/19/2001	08:00:00	624
+07/19/2001	08:30:00	624.4
+07/19/2001	09:00:00	624.2
+07/19/2001	09:30:00	624
+07/19/2001	10:00:00	623.2
+07/19/2001	10:30:00	621.3
+07/19/2001	11:00:00	619.7
+07/19/2001	14:30:00	613.6
+07/19/2001	15:00:00	602.5
+07/19/2001	15:30:00	598.7
+07/19/2001	16:00:00	616
+07/19/2001	16:30:00	600.5
+07/19/2001	17:00:00	590
+07/19/2001	17:30:00	579.7
+07/19/2001	18:00:00	568.5
+07/19/2001	18:30:00	566.6
+07/19/2001	19:00:00	555.2
+07/19/2001	19:30:00	549.1
+07/19/2001	20:00:00	547.7
+07/19/2001	20:30:00	546.8
+07/19/2001	21:00:00	537.5
+07/19/2001	21:30:00	533.3
+07/19/2001	22:00:00	527.7
+07/19/2001	22:30:00	523.6
+07/19/2001	23:00:00	514.6
+07/19/2001	23:30:00	505.4
+07/20/2001	00:00:00	502.6
+
+07/16/2001 17:00 note increase in salinity and pH.  This point is where 
+the sondes were switched. The increase is most likely due to clean 
+probes put out compared to the sonde that has been deployed for some time.
+The following times had all data removed due to exposure above the water's 
+surface during low tide:
+07/01/2001	10:30:00
+07/01/2001	11:00:00
+07/01/2001	11:30:00
+07/02/2001	00:00:00
+07/02/2001	00:30:00
+07/02/2001	11:00:00
+07/02/2001	11:30:00
+07/02/2001	12:00:00
+07/02/2001	12:30:00
+07/03/2001	00:00:00
+07/03/2001	00:30:00
+07/03/2001	01:00:00
+07/03/2001	01:30:00
+07/03/2001	12:00:00
+07/03/2001	12:30:00
+07/03/2001	13:00:00
+07/04/2001	01:30:00
+07/04/2001	02:00:00
+07/04/2001	13:00:00
+07/04/2001	13:30:00
+07/04/2001	14:00:00
+07/05/2001	02:00:00
+07/05/2001	02:30:00
+07/05/2001	03:00:00
+07/05/2001	13:30:00
+07/05/2001	14:00:00
+07/05/2001	14:30:00
+07/05/2001	15:00:00
+07/06/2001	02:00:00
+07/06/2001	02:30:00
+07/06/2001	03:00:00
+07/06/2001	03:30:00
+07/06/2001	14:00:00
+07/06/2001	14:30:00
+07/06/2001	15:00:00
+07/06/2001	15:30:00
+07/07/2001	03:00:00
+07/07/2001	03:30:00
+07/07/2001	04:00:00
+07/17/2001	10:30:00
+07/17/2001	11:00:00
+07/17/2001	23:30:00
+07/18/2001	11:00:00
+07/18/2001	11:30:00
+07/18/2001	12:00:00
+07/18/2001	12:30:00
+07/19/2001	00:00:00
+07/19/2001	00:30:00
+07/19/2001	01:00:00
+07/19/2001	11:30:00
+07/19/2001	12:00:00
+07/19/2001	12:30:00
+07/19/2001	13:00:00
+07/19/2001	13:30:00
+07/19/2001	14:00:00
+07/20/2001	00:30:00
+07/20/2001	01:00:00
+07/20/2001	01:30:00
+07/20/2001	02:00:00
+07/20/2001	02:30:00
+07/20/2001	12:00:00
+07/20/2001	12:30:00
+07/20/2001	13:00:00
+07/20/2001	13:30:00
+07/20/2001	14:00:00
+07/20/2001	14:30:00
+07/21/2001	01:30:00
+07/21/2001	02:00:00
+07/21/2001	02:30:00
+07/21/2001	03:00:00
+07/21/2001	14:30:00
+07/22/2001	15:00:00
+07/22/2001	15:30:00
+07/22/2001	16:00:00
+07/23/2001	03:30:00
+07/23/2001	04:00:00
+07/23/2001	04:30:00
+07/23/2001	15:30:00
+07/23/2001	16:00:00
+07/23/2001	16:30:00
+07/23/2001	17:00:00
+07/24/2001	04:00:00
+07/24/2001	04:30:00
+07/24/2001	05:00:00
+07/24/2001	05:30:00
+07/24/2001	06:00:00
+07/24/2001	16:00:00
+07/24/2001	16:30:00
+07/24/2001	17:00:00
+07/24/2001	17:30:00
+07/24/2001	18:00:00
+07/24/2001	18:30:00
+07/25/2001	04:30:00
+07/25/2001	05:00:00
+07/25/2001	05:30:00
+07/25/2001	06:00:00
+07/25/2001	06:30:00
+07/25/2001	17:30:00
+07/25/2001	18:00:00
+07/25/2001	18:30:00
+07/25/2001	19:00:00
+07/26/2001	06:00:00
+07/26/2001	06:30:00
+07/26/2001	07:00:00
+07/26/2001	19:00:00
+07/26/2001	19:30:00
+07/26/2001	20:00:00
+07/27/2001	06:30:00
+07/27/2001	07:00:00
+07/27/2001	07:30:00
+07/27/2001	08:00:00
+07/27/2001	08:30:00
+07/27/2001	20:00:00
+07/27/2001	20:30:00
+07/27/2001	21:00:00
+07/28/2001	08:00:00
+07/28/2001	08:30:00
+07/28/2001	09:00:00
+07/30/2001	09:30:00
+07/30/2001	10:00:00
+07/30/2001	10:30:00
+07/30/2001	11:00:00
+
+August
+No turbidity probe deployed 08/01/2001 00:00 - 08/31/2001 23:30, therefore no 
+turbidity data is available. 
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+08/04/2001	02:00:00
+08/04/2001	02:30:00
+08/05/2001	03:00:00
+08/05/2001	03:30:00
+08/05/2001	15:00:00
+08/06/2001	04:00:00
+08/08/2001	05:00:00
+08/11/2001	06:30:00
+08/13/2001	08:00:00
+08/13/2001	08:30:00
+08/13/2001	09:00:00
+08/14/2001	08:30:00
+08/14/2001	09:00:00
+08/14/2001	09:30:00
+08/14/2001	10:00:00
+08/14/2001	10:30:00
+08/14/2001	22:00:00
+08/14/2001	22:30:00
+08/15/2001	10:00:00
+08/15/2001	10:30:00
+08/15/2001	11:00:00
+08/16/2001	11:00:00
+08/16/2001	11:30:00
+08/16/2001	12:00:00
+08/16/2001	12:30:00
+08/17/2001	00:30:00
+08/17/2001	01:00:00
+08/17/2001	11:30:00
+08/17/2001	12:00:00
+08/17/2001	12:30:00
+08/17/2001	13:00:00
+08/17/2001	13:30:00
+08/17/2001	14:00:00
+08/18/2001	00:30:00
+08/18/2001	01:00:00
+08/18/2001	01:30:00
+08/18/2001	02:00:00
+08/18/2001	02:30:00
+08/18/2001	12:30:00
+08/18/2001	13:00:00
+08/18/2001	13:30:00
+08/18/2001	14:00:00
+08/18/2001	14:30:00
+08/18/2001	15:00:00
+08/19/2001	01:00:00
+08/19/2001	01:30:00
+08/19/2001	02:00:00
+08/19/2001	02:30:00
+08/19/2001	03:00:00
+08/19/2001	03:30:00
+08/19/2001	13:00:00
+08/19/2001	13:30:00
+08/19/2001	14:00:00
+08/19/2001	14:30:00
+08/19/2001	15:00:00
+08/19/2001	15:30:00
+08/19/2001	16:00:00
+08/20/2001	02:00:00
+08/20/2001	02:30:00
+08/20/2001	03:00:00
+08/20/2001	03:30:00
+08/20/2001	04:00:00
+08/20/2001	04:30:00
+08/20/2001	14:00:00
+08/20/2001	14:30:00
+08/20/2001	15:00:00
+08/20/2001	15:30:00
+08/20/2001	16:00:00
+08/20/2001	16:30:00
+08/20/2001	17:00:00
+08/21/2001	03:00:00
+08/21/2001	03:30:00
+08/21/2001	04:00:00
+08/21/2001	04:30:00
+08/21/2001	05:00:00
+08/21/2001	05:30:00
+08/21/2001	15:00:00
+08/21/2001	15:30:00
+08/21/2001	16:00:00
+08/21/2001	16:30:00
+08/21/2001	17:00:00
+08/21/2001	17:30:00
+08/22/2001	03:30:00
+08/22/2001	04:00:00
+08/22/2001	04:30:00
+08/22/2001	05:00:00
+08/22/2001	05:30:00
+08/22/2001	16:30:00
+08/22/2001	17:00:00
+08/22/2001	17:30:00
+08/23/2001	04:30:00
+08/23/2001	05:00:00
+08/23/2001	05:30:00
+08/23/2001	06:00:00
+08/23/2001	18:00:00
+08/23/2001	18:30:00
+08/24/2001	05:30:00
+08/24/2001	06:00:00
+08/24/2001	06:30:00
+08/24/2001	07:00:00
+08/24/2001	18:30:00
+08/24/2001	19:00:00
+08/24/2001	19:30:00
+08/29/2001	10:30:00
+08/29/2001	11:00:00
+08/30/2001	11:30:00
+08/30/2001	12:00:00
+08/31/2001	00:30:00
+08/31/2001	12:30:00
+
+September
+No turbidity probe deployed 09/01/2001 00:00 - 09/30/2001 23:30, therefore no 
+turbidity data is available. 
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+09/01/2001	00:30:00
+09/01/2001	01:00:00
+09/01/2001	01:30:00
+09/01/2001	13:00:00
+09/02/2001	01:30:00
+09/02/2001	02:00:00
+09/05/2001	04:00:00
+09/06/2001	05:30:00
+09/16/2001	14:00:00
+09/17/2001	02:00:00
+09/17/2001	02:30:00
+09/17/2001	14:00:00
+09/17/2001	14:30:00
+09/17/2001	15:00:00
+09/17/2001	15:30:00
+09/18/2001	02:30:00
+09/18/2001	03:00:00
+09/18/2001	03:30:00
+09/18/2001	15:00:00
+09/18/2001	15:30:00
+09/18/2001	16:00:00
+09/19/2001	03:00:00
+09/19/2001	03:30:00
+09/19/2001	04:00:00
+09/19/2001	04:30:00
+09/19/2001	15:30:00
+09/19/2001	16:00:00
+09/19/2001	16:30:00
+09/19/2001	17:00:00
+09/20/2001	04:00:00
+09/20/2001	04:30:00
+09/20/2001	05:00:00
+09/20/2001	05:30:00
+09/20/2001	17:00:00
+09/20/2001	17:30:00
+09/21/2001	05:00:00
+09/21/2001	05:30:00
+09/21/2001	06:00:00
+09/21/2001	18:30:00
+
+
+October
+No turbidity probe deployed 10/01/2001 00:00 - 10/31/2001 23:30, therefore no 
+turbidity data is available. 
+10/15/2001 14:30 DO read a negative value, cause unknown.
+10/15/2001 14:30 - 10/23 14:00 DO% and mg/L were deleted due to possible 
+membrane puncture. The DO probe reported a negative value on 10/15/2001 14:30, 
+which may have been the beginning of membrane failure. Sonde battery read 10.5 
+volts during this time, ruling out complete battery failure. 
+The following times had all data removed due to exposure above the 
+water's surface during low tide:
+10/14/2001	12:00:00
+10/14/2001	12:30:00
+10/14/2001	13:00:00
+10/14/2001	23:30:00
+10/15/2001	00:00:00
+10/15/2001	00:30:00
+10/15/2001	01:00:00
+10/15/2001	01:30:00
+10/16/2001	01:00:00
+10/16/2001	01:30:00
+10/16/2001	02:00:00
+10/16/2001	13:00:00
+10/16/2001	13:30:00
+10/16/2001	14:00:00
+10/16/2001	14:30:00
+10/17/2001	01:00:00
+10/17/2001	01:30:00
+10/17/2001	02:00:00
+10/17/2001	02:30:00
+10/17/2001	03:00:00
+10/17/2001	14:30:00
+10/17/2001	15:00:00
+10/17/2001	15:30:00
+10/18/2001	02:30:00
+10/18/2001	03:00:00
+10/18/2001	03:30:00
+
+November
+No turbidity probe deployed 11/01/2001 00:00 - 11/30/2001 23:30, therefore no 
+turbidity data is available. 
+11/18/2001 10:00 - 11/22/2001 9:00 DO once again is reading higher than 
+typical for this site.  Cause unknown. sonde had technical failure during mid 
+deployment so it was not possible to monitor the end of this DO event, and 
+because of battery failure, post calibration QA/QC was not run, therefore this 
+data is highly suspect.
+
+
+December
+No turbidity probe deployed 12/01/2001 00:00 - 12/31/2001 23:30, therefore no 
+turbidity data is available. 
+12/16/2001 10:30-11:00 DO% and mg/L reads negative value, cause unknown.
+The following times had all data removed due to exposure above the water's 
+surface during low tide:
+12/09/2001	09:30:00
+12/09/2001	10:00:00
+12/09/2001	10:30:00
+12/11/2001	11:30:00
+12/11/2001	12:00:00
+12/11/2001	23:30:00
+12/12/2001	00:00:00
+12/12/2001	00:30:00
+12/12/2001	12:30:00
+12/12/2001	13:00:00
+12/13/2001	00:00:00
+12/13/2001	00:30:00
+12/13/2001	01:00:00
+12/13/2001	01:30:00
+12/13/2001	13:30:00
+12/13/2001	14:00:00
+12/13/2001	14:30:00
+12/14/2001	01:00:00
+12/14/2001	01:30:00
+12/14/2001	02:00:00
+12/14/2001	02:30:00
+12/14/2001	14:00:00
+12/14/2001	14:30:00
+12/14/2001	15:00:00
+12/15/2001	01:00:00
+12/15/2001	01:30:00
+12/15/2001	02:00:00
+12/15/2001	02:30:00
+12/15/2001	03:00:00
+12/15/2001	14:30:00
+12/15/2001	15:00:00
+12/15/2001	15:30:00
+12/16/2001	03:00:00
+12/18/2001	03:30:00
+12/18/2001	04:00:00
+12/18/2001	04:30:00
+12/18/2001	05:00:00
+12/18/2001	05:30:00
+12/18/2001	17:00:00
+12/18/2001	17:30:00
+12/26/2001	22:30:00
+12/26/2001	23:00:00
+12/26/2001	23:30:00
+12/27/2001	00:00:00
+12/27/2001	00:30:00
+12/27/2001	12:00:00
+12/27/2001	23:00:00
+12/27/2001	23:30:00
+12/28/2001	00:00:00
+12/28/2001	00:30:00
+12/28/2001	01:00:00
+12/29/2001	00:00:00
+12/29/2001	00:30:00
+12/29/2001	01:00:00
+12/29/2001	01:30:00
+12/29/2001	02:00:00
+12/29/2001	13:30:00
+12/30/2001	00:30:00
+12/30/2001	01:00:00
+12/30/2001	01:30:00
+12/30/2001	02:00:00
+12/30/2001	02:30:00
+12/30/2001	03:00:00
+12/30/2001	14:00:00
+12/30/2001	14:30:00
+12/30/2001	15:00:00
+12/30/2001	15:30:00
+12/31/2001	01:30:00
+12/31/2001	02:00:00
+12/31/2001	02:30:00
+12/31/2001	03:00:00
+12/31/2001	03:30:00
+12/31/2001	14:30:00
+12/31/2001	15:00:00
+12/31/2001	15:30:00
+12/31/2001	16:00:00
+12/31/2001	16:30:00
+
+
+Lower Duplin:
+
+January
+1/18/2001 12:30 - 4/21/2001 14:30 turbidity not deployed.
+
+February
+No anomalies to report
+
+March
+3/24/2001 20:00 all data not reported. The sonde recorded data at 19:30 
+and then at 20:30, skipping over 20:00 completely.
+
+April
+The following times show anomalous turbidity values.  The negative readings 
+typically occur when the water is clear and the value recorded is at the low end 
+of the calibration curve.
+4/29/2001 20:00:00 0
+4/29/2001 20:30:00 -1
+4/30/2001 10:30:00 -1
+4/30/2001 11:00:00 -1
+4/30/2001 11:30:00 -1
+
+May
+5/13/2001 15:00 all data missing, sonde not deployed.
+The following times show anomalous turbidity values.  The negative readings 
+typically occur when the water is clear and the value recorded is at the low end 
+of the calibration curve.
+05/04/2001	00:30:00	0000
+05/08/2001	04:30:00	0000
+05/09/2001	06:00:00	0000
+05/10/2001	07:00:00	0000
+05/10/2001	10:30:00	0000
+05/10/2001	22:30:00	0000
+05/11/2001	08:30:00	-0001
+05/11/2001	09:00:00	0000
+05/11/2001	11:30:00	-0001
+05/12/2001	10:00:00	0000
+05/12/2001	11:00:00	0000
+05/12/2001	18:30:00	0000
+05/12/2001	19:00:00	0000
+05/13/2001	10:00:00	-0001
+05/13/2001	11:00:00	0000
+05/13/2001	11:30:00	0000
+05/13/2001	12:30:00	-0001
+05/13/2001	13:00:00	-0001
+
+June
+6/2/2001 15:00 -7/14/2001 10:30 no turbidity deployed
+6/17/2001 5:00 DO data drops to an unusually low value, cause unknown.
+6/18/2001 2:30 DO data drops to an unusually low value, cause unknown.
+6/20/2001 2:00, 13:30, 14:00 DO data drops to an unusually low value, 
+cause unknown.
+6/21/2001 13:00, 14:30-15:00 DO data drops to an unusually low value, 
+cause unknown
+6/22/2001 3:30 DO data drops to an unusually low value, cause unknown
+6/25/2001 18:00 DO data drops to an unusually low value, cause unknown
+6/27/2001 20:30 DO data drops to an unusually low value, cause unknown
+6/29/2001 9:30 DO data drops to an unusually low value, cause unknown.
+6/30/2001 10:00-10:30 DO data drops to an unusually low value, cause 
+unknown
+
+July
+7/14/2001 11:00 all data missing, sonde not deployed.
+7/19/2001 13:00 all data removed, sonde exposed during low tide.
+7/19/2001 17:00 High turbidity value recorded (845 NTU) due to possible presence 
+of debris. Value retained. 
+7/20/2001 13:30 -14:00 all data removed, sonde exposed during low tide.
+7/20/2001 22:00 High turbidity value recorded (946 NTU) due to possible presence 
+of debris. Value retained. 
+
+August
+8/2/2001 13:30 -8/16/2001 15:00 turbidity data removed, post calibration 
+verification failed.
+8/16/2001 15:30 - 9/2/2001 11:30 all data removed because the sonde became hung 
+up in the pvc pipe during deployment, this made the depth values off and the 
+sonde regularly exposed during tide fluctuations.  
+Sonde also shorted out when pulled out from the pipe and stopped collecting 
+data.  Therefore, none of the data collected is reliable.
+8/16/2001 15:30 - 12/31/2001 no turbidity probe deployed.
+
+September
+9/19/2001 12:30 no data, sonde did not record data during this time 
+period.  The cause for this programming problem is unknown.
+9/2/2001 12:00 - 9/23/2001 14:30 DO% and mg/L data removed.  DO data 
+often reading negative but did pass post calibration verification. The 
+data was removed because at a later deployment this same probe was found to need 
+reconditioning.
+For the following times, all data were deleted due to sonde being exposed at low 
+tides:
+9/17/2001 02:00 - 02:30
+9/17/2001 14:00 - 15:30
+9/18/2001 02:30 - 03:30
+9/18/2001 15:00 - 16:00
+9/19/2001 03:30 - 04:30
+9/19/2001 16:00 - 17:00
+9/20/2001 04:00 - 05:30
+9/20/2001 17:00 - 17:30
+9/21/2001 05:00 - 06:00
+9/23/2001 16:00 no data reported, sonde not deployed.
+
+October
+10/16/2001 15:00 all data missing, sonde not deployed
+10/16/2001 15:30-11/2/2001 17:30 DO% and mg/L data removed due to post 
+calibration verification failure. Probe required reconditioning.
+
+November
+11/25/2001 17:30 - 12/12/2001 14:30 Turbidity data removed, unable to calibrate 
+properly before deployment but sonde still collected the data.
+11/25/2001 10:00-11/25/2001 16:30 All data missing. Sonde not deployed
+
+December
+12/12/2001 15:00 - 12/31/2001 all data missing sonde malfunctioned and had to be 
+sent in for repairs, all data lost.
+
+
+
+12. Missing Data:
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post problems.  For more details on deleted data, see 
+the Anomalous Data Section (11).  To find out more details bout missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+13. Post Deployment information:
+
+Hunt Dock:
+
+deployment	SpCond	DO%	pH	      depth	     turb	
+date	      found/true		found/true		     found/true	
+
+12/26/2000	20.20/20.15	99.5	7.23/7.41			
+1/18/2001	19.3/20.15	108	7.24/7.41	0.081	     19/100	
+2/10/2001	20.15/20.15	104.5	7.32/7.41		     103.4/100	
+3/6/2001	23.36/24.8	125.4	7.14/7.41	0.036	     1.00/0	
+3/27/2001	20.18/20.15	100.5	7.38/7.41	-0.12	     0.8/0	
+4/3/2001	22.25/20.15	122	7.15/7.41	0.049      2.8/0	
+4/22/2001	24.5/24.8	65	7.39/7.41	0.045	      na	
+5/13/2001	48.71/49.64	>200	7.33/7.41	-0.029	na	
+6/6/2001	20.52/20.15	114	7.13/7.41	-0.041	1.3/0	
+6/24/2001		      208		      -0.01       na	
+7/16/2001	18.53/20.15	106.5	7.46/7.41	-0.034	na	DO failed 
+hi/Lo test
+8/7/2001	19.83/20.15	104	7.38/7.41	-0.054	na	
+8/21/2001	20.55/20.15	113	7.50/7.00	-0.089	na	
+9/2/2110	22.51/24.8		7.95/7.41	0.029	      na
+9/23/2001	24.78/24.8	88	7.02/7.00	-0.025	na
+10/25/2001	batteries died during mid deployment				
+11/18/2001	batteries died during mid deployment				
+12/8/2001	24.74/24.8	95.4	7.29/7.00	-0.018	na
+
+Lower Duplin:					
+12/26/2000	"sonde malfunction, not operating at post deployment therefore post 
+cal csv's not run"				
+1/18/2001	19.98/20.15	102	7.6/7.41	0.018	      na
+2/10/2001	24.12/24.8	109.6	7.40/7.41	-0.079	na
+3/6/2001	24.85/24.8	112	7.79/7.41	0.192	      na
+3/27/2001	20.23/20.15	110	7.46/7.41	0.19	      na
+4/21/2001	24.62/24.85	106.8	7.55/7.41	-1.57	     -0.2
+5/13/2001	19.82/20.15	119.3	7.39/7.41	-0.121	0.1/0
+6/2/2001	19.53/20.15	102.2	7.41/7.45	-0.057	na
+6/22/2001	22.53/20.15	93	7.63/7.41	-0.009	na
+7/14/2001	24.75/24.83	109	7.47/7.41	0.009	      1.3/0	
+8/2/2001	20.4/20.15	100.7	7.08/7.00	-0.064	47.5/100
+	turbidity data removed
+8/16/2001	"sonde malfunction, not operating at post deployment 
+therefore post cal csv's not run"					
+9/2/2001	22.51/20.15	107.4	7.95/7.41	0.029	       na	
+9/23/2001	23.4/24.8	98.6	7.01/7.00	0.423	       na	
+10/16/2001	23.56/24.8	152.6*7.16/7.00	0.023	       na	"*DO did 
+not pass hi/lo probe black at tip, data removed"
+11/2/2001	25.8/24.8	107	7.09/7.00	-0.004	na	
+11/25/2001	28.52/24.8	105.3	7.22/7.00	0.002	"Turb. Would not 
+calibrate prior to deployment, all data removed."	
+12/12/2001	"sonde malfunction, not operating at post deployment 
+therefore post cal csv's not run"					
+
+14. Other remarks:
+
+During the month of February the hunt dock site had extreme low tides due to the 
+right combination of tide and strong winds. 
+
+Coastal Georgia has been stricken with drought, and the year 2001 brought no 
+relief.  There was very little rainfall, and no large tropical disturbances. 

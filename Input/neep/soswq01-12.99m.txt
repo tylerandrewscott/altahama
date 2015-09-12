@@ -1,0 +1,896 @@
+South Slough (SOS) NERR Water Quality Metadata Report
+1999 January - December 
+Last Update - 8/30/00
+
+I. Dataset and Research Descriptors
+
+1.	Principle investigator and contact persons
+Dr. Steven Rumrill, Research Program Coordinator
+Sue Powell, Regional Watershed Coordinator
+
+email:	srumrill@harborside.com
+		water@harborside.com
+South Slough National Estuarine Research Reserve
+PO Box 5417
+Charleston, OR  97420
+Phone:  (541) 888-2581 ext. 304
+Fax:  (541) 888-5559
+
+2.	Entry verification
+The data are uploaded from the YSI-6000 data logger in the PC6000 format using 
+the PC6000 software.  Graphs are printed for an initial visual QA/QC check of 
+the data.  Using the Export command, the .dat files are saved in the PC6000 
+software as .csv files.  A CDMO macro imports data files into a monthly MS Excel 
+spreadsheet.  Missing dates and times are inserted into the spreadsheet as 
+necessary.  Data files are then run through CDMO Excel 5.0 macros that: 1) add 
+periods to cells with no data points; 2) check for variable outliers; 3) correct 
+date and time intervals; and 4) format the data columns to the CDMO standard.  
+The file is then printed out, and the data reviewed.  Pre- and post-deployment 
+calibration data are used to verify probe reliability throughout the sampling 
+period.  Data are deleted only if the probe has failed mechanically or 
+electronically or (after Research Coordinator review) if the data are clearly 
+not possible given the specific site characteristics.  The data files are saved 
+as Text (tab delimited) within the MS Excel software and are submitted to the 
+CDMO via FTP.  Regional Watershed Coordinator Sue Powell has been in charge of 
+data management since 9/99. 
+
+3.	Research objectives
+The South Slough NERR Estuarine Water Quality Monitoring Program is designed as 
+a Before/After, Control/Impact Study.  The purpose of the research is to 
+determine if the restoration activities change water quality parameters in a 
+measurable way.  The YSI-6000 data loggers are deployed within the South Slough 
+watershed along estuarine tidal channels immediately adjacent to intertidal salt 
+marshes.  One station serves a reference site and is located in the Sengstacken 
+Arm (Talbot Creek) adjacent to 4.3 ha of natural marsh.  The second station 
+serves as a non-point assessment site.  It is located in the Winchester Arm of 
+the slough adjacent to a dike-removal/marsh restoration area (5.1 ha) and 4.2 ha 
+of natural marsh (Rumrill and Cornu 1995).  The Valino Island site, installed in 
+June 1999, is a second reference area which is located in the main tidal channel 
+of South Slough, downstream from both of the other sites.  
+
+4.	Research methods
+Measurements with YSI data loggers are taken every 30 minutes over 22 day 
+(approximately) periods.  Sonde cleaning and calibrations of the DO, 
+conductivity, depth, pH and turbidity probes are performed as outlined in the 
+YSI manual. For conductivity and salinity, YSI conductivity calibrator solution 
+3168 (10,000 uS/cm) is used without dilution.  For pH calibrations, Corning  pH 
+7 and 10 solutions are used, and for turbidity, Hach turbidity standard is 
+diluted to 100 NTU.  To deploy, each data logger is lowered by chain into a 
+protective case constructed of 4-inch diameter ABS plumbing pipe that is affixed 
+vertically on an existing log piling driven into the mud.  The cases were 
+drilled out to ensure adequate tidal flushing and exposure of the probes to 
+ambient water conditions.  The sensor arrays are held 0.5 m off the bottom of 
+the tidal channels that are approximately 3 m deep at high tide.  Access to the 
+sonde sites are by skiff or sea kayak.  The sondes are out of the field for 24-
+60 hours for cleaning, downloading and calibration.  Post-deployment 
+calibrations are performed immediately upon retrieval to determine if instrument 
+drift has occurred.
+
+5.	Site location and character
+South Slough National Estuarine Research Reserve is representative of the mid-
+Pacific subarea of the Columbian Bioregion, from Cape Mendicino, California, 
+north to the Columbia River estuary.  The mouth of South Slough, located 
+approximately 8 km southwest of the city of Coos Bay, Oregon, is one of seven 
+tidal inlets that collectively form the Coos estuary.  The three sites within 
+the South Slough that are monitored with YSI data loggers are:
+
+1)  Sengstacken Arm (Talbot Creek):  [43 deg 17.374' N, 124 deg 18.156' W]  
+This station serves as a reference site located in the eastern riverine portion 
+of the estuary and is approximately 7.7 km from the mouth of the South Slough 
+estuary.  It is adjacent to 4.3 ha of natural marsh. Tidal range is 
+approximately 8 ft., and salinity ranges between 0-28 ppt.  Freshwater inputs 
+have not been quantified. 
+
+2)  Winchester Arm (Winchester Tidelands Restoration Project site):  
+[43 deg 16.945' N, 124 deg 19.216' W]    
+This station serves as a management-treatment site located in the western 
+riverine portion of the estuary and is approximately 7.3 km from the mouth of 
+the South Slough estuary.  The site is adjacent to the Winchester Tidelands 
+Restoration Project, where dikes were removed from a 5.1 ha area in 1996 and 
+1998.  About 4.2 hectares of natural marsh surround the project site.  Tidal 
+range is approximately 8 ft., and salinity ranges between 0-28 ppt. Freshwater 
+inputs are between 1-23 cfs.   
+
+Both sites 1 and 2 are located in tidal channels immediately adjacent to 
+intertidal marshes in habitats characterized by soft mud and eelgrass (Zostera 
+marina).  The primary contrasts between the two sites include differences in 
+channel width, maximum channel depth, and orientation of the channel with regard 
+to the predominant north-south winds.  The watershed above both sites is 
+primarily second-growth coniferous forest, and there are few industrial and 
+residential sites in the watershed.  Outside the boundary of the Reserve, the 
+South Slough watershed is managed primarily for the production of timber (i.e., 
+71% cover classification for commercial timber).
+
+3)  Valino Island:  [43 deg 19.034' N, 124 deg 19.298' W]
+This station serves as a secondary reference area located in the marine-
+dominated central portion of the estuary and is approximately 3.6 km  from the 
+mouth of South Slough estuary.  The Valino Island station is located in the 
+primary tidal channel and is adjacent to expansive eelgrass beds, tidal 
+mudflats, sandflats, and commercial oyster cultivation areas.  The tidal range 
+is about 11.5 ft. and salinity ranges between 10-33 ppt.
+
+
+
+
+6.	Data collection period
+	The average data collection period is 22 days.  Occasionally, it is 
+necessary for the data loggers to be retrieved a few days later or earlier.  In 
+1999, the collection dates were:
+
+Valino
+06/03/99 - 06/23/99
+06/24/99 - 07/13/99
+07/14/99 - 08/11/99
+08/13/99 - 09/01/99
+09/03/99 - 09/27/99
+09/28/99 - 10/20/99
+10/21/99 - 11/09/99
+11/10/99 - 12/06/99
+12/07/99 - 01/03/00
+Winchester
+12/05/98 - 01/04/99
+01/06/99 - 01/26/99
+01/28/99 - 02/23/99
+02/24/99 - 03/16/99
+03/17/99 - 04/07/99
+04/08/99 - 05/04/99
+05/05/99 - 06/02/99
+06/03/99 - 06/23/99
+06/24/99 - 07/13/99
+07/14/99 - 08/11/99
+08/13/99 - 09/01/99
+09/03/99 - 09/27/99
+09/28/99 - 10/20/99
+10/21/99 - 11/09/99
+11/10/99 - 12/06/99
+12/07/99 - 01/03/00
+Sengstacken
+12/05/98 - 01/04/99
+01/06/99 - 01/26/99
+01/28/99 - 02/23/99
+02/24/99 - 03/16/99
+03/17/99 - 04/07/99
+04/08/99 - 05/04/99
+05/05/99 - 06/02/99
+06/03/99 - 06/23/99
+06/24/99 - 07/13/99
+07/14/99 - 08/11/99
+08/13/99 - 09/01/99
+09/03/99 - 09/27/99
+09/28/99 - 10/20/99
+10/21/99 - 11/09/99
+11/10/99 - 12/06/99
+12/07/99 - 01/03/00
+
+7.	Associated researchers and projects
+The SSNERR water quality monitoring project has been incorporated into the State 
+of Oregon Coastal Non-Point Pollution Control Program (S. 6217) developed by the 
+Oregon Department of Land Conservation and Development and the Oregon Department 
+of Environmental Quality in July 1995. 
+
+
+
+II.  Physical Structure Descriptors
+
+8.	Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000 datalogger
+									
+Variable      	Range of Measurements          	Resolution           
+Accuracy
+Date          	1-12, 1-31, 00-99 (Mo,Day,Yr)  	1 mo, 1 day, 1 yr    NA
+Time          	0-24, 0-60, 0-60 (Hr,Min,Sec)  	1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)             			0.01  C        	      
++/-0.15C
+Sp COND        0-100(mS/cm)             		0.01mS/cm            +/-0.5% Of 
+								reading + 0.001mS/Cm
+Salinity     	 0-70 Parts per thousand (ppt)  	0.01 ppt             +/- 
+1% of 
+							Reading or 0.1 ppt, (whichever is 
+greater)
+DO           	 0-200 (% air saturation)  		   0.1% @air sat        
++/-2% @air 
+										Saturation
+DO            	200-500 (% air saturation) 		 0.1% @ air sat       +/- 
+6% @ 
+										Saturation
+DO                	 0-20 (mg/l)              			 0.01 mg/l            
++/- 0.2mg/l
+DO               	  20-50 (mg/l)            			  0.01 mg/l            
++/- 0.6mg/l
+Depth (shallow) 0-9.1 (m)                			 0.001m               +/- 
+0.018m
+PH               	  2-14 units                			 0.01 units           
++/- 0.2units
+Turb             	  0-1000 NTU               		 0.1 NTU              +/- 
+5% of 
+							Reading or 2 NTU (whichever is 
+greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+9.  Coded variable code definitions
+Site definitions:  SE = Sengstacken Arm; WI = Winchester Arm; VA = Valino Island
+
+10.	Data anomalies
+	
+Editing of data followed CDMO protocol.  Data outside the range specifications 
+of the instrument were rejected, except for depth and turbidity.  Negative depth 
+values were not rejected unless they corresponded to specific conductivity data 
+indicating that the sonde was out of the water.  Large positive turbidity spikes 
+(>100 NTU) were reported in the anomalous data section.  In general, if no probe 
+failure could be documented from the pre- and post-deployment calibration data, 
+the data were retained but reported in the anomalous data section.  A hand-held 
+YSI 85 was used for field calibration.  DO, temperature, salinity, and 
+conductivity were recorded at the surface and near the bottom during deployment 
+and retrieval of the sondes.
+ 
+WINCHESTER (WI):       
+January
+Jan. 1 (00:00) to Jan. 4 (12:00):  During pre-deployment calibration, DO charge 
+was out of range (99.2).  Although DO data are in range of expected values, they 
+may be suspect. 
+Jan. 6 (16:00) to Jan. 26 (13:00):  Depth probe malfunctioned so data were 
+deleted.
+Jan. 28 (11:00) to Jan. 31 (23:30):  Depth probe malfunctioned so data were 
+deleted.  Turbidity wiper malfunctioned so data were deleted.  DO probe 114% 
+during post-deployment calibration.  No on-site field readings for calibration 
+check.
+
+February
+Feb. 1 (00:00) to Feb 23 (09:00):  Depth and Turbidity probes malfunctioned so 
+data were deleted.  DO probe 114% during post-deployment calibration.  No on-
+site field readings for calibration check.
+Feb. 24 (10:00) to Feb. 28 (23:30):  DO high but within limits - post deployment 
+calibration was 106.6%.  Salinity high but within limits - post-deployment 
+calibration was 11.8 on 10 mS standard.  Field calibration during retrieval 11.0 
+ppt (not taken during deployment).  No turbidity probe deployed so data were 
+deleted.
+
+March
+Mar. 1 (00:00) to March 16 (14:00):  DO high but within limits - post deployment 
+calibration was 106.6%.  Salinity high but within limits - post-deployment 
+calibration was 11.8 on 10 mS standard.  Field calibration during retrieval 11.0 
+ppt (not recorded during deployment).  No turbidity probe was deployed so the 
+data were deleted.
+Mar. 17 (12:00) to Mar. 31 (23:30):  Specific conductivity high but within 
+limits - post-deployment calibration was 13.97 on 10 mS standard.  Field 
+calibration during deployment was 27.55 mS/cm and 17.2 ppt; during retrieval 146 
+mS/cm and 0.1 ppt.
+Mar. 18 (07:00):  Drop in DO.  Membrane was intact during post-deployment 
+calibration as it was 99.0%.
+Mar. 23 (16:30):  Drop in DO.  See post-deployment calibration above.
+Mar. 23 (19:00):  Drop in DO.  See post-deployment calibration above.
+Mar. 23 (20:30):  Drop in DO.  See post-deployment calibration above.
+
+April
+Apr. 1 (00:00) to April 7 (14:30): ):  Specific conductivity high but within 
+limits - post-deployment calibration was 13.97 on 10 mS standard.  Field 
+calibration during deployment was 27.55 mS/cm and 17.2 ppt; during retrieval 146 
+mS/cm and 0.1 ppt.
+Apr. 17 (11:30):  Turbidity spike.
+Apr. 18 (12:00):  Turbidity spike.
+Apr. 21 (14:00):  Turbidity spike.
+
+May
+May 5 (17:30) to May 31 (23:30):  DO high but within limits - post-deployment 
+calibration 103.5%.  Field calibration during deployment was 80.2%; none 
+recorded during retrieval.
+
+June
+June 4 (15:30) to (17:00):  DO high but within limits.  Post-deployment 
+calibration 101.3%.  No DO field calibration during deployment; retrieval was 
+68.6%. 
+June 6 (18:00) to (18:30):  DO high but within limits.  See calibration above.
+June 16 (14:00):  DO high but within limits.  See calibration above.
+June 18 (15:30) to (16:00):  DO high but within limits.  See calibration above.
+June 19 (16:00) to (16:30):  DO high but within limits.  See calibration above.
+June 21 (17:00) to (17:30):  DO high but within limits.  See calibration above. 
+June 22 (18:00):  DO high but within limits.  See calibration above.
+June 24 (11:30) to June 30 (23:30):  Turbidity wiper parked over optics during 
+post-deployment calibration.  Record is fairly flat; however, no large 
+discontinuity seen in record. 
+
+July
+July 1 (00:00) to July 3 (23:30):  All times off by 09:21; subtracted to reset 
+to whole and half hours.
+July 1 (13:00):  DO high but within limits.  Post-deployment calibration 102.3%.  
+Field calibration during deployment was 52.6%; retrieval was 86.8% on 7/13 
+although no data were recorded by sonde since 7/3. 
+July 2 (13:30):  DO high but within limits.  See calibration above.
+July 3 (14:00) to (14:30):  DO high but within limits.  See calibration above. 
+July 4 (00:00) to July 13 (14:00):  No data were recorded due to sonde failure.
+July 16 (14:00):  DO high but within limits.  Post-deployment calibration 91.2%.  
+Field calibration during deployment was 85.6%: during retrieval 66.6%.
+July 17 (14:30):  DO high but within limits.  See calibration above.
+July 18 (14:30) to (15:00):  DO high but within limits.  See calibration above.
+July 26 (06:00):  Turbidity spike.
+
+August
+Aug. 2 (14:00):  DO high but within limits.
+Aug. 3 (14:30) to (15:00):  DO high but within limits.
+Aug. 5 (22:30):  Turbidity spike.
+Aug. 22 (07:30):  Turbidity spike.
+
+September
+Sept. 3 (19:30) to Sept. 27 (17:00):  DO data deleted due to punctured membrane.
+Sept. 17 (14:00):  Turbidity spike.
+
+October
+Oct. 27 (20:00) to (23:00): Turbidity spike.
+
+November
+Nov. 5 (17:30) to (19:30):  Turbidity spike.
+Nov. 5 (22:00) to (22:30):  Turbidity spike.
+Nov. 6 (04:30) to (06:30):  Turbidity spike.
+Nov. 10 (19:00) to (19:30):  Turbidity spike.
+Nov. 19 (15:00) to (16:00):  Turbidity spike.
+
+Nov. 25 (00:00):  Turbidity spike.
+December 
+Dec. 2 (04:00) to 06:30):  Turbidity spike.
+Dec. 8 (22:30) to (23:30):  Turbidity spike.
+Dec. 9 (18:00) to (19:00):  Turbidity spike.
+
+SENGSTACKEN (SE):
+January
+Jan. 1 (00:00) to Jan. 4 (11:30):  Salinity high but within limits - 
+conductivity cell constant out of range during calibration at 10.4.  No post-
+calibration data.  No field calibration.
+Jan. 13 (11:00) to (12:30):  Salinity high but within limits - calibration cell 
+constant 10.4.  No post-calibration data.  Field calibration recorded during 
+deployment 9.0 ppt and conductivity 10.8 mS/cm; during retrieval 0.2 ppt and 
+conductivity 1.1 mS/cm. 
+Jan. 14 (09:00) to (13:30):  Salinity high but within limits - see calibration 
+above.
+Jan. 15 (10:00) to (14:00):  Salinity high but within limits - see calibration 
+above.
+Jan. 16 (10:00) to (11:30):  Salinity high but within limits - see calibration 
+above.
+Jan. 17 (10:30) to (12:00):  Salinity high but within limits - see calibration 
+above.
+Jan. 29 (20:00) to (22:00):  Turbidity spike.
+Jan. 30 (04:30) to (05:30):  Turbidity spike.
+Jan. 31 (19:30):  Negative turbidity.
+
+February
+Feb. 2 (07:30) to (11:30):  Turbidity spike.
+Feb. 6 (22:30) to Feb. 7 (02:00):  Turbidity spike.
+Feb. 15 (17:00) to (23:00):  Turbidity spike.
+Feb. 16 (18:00):  Turbidity spike.
+Feb. 17 (23:00):  Turbidity spike.
+Feb. 18 (07:00) to (07:30):  Turbidity spike.
+Feb. 21 (10:00):  Turbidity spike.
+Feb. 22 (10:00) to (12:30):  Turbidity spike.
+Feb. 22 (17:30) to (18:00):  Turbidity spike.
+Feb. 22 (22:30):  Turbidity spike.
+Feb. 24 (09:30) to Feb. 28 (23:30):  Specific conductivity and salinity low - 
+post-deployment calibration 6.6 for 10mS/cm.  Field calibration recorded during  
+retrieval was 11.9 ppt.
+Feb. 24 (14:00) to (15:00):  Turbidity spike.
+Feb. 25 (17:30):  Turbidity spike.
+Feb. 26 (17:30) to (18:30):  Turbidity spike.
+Feb. 27 (17:00) to (17:30):  Turbidity spike.
+Feb. 27 (22:00):  Turbidity spike.
+
+March
+Mar. 1 (00:00) to Mar. 16 (13:30):  Specific conductivity and salinity low - 
+post-deployment calibration 6.6 for 10mS/cm.  Field calibration recorded during  
+retrieval was 11.9 ppt (none recorded during deployment).
+Mar. 2 (20:00) to (21:00):  Turbidity spike.
+Mar. 2 (23:00):  Turbidity spike.
+Mar. 8 (10:00) to (15:30):  Turbidity spike.
+Mar. 13 (16:00) to (20:30):  Turbidity spike.
+Mar. 17 (13:00) to Mar. 31 (23:30):  Specific conductivity high but within 
+limits - post-deployment calibration was 14.0 on 10 mS standard.  Field 
+calibration recorded during deployment was 22.0 mS/cm and salinity 13.2 ppt;  
+during retrieval 39.0 mS/cm and 0.2 ppt.
+Mar. 19 (21:30):  Turbidity spike.
+Mar. 25 (21:00): DO spike.  Post-deployment calibration was 93.3%.  Field 
+calibration recorded during deployment was 89.4% on the surface and 22.0% on the 
+bottom; during retrieval 9.9 mg/L and 90.0%.
+Mar. 26 (08:00):  Low DO.
+Mar. 27 (13:30):  DO spike.
+Mar. 29 (17:00) to (19:30):  Turbidity spike.
+Mar. 30 (05:30) to (07:00):  Turbidity spike.
+Mar. 30 (17:30) to (18:00):  Turbidity spike.
+
+April
+Apr. 1 (00:00) to Apr. 4 (16:00):  Specific conductivity high but within limits 
+- post-deployment calibration was 14.0 on 10 mS standard.  Field calibration 
+recorded during deployment was 22.0 mS/cm and salinity 13.2 ppt;  during 
+retrieval 39.0 mS/cm and 0.2 ppt.
+Apr. 9 (12:30) to (13:00):  Turbidity spike.
+Apr. 20 (10:00):  Turbidity spike.
+Apr. 28 (08:30) to (09:30):  Turbidity spike.
+Apr. 29 (07:00) to (07:30):  Turbidity spike.
+
+May
+May 2 (21:00):  Turbidity spike.
+May 5 (17:00) to May 31 (23:30):  pH low - diatom fouling on probe noticed after 
+retrieval.  Post-deployment calibration 6.6 on 7.0 standard.
+May 6 (15:30): Turbidity spike.
+May 7 (10:00) to (11:30):  Turbidity spike.
+May 14 (09:00) to (11:00):  Turbidity spike.
+May 17 (09:00) to (11:30):  Turbidity spike.
+
+June
+June 1 (00:00) to June 2 (17:30):  pH low - diatom fouling on probe noticed 
+after retrieval.  Post-deployment calibration 6.6 on 7.0 standard.
+
+July
+July 3 (08:30) to (14:00):  No data collected due to internal device error.
+July 3 (23:30) to July 13 (13:30):  No data collected due to internal device 
+error.
+July 15 (13:30):  DO high but within limits.  Post-deployment calibration 
+101.0%.  Field calibration recorded during deployment was 69.3% on the bottom 
+and 87.6% on the surface; during retrieval 55.4% on the bottom and 55.5% on the 
+surface.
+July 18 (15:00) to (15:30):  DO high but within limits - see calibration above.
+July 21 (16:30) to (17:30):  DO high but within limits - see calibration above.
+July 26 (06:30) to July 31 (23:30):  No data collected due to internal device 
+error.
+
+ August
+Aug. 1 (00:00) to Aug. 11 (13:00):  No data collected due to internal device 
+error.
+Aug. 16 (14:00):  DO high but within limits.   Post-deployment calibration 101%.  
+Field calibration recorded during deployment was 69.3% on the bottom and 87.6% 
+on the surface; during retrieval 55.4% on the bottom and 55.5% on the surface.
+Aug. 18 (05:30):  Turbidity spike.
+Aug. 19 (15:00) to (17:00):  DO high but within limits.  Post-deployment 
+calibration was 98.5%.  Field calibration recorded during deployment was 62.9% 
+on the bottom and 63.2% on the surface; during retrieval 81.3% on the bottom, 
+91.4 on the surface, and 6.17 mg/L.  However, no data after 8/21/99 due to 
+battery failure.
+Aug. 20 (03:00) to (16:00):  No data collected due to internal device error.
+Aug. 21 (02:30) to Aug. 31 (23:30):  No data collected due to internal device 
+error. 
+Aug. 20 (16:30) to (18:30):  DO high but within limits - see calibration above.
+
+September
+Sept. 1 (00:00) to (16:00):  No data collected due to internal device error.
+Sept. 9 (22:00) to (22:30):  Turbidity spike.
+Sept. 14 (22:00):  Turbidity spike.
+Sept. 20 (01:00):  Turbidity spike.
+Sept. 22 (06:30) to (10:30):  No data collected due to internal device error.
+Sept. 22 (19:00) to Sept. 24 (15:00):  No data collected due to internal device 
+error.
+Sept. 24 (21:00) to (23:30):  No data collected due to internal device error.
+Sept. 25 (07:00) to (10:00):  No data collected due to internal device error.
+Sept. 25 (20:00) to Sept. 26 (11:00):  No data collected due to internal device 
+error.
+Sept. 26 (20:30) to Sept. 27 (14:30):  No data collected due to internal device 
+error.
+Sept. 28 (17:00) to Sept. 30 (23:30):  Membrane failed - DO data deleted
+
+October
+Oct. 1 (00:00) to Oct. 20 (11:00):  Membrane failed - DO data deleted
+Oct. 6 (09:00):  Turbidity spike.
+Oct. 11 (03:00):  Turbidity spike.
+Oct. 26 (04:00):  Turbidity spike.
+Oct. 27 (09:00) to (11:00):  Turbidity spike.
+
+November
+Nov. 5 (17:00) to (19:00):  Turbidity spike.
+Nov. 5 (22:30) to (23:00):  Turbidity spike.
+Nov. 8 (23:30):  Turbidity spike.
+Nov. 24 (20:00) to (22:30):  Turbidity spike.
+Nov. 25 (09:00) to (09:30):  Turbidity spike.
+Nov. 30 (12:30) to (13:00):  Turbidity spike.
+Nov. 30 (16:00) to (16:30):  Turbidity spike.
+
+December
+Dec. 2 (01:30) to (06:30):  Turbidity spike.
+Dec. 8 (19:00) to Dec. 9 (00:00):  Turbidity spike.
+Dec. 26 (14:00) to (17:30):  DO high but within limits - post-deployment 
+calibration was 97.4%.  Field calibration recorded during deployment was 77.2% 
+at the bottom, 76.5% at the surface, 8.1 mg/L bottom; during retrieval 74.0% at 
+the bottom, 75.8% surface, and 8.1 mg/L bottom.
+Dec. 27 (14:30) to (19:00):  DO high but within limits - see calibration above.
+Dec. 28 (07:00):  DO high but within limits - see calibration above.
+Dec. 28 (16:00) to (19:30):  DO high but within limits - see calibration above.
+Dec. 29 (05:30) to (09:30):  DO high but within limits - see calibration above.
+Dec. 29 (18:30) to (19:30):  DO high but within limits - see calibration above.
+Dec. 30 (06:30) to (19:00):  DO high but within limits - see calibration above.
+Dec. 31 (07:00) to (11:30):  DO high but within limits - see calibration above.
+
+VALINO (VA):
+June
+June 5 (21:30):  Turbidity spike
+June 12 (05:30) to (06:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 13 (06:00) to (08:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 14 (07:00) to (09:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 15 (07:30) to (09:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 16 (08:30) to (10:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 17 (09:30) to (11:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+
+July
+July 2 (17:00) to July 3 (13:30): deleted intermittent data collected prior to 
+total battery failure.
+July 3 (14:00) to July 14 (15:30):  No data collected due to battery failure and 
+sonde retrieval, download and recalibration.
+July 15 (08:00) to (10:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 16 (09:00) to (10:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 17 (10:30):  Short decline in conductivity.
+July 19 (22:00): Turbidity spike.
+July 28 (07:00) to (07:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 29 (07:30) to (08:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 30 (08:00) to (09:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 31 (09:00):  All data deleted as sharp decline in conductivity indicates 
+sonde was out of water.
+
+August
+Aug. 3 (15:30) to (16:00):  No data collected due to internal device error.
+Aug. 3 (17:00):  No data collected due to internal device error.
+Aug. 4 (04:30) to (06:30):  No data collected due to internal device error.
+Aug. 4 (17:30):  No data collected due to internal device error.
+Aug. 5 (16:30) to (19:30):  No data collected due to internal device error.
+Aug. 6 (06:30) to (09:00):  No data collected due to internal device error.
+Aug. 6 (13:00) to (14:30):  No data collected due to internal device error.
+Aug. 13 (19:30):  Turbidity spike
+Aug. 21 (20:30) to Aug. 22 (01:00):  No data collected due to internal device 
+error.
+Aug. 22 (06:00) to Aug. 31 (23:30):  No data collected due to internal device 
+error.
+
+September
+Sept. 1 (00:00) to (16:30):  No data collected due to internal device error.
+Sept. 6 (22:00):  Turbidity spike
+Sept. 8 (11:00) to Sept. 27 (14:30):  Turbidity data deleted as probe 
+malfunctioned.
+
+October
+Oct. 10 (05:30):  DO reading low but within limits.  Post-deployment calibration 
+78.1%.  Field calibration not recorded during deployment; during retrieval 
+87.7%.
+Oct. 21 (14:00) to Oct. 31 (23:30):  Specific conductivity and salinity data 
+high but within limits.  Post-deployment calibration was 10.2 mS/cm on 10.8 
+mS/cm standard.  Field calibration recorded during deployment were 33.1 ppt and 
+37.35 mS/cm; during retrieval were 32.5 ppt and 31.38 mS/cm.
+
+November
+Nov. 1 (00:00) to Nov. 9 (16:00):  Specific conductivity and salinity data high 
+but within limits.  Post-deployment calibration was 10.2 mS/cm on 10.8 mS/cm 
+standard.  Field calibration recorded during deployment were 33.1 ppt and 37.35 
+mS/cm; during retrieval were 32.5 ppt and 31.38 mS/cm.
+Nov. 10 (13:30) to Nov. 30 (23:30):  Sonde was started on the quarter hour at 
+13:45:00.  The time was reset to start on Nov. 10 at 13:30:00; rest of month was 
+also reset to 15 minutes earlier.
+
+December
+Dec. 1 (00:00) to Dec. 6 (11:30):  Sonde was started on the quarter hour at 
+13:45 on Nov. 10.  Data times were reset to start on Nov. 10 at 13:30:00; rest 
+of month was also reset to 15 minutes 
+earlier.
+Dec. 14 (21:30) to (22:00):  Dissolved oxygen drop to 76.8% before recovery.
+Dec. 14 (23:30):  Turbidity spike
+Dec. 19 (15:30):  Turbidity spike
+Dec. 20 (14:00) to (16:00):  Turbidity spike
+Dec. 22 (16:00) to (17:00):  Turbidity spike
+Dec. 22 (18:00) to (18:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+Dec. 23 (17:00) to (17:30):  Turbidity spike
+Dec. 23 (18:30) to (19:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+Dec. 24 (17:30) to (18:30):  Turbidity spike
+Dec. 24 (19:30) to (20:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+
+11.	Missing data
+	
+WINCHESTER (WI):       
+January
+Jan. 1 (00:00) to Jan. 28 (10:30):  Turbidity and pH probes were not deployed.  
+Jan. 4 (12:30) to (13:00):  Data recorded during retrieval transport of sonde 
+were deleted.
+Jan. 4 (13:30) to Jan. 6 (15:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Jan. 6 (16:00) to Jan. 26 (13:00):  Depth probe malfunctioned so data were 
+deleted.
+Jan. 26 (13:30) to Jan. 28 (10:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Jan. 28 (11:00) to Jan. 31 (23:30):  Depth probe malfunctioned so data were 
+deleted.  Turbidity wiper malfunctioned so data were deleted. 
+
+February
+Feb. 1 (00:00) to Feb. 23 (08:30):  Depth and Turbidity probes malfunctioned so 
+data were deleted. 
+Feb. 23 (09:00):  Data recorded during retrieval transport of sonde were 
+deleted.
+Feb. 23 (09:30) to Feb. 24 (09:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Feb. 24 (10:00) to Feb. 28 (23:30):  No turbidity probe deployed. 
+
+March
+Mar. 1 (00:00) to March 16 (14:00):  No turbidity probe was deployed. 
+Mar. 16 (14:00):  Data recorded after sonde retrieval were deleted.
+Mar. 16 (14:30) to Mar. 17 (11:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Mar. 17 (12:00) to Mar. 31 (23:30):  No turbidity probe was deployed. 
+
+April
+Apr. 1 (00:00) to Apr. 7 (15:30):  No turbidity probe deployed.
+Apr. 7 (15:00) to (15:30):  Data recorded during retrieval transport of sonde 
+were deleted.
+Apr. 7 (16:00) to Apr. 8 (18:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.  
+April 25 (15:30) to April 30 (23:30):  No data collected.  A battery burst, and 
+the sonde lost power.
+
+May
+May 1 (00:00) to May 4 (16:30):  No data collected.  A battery burst, and the 
+sonde lost power.
+May 4 (17:00) to May 5 (17:00):  No data collected - meters out of the water for 
+cleaning, data download, and calibration.  
+
+June
+June 2 (16:30) to June 2 (19:00):  Data recorded during retrieval transport of 
+sonde were deleted.
+June 2 (19:30) to June 3 (17:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+June 23 (11:00) to (13:00):  Data recorded during retrieval transport of sonde 
+were deleted. 
+June 23 (13:30) to June 24 (11:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+July
+July 4 (00:00) to July 13 (14:00):  No data were recorded due to sonde failure.
+July 13 (14:30) to (15:30):  Data recorded during retrieval transport of sonde 
+were deleted. 
+July 13 (16:00) to July 14 (15:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+August
+Aug. 11 (14:30) to Aug. 13 (16:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+September
+Sept. 1 (16:30):  Data recorded during retrieval transport of sonde were 
+deleted.
+Sept. 1 (17:00) to Sept. 3 (18:30): No data collected - meters out of the water 
+for cleaning, data download, and calibration.  
+Sept. 3 (19:00):  Data recorded during pre-deployment transport of sonde were 
+deleted.
+Sept. 3 (19:30) to Sept. 27 (14:00):  DO data deleted due to punctured membrane.
+Sept. 27 (14:30) to Sept. 28 (16:00):  No data collected - meters out of the 
+water for cleaning, data download, and calibration.
+
+October
+Oct. 20 (11:30) to Oct. 21 (12:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Oct. 21 (12:30) to (13:00):  Data recorded during pre-deployment transport of 
+sonde were deleted.
+
+November
+Nov. 9 (14:00) to (17:00):  Data recorded during deployment transport of sonde 
+were deleted.
+Nov. 9 (17:30) to Nov. 10 (14:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+December
+Dec. 6 (11:30) to Dec. 6 (14:00):  Data recorded during retrieval transport of 
+sonde were deleted.
+Dec. 6 (14:30) to Dec. 7 (12:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+SENGSTACKEN (SE):
+January
+Jan. 1 (00:00) to Jan. 4 (11:30):  Turbidity and pH probes were not deployed.
+Jan. 4 (12:00) to (15:30):  Data recorded during retrieval were deleted.
+Jan. 4 (16:00) to Jan. 6 (14:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Jan. 6 (15:00) to Jan. 26 (09:30): Turbidity and pH probes were not deployed.
+Jan. 26 (10:00) to (13:30):  Data recorded during retrieval were deleted.
+Jan. 26 (14:00) to Jan. 28 (09:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Jan. 28 (10:00):  Data recorded during pre-deployment were deleted.
+
+February
+Feb. 23 (08:30) to (09:00):  Data  recorded during retrieval transport were 
+deleted.
+Feb. 23 (09:30) to Feb. 24 (09:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+
+March
+Mar. 16 (13:30):  Data recorded during retrieval transport were deleted.
+Mar. 16 (14:00) to Mar. 17 (12:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+
+April
+Apr. 4 (07:00) to (10:00):  No data collected due to battery failure.
+Apr. 4 (16:30) to Apr. 7 (16:30):  No data collected due to battery failure.
+Apr. 7 (17:00) to Apr. 8 (17:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.  
+
+May
+May 4 (16:30):  Data recorded during retrieval transport were deleted.
+May 4 (17:00) to May 5 (16:30):  No data collected - meters out of the water for 
+cleaning, data download, and calibration. 
+
+June
+June 2 (16:00) to (17:30):  Data recorded during retrieval transport were 
+deleted.
+June 2 (18:00) to June 3 (17:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+June 23 (10:30) to (14:00):  Data recorded during retrieval transport were 
+deleted.
+June 23 (14:30) to June 24 (10:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+July
+July 3 (08:30) to (14:00):  No data collected due to internal device error.
+July 3 (23:30) to July 13 (13:30):  No data collected due to internal device 
+error.
+July 13 (14:00) to July 14 (14:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+July 26 (06:30) to July 31 (23:30):  No data collected due to internal device 
+error.
+
+ August
+Aug. 1 (00:00) to Aug. 11 (13:00):  No data collected due to internal device 
+error.
+Aug. 11 (13:30) to Aug. 13 (15:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Aug. 20 (03:00) to (16:00):  No data collected due to internal device error.
+Aug. 21 (02:30) to Aug. 31 (23:30):  No data collected due to internal device 
+error. 
+
+September
+Sept. 1 (00:00) to (16:00):  No data collected due to internal device error.
+Sept. 1 (16:30) to Sept. 3 (18:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.  
+Sept. 22 (06:30) to (10:30):  No data collected due to internal device error.
+Sept. 22 (19:00) to Sept. 24 (15:00):  No data collected due to internal device 
+error.
+Sept. 24 (21:00) to (23:30):  No data collected due to internal device error.
+Sept. 25 (07:00) to (10:00):  No data collected due to internal device error.
+Sept. 25 (20:00) to Sept. 26 (11:00):  No data collected due to internal device 
+error.
+Sept. 26 (20:30) to Sept. 27 (14:30):  No data collected due to internal device 
+error.
+Sept. 27 (15:00) to (15:30):  Data recorded during retrieval transport were 
+deleted.
+Sept. 27 (16:00) to Sept. 28 (16:30): No data collected - meters out of the 
+water for cleaning, data download, and calibration.
+Sept. 28 (17:00) to Sept. 30 (23:30):  Membrane failed - DO data deleted
+
+October
+Oct. 1 (00:00) to Oct. 20 (11:00):  Membrane failed - DO data deleted
+Oct. 20 (11:30) to Oct. 21 (11:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Oct. 21 (12:00) to (12:30):  Data recorded during deployment of sonde were 
+deleted. 
+
+November
+Nov. 9 (13:30) to (15:00):  Data recorded during retrieval transport were 
+deleted.
+Nov. 9 (15:30) to Nov. 10 (13:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+December
+Dec. 6 (11:00) to Dec. 7 (12:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+VALINO (VA):
+June
+June 1 (00:00) to June 3 (17:30):  No data collected-initial deployment of sonde 
+on June 3. 
+June 12 (05:30) to (06:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 13 (06:00) to (08:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 14 (07:00) to (09:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 15 (07:30) to (09:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 16 (08:30) to (10:30): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 17 (09:30) to (11:00): All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+June 23 (11:00):  Data recorded during retrieval transport of sonde were 
+deleted.
+June 23 (11:30) to June 24 (11:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+
+July
+July 2 (17:00) to July 3 (13:30):  Deleted intermittent data collected just 
+prior 
+to total battery failure.
+July 3 (14:00) to July 13 (13:30):  No data collected due to total battery 
+failure.
+July 13 (14:00) to July 14 (15:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+July 15 (08:00) to (10:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 16 (09:00) to (10:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 28 (07:00) to (07:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 29 (07:30) to (08:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 30 (08:00) to (09:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+July 31 (09:00):  All data deleted as sharp decline in conductivity indicates 
+sonde was out of water.
+
+August
+Aug. 3 (15:30) to (16:00):  No data collected due to internal device error.
+Aug. 3 (17:00):  No data collected due to internal device error.
+Aug. 4 (04:30) to (06:30):  No data collected due to internal device error.
+Aug. 4 (17:30):  No data collected due to internal device error.
+Aug. 5 (16:30) to (19:30):  No data collected due to internal device error.
+Aug. 6 (06:30) to (09:00):  No data collected due to internal device error.
+Aug. 6 (13:00) to (14:30):  No data collected due to internal device error.
+Aug. 6 (15:00) to Aug. 11 (14:00):  No data collected due to battery failure.
+Aug. 11 (14:30) to Aug. 13 (16:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration.
+Aug. 21 (20:30) to Aug. 22 (01:00):  No data collected due to internal device 
+error.
+Aug. 22 (06:00) to Aug. 31 (23:30):  No data collected due to internal device 
+error.
+
+September 
+Sept. 1 (00:00) to (16:30):  No data collected due to internal device error.
+Sept. 1 (17:00) to Sept. 3 (18:30): No data collected.  Meters out of the water 
+for cleaning, data download, and calibration.  
+Sept. 3 (19:00) to (19:30):  Data recorded during pre-deployment transport of 
+sonde were deleted.
+Sept. 8 (11:00) to Sept. 27 (14:30):  Turbidity data deleted as probe 
+malfunctioned.
+Sept. 27 (15:00) to (19:30):  Data recorded during retrieval of sonde were 
+deleted.
+Sept. 27 (20:00) to Sept. 28 (17:00): No data collected.  Meters out of the 
+water for cleaning, data download, and calibration.
+Sept. 28 (17:30) to Sept. 30 (23:30):  No turbidity probe was deployed.
+
+October 
+Oct. 1 (00:00) to Oct 31 (23:30):  No turbidity probe was deployed.
+Oct. 20 (12:00) to Oct. 21 (12:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Oct.21 (13:00) to (13:30):  Data recorded during pre-deployment transport of 
+sonde were deleted.
+
+November
+Nov. 1 (00:00) to Nov. 30 (23:30):  No turbidity probe was deployed.
+Nov. 9 (14:30) to (16:00):  Data recorded during retrieval transport of sonde 
+were deleted.
+Nov. 9 (16:30) to Nov. 10 (13:00):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Nov. 10 (13:30):  Data recorded during deployment transport of sonde were 
+deleted.
+
+December
+Dec. 1 (00:00) to Dec. 6 (10:30):  No turbidity probe deployed.
+Dec. 6 (10:30) to (11:30):  Data recorded during retrieval transport of sonde 
+were deleted.
+Dec. 6 (12:00) to Dec. 7 (11:30):  No data collected - meters out of the water 
+for cleaning, data download, and calibration. 
+Dec. 22 (18:00) to (18:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+Dec. 23 (18:30) to (19:30):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+Dec. 24 (19:30) to (20:00):  All data deleted as sharp decline in conductivity 
+indicates sonde was out of water.
+
+12.	Other remarks/notes
+Rumrill. S.S. and C.E. Cornu.  1995.  South Slough Coastal Watershed 
+Restoration:  a case
+study in integrated ecosystem restoration.  Restoration and Management Notes 
+13:53-57.
+SSNERR Metadata Form			17
+
+

@@ -1,0 +1,636 @@
+Padilla Bay (PDB) NERR Water Quality Metadata 
+
+Bay View Channel site: January to December 1999
+Joe Leary Slough site: January to December 1999
+
+Latest update: January 3, 2001
+
+I.	Data Set and Research Descriptors
+
+1.	Principal investigator and contact persons
+	Dr. Douglas Bulthuis, Research Coordinator, Padilla Bay NERR, 10441 
+Bayview-Edison Road, Mount Vernon, WA  98273-9668; phone: (360) 428-1558;
+email: bulthuis@padillabay.gov
+
+	Robin Cottrell, Research Assistant, Padilla Bay NERR, 10441 Bayview-Edison 
+Road, Mount Vernon, WA  98273-9668; phone: (360) 428-1558;  
+email: cottrell@padillabay.gov
+
+2.	Entry verification
+	The data are downloaded from the YSI 6000s or 6600s to an IBM compatible 
+PC.  Graphs of all data are printed using Ecowatch software and are examined for 
+suspect, anomalous, or outlying data.  Files are converted to Macintosh Excel 
+files and edited for transfer to the NERRS CDMO.  Files are merged to contain 
+one full month of data.  Missing data (from maintenance and downloading down 
+time) are inserted into the spreadsheet and are denoted by a period (.).  
+Suspect data are deleted and replaced by periods (.).  After formatting 
+the data, some files are more closely checked for anomalies in DeltaGraph Pro®.  
+Edited and raw files are archived on a Macintosh hard drive at Padilla Bay NERR.   
+No CDMO Excel 5.0 macros were used.  This process of entry verification was 
+completed by Robin Cottrell, Daniel Hahn, and Douglas Bulthuis for the 1999 
+data.  Final verification and this metadata documentation were completed by 
+Douglas Bulthuis.
+
+3.	Research Objectives
+	The Bay View Channel site has been set out to detect and monitor short 
+term variability and long-term changes in Padilla Bay.  The Joe Leary Slough 
+site has been set at the mouth of the slough to measure the effects of tidal 
+"closure" of the tide gates on water in the slough and to detect long-term 
+changes in water quality in the slough associated with implementation of a non 
+point source pollution watershed action plan.  Measurements are taken every 30 
+minutes at both sites unless otherwise noted in data anomalies.
+
+4.	Research methods
+	A YSI 6000 or 6600 were deployed in Joe Leary Slough in a vertical 
+position, 0.25 m above the bottom of the slough, in a 4 in. diameter PVC pipe 
+which has holes and slits drilled in it to allow water circulation around the 
+probes.  The PVC pipe is attached to a steel pipe which was driven into the 
+sediment.  Some dissolved oxygen data from Joe Leary Slough were anomalous and 
+could be explained if there were poor exchange between the water inside the 
+deployment tube and water outside the deployment tube.  Therefore during four 
+days in October 1998 and 10 days in December 1998, YSI datasondes were deployed 
+inside and outside the deployment tube simultaneously at the same depth.  All 
+data were very similar inside and outside the deployment tube (or fluctuated in 
+parallel indicating differences in calibration) during October and December with 
+the exception of the dissolved oxygen data during October.  During four tidal 
+cycles in October 1998, the dissolved oxygen concentration inside the deployment 
+tube did not increase with increasing salinity as much as dissolved oxygen in 
+the water outside the deployment tube.  (In Joe Leary Slough, salinity values 
+typically fluctuate from 0 to 10, 20 or even 30 PSU with each tidal cycle, 
+with higher oxygen concentrations usually observed in the high salinity water.)  
+The October dissolved oxygen data could indicate that organic material with a 
+high oxygen demand may have accumulated inside the deployment tube and/or 
+epiphytic and bacterial growth along the openings in the deployment tube may be 
+exerting a high oxygen demand on the water in the tube.  If exchange between the 
+water inside and outside the pipe were slow enough, the material and organisms 
+inside the tube could exert a measurable decrease in dissolved oxygen.  When the 
+same experiment was repeated in December 1998, there was no difference in 
+dissolved oxygen inside and outside the deployment tube.  Therefore, dissolved 
+oxygen data from Joe Leary Slough need to be interpreted with caution because 
+there may be times when the data indicate dissolved oxygen concentrations inside 
+the deployment tube that are different than concentrations in Joe Leary Slough 
+outside the deployment tube.
+
+	A YSI 6000 or 6600 were deployed in Padilla Bay in a tributary of Bayview 
+Channel.  They were deployed using the same design as that in Joe Leary Slough, 
+except that the PVC pipe was attached to two steel pipes.   The depth of the YSI 
+was -1.1 m (depth below MLLW) and about 0.75 m above the bottom along the 
+sloping edge of a small channel draining the surrounding intertidal flats. 
+
+	In all cases, measurements of temperature, specific conductivity, 
+salinity, percent saturation of dissolved oxygen, depth, pH and turbidity are 
+recorded every half-hour.  At the end of each sampling period, the YSI 6000 or 
+6600 is brought back into the laboratory for downloading, cleaning, and 
+recalibration.   All standards were purchased from scientific supply houses. 
+
+	All calibrations are conducted according to the protocols in the YSI 6000 
+Operation and Service Manual.  For the conductivity calibration a conductivity 
+standard of 50 mS/cm was used.  The pH calibration is a 2-point calibration 
+using standard pH buffer solutions with a pH of 7 and 10.  The KCl solution and 
+Teflon membrane on the dissolved oxygen probe are changed prior to each YSI 6000 
+or 6600 deployment and the new oxygen membrane is allowed to soak overnight in 
+water before calibration.
+	
+5.	Site location and character
+	General Padilla Bay (48° 30' N; 122° 30' W) is a shallow embayment in 
+northern Puget Sound.  The tide flats are dominated by the eelgrass Zostera 
+marina, which covers approximately 3,000 ha.  Zostera japonica, a recent invader 
+to the region, now covers about 350 ha of the bay.  Tides are mixed semi-diurnal 
+with a mean range of 1.55 m.  Salinity varies from about 15 to 30 PSU.
+
+	Padilla Bay is an "orphaned" estuary in that the Skagit River no longer 
+empties directly into it.  Most of the land in the 9300 ha Padilla Bay watershed 
+is agricultural, and is drained by four sloughs which empty into the bay.  The 
+salinity in Padilla Bay reflects both the sloughs that flow into the bay and the 
+greater Puget Sound-Georgia Basin estuary in which Padilla Bay is located.  
+Major freshwater flows into this area of the Puget Sound-Georgia Basin estuary 
+come from the Fraser and Nooksack Rivers to the north and from the Skagit River 
+to the south.
+
+	Joe Leary Slough Site  (48° 31' 05.3" N; 122° 28' 22.8" W) Joe Leary 
+Slough drains land that is predominantly annual crop agriculture and pasture 
+land with some low density housing.  The slough is characterized by high fecal 
+and nutrient inputs, high turbidity, and low dissolved oxygen concentrations.  
+During the summer, there is low flow and the depth ranges from 0.5-1.5 m.  
+During winter flooding, the slough can reach a depth of 4 m.   There is a dam at 
+the mouth of the slough with twelve 4 ft diameter outfall pipes that have one-
+way hinged  tide gates.   Saline water from Padilla Bay seeps through the tide 
+gates during high tide.  The bottom of the slough is composed of very soft 
+sediment, which is periodically dredged.  A YSI 6000 (or 6600) is deployed on 
+the freshwater side of the tide gates at a depth of about 0.25 m above the 
+bottom.  The latitude/longitude were measured with a Trimble GeoExplorer II and 
+differentially corrected with post processing providing a manufacturer's stated 
+accuracy of ± 5m.
+
+	Bayview Channel Site  (48° 29' 46.6" N; 122° 30' 01.8" W) Bayview Channel, 
+a major Padilla Bay tributary/distributary, floods and drains intertidal flats 
+including eelgrass beds, mats of macroalgae, and flats without macro-vegetation.  
+The YSI 6000 (or 6600) is located in a tributary channel to Bayview Channel.  
+The tributary drains predominately eelgrass (Zostera marina and Z. Japonica) 
+covered intertidal flats.  Bottom sediments beneath the 
+YSI 6000 are fine silt and clay overlying sand.   The YSI 6000 is deployed in a 
+black PVC pipe that is attached to two steel pipes set in the sediment.  When 
+deployed, the datasonde is located about 0.75 m above the bottom.  During 1999 
+the datasonde became "stuck" inside the black PVC pipe becuase of fouling, 
+particularly by barnacles.  On September 23, 1999, the black PVC pipe was 
+replaced with a new pipe and attached at the same location and height.  
+Pollutants entering the bay include general non-point source, agricultural non-
+point source, and fecal coliform bacteria from agriculture, failing septic tanks 
+and wildlife.  The latitude/longitude were measured with a Trimble GeoExplorer 
+II and differentially corrected with post processing providing a manufacturer's 
+stated accuracy of ± 5m.
+
+6.	Data collection period
+	Data collection was continuous from January 1 to December 31 at both sites 
+except for times of downloading, cleaning and recalibration as noted in the 
+missing data section.
+	 
+	Deployment and retrieval times at the Joe Leary Slough site and the Bay 
+View Channel site are listed below.  The times indicate the first and last 
+measurements made with each deployment.
+	
+	 
+Joe Leary Slough (JL)			
+Deployment Date/Time		Retrieval Date/Time	
+(MM/DD/YY)	(HH:MM:SS)	(MM/DD/YY)	(HH:MM:SS)
+12/22/98	12:30:00	01/06/99	14:30:00
+01/06/99	15:00:00	01/27/99	10:30:00
+01/27/99	11:00:00	02/17/99	13:00:00
+02/17/99	13:30:00	03/11/99	11:30:00
+03/11/99	12:00:00	04/07/99	12:00:00
+04/07/99	12:30:00	04/28/99	12:30:00
+04/28/99	13:00:00	05/19/99	12:30:00
+05/19/99	13:00:00	06/01/99	12:30:00
+06/01/99	13:30:00	06/16/99	11:00:00
+06/16/99	11:30:00	06/22/99	14:30:00
+06/23/99	12:00:00	07/08/99	09:30:00
+			
+			
+08/09/99	14:00:00	08/26/99	12:00:00
+08/26/99	12:30:00	09/01/99	11:30:00
+09/01/99	12:00:00	09/09/99	14:00:00
+09/09/99	14:00:40	09/20/99	13:00:40
+09/20/99	14:00:00	09/28/99	13:00:00
+09/28/99	13:30:00	10/11/99	13:30:00
+10/11/99	14:00:40	10/20/99	09:00:40
+10/21/99	16:00:00	11/09/99	14:30:00
+11/09/99	14:30:40	12/06/99	11:00:40
+12/06/99	12:00:00	12/28/99	21:30:00
+
+
+BayView Channel (BY)			
+Deployment Date/Time		Retrieval Date/Time	
+(MM/DD/YY)	(HH:MM:SS)	(MM/DD/YY)	(HH:MM:SS)
+12/09/98	11:00:00	02/17/99	09:30:00
+02/19/99	15:00:00	04/20/99	09:30:00
+04/23/99	11:00:00	06/04/99	16:30:00
+06/10/99	14:30:00	07/20/99	13:00:00
+08/19/99	13:30:00	09/16/99	10:30:00
+09/16/99	11:00:00	10/19/99	12:30:00
+10/19/99	13:00:00	12/23/99	15:00:00
+12/23/99	09:30:40	02/03/00	13:30:40
+
+
+	
+	
+7.	Associated researchers and projects
+	None
+
+II.	Physical Structure Descriptors
+
+8.	Variable sequence, range of measurements, units, resolution, accuracy:
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+*Depth (level)    -0.3-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+*During 1997 records were kept of the atmospheric pressure during calibration of 
+depth and the apparent depth after each two to four week deployment.  The data 
+indicated that depth readings could read as much as 0.28 m above or below true 
+depth.  Therefore, although the sensor may accurately read ± 0.001 m, changes in 
+atmospheric pressure when deployed indicate depth may be ± 0.3 m.  
+
+9.	Coded variable code definitions
+JL - Joe Leary Slough Site;  BY - Bayview Channel Site.
+
+
+10.	Data anomalies
+January 1999
+JL:   Turbidity values over 1000 were recorded on 2, 3, & 4 Jan, the cause is 
+unknown but these values were associated with peak freshwater flows out of Joe 
+Leary Slough.  
+Date	Time	Turb
+01/02/99	21:00:00	1359
+01/02/99	21:30:00	1359
+01/02/99	22:00:00	1359
+01/02/99	22:30:00	1358
+01/02/99	23:00:00	1358
+01/02/99	23:30:00	1358
+01/03/99	21:00:00	1357
+01/03/99	21:30:00	1219
+01/03/99	22:00:00	1358
+01/03/99	22:30:00	1358
+01/03/99	23:00:00	1358
+01/04/99	20:30:00	1140
+The pH readings are somewhat erratic with isolated low readings associated with 
+influx of high saline water.  An erratic turbidity value over 1000 was recorded 
+at 2030 on 26 Jan and removed from the database (the cause is not known.)
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database:  0430 & 0530 on 9 Jan, 0730 & 1430 on 10 Jan, 0600 on 
+13 Jan, 2130 on 27 Jan, and 0700 on 30 Jan.  No DO because membrane was 
+punctured for the entire month.  
+
+February 1999
+JL:    High and erratic turbidity values were recorded from 1900 on 15 Feb  
+through 1300 on 17 Feb and removed from the database, the causes for these high 
+erratic values is not known but could be caused by vegetative debris caught in 
+the guard around the probes.
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database:  1300 on 6 Feb, 2200 on 12 Feb, 0230 & 1300-1330 
+on 20 Feb, 1730 on 24 Feb and 1730 on 25 Feb. No dissolved oxygen data from 0000 
+1 Feb through 0930 17 Feb because the oxygen membrane was punctured.
+
+March 1999
+JL:    High (over 1000) and erratic turbidity values were recorded at the 
+following times and removed from the database (the cause(s) are not known):  
+0000 on 18 Mar, 2330 on 18 Mar, 1330 on 22 Mar, 1400-1430 on 23 Mar, 1530 on 24 
+Mar, 2200 on 26 May, and 1700 on 27 Mar.
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known):  0930 on 1 Mar,  0600 
+on 2 Mar, 2130 on 4 Mar, 0900 on 10 Mar, 1500 on 11 Mar, 0800 on 12 Mar, 
+1100 on 18 Mar, 1800 on 26 Mar, 2300 on 27 Mar, and 1300 on 31 Mar.  Erratic 
+low dissolved oxygen data were recorded at the following times, the cause(s)  
+are unknown, and the data removed from the database:  1700 on 7 Mar, 0030 
+on 26 Mar, and 0130 on 27 Mar.
+
+April 1999
+JL:   Dissolved oxygen data from 0700 on 24 Apr through 1230 on 28 Apr were 
+erratic and low toward the end of the deployment period, the cause is unknown 
+but may be related to the debris that was found caught in the guard at the end 
+of the deployment, the data were deleted.   High and erratic turbidity values 
+were recorded from 1000 on 3 Apr to 1200 on 7 Apr and from 1930 on 14 Apr to 
+1230 on 28 Apr and removed from the database (the cause(s) are not known) but 
+may have been caused by the debris that was found caught in the guard at the end 
+of the deployment.)  High, isolated, and erratic turbidity values  (cause 
+unknown) were recorded at the following times and removed from the database:   
+1100 on 1 Apr, 2330 on 1 Apr, 1700 on 2 Apr, 1800 on 11 Apr, and 0900 on 29 Apr.  
+Negative depths were recorded at 1300 & 1330 on 30 April.
+BY:   Dissolved oxygen data from 0000 on 1 Apr through 0930 on 20 Apr should be 
+interpreted with caution because the sonde may have been recording values 
+lower than actual; the surface of the oxygen probe tip was tarnished on 
+retrieval on 20 Apr; the probe read 88.5 % in water saturated air.  High and 
+erratic turbidity values were recorded at the following times and removed 
+from the database (the cause(s) are not known):  0800 on 3 Apr, 1830 on 4 Apr, 
+0330 on 5 Apr, 1900 on 14 Apr, 1900 on 23 Apr, and 0200-0230 on 25 Apr.
+
+May 1999
+JL:    No dissolved oxygen or turbidity data from 1330 on 6 May to 1230 on 19  
+May because the dissolved oxygen dropped precipitously to very low 
+concentrations from over 100% saturation and remained low for the rest of the 
+deployment at the same time as turbidity was erratic, high, and over 1000 NTU 
+most of the time; a lot of debris was found in the guard at the end of the 
+deployment.  Dissolved oxygen saturation dropped to near 0 from 1600 to 1830 on 
+5 May, cause unknown, data deleted from the database.  Spurious, erratic, and 
+high turbidity values  (cause unknown) were recorded at the following times and 
+were removed from the  database:  1900 on 5 May, 0600 & 1100 on 24 May, 0800 
+on 25 May, and 2030 on 27 May.  Negative depths were recorded at the 
+following times:  1200-1400 on 1 May, 1130-1530 on 2 May, 1200-1530 on 3 
+May, 1400-1700 on 6 May, 1300 on 14 May, 1430-1500 on 16 May, 1230-1600 
+on 17 May, and 1530-1630 on 18 May.
+BY:    Dissolved oxygen data from 1000-1100 on 10 May should be interpreted with 
+caution because the data appear suspiciously low, no potential causes are 
+known, the data were not removed.  Erratic low dissolved oxygen data at 0630 
+on 22 May and 0300 on 23 May were removed from the database, the cause is 
+not known.  A high and erratic turbidity value was recorded 1100 on 27 May 
+and removed from the database (the cause is not known.)
+
+June 1999
+JL:   No turbidity data from 1330 on 1 Jun to 1100 on 16 Jun because data were 
+deleted because the wiper on the probe was not working properly and the data 
+were erratic.
+BY:   A high and erratic turbidity value was recorded 2030 on 19 Jun and removed 
+from the database (the cause is not known.)
+
+July 1999
+JL:   Spurious, erratic, and high turbidity values  (cause unknown) were 
+recorded at the following times and were removed from the database:   0900 on 1 
+Jul and 2030 on 17 Jul.
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known):  1930 & 2200 on 2 July 
+and 0000 on 15 July.
+
+August 1999
+JL:   Negative depth recorded at 1130 on 23 Aug.  Dissolved oxygen from 16 Aug 
+to 1200 on 26 Aug shows some decrease, cause unknown but could be failing 
+membrane, although on retrieval of the datasonde the dissolved oxygen probe 
+read 92.4% satuation in water saturated air.  Spurious, erratic, and high 
+turbidity values  (cause unknown) were recorded at the following times and 
+were removed from the  database:   0030, 0500, and 0700 on 2 Aug, 1500 on 4 
+Aug, and 0500 on 9 Aug.
+BY:   
+
+September 1999
+JL:   Negative depths were recorded 0830-0900 on 4 Sep and 0800-1100 on 5 Sep.  
+From 1430 on 9 Sep to 1330 on 20 Sep the times that the probes were read and 
+the data recorded  were 40 seconds past the hour and half hour; the cause for 
+this anomaly is not known.  Spurious, erratic, and high turbidity values  
+(cause unknown) were recorded at the following times and were removed from 
+the  database:   2100 on 10 Sep, 1000 on 16 Sep, and 0830, 0930, and 1200 on 22 
+Sep.
+BY:   High turbidities (up to 150 NTU) were recorded on Sep 24 and 25.  These 
+high turbidities were associated with high winds and heavy rains.  High and 
+erratic turbidity values were recorded at the following times and removed from 
+the database (the cause(s) are not known): 2000 on 3 Sep, 1230 on 25 Sep, and 
+0600 on 26 Sep.
+
+October 1999
+JL:    The dissolved oxygen should be interpreted with caution from 1600 on 21 
+Oct to 2330 on 31 Oct because at the end of the deployment (on Nov 9) there was 
+a scummy layer on the membrane and the read 80.5% saturation in water 
+saturated air.  From 1400 on 11 Oct to 0900 on 20 Oct the times that the probes 
+were read and the data recorded  were 40 seconds past the hour and half hour; 
+the cause for this anomaly is not known.  Negative depths were recorded at the 
+following times:  0930-1000 on 22 Oct, 2330 on 23 Oct, 0000 and 2230-2330 on 
+24 Oct, 0000-0300 on 25 Oct, 0030-0330 on 26 Oct, 0000-1030 and 2230-2330 on 
+27 Oct, 0000-1030 on 28 Oct, 0330-0600 on 29 )ct, 0300-0800 on 30 Oct, and 
+0430-0630 on 31 Oct.
+BY:    Dissolved oxygen data from 1300 on 19 Oct through 2330 on 31 Oct should 
+be interpreted with caution; the data seem reasonable but the dissolved oxygen 
+probe failed at 1800 on 7 Nov for no apparent reason.  High and erratic 
+turbidity values were recorded at the following times and removed from the 
+database (the cause(s) are not known):   2330 on 6 Oct, 0400 on 8 Oct, 1400 on 
+16 Oct, and 1300 on 18 Oct.
+
+November 1999
+JL:  No pH data from 1500 on 9 Nov to 2330 on 30 Nov because the probe was 
+broken.  The dissolved oxygen should be interpreted with caution from 0000 on 1 
+Nov to 1400 on 9 Nov because at the end of the deployment (on Nov 9) there was a 
+scummy layer on the membrane and the read 80.5% saturation in water 
+saturated air.  From 1500 on 9 Nov to 2330 on 30 Nov the times that the probes 
+were read and the data recorded  were 40 seconds past the hour and half hour; 
+the cause for this anomaly is not known.  Negative depths were recorded at the  
+following times:  0600-0900 on 2 Nov, 0630-0930 on 3 Nov, 2230-2300 on 4 
+Nov, 2130-2330 on 5 Nov, 0000-0100 and 2200-2330 on 6 Nov, 0000-0200 and 
+2200-2330 on 7 Nov, 0000-0330 and 2300-2330 on 8 Nov, and 0000-0300 on 9 
+Nov.   Spurious, erratic, and high turbidity values  (cause unknown) were 
+recorded at the following times and were removed from the  database:   0130 on 
+10 Nov, 0030 and 0230 on 13 Nov, 0430, 1030, and 1900 on 22 Nov, 0500 on 23 
+Nov, 2230 on 24 Nov, and 0830 on 27 Nov.  Turbidity values from 2330 on 29 
+Nov to 2330 on 30 Nov were erratic , high and low and  were deleted from the 
+database; the cause is unknown.
+BY:   Dissolved oxygen data from 0000 on 1 Nov through 1730 on 7 Nov should be 
+interpreted with caution;  the data seem reasonable but the dissolved oxygen 
+probe failed at 1800 on 7 Nov for no apparent reason.  High and erratic 
+turbidity values were recorded at the following times and removed from the 
+database (the cause(s) are not known):  1930 on 7 Nov and 0030 on 11 Nov. No 
+dissolved oxygen from 1800 on 7 Nov to 2330 on 30 Nov because the dissolved 
+oxygen probe failed for unknown reasons.  No turbidity data from 0130 on 11 Nov 
+to 2330 on 30 Nov because the turbidity probe failed at 0130 on 11 Nov for 
+unknown reasons.
+
+December 1999
+JL:    From 0000 on 1 Dec to 1100 on 6 Dec the times that the probes were read 
+and the data recorded were 40 seconds past the hour and half hour; the cause for 
+this anomaly is not known. No pH data from 0000 on 1 Dec to 1100 on 6 Dec 
+because the probe was broken.  Spurious, erratic, and high turbidity values  
+(cause unknown) were recorded at the following times and were removed from 
+the  database:   1700 on 1 Dec and 1830 on 4 Dec.  Turbidity from 0000 on 1 Dec 
+to 1100 on 6 Dec should be interpreted with caution, most of the values seem 
+reasonable but these data were recorded after 24 hours of high erratic data on 
+30 Nov; at the end of the deployment (Dec 6) the turbidity probe read 100.9 in 
+100 NTU standard.  Dissolved oxygen data from 0400 to 1300 on 16 December 
+decreased sharply and then returned to previous values.  The cause is unknown 
+although very high turbidity values were recorded at the time; the dissolved 
+oxygen data during this time should be interpreted with caution. Turbidity from 
+12 Dec to 28 Dec included many high anomalous values and many over 1000 so the 
+data are suspect and should be interpreted with caution; however, many of these 
+values were associated with a rain event and the data were left in the database.
+Date	Time	Turb
+12/13/99	23:30:00	1100
+12/14/99	01:00:00	1100
+12/15/99	11:30:00	1104
+12/16/99	04:30:00	1036
+12/16/99	06:00:00	1107
+12/16/99	06:30:00	1107
+12/16/99	11:00:00	1107
+12/16/99	11:30:00	1107
+12/16/99	12:30:00	1107
+12/17/99	00:00:00	1107
+12/17/99	00:30:00	1107
+12/17/99	01:00:00	1107
+12/17/99	01:30:00	1107
+12/17/99	02:00:00	1107
+12/17/99	06:00:00	1106
+12/17/99	15:30:00	1106
+12/17/99	16:30:00	1106
+12/17/99	17:00:00	1105
+12/17/99	17:30:00	1105
+12/17/99	18:00:00	1105
+12/17/99	18:30:00	1105
+12/17/99	19:00:00	1105
+12/17/99	19:30:00	1105
+12/17/99	20:00:00	1105
+12/17/99	20:30:00	1105
+12/17/99	21:00:00	1105
+12/17/99	21:30:00	1105
+12/17/99	22:00:00	1105
+12/17/99	22:30:00	1105
+12/18/99	00:00:00	1105
+12/18/99	16:00:00	1075
+12/18/99	21:30:00	1105
+12/23/99	05:30:00	1099
+12/23/99	09:00:00	1100
+12/23/99	09:30:00	1100
+12/23/99	10:00:00	1100
+12/23/99	12:30:00	1101
+12/23/99	17:00:00	1102
+12/23/99	18:30:00	1103
+12/23/99	19:00:00	1102
+12/23/99	19:30:00	1102
+12/23/99	21:00:00	1102
+12/25/99	02:00:00	1102
+12/25/99	22:30:00	1102
+12/26/99	09:00:00	1096
+12/26/99	13:00:00	1098
+12/26/99	21:00:00	1101
+BY:    No data for all parameters at 2300 on 23 Dec because the sensors were 
+exposed to the air and the data deleted.  The following times the probes 
+recorded data were at 40 seconds past the hour and half-hour: 12/23/99 15:30:40-
+12/31/99 23:30:40 the cause for this anomaly is not known.  High and erratic 
+turbidity values were recorded at the following times and removed from the 
+database (the cause(s) are not known): 1900 on 23 Dec, 1400-1430 on 24 Dec, and 
+0200 on 27 Dec.
+
+
+11.	Missing data
+January 1999
+JL:   An erratic turbidity value over 1000 was recorded at 2030 on 26 Jan and 
+removed from the database (the cause is not known.)
+BY:   No dissolved oxygen data because the oxygen membrane was punctured for 
+whole month.  High and erratic turbidity values were recorded at the following 
+times and removed from the database: 0430 & 0530 on 9 Jan, 0730 & 1430 on 10 
+Jan, 0600 on 13 Jan, 2130 on 27 Jan, and 0700 on 30 Jan.
+
+February 1999
+JL:    High and erratic turbidity values were recorded from 1900 on 15 Feb  
+through 1300 on 17 Feb and removed from the database, the causes for these high 
+erratic values is not known but could be caused by vegetative debris caught in 
+the guard around the probes.
+BY:   No data for all parameters from 1000 17 Feb through 1430 on 19 Feb because 
+of exchange of datasondes for cleaning, maintenance, and calibration.   No 
+dissolved oxygen data from 0000 1 Feb through 0930 17 Feb because the oxygen 
+membrane was punctured.   High and erratic turbidity values were recorded at 
+the following times and removed from the database:  1300 on 6 Feb, 2200 on 12 
+Feb, 0230 & 1300-1330 on 20 Feb, 1730 on 24 Feb and 1730 on 25 Feb.
+
+March 1999
+JL:   High (over 1000) and erratic turbidity values were recorded at the 
+following times and removed from the database (the cause(s) are not known):  
+0000 on 18 Mar, 2330 on 18 Mar, 1330 on 22 Mar, 1400-1430 on 23 Mar, 1530 on 24 
+Mar, 2200 on 26 May, and 1700 on 27 Mar.
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known):  0930 on 1 Mar,  0600 
+on 2 Mar, 2130 on 4 Mar, 0900 on 10 Mar, 1500 on 11 Mar, 0800 on 12 Mar, 
+1100 on 18 Mar, 1800 on 26 Mar, 2300 on 27 Mar, and 1300 on 31 Mar.  Erratic 
+low dissolved oxygen data were recorded at the following times, the cause(s)  
+are unknown, and the data removed from the database:  1700 on 7 Mar, 0030 
+on 26 Mar, and 0130 on 27 Mar.
+
+April 1999
+JL:    Dissolved oxygen data from 0700 on 24 Apr through 1230 on 28 Apr were 
+erratic and low toward the end of the deployment period, the cause is unknown 
+but may be related to the debris that was found caught in the guard at the end 
+of the deployment, the data were deleted.   High and erratic turbidity values 
+were recorded from 1000 on 3 Apr to 1200 on 7 Apr and from 1930 on 14 Apr to 
+1230 on 28 Apr and removed from the database (the cause(s) are not known) but 
+may have been caused by the debris that was found caught in the guard at the end 
+of the deployment.)  High, isolated, and erratic turbidity values  (cause 
+unknown) were recorded at the following times and removed from the database:   
+1100 on 1 Apr, 2330 on 1 Apr, 1700 on 2 Apr, 1800 on 11 Apr, and 0900 on 29 Apr.
+BY:    No data for all parameters from 1000 20 Apr to 1030 23 Apr because of 
+exchange of datasondes for cleaning, maintenance, and calibration.   High and 
+erratic turbidity values were recorded at the following times and removed 
+from the database (the cause(s) are not known):  0800 on 3 Apr, 1830 on 4 Apr, 
+0330 on 5 Apr, 1900 on 14 Apr, 1900 on 23 Apr, and 0200-0230 on 25 Apr.
+
+May 1999
+JL:    No dissolved oxygen or turbidity data from 1330 on 6 May to 1230 on 19  
+May because the dissolved oxygen dropped precipitously to very low 
+concentrations from over 100% saturation and remained low for the rest of the 
+deployment at the same time as turbidity was erratic, high, and over 1000 NTU 
+most of the time; a lot of debris was found in the guard at the end of the 
+deployment.  Dissolved oxygen saturation dropped to near 0 from 1600 to 1830 on 
+5 May, cause unknown, data deleted from the database.  Spurious, erratic, and 
+high turbidity values  (cause unknown) were recorded at the following times and 
+were removed from the  database:  1900 on 5 May, 0600 & 1100 on 24 May, 0800 
+on 25 May, and 2030 on 27 May.
+BY:   Erratic low dissolved oxygen data at 0630 on 22 May and 0300 on 23 May 
+were removed from the database, the cause is not known.  A high and erratic 
+turbidity value was recorded 1100 on 27 May and removed from the database 
+(the cause is not known.)
+
+June 1999
+JL:    No data for all parameters at 1300 on 1 Jun because of exchange of 
+datasondes for cleaning, maintenance, and calibration.  No turbidity data from 
+1330 on 1 Jun to 1100 on 16 Jun because data were deleted because the wiper on 
+the probe was not working properly and the data were erratic.  No data for all 
+parameters from 1500 on 22 Jun through 1130 on 23 Jun because of exchange of 
+datasondes for cleaning, maintenance, and calibration.
+
+BY:   No data for all parameters from 1700 on 4 Jun through 1100 on 11 Jun 
+because batteries died, because of exchange of datasondes for cleaning, 
+maintenance, and calibration, and because the sonde was not fully deployed into 
+the water during the first 24 hours on the 10th & 11th of June.  A high and 
+erratic turbidity value was recorded 2030 on 19 Jun and removed from the 
+database (the cause is not known.)
+
+July 1999
+JL:   No data for all parameters from 1000-1600 on 8 Jul and 1500 on 27 Jul 
+because of exchange of datasondes for cleaning, maintenance, and calibration.  
+Spurious, erratic, and high turbidity values  (cause unknown) were recorded at 
+the following times and were removed from the  database:   0900 on 1 Jul and 
+2030 on 17 Jul.
+BY:   No data for all parameters from 1330 on 20 July through 2330 on 31 July 
+because datasonde was stuck in deployment pipe and not deployed into the water.  
+High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known): 1930 & 2200 on 2 
+July and 0000 on 15 July.
+
+August 1999
+JL:   Spurious, erratic, and high turbidity values  (cause unknown) were 
+recorded at the following times and were removed from the database:   0030, 
+0500, and 0700 on 2 Aug, 1500 on 4 Aug, and 0500 on 9 Aug.
+BY:   No data for all parameters from 0000 on 1 Aug to 1300 on 19 Aug because 
+datasonde was stuck in deployment pipe and not deployed into the water.  
+
+September 1999
+JL:      No data for all parameters at 1330 on 20 Sep because of exchange of 
+datasondes for cleaning, maintenance, and calibration.  Spurious, erratic, and 
+high turbidity values  (cause unknown) were recorded at the following times and 
+were removed from the  database:   2100 on 10 Sep, 1000 on 16 Sep, and 0830, 
+0930, and 1200 on 22 Sep.
+BY:   No data for all parameters from 0900 to 0930 on 23 Sep because the black 
+PVC pipe into which the datasonde is deployed was being replaced.  High and 
+erratic turbidity values were recorded at the following times and removed from 
+the database (the cause(s) are not known): 2000 on 3 Sep, 1230 on 25 Sep, and 
+0600 on 26 Sep.
+
+October 1999
+JL:   No data for all parameters from 0930 on 20 Oct to 1530 on 21 Oct because 
+the batteries died during deployment.
+BY:   High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known):   2330 on 6 Oct, 0400 
+on 8 Oct, 1400 on 16 Oct, and 1300 on 18 Oct.
+
+November 1999
+JL:    No data for all parameters at 1430 on 9 Nov because of exchange of 
+datasondes for cleaning, maintenance, and calibration.   No pH data from 1500 on 
+9 Nov to 2330 on 30 Nov because the probe was broken.  Spurious, erratic, and 
+high turbidity values  (cause unknown) were recorded at the following times and 
+were removed from the  database:   0130 on 10 Nov, 0030 and 0230 on 13 Nov, 
+0430, 1030, and 1900 on 22 Nov, 0500 on 23 Nov, 2230 on 24 Nov, and 0830 on 
+27 Nov.  Turbidity values from 2330 on 29 Nov to 2330 on 30 Nov were erratic, 
+high and low and  were deleted from the database; the cause is unknown.
+BY:   No dissolved oxygen from 1800 on 7 Nov to 2330 on 30 Nov because the 
+dissolved oxygen probe failed for unknown reasons.  No turbidity data from 
+0130 on 11 Nov to 2330 on 30 Nov because the turbidity probe failed at 0130 on 
+11 Nov for unknown reasons.  High and erratic turbidity values were recorded 
+at the following times and removed from the database (the cause(s) are not 
+known):  1930 on 7 Nov and 0030 on 11 Nov.
+
+December 1999
+JL:    No data for all parameters at 1130 on 6 Dec because of exchange of 
+datasondes for cleaning, maintenance, and calibration.  No data for all 
+parameters from 2200 on 28 Dec to 2330 on 31 Dec because the batteries died 
+during deployment.  No pH data from 0000 on 1 Dec to 1100 on 6 Dec because the 
+probe was broken.  Spurious, erratic, and high turbidity values  (cause unknown) 
+were recorded at the following times and were removed from the database:   1700 
+on 1 Dec and 1830 on 4 Dec. 
+BY:    No data for all parameters at 2300 on 23 Dec because the sensors were 
+exposed to the air and the data deleted.  No dissolved oxygen from 0000 on 1 Dec 
+to 1500 on 23 Dec because the dissolved oxygen probe failed for unknown reasons.  
+No turbidity data from 0000 on 1 Dec to1500 on 23 Dec because the turbidity 
+probe failed at 0130 on 11 Nov for unknown reasons.  No pH data from 1530 on 23 
+Dec to 2330 on 31 Dec because no pH probe was deployed on the datasonde.   
+High and erratic turbidity values were recorded at the following times and 
+removed from the database (the cause(s) are not known):   1900 on 23 Dec, 1400-
+1430 on 24 Dec, and 0200 on 27 Dec.
+
+

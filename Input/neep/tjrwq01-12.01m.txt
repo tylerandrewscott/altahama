@@ -1,0 +1,1724 @@
+Tijuana River Estuary (TJR) NERR Water Quality Metadata 
+January to December 2001
+Last Revised November 11, 2002
+
+
+I. Data Set and Research Descriptors
+
+
+1. Principal Investigators and contact persons
+
+Jeff Crooks, Research Coordinator		301 Caspian Way
+						Imperial Beach, CA 91932
+						
+
+Mike Wells, Reserve Manager			301 Caspian Way
+						Imperial Beach, CA 91932
+						
+
+Michelle Cordrey, Research Specialist	Pacific Estuarine Research Laboratory
+						San Diego State University
+						San Diego, CA  92182-1870
+						phone: (619)594-7422
+						E-mail: mcordrey@perl.sdsu.edu
+
+
+2.  Entry Verification:
+
+The data are uploaded directly from the YSI model 6000 or 6600 dataloggers to 
+the YSI Ecowatch for windows software into a file appended with the suffix 
+".dat". The data are also downloaded directly from the datalogger into a 
+spreadsheet importable file appended with the suffix ".csv". The data are then 
+reviewed for major problems (i.e. logger out of water, probe malfunction, 
+battery failure, etc.) using the YSI Ecowatch for windows plotting software.  
+The resulting plot is printed out and saved in a folder named "datalogger 
+deployment log".  The .csv file is imported into Excel 2000 for Windows, where 
+it is edited and formatted.
+
+The tails of each sampling period are deleted and any suspect data are 
+identified with the aid of Excel CDMO 5.0 macros.  Suspect data are evaluated 
+and dealt with according to CDMO Operations Manual (ver.4.0)guidelines.  The 
+parameter columns are checked for proper order and correct heading labels and 
+formatted to the correct decimal places using the "column reformat" macro 
+supplied by the CDMO.  Missing data fields are inserted into the Excel 
+spreadsheet and are denoted by periods (.).  Reasons for any missing or 
+anomalous data are entered directly into the data file and the edited file is 
+saved as a two-week excel file.  When an entire month of two-week edited data 
+files have been collected, the files are edited and combined into a 1 month 
+excel file using the excel import.xls macro. All editing and missing data 
+documentation are also recorded in an excel file named "missing data log".  The 
+information in the "missing data log" is transferred to the metadata form. The 
+edited and raw files are archived on a Sun Sparc 20 workstation and backed up to 
+tape weekly.  Data and metadata files are uploaded via ftp to the CDMO. The 
+person responsible for the data management is Michelle Cordrey.
+
+
+3.  Research Objectives:
+
+	The Tijuana Estuarine Research Reserve is impacted heavily by both
+periodic raw sewage outflows and urban development. Only about a quarter of
+the reserve's 2,531 acres are tidally influenced, with few channels deep
+enough for datalogger deployment.  Two stations were originally set up:  a
+treatment station was set up close to the mouth on the Southern end of
+the Oneonta Slough, while a control station was set up on the northern
+end of Oneonta Slough.  The treatment station location was chosen because
+it would be the site most affected by sewage outflow. Deployment at the
+treatment station, however, was continually halted by both shifting
+sediment and massive wracks of kelp (Macrocystis pyrifera), which would
+often bury the deployment set-up on incoming tides.  After a number of
+different deployment equipment designs were implemented, with no success,
+logging at this site was terminated.
+
+	We currently have two YSI datalogger stations installed at the reserve.  
+The original control station in the northern end of Oneonta Slough is still
+in place.  A second datalogger station is located at the inlet to the Model 
+Marsh, a recently-constructeed 20-acre restoration site in the southern arm of 
+the estuary.  The Model Marsh was opened to tidal flushing in February 2000.  
+Installation of the restoration site will allow us to make comparisons 
+between constructed and natural site hydrology over time.
+
+
+4.  Research Methods (Dataloggers):
+
+At all the sampling stations until October 2000, all deployment stations were 
+identical. A 4 inch diameter PVC pipe was strapped to two 6 foot lengths of 4in 
+diameter aluminum pipe driven into the sediment in the center of the channel 
+until refusal. 
+
+The bottom of the pvc pipe is raised 1 foot off of the channel bottom and is 
+open.  Multiple 1.5 inch holes have been drilled around the bottom of the tube 
+to permit unrestricted water flow to the sensors.  During deployment the 
+datalogger units are then placed into and rest on a bolt fixed across the bottom 
+of the tubes.
+
+Beginning on October 16, 2000 at the Oneonta Slough station and on October 25, 
+2000 at the Model Marsh station a 5 inch diameter PVC pipe was strapped to a 4 
+inch diameter aluminum pipe driven into the sediment in the center of the 
+channel until refusal.   A "snorkel" tube is also strapped to the 4 inch 
+diameter aluminum pipe to allow for the shallow level vented sensor on the YSI 
+model 6600 sondes to compensate for barometric changes in the atmosphere. 
+The sampling period is two weeks, with measurements taken every 30 minutes.  
+Measurements for specific conductivity, salinity, dissolved oxygen (percent 
+saturation), dissolved oxygen (mg/l), temperature, turbidity and water level are 
+recorded.  At the end of each two week period, the YSI data logger units are 
+brought back to the laboratory for downloading, cleaning and recalibration and 
+are usually redeployed in the field within 24 to 48 hours. These procedures are 
+carried out according to the methods described in the YSI Operations Manual (see 
+sections 3 and 7). Calibration standards for specific conductivity are purchased 
+from YSI and pH and turbidity are purchased pre-made from VWR scientific.  The 
+QA/QC procedures for the collected data are followed as given in the CDMO 
+Operations Manual version 4.0.
+
+Logging began on October 25, 2000 at the Model Marsh station.
+Logging began in February 1996at the Oneonta Slough station.
+
+
+5.  Site location and character:
+
+General site Characteristics (TJE)
+a) Tidal exchange (extremes): approx. -2 +7 MLLW,
+b) Salinity: 4 ppt (extreme rain events) to 38 ppt
+d) Latitude and longitude:  32 deg. 34 min. N, 117 deg. 07 min. W 
+c) Potential impacts: storm drain runoff from military airfield and adjacent 
+residential areas, occasional sewage spills (10-15 MGD) into the Tijuana River from Mexico.  
+The area surrounding the estuary is heavily developed by residential housing as is the 
+watershed which drains into the estuary.  Approximately 2/3 of the watershed is in Mexico.  
+The North Eastern section of the reserve is bordered by a military helicopter training 
+base.  Vegetation in the area is dominated by common pickleweed (Spartina virginica) 
+and Pacific cordgrass (Spartina foliosa).
+
+Specific Site characteristics: Oneonta Slough (OS)
+a) Orientation of site:  The Datalogger station is located on the upper portion 
+of Oneonta Slough.  The channel runs North to South and is located on the 
+northwestern edge of the reserve. Latitude is 32 deg  34 min 04.8 sec N, 
+longitude is 117 deg 07 min 52.3 sec W.
+b) The elevation of the channel bottom directly below the datalogger is approx. 
+0.55m below Mean Sea Level.
+c) Channel width is approx. 20 meters.  Datalogger site is located 1km from 
+mouth
+d) Bottom type: sand and sediment
+e) Area adjacent to west side of channel is developed. There is a 50-meter 
+buffer of natural vegetation between development and the channel.  Area adjacent 
+to east side of channel is relatively natural.
+f) Direct impacts are estimated to be runoff from streets into channel during 
+rain events.
+
+Specific Site Characteristics:  Model Marsh (MM)
+a) Orientation of site: The datalogger station is located in the middle of a 
+natural channel which runs north to south.  The channel is approximately 20 
+meters north of a newly constructed 20 acre mudflat restoration area in
+the southern section or the reserve.  The latitude of the site is 32 deg 32 min 
+52.05 sec N, the longitude is 117 deg 07 min 22.9 sec W
+b) The elevation of the channel bottom: -.39 NGVD
+c) Channel width: 5 meters
+d) Bottom type:  Mostly mud with some sand
+
+
+6.  Data Collection period:
+
+Unless otherwise noted YSI model 6600upg dataloggers were used to collect data.
+Oneonta Slough
+Began				Ended
+12/19/00	14:30		01/15/01	08:30
+01/17/01	15:30		01/31/01	15:30
+02/01/01	15:00		02/15/01	16:00
+02/20/01	17:30		03/09/01	15:30
+03/12/01	16:00		03/30/01	11:30
+04/03/01	18:00		04/18/01	15:30
+04/19/01	17:00		05/07/01	14:30
+05/09/01	17:00		05/30/01	11:30
+06/05/01	13:30		06/25/01	12:30
+06/27/01	14:00		07/11/01	11:00
+07/13/01	13:30		07/26/01	12:00
+07/30/01	13:30		08/09/01	09:30
+08/10/01	11:00		08/23/01	09:00
+08/24/01	10:30		09/06/01	15:30
+09/11/01	10:00		10/02/01	13:30
+10/03/01	17:30		10/15/01	12:30
+10/19/01	17:00		11/01/01	15:00
+11/07/01	15:00		11/27/01	13:30
+11/30/01	16:00		12/18/01	13:30
+12/21/01	17:00		01/09/02	14:00
+
+
+Model Marsh
+Began				Ended
+Date		Time		Date		Time
+12/19/00	13:30		01/15/01	09:00
+01/17/01	16:30		01/31/01	13:00
+02/01/01	14:00		02/15/01	15:30
+04/03/01	16:30		04/18/01	14:30
+04/19/01	16:00		05/07/01	13:30
+05/09/01	15:30		05/30/01	12:30
+06/05/01	23:08		06/25/01	02:42 ** bad file
+06/27/01	12:30		07/11/01	11:30
+07/13/01	14:30		07/26/01	11:00
+07/30/01	14:30		08/09/01	10:30
+08/10/01	12:00		08/23/01	10:00
+08/24/01	11:30		09/06/01	15:00
+09/11/01	11:30		10/02/01	14:30
+10/03/01	14:30		10/15/01	13:30
+10/19/01	15:30		11/01/01	14:30
+11/06/01	17:30		11/27/01	14:00
+12/01/01	16:00		12/18/01	14:00
+12/21/01	15:30		01/09/02	15:00
+
+
+7.  Distribution:
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data. The PI retains the right to be fully credited for having collected 
+and processed the data. Following academic courtesy standards, the PI and NERR 
+site where the data were collected will be contacted and fully acknowledged in 
+any subsequent publications in which any part of the data are used. Manuscripts 
+resulting from the NOAA/OCRM supported research that are produced for 
+publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration. The data set 
+enclosed within this package/transmission is only as good as the quality 
+assurance and quality control procedures outlined by the enclosed metadata 
+reporting statement. The user bears all responsibility for its subsequent 
+use/misuse in any further analyses or comparisons. The Federal government does 
+not assume liability to the Recipient or third persons, nor will the Federal 
+government reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data. 
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal investigators and 
+contact persons), from the Data Manager at the Centralized Data Management Office (please see 
+personnel directory under general information link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu. Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format. 
+
+
+8.  Associated researchers and projects:
+
+Sharook Madon (PERL) is using temperature data from the dataloggers in a model 
+to evaluate the value of marsh surface access in killi fish growth.  The Model 
+Marsh is the ongoing site of research being conducted by PERL which focuses on 
+methods for increasing the success of saltmarsh revegetation projects.
+
+
+II. Physical Structure Descriptors
+
+
+9.  Variable sequence, column format, range of measurements, units for:
+YSI 6000/6600 datalogger
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+10.  Coded variable indicator and variable code definitions Site definitions:  
+
+OS = Oneonta Slough, MM = Model Marsh
+
+
+11.  Data anomalies (suspect data):
+
+January 2001
+OS
+a) 01/17/2001 15:30:00 - 01/31/2001 15:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+01/27/2001	08:30:00	0859
+01/27/2001	09:00:00	1630
+01/27/2001	09:30:00	1636
+01/27/2001	10:00:00	1642
+01/27/2001	10:30:00	0907
+01/27/2001	11:30:00	0384
+01/27/2001	12:00:00	0388
+01/27/2001	12:30:00	0281
+01/27/2001	13:00:00	0244
+01/27/2001	13:30:00	0179
+01/27/2001	14:00:00	0214
+01/27/2001	14:30:00	0174
+01/27/2001	15:00:00	0315
+01/27/2001	15:30:00	0102
+c) 01/01/2001 00:00:00 - 01/15/2001 08:30:00, Turbidity missing. No probe 
+installed.
+
+
+MM
+a) 01/01/2001 00:00:00 - 01/15/2001 9:00:00, values for depth were converted 
+from feet to meters.
+b) 01/01/2001 00:00:00 - 01/15/2001 09:00:00, turbidity missing. no probe 
+installed.
+c) Between 01/01/2001 00:00:00 - 01/15/2001 09:00:00, Time values were offset by 
++ 40 sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+d) 01/17/2001 16:30:00 - 01/31/2001 13:00:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+e) 01/01/2001 00:00:00 - 01/15/2001 09:00:00, minimum values for depth unusually 
+high. Probably due to sedimentation at mouth of lagoon.
+f) 01/08/2001 16:30:00 - 01/15/2001 09:00:00, salinity values unusually low.  
+Rain event began 01/08/01. Data were not removed.
+g) 01/26/2001 13:30:00 - 01/28/2001 10:30:00, turbidity values unusually high.  
+Likely caused by rain event that began on 1/24/01.  Data were not removed.  
+h) 01/26/2001 13:30:00 - 01/28/2001 13:00:00, salinity values unusually high.  
+Likely caused by rain event that began on 1/24/01.  Data were not removed.  
+i) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+01/19/2001	05:00:00	0326
+01/19/2001	09:30:00	0104
+01/20/2001	04:30:00	0281
+01/20/2001	05:00:00	0189
+01/20/2001	05:30:00	0138
+01/20/2001	06:00:00	0109
+01/20/2001	11:00:00	0182
+01/20/2001	14:30:00	0120
+01/21/2001	06:30:00	0113
+01/21/2001	11:30:00	0128
+01/21/2001	12:00:00	0384
+01/22/2001	06:30:00	0154
+01/22/2001	07:00:00	0263
+01/22/2001	13:00:00	0127
+01/23/2001	07:30:00	0122
+01/23/2001	08:30:00	0164
+01/23/2001	13:00:00	0156
+01/23/2001	13:30:00	0112
+01/23/2001	14:00:00	0138
+01/23/2001	14:30:00	0166
+01/23/2001	15:00:00	0234
+01/23/2001	15:30:00	0215
+01/23/2001	16:00:00	0172
+01/23/2001	16:30:00	0202
+01/23/2001	17:00:00	0362
+01/23/2001	17:30:00	0194
+01/23/2001	18:00:00	0238
+01/23/2001	18:30:00	0311
+01/23/2001	19:00:00	0212
+01/23/2001	19:30:00	0258
+01/23/2001	20:00:00	0214
+01/23/2001	21:00:00	0255
+01/23/2001	21:30:00	0251
+01/23/2001	22:00:00	0317
+01/23/2001	22:30:00	0273
+01/23/2001	23:00:00	0214
+01/23/2001	23:30:00	0258
+01/24/2001	00:00:00	0234
+01/24/2001	00:30:00	0271
+01/24/2001	01:00:00	0341
+01/24/2001	01:30:00	0241
+01/24/2001	02:00:00	0310
+01/24/2001	02:30:00	0375
+01/24/2001	03:00:00	0435
+01/24/2001	03:30:00	0169
+01/24/2001	04:00:00	0197
+01/24/2001	04:30:00	0300
+01/24/2001	05:00:00	0243
+01/24/2001	05:30:00	0225
+01/24/2001	06:00:00	0303
+01/24/2001	06:30:00	0246
+01/24/2001	07:00:00	0157
+01/24/2001	07:30:00	0424
+01/24/2001	08:00:00	0261
+01/24/2001	08:30:00	0222
+01/24/2001	13:30:00	0132
+01/24/2001	16:00:00	0105
+01/24/2001	18:00:00	0101
+01/24/2001	18:30:00	0107
+01/24/2001	20:00:00	0113
+01/25/2001	03:30:00	0116
+01/25/2001	04:00:00	0117
+01/25/2001	05:00:00	0113
+01/25/2001	14:00:00	0211
+01/25/2001	15:00:00	0280
+01/25/2001	15:30:00	0256
+01/25/2001	16:00:00	0226
+01/25/2001	16:30:00	0201
+01/25/2001	17:00:00	0182
+01/25/2001	17:30:00	0235
+01/25/2001	18:00:00	0306
+01/25/2001	18:30:00	0383
+01/25/2001	19:00:00	0255
+01/25/2001	19:30:00	0530
+01/25/2001	20:00:00	0520
+01/25/2001	20:30:00	0317
+01/25/2001	21:00:00	0188
+01/25/2001	21:30:00	0308
+01/25/2001	22:00:00	0259
+01/25/2001	22:30:00	0266
+01/25/2001	23:00:00	0253
+01/25/2001	23:30:00	0360
+01/26/2001	00:00:00	0318
+01/26/2001	00:30:00	0223
+01/26/2001	01:00:00	0432
+01/26/2001	01:30:00	0360
+01/26/2001	02:00:00	0279
+01/26/2001	02:30:00	0473
+01/26/2001	03:00:00	0507
+01/26/2001	03:30:00	0421
+01/26/2001	04:00:00	0428
+01/26/2001	04:30:00	0348
+01/26/2001	05:00:00	0349
+01/26/2001	05:30:00	0203
+01/26/2001	06:00:00	0212
+01/26/2001	06:30:00	0189
+01/26/2001	07:00:00	0218
+01/26/2001	07:30:00	0279
+01/26/2001	08:00:00	0180
+01/26/2001	08:30:00	0112
+01/26/2001	10:00:00	0328
+01/27/2001	17:30:00	0841
+01/27/2001	18:00:00	0563
+01/27/2001	18:30:00	0811
+01/27/2001	19:00:00	0280
+01/27/2001	19:30:00	0273
+01/27/2001	20:00:00	0308
+01/27/2001	20:30:00	0259
+01/27/2001	21:00:00	0206
+01/27/2001	21:30:00	0161
+01/27/2001	22:00:00	0145
+01/27/2001	22:30:00	0142
+01/27/2001	23:30:00	0113
+01/28/2001	01:00:00	0114
+01/28/2001	03:00:00	0117
+01/28/2001	03:30:00	0128
+01/28/2001	04:00:00	0129
+01/28/2001	05:30:00	0108
+01/28/2001	06:00:00	0107
+01/28/2001	07:00:00	0111
+01/28/2001	09:30:00	0461
+01/28/2001	10:00:00	0744
+01/28/2001	10:30:00	0234
+
+
+February 2001
+OS
+a) 02/01/2001 15:00:00 - 02/15/2001 16:00:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 02/20/2001 17:00:00 - 02/28/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+02/07/2001	06:00:00	0115
+02/14/2001	01:00:00	0208
+02/14/2001	01:30:00	0116
+02/24/2001	07:30:00	0123
+02/24/2001	08:00:00	1635
+02/24/2001	08:30:00	0808
+02/24/2001	09:00:00	0312
+02/24/2001	09:30:00	0122
+02/26/2001	12:00:00	0150
+02/26/2001	12:30:00	0117
+02/26/2001	13:00:00	0240
+02/26/2001	22:00:00	0647
+02/26/2001	22:30:00	0576
+02/27/2001	23:30:00	0330
+02/28/2001	00:00:00	0295
+02/28/2001	23:00:00	0178
+02/28/2001	23:30:00	0476
+d) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+02/02/2001 04:00:00 - 04:30:00
+02/02/2001 22:30:00 - 23:00:00
+02/03/2001 05:00:00 - 05:30:00
+02/04/2001 06:30:00
+02/04/2001 13:00:00 - 14:00:00
+02/04/2001 15:30:00 - 17:00:00
+02/05/2001 07:30:00
+02/05/2001 14:30:00
+02/06/2001 16:30:00 - 17:00:00
+02/06/2001 20:30:00 - 21:30:00
+02/07/2001 09:30:00
+02/07/2001 17:00:00
+02/07/2001 21:30:00 - 22:30:00
+02/08/2001 10:00:00
+02/08/2001 16:30:00 - 17:30:00
+02/08/2001 18:30:00 - 19:30:00
+02/08/2001 22:00:00 - 23:00:00
+02/09/2001 10:30:00
+02/09/2001 17:30:00 - 19:00:00
+02/09/2001 22:30:00 - 23:30:00
+02/10/2001 00:00:00
+02/10/2001 11:30:00
+02/10/2001 18:30:00
+02/10/2001 19:30:00 - 20:30:00
+02/10/2001 22:30:00 - 23:30:00
+02/11/2001 00:00:00 - 00:30:00
+02/11/2001 10:00:00 - 10:30:00
+02/11/2001 11:30:00 - 12:00:00
+02/11/2001 19:00:00
+02/11/2001 23:00:00 - 23:30:00
+02/12/2001 00:00:00 - 01:00:00
+02/12/2001 11:30:00 - 13:00:00
+02/12/2001 23:30:00 - 02/13/2001 00:00:00
+02/13/2001 02:00:00 - 02:30:00
+02/20/2001 21:00:00 - 23:30:00
+02/21/2001 00:00:00 - 02:00:00
+02/21/2001 03:00:00
+02/21/2001 09:00:00
+02/21/2001 16:30:00 - 18:00:00
+02/21/2001 22:00:00 - 23:30:00
+02/22/2001 00:00:00 - 00:30:00
+02/22/2001 15:00:00
+02/22/2001 16:30:00
+02/22/2001 18:00:00 - 18:30:00
+02/22/2001 22:00:00
+02/22/2001 23:30:00 - 02/23/2001 00:30:00
+02/23/2001 02:30:00
+02/23/2001 04:30:00
+02/23/2001 16:00:00 - 17:00:00
+02/25/2001 02:30:00 - 06:00:00
+02/25/2001 23:30:00
+02/26/2001 00:30:00 - 01:30:00
+02/26/2001 02:30:00 - 09:00:00
+
+MM
+a) 02/01/2001 14:00:00 - 02/15/2001 15:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 02/07/2001 05:30:00 - 02/15/2001 15:30:00, specific conductivity and salinity 
+values unusually low.  Likely correlated to rain event beginning on 02/07/01.  
+Data were not removed.
+c) 02/07/2001 05:30:00 - 02/15/2001 15:30:00, DO% and DOmg/L values unusually 
+low.  Probably due to rain event beginning on 02/07/01.  Data were not removed.
+d) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+02/01/2001	17:00:00	0118
+02/01/2001	17:30:00	0146
+02/01/2001	18:00:00	0129
+02/01/2001	18:30:00	0134
+02/01/2001	19:00:00	0114
+02/02/2001	12:00:00	0744
+02/02/2001	15:30:00	0224
+02/02/2001	16:00:00	0717
+02/02/2001	16:30:00	0450
+02/02/2001	18:00:00	0344
+02/02/2001	19:00:00	0258
+02/02/2001	19:30:00	0260
+02/02/2001	20:00:00	0225
+02/02/2001	20:30:00	0464
+02/02/2001	21:00:00	0264
+02/02/2001	21:30:00	0171
+02/02/2001	22:00:00	0191
+02/02/2001	22:30:00	0275
+02/02/2001	23:00:00	0173
+02/02/2001	23:30:00	0166
+02/03/2001	00:00:00	0139
+02/03/2001	00:30:00	0134
+02/03/2001	01:00:00	0109
+02/03/2001	12:30:00	0155
+02/04/2001	04:30:00	0162
+02/04/2001	05:00:00	0209
+02/04/2001	05:30:00	0230
+02/04/2001	17:00:00	0829
+02/05/2001	05:00:00	0205
+02/05/2001	05:30:00	0578
+02/05/2001	06:00:00	0579
+02/05/2001	06:30:00	0303
+02/06/2001	05:00:00	0133
+02/06/2001	05:30:00	0573
+02/06/2001	06:00:00	0365
+02/06/2001	06:30:00	0855
+02/06/2001	07:00:00	0434
+02/06/2001	07:30:00	0112
+02/06/2001	13:30:00	0474
+02/06/2001	14:00:00	0115
+02/07/2001	05:30:00	0195
+e) The following anomalously high turbidity values were recorded, likely 
+correlated to rain event beginning on 02/07/01.  Data were not removed.
+02/07/2001	06:00:00	1322
+02/07/2001	06:30:00	1345
+02/07/2001	07:00:00	0365
+02/07/2001	07:30:00	1521
+02/07/2001	08:00:00	0113
+02/07/2001	08:30:00	0137
+02/07/2001	09:00:00	0366
+02/07/2001	09:30:00	0280
+02/07/2001	10:00:00	0494
+02/07/2001	10:30:00	0671
+02/07/2001	11:00:00	1082
+02/07/2001	11:30:00	1056
+02/07/2001	12:00:00	1382
+02/07/2001	12:30:00	1202
+02/07/2001	13:00:00	0691
+02/07/2001	13:30:00	1023
+02/07/2001	14:00:00	0820
+02/07/2001	14:30:00	0808
+02/07/2001	15:00:00	0773
+02/07/2001	15:30:00	0731
+02/07/2001	16:00:00	0732
+02/07/2001	16:30:00	0642
+02/07/2001	17:00:00	0711
+02/07/2001	17:30:00	0641
+02/07/2001	18:00:00	0684
+02/07/2001	18:30:00	0753
+02/07/2001	19:00:00	0684
+02/07/2001	19:30:00	0739
+02/07/2001	20:00:00	1086
+02/07/2001	20:30:00	1025
+02/07/2001	21:00:00	1181
+02/07/2001	21:30:00	1383
+02/07/2001	22:00:00	1513
+02/07/2001	22:30:00	1505
+02/07/2001	23:00:00	1500
+02/07/2001	23:30:00	1496
+02/08/2001	00:00:00	1496
+02/08/2001	00:30:00	1496
+02/08/2001	01:00:00	1495
+02/08/2001	01:30:00	1494
+02/08/2001	02:00:00	1494
+02/08/2001	02:30:00	1494
+02/08/2001	03:00:00	1495
+02/08/2001	03:30:00	1495
+02/08/2001	04:00:00	1495
+02/08/2001	04:30:00	1495
+02/08/2001	05:00:00	1499
+02/08/2001	05:30:00	1499
+02/08/2001	06:00:00	1501
+02/08/2001	06:30:00	1510
+02/08/2001	07:00:00	1514
+02/08/2001	07:30:00	1485
+02/08/2001	08:00:00	1518
+02/08/2001	08:30:00	1518
+02/08/2001	09:00:00	1518
+02/08/2001	09:30:00	1518
+02/08/2001	10:00:00	1519
+02/08/2001	10:30:00	1519
+02/08/2001	11:00:00	1518
+02/08/2001	11:30:00	1518
+02/08/2001	12:00:00	1519
+02/08/2001	12:30:00	1522
+02/08/2001	13:00:00	1524
+02/08/2001	13:30:00	1529
+02/08/2001	14:00:00	1529
+02/08/2001	14:30:00	1529
+02/08/2001	15:00:00	1530
+02/08/2001	15:30:00	1529
+02/08/2001	16:00:00	1529
+02/08/2001	16:30:00	1528
+02/08/2001	17:00:00	1528
+02/08/2001	17:30:00	1526
+02/08/2001	18:00:00	1524
+02/08/2001	18:30:00	1523
+02/08/2001	19:00:00	1520
+02/08/2001	19:30:00	1517
+02/08/2001	20:00:00	1516
+02/08/2001	20:30:00	1516
+02/08/2001	21:00:00	1517
+02/08/2001	21:30:00	0237
+02/08/2001	22:00:00	0217
+02/08/2001	22:30:00	0189
+02/08/2001	23:00:00	0184
+02/08/2001	23:30:00	0184
+02/09/2001	00:00:00	0259
+02/09/2001	00:30:00	0301
+02/09/2001	01:00:00	0401
+02/09/2001	01:30:00	0383
+02/09/2001	02:00:00	0354
+02/09/2001	02:30:00	0317
+02/09/2001	03:00:00	0379
+02/09/2001	03:30:00	0398
+02/09/2001	04:00:00	0522
+02/09/2001	04:30:00	0609
+02/09/2001	05:00:00	0616
+02/09/2001	05:30:00	0635
+02/09/2001	06:00:00	0644
+02/09/2001	06:30:00	0658
+02/09/2001	07:00:00	0594
+02/09/2001	07:30:00	0585
+02/09/2001	08:00:00	0577
+02/09/2001	08:30:00	0545
+02/09/2001	09:00:00	0527
+02/09/2001	09:30:00	0520
+02/09/2001	10:00:00	0527
+02/09/2001	10:30:00	0556
+02/09/2001	11:00:00	0630
+02/09/2001	11:30:00	0673
+02/09/2001	12:00:00	0682
+02/09/2001	12:30:00	0702
+02/09/2001	13:00:00	0687
+02/09/2001	13:30:00	0685
+02/09/2001	14:00:00	0664
+02/09/2001	14:30:00	0655
+02/09/2001	15:00:00	0650
+02/09/2001	15:30:00	0637
+02/09/2001	16:00:00	0614
+02/09/2001	16:30:00	0607
+02/09/2001	17:00:00	0588
+02/09/2001	17:30:00	0501
+02/09/2001	18:00:00	0446
+02/09/2001	18:30:00	0401
+02/09/2001	19:00:00	0346
+02/09/2001	19:30:00	0266
+02/09/2001	20:00:00	0202
+02/09/2001	20:30:00	0258
+02/09/2001	21:00:00	0311
+02/09/2001	21:30:00	0357
+02/09/2001	22:00:00	0311
+02/09/2001	22:30:00	0308
+02/09/2001	23:00:00	0319
+02/09/2001	23:30:00	0313
+02/10/2001	00:00:00	0241
+02/10/2001	00:30:00	0273
+02/10/2001	01:00:00	0297
+02/10/2001	01:30:00	0261
+02/10/2001	02:00:00	0306
+02/10/2001	02:30:00	0318
+02/10/2001	03:00:00	0323
+02/10/2001	03:30:00	0334
+02/10/2001	04:00:00	0275
+02/10/2001	04:30:00	0288
+02/10/2001	05:00:00	0295
+02/10/2001	05:30:00	0279
+02/10/2001	06:00:00	0262
+02/10/2001	06:30:00	0255
+02/10/2001	07:00:00	0225
+02/10/2001	07:30:00	0201
+02/10/2001	08:00:00	0114
+02/10/2001	08:30:00	0231
+02/10/2001	09:00:00	0225
+02/10/2001	09:30:00	0185
+02/10/2001	10:00:00	0211
+02/10/2001	10:30:00	0167
+02/10/2001	11:00:00	0182
+02/10/2001	11:30:00	0221
+02/10/2001	12:00:00	0218
+02/10/2001	12:30:00	0154
+02/10/2001	13:00:00	0225
+02/10/2001	13:30:00	0188
+02/10/2001	14:00:00	0155
+02/10/2001	14:30:00	0161
+02/10/2001	15:00:00	0194
+02/10/2001	15:30:00	0198
+02/10/2001	16:00:00	0102
+02/10/2001	17:30:00	0156
+02/10/2001	18:00:00	0153
+02/10/2001	18:30:00	0150
+02/10/2001	19:30:00	0123
+02/10/2001	20:30:00	0158
+02/10/2001	21:30:00	0116
+02/10/2001	22:30:00	0166
+02/10/2001	23:00:00	0124
+02/10/2001	23:30:00	1519
+02/11/2001	00:00:00	1519
+02/11/2001	00:30:00	0110
+02/11/2001	01:00:00	0128
+02/11/2001	01:30:00	0149
+02/11/2001	02:00:00	0178
+02/11/2001	03:00:00	0123
+02/11/2001	03:30:00	0302
+02/11/2001	04:00:00	0299
+02/11/2001	04:30:00	0320
+02/11/2001	05:00:00	0280
+02/11/2001	06:00:00	0157
+02/11/2001	06:30:00	0166
+02/11/2001	07:00:00	0243
+02/11/2001	07:30:00	0320
+02/11/2001	08:30:00	0100
+02/11/2001	09:00:00	0112
+02/11/2001	09:30:00	0170
+02/11/2001	10:30:00	0156
+02/11/2001	11:00:00	0196
+02/11/2001	11:30:00	0217
+02/11/2001	12:00:00	0185
+02/11/2001	12:30:00	0177
+02/11/2001	13:00:00	0123
+02/11/2001	13:30:00	0154
+02/11/2001	14:00:00	0155
+02/11/2001	14:30:00	0244
+02/11/2001	15:00:00	0209
+02/11/2001	15:30:00	0190
+02/11/2001	16:30:00	0147
+02/11/2001	17:00:00	0179
+02/11/2001	17:30:00	0236
+02/11/2001	18:00:00	0194
+02/11/2001	18:30:00	0164
+02/11/2001	19:00:00	0118
+02/11/2001	19:30:00	0302
+02/11/2001	20:00:00	0310
+02/11/2001	20:30:00	0197
+02/11/2001	21:00:00	1521
+02/11/2001	21:30:00	1521
+02/11/2001	22:00:00	1521
+02/11/2001	22:30:00	1523
+02/11/2001	23:00:00	1523
+02/11/2001	23:30:00	1521
+02/12/2001	00:00:00	1520
+02/12/2001	00:30:00	1520
+02/12/2001	01:00:00	1519
+02/12/2001	01:30:00	1518
+02/12/2001	02:00:00	1515
+02/12/2001	02:30:00	1513
+02/12/2001	03:00:00	1511
+02/12/2001	03:30:00	1508
+02/12/2001	04:00:00	1491
+02/12/2001	04:30:00	1452
+02/12/2001	05:00:00	1398
+02/12/2001	05:30:00	1397
+02/12/2001	06:00:00	1240
+02/12/2001	06:30:00	1205
+02/12/2001	07:00:00	1127
+02/12/2001	07:30:00	1093
+02/12/2001	08:00:00	1054
+02/12/2001	08:30:00	1087
+02/12/2001	09:00:00	1111
+02/12/2001	09:30:00	1128
+02/12/2001	10:00:00	1160
+02/12/2001	10:30:00	1180
+02/12/2001	11:00:00	1161
+02/12/2001	11:30:00	1154
+02/12/2001	12:00:00	1149
+02/12/2001	12:30:00	1135
+02/12/2001	13:00:00	1145
+02/12/2001	13:30:00	1136
+02/12/2001	14:00:00	1131
+02/12/2001	14:30:00	1148
+02/12/2001	15:00:00	1138
+02/12/2001	15:30:00	1123
+02/12/2001	16:00:00	1120
+02/12/2001	16:30:00	1114
+02/12/2001	17:00:00	1119
+02/12/2001	17:30:00	1120
+02/12/2001	18:00:00	1114
+02/12/2001	18:30:00	1081
+02/12/2001	19:00:00	1088
+02/12/2001	19:30:00	1086
+02/12/2001	20:00:00	1083
+02/12/2001	20:30:00	1067
+02/12/2001	21:00:00	1065
+02/12/2001	21:30:00	1058
+02/12/2001	22:00:00	1057
+02/12/2001	22:30:00	1062
+02/12/2001	23:00:00	1053
+02/12/2001	23:30:00	1041
+02/13/2001	00:00:00	1033
+02/13/2001	00:30:00	1036
+02/13/2001	01:00:00	1041
+02/13/2001	01:30:00	1036
+02/13/2001	02:00:00	1042
+02/13/2001	02:30:00	1051
+02/13/2001	03:00:00	1053
+02/13/2001	03:30:00	1052
+02/13/2001	04:00:00	1061
+02/13/2001	04:30:00	1060
+02/13/2001	05:00:00	1071
+02/13/2001	05:30:00	1077
+02/13/2001	06:00:00	1079
+02/13/2001	06:30:00	1088
+02/13/2001	07:00:00	1091
+02/13/2001	07:30:00	1101
+02/13/2001	08:00:00	1107
+02/13/2001	08:30:00	1114
+02/13/2001	09:00:00	1123
+02/13/2001	09:30:00	1127
+02/13/2001	10:00:00	1128
+02/13/2001	10:30:00	1139
+02/13/2001	11:00:00	1143
+02/13/2001	11:30:00	1161
+02/13/2001	12:00:00	1179
+02/13/2001	12:30:00	1178
+02/13/2001	13:00:00	1201
+02/13/2001	13:30:00	1228
+02/13/2001	14:00:00	1212
+02/13/2001	14:30:00	1226
+02/13/2001	15:00:00	1277
+02/13/2001	15:30:00	1395
+02/13/2001	16:00:00	1527
+02/13/2001	17:30:00	1520
+02/13/2001	18:00:00	1517
+02/13/2001	18:30:00	1515
+02/13/2001	19:00:00	1513
+02/13/2001	19:30:00	1511
+02/13/2001	20:00:00	1509
+02/13/2001	20:30:00	1507
+02/13/2001	21:00:00	1503
+02/13/2001	21:30:00	1503
+02/13/2001	22:00:00	1501
+02/13/2001	22:30:00	1500
+02/13/2001	23:00:00	1501
+02/13/2001	23:30:00	1500
+02/14/2001	00:00:00	1501
+02/14/2001	00:30:00	1501
+02/14/2001	01:00:00	1507
+02/14/2001	01:30:00	1514
+02/14/2001	02:00:00	1004
+02/14/2001	02:30:00	0725
+02/14/2001	03:00:00	1514
+02/14/2001	03:30:00	0646
+02/14/2001	04:00:00	1072
+02/14/2001	04:30:00	1010
+02/14/2001	05:00:00	1495
+02/14/2001	05:30:00	1494
+02/14/2001	06:00:00	1494
+02/14/2001	06:30:00	1494
+02/14/2001	07:00:00	0841
+02/14/2001	07:30:00	1494
+02/14/2001	08:00:00	1495
+02/14/2001	08:30:00	1496
+02/14/2001	09:00:00	1497
+02/14/2001	09:30:00	1501
+02/14/2001	10:00:00	1503
+02/14/2001	10:30:00	1507
+02/14/2001	11:00:00	1511
+02/14/2001	11:30:00	1518
+02/14/2001	12:00:00	1524
+02/14/2001	12:30:00	1530
+02/14/2001	13:00:00	1533
+02/14/2001	13:30:00	1535
+02/14/2001	14:00:00	1537
+02/14/2001	14:30:00	1538
+02/14/2001	15:00:00	1537
+02/14/2001	15:30:00	1539
+02/14/2001	16:00:00	1536
+02/14/2001	16:30:00	1535
+02/14/2001	17:00:00	1528
+02/14/2001	17:30:00	1527
+02/14/2001	18:00:00	1522
+02/14/2001	18:30:00	1521
+02/14/2001	19:00:00	0310
+02/14/2001	19:30:00	0898
+02/14/2001	20:00:00	0421
+02/14/2001	20:30:00	0336
+02/14/2001	21:00:00	0343
+02/14/2001	21:30:00	0351
+02/14/2001	22:00:00	0465
+02/14/2001	22:30:00	0529
+02/14/2001	23:00:00	0269
+02/14/2001	23:30:00	0697
+02/15/2001	00:00:00	0455
+02/15/2001	00:30:00	0302
+02/15/2001	01:00:00	0469
+02/15/2001	01:30:00	0327
+02/15/2001	02:00:00	0345
+02/15/2001	02:30:00	0364
+02/15/2001	03:00:00	0258
+02/15/2001	03:30:00	0551
+02/15/2001	04:00:00	1513
+02/15/2001	04:30:00	0388
+02/15/2001	05:00:00	0419
+02/15/2001	05:30:00	0414
+02/15/2001	06:00:00	0620
+02/15/2001	06:30:00	1492
+02/15/2001	07:00:00	1493
+02/15/2001	07:30:00	1495
+02/15/2001	08:00:00	1499
+02/15/2001	08:30:00	1506
+02/15/2001	09:00:00	1514
+02/15/2001	09:30:00	1520
+02/15/2001	10:00:00	1526
+02/15/2001	10:30:00	1530
+02/15/2001	11:00:00	0650
+02/15/2001	11:30:00	0390
+02/15/2001	12:00:00	0301
+02/15/2001	12:30:00	0250
+02/15/2001	13:00:00	0394
+02/15/2001	13:30:00	0280
+02/15/2001	14:00:00	0197
+02/15/2001	14:30:00	0306
+02/15/2001	15:00:00	0519
+02/15/2001	15:30:00	0195
+e) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+02/03/2001	05:00:00 - 06:00:00
+02/04/2001	06:30:00 - 07:00:00
+02/04/2001	19:30:00
+02/05/2001	07:30:00
+02/06/2001	08:30:00
+
+March 2001
+OS
+a) 03/01/2001 00:00:00 - 03/09/2001 15:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+03/05/2001	05:30:00	0107
+03/06/2001	05:30:00	0134
+03/06/2001	06:00:00	0140
+03/06/2001	06:30:00	0135
+03/06/2001	20:30:00	0442
+03/06/2001	21:00:00	0110
+03/06/2001	22:00:00	0323
+03/07/2001	00:00:00	0100
+03/07/2001	05:00:00	1651
+03/07/2001	05:30:00	1646
+03/07/2001	06:00:00	1045
+03/07/2001	06:30:00	0489
+03/07/2001	07:00:00	0269
+03/07/2001	07:30:00	0131
+03/07/2001	08:30:00	0113
+03/07/2001	19:30:00	0104
+03/07/2001	20:00:00	0449
+03/08/2001	05:30:00	0713
+03/08/2001	06:00:00	0144
+03/08/2001	06:30:00	0117
+03/08/2001	07:00:00	0137
+03/08/2001	07:30:00	0200
+03/08/2001	08:00:00	0144
+03/09/2001	06:00:00	0101
+03/09/2001	06:30:00	0184
+03/09/2001	08:00:00	0146
+03/09/2001	08:30:00	0172
+03/09/2001	15:30:00	0736
+c) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+03/17/2001 03:30:00 - 06:00:00
+03/17/2001 07:30:00
+03/18/2001 06:00:00
+03/18/2001 07:00:00 - 07:30:00
+03/18/2001 20:30:00 - 21:30:00
+03/19/2001 20:00:00 - 21:30:00
+03/19/2001 23:00:00
+03/20/2001 21:30:00 - 23:00:00
+03/21/2001 00:00:00
+03/21/2001 21:00:00
+03/21/2001 22:00:00 - 23:30:00
+03/22/2001 08:30:00
+03/22/2001 22:00:00 - 23:30:00
+03/24/2001 22:00:00
+03/25/2001 10:00:00
+03/26/2001 23:00:00
+03/27/2001 10:30:00 - 11:00:00
+
+MM
+a) 03/01/2001 00:00:00 - 03/31/2001 23:30:00, data for all parameters missing- 
+logger not deployed due to heavy sedimentation at station. Deployment holder had 
+to be moved at a very low tide.
+
+April 2001
+OS
+a) 04/03/2001 18:00:00 - 04/18/2001 15:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 04/19/2001 17:00:00 - 04/30/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 04/19/2001 17:00:00 - 04/30/2001 23:30:00, pH missing - no probe installed.
+d) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+04/21/2001	19:00:00	0409
+e) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+04/03/2001 18:30:00 - 20:30:00
+04/04/2001 04:30:00
+04/04/2001 05:30:00 - 08:30:00
+04/04/2001 15:30:00
+04/04/2001 19:00:00 - 21:30:00
+04/05/2001 05:00:00 - 06:30:00
+04/05/2001 08:00:00 - 09:30:00
+04/05/2001 10:30:00
+04/05/2001 12:00:00
+04/05/2001 19:00:00 - 21:00:00
+04/06/2001 06:00:00 - 08:00:00
+04/06/2001 09:00:00 - 10:00:00
+04/06/2001 13:00:00 - 13:30:00
+04/06/2001 16:30:00
+04/06/2001 19:00:00 - 22:30:00
+04/07/2001 07:00:00 - 10:30:00
+04/07/2001 17:00:00
+04/07/2001 22:00:00 - 22:30:00
+04/08/2001 07:30:00 - 08:00:00
+04/08/2001 09:30:00 - 11:00:00
+04/08/2001 19:30:00
+04/08/2001 20:30:00 - 21:00:00
+04/08/2001 23:00:00
+04/09/2001 03:00:00 - 03:30:00
+04/09/2001 04:30:00 - 05:00:00
+04/09/2001 06:30:00
+04/09/2001 07:30:00 - 12:00:00
+04/09/2001 21:00:00 - 21:30:00
+04/09/2001 23:00:00
+04/10/2001 02:30:00
+04/10/2001 07:30:00 - 08:30:00
+04/10/2001 10:30:00
+04/10/2001 23:00:00 - 23:30:00
+04/11/2001 00:00:00
+04/11/2001 22:30:00 - 23:30:00
+04/12/2001 00:00:00 - 01:00:00
+04/12/2001 03:30:00 - 05:00:00
+04/12/2001 06:00:00 - 11:30:00
+04/12/2001 12:30:00 - 13:00:00
+04/12/2001 19:00:00
+04/12/2001 20:30:00 - 21:00:00
+04/12/2001 23:30:00 - 04/13/2001 12:30:00
+04/13/2001 16:30:00
+04/13/2001 21:00:00
+04/13/2001 22:00:00 - 23:30:00
+04/14/2001 00:00:00 - 08:00:00
+04/14/2001 21:30:00
+04/14/2001 22:30:00
+04/14/2001 23:30:00 - 04/15/2001 00:00:00
+04/15/2001 08:30:00
+04/15/2001 10:00:00
+04/15/2001 19:30:00 - 22:30:00
+04/15/2001 23:30:00 - 04/16/2001 00:00:00
+04/16/2001 02:30:00 - 08:30:00
+04/16/2001 19:30:00 - 23:30:00
+04/17/2001 00:00:00
+04/17/2001 02:00:00
+04/17/2001 04:30:00 - 07:30:00
+04/17/2001 12:30:00
+04/17/2001 18:30:00 - 23:30:00
+04/18/2001 00:00:00
+04/18/2001 04:30:00 - 08:00:00
+04/18/2001 10:00:00
+04/18/2001 15:00:00
+
+MM
+a) 04/01/2001 00:00:00 - 04/03/2001 16:00:00 all - logger not deployed due to 
+heavy sedimentation at site
+b) 04/03/2001 16:30:00 - 04/18/2001 14:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 04/19/2001 16:00:00 - 04/30/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+d) 04/07/2001 18:30:00 - 04/13/2001 02:30:00 Turbidity values higher than 
+average for site.  Rainfall event from 4/7/01 through 4/10/01 believed to be 
+cause. Data were not removed.
+e) 04/20/2001 01:00:00 - 04/22/2001 22:00:00 Turbidity values higher than 
+average. Rainfall event from 4/20/01 through 04/21/01 believed to be cause.
+f) 04/07/2001 11:30:00 - 04/15/2001 19:00:00 Salinity and Specific conductivity 
+values low, due to rain event.
+g) 04/21/2001 01:30:00 - 04/25/2001 00:00:00 Salinity and Specific conductivity 
+values low, due to rain event. 
+h) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+04/07/2001 03:00:00 - 04:00:00
+04/12/2001 17:30:00 - 18:00:00
+04/12/2001 19:00:00 - 19:30:00
+04/14/2001 06:00:00 - 07:30:00
+04/15/2001 06:30:00 - 08:00:00
+04/15/2001 23:30:00
+04/16/2001 07:30:00 - 08:30:00
+04/16/2001 23:00:00 - 23:30:00
+04/17/2001 00:00:00 - 01:30:00
+04/20/2001 01:30:00 - 04:30:00
+04/21/2001 03:00:00
+04/22/2001 04:00:00
+i) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+04/24/2001	15:30:00	0224
+04/24/2001	16:00:00	0312
+04/24/2001	17:30:00	0595
+04/24/2001	18:00:00	1231
+04/24/2001	20:00:00	0247
+04/30/2001	16:00:00	0610
+
+May 2001
+OS
+a) 05/01/2001 00:00:00 - 05/07/2001 14:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+05/28/2001 10:00:00 - 12:00:00
+c) 05/01/2001 00:00:00 - 05/07/2001 14:30:00, pH missing - no probe installed 
+d) 05/09/2001 17:00:00 - 05/30/2001 11:30:00, pH missing. No probe installed.
+
+MM
+a) 05/01/2001 00:00:00 - 05/07/2001 13:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b)The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+05/01/2001	15:00:00	0216
+05/02/2001	14:00:00	0225
+05/02/2001	16:00:00	0424
+05/03/2001	12:30:00	0139
+05/03/2001	14:00:00	0603
+05/04/2001	11:30:00	0459
+05/04/2001	13:30:00	0244
+05/04/2001	14:00:00	0163
+05/14/2001	15:30:00	0217
+05/17/2001	17:30:00	0861
+c) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+05/04/2001 01:00:00 - 04:00:00
+05/05/2001 02:00:00 
+05/05/2001 03:30:00 - 04:30:00
+05/06/2001 05:30:00
+05/11/2001 05:00:00
+05/26/2001 06:00:00
+05/26/2001 16:00:00
+05/27/2001 06:00:00
+05/23/2001 04:00:00
+05/29/2001 23:00:00
+
+June 2001
+OS
+a) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+06/09/2001 08:00:00 - 09:30:00
+06/10/2001 08:00:00 - 09:30:00
+06/11/2001 08:30:00 - 09:00:00
+06/12/2001 10:00:00
+06/22/2001 07:00:00 - 07:30:00
+06/23/2001 06:30:00 - 08:00:00
+06/24/2001 07:30:00 - 09:00:00
+06/25/2001 08:00:00 - 09:30:00
+06/28/2001 07:30:00 - 12:00:00
+06/29/2001 09:30:00 - 12:00:00
+06/30/2001 11:00:00 - 12:00:00
+b) 06/05/2001 13:30:00 - 06/25/2001 12:30:00, pH missing. No probe installed.
+
+MM
+a) 06/05/2001 23:08:40 - 06/25/2001 02:42:00, all - sample interval for data 
+collection was set incorrectly (689 min - date was probably entered as 
+interval). No data is available for this time period.
+b) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed:
+Date	Time	Turbidity
+06/27/2001	19:00:00	0141
+06/27/2001	20:30:00	0157
+c) 06/27/2001 12:30:00 - 06/30/2001 23:30:00, pH missing. No probe installed
+
+July 2001
+OS
+a) 07/22/2001 05:00:00 - 07/26/2001 12:00:00, DO% and DOmg missing. Negative 
+values were recorded which exceeeds the range on sensor. Data were removed.
+b) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+07/05/2001 06:30:00
+07/07/2001 06:00:00 - 08:00:00
+07/08/2001 06:30:00 - 08:30:00
+07/09/2001 08:00:00 - 08:30:00
+07/10/2001 07:00:00 - 09:00:00
+07/11/2001 07:00:00 - 09:30:00
+c) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+07/15/2001	17:30:00	0113
+07/16/2001	15:00:00	0124
+07/18/2001	20:30:00	0116
+07/19/2001	17:00:00	0124
+07/20/2001	18:00:00	0113
+07/25/2001	14:00:00	0130
+d) 07/30/2001 13:30:00 - 07/31/2001 23:30:00, turbidity missing. Many negative 
+values. Data were removed.
+
+MM
+a) 07/01/2001 00:00:00 - 07/11/2001 11:30:00, pH missing. No probe installed
+b) 07/13/2001 14:30:00 - 07/26/2001 11:00:00, pH missing. No probe installed
+c) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+07/03/2001 02:30:00 - 06:00:00
+07/03/2001 12:30:00
+07/04/2001 03:30:00
+07/04/2001 15:30:00
+07/05/2001 04:00:00
+07/06/2001 04:30:00 - 08:30:00
+07/07/2001 04:30:00
+07/09/2001 04:30:00 - 06:00:00
+07/13/2001 21:30:00 - 23:30:00
+07/14/2001 00:30:00 
+07/14/2001 08:00:00 - 12:00:00
+07/15/2001 01:30:00 - 03:00:00
+07/15/2001 08:00:00 - 09:30:00
+07/22/2001 17:30:00
+07/23/2001 06:30:00 - 07:30:00
+07/31/2001 12:30:00 - 13:00:00
+d) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+07/10/2001	14:00:00	0102
+07/18/2001	20:30:00	0159
+07/22/2001	04:00:00	0101
+07/23/2001	22:00:00	0109
+07/24/2001	13:00:00	0105
+07/24/2001	23:00:00	0101
+07/25/2001	15:30:00	0113
+07/25/2001	16:00:00	0107
+
+August 2001
+OS
+a) 08/10/2001 11:00:00 - 08/23/2001 09:00:00, turbidity recorded many negative 
+values. Calibration error suspected. Data were removed.
+b) 08/24/2001 10:30:00 - 08/31/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 08/01/2001 00:00:00 - 08/09/2001 09:30:00, turbidity recorded many negative 
+values. Calibration error suspected. Data were removed.
+d) On the following dates and times slightly negative depth values were 
+Recorded:  Data were not removed.
+08/16/2001 02:00:00 - 08/16/2001 04:30:00
+08/17/2001 03:30:00 - 08/17/2001 05:30:00
+08/18/2001 04:30:00 - 08/18/2001 06:00:00
+08/19/2001 05:30:00 - 08/19/2001 06:30:00
+08/20/2001 06:00:00 - 08/20/2001 07:00:00
+08/20/2001 16:30:00 - 08/20/2001 17:00:00
+08/21/2001 06:00:00 - 08/21/2001 07:30:00
+08/22/2001 05:30:00 - 08/22/2001 08:00:00
+
+MM
+a) 08/19/2001 16:30:00 - 08/19/2001 18:30:00, pH anomalously low. Depth was 
+zero, so datalogger was measuring pH of the surface water.
+b) 08/24/2001 11:30:00 - 08/31/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 08/30/2001 12:30:00 - 08/31/2001 23:30:00, depth missing. Minimum depth 
+values were too negative for shallow vented sensor.  Could not determine cause. 
+Possible blockage in sensor or vent tube.  Data were removed.
+d) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+08/01/2001 01:30:00 - 06:00:00
+08/01/2001 14:00:00 - 14:30:00
+08/02/2001 02:30:00 - 06:30:00
+08/02/2001 13:00:00 - 13:30:00
+08/03/2001 03:00:00 - 07:00:00
+08/04/2001 03:30:00 - 17:30:00
+08/04/2001 14:30:00
+08/05/2001 04:00:00 - 08:00:00
+08/05/2001 16:00:00 - 17:00:00
+08/06/2001 04:00:00 - 08:30:00
+08/06/2001 15:00:00
+08/06/2001 16:30:00 - 17:30:00
+08/07/2001 04:00:00 - 08:30:00
+08/07/2001 16:00:00 - 18:30:00
+08/08/2001 03:30:00 - 09:00:00
+08/08/2001 16:30:00 - 19:00:00
+08/09/2001 04:00:00 - 09:00:00
+08/10/2001 19:30:00 - 21:30:00
+08/11/2001 05:00:00 - 09:00:00
+08/11/2001 20:00:00 - 23:30:00
+08/12/2001 00:00:00 - 00:30:00
+08/12/2001 06:30:00 - 08:30:00
+08/12/2001 20:30:00 - 23:30:00
+08/13/2001 00:00:00 - 03:30:00
+08/13/2001 09:30:00 - 10:00:00
+08/13/2001 22:00:00 - 23:30:00
+08/14/2001 00:00:00 - 04:00:00
+08/14/2001 23:30:00 - 08/15/2001 05:00:00
+08/15/2001 11:30:00 - 12:00:00
+08/16/2001 01:30:00 - 05:30:00
+08/17/2001 03:00:00 - 04:00:00
+08/17/2001 12:30:00 - 15:00:00
+08/18/2001 04:00:00 - 07:00:00
+08/18/2001 13:00:00 - 16:30:00
+08/19/2001 05:30:00 - 07:00:00
+08/19/2001 14:30:00
+08/20/2001 06:00:00 - 07:30:00
+08/20/2001 15:00:00
+08/21/2001 05:30:00 - 08:00:00
+08/21/2001 16:00:00 - 16:30:00
+08/22/2001 04:30:00 - 08:30:00
+08/22/2001 17:00:00 - 20:00:00
+08/23/2001 04:00:00 - 04:30:00
+08/29/2001 13:00:00
+08/30/2001 12:00:00
+e) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+08/01/2001	16:30:00	1515 
+f) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+08/10/2001 14:30:00
+08/11/2001 14:30:00
+08/11/2001 15:30:00
+08/12/2001 15:00:00 - 16:30:00
+08/13/2001 15:30:00
+08/13/2001 16:30:00 - 18:30:00
+08/14/2001 17:30:00 - 20:30:00
+08/15/2001 01:00:00 - 01:30:00
+08/15/2001 03:00:00 - 04:00:00
+08/15/2001 18:00:00 - 21:30:00
+08/16/2001 01:30:00 - 06:00:00
+08/16/2001 08:00:00
+08/16/2001 13:00:00 - 14:00:00
+08/16/2001 16:30:00 - 23:30:00
+08/17/2001 00:00:00 - 00:30:00
+08/17/2001 02:00:00 - 07:00:00
+08/17/2001 08:30:00
+08/17/2001 09:30:00 - 11:00:00
+08/17/2001 14:30:00
+08/17/2001 15:30:00
+08/17/2001 17:30:00 - 23:30:00
+08/18/2001 01:00:00
+08/18/2001 02:00:00 - 02:30:00
+08/18/2001 04:00:00 - 07:30:00
+08/18/2001 09:30:00 - 10:00:00
+08/18/2001 18:30:00 - 23:30:00
+08/19/2001 00:00:00 - 08:30:00
+08/19/2001 09:30:00 - 12:00:00
+08/19/2001 13:30:00
+08/19/2001 14:30:00
+08/19/2001 17:00:00
+08/19/2001 18:00:00
+08/19/2001 19:30:00 - 23:30:00
+08/20/2001 00:00:00 - 04:00:00
+08/20/2001 05:00:00 - 08:30:00
+08/20/2001 10:00:00 - 13:00:00
+08/20/2001 14:30:00 - 15:00:00
+08/20/2001 16:00:00
+08/20/2001 17:00:00 - 19:30:00
+08/20/2001 20:30:00 - 23:30:00
+08/21/2001 00:00:00 - 03:30:00
+08/21/2001 04:30:00 - 08:30:00
+08/21/2001 10:30:00 - 13:30:00
+08/21/2001 18:00:00
+08/21/2001 19:00:00 - 20:00:00
+08/21/2001 21:30:00 - 23:30:00
+08/22/2001 00:00:00 - 02:30:00
+08/22/2001 05:00:00 - 05:30:00
+08/22/2001 12:30:00 - 13:30:00
+08/23/2001 00:00:00 - 01:00:00
+
+September 2001
+OS
+a) 09/01/2001 00:00:00 - 09/06/2001 15:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+09/23/2001	18:00:00	0097
+
+MM
+a) 09/01/2001 00:00:00 - 09/06/2001 15:00:00, depth missing. Minimum values were 
+too negative for shallow vented level sensor.  Data were removed.
+b) 09/01/2001 00:00:00 - 09/06/2001 15:00:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 09/11/2001 11:30:00 - 09/30/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+d) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+09/12/2001 01:00:00 - 03:30:00
+09/16/2001 04:00:00 - 05:00:00
+09/16/2001 16:00:00 - 16:30:00
+09/17/2001 04:30:00 - 06:00:00
+09/17/2001 16:30:00 - 17:00:00
+09/18/2001 05:00:00 - 06:00:00
+09/18/2001 17:30:00 - 18:00:00
+09/19/2001 05:00:00 - 06:30:00
+09/19/2001 18:00:00 - 19:30:00
+09/20/2001 04:00:00 - 07:00:00
+09/20/2001 18:00:00 - 20:30:00
+09/21/2001 03:30:00 - 07:00:00
+09/21/2001 18:30:00 - 22:00:00
+09/22/2001 04:30:00 - 07:30:00
+09/22/2001 18:30:00 - 23:30:00
+09/23/2001 19:30:00 - 23:30:00
+09/24/2001 00:00:00 - 01:30:00
+e) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+09/17/2001	02:30:00	0175
+09/21/2001	16:00:00	0318
+
+October 2001
+OS
+a) 10/19/2001 17:00:00 - 10/31/2001 23:30:00, depth missing. most values were 
+negative. Calibration error suspected. Data were removed.
+b) 10/19/2001 17:00:00 - 10/31/2001 23:30:00, time values offset by +40 sec. 
+Time values were rounded to nearest 30 min interval.
+c) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+10/03/2001 20:30:00
+10/03/2001 22:00:00
+10/04/2001 10:30:00
+10/04/2001 22:00:00
+10/04/2001 23:00:00
+10/05/2001 11:00:00
+10/08/2001 12:30:00
+10/09/2001 13:30:00
+10/10/2001 15:00:00 - 15:30:00
+10/11/2001 17:30:00
+10/12/2001 06:00:00
+10/12/2001 07:00:00 - 07:30:00
+10/13/2001 07:30:00
+10/14/2001 06:00:00 - 06:30:00
+10/14/2001 08:00:00 - 08:30:00
+10/15/2001 06:00:00 - 06:30:00
+10/15/2001 08:30:00 - 09:00:00
+
+MM
+a) 10/01/2001 00:00:00 - 10/02/2001 14:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 10/03/2001 14:30:00 - 10/15/2001 13:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+c) 10/19/2001 15:30:00 - 10/31/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+d) 10/24/2001 11:30:00, all parameters missing. Sensors were out of water. Data 
+were removed.
+e) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+10/04/2001 03:30:00 - 06:30:00
+10/04/2001 15:00:00
+10/09/2001 22:30:00 - 23:30:00
+10/13/2001 04:00:00
+10/14/2001 03:00:00 - 04:00:00
+10/15/2001 02:30:00 - 04:30:00
+10/19/2001 17:30:00 - 21:00:00
+10/20/2001 03:30:00 - 06:00:00
+10/20/2001 17:30:00 - 22:30:00
+10/21/2001 17:30:00 - 23:30:00
+10/22/2001 00:00:00
+10/22/2001 18:00:00 - 23:30:00
+10/23/2001 00:00:00 - 01:00:00
+10/23/2001 19:00:00 - 23:30:00
+10/24/2001 00:00:00 - 02:00:00
+10/29/2001 00:30:00 - 04:00:00
+10/30/2001 03:00:00 - 04:30:00
+f) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+10/05/2001	19:30:00	0141
+10/07/2001	12:30:00	0824
+10/19/2001	16:00:00	0114
+10/20/2001	15:30:00	0299
+10/21/2001	16:00:00	1906
+g) On the following dates and times slightly negative turbidity values were 
+recorded.  Data were not removed.
+Date	Time	Turbidity
+10/12/2001	07:00:00	-0001
+10/12/2001	08:00:00	-0002
+10/12/2001	19:00:00	-0002
+10/13/2001	03:30:00	-0001
+10/13/2001	08:00:00	-0002
+10/13/2001	20:00:00	-0001
+10/14/2001	03:00:00	-0001
+10/14/2001	03:30:00	-0001
+10/14/2001	05:00:00	-0001
+10/14/2001	08:00:00	-0001
+10/14/2001	08:30:00	-0001
+10/14/2001	20:30:00	-0002
+10/15/2001	09:00:00	-0001
+
+November 2001
+OS
+a) 11/01/2001 00:00:00 - 11/01/2001 15:00:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 11/01/2001 00:00:00 - 11/01/2001 15:00:00, depth missing. Most depth values 
+were negative. Calibration error suspected. Data were removed.
+c) 11/30/2001 16:00:00 - 11/30/2001 23:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+d) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+11/07/2001 20:30:00 - 23:30:00
+11/08/2001 00:00:00
+11/08/2001 22:00:00 - 23:30:00
+11/09/2001 00:00:00 - 00:30:00
+11/09/2001 23:30:00 - 11/10/2001 01:30:00
+11/11/2001 00:30:00 - 02:00:00
+11/12/2001 01:30:00 - 02:00:00
+11/13/2001 02:00:00 - 02:30:00
+11/13/2001 15:30:00 - 16:30:00
+11/14/2001 16:30:00 - 17:00:00
+11/15/2001 17:00:00 - 18:00:00
+11/16/2001 17:30:00 - 19:00:00
+11/17/2001 17:30:00 - 20:00:00
+11/18/2001 17:30:00 - 21:00:00
+11/19/2001 17:30:00 - 22:00:00
+11/20/2001 20:30:00 - 21:00:00
+e) 11/22 through 12/12, minimum water depth is higher than usual during this 
+time,perhaps due to possible sedimentation at the mouth of the slough, however there 
+is no ancillary data to back this up.  
+
+MM
+a) 11/01/2001 00:00:00 - 11/01/2001 14:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 11/24/2001 23:00:00 - 11/27/2001 14:00:00, turbidity missing. Average values 
+well above normal turbidity readings even when taking into consideration the 
+rainfall event which occurred 11/24/01.  Data were removed.
+c) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+11/15/2001 16:30:00
+11/16/2001 02:00:00
+11/16/2001 17:00:00
+11/17/2001 04:30:00
+11/18/2001 04:00:00 - 04:30:00
+d) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+11/14/2001	17:00:00	0337
+11/15/2001	21:30:00	0678
+e) 11/24/01 23:00:00 - 11/27/01 14:00:00, salinity values unusually low.  
+Likely caused by rain event.  Data were not removed.  
+f) Do starts to decline on 11/24/02 23:00:00 and stays at 0.5 mg/L for 12 hours, 
+then slowly recovers. The low DO occurred following a rainfall event. Data were 
+retained. 
+
+December 2001
+OS
+a) 12/01/2001 00:00:00 - 12/18/2001 13:30:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) 11/22 through 12/12, minimum water depth is higher than usual during this 
+time, perhaps due to possible sedimentation at the mouth of the slough, however there 
+is no ancillary data to back this up.  
+c) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+12/26/2001	14:00:00	0126
+
+MM
+a) 12/01/2001 16:00:00 - 12/18/2001 14:00:00, Time values were offset by + 40 
+sec.  Data were corrected to nearest 00:00 or 00:30 minute interval.
+b) On the following dates and times slightly negative depth values were 
+recorded.  Data were not removed.
+12/01/2001 19:30:00
+12/05/2001 22:00:00 - 23:30:00
+12/06/2001 00:00:00
+12/06/2001 20:30:00 - 23:30:00
+12/07/2001 00:00:00 - 00:30:00
+12/07/2001 20:30:00 - 23:30:00
+12/08/2001 00:00:00 - 01:00:00
+12/08/2001 11:30:00
+12/08/2001 20:30:00 - 22:00:00
+12/09/2001 00:00:00 - 01:00:00
+12/12/2001 02:00:00
+12/12/2001 16:30:00 - 17:30:00
+12/12/2001 23:30:00 - 12/13/2001 03:30:00
+12/13/2001 16:00:00 - 18:30:00
+12/14/2001 00:30:00 - 03:30:00
+12/15/2001 02:30:00 - 03:00:00
+12/15/2001 17:00:00 - 17:30:00
+12/15/2001 19:30:00 - 20:00:00
+12/16/2001 02:00:00 - 04:30:00
+12/16/2001 16:00:00 - 16:30:00
+12/16/2001 19:00:00 - 21:30:00
+12/17/2001 02:00:00 - 05:00:00
+12/17/2001 16:00:00 - 16:30:00
+12/18/2001 03:30:00 - 05:00:00
+12/21/2001 20:30:00 - 23:30:00
+12/22/2001 19:30:00 - 23:30:00
+12/23/2001 00:00:00 - 01:30:00
+12/23/2001 12:00:00 - 14:00:00
+12/24/2001 22:00:00 - 23:30:00
+12/25/2001 00:00:00 - 02:00:00
+12/25/2001 14:00:00 - 16:00:00
+12/26/2001 16:00:00
+12/27/2001 01:00:00
+12/27/2001 15:30:00 - 18:00:00
+12/28/2001 16:00:00 - 18:00:00
+12/29/2001 16:30:00 - 19:00:00
+12/30/2001 17:00:00 - 19:30:00
+12/31/2001 02:30:00 - 03:30:00
+12/31/2001 17:30:00 - 20:30:00
+c) The following anomalously high turbidity values were recorded.  A probable 
+cause for these values was not found so data were not removed.
+Date	Time	Turbidity
+12/01/2001	16:00:00	0121
+12/02/2001	07:00:00	0110
+12/02/2001	07:30:00	0107
+12/02/2001	08:00:00	0121
+12/02/2001	08:30:00	0123
+12/02/2001	15:00:00	0109
+12/03/2001	08:00:00	0138
+12/03/2001	08:30:00	0120
+12/03/2001	09:00:00	0260
+12/03/2001	17:00:00	0103
+12/09/2001	15:00:00	0225
+12/11/2001	18:30:00	0101
+12/12/2001	14:00:00	0113
+12/13/2001	13:30:00	0150
+12/14/2001	08:30:00	1502
+12/14/2001	14:30:00	0263
+12/26/2001	14:30:00	0315
+12/27/2001	18:00:00	0128
+
+12. Missing Data:
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.    
+
+
+13. Post deployment information:
+
+np = no probe installed
+nc = no calibration done
+
+OS
+Date		SpCond	DO%		Depth		pH		Turb
+		Std(50)	std(100)	std(0)	std(7) 	std(0)
+03/09/2001	050.22	095.0		0.003		7.01		-4.1
+03/30/2001	049.99	093.2		-1.570	7.01		nc
+04/18/2001	049.90	099.7		0.000		7.05		-4.9
+05/07/2001	050.00	097.8		0.004		np		0.0
+05/30/2001	050.02	102.8		-0.107	np		0.0
+06/26/2001	050.31	097.6		-0.253	np		0.1
+07/11/2001	049.59	100.7		-0.126	6.99		0.1
+07/26/2001	047.74	098.0		-0.009	6.97		0.9
+08/09/2001	049.67	099.9		0.002		7.03		-1.5
+08/23/2001	049.99	099.3		-0.001	7.05		-3.1
+09/06/2001	050.01	097.9		0.002		6.98		-0.1
+10/02/2001	050.20	101.2		0.003		6.99		-0.1
+10/15/2001	049.98	099.6		0.002		7.01		0.0
+11/01/2001	049.99	105.2		-0.789	7.11		-0.9
+11/27/2001	050.55	115.2		0.001		6.99		1.1
+12/18/2001	050.31	101.1		0.001		6.86		-0.3
+01/09/2002	050.15	098.3		-0.001	6.99		0.0
+
+MM
+Date		SpCond	DO%		Depth		pH		Turb
+		Std(50)	std(100)	std(0)	std(7) 	std(0)
+04/18/2001	049.10	138.3		-0.001	7.00		-0.1
+05/07/2001	048.73	107.6		0.000		7.00		-0.5
+05/30/2001	049.97	092.0		0.000		6.99		0.1
+06/26/2001	046.24	190.0		-0.001	6.99		9.2
+07/11/2001	049.65	091.0		0.001		np		0.0
+07/26/2001	049.75	071.0		0.000		np		-0.8
+08/09/2001	048.86	104.0		0.002		7.28		-0.1
+08/23/2001	049.73	096.1		-0.001	7.09		-7.1
+09/06/2001	049.94	102.3		0.002		6.99		0.0
+10/02/2001	049.60	109.0		-0.001	7.02		0.2
+10/15/2001	049.98	096.1		-0.001	7.01		0.1
+11/01/2001	049.88	102.3		0.002		7.02		0.3
+11/27/2001	050.15	105.0		0.000		7.06		0.3
+12/19/2001	050.23	105.0		0.002		7.04		0.3
+01/09/2002	050.02	102.7		0.001		7.01		0.1
+

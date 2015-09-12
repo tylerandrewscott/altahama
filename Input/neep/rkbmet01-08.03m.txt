@@ -1,0 +1,633 @@
+Rookery Bay (RKB) National Estuarine Research Reserve  Meteorological Metadata
+January - July 2003
+Latest Update:  November 2, 2004
+
+
+I. Data Set & Research Descriptors
+
+
+1) Principal investigator(s) & contact persons
+
+Principal Investigator:
+Dr. Michael Shirley, Research Coordinator
+michael.shirley@dep.state.fl.us
+
+Contact Person/Weather Data Manager:
+Patrick O'Donnell, Environmental Specialist
+patrick.odonnell@dep.state.fl.us
+
+Address:
+Rookery Bay NERR
+300 Tower Rd.
+Naples, FL 34113
+Phone:	239-417-6310  
+Fax:	239-417-6315
+
+
+2) Entry verification
+
+a)	Data Input Procedures:
+
+The 15-minute, 1-hour average, and 24-hour meteorological data were downloaded from each instrument 
+on the weather station to a Campbell Scientific CR10X datalogger.  The CDMO Data Logger Program 
+(nerr30.csi) was loaded into the CR10X and controls the sensors and data collection schedule 
+(see 2b of the Entry Verification section for the data collection schedule).  The CR10X then 
+interfaced with the PC208W software supplied by Campbell Scientific. This software was located 
+on a laptop computer to which the data was downloaded approximately every two weeks.  The data 
+was saved as a monthly raw data file (RAW 0100.dat) onto a separate hard drive and backed up onto 
+the Rookery Bay NERR Lab server.  
+
+Once an entire month of data was available, the CDMO Weather Data Management Program (WDMP) is used 
+to convert the files to an Access database.  This program was developed in Visual Basic to interface 
+with the NERR Meteorological Data Collection Schedule (see 2b of the Entry Verification section for 
+the data collection schedule).  The WDMP will automatically input and convert the monthly raw data 
+file into and Access database.  There are three main steps the WDMP performs.  First, it converts 
+the comma delimited monthly raw data file into an Access database.  Secondly, it checks the data 
+against a predetermined set of error criteria (see Appendix G of the CDMO Operations Manual version 
+4 for the CDMO Meteorological Data Collection Error/Anomalous Data Criteria).  Finally, it produces 
+error and summary reports.  Any anomalous data were investigated and are noted below in the Anomalous 
+Data Section.  Any data corrections that were performed are noted in the Data Correction Section below.  
+
+Common errors noted in the monthly error reports were wind speeds below the 0.5 m/s criteria, 
+temperature change of greater than 3 C in a 15 minute period, and precipitation difference of 
+greater than 5mm in 15 minutes.  All errors of these types were double checked with other data 
+that could support such "anomalous" weather changes and noted in the sections that follow.  
+
+Gemteck's EQwin version 5 and the CDMO developed Microsoft Excel EQWinFormat.xls macro now replaces 
+the WDMP as the NERR MET database management program and primary QA/QC program. 
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+b) Data Collection Schedule
+
+For data collection, the CR10X datalogger was programmed to collect data in the 
+following formats:
+
+i)	15-minute data are collected instantaneously for Air Temperature (C), 
+Relative Humidity (%), Barometric Pressure (mb), Wind Speed (m/s), and 
+Wind Direction (degrees).  15-minute Precipitation (mm) and PAR 
+(mmol/m^2) data are totaled from 5-second readings, prior to NERR_4.CSI
+
+ii)	15-minute average, maximum and minimum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb) and Wind Speed (m/s) with NERR_4.CSI.
+
+iii)	Hourly average, maximum, and minimum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb), Wind Speed (m/s), and Wind Direction (degrees).  Hourly 
+totals for PAR (mmol/m^2) and Precipitation (mm) are totals of 15-minute 
+readings.
+
+iv)	Daily average, maximum and minumum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb), Wind Speed (m/s), and Wind Direction (degrees).  Daily totals 
+for PAR (mmol/m^2) and Precipitation (mm) are totals of 15-minute readings.
+
+Data were stored on a Campbell Scientific storage module (SM192 or SM4M), which 
+was retrieved monthly.  The data were downloaded and pre-processed as described in 
+Section 2.  QA/QC of the data was conducted using either the WDMP or EQWin.  
+WDMP error reports and EQWin queries were based on the following anomalous data 
+criteria:
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes (WDMP only)
+- Max and min temp recorded for the day (WDMP only)
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 50 C or less than –30 C (EQWin only)
+
+Relative Humidity:
+-Not changed by more than 25% from the previous 15 minutes (WDMP only)
+-Max and min humidity recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the   
+hour (WDMP only)
+-Sample not greater than 100% or less than 0% (EQWin only)
+
+Pressure:
+- Pressure not greater than 1040 mb or less than 980 mb (WDMP only)
+- Pressure changes greater than 5 mb per hour (WDMP only)
+- Maximum and minimum values recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 1060 mb or less than 900 mb (EQWin only)
+
+Wind Speed:
+- Wind speed not greater than 65 m/s or less than 0.5 m/s (WDMP only)
+-Wind speed not greater than 30 m/s (EQWin only)
+-Wind speed not less than 0.5 m/s for 12 consecutive hours (EQWin only)
+
+Wind Direction:
+- Wind direction not greater than 360 degrees or less than 0 degrees
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month (WDMP only)
+
+Photosynthetically Active Radiation (PAR):
+ -Sample not greater than 5000 mmol/m^2 or less than –0.5 mmol/m^2
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- No duplicate data	
+
+
+3) Research objectives (Campbell Weather Station):
+
+The principal objective is to record long-term meteorological data for Rookery Bay in order 
+to observe any environmental changes or trends over time.  Secondary objectives include using 
+the meteorological data to help document periodic biological and environmental events such as:  
+fish kills, red tides, wildfires, prescribed burns, and hurricanes/tropical storms.  It also 
+supports all research conducted at the reserve including providing valuable ancillary data for 
+the reserve's water quality monitoring program.
+
+
+4) Research methods:
+
+The Campbell Scientific weather station samples every 5 seconds to produce both hourly and 
+daily averages of those measurements of air temperature, relative humidity, barometric pressure, 
+rainfall, wind speed and wind direction.  An instantaneous sample is taken every 15 minutes and 
+that data is stored in array 150 (with the nerr30.csi program).   The data is downloaded at the 
+storage module to a laptop and brought back to the lab for uploading following procedures in 
+Part D. Section 4.5 of the CDMO Operations Manual version 4.  Periodically, sensors on the weather station 
+are inspected for damage or debris.  If any is found, it is repaired and/or cleaned.  The rain 
+gauge tends to collect the most debris and needs to be cleaned out every few days.  Sensors are 
+removed and sent back to Campbell Scientific for calibration at minimum of every two years.  
+There were no other analyses done on the meteorological data at present.  
+
+
+5) Site location and character:
+
+Rookery Bay's weather station is located at our Shell Island Road Laboratory which is adjacent to 
+the mouth of Henderson Creek (where the creek enters Rookery Bay).
+
+Latitude:	26° 01.492' N
+Longitude:	81° 43.895' W
+
+Rookery Bay is located in the Tropical Rainy climatic group of Koppen (1931), i.e. the area below 
+a west-east line extending from Ft. Myers to Melbourne, and where the mean temperature does not 
+fall below 17.7°C (64°F) in the coolest month of the year.  Owing to the influence of the warm-water 
+Florida Current, the seasonal effects from the Gulf of Mexico Loop Current, and its geographical 
+position at 26° N latitude, the average annual temperature in the Rookery Bay  area is about 24°C 
+(75°F).  Winter temperatures range from -1°C (ca. 30°F) to about 26°C (75°F), with cooler days and 
+nights (10-15°C) in the months of January and February.  Warming trends in April and May are frequently 
+modified by blustery winds from the southwest off the Gulf of Mexico, and by late season cold fronts 
+with northerly breezes.  Summer high temperatures approach 35°C (95°F) or higher on occasion (Thomas 1974).
+
+Rookery Bay and vicinity have an annual rainfall of 50-55 inches (127-140cm) per year (Thomas 1974).  
+The heaviest average monthly rainfall, 8-9 inches per month, occurs from June through September.  
+Lowest average rainfall, 1-2 inches per month, occurs from November through March.  Approximately 
+66% of the total yearly rainfall occurs between the months of June and October.  Southwest Florida 
+lies in the seasonal tropical weather belt that channels hurricanes toward or along the coast.  
+Historically, the area is fortunate in that few severe hurricanes have come ashore.
+
+The weather station is located at Rookery Bay's lab facilities with the Wind Sentry, Temperature 
+and Humidity sensor, Barometric Sensor and LiCor sensor all located on an approximately 6m aluminum 
+tower following the descriptions outlined in the CDMO Manual Version 4.  The Tipping Bucket Rain gauge 
+is located to the east away from the tower on the roof of the lab building.  The sensors were wired 
+to the CR10X following the protocol in the CDMO Manual version 4.  
+
+
+6) Data collection period:
+
+Weather data have been collected at the Henderson Creek site since 1996.  The current SWMP weather 
+station has been fully operational since September 19, 2001. 2003 data were collected from January 1, 
+2003 through July 2003 at which time the weather station was forced to change locations.  
+
+
+7) Distribution:
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for the NERRS System-wide 
+Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the NERRS System-wide 
+Monitoring Program data.  The PI retains the right to be fully credited for having collected and 
+processed the data.  Following academic courtesy standards, the PI and NERR site where the data 
+were collected will be contacted and fully acknowledged in any subsequent publications in which 
+any part of the data are used.  Manuscripts resulting from the NOAA/OCRM supported research that 
+are produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine Reserves Division, 
+Office of Ocean and Coastal Resource Management, National Ocean Service, National Oceanic and 
+Atmospheric Administration.  The data set enclosed within this package/transmission is only as 
+good as the quality assurance/quality control procedures outlined by the enclosed metadata 
+reporting statement.  The user bears all responsibility for its subsequent use/misuse in any 
+further analyses or comparisons.  The Federal government does not assume liability to the Recipient 
+or third persons, nor will the Federal government reimburse or indemnify the Recipient for its 
+liability due to any losses resulting in any way from the use of this data.  NERR weather data 
+and metadata can be obtained from the Research Coordinator at the individual NERR site (please 
+see Section 1 Principal investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general information link on the 
+CDMO home page) and online at the CDMO home page http://cdmo.baruch.sc.edu.  Data are available 
+in text format and Access data tables.
+
+
+8) Associated researchers and projects:
+
+The NERR Water Quality Monitoring Project also has a station located on Henderson Creek.  The 
+principal objective of this study is to record long-term water quality data for Rookery Bay 
+in order to observe any physical changes or trends in water quality over time.  Four sites were 
+chosen, one reference nearly pristine location, Fakahatchee Bay, and three other sites representing 
+various degrees of watershed hydrologic alteration.  Relative to historic freshwater flows into 
+these estuaries, Faka Union Bay receives far greater freshwater, Henderson creek receives less 
+total freshwater but increased freshwater during the late rainy season and Blackwater River receives 
+less total freshwater.  Measurements are taken every 30 minutes at the Henderson Creek, Blackwater 
+River, Faka Union Bay and Fakahatchee Bay sites.  The loggers are deployed for two week intervals 
+before exchanged with a clean/calibrated instrument.
+
+A long term fish survey is also done in Fakahatchee Bay, Faka Union Bay, Pumpkin Bay and the 
+Henderson Creek site monthly.  Species present, species number and standard lengths are recorded 
+at four randomly selected sites surrounding the water quality stations.  Benthic macro-invertebrates 
+are collected near oyster bars using Hester-Dendy collection devices at the four water quality 
+stations also.
+ 
+
+II. Physical Structure Descriptors
+
+
+9) Sensor specifications, operating range, accuracy, date of last calibration:
+
+LiCor Quantum Sensor 
+Model # LI190SZ
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  12-13-00
+
+Wind Sentry
+Model # 05103
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: 01-30-01
+
+Temperature and Relative Humidity
+Model #:  HMP35C
+Operating Temperature:  -40-+60°C
+Temperature Measurement Range: -40-+60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3% (90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration:  12-18-00
+
+Barometric Sensor
+Model # CS-105
+Operating Range:	 Pressure – 600-1060 mb
+Temperature:  -40-+60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20-60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  01-98
+
+Tipping Bucket Rain Gauge
+Model #:  TR-525
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: 12-12-00
+
+
+10) Coded variable indicator and variable code definitions:
+
+Sampling station:	Sampling site code:	Station code:
+Henderson Creek		HC			rkbhcmet 
+
+
+11) Data anomalies/Data corrections:
+
+January 2003
+
+The following data were flagged by the Weather Data Management Program.  These are actual events 
+due to localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+150	8	8	1000	Air temp difference from 8 (8) 1000 (11.463) to 8 (8) 1015 (15.095) 
+is greater than 3.0 degrees C
+
+150	21	21	1000	Air temp difference from 21 (21) 1000 (13.057) to 21 (21) 1015 (16.091) 
+is greater than 3.0 degrees C
+
+102	1	1	2000	Wind speed is less than 0.5 m/s from 1 (1) 2000 to 2 ( 2)  900
+
+ALL Licor data was deleted due to an incorrect multiplier 
+
+
+February 2003
+
+The following data were flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+150	1	32	1000	Air temp difference from  1 ( 32) 1000 ( 17.672) to  1 ( 32) 1015 ( 21.093) 
+is greater than 3.0 degrees C
+151	22	53	2145	Precip difference from  22 ( 53) 2145 ( 1.27) to  22 ( 53) 2200 ( 8.382) 
+is greater than 5 mm
+	151	22	53	2200	Precip difference from  22 ( 53) 2200 ( 8.382) to  22 ( 53) 2215 
+( 1.016) is greater than 5 mm
+
+ALL Licor data was deleted due to an incorrect multiplier
+
+
+March 2003
+
+The following data were  flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+	150	8	67	930	Air temp difference from  8 ( 67) 930 ( 24.943) to  8 ( 67) 945 
+( 28.035) is greater than 3.0 degrees C
+	150	17	76	1845	Air temp difference from  17 ( 76) 1845 ( 24.982) to  17 ( 76) 
+1900 ( 21.705) is greater than 3.0 degrees C
+	150	30	89	1400	Air temp difference from  30 ( 89) 1400 ( 24.943) to  30 ( 89) 
+1415 ( 21.908) is greater than 3.0 degrees C
+	151	17	76	245	Precip difference from  17 ( 76) 245 ( 7.366) to  17 ( 76) 300 
+( 1.778) is greater than 5 mm
+	151	30	89	1415	Precip difference from  30 ( 89) 1415 ( 7.366) to  30 ( 89) 1430 
+( .254) is greater than 5 mm
+
+ALL Licor data were deleted through March 7, 2003 at 1145 due to an incorrect multiplier which was 
+corrected on this date. Because the nerr30.csi was reloaded to the CR10X all 5 second data that generates
+hourly and daily averages for the data were lost from the storage module.  Therefore, all hourly data 
+on March 7 at 1200 and all daily data on March 7 2400 were deleted.  
+
+101	7	66	1200		Technician changed 101 Array Hourly Averages at 1200 
+102	7	66	1200		Technician changed 102 Array Hourly Averages at 1200
+241	7	66	2400		Technician changed 241 Array Daily Averages at 2400 
+241	7	66	2400		Technician changed 242 Array Daily Averages at 2400
+243	7	66	2400		Technician changed 243 Array Daily Max at 2400 
+244	7	66	2400		Technician changed 244 Array Daily Min at 2400
+
+
+April 2003
+
+The following data were  flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+	150	26	116	630	Air temp difference from  26 ( 116) 630 ( 24.266) to  26 ( 116) 
+645 ( 21.082) is greater than 3.0 degrees C
+	151	19	109	1800	Precip difference from  19 ( 109) 1800 ( .508) to  19 ( 109) 1815 
+( 5.842) is greater than 5 mm
+	151	19	109	1815	Precip difference from  19 ( 109) 1815 ( 5.842) to  19 ( 109) 1830 
+( .254) is greater than 5 mm
+	151	26	116	730	Precip difference from  26 ( 116) 730 ( 2.032) to  26 ( 116) 745 
+( 12.7) is greater than 5 mm
+	151	26	116	745	Precip difference from  26 ( 116) 745 ( 12.7) to  26 ( 116) 800 
+( 4.826) is greater than 5 mm
+	151	26	116	945	Precip difference from  26 ( 116) 945 ( 12.192) 
+to  26 ( 116) 1000 ( 4.318) is greater than 5 mm
+
+
+May 2003
+
+The following data were  flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+	150	15	135	1030	Air temp difference from  15 ( 135) 1030 ( 28.58) to  15 ( 135) 
+1045 ( 24.379) is greater than 3.0 degrees C
+	150	17	137	1815	Air temp difference from  17 ( 137) 1815 ( 27.881) to  17 ( 137) 
+1830 ( 22.147) is greater than 3.0 degrees C
+	150	19	139	1500	Air temp difference from  19 ( 139) 1500 ( 30.614) to  19 ( 139) 
+1515 ( 27.212) is greater than 3.0 degrees C
+	150	19	139	1815	Air temp difference from  19 ( 139) 1815 ( 28.651) to  19 ( 139) 
+1830 ( 25.463) is greater than 3.0 degrees C
+	150	27	147	1515	Air temp difference from  27 ( 147) 1515 ( 29.96) to  27 ( 147) 
+1530 ( 25.793) is greater than 3.0 degrees C
+	151	14	134	1800	Precip difference from  14 ( 134) 1800 ( 1.524) to  14 ( 134) 
+1815 ( 7.112) is greater than 5 mm
+	151	17	137	1815	Precip difference from  17 ( 137) 1815 ( .762) to  17 ( 137) 
+1830 ( 8.382) is greater than 5 mm
+	151	17	137	1900	Precip difference from  17 ( 137) 1900 ( 9.144) to  17 ( 137) 
+1915 ( 1.778) is greater than 5 mm
+	151	29	149	215	Precip difference from  29 ( 149) 215 ( .762) to  29 ( 149) 
+230 ( 7.112) is greater than 5 mm
+	151	29	149	230	Precip difference from  29 ( 149) 230 ( 7.112) to  29 ( 149) 
+245 ( .254) is greater than 5 mm
+
+
+June 2003
+
+The following data were  flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+	150	6	157	1915	Air temp difference from  6 ( 157) 1915 ( 27.252) to  6 ( 157) 
+1930 ( 23.574) is greater than 3.0 degrees C
+	150	19	170	945	Air temp difference from  19 ( 170) 945 ( 26.582) to  19 ( 170) 
+1000 ( 23.338) is greater than 3.0 degrees C
+	150	27	178	1115	Air temp difference from  27 ( 178) 1115 ( 31.5) to  27 ( 178) 
+1130 ( 25.516) is greater than 3.0 degrees C
+	151	4	155	630	Precip difference from  4 ( 155) 630 ( .254) to  4 ( 155) 645 
+( 5.588) is greater than 5 mm
+	151	4	155	700	Precip difference from  4 ( 155) 700 ( 5.842) to  4 ( 155) 715 
+( .254) is greater than 5 mm
+	151	6	157	1915	Precip difference from  6 ( 157) 1915 ( 3.81) to  6 ( 157) 1930 
+( 13.208) is greater than 5 mm
+	151	6	157	1930	Precip difference from  6 ( 157) 1930 ( 13.208) to  6 ( 157) 1945 
+( 3.302) is greater than 5 mm
+	151	13	164	1845	Precip difference from  13 ( 164) 1845 ( 17.78) to  13 ( 164) 1900 
+( 6.35) is greater than 5 mm
+	151	13	164	1900	Precip difference from  13 ( 164) 1900 ( 6.35) to  13 ( 164) 1915 
+( .254) is greater than 5 mm
+	151	19	170	1000	Precip difference from  19 ( 170) 1000 ( 10.668) to  19 ( 170) 1015 
+( .508) is greater than 5 mm
+	151	21	172	200	Precip difference from  21 ( 172) 200 ( .508) to  21 ( 172) 215 
+( 6.858) is greater than 5 mm
+	151	21	172	1915	Precip difference from  21 ( 172) 1915 ( 1.778) to  21 ( 172) 1930 
+( 8.89) is greater than 5 mm
+	151	21	172	1930	Precip difference from  21 ( 172) 1930 ( 8.89) to  21 ( 172) 1945 
+( .254) is greater than 5 mm
+	151	21	172	2030	Precip difference from  21 ( 172) 2030 ( 2.032) to  21 ( 172) 2045 
+( 8.89) is greater than 5 mm
+	151	21	172	2045	Precip difference from  21 ( 172) 2045 ( 8.89) to  21 ( 172) 2100 
+( 1.27) is greater than 5 mm
+	151	22	173	1600	Precip difference from  22 ( 173) 1600 ( 1.016) to  22 ( 173) 1615 
+( 14.986) is greater than 5 mm
+	151	22	173	1615	Precip difference from  22 ( 173) 1615 ( 14.986) to  22 ( 173) 1630 
+( 8.636) is greater than 5 mm
+	151	22	173	1630	Precip difference from  22 ( 173) 1630 ( 8.636) to  22 ( 173) 1645 
+( 1.016) is greater than 5 mm
+	151	24	175	145	Precip difference from  24 ( 175) 145 ( 1.27) to  24 ( 175) 200 
+( 8.636) is greater than 5 mm
+	151	24	175	200	Precip difference from  24 ( 175) 200 ( 8.636) to  24 ( 175) 215 
+( .254) is greater than 5 mm
+
+
+July 2003
+
+The following data were  flagged by Weather Data Management Program.  These are actual events due to 
+localized weather patterns or thunderstorm events:
+
+Array ID	Calendar Day	Julian Date	Time	Error Message
+	150	4	185	1215	Air temp difference from  4 ( 185) 1215 ( 31.124) to  4 ( 185) 
+1230 ( 27.768) is greater than 3.0 degrees C
+	150	6	187	1330	Air temp difference from  6 ( 187) 1330 ( 31.108) to  6 ( 187) 
+1345 ( 28.107) is greater than 3.0 degrees C
+	150	7	188	1430	Air temp difference from  7 ( 188) 1430 ( 32.478) to  7 ( 188) 
+1445 ( 27.784) is greater than 3.0 degrees C
+	150	11	192	1845	Air temp difference from  11 ( 192) 1845 ( 27.558) to  11 ( 192) 
+1900 ( 24.315) is greater than 3.0 degrees C
+	150	12	193	1615	Air temp difference from  12 ( 193) 1615 ( 30.476) to  12 ( 193) 
+1630 ( 25.726) is greater than 3.0 degrees C
+	150	13	194	1930	Air temp difference from  13 ( 194) 1930 ( 28.565) to  13 ( 194) 
+1945 ( 24.969) is greater than 3.0 degrees C
+	150	18	199	1845	Air temp difference from  18 ( 199) 1845 ( 30.721) to  18 ( 199) 
+1900 ( 26.152) is greater than 3.0 degrees C
+	150	25	206	1700	Air temp difference from  25 ( 206) 1700 ( 30.751) to  25 ( 206)
+ 1715 ( 27.502) is greater than 3.0 degrees C
+	150	25	206	1715	Air temp difference from  25 ( 206) 1715 ( 27.502) to  25 ( 206)
+ 1730 ( 22.982) is greater than 3.0 degrees C
+	150	28	209	1800	Air temp difference from  28 ( 209) 1800 ( 31.705) to  28 ( 209)
+ 1815 ( 27.614) is greater than 3.0 degrees C
+	150	30	211	945	Air temp difference from  30 ( 211) 945 ( 32.772) to  30 ( 211) 
+1000 ( 29.766) is greater than 3.0 degrees C
+	150	30	211	1515	Air temp difference from  30 ( 211) 1515 ( 33.234) to  30 ( 211) 
+1530 ( 29.232) is greater than 3.0 degrees C
+	150	31	212	1915	Air temp difference from  31 ( 212) 1915 ( 30.829) to  31 ( 212) 
+1930 ( 27.433) is greater than 3.0 degrees C
+	151	23	204	1830	Precip difference from  23 ( 204) 1830 ( .508) to  23 ( 204) 1845 
+( 8.128) is greater than 5 mm
+	151	23	204	1845	Precip difference from  23 ( 204) 1845 ( 8.128) to  23 ( 204) 1900 
+( .508) is greater than 5 mm
+	151	31	212	1945	Precip difference from  31 ( 212) 1945 ( 2.794) to  31 ( 212) 2000 
+( 9.906) is greater than 5 mm
+	151	31	212	2000	Precip difference from  31 ( 212) 2000 ( 9.906) to  31 ( 212) 2015 
+( 1.27) is greater than 5 mm
+
+
+August 2003 – December 2003
+
+No data recorded due to forced change in weather station location.  New tower not installed at new location.
+
+
+12) Missing Data:
+
+January 2003 – July 2003
+
+No missing data
+
+August 2003 – December 2003
+
+No data were recorded due to forced change in weather station location.  New tower not installed at new 
+location.
+
+
+13) Other remarks:
+
+Daily Rainfall Totals (in mm) for:
+	
+Jan 2003
+	1	10.922
+	2	8.890
+	3	4.318
+	23	.254
+
+	Monthly Total	24.4
+
+
+Feb 2003
+	16	6.350
+	17	6.604
+	22	13.462
+	23	.508
+
+	Monthly Total	26.9
+
+Mar 2003
+	16	5.842
+	17	25.400
+	23	5.334
+	24	3.048
+	27	3.048
+	30	7.874
+
+	Monthly Total	50.5
+
+Apr 2003
+
+	9	1.524
+	11	.254
+	15	4.572
+	19	22.352
+	26	79.502
+	30	25.146
+
+	Monthly Total	133.3
+
+May 2003
+	8	.508
+	9	.254
+	14	12.700
+	15	7.112
+	17	29.210
+	19	1.016
+	23	7.620
+	27	20.828
+	28	1.270
+	29	11.430
+
+	Monthly Total	91.9
+
+Jun 2003
+	1	8.636
+	3	.254
+	4	12.700
+	5	2.032
+	6	20.828
+	9	1.778
+	10	2.032
+	11	1.778
+	12	.254
+	13	24.638
+	14	1.524
+	16	3.048
+	17	12.700
+	18	1.778
+	19	16.510
+	21	46.482
+	22	29.972
+	23	1.524
+	24	18.796
+	27	15.494
+	28	9.144
+
+	Monthly Total	231.9
+
+Jul 2003
+	1	.254
+	2	.508
+	4	.762
+	5	3.302
+	6	.762
+	7	6.096
+	8	1.778
+	11	3.302
+	12	4.572
+	13	4.318
+	14	1.524
+	16	2.540
+	17	3.048
+	18	.254
+	22	8.128
+	23	10.160
+	25	13.462
+	26	.254
+	27	.254
+	28	2.032
+	31	13.970
+
+	Monthly Total	81.3
+
+

@@ -1,0 +1,1703 @@
+Sapelo Island (SAP) NERR Water Quality Metadata
+January-December 2003 
+Latest update: May 31, 2004
+
+1. Principal investigator & contact persons:
+
+			
+Georgia Department of Natural Resources
+P.O. Box 15
+Sapelo Island, GA 31327
+(912) 485-2296
+
+Dorset Hurley, Research Coordinator 
+E-mail: dhurley@darientel.net  (912) 485-2251		
+Jane Garbisch, Reserve Technician	
+E-mail: duplin@mac.com		
+
+
+2. Entry Verification:
+
+	The data are reviewed using the YSI computer program EcoWatch included with 
+the YSI 6000/6600 data logger.  After the file is uploaded from the data logger, 
+EcoWatch is used to plot the data and perform basic statistical analyses (i.e., 
+min., max., mean, std. dev.) The information obtained from this is used during 
+file review to detect any gross outliers such as data taken when the data logger 
+was removed from the water or those caused by instrument failure.  The data are 
+imported into a Microsoft Excel file that contains the current month's 
+cumulative recordings.  When a complete month of data has been recorded the file 
+is ready for review.  The data review includes several steps.  The first step is 
+to format the data using the Excel macros provided by CDMO. The CDMO macros will 
+allow the user to automatically format column widths to the correct number of 
+decimal places based on YSI sensor specifications.  It also allows the user to 
+QA/QC each data logger generated file for missing data points, fill all cells 
+that do not contain data with periods, and find all data points that fall 
+outside the range of what the data logger is designed to measure (i.e. 
+outliers).  The CDMO import.xls macro will allow PC users with 30-minute data to 
+automatically create a monthly Excel file from a two-week deployment and insert 
+periods for missing data.  In addition, in November 1999 a graphing capability 
+was added to this macro allowing users to produce single parameter and missing 
+data point graphs on a monthly basis.  Secondly, the Excel macro is used to 
+determine if there are any dates and times that data was not recorded due to 
+maintenance, battery failure, or other causes.  Missing dates and times are 
+inserted into the file and a period is inserted into the cells where data would 
+normally be. Periods were later removed for data dissemination purposes and left 
+blank. The reason for the missing data are recorded in this metadata 
+document. 
+
+	Data that was outside the "normal" range of water quality for a particular 
+site is investigated for validity based on weather data, field observations, QC 
+checks, PC6000 printouts, and instrument diagnostics.  If the data are 
+rejected from the file a period is inserted to the cell(s) and an explanation 
+for the missing dates and times are recorded in the metadata document. The 
+completed metadata form is then submitted with the data file to the CDMO.  Jane 
+Garbisch was responsible for all 2003 data collection and management.  
+
+	Upon submission to the CDMO, periods were removed for data dissemination 
+purposes and left blank.  
+
+
+3. Research Objectives:
+Hydrological studies (Ragotskie and Bryson, 1955: Imberger et al., 1983) have 
+shown that there are three tidal excursions along the length of the Duplin 
+River, resulting in three distinct water masses.  The two monitoring sites in 
+the Duplin River, called the Lower Duplin site and the Hunt Dock site, are 
+located within the lower and upper water masses, respectively.  Water 
+passing the Lower Duplin site during flood tide has come from Doboy Sound, which 
+receives input from the Altamaha River via the Intra-Coastal Waterway and from 
+the Atlantic Ocean.  The water in the lower water mass is pushed further up the 
+Duplin or up smaller tidal creeks and some is pushed onto the marsh surface by 
+the flood tide and recedes into the main channel during ebb tide.  The water in 
+the upper water mass, which passes the Hunt Camp station, is pushed up small 
+creek channels and onto the marsh at each high tide.  Thus the two stations 
+monitor conditions in two hydrological separate water masses, one of which is 
+heavily influenced by exchanges with Doboy Sound and the other which is 
+influenced by its twice-daily contact with the marsh surface.  
+	
+Sapelo Island is only accessible by passenger ferry.  Due to its 
+isolation, the salt marsh and tidal waters of the SAP NERR show relatively 
+little evidence of human impact.  Thus the Marsh Landing dock, where the Lower 
+Duplin site is located, the primary access point for the approximately 200-300 
+residents, commuters and daily visitors plus barge off loading was chosen as the 
+most directly impacted site.  The Lower Duplin site is also readily accessible 
+and centrally located within the SAP NERR.  The University of Georgia Marine 
+Institute has used this as a monitoring site for years and SAP NERR continues to 
+do so.  The Hunt Dock site was selected in July 1999 for monitoring.  It is a 
+dock only used for transporting hunters during the fall season.  It is further 
+up the Duplin, where the primary usage of the river is for pleasure boating and 
+crabbing.  Therefore it is considered the least impacted site.  The University 
+of Georgia-Athens continues to monitor further up the Duplin and the Flume Dock 
+site. The Flume Dock site is further up the river on the other side of Moses 
+Hammock.  It has the same site characteristics of the Hunt dock site and has 
+been a monitoring site for many years.  The SAP NERR has assumed the 
+responsibility of this site to maintain a continuous data set that spans many 
+years.
+
+
+4.   Research Methods:
+
+	The SAP NERR Water Quality Monitoring began in October of 1999, at the 
+Marsh Landing Dock on the lower Duplin River.  At that time we were only 
+performing long term water quality monitoring and not a specific experiment.  
+Prior to April 15, 1999 the University of Georgia-Athens Marine Institute 
+(UGAMI) completed sampling. When SAP NERR took over the NERR monitoring from the 
+University of GA, a second site was set up at the Marsh Landing site to be the 
+NERR monitoring station.  In order to lesson the confusion between the 2 sites, 
+the SAP NERR site is referred to as the Lower Duplin site (LD) and is monitored 
+at a fixed depth from the bottom (0.5m).  In June 2002, the reserve returned to 
+including the University's monitoring sites. These sites are at a fixed depth 
+just below the surface.  The sites include the Marsh Landing site, (ML) and the 
+Flume Dock (FD). They are both hung by stainless steel chains from floating 
+docks at a fixed depth, approximately 1.5 m. The Hunt Dock (HD) site is just 
+south of the Flume Dock site and also measures at 0.5m above the surface bottom. 
+Because the ML and FD sites are surface deployments the amount of fouling is 
+much worse when compared to the LD and HD sites.  In an effort to improve the 
+data, the YSI EDS sondes are used exclusively at these sites and the 6000 series 
+and 6600 series sondes are used at the LD and HD sites.  The EDS sondes reduce 
+some of the fouling, but there is still considerable deterioration of probe 
+sensitivity during deployment. 
+
+	Before each YSI PC6000 data logger is deployed, calibration and 
+maintenance is performed following the manufacturer's instructions. Calibration 
+standards are only required for pH, conductivity, and turbidity, all other 
+parameters are done as described in the manual.  Buffer solutions for 2-point 
+calibration (pH 7 and 10) are purchased from a scientific supply house.  The 
+conductivity standard is made using a 0.2 M solution of KCl (24.82mS/cm = 14.92 
+g/L) or from serial dilution of a certified conductivity standard.  The 
+turbidity calibration uses distilled water made by the University of Georgia-
+Athens Marine Institute and a purchased 100 NTU certified standard.  The 
+dissolved oxygen membranes are replaced before deployment and are allowed to sit 
+at least 24 hours prior to deployment.  Calibration is then verified by running 
+a standard as a sample after each calibration. 
+
+	When deployed, the weather conditions and tidal stage are recorded in the 
+field observation log. The data logger is placed inside a length of PVC pipe 
+attached to the dock.  The Lower Duplin data logger is attached to the north 
+side of a non-floating dock by a steel cable and run down a PVC pipe to rest 
+0.5m above the surface bottom.  The Hunt Dock data logger is attached to the 
+south side of a fixed dock by steel cable and run down a PVC pipe to take 
+measurements 0.5m above the surface bottom. Because of the large tidal range, 
+water is continually flushed through the PVC pipes, thus eliminating the problem 
+of creating a stagnate column of water with in the pipe with data logger. Every 
+30 minutes during the sampling period measurements are taken for temperature, 
+specific conductance, salinity, pH, dissolved oxygen concentration, percent 
+saturation, depth and turbidity.
+	 
+	At the end of the sample period the data logger is retrieved and 
+immediately replaced by another calibrated data logger.  The data logger is then 
+taken to the lab and runs QA/QC standards for pH, and conductivity, and 
+dissolved oxygen, the data are uploaded, and the sonde is cleaned.  data are 
+removed if the post calibration standards fail or if technical problems are 
+noted.  All data removed is noted in the metadata.
+
+
+5.  Site Location and character:
+	
+	Both the Marsh Landing (ML) and Lower Duplin (LD) monitoring sites (31 deg 
+25' 4" N, 81 deg 17' 46" W) are located on the Marsh Landing Dock in the Duplin 
+River on Sapelo Island and consists of a bottom muddy habitat.  Water passing 
+the dock during flood tide originates from the Doboy Sound.  The Doboy receives 
+input from the Atlantic Ocean, and the Altamaha River via the Intra-Coastal 
+Waterway. The water is pushed up the river or up smaller tidal creeks and some 
+is pushed onto the marsh surface by the flood tide and recedes into the main 
+channel during ebb tide. The Marsh Landing dock is used as the main dock to the 
+island where the ferry makes several daily runs, with several small boats that 
+are docked there.  The surrounding area vegetation is dominated by salt marsh 
+with Spartina being the predominate flora. Tidal range maximum for both sampling 
+sites is 14 feet and the salinity range is 5-35 ppt. The depth at these sampling 
+stations ranges from 1.5 meters to 6.0 meters depending on tide. 
+
+	The Hunt Dock monitoring site (31 deg 28' 43", 81 deg 16' 23" W) is 
+located on the Duplin River, off of Moses Hammock, which is separated by Sapelo 
+Island by a small tidal channel.  The primary runoff at the site is from tidal 
+creeks flowing through Spartina marsh and through the mud.  Bottom habitat at 
+this site includes soft mud and some oyster bed building along the shoreline 
+with a tidal range maximum of 14 feet and a salinity range of 5-35 ppt. There is 
+little human traffic this far up the Duplin and it is north of the people living 
+on Sapelo. During the fall, the Hunt dock and Moses Hammock are the camping and 
+docking site for deer hunters traveling to the island.  These are controlled 
+hunts and dates are available from the SAP NERR office if needed.  The Flume 
+Dock site is located further up the Duplin River, around Moses Hammock. Maximum 
+tidal range is 14 feet and salinity ranges 5-35 ppt. The maximum depth at the 
+Hunt Dock site is 4.27 meters.  
+
+	The Flume Dock site (31 deg 28' 58" N, 81 deg 16' 3" W) has a sonde 
+connected to a floating dock.  They hang by stainless steel chain at a fixed 
+depth approximately one meter below the surface of the water. Bottom habitat at 
+this site includes soft mud and some oyster bed building along the shoreline.  
+These sites were used since 1986 by the UGA Marine Institute. In June of 2002, 
+the data collection was consolidated by the SAP NERR and the University.  
+Because of the fixed placement of the sondes at the water surface the fouling of 
+the probes is a continuous problem. The data will reflect this problem. Maximum 
+tidal range is 14 feet and salinity ranges 5-35 ppt. The maximum depth at the 
+Flume Dock site is 4.27 meters.  
+
+
+	There are no current studies on pollutants in this area. Sapelo Island is 
+typically considered a pristine environment, with the only pollutants nearby 
+being contributed by the ferry dock and ferry parking lot.
+
+
+6. Data collection period:  (listed by each deployment)
+Deployment dates and times:
+
+Flume dock
+12/17/02 1200 - 
+1/7/03 1100-2/5/03 1330
+2/5/03 1400-3/7/03 0930
+3/10/03 1500 - 4/6/03 1130
+4/21/03 1500- 5/4/03 1600
+5/4/03 1700- 6/1/03 0730
+6/1/03 0800 - 6/11/03 1530
+6/11/03 1600 - 6/30/03 1100
+6/30/03 1130 - 7/18/03 1500
+7/18/03 1530 - 8/4//03 1330
+8/4/03 1400 - 9/1/03 1530
+9/1/03 sonde failure
+9/18/03 1100- 10/15/03 1530
+10/15/03 1600 - 10/25/03 1030
+10/25/03 1100 - 11/6/03 1530
+11/6/03 1730 - 11/29/03 0830
+11/29/03 0900- 12/24/03 1530
+12/24/03 1600 -1/10/04 1000
+
+Hunt dock
+1/7/03 1130 - 2/6/03 1000
+2/6/03 1030 - 3/8/03 1000
+3/11/03 1000 - 4/6/03 1130
+4/6/ times missing, computer failure
+4/21/03 1500 - 5/13/03 1400
+5/13/03 1430 6/11/03 1530
+6/11/03 1600 - 6/30/03 1100
+6/30/03 1130 8/4/03 1330
+8/4/03 1400 - 9/1/03 1500
+9/1/03 1530 - 10/8/03 1530
+10/8/03 1600 - 11/6/03 0900
+11/6/03 1730 - 11/28/03 1500
+11/28/03 1530 - 12/24/03 1330
+12/24/03 1730 - 1/9/04 1130
+
+lower duplin
+12/23/02 1030 - 1/13/03 1600
+1/13/03 1630 - 1/27/03 1600
+1/27/03 1630 - 2/26/03 1600
+2/27/03 1500 - 3/27/03 1530
+4/1/03 1630 - 5/4/03 1400
+5/4/03 1500 - 5/19/03 1330
+5/19/03 11400 - 6/4/03 1630
+6/4/03 1700 - 6/23/03 1430
+6/23/03 1500- 7/28/03 1030
+7/28/03 1100 -8/27/03 1000
+9/1/03 1230 - 10/8/03 1600
+10/8/03 1630 - 11/6/03 1500
+11/6/03 1830 - 11/26/03 1530
+11/26/03 1700 - 12/25/03 1030
+12/25/03 1030 -1/04
+
+marsh landing
+12/23/02 1100 – 01/11/03 1730
+1/16/03 1030 - 1/27/03 1600
+1/27/03 1630 - 2/26/03 1530
+2/26/03 1600 - 3/27/03 1530
+3/27/03 1600 - 4/17/03 1430
+4/17/03 1500 - 5/2/03 1530
+5/2/03 1600 - 5/19/03 1330
+5/19/03 1430 - 6/4/03 1630
+6/4/03 1700 - 6/23/03 1430
+6/23/03 1500 - 7/10/03 1130
+7/10/03 1200- 7/28/03 1000 unsure of time discrepancy between this and the 
+deployment above, used the data starting in this file at 1200
+7/28/03  sonde failure no data retrieved
+8/18/03 1000-9/1/03 1200
+9/18/03 1130 - 10/8/03 1600
+10/8/03 1630 -10/20/03 0900
+10/20/03 1000 - 11/6/03 1500
+11/6/03 1530 - 11/26/03 1500
+11/26/03 1530 -12/25/03 1000
+12/25/03 1100 - 1/04
+
+
+7. Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-Wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-Wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, national Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for it 
+subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient of third persons, not will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 2.2-1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.   
+ 
+
+8.  Associated researchers and projects:
+
+Sapelo Island has a long history of maintaining research.  In 1953, the 
+University of Georgia Marine Institute (UGAMI) was formed and the island became 
+a working laboratory for many.  The research continues today with SAP NERR and 
+UGAMI creating a unique partnership with much of the current research being done 
+facilitated by SAP NERR and UGAMI together.  Given UGAMI's long history on 
+Sapelo, a bibliographic list of over 800 articles of current and previous 
+research can be found on the UGAMI website.  (http://www.uga.edu/ugami). 
+
+
+9.  Variable sequence, range of measurements, units, resolution, and 
+accuracy:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column. 
+
+
+10.  Coded variable indicator and variable code definitions:
+LD = Lower Duplin 
+HD = Hunt Dock
+FD = Flume Dock
+ML = Marsh Landing
+
+
+11. Data Anomalies
+
+Flume dock 
+Due to the nature of the site's deployment heavy fouling occurs, 
+often causing a steady deterioration of the data.  Some of the data are removed 
+and some retained.  It is exceedingly difficult to determine the point to remove 
+the data and is often a subjective decision. 
+January:
+1/1/03 0:00 - 1/7/03 10:30 turbidity data deleted due to calibration error. 
+1/7/03 10:30 – 1/7/03 11:00 slight increase in salinity and specific 
+conductivity due to changing of sondes. Data retained. 
+1/7/03 10:30 – 1/7/03 11:00 slight decrease in pH due to changing of sonde. Data 
+retained. 
+
+February:
+SpCond. Data and salinity data begin to deteriorate 2/22/03 due to fouling, data 
+retained.	
+The following turbidity values negative(range –0001 to –0020), possibly due to 
+calibration error. Post calibration	readings were 73.7 NTU. Data deleted. 
+02/05/2003	14:00:00 -	2/28/2003	23:30:00	
+
+March:
+3/2/03 10:30 turb. Spike cause unknown
+3/12/03 18:00 turb. Spike cause unknown
+3/23/03 2230 - 3/31/03 2330 DO% mg/L, salinity, and specific conductivity data 
+removed due to probe fouling.		
+The following turbidity values negative(range –0001 to –0020), possibly due to 
+calibration error. Post calibration	readings were 73.7 NTU. Data deleted. 
+03/01/2003	00:00:00 - 3/07/2003	09:30:00
+The following turbidity values negative (range –0001 to –0020) and/or zero. Data 
+retained but suspect.	
+03/10/2003	15:00:00- 03/10/2003	16:00:00
+03/11/2003	15:00:00 -03/11/2003	16:00:00	
+03/12/2003	03:30:00	
+03/12/2003	04:00:00 - 03/12/2003	16:30:00	
+03/13/2003	04:30:00 -03/13/2003 05:00:00	
+3/22/2003 18:00 -3/31/03 23:30 turbidity data removed, probe fouling and wiper 
+missing.
+
+April
+4/01/03 0000 - 4/06/03 1130 DO% mg/L, salinity, and specific conductivity data 
+removed due to probe fouling.	
+4/1/03 0:00 - 4/6 11:30 Turbidity data removed due to fouling
+4/6/03 12:00-4/21/03 14:30 all data missing technical failure
+4/26/03 18:30 Turbidity spike cause unknown.
+
+May
+All data deleted 5/2/03 1130 – 5/4/03 1600. Sonde was pulled prematurely.
+5/11/03 10:30 – 5/31/03 23:30 turbidity data removed, spikes >1000
+5/12/03 7:30-5/31/03 23:30 DO%,and mg/L removed due to fouling
+5/26/03 9:00 all data missing sonde did not record
+
+June
+6/1/03 0:00 -7:30 Turbidity data removed due to fouling
+6/3/03 0100-6/11/03 1530 DO data removed, membrane fell off during deployment
+6/5/03 5:30 - 6/11 15:30 Turbidity data removed due to fouling
+6/24/03 19:30- 6/30/03 11:00 Turbidity data removed due to fouling
+Turbidity spikes retained in the data:
+6/11/03 19:00
+6/12/03 6:30
+6/14/03 00:30-01:00, 15:30
+6/22/03 19:30
+6/23/03 03:30
+6/23/03 20:30-6/30/03 11:00 DO data removed due to fouling
+
+July 
+7/9/03 20:30-7/18/03 15:00 Turbidity data removed due to fouling
+7/13/03 1:00- 7/18/03 15:00 DO data removed due to fouling
+7/23/03 22:30- 7/31/03 23:30 Turbidity data removed due to fouling
+7/26/03 9:30-7/31/03 23:30 DO data removed due to fouling
+
+August
+8/1/03 00:00 -8/4/03 13:30 Turbidity, DO data removed due to fouling
+8/12/03 0:30 -8/31/03 23:30 DO data removed due to fouling
+8/10/03 20:30 -8/31/03 23:30 Turbidity data removed due to fouling
+
+September
+9/1/03 00:00 – 15:30 Data towards the end of the deployment may be compromised 
+due to sonde being covered with sea squirts at time of retrieval. Data retained 
+but suspect. 
+Deployment 9/18/03 11:00 – 10/15/03 15:30. Dissolved Oxygen data suspect due to 
+fouling. Post deployment calibration readings low (30%). Could possibly be due 
+to Hurricane Isabel just north of coast, which caused an increase in surf and 
+light wind. Data retained. 
+9/27/03 9:30 - 9/30 23:30 turbidity data removed due to fouling
+9/1/03 0:00 -15:30 turbidity data removed due to fouling
+9/1/03 16:00 - 9/18/03 10:30 all data missing, sonde failure
+The following are negative turbidity values. Fouling of probe was noticed at the 
+time of sonde retrieval. Data retained but suspect.  
+09/18/2003,11:00:00, - 09/18/2003,23:30:00
+09/19/2003,00:00:00,- 09/19/2003,23:30:00
+09/20/2003,00:00:00,- 09/20/2003,23:30:00
+09/21/2003,00:00:00,- 09/21/2003,19:00:00
+09/21/2003,20:30:00,- 09/21/2003,23:30:00
+09/22/2003,00:00:00,- 09/22/2003,20:00:00
+09/22/2003,21:30:00,- 09/22/2003,23:30:00
+09/23/2003,00:00:00,- 09/23/2003,08:30:00
+09/23/2003,09:30:00,- 09/23/2003,21:00:00
+09/23/2003,22:30:00,- 09/23/2003,23:30:00
+09/24/2003,00:00:00,- 09/24/2003,09:30:00
+09/24/2003,11:30:00,- 09/24/2003,21:30:00
+09/25/2003,00:30:00,- 09/25/2003,06:00:00
+09/25/2003,07:30:00,- 09/25/2003,09:30:00
+09/25/2003,13:00:00,- 09/25/2003,16:30:00
+09/25/2003,17:30:00
+09/25/2003,20:00:00,- 09/25/2003,22:30:00
+09/26/2003,01:30:00,- 09/26/2003,06:00:00
+09/26/2003,09:30:00,- 09/26/2003,10:30:00
+09/26/2003,14:00:00- 09/26/2003,14:30:00
+09/26/2003,16:30:00
+09/26/2003,21:30:00,- 09/26/2003,23:00:00,-0001
+
+October
+Deployment 9/18/03 11:00 – 10/15/03 15:30. Dissolved Oxygen data suspect due to 
+fouling. Post deployment calibration readings low (30%). Could possibly be due 
+to Hurricane Isabel just north of coast, which caused an increase in surf and 
+light wind. Data retained.
+10/1/03 0:00- 10/18 09:00 turbidity data removed due to fouling
+10/18/03 9:30 - 10/25/03 10:30 all data removed, temperature probe failure
+10/15/03 16:00 -10/18/03 9:00 large increase in DO, specific conductivity, and 
+salinity values with new deployment, cause unknown. Data retained because no 
+definitive cause known.
+
+November
+11/25/03 21:30 turbidity spike, cause unknown
+
+December
+12/14/03 19:30-20:00 turbidity spike, cause unknown.
+
+Hunt Dock
+Due to the nature of this deployment site, the sonde is occasionally exposed 
+above the water line at low tide.  The data has been retained at the time of 
+these exposures and will be apparent by the salinity values nearing 0 as well as 
+depth.
+
+January
+1/1/03 0:00 - 1/7/03 1100 no turbidity probe deployed
+1/7/03 1130-1/31/2330 all turbidity data removed, probe fouled
+
+February
+2/1/03 0:00 2/6/03 10:00 all turbidity data removed probe fouled
+2/17/03 3:30 Turbidity spike, sonde exposed at low tide
+2/22/03 1830 Turbidity spike, sonde exposed at low tide
+2/23/03 0600 Turbidity spike, sonde exposed at low tide
+Drop in pH due to low tide:
+2/1/03 1500 – 1530
+2/4/03 1700 – 1800
+2/13/03 1200
+2/14/03 1300
+2/15/03 1300 – 1400
+2/20/03 1700 – 1800
+2/23/03 0800 – 1000
+3/21/03 1600 - 1900
+
+
+March
+3/20/03 0300 and 3/25/03 0200 Turbidity spike, sonde exposed at low tide
+
+April
+4/3/03 1030 Turbidity spike, cause unknown
+4/6/03 1200 -4/21/03 1430 all data missing due to computer failure
+4/30/03 2130 Turbidity spike, cause unknown
+4/5/03 1530 Turbidity spike, cause unknown
+
+May
+5/2/03 1930 -5/31/03 2330 pH probe broken, data removed
+5/13/03 1430-5/31/03 2330 No turbidity probe deployed
+5/5/03 2300 -5/13/03 1400 Turbidity data removed, probe heavily fouled
+
+June
+6/1/0000-6/11/1530 no turbidity probe deployed, turbidity data missing
+6/1/03 0000-6/11/03 1530 pH probe broken
+Drop in dissolved oxygen (8.2%) on 6/11/03 1230 anomalous, cause unknown. Data 
+retained. 
+6/25/03 1730-6/30/03 2330  pH probe broken, data removed
+The following are turbidity outliers, data retained because the post calibration 
+verification was within acceptable limits.
+Date Time Turb
+6/14/03 15:30:00 -1
+6/15/03 15:00:00 -1
+6/15/03 16:00:00 -1
+6/19/03 16:00:00 2182
+6/25/03 13:00:00 2146
+6/28/03 15:00:00 2154
+6/28/03 23:30:00 2150
+6/29/03 0:00:00 2150
+6/29/03 0:30:00 2148
+6/29/03 1:30:00 2012
+6/29/03 3:00:00 2136
+6/29/03 4:00:00 2064
+6/29/03 5:00:00 1266
+6/29/03 8:00:00 2141
+6/29/03 10:00:00 1090
+6/29/03 11:30:00 1123
+6/29/03 13:00:00 -1
+6/29/03 15:30:00 2142
+6/29/03 16:30:00 1561
+6/29/03 17:30:00 1539
+6/30/03 1:30:00 1086
+6/30/03 7:30:00 1465
+6/30/03 9:30:00 1188
+6/30/03 11:00:00 1800
+
+July
+7/1/03 0:00 - 7/31/03 23:30 pH probe broken during deployment, pH data removed
+7/5/03 20:00 Turbidity spike, cause unknown
+7/27/03 10:00 Turbidity spike, cause unknown
+7/1/03 8:00 - 7/31/03 23:30 DO %, mg/L removed due to post calibration 
+verification failure.
+
+August
+8/1/03 0:00 -8/4/03 13:30 pH data removed due to probe failure. 
+8/4/03 0230 – 1330 DO mg/L and % removed due to post calibration verification 
+failure.
+8/4/03 14:30 -8/31/03 23:30 No turbidity data collected
+8/5/03 21:30 - 8/30/03 23:30 DO values cycling higher than normal (up to 
+519.9%), data retained because post calibration verification (112%) within 
+acceptable limits. No explanation as to why this happened. 
+
+September
+9/1/03 00:00 – 15:00 No turbidity data collected. 
+9/19/03 14:00 - 9/30/03 23:30 pH probe broken during deployment, data removed.
+The following turbidity data are anomalous but was retained due to post 
+calibration verification was within acceptable limits.
+09/15/2003 09:30:00 1142.4
+09/15/2003 14:30:00 1228
+09/15/2003 15:00:00 1179
+09/17/2003 13:30:00 1378.6
+09/17/2003 15:30:00 1338.1
+09/17/2003 17:30:00 1183.1
+09/17/2003 20:00:00 1353.5
+09/17/2003 22:00:00 1163.7
+09/18/2003 00:30:00 1351.1
+09/18/2003 02:30:00 1190.5
+09/18/2003 05:00:00 1376
+09/18/2003 07:00:00 1280.5
+09/18/2003 09:00:00 1149.1
+09/18/2003 12:00:00 1376.4
+09/18/2003 14:00:00 1309.9
+09/18/2003 16:30:00 1360.9
+09/18/2003 18:30:00 1173.1
+09/18/2003 20:30:00 1161
+09/18/2003 21:00:00 1379.2
+09/18/2003 23:00:00 1220.7
+09/19/2003 01:00:00 -09/19/2003 02:30:00
+09/19/2003 03:30:00 1377.9
+09/19/2003 04:30:00 1258.1
+09/19/2003 05:30:00 1173.8 
+09/19/2003 07:00:00 1351.6
+09/19/2003 08:00:00 - 09/19/2003 08:30:00 
+09/19/2003 09:30:00 1374.3
+09/19/2003 10:30:00 - 09/19/2003 11:00:00 
+09/19/2003 12:00:00 1377.2
+09/19/2003 13:00:00 1328.6
+09/19/2003 15:00:00 1162.5
+09/19/2003 16:00:00 1015
+09/19/2003 17:00:00 - 09/19/2003 17:30:00 
+09/19/2003 19:30:00 1233.8
+09/19/2003 21:30:00 - 09/19/2003 22:00:00 
+09/19/2003 23:00:00 1374.2
+09/20/2003 00:00:00 1378.3
+09/20/2003 00:30:00 1378.4
+09/20/2003 01:30:00 1378.2
+09/20/2003 02:30:00 1112.6
+09/20/2003 04:30:00 1378.4
+09/20/2003 05:00:00 1378.1
+09/20/2003 06:00:00 1377
+09/20/2003 07:00:00 1376.2
+09/20/2003 07:30:00 1375.7 
+09/20/2003 08:30:00 1375.3
+09/20/2003 09:30:00 1167.6
+09/20/2003 11:30:00 1376.5
+09/20/2003 12:00:00 1376.9
+09/20/2003 13:00:00 1374.8
+09/20/2003 14:00:00 1119.4
+09/20/2003 15:00:00 1320.3
+09/30/2003 00:00:00 -0001
+
+October
+
+October Hunt season starts, increased activity at the huntdock with both people 
+and boats now through December
+10/1/03 0:00 10/1/03 11:30 pH probe broken during deployment, data removed
+10/1/03 12:00 -10/8/03 1530 all data missing, sonde failure
+10/8/03 1600 -10/31/03 2330 no turbidity probe deployed
+10/14/03 1330 -10/31/03 Someone tampered with site and pulled the sonde up to 
+the top of the tube.  The sonde is exposed to air for unusually long intervals.  
+Data was retained because as tide rose the sonde was in the water for some time 
+periods.
+
+November
+
+11/1/03 000-11/6/03 0900 no turbidity probe deployed
+11/6/03 0930 -1700 all data missing, no sonde deployed
+11/28/03 1530 - 11/30 2330 no turbidity probe deployed
+11/24/03 2000 Turbidity spike, cause unknown
+11/25/03 1300 Turbidity spike, cause unknown
+11/26/03 0630 Turbidity spike, cause unknown
+11/20/03 1030 Turbidity spike, cause unknown
+11/22/03 1200 Turbidity spike, cause unknown
+11/23/03 0730 Turbidity spike, cause unknown
+
+December
+
+12/1/03 0000- 12/2403 1330 no turbidity probe deployed
+12/24/03 1400 - 1700 no sonde deployed, all data missing
+
+
+Lower Duplin
+
+January
+1/1/03 0000 - 1/13/03 1600  turbidity data missing, no turbidity probe deployed
+1/27/03 1630 - 1/31/03 2330 no turbidity probe deployed, turbidity data missing
+1/13/03 1630 - 1/27/03 1600 Battery compartment flooded during deployment, all 
+data lost.
+
+February
+2/1/03 0000- 2/26/03 1600 no turbidity probe deployed, turbidity data missing
+
+
+March
+The following turbidity values negative (range –0001 to –0003) and/or zero. Post 
+calibration readings were 123.9 NTU. Data retained but suspect. 
+03/01/2003,00:30:00 - 03/01/2003,01:30:00,
+03/05/2003,04:30:00
+03/07/2003,23:00:00
+03/08/2003,06:00:00
+03/08/2003,20:00:00
+03/08/2003,20:30:00
+03/08/2003,23:30:00
+03/09/2003,00:30:00
+03/09/2003,11:30:00
+03/09/2003,12:30:00
+03/09/2003,23:30:00
+03/10/2003,00:00:00
+03/10/2003,01:00:00
+03/10/2003,11:30:00 - 03/10/2003,13:30:00,
+03/10/2003,14:30:00
+03/10/2003,18:30:00 - 03/10/2003,19:30:00,
+03/10/2003,21:00:00
+03/10/2003,23:30:00
+03/11/2003,00:00:00
+03/11/2003,01:30:00 - 03/11/2003,02:30:00,
+03/11/2003,03:30:00
+03/11/2003,06:30:00
+03/11/2003,07:00:00
+03/11/2003,08:00:00
+03/11/2003,10:30:00  - 03/11/2003,11:30:00,
+03/11/2003,12:30:00
+03/11/2003,13:30:00
+03/11/2003,14:30:00
+03/11/2003,18:00:00
+03/11/2003,19:00:00 - 03/11/2003,21:00:00,
+03/11/2003,22:00:00
+03/11/2003,23:00:00
+03/12/2003,00:00:00 - 00:30:00,
+03/12/2003,02:00:00 - 03:00:00
+03/12/2003,07:00:00
+03/12/2003,08:00:00 - 09:00:00,
+03/12/2003,10:30:00
+03/12/2003,12:00:00 -12:30:00,
+03/12/2003,13:30:00 - 15:00:00
+03/12/2003,16:00:00
+03/12/2003,17:00:00 - 19:00:00
+03/12/2003,20:00:00 - 03/13/2003,00:00:00
+03/13/2003,02:30:00 -04:00:00
+03/13/2003,05:00:00 - 03/13/2003,05:30:00
+03/13/2003,08:00:00 - 03/13/2003,09:00:00
+03/13/2003,10:00:00 - 11:30:00
+03/13/2003,13:00:00 - 03/13/2003,13:30:00
+03/13/2003,14:30:00
+03/13/2003,15:30:00 -16:00:00
+03/13/2003,17:00:00 -18:00:00
+03/13/2003,20:30:00
+03/13/2003,22:00:00 - 23:30:00
+03/14/2003,04:00:00 - 03/14/2003,05:30:00
+03/14/2003,12:00:00 - 03/14/2003,12:30:00
+03/14/2003,17:30:00
+03/15/2003,01:00:00 - 01:30:00
+03/25/2003,10:00:00
+03/25/2003,20:00:00
+03/26/2003,10:30:00
+03/26/2003,15:00:00 -15:30:00
+03/26/2003,20:30:00 -22:30:00
+03/27/2003,05:00:00 -06:00:00
+03/27/2003,10:00:00 -10:30:00
+03/27/2003,11:30:00
+03/27/2003,16:00:00
+
+April
+04/14/2003	 15:30:00	1077.8 Turbidity spike, cause unknown
+The following turbidity values are negative and/or zero, cause unknown. Data 
+retained but suspect.
+Date		Time	
+04/02/2003	02:00:00 - 03:00
+04/02/2003	13:30:00 - 15:00:00	
+04/03/2003	02:30:00 - 03:30:00	
+04/03/2003	08:30:00	
+04/03/2003	09:30:00	
+04/03/2003	12:00:00	
+04/03/2003	14:30:00 - 16:00:00	
+04/04/2003	03:30:00 - 04:30:00	
+04/04/2003	07:00:00	
+04/04/2003	08:30:00	
+04/04/2003	09:30:00 - 10:30:00	
+04/04/2003	21:30:00 - 22:00:00
+04/05/2003	08:00:00 - 10:00:00
+04/05/2003	16:30:00	
+04/05/2003	22:00:00 - 23:30:00	
+04/06/2003	00:00:00	
+04/06/2003	03:30:00 - 06:30:00	
+04/06/2003	08:30:00	
+04/06/2003	10:00:00 - 11:30:00	
+04/06/2003	14:00:00	
+04/06/2003	15:30:00 - 16:00:00
+04/06/2003	17:00:00 - 19:00:00	
+04/06/2003	20:30:00 - 21:00:00
+04/06/2003	22:00:00	
+04/06/2003	23:00:00 - 04/07/2003	00:30:00
+04/07/2003	04:30:00	
+04/07/2003	05:30:00 - 06:30:00	
+04/07/2003	08:00:00 - 09:00:00	
+04/07/2003	10:30:00 - 12:30:00
+04/07/2003	17:30:00	
+04/07/2003	19:30:00	
+04/07/2003	21:30:00	
+04/07/2003	22:30:00 - 04/08/2003	01:30:00
+04/08/2003	04:30:00 - 05:00:00	
+04/08/2003	06:30:00 - 08:30:00	
+04/08/2003	10:00:00 - 11:30:00
+04/08/2003	12:30:00	
+04/08/2003	13:00:00 - 04/08/2003	14:00:00 -14:30:00	
+04/08/2003	19:00:00	
+04/08/2003	21:00:00	
+04/08/2003	22:00:00 - 22:30:00	
+04/08/2003	23:30:00	
+04/09/2003	06:00:00 - 06:30:00
+04/09/2003	07:30:00 - 11:00:00
+04/09/2003	12:30:00 - 15:00:00	
+04/09/2003	17:30:00 - 18:00:00
+04/09/2003	20:00:00 - 21:30:00	
+04/09/2003	22:30:00	
+04/10/2003	01:30:00 - 02:00:00
+04/10/2003	09:00:00 - 09:30:00	
+04/10/2003	13:00:00	
+04/10/2003	14:00:00 - 14:30:00	
+04/11/2003	03:00:00	
+04/11/2003	15:30:00 - 16:00:00
+04/11/2003	19:30:00 - 20:00:00	
+04/11/2003	22:00:00	
+04/12/2003	00:00:00 - 00:30:00
+04/12/2003	04:00:00 - 05:00:00
+04/12/2003	09:30:00	
+04/12/2003	10:30:00	
+04/12/2003	21:30:00 - 22:00:00
+04/12/2003	23:00:00 - 23:30:00	
+04/13/2003	10:30:00	
+04/13/2003	11:30:00	
+04/14/2003	12:30:00	
+04/22/2003	21:30:00	
+04/23/2003	09:00:00	
+04/23/2003	21:00:00	
+04/24/2003	02:30:00	
+04/24/2003	08:30:00	
+04/24/2003	10:00:00	
+04/24/2003	20:00:00 - 20:30:00
+04/24/2003	21:30:00 - 22:00:00	
+04/24/2003	23:00:00 - 23:30:00
+04/25/2003	03:00:00	
+04/25/2003	16:30:00	
+04/25/2003	21:00:00 - 22:30:00	
+04/26/2003	01:00:00	
+04/26/2003	05:00:00 - 06:00:00
+04/26/2003	16:00:00	
+04/26/2003	18:00:00	
+04/26/2003	19:00:00	
+04/26/2003	23:00:00 - 23:30:00
+04/27/2003	00:00:00 - 01:00:00
+04/27/2003	03:00:00	
+04/27/2003	06:00:00	
+04/27/2003	10:30:00	
+04/27/2003	12:30:00 - 13:00:00	
+04/27/2003	14:00:00	
+04/27/2003	22:30:00	
+04/28/2003	00:00:00	
+04/28/2003	01:00:00 - 01:30:00	
+04/28/2003	05:00:00	
+04/28/2003	11:30:00 - 13:00:0
+04/28/2003	14:00:00	
+04/29/2003	00:30:00 - 01:00:00
+04/29/2003	03:00:00	
+04/29/2003	12:00:00 - 13:00:00
+04/30/2003	00:30:00 - 01:30:00
+04/30/2003	03:30:00 - 04:00:00	
+04/30/2003	12:00:00 - 15:00:00	
+04/30/2003	20:30:00	
+May
+5/4/03 14:30 all data missing no sonde deployed
+5/4/03 15:00-5/19 13:30 No turbidity probe deployed
+The following turbidity data are anomalous, most likely due to fouling.
+Date		Time		Turb
+05/20/2003	02:00:00	2079.2
+05/20/2003	03:00:00	2081.7
+05/20/2003	04:00:00	2085.5
+05/21/2003	03:30:00	2070
+05/29/2003	23:00:00	2072.7
+05/31/2003	14:00:00	2092.3
+
+DO data fluctuates throughout the month, most likely due to fouling/organism 
+activity on the sonde itself.
+
+June
+6/1/03 01:30 – 03:30 all data removed, sonde out of the water. 
+6/4/03 17:00-6/23/03 14:30 all data missing sonde failure 
+The following turbidity values negative and/or zero, cause unknown. Data 
+retained but suspect. 
+Date	Time	Turb
+06/24/2003	00:30:00	-0.6
+06/24/2003	03:00:00	-0.2
+06/24/2003	12:30:00	-0.2
+06/28/2003	13:00:00	-0.1
+06/30/2003	15:00:00	-0.3
+06/30/2003	18:30:00	-0.2
+
+July
+7/28/03 14:00 A drop in specific conductivity, salinity, and depth. There's a 
+possibility that the sonde was out of the water for this time, but cause 
+unknown. Data retained. 
+The following turbidity values were reported as negative and/or zero values, 
+cause unknown. Data retained but suspect.
+07/04/2003  07:00:00      
+  07/04/2003  21:00:00      
+  07/05/2003  18:30:00  - 19:00:00     
+  07/05/2003  23:30:00     
+  07/06/2003  08:30:00     
+  07/07/2003  01:30:00      
+  07/07/2003  09:30:00      
+  07/07/2003  21:00:00  - 21:30:00     
+  07/07/2003  22:30:00  - 23:30:00      
+  07/08/2003  23:30:00     
+  07/09/2003  00:00:00      
+  07/09/2003  03:00:00 - 03:30:00     
+  07/09/2003  10:00:00 - 10:30    
+  07/09/2003  13:30:00      
+  07/10/2003  01:00:00     
+  07/10/2003  03:30:00      
+  07/10/2003  11:00:00      
+  07/17/2003  23:30:00      
+  07/18/2003  17:30:00      
+  07/18/2003  18:30:00     
+  07/18/2003  19:30:00     
+  07/18/2003  22:30:00- 07/19/2003  00:30:00    
+  07/19/2003  13:00:00     
+  07/19/2003  16:30:00 - 17:00    
+  07/19/2003  18:30:00 - 19:00     
+  07/19/2003  20:00:00      
+  07/19/2003  21:00:00 -21:30
+  07/19/2003  22:30:00     
+  07/20/2003  00:00:00 - 01:30:00    
+  07/20/2003  07:30:00 - 8:00
+  07/20/2003  09:00:00 - 10:00
+  07/20/2003  11:30:00 - 13:30:00   
+  07/20/2003  20:00:00 - 23:30:00    
+  07/21/2003  00:30:00 - 02:00:00     
+  07/21/2003  08:00:00 - 08:30:00     
+  07/21/2003  10:00:00 - 12:00:00     
+  07/21/2003  13:00:00 - 14:30:00     
+  07/21/2003  18:00:00     
+  07/21/2003  18:30:00 - 20:00:00    
+  07/21/2003  21:00:00 - 22:00:00      
+  07/21/2003  23:00:00 - 07/22/2003  00:00:00     
+  07/22/2003  01:00:00 - 03:30:00    
+  07/22/2003  05:30:00      
+  07/22/2003  06:30:00 - 07:00:00    
+  07/22/2003  08:00:00     
+  07/22/2003  09:00:00      
+  07/22/2003  10:00:00 - 14:00:00    
+  07/22/2003  19:00:00 - 23:30:00    
+  07/23/2003  00:30:00      
+  07/23/2003  01:00:00     
+  07/23/2003  02:00:00 - 03:30:00     
+  07/23/2003  04:30:00     
+  07/23/2003  07:30:00  - 08:00:00      
+  07/23/2003  11:00:00  - 13:00:00     
+  07/23/2003  14:00:00  - 17:00:00     
+  07/23/2003  19:30:00  - 23:30:00    
+  07/24/2003  00:30:00  - 02:30:00     
+  07/24/2003  03:30:00     
+  07/24/2003  04:30:00  - 05:00:00    
+  07/24/2003  07:30:00     
+  07/24/2003  09:00:00 - 10:30:00     
+  07/24/2003  11:30:00  - 16:30:00     
+  07/24/2003  20:30:00  - 21:00:00    
+  07/24/2003  22:30:00  - 07/25/2003  00:00:00   
+  07/25/2003  01:00:00  - 03:00:00    
+  07/25/2003  04:00:00  - 05:00:00    
+  07/25/2003  10:30:00  - 13:00:00    
+  07/25/2003  14:00:00  - 14:30:00    
+  07/25/2003  16:00:00  - 16:30:00     
+  07/25/2003  17:30:00  - 18:00:00     
+  07/26/2003  00:00:00     
+  07/26/2003  01:30:00  - 02:00:00     
+  07/26/2003  04:00:00  - 04:30:00     
+  07/26/2003  05:30:00  - 06:00:00     
+  07/26/2003  10:30:00  - 14:00:00     
+  07/26/2003  15:00:00     
+  07/26/2003  16:00:00     -
+  07/26/2003  18:00:00 - 18:30:00     
+  07/27/2003  00:30:00 - 01:00:00     
+  07/27/2003  02:00:00 - 04:00:00    
+  07/27/2003  05:30:00 - 06:30:00      
+  07/27/2003  11:30:00      
+  07/27/2003  12:30:00 - 16:00:00      
+  07/28/2003  01:00:00 - 03:30:00     
+  07/28/2003  05:30:00      
+  07/28/2003  06:30:00 - 08:00:00      
+  07/28/2003  11:00:00 - 17:00:00    
+  07/28/2003  20:00:00 - 20:30:00     
+  07/28/2003  23:30:00 - 07/29/2003  04:00:00     
+  07/29/2003  05:30:00     
+  07/29/2003  07:00:00 - 16:30:00    
+  07/29/2003  18:00:00 - 18:30:00     
+  07/29/2003  21:00:00 - 21:30:00    
+  07/30/2003  02:00:00     
+  07/30/2003  03:30:00     
+  07/30/2003  04:30:00      
+  07/30/2003  09:00:00 - 15:30:00    
+  07/30/2003  16:30:00      
+  07/30/2003  17:30:00      
+  07/30/2003  22:00:00     
+  07/31/2003  01:00:00 - 05:00:00    
+  07/31/2003  05:30:00     
+  07/31/2003  11:00:00     
+  07/31/2003  13:00:00     
+  07/31/2003  14:30:00     
+  07/31/2003  15:00:00     
+  07/31/2003  16:00:00 - 17:30:00    
+  07/31/2003  22:30:00  -23:00:00    
+
+August
+The following turbidity values were reported negative and/or zero, cause 
+unknown. Data retained but suspect.
+ 08/01/2003  02:00:00     
+ 08/01/2003  02:30:00 - 06:00:00    
+ 08/01/2003  07:00:00     
+ 08/01/2003  11:00:00 - 12:00:00     
+ 08/01/2003  15:00:00 - 18:30:00    
+ 08/01/2003  19:30:00     
+ 08/01/2003  23:30:00     
+ 08/02/2003  00:00:00     
+ 08/02/2003  03:00:00 - 07:00:00     
+ 08/02/2003  11:30:00 - 12:30:00     
+ 08/02/2003  15:30:00 - 20:30:00     
+ 08/02/2003  22:00:00 - 22:30:00     
+ 08/03/2003  00:30:00     
+ 08/03/2003  03:30:00 - 07:30:00     
+ 08/03/2003  08:30:00      
+ 08/03/2003  12:30:00 - 13:30:00     
+ 08/03/2003  16:30:00 - 21:30:00    
+ 08/03/2003  23:30:00 - 08/04/2003  01:30:00    
+ 08/04/2003  04:00:00 - 08:30:00     
+ 08/04/2003  09:30:00 - 10:00:00    
+ 08/04/2003  11:30:00     
+ 08/04/2003  14:00:00 - 14:30:00     
+ 08/04/2003  17:30:00 - 23:00:00    
+ 08/05/2003  01:30:00 - 02:30:00   
+ 08/05/2003  04:30:00 - 09:30:00    
+ 08/05/2003  11:30:00      
+ 08/05/2003  14:30:00 - 15:00:00     
+ 08/05/2003  18:30:00 - 23:00:00     
+ 08/06/2003  00:00:00 - 11:30:00     
+ 08/06/2003  12:30:00     
+ 08/06/2003  16:00:00     
+ 08/06/2003  19:00:00 - 23:30:00    
+ 08/07/2003  00:30:00     
+ 08/07/2003  02:00:00 - 11:30:00     
+ 08/07/2003  13:30:00     
+ 08/07/2003  16:30:00 - 17:00:00     
+ 08/07/2003  20:00:00 - 08/08/2003  01:30:00     
+ 08/08/2003  03:00:00 - 06:00:00     
+ 08/08/2003  08:00:00 - 10:30:00     
+ 08/08/2003  11:30:00 - 12:30:00     
+ 08/08/2003  18:30:00     
+ 08/08/2003  21:30:00 - 22:30:00     
+ 08/08/2003  23:30:00 - 08/09/2003  01:30:00     
+ 08/09/2003  02:30:00     
+ 08/09/2003  06:00:00 - 07:00:00    
+ 08/09/2003  09:30:00 - 10:30:00     
+ 08/09/2003  12:30:00 - 13:30:00     
+ 08/09/2003  19:00:00     
+ 08/09/2003  23:30:00 - 08/10/2003  02:30:00    
+ 08/10/2003  03:30:00     
+ 08/10/2003  06:30:00 - 07:00:00    
+ 08/10/2003  11:30:00     
+ 08/10/2003  13:30:00     
+ 08/10/2003  20:00:00 - 20:30:00     
+ 08/10/2003  23:30:00 - 08/11/2003  01:00:00     
+ 08/11/2003  02:00:00 - 02:30:00     
+ 08/11/2003  12:30:00     
+ 08/11/2003  16:30:00      
+ 08/11/2003  21:00:00     
+ 08/12/2003  00:30:00 - 04:00:00     
+ 08/12/2003  09:00:00      
+ 08/12/2003  12:30:00     
+ 08/12/2003  13:00:00 - 15:00:00     
+ 08/12/2003  21:30:00     
+ 08/13/2003  02:00:00 - 05:00:00     
+ 08/13/2003  14:00:00 - 15:30:00     
+ 08/13/2003  16:30:00 - 17:00:00     
+ 08/13/2003  18:00:00     
+ 08/13/2003  22:30:00     
+ 08/14/2003  02:00:00 - 02:30:00    
+ 08/14/2003  03:30:00 - 05:00:00    
+ 08/14/2003  06:30:00     
+ 08/14/2003  14:30:00 - 17:00:00     
+ 08/14/2003  18:30:00     
+ 08/14/2003  23:00:00 - 23:30:00    
+ 08/15/2003  02:30:00     
+ 08/15/2003  03:00:00 - 05:00:00     
+ 08/15/2003  07:30:00      
+ 08/15/2003  15:00:00 - 18:30:00    
+ 08/15/2003  19:30:00 - 20:30:00    
+ 08/15/2003  21:30:00     
+ 08/15/2003  23:00:00 - 08/16/2003  00:00:00     
+ 08/16/2003  02:30:00 - 06:00:00     
+ 08/16/2003  07:00:00 - 07:30:00     
+ 08/16/2003  12:00:00     
+ 08/16/2003  16:00:00 - 16:30:00     
+ 08/16/2003  17:30:00 - 18:30:00     
+ 08/16/2003  19:30:00 - 22:00:00     
+ 08/16/2003  23:00:00 - 08/17/2003  01:30:00     
+ 08/17/2003  03:00:00 - 08:30:00    
+ 08/17/2003  10:00:00 - 10:30:00     
+ 08/17/2003  12:00:00 - 13:30:00     
+ 08/17/2003  15:30:00 - 08/18/2003  19:30:00     
+ 08/18/2003  21:00:00 - 21:30:00     
+ 08/18/2003  23:00:00 - 08/19/2003  10:00:00     
+ 08/19/2003  11:30:00 - 08/20/2003  10:30:00     
+ 08/20/2003  12:00:00 - 08/23/2003  07:30:00     
+ 08/23/2003  08:30:00 - 08/24/2003  02:30:00     
+ 08/24/2003  03:30:00 - 19:30:00     
+ 08/24/2003  21:30:00 - 08/25/2003  08:00:00     
+ 08/25/2003  09:00:00     
+ 08/25/2003  10:00:00 - 16:00:00     
+ 08/25/2003  18:30:00 - 19:30:00     
+ 08/25/2003  23:00:00 - 08/26/2003  03:00:00     
+ 08/26/2003  04:00:00     
+ 08/26/2003  07:30:00     
+ 08/26/2003  11:00:00 - 15:00:00     
+ 08/26/2003  16:00:00     
+ 08/26/2003  19:30:00 - 20:30:00     
+ 08/27/2003  00:30:00 - 04:30:00     
+
+September
+Dissolved Oxygen for deployment 9/1/03 12:30 – 10/8/03 16:00 suspect, cause for 
+increase of data unknown. Data retained. 
+
+October
+Dissolved Oxygen for deployment 9/1/03 12:30 – 10/8/03 16:00 suspect, cause for 
+increase of data unknown. Data retained. 
+The following times recorded negative and/or zero turbidity values, cause 
+unknown. Data retained but suspect.
+ 10/10/2003  03:00:00      
+ 10/11/2003  03:00:00      
+ 10/14/2003  04:30:00      
+ 10/15/2003  04:30:00      
+ 10/16/2003  04:00:00 - 04:30:00      
+ 10/16/2003  06:00:00      
+ 10/16/2003  21:30:00 - 10/17/2003  00:30:00      
+ 10/17/2003  04:00:00 - 06:00:00     
+ 10/17/2003  19:00:00      
+ 10/17/2003  20:00:00 - 21:30:00      
+ 10/17/2003  22:30:00      
+ 10/18/2003  00:00:00      
+ 10/18/2003  01:00:00 - 01:30:00      
+ 10/18/2003  05:30:00      
+ 10/18/2003  19:00:00 - 23:30:00     
+ 10/19/2003  01:00:00      
+ 10/19/2003  07:00:00 - 07:30:00        
+ 10/19/2003  08:30:00      
+ 10/19/2003  10:00:00      
+ 10/19/2003  20:30:00 - 10/20/2003  00:00:00      
+ 10/20/2003  02:30:00        
+ 10/20/2003  03:30:00 - 04:30:00      
+ 10/20/2003  09:30:00      
+ 10/20/2003  21:00:00 - 23:30:00        
+ 10/21/2003  11:00:00      
+
+The following are turbidity spikes, cause unknown
+ 10/19/2003  03:30:00    2474.9
+ 10/19/2003  06:30:00    2074.4
+ 10/23/2003  13:00:00    2465.5
+ 10/29/2003  08:30:00    2373.9
+
+November
+11/6/03 1830-11/26/03 1530 turbidity data removed, post calibration verification 
+failure
+11/27/03 1030 turbidity spike, cause unknown
+11/26/03 1700 - 11/30/03 2330 DO % and mg/L removed due to post calibration 
+verification (157%).
+
+December
+
+12/1/03 0700-0730 turbidity spikes cause unknown
+12/1/03 0000 - 12/25/03 1000 DO % and mg/L removed due to post calibration 
+verification (157%). 
+12/11/03 0030 Turbidity spike cause unknown
+The following times turbidity values were negative (range –0001 to –0014) and/or 
+zero. For unknown reasons. Data retained but suspect. 
+  Date        Time      Turb
+   12/25/2003  15:30:00 -16:00:00      
+  12/25/2003  17:00:00 - 17:30:00        
+  12/25/2003  22:30:00      
+  12/26/2003  02:30:00 - 05:00:00     
+  12/26/2003  06:30:00 - 07:00:00      
+  12/26/2003  16:30:00      
+  12/26/2003  17:30:00 - 18:00:00     
+  12/26/2003  19:30:00      
+  12/26/2003  23:00:00      
+  12/27/2003  04:00:00 - 07:00:00      
+  12/27/2003  17:00:00 - 18:30:00      
+  12/27/2003  19:00:00     
+  12/27/2003  20:00:00      
+  12/27/2003  21:00:00 - 21:30:00     
+  12/28/2003  00:00:00 - 00:30:00        
+  12/28/2003  04:00:00 - 07:30:00      
+  12/28/2003  08:30:00 - 09:00:00      
+  12/28/2003  17:30:00 - 20:30:00      
+  12/28/2003  21:30:00      
+  12/29/2003  01:00:00 - 01:30:00      
+  12/29/2003  04:30:00 - 07:00:00     
+  12/29/2003  08:30:00 - 09:00:00      
+  12/29/2003  10:00:00      
+  12/29/2003  17:00:00 - 23:00:00      
+  12/30/2003  01:00:00 - 03:30:00     
+  12/30/2003  05:00:00 - 09:30:00      
+  12/30/2003  10:30:00      
+  12/30/2003  11:30:00      
+  12/30/2003  13:00:00 - 15:30:00        
+  12/30/2003  16:30:00 - 22:30:00     
+  12/30/2003  23:30:00 - 12/31/2003  01:30:00      
+  12/31/2003  03:00:00 - 04:00:00      
+  12/31/2003  05:30:00 - 13:00:00      
+  12/31/2003  14:30:00 - 16:00:00      
+  12/31/2003  17:00:00 - 23:30:00     
+
+Marsh Landing
+Due to the nature of the site's deployment, heavy fouling occurs, often causing 
+a steady deterioration of the data.  Some of the data are removed and some 
+retained.  It is exceedingly difficult to determine the point to remove the data 
+and is often a subjective decision. 
+
+January
+1/7/03 1830 turbidity spike cause unknown
+The following turbidity values negative (range –0001 to –0013), cause unknown. 
+Post calibration readings were 85.6 NTU. Data retained but suspect.
+  Date        Time      Turb
+  01/16/2003  10:30:00 - 21:00:00      
+  01/16/2003  22:00:00 - 01/17/2003  02:00:00     
+  01/17/2003  03:00:00      
+  01/17/2003  04:00:00 - 04:30:00        
+  01/17/2003  05:30:00 - 06:00:00      
+  01/17/2003  07:00:00 - 09:00:00      
+  01/17/2003  11:30:00 - 14:30:00     
+  01/17/2003  15:30:00 - 19:00:00      
+  01/17/2003  20:00:00 - 21:00:00      
+  01/17/2003  23:00:00 - 01/18/2003  03:00:00      
+  01/18/2003  04:00:00 - 05:30:00      
+  01/18/2003  07:30:00 - 09:30:00      
+  01/18/2003  12:30:00 - 18:30:00      
+  01/18/2003  21:00:00 - 21:30:00      
+  01/19/2003  00:30:00 - 03:00:00      
+  01/19/2003  05:00:00 - 05:30:00      
+  01/19/2003  08:30:00 - 10:00:00        
+  01/19/2003  13:00:00 - 16:00:00        
+  01/19/2003  17:00:00 - 18:30:00      
+  01/19/2003  20:30:00 - 22:00:00      
+  01/20/2003  00:30:00 - 03:30:00     
+  01/20/2003  04:00:00      
+  01/20/2003  05:00:00      
+  01/20/2003  09:00:00 - 11:00:00      
+  01/20/2003  14:00:00 - 19:00:00      
+  01/20/2003  22:00:00 - 23:00:00      
+  01/21/2003  01:30:00 - 05:30:00      
+  01/21/2003  07:00:00      
+  01/21/2003  10:30:00 - 11:30:00      
+  01/21/2003  15:00:00 - 17:30:00      
+  01/21/2003  19:30:00 - 20:00:00    
+  01/21/2003  22:00:00 - 01/22/2003  00:00:00      
+  01/22/2003  02:00:00 - 05:30:00      
+  01/22/2003  06:30:00      
+  01/22/2003  11:00:00      
+  01/22/2003  12:00:00 - 12:30:00      
+  01/22/2003  16:30:00 - 17:30:00      
+  01/22/2003  18:30:00 - 19:00:00      
+  01/22/2003  20:00:00      
+  01/23/2003  00:00:00 - 01:00:00      
+  01/23/2003  04:30:00 - 07:00:00      
+  01/23/2003  08:00:00 - 09:00:00      
+  01/23/2003  10:00:00      
+  01/23/2003  13:30:00      
+  01/23/2003  16:00:00 - 19:00:00      
+  01/23/2003  20:30:00 - 01/24/2003  02:30:00      
+  01/24/2003  05:00:00 - 10:30:00      
+  01/24/2003  13:30:00 - 14:00:00        
+  01/24/2003  17:00:00 - 19:00:00      
+  01/24/2003  20:00:00      
+  01/24/2003  20:30:00 - 01/25/2003  00:00:00      
+  01/25/2003  02:00:00 - 03:00:00      
+  01/25/2003  05:00:00 - 08:00:00      
+  01/25/2003  09:00:00      
+  01/25/2003  10:00:00        
+  01/25/2003  11:00:00 - 12:00:00      
+  01/25/2003  14:30:00 - 15:00:00      
+  01/25/2003  16:30:00 - 01/26/2003  01:00:00      
+  01/26/2003  03:00:00 - 04:30:00      
+  01/26/2003  06:30:00 - 12:30:00      
+  01/26/2003  15:30:00 - 16:00:00      
+  01/26/2003  17:00:00 - 21:30:00     
+  01/26/2003  22:30:00 - 01/27/2003  03:00:00      
+  01/27/2003  04:00:00 - 05:30:00      
+  01/27/2003  07:30:00 - 11:30:00      
+  01/27/2003  13:00:00      
+  01/27/2003  15:30:00 - 16:00:00     
+
+February
+No anomalies.  
+
+March
+3/16/03 00:30 - 3/27/03 15:30 DO values decrease, possibly due to fouling. Post 
+deployment calibration readings were 22%. Data deleted. 
+Negative and/or zero turbidity for the following dates and times for unknown 
+reason. Data retained but suspect. 
+03/12/2003  18:00:00  - 20:00:00      
+
+April
+4/10/03 1900-4/17/03 1430 DO data removed, post deployment failure
+4/20/03 22:00 - 4/30/03 2330 DO data removed, post calibration value too high
+
+May
+5/1/03 00:00 - 5/2/03 1530 DO data removed, post calibration value too high 
+5/8/03 1100-5/19/03 1400 pH data removed, post deployment verification failure
+5/11/03 0900 - 5/19/03 1400 turbidity data removed due to fouling
+5/14/03 0300 - 5/19/03 1400, DO data removed, fouled membrane
+5/19/03 1430 - 5/31/03 2330 pH probe broken, data removed
+5/31/03 2230 – 6/4/03 1630 DO data removed, membrane fell off
+The following spikes in turbidity were reported, due to hydrozoans located on 
+sonde, apparent at retrieval of sonde. 
+05/02/2003  05:00:00      1274
+05/02/2003  05:30:00      1635
+05/02/2003  07:30:00      1635
+05/02/2003  09:00:00      1634
+05/02/2003  10:00:00      1638
+05/02/2003  11:00:00      1641
+05/02/2003  12:30:00      1643
+05/02/2003  13:30:00 - 14:30:00      
+05/02/2003  15:30:00      1649
+
+June
+5/31/03 2230 – 6/4/03 1630 DO data removed, membrane fell off
+6/3/03 1700-6/4/03 1630 turbidity data removed, probe fouled
+6/11/03 2100 – 6/23 1430 DO data removed due to deterioration of data caused by 
+excess barnacles congregating on sonde. 
+6/23/03 1500 - 6/30/03 2330 turbidity removed, probe fouled
+6/1/03 0000 - 6/4/03 1630 pH probe broken, data removed
+
+
+July
+7/1/03 0000-7/10/03 1130 Turbidity removed probe fouled
+7/18/03 0600 - 7/28/03 1000 turbidity removed, probe fouled
+7/28/03 1030 - 7/31/03 2330 no data reported, sonde failure
+The following values for turbidity were reported as negative, most likely due 
+to fouling. Data retained but suspect. 
+7/10 1800, 1900, 2230, 2330
+7/11/03 0100-0130, 0230-0300, 1000,1830-2000,2330
+7/12/03 0000-0130,0230,0330,0700,1030-1330,1430,1830,1930-2030
+7/13/03 0030-0230, 0330, 0430,0800,1130-1430,2000-2130
+7/14/03 0130-0330, 0430,2030-2230
+7/15/03 0300-0430,1030,1400-1600,1700,1830,2130-2300
+7/16/03 0330-0500, 0600-0700, 1130, 1430-1630,1730, 20000-2330
+7/17/03 0000,630-0730, 0300-0530, 1200-1230,1430-1830,1930-2330
+7/18/03 000-0100, 0230-0530
+The following turbidity spikes were reported, cause unknown. Data retained. 
+7/10/03 1830
+7/11/03 0700, 1230
+Low dissolved oxygen data for deployments 6/23/03 through 7/10/03 and 7/10/03 
+through 7/28/03 due to fouling. All data retained. 
+ 
+August
+8/1/03 0000-8/18/03 0930 no data reported, sonde failure
+8/27/03 0200 - 8/31/03 2330 DO data removed, DO began reading negative values, 
+cause unknown
+The following are turbidity outliers (>1000 NTU and <0 NTU) most likely due to 
+fouling. Data retained but suspect.
+Date        Time      Turb
+  08/18/2003  10:30:00 - 18:30:00      
+  08/18/2003  19:30:00 - 20:00:00      
+  08/18/2003  22:00:00      
+  08/19/2003  00:00:00 - 00:30:00     
+  08/19/2003  02:00:00 - 06:00:00     
+  08/19/2003  07:00:00 - 09:00:00      
+  08/19/2003  10:00:00 - 10:30:00      
+  08/19/2003  11:30:00 - 15:30:00     
+  08/19/2003  16:30:00 - 08/20/2003  08:00:00      
+  08/20/2003  09:00:00 - 13:00:00     
+  08/20/2003  14:00:00 - 02:30:00    
+  08/21/2003  03:30:00 - 08/24/2003  02:30:00     
+  08/24/2003  03:30:00 - 14:00:00       
+  08/24/2003  15:00:00 - 08/25/2003  01:00:00     
+  08/25/2003  02:00:00 - 14:30:00      
+  08/25/2003  16:00:00      
+  08/25/2003  18:00:00 - 20:00:00      
+  08/25/2003  23:00:00 - 08/26/2003  01:30:00      
+  08/26/2003  02:30:00 - 03:00:00      
+  08/26/2003  05:30:00      
+  08/26/2003  07:30:00 - 08:30:00      
+  08/26/2003  11:00:00 - 13:30:00     
+  08/26/2003  14:30:00 - 15:00:00      
+  08/26/2003  19:00:00 - 21:00:00      
+  08/27/2003  00:30:00 - 03:30:00      
+  08/27/2003  04:30:00      
+  08/27/2003  12:00:00 - 14:30:00      
+  08/27/2003  15:30:00      
+  08/27/2003  19:30:00 - 21:30:00       
+  08/28/2003  01:30:00 - 03:00:00      
+  08/28/2003  14:00:00 - 15:30:00      
+  08/28/2003  20:00:00 - 22:00:00       
+  08/29/2003  02:00:00 - 04:00:00      
+  08/29/2003  13:00:00    2126.4
+  08/29/2003  15:30:00 - 16:00:00      
+  08/29/2003  21:30:00 - 23:00:00      
+  08/30/2003  03:00:00 - 04:30:00      
+  08/30/2003  12:30:00 - 13:00:00    
+  08/30/2003  16:30:00      
+  08/30/2003  17:00:00      
+  08/30/2003  17:30:00      
+  08/30/2003  20:00:00      
+  08/30/2003  23:00:00      
+  08/30/2003  23:30:00      
+  08/31/2003  03:30:00      
+  08/31/2003  04:00:00      
+  08/31/2003  04:30:00      
+  08/31/2003  05:00:00      
+  08/31/2003  13:30:00    
+  08/31/2003  15:30:00    
+  08/31/2003  16:30:00    
+  08/31/2003  18:00:00    
+  08/31/2003  19:00:00    
+  08/31/2003  20:00:00    
+  08/31/2003  22:30:00      
+
+September
+9/1/03 0000-9/1/03 1200, DO data removed, probe reading negative values, cause 
+unknown.
+9/1/03 0000 - 9/1/03 1200 turbidity data removed, probe fouled
+9/26/03 2330 - 9/30/03 2330 Turbidity data removed, probe fouled
+The following values for turbidity were reported as negative, most likely due 
+fouling. Data retained.
+9/18/03 1130-1600, 1800-2330
+9/19/03 000-1200, 1300-2330
+9/20/03 0000-1200, 1330-1730, 1900-2330
+9/21/03 0000-1430, 1600-1800, 2030-2330
+9/22/03 0000-1430,1530-1900,2130-2330
+9/23/03 0000-0130,0230-0400, 0500,0630-0730,1000-1500, 1800-1930, 2300-2330
+9/24/03 0000-0330,0730-0800,1200-1400,1530, 2000
+9/25/03 0100-0230
+ 
+October
+10/1/03 0000-10/8/03 1600 turbidity removed, probe fouled
+The following data are turbidity outliers (>1000 NTU), possibly due to fouling
+10/20/2003  13:30:00    1365.8
+10/22/2003  08:00:00    1363.8
+10/25/2003  00:30:00    1361.2
+10/25/2003  09:00:00    1362.7
+10/25/2003  13:00:00    1362.4
+10/25/2003  20:30:00    1364.8
+10/26/2003  00:30:00    1362.9
+10/26/2003  02:00:00    1362.9
+10/26/2003  05:30:00    1362.8
+10/26/2003  09:30:00    1363.5
+10/26/2003  14:00:00    1366.4
+10/26/2003  16:30:00    1365.8
+10/26/2003  18:00:00    1366.2
+10/26/2003  19:30:00    1365.7
+10/26/2003  21:30:00    1366.9
+10/27/2003  02:00:00    1365.5
+10/27/2003  04:00:00    1365.6
+10/27/2003  06:30:00    1365.1
+10/27/2003  08:30:00    1365.3
+10/27/2003  11:00:00    1041.7
+10/27/2003  16:00:00    1367.4
+10/27/2003  19:00:00    1366.7
+10/27/2003  21:30:00    1366.2
+10/28/2003  01:00:00    1366.0
+10/28/2003  02:00:00    1364.2
+10/28/2003  04:30:00    1365.9
+10/28/2003  06:00:00    1365.4
+10/28/2003  07:30:00    1169.9
+10/28/2003  09:00:00    1365.4
+10/28/2003  10:30:00    1365.1
+10/28/2003  14:00:00    1365.7
+10/28/2003  16:00:00    1365.9
+10/28/2003  18:30:00    1365.5
+10/28/2003  22:30:00    1364.7
+10/29/2003  03:00:00    1364.1
+10/29/2003  06:00:00    1363.6
+10/29/2003  10:00:00    1363.2
+10/29/2003  13:00:00    1364.8
+10/29/2003  15:00:00    1366.1
+10/29/2003  17:30:00    1366.8
+10/29/2003  19:30:00    1365.2
+10/29/2003  21:00:00    1365.7
+10/29/2003  23:00:00    1364.4
+10/30/2003  00:30:00 	1364.0
+10/30/2003  01:00:00    1339.0
+10/30/2003  06:00:00    1363.9
+10/30/2003  08:00:00    1362.6
+10/30/2003  11:30:00    1362.6
+10/30/2003  13:30:00    1363.5
+10/30/2003  17:30:00    1366.6
+10/30/2003  19:30:00    1366.3
+10/30/2003  21:30:00    1365.8
+10/31/2003  01:00:00    1363.8
+10/31/2003  02:30:00    1363.7
+10/31/2003  05:00:00    1364.6
+10/31/2003  08:30:00    1364.3
+10/31/2003  10:30:00    1364.3
+10/31/2003  14:00:00    1362.6
+10/31/2003  17:30:00    1366.0
+10/31/2003  21:00:00    1366.2
+10/31/2003  23:00:00    1365.1
+
+November
+11/7/03 0330 - 11/26/03 1500 temperature probe failed. Temperature, Spcond, 
+salinity, pH, Do mg/L, depth and turbidity removed.
+11/1/03 0000 - 11/6/03 1500 turbidity removed, probe fouled
+The following turbidity data are negative (a range of -0001 to –0034NTU) and/or 
+zero. Data retained but suspect. 
+    11/06/2003  16:00:00      
+    11/06/2003  16:30:00      
+    11/06/2003  19:30:00 - 20:30:00      
+    11/06/2003  23:30:00      
+    11/07/2003  00:00:00 - 03:00:00      
+    11/26/2003  15:30:00 - 11/27/2003  00:00:00     
+    11/27/2003  02:30:00 - 08:00:00     
+    11/27/2003  09:00:00 - 09:30:00     
+    11/27/2003  10:30:00 - 12:30:00     
+    11/27/2003  16:30:00 - 11/28/2003  01:30:00     
+    11/28/2003  03:00:00 - 09:00:00       
+    11/28/2003  10:00:00 - 10:30:00     
+    11/28/2003  11:30:00 - 13:30:00       
+    11/28/2003  17:00:00 - 11/29/2003  14:30:00       
+    11/29/2003  15:30:00      
+    11/29/2003  16:30:00 - 11/30/2003  15:30:00     
+    11/30/2003  16:30:00 - 23:30:00  
+pH data suspect for deployment 11/26/03 1530 – 12/25/03 1000. pH not cycling as 
+is normal for this site. Cause unknown, possible undetected probe failure. 
+
+December
+The following turbidity values negative (range –0001 to –0034 NTU), cause 
+unknown. Calibration readings were in reasonable range. Data retained but 
+suspect.
+Date       Time      Turb
+ 12/01/2003  00:00:00 - 12/04/2003  02:30:00     
+ 12/04/2003  03:30:00 - 07:00:00      
+ 12/04/2003  09:00:00 - 12/05/2003  05:00:00      
+ 12/05/2003  06:00:00 - 07:30:00     
+ 12/05/2003  09:30:00 - 12/06/2003  08:00:00     
+ 12/06/2003  09:00:00 - 12/07/2003  08:30:00     
+ 12/07/2003  10:30:00 - 12/08/2003  06:00:00      
+ 12/08/2003  07:00:00 - 10:00:00      
+ 12/08/2003  11:30:00 - 12/09/2003  10:00:00       
+ 12/09/2003  11:00:00 - 12/11/2003  08:30:00       
+ 12/11/2003  09:30:00 - 11:30:00     -
+ 12/11/2003  13:30:00 - 12/12/2003  12:30:00     
+ 12/12/2003  14:00:00 - 12/13/2003  13:30:00        
+ 12/13/2003  15:00:00 - 12/14/2003  13:30:00     
+ 12/14/2003  14:30:00 - 12/15/2003  14:00:00     
+ 12/15/2003  15:00:00        
+ 12/15/2003  16:00:00 -12/17/2003  12:30:00     
+ 12/17/2003  13:30:00     
+ 12/17/2003  14:30:00 - 12/19/2003  02:30:00     
+ 12/19/2003  03:30:00 - 12/20/2003  07:00:00     
+ 12/20/2003  09:30:00 - 12/20/2003  19:00:00     
+ 12/20/2003  20:00:00 - 12/21/2003  03:00:00      
+ 12/21/2003  04:30:00 - 07:30:00     
+ 12/21/2003  11:00:00 - 20:00:00     
+ 12/21/2003  22:00:00 - 12/22/2003  04:00:00      
+ 12/22/2003  06:30:00 - 08:30:00     
+ 12/22/2003  12:30:00 - 17:00:00     
+ 12/22/2003  19:00:00 - 21:00:00     
+ 12/23/2003  00:00:00      
+ 12/23/2003  00:30:00 - 03:00:00     
+ 12/23/2003  04:00:00 - 04:30:00      
+ 12/23/2003  07:30:00        
+ 12/23/2003  08:30:00 - 09:00:00      
+ 12/23/2003  13:30:00 - 15:30:00     
+ 12/23/2003  17:00:00 - 17:30:00        
+ 12/23/2003  20:00:00 - 22:00:00      
+ 12/24/2003  01:00:00 - 04:30:00      
+ 12/24/2003  05:30:00      
+ 12/24/2003  06:30:00     
+ 12/24/2003  08:00:00     
+ 12/24/2003  09:30:00      
+ 12/24/2003  10:00:00 - 10:30:00        
+ 12/24/2003  15:00:00 - 16:30:00     
+ 12/24/2003  18:00:00      
+ 12/24/2003  20:30:00 - 22:30:00       
+ 12/25/2003  01:30:00 - 06:00:00     
+ 12/25/2003  07:30:00      
+The following turbidity values negative (range –0001 to –0034 NTU), cause 
+unknown. Post calibration readings were 84.0 NTU. Data retained but suspect.
+ 12/25/2003  16:00:00 - 17:30:00      
+ 12/26/2003  03:30:00 - 05:00:00     
+ 12/26/2003  17:00:00 - 18:00:00      
+ 12/27/2003  04:30:00 - 06:30:00      
+ 12/27/2003  08:00:00      
+ 12/27/2003  17:00:00 - 19:00:00      
+ 12/28/2003  04:30:00 - 08:00:00      
+ 12/28/2003  17:30:00 - 20:30:00      
+ 12/29/2003  02:00:00      
+ 12/29/2003  04:30:00 - 10:00:00      
+ 12/29/2003  14:30:00      
+ 12/29/2003  18:00:00 - 22:30:00      
+ 12/30/2003  02:00:00      
+ 12/30/2003  03:00:00 - 03:30:00      
+ 12/30/2003  05:00:00 - 09:00:00      
+ 12/30/2003  10:30:00 - 11:30:00      
+ 12/30/2003  13:00:00 - 22:30:00     
+ 12/30/2003  23:30:00      
+ 12/31/2003  00:00:00      
+ 12/31/2003  01:00:00      
+ 12/31/2003  03:00:00 - 04:00:00        
+ 12/31/2003  05:30:00 - 10:30:00     
+ 12/31/2003  11:30:00 - 16:00:00     
+ 12/31/2003  17:00:00 - 23:30:00     
+
+ 
+
+12. Missing Data:
+
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post problems.  For more details on deleted data, see 
+the Anomalous Data Section (11).  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.   
+
+
+
+13. Post Deployment information:
+
+Hunt Dock:
+
+Deployment	SpCond			DO%	pH	      depth	    	turb	
+File:	      found/true		found/true		     found/true	
+Hd030107	25.76/24.8		109	7.58/7.41	-0.055		na		
+Hd030206	25.21/24.8		126	6.86/7.41	-0.096		107.6/100
+Hd030311	24.62/24.8		112	7.25/7.41	-0.051		108/100
+Hd030405	24.35/24.8		124	7.20/7.41	-0.30		na
+Hd030421	25.94/24.8		115	broken		-0.144		fouled
+Hd030513	24.33/24.8		110	broken		-.074		103.4/100
+Hd030611	24.9/24/8		110	broken		-0.105		113.8
+Hd030630	23.36/24.8		175	broken		-0.064		107
+Hd030804	23.87	/24.8		112	7.0/7.41	-0.28		na
+Hd030901	24.6/24.8		95	broken				114
+Hd031008	sonde pulled out of water approx. 10/14
+Hd031106	24.71/24.8		90	7.48/7.41	-0.143		98
+Hd031128	24.75/24.8		110	7.49/7.41	-0.014		na
+Hd031224	25.5/24.8		92	7.25/7.41	0.004		63.3
+
+Flume dock:
+Deployment	SpCond			DO%	pH	      depth	   	turb	
+File:	      found/true		found/true		     found/true	
+Fd030107	
+Fd030205	18.42/24.8		101	7.57/7.41	-0.108		73.7/100
+Fd030310 				13			-0.035	wiper fell off, 
+fouled
+Fd030405	18.3/24.8		44	7.48/7.41			99.3/100
+Fd030421	25.66/24.8		111	7.55/7.41	-0.087		106/100
+Fd030504	20.46/24.8		96.9	8.0/7.41	-0.103		110/100
+Fd030531	23.62/24.8		**	7.0/7.41	0.07		>1000		
+Fd030611	19.36/24.8		90	7.65/7.41	000		207/100
+Fd030630				12	7.38/7.41	-0.054		85/100
+Fd030718	22.7/24.8		6	7.42/7.41	-0.026		1356/100
+Fd030804	18.11/24/8		70	7.0/7.41	-0.03		87.54/100
+Fd030901		
+Fd030918	23.10/24.8		30	7.18/7.41	-0.043
+Fd031015	temp probe not working, no data accepted
+Fd031025	24.3/24.8		99	7.51/7.4	-0.112		98/100
+Fd031106	27.33/24.8		75	6.85/7.41	0.026		95/100
+Fd031128	23.9/24.8		108	7.36/7.41	0.022		160/100
+Fd031224	27.76/24.8		101	6.55/7.41	0.105		108/100
+
+Lower Duplin
+Deployment	SpCond			DO%	pH	      depth	    	turb	
+File:	      found/true		found/true		     found/true	
+Ld030113	sonde failure	
+Ld030127	25.71/24.8		97.3	7.55/7.41	-0.148		na
+Ld030227	24.43/24.8		105	7.69/7.41	-0.106		123.9
+Ld030401	26.68/24.8		110	7.37/7.41	-0.080		95.8/100
+Ld030504	25.8/24.8		110	7.33/7.41	.313		na
+Ld030519	25.96/24.8		110	9.65/7.41	-0.219		101.9/100
+Ld030604	sonde failure
+Ld030623	26.60/24.8		102	7.15/7.41	-0.057		105.5/100
+Ld030728	26.3/24.8		103	7.24/7.41	0.035		96.3/100
+Ld030901	24.65/24.8		85	7.43/7.41	-0.047		117
+Ld031008	24.01/24.8		101	7.30/7.41	-0.058		107/100
+Ld031106	25.6/24.8		106	7.33/7.4	-0.04		1353/100
+Ld031126	24.88/24.8		157	8.0/7.41	-0.003		100/100
+Ld031225
+
+Marsh Landing
+Deployment	SpCond			DO%	pH	      depth	     	turb	
+File:	      found/true		found/true		     found/true	
+Ml030116	22.96/24.8		100	10.1/10.4	-0.022		85.6/100
+Ml030127	25.05/24.8		100	7.25/7.41	-0.075		104/100
+Ml030226	18.71/24.8		22	7.78/7.41	0.093		115/100
+Ml030327	15/24.8			10	7.79/7.41	-0.140		162/100
+Ml030417	21.64/24.8		231	7.63/7.41	-0.105		128/100
+Ml030502	19.18/24.8		73	9.67/7.41	0.069		
+Ml030519	20.20/24.8		**	7.75/7.41	-0.112		130.8
+Ml030604	barnacle growth severe, turb. Wiper missing
+Ml030623	24.89/24.8		76	7.55/7.41	0.06		
+Ml030710	21.58/24.8		52	7.88/7.41	-0.094		800/100
+Ml030818	23.72/24.8		78	7.30/7.41	-0.066		110/100
+Ml030918	20.11/24.8		84	7.29/7.41	-0.105		175/100
+Ml031008	25.4/24.8		150	7.20/7.41	-0.038		130/100
+Ml031020	23.16/24.8		102	7.49/7.41	-0.077		103/100
+Ml031106	temperature probe failed
+Ml031126	22.8/24.8		107	7.02/7.41	0.055		92/100
+Ml031225	25/24.8			106	7.34/7.41	0.114		84/100
+
+
+
+14. Other remarks:
+Any time a reference is made to turbidity data being negative and/or zero, it 
+was recorded as a negative in the raw data file and a zero in the edited data 
+file due to the formatting of Excel. The technician edited none of these data 
+points by hand nor did he/she delete any of them.  
+
+If the sonde was exposed at low tide, the data was retained.  It will be self 
+evident that the sonde was exposed at low tide by looking at salinity values and 
+depth.
+
+

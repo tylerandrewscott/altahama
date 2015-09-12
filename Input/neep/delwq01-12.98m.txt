@@ -1,0 +1,1126 @@
+Delaware (DEL) National Estuarine Research Reserve Water Quality Metadata 
+(January-December 1998)
+Latest Revision: April 30, 2002
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+David B. Carter, Environmental Program Manager (P.I.)
+James D. Hewes, Environmental Scientist 
+Susan Love, Environmental Scientist Intern, (July 97 to July 98)
+Carl Yetter, Environmental Engineer (C.P.)
+Lonnie Dye, Mini-Micro Computer Operator
+Richard Field, Research Scientist, University of Delaware (C.P.)
+Vinton Valentine, Graduate Student, University of Delaware
+
+Delaware Coastal Management/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation
+P.O. Box 1401
+Dover, Delaware 19903
+Phone: (302) 739-3451
+
+e-mail: 	dcarter@dnrec.state.de.us 
+		jhewes@dnrec.state.de.us
+		cyetter@dnrec.state.de.us
+		ldye@dnrec.state.de.us
+		slove@dnrec.state.de.us 
+
+	rtfield@earthview.cms.udel.edu		University of Delaware CMS
+	vinton@triton.cms.udel.edu			C/O Lorna Hobart
+								107 Robinson Hall, U of D
+								Newark, Delaware 19716
+								Phone: (302) 831-2695 ext. 4697
+
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6000 upg 
+datalogger to a PC.  Edited files are created by removing the headers, footers, 
+and spaces on a PC.  Missing data from YSI 6000 maintenance (downtime) is 
+inserted into the spreadsheet and are denoted by periods (.).  Data and graphs 
+are visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QCâd using Excel 5.0 
+CDMO macros.  Edited files are merged to contain one full month of data.  Edited 
+and merged monthly files are also transferred to NERRS Central Data Management 
+Office.  James Hewes and Lonnie Dye are responsible for the editing and 
+archiving of these data.
+
+3.  Research Objectives:
+Measurements are taken every 30 minutes over two week periods at two sites in 
+the St. Jones River component and one site in the Blackbird Creek component of 
+Delaware's National Estuarine Research Reserve.  The St. Jones River is impacted 
+by urbanization upstream and extensive agricultural activity throughout the 
+basin.  The Blackbird Creek is one of the least impacted riverine systems in 
+Delaware.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program.  
+Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to a piling 
+at Scotton Landing and a bridge at Blackbird Landing and Penrose Branch using 
+stainless steel brackets and bolts.  Each YSI 6000 is lowered into the PVC pipe 
+that has eight (8) two-inch diameter holes cut out at the bottom for the probes 
+to have direct contact with the water column.  A large stainless steel bolt was 
+placed at the bottom end of the PVC pipe which maintained each YSI 6000 at each 
+site exactly one foot (30 cm) above the river bottom.  Every half-hour over a 
+two-week period, measurements of specific conductivity, salinity, percent 
+saturation, dissolved oxygen, temperature, pH, water level and turbidity are 
+recorded.  Seven days after the deployment of each YSI 6000, the dissolved 
+oxygen membrane is cleaned with a Kimwipe dipped in methanol.  Two-week sampling 
+intervals were selected due to limitations created by the dissolved oxygen 
+membrane. At the end of each two-week period, the YSI 6000 is brought back to 
+the office for downloading, cleaning, and recalibration. Calibrations performed 
+include: dissolved oxygen, specific conductivity using Oakton 12,880 uS 
+standard, turbidity using AMCO AEPO-1 Standard at 100 NTU and distilled water, 
+pH using Fisher pH 4.00, 7.00 and 10.00 buffers, and depth.  These procedures 
+are carried out according to the methods as described in the YSI Model 6000 
+Operating and Service Manual.  After approximately six hours of down time for 
+cleaning and recalibration, the YSI 6000's are redeployed for another two-week 
+period. Data files are QA/QCâd using Excel 5.0 CDMO macros.  Edited files are 
+merged to contain one full month of data.  Edited and merged monthly files are 
+also transferred to NERRS Central Data Management Office.
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the State Capitol City, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are three sampling sites, two located in St. Jones 
+component and one in the Blackbird Creek component.
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, just up stream of Delaware Route 113.  The site is 
+influenced by freshwater runoff from the relatively urbanized area upstream.  
+Salinity ranges from 8 - 30 ppt.
+             	Tidal Range: Spring Mean (m) ö 1.26
+		       Neap Mean (m) ö 1.13
+Position:  Latitude     39 degree 05'  05.9160"  N
+                              Longitude  75 degree 27'  38.1049"  W
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The site is influenced by freshwater runoff from unimpacted 
+forested areas intermixed with agricultural land uses and a small amount of low-
+density development.  Salinity ranges from 2-7 ppt.
+	Tidal Range: Spring Mean (m) ö 1.12
+		       Neap Mean (m) ö 1.13
+            	Position:  Latitude      39 degree 23'  19.5196"  N
+		  Longitude   75 degree 38'  09.5882"  W
+3) Penrose Branch - is located in the headwaters of the St. Jones Basin, north 
+of Dover and along Pearsons Corner Road.  The site is predominately a forested 
+wetland tributary system with agricultural land uses along the subcatchments 
+fringe.  Salinity is 0.00 ppt.
+	Tidal Range: Not Applicable, freshwater 
+	Position:	Latitude      39 degree 09'  52.77"  N
+		Longitude   75 degree 39'  01.52"  W
+
+6.  Data collection period:
+Scotton Landing data collection began on July 1, 1995.  Blackbird Landing data 
+collection began on July 14, 1995. Penrose Branch data collection began on June 
+1,1996.  All sampling is ongoing.
+
+7.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted stormwater sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin.An additional stormwater sampling program is 
+underway to analyze the impact of agricultural BMP's at sites in the Blackbird 
+Creek Watershed, St. Jones River Watershed.A joint effort underway through 
+NOAA's Center for Coastal Ecosystem Health and the DNERR characterization 
+studies will initiate detailed monthly water quality sampling at three sites in 
+each river over a two year period and will quantify the phytoplankton community 
+with collections from the same sites.   This project was scheduled to be 
+initiated in February 1995.(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+Variable    Range of Measurements (Units)       Resolution           Accuracy
+DATE        1-12, 1-31, 00-99 (Mo,Day,Yr)      1 mo, 1day, 1 yr      N/A
+HOUR        0-24, 0-60, 0-60 (Hr,Day,Sec)      1 hr, 1 min., 1 sec.  N/A
+TEMP        -5 to 45 (degrees C)               0.01 C                +/-0.15 C
+SPCOND           0-100 (mS/cm)                 0.01 mS/cm            +/-0.5% of 
+reading + 0.001 mS/cm
+SALINITY    0-70 parts per thousand (ppt)      0.01 ppt              +/-1.0% of 
+reading or 0.1 ppt, (whichever is greater)
+DOSAT       0-200 (% air Saturation)           0.1% @air saturation  +/-2% @air 
+saturation
+DOSAT       200-500 (% air Saturation)         0.1% @air saturation  +/-6% @air 
+saturation
+DOMG             0-20 (mg/l)                   0.01 mg/l             +/-0.2 mg/l
+DOMG             20-50 (mg/l)                  0.01 mg/l             +/-0.6 mg/l
+DEPTH            0-9.1 (m)                     0.001 m               +/-0.018 m
+PH               2-14 units                    0.01 units          +/-0.2 units
+Turb             0-1000 NTU                    0.1 NTU               +/-5% of 
+reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.
+
+9. Coded variable indicator and variable code definitions:
+Site definitions:  SL = Scotton Landing, BL = Blackbird Landing, PB = Penrose 
+Branch
+
+10. Data anomalies (suspect data):
+
+January 1, 1998 through March 31, 1998
+
+A. Scotton Landing
+a) Turbidity (NTU) value on January 16, 1998 at 16:00:00 out of range, -0763, 
+possible obstruction, data retained.
+b) Turbidity (NTU) values between January 28, 1998 08:30:00 through January 28, 
+1998 10:30:00 were out of 
+range, possible obstruction, data retained.
+c) Turbidity (NTU) values between February 4, 1998 15:00:00 through February 4, 
+1998 17:30:00 were out of 
+range, possible obstruction, data retained.
+d) Turbidity (NTU) value on February 8, 1998 at 23:00:00 out of range, -0055, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on February 14, 1998 at 12:00:00 out of range, -0711, 
+possible obstruction, data 
+retained.
+f) Turbidity (NTU) value on February 14, 1998 at 12:30:00 out of range, -0867, 
+possible obstruction, data 
+retained.
+g) Turbidity (NTU) value on February 17, 1998 at 21:30:00 out of range, -0693, 
+possible obstruction, data 
+retained.
+h) Turbidity (NTU) values between February 23, 1998 19:00:00 through February 
+23, 1998 20:00:00 were out of 
+range, possible obstruction, data retained.
+i) Turbidity (NTU) value on March 20, 1998 at 19:00:00 out of range, -0800, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on March 21, 1998 at 03:0000 out of range, 1024, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on March 24, 1998 at 09:30:00 out of range, -0796, 
+possible obstruction, data retained.
+
+
+B. Blackbird Landing
+a) SpCond (mS/cm), Salinity (ppt), and Depth (m) values on January 1, 1998 
+08:30:00 through January 1, 1998 
+09:30:00 are very low during low tide.  Major coastal storm occurred on December 
+29-30, 1997.  Data retained.
+b) Turbidity (NTU) values between January 1, 1998 11:30:00 through January 1, 
+1998 12:30:00 are large positive 
+readings, 0227-0207.  Major coastal storm occurred on December 29-30, 1997.  
+Data retained.
+c) Turbidity (NTU) value on January 3, 1998 11:30:00 is large positive reading, 
+0248.  Reason not apparent but 
+major coastal storm occurred on December 29-30, 1997.  Data retained.
+d) Turbidity (NTU) value on February 4, 1998 at 06:30:00 out of range, -0734, 
+possible obstruction, data retained.
+
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) Temperature and DO spiked while depth decreased on 01/04/98 16:00-16:30; 
+anomalous event
+c) Temperature decreased, DO and depth spiked on 1/5 17:00; anomalous event
+d) Temperature and pH decreased, DO, depth and salinity spiked on 1/6 23:00; 
+anomalous event
+e) DO spiked on 1/7 08:30; anomalous event
+f) Depth (m) value on February 18, 1998 at 13:30:00 out of range, 30.16, value 
+deleted because the value was too 
+large of a reading, reason unknown (see Missing Data section); temperature and 
+DO also spiked on 2/18 13:30 but were not removed from the dataset.  
+g) Depth (m) values on March 9, 1998 from 10:30:00 to 11:00:00 out of range, 
+101.21 & -0.48, values deleted 
+because the values returned to normal after 11:30:00, reason unknown (see 
+Missing Data section).
+h) D.O. values on March 9, 1998 from 10:30:00 to 11:00:00 were out of range, -
+10.5 % & -099.9 mg/l, values 
+returned to normal after 11:30:00, values were deleted (see Missing Data 
+section); pH also spiked at this time possibly due to the many leaves in the 
+cage when the unit was pulled on 3/11.  
+i) Depth (m) value on March 14, 1998 at 14:00:00 out of range, -3.29, value 
+deleted because the value was too 
+small of a reading, reason unknown (see Missing Data section); temperature and 
+pH also spiked while DO decreased at this time but none were removed from the 
+dataset.  
+
+April 1, 1998 through June 30, 1998
+
+A. Scotton Landing
+a) Turbidity (NTU) value on April 26, 1998 at 04:30:00 out of range, 1641, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on May 9, 1998 at 21:30:00 out of range, 1100, possible 
+obstruction, data retained.
+c) Turbidity (NTU) value on May 26, 1998 at 18:00:00 out of range, 1716, 
+possible obstruction, data retained.
+d) D.O. values between May 29, 1998 15:00:00 through June 8, 1998 08:30:00 were 
+very high and sporadic due to 
+a possible membrane puncture, data removed (see Missing Data section).  Membrane 
+replaced during 
+maintenance, values stabilized to normal levels. 
+e) Turbidity (NTU) value on June 6, 1998 at 16:00:00 out of range, 1698, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on June 19, 1998 at 09:30:00 out of range, 1273, 
+possible obstruction, data retained.
+
+B.    Blackbird Landing
+a) Turbidity (NTU) value on April 19, 1998 10:00:00 out of range, 1684, possible 
+obstruction , data retained.
+b) Turbidity (NTU) values between April 19, 1998 13:30:00 through April 19, 1998 
+20:00:00 are large positive 
+readings, 0536-1108.  Additionally, turbidity (NTU) values on April 19, 1998 
+15:30:00, 1019, and on April 19, 
+1998 18:00:00, 1108, out of range, fouling probable.  Data retained.
+c) Turbidity (NTU) values between May 4, 1998 03:30:00 through May 5, 1998 
+07:30:00 are large positive 
+readings, 0333-1467, with many values out of range (>1000).  Fouling probable, 
+possible obstruction.  Data 
+retained.
+d) Turbidity (NTU) value on May 25, 1998 06:30:00 is a large positive value, 
+0291.  Reason not apparent.  Data 
+retained.
+e) Turbidity (NTU) values between May 25, 1998 08:00:00 through May 26, 1998 
+03:00:00 are large positive 
+readings with many values out of range (>1000).  Fouling probable.  Data 
+retained.
+f) Turbidity (NTU) values between May 26, 1998 19:30:00 through May 29, 1998 
+02:30:00 are large positive 
+readings with many values out of range (>1000).  Fouling probable.  Data 
+retained.
+g) Turbidity (NTU) values between May 29, 1998 07:30:00 through May 29, 1998 
+19:30:00 are large positive 
+readings with many values out of range (>1000).  Fouling probable.  Data 
+retained.
+h) Turbidity (NTU) values between May 30, 1998 13:30:00 through May 31, 1998 
+21:30:00 are large positive 
+readings with many values out of range (>1000).  Fouling probable, possible 
+obstruction.  Data retained.
+
+
+C.    Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+
+July 1, 1998 through September 30, 1998
+
+A.    Scotton Landing
+a) Turbidity (NTU) value on July 21, 1998 at 16:30:00 out of range, 1033, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on July 21, 1998 at 18:00:00 out of range, 1571, 
+possible obstruction, data retained.
+c) D.O. values between August 2, 1998 11:30:00 through August 4, 1998 07:30:00 
+were very high and sporadic 
+due to a membrane puncture, data removed (see Missing Data section).  Membrane 
+replaced during 
+maintenance, values stabilized to normal levels.
+d) Turbidity (NTU) value on August 14, 1998 at 17:30:00 out of range, 1828, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on August 16, 1998 at 06:00:00 out of range, 1235, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on August 17, 1998 at 09:30:00 out of range, 1554, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on August 18, 1998 at 01:00:00 out of range, 1550, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on August 25, 1998 at 07:00:00 out of range, 1375, 
+possible obstruction, data retained.
+i) DO data deleted from September 1, 1998 02:30:00 through September 11, 1998
+07:30:00 due to membrane puncture.  
+j) Turbidity (NTU) value on September 6, 1998 at 10:30:00 out of range, 1347, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on September 8, 1998 at 18:00:00 out of range, 1350, 
+possible obstruction, data retained.
+l) Turbidity (NTU) value on September 28, 1998 at 03:00:00 out of range, -0.1, 
+read as zero, consistent with low 
+value trend , data retained.
+m) Turbidity (NTU) value on September 28, 1998 at 16:30:00 out of range, -0.1, 
+read as zero, consistent with low 
+value trend , data retained.
+n) Turbidity (NTU) value on September 30, 1998 at 06:00:00 out of range, -0.1, 
+read as zero, consistent with low 
+value trend , data retained.
+
+B.    Blackbird Landing
+a) Turbidity (NTU) value on July 3, 1998 23:30:00 is a large positive reading, 
+0234.  Reason not apparent.  Data 
+retained.
+b) Turbidity (NTU) values between July 19, 1998 09:00:00 through July 19, 1998 
+09:30:00 are a spike, 0200 and 
+0195, values above the overall data trend.  Reason not apparent.  Data retained.
+c) Turbidity (NTU) value on July 23, 1998 20:00:00 is a large positive reading, 
+0322.  Reason not apparent.  Data 
+retained.
+d) Turbidity (NTU) values between July 24, 1998 12:30:00 and July 24, 1998 
+15:00:00 are large positive readings, 
+0225-0718.  Possible obstruction.  Data retained.
+e) SpCond (mS/cm) value on September 8, 1998 03:00:00 is a spike, 009.04, value 
+above the overall data trend.  
+Reason not apparent.  Data retained.
+f) Turbidity (NTU) value on September 26, 1998 08:30:00 is a spike, 0193, value 
+above the overall data trend.  
+Reason not apparent.  Data retained.
+g) Turbidity (NTU) value on September 30, 1998 08:00:00 is a spike, 0169, value 
+above the overall data trend.  
+Reason not apparent.  Data retained.
+
+
+C.    Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) D.O. values during deployment fell below normal range, negative values, in 
+large segments of time. Location 
+experienced a drought, which caused decrease in depth and anoxic environmental 
+conditions.  All data retained.
+c) Anomalous temperature spike on 7/4 15:00
+d) pH decrease on 7/14 14:30 could be due to probe fouling since this reading 
+was taken near the end of the deployment.
+e) Anomalous temperature decrease and depth spike on 7/15 11:00
+f) Anomalous temperature and depth spike on 7/15 21:00
+g) D.O. values on August 1, 1998 from 10:30:00 to 11:00:00 were out of range, -
+0.012 % & -0.01 mg/l, values 
+were deleted (see Missing Data section).
+
+October 1, 1998 through December 31, 1998
+
+A.    Scotton Landing
+a) Turbidity (NTU) value on October 1, 1998 at 06:30:00 out of range, -0.2, read 
+as zero, consistent with low 
+value trend , data retained.
+b) Turbidity (NTU) value on October 10, 1998 at 02:30:00 out of range, -0.1, 
+read as zero, consistent with low 
+value trend , data retained.
+c) D.O. values between October 23, 1998 15:30:00 through November 9, 1998 
+09:00:00 were very high and 
+sporadic due to a membrane puncture, data removed (see Missing Data section).  
+Membrane replaced during 
+maintenance, values stabilized to normal levels.
+d) No anomalies for the month of December.
+
+
+B.    Blackbird Landing
+a) Turbidity (NTU) values between October 2, 1998 23:00:00 through October 4, 
+1998 16:00:00 are large positive 
+readings, 0250-1608 range, with values out of range (>1000) between October 3, 
+1998 03:00:00 through 
+October 4, 1998 05:30:00 and on October 4, 1998 09:30:00.  Possible obstruction 
+with subsequent fouling.  
+Data retained.
+b) Turbidity (NTU) value on November 28, 1998 16:30:00 is a spike, 0075, value 
+above the overall data trend.  
+Reason not apparent.  Data retained.
+
+
+C.    Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times. 
+b) D.O. values during deployment fell below normal range, negative values, in 
+large segments of time. Location 
+experienced a drought, which caused decrease in depth and anoxic environmental 
+conditions.  All data retained.
+c) Depth (m) value on November 8, 1998 at 03:30:00 out of range, -0.95, value 
+deleted because the values 
+returned to normal after anomaly, reason unknown (see Missing Data section).
+d) pH value on November 8, 1998 at 03:30:00 out of range, 02.0, value deleted 
+because the values returned to 
+normal after anomaly, reason unknown (see Missing Data section).
+e) Temperature (oC) value on November 8, 1998 at 03:30:00 within range, 22.1, 
+however, value is outside of trend 
+during deployment, unknown reason, data retained.
+f) Temperature (oC) value on November 14, 1998 at 15:00:00 out of range, -10.0, 
+value is outside of trend during 
+deployment, unknown reason, data removed (see Missing Data section); 
+spcond/salinity spike and pH decrease also occurred on this date but were not 
+removed from the dataset
+g) Temperature spike on 11/14 19:30 – anomalous
+h) DO spike on 12/10 15:00 may be due to redeployment of a new instrument which 
+occurred on 12/10 14:00.
+
+11. Missing Data
+
+January 1, 1998 through March 31, 1998
+
+A. Scotton Landing
+a) No data are available between January 6, 1998 10:30:00 through January 6, 
+1998 16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between January 22, 1998 17:30:00 through January 23, 
+1998 16:30, 16 day cycle ended 
+on January 22, 1998 17:00:00, retrieved on January 23, 1998 09:15:00 for 
+maintenance, calibration, and service 
+of dataloggers.
+c) No data are available between February 10, 1998 10:00:00 through February 10, 
+1998 17:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between February 17, 1998 04:30:00 through February 17, 
+1998 08:00:00 due to disk 
+storage problems.  By using Norton Utilities the storage diskette was found to 
+contain bad sectors which caused 
+a loss of the data.   Duplication of other data areas were removed and the 
+appropriate dates and times were 
+inserted with ã.ä filling in the missing data.
+e) No data are available between February 21, 1998 11:30:00 through February 21, 
+1998 13:30:00 due to disk 
+storage problems.  By using Norton Utilities the storage diskette was found to 
+contain bad sectors which caused 
+a loss of the data.   Duplication of other data areas were removed and the 
+appropriate dates and times were 
+inserted with ã.ä filling in the missing data.
+f) No data are available between February 25, 1998 17:30:00 through February 25, 
+1998 18:00:00 due to disk 
+storage problems.  By using Norton Utilities the storage diskette was found to 
+contain bad sectors which caused 
+a loss of the data.   Duplication of other data areas were removed and the 
+appropriate dates and times were 
+inserted with ã.ä filling in the missing data.
+g) No data are available between February 27, 1998 12:00:00 through February 28, 
+1998 23:30:00 due to internal 
+errors.  Datalogger was retrieved on February 27, 1998 at 11:50:00 and brought 
+in for maintenance, calibration, 
+and service.  Upon deployment all readings for two week interval were not 
+recorded.  Discussion with YSI 
+technician determined that datalogger was in need of software update to correct 
+the problem.
+h) No data are available between March 1, 1998 00:00:00 through March 12, 1998 
+15:30:00 due to internal errors.  
+Datalogger was retrieved on February 27, 1998 at 11:50:00 and brought in for 
+maintenance, calibration, and 
+service.  Upon deployment all readings for two week interval were not recorded.  
+Discussion with YSI 
+technician determined that datalogger was in need of software update to correct 
+the problem.
+i) No data are available between March 17, 1998 10:00:00 through March 17, 1998 
+10:30:00, due to test 
+download to assure software update was successful.
+j) No data are available between March 25, 1998 10:00:00 through March 31, 1998 
+23:30:00, unknown causes.
+
+
+B. Blackbird Landing
+a) No data are available between January 4, 1998 13:30:00 through January 5, 
+1998 16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between January 18, 1998 02:00:00 through January 21, 
+1998 08:00:00, loss of power on 
+January 18 due to low battery output, unit retrieved on January 21, 1998 
+08:20:00 for maintenance, calibration, 
+and service.
+c) No data are available between January 21, 1998 08:30:00 through January 22, 
+1998 08:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b)  No data are available between February 2, 1998 08:00:00 through February 3, 
+1998 08:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c)  No data are available between February 17, 1998 08:00:00 through February 
+18, 1998 08:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d)  No data are available between February 18, 1998 09:00:00 through February 
+28, 23:30:00, loss of power on 
+February 18 possibly due to draw from malfunctioning turbidity probe.
+e)  No data are available between March 1, 1998 00:00:00 through March 3, 
+08:00:00, loss of power on February 
+18 possibly due to draw from malfunctioning turbidity probe, unit retrieved on 
+March 3, 1998 08:15:00 for 
+maintenance, calibration, and service.
+f)  No data are available between March 3, 1998 08:30:00 through March 4, 1998 
+17:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+g)  Turbidity (NTU) values between March 4, 1998 17:30:00 through March 31, 1998 
+23:30:00 are not available 
+because malfunctioning turbidity probe had been removed and sent to YSI for 
+service.
+h)  No data are available between March 17, 1998 08:30:00 through March 18, 1998 
+17:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+
+
+C. Penrose Branch
+a) Depth (m) value on January 4, 1998 at 16:00:00 out of range, -0.26, value 
+deleted because the value was a 
+negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+b) No data are available between January 6, 1998 09:30:00 through January 6, 
+1998 16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+c) Depth (m) values between January 8, 1998 11:30:00 through January 8, 1998 
+15:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) Depth (m) values between January 9, 1998 11:00:00 through January 9, 1998 
+13:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+e) No data are available between January 22, 1998 17:30:00 through January 23, 
+1998 16:30, 16 day cycle ended 
+on January 22, 1998 17:00:00, retrieved on January 23, 1998 09:55:00 for 
+maintenance, calibration, and service 
+of dataloggers.
+f) No data are available between February 10, 1998 11:00:00 through February 12, 
+1998 12:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.  Longer downtime due to 
+difficulties in calibration of D.O. 
+became stabilized on February 12, 1998.
+g) Depth (m) value on February 18, 1998 at 13:30:00 out of range, 30.16, value 
+deleted because the value was too 
+large of a reading, reason unknown.
+h) No data are available between February 24, 1998 07:30:00 through February 24, 
+1998 08:30:00 due to water 
+and corrosion in the battery compartment.
+i) No data are available between February 24, 1998 10:00:00 through February 24, 
+1998 13:00:00 due to water 
+and corrosion in the battery compartment.
+j) No data are available on February 24, 1998 at 17:30:00 due to water and 
+corrosion in the battery compartment.
+k) No data are available between February 24, 1998 19:30:00 through February 24, 
+1998 23:00:00 due to water 
+and corrosion in the battery compartment.
+l) No data are available between February 25, 1998 06:00:00 through February 25, 
+1998 10:00:00 due to water 
+and corrosion in the battery compartment.
+m) No data are available between February 25, 1998 11:30:00 through February 28, 
+1998 23:30:00 due to water 
+and corrosion in the battery compartment.
+n) No data are available between March 1, 1998 00:00:00 through March 3, 1998 
+16:30:00 due to water and 
+corrosion in the battery compartment.
+o) No depth or D.O. data are available on March 9, 1998 10:30:00 through March 
+9, 1998 11:00:00 for unknown 
+reasons.  Data values returned to normal parameters after anomaly occurred.
+p) No data are available between March 11, 1998 10:30:00 through March 11, 1998 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+q) Depth (m) value on March 14, 1998 at 14:00:00 out of range, -3.29, value 
+deleted because the value was too 
+small of a reading, reason unknown (see Missing Data section).
+r) No data are available between March 24, 1998 15:00:00 through March 25, 1998 
+11:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+s) Depth (m) values between March 27, 1998 20:00:00 through March 31, 1998 
+23:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+
+April 1, 1998 through June 30, 1998
+
+A.    Scotton Landing
+a) No data are available between April 1, 1998 00:00:00 through April 9, 1998 
+16:00:00, unknown causes.  Sonde 
+was retrieved on April 9, 1998 at 11:05:00 for maintenance, calibration, and 
+service of dataloggers.
+b) No data are available between April 22, 1998 09:30:00 through April 23, 1998 
+11:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between April 30, 1998 10:30:00 through April 30, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between May 13, 1998 08:30:00 through May 13, 1998 
+15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between May 29, 1998 10:30:00 through May 29, 1998 
+14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No D.O. data available between May 29, 1998 15:00:00 through June 8, 1998, 
+08:30:00, possible membrane 
+puncture during deployment, unable to determine where puncture occurred.
+g) No data are available between June 8, 1998 09:00:00 through June 8, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+h) No pH data are available between June 8, 1998 17:00:00 through June 23, 1998 
+09:30:00, failing probe was 
+removed, no spare probe in stock for replacement, sensor shut off during 
+deployment.
+i) No data are available between June 23, 1998 10:00:00 through June 23, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+
+
+B.    Blackbird Landing
+j) Turbidity (NTU) values between April 1, 1998 00:00:00 through April 2, 1998 
+09:00:00 are not available 
+because malfunctioning turbidity probe had been removed and sent to YSI for 
+service.
+k) No data are available between April 2, 1998 09:30:00 through April 3, 1998 
+18:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+l) Temp (oC), SpCond (mS/cm), Salinity (ppt), DO (%), DO (mg/L), and pH (pH 
+units) values are not available 
+between April 8, 1998 16:00:00 through April 19, 1998 20:00:00 because 
+catastrophic breach in thermistor 
+casing of temperature sensor.
+m) No data are available between April 19, 1998 20:30:00 through April 21, 1998 
+07:00:00, loss of power on April 
+19 due to low battery output, unit retrieved on April 21, 1998 07:10:00 for 
+maintenance, calibration, and 
+service.
+n) No data are available between April 21, 1998 07:30:00 through April 23, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+o) No data are available between May 5, 1998 08:00:00 through May 6, 1998 
+12:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+p) No data are available on May 10, 1998 18:30:00, reason unknown.
+q) No data are available between May 18, 1998 07:30:00 through May 19, 1998 
+15:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+r) No data are available between June 1, 1998 07:00:00 through June 2, 1998 
+16:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+s) No data are available between June 15, 1998 08:00:00 through June 16, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+t) No data are available between June 30, 1998 07:00:00 through June 30, 1998 
+23:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+
+
+C.    Penrose Branch
+a) Depth (m) values between April 1, 1998 00:00:00 through April 9, 1998 
+09:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+b) No data are available between April 9, 1998 09:30:00 through April 9, 1998 
+16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+s) No data are available between April 23, 1998 09:00:00 through April 24, 1998 
+13:30:00 downtime for 
+maintenance, calibration, and service of dataloggers. Longer downtime due to 
+difficulties in calibration of D.O. 
+became stabilized on April 24, 1998.
+c) Depth (m) values between May 2, 1998 04:00:00 through May 2, 1998 06:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) Depth (m) values between May 2, 1998 08:30:00 through May 2, 1998 20:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+e) No data are available between May 7, 1998 10:30:00 through May 7, 1998 
+16:30:00 downtime for maintenance, 
+calibration, and service of dataloggers. 
+f) Depth (m) values between May 8, 1998 02:30:00 through May 9, 1998 13:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) No data are available between May 19, 1998 09:30:00 through May 19, 1998 
+15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+h) Depth (m) values between May 21, 1998 12:00:00 through May 21, 1998 19:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) Depth (m) values between May 31, 1998 13:30:00 through May 31, 1998 23:30:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+j) Depth (m) values between June 1, 1998 00:00:00 through June 1, 1998 19:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+k) Depth (m) values between June 2, 1998 10:00:00 through June 3, 1998 18:30:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+l) Depth (m) values between June 3, 1998 20:30:00 through June 3, 1998 22:30:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+m) No data are available between June 4, 1998 10:30:00 through June 5, 1998 
+11:30:00 downtime for maintenance, 
+calibration, and service of dataloggers. Longer downtime due to difficulties in 
+calibration of turbidity, became 
+stabilized on June 5, 1998.
+n) Depth (m) values between June 13, 1998 12:30:00 through June 16, 1998 
+01:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+o) No data are available between June 18, 1998 10:00:00 through June 18, 1998 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+p) Depth (m) values between June 19, 1998 16:30:00 through June 20, 1998 
+05:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+q) Depth (m) values between June 29, 1998 23:30:00 through June 30, 1998 
+23:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+
+July 1, 1998 through September 30, 1998
+
+A.    Scotton Landing
+a) No data are available between July 7, 1998 09:00:00 through July 8, 1998 
+12:30:00, downtime for maintenance, 
+calibration, and service of dataloggers.
+b) No data are available between July 23, 1998 09:00:00 through July 23, 1998 
+16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No turbidity values (NTU) between July 23, 1998 17:00:00 through August 4, 
+1998 07:30:00, failing turbidity 
+probe, shut sensor off during deployment.
+d) No D.O. data available between August 2, 1998 11:30:00 through August 4, 
+1998, 07:30:00, membrane 
+puncture during deployment, data was removed after discontinuity.
+e) No data are available between August 4, 1998 08:00:00 through August 4, 1998 
+15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between August 19, 1998 07:30:00 through August 19, 
+1998 14:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+g) No data are available between August 26, 1998 07:30:00 through August 26, 
+1998 14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+h) DO data deleted from September 1, 1998 02:30:00 through September 11, 1998
+07:30:00 due to membrane puncture.  
+i) No data are available between September 11, 1998 08:00:00 through September 
+11, 1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+j) No data are available between September 23, 1998 09:00:00 through September 
+23, 1998 14:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+
+B.    Blackbird Landing
+a) No data are available between July 1, 1998 00:00:00 through July 1, 1998 
+14:30:00, downtime for maintenance, 
+calibration, and service of dataloggers.
+b) No data are available between July 13, 1998 08:30:00 through July 14, 1998 
+18:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between August 5, 1998 08:00:00 through August 6, 1998 
+18:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between August 24, 1998 07:00:00 through August 24, 
+1998 17:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between September 8, 1998 08:30:00 through September 9, 
+1998 14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between September 21, 1998 08:30:00 through September 
+22, 1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+
+C.    Penrose Branch
+a) Depth (m) values between July 1, 1998 00:00:00 through July 1, 1998 09:30:00 
+were deleted because the values 
+were negative readings indicating that the probe was either no longer submerged 
+or almost out of the water.
+b) No data are available between July 1, 1998 10:00:00 through July 1, 1998 
+15:00:00, downtime for maintenance, 
+calibration, and service of dataloggers.
+c) No data are available between July 16, 1998 10:00:00 through July 16, 1998 
+14:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) Depth (m) values between July 16, 1998 17:00:00 through July 18, 1998 
+17:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+e) Depth (m) values between July 20, 1998 02:00:00 through July 20, 1998 
+09:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+f) Depth (m) values between July 22, 1998 04:00:00 through July 22, 1998 
+06:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) no data at 7/22 13:00 due to field cleaning of the istrument
+h) Depth (m) values between July 23, 1998 00:30:00 through July 24, 1998 
+05:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) Depth (m) values between July 28, 1998 14:00:00 through July 30, 1998 
+04:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+j) No data are available between July 30, 1998 09:00:00 through July 30, 1998 
+15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+k) Depth (m) values between July 31, 1998 02:00:00 through July 31, 1998 
+04:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+l) D.O. values on August 1, 1998 from 10:30:00 to 11:00:00 were out of range, -
+0.012 % & -0.01 mg/l, values 
+were deleted.
+m) No data are available between August 1, 1998 11:30:00 through August 13, 1998 
+14:30:00, batteries failed on 
+August 1.  Retrieved on August 13, 1998 at 09:15:00 for maintenance, 
+calibration, and service of dataloggers.
+n) Depth (m) values between August 15, 1998 15:00:00 through August 15, 1998 
+19:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+o) Depth (m) values between August 16, 1998 01:00:00 through August 16, 1998 
+04:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+p) Depth (m) values between August 17, 1998 10:30:00 through August 18, 1998 
+20:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+q) Depth (m) values between August 22, 1998 12:30:00 through August 26, 1998 
+07:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+r) No data are available between August 26, 1998 08:00:00 through August 26, 
+1998 14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+s) Depth (m) values between September 2, 1998 01:00:00 through September 2, 1998 
+08:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+t) Depth (m) values between September 2, 1998 11:00:00 through September 3, 1998 
+05:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+u) Depth (m) values between September 3, 1998 15:00:00 through September 4, 1998 
+18:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+v) Depth (m) values between September 7, 1998 00:00:00 through September 9, 1998 
+07:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+w) No data are available between September 11, 1998 09:00:00 through September 
+11, 1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+x) Depth (m) values between September 11, 1998 15:30:00 through September 13, 
+1998 17:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+y) Depth (m) values between September 19, 1998 15:00:00 through September 20, 
+1998 06:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+z) Depth (m) values between September 20, 1998 11:30:00 through September 23, 
+1998 04:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+aa) No data are available between September 23, 1998 08:30:00 through September 
+23, 1998 14:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+bb) Depth (m) values between September 26, 1998 15:30:00 through September 30, 
+1998 23:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+
+
+October 1, 1998 through December 31, 1998
+
+A.    Scotton Landing
+a) No data are available between October 9, 1998 08:30:00 through October 9, 
+1998 15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between October 23, 1998 07:00:00 through October 23, 
+1998 15:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No D.O. data available between October 23, 1998 15:30:00 through November 9, 
+1998, 09:00:00, values very 
+high and sporadic due to a membrane puncture.  Membrane replaced during 
+maintenance, values stabilized to 
+normal levels.
+d) No data are available between November 9, 1998 09:30:00 through November 9, 
+1998 15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between November 24, 1998 08:00:00 through November 24, 
+1998 15:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+f) No data are available between December 5, 1998 18:30:00 through December 10, 
+1998 15:30:00, sonde shut 
+down for unknown reason.  Retrieved on December 10, 1998 08:0:00 for 
+maintenance, calibration, and service 
+of dataloggers.
+g) No data are available between December 22, 1998 08:00:00 through December 22, 
+1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+
+B.    Blackbird Landing
+a) No data are available between October 5, 1998 08:30:00 through October 6, 
+1998 14:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between October 26, 1998 08:30:00 through October 27, 
+1998 14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between November 9, 1998 09:00:00 through November 10, 
+1998 16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between December 1, 1998 08:30:00 through December 2, 
+1998 11:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between December 14, 1998 08:30:00 through December 15, 
+1998 12:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+
+C.    Penrose Branch
+a) Depth (m) values between October 1, 1998 00:00:00 through October 2, 1998 
+06:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+b) Depth (m) values between October 2, 1998 12:30:00 through October 2, 1998 
+18:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+c) Depth (m) values between October 8, 1998 03:30:00 through October 9, 1998 
+08:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) No data are available between October 9, 1998 09:00:00 through October 9, 
+1998 16:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) DO data deleted 10/19/98 18:30:00-19:00:00
+f) No data are available between October 23, 1998 07:30:00 through October 23, 
+1998 15:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+g) Depth (m) values between October 24, 1998 13:30:00 through October 26, 1998 
+08:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+h) Depth (m) values between October 26, 1998 12:30:00 through October 26, 1998 
+14:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) Depth (m) values between October 27, 1998 20:00:00 through November 7, 1998 
+06:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+j) Depth (m) values between November 7, 1998 11:30:00 through November 7, 1998 
+18:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+k) Depth (m) value on November 8, 1998 at 03:30:00 was out of range, values 
+returned to normal during next 
+scheduled reading.
+l) pH value on November 8, 1998 at 03:30:00 out of range, 02.0, value deleted 
+because the values returned to 
+normal after anomaly, reason unknown
+m) Depth (m) values between November 8, 1998 14:00:00 through November 9, 1998 
+02:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+n) No data are available between November 9, 1998 10:30:00 through November 9, 
+1998 15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+o) Depth (m) values between November 10, 1998 17:00:00 through November 11, 1998 
+17:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+p) Depth (m) values between November 13, 1998 21:30:00 through November 17, 1998 
+23:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+q) Temperature (oC) value on November 14, 1998 at 15:00:00 was out of range, -
+10.0, value is outside of trend 
+during deployment, unknown reason, data deleted
+r) Depth (m) values between November 19, 1998 14:30:00 through November 21, 1998 
+13:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+s) Depth (m) values between November 23, 1998 12:00:00 through November 24, 1998 
+08:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+t) No data are available between November 24, 1998 09:00:00 through November 24, 
+1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+u) Depth (m) values between November 26, 1998 02:00:00 through November 27, 1998 
+06:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+v) Depth (m) values between December 1, 1998 00:00:00 through December 1, 1998 
+05:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+w) Depth (m) values between December 3, 1998 13:00:00 through December 3, 1998 
+22:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+x) Depth (m) values between December 6, 1998 13:00:00 through December 6, 1998 
+15:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+y) Depth (m) values between December 6, 1998 20:00:00 through December 7, 1998 
+16:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+z) No data are available between December 10, 1998 09:00:00 through December 10, 
+1998 14:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+aa) Depth (m) values between December 13, 1998 12:00:00 through December 14, 
+1998 05:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+bb) Depth (m) values between December 16, 1998 01:00:00 through December 18, 
+1998 07:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+cc) Depth (m) values between December 21, 1998 19:00:00 through December 22, 
+1998 08:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+dd) No data are available between December 22, 1998 09:00:00 through December 
+22, 1998 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+ee) Depth (m) values between December 29, 1998 12:30:00 through December 30, 
+1998 13:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+
+
+
+

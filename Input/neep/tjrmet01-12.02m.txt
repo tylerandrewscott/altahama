@@ -1,0 +1,1000 @@
+
+Tijuana River  (TJR) National Estuarine Research Reserve Meteorological Metadata
+January - December 2002
+Latest Update:  September 23, 2005
+
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator(s) & contact persons
+
+Contact Persons:
+Jeff Crooks, Research Coordinator, jcrooks@tijuanaestuary.com
+Michelle Cordrey, Research Associate, mcordrey@perl.sdsu.edu
+
+Web Address:
+http://www.tijuanaestuary.com
+
+2) Entry verification
+
+a) Data Input Procedures:
+The 15-minute, 1-hour average, and 24-hour meteorological data were downloaded 
+from each instrument on the weather station to a Campbell Scientific CR10X 
+datalogger.  The CDMO Data Logger Program (nerr30.csi) was loaded into the CR10X 
+and controls the sensors and data collection schedule (see 2b of the Entry 
+Verification section for the data collection schedule).  The CR10X then 
+interfaced with the PC208W software supplied by Campbell Scientific.  
+
+This software was located on a computer to which the data was uploaded (every 15 
+minutes) via a short haul modem to a computer located at Tijuana Estuary 
+Visitor's Center.  The data was saved as a raw data file (TJR.dat) on the 
+hardrive.  Following download from the CR10x the data were automatically 
+uploaded via FTP to a SQL server at San Diego State University and are available 
+near real time via the internet.  The data are exported monthly from the SQL 
+server into CDMO Weather Data Management Program (WDMP) to generate error logs 
+(see section 2c for the CDMO Meteorological Data Collection Error/Anomalous Data 
+Criteria), summary reports and to create export files to be sent to the CDMO.  
+The WDMP program was developed in Visual Basic to interface with the NERR 
+Meteorological Data Collection Schedule (see 2b of the Entry Verification 
+section for the data collection schedule).  Any anomalous data were investigated 
+and are noted below in the Anomalous Data Section.  Any data corrections that 
+were performed are noted in the Data Correction Section below.   All error 
+messages and anomalous data were compared to reference data obtained from a 
+nearby (1/2 mile) weather station operated by the NAVY.  Michelle Cordrey is 
+responsible for all data QA/QC.  
+
+The Centralized Data Management Office converted all SWMP weather data collected 
+with CR10X program versions prior to version 4.0 which was distributed in October 
+2003.  This was necessary in order to merge the old data format (12 array output) 
+with the new data format found in version 4.0 (3 array output).  The new format 
+produces averages, maximums and minimums every fifteen minutes (array 15), 
+every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the 
+daily 241, 242, 243, 244, 245 and 246 data were converted to the new 144 array.  
+With the new format, the use of 55555's to code for deleted data and 11111's to 
+code for missing data has been abandoned.  Hence, all 55555's or 11111's contained 
+in the SWMP weather data collected prior to Version 4.0 of the CR10X program were 
+removed and left blank. 
+
+
+b) Data Collection Schedule
+
+	i) Data is collected in the following formats:
+
+		1) 15 minute data are instantaneous readings except for PAR and 
+		precipitation data that are totalized from 5 second samples sorted 
+		by date and time. 		
+		(Arrays 150 and 151)
+		2) Hourly averages (Arrays 101 and 102) are calculated from 5 second 
+		samples sorted by date and time except for PAR and precipitation 
+		data that are hourly totals calculated from 15 minute totals (Arrays 
+		105 and 106).
+		3) Daily average (arrays 241 and 242), maximum with time, and 
+		minimum with time (arrays 243 and 244) are calculated from 5 second 
+		samples sorted by date and time except for PAR and precipitation 	
+		data which are 24 hour totals calculated from hourly totals (arrays 
+		245 and 246).
+
+	ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), 
+	Relative Humidity (%), LiCor (PAR), Barometric Pressure (mb), Wind Speed 
+	(m/s), Wind Direction (Array 150); Rainfall (mm) (Array 151)
+
+	iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative 
+	Humidity(%), Barometric Pressure (mb) (Array 101); Wind Speed (m/s), Wind 
+	Direction, Wind Speed Maximum (Array 102) 
+	 
+	iv) Hourly total parameters: LiCor (PAR) (Array 105); Rainfall (mm) (Array 
+	106)
+
+	v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative 
+	Humidity (%), Barometric Pressure (mb) (Array 241); Wind Speed (m/s), Wind 
+	Direction, Wind Direction Standard Deviation (using Yamartino's Algorithm) 
+	(Array 242)
+
+	vi) Daily Total parameter: LiCor (PAR) (Array 245); Rainfall (mm) (Array 
+	246)
+
+	vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, 
+	Relative Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), 
+	Time, Wind Speed (m/s), Time, Battery Voltage, Time (Array 243)
+
+	viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, 
+	Relative Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), 
+	Time, Wind 	Speed (m/s), Time, Battery Voltage, Time (Array 244)
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes
+- Max and min temp recorded for the day
+- 1 hour average not greater than 10% above the greatest 15 min sample recorded 
+in the hour
+
+	Relative Humidity:
+- Not changed by more than 25% from the previous 15 minutes
+- Max and min humidity recorded for the day
+- 1 hour average not greater than 10% above the greatest 15 min sample recorded 
+in the hour
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month
+
+Wind Speed:
+- Wind speed greater than 30 m/s
+- Wind speed less than .5 m/s
+
+Wind Direction:
+- Wind direction not greater than 360 degrees
+- Wind direction not less than 0 degrees
+
+Pressure:
+- Pressure greater than 1040 mb or less than 980 mb
+- Pressure changes greater than 5 mb per hour
+- Maximum and minimum values recorded for the day
+- 1 hour average not greater than 10% above the greatest 15 min sample recorded 
+in the hour
+
+Time:
+- 15 minute interval recorded
+
+For all data:
+- Duplicate interval data
+
+3) Research objectives (Campbell Weather Station):
+
+The principal objective is to record long-term meteorological data for the 
+Tijuana Estuary in order to observe any environmental changes or trends over 
+time. Samples were taken every 5 seconds and 15 minutes over roughly one week 
+collecting intervals.  
+
+4) Research methods:
+
+The Campbell Scientific weatherstation samples every 5 seconds to produce both 
+hourly and daily averages of those measurements of air temperature, relative 
+humidity, barometric pressure, rainfall, wind speed and wind direction.  An 
+instantaneous sample is taken every 15 minutes and that data is stored in array 
+150.   A one-week sampling interval was chosen so that the CR10X datalogger 
+would not run out of room and overwrite data, especially if the short haul modem 
+link failed and data could not be automatically sent from the datalogger to the 
+computer.  If this were the case, the data would have to be downloaded at the 
+storage module to a laptop or the storage module would be replaced and brought 
+back to the lab for uploading following procedures in Part D. Section 4.5 of the 
+CDMO Operations Manual.  Periodically, sensors on the weatherstation are 
+inspected for damage or debris.  If any is found, it is repaired and/or cleaned.   
+Sensors are removed and sent back to Campbell Scientific for calibration at 
+minimum of every two years.  There were no other analyses done on the 
+meteorological data at present.  
+
+5) Site location and character:
+
+The Tijuana River NERR is located on the Southern Pacific Coast, next to the 
+California border with Mexico at a latitude of 32 deg. 34 min. N and Longitude 
+of 117 deg. 07 min. W.  The area surrounding the 2,531 acre reserve is heavily 
+developed by residential housing as is the watershed which drains into the 
+estuary.  Approximately 2/3 of the watershed is in Mexico and is subject to 
+periodic raw sewage outflows.  The North Eastern section of is bordered by a 
+military helicopter training base.  Vegetation in the area is dominated by 
+common pickleweed (Spartina virginica) and Pacific cordgrass (Spartina foliosa).
+
+The area is characterized by very dry summers with most rainfall occuring
+between November and March. Prevailing winds are primarily off the ocean
+from the west during daylight hours, lighter breezes from the land generally
+occur after the sun has set. During the fall "Santa Ana" winds can occur
+which results in sharp increases in temperature caused by winds blowing from
+the Mojave Dessert and decreased humidity (15% or less).  Thunderstorms are
+not common but can occur during the winter in association with cold fronts.
+
+Descriptions of the specific sampling station follows:
+
+The weather station is located approximately 30m west of the TR NERR Visitor 
+Centor at a Latitude of 32deg 34min 28.32sec N and a Longitude of 117deg 07min 
+37.05sec W.  The station is 50m north of the water quality sampling station.  
+The vegetation surrounding the weather station are mainly upland scrub species.
+	
+The anemometer, wind direction and Licor sensors are located at the top of 
+a 3.5 meter aluminum tower.  The temperature and humidity sensors are located 
+midway up and on the west side of the tower. The Tipping Bucket rain gauge sits 
+on a separate 2 meter high pole located approx. a meter to the west of the main 
+tower. It is above the ground to limit interference from the security fence 
+surrounding the weather station.  The sensors were wired to the CR10X following 
+the NERR SWMP Meteorological SOP.  
+
+6) Data collection period:
+Weather data collection began at the Tidal Linkage station in 1999.
+
+7) Distribution:
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from the NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and Coastal 
+Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance/quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.  NERR weather 
+data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 Principal investigators and contact 
+persons), from the Data Manager at the Centralized Data Management Office 
+(please see personnel directory under the general information link on the CDMO 
+home page) and online at the CDMO home page http://cdmo.baruch.sc.edu.  Data are 
+available in text format and Access data tables.
+
+8) Associated researchers and projects:
+
+The Tijuana River NERR has a water quality station located at the Tidal Linkage.  
+The principal objective of this study is to record long-term water quality data 
+for  the Tijuana Estuary in order to observe any physical changes or trends in 
+water quality both spatially and  over time.  Additionally, NERR SWMP tier 1 
+nutrient monitoring is being conducted at the Tidal Linkage station. 
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, operating range, accuracy, date of last calibration:
+
+LiCor Quantum Sensor 
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  04/17/01
+
+Wind Sentry
+Model # 03001 R.M Young
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: May 2001
+ 
+Temperature and Relative Humidity
+Model #:  HMP35C
+Operating Temperature:  -35 to +50°C
+Temperature Measurement Range: -35 to +50°C
+Temperature Accuracy: ± 0.2 °C (0-60°C)
+Relative Humidity Operating Temperature: :  -20 to +60°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Date of Last calibration:  May 2001
+
+Barometric Sensor
+Model # CS-105
+Operating Range:	 Pressure: 600-1060 mb
+Temperature:  -40 to +60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20-60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  not known
+
+Tipping Bucket Rain Gauge
+Model #:  TE 525
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: June 2001
+
+
+10) Coded variable indicator and variable code definitions:
+
+Site definitions:  TL = Tidal Linkage
+
+
+11) Data anomalies/Data corrections:
+
+January 2002
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+150		19	315	Rel hum difference from  19 ( 19) 315 ( 57.139) to  19 ( 
+19) 330 ( 85.442) is greater than 25%
+150		19	400	Rel hum difference from  19 ( 19) 400 ( 75.899) to  19 ( 
+19) 415 ( 44.103) is greater than 25%
+150		19	415	Rel hum difference from  19 ( 19) 415 ( 44.103) to  19 ( 
+19) 430 ( 75.775) is greater than 25%
+150		19	430	Rel hum difference from  19 ( 19) 430 ( 75.775) to  19 ( 
+19) 445 ( 50.63) is greater than 25%
+150		23	2215	Rel hum difference from  23 ( 23) 2215 ( 47.177) to  23 
+( 23) 2230 ( 20.564) is greater than 25%
+150		23	2230	Rel hum difference from  23 ( 23) 2230 ( 20.564) to  23 
+( 23) 2245 ( 48.862) is greater than 25%
+150		24	230	Rel hum difference from  24 ( 24) 230 ( 33.479) to  24 ( 
+24) 245 ( 100) is greater than 25%
+
+Relative humidity data were removed for the following dates and times. High humidity 
+in the datalogger enclosure coupled with electrical problems were found to be the cause:
+
+Date		Array(s)	Time(s)
+Jan 24 2002	150		0245-0715
+		101		0300-0800
+		241,243,244	2400
+
+Jan 30 2002	150		0145-0715
+		101		0200-0800
+		241,243,244	2400
+
+Jan 31 2002	150		0545-0700, 2400
+		101		0600-0700
+		241,243,244	2400 
+
+
+The following data appear to be correct:
+102		2	1900	Wind speed is less than 0.5 m/s from  2 ( 2)  1900 to  3 
+( 3)  900
+102		9	1800	Wind speed is less than 0.5 m/s from  9 ( 9)  1800 to  
+10 ( 10)  1000
+
+
+February 2002
+
+Higher than average air temperature and barometric pressure values and lower than average
+relative humidity values were recorded between February 9 and 10 and again between 
+February 21 through 23. Sensors were functioning properly and data appears to be correct. 
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+150	36	1015	Air temp difference from  5 ( 36) 1015 ( 21.471) to  5 ( 36) 
+1030 ( 17.362) is greater than 3.0 degrees C
+150	40	2145	Air temp difference from  9 ( 40) 2145 ( 10.177) to  9 ( 40) 
+2200 ( 13.644) is greater than 3.0 degrees C
+150	41	100	Air temp difference from  10 ( 41) 100 ( 13.864) to  10 ( 41) 
+115 ( 17.561) is greater than 3.0 degrees C
+150	42	345	Air temp difference from  11 ( 42) 345 ( 16.811) to  11 ( 42) 
+400 ( 11.744) is greater than 3.0 degrees C
+150	52	1130	Air temp difference from  21 ( 52) 1130 ( 20.9) to  21 ( 52) 
+1145 ( 29.61) is greater than 3.0 degrees C
+150	52	1200	Air temp difference from  21 ( 52) 1200 ( 30.658) to  21 ( 52) 
+1215 ( 26.531) is greater than 3.0 degrees C
+150	52	1215	Air temp difference from  21 ( 52) 1215 ( 26.531) to  21 ( 52) 
+1230 ( 21.959) is greater than 3.0 degrees C
+150	52	1845	Air temp difference from  21 ( 52) 1845 ( 19.147) to  21 ( 52) 
+1900 ( 22.887) is greater than 3.0 degrees C
+150	53	645	Air temp difference from  22 ( 53) 645 ( 13.948) to  22 ( 53) 
+700 ( 17.723) is greater than 3.0 degrees C
+150	53	1145	Air temp difference from  22 ( 53) 1145 ( 33.758) to  22 ( 53) 
+1200 ( 28.817) is greater than 3.0 degrees C
+150	53	2200	Air temp difference from  22 ( 53) 2200 ( 14.475) to  22 ( 53) 
+2215 ( 10.844) is greater than 3.0 degrees C
+
+The following data appear to be correct:
+150	33	1000	Rel hum difference from  2 ( 33) 1000 ( 29.143) to  2 ( 33) 
+1015 ( 62.24) is greater than 25%
+150	37	130	Rel hum difference from  6 ( 37) 130 ( 56.259) to  6 ( 37) 145 
+( 84.019) is greater than 25%
+150	40	915	Rel hum difference from  9 ( 40) 915 ( 68.101) to  9 ( 40) 930 
+( 38.745) is greater than 25%
+150	40	1015	Rel hum difference from  9 ( 40) 1015 ( 40.608) to  9 ( 40) 
+1030 ( 14.295) is greater than 25%
+150	52	1130	Rel hum difference from  21 ( 52) 1130 ( 58.176) to  21 ( 52) 
+1145 ( 17.712) is greater than 25%
+150	52	1200	Rel hum difference from  21 ( 52) 1200 ( 15.832) to  21 ( 52) 
+1215 ( 41.452) is greater than 25%
+150	54	800	Rel hum difference from  23 ( 54) 800 ( 23.777) to  23 ( 54) 
+815 ( 64.14) is greater than 25%
+
+The following data appear to be correct:
+102	38	2000	Wind speed is less than 0.5 m/s from  7 ( 38)  2000 to  8 ( 
+39)  1000
+102	43	1900	Wind speed is less than 0.5 m/s from  12 ( 43)  1900 to  13 ( 
+44)  900
+102	45	1900	Wind speed is less than 0.5 m/s from  14 ( 45)  1900 to  15 ( 
+46)  900
+102	46	1900	Wind speed is less than 0.5 m/s from  15 ( 46)  1900 to  16 ( 
+47)  900
+102	55	1900	Wind speed is less than 0.5 m/s from  24 ( 55)  1900 to  25 ( 
+56)  900
+102	57	2000	Wind speed is less than 0.5 m/s from  26 ( 57)  2000 to  27 ( 
+58)  800
+102	58	1800	Wind speed is less than 0.5 m/s from  27 ( 58)  1800 to  28 ( 
+59)  700
+
+Relative humidity data were removed for the following dates and times. High humidity 
+in the datalogger enclosure coupled with electrical problems were found to be the cause:
+
+Feb 1 2002	150		0015-0715
+		101		0100-0800
+		241,243,244	2400
+
+Feb 3 2002	150		0300-0715
+		101		0300-0800
+		241,243,244	2400
+
+Feb 4 2002	150		0445 - 0630
+		101		0500 - 0700
+		241,243,244	2400
+
+Feb 5 2002	150,		0445 - 0645
+		101,		0500 - 0700
+		241,243,244	2400
+
+Feb 6 2002	150		0445 - 0630
+		101		0500 - 0700	
+		241,243,244	2400
+
+Feb 7 2002	150		0545 - 0700
+		101		0600 - 0700
+		241,243,244	2400
+
+
+March 2002 
+
+Higher than average air temperature and barometric pressure values and lower than average
+relative humidity values were recorded between March 2 and 4.  Sensors were functioning 
+properly and data appears to be correct. 
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+150	69	930	Air temp difference from  10 ( 69) 930 ( 19.888) to  10 ( 69) 
+945 ( 16.691) is greater than 3.0 degrees C
+150	80	930	Air temp difference from  21 ( 80) 930 ( 21.652) to  21 ( 80) 
+945 ( 18.105) is greater than 3.0 degrees C
+
+The following data appear to be correct:
+150	61	1545	Rel hum difference from  2 ( 61) 1545 ( 15.836) to  2 ( 61) 
+1600 ( 40.865) is greater than 25%
+150	61	1630	Rel hum difference from  2 ( 61) 1630 ( 12.146) to  2 ( 61) 
+1645 ( 46.569) is greater than 25%
+150	61	1645	Rel hum difference from  2 ( 61) 1645 ( 46.569) to  2 ( 61) 
+1700 ( 11.877) is greater than 25%
+150	69	930	Rel hum difference from  10 ( 69) 930 ( 38.26) to  10 ( 69) 
+945 ( 65.439) is greater than 25%
+
+The following data appear to be correct:
+102	60	1900	Wind speed is less than 0.5 m/s from  1 ( 60)  1900 to  2 ( 
+61)  900
+102	84	1900	Wind speed is less than 0.5 m/s from  25 ( 84)  1900 to  26 ( 
+85)  700
+102	85	1900	Wind speed is less than 0.5 m/s from  26 ( 85)  1900 to  27 ( 
+86)  800
+
+The following data appear to be correct:
+101	62	1900	Relative humidity average in 1 hour data ( 10.697) is greater 
+than 15 minute maximum ( 9.4638) by at least 10%
+
+
+Relative humidity data were removed for the following dates and times. High humidity 
+in the datalogger enclosure coupled with electrical problems were found to be the cause:
+
+Mar 3 2002	150		0530 - 0630
+		101		0600 - 0700
+		241,243,244	2400
+
+Mar 4 2002	150		0400 - 0430
+		101		0500
+		241,243,244	2400
+
+
+April 2002
+None
+
+May 2002
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+102	132	1900	Wind speed is less than 0.5 m/s from  12 ( 132)  1900 to  13 ( 
+133)  700
+
+June 2002
+None
+
+July 2002
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+102	195	1900	Wind speed is less than 0.5 m/s from  14 ( 195)  1900 to  15 ( 
+196)  800
+102	197	1900	Wind speed is less than 0.5 m/s from  16 ( 197)  1900 to  17 ( 
+198)  800
+102	198	1900	Wind speed is less than 0.5 m/s from  17 ( 198)  1900 to  18 ( 
+199)  800
+
+August 2002
+
+The malfuntion in the wind sensor was caused by a short in the cable that
+resulted in wind direction values that ranged from 0 to 45 degrees only. The
+sensor cable was replaced on 8/23/2002 at about 2pm.  All wind direction values 
+prior to the installation of the new cable were deleted and replaced with 55555. 
+Array ID	Date	Time	Error Message
+150		213	15	Technician changed 150 Array data from  1 ( 213) 15 
+to  23 ( 235) 1400
+102		213	100	Technician changed 102 Array from 1 ( 213) 100 to  
+23 ( 235) 1400
+242		213	2400	Technician changed 242 Array from  1 ( 213) 2400 to  
+23 ( 235) 2400
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+102	215	2000	Wind speed is less than 0.5 m/s from  3 ( 215)  2000 to  4 ( 
+216)  900
+102	216	2000	Wind speed is less than 0.5 m/s from  4 ( 216)  2000 to  5 ( 
+217)  1000
+102	217	1800	Wind speed is less than 0.5 m/s from  5 ( 217)  1800 to  6 ( 
+218)  800
+102	218	1700	Wind speed is less than 0.5 m/s from  6 ( 218)  1700 to  7 ( 
+219)  900
+102	219	1900	Wind speed is less than 0.5 m/s from  7 ( 219)  1900 to  8 ( 
+220)  900
+102	220	1800	Wind speed is less than 0.5 m/s from  8 ( 220)  1800 to  9 ( 
+221)  800
+102	221	2000	Wind speed is less than 0.5 m/s from  9 ( 221)  2000 to  10 ( 
+222)  1000
+102	222	2000	Wind speed is less than 0.5 m/s from  10 ( 222)  2000 to  11 ( 
+223)  800
+102	223	1900	Wind speed is less than 0.5 m/s from  11 ( 223)  1900 to  12 ( 
+224)  800
+102	225	2000	Wind speed is less than 0.5 m/s from  13 ( 225)  2000 to  14 ( 
+226)  800
+102	226	1900	Wind speed is less than 0.5 m/s from  14 ( 226)  1900 to  15 ( 
+227)  800
+102	228	2000	Wind speed is less than 0.5 m/s from  16 ( 228)  2000 to  17 ( 
+229)  800
+102	231	1900	Wind speed is less than 0.5 m/s from  19 ( 231)  1900 to  20 ( 
+232)  900
+102	232	2000	Wind speed is less than 0.5 m/s from  20 ( 232)  2000 to  21 ( 
+233)  800
+102	234	2000	Wind speed is less than 0.5 m/s from  22 ( 234)  2000 to  23 ( 
+235)  800
+102	235	2000	Wind speed is less than 0.5 m/s from  23 ( 235)  2000 to  24 ( 
+236)  900
+102	236	2000	Wind speed is less than 0.5 m/s from  24 ( 236)  2000 to  25 ( 
+237)  900
+102	237	1900	Wind speed is less than 0.5 m/s from  25 ( 237)  1900 to  26 ( 
+238)  1000
+102	238	1900	Wind speed is less than 0.5 m/s from  26 ( 238)  1900 to  27 ( 
+239)  800
+102	240	2000	Wind speed is less than 0.5 m/s from  28 ( 240)  2000 to  29 ( 
+241)  800
+102	241	2000	Wind speed is less than 0.5 m/s from  29 ( 241)  2000 to  30 ( 
+242)  800
+102	242	1900	Wind speed is less than 0.5 m/s from  30 ( 242)  1900 to  31 ( 
+243)  800
+
+
+September 2002
+
+Array ID	Date	Time	Error Message
+102	245	2100	Wind speed is less than 0.5 m/s from  2 ( 245)  2100 to  3 ( 
+246)  900
+102	246	1900	Wind speed is less than 0.5 m/s from  3 ( 246)  1900 to  4 ( 
+247)  1300
+102	247	1600	Wind speed is less than 0.5 m/s from  4 ( 247)  1600 to  6 ( 
+249)  900
+102	250	1800	Wind speed is less than 0.5 m/s from  7 ( 250)  1800 to  8 ( 
+251)  1000
+102	251	1400	Wind speed is less than 0.5 m/s from  8 ( 251)  1400 to  12 ( 
+255)  1000
+102	255	1900	Wind speed is less than 0.5 m/s from  12 ( 255)  1900 to  13 ( 
+256)  1100
+102	256	1700	Wind speed is less than 0.5 m/s from  13 ( 256)  1700 to  14 ( 
+257)  1100
+102	257	1600	Wind speed is less than 0.5 m/s from  14 ( 257)  1600 to  15 ( 
+258)  1100
+102	258	1900	Wind speed is less than 0.5 m/s from  15 ( 258)  1900 to  16 ( 
+259)  1100
+102	259	1300	Wind speed is less than 0.5 m/s from  16 ( 259)  1300 to  17 ( 
+260)  900
+102	261	1900	Wind speed is less than 0.5 m/s from  18 ( 261)  1900 to  19 ( 
+262)  700
+102	262	1900	Wind speed is less than 0.5 m/s from  19 ( 262)  1900 to  20 ( 
+263)  1000
+102	263	2000	Wind speed is less than 0.5 m/s from  20 ( 263)  2000 to  21 ( 
+264)  800
+102	264	1800	Wind speed is less than 0.5 m/s from  21 ( 264)  1800 to  22 ( 
+265)  800
+102	265	1800	Wind speed is less than 0.5 m/s from  22 ( 265)  1800 to  23 ( 
+266)  800
+102	267	1100	Wind speed is less than 0.5 m/s from  24 ( 267)  1100 to  26 ( 
+269)  1100
+
+
+October 2002
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+102	302	2000	Wind speed is less than 0.5 m/s from  29 ( 302)  2000 to  30 ( 
+303)  800
+
+
+November 2002
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message
+150	319	1100	Air temp difference from  15 ( 319) 1100 ( 21.595) to  15 ( 
+319) 1115 ( 28.077) is greater than 3.0 degrees C
+150	319	1145	Air temp difference from  15 ( 319) 1145 ( 30.738) to  15 ( 
+319) 1200 ( 24.971) is greater than 3.0 degrees C
+150	320	1745	Air temp difference from  16 ( 320) 1745 ( 18.784) to  16 ( 
+320) 1800 ( 15.456) is greater than 3.0 degrees C
+150	324	1030	Air temp difference from  20 ( 324) 1030 ( 27.554) to  20 ( 
+324) 1045 ( 22.758) is greater than 3.0 degrees C
+150	324	2230	Air temp difference from  20 ( 324) 2230 ( 22.815) to  20 ( 
+324) 2245 ( 19.509) is greater than 3.0 degrees C
+150	324	2315	Air temp difference from  20 ( 324) 2315 ( 22.072) to  20 ( 
+324) 2330 ( 19.027) is greater than 3.0 degrees C
+150	325	515	Air temp difference from  21 ( 325) 515 ( 24) to  21 ( 325) 
+530 ( 20.486) is greater than 3.0 degrees C
+150	325	530	Air temp difference from  21 ( 325) 530 ( 20.486) to  21 ( 
+325) 545 ( 17.223) is greater than 3.0 degrees C
+150	325	915	Air temp difference from  21 ( 325) 915 ( 26.074) to  21 ( 
+325) 930 ( 22.515) is greater than 3.0 degrees C
+150	331	630	Air temp difference from  27 ( 331) 630 ( 13.201) to  27 ( 
+331) 645 ( 16.603) is greater than 3.0 degrees C
+150	332	800	Air temp difference from  28 ( 332) 800 ( 16.464) to  28 ( 
+332) 815 ( 19.644) is greater than 3.0 degrees C
+
+The following data appear to be correct:
+150	319	1100	Rel hum difference from  15 ( 319) 1100 ( 56.961) to  15 ( 
+319) 1115 ( 14.29) is greater than 25%
+150	319	1145	Rel hum difference from  15 ( 319) 1145 ( 9.1231) to  15 ( 
+319) 1200 ( 35.277) is greater than 25%
+150	325	515	Rel hum difference from  21 ( 325) 515 ( 17.849) to  21 ( 325) 
+530 ( 45.16) is greater than 25%
+150	326	900	Rel hum difference from  22 ( 326) 900 ( 32.822) to  22 ( 326) 
+915 ( 60.136) is greater than 25%
+150	331	2015	Rel hum difference from  27 ( 331) 2015 ( 48.002) to  27 ( 
+331) 2030 ( 74.588) is greater than 25%
+
+The following data appear to be correct:
+102	306	2000	Wind speed is less than 0.5 m/s from  2 ( 306)  2000 to  3 ( 
+307)  900
+102	317	1800	Wind speed is less than 0.5 m/s from  13 ( 317)  1800 to  14 ( 
+318)  900
+
+Negative wind directions of -0.09534 were recorded during the month.  These slight
+negative values are actually the sensor offset which is output when the wind blows
+in the 355-360 degree direction.  Values have been converted to zero:
+
+Nov 3 2002	150		0500
+		
+Nov 5 2002	150		115
+		
+Nov 15 2002	150		145
+
+Nov 24 2002	150		1800
+
+Nov 24 2002	150		2330
+
+Nov 26 2002	150		2330
+
+Nov 28 2002	150		0600
+
+
+Higher than average air temperature and barometric pressure values and lower than average
+relative humidity values were recorded between November 15 and 17 and again on November 
+20 through 22.  Sensors were functioning properly and data appears to be correct. 
+
+
+December 2002
+
+Higher than average air temperature and barometric pressure values and lower than average
+relative humidity values were recorded on December 19 and 25.  Sensors were functioning 
+properly and data appears to be correct. 
+
+The following data appear to be correct:
+Array ID	Date	Time	Error Message		
+150	361	645	Rel hum difference from  27 ( 361) 645 ( 100) to  27 ( 361) 
+700 ( 73.735) is greater than 25%
+
+The following data appear to be correct:
+150	344	1845	Wind direction is greater than 360 or less than 0 on  10 ( 
+344) 1845 (-.09534)
+150	349	315	Wind direction is greater than 360 or less than 0 on  15 ( 
+349) 315 (-.09539)
+150	360	1745	Wind direction is greater than 360 or less than 0 on  26 ( 
+360) 1745 (-.09534)
+
+Relative humidity data were removed for the following dates and times. High humidity 
+in the datalogger enclosure coupled with electrical problems were found to be the cause:
+
+Dec 19 2002	150		0300 - 0700
+		101		0400 - 0700
+		241,243,244	2400
+
+Dec 25 2002	150		0315 - 0630
+		101		0400 - 0700
+		241,243,244	2400
+
+
+12) Missing data:
+
+January 2002
+
+Data are missing for the following dates and times due to memory overwrite:
+Array ID	Date	Time	Error Message
+
+150		10	1415	Missing 150 Array data (15 minute data) from  
+10 ( 10) 1415 to  18 ( 18) 715
+101		10	1500	Missing 101 Array data (Hourly Averages) from  
+10 ( 10) 1500 to  18 ( 18) 700
+102		10	1500	Missing 102 Array data (Hourly Average Wind Parameters)
+from  10 ( 10) 1500 to  18 ( 18) 700
+241		10	2400	Missing 241 data (Daily Averages) from  10 ( 10) 2400 to  
+17 ( 17) 2400
+242		10	2400	Missing 242 data (Daily Average Wind Parameters) 
+from  10 ( 10) 2400 to  17 ( 17) 2400
+243		10	2400	Missing 243 data (Daily Max/Time Values) from  10 ( 10) 
+2400 to  17 ( 17) 2400
+244		10	2400	Missing 244 data (Daily Min/Time Values) from  10 ( 10) 
+2400 to  17 ( 17) 2400
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+102		1	100	Technician changed 102 Array data at  1 ( 1) 100 to  31 
+( 31) 2400
+150		1	15	Technician changed 150 Array data at  1 ( 1) 15 to  31 ( 
+31) 2400
+242		1	2400	Technician changed 242 Array data at  1 ( 1) 2400 
+to  31 ( 31) 2400
+
+
+February 2002
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	32	100	Technician changed 102 Array data at  1 ( 32) 100 to  28 ( 59) 
+2400
+150	32	15	Technician changed 150 Array data at  1 ( 32) 15 to  28 ( 59) 
+2400
+242	32	2400	Technician changed 242 Array data at  1 ( 32) 2400 to  28 ( 
+59) 2400
+
+
+March 2002
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	60	100	Technician changed 102 Array data at  1 ( 60) 100 to  31 ( 90) 
+2400
+150	60	15	Technician changed 150 Array data at  1 ( 60) 15 to  31 ( 90) 
+2400
+242	60	2400	Technician changed 242 Array data at  1 ( 60) 2400 to  31 ( 
+90) 2400
+
+
+April 2002
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	91	100	Technician changed 102 Array data at  1 ( 91) 100 to  30 ( 
+120) 2400
+150	91	15	Technician changed 150 Array data at  1 ( 91) 15 to  30 ( 120) 
+2400
+242	91	2400	Technician changed 242 Array data at  1 ( 91) 2400 to  30 ( 
+120) 2400
+
+
+May 2002
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	121	100	Technician changed 102 Array data at  1 ( 121) 100 to  31 ( 
+151) 2400
+150	121	15	Technician changed 150 Array data at  1 ( 121) 15 to  31 ( 
+151) 2400
+242	121	2400	Technician changed 242 Array data at  1 ( 121) 2400 to  31 ( 
+151) 2400
+
+
+June 2002
+Data missing on the following date and time, communication error with CR10x 
+believed to be cause:
+Array ID	Date	Time	Error Message
+150	156	1130	Missing 150 Array data (15 min data) on  5 ( 156) 1130
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	152	100	Technician changed 102 Array data at  1 ( 152) 100 to  30 ( 
+181) 2400
+150	152	15	Technician changed 150 Array data at  1 ( 152) 15 to  30 ( 
+181) 2400
+242	152	2400	Technician changed 242 Array data at  1 ( 152) 2400 to  30 ( 
+181) 2400
+
+
+July 2002
+
+Data were removed for the following dates and times due to malfunctioning wind 
+direction sensor:
+Array ID	Date	Time	Error Message
+102	182	100	Technician changed 102 Array data at  1 ( 182) 100 to  31 ( 
+212) 2400
+150	182	15	Technician changed 150 Array data at  1 ( 182) 15 to  31 ( 
+212) 2400
+242	182	2400	Technician changed 242 Array data at  1 ( 182) 2400 to  31 ( 
+212) 2400
+
+
+August 2002
+
+102	1	213	100	Technician changed 102 Array from 1 ( 213) 100 to  23 ( 
+235) 1400
+150	1	213	15	Technician changed 150 Array data from  1 ( 213) 15 to  
+23 ( 235) 1400
+242	1	213	2400	Technician changed 242 Array from  1 ( 213) 2400 to  23 
+( 235) 2400
+
+
+September 2002
+None
+
+
+October 2002
+None
+
+
+November 2002
+None
+
+
+December 2002
+None
+
+
+13) Other remarks:
+
+The Centralized Data Management Office converted all SWMP weather data collected 
+with CR10X program versions prior to version 4.0 which was distributed in October 
+2003.  This was necessary in order to merge the old data format (12 array output) 
+with the new data format found in version 4.0 (3 array output).  The new format 
+produces averages, maximums and minimums every fifteen minutes (array 15), 
+every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the 
+daily 241, 242, 243, 244, 245 and 246 data were converted to the new 144 array.  
+With the new format, the use of 55555's to code for deleted data and 11111's to 
+code for missing data has been abandoned.  Hence, all 55555's or 11111's contained 
+in the SWMP weather data collected prior to Version 4.0 of the CR10X program were 
+removed and left blank. 
+
+The malfuntion in the wind sensor was caused by a short in the cable that
+resulted in wind direction values that ranged from 0 to 45 deg. only. The
+sensor cable was replaced on 8/23/2002 at about 2pm.
+
+
+Rain Events: 
+January
+Date	RainAmount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+3	5.334
+28	9.652
+29	5.588
+
+"Monthly Total"	20.6
+
+February
+Date	RainAmount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+17	6.096
+27	.254
+
+"Monthly Total"	6.4
+
+March
+Date	RainAmount (mm)
+
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+7	1.270
+16	.762
+17	2.032
+18	2.032
+23	1.016
+24	.508
+
+"Monthly Total"	7.6
+
+
+April
+Date	RainAmount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+6	3.048
+15	1.016
+24	6.096
+26	4.064
+
+"Monthly Total"	14.2
+
+
+May
+Date	RainAmount (mm)
+
+
+
+June 
+Date	RainAmount (mm)
+
+
+
+July
+Date 	RainAmount (mm)
+
+
+
+August
+Date	Rainamount (mm)
+
+
+
+September
+Date	RainAmount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+6	1.524
+7	11.176
+23	.508
+24	.254
+25	.254
+29	1.524
+
+"Monthly Total"	15.2
+
+
+October 
+Date	Rainamount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+1	.254
+8	.254
+25	.254
+
+"Monthly Total"	.8
+
+
+November
+Date	Rainamount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+8	2.540
+9	3.810
+28	.508
+29	.508
+
+"Monthly Total"	7.4
+
+
+December
+Date	RainAmount (mm)
+"Calendar Day"	"Daily Precipitation Totals (mm)"
+
+
+16	12.700
+17	3.810
+20	9.906
+22	1.524
+29	6.604
+
+"Monthly Total"	34.5
+
+	
+
+
+
+
+
+

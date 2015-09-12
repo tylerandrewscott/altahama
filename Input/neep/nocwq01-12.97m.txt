@@ -1,0 +1,866 @@
+NOC NERR Metadata Form 
+January - December 1997
+Revised January 11, 2011
+    
+I. Data Set & Research Descriptors
+
+1)Principal Investigator(s) and Contacts:
+
+Principal Investigator:
+
+Dr. Steve W. Ross
+Research Coordinator
+North Carolina NERR
+Center for Marine Science Research
+7205 Wrightsville Ave.
+Wilmington, NC 28403
+910-395-3905
+rosss@uncwil.edu
+
+Contact Persons:
+
+Dr. Steve W. Ross
+See above
+
+William E. Thompson
+Research Technician
+North Carolina NERR 
+Center for Marine Science Research
+7205 Wrightsville Ave.
+Wilmington, NC 28403
+910-350-2027
+
+
+2)Entry Verification Process:
+
+The data are reviewed using the computer program PC6000 that
+accompanies the YSI 6000 datalogger.  After the file is uploaded 
+from the water quality instrument, PC6000 is used to plot the data and
+perform basic statistical analysis (i.e., min., max., mean, std.
+dev.). This information is printed out and attached to the Field
+Log for the particular deployment. This printout is used during
+file review to detect any gross outliers such as data taken when
+the water quality instrument was removed from the water or those
+caused by instrument failure. The data are imported into a
+Microsoft Excel file that contains the current month's cumulative
+recordings. When a complete month of data has been recorded the
+file is ready for review. The data review includes several steps.
+The first step is to format the data so that the parameter
+columns are in the correct order and the data have the correct
+number of decimal place holders. The CDMO 5.0 Excel macro is used
+to check for any dates and times that data were not recorded due
+to maintenance, battery failure, or other causes. Missing dates
+and times are inserted into the file and a period is inserted
+into the cells where data would normally be. An explanation for
+the missing data is recorded onto the Water Quality Editing Log.
+Next, the data are filtered using an Excel macro to find readings
+outside the instrument measurement range and the "normal" range
+for the site in question. Data outside the instrument range are
+removed from the file and a period is inserted into the cell(s).
+An explanation for the missing dates and times are recorded onto
+the Water Quality Editing Log. Data outside the "normal" range of
+water quality for a particular site were investigated for
+validity based on weather data, field observations, QC checks,
+PC6000 printouts, and instrument diagnostics. If the data are
+rejected from the file a period is inserted into the cell(s) and
+an explanation for the missing dates and times are recorded onto
+the Water Quality Editing Log. The information recorded on the
+Water Quality Editing Log is transferred to the metadata form.
+The metadata form is then submitted with the data file to the
+CDMO.  Paul Grimshaw, Research Technician, was responsible for
+data management during 1997.  
+
+
+3)Research Objectives:
+
+Water quality instruments are deployed at the Masonboro Island
+and Zeke's Island components of North Carolina's National
+Estuarine Research Reserve and are anchored to the bottom of the
+selected sites. Measurements are taken at 30 minute intervals for
+approximately two week periods. These sites are relatively 
+unimpacted by manmade perturbations and are considered long term 
+monitoring locations.  
+
+
+
+4)Research Methods:
+
+
+The Estuarine Water Quality Monitoring Program began on 2 March
+1992 at the Masonboro Island component, and 19 May 1994 at the
+Zeke's Island component. The procedures described below were
+instituted in June 1995 and thus do not cover data recorded
+previously. At this time we are only performing long term water
+quality monitoring and not a specific experiment.
+
+Before each YSI 6000 is deployed, calibration and maintenance is
+performed following the manufacturer's instructions (YSI Manual 
+addendum 7/94, sections 3,4, and 7).  Calibration standards are only
+required for pH, turbidity and salinity; all other parameters are done as 
+described in the manual.  Buffer solutions for 3 point pH calibration 
+(pH 4,7 and 10) are purchased premade from a scientific supply house. The 
+salinity standard is obtained from filtered seawater taken from Masonboro
+Sound and analyzed at the Center for Marine Science Research (CMSR)in
+Wilmington, NC using an osmometer. The dissolved oxygen membranes
+are replaced before deployment and are allowed to sit at least 24
+hrs prior to deployment. 
+
+During deployment the weather conditions and tide stage are
+recorded in the field observation log. Measurements of DO, pH,
+salinity, specific conductance, and temperature are taken with
+a calibrated YSI 6000 or other field instruments to check the 
+accuracy of the instrumentation before deployment (as of October 
+1995). The water quality instrument is placed inside a locked steel
+cage, then anchored approximatly 10cm off the bottom, and chained 
+to a post at the monitoring site. Every 30 minutes during the sampling
+period measurements are taken for temperature, specific conductance, 
+salinity, dissolved oxygen saturation, dissolved oxygen concentration,
+depth, pH, and turbidity. 
+
+At the end of the sample period the water quality instrument is
+either brought back to the laboratory or serviced in the field.
+If the water quality instrument is serviced in the field, the DO
+sensor is either replaced with one that has a new membrane or the
+old membrane is wiped with lens paper moistened with tap water to
+remove biofouling. The weather and water quality measurements are
+again noted in the field observation log. The calibration drift
+and the effect of biofouling on the water quality instrument are
+checked by comparing data readings in calibration standards or
+against a recently calibrated YSI 6000. The water quality data are
+then uploaded, and the instrument is cleaned and calibrated as 
+noted previously. The water quality instrument is then ready for
+deployment.  
+
+
+5)Site Location and Character:
+
+The four components of North Carolina's National Estuarine
+Research Reserve (from north to south) are: Currituck Banks,
+Rachel Carson, Masonboro Island and Zeke's Island. They are
+located along the southeastern coast of the United States in the
+Atlantic Ocean. Currently, only data from Masonboro and Zeke's
+Island components are transferred to the CDMO. The two sites are: 
+
+1. Research Creek, Masonboro Island
+The Masonboro Island site is 0.72 km north east from the mouth of
+Whiskey Creek, and east of the Intracoastal Waterway (ICW), in a
+small navigable channel called Research Creek at 34 deg 09'21.7"
+latitude and 77 deg 50'59.9" longitude (GPS position). The site
+has a salinity range of 18-35 ppt and a tidal range that averages
+1.2 meters.
+
+2. East Cribbing, Zeke's Island
+The Zeke's Island site is located 1.8 km south of Federal
+Point boat launch in a tidal basin estuary at 33 deg 56'23.5"
+latitude and 77 deg 56'28.1" longitude (GPS position). This site
+receives minimal freshwater input from leakage of the Cape Fear
+River through the 5.6 km rock jetty that separate the two bodies
+of water. Thus, the ocean tidal input through New Inlet is a
+major factor in maintaining the high salinity; however, during
+rainy periods major drops in salinity may occur. The site has a
+salinity range of 15-35 ppt and a tidal range that averages 2
+meters.
+
+
+6)Data Collection Period
+
+Research Creek data collection began on 2 March 1992, while
+East Cribbing data collection commenced on 19 May 1994. All
+monitoring is considered long term.
+
+
+7)Associated Researchers and Projects
+
+Lancaster, J./UNC Chapel Hill
+Ross, S./NOC NERR
+Masonboro Island surf zone fish survey
+
+NOC NERR
+Climatological monitoring
+
+Ross, S./NOC NERR
+Grimshaw, P./NOC NERR
+Effects of non-point source pollution on estuarine water quality
+
+Ross, S./NOC NERR
+Grimshaw, P./NOC NERR
+Bichy, J./NOC NERR
+Water quality & nekton monitoring 
+
+Ross, S./NOC NERR
+Stokesbury, K./NOC NERR
+EMAP - Estuaries
+
+Mallin, M./UNC-Wilmington
+Tidal creek survey
+
+           
+
+            II. Physical Structure Descriptors
+
+8) Sensor specifications, range of measurements, units, resolution, and 
+accuracy: 
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+
+9) Coded variable indicator and variable code definitions:
+
+Site definitions:   RC= South Research Creek, Masonboro Island* 
+                    EC= East Crib, Zeke's Island*
+
+File definitions: site/month/year (ex.: ZI0895 = Zeke's Island
+data from August of 1995). 
+
+*The RC site was formerly designated as Masonboro Island (MS) and EC was formerly designated as Zeke’s Island (ZI).  Name changes were made on 1/11/2011 to be consistent with later station designations made necessary by the addition of an additional station in each component, and to clearly indicate that the station location throughout the North Carolina Reserve’s historical data set.  Raw file names were not changed. Please contact the Reserve directly or the NERRS Centralized Data Management Office for more information on this update.
+ 
+
+10) Data anomalies (suspect data):
+
+This section list data that are extreme for the aquatic system being monitored 
+or are outside the measurement range of the instrument. The cause of such 
+anomalies maybe a bad calibration, boat traffic disturbances, or a malfunction 
+of the instrument.
+
+
+February 1997
+
+MS0297
+
+2/10 1400 			High turbidity event, see section 12.
+
+
+
+ZI0297
+
+2/1 0000-2/26 1600 	The pH data were removed because the probe 
+malfunctioned.
+2/1 2200-2/26 1600      Sporadic missing data during this period was due to the 
+removal of data taken during exposure of the datalogger 
+at low tide.  Datalogger was probably moved by 
+fishermen to shallow water.  Data removed.
+2/8 0000 			High turbidity event, see section 12.
+
+
+March 1997
+
+MS0397
+
+3/2 1900, 2300 		High turbidity event, see section 12. 
+3/5 0330 			High turbidity event, see section 12. 
+3/6 1430 			High turbidity event, see section 12. 
+3/8 2000-2030 	Depth data removed because the depth sensor 
+malfunctioned.
+3/9 0030-0330, 
+1830, 2030-2330 		Depth data removed because the depth sensor
+malfunctioned. 
+3/10 0000-0500,
+2000-2330 			Depth data removed because the depth sensor
+malfunctioned.
+3/11 0000-0030,
+2100-2330 			Depth data removed because the depth sensor
+malfunctioned.
+3/11 0630			High turbidity  event, see section 12. 
+3/11 1400-3/19 1000 	Turbidity wiper was parked over the optics at the end
+of the deployment, all suspect data removed
+3/13 0600-0700 		Depth data removed because the depth sensor
+malfunctioned.
+
+
+April 1997
+
+MS0497
+
+4/15 1930			High turbidity event, see section 12. 
+4/21 1530 			High turbidity event, see section 12.
+
+ZI0497
+
+4/30 0830-2330 		Turbidity wiper was parked over the optics at the end
+of the deployment, all suspect data removed.
+
+
+May 
+
+MS0597
+
+5/8 0630			High turbidity event, see section 12. 
+5/12 1030 			All data was removed because the YSI 6000 was exposed 
+at low tide. 
+5/12 1700-1900 		All data was removed because the YSI 6000 was exposed 
+at low tide. 
+5/13 0700-0730	All data was removed because the YSI 6000 was exposed 
+at low tide.
+5/14 0730 			All data was removed because the YSI 6000 was exposed 
+at low tide. 
+5/25 1800-5/31 2330	DO membrane ripped.  DO data removed.
+
+
+ZI0597
+
+5/1 0000-5/2 1100 	Turbidity wiper was parked over the optics at the end
+of the deployment, all suspect data removed.
+5/17 0400-5/28 1000 	The pH data were removed because the probe 
+malfunctioned. 
+
+
+June 1997
+
+MS0697
+
+6/1 0000-6/9 0930 	The DO % and DO mg/l data were removed because of
+a puncture in the DO probe membrane. 
+6/15 1400-6/30 2330 	The DO % and DO mg/l data were removed because of
+sensor malfunction.
+6/18 1130-1300 		All data were removed because the YSI 6000 was exposed 
+at low tide.
+6/22 1830-1900		Erratic turbidity probe function.  Data removed.
+6/23 1800			Erratic turbidity probe function.  Data removed.
+6/25 2030, 2230		Erratic turbidity probe function.  Data removed.
+6/27 0000			Erratic turbidity probe function.  Data removed.
+6/29 1030-6/30 2330 	The Specific conductivity cell was blocked with sand at 
+the end of the deployment. Suspect specific conductance
+and salinity data were removed.
+6/30 1000-1130,
+1230, 1330	Erratic turbidity probe function.  Data removed.
+
+ 
+
+ZI0697
+
+6/1 0600-2330 		All data removed because of erratic temperature probe 
+				operation.
+6/2 0000-0430, 
+0830-1700,2200-2330 	All data removed because of erratic temperature probe 
+operation
+6/3 0000-0530, 0930-
+1700,2300-2330 	All data removed because of erratic temperature probe 
+operation.
+6/4 0000-0530, 
+1100-1730 			All data removed because of erratic temperature probe 
+operation.
+6/5 0100-0600, 
+1230-1800 			All data removed because of erratic temperature probe 
+operation.
+6/6 0200-0700, 
+1300-1830 			All data removed because of erratic temperature probe 
+operation.
+6/7 0200-0730, 
+1430-1930 			All data removed because of erratic temperature probe 
+operation.
+6/8 0300-0800, 
+1500-1930 			All data removed because of erratic temperature probe 
+operation.
+6/9 0400-0900, 
+1530-2030 			All data removed because of erratic temperature probe 
+operation
+6/10 0430-0930, 
+1600-2130 			All data removed because of erratic temperature probe 
+operation.
+6/11 0430-1400 	All data removed because of erratic temperature probe 
+operation.
+ 
+
+July 1997
+
+MS0797
+
+7/1 0000-7/9 1600 	The DO %, DO mg/l, specific conductivity, and salinity   
+were removed because the DO/specific 
+conductivity/salinity sensor malfunctioned.  Turbidity 
+data removed due to erratic function of the probe. 
+7/16 1000-1030		Sonde exposed at low tide.  Data removed.
+7/17 1100-1130		Sonde exposed at low tide.  Data removed.
+7/19 0100, 0130,
+1230-1330			Datalogger exposed at low tide.  Data removed.
+7/19 1400-7/20 1930 	The pH data were removed because the probe                        
+malfunctioned.
+7/20 0200-0230	Sonde exposed at low tide.  Data removed.
+ 
+
+ZI0797
+
+7/3 0900-7/31 2330	DO data erratic and lower than normal.  Possible probe 
+failure or burial of the sonde in sediments.  Data left 
+in file. 
+7/15 1831-7/17 1000 	The specific conductivity and salinity data experienced 
+rapid drop; however, the post calibration check was 
+within range.
+7/9 1730-7/10 2030 	The DO % and DO mg/l data were removed because the DO 
+probe malfunctioned.
+7/11 0030, 0130-0530
+1200-1400, 1500-1730	The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned. 
+7/12 0000-7/13 0730	The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.  
+7/14 0600-0630, 		
+0800-0830, 0930-1230,	The DO% and DO mg/l data were removed because the DO
+1730-2130			probe malfunctioned.
+7/15 0200-0300, 		The DO% and DO mg/l data were removed because the DO
+0500-0700			probe malfunctioned.
+7/17 1030-1130 		Maintenance.
+7/27 2130-2330, 		The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.
+7/28 0400-0430, 		The DO% and DO mg/l data were removed because the DO
+0630-0730, 0830-1100,	probe malfunctioned.
+1200, 1500-7/29 1430
+7/29 2130, 2330-7/30	The DO% and DO mg/l data were removed because the DO
+0200				probe malfunctioned.
+7/30 0600, 1130-1400, 	The DO% and DO mg/l data were removed because the DO
+1800				probe malfunctioned.
+7/31 0230			The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.
+
+
+August 1997
+
+MS0897
+
+8/1 1500-8/7 1230	The DO % and DO mg/l data were removed because they 
+were outside of the instrument measurement range. 
+
+ZI0897
+
+8/3 0800-8/8 1400 	The DO % and DO mg/l data were removed because the 
+readings jumped from 65% to 212 % within 30 minute 
+period.  Probable probe failure or burial of the sonde 
+in sediments.
+8/26 1630-8/31 2330 	The pH data were removed because probe malfunctioned.
+
+
+September 1997
+
+MS0997
+
+9/8 1400-9/23 1400 	The DO % and DO mg/l data were removed because they 
+were outside of the instrument measurement range. 
+
+ZI0997
+
+9/1 0000-9/18 1100 	The DO % and DO mg/l data may be biased low as 
+indicated by a variance of the post calibration check. 
+DO was 23 % (1.9 mg/l) less then the standard. 
+9/1 0000-9/18 1100 	The pH data were removed because probe malfunctioned. 
+9/24 1400-9/29 1400 	The DO % and DO mg/l data were removed because probe 
+malfunctioned. 
+9/29 1200-1400  Small negative depth readings were recorded
+
+
+October 1997
+
+MS1097
+
+10/1 0000-10/8 1000 	The post calibration of specific conductivity indicated 
+drift of ~3.5 us/cm or a salinity of 3 ppt.
+10/22 0830-10/29 0800 	The post calibration check of oxygen saturation 
+indicated a drift.
+10/29 1030-10/31 2330 	The post calibration check of oxygen saturation 
+indicated a drift. Membrane may have settled further 
+during deployment.
+
+
+
+
+
+
+ZI1097
+
+10/8 1330-10/24 1400 	The DO% and DO mg/l data were removed because the DO
+membrane was ripped. 
+10/16 2030 			High turbidity event, see Section 12.
+
+
+November 1997
+
+MS1197
+
+11/1 0000-11/6 1000 	The post calibration check of oxygen saturation 
+indicated a drift. Membrane may have settled further 
+during deployment.
+11/6 1030-11/12 1230 	All pH data removed because the pH probe failed.
+11/20 0900-11/26 0900	All pH data removed because the pH probe failed.
+
+
+ZI1197
+
+11/13 0930-11/20 1030 	DO saturation and DO mg/l higher then deployments 
+previous and subsequent to it. However, the post 
+calibration check was within range.
+11/13 0930-11/20 1030 	Post calibration check of pH off in 10 standard by 
++ 0.21.
+
+
+December 1997
+
+MS1297
+
+12/2 1600-12/11 1400 	The DO% and DO mg/l data were removed because the DO
+membrane was ripped. 
+12/5 1200-1230 		Datalogger exposed at low tide.
+12/19 0900-12/31 2330 	The DO% and DO mg/l data were removed because the DO
+membrane was ripped.
+12/28 0030 	Depth readings negative, but salinity at normal level. 
+It is possible that there was a slight calibration 
+stray.
+12/30 0130-0300,
+1500-1530			Datalogger exposed at low tide. 
+12/30 0130-0300,1430 	Depth readings negative, but salinity at normal level.
+It is possible that there was a slight calibration 
+stray. 
+12/31 0200-0330,
+1500-1600 			Datalogger exposed at low tide. 
+
+
+ZI1297
+
+12/15 2030-2100 		High turbidity event, see section 12.  
+
+
+
+11) Missing data:
+
+This section lists any missing data within the corresponding data files. 
+Missing data maybe caused by many reasons including maintenance periods, power 
+loss, and data that have been removed because of instrument malfunction. 
+Approximately every 2-3 weeks, there is a period of between 1 to 24 hrs 
+(occasionally longer) of missing data due to maintenance and calibration. 
+During the maintenance period all parameters will be missing.
+
+A record and explanation of missing data that are not related to routine 
+maintenance is kept in the Field Log for the particular deployment. All 
+parameters recorded when the water quality instrument is exposed to air during 
+a sample, either by an extremely low tide or physical displacement from its 
+original location, are removed. Special note should be made regarding missing 
+dissolved oxygen (DO) saturation (%), DO concentration (mg/l), specific 
+conductance, salinity, and temperature measurements. If the DO saturation (%) 
+data are removed, due to sensor malfunction or other circumstances, the DO 
+concentration (mg/l) will also be missing. The DO concentration (mg/l) is 
+calculated from DO saturation (%) and temperature data. This is also true for 
+specific conductance and salinity data. Salinity (ppt) is determined by the YSI 
+6000 using specific conductance and temperature data. If the temperature sensor 
+malfunctions and the corresponding data are removed, all parameters requiring 
+these data (DO saturation, DO concentration, specific conductance, salinity, 
+and pH) for calculation or temperature compensation will also be removed.
+
+
+January 1997
+
+MS0197
+1/22 1430 			Maintenance.
+
+ZI0197
+1/7 1130			Maintenance.
+1/31 1200-1330 		Maintenance.
+
+
+February 1997
+
+MS0297
+
+2/21 1530-2/28 2330	Power failure.  No data collected.
+
+ZI0297
+
+2/1 0000-2/26 1600 	The pH data were removed because of probe failure.
+2/1 2200-2/26 1600 	Sporadic missing data during this period was due to the
+removal of data taken during exposure of the datalogger 
+at low tide. Datalogger was probably moved by fisherman 
+to shallow water.
+2/26 1630-2/28 2330	Sonde programming error.  No data collected.
+
+March 1997
+
+MS0397
+
+3/8 2000-2030 	Depth data removed because the depth sensor 
+malfunctioned.
+3/9 0030-0330, 1830, 
+2030-2330 			Depth data removed because the depth sensor
+malfunctioned. 
+3/10 0000-0500,
+2000-2330 			Depth data removed because the depth sensor
+malfunctioned.
+3/11 0000-0030,
+2100-2330 			Depth data removed because the depth sensor
+malfunctioned.
+3/11 1400-3/19 1000 	Turbidity data removed because the turbidity wiper 
+was parked over the optics at the end of the 
+deployment.
+3/13 0600-0700 	Depth data removed because the depth sensor 
+malfunctioned.
+
+ZI0397
+
+3/11 1130 Maintenance 
+3/12 0200-3/31 2330 	Power loss.
+
+
+April 1997
+
+MS0497
+
+4/4 1200-1330		Maintenance.
+4/5 1300-4/7 0400 	Maintenance.
+4/9 2130-4/10 0900 	Power failure.
+4/11 1830-4/12 0100 	Telemetry system failure.
+4/18 1730-4/19 0200	Telemetry system failure.
+4/24 1500-4/30 2330	Power failure.
+
+
+ZI0497
+
+4/1 0000-4/8 1330 	Power loss.
+4/30 0830-2330 	The turbidity data were removed because the turbidity 
+wiper was parked over the optics at the end of the 
+deployment.  
+
+
+May 1997
+
+MS0597
+
+5/1 0000-1330 		Power loss.
+5/1 1400-1430 		Maintenance.    
+5/8 1200-1700 		Maintenance.
+5/12 1030, 1700-1900	YSI 6000 exposed at low tide.
+5/13 0700-0730 		YSI 6000 exposed at low tide.
+5/14 0730 			YSI 6000 exposed at low tide.
+5/15 0230-5/23 1530	Power failure.
+5/25 1800-5/31 2330	DO membrane ripped.  DO data removed.
+
+
+
+
+
+
+ZI0597
+
+5/1 0000-5/2 1100 	The turbidity data were removed because the turbidity
+wiper was parked over the optics at the end of the 
+deployment. 
+5/2 1130-1230 		Maintenance.
+5/17 0400-5/28 1000 	The pH data were removed because of probe failure. 
+5/28 1030 			Maintenance.  
+
+
+June 1997
+
+MS0697
+
+6/1 0000-6/9 0930 	The DO % and DO mg/l data were removed because of rip 
+in the DO membrane. 
+6/9 1000-6/11 0600 	Maintenance.
+6/15 1400-6/30 2330 	The DO % and DO mg/l data were removed because the DO 
+probe malfunctioned. 
+6/18 1130-1300 	All data removed because the YSI 6000 was exposed at 
+low tide.
+6/22 1830-1900		Erratic turbidity probe function.  Data removed.
+6/23 1800			Erratic turbidity probe function.  Data removed.
+6/25 2030, 2230		Erratic turbidity probe function.  Data removed.
+6/27 0000			Erratic turbidity probe function.  Data removed.
+6/29 1030-6/30 2330 	The Specific conductivity cell was blocked with sand at 
+the end of the deployment. Suspect specific conductance 
+and salinity data removed. 
+6/30 1000-1130,
+1230, 1330	Erratic turbidity probe function.  Data removed.
+
+ZI0697
+
+6/1 0600-2330 	All data removed because of erratic temperature probe 
+operation.
+6/2 0000-0430, 0830-
+1700, 2200-2330 	All data removed because of erratic temperature probe 
+operation.
+6/3 0000-0530, 0930-
+1700, 2300-2330 	All data removed because of erratic temperature probe 
+operation. 
+6/4 0000-0530, 
+1100-1730 			All data removed because of erratic temperature probe 
+operation.
+6/5 0100-0600, 
+1230-1800 			All data removed because of erratic temperature probe 
+operation.
+6/6 0200-0700,
+1300-1830 			All data removed because of erratic temperature probe 
+operation.
+6/7 0200-0730, 
+1430-1930 			All data removed because of erratic temperature probe 
+operation.
+6/8 0300-0800, 
+1500-1930 			All data removed because of erratic temperature probe 
+operation.
+6/9 0400-0900, 
+1530-2030 			All data removed because of erratic temperature probe 
+operation.
+6/10 0430-0930, 
+1600-2130 			All data removed because of erratic temperature probe 
+operation.
+6/11 0430-1330 		All data removed because of erratic temperature probe 
+operation.
+6/11 1400-6/30 2330 	Data could not be uploaded from datalogger.
+
+
+July 1997
+
+MS0797
+
+7/1 0000-7/9 1600 	DO %, DO mg/l, specific conductivity, and salinity data
+were removed because the DO/specific 
+conductivity/salinity sensor malfunctioned.
+7/1 0000-7/9 1600 	The turbidity data were removed because of erratic 
+functioning of the turbidity probe. 
+7/9 1630-7/14 0700 	Power loss.
+7/14 0730-0800 		Maintenance.
+7/14 0830-7/31 2330 	Datalogger deployed without turbidity probe.
+7/16 1000-1030		Sonde exposed at low tide.  Data removed.
+7/17 1100-1130		Sonde exposed at low tide.  Data removed.
+7/18 1130-1230		Maintenance.
+7/19 0100, 0130,
+1230-1330			Datalogger exposed at low tide.  Data removed.
+7/19 1400-7/20 1930	The pH data were removed because the sensor                        
+malfunctioned.
+7/20 0200-0230	Sonde exposed at low tide.  Data removed.
+7/20 1330-1430		Unexplained sonde failure.
+7/20 2000-7/24 0830 	Power loss.
+7/24 0900-1400 		Maintenance.
+
+ZI0797
+7/1 0000-7/3 0900 	Data could not be uploaded from datalogger.
+7/1 0000-7/31 2330 	Datalogger deployed without turbidity probe.
+7/9 1730-7/10 2030 	The DO % and DO mg/l data were removed because the DO 
+probe malfunctioned.
+7/11 0030, 0130-0530
+1200-1400, 1500-1730	The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned. 
+7/12 0000-7/13 0730	The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.  
+7/14 0600-0630, 		
+0800-0830, 0930-1230,	The DO% and DO mg/l data were removed because the DO
+1730-2130			probe malfunctioned.
+7/15 0200-0300, 		The DO% and DO mg/l data were removed because the DO
+0500-0700			probe malfunctioned.
+7/17 1030-11300 		Maintenance.
+7/27 2130-2330, 		The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.
+7/28 0400-0430, 		The DO% and DO mg/l data were removed because the DO
+0630-0730, 0830-1100,	probe malfunctioned.
+1200, 1500-7/29 1430
+7/29 2130, 2330-7/30	The DO% and DO mg/l data were removed because the DO
+0200				probe malfunctioned.
+7/30 0600, 1130-1400, 	The DO% and DO mg/l data were removed because the DO
+1800				probe malfunctioned.
+7/31 0230			The DO% and DO mg/l data were removed because the DO
+				probe malfunctioned.
+
+
+August 1997
+
+MS0897
+
+8/1 0000-8/7 1230		No turbidity probe deployed.
+8/1 1500-8/7 1230 	The DO % and DO mg/l data were removed because they
+were out of the instrument measurement range.
+8/7 1300-1330 		Maintenance.
+8/8 0930-8/15 1630 	There was power loss to the datalogger because the seal 
+around the battery chamber leaked from a hairline crack 
+on the cap.
+8/15 1700-8/28 1330	No turbidity probe deployed.
+8/18 1330-8/28 1330	Sonde power failure.  No data collected.
+
+
+ZI0897
+
+8/1 0000-8/22 1530 	Datalogger deployed without turbidity sensor.
+8/3 0800-8/8 1400		DO data removed due to a tear in the membrane.
+8/8 1430 			Maintenance.
+8/22 1600-8/26 1600 	Maintenance.
+8/26 1630-8/31 2330 	The pH data were removed because probe malfunctioned.
+
+
+September 1997
+
+MS0997
+
+9/4 1400-9/8 1330 	Power loss.
+9/8 1400-9/23 1400 	The DO % and DO mg/l data were removed because the
+data was outside the instrument measurement range.
+9/23 1430-9/29 1400	No turbidity probe deployed.
+
+ZI0997 
+
+9/1 0000-9/18 1100 	The pH data were removed because probe malfunctioned. 
+9/18 1130-9/29 1400	Datalogger deployed without turbidity sensor.
+9/24 1400-9/29 1400 	The DO % and DO mg/l data were removed because probe 
+malfunctioned. 
+9/29 1430-1800 		Maintenance.
+9/29 1830-9/30 2330	No data collected due to improper sonde programming.
+
+
+October 1997
+
+MS1097
+
+10/22 0800 			Maintenance. 
+10/29 0830-1000 		Maintenance.
+
+ZI1097
+
+10/8 1330-10/24 1400 	DO % and DO mg/l data were removed because of DO probe 
+membrane was ripped. 
+10/8 1300 			Maintenance.
+10/24 1430-1500 		Maintenance.
+10/31 1100			Maintenance.
+
+November 1997
+
+MS1197
+
+11/6 1030-11/12 1230 	All pH data removed because the pH probe failed.
+11/12 1300			Maintenance.
+11/20 0900-11/26 0900	All pH data removed because the pH probe failed.
+11/26 0930 			Maintenance.
+
+ZI1197
+
+11/20 1100 			Maintenance. 
+
+
+December 1997    
+
+MS1297
+12/1 0030-12/2 1630 The sample time was off by 6 minutes from the top and 
+bottom of the hour.  Data files corrected to read on the hour.
+12/2 1530-12/11 1400 The sample time was off by 1 minutes from the top and 
+bottom of the hour.  Data files corrected to read on the hour.  
+12/28 0030-0100 Depth recorded was negative, however salinity did not 
+change, depth probably near minimum recordable depth (depth within accuracy 
+specification).
+12/30 0130-0300, 1400-1430 Depth recorded was negative, however salinity did 
+not change, depth probably near minimum recordable depth (depth within accuracy 
+specification).
+      
+

@@ -1,0 +1,462 @@
+
+Great Bay (GRB) NERR Water Quality Metadata
+(April-Nov. 1998)
+Latest update: February 28, 2000
+
+I.  Data Set & Research Descriptors
+
+1. Principal investigators and contact persons
+
+Richard Langan, Ph.D. Co-Director of CICEET and Research Scientist, Jackson Estuarine Laboratory
+Jaimie Wolf, Research Technician
+email :	rlangan@cisunix.unh.edu
+	jswolf@cisunix.unh.edu
+
+Jackson Estuarine Laboratory
+85 Adams Point Road
+Durham, NH 03824
+Phone: (603)862-2175
+
+2. Entry verification
+The data are transmitted every thirty minutes from YSI 6000 datasondes via VHF 
+packet
+radio using Ecowatch software to an Acer computer. Files are first examined and
+graphed using Ecowatch software.  Missing and/or anomalous data are noted. Files
+are then transferred to a Macintosh computer and opened in Excel 5.0 software 
+and
+edited. Missing data due to routine YSI maintenance and probe failure or
+communication errors are inserted into the spreadsheet and denoted by periods 
+(.).
+Edited files are merged to contain one full month of data.  Files are verified 
+by
+means of CDMO Excel 5.0 macros. 
+
+3. Research Objectives
+In 1998, YSI 6000 datasondes were deployed in Great Bay and in the
+Squamscott and Lamprey Rivers part of the National Estuarine Research
+Reserves' (NERRS) Systemwide Monitoring Program (SWMP). The goal is to
+develop and maintain temporally intensive long-term datasets of
+physio-chemical parameters of water quality at locations that are
+representative of the Great Bay Estuarine System. The Great Bay site is
+relatively unimpacted, while the two tidal river sites (Lamprey and
+Squamscott) have large drainage basins and are impacted by both point
+(wastewater treatment plants) and nonpoint sources of pollution.  In
+addition to establishing a baseline of water quality, the data is used by a
+number of researchers in the analysis of physical and biological processes.
+
+4. Research Methods
+Datasondes are programmed to obtain measurements of specific conductivity,
+salinity, dissolved oxygen, percent saturation, pH, temperature, water
+level and turbidity every half hour. The instruments are deployed
+continuously during ice-free seasons, except for brief periods when they
+are removed for cleaning, maintenance and recalibration. Pre and
+post-deployment calibrations are performed using the diagnostics menu of
+the YSI Ecowatch program and QA/QC procedures developed by NERR Research
+Coordinators and YSI engineers. VWR conductivity and pH standards are used
+for calibration. Hach formazin is used to calibrate turbidity probes.
+Due to the addition of telemetry for remote data acquisition in 1998, the
+method of deployment of the YSI datasondes changed part way through the
+year.  Initially, sondes were attached to fixed moorings at the Great Bay
+and Squamscott River stations at distance of one meter from the bottom and
+were set to record in unattended mode.  In May 1988, an additional sonde
+was deployed at the Great Bay site in a YSI EM 550 buoy equipped with
+packet radio telemetry.  Data from the buoy-deployed sonde was transmitted
+in real-time to a base station computer at Jackson Estuarine Laboratory.
+The anchored sonde was also maintained at the Great Bay site for
+approximately two months in order to compare water quality data collected
+one meter above the bottom (anchored sonde) and one meter below the surface
+(buoy deployed sonde).  The anchored sonde was also used to obtain water
+level data.  Analysis of the data from the two sondes at the Great Bay
+station indicated a high degree of vertical mixing in the water column and
+no differences in any of the measured parameters.  Water level data from
+the Great Bay anchored sonde was also used in conjunction with water level
+data from the Squamscott River to enable us to adjust the time, tide height
+and depth at the Squamscott to create an accurate tidal signal for the
+Great Bay buoy.  This analysis indicated that the water level data from the
+Squamscott station could be adjusted and substituted for additional
+anchored sonde data at the Great Bay buoy station.
+In July 1998, the Squamscott River sonde deployment was changed from fixed
+anchor deployment to a fixed piling deployment several hundred yards
+downstream from the original location.  The sonde was placed inside a PVC
+pipe attached to a bridge piling and hard wired to a 1240 radio
+transmitter.  The sonde was deployed for the remainder of the season in SDI
+12 mode and data was transmitted in real-time to the base station computer
+at Jackson Lab.   YSI In October 1998, a third station was established in
+the Lamprey River.  Deployment strategy for this station is identical to
+that described for the Squamscott River (telemetered, piling mounted,
+etc.). Ecowatch software is used for communications and data transmission
+from the three telemetered sites.
+In November 1998, one sonde was upgraded to accommodate a turbidity probe
+and turbidity data was collected at the Great Bay site during November and
+December 1998.
+
+
+5. Site Location and Character
+
+Site #1 Great Bay  (GB)
+Location
+Central area of Great Bay proper.  The coordinates of the deployment are 
+43š04¹20²
+latitude and 70š52¹10² longitude.
+Salinity range: 5-32 ppt (seasonally); 0-5ppt from high to low tide.
+Temperature range: -1šC to 24šC (seasonally); 0-3š from high to low tide
+Depth: 6.5 meters at MLW
+Tidal height of 2.7 meters
+Bottom type: Mud and rock channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Squamscott, Lamprey and Winnicut Rivers plus smaller streams. High
+tide influence from Little Bay and associated rivers
+Pollutant influence: clean reference site
+
+Deployment
+The instrument is attached to an EM 550 communications buoy equipped with a YSI
+1240 VHF radio transmitter.  The instrument is configured with the probes held 
+at a
+depth of 1 meter below the surface.  Tidal signal is obtained using an additional 
+sonde
+attached to a fixed mooring at a height of approximately 1.5m above the bottom.
+
+Site #2 Squamscott River (SQ)
+Location
+Mid channel of the Squamscott River at the Boston and Maine Railroad bridge,
+Stratham, NH.
+Coordinates are 43š02¹30² latitude and 70š55¹20² longitude
+Salinity range: 0-30ppt (seasonally); 5-20 ppt from high to low tide
+Temperature range: -1šC to 27šC (seasonally); 0-5š from high to low tide
+Depth: 3.5 meters at MLW
+Tidal height of 2.7 m
+Bottom type: Mud channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Exeter River, adjacent marshes
+Pollutant influence: Urban stormwater, agriculture, two municipal wastewater
+treatment plants, residential septic systems
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling at a 
+fixed
+0.5m height above the bottom and connected to a YSI 1240 radio transmitter
+mounted on the piling.
+
+Site #3 Lamprey River (LR)
+Location 
+West bank of the tidal portion of the Lamprey River, aproximately 300 m
+downstream of the dam at Route 108 in Newmarket, NH
+Coordinates are 43š04'48" latitude and 70š56'04" longitude
+Salinity range 0 to 27 (seasonally); difference of up to 15 ppt between high
+and low tides
+Temperature range -1šC to 27 (seasonally); difference of up to 5šC between
+high and low tides
+Depth: 3.5 m
+Tidal height 2.7 m
+Bottom type: mud/rock
+Tidal velocity: maximum 40 cm/sec
+Watershed: Lamprey River
+Pollutant influence:  Urban stormwater, adjacent marina, upstream and
+downstream wastewater treatment plants, upstream agriculture
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling at
+a fixed height of 0.5 m above the bottom. The data was collected in unattended 
+mode
+because we could not receive radio transmission at this site.
+
+6.  Data collection period
+Great Bay data collection began April 15, 1998.  Squamscott River data 
+collection
+began April 23, 1998.  Lamprey River data collection began Oct. 14, 1998.  The
+instruments are removed from the water during the winter months due to icing.
+
+7.  Associated researchers and projects:
+Great Bay Monitoring Project - Dr. Richard Langan. Supported by NOAA/NERR.
+Includes twice monthly discrete sampling and analysis of dissolved
+inorganic nutrients, suspended sediments, particulate organic matter,
+chlorophyll a concentration and microbial indicators at the three sonde
+sites.
+
+Lobster migration and behavior research - Dr. Winsor Watson and Dr. Hunting
+Howell.  Ten years of studies supported by USDA and Sea Grant that track
+lobster abundance, movement and behavior in relation to physical and biological
+variables in the Great Bay Estuary.
+
+Eelgrass modeling studies.  Dr. Fred Short.  Supported by NOAA/UNH CICEET.
+Modeling changes in eelgrass populations .
+
+Oyster disease studies: Supported by EPA/NEP, NOAA/NMFS, NH Fish and Game.
+Monitoring of the prevalence and intensity of MSX and Dermo infections in
+indigenous oyster populations and their relation to temperature and salinity
+regimes.
+
+Microbial studies of estuarine Vibrio spp..  Dr. Stephen H. Jones.
+Supported by NIH, Sea Grant.  The relationship of prevalence and abundance
+of Vibrios to temperature and salinity
+regimes.
+
+Monitoring groundwater inflows in the Great Bay Estuary.  Dr. Larry
+Brannaka and Dr. Thomas Ballestero.  Supported by NOAA/UNH CICEET
+
+Sources of suspended sediments in the Great Bay Estuary.  Dr. Larry Ward.
+Supported by NOAA/UNH CICEET
+
+Three-dimensional hydrodynamic modeling of the Great Bay Estuary.  Drs.
+Wendel Brown, Rob Swift, Frank Bub..  Supported by NOAA/UNH CICEET.
+
+II. Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable 	Range of Measurements		Resolution		Accuracy 
+DATE	(MMDDYY)	1-12, 1-31, 00-99		(1 mo,1 day,1 yr)	n/a
+HOUR	(HHMMSS)	0-24, 0-60, 0-60		(1 hr,1 min,1 sec)n/a
+TEMP			-5 to 45 (C)		0.01 C		±0.15 C 
+SPCOND		0-100 (mS/cm)		0.01 mS/cm		±0.5% + 0.001 mS/cm 
+SALINITY		0-70 ppt			0.01 ppt		±1.0% of reading or 
+0.1ppt, whichever is greater 
+DOSAT			0-200 (%Sat)		0.1% air sat	±2.0% air sat
+DOSAT			200-500 (%Sat)		0.1% air sat	±6.0% air sat 
+DOMG			0-20 (mg/l)			0.01 mg/l		±0.2 mg/l
+DOMG			20-50 (mg/l)		0.01 mg/l		±0.6 mg/l 
+DEPTH			0-9.1 (m)			0.001 m		±0.018 m 
+pH			2-14 units			0.01 units		±0.2 units 
+TURB			0-1000 NTU			0.1 NTU		±5.0% of reading or 
+2 NTU, whichever is greater 
+
+
+9.  Coded variable indicator and variable code definitions:
+Site definitions: GB = Great Bay, SQ = Squamscott River, LR=Lamprey River
+
+Note on missing depth data at GB:  When the GB sonde is deployed on a buoy it
+does not take accurate depth readings because it is floating with the tide.  For 
+these
+data sets, we used Squamscott depth data adjusted for timing and difference in 
+site
+depths.  GB missing depth data is a result of a lack of corresponding SQ depth 
+data
+for those time periods. (Because SQ sonde was in the lab during that period.)
+
+10. Data Anomalies:
+
+June 1998
+
+SQ: No turbidity data 6/14 1:30-3:00. Data out of range and was deleted
+
+July 1998
+
+GB: No data 7/22 18:00 and 19:30 to 20:30 and 22:00 Sonde did not record for
+unknown reasons.
+GB: No data 7/23 00:00 to 00:30 and 3:00 and 6:00 and 10:00 to 11:00 and 14:00 
+and 15:00 to 18:00 and 19:30 and 20:30 and 21:30  Sonde did not record for unknown
+reasons.
+GB: No data 7/23 23:00 to 7/24 00:00 Sonde did not record for unknown reasons.
+GB: No data 7/24 7:00 and 9:30 and 10:30 and 12:00 to 13:00 and 15:30 and 16:30 
+to 17:30 and 18:30 to 19:00 and 21:00 to 21:30 and 22:30 to 23:00 Sonde did not 
+record for unknown reasons.
+GB: No data 7/25 00:00 and 1:30 to 2:30 and 4:00 to 4:30 and 5:30 and 7:00 and 
+9:00 and10:00 to 11:30 and 13:00 and 18:30 to 19:00 and 20:00 to 20:30 Sonde did not 
+record for unknown reasons.
+GB: No data 7/26 2:00 to 2:30 and 3:30 and 4:30 and 6:30 to 7:00 and 8:30 to 
+9:00 and
+10:00 and 11:00 and 12:30 and 15:30 and 16:30 to 17:00 and 18:00 and 19:00 and 
+20:30
+and 23:30 Sonde did not record for unknown reasons.
+GB: No data 7/27 1:00 and 3:00 and 4:30 and 7:00 and 8:30 and 10:00 to 10:30 and 
+11:30 and 13:30 and 15:30 and 16:30 and 17:30 and 19:00 and 20:00 and 21:30 to 23:00 
+Sonde did not record for unknown reasons.
+GB: No data 7/28 00:30 and 1:30 to 2:00 and 3:00 to 3:30 and 5:30 to 8:00 and 
+10:30 and 11:30 to 12:00 and 13:00 and 14:30 to 15:30 and 16:30 to 17:00 and 18:30 and 
+19:30 and 20:30 and 21:30 Sonde did not record for unknown reasons.
+GB: No data 7/29 3:30 to 4:00 and 8:00 to 8:30 and 11:00 and 13:00 and 15:30 to 16:00
+and 17:00 to 22:00 and 23:00 to 23:30 Sonde did not record for unknown reasons.
+GB: No data 7/30 1:00 and 3:00 to 4:00 and 5:30 to 6:00 and 7:00 to 7:30 and 9:00 and
+10:00 to 10:30 and 11:30 and 13:00 and 14:00 and 15:00 to 17:00 Sonde did not 
+record for unknown reasons.
+SQ: No turbidity data 7/1 0:00 to 7/7 8:00 Data out of range, deleted.
+SQ: No DO data 7/19 10:00 to 7/22 9:30 Data out of range. Deleted.
+SQ: No data 7/23 1:00 to 5:30 and 13:00 to 16:30 Sonde did not record for 
+unknown reasons.
+SQ: No data 7/24 00:30 to 7:30 and 12:00 to 19:00 and 23:00 to 23:30 Sonde did 
+not record for unknown reasons.
+SQ: No data 7/25 00:00 to 7/25 22:30 Sonde did not record for unknown reasons.
+SQ: No data 7/26 00:00 to 7/31 23:30 Sonde did not record for unknown reasons.
+
+August 1998
+
+GB: No turbidity data 8/1 00:00 to 8/31 23:30 Probe malfunctioned
+
+September 1998
+
+GB: No DO data 9/1 15:30 to 9/2 9:00 Data out of range. Deleted.
+SQ: No data 9/1 09:00 Sonde did not record for unknown reasons
+SQ: No data 9/18 10:00 Sonde did not record for unknown reasons
+
+October 1998
+
+GB: No data 10/1 13:00 Sonde did not record for unknown reasons.
+SQ: No data 10/1 12:30 to 13:00 Sonde did not record for unknown reasons.
+
+November 1998
+
+GB: No data 11/2 10:30 to 11:30 Sonde did not record for unknown reasons
+GB: No data 11/4 10:30 to 11/5 11:30 Sonde did not record for unknown reasons
+LR: No DO data 11/3 8:30 to 11/4 10:30:00 Data out of range. Deleted
+LR: No data 11/4 11:00 to 11/5 12:00 Sonde did not record for unknown reasons.
+LR: No data 11/15 9:00 Sonde did not record for unknown reasons.
+LR: No data 11/17 17:00 to 17:30 Sonde did not record for unknown reasons.
+LR: No data 11/20 4:00 to 11/22 7:30 Sonde did not record for unknown reasons.
+LR: No data 11/27 2:00 to 7:00 Sonde did not record for unknown reasons.
+
+11. Missing Data: 
+
+April 1998
+
+GB: No data 4/1 00:00 to 4/15 9:30  Sonde not deployed yet.
+GB: No turbidity data 4/1 00:00 to 4/30 23:30 No turbidity probe
+SQ: No data 4/1 00:00 to 4/23 12:30 Sonde not deployed.
+SQ: No DO or turbidity data 4/23 13:00 to 4/30 23:30 No turbidity probe. DO 
+probe malfunctioned.
+LR: No data 4/1 00:00 to 4/30 23:30 Sonde not deployed.
+
+
+May 1998
+
+GB: No turbidity data 5/1 00:00 to 5/31 23:30 No turbidity probe
+GB: No data 5/5 10:30 to 5/7 10:00 Sonde in lab for cleaning and calibration
+GB: No data 5/18 10:30 to 5/19 16:30 Sonde in lab for cleaning and calibration
+GB: No depth data 5/19 17:00 No SQ depth data for this time period
+SQ: No DO or turbidity data 5/1 00:00 to 5/13 8:00 No turbidity probe. DO probe
+malfunctioned
+SQ: No data 5/13 8:30 to 5/14 13:30 Sonde in lab for cleaning and calibration
+LR: No data 5/1 00:00 to 5/31 23:30 Sonde not reployed.
+
+June 1998
+
+GB: No turbidity data 6/1 00:00 to 6/30 23:30 No turbidity probe
+GB: No depth data 6/3 14:00 to 6/10 8:30 No SQ depth data for this time period
+GB: No data 6/24 14:30 to 6/26 9:00 Sonde in lab for cleaning and calibration
+SQ: No data 6/3 14:30 to 6/10 8:30 Sonde stopped recording on June 3 and was
+redeployed June 10
+SQ: No turbidity data 6/14 1:30-3:00. Data out of range and was deleted
+LR: No data 6/1 00:00 to 6/30 23:30 Sonde not deployed
+
+July 1998
+
+GB: No turbidity data 7/1 00:00 to 7/31 23:30 No turbidity probe.
+GB: No depth data 7/7 8:30 to 7/8 12:30 No SQ depth data for this time period
+GB: No depth data 7/14 10:00 No SQ depth data for this time period
+GB: No data 7/14 10:30 to 7/22 16:30 Computer crashed, in for repair.
+GB: No data 7/22 18:00 and 19:30 to 20:30 and 22:00 Sonde did not record for
+unknown reasons.
+GB: No data 7/23 00:00 to 00:30 and 3:00 and 6:00 and 10:00 to 11:00 and 14:00 
+and
+15:00 to 18:00 and 19:30 and 20:30 and 21:30  Sonde did not record for unknown
+reasons.
+GB No depth data 7/23 1:00 to 6:00 and 13:00 to 18:00 No SQ depth data for this 
+time
+period
+GB: No data 7/23 23:00 to 7/24 00:00 Sonde did not record for unknown reasons.
+GB: No depth data 7/24 00:30 to 7:30 and 13:30 to 19:00 and 21:00 to 21:30 and 
+22:30 to
+23:30 No SQ depth data for this time period
+GB: No data 7/24 7:00 and 9:30 and 10:30 and 12:00 to 13:00 and 15:30 and 16:30 
+to
+17:30 and 18:30 to 19:00 and 21:00 to 21:30 and 22:30 to 23:00 Sonde did not 
+record for
+unknown reasons.
+GB: No data 7/25 00:00 and 1:30 to 2:30 and 4:00 to 4:30 and 5:30 and 7:00 and 
+9:00 and
+10:00 to 11:30 and 13:00 and 18:30 to 19:00 and 20:00 to 20:30 Sonde did not 
+record for
+unknown reasons.
+GB: No depth data 7/25 00:30 to 22:30 No SQ depth data for this time period
+GB: No depth data 7/26 00:00 to 7/28 9:30 No SQ depth data for this time period
+GB: No data 7/26 2:00 to 2:30 and 3:30 and 4:30 and 6:30 to 7:00 and 8:30 to 
+9:00 and
+10:00 and 11:00 and 12:30 and 15:30 and 16:30 to 17:00 and 18:00 and 19:00 and 
+20:30
+and 23:30 Sonde did not record for unknown reasons.
+GB: No data 7/27 1:00 and 3:00 and 4:30 and 7:00 and 8:30 and 10:00 to 10:30 and 
+11:30
+and 13:30 and 15:30 and 16:30 and 17:30 and 19:00 and 20:00 and 21:30 to 23:00 
+Sonde
+did not record for unknown reasons.
+GB: No data 7/28 00:30 and 1:30 to 2:00 and 3:00 to 3:30 and 5:30 to 8:00 and 
+10:30 and
+11:30 to 12:00 and 13:00 and 14:30 to 15:30 and 16:30 to 17:00 and 18:30 and 
+19:30 and
+20:30 and 21:30 Sonde did not record for unknown reasons.
+GB: No data 7/29 3:30 to 4:00 and 8:00 to 8:30 and 11:00 and 13:00 and 15:30 to 
+16:00
+and 17:00 to 22:00 and 23:00 to 23:30 Sonde did not record for unknown reasons.
+GB: No data 7/30 1:00 and 3:00 to 4:00 and 5:30 to 6:00 and 7:00 to 7:30 and 
+9:00 and
+10:00 to 10:30 and 11:30 and 13:00 and 14:00 and 15:00 to 17:00 Sonde did not 
+record
+for unknown reasons.
+SQ: No turbidity data 7/1 0:00 to 7/7 8:00 Data out of range, deleted.
+SQ: No data 7/7 8:30 to 7/8/ 12:30 Sonde in lab for cleaning and calibration
+SQ: No DO data 7/19 10:00 to 7/22 9:30 Data out of range. Deleted.
+SQ: No data 7/22 10:00 to 11:00 Sonde in lab for cleaning and calibration
+SQ: No turbidity data 7/22 11:30 to 7/31 23:30 No turbidity probe
+SQ: No data 7/23 1:00 to 5:30 and 13:00 to 16:30 Sonde did not record for 
+unknown
+reasons.
+SQ: No data 7/24 00:30 to 7:30 and 12:00 to 19:00 and 23:00 to 23:30 Sonde did 
+not
+record for unknown reasons.
+SQ: No data 7/25 00:00 to 7/25 22:30 Sonde did not record for unknown reasons.
+SQ: No data 7/26 00:00 to 7/31 23:30 Sonde did not record for unknown reasons.
+LR: No data 7/1 00:00 to 7/31 23:30 Sonde not deployed
+
+August 1998
+GB: No turbidity data 8/1 00:00 to 8/31 23:30 Probe malfunctioned
+GB: No data 8/7 13:00 to 14:30 Sonde in lab for cleaning and calibration
+GB: No depth data 8/13 8:00 to 11:30 No SQ depth data for this time period
+SQ: No turbidity data 8/1 00:00 to 8/31 23:30 No turbidity probe
+SQ: No data 8/1 00:00 to 8/13 19:00 Batteries failed
+LR: No data 8/1 00:00 to 8/31 23:30 Sonde not deployed
+
+September 1998
+
+GB: No turbidity data 9/1 00:00 to 9/30 23:30 No turbidity probe
+GB: No DO data 9/1 15:30 to 9/2 9:00 Data out of range. Deleted.
+GB: No data 9/2 9:30 to 10:00 Sonde in lab for cleaning and calibration
+GB: No depth data 9/3 4:30 to 10:00 No SQ depth data for this time period
+GB: No data 9/18 9:30 to 10:00 Sonde in lab for cleaning and calibration
+SQ: No turbidity data 9/1 00:00 to 9/30 23:30 No turbidity probe
+SQ: No data 9/1 9:00 Sonde did not record for unknown reasons.
+SQ: No data 9/2 11:00 to 13:30 Sonde in lab for cleaning and calibration
+SQ: No data 9/18 10:00 Sonde did not record for unknown reasons
+LR: No data 9/1 00:00 to 9/30 23:30 Sonde not deployed
+
+October 1998
+
+GB: No turbidity data 10/1 00:00 to 10/31 23:30 No turbidity probe
+GB: No data 10/1 13:00 Sonde did not record for unknown reasons.
+GB: No depth data 10/1 13:30 No SQ depth data for this time.
+GB: No depth data 10/13 20:00 to 10/16 10:00 No SQ depth data for this time 
+period
+SQ: No turbidity data 10/1 00:00 to 10/31 23:30 No turbidity probe
+SQ: No data 10/1 12:30 to 13:00 Sonde did not record for unknown reasons.
+SQ: No data 10/13 19:30 to 10/16 10:00 Sonde in lab for cleaning and calibration
+LR: No data 10/1 00:00 to 10/13 9:00 Sonde not deployed
+
+November 1998
+
+GB: No turbidity data 11/1 00:00 to 11/2 10:00 No turbidity probe
+GB: No data 11/2 10:30 to 11:30 Sonde did not record for unknown reasons.
+GB: No depth data 11/2 12:00 to 11/4 10:00 No SQ depth data for this time period
+GB: No data 11/4 10:30 to 11/5 11:30 Sonde did not record for unknown reasons.
+GB: No depth data 11/20 3:00 to 11/22 7:00 No SQ depth data for this time period
+GB: No depth data 11/27 1:00 to 6:30 No SQ depth data for this time period
+SQ: No turbidity data 11/1 00:00 to 11/30 23:30 No turbidity probe
+SQ: No data 11/2 11:30 to 11/5 11:30 Sonde in lab for cleaning and calibration
+SQ: No data 11/19 10:30 to 11/30 23:30 1240 radio lost communication with sonde
+LR: No turbidity data 11/3 8:30 to 11/30 23:30 No turbidity probe
+LR: No data 11/2 10:30 to 11/3 8:00 Sonde in lab for cleaning and calibration
+LR: No DO data 11/3 8:30 to 11/4 10:30:00 Data out of range. Deleted
+LR: No data 11/4 11:00 to 11/5 12:00 Sonde did not record for unknown reasons.
+LR: No data 11/15 9:00 Sonde did not record for unknown reasons.
+LR: No data 11/17 17:00 to 17:30 Sonde did not record for unknown reasons.
+LR: No data 11/20 4:00 to 11/22 7:30 Sonde did not record for unknown reasons.
+LR: No data 11/27 2:00 to 7:00 Sonde did not record for unknown reasons.
+
+

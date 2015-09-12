@@ -1,0 +1,218 @@
+ (RKB) NERR Water Quality Metadata
+Covering Period of November - December, 1996
+Metadata File Name: RKB11-12.96m
+Latest Update: August 14, 1998
+
+
+I.  Dataset and Research Descriptors
+
+1. Principal investigator & contact person.
+Dr. Todd E. Hopkins, Research Coordinator	
+Rookery Bay NERR					
+300 Tower Road						
+Naples, FL 34113						
+941-417-6310						
+Fax: 941-417-6315					
+Email:  hopkins_t@dep.state.fl.us		
+
+Contact:
+	Pat O¹Donnell, Environmental Specialist
+	Rookery Bay NERR	
+	300 Tower Road
+	Naples, FL 34113
+	941-417-6310
+	Fax: 941-417-6315
+	Email:  odonnell_p@dep.state.fl.us
+
+
+2. Entry verification.
+	The data contained herein were directly downloaded from the YSI 6000 data sonde to 
+the PC6000 software on a DOS-based 486 computer.  The data were immediately exported to 
+Excel on a Macintosh PowerPC.  Charting and plotting routines within Excel and within 
+Kaleidograph were used to verify the accuracy of the data.  In addition, the Excel 5.0 Macros 
+provided by the CDMO were used to format and check the dataset for outliers beyond what 
+the probes measure.  Outliers and erroneous data were also checked manually using the 
+protocol defined in Appendix B of CDMO Operations Manual (v. 3.0).  The data was then 
+sent via US postal system on disk to the CDMO.  
+
+Note:  This dataset was prepared by Dr. Michael Savarese who is currently an associate 
+professor at Florida Gulf Coast University.  All inquires concerning the dataset should be 
+addressed to the principal investigator or contact(see above) at Rookery Bay NERR.
+
+3. Research objectives.
+	Henderson Creek, the area in which both our data sondes are deployed, is the 
+Reserve¹s principal water conduit feeding the estuary and the Gulf of Mexico.  Henderson¹s 
+watershed is almost entirely under public ownership, though historically much of its acreage 
+was privately owned and developed.  Consequently, the Henderson system represents a 
+restored watershed and estuary and serves as a management model for southwestern Florida.  
+For this reason, the Reserve is interested in long-term monitoring of its water quality.  In 
+addition, we have begun a new research initiative which concerns the coastal linkages of 
+processes and effects between estuaries and nearshore marine settings (just offshore in the 
+Gulf of Mexico).  These two research purposes have dictated the placement of the two YSI 
+data sondes.  The first sonde, which has been in place since early November, 1996 (metadata 
+reported herein), is located high within the estuary where salinities fluctuate drastically 
+through tidal cycles and through seasonal changes in climate.  The second sonde will be 
+deployed in mid-January, 1997.  It will be located far downstream within the estuary, at the 
+estuary¹s mouth to the Gulf (Big Marco Pass).  Data from this second sonde will be 
+transferred after January, 1997.
+
+4. Research methods.
+	The first YSI sonde deployment began on November 7, 1996 in the upper portion of 
+Henderson Creek(see site location and character).   The sonde is housed within a 4-inch 
+diameter PVC pipe which is attached to an ìaid-to-navigation¹ piling.  The pipe is oriented 
+vertically, huging the piling, and is attached with stainless steel hose clamps.  The bottom 
+portion of the pipe is open and sits 6 inches above the bottom.  Probe tips are therefore 
+taking measurements approximately 6-8 inches above the substrate.  Numerous 1-inch 
+diameter holes are drilled circumferentially around the lower 8 inches of the pipe to ensure 
+adequate water flow around the probes.  Sondes are hung by galvanized steel chain inside the 
+pipe; the chain is bolted to the piling.  A ëkryptonite¹ bicycle lock is used to secure the sonde 
+inside the housing.
+	Prior to deployment, the sondes are calibrated for pH, specific conductivity, turbidity 
+and dissolved oxygen following the procedures outlined in the YSI Operating and Service 
+Manual.  A two point calibration is used for pH(Fisher buffers 7& 10) and turbidity(0 & 40 
+NTU from Advanced Polymer Systems, Inc.).  A 0.5M KCL solution is prepared to calibrate 
+specific conductivity while dissolved oxygen is calibrated by % saturation.  Sondes are 
+deployed for up to 2 weeks time. After approximately 2 weeks time the fouling on the probes 
+becomes critical.  Sampling period is set for 30-minute intervals (readings are made every 30 
+minutes on the half hour).  The following physical water quality parameters are recorded:  
+temperature, specific conductivity, salinity, dissolved oxygen(mg/l), dissolved oxygen(% 
+saturation), depth, pH and turbidity.  A post-deployment calibration is done after the sonde is 
+taken out of the water using the same calibration protocol.  
+
+5. Site location & character.
+	RKB¹s monitoring sites (monitoring at the second site will begin in January, 1997) 
+are 
+located at the up- and downstream ends of Henderson Creek, the principal estuarine system 
+within the Reserve.
+	The Upper Henderson site is located on the upper region of Henderson Creek.  The 
+piling is located right of center (while facing downstream) of the creek channel, 
+approximately 50 meters downstream of State Hwy 951¹s crossing of Henderson Creek.
+	UTM GPS coordinates (using UTM zone 17, datum NAD-27):
+		E429855.23
+		N2881137.96
+	Lat/Long:	
+		26deg 02¹ 56.46587¹ N
+		81deg 42¹  4.21595¹ W
+	This segment of Henderson Creek is bordered by red mangrove forest.  A residential 
+area, consisting of trailer parks, is located immediately upstream.  These may be delivering 
+point-source pollutants.
+	The substrate within the channel is composed of organic-rich, black mud.  The water 
+depth varies between 0.5 and 1.5 meters, depending on the state of the tide.  Salinities 
+fluctuate daily with the tides and seasonally with rainfall.  For the months of November and 
+December, 1996, salinities varied between 15 - 32 ppt.
+
+6. Data collection period.
+	5 sonde deployments occurred throughout Nov. & Dec., 1996 at Upper Henderson 
+Creek.
+	1st Reading:						Last Reading: 
+	11/07/96,  12:00					11/14/96,  15:30
+	11/14/96,  16:00					11/25/96,  14:00
+	11/25/96,  14:30					12/09/96,  15:00
+	12/09/96,  15:30					12/23/96,  14:00
+	12/23/96,  15:00					01/06/97,  11:30
+[Data for the 1st 6 days in January not included herein.]
+
+7. Associated researchers & projects.
+	Dr. Mike Shirley (at RKB) has a telemetered YSI monitoring station recording the 
+same physical water quality parameters (minus turbidity) at a site downstream from the 
+Upper Henderson Creek site.  These data are also available upon request.
+
+
+II.  Physical Structure Descriptors
+
+8. Sensor specifications, range of measurements, units, resolution, and accuracy.
+Variable name:	Range of measurements (units):	Resolution:	Accuracy:
+Date	1-12,1-31,00-99  (Mo,Day,Yr)	1 mo, 1 day, 1yr	NA
+Time	0-24,0-60,0-60  (Hr,Min,Sec)	1 hr, 1 min, 1 s	NA
+Temp	-5 to 45degC	0.01degC	+/- 0.15degC
+SpCond	0 - 100 mS/cm	0.01 mS/cm           +/- 0.5% of reading 				 
++ 0.001 mS/cm
+Sal	0 - 70 ppt	0.01 ppt	+/- 1.0% of reading 				or 0.1 
+ppt , which-				ever is greater
+dO %	0 - 200 % air saturation	0.1% @air satur.	+/- 2% @air satur.
+dO %	200 - 500 % air saturation	0.1% @air satur.	+/- 6% @air satur.
+dO mg/L	0 - 20 mg/L	0.01 mg/L	+/- 0.2 mg/L
+dO mg/L	20 - 50 mg/L	0.01 mg/L	+/- 0.6 mg/L
+Depth	0 - 9.1 m	0.001 m	+/- 0.018 m
+pH	2 - 14 units	0.01 units	+/- 0.2 units
+Turb	0 - 1000 NTU	0.1 NTU	+/- 5% of reading or 			2 NTU, 
+whichever 				is greater
+
+9. Coded variable code definitions.
+	UH = Upper Henderson Creek
+
+10. Data anomalies.
+
+November 7 - 30, 1996 Sampling Period
+	(a) On 11/22 at 0630 hours the turbidity spiked at -500.3 NTU.
+	(b) From time to time throughout the record for November turbidity values become 
+slightly negative (not dropping below -3.0 NTU).  These values, however, follow the 
+temporal trends seen when turbidity is plotted against time and they are correlated against 
+tidal fluctuations -- the turbidity values are predictably negative and follow logically from the 
+values that immediately precede and follow them.  Consequently, these data were not deleted 
+from the Excel file.  The dates and times are listed here:
+		11/23		0730 - 0800
+		11/24		0730 - 0800
+		11/26		0700 - 1000, 1100
+		11/27		0630, 0730 - 1130, 1230
+		11/28		0700, 0800 - 1300
+		11/29		0930 - 1230
+		11/30		1030 - 1300
+
+December 1 - 31, 1996 Sampling Period
+	(a) Three problems occurred in the dissolved oxygen record:
+		1. On 12/25 at 0030 hours a spike appeared (285.3% & 21.26 mg/L).  The 
+record before and after this time point looks normal and consistent.
+		2. On 12/31 from 0500 - 0600 hours the oxygen values spiked at ~275%.  
+These values are inconsistent with those values immediately preceding and following them.
+		3. On 12/31 from 1630 - 2330 hours the % dissolved oxygen values became 
+inconsistent and unreliable, at times exceeding 240%.  These values have been deleted from 
+the record (see Missing Data).  The anomalous values continued into January (not reported 
+herein) through the sonde¹s retrieval on 1/6/97.  These will be discarded when January¹s data 
+are reported.  Upon retrieval of the sonde on the 6th, the oxygen membrane was intensely 
+fouled and scratched.
+	(b) From time to time throughout the record for December turbidity values become 
+slightly negative (not dropping below -3.0 NTU).  These values, however, follow the 
+temporal trends seen when turbidity is plotted against time and they are correlated against 
+tidal fluctuations -- the turbidity values are predictably negative and follow logically from the 
+values that immediately precede and follow them.  Consequently, these data were not deleted 
+from the Excel file.  The dates and times are listed here:
+		12/1		1100 - 1230
+		12/2		1230 - 1400
+		12/3		1130, 1400 - 1500
+		12/4		0300 - 0330
+		12/5		0230, 0400
+		12/6		0230, 0330 - 0630, 1600, 1800
+		12/7		0330 - 0630, 0730
+		12/8		0230, 0330 - 0800, 1830 - 1900, 2000
+		12/9		0400 - 0730, 0830 - 1130, 1230
+
+11. Missing data.
+
+November 7 - 30, 1996 Sampling Period
+	(a) The record for November begins on 11/7/96 at 1200 hours.  This was the first 
+deployment at the Upper Henderson location, so no data were collected prior to this time..
+	(b) For the time interval: 11/14 at 1600 to 11/25 at 1400, salinity was not recorded.  
+The salinity option was inadvertently switched off.  Specific conductivity was recorded, 
+however.
+
+December 1 - 31, 1996 Sampling Period
+(a) No data were recorded on 12/23 at 1430 hours.  The sonde swap was miss timed, leaving a 
+30-minute gap in the record.
+(b) Dissolved oxygen data (%dO & dO mg/L) on 12/31 from 1630 - 2330 hours were deleted 
+because of a damaged oxygen probe membrane.
+
+12. Other remarks/notes.
+	No additional remarks.
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+

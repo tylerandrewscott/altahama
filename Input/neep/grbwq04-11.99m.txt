@@ -1,0 +1,507 @@
+Great Bay (GRB) NERR Water Quality Metadata
+(April-Nov. 1999)
+Latest update: October 10, 2000
+
+I.  Data Set & Research Descriptors
+
+1. Principal investigators and contact persons
+
+Richard Langan, Ph.D. Co-Director of CICEET and Research Scientist, 
+Jackson Estuarine Laboratory
+Jaimie Wolf, Research Technician
+email :	rlangan@cisunix.unh.edu
+		jswolf@cisunix.unh.edu
+
+Jackson Estuarine Laboratory
+85 Adams Point Road
+Durham, NH 03824
+Phone: (603)862-2175
+
+2. Entry verification
+The data are transmitted every thirty minutes from YSI 6000 or 6600 
+datasondes via VHF packet radio using Ecowatch software to a base 
+station PC. Files are first examined and graphed using Ecowatch 
+software.  Missing and/or anomalous data are noted. Files are then 
+transferred to a Macintosh computer and opened in Excel 5.0 software 
+and edited. Missing data due to routine YSI maintenance and probe 
+failure or communication errors are inserted into the spreadsheet and 
+denoted by periods (.).
+Edited files are merged to contain one full month of data.  Files are 
+verified by means of CDMO Excel 5.0 macros. 
+
+3. Research Objectives
+In 1999, YSI 6000 or 6600 datasondes were deployed in Great Bay and in 
+the Squamscott and Lamprey Rivers part of the National Estuarine 
+Research Reserves' (NERRS) Systemwide Monitoring Program (SWMP). The 
+goal is to develop and maintain temporally intensive long-term datasets 
+of physio-chemical parameters of water quality at locations that are 
+representative of the Great Bay Estuarine System. The Great Bay site is 
+relatively unimpacted, while the two tidal river sites (Lamprey and
+Squamscott) have large drainage basins and are impacted by both point 
+(wastewater treatment plants) and nonpoint sources of pollution.  In 
+addition to establishing a baseline of water quality, and understanding 
+the spatial and temporal variability of important indicators of 
+estuarine water quality, the data is used by a number  of researchers 
+in the analysis of physical and biological processes.
+
+4. Research Methods
+Datasondes are programmed to obtain measurements of specific 
+conductivity, salinity, dissolved oxygen, percent saturation, pH, 
+temperature, water level and turbidity every half hour. The purchase of 
+two YSI 6600 instruments and fluorescence probes in late 1999 also 
+provided an opportunity to evaluate the accuracy of fluorescence 
+measurements.  The instruments are deployed continuously during ice-
+free seasons, except for brief periods when they are removed for 
+cleaning, maintenance and recalibration. Pre and post-deployment 
+calibrations are performed using the diagnostics menu of the YSI 
+Ecowatch program and QA/QC procedures developed by NERR Research 
+Coordinators and YSI engineers. VWR conductivity and pH standards are 
+used for calibration. Hach formazin is used to calibrate turbidity 
+probes.
+The sonde in Great Bay is deployed in a YSI EM 550 buoy, while the 
+Lamprey and Squamscott river stations are piling mounted 
+deployments(see below). The sonde in Great Bay is deployed in a YSI EM 
+550 buoy, while the Lamprey and Squamscott river stations are piling 
+mounted deployments (see below). Because the sonde at the central Great 
+Bay site (GB) is deployed in an EM 550 surface buoy, it does not 
+measure depth data.  In 1998, depth data for the GB site was obtained 
+using an additional anchored sonde supplemented by time adjusted water 
+level data from the Squamscott River site (SQ).
+Comparison of the 1998 water level data from anchored GB sonde and the 
+fixed-depth Squamscott sonde indicated that the Squamscott sonde could 
+accurately provide depth data for the GB site with a 30-minute phase 
+delay. This allowed us to eliminate the redundant deployment at the GB 
+site in 1999, and to use time-adjusted water level data from the 
+Squamscott River site.  For the GB 1999 data set, all times and dates 
+for which only water level data was missing occurred when there was no 
+corresponding (date & time) water level data from the Squamscott sonde.  
+Missing data at the Squamscott site was due to removal of the 
+instrument for cleaning and recalibration or failure of the sonde to 
+transmit data.
+
+
+5. Site Location and Character
+
+Site #1 Great Bay  (GB)
+Location
+Central area of Great Bay proper.  The coordinates of the deployment 
+are 
+43°04’20” latitude and 70°52’10” longitude.
+Salinity range: 5-32 ppt (seasonally); 0-5ppt from high to low tide.
+Temperature range: -1°C to 24°C (seasonally); 0-3° from high to low 
+tide
+Depth: 6.5 meters at MLW
+Tidal height of 2.7 meters
+Bottom type: Mud and rock channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Squamscott, Lamprey and Winnicut Rivers plus smaller 
+streams. High tide influence from Little Bay and associated rivers
+Pollutant influence: clean reference site
+
+Deployment
+The instrument is attached to an EM 550 communications buoy equipped 
+with a YSI 1240 VHF radio transmitter.  The instrument is configured 
+with the probes held at a depth of 1 meter below the surface.  Tidal 
+signal is obtained using an additional sonde attached to a fixed 
+mooring at a height of approximately 1.5m above the bottom.
+
+Site #2 Squamscott River (SQ)
+Location
+Mid channel of the Squamscott River at the Boston and Maine Railroad 
+bridge, Stratham, NH.
+Coordinates are 43°02’30” latitude and 70°55’20” longitude
+Salinity range: 0-30ppt (seasonally); 5-20 ppt from high to low tide
+Temperature range: -1°C to 27°C (seasonally); 0-5° from high to low 
+tide
+Depth: 3.5 meters at MLW
+Tidal height of 2.7 m
+Bottom type: Mud/oyster channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Exeter River, adjacent marshes
+Pollutant influence: Urban stormwater, agriculture, two municipal 
+wastewater treatment plants, residential septic systems
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling 
+at a fixed 0.5m height above the bottom and connected to a YSI 1240 
+radio transmitter mounted on the piling.
+
+Site #3 Lamprey River (LR)
+Location 
+West bank of the tidal portion of the Lamprey River, approximately 300 
+m downstream of the dam at Route 108 in Newmarket, NH
+Coordinates are 43°04'48" latitude and 70°56'04" longitude
+Salinity range 0 to 27 (seasonally); difference of up to 15 ppt between 
+high and low tides
+Temperature range -1°C to 27 (seasonally); difference of up to 5°C 
+between high and low tides
+Depth: 3.5 m
+Tidal height 2.7 m
+Bottom type: mud/rock
+Tidal velocity: maximum 40 cm/sec
+Watershed: Lamprey River
+Pollutant influence:  Urban stormwater, adjacent marina, upstream and 
+downstream wastewater treatment plants, upstream agriculture
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling 
+at a fixed height of 0.5 m above the bottom connected to a YSI 1240 
+radio transmitter mounted on the piling.
+ 
+
+6.  Data collection period
+Great Bay data collection began April 22, 1999 and ended December 22, 
+1999.  Squamscott River data collection began April 19, 1999 and ended 
+December 13, 1999.  Lamprey River data collection began April 26, 1999 
+and ended December 13, 1999.  The instruments are removed from the 
+water during the winter months due to icing.
+
+7.  Associated researchers and projects:
+Great Bay Monitoring Project - Dr. Richard Langan. Supported by 
+NOAA/NERR.
+Includes twice monthly discrete sampling and analysis of dissolved 
+inorganic nutrients, suspended sediments, particulate organic matter, 
+chlorophyll a concentration and microbial indicators at the three sonde 
+sites.
+
+Lobster migration and behavior research - Dr. Winsor Watson and Dr. 
+Hunting Howell.  Ten years of studies supported by USDA and Sea Grant 
+that track lobster abundance, movement and behavior in relation to 
+physical and biological variables in the Great Bay Estuary.
+
+Eelgrass modeling studies.  Dr. Fred Short.  Supported by NOAA/UNH 
+CICEET.
+Modeling changes in eelgrass populations .
+
+Oyster disease studies: Supported by EPA/NEP, NOAA/NMFS, NH Fish and 
+Game.
+Monitoring of the prevalence and intensity of MSX and Dermo infections 
+in indigenous oyster populations and their relation to temperature and 
+salinity regimes.
+
+Microbial studies of estuarine Vibrio spp..  Dr. Stephen H. Jones.
+Supported by NIH, Sea Grant.  The relationship of prevalence and 
+abundance of Vibrios to temperature and salinity regimes.
+
+Monitoring groundwater inflows in the Great Bay Estuary.  Dr. Larry
+Brannaka and Dr. Thomas Ballestero.  Supported by NOAA/UNH CICEET
+
+Sources of suspended sediments in the Great Bay Estuary.  Dr. Larry 
+Ward. Supported by NOAA/UNH CICEET
+
+Three-dimensional hydrodynamic modeling of the Great Bay Estuary.  Drs.
+Wendel Brown, Rob Swift, Frank Bub.  Supported by NOAA/UNH CICEET.
+
+
+II. Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable 	Range of Measurements		Resolution		Accuracy 
+DATE	(MMDDYY)	1-12, 1-31, 00-99		(1 mo,1 day,1 yr)	n/a
+HOUR	(HHMMSS)	0-24, 0-60, 0-60		(1 hr,1 min,1 sec)n/a
+TEMP			-5 to 45 (C)		0.01 C		±0.15 C 
+SPCOND		0-100 (mS/cm)		0.01 mS/cm		±0.5% + 0.001 mS/cm 
+SALINITY		0-70 ppt			0.01 ppt		±1.0% of reading or 
+0.1ppt, whichever is greater 
+DOSAT			0-200 (%Sat)		0.1% air sat	±2.0% air sat
+DOSAT			200-500 (%Sat)		0.1% air sat	±6.0% air sat 
+DOMG			0-20 (mg/l)			0.01 mg/l		±0.2 mg/l
+DOMG			20-50 (mg/l)		0.01 mg/l		±0.6 mg/l 
+DEPTH			0-9.1 (m)			0.001 m		±0.018 m 
+pH			2-14 units			0.01 units		±0.2 units 
+TURB			0-1000 NTU			0.1 NTU		±5.0% of reading or 
+2 NTU, whichever is greater 
+
+9.  Coded variable indicator and variable code definitions:
+Site definitions: GB = Great Bay, SQ = Squamscott River, LR = Lamprey 
+River
+
+10. Data Anomalies:
+
+gb0599:
+5/14 0100		no DO		Data out of range, deleted
+
+gb0699:
+6/10 1200-6/25 1500	no pH		Data out of range, deleted
+6/14 1530-6/18 1300	no DO		Data out of range, deleted. Sonde 
+went to the surface.
+6/14 2300	no turbidity		Data out of range, deleted
+6/22 2230	no DO			Data out of range, deleted
+6/25 1600	no turbidity		Data out of range, deleted
+
+gb0799:
+7/14 0200-7/15 1600	no DO		DO probe very fouled, data out of 
+range, deleted
+7/29 0400-1100	no DO		Data out of range, deleted
+
+gb1099:
+10/9 0000-10/15 1400	 no  spcond, salinity 	Much fouling on probe. 
+Data out of range, deleted.
+10/13 0500	no DO			Data out of range, deleted
+10/13 2000-10/15 1400		Deleted turbidity due to tunicate fouling
+
+lr0699:
+6/8 1130-6/30 2330	no DO		Data out of range and deleted. 
+Probably
+probe or membrane failure.
+6/22 0800	no turbidity		Data out of range and deleted
+
+lr0799:
+7/1 0000-7/31 2330	no DO		Data out of range and deleted. 
+Probably probe or membrane failure.
+7/15 1030	no turbidity		Data out of range and deleted. 
+7/24 1430-7/31 2330			Deleted turbidity due to possible 
+probe failure
+
+
+
+lr0899:
+
+8/1 0000-8/6 0900 no DO	Data out of range and deleted. Crabs in sonde 
+guard when the instrument was retrieved. Possible membrane puncture.
+8/1 0000-8/3 1900 no turbidity 	Data out of range and deleted.
+8/16 1700 	no turbidity 		Data out of range and deleted.
+8/21 0800	no turbidity		Data out of range and deleted.
+8/26 1100	no turbidity		Data out of range and deleted.
+
+lr0999:
+9/1 0000-9/11 0800 	No DO		Data out of range and deleted
+9/14 1600-9/30 2330	no DO		Data out of range and deleted
+9/20 0630	no turbidity		Data out of range and deleted
+
+lr1099:
+10/1 0000-10/7 1130		Deleted DO due to possible probe failure
+
+sq0599:
+5/13 0600, 1830	no turbidity	Data out of range and deleted
+5/17 1330-1430	no turbidity	Data out of range and deleted
+
+sq0699:
+6/1 000-6/10 1130	no spcond, sal, DO  Data out of range and deleted. 
+Crab in sonde guard.
+
+sq0799:
+7/3 1400-7/6 1430	no DO		Data out of range and deleted
+7/6 0930-7/13 2230	no pH		Data out of range and deleted
+7/13 1330-7/16 1500	no DO		Data out of range and deleted
+7/25 0630	no turbidity		Data out of range and deleted
+
+sq0899:
+8/1 0000-8/11 1300	no salinity	Data out of range and deleted. 
+Probably due to fouling at the end of deployment period.
+8/4 1230	no turbidity		Data out of range and deleted
+8/7 0600, 8/10 1400, 8/22 1030 no turbidity 		Data out of range 
+and deleted
+
+sq0999:
+
+9/1 1030	no turbidity	Data out of range and deleted
+9/2 1630	no data		Data out of range and deleted
+
+sq1099:
+
+10/19 1030	no turbidity		Data out of range and deleted
+10/20 1730	no turbidity		Data out of range and deleted
+10/27 1530-10/31  2330	All parameters aberrant. Deleted
+
+sq1199:
+
+11/1 0000-11/1 1600 		Deleted all parameters due to aberrant 
+data.
+
+
+
+11. Missing Data:
+**Note: For the GB 1999 data set, all times and dates for which only 
+water level data was missing occurred when there was no corresponding 
+(date & time) water level data from the Squamscott sonde (see Research 
+Methods section for more information).  
+
+gb0499:
+
+4/1 0000-4/22 1100	no data		Sonde not yet deployed
+
+gb0599:
+
+5/5 0300-5/7 0600	no depth	No SQ depth data for this time period
+5/9 0530-1330		no depth	No SQ depth data for this time 
+period
+5/14 0100		no DO		Data out of range, deleted
+5/26 1100-5/31 2330	no data		Communication with 1240 radio 
+failed due to defect in communication port on sonde
+
+gb0699:
+
+6/1 0000-6/10 1130	no data		Communication with 1240 radio 
+failed due to defect in communication port on sonde
+6/10 1200-6/11 0930	no depth	No SQ depth data for this time 
+period
+6/10 1200-6/25 1500	no pH		Data out of range, deleted
+6/14 1530-6/18 1300	no DO		Data out of range, deleted. Sonde 
+went to the surface.
+6/14 2300	no turbidity		Data out of range, deleted
+6/22 2230	no DO			Data out of range, deleted
+6/25 1600	no turbidity		Data out of range, deleted
+
+gb0799:
+
+7/14 0200-7/15 1600	no DO		DO probe very fouled, data out of 
+range, deleted
+7/29 0400-1100	no DO		Data out of range, deleted
+7/29 1130	no data			Sonde returned to lab for cleaning 
+and calibration
+7/31 2230-2330 no depth		No SQ depth data for this time period
+
+gb1099:
+
+10/9 0000-10/15 1400	 no spcond, salinity 	Much fouling on probe. 
+Data out of range, deleted.
+10/13 0500	no DO			Data out of range, deleted
+10/13 2000-10/15 1400		Deleted turbidity due to tunicate fouling
+
+10/24 1330-10/27 1500 no depth	No SQ depth data for this time 
+period
+
+gb1199:
+
+11/1 0000-0400	no depth	No SQ depth data for this time period
+11/18 1030-11/19 1100 no data 	Sonde returned to lab for cleaning 
+and calibration
+
+gb1299:
+
+12/13 1300-12/22 1500	no depth	No SQ depth data for this time 
+period
+12/22 1530-12/31 2330	no data		Sonde removed for the winter 
+months
+
+
+lr0499:
+
+4/1 0000-4/26 1130	no data		Sonde not yet deployed
+
+
+lr0599:
+
+5/10 0900-5/12 1230	no data		Sonde returned to lab for 
+cleaning and calibration
+5/28 1330-5/30 1430	no data		Sonde returned to lab for 
+cleaning and calibration
+
+lr0699:
+
+6/1 0000-6/8 1100	no data		Communication with 1240 radio 
+failed - probably due to visual interference between remote radio and 
+base radio. (leaf coverage). After this date sondes were deployed at 
+the site in unattended mode because radio contact was not possible.
+6/8 1130-6/30 2330	no DO		Data out of range and deleted. 
+Probably
+probe or membrane failure.
+6/22 0800	no turbidity		Data out of range and deleted
+
+lr0799:
+
+7/1 0000-7/31 2330	no DO		Data out of range and deleted. 
+Probably probe or membrane failure.
+7/15 1030	no turbidity		Data out of range and deleted. 
+7/24 1430-7/31 2330			Deleted turbidity due to possible 
+probe failure
+
+lr0899:
+
+8/1 0000-8/6 0900 no DO	Data out of range and deleted. Crabs in sonde 
+guard when the instrument was retrieved. Possible membrane puncture.
+8/1 0000-8/3 1900 no turbidity 	Data out of range and deleted.
+8/16 1700 	no turbidity 		Data out of range and deleted.
+8/21 0800	no turbidity		Data out of range and deleted.
+8/26 1100	no turbidity		Data out of range and deleted.
+
+lr0999:
+
+9/1 0000-9/11 0800 	No DO		Data out of range and deleted
+9/14 1600-9/30 2330	no DO		Data out of range and deleted
+9/20 0630	no turbidity		Data out of range and deleted
+
+lr1099:
+10/1 0000-10/7 1130		Deleted DO due to possible probe failure
+
+
+
+
+lr1299:
+
+12/13 1500-12/31 2330 no data	Sonde was removed for the winter months.
+
+sq0499:
+
+4/1 0000-4/19 1530	no data		Sonde not yet deployed.
+
+sq0599:
+
+5/5 0330-5/7 0630	no data		Sonde lost contact with the 1240.  
+Data not recorded.
+5/9 0600-1430		no data		Sonde lost contact with the 
+1240.  Data not recorded.
+5/13 0600, 1830	no turbidity	Data out of range and deleted
+5/17 1330-1430	no turbidity	Data out of range and deleted
+5/26 1130-5/31 2330	no data		Sonde lost contact with the 
+1240.  Data not recorded.
+
+
+sq0699:  
+
+6/1 000-6/10 1130	no spcond, sal, DO  Data out of range and deleted. 
+Crab in sonde guard.
+6/10 1200-6/11 1000	no data		Sonde lost contact with the 
+1240.
+
+sq0799:
+
+7/3 1400-7/6 1430	no DO		Data out of range and deleted
+7/6 0930-7/13 2230	no pH		Data out of range and deleted
+7/13 1330-7/16 1500	no DO		Data out of range and deleted
+7/25 0630	no turbidity		Data out of range and deleted
+
+sq0899:
+
+8/1 0000-8/11 1300	no salinity	Data out of range and deleted. 
+Probably due to fouling at the end of deployment period.
+8/4 1230	no turbidity		Data out of range and deleted
+8/7 0600, 8/10 1400, 8/22 1030 no turbidity 		Data out of range 
+and deleted
+
+sq0999:
+
+9/1 1030	no turbidity	Data out of range and deleted
+9/2 1630	no data		Data out of range and deleted
+
+sq1099:
+
+10/19 1030	no turbidity		Data out of range and deleted
+10/20 1730	no turbidity		Data out of range and deleted
+10/24 1400-10/27 1500 no data	Radio and cable were either damaged or 
+vandalized.  Replaced radio on 10/27.
+10/27 1530-10/31  2330	All parameters aberrant. Deleted
+
+
+
+sq1199:
+
+11/1 0000-11/1 1600 		Deleted all parameters due to aberrant 
+data.
+11/14 0230	no data			Radio did not record.
+
+sq1299:
+
+12/13 1230-12/31 2330 no data	Sonde removed for winter months.
+
+12. Other Remarks/notes
+Salinity at the Lamprey River (LR) site remained very high from June through 
+September 1999 due to very little rain at that time in 1999.
+When fresh water is not coming into the river, the large fluctuations in 
+salinity that occurs with the tides is absent when there is not sufficient 
+rainfall to allow freshwater into the system.  At the beginning of September, we 
+had two very heavy rains, 4 inches on 9/10 and 3 more inches on 9/16.
+At this point you can see the salinity range returning to the large tidal 
+influenced fluctuations.

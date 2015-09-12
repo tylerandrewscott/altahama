@@ -1,0 +1,1436 @@
+Elkhorn Slough (ELK) NERR Water Quality Metadata 
+January - December, 2003
+Last updated December 16, 2004
+
+
+I. Data Set and Research Descriptors
+
+1. Principal Investigators and Contact Persons
+Kerstin Wasson, Research Coordinator 			Elkhorn Slough NERR
+research@elkhornslough.org				1700 Elkhorn Rd
+John C. Haskins, Research Assistant 			Watsonville, CA 95076
+Jhaskins@mlml.calstate.edu				(831) 728-2822
+
+
+2. Entry verification:
+Deployment data are uploaded from the YSI data logger to a Personal Computer 
+(IBM compatible). Data plots are produced and examined and erroneous data are 
+detected using the PC6000 or EcoWatch software from YSI. Notes are made of any 
+unusual data during that deployment. Files are exported from EcoWatch in the 
+comma-delimited format (.CSV) and opened in Microsoft Excel for pre-processing 
+with EQWin format macro that was developed by the CDMO to reformat the header 
+columns, insert station codes, insert a corrected time column and allow the 
+technician to remove any pre- and post-deployment data from the file.  Where 
+deployment overlap occurs between files, the data produced by the newly 
+calibrated sonde is accepted as being the most accurate. The pre-processed file 
+is then ready to be copied into the EQWin water.eqi file where the data 
+are QA/QC checked and archived in a database. EQWin queries, reports and graphs 
+are used to discover data set outliers (values which fall outside the range that 
+the instrument is designed to measure) and large changes in the data. EQWin is 
+also used to generate statistics, view graphs, create customized queries and 
+reports of the data, cross query the water, weather and nutrient data and 
+finally export the data to the CDMO. Persons responsible for data management are 
+John Haskins and Allison Myers. 
+
+3. Research objectives:
+Measurements are taken every 30 minutes over a three to four week period at four 
+sites in Elkhorn Slough. One site, South Marsh (SM), is in a relatively 
+unimpacted side channel of the slough and the second, Azevedo Pond (AP), is in a 
+pond that receives fertilizer and pesticide runoff from an adjoining strawberry 
+field. The third site, North Marsh (NM), was added in April 1999 and is located 
+in an area where there is both agricultural and non-agricultural runoff. The 
+fourth site, Vierra Mouth, is located at the mouth of the slough and is used to 
+identify oceanic influence. This site was added March 14 2001 at 13:00.  The 
+purpose of this research is to identify the base parameters for Elkhorn Slough 
+by using South Marsh as the control site while monitoring the two impacted sites 
+(Azevedo Pond and North Marsh) for possible future problems.  
+
+4. Research methods: 
+The Elkhorn Slough water-monitoring program began in July 1995. All four sites 
+described above are monitored simultaneously. Prior to YSI deployment at SM, a 
+20-foot length of 4-inch diameter PVC pipe was placed in the slough to house the 
+YSI. Holes were drilled in the pipe to remove 10% of the pipe's surface area and 
+to allow water flow across the YSI. The pipe was positioned vertically in the 
+slough with one end pushed into the soft bottom sediments and the other end 
+secured to shore. A bolt in the pipe maintains the YSI exactly one foot (30cm) 
+above the bottom. This setup is exactly the same at North Marsh.  Prior to YSI 
+deployment at AP, a supportive framework of rope and PVC was placed at the site 
+to house the YSI. The structure maintains the YSI exactly one foot (30cm) above 
+the pond bottom. Every half hour over a 30-day period, measurements of specific 
+conductivity, salinity, dissolved oxygen, temperature, depth, turbidity, and pH 
+are recorded. 30-day periods were chosen due to the limitations of the dissolved 
+oxygen membrane and battery power. 
+
+At the end of each 30-day period, the YSI is brought back into the lab for 
+downloading, cleaning, and recalibration. Data is downloaded onto a PC and 
+graphs are printed using the PC 6000 software.  Sonde body and probes are 
+cleaned.  DO membrane is changed and allowed to re-equilibrate for at least 
+eight hours before calibration.  Calibration is performed as outlined in the YSI 
+manual.  Buffer solutions of pH 7 and pH 10 are purchased from a scientific 
+supply house and used for two-point calibration of the pH probe.  A salinity 
+standard of 31.892 ppt was used for calibration of the conductivity probe and in 
+the beginning of July 1999 a conductivity standard of 53 mS/cm was used. 
+The turbidity probe is calibrated using a two-point calibration with DI water 
+and 100 NTU standard. As of July 1998 a new YSI is calibrated in the lab in 
+order to replace the previous one in the field. This eliminates the loss of data 
+due to cleaning and calibration. QA/QC is done according to the CDMO manual by 
+John Haskins using the macros provided by the CDMO.  Data are then looked over 
+more rigorously to identify and document anomalies and missing data.  
+
+5. Site location and character:
+Elkhorn Slough is located on the West Coast of the United States in Central 
+California. It connects with the Pacific Ocean in central Monterey Bay near Moss 
+Landing, California. 
+
+There are four sampling sites.  
+AP (Azevedo Pond)(36° 50'44.64"N, 121° 45'13.24"W) is in a pond that receives 
+fertilizer and pesticide runoff from a strawberry field in year-round 
+production. The YSI is located about 10m from a culvert connecting the pond to 
+the slough. Tide ranges from 0 to 1.4 meters and salinity ranges from 1.3 ppt 
+during heavy runoff to 41.5 ppt during strong evaporation. The sonde is located 
+approximately 10 cm off the bottom, which is composed of silty mud. Depth for 
+this site is approximately 1 meter.
+
+NM (North Marsh)(36° 50'04.75"N, 121° 44'18. 33"W) is located in between 
+South Marsh and Azevedo Pond. This site is impacted by both agricultural and 
+urban runoff. With a mean depth of 1 meter, the tide ranges from approximately 
+0.05 to 0.87 meters. Salinity ranges between 20 and 40 parts per thousand and is 
+affected by freshwater runoff from agriculture and upland runoff. The sonde is 
+approximately 30 cm off the bottom, which is composed of silty mud.
+
+SM (South Marsh)(36° 49'05.00"N, 121° 44'21.83"W) is located approximately 3 
+km south of NM and is surrounded by mostly reserve land. This site receives 
+runoff mostly from uplands with some runoff coming from cattle ranches. This 
+site receives the least amount of pollution. The tidal range is from 0 to 3 
+meters and the salinity range is from 27 to 34 parts per thousand. The sonde is 
+approximately 30 cm off the bottom, which is composed of slightly compacted 
+silty mud. Depth for this site is approximately 2 meters. 
+
+The fourth site, VM (Vierra Mouth)(36° 48'39.95"N, 121° 44'45.40"W), is located 
+at the mouth of the slough and is used to identify oceanic influence. With a 
+mean depth of 2.5 meters, the tidal range is from 0.6 to 3.7 meters and salinity 
+ranges from 26 to 36 parts per thousand. The sonde is located approximately 30 
+cm off the bottom, which is composed of compacted mud and sand due to strong 
+tidal currents. This site receives drainage from the entire watershed since it 
+is at the mouth of the slough. There are several auto wreaking yards located 
+approximately 2 km east of this site. 
+
+6. Data collection period:
+Sampling at Azevedo Pond and South Marsh began simultaneously at the end of 
+June 1995 and data collection is ongoing. North Marsh began sampling on April 15 
+1999. Vierra Mouth began sampling on March 14 2001 at 13:00. 
+
+Deployment recovery times and dates
+Azevedo Pond
+Start Date	Start Time		End Date		End Time
+12/30/02		1130		01/27/03		1100
+01/27/02		1200		02/24/03		1200
+02/24/03		1230		03/24/03		1000
+03/24/03		1030		04/21/03		1030
+04/21/03		1100		05/21/03		1000
+05/21/03		1030		06/16/03		1030
+06/16/03		1100		07/14/03		1030
+07/14/03		1100		08/11/03		0930
+08/11/03		1000		09/08/03		1100
+09/08/03		1130		10/06/03		1030
+10/06/03		1300		11/03/03		1000
+11/03/03		1330		12/01/03		1100
+12/01/03		1400		12/29/03		0930
+12/29/03		1300		01/26/04		0830
+
+North Marsh	
+Start Date	Start Time		End Date		End Time
+12/19/02		1200		01/20/03		1100
+01/20/03		1130		02/18/03		1600
+02/18/03		1630		03/17/03		1030
+03/17/03		1100		04/14/03		1130
+04/14/03		1200		05/12/03		1030
+05/12/03		1100		06/09/03		1100
+06/09/03		1200		07/08/03		1000
+07/08/03		1030		08/04/03		1000
+08/04/03		1030		09/02/03		0900
+09/02/03		1300		09/29/03		0900
+09/29/03		0930		10/27/03		1130
+10/27/03		1430		11/24/03		1100
+11/24/03		19:00		12/22/03		0600
+12/22/03		1330		01/20/04		1030
+
+South Marsh
+Start Date	Start Time		End Date		End Time
+12/16/02		1400		01/13/03		1100
+01/13/03		1130		02/10/03		1100
+02/10/03		1130		03/10/03		1130
+03/10/03		1200		04/07/03		0830
+04/07/03		0900		05/05/03		1030
+05/05/03		1100		06/02/03		1300
+06/02/03		1330		06/30/03		1100
+06/30/03		1130		07/28/03		0830
+07/28/03		0900		08/25/03		0900
+08/25/03		1130		09/22/03		1000
+09/22/03		1130		10/21/03		1200
+10/21/03		1600		11/17/03		1100
+11/17/03		1330		12/15/03		1100
+12/15/03		1130		01/12/04		0930
+
+Vierra Mouth
+Start Date	Start time		End Date		End Time
+12/09/02		1100		01/06/03		1400
+01/06/03		1500		02/03/03		1430
+02/03/03		1500		03/03/03		1130
+03/03/03		1430		03/31/03		1000
+03/31/03		1300		04/28/03		0700
+04/28/03		1030		05/27/03		0830
+05/27/03		1200		06/23/03		0900
+06/23/03		1300		07/21/03		0830
+07/21/03		1430		08/19/03		1430
+08/19/03		1500		09/15/03		1100
+09/15/03		1200		10/13/03		0930
+10/13/03		1000		11/10/03		0900
+11/10/03		1130		12/08/03		1230
+12/08/03		1300		01/05/04		1030
+
+
+7. Distribution
+NOAA/ERD retains the right analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data. The PI retains the right to be fully 
+credited for having collected and processed the data. Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used. Manuscripts resulting from this NOAA/ OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under and award from the Estuarine Reserves Division, Office of Ocean and 
+Coastal Resource Management, National Ocean Service, National Oceanic and 
+Atmospheric Administration. The data set enclosed within this package/ 
+transmission is only as good as the quality assurance and quality control 
+procedures outlined by the enclosed metadata reporting statement. The user bears 
+all responsibility for its subsequent use/ misuse in any further analyses or 
+comparisons. The Federal government does not assume liability to the Recipient 
+or third persons, nor will the Federal government reimburse or indemnify the 
+Recipient for its liability due to any losses resulting in any way from the use 
+of this data.
+
+NERR water quality data and metadata can be obtained fro the Research 
+Coordinator at the individual NERR site (please see Principle investigators and 
+contact persons), from the Data Manager at the Centralized Data Management 
+Office (please see personnel directory under the general information link on the 
+CDMO home page) and online at the CDMO home page http://cdmo.baruch.sc.edu/. 
+Data are available in text tab-delimited format. 
+
+8. Associated researchers and projects:
+There are many projects associated with Elkhorn Slough. Please contact the 
+reserve for information on other projects. 
+
+II. Physical Structure Descriptors
+
+9. Sensor specifications:
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column. 
+Tabs separate data columns.
+
+Dissolved Oxygen qualifier: The reliability of the dissolved oxygen (DO) data 
+after 96 hours post-deployment for non-EDS (Extended Deployment System) data 
+sondes may be problematic due to fouling which forms on the DO probe membrane 
+during some deployments (Wenner et al. 2001). Many reserves have upgraded to the 
+YSI 6600 EDS data sondes, which increases DO accuracy and longevity by reducing 
+the environmental effects of fouling. The user is therefore advised to consult 
+the metadata and to exercise caution when utilizing the DO data beyond the 
+initial 96-hour time period. However, this potential drift is not always 
+problematic for some uses of the data, i.e. periodicity analysis. It should also 
+be noted that the amount of fouling is very site specific and that not all data 
+are affected. The Research Coordinator at the specific NERR site should be 
+contacted concerning the reliability of the DO data because of the site and 
+seasonal variation in the fouling of the DO sensor. 
+
+Depth qualifier: The NERR System-Wide Monitoring Program utilizes YSI data 
+sondes that can be equipped with either depth or water level sensors. Both 
+sensors measure water depth, but by convention, level sensors refer to 
+atmospherically vented measurements and depth refers to non-vented measurements.  
+Standard calibration protocols for the non-vented sensor use the atmospheric 
+pressure at the time of calibration. Therefore, changes in atmospheric pressure 
+between calibrations appear as changes in water depth. The error is equal to 
+approximately 1.03 cm for every 1 millibar change in atmospheric pressure.  This 
+error is eliminated for level sensors because they are vented to the atmosphere 
+throughout the deployment time interval. If proper atmospheric pressure data is 
+available, non-vented sensor depth measurements can be corrected for deployments 
+between calibrations. Reading for both vented and non-vented are automatically 
+compensated for water density changes due to variations in temperature 
+and salinity. The Research Coordinator at the specific NERR site should be 
+contacted in order to obtain information regarding atmospheric pressure data 
+availability.
+
+10. Coded variable indicator and variable code definitions:
+
+Sampling site codes:
+SM = South Marsh
+AP = Azevedo Pond	
+NM = North Marsh
+VM = Vierra Mouth
+
+Station codes: 
+elksmwq = Elkhorn Slough South Marsh water quality station
+elkapwq = Elkhorn Slough Azevedo Pond water quality station
+elknmwq = Elkhorn Slough North Marsh water quality station
+elkvmwq = Elkhorn Slough Vierra Mouth water quality station
+
+11. Anomalous/Suspect Data 
+
+Azevedo Pond
+1.	Suspect Data
+
+January: There was a significant amount of rain that fell on Jan 09 (11.43 mm) 
+and 10 (31.5 mm) that effected water quality at each site, specifically salinity 
+from Jan 09 2030 through Jan 11 0200. 
+
+February: The large increases in turbidity and decreases in salinity correspond 
+with days of increased rain, February 12, 16, and 27.
+
+March: The increase in salinity on March 24 at 10:30 is due to sonde 
+replacement. Increased turbidity levels and decreased salinity data are a result 
+of 0.7 inches of rainfall on March 15.
+
+April: Increased turbidity and decreased salinity on April 4 correspond with 0.5 
+inches of rainfall.
+
+July:	Prior to sonde replacement on July 14 at 10:30, turbidity data is noisy 
+but not altogether suspect. DO data are suspect from July 12 17:30 through the 
+end of the deployment, July 14 1030 because readings were anomalously low and 
+post deployment calibration was low also probably due to fouling on the 
+membrane. 
+
+September: The decrease in turbidity on September 8 at 09:00 corresponds to 
+sonde replacement.
+
+October: Turbidity data from October 4 at 11:30 through October 5 at 03:00 are 
+suspect because they are incongruous with the following data but do not 
+correlate to a rain event. 
+
+November: Increases in turbidity and decreases in salinity data for November 7 
+and November 8 correspond to rainfall events (0.54 inches on Nov 8).
+
+All data except DO% are suspect from November 21 05:00 through the end of the 
+month due to possible temperature probe failure. Temperature became erratic 
+during this time, but the other parameters seemed to be reading within 
+reasonable limits. 
+
+December: Sharp decreases in salinity correspond to heavy rain events on 
+December 6, 14, 19, 24, 25, and 29.
+
+All data are suspect from December 29 at 17:00 through December 30 02:00 due to 
+1.37 inches of rainfall on December 29.
+
+All data except DO% are suspect from December 01 00:00 through the end of the 
+month due to possible temperature probe failure. Temperature became erratic 
+during this time, but the other parameters seemed to be reading within 
+reasonable limits. 
+
+2.	Deleted data
+January: The following turbidity data are deleted because they are anomalously 
+high;
+Jan 01 	12:30, 16:00 
+Jan 10	01:00
+Jan 13 	16:30 
+Jan 19 	13:00 
+Jan 20 	14:30 
+Jan 21 	13:00
+Jan 23 	08:00
+Jan 25 	11:30-12:00 
+Jan 27 	15:00
+Jan 28 	08:00
+Jan 29 	10:30
+Jan 30	14:00
+
+February: The following turbidity data are deleted because they are anomalously 
+high;
+Feb 02	11:00, 12:30
+Feb 04 	10:00, 16:00 
+Feb 05	04:00, 11:30, 15:00-16:00 
+Feb 06 	09:00, 12:30, 17:30- 18:30
+Feb 07	05:00, 06:00, 07:30, 12:00, 14:00-14:30
+Feb 08	15:30, 17:30 
+Feb 09 	06:30, 08:00, 12:30 
+Feb 10	06:30, 09:00, 15:00 
+Feb 11	06:30, 10:00 
+Feb 12	07:30
+Feb 13	02:00, 07:30,10:30-12:00, 14:30 
+Feb 14	03:00, 11:00
+Feb 15 	17:00 
+Feb 17	02:30, 06:00, 11:00 
+Feb 18 	09:30, 13:30, 14:30, 15:30, 18:00
+Feb 19	08:30
+Feb 20 	07:30, 14:00 
+Feb 22 	06:30, 07:30, 15:30 
+Feb 24	05:00, 10:30- 12:00
+Feb 26	00:30
+
+March: The following turbidity data are deleted because they are anomalously 
+high;
+Mar 02 	15:30
+Mar 12	07:30
+Mar 15	00:00
+Mar 24	10:30
+Mar 30	07:30, 14:00
+
+April: The following turbidity data are deleted because they are anomalously 
+high;
+Apr 5		02:30
+Apr 6		17:00
+Apr 14	18:30
+Apr 16	12:00
+Apr 20	08:00
+
+May: The following turbidity data are deleted because they are anomalously high;
+May 01	01:00
+May 02	21:00
+May 04	23:00
+May 08	01:30, 16:00, 21:00	
+May 10	19:00
+May 12	16:00
+May 17	07:00, 08:00 - 08:30, 14:30	
+May 18	15:00 - 15:30	
+May 20	13:00 - 13:30	
+May 30	23:00
+
+June:	All turbidity data from June 13 at 17:30 through June 16 at 10:30 are 
+deleted due to probe malfunction. 
+
+The following turbidity data are deleted because they are anomalously high;
+Jun 24	08:00
+Jun 26	17:30
+Jun 28	01:30, 13:30
+
+July: The following turbidity data are deleted because they are anomalously 
+high;
+Jul 1		22:30
+Jul 2		02:30
+Jul 3		12:30, 16:30- 17:00, 21:30, 22:30
+Jul 4		06:30, 08:30- 09:00
+Jul 5		18:30, 22:30
+Jul 6		01:00- 01:30, 03:30, 04:30, 13:30, 14:30, 20:00, 21:00
+Jul 7		03:00, 04:30, 15:00- 15:30, 16:30, 23:30
+Jul 8		05:30, 08:00, 15:30
+Jul 9		00:00, 20:00, 22:30
+Jul 10	01:00, 04:30, 09:00, 12:00, 13:00, 18:30, 20:00, 22:00, 23:00
+Jul 11	15:00, 20:00
+Jul 12	03:00, 06:30, 11:30, 21:30
+Jul 13	20:30
+Jul 14	04:30
+Jul 17	23:30
+Jul 24	05:30, 19:30, 21:00
+Jul 25	17:30- 18:00
+Jul 30	20:00
+Jul 31	21:30- 22:00
+
+August: The following turbidity data are deleted because they are anomalously 
+high;
+Aug 1		03:00, 23:30
+Aug 2		00:30, 01:00, 10:00
+Aug 4		16:30
+Aug 6		03:30
+Aug 7		23:30
+Aug 19	07:30
+Aug 20	07:00
+Aug 29	04:00
+
+September: The following turbidity data are deleted because they are anomalously 
+high;
+Sep 1		12:00
+Sep 2		11:30, 17:00
+Sep 3		02:30, 03:30, 08:00
+Sep 6		10:30, 19:00- 19:30
+Sep 7		01:00, 02:00, 09:30, 18:00, 21:00, 23:30
+Sep 8		04:30
+Sep 13	00:00
+Sep 14	12:00
+Sep 17	15:30
+Sep 18	11:00
+Sep 20	19:30
+Sep 22	17:00
+Sep 24	16:30, 19:00- 19:30
+Sep 28	09:30, 11:30, 22:00
+
+October: The following turbidity data are deleted because they are anomalously 
+high;
+Oct 2		05:30, 23:30
+Oct 3		01:00- 01:30, 09:00, 19:30, 22:30
+Oct 4		01:00- 02:30, 05:30, 17:30, 18:30
+Oct 5		17:00
+Oct 6		13:00 – 14:30
+Oct 8		05:00, 18:30
+Oct 25	23:00
+Oct 26	01:30, 03:00
+Oct 28	03:30
+
+November: 
+Temperature data deleted November 21 05:00 through the end of the month due to 
+possible temperature failure. Temperature became erratic during this time, but 
+the other parameters seemed to be reading within reasonable limits. 
+
+December: 
+Temperature data deleted December 01 00:00 through the end of the month due to 
+possible temperature failure. Temperature became erratic during this time, but 
+the other parameters seemed to be reading within reasonable limits. 
+
+All data are deleted from December 29 10:00 through December 29 12:30 due to 
+exchanging sondes.
+
+The following turbidity data are deleted because they are anomalously high;
+Dec 7		18:30
+Dec 9		14:30, 16:30, 17:30-19:30, 21:00, 22:00
+Dec 10	03:30, 05:30, 07:30, 09:30, 10:30
+Dec 11	01:00- 01:30
+Dec 12	19:00
+Dec 13	01:00- 02:00, 16:30
+Dec 14	00:30, 08:30, 09:30, 22:00
+Dec 15	10:30, 17:00, 22:00
+Dec 16	01:00, 03:00
+Dec 17	08:30
+Dec 18	02:00, 06:00
+Dec 19	04:30, 17:00- 19:00
+Dec 21	09:00
+Dec 23	06:00
+Dec 24	15:30
+Dec 28	21:30
+Dec 29	13:00- 14:00, 17:00-23:30
+Dec 30 	00:00-02:00
+
+North Marsh
+1.	Suspect data
+
+January: There was a significant amount of rain that fell on Jan 09 (11.43 mm) 
+and 10 (31.5 mm) which affected water quality at each site. 
+
+February: Turbidity data from February 22 at 11:00 through 21:00 are suspect 
+because they are incongruous with the following data but do not correspond to 
+rain events or sonde replacement.
+Decreases in salinity and increases in turbidity on February 27 and 28 are a 
+result of a rain event.
+
+March: Salinity data from March 7 at 03:00 through the end of the deployment, 
+March 17 10:30 are suspect because while they do correspond with a rain event, 
+they are incongruous with the preceding and following data.
+
+April: Turbidity probe is still having parking issues on Apr 01 but appears to 
+correct itself after this date.
+
+May:	May salinity data are suspect towards the end of the deployment because 
+the data are incongruous from the end of the first deployment to the beginning 
+of the second deployment May 12 1030-1100. Also the salinity probe read 30.38 in 
+53 ms/cm in the post deployment check.
+
+June:	Dissolved oxygen data from June 14 06:00 through June 20 05:30 is suspect 
+due to low and decreasing values.
+
+July:	The sudden decrease in depth data from July 8 at 10:30 is suspect due to 
+probe misplacement.Sudden increases in turbidity from July 25 04:00- 16:00 and 
+July 26 02:00-13:30 are suspect because they are incongruous with following data 
+and do not correspond to rain events or sonde replacement.
+
+August: No suspect data for this month.
+
+September: Salinity and dissolved oxygen data from September 7 21:30 through 
+September 29 09:00 are suspect because they are incongruous with preceding and 
+following data and do not correspond to a rain event or sonde replacement.
+
+October: The sudden decrease in depth on October 27 14:00 is due to probe 
+misplacement.
+
+November: A sudden decrease in salinity on November 8 corresponds to a rain 
+event.
+
+December: Turbidity data from December 15 at 12:30 through December 22 at 13:30 
+are suspect as they are incongruous with the preceding and following data.  On 
+December 23 a high tide (7.0) with a low pressure system breached the sandbag 
+levee subjecting the North Marsh to increased tidal regimes through the end of 
+the month. The decrease in salinity data beginning on December 24 and lasting 
+throughout the rest of the month correspond to rain events.
+
+2.	Deleted data
+January
+The following turbidity data are deleted because they are anomalously high
+Jan 6		17:30
+Jan 11	19:30
+Jan 12	13:30
+Jan 15	09:30
+Jan 16	20:00
+Jan 20	11:30
+
+February: Salinity, conductivity, dissolved oxygen (mg/l), and depth data from 
+February 12 at 05:30 through February 18 at 16:00 are deleted due to 
+conductivity probe malfunction.
+
+The following turbidity data are deleted because they are anomalously high;
+Feb 11	06:30
+Feb 19	10:30
+Feb 20	18:30
+Feb 21	00:30
+Feb 22	07:30
+Feb 24	23:30
+Feb 25	18:30
+Feb 26	19:30
+Feb 27	00:30-01:00, 03:30, 04:30, 08:00
+Feb 28	05:00
+
+March: The salinity, conductivity, dissolved oxygen (mg/l), and depth data are 
+deleted from March 25 08:00 through the end of the month due to conductivity 
+probe malfunction. 
+
+The following turbidity data were deleted because they were anomalously high:
+Mar 01	23:00
+Mar 02	13:30
+Mar 05	02:00, 23:00
+Mar 06	00:00, 03:00, 14:30
+
+Turbidity data from March 7 at 19:30 through March 17 at 10:30 are deleted due 
+to a malfunction in probe parking. 
+
+From this point to the end of the deployment (April 14 12:00) turbidity probe 
+was most likely not parking properly and these data were deleted:
+Mar 17	20:30 - 23:30	
+Mar 18 	00:00 - 02:30, 04:00 - 04:30, 08:30, 10:30, 16:00, 18:00, 
+23:00 - 23:30	
+Mar 19	00:00 - 03:30	
+Mar 20	00:00 - 03:00, 15:30 - 21:00
+Mar 21	21:30 – 23:30
+Mar 22	00:00, 06:00	
+Mar 23	02:00, 03:00, 06:30, 22:30 - 23:30
+Mar 24	00:00, 04:30, 07:00 - 08:30, 19:30
+Mar 25	04:30, 08:30 - 09:00
+Mar 26	21:30, 23:30	
+Mar 27	00:00 - 01:00, 17:30, 23:00
+Mar 28	00:00
+Mar 29	02:00 - 06:30, 10:00, 12:30, 19:00, 20:00	
+Mar 30	04:30 - 06:00, 09:00 - 10:30, 12:00 - 12:30, 16:30, 20:00	
+Mar 31	00:00 - 00:30, 02:00, 07:00 - 09:30, 12:00, 22:30
+
+April: Salinity, conductivity, dissolved oxygen (mg/L), and depth data are 
+deleted from the beginning of the month through April 14 11:30 due to 
+conductivity probe malfunction. 
+
+The following turbidity data were deleted because they were anomalously high;
+Apr 01	00:30, 02:00 - 02:30, 03:30, 06:30, 08:00 - 08:30, 14:30, 
+19:00, 21:30	
+Apr 03	21:30
+Apr 10	06:00
+Apr 14	18:30
+Apr 15	01:00, 14:30, 18:30	
+Apr 16	19:30
+Apr 17	07:30
+Apr 18	02:30
+Apr 19	04:30, 19:00	
+Apr 20	16:30, 22:00	
+Apr 22	04:00
+Apr 23	19:30
+Apr 25	15:00
+
+May:	These data were deleted because they were anomalously high;
+May 01	22:00
+May 02	13:30
+May 04	16:30
+May 05	05:30
+May 06	15:00
+May 09	03:00
+May 11	23:00
+May 12	05:00, 22:30	
+May 13	05:30
+May 16	10:30
+May 18	15:30
+May 19	15:00, 18:00
+May 20	19:00 - 19:30
+May 26	15:30, 16:30, 18:00, 21:00
+May 28	10:00, 21:00, 22:30
+May 30	12:00
+May 31	14:00
+
+June:	All data are deleted from June 9 15:30 to June 10 11:00 because sonde was 
+removed due to vandalism.
+
+Dissolved oxygen data were deleted from June 20 06:00 through the end of the 
+month due to a tear in the membrane.
+
+Turbidity data were deleted from June 27 05:30 through June 30 at 23:30 due to a 
+probe malfunction.
+
+These turbidity data were deleted because they were anomalously high;
+Jun 01	08:30
+Jun 02	18:00
+Jun 03	21:30- 22:30
+Jun 04	15:00, 16:00- 18:00
+Jun 05	08:00
+Jun 06	20:00- 20:30, 21:30
+Jun 07	01:00, 09:30, 15:00, 18:00, 23:00- 23:30
+Jun 08	00:00, 02:30- 03:00, 05:30, 07:00, 08:30- 09:30, 10:30- 11:00, 
+12:00, 14:30, 15:30, 16:30- 17:00, 18:00- 19:00, 21:30
+Jun 09	04:30- 05:00, 
+Jun 11	18:30, 21:00
+Jun 14	17:30
+Jun 15	14:30
+Jun 17	13:30
+Jun 18	19:00
+Jun 19	02:00, 16:00, 17:00, 18:00, 19:00
+Jun 20	20:00
+Jun 25	00:00, 09:00, 10:00, 11:00, 15:00, 23:00
+Jun 26	06:00, 12:00- 13:00, 15:00- 17:00, 19:30- 20:00
+
+July: 
+Turbidity and dissolved oxygen data were deleted from July 1 00:00 to the end of 
+deployment, July 8 10:00, due to probe malfunctions. 
+
+DO data were deleted from July 10 15:00 through the end of the month due to a 
+membrane puncture.
+
+The following turbidity data were deleted because they were anomalously high;
+Jul 8		13:30
+Jul 9		16:30
+Jul 11	10:30, 17:00
+Jul 13	12:00
+Jul 17	01:00- 01:30, 16:00
+Jul 19	14:00
+Jul 21	09:00, 15:00
+Jul 22	15:00
+Jul 23	17:30
+Jul 28	21:00
+Jul 29	04:30, 17:00
+Jul 30	15:30
+Jul 31	14:00-15:00 
+
+August: Dissolved oxygen data from August 1 00:00 through August 4 10:00 are 
+deleted due to a punctured membrane.
+
+Turbidity data from August 2 17:30 through August 3 08:00 were deleted because 
+the probe malfunctioned.
+
+The following turbidity data were deleted because they were anomalously high;
+Aug 3		18:00, 19:30, 20:30- 21:30
+Aug 4		00:30, 08:30
+Aug 5		10:00
+Aug 12 	19:30
+Aug 13	11:30
+Aug 14	19:30
+Aug 17	09:00
+Aug 18	16:00
+Aug 21	11:00
+Aug 25	19:00
+
+September: The following dissolved oxygen data was deleted because they were 
+zero or negative values:
+Sep 8		06:30- 07:30, 19:30
+Sep 9		04:00- 04:30, 15:00
+Sep 10	13:30, 18:30, 22:00
+Sep 11	12:30, 17:30
+Sep 12	05:00- 06:30, 10:00, 20:30
+Sep 13	00:00, 06:30, 08:00- 08:30, 18:30
+Sep 14	00:00, 06:30
+Sep 16	11:30, 18:00, 20:00
+Sep 17	09:00
+Sep 18	03:00, 11:30 - 12:00, 18:30 - 19:00, 21:00, 23:30	
+Sep 19	12:00
+Sep 20	12:00, 22:00
+Sep 21	12:00 - 13:00
+Sep 22	03:00- 03:30, 08:00- 08:30, 10:00, 11:00 – 11:30, 14:30, 16:30
+Sep 23	08:30 – 09:00, 21:00 – 21:30
+Sep 24	05:30, 20:00
+
+The following turbidity data were deleted because they were anomalously high;
+Sep 1		19:30
+Sep 4		23:00
+Sep 5		01:00, 03:00, 05:00, 13:00, 18:00
+Sep 9		19:30
+Sep 10	19:00
+Sep 11	05:30
+Sep 15	02:00, 10:00, 14:30, 23:30
+Sep 16	20:30
+Sep 17	17:30, 19:00, 20:00, 23:00
+Sep 18	01:30, 06:30, 22:30- 23:00
+Sep 20	13:30- 14:00, 19:30
+Sep 21	06:00, 08:30
+Sep 22	10:30
+Sep 24	16:00
+Sep 26	13:00
+Sep 27	19:30
+Sep 28	20:00
+
+October: Turbidity data was deleted from October 15 22:00 through October 27 
+11:30 due to probe malfunction
+
+The following turbidity data were deleted because they were anomalously high;
+Oct 4		00:30, 09:00, 21:00
+Oct 6		15:00
+Oct 7		05:30
+Oct 8		16:00, 18:30
+Oct 10	20:00, 22:00
+Oct 11	09:00, 13:00
+Oct 12	07:30, 12:30, 19:00
+Oct 13	03:00- 03:30
+Oct 14	11:30- 12:30, 15:00- 15:30
+Oct 15	18:30
+Oct 28	11:00, 15:30
+Oct 30	13:00
+Oct 31	06:30
+
+The following dissolved oxygen data was deleted due to negative values:
+Oct 1		01:00
+Oct 2		02:00- 02:30
+Oct 3		03:00- 03:30
+Oct 4		04:30
+Oct 5		05:30	
+Oct 8		06:00 - 06:30
+Oct 11	06:30
+Oct 12	06:30
+Oct 24	06:00
+Oct 26	06:30
+Oct 27	06:00
+
+November: Sample collection period was accidentally set to four and a half hour 
+intervals starting at November 24 19:30 through the end of the month, therefore 
+data exists only every four and a half hours for this time period.
+
+Dissolved oxygen data was deleted on November 28 at 03:30 due to negative 
+values.
+
+The following turbidity data were deleted because they were anomalously 
+high;
+Nov 1		22:00
+Nov 2		14:00
+Nov 3		06:30, 07:30- 08:00, 14:00
+Nov 4		07:00, 13:30, 14:30-15:00, 16:30, 21:00, 22:30
+Nov 5		07:30, 08:30, 10:00, 13:30, 21:00- 22:00, 23:00
+Nov 6		01:00
+Nov 7		14:30
+Nov 8		10:00, 11:30
+Nov 9		01:30- 02:00, 04:00- 05:30, 08:30, 11:00, 13:00, 18:00
+Nov 10	11:00
+Nov 11	04:00
+Nov 12	17:00, 18:30
+Nov 13	07:30, 10:00, 11:00, 16:30
+Nov 14	12:30, 23:30
+Nov 15	06:00
+Nov 16	02:00, 06:00, 07:30- 08:00, 11:00, 15:00, 16:00, 18:30
+Nov 17	03:00, 07:00, 09:30, 11:30
+Nov 18	08:30, 09:30, 11:00, 15:30, 19:00, 20:00
+Nov 19	18:30
+Nov 20	00:00- 01:00, 10:00, 14:30
+Nov 21	14:00, 15:30, 16:30, 20:00, 22:00, 23:00- 23:30
+Nov 22	00:30, 02:00, 05:30, 07:00, 19:00- 20:00
+Nov 23	08:30, 09:30
+Nov 26	11:30
+
+
+December: Sample collection period was accidentally set to four and a half hours 
+from December 1 00:00 through December 22 at 13:00 , therefore data exists only 
+every four and a half hours for this time period.
+
+pH data are deleted from December 16  11:00 through December 22 13:00 and 
+December 28 14:00 through the end of the month (December 31 23:30) due to broken 
+probe.
+
+Dissolved oxygen data from December 21 at 03:00 was deleted due to negative 
+values.
+The following turbidity data are deleted because they are anomalously 
+High;
+Dec 9	13:00, 17:30
+Dec 14	09:30
+Dec 16	06:30, 11:00, 15:30, 20:00
+Dec 17	00:30
+Dec 19	11:00
+Dec 21	12:00, 16:30, 21:00
+Dec 22	01:30
+Dec 23	6:00, 18:30
+Dec 24	4:30
+Dec 25	21:00, 23:30
+Dec 26	00:00
+Dec 27	08:00, 21:00-21:30
+Dec 31	08:30, 09:30- 10:00
+
+
+South Marsh
+1.	Suspect data
+
+January: There was a significant amount of rain that fell on Jan 09 (11.43 mm) 
+and 10 (31.5 mm) which affected water quality at each site.
+
+February: Dissolved oxygen data on Feb 18 from 17:00 to 19:00 are suspect due to 
+anomalously low values.
+The decreases in salinity and increases in turbidity data on February 15 and 27 
+correspond to rain events.
+
+April:	Data are suspect due to a large decrease in dissolved oxygen and an 
+increase in salinity that occurred on April 7 at 9:00 during a sonde 
+replacement.
+
+May:	Salinity data from May 5 11:00 through May 24 03:00 are suspect due to 
+probe drift and conductivity and salinity data are suspect at the end of the 
+first deployment May 5 11:00 due to an increase in salinity but a decrease in 
+conductivity. 
+
+June:	Dissolved oxygen data from June 14 at 06:30 through June 18 at 16:00 are 
+suspect because they are anomalously high for unknown reasons. 
+Increased values for turbidity roughly correspond with replacement of the sonde 
+on June 30.
+
+July:	Salinity and conductivity data from July 10 15:30 through July 28 at 08:30 
+are suspect as they were reading low post-calibration and probably influenced by 
+probe drift.  
+The sudden increase in salinity and slight increase in dissolved oxygen on July 
+28 at 08:30 is due to sonde replacement.
+
+August: Dissolved oxygen data are suspect on August 2 from 07:30 through August 
+8 13:30 due to anomalously low values that are possibly due to a probe/ membrane 
+malfunction. 
+Salinity and conductivity data between August 1 00:00 and August 25 0900 are 
+suspect due to incongruously low values that continue to decline. The sudden 
+increase in salinity on August 25 11:00 corresponds to sonde replacement. 
+Salinity data after August 25 11:30 (time of sonde replacement) also decline, 
+possibly due to a probe drift.
+
+September: All data on September 7 from 16:30 through 21:30 are suspect due to a 
+slippage of the marsh bank and subsequent plume of sediment.
+Salinity and conductivity data are suspect from the beginning of the month 
+through the end of the deployment Sept 22 10:00, due to probe drift.
+
+October: Salinity and conductivity data exhibits a sudden increase in salinity 
+on October 21 16:00 corresponding with the time of sonde replacement thus are 
+suspect from the beginning of the month through the end of the deployment due to 
+probe drift.  Salinity and conductivity are also suspect from October 22 17:30 
+through the end of the month due to probe drift. 
+pH data from October 25 17:00, October 26 17:30, and October 27 18:00 through 
+18:30 are suspect due to low values that possibly correspond with out-of-water 
+events. 
+
+November: The sudden increase in salinity on November 17 at 13:30 corresponds 
+with sonde replacement thus salinity and conductivity are suspect from the 
+beginning of the month through the end of the first deployment November 17 
+11:00.
+
+2.	Deleted Data
+January: The following turbidity data were deleted because they were anomalously 
+high;
+Jan 7		00:30
+Jan 13	11:30
+Jan 21	18:30
+Jan 22	21:00
+
+February: The following turbidity data were deleted because they were 
+anomalously 
+high;
+Feb 4		09:30
+Feb 12	18:30
+Feb 13	11:00, 12:30
+Feb 14	23:00
+Feb 15	03:30, 06:30, 17:30
+Feb 16	15:00, 16:00, 17:30
+Feb 17	13:00, 19:00
+Feb 18	15:30, 17:30, 18:30, 22:30
+Feb 19	03:30, 06:30, 09:30-10:00, 20:00
+Feb 20	00:00, 07:00, 17:00
+Feb 21	05:00, 11:30
+Feb 22	13:00, 15:30
+Feb 23	10:00, 12:00-12:30, 20:30
+Feb 24	10:30, 13:30, 16:00, 17:00
+Feb 25	09:00, 11:00-12:00, 19:00
+Feb 26	12:30, 13:30
+Feb 28	19:30-20:00
+
+March: All data are deleted from March 7 at 13:30 due to sonde malfunction.
+The following turbidity data were deleted because they were anomalously high;
+Mar 01	02:30, 17:00 - 18:30
+Mar 03 	11:30
+Mar 04	06:00, 17:00 - 17:30, 20:30
+Mar 05	02:30 - 03:00, 08:00, 16:00	
+Mar 06	03:30 - 08:00	
+Mar 07	09:00 - 10:30	
+Mar 23	15:30, 21:00	
+Mar 24 	09:30
+
+April:
+The following turbidity data were deleted because they were anomalously high;
+Apr 1		18:00
+Apr 2		04:00
+Apr 4		10:00
+Apr 5		09:30
+Apr 8		10:00
+Apr 16	08:00, 13:30	
+Apr 17	02:30, 09:00
+Apr 18	08:30
+Apr 19	13:00
+Apr 22	22:00
+Apr 24	00:00
+
+May:	All data were deleted during the following times due to possible out-of-
+water events.
+May 16	04:00- 05:00
+May 17	05:00- 06:00
+May 18	05:30- 07:00
+May 19	07:00- 07:30
+
+Salinity and specific conductivity data from May 24 at 03:30 through the May 31 
+at 23:30 are deleted due to probe drift.
+
+Dissolved oxygen data are deleted from May 17 at 06:30 through May 31 at 23:30 
+due to a membrane puncture.
+
+The following turbidity data were deleted because they were anomalously high;
+May 06	04:30
+May 26	00:30, 03:00, 04:30-05:30
+
+June:	Salinity and specific conductivity data from June 1 00:00 through June 2 
+13:00 are deleted due to probe drift. 
+All data were deleted during the following times due to possible out-of-water 
+events.
+June 14 	04:00-05:00
+June 15 	04:30- 06:00
+June 16 	05:30- 06:00 
+
+Dissolved oxygen data are deleted from June 1 00:00 through June 2 at 13:00 due 
+to a membrane puncture. DO data from June 2 at 13:30 through June 18 at 16:00 
+were deleted due to anomalously high values. DO were also deleted from June 18 
+at 16:30 through June 30 at 11:00 due to a puncture in the membrane. 
+
+The following turbidity data were deleted because they were anomalously high;
+Jun 11	16:00
+Jun 17	05:30, 23:30
+Jun 20	12:00, 16:30
+Jun 29	14:30, 21:00
+Jun 30	05:30
+
+July:	pH data are deleted from July 25 at 09:00 through July 28 08:30 due to 
+probe drift.
+
+All data were deleted during the following times due to possible out-of-water 
+events.
+Jul 1		05:00-06:30
+Jul 12	03:30
+Jul 13	03:30- 05:00
+Jul 14	04:30- 06:00
+Jul 29	03:30- 06:30
+Jul 30	04:30-07:00
+Jul 31	05:00- 07:00
+
+The following turbidity data were deleted because they were anomalously high;
+Jul 3		14:00
+Jul 4		05:30
+Jul 8		04:00
+Jul 10	12:00
+Jul 12	08:00
+Jul 14	03:00
+Jul 19	15:30- 16:00
+Jul 20	00:00
+Jul 22	06:30
+Jul 23	22:30
+Jul 24	01:30- 02:00, 13:00, 14:30, 22:30- 23:30
+Jul 25	00:00
+Jul 28	09:00
+
+Turbidity data are deleted on July 25 at 14:00 through July 28 08:30 because of 
+turbidity probe malfunction
+
+August: Dissolved oxygen data from August 08 14:00 through August 25 09:00 are 
+deleted due to probe malfunction, possibly a punctured membrane.
+Salinity data are missing from August 10 03:00 through August 10 23:30 due to 
+probe malfunction. 
+All data were deleted during the following times due to possible out-of-water 
+events.
+Aug 09	02:00-02:30
+Aug 26	03:00- 04:30
+Aug 27	03:30- 05:30 
+
+The following turbidity data were deleted because they were anomalously high;
+Aug 3	08:30, 19:00
+Aug 8	01:00
+Aug 9	05:00, 06:30
+Aug 10	01:00, 02:30, 15:30
+Aug 11	13:30, 15:00
+Aug 18	12:00
+Aug 23	06:30, 23:00
+Aug 26	08:30
+
+September: Dissolved oxygen data are deleted from September 7 16:30- 21:00 due 
+to incongruous values corresponding with a slip in the bank of the marsh.
+The following turbidity data were deleted because they were anomalously high;
+Sep 7	17:30, 19:00
+Sep 9	09:30
+Sep 12	15:30
+
+October:  The following turbidity data were deleted because they were 
+anomalously high;
+Oct 4	00:30
+Oct 26	14:30
+
+November: All data were deleted during the following times due to possible out-
+of-water events.
+Nov 23 	15:30- 16:30
+Nov 24 	16:30- 17:30
+Nov 25 	17:00- 19:00
+Nov 26 	18:00- 20:00
+Nov 27 	19:30- 20:00
+
+The following turbidity data are deleted because they are anomalously high
+Nov 2	15:00
+Nov 3	15:30
+Nov 10	14:00
+Nov 13	20:00
+Nov 16	02:00
+Nov 17	06:00
+
+Depth was deleted November 24 16:00 and 18:00 because they were negative.
+
+December: All of the following data were deleted due to out-of-water events.
+Dec 21	14:30- 15:30 
+Dec 22	15:00- 17:30
+Dec 23	16:00- 18:00
+Dec 24	17:00- 19:00 
+Dec 25   18:00- 19:30
+
+Salinity data are deleted from December 15 16:00 through December 31 23:30 due 
+to broken probe.
+The following turbidity data are deleted because they are anomalously high
+Dec 1	16:30
+Dec 15	11:00, 23:30
+Dec 17	17:00
+Dec 20	14:30
+Dec 21	17:00
+Dec 25	17:00-17:30
+Dec 27	08:30
+Dec 29	19:30-22:00
+
+Vierra Mouth
+1.	Suspect data
+
+January: There was a significant amount of rain that fell on Jan 09 (11.43 mm) 
+and 10 (31.5 mm) which affected water quality at each site. 
+
+February: Salinity data are suspect from February 1 00:00 through the end of the 
+first deployment (Feb 03 1430) due to incongruous readings with the following 
+deployment. 
+
+March: Salinity data are suspect from approximately March 11 0900 through March 
+15 1830 because of a muted signal then a sudden 1 PSU drop on March 15, which 
+corresponds with a heavy rain event. 
+DO data are suspect from March 26 04:00 through the end of the month because of 
+a downward trend in the data. 
+
+April:  DO data are suspect from the beginning of the month through April 7 
+02:30 due to previously mentioned downward trend in the data. 
+
+July:  Dissolved oxygen data from July 10 21:00 through July 21 08:30 is suspect 
+due to decreasing values. 
+
+August: An increase in salinity on August 19 at 14:30 is due to sonde 
+replacement.
+
+September: September salinity data prior to sonde replacement (September 1 00:00 
+through September 15 11:00) is suspect due to a muted signal.
+
+December: A large dip in measured depth occurs between December 8 13:00 and 
+December 10 04:00. This corresponds to a change in deployments and is therefore 
+suspect due to possible problems with the sonde replacement. 
+
+2.	Deleted data
+
+January: Dissolved oxygen data are deleted from Jan 01 00:00 through Jan 06 
+14:00 and 
+Jan 15 19:00 through Jan 31 23:30 due to a puncture in the DO probe membrane.
+The following turbidity data are deleted because they are anomalously high;
+Jan 06	16:00
+Jan 07	18:00
+Jan 08	07:30
+Jan 10	00:30
+Jan 13	07:00
+Jan 14	07:00
+Jan 22	17:00
+Jan 24	05:30-06:00, 07:00
+Jan 25	17:00
+Jan 26	04:30
+Jan 27	16:30
+Jan 28	15:30, 18:00, 19:30
+Jan 29	06:30
+Jan 30	07:00
+
+February: DO data are deleted from the beginning of the month through the end of 
+the first deployment (Feb 03 1430) due to a puncture in the probe membrane.
+The following turbidity data are deleted because they are anomalously high;
+Feb 01	06:30, 13:30
+Feb 02	05:00, 23:00
+Feb 09	19:00
+Feb 11	07:30
+Feb 18	15:30
+Feb 20	05:00
+
+March:	The following turbidity data are deleted because they are 
+anomalously high;
+Mar 1	01:30
+Mar 06	03:00
+Mar 10	10:30
+Mar 13	20:30
+Mar 14	19:00, 23:30	
+Mar 17	16:30, 17:30 - 18:00	
+Mar 18	00:30
+Mar 21	03:00
+Mar 23	05:00, 21:30	
+Mar 28	23:00
+Mar 30	23:30
+
+April: Dissolved oxygen data from April 7 at 03:00 through the end of deployment 
+(April 28 07:00) were deleted because the DO membrane was punctured by a crab.
+
+Conductivity data was deleted from April 28 10:30 through the end of the month 
+due to a possible unknown probe malfunction that appeared to only effect these 
+data and not salinity values. 
+
+The following turbidity data are deleted because they are anomalously high;
+Apr 2	04:00
+Apr 4	21:00
+Apr 7	12:00
+Apr 9	05:30
+Apr 11	12:30
+Apr 14	06:00, 14:30, 23:30	
+Apr 16	00:00, 20:30	
+Apr 17	02:00
+Apr 18	00:00
+Apr 20	04:00, 05:30, 19:00	
+Apr 21	04:00
+Apr 22	04:30, 17:30	
+Apr 24	22:00
+Apr 27	00:30
+Apr 29	12:00, 16:00, 18:00 - 19:00
+
+May:	Conductivity data are deleted from the beginning of the month through May 
+16 20:30 due to previously mentioned possible probe malfunction, specific 
+conductivity data only.
+
+Salinity, conductivity, dissolved oxygen (mg/L), and depth data are deleted from 
+May 16 21:00 through the end of the deployment (May 27 08:30) because data made 
+a sharp drop indicating a conductivity probe malfunction.
+
+DO% data are deleted from May 01 05:00 through the end of the deployment (May 27 
+08:30) because of another sharp drop in values indicating a probable membrane 
+puncture.
+
+The following turbidity data are deleted because they are anomalously high;
+May 02	03:30, 04:30, 15:30	
+May 03	01:30, 04:00, 18:00	
+May 04	19:00- 19:30
+May 05	02:00- 03:00, 04:30, 17:00, 20:00, 21:00
+May 06	02:00, 19:30-20:30	
+May 07	03:00, 04:00	
+May 08	02:00, 20:00	
+May 09	20:00
+May 10	17:30- 18:00, 20:00	
+May 11	02:00, 05:00	
+May 12	01:00, 04:30, 19:30- 20:30
+May 13	00:00, 20:00
+May 14	00:30, 03:30, 19:30
+May 15	16:00, 20:30- 21:00
+May 17	01:30, 20:30, 22:00
+May 18	01:30
+May 19	02:00- 02:30
+May 20	00:30, 04:00
+May 22	02:00, 21:00
+May 23	00:30, 20:00- 20:30
+May 24	00:30, 22:00
+May 26	00:30, 03:30
+May 27	01:00
+May 29	02:30, 22:00
+May 30	23:00
+
+June:	Conductivity and salinity data on June 09 at 17:00 and 19:30 were deleted 
+due to an unexplainable drop in values.
+
+Conductivity data are deleted from June 23 13:00 through the end of the month 
+because of a probe malfunction that appeared to only effect these data and not 
+the salinity data.
+
+Turbidity data from June 04 12:00 through the end of the deployment June 23 
+09:00 were deleted because of a probe malfunction.
+
+The following turbidity data are deleted because they are anomalously high;
+Jun 02	04:00
+
+July:	Conductivity data are deleted from the beginning of the month through the 
+end of the deployment July 21 08:30 due to previously mentioned probe 
+malfunction specific to these data and not affecting salinity data.
+
+DO% and mg/L was deleted from July 14 18:30 through the end of the deployment, 
+July 21 08:30, because of a possible membrane puncture. 
+
+Turbidity data were deleted from Jul 22 1530 through the end of the month 
+because of a probe malfunction.
+
+The following turbidity data are deleted because they are anomalously high;
+Jul 1	21:00- 21:30
+Jul 2	05:30
+Jul 6	22:00
+Jul 7	03:00
+Jul 8	02:30
+
+August: Dissolved oxygen data from August 16 at 04:30 through 13:30 and August 
+18 at 18:30 through August 19 at 14:30 were deleted due to anomalously low 
+values. Dissolved oxygen data were deleted from August 31 15:00- 23:30 due to 
+punctured membrane.
+
+Turbidity data were deleted from the beginning of the month through the end of 
+the deployment (Aug 19 1430) due to a probe malfunction.
+
+The following turbidity data are deleted because they are anomalously high;
+Aug 29	23:00
+
+September: The temperature probe malfunctioned and thus all the data except DO% 
+were deleted beginning September 15 11:30 through the end of the month. 
+
+Dissolved oxygen data are deleted from September 1 00:00 through September 15 
+11:00 due to punctured membrane, from September 15 12:00 through September 24 
+1700 due to anomalously high values, and from September 24 1730 through the end 
+of the month due to another punctured membrane. 
+
+The following turbidity data are deleted because they are anomalously high;
+Sep 6	01:00
+Sep 11	04:30, 17:30
+Sep 12	08:00
+
+October: 
+All data except DO % are deleted from October 1 00:00 through October 13 09:30 
+due to temperature probe malfunction. Dissolved oxygen % was also deleted during 
+this time period due to a membrane puncture. 
+
+The following turbidity data are deleted because they are anomalously high;
+Oct 13	20:00
+Oct 15	03:00, 04:30
+Oct 19	08:00
+Oct 23	04:30
+Oct 24	02:30, 17:00
+Oct 27	03:00
+Oct 29	21:00
+
+November: All data for November 14 03:30- 05:00, November 22 16:30- 17:00, 
+November 26 09:30, and November 30 03:30 are deleted due to out-of-water events.
+
+The following turbidity data are deleted because they are anomalously high;
+Nov 1	09:00
+Nov 9	00:30-05:30
+Nov 22	01:00, 02:30
+
+December: Turbidity and dissolved oxygen data are deleted from December 7 at 
+16:30 through December 8 at 1:30 due to an octopus inhabiting the cage for this 
+period.
+
+Salinity and conductivity data from December 14 23:00 was deleted because it was 
+anomalously low.
+
+The following turbidity data are deleted because they are anomalously high;
+Dec 31	01:00
+
+
+12.	Missing Data	
+Data are missing due to equipment or associated specific probes not being 
+deployed, equipment failure, time of maintenance or calibration of equipment, or 
+repair/replacement of a sampling station platform. For more details on deleted 
+data, see the Deleted Data Section (12). If additional information on missing 
+data is needed, contact the Research Coordinator at the reserve submitting the 
+data.
+
+13.	Post Deployment information
+Site								
+Azevedo Pond								
+Retrieval	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date		(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 (V)
+01/27/03	93.4	7.31	10.08	-0.214	 -0.4	122.8		51.31		11.8
+02/24/03	101.2	7.11	 9.96	-0.393	 -0.4	124.1		52.05		11.6
+03/24/03	 99.8	7.24	10.05	 0.156	  0.1	102.6		45.20		11.4
+04/21/03	100.1	7.26	 9.82	-0.059	  1.0	109.5		52.09		10.8
+5/21/03	98.3	7.12	 9.85	 0.001	  0.3	109.5		52.44		11.3
+06/16/03	96.8	7.09	 9.98	-0.058	  2.1	109.9		52.10		10.1
+07/14/03	-0.4	7.29	 9.71	 0.004	  0.6	106.0		52.01		12.5
+08/11/03	86.4	7.16	 9.80	0.027		 -1.1	 99.4		52.84		12.0
+09/08/03	102.0	7.26	 9.86	-0.045	   0.0 119.7	52.90		12.4
+10/06/03	119.0	7.22	10.20	-0.097	   0.1  137.1	54.04		 9.3
+11/03/03	99.4	7.19	9.90	0.204	  	   0.3  123.9	55.57		11.8
+12/01/03	100.5	7.12	9.99	0.195	 	  -0.1  122.9	55.51		11.4
+12/29/03	103.1	7.08	9.90	-0.174	   0.2  125.6	58.13		10.9
+
+Site
+North Marsh
+Retrieval	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date			(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 
+(V)
+01/20/03	97.2	7.21	9.75	0.314	   -1.6	106.1		46.57		11.8
+02/18/03	99.0	7.29	10.04	-0.00	   -0.7	 99.8		51.36		11.8
+03/17/03    104.7	7.32	10.24	-0.037    0.1      52.8		16.68		11.1
+04/14/03	95.5	7.24	10.04	-0.031   -0.5	115.2		47.03		11.6
+05/12/03	101.7	7.32	10.13	 0.031   -0.3	111.4		30.38		10.6
+06/09/03	96.7	7.25	9.76	-0.036    0.9	126.6		52.30		9.9
+07/08/03	79.9	7.15	9.91	0.048	    0.6	108.5		52.92		12.2
+08/04/03	88.6	7.18	9.98	0.003	   -0.1	111.2		50.40		12.8
+09/02/03	97.9	7.43	10.18	-0.108    0.2	110.9		53.41		11.5
+09/29/03	105.7	6.97	9.65	-0.030   0.1	92.5		51.64		11.0
+10/27/03	99.0	7.14	9.91	0.022	   0.0	120.9		53.75		11.6
+11/24/03	100.2	7.00	9.95	0.003	   0.4	128.3		54.14		11.3
+12/22/03	100.9	-	-	-.006	   0.0	123.9		52.81		11.3
+
+
+Site
+South Marsh
+Retrieval	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date			(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 
+(V)
+01/13/03	105.8	6.99	9.97	0.186	      0.4	 96.3		52.31		10.2   
+02/10/03	100.8	7.09	9.92	-0.120	0.2	120.6		53.29		11.5
+03/10/03	94.3  7.00	10.06	 0.010	0.6	128.7		52.30		11.8
+04/07/03	103.9	7.25	10.03	 0.102	0.2	 99.5		51.01		11.4
+05/05/03	89.5	7.04	 9.92	-0.042	0.1	 98.7		48.16		10.8
+06/02/03	97.1	7.34	10.13	-0.105     -0.3	110.5		51.10		10.3
+06/30/03	98.9	7.32	10.05	 0.065	5.7	120.2		53.90		10.6
+072803	95.0	7.27	9.64	-0.105     -0.2	109.2		28.38		12.1
+08/25/03	108.4	7.25	9.89	-0.006	0.3	109.0		47.58		12.3
+09/22/03	96.9	7.10	9.59	-0.063     -0.1	109.0		52.47		12.0
+10/21/03	100.4	7.08	10.08	 0.070     -0.3	127.6		52.49		11.1
+11/17/03	101.5	7.06	10.00	 0.061	0.6	128.2		51.80		11.0
+12/15/03	93.7	6.98	9.86	 0.053     -0.3	125.2		53.65		10.6
+
+
+Site
+Vierra Mouth
+Retrieval	 DO%	pH	pH	Depth	    Turb	Turb		Salin		Batt
+Date			(100)	(7.0)	(10.0)(0.0m)   (0.0 NTU)(100 NTU)	(53 ms/cm)	 
+(V)
+
+02/03/03	89.0	7.12	9.86	0.006	    -0.4	121.7		51.26		12.2
+03/03/03	91.9	7.09	10.06	-0.254     0.3	129.2		53.07		11.4
+03/31/03	118.1	7.06	10.05	 0.115    -1.3	104.7		51.96		11.5
+04/28/03	112.5	7.15	10.08	-0.038     0.2	147.2		53.12		10.6
+05/27/03	124.9	7.00	9.83	-0.015    -0.3	109.0		52.18		11.8
+06/23/03	97.6	7.15	10.04	-0.116    -2.0	86.8		52.97		11.4
+07/21/03	100.2	7.00	 9.77	 0.172     1.3	113.1		53.36		11.3
+08/19/03	93.7	7.18	9.8	-0.033    -9.5	-9.5		52.24		10.3 
+09/15/03	88.1	7.26	9.93	0.016	    0.2	122.1		52.62		11.6
+10/13/03*	102.5	4.6	----	0.011	   -0.3	119.3		56.43		12.0
+11/10/03	94.7	7.47	10.26	0.066	   -0.1	114.3		53.25		10.5
+12/08/03	99.1	7.13	10.03	-0.032   -0.2	100.5		26.16		10.1
+01/05/04	101.7	7.04	10.00	 0.011   -0.4	123.4		54.00		11.5
+
+*bulb of pH probe broken
+
+14.	Other Remarks/Notes
+Though measurements are not abnormal, dissolved oxygen post deployment 
+calibration for AP 6/16 11:00 through 7/14 10:30 is extremely low and the probe 
+was encrusted with mud and invertebrates. 

@@ -1,0 +1,1308 @@
+Sapelo Island (SAP) NERR Water Quality Metadata
+January-December 1999 
+Latest update: September 14, 2000
+
+1. Principal investigator & contact persons:
+
+Dorset Hurley, Research Coordinator			Georgia Department of Natural 
+Resources
+  E-mail: dhurley@darientel.net  (912) 485-2251		P.O. Box 15
+Jane Garbisch, Reserve Technician				Sapelo Island, GA 31327
+  (912) 485-2296
+
+2. Entry Verification:
+
+	The data are reviewed using the YSI computer program PC6000 that 
+accompanies the YSI 6000 data logger.  After the file is uploaded from the 
+datalogger, PC6000 is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std. dev.) The information obtained from this 
+is used during file review to detect any gross outliers such as data taken when 
+the datalogger was removed from the water or those caused by instrument failure.  
+The data are imported into a Microsoft Excel file that contains the current 
+month's cumulative recordings.  When a complete month of data has been recorded 
+the file is ready for review.  The data review includes several steps.  The 
+first step is to format the data using the CDMO Excel 5.0 macro so that the 
+parameter columns are in the correct order and the data has the correct number 
+of decimal place holders as specified by the NERR CDMO.  Secondly, the Excel 
+macro is used to determine if there are any dates and times that data was not 
+recorded due to maintenance, battery failure, or other causes.  Missing dates 
+and times are inserted into the file and a period is inserted into the cells 
+where data would normally be.  The reason for the missing data is recorded on 
+the metadata document.  Next, the data are filtered using the Excel macro to 
+find readings outside the instrument measurement range and the "normal" range 
+for the site in question.  Data outside the instrument range is/are removed from 
+the file and a period is inserted to the cell(s).  An explanation for the 
+missing dates and times are recorded onto the metadata document.  Data that was 
+outside the "normal" range of water quality for a particular site is 
+investigated for validity based on weather data, field observations, QC checks, 
+PC6000 printouts, and instrument diagnostics.  If the data is/are rejected from 
+the file a period is inserted to the cell(s) and an explanation for the missing 
+dates and times are recorded onto metadata document. The completed Metadata  
+form is the submitted with the data file to the CDMO.  Jane Garbisch was 
+responsible for all 1999 data management.  
+
+3.  Research Objectives:
+	Sapelo Island is only accessible by passenger ferry.  Due to its 
+isolation, the salt marsh and tidal waters of the SINERR show little evidence of 
+human impact.  Thus the Marsh Landing dock, the primary access point for the 
+approximately 200-300 residents, commuters and daily visitors plus barge off 
+loading was chosen as the most directly impacted site.  The lower Duplin site is 
+also readily accessible and centrally located within the SINERR.  The University 
+of Georgia Marine Institute has used this site for years and SINERR continues to 
+do so.  The Hunt Dock site was selected in July 19999 for monitoring.  It is a 
+dock only used for transporting hunters during the fall season.  It is further 
+up the Duplin, where the primary usage of the river is for pleasure boating and 
+crabbing.  Therefore it is the unimpacted site.  
+
+4.   Research Methods:
+
+	The Water Quality Monitoring began in October of 1999, at the Marsh 
+Landing Dock on the lower Duplin River.  At this time we are only performing 
+long term water quality monitoring and not a specific experiment.  Prior to 
+April 15, 1999 the sampling was done by the University of Georgia-Athens Marine 
+Institute (UGAMI). When SAP NERR took over the NERR monitoring from the 
+University of GA, a second site was set up at the Marsh Landing site to be the 
+NERR monitoring station.  In order to lesson the confusion between the 2 sites, 
+the SAP NERR site is referred to as the Lower Duplin site (LD) and is monitored 
+at a fixed depth from the bottom (0.5m).  The University continues to monitor at 
+a fixed depth just below the surface (Marsh Landing) but this site is no longer 
+considered a NERR monitoring station.  The Flume Dock (FD) is also monitored by 
+the University, but data is not reported to the SAP NERR anymore.  Therefore the 
+Hunt Dock (HD) site was established just south of the Flume Dock site as the new 
+upper duplin site and also measures at 0.5m above the surface bottom.  At the 
+time of changing over the monitoring program, some changes were made and are 
+noted at the end of this section.
+
+	Before each YSI PC6000 datalogger is deployed, calibration and maintenance 
+is performed following the manufacturer's instructions.  Calibration standards 
+are only required for pH, conductivity, and turbidity, all other parameters are 
+done as described in the manual.  Buffer solutions for 2 point calibration (pH 7 
+and 10) are purchased from a scientific supply house.  The conductivity standard 
+is made using a 0.2 M solution of KCl (24.82mS/cm = 14.92 g/L) or from serial 
+dilution of a certified conductivity standard.  The turbidity calibration uses 
+distilled water made by the University of Georgia-Athens Marine Institute.  The 
+dissolved oxygen membranes are replaced before deployment and are allowed to sit 
+at least 24 hours prior to deployment.  Calibration is then verified by running  
+a standard as a sample after each calibration.*  
+
+	During deployment the weather conditions and tide stage are recorded in 
+the field observation log.*  The datalogger is placed inside a length of PVC 
+pipe attached to the dock.  The Lower Duplin datalogger is attached to the north 
+side of a fixed height dock by a stell cable and run down a PVC pipe to rest 
+0.5m above the surface bottom.  The Hunt Dock data logger is attached to the 
+south side of a fixed dock by steel cable and run down a PVC pipe to take 
+measurements 0.5m above the surface bottom.  Every 30 minutes during the 
+sampling period measurements are taken for temperature, specific conductance, 
+salinity, pH, dissolved oxygen concentration, percent saturation, depth and 
+turbidity.
+
+	During the stage of deployment the datalogger is checked for fouling and 
+cleaned.  This can be one to three times a week depending on the time of year.  
+At the end of the sample period the datalogger is retrieved and immediately 
+replaced by another calibrated datalogger.  The datalogger is then taken to the 
+lab and runs QA/QC standards for pH, and conductivity, and dissolved oxygen, the 
+data is uploaded, and the probe is cleaned.
+
+* all the aforementioned were incorporated into the procedure April 15, 1999.  
+Before this date, no QA/QC samples were run, nor was there any field log kept.
+
+5.  Site Location and character:
+	
+	The monitoring site is located on the Marsh Landing Dock in the Duplin 
+River on Sapelo Island.  Water passing the Marsh landing site during flood tide 
+originates from the Doboy Sound.  The Doboy receives input from the Atlantic 
+Ocean, and the Altamaha River via the Intra-Coastal Waterway. The water 
+is pushed up the river or up smaller tidal creeks and some is pushed onto the 
+marsh surface by the flood tide and recedes into the main channel during ebb 
+tide.
+	The dock itself is used as the main dock to the island where the ferry 
+makes several daily runs.  There are also several small boats that are docked 
+there.  The surrounding area vegetation is dominated by salt marsh with Spartina 
+being the predominate flora. Latitude and longitude for Lower Duplin site is as 
+follows:  31 deg 25’ 4” N, 81 deg 17’ 46” W); Latitude and longitude for Hunt 
+Camp site is as follows: ( 31 deg 28’ 43”, 81 deg 16’ 23” W); Tidal range 
+maximum for both sites is 14 feet and the salinity range is 5-35 ppt.  Because 
+the previous data from 1995-1998 was measured at a fixed depth closer to the 
+surface, a base line range has not been established for parameters in the 1999 
+data.  
+
+	The Hunt Dock monitoring site is located on the Duplin River, off of Moses 
+Hammock, which is separated by Sapelo Island by a small tidal channel.  The 
+primary runoff at the site is from tidal creeks flowing through Spartina marsh 
+and through the mud. There is little human traffic this far up the Duplin and 
+it is north of the people living on Sapelo.
+
+6.  Data collection period:  (listed by each deployment)
+
+Lower Duplin:
+BEGAN:	ENDED:
+12/17/98 16:00-1/8/99 14:00
+1/8 14:30-1/25 15:30
+1/25 16;00-2/4 15:00
+2/4 15:30-2/18 16:00
+2/18 16:30-3/5 14:00
+3/5 14:30- 3/18 14:30
+3/18 15:00-3/31 11:00
+3/31 12:00-4/15 15:00
+4/15 16:30-4/28 10:30
+4/28 11:00-5/13 19:00
+5/13 19:30-5/27 7:00
+5/27 8:00-6/8 19:30
+6/8 20:00-6/23 14:30
+6/23 15:30-7/8 18:30
+7/8 19:00-7/21 10:00
+7/21 11:00-8/3 15:30
+8/3 16:00-8/16 7:00
+8/16 7:30-8/30 13:30
+8/30 14:00-9/10 19:30
+9/10 20:00-9/26 11:30
+9/28 13:30-10/11 14:30
+10/11 17:30-10/23 10:30
+10/27 17:00-11/15 16:00
+11/15 15:30-11/30 17:30
+11/30 18:30-12/16 8:00
+12/17 15:00-1/1/00 12:00
+		
+
+Hunt Dock:
+
+Began:	Ended:
+7/3 10:00-7/19 7:00
+7/19 7:30-8/2 10:30
+8/2 11:00-8/14 9:00
+8/14 9:30-8/22 13:30
+8/22 14:00-8/29 12:30
+8/29 13:30-9/10 15:30
+9/11 10:30- 9/25 8:30
+9/26 11:00-10/12 13:00
+10/13 17:00-10/26 14:30
+10/28 13:00-11/16 14:30
+11/16 15:00-11/30 16:30
+11/30 18:30-12/16 8:00
+12/19 14:00-1/2/00 14:00
+
+
+7.  Associated researchers and projects:
+
+Sapelo Island has a long history of maintaining research.  In 1953, the 
+University of Georgia Marine Institute (UGAMI) was formed and the island became 
+a working laboratory for many.  The research continues today with SINERR and 
+UGAMI creating a unique partnership with much of the current research being done 
+facilitated by SINERR and UGAMI together.  Given UGAMI's long history on Sapelo, 
+a bibliographic list of over 800 articles of current and previous research can 
+be found on the UGAMI website.  (http://www.uga.edu/UGAMI).  
+Examples of current research facilitated by SINERR are:
+
+NERR sponsored fellowships:
+
+Gregory Schultz-graduate student, Georgia Institute of Technology, Earth and 
+Atmospheric Sciences.  
+	Characterization of a barrier island surficial aquifer.
+Stacey Webb-graduate student, The University of Georgia-Athens, Department of 
+Marine Science
+	Investigation of juvenile white shrimp ( Penaeus setiferus) residence 
+time, growth, and movement 
+	within the tidal marsh nursery.
+
+Proposed Research:
+
+Dr. Randall Walker (UGA Marine Extension Service)and Dorset Hurley-(SINERR )
+	 long term monitoring of both living and dead oyster beds and monthly 
+monitoring of spat 
+	recruitment. 
+
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000 datalogger
+
+variable   Range of measurement (units)          Resolution          Accuracy
+
+
+Date        1-12, 1-31, 00-99  (Mo., Day, Yr.)   1 mo. 1 day 1 yr    NA
+Time        0-24,0-60, 0-60 (Hr, min., Sec)      1 hr, 1 min., 1 s   NA
+Temp             -5 to 45 (C)                    0.01 c              +/-0.15C
+SpCond            0-100 (mS/cm)                  0.01 mS/cm          +/-0.5% of 
+reading + 0.001 mS/cm
+Salinity          0-70 (ppt)                     0.01 ppt            +/- 1.0% of 
+reading or 0.1ppt (which ever is greater)
+DO               0-200 (% air saturation)      0.1% @ air sat.     +/-2%@air sat
+DO               200-500 (% air sat.)          0.1% @ air sat.     +/-6%@air sat
+DO               0-20 (mg/L)                   0.01 mg/L           +/-0. 2mg/L
+DO               20-50 (mg/L)                  0.01 mg/L           +/-0.6 mg/L
+Depth (shallow)  0-9.1 (m)                     0.001 m             +/-0.018 m
+PH               2-14 units                    0.01 units          +/-0.2 units
+Turb             0-1000 (NTU)                  0.1 NTU             +/-5% of 
+reading or 2 NTU  (which ever is greater)
+
+Data columns are separated by tabs.
+
+9.  Coded variable indicator and variable code definitions:
+	LD = Lower Duplin        HD = Hunt Dock
+
+10.  Data anomalies:
+
+
+Lower Duplin:
+
+January 1-31, 1999 sampling period
+a.) 1 January 1999 00:00-8 January 13:30 No turbidity data reported, calibration 
+incorrect
+b.) 8 January 1999 14:30:00 – 25 January 1999 15:30:00 There appears to be a DO 
+membrane problem where DO drastically drops.  Data retained.  
+c.) 8 January 1999 14:00:00 sonde was out of the water
+
+February 1-28, 1999 sampling period	
+a.) 20 February 1999 04:00:00 – 26 February 1999 09:30:00 the pH dramatically 
+drops during this time.  Data retained.  
+
+March 1-31,1999 sampling period
+a.) 16 March 1999 00:30:00 Dissolved Oxygen data removed.  Discovered fish 
+living in probe compartment
+
+April 1-30, 1999
+a.) 15 April 1999 16:30 -  28 April 1999 10:30 all pH data missing.  Data 
+rejected after failing  post deployment QA/QC standard run as a sample.
+
+May 1-31, 1999
+none
+
+June 1-30, 1999
+none
+
+July 1-31, 1999
+a.) 8 July 1999 19:00:00-21 July 1999 10:00:00 Dissolved oxygen data not 
+reported due to post deployment check standard failure.  Membrane heavily 
+fouled; data removed.
+
+August 1-31,1999
+a) 3 August 1999 16:30 DO% and mg/L removed, reading negative
+b) 4 August 1999 3:30-6:00, 8:30 DO% and mg/L removed, reading negative
+c) 5 August 1999 6:30 DO% and mg/L removed, reading negative
+d) 14 August 1999 15:30- 16 August 1999 7:00, DO% and mg/L removed, reading 
+negative fish found living in probe guard
+e.) 26 August 1999 0:00- 30 August 1999 13:30, no Sp cond, or salinity.  Post 
+calibration verification failed.  Heavy barnacle growth on probe.  Removed data 
+where data began to drop.
+f.) 28 August 1999 23:30-30 August 1999 13:30, DO% and mg/L removed.  Fish found 
+living in probe guard.
+g.) 30 August 1999 14:00-31 August 23:30 no DO reported due to DO probe failure.
+
+September 1-30, 1999
+a.) 1 September 0:00 - 10 September 1999, 19:30, no DO reported due to DO probe 
+failure; data removed.
+b.) 6 September 16:30 - 10 September 1999, No turbidity data.  Removed after 
+anamoly.
+c.)Negative turbidity outliers for the following times were noted and left in 
+file:
+ Date	Time	Turb
+09/02/99	08:00:00	-0002
+09/02/99	08:30:00	-0002
+09/02/99	09:00:00	-0002
+09/03/99	08:30:00	-0002
+09/03/99	22:00:00	-0001
+09/03/99	22:30:00	-0002
+09/04/99	11:00:00	-0003
+09/04/99	23:00:00	-0001
+09/05/99	10:30:00	-0001
+09/05/99	11:00:00	-0001
+09/05/99	11:30:00	-0002
+09/05/99	18:30:00	-0001
+09/06/99	06:30:00	-0001
+
+October 1-31 1999
+none
+
+November 1-30 1999
+a.) Negative turbidity values for the following dates and times were noted and 
+left in the file:
+Date	Time	Turb
+11/30/99	18:30:00	-0001
+11/30/99	19:00:00	-0001
+11/30/99	19:30:00	-0004
+11/30/99	20:00:00	-0004
+11/30/99	20:30:00	-0005
+11/30/99	21:00:00	-0004
+11/30/99	21:30:00	-0004
+11/30/99	22:00:00	-0005
+11/30/99	22:30:00	-0005
+11/30/99	23:00:00	-0005
+11/30/99	23:30:00	-0003
+
+December 1-31 1999
+a.) 22 December 1999 1:00-2:30, 14:00-15:00, no data reported, exposed at low 
+tide
+b.) 23 December 1999 2:00-2:30, 15:00-15:30, no data reported, exposed at low 
+tide
+c.) 24 December 1999 2:30-4:00, 15:30-16:30, no data reported, exposed at low 
+tide.
+d.) 25 December 1999 3:30-4:30, no data reported exposed at low tide
+e.) 26 December 1999 17:30-18:00, no data reported, exposed at low tide
+f.) 27 December 1999 5:30-6:00, no data reported, exposed at low tide
+g.) Turbidity often reading negative, believed to be because value so close to 
+zero.  Negative turbidity outliers for the following times were noted and were 
+left in data file:
+Date	Time	Turb
+12/01/99	00:00:00	-0003
+12/01/99	00:30:00	-0002
+12/01/99	04:00:00	-0001
+12/01/99	07:30:00	-0002
+12/01/99	08:00:00	-0001
+12/01/99	11:00:00	-0004
+12/01/99	19:30:00	-0002
+12/01/99	20:00:00	-0002
+12/01/99	20:30:00	-0004
+12/01/99	21:00:00	-0004
+12/01/99	21:30:00	-0005
+12/01/99	22:00:00	-0003
+12/01/99	22:30:00	-0003
+12/01/99	23:00:00	-0001
+12/01/99	23:30:00	-0001
+12/02/99	01:00:00	-0001
+12/02/99	01:30:00	-0001
+12/02/99	09:30:00	-0002
+12/02/99	10:00:00	-0003
+12/02/99	10:30:00	-0003
+12/02/99	11:00:00	-0004
+12/02/99	11:30:00	-0004
+12/02/99	12:00:00	-0005
+12/02/99	13:30:00	-0001
+12/02/99	17:00:00	-0001
+12/02/99	20:30:00	-0001
+12/02/99	21:00:00	-0003
+12/02/99	21:30:00	-0002
+12/02/99	22:00:00	-0004
+12/02/99	22:30:00	-0001
+12/02/99	23:00:00	-0002
+12/02/99	23:30:00	-0003
+12/03/99	00:00:00	-0002
+12/03/99	09:30:00	-0001
+12/03/99	10:30:00	-0001
+12/03/99	11:00:00	-0002
+12/03/99	11:30:00	-0002
+12/03/99	12:00:00	-0003
+12/03/99	12:30:00	-0003
+12/03/99	22:00:00	-0003
+12/03/99	22:30:00	-0001
+12/03/99	23:00:00	-0003
+12/03/99	23:30:00	-0002
+12/04/99	00:30:00	-0003
+12/04/99	01:00:00	-0002
+12/04/99	01:30:00	-0002
+12/04/99	10:00:00	-0001
+12/04/99	11:00:00	-0001
+12/04/99	12:30:00	-0004
+12/04/99	18:30:00	-0002
+12/04/99	22:30:00	-0002
+12/04/99	23:00:00	-0004
+12/04/99	23:30:00	-0002
+12/05/99	00:00:00	-0004
+12/05/99	00:30:00	-0002
+12/05/99	01:00:00	-0002
+12/05/99	01:30:00	-0001
+12/05/99	02:30:00	-0001
+12/05/99	12:00:00	-0001
+12/05/99	12:30:00	-0002
+12/05/99	13:00:00	-0004
+12/05/99	13:30:00	-0002
+12/05/99	14:00:00	-0001
+12/05/99	14:30:00	-0003
+12/05/99	19:00:00	-0003
+12/05/99	23:30:00	-0002
+12/06/99	00:00:00	-0002
+12/06/99	00:30:00	-0004
+12/06/99	13:30:00	-0003
+12/06/99	17:00:00	-0001
+12/06/99	18:30:00	-0001
+12/06/99	19:00:00	-0003
+12/06/99	19:30:00	-0003
+12/06/99	23:30:00	-0001
+12/07/99	00:00:00	-0001
+12/07/99	00:30:00	-0002
+12/07/99	01:30:00	-0001
+12/07/99	02:00:00	-0003
+12/07/99	02:30:00	-0001
+12/07/99	04:00:00	-0002
+12/08/99	00:30:00	-0001
+12/08/99	01:00:00	-0003
+12/08/99	03:00:00	-0003
+12/08/99	14:00:00	-0001
+12/08/99	14:30:00	-0001
+12/08/99	15:30:00	-0002
+12/08/99	21:00:00	-0002
+12/09/99	01:30:00	-0004
+12/09/99	02:00:00	-0003
+12/09/99	02:30:00	-0004
+12/09/99	03:00:00	-0001
+12/09/99	03:30:00	-0002
+12/09/99	04:00:00	-0002
+12/09/99	04:30:00	-0001
+12/09/99	21:30:00	-0001
+12/10/99	01:30:00	-0001
+12/10/99	03:00:00	-0001
+12/10/99	04:00:00	-0002
+12/10/99	05:00:00	-0001
+12/10/99	10:00:00	-0003
+12/10/99	22:00:00	-0003
+12/11/99	01:30:00	-0003
+12/11/99	02:30:00	-0004
+12/11/99	03:00:00	-0002
+12/11/99	03:30:00	-0002
+12/11/99	04:30:00	-0002
+12/11/99	05:00:00	-0001
+12/11/99	05:30:00	-0001
+12/11/99	17:00:00	-0001
+12/11/99	17:30:00	-0003
+12/11/99	22:30:00	-0003
+12/12/99	02:30:00	-0002
+12/12/99	03:00:00	-0003
+12/12/99	03:30:00	-0001
+12/12/99	04:00:00	-0003
+12/12/99	04:30:00	-0002
+12/12/99	05:00:00	-0004
+12/12/99	05:30:00	-0001
+12/12/99	06:00:00	-0001
+12/12/99	18:30:00	-0001
+12/13/99	03:30:00	-0002
+12/13/99	04:00:00	-0001
+12/13/99	04:30:00	-0002
+12/13/99	05:00:00	-0002
+12/13/99	05:30:00	-0003
+12/13/99	06:00:00	-0004
+12/13/99	06:30:00	-0004
+12/13/99	11:00:00	-0001
+12/13/99	11:30:00	-0001
+12/13/99	12:00:00	-0004
+12/13/99	18:00:00	-0002
+12/13/99	19:00:00	-0002
+12/13/99	21:00:00	-0003
+12/13/99	23:30:00	-0002
+12/14/99	00:00:00	-0001
+12/14/99	04:00:00	-0003
+12/14/99	04:30:00	-0002
+12/14/99	05:00:00	-0002
+12/14/99	05:30:00	-0003
+12/14/99	12:00:00	-0001
+12/14/99	12:30:00	-0001
+12/14/99	13:00:00	-0002
+12/14/99	21:30:00	-0002
+12/14/99	22:00:00	-0001
+12/15/99	00:00:00	-0002
+12/15/99	01:00:00	-0001
+12/15/99	05:00:00	-0003
+12/15/99	05:30:00	-0004
+12/15/99	06:00:00	-0003
+12/15/99	06:30:00	-0002
+12/15/99	08:00:00	-0002
+12/15/99	09:00:00	-0002
+12/16/99	01:30:00	-0002
+12/16/99	02:00:00	-0003
+12/16/99	05:30:00	-0002
+12/16/99	08:30:00	-0001
+12/16/99	19:00:00	-0002
+12/16/99	19:30:00	-0003
+12/16/99	20:00:00	-0004
+12/16/99	20:30:00	-0003
+12/16/99	21:00:00	-0001
+12/16/99	22:00:00	-0003
+12/16/99	22:30:00	-0002
+12/16/99	23:00:00	-0002
+12/17/99	03:00:00	-0002
+12/17/99	07:00:00	-0002
+12/17/99	07:30:00	-0002
+12/17/99	08:00:00	-0001
+12/17/99	08:30:00	-0001
+12/17/99	10:00:00	-0002
+12/17/99	10:30:00	-0002
+12/17/99	11:30:00	-0002
+
+
+HUNT DOCK:
+Data anomalies:
+
+July 1-31,1999
+a.) Following data removed due to sonde being exposed at low tide: 
+6 July 1999 8:30-9:30					
+7 July 1999 9:00-10:30				
+8 July 1999 9:30-12:00				
+8 July 1999 23:00- 9 July 00:00		
+9 July 1999 10:00-13:00				
+9 July 1999 23:30- 10 July 2:30			
+10 July 1999 11:00-14:00				
+11 July 1999 0:00-2:30				
+11 July 1999 12:00-15:00		
+12 July 1999 1:30-3:30		
+12 July 1999 13:30-15:30		
+13 July 1999 2:30-4:30
+13 July 1999 14:30-16:30
+14 July 1999 3:30-5:00
+14 July 1999 15:30-17:00
+15 July 1999 4:30-5:30
+15 July 1999 17:00-17::30
+16 July 1999 5:30-6:30
+17 July 1999 6:30-7:00
+18 July 1999 7:00:00 - 7:30:00
+20 July 1999 8:00:00 - 8:30:00
+27 July 1999 2:00:00 - 3:00:00
+29 July 1999 4:00:00
+30 July 1999 4:00:00
+31 July 1999 5:00:00 - 5:30
+31 July 1999 17:00:00 17:30:00
+b.)13 July 1999 21:30:00 -14 July 1999 20:00:00 DO%, DO mg/L reading very high, 
+cause unknown; data left in file.  
+c.) 26 July 1999 0:30:00, 2:30:00-3:30:00 DO% removed, negative reading
+d.) 26 July 1999 13:30:00 - 16:30:00 DO% and mg/L reading very high; data not 
+removed
+e.) 27 July 1999 14:00:00, 17:30:00, 23:00:00 DO removed negative reading.
+f.) 28 July 1999 2:00:00 - 3:30:00, DO removed, negative reading
+g.) 29 July 2:30:00 - 3:30:00 DO removed, negative reading.
+h.) 30 July 3:00:00- 3:30:00, DO removed, negative reading
+i.) 31 July 1999 3:30:00 - 4:30:00, 11:30:00 - 12:00:00 DO removed, negative 
+reading
+j.) Negative depths occurred at the following times and remain in the file: 
+Date	Time	Depth
+07/06/99	08:00:00	-0.04
+07/06/99	10:00:00	-0.04
+07/06/99	20:30:00	-0.06
+07/06/99	21:00:00	-0.07
+07/06/99	21:30:00	-0.02
+07/07/99	08:30:00	-0.03
+07/07/99	21:30:00	-0.02
+07/07/99	22:00:00	-0.05
+07/07/99	22:30:00	-0.07
+07/07/99	23:00:00	-0.05
+07/08/99	22:30:00	-0.03
+07/12/99	01:00:00	-0.05
+07/14/99	03:00:00	-0.03
+07/14/99	17:30:00	-0.03
+07/15/99	04:00:00	-0.03
+07/15/99	06:00:00	-0.06
+07/15/99	16:30:00	-0.02
+07/15/99	18:00:00	-0.05
+07/16/99	05:00:00	-0.02
+07/17/99	06:00:00	-0.02
+07/18/99	08:00:00	-0.02
+
+
+August 1-30, 1999
+a.) Following data removed due to sonde being exposed at low tide:
+8/1/99 5:30-6:30			
+8/2/99 6:30-7:30			
+8/6/99 10:00-10:30			
+8/7/99 11:00-12:00
+8/8/99 00:30, 11:30-13:30
+8/9/99 0:00-2:00, 12:30-14:30
+8/10/99 1:00-3:00, 13:30-15:00
+8/11/99 2:30-4:00, 14:30-16:00
+8/12/99 3:00-4:30, 15:30-16:30
+8/13/99 4:30-5:00, 16:30-17:30
+8/14/99 5:00-6:00
+8/16/99 6:30
+8/26/99 3:00, 14:30-15:30
+8/27/99	3:00-4:00, 15:00-16:30
+8/28/99 4:00-5:00, 16:00-16:30
+b.) 1 August 0:00 - 2 August 10:00, DO data removed, DO reading negative 
+c.) 10 August 1999 22:00 - 14 August 1999 9:00, DO spike, all data removed from 
+time of spike to new deployment.
+d.) 10 August 1999 03:30, DO data was removed due to negative readings
+e.) 28 August 1999 3:30, DO negative DO data removed.
+f.) 8/28/99-8/29/99 Special note- Hurricane Dennis offshore of Sapelo.
+
+September 1999
+The following data not reported due to sonde being exposed at low tide:
+9/6/99 12:00-13:00
+9/7/99 1:00-1:30, 13:00-14:00
+9/8/99 2:00, 14:00-15:00
+9/9/99 15:00-15:30
+9/19/99 10:30
+9/26/99 16:00 - 16:30
+9/27/99 4:00 - 5:00, 17:00 - 17:30
+9/28/99 4:30 - 5:30
+9/29/99 6:00
+9/30/99 6:30 - 7:30
+a.) 11 September 1999 11:00 - 17:00, 18:00- 12 September 1999 14:00 DO removed 
+negative reading
+b.) 12 September 1999 10:00, Turbidity spike (data remains), 16:30 DO negative-
+DO data removed.
+c.)13 September 1999 3:00 - 13:00, DO negative data removed
+d.) 14 September 1999 5:00-8:30, DO negative data removed
+e.) 15 September 1999 17:30 - 21:00 Turbidity increase; data not removed
+f.)19 September 1999 8:00 - 10:00, 23:30 – 20 September 00:00 DO negative data 
+removed.
+g.) 20 September 1999 11:30, 23:30 - 9/21/99 0:30, DO negative data removed.
+h.) 21 September 1999 1:30, DO negative data removed
+i.) 22 September 1999 1:30, 16:30 - 22:00, 23:30 DO negative data removed
+j.) 23 September 1999 0:00 - 3:30 DO negative data removed
+k.) 24 September 1999 1:30 - 2:00 DO negative data removed
+l.) 25 September 1999 3:00, DO negative data removed
+m.) Special Note:  Hurricane Floyd and Harvey off shore during September.
+n.) 27 September 1999 3:00 - 3:30, 6:00 - 7:00 DO negative data removed
+o.) 28 September 1999 3:30 - 4:00, 6:30 - 8:00 DO negative data removed
+p.) 29 September 1999 4:30 - 5:30, 6:30 - 9:00, DO negative data removed
+q.) 30 September 19995:30, DO negative data removed
+
+October 1999
+During the month of October there are several hunts on the island.  The sonde is 
+deployed at the dock used by the deer hunters that come and go by small boat.  
+This could explain the turbidity fluctuations.
+a.) 10/11/99 14:30 - 17:00, 21:00 Turbidity readings high.
+b.) 10/12/99 2:00, 6:00, 8:00 - 11:00, 12:30 Turbidity readings high
+c.) 10/13/99 16:30 turbidity reading high, removed from data
+d.) Turbidity data for the following times are greater than 1000 NTU and 
+negative but remain in the database.  
+Date	Time	Turb
+10/12/99	02:00:00	1188
+10/12/99	11:00:00	1550
+10/14/99	06:30:00	1032
+10/24/99	02:30:00	-0002
+10/24/99	03:00:00	-0003
+10/25/99	03:00:00	-0002
+10/25/99	03:30:00	-0003
+10/25/99	04:00:00	-0003
+10/25/99	15:30:00	-0004
+10/25/99	16:00:00	-0003
+10/25/99	16:30:00	-0003
+10/26/99	03:30:00	-0003
+10/26/99	04:00:00	-0003
+10/26/99	04:30:00	-0003
+10/26/99	05:00:00	-0003
+10/28/99	13:00:00	-0001
+10/30/99	15:00:00	-0001
+10/31/99	00:30:00	-0001
+10/31/99	02:00:00	-0001
+10/31/99	03:00:00	-0002
+10/31/99	03:30:00	-0001
+10/31/99	06:30:00	-0001
+10/31/99	12:30:00	-0001
+10/31/99	15:30:00	-0002
+10/31/99	16:00:00	-0002
+e.) 10/13 17:00 – 10/26 14:30 due to broken probe, only depth, pH and turbidity 
+are reported
+f.) 10/14/99 4:30 - 13:30, Turbidity readings high
+g.) 10/24/99 2:30 - 3:00 Turbidity reading negative
+h.) 10/25/99 3:00 - 4:00, 15:30 - 16:30, Turbidity negative
+i.) 10/25/99 8:00, turbidity reading high
+j.) 10/26/99 3:30 - 5:00 turbidity negative.
+k.) 10/28/99 13:00, turbidity negative
+l.) 10/30/99 15:00 turbidity negative
+m.) 10/31/99 00:30, 2:00, 3:00 - 3:30, 6:30, 12:30, 15;30-16:00 Turbidity 
+reading negative
+n.) 10/6/99  00:00:00	DO removed due to negative values
+
+November 1999
+a.) Turbidity reading negative often through month, believed to be because the 
+readings are typically very close to 0.  
+Date	Time	Turb
+11/30/99	18:30:00	-0001
+11/30/99	19:00:00	-0001
+11/30/99	19:30:00	-0004
+11/30/99	20:00:00	-0004
+11/30/99	20:30:00	-0005
+11/30/99	21:00:00	-0004
+11/30/99	21:30:00	-0004
+11/30/99	22:00:00	-0005
+11/30/99	22:30:00	-0005
+11/30/99	23:00:00	-0005
+11/30/99	23:30:00	-0003
+b.) 11/4/99 21:00-21:30, sonde for unexplained reason did not take samples 
+during these times.
+c.) Exposed at low tide during the following times, all data removed
+11/2/99 22:30 - 11/3/99 0:30 
+11/3/99 11:00-12:30
+11/3/99 23:30-11/4/99 1:00
+11/4/99 12:30-13:00
+11/4/99 21;00-21:30
+11/5/99 0:30-1:30, 13:30-14:00
+11/6/99 1:00-2:30, 13:30 - 15:00
+11/7/99 1:30-3:30,14:30-15:30
+11/8/99 2:00-3:30,15:30 - 16:00
+11/9/99 3:00-3:30, 16:30
+11/10/99 17:00 
+11/19/99 22:30-23:30
+11/20/99 11:00-12:00, 23:00- 11/21/99 1:00
+11/21/99 12:00-13:00
+11/22/99 0:00-2:00, 13:00-14:30
+11/23/99 1:00-2:30, 14:00-15:30
+11/24/99 1:30-3:30, 15:00-16:30
+11/25/99 2:30-4:30, 15:30-17:00
+11/26/99 3:30-5:00, 16:30-18:00
+11/27/99 4:30-6:00, 17:30-18:30
+11/28/99 19:00
+11/30/99 17:00-18:00
+d.) 24 November 04:30:00 DO negative reading, data removed
+e.) 24 November 05:30:00 there is a large DO spike following a negative 
+value. Data retained.  
+
+December 1999
+a.) The following times data has been removed because the sonde was exposed at 
+low tide.
+12/4/99 0:30 - 1:00
+12/5/99 1:00-2:00
+12/6/99 1:30-2:30, 14:30-16:00
+12/7/99 1:30-3:30
+12/10/99 17:00-17:30
+12/11/99 4:00-5:30
+12/14/99 19:30-20:00
+12/19/99 23:00-12/20 0:30
+12/20/99 11:30 - 13:00
+12/20/99 23:00 - 12/21/99 1:30
+12/21/99 12:30-14:00
+12/22/99 0:00-3:00, 13:00-15:30
+12/23/99 1:00-3:30, 14:00-16:00
+12/24/99 2:00-4:30, 15:00-17:00
+12/25/99 2:30-5:00, 16:00-17:30
+12/26/99 4:00-6:00, 16:30-19:00
+12/27/99 4:30-7:00, 17:30-19:00
+12/28/99 18:30-20:00
+12/29/99 20:30
+12/30/99 20:30 21:30
+12/31/99  10:00-11:00 21:30-22:30
+b.) Turbidity at the following time was greater than 1500 NTU: 12/01/99 08:00 
+but remains in the file.  
+
+
+
+11. Missing Data
+
+Lower Duplin:
+
+January 1-31, 1999 sampling period
+a.) 1 January 00:00:00 - 8 January 13:30:00 no turbidity reported, problem with 
+calibration standard.
+b.) 8 January 14:00:00 sonde out of water.
+c.) 25 January 1999 16:00 all data missing.  The probe was out of the water for 
+cleaning
+d.) 25 January 16:30-31 January 23:30, no turbidity probed deployed
+
+February 1-28, 1999 sampling period	
+No Turbidity probe deployed for entire month.
+a.) 4 February 15:30 data removed.  Probe was out of the water for cleaning
+b.) 18 February 12:00 data removed.  Probe was out of the water for cleaning.
+c.) 18 February 16:00, no sonde deployed.
+
+March 1-31,1999 sampling period
+No turbidity probe deployed for the month.
+a.) 16 March 1999 00:30:00 Dissolved Oxygen data missing.  Discovered fish 
+living in probe compartment; data removed
+b.) 16 March 10:00 all data removed.  Probe was out of the water for cleaning
+c.) 25 March 15:30 all data removed.  Probe was out of the water for cleaning.
+d.) 31 March 11:30 all data removed.  Probe was out of the water for cleaning.
+
+April 1-30, 1999
+No Turbidity probe deployed for the month.
+a.) 11 April 1999 18:30 all data removed.  Probe was out of the water for 
+cleaning.
+b.) 15 April 1999 15:30 and 16:00 all data missing.  The previous probe was in 
+the water when the time change 
+occurred 4 April 1999.  Time adjustments  were not able to made until deployment 
+on the 15th.
+c.) 15 April 1999 16:30 -  28 April 1999 10:30 all pH data missing.  Data 
+rejected after failing  post deployment QA/QC standard run as a sample.
+
+May 1-31, 1999
+a.) 27 MaY 7:30 No data, sonde not deployed
+b.) No Turbidity probe deployed for the month
+
+June 1-30, 1999
+a.) 23 June 1999 15:00 all data missing, took sample while being switched to new 
+probe
+
+July 1-31, 1999
+a.) 8 July 1999 19:00:00-21 July 1999 10:00:00 Dissolved oxygen data not 
+reported due to post deployment 
+check standard failure.  Membrane heavily fouled; data removed
+b.) 17 July 1999 15:30:00 all data missing.  Sonde out of water for cleaning.
+c.) 21 July 1999 10:30, sonde not deployed, all data missing
+d.)No Turbidity probe deployed for the month
+
+August 1-31,1999
+a.) No turbidity probe deployed until 8/30 14:00
+b) 3 August 1999 16:30 DO% and mg/L removed, reading negative
+c) 4 August 1999 3:30-6:00, 8:30 DO% and mg/L removed, reading negative
+d) 5 August 1999 6:30 DO% and mg/L removed, reading negative
+e) 14 August 1999 15:30- 16 August 1999 7:00,  DO% and mg/L removed, reading 
+negative fishh found living 
+in probe guard
+f.) 26 August 1999 0:00- 30 August 1999 13:30, no Sp cond, or salinity.  Post 
+calibration verification failed.  
+Heavy barnacle growth o probe.  Removed data where data began to drop.
+g.) 28 August 1999 23:30-30 August 1999 13:30, DO% and mg/L removed.  Fish found 
+living in probe guard.
+h.) 30 August 1999 14:00-31 August 23:30 no DO reported due to DO probe failure.
+
+September 1-30, 1999
+a.) 1 September 0:00 - 10 September 1999, 19:30, no DO reported due to DO probe 
+failure; data removed
+b.) 6 September 16:30 - 10 September 19:30, No turbidity data.  Removed after 
+anamoly
+c.) 10 September 20:00 - 30 September 23:30, no turbidity probe deployed.
+d.) 26 September 1999 12:00 - 28 September 1999 13:00 no sonde deployed, all 
+data missing.
+
+October 1-31 1999
+a.) 1 October 0:00-31 October 23:30, no turbidity probed deployed
+b.) 11 October 1999 15:00-17:00 all data missiing, no sonde in the water
+c.) 23 October 1999 11:00-27 October 16:30 all data missing, no sonde deployed
+d.) 27 October 1999 17:00- 31 October 23:30 no salinity data, due to programming 
+error
+
+November 1-30 1999
+a.) 1 November 0:00- 15 November 16:00 no salinity data due to programming error
+c.) 1 November 0:00-30 November 17:30, no turbidity probe deployed
+d.) 
+December 1-31 1999
+a.) 17 December 1999 15:30-31 December 23:30 no turbidity probe deployed
+b.) 22 December 1999 1:00-2:30, 14:00-15:00, no data reported, exposed at low 
+tide
+c.) 23 December 1999 2:00-2:30, 15:00-15:30, no data reported, exposed at low 
+tide
+d.) 24 December 1999 2:30-4:00, 15:30-16:30, no data reported, exposed at low 
+tide.
+e.) 25 December 1999 3:30-4:30, no data reported exposed at low tide
+f.) 26 December 1999 17:30-18:00, no data reported, exposed at low tide
+g.) 27 December 1999 5:30-6:00, no data reported, exposed at low tide.
+
+HUNT DOCK:
+Missing Data:
+
+July 1-31,1999
+a.) 1 July 1999 00:00:00-3 July 1999 9:30:00 no data taken, sonde not deployed 
+at this time
+b.) Following data removed due to sonde being exposed at low tide: 
+6 July 1999 8:30-9:30
+7 July 1999 9:00-10:30
+8 July 1999 9:30-12:00
+8 July 1999 23:00- 9 July 00:00
+9 July 1999 10:00-13:00
+9 July 1999 23:30- 10 July 2:30
+10 July 1999 11:00-14:00
+11 July 1999 0:00-2:30
+11 July 1999 12:00-15:00
+12 July 1999 1:30-3:30
+12 July 1999 13:30-15:30		
+13 July 1999 2:30-4:30						
+13 July 1999 14:30-16:30			
+14 July 1999 3:30-5:00			
+14 July 1999 15:30-17:00			
+15 July 1999 4:30-5:30			
+15 July 1999 17:00-17::30		
+16 July 1999 5:30-6:30		
+17 July 1999 6:30-7:00		
+18 July 1999 7:00:00 - 7:30:00
+20 July 1999 8:00:00 - 8:30:00
+27 July 1999 2:00:00 - 3:00:00
+29 July 1999 4:00:00
+30 July 1999 4:00:00 - 5:00:00
+31 July 1999 5:00:00 - 5:30:00
+31 July 1999 17:00:00 17:30:00
+c.) No turbidity probed deployed for the month.
+d.) 26 July 1999 0:30, 2:30-3:30, DO data removed, negative reading
+e.) 27 July 1999 14:00, 17:30, 23:00 DO data removed, negative reading
+f.) 28 July 1999 2:00-3:30 DO data removed, negative reading
+g.) 29 July 1999 2:30-3:30 DO data removed, negative reading, 
+h.) 30 July 1999 3:00-3:30 DO data removed, negative reading
+i.) 31 July 1999 3:30-4:30, 11;30-12:00 DO data removed, negative reading
+
+August 1-30, 1999
+a.) Following data removed due to sonde being exposed at low tide:
+8/1/99 5:30-6:30			
+8/2/99 6:30-7:30		
+8/6/99 10:00-10:30
+8/7/99 11:00-12:00
+8/8/99 00:30, 11:30-13:30
+8/9/99 0:00-2:00, 12:30-14:30
+8/10/99 1:00-3:00, 13:30-15:00
+8/11/99 2:30-4:00, 14:30-16:00
+8/12/99 3:00-4:30, 15:30-16:30
+8/13/99 4:30-5:00, 16:30-17:30
+8/14/99 5:00-6:00
+8/16/99 6:30
+8/26/99 3:00, 14:30-15:30
+8/27/99 3:00-4:00, 15:00-16:30
+8/28/99 4:00-5:00, 16:00-16:30
+b.) No turbidity probe deployed for month.
+c.) 8/1/99 0:00-8/2/99 10:00, DO data removed, negative reading
+d.) 8/10/99 3:30 DO data removed, negative reading
+e.) 8/10/99 22:00-8/14 9:00 DO spike, all data removed from time of spike to new 
+deployment.
+f.) 8/28/99 03:30 DO negative; data removed
+
+September 1999
+a.) 25 September 1999 9:00 - 26 September 1999 10:30, no sonde deployed during 
+this time.
+The following data not reported due to sonde being exposed at low tide:
+9/6/99 12:00-13:00
+9/7/99 1:00-1:30, 13:00-14:00
+9/8/99 2:00, 14:00-15:00
+9/9/99 15:00-15:30
+9/19/99 10:30 
+9/26/99 16:00 - 16:30
+9/27/99 4:00 - 5:00, 17:00 - 17:30
+9/28/99 4:30 - 5:30
+9/29/99 6:00
+9/30/99 6:30 - 7:30
+b.) 1 September 1999 0:00- 10 September 1999 15:30, no turbidity probe deployed
+c.) 10 September 1999 16:00- 11 September 1999 10:00 all missing, no sonde 
+deployed
+d.) 11 September 1999 11:00 - 17:00, 18:00- 12 September 14:00,DO removed 
+negative reading
+e.) 12 September 1999 16:30 DO negative-DO data removed.
+f.) 13 September 1999 3:00 - 13:00, DO negative data removed
+g.) 14 September 1999 5:00-8:30, DO negative data removed
+h.) 19 September 1999 8:00 - 10:00, 23:30 – 20 September 0:00 DO negative data 
+removed.
+i.) 20 September 1999 11:30, 23:30 - 9/21/99 0:30, DO negative data removed.
+j.) 21 September 1999 1:30, DO negative data removed
+k.) 22 September 1999 1:30, 16:30 - 22:00, 23:30 DO negative data removed
+l.) 23 September 1999 0:00 - 3:30 DO negative data removed
+m.) 24 September 1999 1:30 - 2:00 DO negative data removed
+n.) 25 September 1999 3:00, DO negative data removed
+o.) Special Note:  Hurricane Floyd and Harvey off shore during September.
+p.) 27 September 1999 3:00 - 3:30, 6:00 - 7:00 DO negative data removed
+q.) 28 September 1999 3:30 - 4:00, 6:30 - 8:00 DO negative data removed
+r.) 29 September 1999 4:30 - 5:30, 6:30 - 9:00, DO negative data removed
+s.) 30 September 19995:30, DO negative data removed
+
+October 1999
+a.) 10/06/99 00:00 DO removed due to negative values
+b.) 10/12/99 13:30 - 10/13/99 16:30, no sonde deployed
+c.) 10/13/99 17:00 - 10/26/99 14:30, due to broken probe only depth, pH and 
+Turbidity are reported
+d.) 10/26/99 15:00 - 10/28/99 12:30 no sonde deployed
+
+November 1999
+a.) 11/4/99 21:00-21:30, sonde for unexplained reason did not take samples 
+during these times.
+b.) 11/16/99 15:00-11/30/99 16:30  No turbidity probe deployed
+c.) Exposed at low tide during the following times, all data removed
+11/2/99 22:30 - 11/3/99 0:30 
+11/3/99 11:00-12:30
+11/3/99 23:30-11/4/99 1:00
+11/4/99 12:30-13:00
+11/5/99 0:30-1:30, 13:30-14:00
+11/6/99 1:00-2:30, 13:30 - 15:00
+11/7/99 1:30-3:30,14:30-15:30
+11/8/99 2:00-3:30,15:30 - 16:00
+11/9/99 3:00-3:30, 16:30
+11/10/99 17:00 
+11/19/99 22:30-23:30
+11/20/99 0:00, 11:00-12:00, 23:00- 11/21/99 1:00
+11/21/99 12:00-13:00
+11/22/99 0:00-2:00, 13:00-14:30
+11/23/99 1:00-2:30, 14:00-15:30
+11/24/99 1:30-3:30, 15:00-16:30
+11/25/99 2:30-4:30, 15:30-17:00
+11/26/99 3:30-5:00, 16:30-18:00
+11/27/99 4:30-6:00, 17:30-18:30
+11/28/99 19:00
+11/30/99 17:00-18:00
+d.) 11/24/99 4:30 DO data removed, reading negative
+e.) Turbidity data for the following dates and times are negative but remain in 
+the data file: 
+Date	Time	Turb
+11/01/99	00:00:00	-0001
+11/01/99	03:00:00	-0001
+11/01/99	03:30:00	-0001
+11/01/99	04:00:00	-0001
+11/01/99	04:30:00	-0002
+11/01/99	05:00:00	-0001
+11/01/99	08:00:00	-0001
+11/01/99	08:30:00	-0002
+11/01/99	09:00:00	-0002
+11/01/99	12:30:00	-0001
+11/01/99	13:00:00	-0001
+11/01/99	13:30:00	-0002
+11/01/99	15:30:00	-0001
+11/01/99	16:00:00	-0001
+11/01/99	16:30:00	-0003
+11/01/99	17:00:00	-0002
+11/01/99	23:30:00	-0001
+11/02/99	09:30:00	-0001
+11/02/99	15:30:00	-0001
+11/02/99	16:00:00	-0001
+11/02/99	16:30:00	-0001
+11/02/99	17:00:00	-0001
+11/02/99	17:30:00	-0002
+11/02/99	18:00:00	-0001
+11/03/99	06:00:00	-0001
+11/03/99	15:30:00	-0001
+11/03/99	16:00:00	-0001
+11/03/99	16:30:00	-0001
+11/03/99	17:00:00	-0002
+11/03/99	17:30:00	-0002
+11/03/99	18:00:00	-0002
+11/03/99	18:30:00	-0002
+11/03/99	19:00:00	-0002
+11/03/99	19:30:00	-0001
+11/03/99	22:30:00	-0001
+11/04/99	03:00:00	-0001
+11/04/99	03:30:00	-0001
+11/04/99	04:00:00	-0001
+11/04/99	06:00:00	-0002
+11/04/99	06:30:00	-0001
+11/04/99	07:00:00	-0001
+11/04/99	07:30:00	-0003
+11/04/99	08:00:00	-0001
+11/04/99	10:00:00	-0001
+11/04/99	10:30:00	-0001
+11/04/99	13:30:00	-0001
+11/04/99	15:00:00	-0002
+11/04/99	15:30:00	-0001
+11/04/99	16:00:00	-0001
+11/04/99	16:30:00	-0002
+11/04/99	17:00:00	-0001
+11/04/99	18:00:00	-0001
+11/04/99	18:30:00	-0002
+11/04/99	19:00:00	-0002
+11/04/99	19:30:00	-0001
+11/04/99	20:00:00	-0002
+11/05/99	02:00:00	-0001
+11/05/99	02:30:00	-0001
+11/05/99	03:00:00	-0001
+11/05/99	03:30:00	-0001
+11/05/99	04:00:00	-0002
+11/05/99	04:30:00	-0002
+11/05/99	05:00:00	-0001
+11/05/99	05:30:00	-0001
+11/05/99	06:00:00	-0001
+11/05/99	06:30:00	-0002
+11/05/99	07:00:00	-0002
+11/05/99	07:30:00	-0001
+11/05/99	08:00:00	-0002
+11/05/99	08:30:00	-0002
+11/05/99	11:30:00	-0001
+11/05/99	17:00:00	-0001
+11/05/99	17:30:00	-0001
+11/05/99	20:00:00	-0001
+11/05/99	20:30:00	-0002
+11/06/99	00:00:00	-0001
+11/06/99	03:00:00	-0001
+11/06/99	04:00:00	-0001
+11/06/99	04:30:00	-0001
+11/06/99	05:00:00	-0001
+11/06/99	05:30:00	-0002
+11/06/99	06:00:00	-0001
+11/06/99	07:00:00	-0001
+11/06/99	07:30:00	-0002
+11/06/99	08:00:00	-0002
+11/06/99	08:30:00	-0003
+11/06/99	09:00:00	-0003
+11/06/99	09:30:00	-0001
+11/06/99	11:30:00	-0001
+11/06/99	17:30:00	-0001
+11/06/99	18:00:00	-0001
+11/06/99	18:30:00	-0002
+11/06/99	19:30:00	-0001
+11/06/99	20:00:00	-0001
+11/06/99	21:00:00	-0002
+11/06/99	21:30:00	-0001
+11/07/99	05:00:00	-0001
+11/07/99	05:30:00	-0001
+11/07/99	06:30:00	-0002
+11/07/99	07:00:00	-0002
+11/07/99	07:30:00	-0001
+11/07/99	08:00:00	-0002
+11/07/99	08:30:00	-0002
+11/07/99	09:00:00	-0004
+11/07/99	09:30:00	-0001
+11/07/99	10:00:00	-0002
+11/07/99	12:00:00	-0001
+11/07/99	12:30:00	-0002
+11/07/99	17:00:00	-0001
+11/07/99	17:30:00	-0001
+11/07/99	18:30:00	-0001
+11/07/99	20:00:00	-0001
+11/07/99	20:30:00	-0001
+11/07/99	21:00:00	-0002
+11/07/99	21:30:00	-0002
+11/07/99	22:00:00	-0002
+11/08/99	05:00:00	-0001
+11/08/99	05:30:00	-0001
+11/08/99	06:30:00	-0002
+11/08/99	07:00:00	-0001
+11/08/99	07:30:00	-0001
+11/08/99	08:30:00	-0002
+11/08/99	09:00:00	-0002
+11/08/99	09:30:00	-0002
+11/08/99	10:00:00	-0003
+11/08/99	10:30:00	-0003
+11/08/99	11:00:00	-0001
+11/08/99	14:00:00	-0003
+11/08/99	15:00:00	-0001
+11/08/99	19:00:00	-0001
+11/08/99	21:00:00	-0002
+11/08/99	21:30:00	-0001
+11/08/99	22:00:00	-0003
+11/08/99	22:30:00	-0002
+11/08/99	23:00:00	-0001
+11/09/99	01:30:00	-0001
+11/09/99	04:00:00	-0001
+11/09/99	04:30:00	-0001
+11/09/99	05:30:00	-0001
+11/09/99	06:00:00	-0002
+11/09/99	06:30:00	-0001
+11/09/99	07:00:00	-0001
+11/09/99	07:30:00	-0002
+11/09/99	08:00:00	-0001
+11/09/99	08:30:00	-0001
+11/09/99	09:00:00	-0002
+11/09/99	09:30:00	-0002
+11/09/99	10:00:00	-0003
+11/09/99	10:30:00	-0004
+11/09/99	11:00:00	-0003
+11/09/99	11:30:00	-0002
+11/09/99	19:30:00	-0001
+11/09/99	20:00:00	-0001
+11/09/99	20:30:00	-0001
+11/09/99	21:30:00	-0002
+11/09/99	22:00:00	-0001
+11/09/99	22:30:00	-0002
+11/09/99	23:00:00	-0002
+11/09/99	23:30:00	-0001
+11/10/99	05:30:00	-0001
+11/10/99	06:00:00	-0001
+11/10/99	06:30:00	-0001
+11/10/99	07:00:00	-0001
+11/10/99	07:30:00	-0001
+11/10/99	08:00:00	-0001
+11/10/99	08:30:00	-0002
+11/10/99	09:00:00	-0002
+11/10/99	09:30:00	-0002
+11/10/99	10:00:00	-0002
+11/10/99	10:30:00	-0002
+11/10/99	11:00:00	-0001
+11/10/99	11:30:00	-0003
+11/10/99	12:00:00	-0002
+11/10/99	15:00:00	-0001
+11/10/99	20:00:00	-0001
+11/10/99	20:30:00	-0001
+11/10/99	21:00:00	-0002
+11/10/99	21:30:00	-0001
+11/10/99	22:00:00	-0002
+11/10/99	22:30:00	-0001
+11/10/99	23:00:00	-0002
+11/10/99	23:30:00	-0003
+11/11/99	01:30:00	-0001
+11/11/99	02:00:00	-0001
+11/11/99	02:30:00	-0001
+11/11/99	03:00:00	-0002
+11/11/99	06:00:00	-0001
+11/11/99	06:30:00	-0001
+11/11/99	07:00:00	-0001
+11/11/99	08:00:00	-0002
+11/11/99	08:30:00	-0003
+11/11/99	09:00:00	-0002
+11/11/99	09:30:00	-0002
+11/11/99	10:00:00	-0003
+11/11/99	10:30:00	-0003
+11/11/99	11:00:00	-0003
+11/11/99	12:00:00	-0003
+11/11/99	12:30:00	-0002
+11/11/99	21:30:00	-0002
+11/11/99	22:00:00	-0002
+11/11/99	22:30:00	-0002
+11/11/99	23:00:00	-0002
+11/11/99	23:30:00	-0002
+11/12/99	00:00:00	-0002
+11/12/99	00:30:00	-0002
+11/12/99	01:30:00	-0001
+11/12/99	02:00:00	-0001
+11/12/99	02:30:00	-0001
+11/12/99	04:00:00	-0001
+11/12/99	09:00:00	-0001
+11/12/99	09:30:00	-0001
+11/12/99	11:00:00	-0002
+11/12/99	11:30:00	-0003
+11/12/99	12:00:00	-0002
+11/12/99	12:30:00	-0002
+11/12/99	13:00:00	-0002
+11/12/99	13:30:00	-0001
+11/12/99	21:00:00	-0003
+11/12/99	23:30:00	-0001
+11/13/99	00:00:00	-0001
+11/13/99	01:00:00	-0002
+11/13/99	01:30:00	-0002
+11/13/99	04:30:00	-0001
+11/13/99	06:30:00	-0001
+11/13/99	08:00:00	-0001
+11/13/99	09:00:00	-0001
+11/13/99	09:30:00	-0001
+11/13/99	11:30:00	-0002
+11/13/99	12:00:00	-0002
+11/13/99	12:30:00	-0002
+11/13/99	13:00:00	-0002
+11/13/99	13:30:00	-0003
+11/13/99	14:00:00	-0002
+11/13/99	14:30:00	-0001
+11/13/99	23:30:00	-0001
+11/14/99	00:00:00	-0002
+11/14/99	00:30:00	-0002
+11/14/99	01:30:00	-0002
+11/14/99	02:00:00	-0002
+11/14/99	04:00:00	-0001
+11/14/99	05:00:00	-0001
+11/14/99	07:30:00	-0001
+11/14/99	08:30:00	-0001
+11/14/99	09:30:00	-0001
+11/14/99	10:00:00	-0001
+11/14/99	10:30:00	-0001
+11/14/99	11:00:00	-0002
+11/14/99	11:30:00	-0001
+11/14/99	12:00:00	-0002
+11/14/99	12:30:00	-0002
+11/14/99	13:00:00	-0002
+11/14/99	13:30:00	-0002
+11/14/99	14:00:00	-0001
+11/14/99	21:00:00	-0001
+11/14/99	22:00:00	-0001
+11/14/99	23:30:00	-0001
+11/15/99	00:00:00	-0001
+11/15/99	00:30:00	-0001
+11/15/99	01:00:00	-0002
+11/15/99	02:00:00	-0001
+11/15/99	02:30:00	-0002
+11/15/99	03:00:00	-0001
+11/15/99	03:30:00	-0001
+11/15/99	04:00:00	-0001
+11/15/99	04:30:00	-0001
+11/15/99	05:00:00	-0001
+11/15/99	07:30:00	-0001
+11/15/99	08:00:00	-0001
+11/15/99	08:30:00	-0001
+11/15/99	14:30:00	-0001
+11/15/99	15:00:00	-0001
+11/15/99	23:30:00	-0001
+11/16/99	01:00:00	-0001
+11/16/99	01:30:00	-0001
+11/16/99	02:00:00	-0001
+11/16/99	03:30:00	-0002
+11/16/99	04:00:00	-0001
+11/16/99	14:30:00	-0001
+
+December 1999
+a.) 12/16/99 10:00- 12/19/99 13:30, no sonde deployed
+b.) 12/19/99 14:00 - 12/31/99 23:30 no turbidity probe deployed
+c.) The following times data has been removed because the sonde was exposed at 
+low tide.
+12/4/99 0:30 - 1:00
+12/5/99 1:00-2:00
+12/6/99 1:30-2:30, 14:30-16:00
+12/7/99 1:30-3:30
+12/10/99 17:00-17:30
+12/11/99 4:00-5:30
+12/14/99 19:30-20:00
+12/19/99 23:00-12/20 0:30
+12/20/99 11:30 - 13:00
+12/20/99 23:00 - 12/21/99 1:30
+12/21/99 12:30-14:00
+12/22/99 0:00-3:00, 13:00-15:30
+12/23/99 1:00-3:30, 14:00-16:00
+12/24/99 2:00-4:30, 15:00-17:00
+12/25/99 2:30-5:00, 16:00-17:30
+12/26/99 4:00-6:00, 16:30-19:00
+12/27/99 4:30-7:00, 17:30-19:00
+12/28/99 18:30-20:00
+12/29/99 20:30
+12/30/99 20:30 21:30
+12/31/99  10:00-11:00, 21:30-22:30
+

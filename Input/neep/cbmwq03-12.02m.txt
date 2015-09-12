@@ -1,0 +1,931 @@
+Chesapeake Bay Maryland (CBM) NERR Water Quality Metadata 
+March 2002-December 2002
+Latest Update: December 12, 2003
+
+I. Data Set and Research Descriptors
+
+1.	Principal investigator(s) and contact persons
+
+Julie Bortz, Research Coordinator
+e-mail: jbortz@dnr.state.md.us 
+
+Ned Burger
+Mailing Address:
+Virginia Institute of Marine Science
+PO Box 1346
+Gloucester Pt., Virginia 23062
+burger@vims.edu
+804-684-7335 phone
+804-684-7843 fax
+
+Janet Barnes
+Estuarine Research Federation
+PO Box 510
+2018 Daffodil Rd. Gate D
+Port Republic, Maryland 20676
+410-586-8707 phone
+410-586-9226 fax
+barnes@erf.org
+
+Chesapeake Bay National Estuarine Research Reserve System in Maryland
+Tawes State Office Building, E-2
+530 Taylor Avenue
+Annapolis, Maryland 21401
+Phone: 410-260-8989
+Fax:410-260-8709
+
+2. Entry verification
+Raw data were uploaded from the YSI 6000UPG and YSI 6600 data loggers to a PC, 
+graphs were produced and data were visually examined after each deployment using 
+the EcoWatch software. Data files were then exported from the EcoWatch format 
+into Excel (for Windows 2000) files, where the headers, footers, and 
+inappropriate spaces were removed.  Raw data was archived, plotted and suspect 
+data (outliers) or trends noted initially to verify accurate instrument 
+operation for service as needed prior to redeployment.  Janet Barnes and Ned 
+Burger were responsible for these tasks.
+
+Data from each deployment was processed initially using macros in the CDMO 
+cdmomac3.xls program.  Steps in the program include procedures which allow users 
+to automatically format column widths to the correct number of decimal places 
+based on YSI sensor specifications.  It also allows users to QA/QC each data 
+logger generated file for missing data points, fill all cells that do not 
+contain data with periods, and find all data points that fall outside the range 
+of what the data logger is designed to measure (outliers). The CDMO import.xls 
+macro allows PC users with 30-minute data to automatically create a monthly 
+Excel file from a two-week deployment and insert periods for missing data. In 
+addition, in November 1999 a graphing capability was added to this macro 
+allowing users to produce single parameter and missing data point graphs on a 
+monthly basis.
+
+Raw data from successive deployments were merged using the CDMO import.xls 
+macros to produce monthly files.  Resulting monthly Excel files at each site 
+(eg. JB0302.xls) consist of continuous data for all variables measured, with a 
+period (.) to denote any missing data.  At this point, these data have not been 
+modified except for replacement of missing entries with a period. Data were then 
+processed using the CDMO cdmomac3.xls macros as an initial step in QA/QC
+procedures to identify outliers, defined simply as values outside the respective 
+sensor specifications.  Results are retained as monthly Excel files for each 
+site (eg. JB0302outliers.xls). 
+
+The final data processing involved identification and documentation of data 
+points judged to be anomalous (suspect) or erroneous due to extreme natural 
+events or equipment malfunctions using various procedures including 
+recommendations from CDMO Operations Manual Appendix B, YSI 6000 Data Review and 
+Editing Protocol.  Anomalous data were retained in cases where no definite 
+reason for deletion was found.  Periods during which data were found to result 
+from equipment malfunctions, failure, tampering or exposure to air by low tides 
+were identified, times with causes or related observations documented below and 
+respective data removed or deleted. These resulting edited data and 
+documentation (metadata) were archived, formatted in comma delimited file format 
+and submitted to the CDMO for further QA/QC.  Ned Burger was responsible for 
+these tasks.
+
+3. Research Objectives        
+The purpose of the monitoring program at CBM NERR is to conform to the NERR SWMP 
+monitoring program looking at trends in water quality over both temporal and 
+spatial scales. Observed effects of water quality, habitats and living resources 
+in the river channel site and the nearby emergent tidal fresh marshes are being 
+studied using various comparative field sampling methods with the backdrop of 
+long term high resolution data from two representative fixed monitoring sites.  
+Water quality measurements were taken every 30 minutes from 19 March through 16 
+December 2002 at both the Patuxent River Park (PR) and Jug Bay Wetlands 
+Sanctuary (JB) sites that conform to seasonal measurements collected each year 
+since 1995.
+
+4. Research methods (YSI data loggers)
+
+Data loggers and methods of deployments were replaced and upgraded during 2002 
+after tests of existing YSI 6000 data loggers and consultation with YSI 
+technicians determined new data loggers with upgraded sensor packages to be 
+more cost effective.   Existing YSI 6000 instruments, some with failing or 
+missing components, were initially deployed from March through August, when 
+replacement dataloggers were received and put into service.  Deployment methods 
+conformed with those initiated in 1995, placing each data logger inside a 4" 
+diameter PVC pipe that was cut in half to expose the sensors.  The PVC sleeve 
+was suspended inside a galvanized wire crab pot or muskrat trap using rubber 
+shock cords to position dataloggers horizontally with sensors 6 - 10 
+centimeters above the channel bottom.  At each site, the enclosure was locked 
+to a pier.  Measurements for temperature, specific conductivity, salinity, 
+percent oxygen saturation, dissolved oxygen, water level, pH and turbidity were 
+recorded every 30 minutes.  After deployments ranging from one to three weeks, 
+depending on biofouling intensity (temperature dependent), data loggers were 
+replaced with newly serviced instruments.  Post deployment data was collected, 
+data downloaded, archived, then examined visually.  Efforts were made to relate 
+sensor conditions to any apparent outliers or anomalies (eg. battery charge 
+status, or normal DO data at the beginning of a deployment may be distinguished 
+from erroneous data resulting from a known malfunction, such as a punctured DO 
+membrane due to crabs).  Data loggers and sensors were cleaned, serviced and 
+calibrated according to the methods described in the YSI Operating Manual and 
+SWMP Operating Procedures.  Laboratory calibration procedures were carried out 
+in accordance with the YSI operating manual methods.  Standards for pH, 
+conductivity and turbidity were purchased from YSI.  Data were reviewed and 
+edited according to the YSI Data Review and Editing Protocol in Appendix B of 
+the CDMO manual.  After cleaning the data loggers, the dissolved oxygen (DO) 
+membrane were replaced and allowed to stretch for 24 hours before calibration 
+begins. The pH, conductivity, depth, and turbidity sensors were calibrated, 
+using the following standards: 2-point pH 4 and 7, conductivity standard of 
+1.000 mS/cm, depth in the air, and 2-point turbidity standards of 0 (distilled 
+water) and 100 NTU for the 6026 turbidity sensor on the old YSI 6000 sondes; 
+123 NTU for the 6136 turbidity probe on the new 6600 EDS sondes first deployed 
+23 August 2003.  The DO sensor was calibrated in air following YSI procedures.  
+Several quality assurance checks were used to determine if the sensor readings 
+drifted significantly during deployment.  Post-deployment measurements of all 
+the parameters except turbidity were recorded before cleaning the data loggers. 
+Sensors were immersed in the appropriate standard solutions (i.e., pH) and 
+readings recorded.  Turbidity was post calibrated after the sonde was cleaned 
+to insure the accuracy of the standard.
+
+5. Site location and character
+The Chesapeake Bay Maryland NERR has three components in Maryland's portion of 
+Chesapeake Bay.  Monie Bay is a mesohaline region on the lower Eastern Shore; 
+Otter Point Creek is a tidal freshwater river and marsh system; and Jug Bay is 
+part of the freshwater portion of the Patuxent River.  Both data loggers during 
+2002 were  within the Jug Bay component.
+
+     Patuxent River Park (PR) 38 deg 46' 23.5" N, 76 deg 42' 32.5" W 
+Site PR is located in the upper tidal headwaters of the Patuxent River, 
+Maryland. PR is along the mainstem of the Patuxent River, which is approximately 
+50m wide at this point along the river.  The PR site sits adjacent to a boat 
+launch at Jackson Landing, located on the Prince Georges County side of the 
+river at Patuxent River Park.  The actual sonde was deployed horizontally in a 
+retro-fitted crab pot and sits roughly .25m off the bottom sediments.  In 
+October 2002, the sonde was placed vertically in a perforated PVC pipe for 
+easier access and protection. Sediments at the site are extremely fine and 
+easily resuspended.  Average depth at this site is roughly 2 meters.  Salinities 
+at this site rarely exceed 1ppt.  Because this site is located along the main 
+channel of the Patuxent River, water quality at this site represents the general 
+quality of water flowing along the main portion of the river.  The Patuxent 
+River watershed is an increasingly urbanized watershed, however there are 
+extensive riparian buffers along the portion of the river that flows through the 
+site.  However, the PR site is approximately 3km downstream of a large 
+wastewater treatment plant that discharges directly into the Western Branch 
+tributary of the Patuxent River.   The PR site is roughly 1.5km downstream of 
+the confluence of the Western Branch tributary and the Patuxent River mainstem.  
+The tidal range at this site is roughly 0.5m.
+
+     Jug Bay (JB) 38 deg 46' 50.6" N, 76 deg 42' 29.1" W 
+Site JB is located in a shallow tidal creek adjacent to the Patuxent River.  The 
+site is slightly upstream (roughly 0.3km) from the PR site but sits in a shallow 
+creek that is tidally infiltrated by a backwater marsh  adjacent to the Patuxent 
+River mainstem.  At low tide, this backwater marsh becomes a large mud flat with 
+very little standing water.  The creek ranges in width between 2m to 5m at the 
+site and average depth at the site is 0.75m.  Because of the shallow nature of 
+this site, the sonde is periodically exposed at very low tides.  Sediments at 
+this site are extremely fine and flocculant.  The sonde is deployed horizontally 
+in a retro-fitted cage, similar to site PR.  Because of the shallowness of the 
+tidal creek, coupled with the dramatic daily changes in the depth and width of 
+the stream, deployments at this site have presented some problems.  These 
+problems include periodic exposure of the sonde, very high turbidity and 
+sedimentation rates associated with tidal infiltration and resuspension, which 
+have caused severe fouling of the probes at this site. Water quality at the site 
+represents extreme shallow water habitats.  Thus it is not uncommon to see very     
+large fluctuations in temperature and dissolved oxygen at this site ranging from 
+complete anoxia to full saturation, due in part to the shallow nature of the 
+site and the effects of marsh processes on water quality.  Salinities at this 
+site rarely exceed 1 ppt.  Tidal range at this site is roughly 0.5m.
+
+6. Data collection period
+Data collection using sondes at Jug Bay Wetlands Sanctuary (JB) and Patuxent 
+River Park (PR) did not begin until March 19, 2002 and continued through December 16, 2002.  
+Because instruments can be trapped and damaged by ice formation in the lower salinity and upper 
+Chesapeake Bay tributaries, which occurs periodically from November through March, 
+deployments have been limited to ice-free months, therefore data is not available for 
+January and February 2002 due to ice cover.
+
+Datalogger deployments:
+
+BEGAN                    ENDED
+JB Jug Bay Site
+03/19/02  15:30:00       04/03/02  17:00:00
+04/03/02  17:30:00       04/19/02  17:00:00
+04/19/02  17:30:00       05/03/02  17:30:00
+05/03/02  18:00:00       05/15/02  11:30:00
+05/15/02  12:00:00       05/29/02  10:30:00
+05/29/02  11:00:00       06/12/02  12:30:00
+06/12/02  13:00:00       06/28/02  10:00:00
+06/28/02  10:30:00       07/09/02  10:30:00
+07/09/02  11:00:00       07/18/02  19:30:00
+07/18/02  20:00:00       08/01/02  13:00:00
+08/01/02  13:30:00       08/07/02  10:00:00
+08/07/02  10:30:00       08/13/02  10:00:00
+08/13/02  10:30:00       08/23/02  10:30:00
+08/23/02  11:00:00       08/30/02  10:30:00
+08/30/02  11:00:00       09/05/02  11:30:00
+09/05/02  12:30:00       09/12/02  12:30:00
+09/12/02  13:00:00       10/01/02  13:30:00
+10/01/02  14:00:00       10/25/02  18:00:00
+10/25/02  18:30:00       11/14/02  13:00:00
+11/14/02  13:30:00       12/16/02  17:30:00
+
+     
+PR Patuxent River Park (Jackson Landing)
+03/19/02  17:00:00       04/03/02  18:00:00
+04/03/02  18:30:00       04/19/02  18:00:00
+04/19/02  18:30:00       05/03/02  16:30:00
+05/03/02  17:00:00       05/15/02  09:00:00
+05/15/02  09:30:00       05/29/02  09:00:00
+05/29/02  09:30:00       06/12/02  11:30:00
+06/12/02  12:00:00       06/28/02  09:00:00
+06/28/02  09:30:00       07/09/02  09:30:00
+07/09/02  10:00:00       07/18/02  18:00:00
+07/18/02  19:00:00       08/01/02  12:00:00
+08/01/02  12:30:00       08/07/02  09:00:00
+08/07/02  09:30:00       08/13/02  09:00:00
+08/13/02  09:30:00       08/23/02  09:30:00
+08/23/02  10:00:00       08/30/02  09:30:00
+08/30/02  10:00:00       09/05/02  11:00:00
+09/05/02  11:30:00       09/12/02  11:30:00
+09/12/02  12:00:00       10/01/02  10:30:00
+10/01/02  11:00:00       10/25/02  17:00:00
+10/25/02  17:30:00       11/14/02  15:00:00
+11/14/02  15:30:00       12/16/02  17:00:00
+
+7. Distribution
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be 
+fully credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from this NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and 
+Coastal Resource Management, National Ocean Service, National Oceanic and 
+Atmospheric Administration.  The data set enclosed within this 
+package/transmission is only as good as the quality assurance and quality 
+control procedures outlined by the enclosed metadata reporting statement.  The 
+user bears all responsibility for its subsequent use/misuse in any further 
+analyses or comparisons.  The Federal government does not assume liability to 
+the Recipient or third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any 
+way from the use of this data. 
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 2.2-1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home 
+pagehttp://cdmo.baruch.sc.edu/. Data are available in text tab-delimited 
+format, Microsoft Excel spreadsheet format and comma-delimited format.   
+
+8. Associated researchers and projects
+The Jug Bay Wetlands Sanctuary staff has been collecting weekly to monthly 
+temperature, salinity, dissolved oxygen, and nutrient samples at the same 
+location as the data logger at JB. 
+
+II.  Physical Structure Descriptors
+
+9.  Variable name, range of measurements, 
+
+YSI 6000 datalogger/ YSI 6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column.
+
+10.  Coded variable indicator and variable code definitions
+Site definitions: PR = Patuxent River Park; JB = Jug Bay Wetlands Sanctuary
+
+
+11. Data anomalies (suspect data)
+Any data outliers detected using CDMO macros and any data deletions are detailed 
+below. Suspect and outlier data were detected and considered for deletion from 
+the edited data using combination of methods, including graphics and CDMO 
+macros.  All outliers are detailed below. Any data determined to be due to 
+instrument errors or malfunctions were retained in raw data. Missing data and 
+any intended deletions from edited data were replaced with a period (.) in
+accordance with CDMO QA/QC guidelines and detailed below. According to the CDMO
+Operations Manual Version 3.0, depth measurements taken with the non-vented 
+level probe can be influenced by up to 0.39 m (1.3 ft) during some low-pressure 
+hurricane events.  Specific dates and time ranges of potentially influenced data 
+are listed with each respective month.
+
+
+Jug Bay
+Sonde deployment at the Jug Bay site began 3/19/02 at 15:30:00.  Positioning the 
+muskrat trap that housed the sonde deployed adjacent to the weather station dock 
+was problematic due to limited total water depth in the marsh inlet.  After the 
+first week of deployment, the sonde was observed out of the water on retrieval 
+25 March at low tide (mean tide range 1.9 meter). 
+
+Consequently, a pole was used in all subsequent deployments to reposition the 
+trap in the deepest point of the channel.  Although the fresh tidal 
+characteristics of this site made detection of sonde exposure difficult, unusual 
+coinciding patterns in specific conductivity (*observations < 0.01 detailed 
+below), dissolved oxygen and low depth measurements indicate that there were 
+periodic observations throughout the year during extremely low tides that the 
+sonde was out of the water which affected all variables measured, noted below.  
+Typical patterns were resumed as tidal heights increased.  Due to lack of 
+turbidity sensors on the YSI 6000 instruments, there were no turbidity 
+observations at Jug Bay from 3/19/2002 through 8/23/2002 10:30.  The new YSI 
+6600 put into service at 11:00 on 8/23/2002 included a full suite of sensors 
+which included turbidity.
+
+
+March 2002
+Depth Outliers 
+03/23/2002     19:00:00  -0.01
+03/24/2002     18:00:00   0.00
+03/24/2002     18:30:00  -0.01
+03/24/2002     19:00:00  -0.01
+03/24/2002     19:30:00  -0.02
+03/24/2002     20:00:00  -0.02
+03/24/2002     20:30:00  -0.02
+03/24/2002     21:00:00  -0.02
+03/24/2002     21:30:00  -0.02
+03/24/2002     22:00:00  -0.02
+
+Sonde out of water for modification of trap - All parameters are suspect and 
+deleted 03/25/2002  15:30:00. 
+
+
+April 2002
+PH missing from 04/03 17:30.00 through 04/19/02 17:00.00
+
+Depth Outliers                
+04/01/2002     01:00:00  -0.02
+04/01/2002     01:30:00  -0.04
+04/01/2002     02:00:00  -0.05
+04/01/2002     02:30:00  -0.05
+04/01/2002     03:00:00  -0.05
+04/01/2002     13:30:00  -0.01
+04/01/2002     14:00:00  -0.01
+04/01/2002     14:30:00  -0.02
+04/01/2002     15:00:00  -0.02
+04/01/2002     15:30:00  -0.03
+04/01/2002     16:00:00  -0.03
+04/01/2002     16:30:00  -0.01
+04/29/2002     00:30:00   0.00
+04/29/2002     01:00:00  -0.02
+04/29/2002     01:30:00  -0.03
+04/29/2002     02:00:00  -0.04
+
+Specific Conductivity Anomalies*
+04/03/2002     18:00:00 through 22:30:00  (000.01)
+
+
+May 2002
+pH for the following dates and times were deleted due to probes possibly out of 
+water. 
+05/11/2002	13:00:00
+05/14/2002	15:00:00
+05/22/2002	07:30:00 through 09:00:00
+05/25/2002	11:30:00
+		
+The lowest water levels of the 2002 field season were observed at low tides from 
+May 11 through May 15, which may have temporarily exposed sensors to air in at 
+the shallow Jug Bay site.  
+
+Depth Outliers                     Specific Conductivity Anomalies*
+
+05/13/2002     00:30:00  -0.01
+05/13/2002     01:00:00  -0.01
+05/13/2002     12:00:00  -0.02
+05/13/2002     12:30:00  -0.02
+05/13/2002     23:00:00  -0.02
+05/13/2002     23:30:00  -0.04
+05/14/2002     00:00:00  -0.05
+05/14/2002     00:30:00  -0.06
+05/14/2002     01:00:00  -0.07
+05/14/2002     01:30:00  -0.07
+05/14/2002     02:00:00  -0.07
+05/14/2002     11:00:00  -0.03
+05/14/2002     11:30:00  -0.05
+05/14/2002     12:00:00  -0.06         	05/14/2002     12:00:00  000.01    
+05/14/2002     12:30:00  -0.06         	05/14/2002     12:30:00  000.01
+05/14/2002     13:00:00  -0.07         	05/14/2002     13:00:00  000.01
+05/14/2002     13:30:00  -0.07         	05/14/2002     13:30:00  000.00
+05/14/2002     14:00:00  -0.07          05/14/2002     14:00:00  000.00
+05/14/2002     14:30:00  -0.09          05/14/2002     14:30:00  000.00
+05/14/2002     15:00:00  -0.09         	05/14/2002     15:00:00  000.00
+05/14/2002     15:30:00  -0.09         	05/14/2002     15:30:00  000.00
+05/14/2002     16:00:00  -0.11          05/14/2002     16:00:00  000.00
+
+                              	   	05/14/2002     23:00:00  000.01    
+05/14/2002     23:30:00  -0.02         	05/14/2002     23:30:00  000.01
+05/15/2002     00:00:00  -0.04          05/15/2002     00:00:00  000.01
+05/15/2002     00:30:00  -0.05          05/15/2002     00:30:00  000.01
+05/15/2002     01:00:00  -0.02          05/15/2002     01:00:00  000.01
+05/15/2002     01:30:00  -0.03          05/15/2002     01:30:00  000.01
+05/15/2002     02:00:00   0.00         	05/15/2002     02:00:00  000.01
+05/15/2002     02:30:00  -0.02         	5/15/2002      02:30:00  000.01
+05/15/2002     03:00:00  -0.01          05/15/2002     03:00:00  000.01
+
+                             		05/15/2002     11:30:00  000.01
+
+                                      	05/19/2002     15:00:00  000.01
+                              		05/19/2002     15:30:00  000.00
+                             		05/19/2002     16:00:00  000.00
+                             		05/19/2002     16:30:00  000.00
+                              		05/19/2002     17:00:00  000.00
+
+					05/20/2002	16:30:00  000.01
+					05/20/2002 	17:00:00  000.01
+					05/20/2002     17:30:00  000.01
+                             		05/20/2002     18:00:00  000.01
+                             		05/20/2002     18:30:00  000.01
+                             		05/20/2002     19:00:00  000.01
+                             		05/20/2002     19:30:00  000.01
+
+					05/21/2002     05:30:00  000.01
+					05/21/2002     06:00:00  000.01
+					05/21/2002     06:30:00  000.01
+                             		05/21/2002     07:00:00  000.01
+                            		05/21/2002     07:30:00  000.01
+					05/21/2002     18:00:00  000.01
+					05/21/2002     18:30:00  000.01
+					05/21/2002     19:00:00  000.01
+					05/21/2002     19:30:00  000.01
+					05/21/2002     20:00:00  000.01
+					05/21/2002     20:30:00  000.01
+
+					05/22/2002     06:30:00  000.01
+					05/22/2002     07:00:00  000.01
+                             		05/22/2002     07:30:00  000.01
+                             		05/22/2002     08:00:00  000.01
+                             		05/22/2002     08:30:00  000.01
+                             		05/22/2002     09:00:00  000.00
+                             		05/22/2002     09:30:00  000.00
+
+
+					05/22/2002     19:00:00  000.01
+					05/22/2002     19:30:00  000.01
+					05/22/2002     20:00:00  000.01
+					05/22/2002     20:30:00  000.01
+					05/22/2002     21:00:00  000.01
+					05/22/2002     21:30:00  000.01
+
+					05/23/2002     08:30:00  000.01
+                             		05/23/2002     09:00:00  000.01
+                             		05/23/2002     09:30:00  000.01
+                             		05/23/2002     10:00:00  000.01
+
+
+June 2002
+Depth Outliers
+06/01/2002     16:00:00  -0.03
+06/01/2002     16:30:00  -0.04
+06/01/2002     17:00:00  -0.05
+06/01/2002     17:30:00  -0.06
+06/01/2002     18:00:00  -0.04
+06/02/2002     04:30:00  -0.02
+06/02/2002     17:00:00   0.00
+06/02/2002     17:30:00  -0.01
+06/02/2002     18:00:00  -0.01
+06/02/2002     18:30:00   0.00
+
+Negative DO suspect for the following dates and times dues to probe likely being 
+exposed to anoxic conditions and may have been poisoned resulting in negative DO 
+values. However, following the anoxic event, DO responds properly and values 
+appear to be accurate. Data retained. 
+06/03/2002	05:00:00	-000.5
+06/03/2002	05:30:00	-000.4
+06/03/2002	06:00:00	-000.7
+06/03/2002	07:00:00	-000.2
+06/03/2002	07:30:00	-000.4
+06/06/2002	19:00:00	-001.5
+06/06/2002	19:30:00	-001.2
+06/06/2002	20:00:00	-001.1
+06/06/2002	20:30:00	-001.0
+06/06/2002	21:00:00	-001.0
+06/06/2002	21:30:00	-001.3
+06/06/2002	22:00:00	-001.1
+06/06/2002	22:30:00	-001.0
+06/06/2002	23:00:00	-000.9
+06/07/2002	07:30:00	-001.1
+06/07/2002	08:00:00	-000.9
+06/07/2002	08:30:00	-001.1
+06/07/2002	09:00:00	-001.0
+06/07/2002	09:30:00	-000.8
+06/07/2002	10:00:00	-000.8
+06/07/2002	10:30:00	-000.8
+06/07/2002	11:00:00	-000.7
+06/07/2002	11:30:00	-000.7
+06/07/2002	19:30:00	-000.1
+06/07/2002	20:00:00	-000.1
+06/07/2002	20:30:00	-000.1
+06/07/2002	21:00:00	-000.7
+06/07/2002	21:30:00	-000.8
+06/07/2002	22:00:00	-001.1
+06/09/2002	23:00:00	-000.4
+06/09/2002	23:30:00	-000.6
+06/10/2002	00:00:00	-000.5
+06/10/2002	22:00:00	-001.0
+06/10/2002	22:30:00	-001.1
+06/10/2002	23:00:00	-001.1
+06/10/2002	23:30:00	-001.1
+06/11/2002	00:00:00	-001.1
+06/11/2002	00:30:00	-001.0
+06/11/2002	01:00:00	-000.3
+06/12/2002	00:00:00	-001.2
+06/12/2002	00:30:00	-001.1
+06/12/2002	01:00:00	-000.7
+
+July 2002
+No anomalies to report. 
+
+August 2002 
+No Turbidity recorded until 08/23/02 11:00.00 when new instruments were 
+deployed. 
+
+Turbidity Outliers
+08/28/2002     20:00:00  1296
+08/28/2002     21:00:00  1289
+08/29/2002     03:30:00  1276
+08/29/2002     05:30:00  1276
+08/29/2002     11:30:00  1287
+08/29/2002     22:00:00  1298
+08/30/2002     05:30:00  1280
+
+
+September 2002
+All data deleted 09/05/2002 12:00:00 due to datalogger being out of water. 
+Turbidity Outliers
+09/23/2002     18:00:00  1159
+09/25/2002     02:00:00  1404
+09/26/2002     00:30:00  1192
+09/26/2002     12:00:00  1048
+09/26/2002     14:30:00  1122
+09/26/2002     16:30:00  1067
+09/27/2002     02:00:00  1414
+09/29/2002     09:30:00  1495
+09/29/2002     11:00:00  1557
+09/29/2002     17:30:00  1575
+09/30/2002     02:30:00  1545
+09/30/2002     05:30:00  1521
+
+                                        
+October 2002
+Turbidity Outliers
+10/13/2002	14:30:00	1318
+10/13/2002	22:00:00	1059
+10/14/2002	17:00:00	1758
+10/14/2002	18:30:00	1679
+10/14/2002	19:00:00	1456
+10/14/2002	23:30:00	1230
+10/17/2002	06:00:00	1689
+10/17/2002	15:00:00	1727
+10/17/2002	16:30:00	1719
+10/19/2002	01:00:00	1145
+10/21/2002	04:00:00	1692
+10/21/2002	05:30:00	1691
+10/21/2002	08:00:00	1676
+10/21/2002	11:00:00	1686
+10/21/2002	12:30:00	1660
+10/21/2002	13:30:00	1725
+10/21/2002	14:00:00	1432
+10/21/2002	16:00:00	1280
+10/21/2002	17:30:00	1731
+10/21/2002	23:30:00	1521
+10/22/2002	10:30:00	1626
+10/22/2002	13:00:00	1684
+10/22/2002	14:30:00	1748
+10/22/2002	20:00:00	1718
+10/22/2002	23:30:00	1368
+10/23/2002	05:00:00	1330
+10/23/2002	13:00:00	1408
+10/23/2002	14:30:00	1062
+10/23/2002	20:00:00	1242
+10/23/2002	22:30:00	1244
+10/24/2002	05:30:00	1266
+10/24/2002	06:30:00	1050
+10/24/2002	07:30:00	1681
+10/24/2002	11:00:00	1361
+10/24/2002	12:00:00	1061
+10/24/2002	13:00:00	1679
+10/24/2002	14:30:00	1167
+10/24/2002	15:30:00	1544
+10/24/2002	16:30:00	1080
+10/24/2002	18:00:00	1021
+10/24/2002	20:00:00	1105
+10/24/2002	21:00:00	1054
+10/24/2002	22:00:00	1323
+10/24/2002	23:30:00	1296
+10/25/2002	00:00:00	1104
+10/25/2002	01:30:00	1583
+10/25/2002	03:30:00	1635
+10/25/2002	05:00:00	1645
+10/25/2002	05:30:00	1620
+10/25/2002	07:00:00	1658
+10/25/2002	08:30:00	1655
+10/25/2002	09:00:00	1649
+10/25/2002	09:30:00	1652
+10/25/2002	10:30:00	1184
+10/25/2002	11:30:00	1282
+10/25/2002	13:00:00	1610
+10/25/2002	15:00:00	1616
+10/25/2002	16:30:00	1320
+10/25/2002	17:00:00	1681
+
+
+November 2002
+Turbidity Outliers
+11/27/2002     18:30:00  2022
+11/30/2002     02:00:00  1007
+
+
+December 2002
+No problems noted in December.
+Deployment for this site for 2002 ended December 16 @ 17:30:00. 
+
+
+Patuxent River Park
+The sonde was deployed at the Patuxent River Park site beginning 3/19/02 at 
+17:00:00 adjacent to the floating dock used by Park staff.  The YSI 6000 
+instrument was fastened horizontally inside a weighted crab pot with sensors 
+positioned 6 inches above the bottom sediments in 5 feet of water (MLW).  This 
+deployment method was replaced on 27 October 2002 with a protective PVC pipe
+enclosure affixed vertically to the dock piling for protection and security.  
+The 4-inch diameter stand-pipe enclosure was abundantly perforated with 5.1 cm 
+diameter holes to allow water to circulate freely, followed by dewaxing and 
+applications of underwater bonding and ablative anti- fouling paint to resist 
+marine biofouling.  Only one of the two YSI 6000 instruments deployed at
+the Patuxent River Park site was equipped with a turbidity sensor, therefore 
+turbidity measurements were present on alternating deployments from 3/19/2002 
+through 8/23/2002 at 09:30.  The new YSI 6600's put into service at 10:00 on 
+8/23/2002 included a full suite of sensors which included turbidity.
+
+March          
+Turbidity Outliers 
+03/23/2002     08:00:00	1342
+03/30/2002     18:00:00	1371
+ 
+
+April 2002
+Turbidity Missing   04/03/02  18:30:00  to   04/19/02  18:00:00
+
+
+May 2002
+Turbidity Outlier
+05/17/2002     15:30:00  1160
+
+Turbidity Missing   05/03/02  17:00:00  to   05/15/02  09:00:00
+                    05/29/02  09:30:00  to   05/31/02  23:30:00
+pH was deleted 05/03 17:00:00 to 05/15 09:00:00 due to probe failure. 
+
+June 2002
+Turbidity Outliers
+06/23/2002     03:00:00  1439
+06/23/2002     14:00:00  1073
+06/23/2002     14:30:00  1400
+06/23/2002     15:00:00  1122
+06/23/2002     15:30:00  1446
+06/23/2002     21:00:00  1421
+06/23/2002     21:30:00  1033
+06/23/2002     22:00:00  1393
+06/23/2002     23:00:00  1441
+06/24/2002     00:00:00  1443
+06/24/2002     07:30:00  1447
+06/24/2002     16:00:00  1430
+06/25/2002     15:00:00  1456
+06/26/2002     01:00:00  1032
+06/26/2002     18:30:00  1459
+06/27/2002     09:30:00  1456
+06/27/2002     10:00:00  1449
+06/27/2002     23:30:00  1041
+06/28/2002     02:00:00  1082
+
+Turbidity Missing   06/01/02  00:00:00  to   06/12/02  11:30:00
+Turbidity Missing   06/28/02  09:30:00  to   06/30/02  23:30:00
+
+Internal Error:  missing data, possible intermittent power failure, sonde 
+returned to YSI for repair
+06/02/02  02:30
+06/02/02  14:30
+06/02/02  15:00
+06/04/02  02:00
+06/05/02  19:00
+06/28/02  12:30 
+06/28/02  15:00 
+06/28/02  16:30 to 06/28/02  20:30 
+06/29/02  02:30 
+06/29/02  06:30
+06/29/02  12:30
+06/29/02  13:00 
+06/29/02  14:30
+06/29/02  17:30 to 06/29/02  19:30
+06/29/02  21:30 to 06/29/02  22:30
+06/30/02  00:30
+06/30/02  09:30
+06/30/02  14:30
+06/30/02  16:00
+06/30/02  17:30
+06/30/02  18:30
+06/30/02  21:30
+06/30/02  23:00
+06/30/02  23:30
+
+
+July 2002
+Depth Outliers - depth only removed
+07/02/2002     16:30:00  3.97
+07/02/2002     17:00:00  3.92
+07/02/2002     17:30:00  4.09
+07/02/2002     18:00:00  4.04
+07/02/2002     18:30:00  3.91
+07/02/2002     19:00:00  4.06
+07/02/2002     19:30:00  3.91
+07/02/2002     20:00:00  3.61
+
+Turbidity Outliers
+07/09/2002     12:00:00  1107
+07/12/2002     11:00:00  1459
+
+Internal Error:  missing data, possible intermittent power failure, sonde 
+returned to YSI for repair
+07/01/02  00:00 to 07/01/02  02:00
+07/01/02  05:00     
+07/01/02  12:00 to 07/01/02  13:00
+07/01/02  14:00
+07/01/02  17:30 
+07/01/02  04:30
+07/01/02  21:30 to 07/01/02  22:30
+07/02/02  00:00
+07/02/02  10:30     
+07/02/02  12:00
+07/02/02  13:30
+07/02/02  15:00 to 07/02/02  16:00
+07/02/02  20:30 to 07/02/02  21:30
+07/02/02  22:30 to 07/03/02  03:00
+07/03/02  07:00
+07/03/02  07:30
+07/03/02  09:00 to 07/09/02  09:30
+07/18/02  18:30  
+             
+Turbidity Missing   07/01/02  00:00:00   to  07/09/02  09:30:00
+Turbidity Missing   07/18/02  19:00:00  to   07/31/02  23:30:00
+
+August 2002
+Turbidity Outliers
+08/03/2002     10:00:00  2431
+08/05/2002     05:00:00  2431
+08/05/2002     10:30:00  2417
+08/14/2002     11:30:00  1201
+08/16/2002     08:30:00  1196
+08/25/2002     19:30:00  1159
+08/28/2002     17:00:00  1124
+
+Factory upgraded YSI 6000 without depth sensor used on alternating deployments
+Depth Missing  08/01/02  12:30:00  to   08/07/02  09:00:00
+Depth Missing  08/13/02  09:30:00  to   08/23/02  09:30:00
+
+Turbidity Missing   08/01/02  00:00:00  to   08/01/02  12:00:00
+Turbidity Missing   08/07/02  09:30:00  to   08/13/02  09:00:00
+
+DO data deleted for the following dates and times due to punctured membrane. 
+08/11/2002 07:00:00 to 08/13/2002 09:00:00
+
+All DO data suspect for deployment 08/13/02 through 08/23/02 due to small hole 
+found in membrane during maintenance of sonde. 
+
+September 2002
+DO concentration and DO charge appeared abnormal, tear observed in membrane 
+DO deleted          09/11/02  11:30:00  to   09/12/02  11:30:00
+DO deleted          09/24/02  18:30:00  to   10/01/02  10:30:00
+
+Turbidity Outliers
+09/03/2002     22:30:00  1215
+09/19/2002     10:30:00  1025
+09/19/2002     14:00:00  1308
+09/20/2002     08:30:00  1301
+09/25/2002     17:30:00  1083
+09/26/2002     07:00:00  1244
+09/28/2002     19:00:00  1253
+09/28/2002     20:30:00  1058
+09/28/2002     22:30:00  1178
+09/29/2002     01:30:00  1273
+09/29/2002     19:00:00  1282
+09/30/2002     05:00:00  1251
+09/30/2002     06:30:00  1266
+09/30/2002     09:30:00  1260
+09/30/2002     15:30:00  1282
+
+
+October 2002
+DO concentration and DO charge appeared abnormal, tear observed in membrane 
+DO deleted          09/24/02  18:30:00  to   10/01/02  10:30:00
+
+
+November 2002
+No problems noted
+
+
+December 2002
+Depth Outliers                                 
+12/01/2002     08:00:00  -0.05
+12/01/2002     08:30:00  -0.04
+12/01/2002     09:00:00  -0.04
+12/01/2002     09:30:00  -0.03
+
+Depth appeared abnormal, all other parameters appear normal 
+Depth deleted       12/03/02  11:00:00  to   12/03/02  13:30:00
+Depth deleted       12/03/02  21:00:00  to   12/04/02  00:00:00
+
+Deployment Ended for season - no data after 12/16/02   17:00:00
+
+All Data missing    12/16/02  17:30:00  to   12/31/02  23:30:00
+
+
+12) Missing data
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+Jug Bay
+Due to lack of turbidity sensors on the YSI 6000 instruments, there were no turbidity 
+observations at Jug Bay from 3/19/2002 through 8/23/2002 10:30.  The new YSI 
+6600 put into service at 11:00 on 8/23/2002 included a full suite of sensors 
+which included turbidity.
+
+Patuxent River Park
+Only one of the two YSI 6000 instruments deployed at the Patuxent River Park site 
+was equipped with a turbidity sensor, therefore turbidity measurements were present 
+on alternating deployments from 3/19/2002 through 8/23/2002 at 09:30.  The new YSI 
+6600's put into service at 10:00 on 8/23/2002 included a full suite of sensors which
+included turbidity.
+
+
+13) Post Deployment Information
+End of deployment Post-calibration Readings in Standard Solutions:
+na = no data available for that particular standard 
+
+JB:
+Date		SpCond		DO		pH		Turb		Depth
+		 ms/cm		Air Sat			NTU		m
+	`	 Std:1		Std: 100%	Std:7.0	Std: 0.0	Std:0.000
+
+04/04/02	0.014		 97		7.03		 na		-0.045
+04/20/02	0.000		 80		na		 na		-0.400	
+05/04/02	0.973		 99		7.20		 na		 0.124
+05/15/02	0.960		 89		7.07		 na		 0.089
+05/29/02	0.976		100		7.20		 na		 0.050
+06/12/02	0.980		100		7.03		 na		-0.125
+06/28/02	0.976		 96		7.16		 na		 0.010
+06/28/02	0.963		100		7.23		-1.0		 0.014
+07/09/02	0.970		 78		5.37		 na		 0.020
+07/19/02	1.005		100		7.15		 3.1		-0.071
+08/01/02	1.010		 95		7.21		 na		 0.122
+08/07/02	0.997		 99		7.06		 3.3		 na
+08/13/02	0.990		 78		7.03		 na		 0.000
+08/23/02	1.041		121		7.10		 na		 na
+08/30/02	1.005		100		7.07		 2.3		 0.051
+09/05/02	0.994		102		7.14		 2.0		-0.070
+09/12/02	na		  5*		7.10		-0.4		-0.008
+10/01/02	na		 29*		na		 na		 na
+10/25/02	na		114		na		 na		 na
+11/14/02	na		114		na		 na		 na
+12/16/02	na		117		na		 na		 na
+
+* = DO membrane torn
+
+
+PRP:
+Date		SpCond		DO		pH		Turb		Depth
+		 ms/cm		Air Sat			NTU		m
+	`	 Std:1		Std: 100%	Std:7.0	Std: 0.0	Std:0.000
+
+04/04/02	0.955		101		7.10		 0.4		-0.045		
+04/20/02	na		na		na		 na		 na
+05/04/02	0.951		101		7.10		 0.4		 0.112
+05/15/02	0.970		101		na		 na		 0.061
+05/29/02	0.980		 99		7.20		 6.0		 0.061
+06/12/02	0.990		 95		6.98		 na		-0.154
+06/28/02	0.980		 99		7.05		 na		 0.023
+07/08/02	0.974		 98		7.04		 na		-0.074
+07/19/02	0.974		 98		7.04		 na		-0.074
+08/01/02	1.020		104		6.98		 na		-0.091
+08/07/02	0.986		 98		7.05		 na		 0.042
+08/13/02	0.990		 99		7.00		 na		-0.015
+08/23/02	0.997		 98		7.10		 na		-0.042
+08/30/02	1.011		100		7.03		 2.3		 0.101
+09/05/02	1.007		102		7.01		 6.0		-0.068
+09/12/02	na		101		7.14		-0.8		-0.006
+10/01/02	na		112		na		 na		 na
+10/25/02	na		110		na		 na		 na
+11/14/02	na		128		na		 na		 na
+12/16/02	na		115		na		 na		 na
+
+
+
+14) Other Remarks/Notes

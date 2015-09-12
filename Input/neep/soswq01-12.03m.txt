@@ -1,0 +1,1843 @@
+South Slough (SOS) National Estuarine Research Reserve Water Quality Metadata
+January - December 2003
+Latest Update:  May 31, 2004
+
+I. Data Set & Research Descriptors
+
+1)	Principal investigators and contact persons:
+
+Address: 	South Slough National Estuarine Research Reserve
+	PO Box 5417
+	Charleston, OR 97420
+	Phone:  (541) 888-5558
+	Fax: 	   (541) 888-5559
+
+Contact Persons:
+      Dr. Steven Rumrill, Research Program Coordinator
+	E-mail:  steve.rumrill@state.or.us; (541) 888-2581 ext. 302
+      Sue Powell, Estuarine and Coastal Monitoring Coordinator
+	E-mail:  sue.powell@state.or.us; (541) 888-2581 ext. 304	
+
+2)	Entry verification
+
+The .dat data files are uploaded to a PC from YSI-6600 datasondes using the 
+EcoWatch software.  Graphs are produced and printed for an initial visual QA/QC 
+check of the data.  Notes are made of any suspect data that may result from 
+probe failures and sensors are reconditioned as necessary.  Files are exported 
+as .csv files using EcoWatch software.  The comma-delimited files are then 
+imported into an Excel spreadsheet using the Import macro designed by CDMO.  
+Data files are revised using cdmomac3.xls macros that: 1) check data files for 
+missing data points; 2) add periods to cells with no data points, which were 
+later removed for data dissemination purposes and left blank; 3) check for 
+outliers by flagging all data that are outside the acceptable range for the 
+sensors; 4) check for correct date and time intervals; 5) format the data 
+columns to the CDMO standards for time, date, and numeric variables; 6) save the 
+files as Excel worksheets; and 7) generate single parameter monthly graphs.  The 
+file is then printed, and the data reviewed.  Data at the beginning and end of 
+each data record between retrieval and re-deployment are deleted.  These data 
+are identified by field notes that document the times of deployment and 
+retrieval and by the sudden change in Specific Conductivity and Depth records.  
+Data in the remainder of the record are not deleted unless supporting reasons 
+can be documented.
+
+The anomalous data are evaluated to determine whether to flag or delete the 
+suspect data.  Data are flagged if the values are: 1) outside the range expected 
+for the site (see Site Location and Character, Section 5), 2) outside the range 
+of measurements and accuracy established for the sensors (see Section 9), or 3) 
+outside the range established for good water quality conditions at the 
+particular site (i.e., Turbidity >150 NTU, negative Turbidity, variable DO, or 
+sudden data spikes).  Data outside the acceptable range of water quality for a 
+monitoring site are investigated for validity based on weather data, field 
+observations, QC checks, data printouts, and instrument diagnostics.  Data are 
+deleted if the anomalies are attributed to: 1) sensor malfunction — if the 
+voltage reading of the sensor is outside the range established for the sensor or 
+if the sensor will not calibrate, 2) exposure of sensors during low tide if it 
+can be determined that freshwater inflow was not responsible — identified by 
+unusual Depth, Temperature, and Specific Conductivity data, or 3) severe fouling 
+of sensors by aquatic organisms, debris or sediment — detected by comparing in 
+situ sensor with measurements (see Section 4).  Because the Depth sensor is non-
+vented, negative values were not rejected unless they corresponded to Specific 
+Conductivity or other data indicating that the sonde was out of the water.  
+Large positive Turbidity spikes (>150 NTU) were reported in the anomalous 
+data section, but those larger than 1000 NTU were deleted.  In addition, sensor 
+readings that differ significantly (>10%) from standard solutions (e.g., 
+Conductivity) suggest that the sensor was fouled during deployment.  If it is 
+possible to determine the reason for the difference, the data are deleted.  
+Otherwise they are flagged in the metadata.  After corrections are made to the 
+Excel worksheet, the edited files are exported as tab-delimited files and sent 
+to the CDMO.  All .csv files are also sent to the CDMO via FTP for archival.  
+Sue Powell has been responsible for data management since 9/1999. 
+
+3)	Research objectives
+
+Four long-term monitoring stations have been established along the estuarine 
+gradient of the South Slough in order to collect essential baseline information 
+and improve our understanding of tidal dynamics and watershed inputs.  In 
+particular, the South Slough NERR/SWMP monitoring stations collect continuous 
+information to address three primary topics:  1) short-term variability and 
+long-term changes in estuarine water parameters within different regions of the 
+estuary (i.e., localized impacts of seasonal storm events, variability in water 
+quality parameters in association with re-establishment of tidal circulation, 
+interannual differences in rainfall, magnitude and influence of El Niño – La 
+Niña events, spatial extent of oceanic and tidal forcing, and long-term changes 
+associated with the Pacific Decadal Oscillation); 2) verification, calibration, 
+and future refinement of an existing two-dimensional water quality model (CE-
+QUAL-W2) developed to predict levels of coliform bacteria and dispersion of 
+environmental toxins; and 3) collection of fundamental baseline data for future 
+development of a three-dimensional tidal hydrodynamic model for the greater 
+South Slough/Coos Bay estuaries.
+
+The South Slough estuary contains three primary sub-systems that provide much of 
+the freshwater input to the area.  Only two sub-systems, the Sengstacken and 
+Winchester arms, are within Reserve boundaries.  One long-term monitoring 
+station was sited in the riverine portion of each arm in 1995.  The Sengstacken 
+station is located in a semi-pristine area with no development and serves as a 
+reference site for the riverine portion of the estuary.  The Winchester station 
+is similarly located in an area with development limited to one farm (<15 
+cattle) high in the watershed.  This station functions as a management-treatment 
+site for saltmarsh restoration activities in the Winchester Tidelands 
+Restoration Project.  The Valino station was established in June 1999 in the 
+southern end of the marine-dominated region of the South Slough estuary, 
+downstream from the two riverine stations.  Charleston, the fourth monitoring 
+station, was installed in April 2002 close to the marine/estuarine interface.  
+Both the Valino and Charleston stations are outside the South Slough NERR 
+boundaries.
+
+YSI data loggers are deployed at each site so that the sensor arrays are held 15 
+cm (Sengstacken) to 50 cm (Winchester, Valino and Charleston) off the bottom of 
+the tidal channels that are approximately 3 meters deep.  The loggers are 
+programmed to record water quality parameter measurements every 30 minutes over 
+22-30 day periods.  Parameters measured include Depth, Temperature, Salinity, 
+Specific Conductivity, pH, Dissolved Oxygen (DO), Turbidity, and Chlorophyll 
+(data are not reported to CDMO).
+
+4)	Research methods
+
+One data logger is deployed at each permanent monitoring station in the South 
+Slough estuary.  All data are recorded in Pacific Standard Time.  Sites are 
+accessed at high tide, preferably above 7.0', in a small skiff equipped with an 
+outboard motor.  Because of concerns about variability between different data 
+loggers, they are not interchanged among sites, but are returned to the same 
+site approximately 24 hours later.  During transport, each sonde is wrapped in a 
+tap water-soaked white towel and placed horizontally in a vented cooler for 
+insulation against jarring.  To deploy, the data loggers are lowered by chain 
+into protective cases (constructed from 4"-diameter ABS plumbing pipe).  The ABS 
+cases are drilled out to ensure adequate tidal flushing and exposure of the 
+probes to ambient water conditions.  The cases are affixed vertically to 
+existing log pilings driven into the mud.  A bolt prevents the data logger from 
+descending beyond the ABS pipe and ensures that the logger monitors at the same 
+depth on every deployment.  On April 14, 2003, the Valino ABS pipe was 
+inspected for marine growth and obstruction of water flow.  On-site, the bottom 
+1-meter of pipe was replaced and attached to the existing pipe via a threaded 
+sleeve.  Anti-fouling paint was applied to as much of the pipe length as 
+possible.  The sonde was returned to within 1 mm of the original depth.  It was 
+noted that all sonde sensors were immersed during a -1.2' low tide series. 
+
+During retrieval, the data loggers are again wrapped in a saturated white towel 
+and placed in a cooler for transport to the lab.  To record post-deployment 
+dissolved oxygen in 100% water-saturated air, at least two data points are 
+recorded after the sonde reaches room temperature and while it is wrapped in the 
+towel.  The other post-deployment calibrations are performed in the lab 
+prior to cleaning to determine if instrument drift has occurred and to evaluate 
+the validity of the data.  Sonde cleaning and calibration of the DO, 
+Conductivity, Depth, pH, Turbidity, and Chlorophyll probes are performed as 
+outlined in the YSI manual.  For Conductivity and Salinity, YSI calibrator 
+solution 3168 (10,000 µS/cm) is used without dilution.  For pH calibrations, 
+Corning pH 7 and 10 solutions are used.  A two-point calibration is used for 
+Turbidity using 0 NTU (distilled water) and 123 NTU (YSI 6073G).  The 
+Chlorophyll probe is calibrated with distilled water, and Depth is calibrated in 
+air.  The DO membrane is replaced every time and calibrated, allowed to stretch 
+for 16-24 hours, and re-calibrated before deployment, if necessary.  The sondes 
+are redeployed 24 hours after retrieval unless safety issues arise during poor 
+weather.  
+
+As a quality assurance check, field calibrations are recorded during sonde 
+deployment and retrieval.  As close to the 30-minute sonde recording time as 
+possible, a hand-held YSI 600QS records DO, Salinity, Specific Conductivity, and 
+Temperature both at the surface and at the level of the sonde array.
+
+5)	Site location and character
+
+South Slough is characterized as a drowned river-mouth estuary in the Lower 
+Columbia Biogeographic Region.  South Slough National Estuarine Research Reserve 
+is representative of the mid-Pacific portion of the Columbian Bioregion, 
+extending from Cape Mendocino, CA north to the Columbia River, OR.  The South 
+Slough, located five miles southwest of the city of Coos Bay, is one of seven 
+tidal inlets that collectively form the Coos estuary.  The four sites within the 
+South Slough that are being monitored with YSI data loggers are:
+
+1)  Sengstacken Arm (SE) (Talbot Creek):  [43º 17.374' N, 124º 18.156' W]
+This station serves as a reference site and is located within the riverine 
+(southern) region of the Sengstacken Arm (Talbot Creek) immediately adjacent to 
+4.3 ha of natural salt marsh.  The site is approximately 6.6 km from the mouth 
+of the South Slough estuary.  Tidal range is 2.1 meters, and monthly mean 
+Salinity ranges between 3-28 psu.  Mean Temperatures range from 7-18 oC.  
+Freshwater inputs have not been quantified.  Tidal waters in the riverine 
+channels are typically well mixed in summer when the Salinity ranges from 5-30 
+psu, and they are well flushed and partially stratified during the rainy season 
+when the Salinities fluctuate from 0-21 psu.  The YSI is deployed in a tidal 
+channel approximately 3 m deep and the sensor arrays are 15 cm off the bottom.  
+
+2) 	Winchester Arm (WI) (Winchester Tidelands Restoration Project site): [43º 
+16.945' N, 124º 19.216' W]This station serves as a management-treatment site and 
+is located within the riverine (southern) portion of the Winchester Arm (Kunz 
+Marsh) and is approximately 7.1 km from the mouth of the South Slough estuary.  
+The site is adjacent to an experimental marsh restoration area, where dikes 
+were removed from a 5.1 ha area in 1996 and 1998.  About 4.2 hectares of natural 
+marsh surround the project site.  Tidal amplitude is 2.0 meters, monthly mean 
+Salinities are between 4-20 psu, and mean Temperatures range from 8-18 oC.  
+Freshwater inputs are between 1-23 cfs, depending on precipitation events.  
+Similar to the Sengstacken site, the YSI is deployed in a 3 m deep tidal 
+channel with the sensor arrays 50 cm above the bottom. 
+
+Both sites 1 and 2 are located in tidal channels immediately adjacent to 
+intertidal marshes in habitats characterized by soft mud and eelgrass (Zostera 
+marina).  The primary contrasts between the two sites include differences in 
+channel width, maximum channel depth, and orientation of the channel with regard 
+to the predominant north-south winds.  Above both sites is primarily second-
+growth coniferous forest, and there are no industrial sites in the watershed.  
+One residential site that is outside the South Slough Reserve's boundary is 
+located in the Upper Winchester watershed.
+
+3) 	Valino Island (VA):  [43º 19.034' N, 124º 19.298' W]
+This station serves as a secondary reference area and is located immediately 
+north of Valino Island, in the southern portion of the marine-dominated region 
+of the estuary.  Freshwater input is mainly from rainfall and via three primary 
+creeks that drain adjacent watershed sub-basins.  Additional freshwater enters 
+this region indirectly during ebb tides from the Winchester and Sengstacken arms 
+of the estuary.  The Valino site is approximately 3.6 km from the mouth of South 
+Slough estuary.  Situated in the primary tidal channel, the station is adjacent 
+to productive eelgrass beds, tidal mudflats, sandflats, and commercial oyster 
+cultivation areas.  The tidal range is about 2.7 meters and monthly mean 
+Salinities fluctuate seasonally from 5-31 psu.  The tidal channel is about 4 m 
+deep and the YSI sensors are 50 cm off the bottom.  There are no known point 
+source pollutants although high bacterial levels from unknown sources cause 
+frequent regulatory problems for commercial oyster growers. 
+
+4) 	Charleston Bridge (CH):  [43º 20.262' N, 124º 19.232' W] 
+This station serves as another reference area and is located immediately south 
+of the Charleston Bridge in the northern end of the marine-dominated portion of 
+the estuary.  The site is approximately 1.2 km from the mouth of South Slough 
+estuary and 2.4 km north of the Valino site.  The YSI station is affixed to a 
+log dock with controlled access by land for security purposes.  Situated in the 
+primary tidal channel, the station is adjacent to extensive eelgrass beds, tidal 
+mudflats, sandflats, and commercial oyster cultivation areas.  The tidal 
+amplitude is 2.7 meters, monthly mean Temperatures range from 8-15 oC, and the 
+monthly mean Salinities fluctuate seasonally from 20-33 psu. The tidal channel 
+is about 4.5 meters deep. The adjacent Joe Ney Slough has a decade-long history 
+of tributyltin pollution.  The area was voluntarily cleaned up in the mid-1990s 
+and passed DEQ site review.  In addition, occasional high bacterial levels are 
+noted.  Freshwater input is limited to seasonal rainwater and a small transient 
+salinity/density signal from Joe Ney Slough. 
+
+6)	Data collection period
+
+The data loggers were first deployed at the Winchester site on April 04, 1995 
+and at the Sengstacken site on April 19, 1995.  The Valino data logger was 
+deployed on June 03, 1999.  The new Charleston Bridge site was constructed and 
+the data logger deployed on April 19, 2002.  All monitoring is long term with an 
+average data collection period of 27 days.  In 2002, the collection dates and 
+times were: 
+
+Site		Deploy Date		Time		Retrieve Date	Time
+Winchester	
+		12/20/02		11:00		01/21/03		12:00
+		01/22/03		12:30		02/20/03		15:30
+		02/21/03		13:30		03/18/03		11:00
+		03/19/03		11:00		04/14/03		09:30
+		04/15/03		09:30		05/12/03		08:30
+		05/13/03		09:30		06/01/03		14:30
+		06/02/03		15:00		06/26/03		10:30
+		06/27/03		11:30		07/17/03		14:00
+		07/18/03		15:00		08/05/03		15:00
+		08/15/03		13:30		09/08/03		10:00
+		09/09/03		11:30		10/06/03		09:00
+		10/07/03		11:30		11/06/03		10:00
+		11/07/03		09:30		12/03/03		09:30
+		12/04/03		09:30		01/05/04		11:30
+
+Sengstacken	
+		12/20/02		10:30		01/21/03		12:30
+		01/22/03		13:00		02/20/03		15:00
+		02/21/03		12:30		03/18/03		11:30
+		03/19/03		11:30		04/14/03		10:00
+		04/15/03		10:00		05/12/03		09:00
+		05/13/03		10:00		06/01/03		14:00
+		06/02/03		15:30		06/26/03		11:00
+		06/27/03		12:00		07/17/03		14:30
+		07/18/03		15:30		08/14/03		13:00
+		08/15/03		14:00		09/08/03		10:30
+		09/09/03		12:00		10/06/03		09:30
+		10/07/03		11:00		11/06/03		10:30
+		11/07/03		10:00		12/03/03		10:00
+		12/04/03		10:00		01/05/04		11:00
+
+Valino	
+		12/20/02		10:00		01/21/03		11:30
+		01/22/03		12:00		02/20/03		16:00
+		02/21/03		11:30		03/18/03		10:30
+		03/19/03		10:30		04/14/03		09:00
+		04/15/03		09:00		05/12/03		09:30
+		05/13/03		09:00		06/01/03		13:30
+		06/02/03		14:30		06/26/03		10:00
+		06/27/03		12:30		07/17/03		13:30
+		07/18/03		15:00		08/14/03		12:00
+		08/15/03		13:00		09/08/03		11:00
+		09/09/03		12:30		10/06/03		10:00
+		10/07/03		12:00		11/06/03		09:30
+		11/07/03		09:00		12/03/03		09:00
+		12/04/03		10:30		01/05/04		10:30
+
+Charleston	
+		12/20/02		11:30		01/21/03		10:30
+		01/22/03		11:00 	02/20/03		16:30
+		02/21/03		10:30		03/18/03		12:00
+		03/19/03		09:30		04/14/13		07:30
+		04/15/03		10:30		05/12/03		08:00
+		05/13/03		09:00		06/01/03		12:00
+		06/02/03		14:00		06/26/03		06:30
+		06/27/03		08:30		07/17/03		10:30
+		07/18/03		14:30		08/14/03		13:30
+		08/15/03		13:00		09/08/03		09:00
+		09/09/03		13:30		10/06/03		07:30
+		10/07/03		09:00		11/06/03		08:30
+		11/07/03		10:30		12/03/03		08:30
+		12/04/03		09:00		01/05/04		10:00
+
+7)	Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-Wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from the NOAA/OCRM-supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and Coastal 
+Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized Dat 
+Management Office (please see personnel directory under general information link 
+on CDMO homepage) and online at the CDMO homepage http://cdmo.baruch.sc.edu/.  
+Data are available in text tab-delimited format, Microsoft Excel spreadsheet 
+format and comma-delimited format.
+
+8)	Associated researchers and projects
+
+The SSNERR water quality monitoring project has been incorporated into the State 
+of Oregon Coastal Non-Point Pollution Control Program (S. 6217) developed by the 
+Oregon Department of Land Conservation and Development and the Oregon Department 
+of Environmental Quality in July 1995.
+
+Several researchers are currently using water quality data recorded at the YSI 
+stations.  
+Michele Koehler, Restoration Monitoring Coordinator at SSNERR used the 2002-03 
+SWMP data to profile habitat for salmonids and other estuarine fish species.  
+
+Jessica Miller, a Ph.D. candidate from the University of Oregon Institute of 
+Marine Biology (OIMB), is investigating the role of estuaries in the patterns of 
+transport, delivery, and habitat use in coastal fishes.  The SWMP water quality 
+data are essential for time series analyses of larval and juvenile fish use of 
+Coos Bay and South Slough.  A NERR Graduate Research Fellowship supports 
+her work.  
+
+Mike Berger, a Ph.D. candidate at OIMB, is studying recruitment dynamics of 
+Balanomorph barnacles along an estuarine gradient.  In addition to study sites 
+at the CH and WI monitoring stations, he equipped a third study site (Sloughside 
+Pilings) with a YSI 6000 datalogger for short-term water quality data 
+collection.  A NERR Graduate Research Fellowship currently supports his 
+work.  
+
+Catherine DeRivera of the Smithsonian Environmental Research Center is using 
+SWMP datasets to supplement her study of larval deposition in estuaries along 
+the West Coast.  
+
+In addition, we are currently investigating the possibility of working with 
+PISCO:  Partnership for Interdisciplinary Studies of Coastal Oceans.  They study 
+the nearshore ecosystems of the West Coast, and correlating trends with data 
+from the estuary would enhance both of our projects.  
+
+II.  Physical Structure Descriptors
+
+9)	Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6600 data logger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+Dissolved Oxygen qualifier:  The reliability of the Dissolved Oxygen (DO) data 
+after 96 hours post-deployment for non-EDS (Extended Deployment System) 
+datasondes may be problematic due to fouling which forms on the DO probe 
+membrane during some deployments (Wenner et al., 2001). Many Reserves have 
+upgraded to the YSI 6600 EDS data sondes, which increases DO accuracy and 
+longevity by reducing the environmental effects of fouling.  The user is 
+therefore advised to consult the metadata and to exercise caution when using the 
+DO data beyond the initial 96-hour time period.  However, this potential drift 
+is not always problematic for some uses of the data, i.e., periodicity analysis.  
+It should also be noted that the amount of fouling is very site specific and 
+that not all data are affected.  The Research Coordinator at the specific NERR 
+site should be contacted concerning the reliability of the DO data because of 
+the site and seasonal variation in the fouling of the DO sensor.
+
+Depth qualifier:  The NERR System-Wide Monitoring Program uses YSI datasondes 
+that can be equipped with either depth or water level sensors.  Both sensors 
+measure water depth, but by convention, level sensors refer to atmospherically-
+vented measurements and depth refers to non-vented measurements.  Standard 
+calibration protocols for the non-vented sensor use the atmospheric 
+pressure at the time of calibration.  Therefore, changes in atmospheric pressure 
+between calibrations appear as changes in water depth.  The error is equal to 
+approximately 1.03 cm for every 1 millibar change in atmospheric pressure.  This 
+error is eliminated for level sensors because they are vented to the atmosphere 
+throughout the deployment time interval.  If proper atmospheric pressure data 
+are available, non-vented sensor depth measurements can be corrected for 
+deployments between calibrations.  Reading for both vented and non-vented depth 
+data are automatically compensated for water density changes due to variations 
+in temperature and salinity.  The Research Coordinator at the specific NERR site 
+should be contacted in order to obtain information regarding atmospheric 
+pressure data availability.
+
+10)	Coded variable code definitions
+
+File definitions: YSI deployment site/wq/month/year (ex: wiwq0203 = Winchester 
+Water Quality data from February 2003).
+SE = Sengstacken Arm; WI = Winchester Arm; VA = Valino Island; CH = Charleston 
+Bridge
+
+11)	Data anomalies
+
+January 1-31, 2003
+
+Winchester
+
+a.	Low pH values are consistent with high precipitation events at this site.  
+Post-deployment calibration at pH 7.0 on 01/21/03 was 6.92.  The data were not 
+deleted.
+
+b.	The following Turbidity data were deleted as they were out of range:
+	01/01/03 	14:30:00
+	01/13/03 	11:30:00
+	01/15/03 	14:00:00
+
+c.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration on 01/21/03 was 1.5 NTU.  No 
+debris was noted on the probe face or wiper and the data were not deleted. 
+	01/03/03 	22:30:00
+	01/04/03 	00:00:00, 01:30:00
+	01/07/03 	22:30:00
+	01/13/03 	07:30:00
+	01/14/03 	00:00:00
+	01/15/03 	20:00:00
+	01/16/03 	00:30:00
+	01/17/03 	02:30:00, 05:00:00
+	01/18/03 	03:30:00
+	01/19/03 	16:30:00
+	01/20/03 	02:30:00, 13:00:00
+
+Sengstacken
+a.	Short DO drops occurred during the month, probably due to high 
+precipitation.  Post-deployment calibration was high at 106.7%.  The readings 
+recovered to normal levels and the data were not deleted.
+01/15/03 	16:30:00, 19:00:00 
+01/28/03 	15:30:00 – 17:30:00 
+
+b.	The following records include Turbidity spikes (>150 NTU) that occurred 
+during high precipitation events.  Post-deployment calibration was –0.1 NTU on 
+02/20/03 and the data were not deleted.
+01/26/03 	12:30:00 – 14:30:00 
+01/29/03 	20:30:00 
+01/31/03 	19:00:00 – 21:00:00 
+
+Valino
+a.	These Turbidity data were deleted as they were out of range:
+	01/08/03	11:30:00
+	01/11/03	12:30:00
+
+b.	The sudden drop in DO in the following record indicates a short-term event 
+probably caused by high precipitation.  Values recovered so the data were not 
+deleted. 
+	01/25/03	03:00:00 – 03:30:00
+
+Charleston Bridge	
+a.	This Turbidity datum was deleted as it was out of range: 
+01/20/03 	06:00:00
+
+February 1-28, 2003
+
+Winchester
+a.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  No debris was noted on the probe face or wiper that might 
+have contributed to the noisy readings.  Post-deployment calibration was 0.1 NTU 
+in 0 NTU standard on 02/20/03, indicating that the sensor was accurate during 
+the deployment, so the data were not deleted. 
+02/07/03 	13:00:00 
+02/16/03 	22:30:00 
+
+b.	Zero or negative Depth values (to –0.16 m) correspond to low tides.  
+However the negative Depth does not occur during much lower spring tides.  This 
+suggests that large atmospheric pressure systems common in winter probably 
+account for the non-vented depth probe values.  Post-deployment calibration on 
+02/20/03 was 0.074 m and 03/18/03 was0.015 m.  Since there ere no SpCond, DO, pH 
+or Temp fluctuations consistent with the sonde being out of the water, 
+the data were not deleted.
+	02/11/03 	14:00:00 – 16:00:00
+	02/12/03 	15:00:00 – 17:30:00
+	02/13/03 	15:30:00 – 18:30:00
+	02/14/03 	16:00:00 – 19:30:00
+	02/15/03 	17:00:00 – 20:00:00
+	02/23/03 	11:00:00 – 14:00:00
+	02/24/03 	12:00:00 – 15:00:00
+	02/25/03 	13:00:00 – 16:30:00
+	02/26/03 	14:30:00 – 18:00:00
+	02/27/03 	15:30:00 – 18:30:00
+	02/28/03 	16:00:00 – 19:30:00
+
+Sengstacken
+a.	These records contain Turbidity spikes (>150 NTU) that mostly occur during 
+low tides, and are probably caused by transient debris in the pool around the 
+sonde.  Post-deployment calibration was -0.1 NTU on 02/20/03 and 0.0 NTU on 
+03/18/03.  No debris was noted on the probe face or wiper and the data were not 
+deleted. 
+02/01/03 	00:00:00 
+02/15/03 	21:00:00 
+02/16/03 	19:00:00 – 19:30:00 
+02/17/03 	19:00:00 – 20:30:00, 22:00:00 – 22:30:00
+02/27/03 	15:00:00, 19:30:00 - 20:00:00 
+
+b.	Zero or negative Depth values (to –0.15 m) correspond to spring low tides.  
+Post-deployment calibration on 02/20/03 was 0.090 m and on 03/18/03 was 0.011 m.  
+Although there were some SpCond, DO, pH or Temp fluctuations, they were 
+consistent with values expected from the inflow of fresh water at this riverine 
+site.
+
+c.	Low DO values (to 40.2%) occurred during spring low tides but also when 
+precipitation was high.  Post-deployment calibration was a bit high at 103.4% on 
+03/18/03.  The data were not deleted.
+	02/18/03 	08:30:00 – 09:00:00
+	02/19/03 	08:30:00 – 10:00:00
+	02/23/03 	11:00:00 – 12:00:00
+	02/25/03 	13:30:00 – 14:30:00
+
+Valino
+a.	These Turbidity data were deleted as they were out of range: 
+	02/03/03	13:00:00
+	02/14/03	00:00:00
+
+Charleston Bridge	
+a.	These Turbidity data were deleted as they were out of range: 
+	02/23/03	01:30:00, 20:00:00, 23:30:00
+	02/24/03	19:30:00, 22:00:00, 23:30:00
+	02/26/03	01:30:00, 08:00:00, 09:00:00, 20:30:00
+	02/27/03	07:00:00, 16:30:00
+	02/28/03	10:00:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  All spikes occurred following deployment on 02/21/03 and 
+precipitation levels were low.  No debris was noted on the probe face or wiper, 
+post-deployment calibration was acceptable at 0.9 NTU, so the data were not 
+deleted. 
+	02/13/03	00:30:00
+	02/22/03 	19:30:00 – 20:00:00, 23:30:00
+	02/23/03 	00:00:00, 00:30:00, 02:30:00, 05:00:00, 07:00:00 – 08:00:00
+	02/24/03 	17:30:00 – 18:00:00, 20:30:00, 22:30:00, 23:00:00
+	02/26/03 	01:00:00, 03:00:00, 03:30:00, 04:30:00, 18:00:00, 22:00:00, 
+23:30:00
+	02/27/03 	05:30:00 – 06:30:00, 07:30:00, 08:30:00, 17:30:00, 23:30:00
+	02/28/03 	01:00:00 - 01:30:00, 05:00:00, 07:00:00, 10:30:00
+
+March 1-31, 2003
+
+Winchester
+a.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  No debris was noted on the probe face or wiper.  Post-
+deployment calibration was 0.6 NTU in 0 NTU standard on 03/18/03, indicating 
+that the sensor was accurate during the deployment, so the datum was not 
+deleted. 
+	03/01/03 	13:00:00 
+
+b.	Zero or negative Depth values (to –0.26 m) similar to those recorded in 
+February correspond to spring low tides and are consistent with winter trends at 
+this site.  Post-deployment calibration on 03/18/03 was 0.015 m and on 04/14/03 
+was –0.095 m.  There were some SpCond, DO, pH or Temp fluctuations but they were 
+consistent with values expected from the inflow of fresh water at this riverine 
+site.
+
+Sengstacken
+a.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.0 NTU on both 03/18/03 and 
+04/14/03.  No debris was noted on the probe face or wiper and the data were not 
+deleted. 
+	03/04/03 	18:30:00
+	03/06/03 	22:00:00 – 23:00:00
+	03/13/03 	16:30:00
+	03/22/03 	08:00:00 - 08:30:00
+	03/25/03 	12:30:00 – 15:00:00
+
+b.	There were many zero or negative Depth values (to –0.30 m) that correspond 
+to low tides but are also affected by atmospheric pressure changes during winter 
+storms.  Post-deployment calibration on 03/18/03 was 0.011 m and on 04/15/03 was 
+-0.089 m.  There were some SpCond, DO, pH or Temp fluctuations but they were 
+consistent with values expected from the inflow of fresh water at this site.
+
+c.	The DO varied from 15.0 to 107.0% during the month, which is common for 
+this site.  Post-deployment calibrations were 103.4% on 03/18/03 and 103.5% on 
+04/14/03.  DO charge and gain were within range and there were no defects in the 
+membranes, so the data were not deleted.
+   
+Valino
+a.	Data from 03/07/03 through 03/14/03 showed obvious effects of high 
+precipitation.
+
+Charleston Bridge	
+a.	The following Turbidity data were deleted as they were out of range: 
+	03/02/03	00:30:00, 17:00:00, 17:30:00, 21:00:00, 23:30:00
+	03/03/03	17:00:00
+	03/07/03	12:00:00
+	03/09/03	00:00:00
+	03/11/03	09:00:00, 23:00:00
+	03/12/03	00:00:00, 01:00:00
+	03/13/03	08:00:00
+	03/15/03	01:30:00, 13:30:00
+	03/16/03	02:00:00, 03:30:00, 11:30:00
+
+b.	The following records contain Turbidity spikes (>150 NTU), probably caused 
+by transient debris from large precipitation events.  Most of the spikes 
+occurred during the deployment on 02/21/03.  No debris was noted on the probe 
+face or wiper, post-deployment calibration was acceptable at 0.2 NTU, so the 
+data were not deleted. 
+	03/01/03 	17:30:00, 19:00:00, 20:30:00
+	03/02/03 	19:00:00, 20:00:00, 22:00:00, 23:00:00
+	03/03/03	07:00:00
+	03/07/03 	04:30:00 - 05:30:00
+	03/08/03 	23:30:00
+	03/09/03 	05:00:00 - 06:30:00, 18:00:00
+	03/10/03 	00:00:00, 19:30:00
+	03/11/03 	15:30:00, 18:00:00, 19:00:00
+	03/12/03 	00:30:00, 03:00:00, 20:00:00
+	03/13/03 	03:00:00
+	03/14/03 	01:30:00, 04:30:00, 11:00:00 – 11:30:00, 23:00:00, 23:30:00
+	03/15/03 	00:00:00, 03:00:00
+	03/16/03 	06:00:00, 09:00:00, 10:00:00, 12:00:00
+	03/31/03	09:30:00
+
+c.	From 03/01/03 08:30:00 to 03/04/03 at 06:00:00, the DO gradually rose and 
+then dropped quickly.  During post-deployment calibration, a slight tear was 
+observed in the membrane, although the calibration value was acceptable at 
+95.1%.  The following date were deleted:
+	03/04/03 	06:30:00 – 03/18/03 	12:00:00
+
+April 1-30, 2003
+
+Winchester
+a.	There were many zero or negative Depth values (to –0.12 m) that 
+corresponded to spring low tides.  Post-deployment calibration on 04/14/03 was –
+0.095 m and on 05/12/02 was 0.061 m.  There were no SpCond, DO, pH or Temp 
+fluctuations consistent with the sonde being out of the water, so data were not 
+deleted. 
+
+b.	The following records contain high DO values (>115%), but these are common 
+for this site.
+	04/22/03 	15:30:00 - 16:00:00
+
+c.	There was a short pH drop, but the sensor recovered so the event was 
+probably real.
+	04/26/03 	 08:00:00
+
+d.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was -0.2 NTU on 04/14/03.
+	04/03/03 	 04:30:00
+
+Sengstacken
+a.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.0 NTU on 04/14/03 and 0.4 
+NTU on 05/12/03.  The spikes are consistent with precipitation events.
+	04/02/03 	21:00:00
+	04/03/03 	09:00:00
+	04/13/03 	10:30:00
+	04/17/03 	06:30:00 – 07:00:00
+	04/19/03 	12:30:00
+	04/23/03 	08:00:00
+	04/25/03 	15:30:00
+	04/29/03 	04:30:00, 19:00:00
+
+b.	This Turbidity record was deleted as it was out of sensor range: 
+	04/30/03 	15:00:00
+
+c.	Many zero or negative Depth values (to –0.20m) correspond to spring low 
+tides.  Post-deployment calibration on 04/14/03 was –0.089 m and on 05/12/02 was 
+0.065 m.  There were some SpCond, DO, pH or Temp fluctuations but they were 
+consistent with values expected from the inflow of fresh water at this site. 
+
+d.	DO was variable, ranging from 4.7 to 116.0%, which is possible for this 
+site since the sonde can become isolated from the main channel during extreme 
+low tides.  Given the high air temperature, DO could be depleted until flood 
+tide reconnects the pool to the main channel.  
+
+Valino
+a.	These Turbidity data were deleted as they were out of sensor range: 
+	04/01/03	09:30:00
+	04/02/03	10:00:00
+	04/30/03	14:30:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was -0.2 NTU ion 04/14/03 and 0.7 
+NTU on 05/12/03, indicating that the sensor was accurate during the deployment, 
+so the data were not deleted. 
+	04/01/03	06:00:00
+	04/04/03	08:00:00
+	04/06/03	16:00:00, 16:30:00
+	04/11/03	07:00:00
+	04/19/02 	04:00:00
+	04/20/02 	07:00:00
+	04/29/03	05:00:00
+
+c.	On 04/17/03, the sonde was removed from the ABS tube for station 
+maintenance.  The following records were deleted: 
+	04/17/03 	13:00:00 – 04/18/03	13:00:00
+
+Charleston Bridge
+a.	The following Turbidity data were deleted as they were out of range: 
+04/11/03	22:00:00
+04/18/03	23:00:00
+04/29/03	20:00:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  It is expected that this site will experience a lot of drift 
+algae that may interfere with Turbidity readings.  No debris was noted on the 
+probe face or wiper and the data were not deleted. 
+	04/03/03 	20:00:00
+04/10/03 	06:30:00, 17:30:00, 20:00:00
+	04/11/03 	21:00:00
+	04/12/03 	09:00:00, 10:00:00
+04/18/03	22:30:00
+	04/29/03 	20:30:00, 21:00:00
+
+c.	The pH probe malfunctioned during the deployment, probably due to the 
+presence of a sea star.  New screens were installed on the next deployment.  The 
+following data were deleted:
+	04/11/03 	00:00:00 – 04/14/03	07:30:00
+
+May 1-31, 2003
+
+Winchester
+a.	The DO was variable (45.3 to 141.3%) with high DO values occurring during 
+flooding spring tides.  This is common for this site.  During low tides the site 
+may be isolated from the main channel, so it is possible for DO to be depleted 
+due to environmental conditions, with high DO values occurring when the main 
+channel floods the pool.  The post-deployment calibration was 102.8% on 05/12/03 
+and 104.4% on 06/01/03.  There were transient DO drops in the following 
+records that occurred during ebbing tides.  The values recovered to normal 
+levels and the data were not deleted:
+	05/22/03 	06:00:00 – 07:00:00
+	05/24/03 	09:00:00 – 09:30:00
+	05/25/03 	09:30:00 – 10:00:00
+
+b.	Zero or negative Depth values (to –0.04 m) correspond to spring low tides.  
+Post-deployment calibration on 05/12/03 was 0.061 m and on 06/01/03 was 0.044 m.  
+There were no SpCond, DO, pH or Temp fluctuations consistent with the sonde 
+being out of the water, so data were not deleted. 
+
+Sengstacken
+a.	Zero or negative Depth values (to –0.03 m) correspond to spring low tides.  
+Post-deployment calibration on 05/12/03 was 0.065 m and 0.099 m on 06/01/03.  
+There were no SpCond, DO, pH or Temp fluctuations consistent with the sonde 
+being out of the water, so data were not deleted.
+	05/02/03	07:30:00 - 10:00:00
+	05/03/03	07:00:00 - 10:30:00
+
+b.	The DO was variable (7.0 to 146.4%) with high DO values occurring during 
+flooding spring tides, which is common for this site.  During low tides the site 
+may be isolated from the main channel, so it is possible for DO to be depleted 
+due to environmental conditions, with high DO values occurring when the main 
+channel floods the pool.  The post-deployment calibration was 100.4% on 05/12/03 
+and 102.9% on 06/01/03.
+
+c.	The following Turbidity data were deleted as they were out of range: 
+	05/05/03	09:30:00 - 10:00:00
+
+d.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.4 NTU on 05/12/03, 
+indicating that the sensor was accurate during the deployment, so the datum was 
+not deleted. 
+	05/01/03	07:30:00
+   
+Valino
+a.	Changes in SpCond, Temp, DO, pH, and Turbidity indicated the sonde was out 
+of the water during an 11.8' tidal exchange.  The following data were deleted:
+	05/17/03 	07:00:00 – 07:30:00
+	05/18/03 	07:30:00 – 08:30:00
+Also, the following records show only changes in Sp Cond, and due to the large 
+spring tide, the sensor was probably close to the air/water interface.  There 
+was no significant precipitation that would correlate with the Sp Cond changes, 
+but since the sensor was not out of the water, these data were not deleted:
+	05/16/03 	06:30:00
+	05/19/03 	08:30:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.7 NTU on 05/12/03, 
+indicating that the sensor was accurate during the deployment, so the data were 
+not deleted. 
+	05/03/03 	05:00:00
+	05/04/03 	19:00:00
+	05/05/03 	07:30:00
+
+Charleston Bridge
+a.	During a large spring tide, the sonde was out of the water.  The following 
+data were deleted:
+	05/17/2003 	06:30:00 - 07:00:00
+	05/18/2003 	07:00:00 - 08:00:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  No debris was noted on the probe face or wiper and the data 
+were not deleted. 
+	05/02/03 	05:00:00, 06:00:00, 18:30:00, 19:00:00
+	05/05/03 	05:00:00, 08:30:00, 12:00:00
+	05/07/03	15:00:00
+	05/08/03 	08:00:00, 08:30:00, 10:00:00, 20:30:00, 22:30:00
+	05/09/03 	10:30:00, 11:30:00 - 12:30:00
+
+c.	These Turbidity data were deleted as they were out of sensor range: 
+	05/08/03	09:30:00
+	05/09/03	10:00:00
+
+d.	Zero Depth was recorded in the following record, but the SpCond did not 
+change, so the datum was not deleted:
+	05/13/03	14:00:00
+
+June 1-30, 2003
+
+Winchester
+a.	There were many zero or negative Depth values (to –0.13 m) that 
+corresponded to spring low as well as neap tides.  Post-deployment calibration 
+on 06/26/03 was -0.007 m and on 07/17/03 was -0.015 m.  Although precipitation 
+was low, in similar instances in previous years we assumed that the sensors were 
+out of the water.  However, the flooding of fresh water around the sonde at 
+tide change could also account for the changes reflected in SpCond, DO, pH and 
+Temp.  Also, given that the depth sensor is situated above the sensor array, 
+until it can be definitively shown that the sensors are out of the water, the 
+data will not be deleted.
+	
+b.	Variable DO is common at this site during spring and summer (values 
+ranging from 4.9% to 141.9%).  Daily high air Temperatures for the month ranged 
+from 14-24 oC.  Because this site is isolated from the main channel during low 
+tides, it is possible for DO to be depleted due to environmental conditions.  
+However, the low DO values do not always occur during the lowest Depth, so it is 
+not likely that a clump of debris caused the low values.  The post-deployment 
+calibration was 102.2% on 06/26/03 and 102.3% on 07/17/03, the membranes were 
+intact, and passed the integrity test.  The data were not deleted.
+
+c.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.7 NTU on 06/26/03, 
+indicating that the sensor was accurate during the deployment, so the datum was 
+not deleted. 
+	06/08/03 	15:00:00
+	
+Sengstacken
+a.	Many zero or negative Depth values (to –0.11 m) correspond to spring low 
+tides.  Post-deployment calibration on 06/26/03 was –0.002 m and on 07/17/03 was 
+-0.014 m.  There were no SpCond, DO, pH or Temp fluctuations consistent with the 
+sonde being out of the water, so data were not deleted.
+
+b.	High variability in DO values (18.1 to 149.5%) is common for this site, 
+especially during the summer.  Post-deployment calibration values were 103.5% on 
+06/26/03 and 102.1% on 07/17/03.
+
+Valino
+a.	Changes in SpCond, Temp, DO, pH, and Turbidity indicated the sonde was out 
+of the water during a 12.0' tidal exchange.  The following data were deleted:
+	06/15/03 	07:00:00
+
+b.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.8 NTU on 07/17/03, 
+indicating that the sensor was accurate during the deployment, so the data were 
+not deleted. 
+	06/28/03 	11:00:00
+	
+c.	Negative and low Depth values (to -0.5 m) occurred during spring tides.  
+No changes in SpCond were seen so data were not deleted.  Post-deployment 
+calibrations were -0.016 on 06/26/03 and -0.032 on 07/17/03.
+	06/14/03		05:30:00 - 06:30:00
+	06/15/03		07:30:00
+	06/16/03		07:30:00, 08:00:00
+	
+d.	Variable DO is common in summer at this site (range 02.5% to 133.3%), 
+however post–deployment calibration was 94.1% on 06/26/03 and 116.9% on 
+07/17/03.  Membranes were examined carefully and no anomalies were seen.  Probes 
+were reconditioned following each retrieval and DO gains and charges were well 
+within acceptable ranges.  It is possible that the extremely low DO readings 
+were the result of biofouling, especially with the large volume of drift algae 
+that occurs at this site.  The high readings were consistently associated with 
+cold marine water arriving at the sonde during a flooding tide.  Because pH 
+values closely follow the trend in DO readings, it was decided that the data are 
+real and they were not deleted or adjusted.  Especially low values were recorded 
+on the following date:
+	06/30/03		07:00:00, 08:00:00, 19:00:00
+
+Charleston Bridge
+	
+a.	This Turbidity datum was deleted as it was out of range: 
+	06/25/2003	11:00:00
+
+b.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris that is common for this site.  Post-deployment calibrations 
+were 0.6 NTU on 06/26/03 and the data were not deleted. 
+	06/16/03	11:00:00
+	06/25/2003	22:00:00, 22:30:00
+c.	Frequent Turbidity spikes were noted in the 06/27/03 to 07/18/03 
+deployment.  During the post-cal it was noted that the EDS had some drift algae 
+that may have interfered with the Turbidity readings.  The post-calibration 
+value was high at 9.2 NTU on 07/17/03, so the following data were deleted:
+	06/27/2003	19:30:00 – 06/30/03	23:30:00
+
+d.	Temperatures during the month ranged from 8.2 to 17.0 C, but warm air 
+temperatures are consistent with these values.
+
+e.	DO values varied from 43.4 – 144.3%, with the lowest series occurring on 
+06/28/03 21:00:00 to 06/29/03 01:00:00 during a flooding spring tide.  Post-
+deployment values were acceptable and no membrane tears were observed.  The data 
+were not deleted.
+	
+July 1-31, 2003
+
+Winchester
+a.	Zero or negative Depth values (to –0.09 m) correspond to spring low tides.  
+Post-deployment calibration was –0.015 m on 07/17/03 and -0.057 m on 08/14/03.  
+No changes in SpCond indicated that the sonde was not out of the water so data 
+were not deleted. 
+
+b.	High variability in DO values (38.0 to 156.5%) is common for this site, 
+especially during the summer.  The post-deployment calibration was 102.3% on 
+07/17/03 and erratic on 08/14/03. 
+
+Sengstacken
+a.	High variability in DO values (10.9 to 150.2%) is not unusual for this 
+site, especially during the summer.
+
+b.	A small increase in Turbidity was noted on 07/02/03 from 13:00:00 to 
+13:30:00.  This is probably due to the Smithsonian research project (SERC) on 
+larval settlement that required attaching settling plates to the YSI station.  
+Turbidity may have been increased due to walking in the area, although it could 
+also be due to a flooding tide.  Data were not deleted.
+
+c.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 0.4 NTU on 08/14/03, 
+indicating that the sensor was accurate during the deployment, so the data were 
+not deleted. 
+	07/17/03 	00:00:00, 14:00:00
+	07/27/03 	16:30:00
+	A cluster of smaller spikes occurred from 07/16/03 01:30:00 through 
+07/17/03 00:00:00 for unknown reasons.
+
+d.	Negative and low Depth values (to –0.06 m) occurred during spring tides.  
+No changes in SpCond that would indicate the sonde was out of the water were 
+seen so data were not deleted.  Post-deployment calibration was -0.014 m on 
+07/17/03 and -0.053 m on 08/14/03.
+
+Valino
+a.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 1.0 NTU on 08/14/03, 
+indicating that the sensor was accurate during the deployment, so the data were 
+not deleted. 
+	07/24/03 	17:30:00, 19:00:00, 19:30:00
+	07/25/03		22:00:00
+	
+b.	On 07/02/03 at 08:30:00, Turbidity was slightly increased, possibly due to 
+installation of the SERC plates (see Sengstacken note above).  The datum was not 
+deleted.
+	
+c.	Negative and low Depth values occurred during spring tides.  No changes in 
+SpCond were seen so data were not deleted.  Post-deployment calibration was -
+0.032 m on 07/17/03. 
+	07/13/03		06:00:00
+	07/14/03		06:30:00, 07:00:00
+
+d.	Variable DO is common in summer at this site (range –03.4% to 147.6%), and 
+post–deployment calibrations were 117.9% on 07/17/03 and 98.9% on 08/14/03.  
+Membranes were examined carefully and no anomalies were seen.  Probes were 
+reconditioned following each retrieval and DO gains and charges were well within 
+acceptable ranges.  Because this is the time of maximum algal detritus, we 
+suspect that a large algal mass accumulated around the ABS tube, causing 
+attenuation of most sensors.  Turbidity was low because the mass was at water 
+level and did not extend to the level of the turbidity optical sensor.  This was 
+confirmed on 07/02/03 when we visited the site for the SERC installation of 
+barnacle settlement plates.  At that time we removed a large algal mat from the 
+sonde ABS tube.  This change is evident in the data, but by 07/05/03, 
+sufficient mass must have re-accumulated.  A sudden change occurred on 07/24/03 
+at about 04:00:00 when the DO and other sensors rebounded to normal variability.  
+This is consistent with the algal mass becoming free.  As is usual for this 
+site, the high readings were consistently associated with cold marine water 
+arriving at the sonde during a flooding tide.  The data were not deleted or 
+adjusted.
+
+Charleston Bridge
+a.	On retrieval on 07/17/03 at 10:30:00, it was noted that a large mass of 
+algae was wrapped around the turbidity and chlorophyll probes.  The following 
+turbidity data were deleted:
+	07/01/03 	00:00:00 – 07/17/03	10:30:00
+b.	Despite the fouling, the graduate students did not install protective 
+screening 
+prior to re- deployment and were required to remove the sonde a week after 
+redeployment and install the mesh on 07/24/03 at 08:40:00.  Minor fouling was 
+reported and the following data were deleted: 
+	07/19/03 	15:30:00 – 07/24/03	08:30:00
+
+c.	These Turbidity data were deleted as they were out of range: 
+   07/25/2003	17:30:00
+
+d.	The following short-term drops in pH in the following records were 
+probably due to natural causes.  The probe post-calibrated well (7.08 on 
+07/17/03) and was within acceptable sensor ranges.  The data were not deleted.
+	07/05/03 	10:30:00 – 13:30:00, 17:00:00 – 21:00:00
+	07/15/03 	00:30:00
+
+e.	High variability in DO values (14.0 to 160.5%) is common for this site, 
+especially during the summer.  Typically, the lower range of values occurs 
+during the low tides and neap tide series.  The lowest value (14.0%) occurred on 
+07/03/03 at 01:00:00 and rebounded to normal levels by the next data 
+acquisition.  Post-deployment calibration was 103.5% on 07/17/03 and 105.5% on 
+08/14/03.  The data were not deleted.
+
+August 1-31, 2003
+
+Winchester
+a.	A bad battery cell caused the sonde to stop sampling.  The following data 
+are missing:
+	08/05/03	15:30:00 - 08/15/03	13:00:00
+
+b.	This Turbidity datum was deleted as it was out of range: 
+	08/16/03	13:00:00
+
+c.		This datum contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 1.2 NTU on 09/08/03, 
+indicating that the sensor was accurate during the deployment, so the datum was 
+not deleted. 
+	08/27/03	23:30:00
+
+d.	Negative and low Depth values (to -0.06 m) occurred during low tides.  
+Post-deployment calibration was 0.041 m on -0.057 m on 08/14/03 and -0.043 m on 
+09/08/03.  Low SpCond values may suggest that the sonde was out of the water, 
+although the inflow of pooled fresh water during low tide could also explain the 
+data trend.  The following data were not deleted:
+	08/25/03	06:30:00 - 07:00:00
+	08/26/03	07:30:00
+	08/27/03	08:00:00 – 08:30:00
+	08/28/03	08:30:00 – 09:00:00
+	08/29/03	09:00:00 – 09:30:00
+	08/30/03	09:30:00
+
+e.	High variability in DO values (28.4 to 141.7%) is common for this site, 
+especially during the summer.  Typically, the lower range of values occurs 
+during the low tides and neap tide series.  Because of the battery failure, no 
+post-deployment calibration was available on 08/14/03 and was high at 107.1% on 
+09/08/03.  The data were not deleted.
+
+Sengstacken
+a.	High variability in DO values (13.5 to 169.1%) is not unusual for this 
+site, especially during the summer.
+
+b.	The following records contain Turbidity spikes (>150 NTU), probably caused 
+by transient debris.  Post-deployment calibration was 0.4 NTU on 08/14/03 and 
+2.0 NTU on 09/08/03, and the data were not deleted. 
+	08/20/03 	20:00:00
+	08/21/03 	12:00:00
+	08/25/03 	16:30:00
+	08/26/03 	05:00:00
+	08/29/03 	06:30:00
+
+c.	Negative and low Depth values (to –0.07 m) occurred during spring tides.  
+No changes in SpCond that would indicate the sonde was out of the water were 
+seen so data were not deleted.  Post-deployment calibration was -0.053 m on 
+08/14/03 and  -0.055 m on 09/08/03.
+
+d.	Higher than normal pH values occurred during the 08/15/03 to 09/08/03 
+deployment that were coincident with flooding tides.  During calibration, the 
+probe was out of range and was soaked in 1M HCl.  The mV dropped from –46.2 to 
++15.0 in pH 7.0 buffer and from –208.2 to -160.7 in pH 10 buffer, so the probe 
+was deployed.  However, on retrieval, it post-calibrated at 7.98, so the 
+values are probably high.  The pH probe was replaced for the next deployment.
+
+Valino
+EDS sonde installed on 08/15/03.
+
+a.	These records contain Turbidity spikes (>150 NTU), probably caused by 
+transient debris.  Post-deployment calibration was 1.0 NTU on 08/14/03, 
+indicating that the sensor was accurate during the deployment, so the data were 
+not deleted. 
+	08/03/03	18:00:00, 18:30:00
+	08/04/03 	05:00:00, 20:30:00, 23:30:00
+	08/06/03	10:00:00 - 11:00:00
+	08/13/03 	19:00:00
+
+b.	These Turbidity data were deleted as they were out of range: 
+	08/03/03	19:00:00 - 20:00:00
+	08/04/03	21:00:00
+	08/16/03	00:00:00
+
+c.	Variable DO is common in summer at this site (range 46.6% to 167.4%), and 
+post–deployment calibrations were 98.9% on 08/14/03 and 102.1% on 09/08/03.  The 
+data were not deleted or adjusted.
+
+d.	The time stamp on the half hour was off by 1 second and a software patch 
+from YSI was installed. 
+
+Charleston Bridge
+a.	The technicians who deployed the sonde did not notice that it did not 
+reach the bottom of the ABS tube.  Since it was not at the correct level all 
+data were deleted:
+	08/15/03 	13:00:00 – 08/31/03	23:30:00
+
+b.	High variability in DO values (54.9 to 175.0%) continued and is common for 
+this site, especially during the summer.  Post-deployment calibration was 105.5% 
+on 08/14/03 and the data were not deleted.
+
+September 1-30, 2003
+
+Winchester
+a.	Zero or negative Depth values (to –0.1 m) correspond to low tides.  Post-
+deployment calibration was –0.043 on 09/08/03 and -0.001 m on 10/06/03.  Low 
+SpCond values may suggest that the sonde was out of the water, although the 
+inflow of pooled fresh water during low tide could also explain the data trend.  
+The following data were not deleted, despite drops in SpCond: 
+	09/01/03 	23:30:00
+	09/03/03 	03:30:00 – 01:00:00
+	09/04/03 	01:30:00 – 02:00:00
+	09/05/03 	02:30:00 – 03:30:00
+	09/06/03 	03:30:00 – 05:00:00
+	09/07/03 	04:30:00 – 06:00:00
+	09/08/03 	05:30:00 – 07:00:00
+	09/10/03 	07:30:00 – 08:00:00
+	09/11/03 	07:30:00 – 08:30:00
+	09/12/03 	08:00:00 – 08:30:00
+	09/13/03 	08:30:00, 21:00:00
+	09/18/03 	00:30:00
+	09/19/03 	01:00:
+	09/20/03 	01:30:00 – 03:00:00
+	09/21/03 	02:30:00 – 04:30:00
+	09/22/03 	03:30:00 – 05:30:00
+	09/23/03 	04:30:00 – 06:00:00
+	09/24/03 	05:30:00 – 07:00:00
+	09/25/03 	06:00:00 – 07:30:00
+	09/26/03 	06:30:00 – 08:00:00, 19:30:00 - 20:00:00
+	09/27/03 	07:30:00 - 08:00:00, 20:00:00 – 21:00:00
+	09/28/03 	21:00:00 – 22:00:00
+	09/29/03 	21:30:00 – 23:00:00
+	09/30/03 	22:00:00 – 23:30:00
+
+b.	These Turbidity data were deleted as they were out of range: 
+	09/02/03	05:30:00
+	09/10/03	11:30:00
+	09/11/03	22:30:00
+	09/16/03	13:30:00
+	09/21/03	01:00:00
+	09/22/03	09:00:00
+	09/23/03	05:00:00
+
+c.	These Turbidity data exceeded 150 NTU, but were probably the result of 
+transient debris.  The 
+data were not deleted. 
+	09/02/03	04:00:00
+	09/06/03	04:30:00
+	09/11/03	23:30:00
+	09/21/03	00:30:00, 03:00:00
+	09/25/03	06:30:00
+	09/28/03	03:00:00, 04:00:00
+	09/29/03	22:00:00
+   
+d.	High variability in DO values (from 18.9 to 129.8%) is not unusual for 
+this site, especially during the summer.  Most of the extreme low values 
+occurred during the ebbing tides, while the highest values occurred during 
+flooding tides. 
+   
+Sengstacken
+a.	High variability in DO values (4.7 to 181.4%) is not unusual for this 
+site, especially during the summer.  Most of the extreme low values occurred 
+during the neap tides, while the highest values occurred during flooding tides.
+
+b.	This Turbidity record was deleted as it was out of range: 
+	09/04/03 	09:30:00
+
+c.	These Turbidity data exceeded 150 NTU, but were probably the result of 
+transient debris.  Post-deployment calibrations were 2.0 NTU on 09/08/03 and 0.4 
+NTU on 10/06/03.  The data were not deleted. 
+	09/03/03	02:30:00
+	09/14/03	06:30:00
+	09/18/03	10:30:00 – 11:00:00
+	09/20/03	03:30:00 – 05:00:00
+	09/21/03	11:00:00
+	09/25/03	08:30:00
+
+d.	Many negative and low Depth (to –0.11m) and low SpCond values occurred 
+during spring tides.  However, the tide level was not particularly low and the 
+lowest depths showed no changes in SpCond that would indicate the sonde was out 
+of the water.  It is possible that the pool of fresh water that forms above the 
+site during high tides causes the fluctuations seen in SpCond, DO, pH, and Temp.  
+The following records show sudden drops in SpCond, but the data were not 
+deleted:
+	09/16/03	00:00:00
+	09/17/03	01:00:00
+	09/18/03	01:00:00 – 02:30:00
+	09/19/03	02:00:00 – 03:30:00
+	09/20/03	03:00:00 – 05:00:00
+	09/21/03	03:30:00 – 06:00:00
+	09/22/03	04:30:00 – 07:00:00
+	09/23/03	06:00:00 – 07:30:00
+	09/24/03	06:30:00 – 08:00:00
+	09/25/03	07:00:00 – 08:30:00, 20:00:00
+	09/26/03	07:30:00 – 09:00:00, 20:00:00 – 21:00:00
+	09/27/03	08:30:00 – 09:00:00, 21:00:00 – 22:00:00
+	09/28/03	09:00:00 – 09:30:00, 21:30:00 – 23:00:00
+	09/29/03	22:30:00 – 23:30:00
+	09/30/03	00:00:00, 23:00:00 – 23:30:00
+
+Valino
+
+a.	Variable DO is common in summer at this site (range 56.8% to 147.3%).  The 
+DO level began to rise about 09/21/03 and continued until the end of deployment.  
+Temperature and pH tended to decrease during this period while SpCond rose.  
+Post–deployment calibration was high at 111.0% on 10/06/03.  Although this 
+effect looked like biofouling, the installation of the new EDS sonde made that 
+unlikely.  No other explanation was noted and the data were not deleted.
+
+b.	A change in Salinity was noted about 09/29/03 at about 21:30:00 when the 
+trace got noisy and dropped slightly.  No precipitation events had occurred for 
+2 weeks.  The post-deployment calibration was slightly high at 10.38, but the 
+sensor cell constant was acceptable.  No explanation could be found for the 
+change in the recording, so the data were not deleted or adjusted.
+
+Charleston Bridge
+a.	The following data were deleted due to a deployment error (see 08/03 
+above). 
+	09/01/03 	00:00:00 – 09/08/03	09:00:00
+
+b.	This record contains a Turbidity spike (>150 NTU), probably caused by 
+transient debris.  The post-deployment calibration was 0.6 NTU on 10/06/03.  No 
+debris was noted on the probe face or wiper and the datum was not deleted. 
+	09/23/03	04:00:00
+
+October 1-31, 2003
+
+Winchester
+a.	Zero or negative Depth values (to –0.04 m) correspond to low tides.  Post-
+deployment calibration was -0.001 m on 10/06/03 and 0.056 m on 11/06/03.  During 
+the rainy season, low SpCond at this station is usually due to high 
+precipitation.  However, even without rain, this riverine station always has 
+some level of fresh water that causes low SpCond and Salinity.  As in the 
+previous two months, it was difficult to tell whether the sonde was out of the 
+water.  But, similar fluctuations occurred during small negative depths this 
+month.  In the following records, changes in SpCond, Temp, and pH could have 
+been the result of freshwater influx during low tides so and the data were not 
+deleted:
+	10/01/03 	00:00:00, 23:00:00 – 23:30:00
+	10/02/03 	00:00:00 – 01:00:00
+	10/03/03 	00:00:00 – 02:00:00
+	10/04/03 	01:30:00 – 03:00:00
+	10/05/03 	02:30:00 – 04:30:00
+	10/06/03 	03:30:00 – 05:00:00
+	10/08/03 	05:30:00
+	10/15/03 	22:00:00 – 22:30:00
+	10/28/03 	21:00:00 – 23:00:00
+	10/29/03 	21:30:00 – 23:30:00
+	10/30/03 	00:00:00, 23:30:00
+	10/31/03 	00:00:00 – 01:00:00, 23:00:00 – 23:30:00
+
+b.	These Turbidity data were deleted as they were out of range: 
+	10/10/03	00:30:00
+	10/13/03	22:00:00
+
+c.	These Turbidity data exceeded 150 NTU, but were probably the result of 
+transient debris.  Post–deployment calibrations were 0.6 NTU on 10/06/03 and 3.1 
+NTU on 11/06/03.  The data were not deleted. 
+	10/01/03	23:30:00
+	10/05/03	03:00:00
+	10/06/03	04:00:00
+	10/11/03	20:30:00
+	10/12/03	20:30:00
+	10/13/03	08:00:00
+
+d.	Variable DO (from 40.6 to 119.6%) is common for this site.  Post-
+deployment calibrations were 104.9% on 10/06/03 and high at 112.5% on 11/06/03.  
+The data were not deleted. 
+
+Sengstacken
+a.	High variability in DO values (16.7 to 129.51%) is not unusual for this 
+site.  A sudden DO drop occurred on 10/22/03 from 05:00:00 to 05:30:00.  This 
+occurred during a high precipitation event and was probably related.  Values 
+returned to normal so the data were not deleted.
+
+b.	These Turbidity data were deleted as they were out of range: 
+	10/20/03	01:30:00
+	10/22/03	23:30:00
+	10/27/03	00:30:00
+
+c.	These Turbidity data exceeded 150 NTU, but were probably the result of 
+transient debris following high tides and precipitation.  Post-deployment 
+calibration values were 0.4 NTU on 10/06/03 and 1.1 NTU on 11/06/03.  The data 
+were not deleted. 
+	10/03/03	14:30:00
+	10/06/03	03:00:00 – 03:30:00
+	10/07/03	13:30:00
+	10/19/03	10:30:00
+	10/20/03	04:00:00
+	10/21/03	18:30:00, 23:00:00, 23:30:00
+	10/22/03	03:30:00, 20:30:00, 22:00:00
+	10/23/03	00:30:00, 22:00:00
+	10/27/03	01:00:00, 02:00:00, 11:00:00
+	10/28/03	01:30:00, 04:30:00, 20:30:00
+	10/29/03	11:00:00, 11:30:00
+	10/30/03	03:00:00, 04:30:00, 05:30:00
+
+d.	Negative and low Depth (to –0.02 m) values occurred during spring tides 
+and low SpCond (to 0.05 mS/cm) values occurred almost every day, which is normal 
+for this site.  The tide level was not particularly low and the lowest depths 
+showed no changes in SpCond that would indicate the sonde was out of the water.  
+Some frequent, small precipitation events contributed to the lowest 
+SpCond values.  The post-deployment calibration was normal at 9.96 mS/cm on 
+10/06/03 and somewhat low at 9.49 mS/cm on 11/06/03.
+
+e.	The pH probe malfunctioned on 10/07/03.  The following pH data were 
+deleted:
+	10/07/03 06:00:00 – 10/31/03 23:30:00
+
+f.	Low temperatures occurred on 10/31/03 from 00:30:00 – 02:00:00, coincident 
+with low air temperatures.  The data were not deleted.
+
+Valino
+a.	The following DO data was high and may have been due to biofouling or 
+other environmental event.  Data were not deleted – see 09/03 above:
+	10/01/03	00:00:00 – 10/06/03	10:00:00
+
+Charleston Bridge
+a.	Near the end of the second deployment for this month, a change in most of 
+the sensor readings was noted.  When the sonde was retrieved on 11/06/03, there 
+was a lot of drift algae and debris clogging the protective mesh around the 
+sonde.  The unusual data may have resulted from decreased water flow.  However, 
+similar clogging on previous occasions has not resulted in similar changes in 
+data.  The following data were not deleted:
+	10/31/03 	10:00:00 – 23:30:00
+
+November 1-30, 2003
+
+Winchester
+a.	Zero or negative Depth values (to –0.07 m) correspond to spring low tides.  
+Post-deployment calibration was 0.056 on 11/06/03 and 0.089 on 12/03/03.
+
+b.	There were many low SpCond values that were probably due to rainfall 
+throughout the month.  No data were deleted. 
+
+c.	These Turbidity data were deleted as they were out of range: 
+	11/09/03	20:00:00
+	11/27/03	22:30:00
+
+Sengstacken
+a.	These Turbidity data were deleted as they were out of range: 
+	11/04/03	21:30:00 – 22:30:00
+
+b.	The following Turbidity data exceeded 150 NTU and were all in the 
+deployment ending 11/06/03.  The post-deployment calibration value was1.1 NTU on 
+11/06/03.  The data were not deleted. 
+	11/01/03	09:00:00 - 09:30:00
+	11/03/03	08:30:00, 09:30:00, 19:00:00
+	11/04/03	00:00:00, 07:30:00, 08:30:00, 10:30:00
+	11/05/03	14:00:00
+
+c.	Negative and low Depth (to –0.03 m) values occurred on 11/08/03 from 
+17:00:00 – 21:00:00 during a 0.0 ft. tide.  Although the SpCond values were also 
+low during this time, the tide was not particularly low, so the data were not 
+deleted.  The post-deployment calibration value was higher than normal at 0.128 
+m on 12/03/03, but large storm systems during the deployment probably affected 
+the values.
+
+d.	Very low SpCond values occurred throughout the month.  Tide levels were 
+not particularly low and there were several moderate precipitation events 
+preceding the reading, so it is unlikely that the sonde was out of the water.  
+Post-deployment calibration was 10.25 mS/cm on 12/03/03, and the data were not 
+deleted.
+
+e.	The pH probe malfunctioned and the following pH data were deleted:
+	11/01/03	00:00:00 – 11/06/03 10:30:00
+
+f.	Low temperatures occurred in the following records and were coincident 
+with low air temperatures.  The data were not deleted:
+	11/01/03	00:00:00 – 03:00:00
+	11/22/03	20:00:00, 20:30:00
+	11/23/03	05:30:00, 06:00:00
+   
+Valino
+a.	Negative and low Depth values occurred during spring tides.  No changes in 
+SpCond were seen so data were not deleted. 
+	11/25/03	19:30:00 – 20:00:00
+
+Charleston Bridge
+a.	Near the end of the deployment 11/6, a change in most of the sensor 
+readings was noted (see 10/03 note above).  The following data may be affected 
+but were not deleted:
+	11/01/03 	00:00:00 – 11/06/03	08:30:00
+
+b.	High Turbidity (>150 NTU) readings correlated well with major 
+precipitation events (see Section 15) and were probably caused by transient 
+debris.  The post-deployment calibration was 0.2 NTU in 0 NTU standard on 
+12/03/03.  At retrieval, sediment on top the sonde was noted, so high turbidity 
+levels were expected. 
+     
+c.	These Turbidity data were deleted as they were out of range: 
+	11/27/03	06:00:00, 06:30:00, 09:00:00, 16:00:00
+	11/30/03	02:00:00, 08:30:00
+   
+December 1-31, 2003
+
+Winchester
+a.	An especially large number of Turbidity spikes occurred during the month, 
+beginning on 12/13/03.  This is coincident with a 5-year precipitation event of 
+102.87 mm and runoff plus subsequent precipitation could have increased values 
+to these levels.  The post-deployment calibration was acceptable at –1.4 NTU.  
+The following data were out of range and were deleted: 
+	12/14/03	09:00:00
+	12/18/03	04:00:00, 06:00:00, 18:30:00 – 19:30:00
+	12/19/03	05:30:00 – 06:30:00, 08:30:00, 19:30:00 – 21:00:00
+	12/20/03	04:00:00 – 04:30:00
+	12/29/03	22:30:00
+
+b.	Zero or negative Depth values (to –0.22 m) correspond to spring low tides.  
+Post-deployment calibration was 0.089 on 12/03/03 and 0.104 on 01/05/04.  Winter 
+storms produce large changes in barometric pressure that affect the non-vented 
+depth sensor.  It is unlikely that the sonde was out of the water given the high 
+volume of precipitation and resulting runoff which would cause the fluctuations 
+apparent in SpCond, Temp, and pH values.
+
+c.	Large drops in DO occurred during ebbing spring tides in the following 
+records.  They were probably due to large amounts of decaying vegetation washed 
+from the marsh by the high rainfall and large December tides.  Post-deployment 
+calibration on 01/05/04 was 103.1%.  The data were not deleted.
+	12/21/03	02:00:00
+	12/22/03	01:30:00
+	12/23/03	01:30:00 – 07:00:00
+	12/24/03	05:00:00
+	12/26/03	06:30:00
+	12/27/03	05:00:00
+
+Sengstacken
+a.	The effects of a major 5-year precipitation event are apparent in the 
+large drops in SpCond and pH, beginning on 12/13/03 at 17:00:00.
+
+b.	DO values dropped suddenly on 12/18/03 from 15:00:00 – 16:30:00 which is 
+normal for this site.  The post-deployment calibration was 103.1% on 01/05/04 
+and the data were not deleted.
+
+c.	The following Turbidity data exceeded 150 NTU and were all in the 
+deployment ending 01/05/04.  The post-deployment calibration value was 0.5 NTU 
+and the data were not deleted. 
+	12/12/03	21:30:00 – 23:30:00
+	12/13/03	00:00:00 – 00:30:00
+	12/24/03	19:30:00 – 21:30:00
+	12/27/03	20:30:00
+	12/28/03	21:00:00
+
+d.	Negative and low Depth (to –0.18 m) values occurred throughout the month 
+during low tides.  No changes in SpCond values were were coincident with the low 
+Depths, so the data were not deleted.  The post-deployment calibration was 0.153 
+m 01/05/04.
+    
+Valino
+a.	These Turbidity data were deleted as they were out of range:
+	12/17/03 	09:30:00
+	12/23/03 	04:30:00
+
+b.	Negative and low Depth values occurred during spring tides.  No changes in 
+SpCond were seen so data were not deleted.  Post-deployment calibration was -
+0.001 m on 01/05/04.
+	12/22/03 	17:30:00
+	12/23/03 	18:00:00 – 18:30:00
+
+c.	High precipitation produced large effects on the data, especially on 
+12/13/03 following a rainfall event exceeding 100 mm. 
+
+Charleston Bridge
+a.	There were many high Turbidity readings during the 12/03/03 – 01/05/04 
+deployment that were probably caused by significant rain events (see Section 
+15).  Post-deployment calibration was 0.6 NTU.  The following data were deleted 
+because they exceed the expected maximum response to precipitation and runoff of  
+detritus from the watershed:
+	12/06/03	11:00:00, 13:00:00, 19:00:00
+	12/07/03	04:00:00, 04:30:00, 06:00:00, 06:30:00
+	12/16/03	16:30:00
+	12/22/03	12:30:00
+	12/23/03	15:00:00	
+	12/24/03	01:00:00 - 05:00:00
+	12/25/03	01:30:00, 04:30:00, 05:30:00, 12:00:00, 15:00:00
+	12/26/03	03:00:00, 03:30:00, 05:00:00, 08:30:00, 09:00:00, 12:00:00, 
+14:00:00, 17:30:00, 
+18:00:00, 19:00:00, 20:00:00 - 22:30:00
+	12/27/03	00:30:00 - 02:00:00
+
+b.	Turbidity values reflected high background due to precipitation.  The 
+following records (>150 NTU) were not deleted. 
+	12/01/03	20:00:00	
+	12/02/03	14:00:00, 14:30:00, 17:00:00
+	12/07/03	09:00:00, 13:00:00, 14:00:00, 20:00:00
+	12/08/03	01:00:00, 06:00:00, 08:00:00, 14:30:00
+	12/09/03	16:00:00
+	12/13/03	00:00:00, 01:30:00, 14:30:00
+	12/14/03	00:30:00, 07:30:00
+	12/15/03	02:30:00
+	12/16/03	16:00:00	
+	12/20/03	18:30:00, 21:30:00, 23:00:00
+	12/21/03	00:00:00
+	12/22/03	07:30:00, 09:30:00, 11:00:00, 12:00:00
+	12/23/03	02:30:00, 19:30:00
+	12/24/03 – 12/27/03 multiple times
+	12/29/03	16:30:00
+
+c.	The following records contain changes in DO, pH, SpCond, and Temp that are 
+due to precipitation.  The Depth was at least 1 m so the sonde was not out of 
+the water.  The data were not deleted as the readings returned to their previous 
+levels. 
+	12/13/03	17:00:00 – 12/18/03	07:00:00
+	12/29/03	20:00:00 – 12/31/03	23:30:00
+
+12)	Missing data
+
+Missing data are denoted by a period in the data set.  Periods were later 
+removed for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre- and post-) problems.  For more details on deleted data, 
+see Section 11 (Anomalous Data).  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+13)	Post-deployment information
+
+End of deployment Post-calibration readings in standard solutions prior to probe 
+cleaning.
+
+PA= probe absent/not functioning
+
+Site	
+Date		DO		pH		Depth		Turbid	SpCond10 
+  		 % 		(7.00)	m 		0 NTU 	mS/cm
+WI	
+01/21/03	102.7		6.92		0.161		6.5		10.16
+02/20/03	110.5		6.96		0.074		0.1		10.18
+03/18/03	105.8		6.98		0.015		0.6		10.04
+04/14/03	106.6		6.76		-0.095	-0.2		09.95
+05/12/03	102.8		7.15		0.061		0.2		10.08
+06/01/03	104.4		7.10		0.044		1.9		10.11
+06/26/03	102.2		7.16		-0.007	0.7		10.03
+07/17/03	102.3		7.03		-0.015	1.8		10.47
+08/14/03	PA		7.11		-0.057	2.0		10.48
+09/08/03	107.0		7.11		-0.043	1.2		10.41
+100/6/03	104.9		7.08		-0.001	0.6		09.941
+11/06/03	112.5		7.13		0.056		3.1		10.40
+12/03/03	100.5		7.02		0.089		1.6		09.20
+01/05/04	103.1		7.01		0.104		-1.4		09.89
+
+Site	
+Date		DO		pH		Depth		Turbid	SpCond10 
+   		% 		(7.00)	m 		0 NTU 	mS/cm
+SE	
+01/21/03	106.7		7.07		0.166		1.7		10.13
+02/20/03	102.9		7.14		0.090		-0.1		9.93
+03/18/03	103.4		6.97		0.011		0.0		9.953
+04/14/03	103.5		6.99		-0.089	0.0		9.87
+05/12/03	100.4		7.01		0.065		0.4		10.14
+06/01/03	102.9		7.10		0.099		0.4		10.22
+06/26/03	103.5		7.13		-0.002	1.8		10.32
+07/17/03	102.1		7.21		-0.014	4.0		10.27
+08/14/03	100.8		7.12		-0.053	0.4		10.24
+09/08/03	100.2		7.98		-0.055	2.0		10.34
+10/06/03	109.9		7.15		0.007		0.4		9.96
+11/06/03	121.8		PA		0.060		1.1		9.49
+12/03/03	103.3		7.14		0.128		0.4		10.25
+01/05/04	103.1		7.12		0.153		0.5		9.96
+
+Site	
+Date		DO		pH		Depth		Turbid	SpCond10 
+  		 % 		(7.00)	m 		0 NTU 	mS/cm
+VA	
+01/21/03	102.9		7.17		0.167		3.1		10.19
+02/20/03	114.8		6.93		0.075		1.5		10.13
+03/18/03	99.5		6.99		0.025		0.2		9.99
+04/14/03	101.5		6.92		-0.096	-0.2		9.94
+05/12/03	103.7		6.96		0.051		0.7		9.63
+06/01/03	99.9		7.05		0.047		0.0		10.21
+06/26/03	94.1		7.08		-0.016	1.3		9.14
+07/17/03	116.9		6.94		-0.032	0.8		10.57
+08/14/03	98.9		7.04		-0.086	1.0		10.25
+09/08/03	102.1		7.20		-0.047	1.0		10.29
+10/06/03	111.0		7.09		0.004		1.7		9.4
+11/06/03	82.0		7.08		0.073		1.8		10.01
+12/03/03	101.8		7.06		0.148		4.1		10.28
+01/05/04	102.0		7.14		-0.001	0.0		10.31
+
+Site	
+Date		DO		pH		Depth		Turbid	SpCond10 
+  		 % 		(7.00)	m 		0 NTU 	mS/cm
+CH	
+01/21/03	107.2		7.09		0.162		0.0		9.96
+02/20/03	105.6		6.91		0.080		0.9		10.20
+03/18/03	95.1		7.17		-0.001	0.2		10.05
+04/14/03	105.2		PA		-0.108	-0.1		9.99
+05/12/03	103.7		7.24		0.056		0.0		10.13
+06/01/03	103.3		7.13		0.040		1.2		9.42
+06/26/03	103.1		7.31		-0.002	0.6		9.94
+07/17/03	103.6		7.08		-0.034	9.2		10.17
+08/14/03	105.5		7.11		-0.054	1.8		10.02
+09/08/03	99.9		7.36		-0.053	0.3		10.35
+10/06/03	97.7		7.07		0.005		0.6		10.02
+11/06/03	109.3		7.09		0.057		2.1		10.10
+12/03/03	103.9		7.02		0.140		0.2		10.25
+01/05/0	111.6		6.96		0.064		0.6		10.52
+
+14)	Other remarks/notes
+
+Significant precipitation events greater than 06.35 mm (0.25 inch) during 2003 
+often affect SpCond, DO, pH, and Temp.  The data were recorded at CM, the SWMP 
+Meteorological Station:
+Date				mm Precipitation 		Date		mm Precipitation
+01/02/03			28.45				01/25/03			07.11
+01/04/03			17.02				01/26/03			27.18
+01/11/03			12.70				01/29/03			13.72
+01/12/03			53.59				01/30/03			14.99
+01/13/03			14.73				01/31/03			36.83
+01/24/03			14.22					
+
+Date				mm Precipitation 		Date		mm Precipitation
+02/01/03			15.75				02/17/03			21.08
+02/15/03			23.37				02/19/03			08.38
+02/16/03			19.30						
+
+Date				mm Precipitation 		Date		mm Precipitation
+03/02/03			10.41				03/19/03			14.48
+03/06/03			29.97				03/21/03			20.32
+03/07/03			24.13				03/22/03			26.92
+03/13/03			11.68				03/25/03			22.86
+03/14/03			17.02				03/26/03			08.38
+03/15/03			14.22				03/31/03			07.11
+
+Date				mm Precipitation		Date		mm Precipitation
+04/01/02			20.57				04/11/02			10.41
+04/02/02			28.70				04/12/02			09.25
+04/03/02			15.24				04/14/02			10.92
+04/04/02			08.64				04/23/02			34.54
+04/05/02			28.19				04/24/02			06.60
+04/06/02			08.64				04/25/02			14.22
+04/08/02			09.91				04/28/02			13.72
+
+Date				mm Precipitation
+05/03/03			13.46 
+05/04/03			11.68 
+
+Date				mm Precipitation
+09/08/03			08.13
+09/09/03			10.67
+09/10/03			06.35
+
+Date				mm Precipitation
+10/11/03			07.37
+10/22/03			12.70
+10/29/03			06.60
+
+Date				mm Precipitation 		Date		mm Precipitation
+11/02/03			09.91				11/19/03			22.10
+11/08/03			09.65				11/20/03			10.16
+11/10/03			06.59				11/28/03			59.69
+11/11/03			07.37				11/29/03			20.57	
+11/15/03			08.38				11/30/03			06.86
+11/16/03			20.07
+
+Date				mm Precipitation 		Date		mm Precipitation
+12/02/03			11.43				12/19/03			07.87
+12/04/03			11.68				12/23/03			12.95
+12/05/03			27.94				12/24/03			29.46
+12/07/03			18.29				12/26/03			07.11
+12/09/03			07.37				12/27/03			26.67
+12/12/03			23.88				12/28/03			28.70
+12/13/03			102.87			12/29/03			12.19
+12/14/03			17.53				12/31/03			38.61
+
+
+Field calibrations were recorded with YSI600QS immediately prior to sonde 
+deployment and retrieval.  The probe was deployed to the same level as the sonde 
+and data were recorded as near as possible to whole or half hour YSI 6600 
+sampling times.  Comparisons between YSI sonde and field instrument recordings 
+were kept in a spreadsheet.  Values differing by more than 5% were noted.  
+Occasional discrepancies were noted at the riverine monitoring stations where it 
+is possible that sub-surface microcurrents are responsible.  If readings are 
+taken at flood or ebb tide, it is possible that the current displaces the 600QS 
+probe away from the 6600, which could account for discrepancies.
+
+Site	
+Date		Time		Temp		Sal		DO, %		DO, mg/l	SpCon
+WI	
+12/20/02	10:50		09.60		20.60		87.80		08.74		33.10
+01/21/03	11:55		09.90		16.80		82.80		08.44		27.35
+01/22/03	12:30		10.80		12.50		85.80		08.76		20.97
+02/20/03	15:26		10.50		15.70		87.50		08.87		26.60
+02/21/03	13:24		10.57		0.39		99.40		11.04		00.80
+03/18/03	10:57		11.01		15.88		93.80		09.35		25.99
+03/19/03	10:55		09.98		05.68		86.10		09.37		10.24
+04/14/03	09:30		12.06		13.03		92.00		09.07		21.76
+04/15/03	09:26		09.59		02.06		86.40		09.71		04.05
+05/12/03	08:30		13.65		05.96		81.90		08.20		10.54
+05/13/03	09:27		15.01		11.03		85.60		08.05		18.89
+06/01/03	14:31		20.17		18.82		108.70	08.82		30.16
+06/02/03	14:55		18.72		19.17		107.20	08.91		30.73
+06/26/03	10:29		17.15		13.80		96.60		08.55		23.03
+06/27/03	11:25		17.31		19.73		100.60	08.58		31.63
+07/17/03	14:00		22.86		23.49		120.10	9.01		37.14
+07/18/03	14:55		22.76		26.21		114.20	08.46		41.01
+08/14/03	12:25		20.95		26.99		109.40	08.33		42.03
+08/15/03	13:29		21.60		30.76		96.10		07.06		47.22
+09/08/03	09:59		16.56		29.81		72.40		05.89		45.95
+09/09/03	11:26		16.29		30.72		83.50		06.80		47.16
+10/06/03	09:00		14.55		29.98		71.40		06.01		46.18
+10/07/03	11:26		15.61		31.22		80.20		06.59		47.92
+11/06/03	09:55		09.00		29.14		90.09		08.70		45.38
+11/07/03	09:26		09.38		28.74		85.30		08.11		44.75
+12/03/03	09:28		11.09		19.58		84.70		08.22		31.45
+12/04/03	09:27		10.69		21.06		81.30		07.88		33.70
+01/05/04	11:28		07.05		10.28		91.90		10.40		17.41
+							
+Site	
+Date		Time		Temp		Sal		DO, %		DO, mg/l	SpCon
+SE		
+12/20/02	10:20		09.30		18.50		81.30		08.31		29.88
+01/21/03	12:30		10.10		14.90		83.50		08.58		24.69
+01/22/03	12:56		11.20		16.70		85.00		08.33		27.33
+02/20/03	14:55		10.50		15.00		88.20		09.19		24.60
+02/21/03	12:31		11.15		01.11		76.60		08.30		04.06
+03/18/03	11:31		11.25		15.62		94.10		09.38		25.57
+03/19/03	11:25		10.93		13.81		88.10		08.93		22.23
+04/14/03	09:59		12.32		12.99		89.60		08.84		21.70
+04/15/03	10:01		10.96		10.73		82.60		08.55		18.15
+05/12/03	09:02		14.56		08.99		76.30		07.34		15.30
+05/13/03	10:04		15.57		11.32		86.90		08.19		18.98
+06/01/03	13:58		21.26		17.39		115.10	09.23		28.15
+06/02/03	15:24		20.95		16.36		115.30	09.42		26.64
+06/26/03	11:00		19.25		19.37		106.0		08.76		30.98
+06/27/03	11:56		19.86		20.67		95.40		07.77		33.12
+07/17/03	14:27		23.78		27.58		111.70	08.04		42.89
+07/18/03	15:29		24.24		27.89		109.70	07.84		43.33
+08/14/03	12:56		22.83		29.74		108.90	07.90		45.84
+08/15/03	14:00		23.69		30.61		96.90		06.89		47.06
+09/08/03	10:29		17.43		29.53		83.00		06.66		45.52
+09/09/03	11:57		17.27		29.31		87.00		07.01		45.21
+10/06/03	09:30		14.79		29.33		76.20		06.43		45.28
+10/07/03	10:56		16.22		30.06		78.50		06.41		46.37
+11/06/03	08:30		08.89		28.15		90.40		08.74		43.97
+11/07/03	09:57		09.22		27.96		86.80		08.32		43.71
+12/03/03	09:58		11.12		18.48		72.50		07.18		29.83
+12/04/03	09:56		10.49		19.00		75.70		07.54		30.47
+01/05/04	10:55		06.85		07.11		88.80		10.30		11.05
+							
+Site	
+Date		Time		Temp		Sal		DO, %		DO, mg/l	SpCon
+CH	
+12/20/02	11:27		12.10		31.80		104.80	09.32		48.80
+01/21/03	10:35		11.20		29.10		97.70		08.47		45.13
+01/22/03	11:00		11.40		29.30		93.10		08.45		45.36
+02/20/03	16:26		11.10		30.90		97.20		08.80		47.60
+02/21/03	13:35		10.99		28.32		106.30	09.80		43.98
+03/18/03	10:25		11.17		31.19		107.50	09.69		48.03
+03/19/03	09:33		11.29		26.01		101.20	09.41		40.78
+04/14/03	07:35		11.52		28.30		106.10	09.62		43.99
+04/15/03	10:26		11.31		30.74		106.90	09.63		47.40
+05/12/03	07:55		11.15		31.41		88.90		08.03		48.26
+05/13/03	10:28		11.01		31.95		97.90		08.80		49.10
+06/01/03	12:03		13.49		30.82		114.20	09.81		47.43
+06/02/03	16:29		13.41		31.19		114.10	09.81		47.92
+06/26/03	06:28		15.23		31.15		89.60		07.43		47.73
+06/27/03	08:30		12.95		32.16		98.20		08.47		49.26
+07/17/03	10:35		17.24		32.45		101.60	08.03		49.53
+07/18/03	14:30		13.99		33.36		129.20	10.83		50.87
+08/14/03	13:29		12.82		33.62		124.90	10.69		51.24
+08/15/03	14:29		13.37		33.56		125.20	10.62		51.15
+09/08/03	08:56		13.84		32.96		111.40	09.38		50.30
+09/09/03	13:29		13.41		33.21		119.80	10.17		50.70
+10/06/03	07:33		11.27		33.30		98.60		08.75		50.94
+10/07/03	08:57		11.67		33.20		104.20	09.18		50.78
+11/06/03	08:30		10.76		32.91		97.80		08.80		50.45
+11/07/03	10:25		11.87		32.75		99.60		08.76		50.14
+12/03/03	08:39		11.30		31.79		103.90	09.27		48.92
+12/04/03	09:01		11.23		32.27		102.60	09.16		49.81
+01/05/04	10:05		09.36		29.72		105.50	09.96		46.22
+							
+Site	
+Date		Time		Temp		Sal		DO, %		DO, mg/l	SpCon
+VA	
+12/20/02	09:58		11.40		28.10		96.70		08.86		43.59
+02/20/03	11:30		11.00		28.60		91.50		08.42		44.41
+01/22/03	11:57		11.40		28.30		91.20		08.27		44.07
+02/20/03	15:55		11.00		29.00		97.40		08.96		44.70
+02/21/03	11:31		10.62		20.91		90.70		08.82		33.46
+03/18/03	10:35		11.20		27.92		103.80	09.56		43.46
+03/19/03	10:25		11.26		26.41		96.30		08.92		41.32
+04/14/03	09:00		11.68		26.70		101.90	09.35		41.72
+04/15/03	08:56		11.51		24.85		97.10		09.04		39.17
+05/12/03	09:25		12.44		28.37		90.50		08.09		44.03
+05/13/03	08:59		12.57		28.53		98.50		08.77		44.30
+06/01/03	13:35		14.34		30.22		110.80	09.42		46.25
+06/02/03	14:26		14.09		30.22		113.20	09.65		46.55
+06/26/03	09:55		14.70		31.59		100.80	08.51		48.42
+06/27/03	12:28		12.67		32.67		115.20	09.94		50.00
+07/17/03	13:31		17.51		32.44		124.60	09.79		49.50
+07/18/03	15:58		14.68		33.28		133.50	11.02		50.68
+08/14/03	11:55		17.24		32.93		110.30	08.62		50.12
+08/15/03	12:59		16.58		33.13		103.20	08.23		50.40
+09/08/03	10:57		14.14		32.97		111.30	09.34		50.32
+09/09/03	12:29		12.91		33.27		113.20	09.70		50.82
+10/06/03	09:59		11.57		33.35		99.40		08.76		50.99
+10/07/03	11:54		12.72		33.23		106.90	09.21		50.77
+11/06/03	09:25		09.78		32.78		90.00		08.27		50.34
+11/07/03	08:58		10.90		32.69		92.60		08.32		50.11
+12/03/03	08:58		11.16		29.71		98.60		08.97		46.00
+12/04/03	10:26		11.05		30.23		97.00		08.83		46.70
+01/05/04	10:25		08.75		24.95		100.70	09.97		39.47
+
+Rumrill. S.S. and C.E. Cornu.  1995.  South Slough Coastal Watershed 
+Restoration:  A case study in integrated ecosystem restoration.  Restoration and 
+Management Notes 13:53-57.
+
+Powell, S.L. and Rumrill, S.S.  March 2001.  South Slough National Estuarine 
+Research Reserve:  Monitoring short-term variability and change in the estuary's 
+water quality.  Earth System Monitor, Vol. 11, No. 3, pp. 5-11.
+
+Powell, S. and Rumrill, S.  Tracking Coastal Changes in the South Slough 
+Estuary, OR, PERS poster, Vancouver, BC, April 2003
+
+Powell, S. and Rumrill, S.  NERR—SWMP: A Framework to Assess Short-Term 
+Variability and Long-Term Change in the Tidal Channels of the South Slough 
+Estuary, OR, ERF presentation Seattle, WA, Sept, 2003			
+

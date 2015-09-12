@@ -1,0 +1,332 @@
+Waquoit Bay(WQB) NERR Water Quality Metadata
+(September -December 1999) 
+Latest Update: October 5, 2000 
+                                
+I. Data set and Research Descriptors 
+1. Principal investigator  
+Chris Weidman, Ph.D. 
+Research Coordinator 
+PO Box 3092   
+Waquoit, MA 02536 
+508-457-0495 extension 105 
+wbnerr@capecod.net 
+Contact Person 
+David Giehtbrock, Research Assistant 
+PO Box 3092   
+Waquoit, MA 02536 
+508-457-0495 extension 109 
+wbnerr@capecod.net 
+    
+2. Entry verification: 
+     The data are uploaded in three file formats (each to separate files 
+identified with the same file name but with unique extensions) from the YSI 6000 
+data logger to a PC with the YSI 6000 data transfer software (Kermit).  Two of 
+these (PC6000 and ASCII text formats) are kept on file in the Waquoit Bay 
+National Estuarine Research Reserve  archive.  The comma delimited format data 
+file is imported to the EXCEL spreadsheet program (version 5.0) where it is 
+processed according to standard National Estuarine Research Reserve Central Data 
+Management Office protocol using the CDMO Excel 5.0 macros.  Each file contains 
+one complete month of data. This standard size has been achieved by 
+concatenating (and truncating if necessary) shorter files of interrupted data 
+segments.  File contents are examined for anomalies (e.g., sensor malfunction, 
+battery failure, spurious values, etc.) by visualization of data with the 
+Ecowatch Software provided by YSI.  Data requiring editing are noted and copies 
+of the graphs of raw data are saved at WBNERR.  Data editing to CDMO protocol is 
+conducted in EXCEL.  Missing data (data logger malfunction or maintenance 
+periods) are represented by periods ".". Outliers (data values not within the 
+design range of the respective sensors except for turbidity and depth) are 
+changed to periods.  Data values recorded during deployment or retrieval (i.e., 
+when the instrument was out of the water or in the laboratory) are also changed 
+to periods.  A record of changes is documented in the Data Anomalies section of 
+the metadata file. The monthly files are sent electronically by FTP to CDMO.  
+Copies of all files are retained at the reserve. The Research Assistant, David 
+Giehtbrock, performs all data management
+
+3. Research Objectives: 
+     The primary issue of concern for the Waquoit Bay ecosystem is the influence 
+of  anthropogenic induced alterations by nitrogen enrichment.  Waquoit Bay 
+receives nitrogen from several sources, including septic systems from which 
+leachate percolates into groundwater, which eventually enters the bay, 
+atmospheric sources, runoff containing domestic and agricultural fertilizer and 
+animal waste, and runoff from roads. This elevated nitrogen loading to the bay 
+has resulted in eutrophic conditions that have contributed to alterations of 
+habitats in the bay.  For example, thick mats of seaweeds now cover the bottom 
+where eelgrass meadows thrived in the 1970's.  Unfortunately, there are few 
+definitive records of bay conditions during past decades, which makes it 
+difficult to evaluate the rates of change.  To facilitate future evaluation, 
+long-term records from data loggers are being compiled to track several 
+parameters that describe conditions in this eutrophic system.  Of particular 
+interest are measurements of dissolved oxygen and turbidity.  These long-term 
+records will facilitate evaluation of changes in the ecosystem, which may come 
+about in response to continued development in the watershed.  At present,  
+residential areas are still served by private septic systems typically 
+consisting of septic tanks and leach fields and there is ongoing  non-industrial 
+commercial development, including construction of golf courses, cranberry bogs, 
+and retail shopping outlets.  The long term records will be useful for 
+evaluating the efficacy of remediation efforts intended to reduce the nitrogen 
+loading from these sources to Waquoit Bay. 
+
+4. Research methods: 
+     The previous Research Coordinator determined that Metoxit Point would 
+provide a representative sample site of the bay based on data from the WBNERR 
+BayWatcher Volunteers and data loggers (See Metadata 1998 for Waquoit Bay).  
+This new site represents a change in location for the base line site in 1999.  
+This site has the coordinates, 41o 34.131' N, 070o 31.294' W.  The site was 
+given the designation of MP.  An instrument was operated at this site starting 
+in September and ran through December 1999.  No data were collected at the 
+Reserve prior to September due to lack of personnel.
+      Logger sensors were 0.75 m above the bottom to ensure they were above the 
+dense macro algal mat that covers the bottom of Waquoit Bay. The data logger 
+records measurements of temperature, specific conductivity, salinity, dissolved 
+oxygen, turbidity, water level, and pH at 30 minute intervals during deployment 
+periods of  roughly two weeks. The sampling season is generally from March to 
+December. However, this is dependent on weather conditions and the operational 
+availability of the boat that serves as tender for the loggers.  
+     Data logger deployment is achieved with a mooring set up that consists of  
+75 pound anchor to which two lines are attached. One line is for a surface float 
+that marks the location. The other is shorter and terminates at a smaller float; 
+line length is such that the float remains submerged throughout tidal changes. 
+The data logger is attached to this line in a vertical position so that the 
+sensors (pointing downward) are suspended 75 cm from the bottom. This system was 
+chosen because local regulations prohibit installation of a more permanent 
+structure (e.g., a piling) and to minimize opportunities for vandalism. 
+     During colder months, continuous operations are limited to about two weeks 
+due to limited battery life. In the warmer months, particularly June - 
+September, biofouling of the sensors also limits continuous operation to about 
+two weeks even though battery performance during this period would allow longer 
+deployments.   
+     After a deployment, each logger is brought back to the laboratory for a 
+post calibration check, data downloading, instrument and sensor cleaning, and 
+calibration. These procedures are carried out according to the methods described 
+in the YSI Operating Manual.  Salinity sensors were calibrated with reference 
+seawater that had been previously analyzed with a Guildline salinometer at the 
+Woods Hole Oceanographic Institution.  A 2 point calibration was accomplished 
+using pH buffers 7.0 and 10. The turbidity standard solutions were prepared from 
+formazin dilutions to 100 NTU. Temperature sensors were not calibrated.  Oxygen 
+sensor membranes were inspected before and after each deployment.  Oxygen sensor 
+membranes were replaced after each deployment per recommendation by YSI 
+personnel.  Performance was also evaluated during the post-retrieval check in 
+the laboratory test tank prior to post-calibration.  After a membrane was 
+replaced, calibration was not done until the membrane had been in place for at 
+least 24 hours.  Final calibration was done immediately prior to instrument 
+deployment.
+
+5. Site location and character: 
+     The Waquoit Bay National Estuarine Research Reserve (WBNERR) is located in 
+the northeastern United States on the southern shore of Cape Cod, Massachusetts.  
+About 8,000 people maintain permanent residency in Waquoit Bay's drainage area, 
+which covers parts of the towns of Falmouth, Mashpee, and Sandwich.  During 
+summer months, the population swells 200 to 300%. 
+     WBNERR is representative of shallow coastal lagoons that occur from Cape 
+Cod to Sandy Hook, New Jersey. WBNERR is within the Virginian biogeographic 
+province, on the transitional border (Cape Cod) between the Virginian and the 
+more northern Acadian biogeographic province. 
+     Like many embayments located on glacial outwash plains, Waquoit Bay is 
+shallow, fronted by prominent barrier beaches (i.e., those of South Cape Beach 
+State Park and Washburn Island), and is backed by salt marshes and upland 
+forests giving the Bay a salinity range of 0 - 30 ppt.  Two narrow, navigable 
+inlets, reinforced with granite jetties, have been constructed through two 
+barrier beaches to connect Waquoit Bay with Vineyard Sound to the south.  A 
+third shallow and generally unnavigable inlet opened through the Washburn Island 
+barrier beach during Hurricane Bob in August 1991. It has not been reinforced 
+and its fate remains uncertain.       The western shore of uninhabited Washburn 
+Island, with its low, steep bluffs and forested uplands, forms the western 
+boundary of the reserve.  Tidal waters enter and leave the bay proper (and the 
+Reserve) via the Seapit and Eel rivers, which funnel tidal flows along the 
+western shore of  Washburn Island, through Eel Pond and out to Vineyard Sound.  
+     Dense housing developments cover the two peninsulas that form the western 
+shore of the two rivers.  Although the developments are outside of the Reserve 
+boundaries, nitrogen in discharges from their septic systems (which flows 
+ultimately into the bay via groundwater) and in fertilizer run-off from their 
+lawns has significant effects on the functioning of the Waquoit Bay ecosystem. 
+The impacts of these effects have been a subject of study at the Reserve since 
+its designation in 1988. The subwatersheds are developed to different degrees, 
+some are totally built out with residential housing, some moderately developed, 
+and some are still pristine with no development.  This configuration allows 
+robust experimental designs (e.g., substitution of space for time) which augment 
+results from work done within and near to the Reserve. 
+     At the northern end of the bay, coastal bluffs of glacial till rise 30 feet 
+above sea level, marking the highest elevation within the Reserve.  The northern 
+basin of the bay is its deepest area, 2.3 m mean low water, albeit much of the 
+remainder of the bay is only slightly shallower, averaging roughly 1.6 m. 
+Bourne, Bog, and Caleb ponds are freshwater kettle hole ponds on the northern 
+most shore of the bay.  As components of the same sub-watershed, they have a 
+common albeit minor freshwater outflow into the bay's northern basin via a 
+narrow channel through a brackish marsh.  Although this flow is small, over the 
+centuries it has created a significant delta of coarse sand that overlies much 
+finer sediments found at comparable offshore distances elsewhere. The source of 
+this sand is the sandy beach through which this fresh water discharge must 
+travel. 
+     To the east and south, land in other subwatersheds surrounds several salt 
+and freshwater ponds, including Hamblin and Jehu Ponds, brackish salt ponds that 
+are connected to the bay by the tidal waters of Little and Great rivers, 
+respectively.  The shorelines of the ponds are developed with residences that 
+are occupied both seasonally and year round. Hamblin Pond and Little River are 
+components of one subwatershed, and Jehu Pond and Great River are elements of a 
+separate subwatershed. Further south lies Sage Lot Pond. It is in the least 
+developed subwatershed which also contains the barrier beach and salt marsh 
+ecosystem of the reserve's South Cape Beach State Park. To the east of Sage Lot 
+Pond and within the same subwatershed, lies the highly brackish Flat Pond. It 
+receives minimal tidal flows of salt water from Sage Lot Pond through a narrow, 
+excavated channel. Most of the water flowing in to Flat Pond is groundwater and 
+run off, both of which maybe affected (e.g., nutrients, pesticides, bacteria) by 
+an adjacent golf course and near-by upper-scale residential development.      
+The largest source of freshwater to Waquoit Bay is the Quashnet/Moonakis River.   
+Although named "river", this and the reserve's Childs River might be more 
+appropriately described as "rivulets".  A component of yet another subwatershed, 
+it originates in Johns Pond situated five miles north of the bay and traverses 
+forests, cranberry bogs, residential areas, and the Quashnet Valley Golf Course 
+before entering the bay near the southern part of the northern basin.  The river 
+is called the Quashnet where it flows within the town of Mashpee, and the 
+Moonakis as it enteres the brackish estuary at the river's mouth, in the town of 
+Falmouth.  Quashnet will be used hereafter to refer to the entire river.   
+     The Quashnet River is the only component of the Waquoit Bay estuary system 
+that has sufficient numbers of coliform bacteria to cause it to be closed, at 
+times, to shell fishing. The source(s) of this bacteria is unknown. The Quashnet 
+River delivers significantly less nitrogen to Waquoit Bay than does the Childs 
+River, which lies to the west and also originates in Johns Pond. 
+     The Childs River is the second largest input of freshwater to the bay.  A 
+component of  another subwatershed, it runs through densely developed 
+residential areas. The Childs River subwatershed receives the highest nitrogen 
+loading and is the largest nitrogen contributor of all the subwatersheds in the 
+Waquoit Bay system. 
+     Another, albeit smaller, source of freshwater is the discharge of Red Brook 
+through brackish marshlands into Hamblin Pond.  Additional freshwater enters the 
+bay elsewhere through groundwater seepage, precipitation and the flows of small 
+brooks.  A significant groundwater flow enters the eastern end of the mooring 
+basin at the head of the bay. There is relatively little surface water runoff 
+entering directly into the bay due to the high percolation rates of Cape Cod's 
+coarse, sandy soils. 
+     A data logger is located in Waquoit Bay near the southern tip of a 
+peninsula of land bordering the western mouth of the Quashnet River at 41o  
+34.131' N, 070o  31.294' W and is identified as "Metoxit Point" or MP. This site 
+is influenced by the freshwater discharge from the Quashnet River. The Quashnet 
+River watershed runs the gamut of highly developed to pristine forest. This site 
+is also situated within a natural gyre that circulates water in the middle of 
+the bay. Salinity ranges from 27.3 ppt to 31.9 ppt.  Tidal Range: Spring Mean 
+(m) 0.57 Neap Mean (m) 0.33.  The latitude is 41o34.131' N and the longitude is 
+070o 31.294' W. It is the new reference site for the WBNERR data logger water 
+quality monitoring program in 1999. An instrument will be moored at this site 
+for the long term, in order to collect baseline measurement of "ambient" 
+conditions within Waquoit Bay. This information will be considered to represent 
+the general conditions within the bay.  The site is well flushed by tides, is 
+1.8-2.5 m deep, and is in an area that is minimally disturbed by routine 
+activities on the bay (e.g. boat traffic, shell fishing, etc.).
+     Knowledge of the degree of mixing in Waquoit Bay was originally derived 
+from  measurements made by reserve staff and from data obtained by the reserve's 
+volunteer water quality monitoring group, the Waquoit BayWatchers, who have 
+collected depth profiles of Waquoit Bay water quality since 1993. Subsequent 
+research by reserve staff has revealed that lateral mixing has considerable 
+influence because tidal currents follow a general course through the bay. This 
+results in an overall structure to horizontal patterns of water quality 
+characteristics. The pattern it produces is a gyre in the central portion of the 
+bay whereby currents follow a circular pattern in an anticlockwise direction 
+around a central area that exhibits reduced exchange with the remainder of the 
+bay. The flushing rate within the gyre is diminished when compared with other 
+areas of the bay. The location of the gyre meanders slightly, apparently under 
+the influence of tides and wind.  The MP site is more consistently near the 
+outer regions of the gyre, that is, more frequently in the circular current, and 
+those data are less affected by the meandering of the gyre. (Relocating the 
+logger to the central area of the gyre is impractical because that area if 
+frequented by boat traffic and the logger mooring would be a hazard to 
+navigation.)    
+ 
+6. Data collection period 
+Data collection occurred at site Metoxit Point (MP) from September 20, 1999 
+15:00:00 to December 20, 1999 10:30:00. 
+    
+7. Associated researchers and projects 
+None to report. 
+ 
+8. Variable sequence, range of measurements, units, resolution, and accuracy: 
+ 
+YSI 6000 data logger 
+ 
+Variable Name   Range of Measurements (units)   Resolution           Accuracy 
+Date            1-12, 1-31, 00-99 (Mo,Day,Yr)   1 month, 1 day, 1 year   NA 
+Time            0-24, 0-60, 0-60 (Hr, Min, Sec) 1 hr, 1 min, 1s          NA 
+Temp           -5 to 45 (C)                     0.01 C                +/-0.15C 
+SpCOND          0-100 (mS/cm)                   0.01mS/cm    +/-0.5% of reading+ 
+                                                                 0.001 mS/cm 
+Salinity        0-70 Parts per thousand (ppt)   0.01ppt      +/-1.0% of reading 
+                                               or 0.1 ppt (whichever is greater) 
+DO              0-200 (% air Saturation)        0.1% @air sat.  +/-2% @air sat.  
+DO              200-500 (% air Saturation)  0.1% @air saturation +/-6% @air sat. 
+DO              0-20 (mg/l)                     0.01mg/l         +/-0.2mg/l 
+DO              20-50 (mg/l)                    0.01mg/l         +/-0.6mg/l 
+Depth (shallow) 0-9.1 (m)                       0.001m           +/-0.018m 
+pH              2-14 units                      0.01units        +/-0.2units 
+Turb            0-1000 NTU                      0.1NTU         +/-5% of reading 
+                                                 or 2 NTU (whichever is greater) 
+ 
+9. Coded variable code definitions 
+     The file names are labeled according to site identifier code, month, year 
+(e.g., mp0999).   
+Identifier codes are; Metoxit Point, Waquoit Bay, mp = a site about 1200 feet 
+north of the cb site 
+(see Metadata Waqoit Bay 1998). Mp was the only site where a data logger was 
+operated during 1999.  
+ 
+10. Data anomalies 
+  
+October 1999 
+
+Metoxit Point 
+The following were small negative turbidity values, possibly due to a small 
+calibration error. These data were not deleted.    
+     10/6 15:30, 16:00, 18:30, 19:30, 21:00-23:30 
+     10/7 0:00-9:00, 16:30-18:00, 23:30 
+     10/8 0:30, 1:30, 2:30, 3:00, 5:00, 5:30, 22:30, 23:00, 23:30 
+     10/9 0:00-14:00 
+     10/10 10:00-11:30, 23:00, 23:30 
+     10/11 0:00-4:30, 7:00, 18:00, 20:30, 21:00, 22:30 
+     10/12 2:30-4:00, 5:00, 6:30 
+     10/13 1:00-8:30, 9:30-10:30 
+     10/14 21:30:00 
+     10/16 5:00-5:30, 7:00-8:30, 10:30-13:30, 14:30-15:00, 18:30, 19:00, 20:00,  
+21:00-23:30 
+     10/17 0:00-11:30, 12:30, 13:00, 15:00, 16:00-17:00, 19:00-20:00, 22:00-
+23:00 
+     10/18 0:00, 1:30, 2:30, 4:30, 6:00-8:00 
+     10/20 12:30-13:30, 15:00, 15:30 19:00-20:30, 21:30-23:30 
+     10/21 0:00-1:00, 3:30, 6:30-11:30, 14:00-15:00, 17:30-18:30, 20:30, 22:00-
+23:30 
+     10/22 0:30, 1:00, 2:00-17:30, 18:30-22:30, 23:30 
+     10/23 0:30-11:30 
+     10/24 20:00 
+     10/25 3:00, 3:30, 4:30-6:30, 8:30-12:00, 13:00-18:30, 19:30, 20:00, 21:00, 
+23:30 
+     10/26 0:00-23:30 
+     10/27 0:00, 5:00, 6:00, 6:30 
+     10/28 5:00, 6:00, 7:00-11:00, 12:00-16:00 
+  
+11. Missing data 
+     Data loggers were not operated until September 20. 
+ 
+The following data are missing during the period September 1 through December 
+31, 1999: 
+ 
+September 1999: 
+     MP: No data were collected until September 20. 
+October 1999: 
+     MP: No data were collected between 10/28 16:30 and 10/29 10:00 due to a 
+loss of battery power. 
+
+November 1999: 
+     MP: No data were collected between 11/19 14:00 and 11/30 23:30.  There was 
+an apparent power malfunction.  It is suspected that the logger took some kind 
+of sharp blow during the deployment, causing the circuitry to malfunction. 
+December 1999: 
+     MP: No data was collected between 12/01 00:00 and 12/03 14:00.  Please note 
+comments 
+for November. Loss of data in November continued until 12/03 14:00. 
+	No data collected from 12/20 11:00 through 12/31 23:30. Period for 
+collection ended at this time.
+
+         
+            
+12. Other remarks/notes 
+     As suggested by the previous research coordinator, the baseline site was 
+moved to 41o  34.131' N 070o  31.294' W.  Data were collected at this site from 
+September 20, 15:00, through December 20, 10:30. 
+

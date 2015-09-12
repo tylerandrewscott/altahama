@@ -1,0 +1,700 @@
+Tijuana River Estuary (TJR) NERR Water Quality Metadata 
+January to December 1999
+Last Revised August 16, 2000
+
+I. Data Set and Research Descriptors
+
+1. Principal Investigators and contact persons
+
+
+Gregory Abbott, Acting Research Coordinator	301 Caspian Way  
+						Imperial Beach, CA 91932
+						phone: 
+						e-mail: trnerr@ixpres.com
+
+Phil Jenkins, Reserve Manager			301 Caspian Way  
+						Imperial Beach, CA 91932  
+						phone: (619) 575-3615
+						e-mail: pjenkins@ixpres.com
+
+Michelle Cordrey, Research Specialist		Pacific Estuarine Research 
+Laboratory
+						San Diego State University
+						San Diego, CA  92182-1870
+						phone: (619)594-7422
+						E-mail:	 mcordrey@perl.sdsu.edu
+
+
+2.  Entry Verification:
+	The data are uploaded directly from the YSI model 6000upg dataloggers to 
+the YSI PC6000 software into a file appended with the suffix .dat. The data are 
+also downloaded directly from the datalogger into a spreadsheet importable file 
+appended with the suffix .csv.  The data are then reviewed for major problems 
+(i.e. logger out of water, probe malfunction, battery failure etc.) using the 
+YSI PC6000 plotting software.  The resulting plot is printed out and saved in a 
+folder named "datalogger deployment log".  The .csv file is imported 
+into Excel 5.0 for Macintosh and is edited and formatted.
+	The tails of each sampling period are deleted and any suspect data is 
+identified with the aid of Excel CDMO 5.0 macros and are evaluated and dealt 
+with according to CDMO Operations Manual (ver.3.0) guidelines.  The parameter 
+columns are checked for proper order and formatted to the correct decimal places 
+using the "column reformat" macro supplied by the CDMO.  Missing data fields are 
+inserted into the Excel spreadsheet and are denoted by periods (.).  Reasons for 
+any missing or anomalous data are entered directly into the data file and the 
+edited file is saved as a two-week excel file.  When an entire month of 
+two-week edited data files have been collected, the files are combined into a 1 
+month excel file.   Any dates and times when data was not collected are inserted 
+and the reason for the missing data (from the deployment log) are entered 
+directly into the excel file along with the editing information from the two 
+week files.  All editing and missing data documentation are also recorded in an 
+excel file named "missing data log".  The information in the "missing data log" 
+is transferred to the metadata form. The edited and raw files are archived on a 
+Sun Sparc 20 workstation and backed up to tape weekly.  Data and metadata files 
+are uploaded via ftp to the CDMO. The person responsible for the data management 
+is Michelle Cordrey. 
+
+3.  Research Objectives:
+	The Tijuana Estuarine Research Reserve is impacted heavily by both 
+periodic raw sewage outflows and urban development. Only about a quarter of the 
+reserve's 2,531 acres are tidally influenced with few channels deep enough for 
+deployment of dataloggers.   
+
+Initially two stations were set up; the "treatment" station was set up close to 
+the mouth on the Southern end of the Oneonta Slough.  It was thought that this 
+location would be best suited for monitoring changes caused by sewage outflow 
+events.   The "control" station was set up on the northern end of Oneonta 
+Slough.  Deployment at the treatment station, however, was continually halted by 
+both shifting sediment and massive wracks of Kelp (macrocystis pyrifera) which 
+would often bury the deployment set-up on incoming tides.  After a number of 
+different deployment equipment designs were implemented, with no success, 
+logging at this site was terminated.  Recently, however, a new channel was 
+dredged in the northeast section of the estuary to increase tidal flushing.  
+This restoration site named the "Tidal Linkage" will be the new location of the 
+"treatment" site.  Comparisons will be made with the natural site as the 
+hydrology of the constructed treatment site changes over time.
+
+4.  Research Methods (Dataloggers)
+	A 4 inch diameter PVC pipe was strapped to a 6 ft length of steel fencing 
+post and driven into the sediment until refusal prior to datalogger deployment 
+in the center of the channel.  The bottom of the pipe is raised 1' off of the 
+channel bottom and is capped. Multiple 1.5" holes have been drilled in the 
+bottom  cap and sides to permit unrestricted flow to the sensors.  The 
+datalogger units are then placed into and rest on the bottom of the tubes during 
+deployment.  The sampling period is two weeks with measurements being taken 
+every 30 minutes.  Measurements for specific conductivity, salinity, dissolved 
+oxygen (percent saturation), dissolved oxygen (mg/l), temperature, turbidity and 
+water level are recorded.  At the end of each two week period, the YSI data 
+logger unit  is replaced by another YSI datalogger unit and brought back to the 
+laboratory for downloading, cleaning and recalibration. These procedures are 
+carried out according to the methods described in the YSI Operations Manual 
+version 3.0(see sections 3 and 7). Calibration standards for Specific 
+Conductivity, pH and turbidity are purchased pre-made from VWR scientific.  The 
+QA/QC procedures for the collected data are followed as given in the CDMO 
+Operations Manual version 3.0. 
+	In May 1997 sampling at the "Tidal Linkage" station began.  All 
+deployment, calibration and QA/QC procedures were followed exactly as they are 
+at the Oneonta Slough station. 
+	Additionally, starting on May 23, 1997 plastic mesh sleeves were placed on 
+sondes at both stations to inhibit crabs from interfering with the sensors.
+
+5.  Site location and character
+General site Characteristics (TJE)
+a) Tidal exchange (extremes): approx. -2 +7 MLLW,
+b) Salinity: 4 ppt (extreme rain events) to 38 ppt
+c) Potential impacts: storm drain runoff from military airfield and adjacent 
+residential areas, occasional sewage spills (10-15 MGD) into the Tijuana River 
+from Mexico.  The area surrounding the estuary is heavily developed by 
+residential housing as is the watershed which drains into the estuary.  
+Approximately 2/3 of the watershed is in Mexico.  The North Eastern section of 
+the reserve is bordered by a military helicopter training base.  Vegetation 
+in the area is dominated by common pickleweed (Spartina virginica) and Pacific 
+cordgrass (Spartina foliosa).  
+
+Specific Site characteristics: Oneonta Slough
+a) Orientation of site:  Datalogger is located on the upper portion of Oneonta 
+Slough.  The channel runs North to South and is located on the northwestern edge 
+of the reserve. Latitude is 32 deg  34 min 04.8 sec N, longitude is 117 deg 07 
+min 52.3 sec W.
+b) The elevation of the channel bottom directly below the datalogger is approx. 
+0.55m below Mean Sea Level.
+c) Channel width is approx. 20 meters.  Datalogger site is located 1km from 
+mouthd) Bottom type: sand and sediment
+e) Area adjacent to west side of channel is developed. There is a 50 meter 
+buffer of natural vegetation between development and the channel.  Area adjacent 
+to east side of channel is relatively natural.
+f) Direct impacts are estimated to be runoff from streets into channel during 
+rain events.
+
+Specific Site Characteristics: The Tidal Linkage
+a) Orientation of site:  Datalogger is located in the middle of the constructed 
+channel known as the Tidal Linkage.  The channel runs Northwest to Southwest and 
+is located adjacent to the visitor's center in the northeastern section of the 
+reserve. Latitude is 32 deg 34 min 24.9 sec N, longitude is117 deg 07 min 32.2 
+sec N.  In November of 1999 the datalogger site was moved approximately 180 
+meters northwest to a deeper section of the same channel.  The latitude of 
+the new site is 32 deg 34 min 27.9 sec N, the longitude is 117 deg 07 min 37.8 
+sec W.
+b) The elevation of the channel bottom at the site prior to November 1999 is 
+approximately 0.9m below Mean Sea Level. The depth at the new site has not yet 
+been surveyed.
+c) Channel width:  Approximately 5 meters at both the old and new sites
+d) Bottom type: mostly mud at both old and new sites.
+e) Direct impacts: none that are specific to the Tidal Linkage and not to the 
+estuary as a whole. i.e.  urban development, high periodic sewage inputs from 
+Mexico, etc.
+
+6. Data Collection period:
+
+Oneonta Slough
+Began			Ended
+12/21/98, 14:00:00      01/07/99, 15:00:00
+01/07/99, 15:30:00	01/20/99, 15:00:00
+01/20/99, 15:30:00	02/08/99, 12:30:00
+02/09/99, 15:30:00	02/26/99, 13:00:00
+02/26/99, 13:30:00	03/12/99, 17:00:00
+03/12/99, 17:19:03	03/29/99, 14:49:03
+03/29/99, 15:00:00	04/20/99, 10:30:00
+04/20/99, 11:00:00	05/11/99, 15:30:00
+05/11/99, 16:00:00	05/26/99, 14:30:00
+05/26/99, 15:00:00	06/08/99, 13:00:00
+06/08/99, 13:30:00	07/08/99, 13:00:00
+07/08/99, 13:30:00	08/05/99, 12:00:00
+08/05/99, 12:30:00	08/20/99, 07:30:00
+08/20/99, 08:16:57	09/03/99, 09:46:57
+09/03/99, 10:00:00	09/24/99, 14:30:00
+09/24/99, 15:00:00	10/07/99, 14:00:00
+10/07/99, 14:30:00	10/26/99, 14:00:00
+10/26/99, 14:30:00	11/23/99, 15:30:00
+11/23/99, 16:00:00	12/20/99, 14:30:00
+12/21/99, 16:00:00	12/31/99, 23:30:00
+
+Tidal Linkage
+Began			Ended
+12/22/98, 15:30:00	01/06/99, 14:00:00
+01/06/99, 14:30:00	01/26/99, 14:30:00
+12/03/99, 16:30:00	12/23/99, 23:30:00
+
+7.  Associated researchers and projects
+Sharook Madon (PERL) is using temperature data from the dataloggers in a model 
+to evaluate the value of marsh surface access in killi fish growth.  Greg 
+Williams and Janelle West (PERL) are looking at shifts in fish and invertebrate 
+assembleges associated with the 1997 - 1998 el nino event. The Tidal Linkage 
+channel is the ongoing site of research being conducted by PERL which focuses on 
+methods for increasing the success of saltmarsh revegetation projects.
+
+II. Physical Structure Descriptors
+
+8.  Variable sequence, column format, range of measurements, units for:
+
+YSI 6000upg datalogger:
+
+Variable Name		Range of Measurements (units)	Resolution		
+	Accuracy
+Date			1-12,1-31,00-99 (Mo,Day,Yr)	1 month,1 day, 1 year		NA
+Time			0-24,0-60,0-60 (Hr,Min,Sec)	1 hour, 1 minute, 1 second	NA
+Temp			-5 TO 45 ( C)			0.01 C			
+	+/-0.15C
+SpCond			0-100 (mS/cm) 			0.01 mS/cm		
+	+/-(.5% of reading)
+Sal			0-70 parts per thousand (ppt)	0.1 ppt			+/-1.0% 
+of reading or 0.01 ppt 
+											(whichever is 
+greater)
+DO			0-200 (% air Saturation)	0.1% @air saturation	
+	+/-2.0%@air sat.
+DO			200-500 (% air saturation)	0.1% @air saturation	
+	+/-6%@air sat.
+DO			0-20 (mg/l)			0.01 mg/l			+/-0.2 mg/l
+DO			20-50 (mg/l)			0.01 mg/l			+/-0.6 
+mg/l
+Depth(shallow)		0-9.1(m)			0.001m			
+	+/-0.018 m
+pH			2-14 units			0.01 units			+/-0.2 units
+Turbidity		0-1000 (NTU)			0.1 NTU			
+	+/-5% of reading
+											or 2 NTU  
+(whichever is greater)
+
+data columns are separated by tabs
+
+9.  Coded variable indicator and variable code definitions
+Site definitions:  OS = Oneonta Slough  TL = Tidal Linkage
+
+
+10.  Data anomalies (suspect data):
+
+January 1999
+
+Oneonta Slough
+a) 01/07(15:30) - 01/20(15:00), depth converted from ft to m
+b) 01/28 (04:30) - 01/31(23:30) , average DO% and DOmg values show anomalous 
+decline. May be due to storm event. Data were left in.
+The following negative turbidity values were removed:
+Date	Time	Turb
+01/26/99	03:30:00	-0702
+01/26/99	04:00:00	-0017
+01/26/99	23:00:00	-0008
+01/26/99	23:30:00	-0886
+01/27/99	00:00:00	-0045
+01/27/99	03:30:00	-0293
+01/27/99	04:00:00	-0122
+01/27/99	04:30:00	-0118
+01/28/99	04:00:00	-0245
+01/28/99	05:00:00	-0038
+
+Tidal Linkage
+a)Negative Depths
+  Date    Time
+01/06/99  16:30-23:00
+01/07/99  07:00-08:00, 17:00-23:30
+01/08/99  09:00, 18:30-23:30
+01/09/99  00:00, 20:00-23:30
+01/10/99  00:00-01:00, 15:00-15:30, 20:00-23:30
+01/11/99  00:00-01:00, 14:30-16:00, 22:30-23:30
+01/12/99  00:00-01:00, 12:00-13:00, 17:00
+01/13/99  00:00-01:30
+01/14/99  00:30-02:30
+b) 01/01(00:00) - 01/06(14:00), all parameters missing - sediment covered 
+sensors. data were removed
+c) 01/16(00:00) - 01/26(14:30), all parameters missing - sediment covering 
+bottom of deployment holder and sensors.  Data were removed
+
+
+February 1999
+
+Oneonta Slough
+02/01(00:00) - 02/08(12:30), DO% and DOmg anomalously low. May be due to storm 
+event. Data were not removed.
+02/04(18:00) - 02/08(12:30), pH values anomalously low.  May be due to storm 
+event.  Data were not removed.
+The following negative turbidity value was removed:
+02/05/99	0:00:00	-0143
+
+Tidal Linkage
+no sonde deployed
+
+
+March 1999
+
+Oneonta Slough
+03/12(17:30) - 03/29(15:00), time offset by -10min 57sec. Time values were 
+adjusted to nearest :00 or :30 min interval.
+The following positive turbidity spikes removed:
+Date	Time	Turb
+03/10/99	13:30:00	0206
+03/10/99	15:30:00	0282
+03/13/99	17:30:00	0992
+The following slightly negative turbidity value was recorded and not removed:
+03/13/99	18:00:00	-0001
+
+Tidal Linkage
+no sonde deployed
+
+
+April 1999
+
+Oneonta Slough
+04/20(11:00) - 04/30(23:30), DO% and DOmg missing - values fell below range of 
+sensor. Data were removed.
+04/20(11:00) - 04/30(23:30), pH missing - probe failed during deployment. Data 
+were removed.
+
+Tidal Linkage
+no sonde deployed
+
+
+May 1999
+
+Oneonta Slough
+05/01(00:00) - 05/11(15:30), DO% and DOmg missing - values fell below sensor 
+range. Data were removed.
+05/01(00:00) - 05/11(15:30), pH missing post calibration too low. Data were 
+removed.
+05/11(16:30) - 05/12(17:30), DO% and DOmg average values were anomalously high. 
+No reason found 
+
+Tidal Linkage
+no sonde deployed
+
+
+June 1999
+
+Oneonta Slough
+06/08(14:00) - 06/30(23:30), DO% and DOmg missing - values fell below range of 
+sensor early in deployment. Data were removed.
+06/28(16:30) - 06/30(23:30), Turbidity missing - wiper parked over optics. Data 
+were removed.
+The following slightly negative turbidity values were recorded but not removed:
+Date	Time	Turb
+06/04/99        00:00:00        -0001
+06/09/99	19:30:00	-0001
+06/10/99	20:30:00	-0001
+06/13/99        10:30:00        -0001
+06/13/99	16:00:00	-0001
+06/15/99	12:00:00	-0001
+06/20/99	17:00:00	-0001
+06/22/99        05:30:00        -0001
+
+Tidal Linkage
+no sonde deployed
+
+
+July 1999
+
+Oneonta Slough
+07/01(00:00) - 07/08(13:00), turbidity missing - wiper parked over optics. Data 
+were removed
+07/01(00:00) - 07/08(13:00), DO% and DOmg missing - data removed -values fell 
+below sensor range during deployment
+07/19(22:30) - 07/31(23:30),  ph missing - post cal showed probe decline. Data 
+were removed.
+07/29(18:00) - 08/05(12:00), Turbidity missing - wiper parked over optics. Data 
+were removed.
+The following slightly negative turbidity values were recorded but not removed:
+Date	Time	Turb
+07/13/99	10:30:00	-0001
+07/14/99        11:00:00        -0001
+07/15/99	12:30:00	-0001
+07/16/99        13:00:00        -0001
+07/18/99	14:30:00	-0001
+07/18/99	15:00:00	-0001
+07/19/99        16:00:00        -0001
+07/20/99        08:30:00        -0001
+
+Tidal Linkage
+no sonde deployed
+
+
+August 1999
+
+Oneonta Slough
+08/01(00:00) - 08/05(12:00), specific conductance, salinity, DO%, DOmg and pH 
+missing - drift was too large towards end of deployment.  Data were removed 
+08/05(12:30) - 01/00(17:31), Depth converted from ft to meters
+08/05(12:30) - all parameters missing. Reading was taken too close to sonde 
+deployment. Data were removed.
+08/20(08:30) - 08/31(23:30), time offset by (- 00:13:03). times corrected to 
+nearest 00:00:00 or 00:30:00 interval
+08/22(20:00) - 08/31(23:30), DO% and DOmg missing - puncture in membrane 
+suspected. Data were removed.
+
+Tidal Linkage
+no sonde deployed
+
+
+September 1999
+
+Oneonta Slough
+09/01(00:00) - 09/03(09:30), DO% and DOmg missing - puncture in membrane 
+suspected. Data were removed.
+09/01(00:00) - 09/03(10:00), time offset by - 00:13:03 times corrected to 
+nearest 00:00:00 or 00:30:00 interval
+09/03(10:30) - 09/24(14:30), depth converted from ft to meters
+09/24(15:00) - 09/30(23:30), pH data missing - probe malfunctioned during 
+deployment. Data were removed
+The following positive turbidity spikes were recorded and removed:
+
+Date	Time	Turb
+09/01/99	03:00:00	0314
+09/01/99	03:30:00	0314
+09/01/99	04:00:00	0314
+09/01/99	04:30:00	0314
+09/01/99	05:00:00	0314
+09/01/99	05:30:00	0314
+09/01/99	12:00:00	0314
+09/01/99	12:30:00	0314
+09/01/99	13:00:00	0314
+09/01/99	13:30:00	0314
+09/01/99	14:00:00	0314
+09/01/99	14:30:00	0314
+09/01/99	15:30:00	0314
+09/01/99	16:00:00	0314
+09/01/99	16:30:00	0314
+09/01/99	17:00:00	0314
+09/01/99	17:30:00	0314
+09/02/99	18:30:00	0314
+09/02/99	19:00:00	0314
+09/02/99	19:30:00	0314
+09/02/99	20:30:00	0314
+
+Tidal Linkage
+no sonde deployed
+
+
+October 1999
+
+Oneonta Slough
+10/01(00:00) - 10/07(14:00), pH missing - probe malfunctioned during deployment. 
+Data were removed. 
+10/07(14:30) - 10/26(14:00), Depth values converted from feet to meters
+Negative Turbidity
+Date   Time
+10/26  19:30
+10/26  20:00
+Tidal Linkage
+no sonde deployed
+
+
+November 1999
+
+Oneonta Slough
+11/13(00:00) - 11/23(15:00), specific conductance, salinity, DO% and  Domg were 
+removed. drift too large towards end of deployment.
+
+Tidal Linkage
+no sonde deployed
+
+
+December 1999
+
+Oneonta Slough
+12/10(00:00) - 12/20(14:30), specific conductance, salinity, DO% and DOmg 
+missing - Drift was too high towards end of deployment.  Data were removed.
+12/21(16:30) - 12/31(23:30) - depth converted from ft to meters
+12/21 (16:30) -12/31(23:30), pH missing - probe malfunction.
+The following negative turbidity (-0001) remain in the data set:
+Date    Time      
+12/22   20:30-21:30
+12/23   19:30, 23:00-23:30
+12/24   10:30
+12/26   00:30
+12/27   11:00-12:00, 13:00-13:30
+12/28   03:00, 13:30-14:00
+12/30   04:30-05:00, 14:30
+12/31   00:00, 06:00
+
+Tidal Linkage
+The following positive turbidity spikes were recorded and removed:
+Date	Time	Turb
+12/07/99	04:30:00	0155
+12/15/99	15:30:00	1600
+12/18/99	17:30:00	0136
+12/18/99	19:00:00	0304
+12/31/99	22:00:00	0274
+The following negative depths remain in the data set:
+Date       Time
+12/04/99   02:30-03:30
+12/07/99   18:00-19:30
+12/09/99   19:30-20:30
+12/10/99   18:30-21:00
+12/16/99   21:30-23:30
+12/17/99   00:00-02:30, 23:00-23:30
+12/18/99   00:00-02:30, 14:30-16:30, 23:00-23:30
+12/19/99   00:00-03:00, 16:00-17:00
+12/20/99   01:00-03:00, 17:00-18:00
+12/21-99   01:30-03:30, 17:30-18:30
+12/29/99   20:30-22:00, 23:30
+12/30/99   00:00-01:30
+
+
+
+11. Missing Data:
+
+January 1999
+
+Oneonta Slough
+01/01(00:00) - 01/07(15:00), pH missing - no probe installed.
+01/20(15:30) - 01/31(23:30), pH missing - no probe installed.
+The following negative turbidity values were removed:
+Date	Time	Turb
+01/26/99	03:30:00	-0702
+01/26/99	04:00:00	-0017
+01/26/99	23:00:00	-0008
+01/26/99	23:30:00	-0886
+01/27/99	00:00:00	-0045
+01/27/99	03:30:00	-0293
+01/27/99	04:00:00	-0122
+01/27/99	04:30:00	-0118
+01/28/99	04:00:00	-0245
+01/28/99	05:00:00	-0038
+
+Tidal Linkage
+01/01(00:00) - 01/06(14:00), all parameters missing - sediment covered sensors. 
+data were removed
+01/06/99(15:00) - 01/15/99(23:30), Turbidity missing - no probe installed.
+01/06(14:30), all parameters missing - first reading too close to the 
+deployment.  data were removed.
+01/16(00:00) - 01/26(14:30), all parameters missing - sediment covering bottom 
+of deployment holder and sensors.  Data were removed
+01/26(15:00) - 01/31(23:30), all parameters missing - logger could no longer be 
+deployed at site due to slumping of banks which caused site to become too 
+shallow.
+
+
+February 1999
+
+Oneonta Slough
+The following negative turbidity value was removed:
+02/05/99	0:00:00	-0143
+
+Tidal Linkage
+02/01(00:00) - 02/28(23:30), all parameters missing - no sonde deployed.
+02/08(13:00) - 02/09(15:00), all parameters missing - maintenace and calibration
+
+
+March 1999
+
+Oneonta Slough
+03/29(15:30) - 03/31(23:30), all parameters missing- internal error, unit logged 
+but data file was corrupted and could not be downloaded.
+Turbidity spikes removed:
+Date	Time	Turb
+03/10/99	13:30:00	0206
+03/10/99	15:30:00	0282
+03/13/99	17:30:00	0992
+
+Tidal Linkage
+03/01(00:00) - 03/31(23:30), all parameters missing - no sonde deployed.
+
+
+April 1999
+
+Oneonta Slough
+04/01(00:00) - 04/20(10:30), all parameters missing- internal error, unit logged 
+but data file was corrupted and could not be downloaded.
+04/20(11:00) - 04/30(23:30), DO% and DOmg missing - values fell below range of 
+sensor. Data were removed.
+04/20(11:00) - 04/30(23:30), pH missing - probe failed during deployment. Data 
+were removed.
+
+Tidal Linkage
+04/01(00:00) - 04/30(23:30), all parameters missing - no sonde deployed.
+
+
+May 1999
+
+Oneonta Slough
+05/01(00:00) - 05/11(15:30), DO% and DOmg were removed - values fell below 
+sensor range
+05/01(00:00) - 05/11(15:30), pH missing,post calibration readings too low. Data 
+were removed.
+05/11(16:00), all parameters missing - maintenance and calibration
+
+Tidal Linkage
+05/01(00:00) - 05/31(23:30), all parameters missing - no sonde deployed.
+
+
+June 1999
+
+Oneonta Slough
+06/08(14:00) - 06/30(23:30), DO% and DOmg missing - values fell below range of 
+sensor early in deployment. Data were removed.
+06/28(16:30) - 06/30(23:30), Turbidity missing - wiper parked over optics. Data 
+were removed.
+06/08(13:30) - all parameters missing - maintenance and calibration
+
+Tidal Linkage
+06/01(00:00) - 06/30(23:30), all parameters missing - no sonde deployed.
+
+
+July 1999
+
+Oneonta Slough
+07/01(00:00) - 07/08(13:00), DO% and DOmg missing -values fell below sensor 
+range during deployment. Data were removed.
+07/01(00:00) - 07/08(13:00), turbidity missing - wiper parked over optics. Data 
+were removed
+07/08(13:30) - 07/08(16:00), all parameters missing - maintenance and 
+calibration
+07/19(22:30) - 07/31(23:30), ph missing - post calibration readings too low.
+07/29(18:00) - 08/05(12:00), Turbidity removed - wiper parked over optics
+
+Tidal Linkage
+07/01(00:00) - 07/31(23:30), all parameters missing - no sonde deployed.
+
+
+August 1999
+
+Oneonta Slough
+08/01(00:00) - 08/05(12:00), specific conductance, salinity, DO%, DOmg and pH 
+missing - drift was too large towards end of deployment.  Data were removed.
+08/05(12:30) -  all parameters missing. Reading was taken too close to sonde 
+deployment. Data were removed.
+08/20(08:00) - all parameters missing - there was a time offset (as recorded in 
+the anomalies section) and the times were changed to the nearest :30 or :00 
+interval causing a gap in the data.
+08/22(20:00) - 08/31(23:30), DO% and DOmg missing - puncture in membrane 
+suspected. Data were removed.
+
+Tidal Linkage
+08/01(00:00) - 08/31(23:30), all parameters missing - no sonde deployed.
+
+
+September 1999
+
+Oneonta Slough
+09/01(00:00) - 09/03(09:30), DO% and DOmg missing - puncture in membrane 
+suspected. Data were removed.
+09/03(10:00) - all parameters missing - maintenance and calibration
+09/24(15:00) - 09/30(23:30) pH data missing - probe malfunctioned during 
+deployment. Data were removed****
+The following positive turbidity spikes were recorded and removed:
+Date	Time	Turb
+09/01/99	03:00:00	0314
+09/01/99	03:30:00	0314
+09/01/99	04:00:00	0314
+09/01/99	04:30:00	0314
+09/01/99	05:00:00	0314
+09/01/99	05:30:00	0314
+09/01/99	12:00:00	0314
+09/01/99	12:30:00	0314
+09/01/99	13:00:00	0314
+09/01/99	13:30:00	0314
+09/01/99	14:00:00	0314
+09/01/99	14:30:00	0314
+09/01/99	15:30:00	0314
+09/01/99	16:00:00	0314
+09/01/99	16:30:00	0314
+09/01/99	17:00:00	0314
+09/01/99	17:30:00	0314
+09/02/99	18:30:00	0314
+09/02/99	19:00:00	0314
+09/02/99	19:30:00	0314
+09/02/99	20:30:00	0314
+
+Tidal Linkage
+09/01(00:00) - 09/30(23:30) , all parameters missing - no sonde deployed.
+
+
+October 1999
+
+Oneonta Slough
+10/01(00:00) - 10/07(14:00), pH missing - probe malfunctioned during deployment. 
+Data were removed. 
+10/26(14:30) - 10/31(23:30), pH missing - no probe depoloyed.
+
+Tidal Linkage
+10/01(00:00) - 10/30(23:30) , all parameters missing - no sonde deployed.
+
+
+November 1999
+
+Oneonta Slough
+11/23(15:30) - all parameters missing - maintenance and calibration
+11/13(00:00) - 11/23(15:00), specific conductance, salinity, DO% and Domg. 
+Drift too large towards end of deployment. Data were removed.
+11/13(00:00) - 11/23(15:00), no pH - no probe installed.
+Tidal Linkage
+11/01(00:00) - 11/30(23:30), all parameters missing - no sonde deployed.
+
+
+December 1999
+
+Oneonta Slough
+12/10(00:00) - 12/20(14:30), specific conductance, salinity, DO% and DOmg 
+missing - Drift was too high towards end of deployment.  Data were removed.
+12/20(15:00) - 12/21(16:00), all parameters missing - maintenance and 
+calibration.
+12/21(16:30) -12/31(23:30), pH missing - probe malfunction. Data were removed.
+
+Tidal Linkage
+12/01(00:00)-12/03(16:00), all parameters missing - no sonde deployed.
+12/03(16:30)-12/31(23:30), pH missing - no probe installed
+The following positive turbidity spikes were recorded and removed:
+Date	Time	Turb
+12/07/99	04:30:00	0155
+12/15/99	15:30:00	1600
+12/18/99	17:30:00	0136
+12/18/99	19:00:00	0304
+12/31/99	22:00:00	0274
+

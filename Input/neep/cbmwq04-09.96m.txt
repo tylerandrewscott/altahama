@@ -1,0 +1,247 @@
+Chesapeake Bay Maryland (CBM) NERR Water Quality Metadata 
+April-September, 1996
+Latest Update: August 13, 2002
+
+I. Data Set and Research Descriptors
+
+1. Principle investigator(s) and contact persons
+Dave Nemazie, Research Coordinator
+University of Maryland Center for Environmental Science
+P.O. Box 775
+Cambridge, MD 21613
+Phone: 410-228-9250, ext. 615
+e-mail: nemazie@ca.umces.edu
+
+2. Entry verification
+The data are uploaded to a PC from the YSI 6000UPG data logger and graphs are 
+produced and quickly examined using the PC6000 software.  Data files are then 
+exported from the PC6000 format into Excel (for Windows NT 3.1) files where the 
+headers, footers, and inappropriate spaces are removed.  Plots of the data are 
+made and suspect data (outliers) are dealt with accordingly.  Removed data 
+points and missing data are replaced with a periods (.).  Edited files are 
+merged to contain one full month for each data logger.  Data is then QA/QC'd 
+using the cdmomac(ro)3.xls macros and Appendix B., YSI 6000 Data Review and 
+Editing Protocol.  Dave Nemazie was responsible for data management.  
+
+3. Research Objectives
+The purpose of the monitoring program at CBM NERR is to conform to the NERR SWMP 
+monitoring program looking at trends in water quality over both temporal and 
+spatial scales.  Differences in how marshes can change water quality is being 
+studied by comparing a marsh creek site to a river channel site.  Measurements 
+are taken every 30 minutes over a 5-14 day period at both the Patuxent River 
+Park (PR) and Jug Bay Wetlands Sanctuary (JB) sites.  
+
+4. Research methods (YSI data loggers)
+Each YSI data logger is laid down on a 4" diameter PVC pipe that has been cut in 
+half.  The PVC is nailed to a 4"x4" block of wood which secured to a crab pot.  
+The crab pot with the data logger in it sits on the bottom at both sites.  At 
+each site, the crab pot is locked to a pier.  The YSI probes sit approximately 
+6-10 centimeters above the sediment.  Every 30 minutes up to a two-week period, 
+measurements for specific conductivity, salinity, percent saturation, dissolved 
+oxygen, temperature and water level are recorded.  Within 14 days of deployment, 
+the data is downloaded and either new calibrated probes or a new YSI unit with 
+calibrated probes are placed at each site.  At times, however, probes and/or 
+units could not be replaced resulting in prolong periods (up to 5 days) of 
+missing data.  Calibration procedures are carried out according to the methods 
+described in the YSI Operating Manual. All calibration standards are purchased 
+from scientific warehouses.  
+
+
+5. Site location and character
+The Chesapeake Bay NERR - Maryland has three components in Maryland’s portion of 
+the Chesapeake Bay.  Monie Bay is a mesohaline region on the lower Eastern 
+Shore; Otter Point Creek is a tidal freshwater river and marsh system; and Jug 
+Bay is part of the freshwater portion of the Patuxent River.  Both data loggers 
+are within the Jug Bay component.
+
+1) Patuxent River Park (PRP) - (38 deg 46’ 00” N, 76 deg 42’ 30” W) is on the 
+Prince Goerges County side of the River.  The data logger is on the flank of the 
+River channel off of Jackson Landing.   The Patuxent is approximately 50 meters 
+wide at Jackson Landing.  High sedimentation rates have led to a very soft 
+bottom at this point in the Patuxent River.  Salinity rarely reaches above 1 
+ppt.
+2) Jug Bay Wetlands Sanctuary (JBWS) - (38 deg 46’ 00” N, 76 deg 42’ 30” W) is 
+on the Anne Arundal County side of the River directly across from PRP.  The data 
+logger is in a shallow tidal marsh creek that is approximately 5 meters wide.  
+Wide temperature fluctuations are normal at this site.
+
+6. Data collection period
+Data loggers were placed in the water in early July and removed in late November 
+just after ice began to form at both sites.
+
+7. Associated researchers and projects
+The Jug Bay Wetlands Sanctuary staff have been collecting weekly to monthly 
+temperature, salinity, dissolved oxygen, and nutrient samples at the same 
+location as the data logger at JBWS.  In addition a graduate student has 
+measured denitrification rates while another student has compared dissolved 
+oxygen measurements using various techniques at the JBWS site.
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, column format, range of measurements, units (for YSI)
+
+YSI 6000 datalogger
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+
+
+9.  Coded variable indicator and variable code definitions
+Site definitions: PR = Patuxent River Park; JB = Jug Bay Wetlands Sanctuary
+
+10. Data anomalies (suspect data)
+Suspect data from any one measurement and data collected at the same time are 
+removed and replaced with a period (.).
+
+April 1996
+PR: High DO spike due to redeployment on 4/19/96 12:00
+
+May 1996
+PR: High DO spike due to redeployment on 5/10/96 14:00
+
+JB: Negative depth data was recorded during the following times:
+Date	Time	Depth
+05/11/96	19:30:00	-0.01
+05/11/96	20:00:00	-0.03
+05/11/96	20:30:00	-0.04
+05/12/96	06:30:00	-0.01
+05/12/96	07:00:00	-0.01
+05/12/96	07:30:00	-0.01
+05/12/96	08:00:00	-0.02
+05/12/96	08:30:00	-0.02
+05/12/96	09:00:00	-0.01
+05/12/96	09:30:00	-0.01
+05/12/96	10:00:00	-0.01
+05/12/96	10:30:00	-0.01
+05/12/96	15:00:00	-0.01
+05/12/96	15:30:00	-0.02
+05/12/96	16:00:00	-0.02
+05/12/96	16:30:00	-0.02
+05/12/96	17:00:00	-0.02
+05/12/96	17:30:00	-0.02
+05/12/96	18:00:00	-0.02
+05/12/96	18:30:00	-0.01
+05/12/96	19:00:00	-0.01
+pH probe failed 5/16/96 15:00:00 to 5/30/96 15:00:00.
+
+June 1996
+PR: pH probe failed 6/20/96 15:00:00 to 6/22/96 07:30:00. pH probe failed 
+6/27/96 14:30:00 to 6/30/96 23:30:00.
+
+JB: Negative depth data was recorded during the following times:
+Date	Time	Depth
+06/12/96	20:30:00	-0.01
+06/12/96	21:00:00	-0.01
+06/12/96	21:30:00	-0.02
+06/12/96	22:00:00	-0.02
+pH probe failed 6/10/96 13:00:00 to 6/20/96 13:30:00. 
+ 
+July 1996
+PR: pH probe failed 7/1/96 00:00:00 to 7/10/96 16:30:00. D.O. data removed due 
+to negative values 7/10/96 17:30:00 to 7/25/96 12:30:00.  D.O. data removed 
+due to negative values 7/25/96 15:30:00 to 7/26/96 21:00:00. D.O. data removed 
+due to negative values 7/27/96 04:30:00 to 7/27/96 21:00:00. D.O. data removed 
+due to negative values 7/28/96 06:30:00 to 7/28/96 11:30:00. D.O. data removed 
+due to negative values 7/29/96 07:00:00 to 7/29/96 11:30:00, 23:00:00. D.O. data 
+removed due to negative values 7/30/96 09:30:00 to 7/30/96 13:00:00. D.O. data 
+removed due to negative values 7/30/96 22:30:00 to 7/31/96 02:00:00. D.O. data 
+removed due to negative values 7/31/96 11:30:00. D.O. data removed due to 
+negative values 7/31/96 22:00:00 to 7/31/96 23:30:00.
+
+JB: pH probe failed 7/15/96 09:30:00 to 7/25/96 14:00:00
+
+August 1996
+PR: Negative DO data removed 8/1/96 00:00-8/2/96 16:00. Negative DO removed 
+8/22/96 02:00. pH probe failed 8/28/96 17:00:00 to 8/31/96 23:30:00. 
+
+JB: D.O. data removed due to possible membrane puncture from 8/5/96 09:30:00 to 8/15/96 
+18:00:00. pH probe failed 8/15/96 18:30:00 to 8/18/96 15:30:00.  Negative DO 
+data deleted the following times: 8/2/96 15:30-8/15/96 14:00, 8/20/96 00:30, 
+06:00-07:30, 11:00, 14:00, 8/21/96 02:30-03:00, 8/23/96 06:30-07:00, 18:30-
+20:00, 8/24/96 07:30-08:00, 19:00-21:00, 8/25/96 08:30-09:00, 8/28/96 22:00, 
+8/28/96 23:00-8/29/96 00:30, 8/29/96 15:00-15:30, 16:30-17:00, 8/30/96 00:00, 
+22:30-8/31/96 02:30.  
+
+September 1996
+PR: pH probe failed 9/1/96 00:00:00 to 9/1/96 11:00:00. pH probe failed 9/7/96 
+15:30:00 to 9/11/96 17:00:00. 
+
+JB: D.O. data removed due to negative values 9/1/96 01:30-02:00, and 23:30:00 to 
+9/11/96 18:00:00. 
+A spike in Specific Conductivity and depth occurred on 9/6/96 22:00 through 9/7/96
+03:30 possibly due to the instrument being out of water.  
+
+
+11. Missing data 
+
+*Note:  No turbidity probes were installed on the YSI instruments during the 
+1996 year.  
+
+April 1996
+PR: data logger was not deployed until 4/19/96 12:00:00.
+JB: data logger was not deployed until 4/19/96 12:00:00.
+
+May 1996
+JB: pH probe failed 5/16/96 15:00:00 to 5/30/96 15:00:00. removed for 
+calibration 5/30/96 12:00:00 to 5/31/96 23:30:00.
+
+June 1996
+PR: data loggers not deployed for servicing 6/4/96 14:00:00-6/10/96 13:00:00. pH 
+probe failed 6/20/96 15:00:00 to 6/22/96 07:30:00. removed for calibration 
+6/27/96 14:00:00. pH probe failed 6/27/96 14:30:00 to 6/30/96 23:30:00.
+JB: removed for calibration 6/1/96 00:00:00 to 6/7/96 12:30:00. pH probe failed 
+6/10/96 13:00:00 to 6/20/96 13:30:00. No data due to instrument swap 6/27/96 
+15:00:00.  
+
+July 1996
+PR: pH probe failed 7/1/96 00:00:00 to 7/10/96 16:30:00. removed for calibration 
+7/10/96 17:00:00. D.O. data removed due to negative values 7/10/96 17:30:00 to 
+7/25/96 12:30:00.  removed for calibration 7/25/96 13:00:00. D.O. data removed 
+due to negative values 7/25/96 15:30:00 to 7/26/96 21:00:00. D.O. data removed 
+due to negative values 7/27/96 04:30:00 to 7/27/96 21:00:00. D.O. data removed 
+due to negative values 7/28/96 06:30:00 to 7/28/96 11:30:00. D.O. data removed 
+due to negative values 7/29/96 07:00:00 to 7/29/96 11:30:00, 23:00:00. D.O. data 
+removed due to negative values 7/30/96 09:30:00 to 7/30/96 13:00:00. D.O. data 
+removed due to negative values 7/30/96 22:30:00 to 7/31/96 02:00:00. D.O. data 
+removed due to negative values 7/31/96 11:30:00. D.O. data removed due to 
+negative values 7/31/96 22:00:00 to 7/31/96 23:30:00.
+JB: No data due to instrument swap 7/10/96 14:30:00-16:00:00.  pH probe failed 
+7/15/96 09:30:00 to 7/25/96 14:00:00
+
+August 1996
+PR: Negative DO data removed 8/1/96 00:00-8/2/96 16:00.  removed for calibration 
+8/2/96 16:30:00 to 8/5/96 07:30:00. Negative DO removed 8/22/96 02:00.  removed 
+for calibration 8/22/96 07:30:00. pH probe failed 8/28/96 17:00:00 to 8/31/96 
+23:30:00. 
+JB: removed for calibration 8/2/96 15:00:00 to 8/5/96 09:00:00. No data 8/22/96 08:30
+due to retrieval and deployment of new instrument.  D.O. data 
+removed due to negative values 8/5/96 09:30:00 to 8/15/96 18:00:00. pH probe 
+failed 8/15/96 18:30:00 to 8/18/96 15:30:00. Missing times due to low battery 
+8/29/96 15:00:00-15:30:00, 8/29/96 16:30:00-17:00:00, 8/30/96 16:00:00, 
+18:00:00, 8/31/96 17:00:00-18:00:00.  Negative DO data deleted the following 
+times: 8/2/96 15:30-8/15/96 14:00, 8/20/96 00:30, 06:00-07:30, 11:00, 14:00, 
+8/21/96 02:30-03:00, 8/23/96 06:30-07:00, 18:30-20:00, 8/24/96 07:30-08:00, 
+19:00-21:00, 8/25/96 08:30-09:00, 8/28/96 22:00, 8/28/96 23:00-8/29/96 00:30, 
+8/29/96 15:00-15:30, 16:30-17:00, 8/30/96 00:00, 22:30-8/31/96 02:30.  
+
+September 1996
+PR: pH probe failed 9/1/96 00:00:00 to 9/1/96 11:00:00. pH probe failed 9/7/96 
+15:30:00 to 9/11/96 17:00:00. removed for calibration 9/11/96 17:30:00 to 
+9/20/96 14:30:00. removed for the year 9/26/96 17:30:00.
+JB: D.O. data removed due to negative values 9/1/96 01:30-02:00, and 23:30:00 to 
+9/11/96 18:00:00. Missing times due to low battery 9/1 19:00-19:30, 9/9/96 
+18:00-19:00, 9/10 16:00-18:30.  removed for the year 9/11/96 18:30:00.
+

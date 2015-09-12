@@ -1,0 +1,1434 @@
+Wells (WEL) National Estuarine Research Reserve Meteorological Metadata 
+January-December 2002 
+Latest Update: June 21, 2004
+
+I.  Data Set & Research Descriptors
+
+1)  Principal investigator & contact persons:
+
+Contact Persons:
+Dr. Michele Dionne, Research Coordinator							
+E-mail: dionne@wellsnerrcec.lib.me.us; (207) 646-1555 ext. 136			
+Jim Dochtermann, SWMP Technician / Research Associate
+E-mail: jdoc@wellsnerrcec.lib.me.us; (207) 646-1555 ext. 104
+Scott Orringer,	Research Associate							
+E-mail: sorringer@wellsnerrcec.lib.me.us; (207) 646-1555 ext. 112		
+
+
+Address:			
+Wells NERR
+342 Laudholm Farm Road
+Wells, ME 04090
+Phone: (207)646-1555
+FAX: (207)646-2930
+
+2)  Entry verification:
+
+a) Data Input Procedures
+	
+	The 15-minute, 1-hour average, and 24-hour meteorological data 
+were downloaded from each instrument on the weather station to a 
+Campbell Scientific CR10X datalogger. The CDMO Data Logger Program was 
+loaded into the CR10X and controls the sensors and data collection 
+schedule (see 2b of the Entry Verification section for the data 
+collection schedule). The CR10X then interfaced with the PC208W 
+software supplied by Campbell Scientific. This software was located on 
+a computer to which the data was uploaded (every 15 minutes) via a 
+short haul modem to a computer located at the Coastal Ecology Center.  
+The data was saved as a raw data file (LF_RAW.dat) onto a separate hard 
+drive and backed up.
+
+	Once an entire month of data was available, the CDMO Weather 
+Data Management Program (WDMP) was used to convert the files to an 
+Access database.  This program was developed in Visual Basic to 
+interface with the NERRS data collection schedule (see 2b of the Entry 
+Verification section for the data collection schedule).  The WDMP will 
+automatically input and convert the monthly raw data file into and 
+Access Database.  There are three main steps the WDMP performs.  First, 
+it converts the comma delimited monthly raw data file into an Access 
+Database.  Secondly, it checks the data against a predetermined set of 
+error criteria (see Part C of this section).  Finally, it produces 
+error and summary reports. Any anomalous data were investigated and are 
+noted below in Anomalous Data section.  Any data corrections that were 
+performed are noted in the Data Correction section below.
+  
+	Common errors noted in the monthly error reports were wind 
+speeds below the 0.5 m/s criteria, temperature change of greater than 3 
+C in a 15 minute period, and relative humidity change of greater than 
+25% in a 15 minute period.  All errors of these types were double 
+checked with other data that could support such "anomalous" weather 
+changes and noted in the sections that follow. Both raw data files and 
+Access databases were saved to the DCP server with daily tape back-up. 
+
+	Jim Dochtermann error checked and compiled the 2002 weather 
+data.
+
+The Centralized Data Management Office converted all SWMP weather data 
+collected with CR10X program versions prior to version 4.0 which was 
+distributed in October 2003.  This was necessary in order to merge the 
+old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums 
+every fifteen minutes (array 15), every hour (array 60) and every day 
+(array 144) for any sensors hooked up to the CR10X.   Specifically, the 150 
+and 151 fifteen minute data were converted to the new 15 array;   the hourly 
+101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, 
+the use of 55555's to code for deleted data and 11111's to code for missing 
+data has been abandoned.  Hence, all 55555's or 11111's contained in the SWMP 
+weather data collected prior to Version 4.0 of the CR10X program were removed 
+and left blank.  
+
+b) Data Collection Schedule (i-Viii with prior to installation of the NERR_4.CSI program)
+
+
+	i) Data is collected in the following formats:
+
+		1) 15 minute data are instantaneous readings except for PAR and precipitation 
+		data that are totalized from 5 second samples sorted by date and time. 		
+		(Arrays 150 and 151)
+		2) Hourly averages (Arrays 101 and 102) are calculated from 5 second 
+		samples sorted by date and time except for PAR and precipitation data that 	
+		are hourly totals calculated from 15 minute totals (Arrays 105 and 106).
+		3) Daily average (arrays 241 and 242), maximum with time, and minimum 
+		with time (arrays 243 and 244) are calculated from 5 second samples sorted 
+		by date and time except for PAR and precipitation data which are 24 hour 
+		totals calculated from hourly totals (arrays 245 and 246).
+
+	ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), Relative 
+	Humidity (%), LiCor (PAR), Barometric Pressure (mb), Wind Speed (m/s), Wind 
+	Direction (Array 150); Rainfall (mm) (Array 151)
+
+	iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 101); Wind Speed (m/s), Wind Direction, Wind 
+	Speed	Maximum (Array 102) 
+	 
+	iv) Hourly total parameters: LiCor (PAR) (Array 105); Rainfall (mm) (Array 106)
+
+	v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 241); Wind Speed (m/s), Wind Direction, 
+	Wind Direction Standard Deviation (using Yamartino's Algorithm) (Array 242)
+
+	vi) Daily Total parameter: LiCor (PAR) (Array 245); Rainfall (mm) (Array 246)
+
+	vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 243)
+
+	viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 244)
+
+	ix) With installation of the new NERR_4.CSI program, the following parameters were collected
+	every 15 minutes, hourly and daily:
+	Year, Julian Date, Time, Average (c), Temperature Maximum Temperature (c), 
+	Maximum Temperature Time, Minimum Temperature (c), Minimum Temperature Time, 
+	Relative Humidity Average (%), Relative Humidity Max (%), Relative Humidity Max 
+	Time, Relative Humidity Min (%), Relative Humidity Min Time, Barometric Pressure 
+	Average (mb), 	Barometric Pressure Max (mb), Barometric Pressure Max Time, 
+	Barometric Pressure Min (mb), Barometric Pressure Min Time, Wind Speed Average 
+	(m/s) Wind Direction Average (degrees), Wind Speed Std Dev (m/s), Wind Speed 
+	Maximum (m/s), Wind Speed Maximum Time, Wind Speed Minimum (m/s), Wind Speed 
+	Minimum Time, Precipitation Total (mm), PAR Total (millimoles/M2), Voltage 
+	Average (volts), Total Radiation (Langleys/Minute), Cumulative Rainfall (mm)
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+	- 15 min sample greater than max for the day
+	- 15 min sample less than the min for the day
+	- 15 min sample greater than 3.0 °C from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+	- Changed by more than 25% from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+	- Precipitation greater than 5 mm in 15 minutes
+	- No precipitation for the month
+
+Wind Speed:
+	- Wind speed greater than 30 m/s
+	- Wind speed less than 0.5 m/s
+
+Wind Direction:
+	- Wind direction greater than 360 degrees
+	- Wind direction less than 0 degrees
+
+Pressure:
+	- Pressure greater than 1040 mb or less than 980 mb
+	- Pressure changes greater than 5 mb per hour
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+	- 15-minute interval not recorded
+
+For all data:
+	- Duplicate interval data	
+
+
+3) Research Objectives
+	The principal objective is to record long-term meteorological 
+data for Wells, in order to supplement SWMP water quality YSI data and 
+research data, and to observe any environmental changes or trends over 
+time. 
+
+4) Research Methods
+
+	The Campbell Scientific weather station (CR10X datalogger) is 
+programmed to measure parameters every 5 seconds to produce both hourly 
+and daily averages of measurements, including air temperature, relative 
+humidity, barometric pressure, LiCor (solar radiation), rainfall, wind 
+speed and wind direction.  An instantaneous sample is taken every 15 
+minutes and that data is stored in array 150. Data are downloaded to a 
+desktop computer from the datalogger via the SC32A interface.  On-site 
+weather conditions are measured to verify the accuracy of the readings 
+by the sensors.  Sensors on the weather station are inspected for 
+damage or debris periodically. Sensors are sent back to Campbell 
+Scientific for calibration at a minimum of every two years. 
+
+	The data is analyzed using the Weather Data Management Program 
+where a database and error report is create for each month from the raw 
+data files. The error reports are used to assist in the QA/QC of the 
+data. Data is then edited in Access and recompiled in the WDMP. All 
+edits and errors are documented in the metadata. 
+
+5) Site location and character    
+
+	The Wells National Estuarine Research Reserve is located in York 
+County, within the Town of Wells, on the coast of southern Maine and 
+faces the Atlantic Ocean.  The Wells NERR is approximately 31 km (20 
+miles) south of Portland, Maine and 110 km (70 miles) north of Boston, 
+Massachusetts.  The Reserve encompasses 1,690 acres along the Gulf of 
+Maine coastline of tidally flushed wetlands, riparian and transitional 
+upland fields and forests within the Little River Estuary and the 
+larger Webhannet River Estuary.  Both estuaries arise in the sandy 
+glacial outwash plain about eight miles inland.  Both rivers empty 
+into Wells Bay, a sandy basin stretching for approximately ten miles 
+along the Atlantic coast.  Bordering each river's inlet are double spit 
+barrier beaches attached to the mainland.  The backbarrier system is 
+approximately 5 sq. km and is composed of large intertidal marshes 
+(predominantly S. patens and S. alterniflora), intertidal sand and mud 
+flats, and tidal channels.  The watershed for the Webhannet River 
+estuary covers an area of 35 sq. km and has a total of 6 streams, 
+brooks or creeks, which enter the estuary.  These tributaries flow 
+across sand and gravel deposits near the headwaters and the impermeable 
+sandy mud of the Presumpscot Formation in the lower reaches.  The 
+Webhannet River is connected to the ocean via Wells Inlet, which has a 
+spring tidal prism of 28,200,000 cub. m (Ward 1993). The force and 
+volume of tidal action affect the salinity level of both rivers.  In 
+the Wells region, the annual mean wave height is almost 20 inches.  The 
+estuarine system is dominated by semi-diurnal tides having a range of 
+8.5 to 9.8 feet.  The volume of freshwater influx into both estuaries 
+is moderate to low (on the order of 0.5 cubic meters/second), 
+especially in the summer, because of the rivers' relatively small 
+drainage areas and the presence of deep glacial deposits.  The 
+relatively low flows from these two rivers taken in with the 20 inch 
+per year average runoff of the area surrounding the estuaries combine 
+to form a freshwater flow that is dwarfed by tidal flushing.  Twelve-
+foot tides dwarf the freshwater flow into the Webhannet estuary, which 
+has a drainage area of 14.1 square miles.  The Webhannet estuary, fed 
+by both Blacksmith and Depot Brooks, is adjacent to the harbor and 
+greatly developed land.  It offers a valuable opportunity for 
+comparison with the relatively pristine Little River estuary.  The land 
+use of the Webhannet estuary include a total of 15% for wetland, fresh 
+water, and tidal marsh; a total of 63.7 % for woodland; and a total of 
+18.6% for developed land (compared to a total of 5.7% development in 
+the Little River estuary) (WNERR RMA 1996; Holden 1997).
+
+	The following information regarding annual weather patterns in 
+the area was supplied by Maine State Climatologist Professor Gregory A. 
+Zielinski extracted from "Monthly Station Normals of Temperature,Precipitation, 
+Heating and Cooling Degree Days 1971-2000", Climatography of the United 
+States No. 81, National Oceanic and Atmospheric Administration, National 
+Climatic Data Center, Asheville, NC. and "Daily Normals of Temperature, 
+Precipitation, and Heating and Cooling Degree Days, 1971-2000", Climatography 
+of the United States No. 84: "Average monthly temperatures range from 21.6F 
+in January to 66.7F in July with daily highs averaging just below freezing 
+in January and lows around 11F. Daily highs in July average around 76F and 
+daily lows around 57F. The sea breeze often keeps daily highs lower during 
+the summer than areas inland. Annual average temperature is 44.6F. Annual 
+precipitation is 47.07 inches, including the water equivalent of snowfall, 
+with monthly averages ranging from 3.01 inches in July to 4.77 inches in 
+October. August receives just 3.02 inches on average. Annual snowfall is 
+around 66 inches." According to Zielinski, "cool ocean temperatures keep 
+down the number of afternoon showers and especially thunderstorms resulting 
+in low summer precipitation amounts." 
+
+	The weather station is located (43 deg 20.244 Latitude, 70 deg 
+33.000 Longitude) on a 32' telephone pole surrounded by mowed grass.  
+The temperature and humidity probes are located on the north side of 
+the pole at a height of 10'. To the NW of the pole is the Coastal 
+Ecology Center, a 20' high, 111' long building, at a distance of 37', 
+running NE/SW.  Further to the NW (153' from the pole) is the library, 
+in a 25' high wing of the barn.  The barn itself is 223' from the 
+station and runs NE/SW.  It is 38' high and is the largest obstruction 
+in the area.  The rain gauge is located 9' southeast of the weather 
+station pole and is situated on a post with the top of the funnel is 
+10' from the ground. 
+
+	There are three SWMP water quality sampling sites in the Webhannet 
+River estuary. These are located at the Head of Tide, Mile Road, and at the 
+Inlet. The tidal range at each of these sites is 2.6-2.9 meters.   
+
+	The Head of Tide site is located 4 miles south of the Wells Reserve, just 
+downstream of the Webhannet Falls (freshwater) and 10 feet east of Route One (43 
+deg 17' 54.25227" Latitude, 70 deg 35' 13.82728" Longitude).  Route One is used 
+heavily with traffic all year, especially during the summer tourist months.  
+This site has soft mud, sand, and a rocky substrate, and the low and high tide 
+depth is relatively shallow.  The salinity range here is 0-31 ppt, with a mean 
+of 3.6 ppt.  These headwaters of the Webhannet are relatively undeveloped.  
+This site is located just 10 feet east of the Route One bridge, and is our 
+roving site.
+
+	The Mile Road site is located 3.5 miles south of the Wells Reserve, on Mile 
+Road roughly 300' north of the bridge (N43 deg 18.300' Latitude,W 70 deg 34.583 
+Longitude). This site has soft mud and a rocky substrate, and the low and high tide 
+depth is relatively shallow.  The salinity range here is  3.6-33.4 ppt, with a mean 
+of  27.0 ppt.
+
+	The Inlet site is located 1.5 miles south of the Wells Reserve, at the 
+Wells Harbor pier (43 deg 19' 12.44804" Latitude, 70 deg 33' 13.82728" 
+Longitude).  The mouth of the Webhannet estuary forms an extensive wetland/salt 
+marsh area which is surrounded by development.  Wells Harbor, which was most 
+recently dredged in 1971, has moorings for approximately 200 commercial fishing 
+and recreational boats.  The mouth of the river flows between two jetties to the 
+Atlantic Ocean.  This channel was dredged in 1974.  This site has a 
+predominately sand substrate and is characterized by strong current during 
+incoming and outgoing tides.  The maximum depth of the Inlet site is 3 meters. The 
+salinity range here is 7-35 ppt, with a mean of 31 ppt.  The Inlet site is heavily 
+impacted at the Wells Harbor dock and is our long-term monitoring site.
+
+	There is one SWMP water quality sampling site located at the Little River Mouth 
+site .4 miles east of the Wells Reserve. Due to problems with heavy sediment 
+movement in the inlet of the Little River, we were forced to relocate the site 
+(see Sec 14-Other Remarks/Notes). The first location (N 43 deg 20.176 Latitude, W 70 deg 
+32.497 Longitude) was located in the main channel of the river, just inland of a spit, 
+beside a bank. The second location (N 43 deg 20.083 Latitude, W 70 deg 32.585 Longitude) 
+was located 1/8 mi. southwest of the first site, within an inlet, just inland of a spit. 
+The second site was located in an area of much lower current than the first site and often 
+drains completely during low tides. It was also placed within a pool next to incipient 
+low marsh peat that retains calm water during low tides. Both sites were abandoned (see 
+Sec 14-Other Remarks/Notes).
+
+6) Data collection period
+Weather data has been collected at the Wells NERR since December 1996. 
+Data was collected for the entire year in 2002.
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data 
+Dissemination Policy for the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries 
+of the NERRS System-wide Monitoring Program data.  The PI retains the 
+right to be fully credited for having collected and processed the data.  
+Following academic courtesy standards, the PI and NERR site where the 
+data were collected will be contacted and fully acknowledged in any 
+subsequent publications in which any part of the data are used.  
+Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed 
+scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean 
+and Coastal Resource Management, National Ocean Service, National 
+Oceanic and Atmospheric Administration.  The data set enclosed within 
+this package/transmission is only as good as the quality 
+assurance/quality control procedures outlined by the enclosed metadata 
+reporting statement.  The user bears all responsibility for its 
+subsequent use/misuse in any further analyses or comparisons.  The 
+Federal government does not assume liability to the Recipient or third 
+persons, nor will the Federal government reimburse or indemnify the 
+Recipient for its liability due to any losses resulting in any way from 
+the use of this data.
+
+NERR weather data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 1 Principal 
+investigators and contact persons), from the Data Manager at the 
+Centralized Data Management Office (please see personnel directory 
+under the general information link on the CDMO home page) and online at 
+the CDMO home page http://cdmo.baruch.sc.edu.  Data are available in 
+text format and Access data tables.
+
+8) Associated researchers and projects
+
+WELLS NATIONAL ESTUARINE RESEARCH RESERVE RESEARCH AT THE RESERVE for 
+2002(Please visit our website: www.wellsreserve.org/research.htm for 
+further information on the Wells NERR research program):
+
+The Research Program at the Wells NERR conducts and supports research, 
+monitoring, workshops, and research/resource management planning of 
+relevance at local, regional and national levels.  The overall aim of 
+our work is to produce science-based information needed to sustain or 
+restore Gulf of Maine coastal habitats and resources, especially those 
+found in salt marsh estuaries and watersheds.  During 2000-2001 twenty-
+three different studies (involving 79 scientists, students, and staff  
+from the Reserve, 26 academic institutions and 19 resource management 
+groups) focused on several related themes:1) the quality of water 
+resources  in salt marsh estuaries and watersheds 2) land conservation 
+strategies to protect coastal watersheds 3) factors controlling salt 
+marsh accretion, erosion and plant community vigor 4) the value of salt 
+marsh as habitat for fish, shellfish and birds,  and 5) restoration of 
+salt marsh habitat degraded through human actions.
+
+Estuarine Water Resource Quality
+
+Water quality is monitored continuously at several stations with 
+automated instruments as part of a NERRS systemwide monitoring program, 
+as well as bimonthly at 15-20 stations through our WET volunteer 
+monitoring program.  The WET program also monitors two important 
+biological parameters: fecal coliform bacterial contamination (an 
+indicator of human health risk) and phytoplankton productivity (an 
+indicator of estuarine health).  These data have 1) allowed us 
+to identify several bacterial "hot spots" that we will be working to 
+eliminate, 2) are used to identify and open areas safe for 
+shellfishing, and 3) have uncovered a relation between tides and low 
+dissolved oxygen (a stressful condition for marine life) that needs 
+further study.  Our water quality work has contributed to the 
+designation of several Priority Watersheds in coastal Southern Maine by 
+the Maine Department of Environmental Protection. 
+
+Coastal Conservation Strategies
+
+In response to requests for support from the conservation community to 
+increase the quantity, quality and ecological integrity of conserved 
+lands in our region research staff organize and facilitate meetings, 
+workshops, and communications for 18 partner conservation groups.  A 
+key element of the Project is the Conservation Resource Center, a 
+Reserve staffed GIS facility with a growing database able to provide 
+maps of property, natural features and other data needed to develop 
+effective conservation goals and strategies.  The Project is nearing 
+completion of conservation lands maps for 13 Southern Maine coastal 
+towns, and is undertaking an initiative to develop coastal watershed 
+conservation strategies for 12 coastal watersheds within these towns.  
+The Reserve has a particular interest in educating communities about 
+the ecologic and economic benefits of land conservation, especially 
+along estuarine and riverine shorelines.
+
+Salt Marsh Habitats and Communities
+
+Factors that control the dynamics and vigor of salt marsh plant 
+communities and marsh peat formation consequently determine the ability 
+of a salt marsh to persist in the face of sea level rise.  Through a 
+combination of experimental manipulations and long term monitoring, a 
+number of multi-year studies are currently producing data to answer 
+questions concerning the sustainability of salt marsh habitats in this 
+region.  These studies are looking at nutrient-plant relations, plant 
+community responses to physical and hydrologic disturbance, and the 
+relative contribution of short-term natural events (e.g. storms) and 
+human activities (dredging, tidal restriction) on patterns of sediment 
+accretion and erosion.  The Reserve's marshes and beaches are already 
+among the best studied sites in the U.S. with regard to long term 
+accretion and erosion (over thousands of years).
+
+HABITAT VALUE FOR FISH, SHELLFISH AND BIRDS
+
+The Reserve combines long-term monitoring with periodic surveys and 
+short-term experiments to identify species and measure trends and 
+changes in populations of fish, crustaceans, clams and birds.   We have 
+10 years of data on upland and shore birds with which to assess the 
+status of resident and migratory avian populations, and 8 years of 
+wading bird data that we use as a gross level indicator of salt marsh 
+health, which appears to be stable.  Our periodic larval, juvenile and 
+adult fish surveys have produced the best available data for fish 
+utilization of salt marsh estuaries in the Gulf of Maine. In the 
+coming year we plan to develop a long-term monitoring program for 
+finfish that will be coordinated with other sites within the Gulf of 
+Maine and along the east coast.  Since 1994 we have been conducting 
+surveys and field experiments to look at the survival and growth of 
+hatchery seed, juvenile and adult softshell clam with regard to habitat 
+characteristics and predation by the invasive green crab.
+
+Salt Marsh Degradation and Restoration
+
+ Salt marsh ecosystems in the Gulf of Maine have sustained themselves 
+in the face of sea-level rise and other natural disturbances for nearly 
+five thousand years.  Since colonial times large areas of salt marsh 
+(up to half of the total area) have been lost through diking, draining 
+and filling.  Today, the remaining marshland is fairly well protected 
+from outright destruction, but during the past 100 years, and 
+especially since the 1950's, salt marshes have been divided into 
+fragments by roads, causeways, culverts and tide gates.  Most of these 
+fragments have severely restricted tidal flow, leading to chronic 
+habitat degradation and greatly reduced access for fish and other 
+marine species.  Since 1991, the Wells Reserve has been studying the 
+impact of these restrictions on salt marsh functions and values, and 
+the response of salt marshes to tidal restoration.  We have been 
+working to promote an awareness of the damage being done and the 
+benefits of salt marsh restoration throughout the Gulf of Maine.
+
+Research Program Update:
+In addition to the Reserve-sponsored projects outlined above, numerous 
+visiting investigators will be involved in on-site research.  Topics 
+include: the effects of land use, sea level, and climate on estuarine 
+productivity; the relationship between soil nutrients and plant 
+community patterns; the influence of soil salinity on plant community 
+interactions; the effect of tidal restriction on marsh peat accretion; 
+the comparative ecology of fringe marshes and back barrier marshes; 
+habitat use by upland birds, and the ecology of lyme disease.
+
+• The Wells NERR Research Dept. is working on the following projects:  
+"Ecological processes, energy pathways, and the impact of human 
+activities on Maine marsh-estuarine secondary production: a salt marsh 
+panne model". We used stable isotopic tracers (15N additions and 
+naturally abundant 13C) coupled with secondary production measurements 
+(nekton, invertebrates) to track energy flow on the high marsh surface 
+in southern Maine salt marsh systems. The project is still under way.
+
+"Ecological Functions of Fringing Salt Marshes Susceptible to Oil 
+Spills 
+in Casco Bay, Maine". We examined the ecological function of 9 
+different 
+fringing marsh systems in Casco Bay that ranged from undisturbed to 
+disturbed. Physical parameters measured included sedimentation rates, 
+total suspended solids, and tidal range. Biological parameters included 
+primary production, macroinvertebrate community composition and 
+secondary production (4cm sediment cores), and resident and transient 
+nekton community composition (fyke net). The project is still under 
+way.
+
+"BENTHIC HABITAT CORRELATES OF JUVENILE FISH DISTRIBUTION IN THE 
+BIGELOW BIGHT AND ADJACENT ESTUARIES: LINKAGES BETWEEN FISH, HABITATS, 
+SUBSTRATE AND HUMAN ACTIVITY". This project was a collaboration between the Wells 
+N.E.R.R. and several members of the local fishing community. Through 
+the 
+use of beam trawls, gill nets, fish traps, van veen ponar, and a 
+sediment profile imager (SPI camera), we are attempting to correlate 
+benthic habitat type to juvenile groundfish an dinvertebrate assemblages 
+in estuarine, nearshore, and offshore habitat. Stations were also 
+established near dredge spoil dump sites as well as sweage outflow to 
+determine the impacts of human activity on the coast to benthic 
+habitat. The project is still under way.
+
+• The Wells NERR Research Dept. also completed the work on the 
+following project: 
+In partnership with the York Rivers Association and the Town of York, 
+the Wells Reserve conducted a survey of the York River watershed.  In 
+this survey, volunteers looked for sources of pollution within a 250-
+foot buffer of the river and its tributaries (erosion, trash and debris 
+and runoff from roads and lawns could have a negative impact on water 
+quality).  Most pollutants entering water bodies come from such 
+undefined sources.  Therefore, this type of survey is the best way to 
+begin to address the problems of pollution in a water body.  The idea 
+of the project was to work with the community and landowners to help 
+them understand the problems that come from these types of pollution 
+and learn activities they might be able to do on their own land that 
+would help prevent this pollution from entering the water.  The results 
+of the survey will become part of a Watershed Management Plan to 
+improve and restore the water quality of the York River.
+
+•The Wells NERR Research Dept. is involved with the following CICEET 
+Projects (information on CICEET can be found on the website 
+http://www.ciceet.unh.edu):
+
+I. Project Title: Estuarine Responses to Dredging: Analysis of 
+Sedimentary and Morphological Change in Back Barrier Marsh to Aid Local 
+Management and Develop a Regional Management Tool Principal 
+Investigator (s): Michele Dionne, Wells NERR, ME; Duncan Fitzgerald, 
+Boston University; Joe Kelley, University of Maine; David 
+Burdick and Larry Ward, University of New Hampshire
+
+Management Issue: Coastal management tool for assessing the impacts of 
+dredging in estuaries. Project Summary: An adequate supply of sediment 
+is essential for maintaining salt marshes.  Human activities, such as 
+channel dredging and tidal restriction due to road construction, can 
+alter water flows in estuaries and result in dramatic changes in salt 
+marsh sediment supply, affecting the speed of salt marsh erosion.  The 
+objective of this project is to determine the impact of dredging and 
+tidal restriction on salt marshes in the Wells NERR.  A digital 
+coastal management guide will be created on CD ROM, providing coastal 
+managers with useful conceptual models for predicting the impacts of 
+dredging and other activities that affect water flow and sediment 
+deposition in salt marshes.
+
+II. Project Title: Microbial Source Tracking in Two Southern Maine 
+Watersheds. A two year project written by Maine Sea Grant associate 
+Kristen Whiting-Grant, and funded by Cooperative Institute for Coastal 
+and Estuarine Environmental Technology (CICEET), involving Wells NERR,
+UNH Jackson Estuarine Lab (JEL), USM Muskie School, AmeriCorps and the 
+Maine Conservation Corps. We are pioneering the use in
+Maine of genetic analysis as a means of determining the source species 
+associated with bacterial contamination in the Webhannet and
+Little River Estuary. Volunteers collect water samples from streams and 
+the estuaries, staff test for and isolate E. coli. At JEL, a genetic
+technique (ribotyping) creates a genetic fingerprint of the bacteria 
+which is compared to known sources. The project is still underway.
+
+Wells NERR Past Graduate Research Fellowships (GRF's):
+1)Patrick Ewanchuck and Mark Bertness, Ph.D.; Brown University
+     Project Title: Patch persistence and seedling dynamics in a 
+Southern Maine marsh and the process and pattern in western Atlantic 
+salt marsh plant communities: a biogeographical perspective.
+2)Lindsay Whitlow, University of Michigan
+      Project Title: Integration of individual behavior and community 
+dynamics to determine mechanisms by which the invasive green crab 
+impacts populations of the native soft-shell clam.
+3)Pamela Morgan, University of New Hampshire
+     Project Title: Functions and values of salt marshes in northern 
+New England: a comparison of fringing marshes and back barrier marshes.
+
+Other Onsite Research:
+Michele Dionne, Wells NERR, Nancy McReel, Chuck Lubelczyk
+Project Title: Effect of herbivory by deer on forest regeneration
+
+June Ficker
+Project Title: Monitoring avian productivity and survivorship
+
+Outside Researchers:
+•Theresa Theodose, Ph.D., University of Southern Maine
+Project Title: Relationships between soil nutrient availability and 
+species composition of a high salt marsh in southern Maine.
+
+•David Burdick, Ph.D. and Roelof Boumans, Ph.D.
+University of New Hampshire, University of Maryland
+Project Title: Sediment dynamics in salt marshes: functional assessment 
+of accretionary biofilters
+
+•Peter Rand, M.D., Chuck Lubelczyk, Robert Smith, M.D.
+Maine Medical Center 
+Project Title: Ecological determinants of the spread of the tick vector 
+of Lyme disease and other pathogens.
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, operating range, accuracy, date of last 
+calibration 
+
+CSI LiCor Quantum Sensor 
+Model # LI190SB
+Stability: <±2% change over one year 
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration: 10-17-01
+
+CSI Wind Sentry
+Model # 03001
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: 10-17-01
+
+CSI Temperature and Relative Humidity
+Model #:  HMP45C
+Operating Temperature:  -40 to +60°C
+Temperature Measurement Range: -40 to +60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration: 10-17-01
+
+CSI Barometric Sensor
+Model #PTB101B
+Operating Range:	 Pressure: 600-1060 mb
+Temperature:  -40 to +60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20 to 60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration: 10-17-01
+
+Met One Tipping Bucket Rain Gauge
+Model #:  385/385M
+Range:  0.1 mm
+Accuracy:  ±0.5%<0.5"(1.27 cm)/hr rate
+	      ±2.0%<3.0"(7.62 cm)/hr rate
+Date of Last calibration: 10-17-01
+
+10) Coded variable code definitions
+	LF = Laudholm Farm
+
+11) Data anomalies/Data corrections
+
+January 2002
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data was edited 
+accordingly for arrays 101 and 102 at time 1600 and arrays 241, 242, 243,
+and 244 at time 2400, for 9 ( 9):
+Array	CalD	JulD	Time	Error Message
+101	9	9	1600	Technician changed 101 Array data from 9
+ ( 9) 1600 to  9 ( 9) 1600
+102	9	9	1600	Technician changed 102 Array from 9 ( 9)
+ 1600 to  9 ( 9) 1600
+241	9	9	2400	Technician changed 241 Array from  9 ( 9)
+ 2400 to  9 ( 9) 2400
+242	9	9	2400	Technician changed 242 Array from  9 ( 9)
+ 2400 to  9 ( 9) 2400
+243	1	1	2400	Technician changed 243 Array data from
+  1 ( 1) 2400 to  15 ( 15) 2400
+244	1	1	2400	Technician changed 244 Array data from
+  1 ( 1) 2400 to  15 ( 15) 2400
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+February 2002
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data was edited 
+accordingly for arrays 101 and 102 at time 1200 and arrays 241, 242, 243,
+and 244 at time 2400, for 2 ( 2):
+Array	CalD	JulD	Time	Error Message
+101	2	33	1200	Technician changed 101 Array data from 2 ( 33)
+ 1200 to  2 ( 33) 1200
+102	2	33	1200	Technician changed 102 Array from 2 ( 33) 1200
+ to  2 ( 33) 1200
+241	2	33	2400	Technician changed 241 Array from  2 ( 33) 2400
+ to  2 ( 33) 2400
+242	2	33	2400	Technician changed 242 Array from  2 ( 33) 2400
+ to  2 ( 33) 2400
+243	2	33	2400	Technician changed 243 Array data at  2 ( 33) 2400 
+to  28 ( 59) 2400
+244	2	33	2400	Technician changed 244 Array data at  2 ( 33) 2400
+ to  28 ( 59) 2400
+
+The following data appear to be correct:
+Array	CalD	JulD	Time	Error Message
+150	16	47	1500	Air temp difference from  16 ( 47) 1500 ( 
+11.599) to  16 ( 47) 1515 ( 8.46) is greater than 3.0 degrees C
+150	19	50	2215	Rel hum difference from  19 ( 50) 2215 ( 
+47.384) to  19 ( 50) 2230 ( 77.498) is greater than 25%
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+March 2002
+
+The following data appear to be correct:
+Array   CalD   JulD	Time	Error Message
+150	1	60	1415	Air temp difference from  1 ( 60) 1415 ( 
+3.8026) to  1 ( 60) 1430 ( 6.8123) is greater than 3.0 degrees C
+150	14	73	1215	Air temp difference from  14 ( 73) 1215 ( 
+14.514) to  14 ( 73) 1230 ( 10.903) is greater than 3.0 degrees C
+150	14	73	1345	Air temp difference from  14 ( 73) 1345 ( 
+13.449) to  14 ( 73) 1400 ( 10.175) is greater than 3.0 degrees C
+150	27	86	1645	Air temp difference from  27 ( 86) 1645 ( 
+8.9386) to  27 ( 86) 1700 ( 5.6627) is greater than 3.0 degrees C
+150	14	73	1215	Rel hum difference from  14 ( 73) 1215 ( 
+31.132) to  14 ( 73) 1230 ( 60.456) is greater than 25%
+150	28	87	1915	Rel hum difference from  28 ( 87) 1915 ( 
+34.303) to  28 ( 87) 1930 ( 61.651) is greater than 25%
+150	31	90	645	Rel hum difference from  31 ( 90) 645 ( 
+37.111) to  31 ( 90) 700 ( 71.08) is greater than 25%
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data was edited 
+accordingly for arrays 101 and 102 at time 2100 and arrays 241,242, 243,
+ and 244 at time 2400, for 20 (79):
+Array	CalD	JulD	Time	Error Message
+101	20	79	2100	Technician changed 101 Array data from 20
+ ( 79) 2100 to  20 ( 79) 2100
+102	20	79	2100	Technician changed 102 Array from
+ 20 ( 79) 2100 to  20 ( 79) 2100
+241	20	79	2400	Technician changed 241 Array from
+  20 ( 79) 2400 to  20 ( 79) 2400
+242	20	79	2400	Technician changed 242 Array from
+  20 ( 79) 2400 to  20 ( 79) 2400
+243	1	60	2400	Technician changed 243 Array data
+ at  1 ( 60) 2400 to  31 ( 90) 2400
+244	1	60	2400	Technician changed 244 Array data
+ at  1 ( 60) 2400 to  31 ( 90) 2400
+
+The following data is suspect due to the offset being output when there 
+was no wind recorded. This datum can be interpreted as 0:
+Array  CalD      JulD	 Time     	Error Message
+150	15	74	1830	Wind direction is greater than 360 or 
+less than 0 on  15 ( 74) 1830 (-.095)
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+April 2002
+
+The following data appear to be correct:
+Array    CalD   JulD	 Time    Error Message
+150	10	100	45	Air temp difference from  10 ( 100) 45 ( 
+11.279) to  10 ( 100) 100 ( 14.889) is greater than 3.0 degrees C
+150	13	103	1215	Air temp difference from  13 ( 103) 1215 
+( 23.297) to  13 ( 103) 1230 ( 18.69) is greater than 3.0 degrees C
+150	13	103	1230	Air temp difference from  13 ( 103) 1230 
+( 18.69) to  13 ( 103) 1245 ( 22.561) is greater than 3.0 degrees C
+150	13	103	1245	Air temp difference from  13 ( 103) 1245 
+( 22.561) to  13 ( 103) 1300 ( 16.286) is greater than 3.0 degrees C
+150	13	103	1300	Air temp difference from  13 ( 103) 1300 
+( 16.286) to  13 ( 103) 1315 ( 13.216) is greater than 3.0 degrees C
+150	14	104	500	Air temp difference from  14 ( 104) 500 ( 
+8.6712) to  14 ( 104) 515 ( 11.88) is greater than 3.0 degrees C
+150	16	106	2230	Air temp difference from  16 ( 106) 2230 
+( 9.674) to  16 ( 106) 2245 ( 18.7) is greater than 3.0 degrees C
+150	17	107	715	Air temp difference from  17 ( 107) 715 ( 
+25.441) to  17 ( 107) 730 ( 21.296) is greater than 3.0 degrees C
+150	17	107	1030	Air temp difference from  17 ( 107) 1030 
+( 24.953) to  17 ( 107) 1045 ( 31.226) is greater than 3.0 degrees C
+150	17	107	1330	Air temp difference from  17 ( 107) 1330 
+( 32.928) to  17 ( 107) 1345 ( 18.718) is greater than 3.0 degrees C
+150	17	107	1330	Rel hum difference from  17 ( 107) 1330 ( 
+26.689) to  17 ( 107) 1345 ( 63.455) is greater than 25%
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data was edited 
+accordingly for arrays 101 and 102 at time 2200 and arrays 241,242, 243,
+and 244 at time 2400, for 25 (115):
+Array    CalD   JulD	 Time    Error Message
+101	25	115	2200	Technician changed 101 Array data from 25
+ ( 115) 2200 to  25 ( 115) 2200
+102	25	115	2200	Technician changed 102 Array from
+ 25 ( 115) 2200 to  25 ( 115) 2200
+241	25	115	2400	Technician changed 241 Array from
+  25 ( 115) 2400 to  25 ( 115) 2400
+242	25	115	2400	Technician changed 242 Array from
+  25 ( 115) 2400 to  25 ( 115) 2400
+243	1	91	2400	Technician changed 243 Array data
+ at  1 ( 91) 2400 to  30 ( 120) 2400
+244	1	91	2400	Technician changed 244 Array data
+ at  1 ( 91) 2400 to  30 ( 120) 2400
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+May 2002
+
+The following data appear to be correct:
+Array     CalD    JulD	 Time	Error Message
+150	4	124	1945	Air temp difference from  4 ( 124) 1945 ( 
+12.459) to  4 ( 124) 2000 ( 8.2576) is greater than 3.0 degrees C
+150	5	125	800	Air temp difference from  5 ( 125) 800 ( 
+12.097) to  5 ( 125) 815 ( 15.431) is greater than 3.0 degrees C
+150	7	127	2315	Air temp difference from  7 ( 127) 2315 ( 
+10.267) to  7 ( 127) 2330 ( 13.543) is greater than 3.0 degrees C
+150	7	127	2345	Air temp difference from  7 ( 127) 2345 ( 
+14.144) to  7 ( 127) 2400 ( 17.286) is greater than 3.0 degrees C
+150	8	128	1300	Air temp difference from  8 ( 128) 1300 ( 
+18.24) to  8 ( 128) 1315 ( 14.099) is greater than 3.0 degrees C
+150	16	136	1045	Air temp difference from  16 ( 136) 1045 
+( 19.999) to  16 ( 136) 1100 ( 16.924) is greater than 3.0 degrees C
+150	16	136	1215	Air temp difference from  16 ( 136) 1215 
+( 20.249) to  16 ( 136) 1230 ( 15.371) is greater than 3.0 degrees C
+150	16	136	2000	Air temp difference from  16 ( 136) 2000 
+( 17.066) to  16 ( 136) 2015 ( 20.207) is greater than 3.0 degrees C
+150	24	144	1215	Air temp difference from  24 ( 144) 1215 
+( 26.558) to  24 ( 144) 1230 ( 23.547) is greater than 3.0 degrees C
+150	24	144	1630	Air temp difference from  24 ( 144) 1630 
+( 17.245) to  24 ( 144) 1645 ( 21.121) is greater than 3.0 degrees C
+150	24	144	1645	Air temp difference from  24 ( 144) 1645 
+( 21.121) to  24 ( 144) 1700 ( 26.399) is greater than 3.0 degrees C
+150	28	148	945	Air temp difference from  28 ( 148) 945 ( 
+16.191) to  28 ( 148) 1000 ( 13.116) is greater than 3.0 degrees C
+150	31	151	1615	Air temp difference from  31 ( 151) 1615 
+( 16.045) to  31 ( 151) 1630 ( 19.319) is greater than 3.0 degrees C
+150	4	124	1945	Rel hum difference from  4 ( 124) 1945 ( 
+35.418) to  4 ( 124) 2000 ( 80.006) is greater than 25%
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+June 2002
+
+The following data appear to be correct:
+Array  CalD    JulD   Time	   Error Message
+150	5	156	2300	Air temp difference from  5 ( 156) 2300 ( 
+16.537) to  5 ( 156) 2315 ( 19.741) is greater than 3.0 degrees C
+150	5	156	2400	Air temp difference from  5 ( 156) 2400 ( 
+20.131) to  6 ( 157) 15 ( 16.787) is greater than 3.0 degrees C
+150	6	157	700	Air temp difference from  6 ( 157) 700 ( 
+14.318) to  6 ( 157) 715 ( 18.994) is greater than 3.0 degrees C
+150	10	161	1330	Air temp difference from  10 ( 161) 1330 
+( 23.963) to  10 ( 161) 1345 ( 20.825) is greater than 3.0 degrees C
+150	18	169	1130	Air temp difference from  18 ( 169) 1130 
+( 20.825) to  18 ( 169) 1145 ( 17.753) is greater than 3.0 degrees C
+150	27	178	1945	Air temp difference from  27 ( 178) 1945 
+( 25.823) to  27 ( 178) 2000 ( 22.82) is greater than 3.0 degrees C
+150	30	181	2330	Air temp difference from  30 ( 181) 2330 
+( 16.131) to  30 ( 181) 2345 ( 19.806) is greater than 3.0 degrees C
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+July 2002
+
+The following data appear to be correct:
+Array  CalD   JulD	Time	 Error Message
+150	1	182	1045	Air temp difference from  1 ( 182) 1045 ( 
+25.841) to  1 ( 182) 1100 ( 22.163) is greater than 3.0 degrees C
+150	1	182	1915	Air temp difference from  1 ( 182) 1915 ( 
+22.103) to  1 ( 182) 1930 ( 25.38) is greater than 3.0 degrees C
+150	2	183	930	Air temp difference from  2 ( 183) 930 ( 
+25.43) to  2 ( 183) 945 ( 22.025) is greater than 3.0 degrees C
+150	2	183	1115	Air temp difference from  2 ( 183) 1115 ( 
+27.432) to  2 ( 183) 1130 ( 23.489) is greater than 3.0 degrees C
+150	2	183	1400	Air temp difference from  2 ( 183) 1400 ( 
+27.957) to  2 ( 183) 1415 ( 23.017) is greater than 3.0 degrees C
+150	8	189	1200	Air temp difference from  8 ( 189) 1200 ( 
+29.212) to  8 ( 189) 1215 ( 24.336) is greater than 3.0 degrees C
+150	8	189	1600	Air temp difference from  8 ( 189) 1600 ( 
+26.961) to  8 ( 189) 1615 ( 31.033) is greater than 3.0 degrees C
+150	13	194	1700	Air temp difference from  13 ( 194) 1700 
+( 29.691) to  13 ( 194) 1715 ( 26.62) is greater than 3.0 degrees C
+150	14	195	1015	Air temp difference from  14 ( 195) 1015 
+( 25.03) to  14 ( 195) 1030 ( 21.624) is greater than 3.0 degrees C
+150	16	197	1700	Air temp difference from  16 ( 197) 1700 
+( 24.432) to  16 ( 197) 1715 ( 20.626) is greater than 3.0 degrees C
+150	18	199	1415	Air temp difference from  18 ( 199) 1415 
+( 28.739) to  18 ( 199) 1430 ( 23.4) is greater than 3.0 degrees C
+150	22	203	2230	Air temp difference from  22 ( 203) 2230 
+( 21.256) to  22 ( 203) 2245 ( 24.796) is greater than 3.0 degrees C
+150	29	210	930	Air temp difference from  29 ( 210) 930 ( 
+24.239) to  29 ( 210) 945 ( 29.442) is greater than 3.0 degrees C
+150	31	212	1530	Air temp difference from  31 ( 212) 1530 
+( 32.794) to  31 ( 212) 1545 ( 28.325) is greater than 3.0 degrees C
+150	31	212	1630	Air temp difference from  31 ( 212) 1630 
+( 30.944) to  31 ( 212) 1645 ( 25.474) is greater than 3.0 degrees C
+150	13	194	1515	Rel hum difference from  13 ( 194) 1515 ( 
+59.947) to  13 ( 194) 1530 ( 29.706) is greater than 25%
+151	15	196	1815	Precip difference from  15 ( 196) 1815 ( 
+5.334) to  15 ( 196) 1830 ( .254) is greater than 5 mm
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+August 2002
+
+The following data appear to be correct:
+Array  CalD     JulD   Time	Error Message
+150	1	213	600	Air temp difference from  1 ( 213) 600 ( 
+20.534) to  1 ( 213) 615 ( 23.602) is greater than 3.0 degrees C
+150	5	217	1445	Air temp difference from  5 ( 217) 1445 ( 
+28.479) to  5 ( 217) 1500 ( 33.152) is greater than 3.0 degrees C
+150	14	226	930	Air temp difference from  14 ( 226) 930 ( 
+31.025) to  14 ( 226) 945 ( 27.676) is greater than 3.0 degrees C
+150	14	226	2115	Air temp difference from  14 ( 226) 2115 
+( 22.314) to  14 ( 226) 2130 ( 25.988) is greater than 3.0 degrees C
+150	16	228	1915	Air temp difference from  16 ( 228) 1915 
+( 24.574) to  16 ( 228) 1930 ( 27.784) is greater than 3.0 degrees C
+150	22	234	1730	Air temp difference from  22 ( 234) 1730 
+( 21.446) to  22 ( 234) 1745 ( 24.518) is greater than 3.0 degrees C
+150	27	239	1030	Air temp difference from  27 ( 239) 1030 
+( 25.092) to  27 ( 239) 1045 ( 21.817) is greater than 3.0 degrees C
+150	27	239	1030	Rel hum difference from  27 ( 239) 1030 ( 
+41.993) to  27 ( 239) 1045 ( 67.091) is greater than 25%
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+
+September 2002
+
+The following data appear to be correct:
+Array  CalD    JulD    Time	 Error Message
+150	10	253	2030	Air temp difference from  10 ( 253) 2030 
+( 20.051) to  10 ( 253) 2045 ( 24.462) is greater than 3.0 degrees C
+150	21	264	1200	Air temp difference from  21 ( 264) 1200 
+( 22.16) to  21 ( 264) 1215 ( 26.5) is greater than 3.0 degrees C
+150	21	264	1230	Air temp difference from  21 ( 264) 1230 
+( 27.368) to  21 ( 264) 1245 ( 24.228) is greater than 3.0 degrees C
+151	23	266	215	Precip difference from  23 ( 266) 215 ( 
+.254) to  23 ( 266) 230 ( 5.588) is greater than 5 mm
+151	23	266	245	Precip difference from  23 ( 266) 245 ( 
+6.096) to  23 ( 266) 300 ( .762) is greater than 5 mm
+
+The following precipitation data was deleted due to the technician 
+cleaning and testing the rain gauge, causing erroneous data to be 
+collected:
+Array  CalD    JulD    Time	 Error Message
+151	10	253	1245	Technician changed 151 Array at  10 ( 
+253) 1245
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+ 
+
+October 2002
+
+The following data appear to be correct:
+Array  CalD   JulD	Time	 Error Message
+150	16	289	130	Air temp difference from  16 ( 289) 130 ( 
+5.5594) to  16 ( 289) 145 ( 8.7038) is greater than 3.0 degrees C
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data was edited 
+accordingly for arrays 101 and 102 at time 300 and arrays 241,242, 243, 
+and 244 at time 2400, for 15 (288):
+Array	CalD	JulD	Time	Error Message
+101	15	288	300	Technician changed 101 Array data from
+ 15 ( 288) 300 to  15 ( 288) 300
+102	15	288	300	Technician changed 102 Array from
+ 15 ( 288) 300 to  15 ( 288) 300
+241	15	288	2400	Technician changed 241 Array from
+  15 ( 288) 2400 to  15 ( 288) 2400
+242	15	288	2400	Technician changed 242 Array from
+  15 ( 288) 2400 to  15 ( 288) 2400
+243	1	274	2400	Technician changed 243 Array data
+ at  1 ( 274) 2400 to  31 ( 304) 2400
+244	1	274	2400	Technician changed 244 Array data
+ at  1 ( 274) 2400 to  31 ( 304) 2400
+
+
+The following erroneous data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. Data 
+was edited accordingly for array 101 at time 300 and arrays 241, 243, 
+244 at time 2400, for 22 (295):
+Array	CalD	JulD	Time	Error Message
+101	22	295	1500	Technician changed 101 Array data from 22 
+( 295) 1500 to  22 ( 295) 1500
+102	22	295	1500	Technician changed 102 Array data from 22 
+( 295) 1500 to  22 ( 295) 1500
+241	22	295	2400	Technician changed 241 Array from  22 ( 
+295) 2400 to  22 ( 295) 2400
+242	22	295	2400	Technician changed 242 Array from  22 ( 
+295) 2400 to  22 ( 295) 2400
+243	22	295	2400	Technician changed 243 Array from  22 ( 
+295) 2400 to  22 ( 295) 2400
+244	22	295	2400	Technician changed 244 Array from  22 ( 
+295) 2400 to  22 ( 295) 2400
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+November 2002
+
+The following data appear to be correct:
+Array   CalD     JulD	 Time     Error Message
+150	6	310	945	Air temp difference from  6 ( 310) 945 ( 
+4.8817) to  6 ( 310) 1000 ( 7.9594) is greater than 3.0 degrees C
+150	11	315	1745	Air temp difference from  11 ( 315) 1745 
+( 13.993) to  11 ( 315) 1800 ( 17.469) is greater than 3.0 degrees C
+
+The following erroneous Air_TempC data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. All data were edited 
+accordingly for array 101, 102, 241, 242, 243, 244 on day 2 (306) and day 17 (321):
+Array  CalD      JulD	 Time     	Error Message
+101	2	306	1200	Technician changed 101 Array data from 2 
+( 306) 1200 to  2 ( 306) 1200
+102	2	306	1200	Technician changed 102 Array data from 2 
+( 306) 1200 to  2 ( 306) 1200
+241	2	306	2400	Technician changed 241 Array from  2 ( 
+306) 2400 to  2 ( 306) 2400
+242	2	306	2400	Technician changed 242 Array from  2 ( 
+306) 2400 to  2 ( 306) 2400
+243	2	306	2400	Technician changed 243 Array from  2 ( 
+306) 2400 to  2 ( 306) 2400
+244	2	306	2400	Technician changed 244 Array from  2 ( 
+306) 2400 to  2 ( 306) 2400
+101	17	321	2000	Technician changed 101 Array data from 17 
+( 321) 2000 to  17 ( 321) 2000
+102	17	321	2000	Technician changed 102 Array data from 17 
+( 321) 2000 to  17 ( 321) 2000
+241	17	321	2400	Technician changed 241 Array from  17 ( 
+321) 2400 to  17 ( 321) 2400
+242	17	321	2400	Technician changed 242 Array from  17 ( 
+321) 2400 to  17 ( 321) 2400
+243	17	321	2400	Technician changed 243 Array from  17 ( 
+321) 2400 to  17 ( 321) 2400
+244	17	321	2400	Technician changed 244 Array from  17 ( 
+321) 2400 to  17 ( 321) 2400
+
+The following data is suspect due to the offset being output when there 
+was no wind recorded. The following datum can be interpreted as 0:
+Array  CalD      JulD	 Time     	Error Message
+150	5	309	2115	Wind direction is greater than 360 or 
+less than 0 on  5 ( 309) 2115 (-.095)
+
+The following 15 min and 1 hour data for wind speed is suspect due to a 
+possible but undocumented, sensor freeze or malfunction. Daily 
+averages, and max and min data are also suspect:
+Array	CalD	JulD	Time	Error Message
+102	17	321	700	Wind speed is less than 0.5 m/s from  17 
+( 321)  700 to  18 ( 322)  300
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+December 2002
+
+The following data appear to be correct:
+Array   CalD     JulD	 Time     Error Message
+150	31	365	945	Air temp difference from  31 ( 365) 945 ( 
+2.8979) to  31 ( 365) 1000 (-.11374) is greater than 3.0 degrees C
+
+The following data is suspect due to the offset being output when there 
+was no wind recorded. The following datum can be interpreted as 0:
+Array  CalD      JulD	 Time     Error Message
+150	17	351	615	Wind direction is greater than 360 or 
+less than 0 on  17 ( 351) 615 (-.09513)
+
+The following erroneous Air_TempC data was caused by an undocumented 
+and unexplained glitch or power down that caused the CR10X to reset and 
+record erroneous hourly averages and daily averages. All data were edited 
+accordingly for arrays 101, 102, 241, 242, 243, 244 on day 1 ( 335), 2 ( 
+336), 24 ( 358) and 31 ( 365):
+Array	CalD	JulD	Time	  Error Message
+101	1	335	700	Technician changed 101 Array data from 1 
+( 335) 700 to  1 ( 335) 700
+102	1	335	700	Technician changed 102 Array data from 1 
+( 335) 700 to  1 ( 335) 700
+101	2	336	1700	Technician changed 101 Array data from 2 
+( 336) 1700 to  2 ( 336) 1700
+102	2	336	1700	Technician changed 102 Array data from 2 
+( 336) 1700 to  2 ( 336) 1700
+101	24	358	400	Technician changed 101 Array data from 24 
+( 358) 400 to  24 ( 358) 400
+102	24	358	400	Technician changed 102 Array data from 24 
+( 358) 400 to  24 ( 358) 400
+101	31	365	1800	Technician changed 101 Array data from 31 
+( 365) 1800 to  31 ( 365) 1800
+102	31	365	1800	Technician changed 102 Array data from 31 
+( 365) 1800 to  31 ( 365) 1800
+241	1	335	2400	Technician changed 241 Array from  1 ( 
+335) 2400 to  2 ( 336) 2400
+242	1	335	2400	Technician changed 242 Array from  1 ( 
+335) 2400 to  2 ( 336) 2400
+243	1	335	2400	Technician changed 243 Array from  1 ( 
+335) 2400 to  2 ( 336) 2400
+244	1	335	2400	Technician changed 244 Array from  1 ( 
+335) 2400 to  2 ( 336) 2400
+241	24	358	2400	Technician changed 241 Array from  24 ( 
+358) 2400 to  24 ( 358) 2400
+242	24	358	2400	Technician changed 242 Array from  24 ( 
+358) 2400 to  24 ( 358) 2400
+243	24	358	2400	Technician changed 243 Array from  24 ( 
+358) 2400 to  24 ( 358) 2400
+244	24	358	2400	Technician changed 244 Array from  24 ( 
+358) 2400 to  24 ( 358) 2400
+241	31	365	2400	Technician changed 241 Array data at  31 
+( 365) 2400 to  31 ( 365) 2400
+242	31	365	2400	Technician changed 242 Array data at  31 
+( 365) 2400 to  31 ( 365) 2400
+243	31	365	2400	Technician changed 243 Array data at  31 
+( 365) 2400 to  31 ( 365) 2400
+244	31	365	2400	Technician changed 244 Array data at  31 
+( 365) 2400 to  31 ( 365) 2400
+
+All LiCor data for entire month is incorrect due to a wrong multiplier 
+in the csi program. All 15 min (150), 1 hour (105) and daily averages (245),
+and max (243) and min (244) data have been deleted and replaced with 55555. 
+
+12) Missing data:
+
+January 2002
+
+The following missing data is missing due to the raw data file being 
+lost in desktop computer breakdown:
+Array	CalD	JulD	Time	Error Message
+150	16	16	1515	Missing 150 Array data (15 minute data) 
+from  16 ( 16) 1515 to  31 ( 31) 2400
+101	16	16	1600	Missing 101 Array data (Hourly Averages) 
+from  16 ( 16) 1600 to  31 ( 31) 2400
+102	16	16	1600	Missing 102 Array data (Hourly Average 
+Wind Parameters) from  16 ( 16) 1600 to  31 ( 31) 2300
+241	16	16	2400	Missing 241 data (Daily Averages) from  
+16 ( 16) 2400 to  30 ( 31) 2400
+242	16	16	2400	Missing 242 data (Daily Average Wind 
+parameters) from  16 ( 16) 2400 to  30 ( 31) 2400
+243	16	16	2400	Missing 243 data (Daily Max/Time Values) 
+from  16 ( 16) 2400 to  30 ( 31) 2400
+244	16	16	2400	Missing 244 data (Daily Min/Time Values) 
+from  16 ( 16) 2400 to  30 ( 31) 2400
+
+February 2002
+The following missing data is missing due to the raw data file being 
+lost in desktop computer breakdown:
+Array	CalD	JulD	Time	Error Message
+150	1	32	30	Missing 150 Array data (15 minute data) 
+from  1 ( 32) 30 to  2 ( 33) 1115
+101	1	32	100	Missing 101 Array data (Hourly Averages) 
+from  1 ( 32) 100 to  2 ( 33) 1100
+102	1	32	100	Missing 102 Array data (Hourly Average 
+Wind Parameters) from  1 ( 32) 100 to  2 ( 33) 1100
+
+
+March 2002
+None
+
+April 2002
+None
+
+May 2002
+None
+
+June 2002
+None
+
+July 2002
+None
+
+August 2002
+The following missing data may be due to a glitch in the CR10X 
+datalogger:
+Array	CalD	JulD	Time	Error Message
+150	29	241	300	Missing 150 Array data (15 minute data) 
+from  29 ( 241) 300 to  31 ( 243) 2400
+101	29	241	300	Missing 101 Array data (Hourly Averages) 
+from  29 ( 241) 300 to  31 ( 243) 2400
+102	29	241	300	Missing 102 Array data (Hourly Average 
+Wind Parameters) from  29 ( 241) 300 to  31 ( 243) 2400
+241	29	241	2400	Missing 241 data (Daily Averages) from  
+29 ( 241) 2400 to  31 ( 243) 2400
+242	29	241	2400	Missing 242 data (Daily Average Wind 
+Parameters) from  29 ( 241) 2400 to  31 ( 243) 2400
+243	29	241	2400	Missing 243 data (Daily Max/Time Values) 
+from  29 ( 241) 2400 to  31 ( 243) 2400
+244	29	241	2400	Missing 244 data (Daily Min/Time Values) 
+from  29 ( 241) 2400 to  31 ( 243) 2400
+
+September 2002
+None
+
+October 2002
+None
+
+November 2002
+None
+
+December 2002
+None
+
+
+13) other Remarks
+
+The Centralized Data Management Office converted all SWMP weather data 
+collected with CR10X program versions prior to version 4.0 which was 
+distributed in October 2003.  This was necessary in order to merge the 
+old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums 
+every fifteen minutes (array 15), every hour (array 60) and every day 
+(array 144) for any sensors hooked up to the CR10X.   Specifically, the 150 
+and 151 fifteen minute data were converted to the new 15 array;   the hourly 
+101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, 
+the use of 55555's to code for deleted data and 11111's to code for missing 
+data has been abandoned.  Hence, all 55555's or 11111's contained in the SWMP 
+weather data collected prior to Version 4.0 of the CR10X program were removed 
+and left blank.  
+
+
+LiCor:  
+Prior to the installation of the new NERR_4.CSI program, all values less 
+than 0 were altered in the raw data to read 0. These values may indicate an incorrect 
+multiplier, calibration problems, or a sensor malfunction. Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity:
+Prior to the installation of the new NERR_4.CSI program, all values over 
+100% were altered in the raw data to read 100%.  These values may indicate super 
+saturated air, calibration problems, or a sensor malfunction.  Because these values 
+are changed in the raw data, we cannot confirm that they are all valid data points. 
+
+
+Rain Events: (Monthly totals for January, February and August are not 
+available or not complete due to missing data.)
+
+January
+Date	Rain Amount (mm)
+7	5.080
+8	.762
+10	.762
+13	22.860
+14	1.016
+16	.508
+
+	Monthly Total	n/a (see missing data section)
+
+
+February
+Date	Rain Amount (mm)
+10	6.350
+11	8.636
+17	3.556
+21	10.922
+27	13.716
+28	.254
+
+	Monthly Total	43.4 mm (see missing data section)
+
+March
+Date	Rain Amount (mm)
+3	26.670
+10	13.208
+13	1.016
+16	2.032
+18	1.524
+19	.762
+20	16.764
+21	.762
+25	1.016
+26	17.018
+27	9.144
+30	4.318
+
+	Monthly Total	94.2 mm
+
+April
+Date	Rain Amount (mm)
+1	15.240
+3	8.382
+10	.508
+13	6.350
+14	.254
+15	10.922
+20	1.270
+22	2.286
+25	26.670
+26	3.810
+28	9.906
+29	6.350
+
+	Monthly Total	91.9 mm
+
+
+May
+Date	Rain Amount (mm)
+2	17.272
+9	4.064
+10	2.794
+12	8.382
+13	40.132
+14	11.684
+18	18.796
+28	1.016
+29	1.270
+31	21.082
+
+	Monthly Total	126.5 mm
+
+
+June 
+Date	Rain Amount (mm)
+1	.254
+2	1.778
+4	.254
+5	9.906
+6	12.954
+7	9.906
+9	.254
+11	6.096
+12	22.606
+15	20.574
+16	1.016
+17	3.048
+22	14.224
+23	1.016
+24	.254
+27	5.334
+28	8.128
+
+	Monthly Total	117.6 mm
+
+
+July
+Date 	Rain Amount (mm)
+6	.762
+9	11.684
+10	.254
+15	6.350
+19	1.016
+20	.762
+23	31.242
+28	2.032
+
+	Monthly Total	54.1 mm
+
+
+August
+Date	Rain Amount (mm)
+1	3.556
+5	3.302
+6	.254
+13	.254
+20	1.016
+22	.508
+23	.254
+24	2.540
+25	.254
+	Monthly Total	11.9 mm (see missing data section)
+
+	
+September
+Date	Rain Amount (mm)
+2	.508
+3	2.794
+4	.508
+5	.254
+11	1.778
+15	11.684
+16	23.622
+23	28.956
+26	.254
+27	15.240
+28	5.334
+	Monthly Total	90.9 mm
+
+
+October 
+Date	Rain Amount (mm)
+2	.508
+3	2.794
+4	.508
+5	.254
+11	1.778
+15	11.684
+16	23.622
+23	28.956
+26	.254
+27	15.240
+28	5.334
+
+	Monthly Total	96.8 mm
+	
+
+November
+Date	Rain Amount (mm)
+4	.508
+6	23.114
+11	2.032
+12	12.446
+13	9.398
+16	2.032
+17	28.956
+18	4.826
+19	.254
+21	.762
+22	7.620
+23	.762
+25	1.524
+27	1.270
+
+	Monthly Total	95.5 mm
+
+
+December
+Date	Rain Amount (mm)
+2	.254
+3	.254
+12	8.890
+14	41.402
+20	26.416
+25	1.778
+26	1.270
+31	.762
+
+	Monthly Total	81.0 mm
+

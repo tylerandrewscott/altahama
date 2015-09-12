@@ -1,0 +1,2116 @@
+Delaware (DEL) National Estuarine Research Reserve Water Quality Metadata 
+(January-December 1997)
+Latest Update: April 29, 2002
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+David B. Carter, Environmental Program Manager (P.I.)
+James D. Hewes, Environmental Scientist 
+Susan Love, Environmental Scientist Intern, (July 97 to July 98)
+Carl Yetter, Environmental Engineer (C.P.)
+Lonnie Dye, Mini-Micro Computer Operator
+Richard Field, Research Scientist, University of Delaware (C.P.)
+Vinton Valentine, Graduate Student, University of Delaware
+
+Delaware Coastal Management/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation 
+P.O. Box 1401
+Dover, Delaware 19903 
+Phone: (302) 739-3451
+
+e-mail: 	dcarter@dnrec.state.de.us 
+		jhewes@dnrec.state.de.us 
+		cyetter@dnrec.state.de.us
+		ldye@dnrec.state.de.us
+		slove@dnrec.state.de.us 
+
+	rtfield@earthview.cms.udel.edu		University of Delaware CMS
+	vinton@triton.cms.udel.edu			C/O Lorna Hobart
+								107 Robinson Hall, U of D
+								Newark, Delaware 19716
+								Phone: (302) 831-2695 ext. 4697
+
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6000 upg 
+datalogger to a PC.  Edited files are created by removing the headers, footers, 
+and spaces on a PC.  Missing data from YSI 6000 maintenance (downtime) is 
+inserted into the spreadsheet and are denoted by periods (.).  Data and graphs 
+are visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QC’d using Excel 5.0 
+CDMO macros.  Edited files are merged to contain one full month of data.  Edited 
+and merged monthly files are also transferred to NERRS Central Data Management 
+Office.  Nasreen Faqiri was responsible for the editing and archiving of these 
+data from April 95 through September 96; James Hewes is responsible from 
+November 96 to the present, June 98.
+
+Some data were collected using Eastern Daylight Savings Time (EDT).  The 
+following procedure was used to correct the data.  We performed this procedure 
+after Column Reformat and prior to Find Variable Outliers for all affected 
+files.Rename the current file xxxxxxdt.xls, where xxxxxx is the standard CDMO 
+filename.  Copy the first two rows of data from the subsequent monthly file and 
+paste to the end of the current file.  Copy the first two rows of data in the 
+current file and paste to the end of the previous monthly file.  Delete the 
+first two rows of data from the current file.  Select the time column.  Run the 
+timechg macro in EDTtoEST.xls.  Confirm that the time change is correct.  Select 
+the data column.  Run the datechg macro in EDTtoEST.xls. Confirm that the date 
+change is correct.  Save the file as xxxxxx.xls.
+
+3.  Research Objectives:
+Measurements are taken every 30 minutes over two week periods at two sites in 
+the St. Jones River component and one site in the Blackbird Creek component of 
+Delaware's National Estuarine Research Reserve.  The St. Jones River is impacted 
+by urbanization upstream and extensive agricultural activity throughout the 
+basin.  The Blackbird Creek is one of the least impacted riverine systems in 
+Delaware.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program.  
+Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to a piling 
+at Scotton Landing and a bridge at Blackbird Landing and Penrose Branch using 
+stainless steel brackets and bolts.  Each YSI 6000 is lowered into the PVC pipe 
+that has eight (8) two-inch diameter holes cut out at the bottom for the probes 
+to have direct contact with the water column.  A large stainless steel bolt was 
+placed at the bottom end of the PVC pipe which maintained each YSI 6000 at each 
+site exactly one foot (30 cm) above the river bottom.  Every half-hour over a 
+two-week period, measurements of specific conductivity, salinity, percent 
+saturation, dissolved oxygen, temperature, pH, turbidity and water level are 
+recorded.  Seven days after the deployment of each YSI 6000, the dissolved 
+oxygen membrane is cleaned with a Kimwipe dipped in methanol.  Two-week sampling 
+intervals were selected due to limitations created by the dissolved oxygen 
+membrane.  At the end of each two-week period, the YSI 6000 is brought back to 
+the office for downloading, cleaning, and recalibration.  These procedures are 
+carried out according to the methods as described in the YSI Model 6000 
+Operating and Service Manual.  After approximately six hours of down time for 
+cleaning and recalibration, the YSI 6000's are redeployed for another two-week 
+period.
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the State Capitol City, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are three sampling sites, two located in St. Jones 
+component and one in the Blackbird Creek component.
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, just up stream of Delaware Route 113.  The site is 
+influenced by freshwater runoff from the relatively urbanized area 
+upstream.  Salinity ranges from 8 - 30 ppt.
+             Tidal Range: Spring Mean (m) – 1.26
+		       Neap Mean (m) – 1.13
+Position:  Latitude     39 degree 05'  05.9160"  N
+                              Longitude  75 degree 27'  38.1049"  W
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The site is influenced by freshwater runoff from unimpacted 
+forested areas intermixed with agricultural land uses and a small amount of low-
+density development.  Salinity ranges from 2-7 ppt.
+	Tidal Range: Spring Mean (m) – 1.12
+		       Neap Mean (m) – 1.13
+            	Position:  Latitude      39 degree 23'  19.5196"  N
+		  Longitude   75 degree 38'  09.5882"  W
+3)Penrose Branch - is located in the headwaters of the St. Jones Basin, north of 
+Dover and along Pearsons Corner Road.  The site is predominately a forested 
+wetland tributary system with agricultural landaus along the subcatchments 
+fringe.  Salinity is 0.00 ppt.
+	Tidal Range: Not Applicable, freshwater 
+	Position:	Latitude      39 degree 09'  52.77"  N
+		Longitude   75 degree 39'  01.52"  W
+
+6.  Data collection period:
+Scotton Landing data collection began on July 1, 1995.  Blackbird Landing data 
+collection began on July 14, 1995. Penrose Branch data collection began on June 
+1,1996.  All sampling is ongoing.
+
+7.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted stormwater sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin.An additional stormwater sampling program is 
+underway to analyze the impact of agricultural BMP's at sites in the Blackbird 
+Creek Watershed, St. Jones River Watershed.  A joint effort underway through 
+NOAA's Center for Coastal Ecosystem Health and the DNERR characterization 
+studies will initiate detailed monthly water quality sampling at three sites in 
+each river over a two year period and will quantify the phytoplankton community 
+with collections from the same sites.   This project was scheduled to be 
+initiated in February 1995.(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+Variable    Range of Measurements (Units)      Resolution            Accuracy
+DATE        1-12, 1-31, 00-99 (Mo,Day,Yr)     1 mo, 1day, 1 yr       N/A
+HOUR        0-24, 0-60, 0-60 (Hr,Day,Sec)     1 hr, 1 min., 1 sec.   N/A
+TEMP               -5 to 45 (degrees C)       0.01 C                 +/-0.15 C
+SPCOND              0-100 (mS/cm)             0.01 mS/cm             +/-0.5% of 
+reading + 0.001 mS/cm
+SALINITY    0-70 parts per thousand (ppt)     0.01 ppt       +/-1.0% of reading 
+or 0.1 ppt, (whichever is greater)
+DOSAT       0-200 (% air Saturation)          0.1% @air saturation   +/-2% @air 
+saturation
+DOSAT       200-500 (% air Saturation)        0.1% @air saturation   +/-6% @air 
+saturation
+DOMG                0-20 (mg/l)               0.01 mg/l              +/-0.2 mg/l
+DOMG                20-50 (mg/l)              0.01 mg/l              +/-0.6 mg/l
+DEPTH               0-9.1 (m)                 0.001 m                +/-0.018 m
+PH                  2-14 units                0.01 units            +/-0.2 units
+Turb                0-1000 NTU                0.1 NTU         +/-5% of reading 
+or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.
+
+9. Coded variable indicator and variable code definitions:
+Site definitions:  SL = Scotton Landing, BL = Blackbird Landing, PB = Penrose 
+Branch
+
+10. Data anomalies (suspect data):
+
+January 1, 1997 through March 31, 1997
+
+A. Scotton Landing
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) Turbidity (NTU) value on February 25, 1997 at 21:00:00 out of range, -0700, 
+possible obstruction, data 
+retained.
+c) Turbidity (NTU) value on March 4, 1997 at 05:30:00 out of range, -0700, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on March 4, 1997 at 06:30:00 out of range, -0700, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on March 9, 1997 at 08:00:00 out of range, -0683, 
+possible obstruction, data retained.
+f) Turbidity (NTU) values between March 9, 1997 at 09:00:00 through 10:30:00 out 
+of range, possible 
+obstruction, data retained.
+g) Turbidity (NTU) value on March 11, 1997 at 02:00:00 out of range, -0685, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on March 11, 1997 at 03:00:00 out of range, -0684, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on March 11, 1997 at 13:00:00 out of range, -0501, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on March 11, 1997 at 15:00:00 out of range, -0495, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on March 12, 1997 at 03:00:00 out of range, -0685, 
+possible obstruction, data retained.
+l) Turbidity (NTU) value on March 12, 1997 at 16:30:00 out of range, -0273, 
+possible obstruction, data retained.
+m) Turbidity (NTU) value on March 13, 1997 at 04:00:00 out of range, -0684, 
+possible obstruction, data retained.
+n) Turbidity (NTU) value on March 13, 1997 at 07:30:00 out of range, -0684, 
+possible obstruction, data retained.
+o) Turbidity (NTU) value on March 14, 1997 at 11:30:00 out of range, -0685, 
+possible obstruction, data retained.
+p) Turbidity (NTU) value on March 15, 1997 at 16:00:00 out of range, -0687, 
+possible obstruction, data retained.
+q) Turbidity (NTU) value on March 15, 1997 at 21:00:00 out of range, -0687, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on March 16, 1997 at 20:00:00 out of range, -0686, 
+possible obstruction, data retained.
+s) Turbidity (NTU) value on March 17, 1997 at 04:00:00 out of range, -0684, 
+possible obstruction, data retained.
+t) Turbidity (NTU) value on March 19, 1997 at 00:00:00 out of range, -0507, 
+possible obstruction, data retained.
+u) Turbidity (NTU) value on March 21, 1997 at 08:30:00 out of range, -0708, 
+possible obstruction, data retained.
+v) Turbidity (NTU) value on March 21, 1997 at 09:00:00 out of range, -0191, 
+possible obstruction, data retained.
+w) Turbidity (NTU) value on March 21, 1997 at 11:30:00 out of range, -0792, 
+possible obstruction, data retained.
+x) Turbidity (NTU) value on March 21, 1997 at 16:30:00 out of range, -0713, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on March 21, 1997 at 23:00:00 out of range, -0711, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on March 22, 1997 at 04:00:00 out of range, -0712, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on March 22, 1997 at 21:30:00 out of range, -0769, 
+possible obstruction, data retained.
+bb) Turbidity (NTU) value on March 23, 1997 at 01:00:00 out of range, -0332, 
+possible obstruction, data retained.
+cc) Turbidity (NTU) value on March 23, 1997 at 13:00:00 out of range, -0712, 
+possible obstruction, data retained.
+dd) Turbidity (NTU) value on March 23, 1997 at 19:00:00 out of range, -0776, 
+possible obstruction, data retained.
+ee) Turbidity (NTU) value on March 23, 1997 at 19:30:00 out of range, -0445, 
+possible obstruction, data retained.
+ff) Turbidity (NTU) value on March 24, 1997 at 02:00:00 out of range, -0712, 
+possible obstruction, data retained.
+gg) Turbidity (NTU) value on March 24, 1997 at 06:30:00 out of range, -0484, 
+possible obstruction, data retained.
+hh) Turbidity (NTU) value on March 24, 1997 at 17:30:00 out of range, -0593, 
+possible obstruction, data retained.
+ii) Turbidity (NTU) value on March 24, 1997 at 20:00:00 out of range, -0741, 
+possible obstruction, data retained.
+jj) Turbidity (NTU) value on March 25, 1997 at 04:00:00 out of range, -0825, 
+possible obstruction, data retained.
+kk) Turbidity (NTU) value on March 26, 1997 at 02:30:00 out of range, -0714, 
+possible obstruction, data retained.
+ll) Turbidity (NTU) value on March 26, 1997 at 22:00:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+mm) Turbidity (NTU) value on March 27, 1997 at 02:30:00 out of range, -0673, 
+possible obstruction, data retained.
+nn) Turbidity (NTU) value on March 27, 1997 at 10:30:00 out of range, -0716, 
+possible obstruction, data retained.
+oo) Turbidity (NTU) value on March 28, 1997 at 03:00:00 out of range, -0369, 
+possible obstruction, data retained.
+pp) Turbidity (NTU) value on March 28, 1997 at 13:00:00 out of range, -0717, 
+possible obstruction, data retained.
+qq) Turbidity (NTU) value on March 29, 1997 at 01:30:00 out of range, -0795, 
+possible obstruction, data retained.
+rr) Turbidity (NTU) value on March 30, 1997 at 17:30:00 out of range, -0723, 
+possible obstruction, data retained.
+ss) Turbidity (NTU) value on March 30, 1997 at 21:00:00 out of range, -0921, 
+possible obstruction, data retained.
+tt) Depth (m) values between March 31, 1997 21:30:00 through March 31, 1997 
+22:30:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water due to low 
+tide.
+
+ B. Blackbird Landing
+a) Redeployment of new instrument on 1/10 17:00:00 resulted in DO spike from 1/10 
+17:00:00 to 17:30:00 that was deleted.
+b) Dissolved oxygen (DO % and mg/L) values between February 20, 1997 18:30:00 
+through March 6, 1997 08:30:00,DO data is unreasonable during entire deployment 
+which starts out reading negative. 
+c)  Dissolved oxygen (DO % and mg/L) values between February 25, 1997 14:00:00 
+through February 25, 1997 
+20:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+d)  Dissolved oxygen (DO % and mg/L) values between February 25, 1997 23:30:00 
+through February 26, 1997 
+19:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+e)  Dissolved oxygen (DO % and mg/L) values between February 27, 1997 15:00:00 
+through February 27, 1997 
+15:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+f)  Dissolved oxygen (DO % and mg/L) values between February 27, 1997 16:30:00 
+through February 27, 1997 
+18:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+g)  Dissolved oxygen (DO % and mg/L) values between February 27, 1997 20:30:00 
+through February 27, 1997 
+21:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+h)  Dissolved oxygen (DO % and mg/L) values on February 27, 1997 22:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 93.8%.  Post-deployment calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge 
+both within acceptable range.  Read negative values as 000.0 % saturation and 
+00.0 mg/L.
+i)  Dissolved oxygen (DO % and mg/L) values on February 27, 1997 23:30:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 93.8%.  Post-deployment calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge 
+both within acceptable range.  Read negative values as 000.0 % saturation and 
+00.0 mg/L.
+j)  Dissolved oxygen (DO % and mg/L) values between February 28, 1997 13:30:00 
+through February 28, 1997 
+16:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 93.8%.  Post-deployment 
+calibration check resulted in 107.9 % 
+saturation reading and 47.1 DO charge both within acceptable range.  Read 
+negative values as 000.0 % 
+saturation and 00.0 mg/L.
+k)  Dissolved oxygen (DO % and mg/L) values on March 1, 1997 01:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 93.8%.  Post-deployment calibration check resulted in 107.9 % saturation 
+reading and 47.1 DO charge both 
+within acceptable range.  Read negative values as 000.0 % saturation and 00.0 
+mg/L.
+l)  Turbidity (NTU) value on March 26, 1997 17:30:00 is a large positive 
+reading, 0211.  Reason not apparent.  
+Data retained.
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) Negative depths on the following dates: January 5, 1997 11:30:00 through 
+21:30:00, January 9, 1997 19:00:00 through January 10, 1997 07:00:00. 
+c) Turbidity (NTU) value on February 27, 1997 at 01:00:00 out of range, -0182, 
+possible obstruction, data 
+retained.
+
+April 1, 1997 through June 30, 1997
+
+A. Scotton Landing
+a) Turbidity (NTU) value on April 1, 1997 at 03:30:00 out of range, -0714, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on April 1, 1997 at 04:00:00 out of range, -0137, 
+possible obstruction, data retained.
+c) Turbidity (NTU) value on April 1, 1997 at 15:30:00 out of range, -0711, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on April 1, 1997 at 19:00:00 out of range, -0709, 
+possible obstruction, data retained.
+e) Turbidity (NTU) values between April 2, 1997 at 05:00:00 through April 2, 
+1997 at 06:30:00 out of range, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on April 2, 1997 at 11:00:00 out of range, -0709, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on April 10, 1997 at 23:30:00 out of range, -0685, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on April 13, 1997 at 14:00:00 out of range, -0095, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on April 15, 1997 at 14:00:00 out of range, -0053, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on April 15, 1997 at 15:30:00 out of range, -0690, 
+possible obstruction, data retained.
+k) Turbidity (NTU) values between April 19, 1997 at 20:00:00 through April 19, 
+1997 at 21:00:00 out of range, 
+possible obstruction, data retained.
+l) Turbidity (NTU) value on April 24, 1997 at 14:30:00 out of range, -0694, 
+possible obstruction, data retained.
+m) Turbidity (NTU) value on April 24, 1997 at 16:30:00 out of range, -0698, 
+possible obstruction, data retained.
+n) Turbidity (NTU) value on May 3, 1997 at 08:30:00 out of range, -0693, 
+possible obstruction, data retained.
+o) Turbidity (NTU) value on May 3, 1997 at 17:00:00 out of range, -0698, 
+possible obstruction, data retained.
+p) Turbidity (NTU) value on May 5, 1997 at 10:00:00 out of range, -0245, 
+possible obstruction, data retained.
+q) Turbidity (NTU) value on May 9, 1997 at 20:00:00 out of range, -0178, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on May 11, 1997 at 07:30:00 out of range, -0483, 
+possible obstruction, data retained.
+s) Turbidity (NTU) value on May 11, 1997 at 13:30:00 out of range, -0440, 
+possible obstruction, data retained.
+t) Turbidity (NTU) value on May 12, 1997 at 11:30:00 out of range, -0842, 
+possible obstruction, data retained.
+u) Anomalous increase in Spcond/depth/DO on 5/17 17:00:00.
+v) Turbidity (NTU) value on May 20, 1997 at 00:30:00 out of range, -0614, 
+possible obstruction, data retained.
+w) Turbidity (NTU) value on May 26, 1997 at 04:00:00 out of range, -0632, 
+possible obstruction, data retained.
+x) Turbidity (NTU) value on June 1, 1997 at 06:30:00 out of range, -0599, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on June 1, 1997 at 19:00:00 out of range, -0704, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on June 2, 1997 at 19:00:00 out of range, -0698, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on June 2, 1997 at 19:30:00 out of range, -0698, 
+possible obstruction, data retained.
+bb) Turbidity (NTU) value on June 2, 1997 at 20:00:00 out of range, -0231, 
+possible obstruction, data retained.
+cc) Turbidity (NTU) value on June 3, 1997 at 09:00:00 out of range, -0663, 
+possible obstruction, data retained.
+dd) Turbidity (NTU) value on June 3, 1997 at 20:00:00 out of range, -0703, 
+possible obstruction, data retained.
+ee) Turbidity (NTU) value on June 3, 1997 at 20:30:00 out of range, -0691, 
+possible obstruction, data retained.
+ff) Turbidity (NTU) value on June 3, 1997 at 21:00:00 out of range, -0759, 
+possible obstruction, data retained.
+gg) Turbidity (NTU) value on June 4, 1997 at 06:30:00 out of range, -0795, 
+possible obstruction, data retained.
+hh) Turbidity (NTU) value on June 5, 1997 at 00:30:00 out of range, -0840, 
+possible obstruction, data retained.
+ii) Turbidity (NTU) value on June 7, 1997 at 02:30:00 out of range, -0695, 
+possible obstruction, data retained.
+jj) Turbidity (NTU) value on June 7, 1997 at 10:30:00 out of range, -0085, 
+possible obstruction, data retained.
+kk) Turbidity (NTU) value on June 11, 1997 at 20:30:00 out of range, -0049, 
+possible obstruction, data retained.
+ll) Turbidity (NTU) value on June 19, 1997 at 00:30:00 out of range, -0017, 
+possible obstruction, data retained.
+ 
+B. Blackbird Landing
+a) Turbidity (NTU) value between April 1, 1997 05:30:00 through April 1, 1997 
+06:00:00 are large positive 
+readings, 0194-0202.  Reason not apparent.  Data retained.
+b) Depth (m) value on April 19, 1997 at 04:30:00 out of range, -0.02.  Data 
+indicate that the remaining probes 
+were still submerged during this time.  Depth value retained.
+b)  Dissolved oxygen (DO % and mg/L) values on May 2, 1997 14:00:00 through 
+May 5, 1997 15:30:00 are negative and out of range, may be 
+due to probe fouling, data deleted.  Discrete sampling during calibration on 
+May 1, 1997 stabilized at 101.5 % 
+saturation.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+c)  Dissolved oxygen (DO % and mg/L) values on June 14, 1997 01:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling during calibration on 
+June 12, 1997 stabilized at 93.8 % 
+saturation which may account for small negative values.  Read negative values as 
+000.0 % saturation and 00.0 
+mg/L.
+d)  Turbidity (NTU) value on June 22, 1997 at 12:30:00 out of range, 1035, 
+possible obstruction, data retained.
+e)  Dissolved oxygen (DO % and mg/L) values between June 27, 1997 00:30:00 
+through June 27, 1997 07:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+f)  Dissolved oxygen (DO % and mg/L) values on June 27, 1997 08:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+g)  Dissolved oxygen (DO % and mg/L) values on June 28, 1997 08:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+h)  Dissolved oxygen (DO % and mg/L) values on June 28, 1997 21:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+i)  Dissolved oxygen (DO % and mg/L) values on June 29, 1997 09:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+j)  Dissolved oxygen (DO % and mg/L) values on June 29, 1997 22:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+k)  Turbidity (NTU) value on June 29, 1997 23:00:00 is a large positive reading, 
+0721.  Reason not apparent.  Data 
+retained.
+l)  Dissolved oxygen (DO % and mg/L) values on June 30, 1997 15:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+m)  Turbidity (NTU) value on June 30, 1997 16:00:00 is a large positive reading, 
+0774.  Reason not apparent.  Data 
+retained.
+n)  Dissolved oxygen (DO % and mg/L) values on June 30, 1997 23:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+o)  Turbidity (NTU) value on June 30, 1997 23:00:00 is a large positive reading, 
+0431.  Reason not apparent.  Data 
+retained
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) Anomalous DO events on 5/8 21:30:00 & 5/24 10:30:00 – 11:30:00 where DO 
+decreased dramatically.
+c) Turbidity (NTU) value on April 18, 1997 at 04:00:00 out of range, -0872, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on April 18, 1997 at 04:30:00 out of range, -0872, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on April 20, 1997 at 05:30:00 out of range, -0872, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on April 21, 1997 at 22:00:00 out of range, -0876, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on April 28, 1997 at 09:00:00 out of range, -0881, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on April 30, 1997 at 17:00:00 out of range, 1239, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on April 30, 1997 at 19:00:00 out of range, -903.6, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on May 9, 1997 at 02:00:00 out of range, -890.6, 
+possible obstruction, data retained.
+k) Depth (m) value on June 27, 1997 at 15:30:00 out of range, -2.695, all 
+readings at this time frame not consistant 
+with data before and after reading, all data retained.
+
+July 1, 1997 through September 30, 1997
+
+A. Scotton Landing
+a) Turbidity (NTU) value on July 8, 1997 at 14:00:00 out of range, -0900, 
+possible obstruction, data retained.
+b) DO % and DO mg/L readings between July 9, 1997 16:00:00 through July 23, 1997 
+10:30:00 were out of 
+range.  Suspected DO membrane puncture during deployment, readings deleted in 
+accordance to CDMO 
+manual (Appendix B-8).  See missing data section.
+c) Turbidity (NTU) value on July 12, 1997 at 11:00:00 out of range, -0283, 
+possible obstruction, data retained. 
+d) Turbidity (NTU) value on July 12, 1997 at 11:30:00 out of range, -0720, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on July 18, 1997 at 10:00:00 out of range, -0727, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on July 18, 1997 at 10:30:00 out of range, -0725, 
+possible obstruction, data retained.
+g) Turbidity (NTU) values between July 18, 1997 15:30:00 through July 19, 1997 
+08:00:00 are out of range, 
+possible obstruction, data retained.
+h) Turbidity (NTU) values between July 19, 1997 11:30:00 through July 19, 1997 
+15:00:00 are out of range, 
+possible obstruction, data retained.
+i) Turbidity (NTU) values between July 19, 1997 16:00:00 through July 19, 1997 
+18:30:00 are out of range, 
+possible obstruction, data retained.
+j) Turbidity (NTU) values between July 19, 1997 20:30:00 through July 20, 1997 
+01:30:00 are out of range, 
+possible obstruction, data retained.
+k) Turbidity (NTU) values between July 20, 1997 03:00:00 through July 20, 1997 
+08:30:00 are out of range, 
+possible obstruction, data retained.
+l) Turbidity (NTU) value on July 20, 1997 at 13:30:00 out of range, 1012, 
+possible obstruction, data retained. 
+m) Turbidity (NTU) values between July 20, 1997 14:30:00 through July 21, 1997 
+12:00:00 are out of range, 
+possible obstruction, data retained.
+n) Turbidity (NTU) values between July 21, 1997 18:00:00 through July 23, 1997 
+00:30:00 are out of range, 
+possible obstruction, data retained.
+o) Turbidity (NTU) value on July 23, 1997 at 01:30:00 out of range, -0734, 
+possible obstruction, data retained.
+p) Turbidity (NTU) value on July 23, 1997 at 02:30:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+q) Turbidity (NTU) values between July 23, 1997 03:00:00 through July 23, 1997 
+10:30:00 are out of range, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on July 25, 1997 at 02:00:00 out of range, -0882, 
+possible obstruction, data retained.
+s) Turbidity (NTU) value on July 25, 1997 at 02:30:00 out of range, -0913, 
+possible obstruction, data retained.
+t) Turbidity (NTU) value on July 27, 1997 at 05:30:00 out of range, -0017, 
+possible contamination from storage 
+cup, data retained.
+u) Turbidity (NTU) value on July 28, 1997 at 19:30:00 out of range, -0257, 
+possible obstruction, data retained.
+v) Turbidity (NTU) value on July 29, 1997 at 04:00:00 out of range, -0391, 
+possible obstruction, data retained.
+w) Turbidity (NTU) value on July 30, 1997 at 06:00:00 out of range, -0250, 
+possible obstruction, data retained.
+x) Turbidity (NTU) value on July 31, 1997 at 14:00:00 out of range, -0727, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on July 31, 1997 at 14:30:00 out of range, -0722, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on July 23, 1997 at 23:30:00 out of range, -0752, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on August 1, 1997 at 04:30:00 out of range, -0914, 
+possible obstruction, data retained.
+bb) Turbidity (NTU) value on August 1, 1997 at 05:00:00 out of range, -0775, 
+possible obstruction, data retained.
+cc) Turbidity (NTU) value on August 1, 1997 at 06:00:00 out of range, -0893, 
+possible obstruction, data retained.
+dd) Turbidity (NTU) values between August 1, 1997 07:30:00 through August 1, 
+1997 08:00:00 were out of range, 
+possible obstruction, data retained.
+b)  Turbidity (NTU) values between August 1, 1997 14:30:00 through August 1, 
+1997 15:00:00 were out of range, 
+possible obstruction, data retained.
+ee) Turbidity (NTU) value on August 1, 1997 at 16:30:00 out of range, -0724, 
+possible obstruction, data retained.
+ff) Turbidity (NTU) values between August 1, 1997 17:30:00 through August 1, 
+1997 20:00:00 were out of range, 
+possible obstruction, data retained.
+gg) Turbidity (NTU) value on August 1, 1997 at 21:00:00 out of range, -0869, 
+possible obstruction, data retained.
+hh) Turbidity (NTU) values between August 1, 1997 21:30:00 through August 1, 
+1997 23:00:00 out of range, 
+possible contamination from storage cup, data retained.
+ii) Turbidity (NTU) value on August 2, 1997 at 00:00:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+jj) Turbidity (NTU) values between August 2, 1997 00:30:00 through August 2, 
+1997 04:00:00 were out of range, 
+possible obstruction, data retained.
+kk) Turbidity (NTU) value on August 2, 1997 at 07:30:00 out of range, 1002, 
+possible obstruction, data retained.
+ll) Turbidity (NTU) value on August 2, 1997 at 09:00:00 out of range, -0720, 
+possible obstruction, data retained.
+mm) Turbidity (NTU) value on August 2, 1997 at 13:00:00 out of range, -1057, 
+possible obstruction, data 
+retained.
+nn) Turbidity (NTU) values between August 2, 1997 14:00:00 through August 2, 
+1997 15:30:00 and August 2, 
+1997 at 16:30:00 were out of range, possible obstruction, data retained.
+oo) Turbidity (NTU) values between August 2, 1997 17:00:00 through August 2, 
+1997 19:30:00 out of range, 
+possible contamination from storage cup, data retained.
+pp) Turbidity (NTU) value on August 2, 1997 at 20:30:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+qq) Turbidity (NTU) values between August 2, 1997 21:00:00 through August 2, 
+1997 22:00:00 were out of range, 
+possible obstruction, data retained.
+rr) Turbidity (NTU) value on August 3, 1997 at 01:00:00 out of range, 1003, 
+possible obstruction, data retained.
+ss) Turbidity (NTU) value on August 3, 1997 at 02:00:00 out of range, -0791, 
+possible obstruction, data retained.
+tt) Turbidity (NTU) values between August 3, 1997 03:30:00 through August 3, 
+1997 04:30:00 were out of range, 
+possible obstruction, data retained.
+uu) Turbidity (NTU) values between August 3, 1997 05:30:00 through August 3, 
+1997 08:00:00 were out of range, 
+possible obstruction, data retained.
+vv) Turbidity (NTU) values at August 3, 1997 09:30:00, and between August 3, 
+1997 10:30:00 through August 3, 1997 12:00:00 out of range, 
+possible contamination from storage cup, data retained.
+ww) Turbidity (NTU) value on August 3, 1997 at 13:00:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+xx) Turbidity (NTU) values between August 3, 1997 13:30:00 through August 3, 
+1997 14:30:00 were out of range, 
+possible obstruction, data retained.
+yy) Turbidity (NTU) value on August 3, 1997 at 15:30:00 out of range, -0723, 
+possible obstruction, data retained.
+zz) Turbidity (NTU) value on August 3, 1997 at 16:30:00 out of range, -0722, 
+possible obstruction, data retained.
+aaa) Turbidity (NTU) value on August 3, 1997 at 18:00:00 out of range, -0723, 
+possible obstruction, data retained.
+bbb) Turbidity (NTU) values between August 3, 1997 20:30:00 through August 3, 
+1997 22:00:00 were out of 
+range, possible obstruction, data retained.
+ccc) Turbidity (NTU) value on August 4, 1997 at 01:30:00 out of range, -0845, 
+possible obstruction, data retained.
+ddd) Turbidity (NTU) values between August 4, 1997 03:30:00 through August 4, 
+1997 04:30:00 were out of 
+range, possible obstruction, data retained.
+eee) Turbidity (NTU) value on August 4, 1997 at 06:00:00 out of range, -0002, 
+possible contamination from storage 
+cup, data retained.
+fff) Turbidity (NTU) value on August 4, 1997 at 06:30:00 out of range, -0720, 
+possible obstruction, data retained.
+ggg) Turbidity (NTU) value on August 4, 1997 at 07:00:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+hhh) Turbidity (NTU) value on August 4, 1997 at 08:30:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+iii) Turbidity (NTU) value on August 4, 1997 at 09:30:00 out of range, -0720, 
+possible obstruction, data retained.
+jjj) Turbidity (NTU) value on August 4, 1997 at 10:30:00 out of range, -0796, 
+possible obstruction, data retained.
+kkk) Turbidity (NTU) value on August 4, 1997 at 11:00:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+lll) Turbidity (NTU) value on August 4, 1997 at 14:30:00 out of range, -0721, 
+possible obstruction, data retained.
+mmm) Turbidity (NTU) value on August 4, 1997 at 16:30:00 out of range, -0722, 
+possible obstruction, data 
+retained.
+nnn) Turbidity (NTU) values between August 4, 1997 18:30:00 through August 4, 
+1997 19:30:00 were out of 
+range, possible obstruction, data retained.
+ooo) Turbidity (NTU) value on August 4, 1997 at 21:30:00 out of range, -0721, 
+possible obstruction, data 
+retained.
+ppp) Turbidity (NTU) value on August 4, 1997 at 22:00:00 out of range, -0721, 
+possible obstruction, data 
+retained.
+qqq) Turbidity (NTU) value on August 5, 1997 at 02:30:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+rrr) Turbidity (NTU) value on August 5, 1997 at 04:00:00 out of range, -0661, 
+possible obstruction, data retained.
+sss) Turbidity (NTU) value on August 5, 1997 at 05:00:00 out of range, -0728, 
+possible obstruction, data retained.
+ttt) Turbidity (NTU) value on August 5, 1997 at 07:00:00 out of range, -0719, 
+possible obstruction, data retained.
+uuu) Turbidity (NTU) value on August 5, 1997 at 08:00:00 out of range, -0719, 
+possible obstruction, data 
+retained.
+vvv) Turbidity (NTU) value on August 5, 1997 at 08:30:00 out of range, -0719, 
+possible obstruction, data 
+retained.
+www) Turbidity (NTU) value on August 5, 1997 at 09:30:00 out of range, -0719, 
+possible obstruction, data 
+retained.
+xxx) Turbidity (NTU) value on August 5, 1997 at 11:00:00 out of range, -0809, 
+possible obstruction, data 
+retained.
+yyy) Turbidity (NTU) value on August 5, 1997 at 15:00:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+zzz) Turbidity (NTU) value on August 5, 1997 at 15:30:00 out of range, -0721, 
+possible obstruction, data retained.
+aaaa) Turbidity (NTU) values between August 5, 1997 20:00:00 through August 5, 
+1997 21:00:00 were out of 
+range, possible obstruction, data retained.
+bbbb) Turbidity (NTU) value on August 6, 1997 at 00:30:00 out of range, -0997, 
+possible obstruction, data 
+retained.
+cccc) Turbidity (NTU) value on August 6, 1997 at 08:30:00 out of range, -0718, 
+possible obstruction, data 
+retained.
+dddd) Turbidity (NTU) values between August 6, 1997 10:30:00 and August 6, 1997 
+11:30:00 were out of range, 
+possible obstruction, data retained.
+eeee) Turbidity (NTU) value on August 6, 1997 at 13:00:00 out of range, -0718, 
+possible obstruction, data 
+retained.
+ffff) Turbidity (NTU) value on August 6, 1997 at 13:30:00 out of range, -1060, 
+possible obstruction, data retained.
+gggg) Turbidity (NTU) value on August 6, 1997 at 15:00:00 out of range, -0719, 
+possible obstruction, data 
+retained.
+hhhh) Turbidity (NTU) value on August 6, 1997 at 15:30:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+iiii) Turbidity (NTU) value on August 6, 1997 at 16:30:00 out of range, -0919, 
+possible obstruction, data retained.
+jjjj) Turbidity (NTU) value on August 6, 1997 at 17:30:00 out of range, -0721, 
+possible obstruction, data retained.
+kkkk) Turbidity (NTU) value on August 6, 1997 at 19:00:00 out of range, -0721, 
+possible obstruction, data 
+retained.
+llll) Turbidity (NTU) value on August 6, 1997 at 21:00:00 out of range, -0721, 
+possible obstruction, data retained.
+mmmm) Turbidity (NTU) value on August 6, 1997 at 22:00:00 out of range, -0721, 
+possible obstruction, data 
+retained.
+nnnn) Turbidity (NTU) value on August 6, 1997 at 22:30:00 out of range, -0721, 
+possible obstruction, data 
+retained.
+oooo) Turbidity (NTU) value on August 6, 1997 at 23:30:00 out of range, -0720, 
+possible obstruction, data 
+retained.
+pppp)  Turbidity (NTU) value on August 7, 1997 at 00:00:00 out of range, -0832, 
+possible obstruction, data 
+retained.
+qqqq) Turbidity (NTU) values between August 7, 1997 01:00:00 through August 7, 
+1997 04:00:00 were out of 
+range, possible obstruction, data retained.
+rrrr) Turbidity (NTU) values between August 7, 1997 06:30:00 through August 7, 
+1997 08:30:00 were out of range, 
+possible obstruction, data retained.
+ssss) Turbidity (NTU) value on August 9, 1997 at 05:30:00 out of range, -0838, 
+possible obstruction, data 
+retained.
+tttt) Turbidity (NTU) value on August 9, 1997 at 15:00:00 out of range, -0840, 
+possible obstruction, data retained.
+uuuu) Turbidity (NTU) value on August 9, 1997 at 16:00:00 out of range, -0947, 
+possible obstruction, data 
+retained.
+vvvv) Turbidity (NTU) value on August 9, 1997 at 16:30:00 out of range, -0841, 
+possible obstruction, data 
+retained.
+wwww) Turbidity (NTU) value on August 9, 1997 at 19:00:00 out of range, -0840, 
+possible obstruction, data 
+retained.
+xxxx) Turbidity (NTU) value on August 11, 1997 at 10:30:00 out of range, -0140, 
+possible obstruction, data 
+retained.
+yyyy) Turbidity (NTU) value on August 18, 1997 at 11:30:00 out of range, -0203, 
+possible obstruction, data 
+retained.
+zzzz) Turbidity (NTU) value on August 18, 1997 at 12:30:00 out of range, -0843, 
+possible obstruction, data 
+retained.
+aaaaa) Turbidity (NTU) value on August 18, 1997 at 17:30:00 out of range, -0843, 
+possible obstruction, data 
+retained.
+bbbbb) Turbidity (NTU) value on August 18, 1997 at 18:30:00 out of range, -0193, 
+possible obstruction, data 
+retained.
+ccccc) Turbidity (NTU) value on August 19, 1997 at 02:30:00 out of range, -0826, 
+possible obstruction, data 
+retained.
+ddddd) Turbidity (NTU) value on August 21, 1997 at 03:00:00 out of range, -0811, 
+possible obstruction, data 
+retained.
+eeeee) Turbidity (NTU) value on August 28, 1997 at 23:00:00 out of range, -0873, 
+possible obstruction, data 
+retained.
+fffff) Turbidity (NTU) value on August 29, 1997 at 11:30:00 out of range, -1113, 
+possible obstruction, data 
+retained.
+ggggg) Turbidity (NTU) value on August 30, 1997 at 06:00:00 out of range, -0129, 
+possible obstruction, data 
+retained.
+hhhhh) Turbidity (NTU) value on September 1, 1997 at 04:00:00 out of range, -
+0099, possible obstruction, data 
+retained.
+iiiii) Turbidity (NTU) value on September 1, 1997 at 22:30:00 out of range, -
+0842, possible obstruction, data 
+retained. 
+jjjjj) Turbidity (NTU) value on September 5, 1997 at 02:30:00 out of range, -
+0822, possible obstruction, data 
+retained.
+kkkkk) Turbidity (NTU) value on September 13, 1997 at 00:00:00 out of range, -
+0854, possible obstruction, data 
+retained.
+lllll) All DO % and DO mg/L readings were deleted between September 21, 1997 20:30:00 
+through September 30, 1997 09:00:00.  
+Suspected DO membrane puncture during deployment, readings deleted in accordance 
+to CDMO manual 
+(Appendix B-8).  
+mmmmm) Anomalous increase in sal/DO on 09/31 20:30:00.
+nnnnn) Turbidity (NTU) value on September 29, 1997 at 19:30:00 out of range, 
+1188, possible obstruction, data 
+retained.
+
+B. Blackbird Landing
+a) Turbidity (NTU) value on July 9, 1997 at 02:00:00 out of range, -0392, 
+possible obstruction, data retained.
+b)  Dissolved oxygen (DO % and mg/L) values on July 1, 1997 11:00:00 are 
+negative and out of range, may be due 
+to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may 
+account for small negative values.  Read negative values as 000.0 % saturation 
+and 00.0 mg/L.
+c)  Dissolved oxygen (DO % and mg/L) values on July 2, 1997 06:00:00 are 
+negative and out of range, may be due 
+to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may 
+account for small negative values.  Read negative values as 000.0 % saturation 
+and 00.0 mg/L.
+d)  Dissolved oxygen (DO % and mg/L) values on July 3, 1997 01:00:00 are 
+negative and out of range, may be due 
+to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may 
+account for small negative values.  Read negative values as 000.0 % saturation 
+and 00.0 mg/L.
+e)  Dissolved oxygen (DO % and mg/L) values on July 3, 1997 07:00:00 are 
+negative and out of range, may be due 
+to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may 
+account for small negative values.  Read negative values as 000.0 % saturation 
+and 00.0 mg/L.
+f)  Dissolved oxygen (DO % and mg/L) values between July 7, 1997 03:30:00 
+through July 3, 1997 08:30:00 are 
+negative and out of range, may be due to probe fouling, data retained.  Discrete 
+sampling prior to calibration 
+stabilized at 98.9 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+g)  Dissolved oxygen (DO % and mg/L) values between July 8, 1997 03:30:00 
+through July 8, 1997 10:00:00 are 
+negative and out of range, may be due to probe fouling, data retained.  Discrete 
+sampling prior to calibration 
+stabilized at 98.9 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+h)  Dissolved oxygen (DO % and mg/L) values on July 8, 1997 16:00:00 are 
+negative and out of range, may be due 
+to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may 
+account for small negative values.  Read negative values as 000.0 % saturation 
+and 00.0 mg/L.
+i)  Dissolved oxygen (DO % and mg/L) values between July 9, 1997 03:00:00 
+through July 9, 1997 10:30:00 are 
+negative and out of range, may be due to probe fouling, data retained.  Discrete 
+sampling prior to calibration 
+stabilized at 98.9 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+j)  Dissolved oxygen (DO % and mg/L) values between July 10, 1997 05:00:00 
+through July 10, 1997 06:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.9 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+k)  Dissolved oxygen (DO % and mg/L) values between July 12, 1997 04:30:00 
+through July 12, 1997 06:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+l)  Dissolved oxygen (DO % and mg/L) values on July 22, 1997 at 03:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+m)  Dissolved oxygen (DO % and mg/L) values on July 22, 1997 at 08:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+n)  Dissolved oxygen (DO % and mg/L) values between July 22, 1997 09:30:00 
+through July 22, 1997 15:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+o)  Dissolved oxygen (DO % and mg/L) values between July 22, 1997 23:30:00 
+through July 23, 1997 00:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+p)  Dissolved oxygen (DO % and mg/L) values between July 23, 1997 01:30:00 
+through July 23, 1997 17:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+q)  Dissolved oxygen (DO % and mg/L) values on July 23, 1997 at 22:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+r)  Dissolved oxygen (DO % and mg/L) values between July 24, 1997 00:30:00 
+through July 24, 1997 02:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+s)  Dissolved oxygen (DO % and mg/L) values between July 24, 1997 04:00:00 
+through July 24, 1997 04:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  
+Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which may account for small negative values.  
+Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+t)  Dissolved oxygen (DO % and mg/L) values on July 24, 1997 at 05:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+u)  Dissolved oxygen (DO % and mg/L) values on July 24, 1997 at 08:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Discrete sampling prior to calibration 
+stabilized at 98.3 % saturation which 
+may account for small negative values.  Read negative values as 000.0 % 
+saturation and 00.0 mg/L.
+v)  Dissolved oxygen (DO % and mg/L) values between July 24, 1997 21:30:00 
+through July 25, 1997 12:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+w)  Dissolved oxygen (DO % and mg/L) values on July 26, 1997 at 05:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+x)  Dissolved oxygen (DO % and mg/L) values on July 26, 1997 at 06:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+y)  Dissolved oxygen (DO % and mg/L) values on July 26, 1997 at 07:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+z)  Dissolved oxygen (DO % and mg/L) values between July 29, 1997 04:00:00 
+through July 29, 1997 04:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+aa)  Dissolved oxygen (DO % and mg/L) values between July 29, 1997 05:30:00 
+through July 29, 1997 08:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+bb)  Dissolved oxygen (DO % and mg/L) values between July 30, 1997 04:30:00 
+through July 30, 1997 05:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+cc)  Dissolved oxygen (DO % and mg/L) values on July 30, 1997 at 06:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+dd)  Dissolved oxygen (DO % and mg/L) values between July 30, 1997 07:00:00 
+through July 30, 1997 09:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+ee)  Dissolved oxygen (DO % and mg/L) values on July 30, 1997 at 10:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+ff)  Dissolved oxygen (DO % and mg/L) values on July 31, 1997 at 03:00:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+gg)  Dissolved oxygen (DO % and mg/L) values on July 31, 1997 at 04:30:00 are 
+negative and out of range, may be 
+due to probe fouling, data retained.  Pre-deployment calibration was successful 
+with a discrete sampling value 
+of 110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative values as 
+000.0 % saturation and 00.0 mg/L.
+hh)  Dissolved oxygen (DO % and mg/L) values between July 31, 1997 07:30:00 
+through July 31, 1997 09:30:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+ii)  Dissolved oxygen (DO % and mg/L) values between July 31, 1997 10:30:00 
+through July 31, 1997 11:00:00 
+are negative and out of range, may be due to probe fouling, data retained.  Pre-
+deployment calibration was 
+successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+jj)  Dissolved oxygen (DO % and mg/L) values on August 1, 1997 at 06:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 110.0%.  Post-deployment calibration check resulted in 82.8 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+kk)  Dissolved oxygen (DO % and mg/L) values on August 1, 1997 at 08:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 110.0%.  Post-deployment calibration check resulted in 82.8 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+ll)  Dissolved oxygen (DO % and mg/L) values on August 1, 1997 at 10:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 110.0%.  Post-deployment calibration check resulted in 82.8 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+mm)  Dissolved oxygen (DO %) value on August 2, 1997 at 06:30:00 is negative and 
+out of range, may be due to 
+probe fouling, data retained.  Pre-deployment calibration was successful with a 
+discrete sampling value of 
+110.0%.  Post-deployment calibration check resulted in 82.8 % saturation 
+reading.  Read negative value as 
+000.0 % saturation.
+nn)  Dissolved oxygen (DO % and mg/L) values between August 2, 1997 07:00:00 
+through August 2, 1997 
+07:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 110.0%.  Post-deployment 
+calibration check resulted in 82.8 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+oo)  Turbidity (NTU) value on August 5, 1997 at 01:30:00 out of range, -0984, 
+possible obstruction, data retained.
+pp)  Dissolved oxygen (DO % and mg/L) values on August 11, 1997 at 06:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+qq)  Dissolved oxygen (DO %) value on August 11, 1997 at 10:00:00 is negative 
+and out of range, may be due to 
+probe fouling, data retained.  Pre-deployment calibration was successful with a 
+discrete sampling value of 99.5 
+%.  Post-deployment calibration check resulted in 81.7 % saturation reading.  
+Read negative value as 000.0 % 
+saturation.
+rr)  Dissolved oxygen (DO % and mg/L) values between August 11, 1997 11:00:00 
+through August 11, 1997 
+11:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+ss)  Turbidity (NTU) value on August 11, 1997 at 23:00:00 out of range, -0219, 
+possible obstruction, data retained.
+tt)  Dissolved oxygen (DO % and mg/L) values on August 12, 1997 at 04:30:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+uu)  Dissolved oxygen (DO % and mg/L) values on August 12, 1997 at 05:30:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+vv)  Dissolved oxygen (DO % and mg/L) values between August 12, 1997 07:30:00 
+through August 12, 1997 
+10:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+ww)  Turbidity (NTU) value on August 12, 1997 08:00:00 is a large positive 
+reading, 0238.  Reason not apparent.  
+Data retained.
+xx)  Dissolved oxygen (DO % and mg/L) values between August 13, 1997 02:00:00 
+through August 13, 1997 
+03:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+yy)  Dissolved oxygen (DO % and mg/L) values between August 13, 1997 05:00:00 
+through August 13, 1997 
+05:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+zz)  Dissolved oxygen (DO % and mg/L) values between August 13, 1997 07:30:00 
+through August 13, 1997 
+08:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+aaa)  Dissolved oxygen (DO % and mg/L) values on August 13, 1997 at 10:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+bbb)  Dissolved oxygen (DO % and mg/L) values on August 13, 1997 at 11:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+ccc)  Dissolved oxygen (DO % and mg/L) values on August 13, 1997 at 21:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+ddd)  Dissolved oxygen (DO % and mg/L) values on August 14, 1997 at 01:00:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+eee)  Dissolved oxygen (DO % and mg/L) values between August 14, 1997 07:00:00 
+through August 14, 1997 
+10:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+fff)  Dissolved oxygen (DO % and mg/L) values on August 16, 1997 at 00:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+ggg)  Dissolved oxygen (DO % and mg/L) values on August 18, 1997 at 01:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+hhh)  Dissolved oxygen (DO % and mg/L) values on August 19, 1997 at 07:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+iii)  Dissolved oxygen (DO % and mg/L) values on August 19, 1997 at 08:30:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 99.5 %.  Post-deployment calibration check resulted in 81.7 % 
+saturation reading.  Read negative 
+values as 000.0 % saturation and 00.0 mg/L.
+jjj)  Dissolved oxygen (DO % and mg/L) values between August 20, 1997 01:00:00 
+through August 20, 1997 
+01:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+kkk)  Dissolved oxygen (DO % and mg/L) values between August 20, 1997 03:00:00 
+through August 20, 1997 
+03:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 99.5 %.  Post-deployment 
+calibration check resulted in 81.7 % 
+saturation reading.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+lll)  Dissolved oxygen (DO % and mg/L) values on August 21, 1997 at 02:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 94.5%.  No post-deployment calibration check performed.  Read negative 
+values as 000.0 % saturation 
+and 00.0 mg/L.
+mmm)  Dissolved oxygen (DO % and mg/L) values between August 21, 1997 03:30:00 
+through August 21, 1997 
+08:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+nnn)  Dissolved oxygen (DO % and mg/L) values between August 21, 1997 10:00:00 
+through August 21, 1997 
+11:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+ooo)  Dissolved oxygen (DO % and mg/L) values between August 28, 1997 03:30:00 
+through August 28, 1997 
+04:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+ppp)  Dissolved oxygen (DO % and mg/L) values between August 28, 1997 11:00:00 
+through August 28, 1997 
+11:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+qqq)  Dissolved oxygen (DO % and mg/L) values on August 28, 1997 23:00:00 are 
+negative and out of range, may 
+be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 94.5%.  No post-deployment calibration check performed.  Read negative 
+values as 000.0 % saturation 
+and 00.0 mg/L.
+rrr)  Dissolved oxygen (DO % and mg/L) values between August 29, 1997 02:00:00 
+through August 29, 1997 
+03:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+sss)  Dissolved oxygen (DO % and mg/L) values on August 29, 1997 at 10:30:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 94.5%.  No post-deployment calibration check performed.  Read negative 
+values as 000.0 % saturation 
+and 00.0 mg/L.
+ttt)  Turbidity (NTU) value on August 30, 1997 22:00:00 is a spike, 0139, above 
+the overall data trend.  Reason not 
+apparent.  Data retained.
+uuu)  Dissolved oxygen (DO % and mg/L) values between September 1, 1997 06:30:00 
+through September 1, 1997 
+07:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+vvv)  Dissolved oxygen (DO % and mg/L) values between September 1, 1997 21:00:00 
+through September 2, 1997 
+09:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+www)  Dissolved oxygen (DO % and mg/L) values between September 2, 1997 11:00:00 
+through September 2, 
+1997 19:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment 
+calibration was successful with a discrete sampling value of 94.5%.  No post-
+deployment calibration check 
+performed.  Read negative values as 000.0 % saturation and 00.0 mg/L.
+xxx)  Dissolved oxygen (DO % and mg/L) values between September 2, 1997 20:30:00 
+through September 3, 1997 
+00:00:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+yyy)  Dissolved oxygen (DO % and mg/L) values on September 3, 1997 03:00:00 are 
+negative and out of range, 
+may be due to probe fouling, data retained.  Pre-deployment calibration was 
+successful with a discrete sampling 
+value of 94.5%.  No post-deployment calibration check performed.  Read negative 
+values as 000.0 % saturation 
+and 00.0 mg/L.
+zzz)  Dissolved oxygen (DO % and mg/L) values between September 3, 1997 04:00:00 
+through September 3, 1997 
+06:30:00 are negative and out of range, may be due to probe fouling, data 
+retained.  Pre-deployment calibration 
+was successful with a discrete sampling value of 94.5%.  No post-deployment 
+calibration check performed.  
+Read negative values as 000.0 % saturation and 00.0 mg/L.
+aaaa)  Turbidity (NTU) value on September 11, 1997 13:00:00 is a spike, 0132, 
+above the overall data trend.  
+Reason not apparent.  Data retained.
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+a) On July 27, 1997 at 14:30:00 dissolved oxygen (D.O.) value out of range, -
+00.4, possible probe fouling, data 
+retained.  Read negative value as 0.00mg/l or %Saturation, as per discussion 
+with YSI technician.
+b) On July 28, 1997 at 16:30:00 dissolved oxygen (D.O.) value out of range, -
+01.4, possible probe fouling, data 
+retained.  Read negative value as 0.00mg/l or %Saturation, as per discussion 
+with YSI technician.
+c) On August 16, 1997 at 11:00:00 dissolved oxygen (D.O.) value out of range, -
+000.5, possible probe fouling, 
+data retained.  Read negative value as 0.00mg/l or %Saturation, as per 
+discussion with YSI technician.
+d) DO increase due to redeployment on 9/18 09:30:00. 
+e) Extremely high temperature (Co) value, 58.0, on September 20, 1997 at 
+11:00:00, all data values were for this 
+time frame were abnormal, so the data was deleted (see Missing Data section).
+f) On September 20, 1997 at 11:30:00 dissolved oxygen (D.O.) value out of range, 
+-034.3, possible probe fouling, 
+data retained.  Read negative value as 0.00mg/l or %Saturation, as per 
+discussion with YSI technician.
+
+
+October 1, 1997 through December 31, 1997
+
+A. Scotton Landing
+a) Turbidity (NTU) value on October 11, 1997 at 05:30:00 out of range, -0188, 
+possible obstruction, data retained.
+b) Turbidity (NTU) values between November 7, 1997 13:30:00 through November 7, 
+1997 15:00:00 were out of 
+range, possible obstruction, data retained.
+c) Turbidity (NTU) value on November 10, 1997 at 10:30:00 out of range, -0047, 
+possible obstruction, data 
+retained.
+d) Turbidity (NTU) value on December 3, 1997 at 16:30:00 out of range, -0840, 
+possible obstruction, data 
+retained.
+e) Turbidity (NTU) value on December 5, 1997 at 04:30:00 out of range, -0123, 
+possible obstruction, data 
+retained.
+
+B. Blackbird Landing
+a) SpCond (mS/cm) and Salinity (ppt) values between October 8, 1997 08:00:00 
+through October 16, 1997 07:00:00 exhibit noisy pattern which does not fit 
+typical data trend.  Noise begins immediately after in-field maintenance. 
+ Data unreliable and were deleted. DOmg/L also deleted for this time due to it's
+dependency on spcond.  
+b) Turbidity (NTU) value on November 4, 1997 23:00:00 is a large positive 
+reading, 0540.  Reason not apparent.  
+Data retained.
+c) SpCond (mS/cm), Salinity (ppt), and Depth (m) values between December 30, 
+1997 20:30:00 through 
+December 30, 1997 21:00:00 are very low during low tide.  Major coastal storm 
+occurred on December 29-30, 
+1997.  Data retained.
+d) SpCond (mS/cm), Salinity (ppt), and Depth (m) values between December 31, 
+1997 07:30:00 through 
+December 31, 1997 08:30:00 are very low during low tide.  Major coastal storm 
+occurred on December 29-30, 
+1997.  Data retained.
+e) SpCond (mS/cm), Salinity (ppt), and Depth (m) values between December 31, 
+1997 21:30:00 through 
+December 31, 1997 22:00:00 are very low during low tide.  Major coastal storm 
+occurred on December 29-30, 
+1997.  Data retained.
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section). 
+Data indicates that the remaining probes were still submerged during these 
+times.
+b) Dissolved oxygen (D.O.) value on October 6, 1997 at 12:00:00 out of range, 
+664, reason unknown, data 
+retained.
+c) Negative dissolved oxygen (D.O.) values between October 17, 1997 12:30:00 
+through October 17, 1997 
+18:00:00 were recorded, possibly due to probe fouling, data was retained, as per 
+discussion with YSI 
+technician.
+d) Negative dissolved oxygen (D.O.) values between October 19, 1997 03:00:00 
+through October 19, 1997 
+04:30:00 were recorded, possibly due to probe fouling, data was retained, as per 
+discussion with YSI 
+technician.
+e) All data values for November 24, 1997 at 04:00:00 were not within the normal 
+daily trend, possible instrument 
+malfunction, data deleted (see Missing Data section).  
+f) Negative dissolved oxygen (D.O.) values between November 4, 1997 21:00:00 
+through November 4, 1997 
+21:30:00 were recorded, possibly due to probe fouling, data was retained, as per 
+discussion with YSI 
+technician.
+g) Negative dissolved oxygen (D.O.) values between November 6, 1997 15:30:00 
+through November 6, 1997 
+16:30:00 were recorded, possibly due to probe fouling, data was retained, as per 
+discussion with YSI 
+technician.
+
+11. Missing data:
+Every two weeks, there is a period of approximately six hours of missing data 
+due to maintenance and calibration 
+requirements.  This missing data is indicated by "." in the file.
+
+January 1, 1997 through March 31, 1997
+
+A. Scotton Landing
+a) No data are available between January 14, 1997 09:00:00 through February 19, 
+1997 12:30:00 because 
+datalogger was pulled from service due to severe winter conditions which caused 
+ice formation in deployment 
+tube and within probe cage.  Redeployed on February 19, 1997 after weather 
+conditions became suitable.
+b) No data are available between March 5, 1997 09:30:00 through March 5, 1997 
+16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between March 18, 1997 09:00:00 through March 18, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+d) Depth (m) values between March 31, 1997 21:30:00 through March 31, 1997 
+22:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water due to low tide.
+
+ B. Blackbird Landing
+a) No data are available between January 6, 1997 16:00:00 through January 10, 
+1997 16:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.  Two datalogger comparison 
+runs were performed in the 
+laboratory during the above time period:  one between January 6, 1997 17:00:00 
+through January 7, 1997 
+11:00:00 and the other between January 7, 1997 17:30:00 through January 10, 1997 
+10:30:00.
+b) Redeployment of new instrument on 1/10 17:00:00 resulted in DO spike from 1/10 
+17:00:00 to 17:30:00 that was deleted.
+c)  No data are available between January 24, 1997 09:00:00 through January 24, 
+1997 15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d)  No data are available between February 7, 1997 09:30:00 through February 20, 
+1997 18:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.  A datalogger comparison 
+run was performed in the 
+laboratory during the above time period between February 7, 1997 17:00:00 
+through February 13, 1997 
+10:00:00.
+e) DO data deleted from February 20, 1997 18:30:00 through March 6, 1997 08:30:00,
+DO data is unreasonable during entire deployment which starts out reading negative.  
+f)  No data are available between March 6, 1997 09:00:00 through March 7, 1997 
+13:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+g)  No data are available between March 20, 1997 09:00:00 through March 20, 1997 
+18:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+
+C. Penrose Branch
+a) No data are available between January 15, 1997 13:00:00 through February 19, 
+1997 12:30:00 because 
+datalogger was pulled from service due to severe winter conditions which caused 
+ice formation in deployment 
+tube and within probe cage.  Redeployed on February 19, 1997 after weather 
+conditions became suitable.
+b) Depth (m) values between February 21, 1997 23:00:00 through February 22, 1997 
+00:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+c) Depth (m) values between February 27, 1997 13:30:00 through February 27, 1997 
+16:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+d) No data are available between March 5, 1997 10:30:00 through March 5, 1997 
+16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between March 18, 1997 08:30:00 through March 18, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+f) Depth (m) values between March 21, 1997 17:30:00 through March 22, 1997 
+17:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) Depth (m) values between March 26, 1997 00:30:00 through March 26, 1997 
+06:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+h) Depth (m) values between March 28, 1997 23:00:00 through March 30, 1997 
+02:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) Depth (m) values between March 30, 1997 13:30:00 through March 31, 1997 
+05:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+j) No data are available between March 31, 1997 08:30:00 through March 31, 1997 
+23:30:00 loss of power on 
+March 31, 1996 due to low battery output, unit retrieved on April 4, 1996 for 
+maintenance, calibration, and 
+service.
+
+April 1, 1997 through June 30, 1997
+
+A. Scotton Landing
+a) No data are available between April 4, 1997 09:30:00 through April 4, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between April 16, 1997 08:30:00 through April 16, 1997 
+17:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between April 30, 1997 07:30:00 through April 30, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between May 14, 1997 07:00:00 through May 14, 1997 
+17:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between May 28, 1997 09:00:00 through May 28, 1997 
+15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between June 11, 1997 07:30:00 through June 11, 1997 
+15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+g) No data are available between June 25, 1997 07:30:00 through June 25, 1997 
+16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+ 
+B. Blackbird Landing
+a) No data are available between April 3, 1997 09:00:00 through April 3, 1997 
+18:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between April 17, 1997 07:30:00 through April 17, 1997 
+17:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between May 1, 1997 07:00:00 through May 2, 1997 
+13:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d)  Dissolved oxygen (DO % and mg/L) values on May 2, 1997 14:00:00 through 
+May 5, 1997 15:30:00 are negative and out of range, may be 
+due to probe fouling, data deleted.  
+e) No data are available between May 8, 1997 08:00:00 through May 15, 1997 
+18:30:00, possible loss of power 
+due to draw from malfunctioning Turbidity probe.  Probe checked in field on May 
+8, 1997 15:40:00 and had 
+loose wiper blade which was re-installed.  Logger retrieved on May 15, 1997 
+08:10:00 for maintenance, 
+calibration, and service.
+f) Turbidity (NTU) values between May 15, 1997 19:00:00 through June 12, 1997 
+06:30:00 are not available 
+because malfunctioning Turbidity probe had been removed and sent to YSI for 
+service, installed new Turbidity 
+probe on June 12, 1997.
+g) No data are available between May 29, 1997 07:00:00 through May 30, 1997 
+14:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+h) No data are available between June 12, 1997 07:00:00 through June 12, 1997 
+18:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+i) No data are available between June 25, 1997 07:00:00 through June 25, 1997 
+19:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+j) pH (pH units) values between June 25, 1997 20:00:00 through June 30, 1997 
+23:30:00 are not available 
+because failed pH probe had been removed and replacement probe on order.
+
+C. Penrose Branch
+a) No data are available between April 1, 1997 00:00:00 through April 4, 1997 
+16:30:00 loss of power on March 
+31, 1996 due to low battery output, unit retrieved on April 4, 1996 for 
+maintenance, calibration, and service.
+b) No data are available between April 16, 1997 09:30:00 through April 16, 1997 
+17:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+c) Depth (m) values between April 17, 1997 02:30:00 through April 21, 1997 
+05:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) Depth (m) values between April 21, 1997 13:00:00 through April 24, 1997 
+03:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+e) No data are available between April 30, 1997 08:00:00 through April 30, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+f) Depth (m) values between May 13, 1997 12:30:00 through May 13, 1997 17:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) No data are available between May 14, 1997 08:00:00 through May 14, 1997 
+17:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+h) Depth (m) values between May 15, 1997 12:30:00 through May 16, 1997 01:30:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) Depth (m) values between May 19, 1997 16:30:00 through May 20, 1997 05:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+j) Depth (m) values between May 25, 1997 14:30:00 through May 25, 1997 20:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+k) No data are available between May 28, 1997 10:00:00 through May 28, 1997 
+15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+l) Depth (m) values between May 30, 1997 13:30:00 through May 31, 1997 23:30:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+m) Depth (m) values between June 1, 1997 00:00:00 through June 1, 1997 16:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+n) No data are available between June 1, 1997 16:30:00 through June 11, 1997 
+15:30:00 loss of power on June 1, 
+1996 due to low battery output, unit retrieved on June 11, 1996 for maintenance, 
+calibration, and service.
+o) Depth (m) values between June 12, 1997 10:30:00 through June 14, 1997 
+22:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+p) Depth (m) values between June 17, 1997 00:00:00 through June 17, 1997 
+05:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+q) No data are available between June 17, 1997 05:30:00 through June 25, 1997 
+16:00:00, loss of data unknown.
+r) Depth (m) values between June 25, 1997 19:30:00 through June 25, 1997 
+22:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+s) Depth (m) values between June 26, 1997 02:00:00 through June 26, 1997 
+04:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+t) Depth (m) values between June 26, 1997 12:30:00 through June 26, 1997 
+17:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+u) All data was deleted on 6/28 15:00:00 due to an unexplainable anomalous 
+event.
+
+July 1, 1997 through September 30, 1997
+
+A. Scotton Landing
+a) No data are available between July 9, 1997 08:30:00 through July 9, 1997 
+15:30:00 downtime for maintenance, 
+calibration, and service of dataloggers.
+b) All DO % and DO mg/L readings were deleted between July 9, 1997 16:00:00 
+through July 23, 1997 10:30:00.  
+Suspected DO membrane puncture during deployment, readings deleted in accordance 
+to CDMO manual 
+(Appendix B-8).  
+c) No data are available between July 23, 1997 09:30:00 through July 23, 1997 
+16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between August 7, 1997 09:00:00 through August 7, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between August 19, 1997 08:00:00 through August 19, 
+1997 16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between September 2, 1997 08:30:00 through September 2, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+g) No data are available between September 17, 1997 08:30:00 through September 
+18, 1997 09:00:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+h) All DO % and DO mg/L readings were deleted between September 21, 1997 20:30:00 
+through September 30, 1997 09:00:00.  
+Suspected DO membrane puncture during deployment, readings deleted in accordance 
+to CDMO manual 
+(Appendix B-8).  
+i) No data are available between September 30, 1997 09:30:00 through September 
+30, 1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+ 
+B. Blackbird Landing
+a) pH (pH units) values between July 1, 1997 00:00:00 through July 24, 1997 
+08:30:00 are not available because 
+failed pH probe had been removed and replacement probe on order.
+b) No data are available between July 10, 1997 06:30:00 through July 11, 1997 
+12:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between July 24, 1997 09:00:00 through July 24, 1997 
+19:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between August 6, 1997 08:00:00 through August 6, 1997 
+18:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between August 20, 1997 06:30:00 through August 20, 
+1997 17:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between September 3, 1997 08:00:00 through September 9, 
+1997 12:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.  Turbidity probe test run 
+was performed in the laboratory 
+during the above time period between September 4, 1997 10:00:00 through 
+September 5, 1997 07:00:00.  DO 
+probe test runs were performed in the laboratory during the above time period 
+between September 5, 1997 
+07:30:00 through September 9, 1997 09:30:00.
+g) No data are available between September 18, 1997 12:00:00 through September 
+19, 1997 17:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.  Downtime is now 
+longer because following the 
+Suggested Quality Assurance for YSI 6000 Deployment, a YSI document, which 
+supplements those 
+procedures, found in the YSI Model 6000 Operating and Service Manual.
+h) No data are available between September 30, 1997 07:30:00 through September 
+30, 1997 23:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+C. Penrose Branch
+a) Depth (m) values between July 1, 1997 14:30:00 through July 5, 1997 05:00:00 
+were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+b) No data are available between July 9, 1997 09:30:00 through July 9, 1997 
+15:30:00 downtime for maintenance, 
+calibration, and service of dataloggers.
+c) Depth (m) values between July 18, 1997 12:30:00 through July 19, 1997 
+04:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) No data are available between July 23, 1997 09:00:00 through July 24, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No pH readings were taken between July 24, 1997 17:00:00 through August 7, 
+1997 09:30:00, probe not 
+calibrating.  Probe removed and sensor shut off on July 24, 1997 during routine 
+maintenance.
+f) Depth (m) values between July 26, 1997 13:00:00 through July 29, 1997 
+07:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) Depth (m) values between August 2, 1997 16:30:00 through August 5, 1997 
+22:30:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+h) Depth (m) values between August 6, 1997 00:30:00 through August 6, 1997 
+03:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+i) No data are available between August 7, 1997 10:00:00 through August 7, 1997 
+16:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+j) Depth (m) values between August 8, 1997 14:30:00 through August 9, 1997 
+04:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+k) Depth (m) values between August 9, 1997 13:30:00 through August 9, 1997 
+20:00:00 were deleted because the 
+values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+l) Depth (m) values between August 10, 1997 00:00:00 through August 10, 1997 
+05:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+m) Depth (m) values between August 10, 1997 14:00:00 through August 19, 1997 
+08:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+n) No data are available between August 19, 1997 09:00:00 through August 19, 
+1997 16:00:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+o) Depth (m) values between August 19, 1997 16:30:00 through August 20, 1997 
+17:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+p) Depth (m) values between August 22, 1997 03:30:00 through August 23, 1997 
+07:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+q) Depth (m) values between August 23, 1997 14:00:00 through August 23, 1997 
+17:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+r) Depth (m) values between August 27, 1997 01:00:00 through August 31, 1997 
+07:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+s) Depth (m) values between August 31, 1997 12:30:00 through August 31, 1997 
+18:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+t) No data are available between September 2, 1997 09:30:00 through September 2, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+u) Depth (m) values between September 2, 1997 16:00:00 through September 17, 
+1997 08:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+v) No data are available between September 17, 1997 09:00:00 through September 
+18, 1997 09:00:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+w) Depth (m) values between September 20, 1997 07:00:00 through September 20, 
+1997 19:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+x) No data are available for September 20, 1997 11:00:00, complete sensor error, 
+data deleted.
+y) Depth (m) values between September 25, 1997 06:00:00 through September 26, 
+1997 09:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+z) Depth (m) values between September 28, 1997 12:00:00 through September 30, 
+1997 08:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+aa) No data are available between September 30, 1997 09:00:00 through September 
+30, 1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+
+October 1, 1997 through December 31, 1997
+
+A. Scotton Landing
+a) No data are available between October 14, 1997 09:00:00 through October 14, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between October 28, 1997 10:00:00 through October 28, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between November 12, 1997 10:00:00 through November 12, 
+1997 16:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+d) No data are available between November 26, 1997 09:00:00 through November 26, 
+1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+e) No data are available between December 11, 1997 10:00:00 through December 11, 
+1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+f) No data are available between December 22, 1997 09:00:00 through December 22, 
+1997 16:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+
+B. Blackbird Landing
+a) No data are available between October 1, 1997 00:00:00 through October 1, 
+1997 17:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+b) SpCond (mS/cm) and Salinity (ppt) values between October 8, 1997 08:00:00 
+through October 16, 1997 07:00:00 exhibit noisy pattern which does not fit 
+typical data trend.  Noise begins immediately after in-field maintenance. 
+ Data unreliable and were deleted. DOmg/L also deleted for this time due to it's
+dependency on spcond.  
+c) No data are available between October 16, 1997 07:30:00 through October 17, 
+1997 18:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between November 3, 1997 08:30:00 through November 4, 
+1997 15:30:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+e) No data are available between November 18, 1997 08:30:00 through November 19, 
+1997 15:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+f) No data are available between December 1, 1997 10:00:00 through December 2, 
+1997 09:00:00, downtime for 
+maintenance, calibration, and service of dataloggers.
+g) No data are available between December 18, 1997 08:00:00 through December 19, 
+1997 12:00:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+
+C. Penrose Branch
+a) No data are available between October 14, 1997 09:30:00 through October 14, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+b) Depth (m) values between October 19, 1997 01:30:00 through October 20, 1997 
+23:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+c) Depth (m) values between October 21, 1997 13:00:00 through October 22, 1997 
+07:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+d) Depth (m) values between October 22, 1997 12:00:00 through October 22, 1997 
+16:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+e) Depth (m) values between October 24, 1997 22:30:00 through October 25, 1997 
+17:00:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+f) Depth (m) values between October 26, 1997 19:30:00 through October 28, 1997 
+06:30:00 were deleted because 
+the values were negative readings indicating that the probe was either no longer 
+submerged or almost out of the 
+water.
+g) No data are available between October 28, 1997 11:00:00 through October 28, 
+1997 15:30:00 downtime for 
+maintenance, calibration, and service of dataloggers.
+h) Depth (m) value on October 31, 1997 at 13:30:00 was deleted because the value 
+was a negative reading, -0.02, 
+indicating that the probe was either no longer submerged or almost out of the 
+water.
+i) Depth (m) values between November 1, 1997 03:30:00 through November 3, 1997 
+04:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+j) No data are available between November 12, 1997 10:30:00 through November 12, 
+1997 16:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+k) Depth (m) values between November 14, 1997 03:30:00 through November 14, 1997 
+05:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+l) Depth (m) value on November 14, 1997 at 06:00:00 was deleted because the 
+value was a negative reading, -
+0.01, indicating that the probe was either no longer submerged or almost out of 
+the water.
+m) Depth (m) value on November 14, 1997 at 07:00:00 was deleted because the 
+value was a negative reading, -
+0.02, indicating that the probe was either no longer submerged or almost out of 
+the water.
+n) All data values from November 24, 1997 at 04:00:00 were deleted because the 
+values were not within the daily 
+trend of the previous and following recorded values.  Noticed due to a negative 
+pH value,       -01.2, which was 
+detected by the Excel 5.0 CDMO macros.
+o) No data are available between November 26, 1997 10:00:00 through November 26, 
+1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+p) Depth (m) values between November 30, 1997 14:30:00 through November 30, 1997 
+23:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+q) Depth (m) values between December 1, 1997 00:00:00 through December 1, 1997 
+07:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+r) No data are available between December 11, 1997 10:30:00 through December 11, 
+1997 15:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+s) No data are available between December 22, 1997 10:00:00 through December 22, 
+1997 16:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+t) Depth (m) values between December 22, 1997 22:00:00 through December 23, 1997 
+06:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+u) Depth (m) values between December 24, 1997 23:00:00 through December 25, 1997 
+09:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+v) Depth (m) values between December 25, 1997 11:00:00 through December 25, 1997 
+16:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+w) Depth (m) values between December 26, 1997 04:00:00 through December 26, 1997 
+05:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+x) Depth (m) values between December 26, 1997 13:00:00 through December 26, 1997 
+13:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+y) Depth (m) values between December 27, 1997 04:30:00 through December 28, 1997 
+05:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+z) Depth (m) values between December 29, 1997 11:00:00 through December 31, 1997 
+02:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost 
+out of the water.
+

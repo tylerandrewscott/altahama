@@ -1,0 +1,1088 @@
+Delaware (DEL) National Estuarine Research Reserve Metadata 
+Version 4.0 (January-December 2003)
+Latest Revision: June 22, 2004
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+Robert Scarborough, Environmental Scientist (P.I.)
+Email: Bob.Scarborough@state.de.us 
+Michael G. Mensinger, Environmental Scientist
+Email: Mike.Mensinger@state.de.us
+David B. Carter, Environmental Program Manager
+e-mail: 	Dave.Carter@state.de.us    
+        		
+Delaware Coastal Programs/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation
+818 Kitts Hummock Road
+Dover, Delaware 19901
+Phone: (302) 739-3436
+
+	
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6600 
+datalogger to a PC.  Edited files are created by removing the headers, footers, 
+and spaces on a PC.  Missing data from YSI 6600 maintenance (downtime) is 
+inserted into the spreadsheet and are denoted by periods (.).  Periods were later 
+removed for data dissemination purposes and left blank.  Data and graphs 
+are visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QC'd using Excel 5.0 
+CDMO macros. The CDMO cdmomac3.xls macro will allow the user to automatically 
+format column widths to the correct number of decimal places based on YSI sensor 
+specifications.  It also allows the user to QA/QC each data logger generated 
+file for missing data points, fill all cells that do not contain data with 
+periods, and find all data points that fall outside the range of what the data 
+logger is designed to measure (outliers).  The CDMO import.xls macro will allow 
+PC users with 30-minute data to automatically create a monthly Excel file from a 
+two-week deployment and insert periods for missing data. Periods were later 
+removed for data dissemination purposes and left blank. In addition, in 
+November 1999 a graphing capability was added to this macro allowing users to 
+produce single parameter and missing data point graphs on a monthly basis. 
+Edited files are merged to contain one full month of data.  Edited 
+and merged monthly files are also transferred to NERRS Centralized Data 
+Management Office.  Michael Mensinger is responsible for the editing and 
+archiving of these data.
+
+
+3.  Research Objectives:
+The principal objective of this study is to record long-term water quality data 
+for Delaware Bay in order to observe any physical changes or trends in water 
+quality over time. The four sites chosen for monitoring will assist in 
+understanding the impacts of both urban and agricultural impacts on the 
+respective watersheds.  Scotton Landing, Lebanon Landing, and Division Street 
+are located within the St. Jones River watershed, while the Blackbird Landing 
+component is located in the Blackbird Creek watershed. The St. Jones River is 
+impacted by urbanization upstream and extensive agricultural activity 
+throughout the basin. The Blackbird Creek is one of the least impacted riverine 
+systems in Delaware, although current development pressures that exist are 
+increasing. Measurements are taken every 30 minutes over two week collecting 
+periods at the Scotton Landing (SL), Blackbird Landing (BL), Lebanon Landing 
+(LL), and Division Street (DS) sites.
+
+
+4.  Research Methods:
+The YSI data sonde monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program. 
+Penrose Branch sampling was later discontinued on December 26, 2001. In January 
+2002 the Lebanon Landing and Division Street sites were added to the monitoring 
+program.  Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to 
+a piling at Scotton Landing and a bridge at Blackbird Landing using stainless 
+steel brackets and bolts.  These methods were also used to install a pipe to a 
+piling at the Lebanon Landing dock and the pumping station bank wall at Division 
+Street. Each YSI 6600 is lowered into the PVC pipe that has eight (8) two-inch 
+diameter holes cut out at the bottom for the probes to have direct contact with 
+the water column.  A large stainless steel bolt was placed at the bottom end of 
+the PVC pipe which maintained each YSI 6600 at each site exactly one foot (30 
+cm) above the river bottom.  Every half-hour over a two-week period, 
+measurements of specific conductivity, salinity, percent saturation, dissolved 
+oxygen, temperature, pH, and water level are recorded.  Seven days after the 
+deployment of each YSI 6600, the dissolved oxygen membrane is cleaned with a 
+Kimwipe dipped in methanol.  Two-week sampling intervals were selected due to 
+limitations created by the dissolved oxygen membrane. At the end of each two-
+week period, the YSI 6600 is brought back to the office for downloading, 
+cleaning, and recalibration. Calibrations performed include: dissolved oxygen, 
+specific conductivity using Oakton 12,880 uS standard, turbidity using YSI 6073G 
+Turbidity Standard at 100 NTU and distilled water at 0 NTU, pH using Fisher pH 
+4.00, 7.00 and 10.00 buffers, and depth.  These procedures are carried out 
+according to the methods as described in the YSI Model 6600 Operating and 
+Service Manual.  After approximately six hours of down time for cleaning and 
+recalibration, the YSI 6600's are redeployed for another two-week period. Data 
+files are QA/QC'd using Excel 5.0 CDMO macros.  Edited files are merged to 
+contain one full month of data.  Edited and merged monthly files are also 
+transferred to NERRS Centralized Data Management Office.
+
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the state capital city, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are four sampling sites, three located in the St. Jones 
+component and one in the Blackbird Creek component.
+
+1) Scotton Landing – is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, slightly upstream of Delaware Route 113.  The river 
+is 22.3 km long (mainstream linear dimension), has an average depth of 4m MHW 
+and the width is 50 m. At the sampling site, the depth is 3.2 m MHW and the 
+width is 40 m. The sediment is clayey silt with no bottom vegetation. The 
+watershed-draining site is 19778 ha. The site is influenced by freshwater runoff 
+from the relatively urbanized area upstream. Pollutants in the area include 
+PCB's, PAH's, and pesticides.
+
+Salinity ranges from 1- 30 ppt.
+Tidal Range: Spring Mean (m) – 1.26
+Neap Mean (m) – 1.13
+Position:  Latitude     39 degree 05'  05.9160"  N
+Longitude    75 degree 27'  38.1049"  W
+
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The creek is 25.8 km long (mainstream linear dimension), has an 
+average depth of 3 m MHW, and an average width of 90 m. At the sampling site, 
+the depth is 1.8 m MHW and width is 110 m. The sediment is silty clay with no 
+bottom vegetation. The watershed draining site is 4694 ha. The site is 
+influenced by freshwater runoff from unimpacted forested areas intermixed with 
+agricultural land uses and a small amount of low-density development.  There is 
+very little pollutant presence in the area. 
+	
+Salinity ranges from 0-9 ppt.
+Tidal Range: Spring Mean (m) – 1.12
+Neap Mean (m) – 1.13
+Position:  Latitude 39 degree 23'  19.5196"  N
+Longitude     75 degree 38'  09.5882"  W
+
+3) Lebanon Landing- is located in the mid portion of the St. Jones River at the 
+Lebanon Landing Public Fishing Pier, farther upstream from the Scotton Landing 
+monitoring site. The St. Jones River is 22.3 km long (mainstream linear 
+dimension), has an average depth of 4m MHW and the width is 50 m. At the 
+sampling site, the depth is 3.0 m MHW and the width is 28 m. The sediment is 
+clayey silt with no bottom vegetation. The watershed-draining site is 19778 ha. 
+The site is influenced by freshwater runoff from the relatively urbanized area 
+upstream. Pollutants in the area include PCB's, PAH's, and pesticides. 
+
+Salinity ranges from 0 to 28 ppt.
+Tidal Range: Spring Mean (m) – 0.855
+Neap Mean (m) –  0.671
+Position: Latitude      39 degree 06'  51.8"  N
+Longitude     75 degree 29'  57.1"  W
+
+4) Division Street- is located in the upper portion of the St. Jones River near 
+the USGS station on Division Street. The site is influenced by runoff from the 
+urbanized surroundings. The St. Jones River is 22.3 km long (mainstream linear 
+dimension), has an average depth of 4m MHW and the width is 50 m. At the 
+sampling site, the depth is 0.6m MHW and the width is 26 m. The sediment is 
+clayey silt with no bottom vegetation. The site is fresh water and is influenced 
+by urban freshwater runoff. The watershed draining site is 4694 ha. Pollutants 
+in the area include PCB's, PAH's, and pesticides.
+
+Salinity Range: Fresh water (0.1 ppt.)
+Tidal Range: Not Applicable, freshwater
+Position: Latitude      39 degree 09'  49.4"  N
+Longitude     75 degree 31'  08.7"  W
+
+
+6.  Data collection period:
+
+Data collection began for these sites on the following dates:
+
+a) Scotton Landing: July 1, 1995
+b) Blackbird Landing: August 1, 1995
+c) Lebanon Landing: January 01, 2002
+d) Division Street: January 31, 2002
+
+All sampling is ongoing. The deployment/retrieval dates and times for 2003 are 
+as follows:
+
+Scotton Landing
+BEGAN				ENDED
+12/18/2002, 14:30:00		01/08/2003, 08:00:00 
+01/08/2003, 16:00:00 		01/23/2003, 12:00:00
+***Deployments started late due to ice conditions***
+03/13/2003, 14:00:00		03/28/2003, 08:00:00
+03/28/2003, 14:30:00		04/10/2003, 07:30:00
+04/10/2003, 13:00:00		04/24/2003, 07:30:00
+04/24/2003, 13:00:00		05/08/2003, 08:00:00
+05/08/2003, 13:00:00		05/21/2003, 07:30:00
+05/21/2003, 13:30:00		06/06/2003, 08:00:00
+06/06/2003, 13:00:00		06/19/2003, 07:00:00
+06/19/2003, 13:00:00		07/01/2003, 07:00:00
+07/01/2003, 13:00:00		07/17/2003, 07:00:00
+07/17/2003, 12:30:00		07/31/2003, 07:00:00
+07/31/2003, 14:00:00		08/19/2003, 07:00:00
+08/19/2003, 12:30:00		09/03/2003, 09:00:00
+09/03/2003, 14:00:00		09/16/2003, 07:00:00
+09/16/2003, 12:30:00 		10/02/2003, 07:00:00
+10/02/2003, 12:00:00		10/20/2003, 07:00:00
+10/20/2003, 13:00:00		11/04/2003, 07:30:00
+11/04/2003, 12:00:00		11/24/2003, 03:00:00
+11/24/2003, 07:30:00		12/15/2003, 07:30:00
+12/15/2003, 13:30:00		01/07/2004, 08:00:00
+
+Blackbird Landing
+BEGAN				ENDED
+***Deployments started late due to ice conditions***
+03/12/2003, 16:30:00		04/02/2003, 07:00:00
+04/02/2003, 15:30:00		04/17/2003, 06:00:00
+04/17/2003, 15:00:00		05/01/2003, 06:00:00
+05/01/2003, 15:00:00		05/23/2003, 06:00:00
+05/23/2003, 14:30:00		06/06/2003, 06:00:00
+06/06/2033, 15:00:00		06/21/2003, 00:00:00
+06/21/2003, 05:00:00		07/02/2003, 06:00:00
+07/02/2003, 14:30:00		07/18/2003, 06:00:00
+07/18/2003, 15:00:00		08/05/2003, 06:00:00
+08/05/2003, 12:30:00		08/21/2003, 05:30:00
+08/21/2003, 14:30:00		09/05/2003, 05:30:00
+09/05/2003, 12:30:00		09/23/2003, 05:30:00
+09/23/2003, 14:00:00		10/03/2003, 05:00:00
+10/03/2003, 14:30:00		10/21/2003, 06:00:00
+10/21/2003, 13:30:00		11/07/2003, 05:00:00
+11/07/2003, 13:30:00		11/26/2003, 07:00:00
+11/26/2003, 15:30:00		12/19/2003, 06:30:00
+12/19/2003, 15:00:00		01/08/2004, 07:00:00
+
+
+Lebanon Landing
+BEGAN				ENDED
+
+12/18/2002, 15:00:00		01/08/2003, 08:30:00
+01/08/2003, 16:00:00		01/23/2003, 12:00:00
+***Deployments started late due to ice conditions***
+03/13/2003, 14:30:00		03/28/2003, 08:30:00
+03/28/2003, 14:30:00		04/10/2003, 07:30:00
+04/10/2003, 13:30:00		04/24/2003, 07:30:00
+04/24/2003, 13:00:00		05/08/2003, 08:30:00
+05/08/2003, 13:30:00		05/21/2003, 07:30:00
+05/21/2003, 13:00:00		06/06/2003, 08:30:00
+06/06/2003, 13:30:00		06/19/2003, 07:30:00
+06/19/2003, 13:30:00		07/01/2003, 07:30:00
+07/01/2003, 13:30:00		07/17/2003, 07:30:00
+07/17/2003, 13:00:00		07/31/2003, 07:30:00
+07/31/2003, 14:00:00		08/19/2003, 07:30:00
+08/19/2003, 13:00:00		09/03/2003, 09:30:00
+09/03/2003, 14:30:00		09/16/2003  07:00:00
+09/16/2003, 12:30:00		10/02/2003, 07:30:00
+10/02/2003, 12:30:00		10/20/2003, 07:00:00
+10/20/2003, 13:00:00		11/04/2003, 08:00:00
+11/04/2003, 12:30:00		11/24/2003, 03:30:00
+11/24/2003, 08:00:00		12/15/2003, 07:30:00
+12/15/2003, 13:30:00		01/07/2004, 08:30:00
+
+Division Street
+BEGAN				ENDED
+12/18/2002, 15:00:00		01/08/2003, 09:00:00
+01/08/2003, 16:30:00		01/23/2003, 09:30:00
+***Deployments started late due to ice conditions***
+03/13/2003, 15:00:00		03/28/2003, 09:00:00
+03/28/2003, 14:30:00		04/10/2003, 08:00:00
+04/10/2003, 13:30:00		04/24/2003, 08:00:00
+04/24/2003, 13:30:00		05/08/2003, 09:00:00
+05/08/2003, 13:30:00		05/21/2003, 08:00:00
+05/21/2003, 13:00:00		06/06/2003, 09:00:00
+06/06/2003, 13:30:00		06/19/2003, 08:00:00
+06/19/2003, 13:30:00		07/01/2003, 07:30:00
+07/01/2003, 13:30:00		07/17/2003, 07:30:00
+07/17/2003, 13:00:00		07/31/2003, 07:30:00
+07/31/2003, 14:30:00		08/19/2003, 07:30:00
+08/19/2003, 13:00:00		09/03/2003, 10:00:00
+09/03/2003, 15:00:00		09/16/2003, 07:30:00
+09/16/2003, 13:00:00		10/02/2003, 08:00:00
+10/02/2003, 13:00:00		10/20/2003, 07:30:00
+10/20/2003, 13:30:00		11/04/2003, 08:00:00
+11/04/2003, 12:30:00		11/24/2003, 03:30:00
+11/24/2003, 08:00:00		12/15/2003, 07:00:00
+12/15/2003, 14:00:00		01/06/2004, 07:00:00
+
+
+7. Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize, and publish summaries of the NERRS System-wide Monitoring 
+Program data. The PI retains the right to be fully credited for having collected 
+and processed the data. Following academic courtesy standards, the PI and NERR 
+site where the data were collected will be contacted and fully acknowledged in 
+any subsequent publications in which any part of the data are used. Manuscripts 
+resulting from the NOAA/OCRM supported research that are produced for 
+publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration. The data set 
+enclosed within this packet/transmission is only as good as the quality 
+assurance and quality control procedures outlined by the enclosed metadata 
+reporting statement. The user bears all responsibility for its subsequent 
+use/misuse in any further analyses or comparisons. The Federal government does 
+not assume liability to the Recipient of third persons, nor will the Federal 
+government reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu/. Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format, and comma-delimited format.
+	
+	
+8.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted stormwater sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin. An additional stormwater sampling program is 
+underway to analyze the impact of agricultural BMP's at sites in the Blackbird 
+Creek Watershed, St. Jones River Watershed. A joint effort underway through 
+NOAA's Center for Coastal Ecosystem Health and the DNERR characterization 
+studies will initiate detailed monthly water quality sampling at three sites in 
+each river over a two year period and will quantify the phytoplankton community 
+with collections from the same sites.   This project was scheduled to be 
+initiated in February 1995.(See Section I.1. for research contacts.)
+
+
+II.  Physical Structure Descriptors
+
+9.  Variable sequence, range of measurements, units, resolution, and accuracy:
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column.
+
+The reliability of the dissolved oxygen (DO) data after 96 hours post-deployment 
+for non-EDS (Extended Deployment System) data sondes may be problematic due to 
+fouling which forms on the DO probe membrane during some deployments (Wenner et 
+al. 200*).  Many Reserves have upgraded to YSI 6600 EDS data sondes, which 
+increase DO accuracy and longevity by reducing the environmental effects of 
+fouling.  The user is therefore advised to consult the metadata and to exercise 
+caution when utilizing the DO data beyond the initial 96-hour time period.  
+However, this potential drift is not always problematic for some uses of the 
+data, ie. periodicity analysis. It should be noted that the amount of fouling is 
+site specific and that not all data are affected.  The Research Coordinator at 
+the specific NERR site should be contacted concerning the reliability of the DO 
+data because of the site and seasonal variation in the fouling of the DO 
+sensor. All data sondes used at DNERR sites in 2003 were non-EDS models.
+
+The NERRS System-Wide Monitoring Program utilizes YSI data sondes that can
+be equipped with either depth or water level sensors.  Both sensors measure 
+water depth, but by convention, level sensors refer to atmospherically vented 
+measurements and depth refers to non-vented measurements.  Standard calibration 
+protocols for the non-vented sensor use the atmosphere pressure at the time of 
+calibration.  Therefore, changes in atmospheric pressure between calibrations 
+appear as changes in water depth.  The error is equal to approximately 1.03 cm 
+for every 1 millibar change in atmospheric pressure.  This error is eliminated 
+for level sensors because they are vented to the atmosphere throughout the 
+deployment time interval.  If proper atmospheric pressure data is available, 
+non-vented sensor depth measurements can be corrected for deployments between 
+calibrations. Readings for both vented and non-vented sensors are automatically 
+compensated for water density changes due to variations in temperature and 
+salinity.  The Research Coordinator at the specific NERR site should be 
+contacted in order to obtain information regarding atmospheric pressure 
+data availability. All data sondes used at the DNERR sites in 2003 were non-
+vented models.
+
+
+10. Coded variable indicator and variable code definitions:
+Site definitions: SL = Scotton Landing, BL = Blackbird Landing, LL= Lebanon 
+Landing, DS= Division Street
+
+
+11. Data anomalies (suspect data):
+A. Scotton Landing
+
+January 1, 2003 through March 31, 2003
+a) Turbidity (NTU) value on January 01, 2002 06:00:00 out of range, 1406, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on January 01, 2002 17:00:00 out of range, 1077, 
+possible obstruction, data retained.
+c) Turbidity (NTU) value on January 01, 2002 23:00:00 out of range, 1268, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on January 02, 2002 19:30:00 out of range, 1353, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on January 02, 2002 23:00:00 out of range, 1447, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on January 03, 2002 20:00:00 out of range, 1310, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on January 04, 2002 20:30:00 out of range, 1311, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on January 05, 2002 12:00:00 out of range, 1431, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on January 05, 2002 23:00:00 out of range, 1402, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on January 07, 2002 14:30:00 out of range, 1375, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on January 08, 2002 04:00:00 out of range, 1089, 
+possible obstruction, data retained.
+l) Turbidity (NTU) value on January 08, 2002 05:30:00 out of range, 1085, 
+possible obstruction, data retained.
+m) DO trend from January 08, 2003 16:00:00 through January 23, 2002 12:00:00 is 
+slightly lower than previous deployment's trend. The data sonde was changed 
+between these two deployments, which likely accounts for the variation in 
+readings.
+n) Turbidity (NTU) value on January 09, 2002 02:30:00 out of range, 1586, 
+possible obstruction, data retained.
+o) Turbidity (NTU) value on January 09, 2002 15:00:00 out of range, 1589, 
+possible obstruction, data retained.
+p) Turbidity (NTU) value on January 14, 2002 00:30:00 out of range, 1439, 
+possible obstruction, data retained.
+q) Turbidity (NTU) value on January 14, 2002 01:00:00 out of range, 1546, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on January 14, 2002 07:00:00 out of range, 1571, 
+possible obstruction, data retained.
+s) Turbidity (NTU) value on January 14, 2002 11:00:00 out of range, 1398, 
+possible obstruction, data retained.
+t) Turbidity (NTU) value on January 14, 2002 18:00:00 out of range, 1167, 
+possible obstruction, data retained.
+u) Turbidity (NTU) value on January 15, 2002 09:00:00 out of range, 1580, 
+possible obstruction, data retained.
+v) Turbidity (NTU) value on January 15, 2002 11:00:00 out of range, 1579, 
+possible obstruction, data retained.
+w) Turbidity (NTU) value on January 15, 2002 12:30:00 out of range, 1280, 
+possible obstruction, data retained.
+x) Turbidity (NTU) value on January 16, 2002 10:00:00 out of range, 1574, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on January 17, 2002 13:00:00 out of range, 1554, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on January 18, 2002 09:00:00 out of range, 1573, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on January 18, 2002 18:00:00 out of range, 1291, 
+possible obstruction, data retained.
+bb) Turbidity (NTU) value on January 18, 2002 20:30:00 out of range, 1541, 
+possible obstruction, data retained.
+cc) Turbidity (NTU) value on January 20, 2002 13:00:00 out of range, 1296, 
+possible obstruction, data retained.
+dd) Turbidity (NTU) value on January 21, 2002 11:30:00 out of range, 1368, 
+possible obstruction, data retained.
+ee) No data are available between January 23, 2003 12:30:00 through March 13, 
+2003 13:30:00. Severe snowstorms, ice sheets, and freezing water temperatures 
+made deployment impossible during this time period.
+
+April 1, 2003 through June 30, 2003
+a) Turbidity (NTU) value on May 03, 2003 17:30:00 out of range, 1126, possible 
+obstruction, data retained.
+
+July 1, 2003 through September 30, 2003
+a) Turbidity (NTU) value on July 04, 2003 22:30:00 out of range, 1465, possible 
+obstruction, data retained.
+b) No data are available on July 24, 2003 07:30:00 since sonde was out of water 
+for D.O. membrane wipe with methanol and brief sonde external cleaning.
+c) Turbidity (NTU) values on September 18, 2003 from 14:30:00 through 17:00:00 
+are out of range: 1067, 1249, 1240, 1169, 1004, possible obstruction, data 
+retained. High values also correspond with Hurricane Isabel event.
+
+October 1, 2003 through December 31, 2003
+a) Slight rise in pH range after deployment on October 02, 2003 attributed to 
+usage of new pH sensor. The DNERR began testing the efficacy of the flat-probe 
+pH sensor, designed for EDS sondes, on the non-EDS 6600 series units on this 
+date.
+b) Depth (m) values between November 13, 2002 18:30:00 through 23:00:00 and 
+November 14, 2003 08:00:00 through 09:30:00 are small negative values ranging 
+from 0.0 to -0.09. These negative values make up a portion of time exhibiting 
+depressed water depth values. The period occurred from November 13, 2003 12:00 
+through November 15, 2003 11:00:00. Consistent winds blowing from the west 
+inhibited water influx from the bay. Precipitation coupled with a lack of bay 
+water influx accounts for the depressed salinity readings at the time. These 
+depressed salinity values do not support the sonde coming out of the water 
+during this time period; all data retained.
+
+
+
+B. Blackbird Landing
+
+January 1, 2003 through March 31, 2003
+a) No data are available between January 01, 2003 00:00:00 through March 12, 
+2003 16:00:00. Severe snowstorms, ice sheets, and freezing water temperatures 
+made deployment impossible during this time period.
+
+April 1, 2003 through June 30, 2003
+a) Turbidity data from April 27, 2003 00:00:00 through April 30, 2003 23:30:00 
+was deleted due to unreliably high values caused by bio fouling. A sharp 
+consistent rise in values commenced on the 27th and proceeded to increase, thus 
+fouling was likely the cause. 
+b) Turbidity data from May 01, 2003 00:00:00 through 06:00:00 was deleted due to 
+unreliably high values caused by bio fouling. A sharp consistent rise in values 
+commenced on April 27th and proceeded to increase, thus fouling was identified 
+as the cause. 
+c) A sonde change took place during the calibration and maintenance period on 
+May 23, 2003 due to eyelet breakage for the primary upper sonde hanging bracket. 
+As a result of the sonde change, small differences in parameters exist before 
+and after the deployment. This specifically explains a slight drop in turbidity 
+value range between the readings pre- and post- maintenance/calibration.
+d) Turbidity (NTU) value on June 13, 2003 13:00:00 out of range, 1346, possible 
+obstruction, data retained.
+e) Turbidity (NTU) values on June 27, 2003 15:00:00 through 16:30:00 are out of 
+range: 2189, 2187, and 2187. Evidence of possible obstruction, data retained.
+
+
+July 1, 2003 through September 30, 2003
+a) Slightly higher pH data set values follow the deployment on July 02, 2003 
+compared to pre-retrieval data set values on the same day. This small difference 
+is attributed to the change of pH probes during maintenance/calibration on that 
+day.
+b) Turbidity (NTU) value on July 05, 2003 12:00:00 out of range, 2001, possible 
+obstruction, data retained.
+c) No data are available on July 09, 2003 15:30:00 due to sonde being out of the 
+water for D.O. membrane wipe with methanol and general sonde cleaning.
+d) No data are available from July 18, 2003 15:00:00 through August 05, 2003 
+06:00:00 due to equipment failure.
+e) Turbidity (NTU) value on August 12, 2003 07:00:00 out of range, 1978, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on August 13, 2003 06:30:00 out of range, 1989, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on August 13, 2003 19:30:00 out of range, 1749, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on August 14, 2003 21:30:00 out of range, 2024, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on August 15, 2003 04:00:00 out of range, 1325, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on August 20, 2003 13:00:00 out of range, 1981, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on September 02, 2003 11:00:00 out of range, 1195, 
+possible obstruction, data retained.
+l) Depth and salinity values from September 18, 2003 through September 19, 2003 
+are higher than the average trend due to activity from Hurrican Isabel.
+
+
+October 1, 2003 through December 31, 2003
+a) Turbidity (NTU) value on October 01, 2003 12:00:00 out of range, 1743, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on October 01, 2003 21:00:00 out of range, 1874, 
+possible obstruction, data retained.
+c) Turbidity (NTU) value on November 11, 2003 23:30:00 out of range, 1693, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on November 12, 2003 03:00:00 out of range, 1704, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on November 12, 2003 04:00:00 out of range, 1699, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on November 13, 2003 02:00:00 out of range, 1717, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on November 13, 2003 23:00:00 out of range, 1358, 
+possible obstruction, data retained.
+h) Depth trend is abnormally low during the period from November 13, 2003 
+03:00:00 through November 15, 2003 16:30:00. Depth readings were likely affected 
+by barometric pressure changes and westerly wind influence at the time from a 
+front moving through the area as evidenced by DNERR meteorological data; data 
+retained.
+
+
+
+C. Lebanon Landing
+
+January 1, 2003 through March 31, 2003
+a) No data are available between January 23, 2003 12:30:00 through March 13, 
+2003 14:00:00. Severe snowstorms, ice sheets, and freezing water temperatures 
+made deployment impossible during this time period.
+
+April 1, 2003 through June 30, 2003
+a) Depression of maximum salinity values during high tides from April 10, 2003 
+to April 17, 2003 likely due to runoff influence from storms.
+b) All data from May 18, 2003 13:00:00 through May 21, 2003 07:30:00 was 
+removed. Distinct depth shift indicated sonde was disturbed (pulled up) and not 
+allowed to settle to the bottom after disturbance.
+
+July 1, 2003 through September 30, 2003
+a) Slightly higher pH values follow the deployment on September 03, 2003 
+compared to pre-retrieval values on the same day. This small difference is 
+likely attributed to the change of pH probes during maintenance/calibration on 
+that day.
+b) Elevated depth readings from September 18, 2003 11:00:00 through September 
+19, 2003 19:00:00 correspond to precipitation event associated w/ hurricane 
+Isabel.
+c) Elevated salinity readings from September 18, 2003 16:00:00 through September 
+19, 2003 12:30:00 correspond to event associated w/ hurricane Isabel.
+d) Elevated turbidity readings from September 18, 2003 17:00:00 through 23:00:00 
+correspond to event associated w/ hurricane Isabel.
+
+October 1, 2003 through December 31, 2003
+a) Depth (m) values between November 13, 2003 12:30:00 through November 15th, 
+2003 13:00:00 exhibit depressed water depth values. Consistent winds blowing 
+from the west inhibited water influx from the bay. Precipitation coupled with a 
+lack of bay water influx accounts for the depressed salinity readings at the 
+time. These depressed salinity values do not support the sonde coming out of the 
+water during this time period; all data retained.
+b) Slightly lower pH values follow the deployment on December 15, 2003 compared 
+to pre-retrieval values during the same day. This small difference is likely 
+attributed to the change of sondes between retrieval and deployment.
+
+
+
+D. Division Street
+
+January 1, 2003 through March 31, 2003
+a) No data are available between January 23, 2003 10:00:00 through March 13, 
+2003 14:30:00. Severe snowstorms, ice sheets, and freezing water temperatures 
+made deployment impossible during this time period.
+b) Turbidity (NTU) value on March 20, 2002 18:30:00 out of range, 1122, possible 
+obstruction, data retained.
+
+
+April 1, 2003 through June 30, 2003
+a) Turbidity (NTU) value on April 13, 2003 02:00:00 out of range, 1983, possible 
+obstruction, data retained.
+b) Turbidity (NTU) value on April 16, 2003 22:30:00 out of range, 1187, possible 
+obstruction, data retained.
+c) Turbidity (NTU) value on May 01, 2003 13:00:00 is a negative value, -0005. 
+Data point should be read as zero and attributed to calibration error.
+d) Turbidity (NTU) value on May 04, 2003 01:00:00 out of range, 1631, possible 
+obstruction, data retained.
+e) Turbidity (NTU) value on May 04, 2003 02:30:00 out of range, 1140, possible 
+obstruction, data retained.
+f) Turbidity (NTU) value on May 05, 2003 13:00:00 out of range, 1180, possible 
+obstruction, data retained.
+g) Elevated depth (m) readings from June 22, 2003 00:00:00 through June 23, 2003 
+00:00:00 due to heavy rain events and storm runoff.
+
+
+July 1, 2003 through September 30, 2003
+a) No data are available on July 08, 2003 13:00:00 since sonde was out of water 
+for D.O. membrane wipe with methanol and brief external sonde cleaning.
+b) Drop in DO should be considered suspect on July 26, 2003 at 02:00:00 for no 
+known reason, possibly due to fish in vicinity of probe. 
+c) Turbidity (NTU) value on August 17, 2003 20:00:00 out of range, 2892, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on September 03, 2003 02:00:00 out of range, 1931, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on September 09, 2003 00:00:00 out of range, 2315, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on September 09, 2003 20:00:00 out of range, 2274, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on September 11, 2003 19:00:00 out of range, 2621, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on September 11, 2003 22:30:00 out of range, 2599, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on September 12, 2003 00:00:00 out of range, 2630, 
+possible obstruction, data retained.
+j) Elevated depth readings from September 18, 2003 12:00:00 through September 
+19, 2003 13:00:00 correspond to precipitation event associated w/ hurricane 
+Isabel.
+
+
+October 1, 2003 through December 31, 2003
+a) The depth (m) value on October 14, 2003 21:00:00 is zero. Based on other 
+parameters it cannot be concluded that the sonde was out of water. The sonde may 
+have been affected by changes in barometric pressure; all data retained.
+b) Depth (m) values between October 21, 2003 13:00:00 through 20:30:00 are zero 
+or small negative values ranging from 0 to -0.1. Based on other parameters it 
+cannot be concluded that the sonde was out of water. The sonde may have been 
+affected by changes in barometric pressure; all data retained.
+c) The depth (m) value on October 22, 2003 03:30:00 is zero. Based on other 
+parameters it cannot be concluded that the sonde was out of water. The sonde may 
+have been affected by changes in barometric pressure; all data retained.
+d) Depth (m) values between October 22, 2003 12:30:00 through 14:30:00 are zero 
+or small negative values ranging from 0 to -0.1. Based on other parameter values 
+it cannot be concluded that the sonde was out of water. The sonde may have 
+been affected by changes in barometric pressure; all data retained.
+e)DO percent saturation and concentration values (133.5% & 14.6 mg/l) on 
+November 13, 2003 at 07:30:00 are higher than the trend for this time period and 
+represent single spikes in among a uniform value range. Data considered suspect, 
+but retained in the data set.
+f) Slightly higher pH values ranges follow the deployment on December 15, 2003 
+compared to pre-retrieval values during the same day. This small difference is 
+likely attributed to the change of sondes between retrieval and deployment.
+
+
+12. Missing Data
+
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Periods were later removed for data 
+dissemination purposes and left blank.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems. For more details on deleted data, see 
+the Anomalous Data Section (11.). To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+
+13. Post deployment information
+
+a) Retrieval Readings: this section contains the field readings upon retrieval 
+of the sonde.
+
+Key to abbreviations:	
+* Cloud Cover: (S=sunny, PC=partly cloudy, OC= overcast, LR=light rain, HR=heavy 
+rain, TS=thunderstorm)
+* Wave Height: (C=calm, SM=smooth, M=moderate, R=rough)
+* Wind Speed: Beaufort Wind Strength Scale
+* N/A: reading for parameter is not available-explanations usually found on 
+field data sheets, but are not all included in this document for length reasons.
+
+
+SCOTTON LANDING 2003 RETRIEVAL VALUES							
+								
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C)  pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+								
+SL	01/08/2003	39.2	4.0	1-3	OC	SM	2.6	7.7	0.2	1.4	Ebb	
+	87.7	11.73	1052	0.5									
+SL	01/23/2003	N/A	N/A	N/A	PC	ICE	ICE	ICE	ICE	ICE	ICE	
+	ICE	ICE	ICE	ICE
+SL	03/28/2003	52.3	11.3	4-7	OC	SM	12.2	8.8	0.45	2.5	Slack 
+High	100.2	9.59	29.66	18.4
+SL	04/10/2003	40.1	4.5	19-24	OC	R	6.4	7.7	0.2	N/A	Ebb	
+	95.1	11.1	16.85	9.7
+SL	04/24/2003	45.7	7.6	13-18	S	M	12.2	7.4	0.2	1.8	Ebb	
+	79.6	7.99	16.87	9.9
+SL	05/08/2003	66.9	19.4	4-7	OC	SM	17.2	7.3	0.3	1.5	Ebb	
+	61.8	5.67	11.48	6.5
+SL	05/21/2003	62.4	16.9	1-3	OC	SM	16.3	6.8	0.25	1.5	Ebb	
+	60.4	5.7	10.21	5.7
+SL	06/06/2003	68.0	20	8-12	S	M	18.6	6.7	0.2	N/A	Ebb	
+	43.6	4	5.14	2.8
+SL	06/19/2003	72.0	22.2	1-3	LR	SM	20.9	7.1	0.3	N/A	Ebb	
+	30.9	2.67	5.43	2.9
+SL	07/01/2003	74.7	23.7	4-7	S	M	N/A	7.3	0.35	1.8	Flood	
+	N/A	N/A	N/A	N/A
+SL	07/17/2003	73.9	23.3	1-3	S	SM	25.8	7.6	0.2	1.2	Ebb	
+	26.1	2.08	2018	1.0
+SL	07/31/2003	73.9	23.3	4-7	OC	M	24.3	7.3	0.4	1.6	Slack 
+High	24.2	1.96	10.25	5.8
+SL	08/19/2003	72.1	22.3	1-3	OC	SM	25.8	6.8	0.2	1.5	Ebb	
+	31.4	25.3	1441	0.7
+SL	09/03/2003	75.4	24.1	1-3	OC	M	25.1	7.5	0.3	1.6	Ebb	
+	34.6	2.65	16.77	9.8
+SL	09/16/2003	64.4	18.0	4-7	S	SM	23.3	7.7	0.3	1.6	Ebb	
+	40.9	3.39	9.24	5.2
+SL	10/02/2003	51.6	10.9	1-3	S	C	17.4	7.8	0.35	1.6	Ebb	
+	56.8	5.21	11.84	6.8
+SL	10/20/2003	47.5	8.6	1-3	S	SM	13.3	8.2	0.3	2.4	Slack 
+High	84.5	8.16	21.76	13.1
+SL	11/04/2003	63.5	17.5	1-3	S	SM	16.1	7.7	0.4	1.5	Slack 
+High	87.2	7.91	22.32	13.5
+SL	11/24/2003	54.7	12.6	0	Dark	C	11	8	Dark	Dark	Ebb	
+	74.1	7.91	9.82	5.5
+SL	12/15/2003	37.2	2.9	8-12	PC	M	3.9	7.1	0.1	N/A	Ebb	
+	93.1	12.01	289	1.5
+SL	01/07/2004	N/A	N/A	N/A	S	M	5.7	7.9	0.15	1.8	Slack 
+High	80.6	9.93	1810	0.9
+			
+BLACKBIRD LANDING 2003 RETRIEVAL VALUES
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C)  pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+BL	04/02/2003	43.5	6.4	0	PC	C	7.2	7.1	0.2	1.0	Ebb	
+	84.9	10.22	170.6	0.1
+BL	04/17/2003	48.02	8.9	4-7	LR	M	16.8	7	0.3	N/A	Ebb	
+	72.1	7	224.6	0.1
+BL	05/01/2003	56.5	13.6	1-3	OC	C	18.7	6.8	0.3	N/A	Ebb	
+	73	6.71	502	0.2
+BL	05/23/2003	54.9	12.7	1-3	LR	SM	15.5	6.6	0.3	1.8	Flood	
+	67.1	6.63	1124	0.6
+BL	06/06/2003	59.5	15.3	0	S	C	18.7	6.8	0.2	2.4	Ebb	
+	67.8	6.31	772	0.4
+BL	06/21/2003	65.1	18.4	0	OC	C	18.1	5.5	N/A	N/A	Ebb	
+	67.9	6.39	79	0
+BL	07/02/2003	69.3	20.7	0	PC	C	27.7	6.4	0.2	2.2	Slack 
+High	51.3	4.03	456.3	0.2
+BL	07/18/2003	67.6	19.8	0	S	C	27.1	7.1	0.2	2.3	Slack 
+High	55.9	4.41	1428	0.7
+BL	08/05/2003	74.7	23.7	1-3	S	C	27.9	7.3	0.2	2	Slack 
+High	48.0	3.71	3160	1.6
+BL	08/21/2003	74.7	23.7	0	S	C	27.5	7.1	0.3	1.8	Flood	
+	45.3	3.52	1905	1.0
+BL	09/05/2003	64.8	18.2	0	PC	C	23.3	7.3	0.3	1.9	Slack 
+High	33.2	2.79	1040	0.5
+BL	09/23/2003	N/A	N/A	4-7	LR	SM	23.3	N/A	N/A	N/A	Ebb	
+	45.2	3.85	12.76	0.6
+BL	10/03/2003	38.1	3.4	1-3	Dark	C	15.2	7.8	Dark	1.5	Flood	
+	69.5	6.95	2185	1.1
+BL	10/21/2003	60.8	16.0	8-12	PC	M	13.9	7.9	0.2	1.6	Slack 
+High	94.4	9.72	1847	0.9
+BL	11/07/2003	59.7	15.4	0	PC	M	16.8	7	N/A	N/A	Ebb	
+	60.3	5.84	214.3	0.1
+BL	11/26/2003	38.7	3.7	0	PC	C	7.6	7.5	0.35	1.4	Ebb	
+	72.6	8.68	431	0.2
+BL	12/19/2003	28.9	-1.7	1-3	Dark	C	1.7	7.3	N/A	N/A	Flood	
+	101.9	14.09	N/A	0.1
+BL	01/08/2004	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	
+	N/A	N/A	N/A	N/A
+
+LEBANON LANDING 2003 RETRIEVAL VALUES
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C) pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+
+LL	01/08/2003	40.3	4.6	1-3	OC	SM	2.5	7.6	0.3	2.3	Ebb	
+	89.4	12.17	353.0	0.2									
+LL	01/23/2003	N/A	N/A	N/A	PC	ICE	ICE	ICE	ICE	ICE	ICE	
+	ICE	ICE	ICE	ICE
+LL	03/28/2003	55.0	12.8	4-7	OC	SM	14.2	8.1	0.3	2.5	Slack 
+High	66.6	6.78	1865	0.9
+LL	04/10/2003	39.7	4.3	13-18	OC	R	6.7	7.6	0.4	3.2	Slack 
+High	88.7	10.72	2280	1.3
+LL	04/24/2003	49.5	9.7	1-3	S	SM	13.6	7.4	0.3	3	Ebb	
+	80.2	8.26	2475	1.3
+LL	05/08/2003	N/A	N/A	N/A	OC	SM	18.9	7.4	0.2	N/A	Ebb	
+	116.9	10.89	1116	0.6
+LL	05/21/2003	63.7	17.6	0	OC	C	17.9	6.9	0.2	2.7	Ebb	
+	93.7	8.84	980	0.5
+LL	06/06/2003	75.0	23.9	4-7	S	SM	19.7	6.6	0.3	2.8	Ebb	
+	75.4	6.86	467.2	0.2
+LL	06/19/2003	70.3	21.3	1-3	LR	C	21.1	6.8	0.3	2.6	Ebb	
+	55.6	4.89	403.8	0.2
+LL	07/01/2003	75.9	24.4	4-7	S	M	N/A	7.1	0.3	2.4	N/A	
+	N/A	N/A	N/A	N/A
+LL	07/17/2003	75.2	24	1-3	S	SM	25.6	6.7	0.25	2.6	Ebb	
+	56.7	4.59	232.6	0.1
+LL	07/31/2003	71.4	21.9	1-3	OC	SM	23.7	7.3	0.3	2.6	Ebb	
+	48	4.05	1055	0.5
+LL	08/19/2003	72.0	22.2	1-3	OC	SM	25.9	6.8	0.3	2.9	Ebb	
+	56.2	4.57	282.2	0.1
+LL	09/03/2003	77.0	25.0	1-3	OC	SM	25.2	7.5	0.3	2.6	Ebb	
+	46.4	3.78	3380	1.8
+LL	09/16/2003	68.0	20.0	1-3	S	SM	22.7	7.6	0.2	2.7	Ebb	
+	59.6	5.08	1823	0.9
+LL	10/02/2003	55.8	13.2	1-3	S	C	16.8	7.8	0.25	2.6	Ebb	
+	68.1	6.61	1379	0.1
+LL	10/20/2003	49.8	9.9	1-3	S	SM	13.7	8.1	0.5	3.0	Slack 
+High	68.2	6.62	9.25	5.4
+LL	11/04/2003	65.7	18.7	1-3	S	SM	15.9	7.9	0.3	3.0	Slack 
+High	64.6	6.34	3269	1.7
+LL	11/24/2003	N/A	N/A	0	Dark	C	11	8.2	Dark	Dark	Ebb	
+	72.3	7.91	743	0.4
+LL	12/15/2003	37.6	3.1	1-3	PC	M	-1.1	7.1	0.15	2.6	Ebb	
+	N/A	N/A	1060	0.5
+LL	01/07/2004	23.5	-4.7	4-7	S	M	4.3	7.7	0.2	2.3	Slack 
+High	81.5	10.57	444.9	0.2
+
+DIVISION STREET 2003 RETRIEVAL VALUES
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C)  pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+
+DS	01/08/2003	42.4	5.8	4-7	OC	SM	3.0	7.3	0.7	0.8	N/A	
+	93.5	12.60	142.2	0.1									
+DS	01/23/2003	N/A	N/A	N/A	PC	ICE	ICE	ICE	ICE	ICE	ICE	
+	ICE	ICE	ICE	ICE
+DS	03/28/2003	52.9	11.6	4-7	OC	SM	14.0	7.6	0.5	0.8	N/A	
+	88.7	9.12	150.5	0.1
+DS	04/10/2003	43.2	6.2	8-12	OC	SM	7.5	7.5	0.7	0.9	N/A	
+	96.7	11.62	153.7	0.1
+DS	04/24/2003	46.4	8.0	8-12	S	SM	14	7.4	0.45	0.7	N/A	
+	103.3	10.65	144.9	0.1
+DS	05/08/2003	67.3	19.6	1-3	OC	SM	19.2	7.3	0.4	0.6	N/A	
+	100.8	9.20	168.4	0.1
+DS	05/21/2003	64.8	18.2	1-3	OC	C	16	6.9	0.45	0.7	N/A	
+	95.8	9.50	145.6	0.1
+DS	06/06/2003	70.2	21.2	1-3	S	SM	19.3	6.4	0.5	0.7	N/A	
+	95.3	8.78	129.1	0.1
+DS	06/19/2003	70.7	21.5	0	HR	SM	20.9	6.6	0.5	0.9	N/A	
+	80	7.11	121.9	0.1
+DS	07/01/2003	N/A	N/A	N/A	S	C	N/A	6.8	0.55	0.6	N/A	
+	N/A	N/A	N/A	N/A
+DS	07/17/2003	N/A	N/A	1-3	S	SM	25.5	6.8	0.5	0.7	N/A	
+	93.6	7.64	115.2	0.1
+DS	07/31/2003	73.2	22.9	1-3	OC	SM	24.8	7.3	0.6	0.7	N/A	
+	70.2	5.84	157.6	0.1
+DS	08/19/2003	73.9	23.3	0	PC	C	25.3	7.0	0.5	0.7	N/A	
+	77.5	6.35	178.1	0.1
+DS	09/03/2003	75.2	24.0	1-3	OC	SM	26	7.5	0.5	0.6	N/A	
+	57.7	4.64	154.8	0.1
+DS	09/16/2003	67.5	19.7	1-3	S	SM	23.1	7.7	0.4	0.6	N/A	
+	84.1	7.17	166.1	0.1
+DS	10/02/2003	58.1	14.5	1-3	S	C	18.7	7.7	0.4	0.7	N/A	
+	81	7.59	156.6	0.1
+DS	10/20/2003	51.3	10.7	1-3	PC	SM	14.4	8.4	0.4	0.6	N/A	
+	89.9	9.14	171.2	0.1
+DS	11/04/2003	69.8	21.0	1-3	S	SM	15.5	8.1	0.5	0.6	N/A	
+	88.9	8.85	148.8	0.1
+DS	11/24/2003	55.2	12.9	0	Dark	C	11.4	N/A	N/A	0.7	N/A	
+	83.5	9.13	127.5	0.1
+DS	12/15/2003	38.1	3.4	8-12	PC	M	4	7.3	0.45	1.0	N/A	
+	N/A	N/A	156.9	0.1
+DS	01/06/2004	40.5	4.7	4-7	PC	SM	7.3	8.4	0.6	0.8	N/A	
+	95.6	11.59	148.5	0.1
+
+
+
+b) End of Deployment Post-calibration Readings in Standard Solution: 
+
+SCOTTON LANDING POST CALIBRATION VALUES							
+		
+Site	Date		DO 	Sp Cond.         pH	      pH	 pH	Turbidity  
+Turbidity    Depth
+			(air sat) (ms/cm)
+			(Std: 100%)(Std: 12.88)(Std:7)(Std:10)(Std:4) (Std:0 
+NTU)(Std:100 NTU)	
+SL	01/08/2003	
+SL	03/28/2003	101.4           12.94          6.99    10.00   4.07    0.1             
+123.4            0.110
+SL	04/10/2003	101.6           13.02          7.01    10.09   4.04    0.3             
+124.4           -0.036
+SL	04/24/2003	92.6            13.04           6.92    9.90    4.32    0.5             
+121.7           -0.176
+SL	05/08/2003	100.3           12.93          6.95    9.78    4.42    0.2             
+125.5           -0.091
+SL	05/21/2003	104.7           12.96          6.97    10.19   4.40    0.0             
+123.6            0.243
+SL	06/06/2003	101.7           12.77          6.87    10.05   4.08    0.6             
+123.6           -0.121
+SL	06/19/2003	77.9            12.79           6.96    10.06   4.16    1.0             
+123.3           -0.234
+SL	07/01/2003	101.9           12.67          6.92    9.98    4.26    0.4             
+124.2            0.405
+SL	07/17/2003	84.0            12.89           7.11    10.02   4.56    1.2             
+124.4           -0.043
+SL	07/31/2003	80.1            12.58           6.79    9.42    5.40    1.0             
+122.1            0.058
+SL	08/19/2003	95.1            12.70           7.03    9.90    4.46    0.5             
+125.5            0.101
+SL	09/03/2003	91.8            12.73           6.93    9.77    5.29    0.5             
+123.7           -0.132
+SL	09/16/2003	97.8            12.54           6.84    10.02   4.15    0.0             
+123.3            0.094
+SL	10/02/2003	98.8            12.86           6.84    9.87    4.17    0.1             
+123.0           -0.069
+SL	10/20/2003	100.6           12.57          7.11    10.13   4.09    1.1             
+124.1            0.206
+SL	11/04/2003	100.5           12.58          7.04    9.98    4.05   -0.3             
+124.8           -0.124
+SL	11/24/2003	105.9           12.95          7.17    10.20   4.10    0.1             
+124.4           -0.069
+SL	12/15/2003	105.0           12.70          7.12    10.12   4.07   -0.3             
+123.8           -0.261
+SL	01/07/2004	106.7           12.92           .11    10.14   4.07    0.7             
+123.3            0.528
+
+									
+LEBANON LANDING POST CALIBRATION VALUES							
+		
+Site	Date		DO 	Sp Cond.         pH	      pH	 pH	Turbidity  
+Turbidity    Depth
+			(air sat) (ms/cm)
+			(Std: 100%)(Std: 12.88)(Std:7)(Std:10)(Std:4) (Std:0 
+NTU)(Std:100 NTU)	
+LL	01/08/2003	97.8	13.14	6.95	10.04	 4.10	0.9	123.9	-1.173
+LL	01/23/2003	101.6      13.03     7.03       10.11       4.13      0.1          
+118.9       0.614
+LL	03/28/2003	100.9      12.76     6.90       10.00      4.01       0.6          
+125.6       0.296
+LL	04/10/2003	97.9        12.80     6.91        9.95       4.07       1.2          
+125.0      -0.148
+LL	04/24/2003	92.8        12.79     6.89        9.91       3.95       0.4          
+124.6      -0.042
+LL	05/08/2003	97.6	12.52	6.95	9.98	4.21      -0.3	123.2	 -0.101
+LL	05/21/2003	103.5	12.81	7.01	10.14	4.05	0.3	123.3	 0.254
+LL	06/06/2003	100.4	12.72	7.03	10.19	3.99	0.1	125.4	-0.124
+LL	06/19/2003	98.9	12.97	7.03	10.04	3.92      -0.3	111.0	-0.231	
+LL	07/01/2003	102.8	13.13	7.04	10.09	4.12	0.0	123.9	 0.406
+LL	07/17/2003	100.3	12.70	7.07	10.07	3.98      -0.2	110.3	-0.046
+LL	07/31/2003	99.7	12.73	6.99	9.80	3.95      -0.1	122.0	 0.060
+LL	08/19/2003	80.2	12.70	7.06	9.99	4.08      -0.1	122.5	 0.088	
+LL	09/03/2003	80.7	12.68	6.97	9.83	4.13      -0.5	108.3	-0.134	
+LL	09/16/2003	85.6	12.51	7.12	10.10	4.12      -0.4	124.0	 0.088	
+LL	10/02/2003	91.2	12.58	7.06	10.04	4.16       0.5	124.4	-0.064	
+LL	10/20/2003	110.3	12.84	7.05	10.03	4.15 	0.3	124.1	 0.212
+LL	11/04/2003	115.1	12.75	6.95	9.91	4.08	0.3	124.4	-0.120
+LL	11/24/2003	100.4	12.86	6.99	10.02	3.93	0.4	106.7	-0.065
+LL	12/15/2003	105.6	12.83	6.95	9.97	3.90	0.2	123.0	-0.241
+LL	01/07/2004	108.0	12.85	7.10	10.29	4.07	0.6	126.9	 0.535
+									
+DIVISION STREET POST CALIBRATION VALUES							
+		
+
+Site	Date		DO 	Sp Cond.         pH	      pH	 pH	Turbidity  
+Turbidity    Depth
+			(air sat) (ms/cm)
+			(Std: 100%)(Std: 12.88)(Std:7)(Std:10)(Std:4) (Std:0 
+NTU)(Std:100 NTU)
+DS	01/08/2003	107.6	12.93		7.01	10.09	4.06	 0.9		124.1	-1.167
+DS	01/23/2003	102.9	13.46		6.84	9.89	4.04	-0.1		124.6	0.652
+DS	03/28/2003	97.0	13.03		6.82	9.83	3.95	-0.2		124.3	0.273	
+DS	04/10/2003	96.1	12.50		6.98	9.93	4.00	 1.5		128.0	-0.111
+DS	04/24/2003	96.4	12.82		6.94	9.97	3.93	 0.8		127.5	-0.039
+	
+DS	05/08/2003	102.0	12.70		6.93	9.94	3.83	 0.4		123.9	-0.099
+DS	05/21/2003	87.3	12.86		6.87	9.86	3.83	 0.3		124.1	 0.259
+DS	06/06/2003	99.8	12.71		7.05	10.04	4.16	 0.5		124.2	-0.123
+DS	06/19/2003	92.6	12.81		7.02	10.01	4.05	 0.2		124.0	-0.234
+DS	07/01/2003	99.2	12.64		7.10	9.98	4.02	-0.2		110.1	 0.406
+DS	07/17/2003	94.9	12.50		6.94	9.86	4.11	 0.2		124.0	-0.045
+DS	07/31/2003	87.1	12.31		6.98	10.06	4.16	-0.2		108.1	 0.046
+DS	08/19/2003	52.3	11.80		6.89	9.82	4.25	-0.9		106.0	0.099
+DS	09/03/2003	83.2	12.17		6.76	9.78	4.09	 1.1		125.5	-0.147
+DS	09/16/2003	100.7	12.88		6.86	9.72	4.02	 0.3		125.6	0.109
+DS	10/02/2003	81.8	12.15		6.78	9.77	4.07	 0.6		127.2	-0.052
+DS	10/20/2003	58.2	12.55		6.63	9.70	3.64	 1.4		125.4	 0.206
+	
+DS	11/04/2003	89.0	12.84		6.80	9.90	3.79	 0.3		125.7	-0.095
+DS	11/24/2003	102.7	12.99		6.93	9.98	4.08	 0.6		103.9	-0.098
+	
+DS	12/15/2003	98.3	13.00		6.98	10.08	4.16	 0.3		125.5	-0.231
+									
+BLACKBIRD LANDING POST CALIBRATION VALUES							
+		
+
+Site	Date		DO 	Sp Cond.         pH	      pH	 pH	Turbidity  
+Turbidity    Depth
+			(air sat) (ms/cm)
+			(Std: 100%)(Std: 12.88)(Std:7)(Std:10)(Std:4) (Std:0 
+NTU)(Std:100 NTU)
+BL	04/02/2003	92.9	12.75		6.90	10.01	3.89	2.4	125.3	0.016
+BL	04/17/2003	87.2	12.74		6.96	9.89	3.97	1.0	125.4	0.229
+BL	05/01/2003	84.8	12.89		6.92	9.81	4.08	1.0	124.9	-0.215
+BL	05/23/2003	95.1	12.77		6.73	9.70	4.06	1.4	124.1	0.156	
+BL	06/06/2003	103.5	12.73		7.06	10.11	4.18      -0.2	123.1	-0.060
+BL	06/21/2003	102.2	12.87		6.94	10.00	4.00	1.0	123.4	-0.067
+BL	07/02/2003	100.1	12.74		6.96	9.95	4.06	0.0	121.3	0.074
+BL	07/18/2003	101.5	12.79		7.09	10.09	4.11       -0.4	108.4	0.009
+BL	08/05/2003	n/a	n/a		n/a	n/a	n/a	n/a	n/a	n/a
+BL	08/21/2003	88.1	12.73		7.01	9.97	4.12      -0.5	122.8      
+0.084
+BL	09/05/2003	71.4       12.39         	7.05        9.94      4.32       
+1.4             122.6  -0.054
+BL	09/23/2003	93.9       12.72       	7.12      10.04      4.18       0.9             
+124.0  -0.065
+BL	10/03/2003	105.0     12.35        	 6.86       9.95      4.16       1.1             
+122.8   0.137
+BL	10/21/2003	96.1       12.61        	 7.01     10.14     3.98        
+0.0             124.4  -0.199
+BL	11/07/2003	94.9       12.52        	 7.12     10.12     4.07        
+0.2             123.1   0.158
+BL	11/26/2003	100.6     12.90        	 7.06     10.03     4.12        1.2             
+129.2   0.014
+BL	12/19/2003	102.8     12.67        	 7.05     10.07     4.05        0.3             
+126.2   -0.147
+
+
+14. Other Remarks/Notes
+
+a) D.O probe warm up times were discussed at the 2002 NERR Technician Training 
+Session. It was agreed that the entire system would employ a 60 second warm up 
+time for the DO sensor. Sonde start times are set 1 minute prior to the desired 
+reading time to compensate for the 60 second warm up period. Warm up times were 
+changed as follows: Scotton Landing (deployment on February 21, 2002), Lebanon 
+Landing (deployment on February 01, 2002), Division Street (deployment on 
+January 31, 2002), Blackbird Landing (deployment on February 06, 2002). 
+Autosleep functions were also checked on these dates and turned on wherever 
+necessary.
+
+b) A new model 6136 turbidity probe was introduced in 2002 by YSI. This new 
+probe replaced the old 6026 model. The dates of change for each site were as 
+follows: Scotton Landing (deployment on March 12, 2002), Lebanon Landing 
+(deployment on March 12, 2002), Division Street (deployment on April 03, 2002), 
+Blackbird Landing (deployment on March 06, 2002). Model 6026 probes acted as 
+stand ins due to 6136 calibration difficulties/probe failure at the following 
+sites at these date time ranges:
+
+c) Calibration procedures changed with the introduction of the new turbidity 
+probe model. The turbidity probe are now 3 inches from calibration fluid cup 
+bottom. The calibration fluid cup always sits directly on a black surface (prior 
+procedure used cup suspended over black surface). 
+
+d) YSI introduced a new sonde guard with the new turbidity probes. The new guard 
+measures 8 ½" and replaced the old 6 ½" guard. Please note the 2" difference 
+between the new and old guards in regards to depth data when comparing current 
+data with data prior to dates in Section 14, part b). Guard change dates are 
+synonymous with turbidity probe model change dates listed in section 14, part b) 
+of this document.
+
+e) Hurricane Isabel hit Delaware during the period of September 18-19, 2003. 
+
+f) The DNERR commenced testing of the flat sensor pH probe at the Scotton 
+Landing site on October 2, 2003. The purpose of this probe alteration is to test 
+the effectiveness of the flat sensor probe when used in conjunction with a 
+series 6600 non-EDS data sonde.
+
+g) On November 25, 2003 the DNERR began using YSI 6073G brand turbidity standard 
+for turbidity probe calibration and abandoned the previously used APS Analytical 
+Standards brand.
+

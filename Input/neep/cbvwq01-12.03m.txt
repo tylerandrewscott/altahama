@@ -1,0 +1,2307 @@
+Chesapeake Bay Virginia (CBV) NERR Water Quality Metadata
+January - December 2003
+Latest update: November 1, 2004
+
+
+I.  Data Set and Research Descriptors
+
+
+1.  Principal investigators and contact persons 
+
+Virginia Institute of Marine Science
+College of William and Mary
+PO Box 1346, Gloucester Point, VA 23062
+Phone:  (804) 684-7135
+
+Dr. William Reay, Director							
+	E-mail: wreay@vims.edu; (804) 684-7119				
+Dr. Kenneth Moore, Research Coordinator	
+	E-mail: moore@vims.edu; (804) 684-7384				
+Joy Austin, Laboratory Supervisor
+	E-mail: justjoy@vims.edu; (804) 684-7307
+
+Additional monitoring program support in addition to above stated:
+Eric Wooden (Stewardship Coordinator), Scott Lerberg (Graduate Research 
+Assistant), Betty Berry-Niekirk (Marine Scientist), Britt Anderson (Marine 
+Scientist), Sarah Davies (NERRS Graduate Research Fellow), Frank Parker (NERR 
+Graduate Research Fellow), Jim Goins (Field Manager), and Nick DeMonte (Volunteer).
+
+
+2. Entry verification
+The data were uploaded to a PC from either YSI 6000 or 6600 dataloggers and 
+reviewed using PC6000/6600 software from YSI.  Graphs were produced and examined 
+using the PC6000/6600 software then printed out and filed.  Next, files were 
+uploaded in comma-delimited format, which were opened in Excel 5.0 software and 
+edited to remove extraneous information (headers, footers, spaces, and pre- and 
+post-deployment data).  Monthly templates were used to form complete sets of 
+monthly data sets.  Macros supplied by NERRS/CDMO were used to help with 
+editing, formatting and identifying outliers in the database. The CDMO 
+cdmomac3.xls macro allowed the user to automatically format column widths and to 
+adjust value decimal places based on YSI sensor specifications.  It also allowed 
+the user to QA/QC each datalogger generated file for missing data points, fill 
+all cells that do not contain data with periods (.), and find all data points 
+that fell outside (i.e. outliers) the measurement range of the YSI 6000/6600 
+instrumentation. Outliers were determined according to the instruments' 
+manufacturers manual. Suspect data (as in data believed to result from a damaged 
+or biofouled probe) were evaluated according to Appendix B of the CDMO manual, 
+edited and documented. Missing data due to YSI maintenance (downtime) was 
+inserted into the spreadsheet and was denoted by periods (.).  Edited and raw 
+data files were copied and archived in the CBNERRVA file server and uploaded to 
+the CDMO FTP site. Following final editing, the database was uploaded to the 
+CBNERRVA server and to CDMO. Periods were later removed for data dissemination 
+purposes and left blank. Joy Austin was the individual who was responsible 
+for the entry verification tasks.
+
+
+3. Research objectives
+
+Goodwin Islands (GI) component:
+The Goodwin Islands represent marsh islands surrounded by intertidal flats, 
+submerged aquatic vegetation (SAV) beds, oyster reefs, and shallow open 
+estuarine waters.  Because minimal human activities occur within upland 
+portions, the Goodwin Islands are suitable as a reference or control site for 
+non-point source water quality issues.  Furthermore, due to extensive wetlands, 
+intertidal, and submerged habitats, the Goodwin Islands are used extensively for 
+SAV, material flux, fisheries science and trophic interaction research 
+activities.  
+
+Claybank (CB) component:
+The Claybank site represents a shallow (<2m) littoral area approximately 300-400 
+meters in width and located within the mesohaline portion of the York River 
+estuary. Prior to 1972, this area supported submersed aquatic vegetation (SAV) 
+but current conditions are not conducive to SAV survival.  This site is used 
+extensively to study sediment dynamics and environmental stress on SAV.  
+
+Taskinas Creek (TC) component:
+The Taskinas Creek watershed is representative of an inner coastal plain, rural 
+watershed within the southern Chesapeake Bay system.  This watershed is 
+dominated by forested and agricultural land uses with an increasing urban land 
+use component.  The drainage basin is suited for investigating hydrologic and 
+non-point source water quality issues associated with changing land use 
+patterns.   
+
+Sweet Hall Marsh (SH) component:
+Sweet Hall Marsh is the most downriver extensive tidal freshwater marsh located 
+in the Pamunkey River, one of two major tributaries of the York River.  Research 
+activities are currently addressing the impacts of salinity intrusion due to 
+relative sea level rise.  In addition, Sweet Hall Marsh has been used 
+extensively to study general ecology and material flux within tidal freshwater 
+marshes.
+
+
+4. Research methods 
+
+Goodwin Islands (GI) component:
+The Chesapeake Bay Virginia NERR maintains a long-term water quality monitoring 
+station at Goodwin Islands.  This station is located on the southeastern side of 
+the main island in a shallow embayment, approximately 400 meters from shore.  A 
+stable and permanent structure, consisting of a 4-inch PVC pipe housed within a 
+galvanized steel tower, was built in October 1997.  The lower portion of the PVC 
+pipe was milled to allow for water circulation within the pipe and around the 
+datalogger sensors.  The datalogger is suspended so that the sensors are 
+maintained 0.5 m from the bottom substrate.  A YSI 6600 unvented datalogger was 
+used to measure specific conductivity, pH, depth, percent dissolved oxygen 
+saturation, temperature, and turbidity at 15-minute intervals throughout the 
+2003 deployment year (see Section 6 for deployment intervals).  Salinity and 
+dissolved oxygen concentration are calculated parameters.  At approximately one 
+to two-week intervals, the datalogger was returned to the lab for downloading, 
+cleaning, membrane replacement and recalibration. Maintenance intervals vary 
+from year to year and site-to-site depending on the amount of biofouling and 
+expected battery life. In general, YSI dataloggers were deployed for two-week 
+intervals from early December to the end of May and one-week intervals from the 
+beginning of June to late November. A second YSI datalogger was deployed following 
+retrieval of the original YSI datalogger in order to maintain a continuous record.  
+Field verification samples for pH, dissolved oxygen, salinity, and temperature were 
+taken during the deployment/retrieval procedure.  PH was measured in the lab 
+with a Orion pH meter model 370.  Dissolved oxygen was determined by Winkler 
+titration.  Salinity was determined by using a Rosemount analytical induction 
+salinometer.  Temperature was field measured with a long-stem glass thermometer.  
+All YSI procedures are in accordance with the YSI operating manual methods, 
+Sections 3 and 7.  Standards for pH were purchased from Fisher.  Standards for 
+specific conductivity was purchased from YSI.  Turbidity standards were 
+purchased from Advanced Polymer Systems.  Data are reviewed and edited according 
+to the YSI Data Review and Editing Protocol in Appendix B of the CDMO manual version 4.
+
+Clay Bank (CB) component:
+The Chesapeake Bay Virginia NERR maintains a long-term water quality monitoring 
+station at Clay Bank.  The station is located within a shallow (<2m) littoral 
+area approximately 300-400 meters wide.  A stable structure which consists of a 
+6-inch PVC pipe attached to a piling, was built in January 2001.  The lower 
+portion of the PVC pipe was milled to allow for water circulation within the 
+pipe and around the datalogger sensors. The datalogger is suspended so that 
+sensors are located 0.25 m from the bottom substrate.  A YSI 6600 unvented 
+datalogger was used to measure specific conductivity, pH, depth, percent 
+dissolved oxygen saturation, temperature, and turbidity at 15-minute intervals 
+throughout the 2003 deployment year (see Section 6 for instrument deployment 
+intervals).  Salinity and dissolved oxygen are calculated parameters.  At 
+approximately one to two-week intervals, the datalogger was returned to the lab 
+for downloading, cleaning, membrane replacement and recalibration. Maintenance 
+intervals vary from year to year and site-to-site depending on the amount of  
+biofouling and expected battery life. In general, YSI dataloggers were deployed 
+for two-week intervals from early November to the end of May and one-week intervals 
+from the beginning of June to late October. A second YSI datalogger was deployed 
+following retrieval of the original YSI datalogger in order to maintain a 
+continuous record.  Field verification samples for pH, dissolved oxygen, 
+salinity, and temperature were taken during the deployment/retrieval procedure.  
+PH was measured in the lab with a Orion pH meter model 370.  Dissolved oxygen 
+was determined by Winkler titration.  Salinity was determined by using a 
+Rosemount analytical induction salinometer. Temperature was field measured with 
+a long-stem glass thermometer.  All YSI procedures are in accordance with the 
+YSI operating manual methods, Sections 3 and 7.  Standards for pH were purchased 
+from Fisher.  Standards for conductivity and standards for turbidity were purchased 
+from YSI.  Data are reviewed and edited according to the YSI Data Review and Editing 
+Protocol in Appendix B of the CDMO manual version 4.
+
+Taskinas Creek (TC) component:
+The Chesapeake Bay Virginia NERR maintains a long-term water quality
+monitoring station at Taskinas Creek.  The station is located near the mouth of 
+Taskinas Creek where the tidal marsh creek converges with the York River 
+estuary.  A simple deployment, consisting of a suspended wire attached to an 
+overhanging tree, was established in September 1995.  The datalogger was 
+suspended at a fixed depth approximately 0.5 m above the creek-bed.  In 
+September 1997, the deployment was modified so that the datalogger remained 
+secure and stable at all times within a 4-inch PVC housing attached to a piling 
+system. The lower portion of the PVC pipe was milled to allow for water 
+circulation within the pipe and around the datalogger sensors.  The datalogger 
+was suspended so that the sensors are maintained 0.5 m above the bottom 
+substrate.  A YSI 6600 EDS unvented datalogger was used to measure specific 
+conductivity, pH, depth, percent dissolved oxygen saturation, temperature, and 
+turbidity at 15-minute intervals throughout the 2003 deployment year (see 
+Section 6 for instrument deployment intervals). Salinity and dissolved oxygen 
+are calculated parameters.  At approximately one to two-week intervals, the 
+datalogger was returned to the lab for downloading, cleaning, membrane 
+replacement and recalibration. Maintenance intervals vary from year to year and 
+site-to-site depending on the amount of biofouling and expected battery life. In 
+general, YSI dataloggers were deployed for two-week intervals from early 
+November to the end of May and one-week intervals from the beginning of June to 
+late October. A second YSI datalogger was deployed following retrieval of 
+the original YSI datalogger in order to maintain a continuous record.  Field 
+verification samples for pH, dissolved oxygen, salinity, and temperature were 
+taken during the deployment/retrieval procedure. PH was measured in the lab with 
+a Orion pH meter model 370.  Dissolved oxygen was determined by Winkler 
+titration.  Salinity was determined by using a Rosemount analytical induction 
+salinometer.  Temperature was field measured with a long-stem glass thermometer.  
+All YSI procedures are in accordance with the YSI operating manual methods, 
+Sections 3 and 7.  Standards for pH were purchased from Fisher.  Standards for 
+conductivity were purchased from YSI. Turbidity standards were purchased from 
+Advanced Polymer Systems.  Data are reviewed and edited according to the YSI 
+Data Review and Editing Protocol in Appendix B of the CDMO manual.
+
+Sweet Hall Marsh (SH) component:
+The Chesapeake Bay Virginia NERR maintains a long-term water quality station at 
+Sweet Hall Marsh.  This station is located adjacent to a low-use boathouse where 
+a 6-inch PVC pipe is attached to an adjacent pier piling.  The datalogger was 
+suspended so that the sensors remained 0.7 m from the bottom substrate.  A YSI 
+6000 unvented datalogger used to measure specific conductivity, pH, depth, 
+percent dissolved oxygen saturation, temperature, and turbidity at 15-minute 
+intervals throughout the 2003 deployment year (see Section 6 for instrument 
+deployment intervals).  Salinity and dissolved oxygen are calculated parameters.  
+At approximately one to two-week intervals, the datalogger was returned to the 
+lab for downloading, cleaning, membrane replacement and recalibration. 
+Maintenance intervals vary from year to year and site-to-site depending on the 
+amount of biofouling and expected battery life. In general, YSI dataloggers were 
+deployed for two-week intervals from January to the end of December. A second 
+YSI datalogger was deployed following retrieval of the original YSI datalogger 
+in order to maintain a continuous record.  Field verification samples for pH, 
+dissolved oxygen, salinity, and temperature were taken during the 
+deployment/retrieval procedure.  PH was measured in the lab with an Orion pH 
+meter model 370. Dissolved oxygen was determined by Winkler titration. Salinity 
+was determined by using a Rosemount analytical induction salinometer.  
+Temperature was field measured with a long-stem glass thermometer.  All YSI 
+procedures are in accordance with the YSI operating manual methods, Sections 3 
+and 7. Standards for pH were purchased from Fisher.  Standards for conductivity 
+were purchased from YSI.  Turbidity standards were purchased from Advanced 
+Polymer Systems. Data are reviewed and edited according to the YSI Data Review 
+and Editing Protocol in Appendix B of the CDMO manual version 4.
+
+
+5.  Site location and character
+
+(a) Goodwin Islands (37 deg 13' 02.65"; 76 deg 23' 32.76")
+
+The Goodwin Islands component of  CBNERRVA is located on the southern side of 
+the mouth of the York River. The station is located approximately 400 meters 
+from shore, with and average water depth on the order of 1m. Goodwin Islands are 
+a 315 ha (777 acre) archipelago of salt-marsh islands surrounded by inter-tidal 
+flats and extensive beds of submerged aquatic vegetation (121 ha; 300 acres) 
+dominated by eelgrass (Zostera marina) and Widgeon grass (Ruppia maritime).  
+Water circulation patterns around the island are influenced by York River 
+discharge and wind patterns of the Chesapeake Bay. Tides at the Goodwin Islands 
+are semi-diurnal and display an average range of 0.7 m (range: 0.4 - 1.1 m).  
+Water quality conditions described here are from data recorded between October 
+1997 and December 1998. During this period mean water temperature at the Goodwin 
+Islands sampling station ranged from 7 °C in winter to 27 °C in summer. Minimum 
+and maximum water temperatures recorded were 2.3 °C (January) and 31.6 °C 
+(July). Mean monthly salinity ranged from 9.9 ppt (January) to 27.5 ppt 
+(November). Mean salinity was greatest (23-25 ppt) during the summer and fall 
+and lowest (13-15 ppt) during the winter and spring. Mean dissolved oxygen 
+readings were typically near saturation during this time period except between 
+July-August. Dissolved oxygen readings ranged from 23.6% (October) to 195.7% 
+saturation (May); hypoxia is rarely observed. The data logger probes are located 
+0.5 m above the sandy substrate bottom. Potential activities that could impact 
+the site included, light recreational and commercial boating activity.
+
+(b) Claybank (37 deg 20' 51.58"; 76 deg 36' 37.52")
+
+The Claybank station is loaded within a shallow (<2m) littoral area 
+approximately 300-400 meters wide along the mesohaline portion of the York River 
+estuary.  The site is approximately 26 km upriver from the mouth of the estuary.  
+The shoreline consists of a narrow fringe of salt marsh with some areas armored 
+with bulkhead or stone. Tidal range is on the order of 0.85 meters.  This 
+station is located along the north shoreline of the estuary in an area that 
+historically (prior to 1972) supported submersed aquatic vegetation.  The 
+sampling station is influenced by a secondary turbidity maximum that moves back 
+and forth in a region of about 20-40 km from the mouth of the York River 
+estuary.  Substrate within the region varies from fine sediments to sand.  The 
+site is exposed to strong winds from the northwest and re-suspension of sediment 
+during storm events can be high.  In 1998 observed surface water temperatures 
+ranged from 6 °C to 28 °C and salinities from 5 ppt to 20 ppt.  
+
+
+(c) Taskinas Creek (37 deg 24' 53.86"; 76 deg 42' 51.82")
+
+Taskinas Creek Reserve, component of CBNERRVA, encompasses 397 ha (980 acres) 
+and is located within the boundaries of York River State Park near the town of 
+Croaker, Virginia.  The small sub-estuary of the York River is located on the 
+southern side of the river, approximately 37 km up river from the mouth of the 
+York River.  The Taskinas Creek watershed is representative of an inner coastal 
+plain, rural watershed within the southern Chesapeake Bay system. The watershed 
+is dominated by forested and agricultural land uses with an increasing 
+residential land use component. The non-tidal portion of Taskinas Creek contains 
+feeder streams that drain oak-hickory forests, maple-gum-ash swamps and 
+freshwater marshes. Freshwater mixed wetlands are found in the upstream reaches 
+of Taskinas Creek.  The creek is roughly 2 meters deep and 20 meters wide 
+towards the lower end of the creek where substrate is dominated by fine 
+sediment.  Mean tide range is 0.85 m.  Mean water temperature from 1997 to 1998 
+was 5-7 °C during the winter and 26-28 °C in the summer. The minimum and maximum 
+water temperature recorded between 1996-1998 was - 0.7 °C in January of 1996 and 
+35.1 °C in July 1998. For 1997-1998, mean salinity in Taskinas Creek was on the 
+order of 14-16 ppt in the summer and 3-5 ppt in the winter. Minimum and maximum 
+salinity recorded in 1996 - 1998 was 0.1 ppt in March 1996 and 20.3 ppt in 
+November 1998. Mean dissolved oxygen values in 1996 and 1997 were lowest in the 
+summer and greatest in the winter. Mean dissolved oxygen values below 50% 
+saturation was only observed during parts of July 1996 and June 1997. Hypoxia 
+was rarely observed and when present, lasted less than 2% of the time. Mean 
+dissolved oxygen readings > 100% saturation (super saturation) frequently 
+observed. Potential activities that could impact the site include residential 
+development, selective hardwood logging, and light recreational boating 
+activity.  Wildlife populations have been shown to influence microbiological 
+water quality within the watershed.
+
+
+(d) Sweet Hall Marsh (37 deg 34' 16.94"; 76 deg 53' 02.78")
+
+Sweet Hall Marsh is the most downriver extensive tidal freshwater marsh located 
+in the Pamunkey River, one of two major tributaries of the York River.  The 
+marsh is located approximately 77 km upriver from the mouth of the York River 
+estuary. The reserve is 353 ha (871 acres) in area and includes 331 ha (818 
+acres) of emergent fresh-water marsh, 14 ha (35 acres) of permanently flooded 
+broad-leaved forested wetlands and approximately 4 ha (9 acres) of scrub-shrub. 
+The marsh community is classified as freshwater mixed.  Mean tidal range at 
+Sweet Hall Marsh is on the order of 0.9 m.  The Pamunkey River, which surrounds 
+Sweet Hall Marsh, can reach depths up to 15 meters.  Substrate within the 
+littoral zone and channel is dominated by fine sediment.  Based on 2002 data, 
+mean monthly water temperature ranged from 5-8 °C during the winter and 26-29 °C 
+in the summer. The minimum and maximum-recorded water temperature was 3.3 °C in 
+December and 32.6 °C in July.  Mean monthly salinity was on the order of 1-4 ppt 
+in the winter and 6-11 ppt in the summer.  Minimum and maximum salinity recorded 
+in 2002 was 0.0 ppt in January, February, November and December and 15.7 ppt in 
+October.  Potential activities that could impact the site include minor 
+municipal point source discharges above and below river of Sweet Hall Marsh, a 
+major industrial discharge site (pulp mill) in the town of West Point and 
+significant groundwater withdrawal near the confluence of the Pamunkey and York 
+Rivers.
+
+
+6.  Data collection period
+Sampling at Claybank (CB), Goodwin Islands (GI), Sweet Hall  Marsh (SH), and 
+Taskinas Creek (TC) began January 2003. Sampling was continuous through December 
+2003. Occasional time skips occurred at all sites due to low batteries, water 
+leakage into the battery compartment, and for no apparent reason.  
+
+Sampling	Instrument 			Begin		End  
+Site		Model				Date		Date
+
+Claybank	6600 Unvented			Jan 03		Dec 03
+		
+Goodwin		6600 Unvented			Jan 03		Dec 03
+
+Sweet Hall	6000 Unvented			Jan 03		Jun 03	
+		6600 EDS,Unvented		Jun 03		Dec 03
+
+Taskinas	6600 EDS, Unvented		Jan 03		Dec 03
+
+
+Claybank (CB)
+Deployment Date/Time				Retrieval Date/Time
+(MM/DD/YY)	(HH:MM:SS)			(MM/DD/YY)	(HH:MM:SS)
+12/16/02	13:30:00			01/09/03	10:30:00
+01/09/03	10:45:00			01/21/03	10:30:00
+01/21/03	10:45:00			02/03/03	11:15:00
+02/03/03	11:30:00			02/19/03	11:00:00
+02/19/03	11:15:00			03/04/03	11:00:00
+03/04/03	11:15:00			03/18/03	11:30:00
+03/18/03	11:45:00			04/01/03	11:15:00
+04/01/03	11:30:00			04/15/03	10:15:00
+04/15/03	10:30:00			04/29/03	09:00:00
+04/29/03 	09:15:00			05/13/03	11:30:00
+05/13/03	11:45:00			05/27/03	11:30:00
+05/27/03	11:45:00			06/03/03	11:45:00
+06/03/03	12:00:00			06/10/03	10:30:00
+06/10/03	11:00:00			06/18/03	10:45:00
+06/18/03	11:00:00			06/24/03	10:30:00
+06/24/03	10:45:00			07/01/03	12:45:00
+07/01/03	13:00:00			07/08/03	11:45:00
+07/08/03	12:00:00			07/15/03	11:45:00
+07/15/03	12:00:00			07/22/03	10:45:00
+07/22/03	11:00:00			07/29/03	12:45:00
+07/29/03	13:00:00			08/06/03	11:30:00
+08/06/03	11:45:00			08/12/03	11:15:00
+08/12/03	11:30:00			08/19/03	10:45:00
+08/19/03	11:00:00			08/26/03	12:00:00
+08/26/03	12:15:00			09/02/03	10:45:00
+09/02/03	11:00:00			09/09/03	08:45:00
+09/09/03	09:00:00			09/16/03	13:30:00
+09/16/03	13:45:00			09/23/03	14:00:00
+09/23/03	14:30:00			09/24/03	14:45:00
+09/24/03	15:00:00			09/30/03	11:15:00
+09/30/03	11:30:00			10/07/03	11:45:00
+10/07/03	12:00:00			10/14/03	10:30:00
+10/14/03	10:45:00			10/23/03	12:45:00
+10/23/03	13:00:00			10/28/03	12:00:00
+10/28/03	12:15:00			11/05/03	12:00:00
+11/05/03	12:15:00			11/20/03	11:30:00
+11/20/03	11:45:00			12/01/03	14:15:00
+12/01/03	14:30:00			12/18/03	09:45:00
+12/18/03	10:00:00			01/07/04	11:30:00
+
+
+Goodwin Islands (GI)
+Deployment Date/Time				Retrieval Date/Time
+(MM/DD/YY)	(HH:MM:SS)			(MM/DD/YY)	(HH:MM:SS)
+12/16/02	12:00:00			01/09/03	10:15:00
+01/09/03	10:30:00			01/21/03	09:30:00
+01/21/03	09:45:00			02/03/03	10:15:00
+02/03/03	10:30:00			02/19/03	10:00:00
+02/19/03	10:15:00			03/04/03	10:00:00
+03/04/03	10:15:00			03/18/03	10:15:00
+03/18/03	10:30:00			04/01/03	10:00:00
+04/01/03	10:15:00			04/15/03	08:45:00
+04/15/03	09:00:00			04/29/03	13:30:00
+04/29/03	13:45:00			05/13/03	09:15:00
+05/13/03	09:45:00			05/27/03	10:15:00
+05/27/03	10:30:00			06/03/03	09:45:00
+06/03/03	10:00:00			06/10/03	09:00:00
+06/10/03	09:15:00			06/18/03	08:45:00
+06/18/03	09:00:00			06/24/03	08:45:00
+06/24/03	09:00:00			07/01/03	10:00:00
+07/01/03	10:15:00			07/10/03	13:00:00
+07/10/03	13:15:00			07/15/03	09:00:00
+07/15/03	09:15:00			07/22/03	08:45:00
+07/22/03	09:00:00			07/29/03	09:15:00
+07/29/03	09:30:00			08/06/03	09:00:00
+08/06/03	09:15:00			08/12/03	08:45:00
+08/12/03	09:00:00			08/19/03	09:45:00
+08/19/03	10:00:00			08/26/03	09:00:00
+08/26/03	09:15:00			09/02/03	08:30:00
+09/02/03	08:45:00			09/09/03	11:45:00
+09/09/03	12:00:00			09/18/03	11:00:00
+09/30/03	09:15:00			10/07/03	09:30:00
+10/07/03	09:45:00			10/14/03	08:30:00
+10/14/03	08:45:00			10/22/03	08:30:00
+10/22/03	08:45:00			10/28/03	09:45:00
+10/28/03	10:00:00			11/05/03	11:00:00
+11/05/03	11:15:00			11/20/03	09:30:00
+11/20/03	09:45:00			12/01/03	13:00:00
+12/01/03	13:15:00			12/18/03	11:15:00
+12/18/03	11:30:00			01/07/04	09:45:00
+
+Sweet Hall Marsh (SH)
+Deployment Date/Time				Retrieval Date/Time
+(MM/DD/YY)	(HH:MM:SS)			(MM/DD/YY)	(HH:MM:SS)
+12/18/02	17:30:00			01/06/03	14:30:00
+01/06/03	14:45:00			01/21/03	14:00:00
+01/21/03	14:15:00			02/05/03	13:30:00
+02/05/03	13:45:00			02/20/03	10:45:00
+02/20/03	11:00:00			03/07/03	12:00:00
+03/07/03	12:15:00			03/17/03	15:45:00
+03/17/03	16:00:00			04/03/03	14:45:00
+04/03/03	15:00:00			04/17/03	10:30:00
+04/17/03	10:45:00			05/01/03	09:45:00
+05/01/03	10:00:00			05/15/03	10:30:00
+05/15/03	10:45:00			05/29/03	10:00:00
+05/29/03	10:15:00			06/11/03	15:45:00
+06/11/03	16:00:00			06/25/03	13:30:00
+06/25/03	13:45:00			07/09/03	13:15:00
+07/09/03	13:30:00			07/23/03	10:30:00
+07/23/03	10:45:00			08/05/03	12:30:00
+08/05/03	12:45:00			08/20/03	12:15:00
+08/20/03	12:30:00			09/04/03	10:00:00
+09/04/03	10:15:00			09/16/03	15:30:00
+09/16/03	15:45:00			09/25/03	09:45:00
+09/25/03	10:00:00			10/08/03	13:00:00
+10/08/03	13:15:00			10/23/03	13:15:00
+10/23/03	13:30:00			11/04/03	14:00:00
+11/04/03	14:15:00			11/19/03	13:00:00
+11/19/03	13:15:00			12/02/03	12:00:00
+12/02/03	12:15:00			12/17/03	13:30:00
+12/17/03	13:45:00			01/07/04	16:30:00
+
+Taskinas Creek (TC)
+Deployment Date/Time				Retrieval Date/Time
+(MM/DD/YY)	(HH:MM:SS)			(MM/DD/YY)	(HH:MM:SS)
+12/19/02	13:45:00			01/08/03	14:30:00
+01/08/03	14:45:00			01/22/03	14:45:00
+01/22/03	15:00:00			02/05/03	10:15:00
+02/05/03	10:30:00			02/18/03	14:45:00
+02/18/03	15:00:00			03/05/03	10:30:00
+03/05/03	10:45:00			03/17/03	13:45:00
+03/17/03	14:00:00			04/02/03	10:30:00
+04/02/03	10:45:00			04/16/03	10:00:00
+04/16/03	10:15:00			04/30/03	13:15:00
+04/30/03	13:30:00			05/14/03	11:45:00
+05/14/03	12:00:00			05/29/03	12:00:00
+05/29/03	12:15:00			06/04/03	11:30:00
+06/04/03	11:45:00			06/10/03	13:15:00
+06/10/03	13:30:00			06/19/03	09:15:00
+06/19/03	09:30:00			06/25/03	10:30:00
+06/25/03	10:45:00			07/02/03	09:45:00
+07/02/03	10:00:00			07/09/03	10:30:00
+07/09/03	10:45:00			07/16/03	09:00:00
+07/16/03	09:15:00			07/23/03	08:45:00
+07/23/03	09:30:00			07/30/03	10:30:00
+07/30/03	10:45:00			08/05/03	10:45:00
+08/05/03	11:00:00			08/13/03	11:00:00
+08/13/03	11:15:00			08/20/03	10:00:00
+08/20/03	10:15:00			08/27/03	11:15:00
+08/27/03	11:30:00			09/03/03	09:45:00
+09/03/03	10:00:00			09/10/03	09:30:00
+09/10/03	09:45:00			09/16/03	16:45:00
+09/16/03	17:00:00			09/24/03	10:15:00
+09/24/03	10:30:00			10/01/03	09:15:00
+10/01/03	09:30:00			10/08/03	09:15:00
+10/08/03	09:30:00			10/15/03	11:30:00
+10/15/03	11:45:00			10/20/03	12:15:00
+10/20/03	12:30:00			10/29/03	10:15:00
+10/29/03	10:30:00 			11/03/03	13:30:00
+11/03/03	13:45:00			11/19/00	11:30:00
+11/19/03	11:45:00			12/01/03	11:45:00
+12/01/03	12:00:00			12/17/03	12:00:00
+12/17/03	12:15:00			01/07/04	13:30:00
+
+
+7.  Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data collected will be contacted and fully acknowledged 
+in any subsequent publications in which any part of the data are used.  
+Manuscripts resulting from the NOAA/OCRM supported research that are produced 
+for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration.  The data set 
+enclosed with this package/transmission is only as good as the quality assurance 
+and quality control procedures outlined by the enclosed metadata reporting 
+statement.  The user bears all responsibility for its subsequent use/misuse in 
+any further analyses or comparisons.   The Federal government does not assume 
+liability to the Recipient or third persons, nor will the Federal government 
+reimburse or indemnify the Recipient for its liability due to any losses 
+resulting in any way for the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu.  Data are available in the text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.
+
+
+8.  Associated researchers and projects
+
+Additional water quality monitoring programs within the York River system 
+include:
+
+a)  USEPA Chesapeake Bay Mainstem and Tributary Monitoring Program.  Since 1984, 
+biweekly to monthly water quality sampling at a series of sites located along 
+the mid-river channel has been conducted as part of the Chesapeake Bay Program 
+(www.chesapeakebay.net).  Station ID's: York River proper (WE4.2, LE4.3, LE4.2, 
+LE4.1, RET4.3), the Pamunkey River (RET4.1, TF4.2) and Mattaponi River (RET4.2 
+and TF4.4).
+
+b)  VIMS Shoal Survey.  Since 1984, biweekly to monthly water quality sampling 
+at a series of sites located along the shoal areas of the lower York River 
+estuary has been conducted by the Biological Sciences Department at the Virginia 
+Institute of Marine Science.  Station ID's include: Guinea Marsh, Goodwin 
+Island, VIMS, Yorktown, Mumfort Islands, Catlett Islands and Clay Bank.
+
+c.  Alliance for the Chesapeake Bay Volunteer Monitoring Program.  Physical and 
+chemical (limited nutrients) data are collected by a volunteer network along the 
+York River system (www. Acb-online.org).  Station ID's include: Thorofare Creek, 
+Wormley Creek, Blackwell Landing, Pamunkey Trail, Timberneck Creek, Yorktown 
+Naval Weapons Station, Gloucester Point, West Point and Croaker Landing.  Note: 
+Some stations may be inactive.  
+
+d.  VIMS Juvenile Abundance Monitoring Survey.  As part of their Juvenile 
+Abundance Monitoring Surveys, water quality and hydrographic data has been 
+collected since 1968 along a series of sites in the York River estuary (includes 
+the Mattaponi and Pamunkey River systems) by the Fisheries Science Department 
+(www.fisheries.vims.edu/research.html) at the Virginia Institute of Marine 
+Science.  Surveys include the VIMS Trawl Survey, the Striped Bass Seine Survey 
+and the Juvenile Shad/River Herring Pushnet Survey.
+
+e.  Virginia Department of Health.  The Virginia Department of Health, Division 
+of Shellfish Sanitation's (www.vdh.state.va.us/shellfish) Seawater Sampling 
+Program collects microbial and general water quality and hydrographic data along 
+a series of sites in the York River estuary (includes lower portions of the 
+Mattaponi and Pamunkey River systems). 
+
+f. USEPA Chesapeake Bay Shallow Water Monitoring Program.  Since May 2003, 
+CBNERRVA has maintained additional continuous water monitoring stations within 
+the York River estuary system.  Measurements for this program include: 
+temperature, specific conductivity, dissolved oxygen, pH, turbidity, insitu 
+fluorescence, and depth.  Stations are located at Gloucester Point and Yorktown 
+(on the York River proper), Muddy Point and Walkerton ( Mattaponi River), and 
+White House (Pamunkey River). This additional surface water quality mapping 
+program, which monitors the above stated parameters, occurs on a monthly basis 
+in the York River estuary. 
+
+
+II. Physical Structure Descriptors
+
+
+9. Sensor specifications, range of measurements, units, resolution, and 
+accuracy
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+
+10. Coded variable indicator and variable code definitions 
+
+2 letter sampling site codes: CB = Claybank, GI= Goodwin Islands,
+SH = Sweet Hall Marsh, TC = Taskinas Creek
+ 
+File definitions: Site code/file definition/month/year
+(example: tcwq0103 = Taskinas Creek water quality data from January 2003). 
+
+Station codes in data: cbvcbwq = Claybank, cbvgiwq = Goodwind Islands, 
+cbvshwq = Sweet Hall Marsh, cbvtcwq = Taskinas Creek
+
+
+11.  Data anomalies (suspect data)
+Frequent data anomalies were recorded in depth levels for several months 
+potentially due to low-pressure weather fronts.  This data remained in the 
+database.  Standard calibration protocols for the non-vented sensor use the 
+atmospheric pressure at the time of calibration.  Therefore, changes in 
+atmospheric pressure between calibrations appears as changes in water depth.  
+The error is equal to approximately 1.03cm for every 1 millibar change in 
+atmospheric pressure.  Specific dates and time ranges of potentially influenced 
+data are listed with each respective month.  Starting with January, data were 
+extracted in accordance with Version 3.0 of the CDMO Manual. Significantly 
+elevated single point turbidity values located between background values were 
+considered to be a product of sensor interference.  Significant elevated single 
+point turbidity values were 200 NTUs for Goodwin Island, Sweet Hall Landing, and 
+300 NTUs for Claybank and Taskinas Creek. These data were deleted.  Significantly 
+elevated single point turbidity values located between background values were 
+reported as suspect and data was retained. Mean, standard deviation values 
+were based on 2002 site specific data; Goodwin Island: mean=6, STD=19; 
+Claybank: mean=17, STD=19; Taskinas Creek: mean=67, STD=63; Sweet Hall 
+Landing: mean =48, STD 48.
+ 
+JANUARY
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+01/12/03 22:30:00 - 01/13/03 00:45:00 
+01/13/03 12:00:00 - 01/13/03 12:30:00 
+01/13/03 23:45:00 - 01/14/03 00:00:00 
+01/20/03 03:30:00 - 01/20/03 06:30:00 
+01/20/03 16:45:00 - 01/20/03 17:15:00
+01/21/03 05:15:00 - 01/21/03 06:00:00 
+01/21/03 18:00:00 - 01/21/03 18:45:00 
+01/22/03 18:00:00 - 01/22/03 19:45:00 
+01/23/03 06:30:00 - 01/23/03 08:30:00 
+01/23/03 17:30:00 - 01/23/03 23:15:00 
+01/24/03 08:00:00 - 01/24/03 10:00:00 
+01/24/03 19:45:00 - 01/24/03 22:45:00 
+01/27/03 23:15:00 - 01/28/03 01:00:00 
+
+b) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+01/11/03 15:00:00 
+01/11/03 15:15:00 
+01/11/03 16:15:00 
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+01/08/03 20:45:00  991 NTU
+
+
+d) For the following dates and times, turbidity readings are suspect. Data
+retained.
+
+01/11/03 17:30:00  267 NTU
+
+e) For the month of January, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained. 
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+01/12/03 21:15:00 - 01/12/03 23:45:00
+01/13/03 11:00:00 - 01/13/03 11:15:00
+01/13/03 22:45:00 
+01/20/03 02:15:00 - 01/20/03 06:00:00
+01/22/03 17:15:00 - 01/22/03 18:45:00
+01/23/03 16:45:00 - 01/23/03 22:00:00
+01/24/03 07:30:00 - 01/24/03 08:45:00
+01/24/03 18:45:00 - 01/24/03 22:00:00
+01/27/03 22:15:00 - 01/28/03 00:00:00
+
+b) For the month of January, turbidity values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the month of January, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained. 
+
+d) For the following dates and times, depth data was deleted due to station 
+maintenance.  Data deleted.
+
+01/16/03 12:00:00 - 01/16/03 12:15:00
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+01/12/03 14:30:00 - 01/12/03 15:00:00
+01/13/03 00:30:00 - 01/13/03 03:45:00
+01/13/03 13:30:00 - 01/13/03 16:45:00
+01/14/03 01:30:00 - 01/14/03 03:30:00 
+01/15/03 02:45:00 - 01/15/03 04:15:00 
+01/20/03 06:45:00 - 01/20/03 09:15:00
+01/20/03 19:15:00 - 01/20/03 20:15:00
+01/21/03 20:30:00 - 01/21/03 22:15:00
+01/22/03 21:00:00 - 01/22/03 23:15:00
+01/23/03 08:45:00 - 01/23/03 12:30:00
+01/23/03 19:15:00 - 01/24/03 03:30:00
+01/24/03 08:45:00 - 01/24/03 13:45:00
+01/24/03 21:45:00 - 01/25/03 03:00:00
+01/27/03 13:15:00 - 01/27/03 15:00:00
+
+b) For the month of January, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+01/10/03 05:15:00 118 NTU
+
+d) For the following dates and times, all data are missing due to an internal 
+error within the sonde.
+
+01/27/03 15:15:00 - 01/31/03 23:45:00 
+
+e) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+01/12/03 01:15:00 - 01/12/03 01:45:00 
+01/12/03 14:00:00 - 01/12/03 14:15:00 
+01/12/03 15:15:00 - 01/12/03 15:30:00   
+01/19/03 06:45:00 - 01/19/03 07:30:00 
+01/21/03 08:15:00 - 01/21/03 09:00:00
+01/27/03 01:30:00 - 01/27/03 02:15:00
+
+f) Significant negative depth values were observed at Sweet Hall Marsh during 
+the months of January; data reflects tidal patterns and were retained. 
+
+Taskinas Creek:
+
+a) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+01/11/03 01:30:00 
+01/11/03 03:30:00 
+01/12/03 04:30:40
+01/12/03 15:30:00 
+01/14/03 02:30:00 
+01/16/03 18:45:00
+01/18/03 01:00:00
+01/21/03 00:00:00
+
+FEBRUARY
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+02/04/03 05:15:00 - 02/04/03 06:15:00
+02/04/03 16:45:00 - 02/04/03 18:45:00
+02/05/03 17:45:00 - 02/05/03 19:00:00
+02/06/03 06:00:00 - 02/06/03 08:30:00
+02/06/03 18:00:00 - 02/06/03 20:15:00
+02/10/03 21:30:00 - 02/10/03 23:30:00
+02/12/03 11:30:00 - 02/12/03 13:30:00
+02/13/03 00:30:00 - 02/13/03 01:30:00
+02/13/03 11:45:00 - 02/13/03 16:00:00
+02/14/03 00:00:00 - 02/14/03 03:00:00
+02/14/03 12:45:00 - 02/14/03 15:45:00
+02/15/03 00:30:00 - 02/15/03 03:15:00
+02/15/03 14:00:00 - 02/15/03 14:30:00
+
+b) For the month of February, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+02/24/03 21:30:00 - 02/24/03 22:45:00
+02/25/03 23:45:00
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+02/04/03 15:45:00 - 02/04/03 17:45:00 
+02/05/03 17:30:00 - 02/05/03 18:00:00 
+02/06/03 05:00:00 - 02/06/03 07:30:00 
+02/06/03 16:45:00 - 02/06/03 19:15:00 
+02/10/03 20:15:00 - 02/10/03 22:45:00 
+02/12/03 10:00:00 - 02/12/03 12:00:00 
+02/12/03 23:15:00 - 02/13/03 00:30:00 
+02/13/03 10:45:00 - 02/13/03 15:00:00 
+02/13/03 22:30:00 - 02/14/03 02:15:00 
+02/14/03 12:00:00 - 02/14/03 14:45:00 
+02/14/03 23:15:00 - 02/15/03 02:45:00 
+02/24/03 20:30:00 – 02/24/03 22:15:00
+
+b) For the month of February, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+02/05/03 17:15:00 
+02/13/03 10:30:00
+
+d) For the following dates and times, all data were missing due to an internal 
+error within the sonde.
+
+02/23/03 16:15:00
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data was deleted due to datalogger 
+being out of the water.
+
+02/05/03 20:45:00 - 02/05/03 22:30:00
+02/06/03 08:15:00 - 02/06/03 11:15:00
+02/06/03 20:30:00 - 02/06/03 23:15:00
+02/10/03 12:00:00 - 02/10/03 13:45:00
+02/10/03 23:00:00 - 02/11/03 03:00:00
+02/12/03 12:45:00 - 02/12/03 17:15:00
+02/13/03 02:30:00 - 02/13/03 04:30:00
+02/13/03 13:30:00 - 02/13/03 19:15:00
+02/14/03 02:00:00 - 02/14/03 06:00:00
+02/14/03 15:30:00 - 02/14/03 18:30:00
+02/15/03 03:15:00 - 02/15/03 06:00:00
+02/24/03 23:15:00 - 02/25/03 02:30:00
+02/26/03 02:30:00 
+
+b) For the month of February, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, all data were missing due to an internal 
+error within the sonde.
+
+02/01/03 00:00:00 - 02/05/03 13:45:00
+
+d) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+02/05/03 20:30:00 
+02/05/03 22:45:00 
+02/09/03 11:45:00 - 02/09/03 12:45:00
+02/09/03 23:00:00 - 02/10/03 01:00:00
+02/12/03 01:45:00 - 02/12/03 02:45:00
+02/15/03 16:45:00 - 02/15/03 17:30:00
+02/26/03 01:45:00 - 02/26/03 02:15:00
+02/26/03 02:45:00 - 02/26/03 03:15:00
+
+e) For the following dates and times, elevated turbidity were suspect during
+and immediately following station maintenance and datalogger exchange.  Data 
+retained.
+
+02/05/03 14:00:00 - 02/05/03 15:15:00 
+02/20/03 11:00:00 - 02/20/03 13:45:00
+
+f) Significant negative depth values were observed at Sweet Hall Marsh during 
+the months of February; data reflects tidal patterns and were retained.
+
+TASKINAS CREEK:
+
+a) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+02/13/03 03:00:00  354 NTU
+02/14/03 19:45:00  443 NTU
+02/15/03 07:15:00  477 NTU
+
+b) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+02/10/03 08:45:00 176 NTU
+
+MARCH
+
+CLAYBANK:
+
+a) For the month of March, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+03/29/03 15:15:00 
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+03/18/03 15:00:00  423 NTU
+
+d) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+03/12/03 20:00:00 166 NTU
+
+e) For the following dates and times, depth values were deleted due to exchange 
+of datalogger.
+
+03/04/03 11:15:00
+
+GOODWIN ISLANDS:
+
+a) For the month of March, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, all data are missing due to an internal 
+error within the sonde.
+
+03/02/03 05:45:00
+03/02/03 09:15:00
+03/03/03 08:45:00
+03/19/03 19:15:00 - 03/19/03 19:45:00
+
+c) For the following dates and times, DO % sat and DO mg/L data were deleted due 
+to probe malfunction.  
+
+03/17/03 12:15:00 
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+03/31/03 05:15:00 - 03/31/03 07:00:00
+03/31/03 17:45:00 - 03/31/03 19:30:00
+
+b) For the month of March, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+03/03/03 23:45:00 
+03/23/03 23:15:00
+
+d) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+03/31/03 17:30:00 
+
+e) Significant negative depth values were observed at Sweet Hall Marsh during 
+the months of March; data reflects tidal patterns and were retained.
+
+TASKINAS CREEK:
+
+a) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+03/16/03 22:30:00 133 NTU
+03/17/03 10:00:00 110 NTU
+03/17/03 11:30:00  95 NTU
+
+b) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+03/09/03 16:00:00 732 NTU
+
+APRIL
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+04/01/03 03:15:00 - 04/01/03 04:00:00 
+04/01/03 04:30:00 
+04/01/03 15:00:00 
+04/01/03 15:30:00 - 04/01/03 17:15:00 
+04/02/03 03:30:00 - 04/02/03 05:00:00 
+04/15/03 14:30:00 - 04/15/03 14:45:00 
+04/16/03 02:15:00 - 04/16/03 04:30:00 
+04/16/03 14:15:00 - 04/16/03 16:45:00
+04/17/03 02:45:00 - 04/17/03 05:15:00
+
+b) For the month of April, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+04/01/03 14:15:00 - 04/01/03 16:30:00 
+04/02/03 03:00:00 - 04/02/03 03:45:00 
+04/16/03 01:30:00 - 04/16/03 03:30:00 
+04/16/03 13:15:00 - 04/16/03 15:45:00 
+04/17/03 02:15:00 - 04/17/03 04:15:00 
+
+b) For the month of April, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, all data are missing due to an internal 
+error within the sonde.
+
+04/15/03 18:00:00
+04/17/03 08:15:00
+04/18/03 07:00:00
+
+
+Sweet Hall MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+04/01/03 06:00:00 - 04/01/03 07:30:00
+04/01/03 18:00:00 - 04/01/03 20:15:00
+04/02/03 06:30:00 - 04/02/03 08:15:00
+04/16/03 17:30:00 - 04/16/03 19:15:00
+04/17/03 06:15:00 - 04/17/03 07:45:00
+
+b) For the month of April, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+04/01/03 05:45:00
+04/01/03 07:45:00
+04/02/03 06:15:00
+04/17/03 08:00:00
+
+TASKINAS CREEK:
+
+a) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+04/04/03 09:45:00 220 NTU
+04/29/03 21:15:00 202 NTU
+
+MAY
+
+CLAYBANK:
+
+a) For the month of May, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+05/03/03 14:30:00 598 NTU
+05/07/03 13:45:00 790 NTU
+05/08/03 07:30:00 793 NTU
+05/20/03 05:30:00 306 NTU
+05/21/03 14:00:00 381 NTU
+05/23/03 10:15:00 393 NTU
+05/25/03 20:45:00 323 NTU
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+05/24/03 17:45:00 
+05/27/03 13:30:00 
+
+d) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+05/10/03 11:45:00 159 NTU
+05/15/03 13:30:00 292 NTU
+05/21/03 10:30:00 274 NTU
+05/24/03 18:00:00 102 NTU
+05/24/03 18:45:00 248 NTU
+05/29/03 18:45:00 133 NTU
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted to due exchange of 
+datalogger.
+
+05/13/03 09:30:00  
+
+b) For the following dates and times data are missing due to an internal error 
+within the sonde.
+
+05/17/03 22:00:00
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+05/19/03 16:15:00 
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+05/16/03 09:15:00 229 NTU
+05/27/03 05:15:00 336 NTU
+05/31/03 18:15:00 512 NTU
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+05/27/03 07:45:00 091 NTU
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+05/13/03 15:00:00 - 05/13/03 16:30:00
+
+b) For the month of May, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, DO % sat and DO mg/l data deleted due to 
+datalogger exchange.
+
+05/29/03 10:15:00 
+
+d) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+05/13/03 14:45:00
+05/13/03 16:45:00
+
+e) For the following dates and times, elevated turbidity readings were deleted 
+due to station maintenance at time of deployment.
+
+05/15/03 10:45:00 103 NTU
+
+f) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+05/29/03 12:30:00 266 NTU
+
+TASKINAS CREEK:
+
+a) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+05/01/03 14:15:00 783 NTU
+
+b) For the following dates and times, elevated single point turbidity values due 
+to sensor interference.  Data deleted.
+
+05/07/03 17:15:00 505 NTU
+05/08/03 09:15:00 655 NTU
+
+JUNE
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to exchange of 
+datalogger.
+
+06/10/03 10:45:00 
+
+b) For the month of June, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+06/02/03 04:30:00 
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+06/22/03 21:15:00 143 NTU
+06/22/03 01:45:00 782 NTU
+
+e) For the following dates and times, depth data was deleted due to exchange of 
+datalogger.
+
+06/18/03 11:00:00
+
+GOODWIN ISLANDS:
+
+a) For the month of June, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, DO % sat and DO mg/L data were deleted due 
+to membrane puncture.
+
+06/06/03 07:15:00 - 06/10/03 09:00:00
+
+c) For the following dates and times, pH values were deleted due to broken 
+probe.  
+
+06/07/03 21:15:00 - 06/10/03 09:00:00
+
+d) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+06/06/03 07:00:00 
+06/06/03 07:30:00 
+06/07/03 21:15:00 
+06/08/03 03:30:00 
+06/08/03 21:00:00 
+06/13/03 22:15:00 
+06/27/03 21:45:00 
+
+e) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+06/03/03 17:15:00 842 NTU
+06/06/03 07:45:00 207 NTU
+06/06/03 11:00:00 754 NTU
+06/07/03 17:45:00 209 NTU
+06/08/03 19:15:00 296 NTU
+06/09/03 18:30:00 754 NTU
+06/14/03 10:00:00 310 NTU
+06/27/03 23:00:00 401 NTU
+
+f) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+06/06/03 06:15:00 109 NTU
+06/06/03 10:30:00 107 NTU
+06/06/03 20:00:00 130 NTU
+06/23/03 17:45:00 063 NTU
+06/27/03 22:00:00 067 NTU
+
+Sweet Hall  MARSH:
+
+a) For the month of June, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interface. 
+06/02/03 22:45:00 258 NTU
+06/04/03 15:45:00 174 NTU
+
+e) For the following dates and times, turbidity readings are suspect sue to 
+exchange of datalogger. Data retained. 
+06/11/03 16:00:00  50 NTU
+06/25/03 13:45:00  46 NTU
+
+TASKINAS CREEK:
+
+a) Between the time interval 06/10/03 13:30:00 - 06/30/03 23:45:00, a different 
+datalogger cable was used at the Taskinas Creek site.  This resulted in a depth 
+difference of 58 cm shallower than the previous and subsequent deployments.  
+Because other water quality data are associated with the specific sampling 
+depth, depth data were not adjusted.
+
+b) For the month of June, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+06/17/03 16:00:00 
+06/18/03 10:15:00 
+06/19/03 08:00:00 
+06/19/03 08:30:00 
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+06/03/03 05:30:00 742 NTU
+06/17/03 22:30:00 619 NTU
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+06/07/03 16:00:00 545 NTU
+06/18/03 08:30:00 123 NTU
+06/18/03 22:15:00 350 NTU
+
+f) For the following dates and times, pH values high due to sensor malfunction.
+Data deleted.
+
+06/15/03 03:00:00 - 06/19/03 09:15:00
+
+g) For the following dates and times, Specific conductance, salinity, and depth 
+are suspect due to probes being out of the water.
+
+06/14/03 04:45:00
+
+h) For the following dates and times, turbidity readings are suspect due to 
+exchange of datalogger. Data retained.
+
+06/19/03 09:30:00 114 NTU
+
+i) For the following dates and times, depth data were deleted due to exchange of 
+datalogger.
+
+06/10/03 13:30:00
+06/19/03 09:30:00 
+
+JULY
+
+CLAYBANK:
+
+a) For the month of July, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+07/07/03 05:00:00 622 NTU
+07/28/03 09:45:00 681 NTU
+07/29/03 09:45:00 541 NTU
+
+c) For the following dates and times, depth data were deleted due to exchange of 
+datalogger.
+
+07/15/03 12:00:00 - 07/15/03 12:15:00
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being  out of the water.
+
+07/01/03 09:45:00
+07/22/03 09:00:00 
+
+b) For the following dates and times, all data were missing due to an internal 
+error within the sonde.
+
+07/28/03 03:00:00 
+
+c) For the month of July, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+d) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+07/08/03 21:30:00 
+07/18/03 23:15:00 
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+07/15/03 00:30:00 115 NTU
+07/26/03 02:15:00  69 NTU
+
+f) For the following dates and times, depth values are suspect.  Data retained.
+
+07/18/03 23:00:00 - 07/18/03 23:15:00
+
+g) A DO membrane puncture was observed during post calibration.  No obvious 
+signature was observed in raw data.  Data retained.
+
+07/01/03 00:00:00 - 07/10/03 13:00:00
+
+Sweet Hall  Marsh:
+
+a) For the month of July, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity readings were suspect due to 
+exchange of datalogger. Data retained.
+
+07/09/03 13:30:00 
+07/23/03 10:45:00 - 07/23/03 11:00:00
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+07/21/03 10:30:00 287 NTU
+
+TASKINAS CREEK:
+
+a) Between the time interval 07/01/03 00:00:00 - 07/31/03 23:45:00, a different 
+datalogger cable was used at the Taskinas Creek site.  This resulted in a depth 
+difference of 58 cm shallower than the previous and subsequent deployments.  
+Because other water quality data are associated with the specific sampling 
+depth, depth data were not adjusted.
+
+b) For the following dates and times, all data was deleted due to datalogger 
+being out 
+of the water.
+
+07/28/03 03:45:00 - 07/28/03 05:15:00 
+
+c) For the month of July, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+d) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+07/17/03 07:00:00
+07/21/03 19:00:00
+
+e) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+07/25/03 21:30:00 957 NTU
+
+f) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+07/02/03 06:30:00 113 NTU
+07/12/03 08:15:00 159 NTU
+07/25/03 06:30:00 275 NTU
+07/26/03 14:00:00 161 NTU
+
+g) For the following dates and times, all data were deleted due to exchange of 
+datalogger.
+
+07/23/03 09:00:00 - 07/23/03 09:15:00 
+
+AUGUST
+
+CLAYBANK:
+
+a) For the month of August, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+08/02/03 15:30:00 
+08/03/03 12:45:00 
+08/03/03 13:00:00 
+08/03/03 19:45:00 
+08/27/03 02:30:00 
+08/27/03 08:00:00 
+08/28/03 08:30:00 
+08/28/03 16:45:00 
+08/28/03 17:45:00 
+08/28/03 18:00:00 
+08/28/03 19:00:00 
+08/28/03 19:45:00 
+08/29/03 05:15:00 
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+08/01/03 07:00:00 824 NTU
+08/01/03 20:30:00 667 NTU
+08/26/03 14:00:00 452 NTU
+08/27/03 13:15:00 352 NTU
+08/27/03 20:15:00 428 NTU
+08/28/03 00:45:00 939 NTU
+08/28/03 22:30:00 594 NTU
+08/28/03 23:45:00 614 NTU
+
+d) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+08/11/03 00:30:00 143 NTU
+08/11/03 23:45:00 095 NTU
+08/27/03 07:45:00 236 NTU
+08/28/03 02:15:00 231 NTU
+08/30/03 02:00:00 797 NTU
+08/31/03 15:15:00 836 NTU
+08/31/03 14:30:00 238 NTU
+08/31/03 20:30:00 663 NTU
+
+e) For the following dates and times, all data were missing due to internal 
+error within the sonde.
+
+08/30/03 18:45:00 
+
+f) For the following dates and times, depth values were deleted due to exchange 
+of datalogger.
+
+08/06/03 11:45:00
+08/19/03 11:00:00
+ 
+GOODWIN ISLANDS:
+
+a) For the month of August, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+08/01/03 23:45:00
+08/17/03 16:00:00
+08/28/03 05:30:00
+08/30/03 06:00:00
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+08/11/03 12:30:00 648 NTU
+
+d) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+08/15/03 18:15:00  52 NTU
+08/18/03 00:30:00  89 NTU
+
+Sweet Hall  MARSH:
+
+a) For the month of August, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, elevated turbidity values are suspect 
+during and immediately following station maintenance and datalogger exchange.  
+Data retained.
+
+08/05/03 12:45:00 - 08/05/03 13:45:00 
+08/20/03 12:30:00 - 08/20/03 12:45:00
+
+c) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+08/13/03 18:00:00 103 NTU
+
+TASKINAS CREEK:
+
+a) Between the time interval 08/01/03 00:00:00 - 08/20/03 10:00:00, a different 
+datalogger cable was used at the Taskinas Creek site.  This resulted in a depth 
+difference of 58 cm shallower than the previous and subsequent deployments.  
+Because other water quality data are associated with the specific sampling 
+depth, depth data were not adjusted.
+
+b) For the month of August, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted due to wiper malfunction.
+
+08/06/03 15:45:00
+08/17/03 06:00:00
+08/22/03 22:00:00
+08/31/03 18:00:00
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted to sensor interference.  Data deleted.
+
+08/04/03 15:15:00 461 NTU
+08/05/03 04:45:00 564 NTU
+08/25/03 23:45:00 578 NTU
+08/26/03 01:45:00 652 NTU
+08/26/03 08:00:00 388 NTU
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+08/07/03 16:45:00 367 NTU
+08/10/03 05:45:00 520 NTU
+08/18/03 01:15:00 223 NTU
+08/24/03 17:00:00 643 NTU
+08/24/03 17:15:00 461 NTU
+
+f) For the following dates and times, DO% sat and DO mg/L data are suspect.  
+Data retained.
+
+08/18/03 09:45:00
+
+g) For the following dates and times, turbidity brush wiper fell off during the 
+deployment, but no heavy fouling occurred. All data retained. 
+
+08/05/03 11:00:00 - 08/13/02 11:00:00
+
+SEPTEMBER
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to exchange of 
+datalogger.
+
+09/23/03 14:15:00 
+
+b) For the following dates and times, all data are missing due to internal error 
+within the sonde.
+
+09/01/03 14:15:00 
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+09/02/03 07:00:00 
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+09/01/03 00:45:00 629 NTU
+09/01/03 03:45:00 884 NTU
+09/01/03 17:00:00 382 NTU
+09/01/03 17:30:00 502 NTU
+09/01/03 18:45:00 427 NTU
+09/01/03 19:30:00 858 NTU
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+09/01/03 02:00:00 680 NTU
+09/01/03 07:45:00 835 NTU
+09/02/03 03:30:00 826 NTU
+09/02/03 06:30:00 879 NTU
+
+f) For the following dates and times, depth data were deleted due to exchange of 
+datalogger.
+
+09/16/03 13:45:00 - 09/16/03 14:00:00
+09/24/03 14:45:00
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to equipment 
+damage during Hurricane Isabel.  
+
+09/18/03 11:15:00 - 09/30/03 09:00:00 
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, elevated turbidity values are suspect 
+during and immediately following station maintenance and datalogger exchange.  
+Data retained. 
+
+09/16/03 15:45:00 - 09/16/03 16:15:00
+09/25/03 10:00:00 
+
+b) For the month of September, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+
+TASKINAS CREEK:
+
+a) For the following dates and times, turbidity values greater than 1000 were 
+deleted.  Sampling intervals were impacted due to Hurricane Isabel.  Recorded 
+values were as follows;
+
+09/18/03 14:30:00 1029 NTU
+09/18/03 14:45:00 1142 NTU
+09/18/03 15:00:00 1071 NTU
+09/18/03 15:15:00 1272 NTU
+09/18/03 15:30:00 1306 NTU
+09/18/03 15:45:00 1264 NTU
+09/18/03 16:00:00 1228 NTU
+09/18/03 16:15:00 1736 NTU
+09/18/03 16:30:00 1834 NTU
+09/18/03 17:00:00 2104 NTU
+09/18/03 17:15:00 1606 NTU
+09/18/03 17:30:00 1440 NTU
+
+b) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+09/04/03 14:00:00 557 NTU
+09/04/03 18:30:00 967 NTU
+09/06/03 19:00:00 393 NTU
+09/07/03 06:00:00 436 NTU
+
+c) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+09/01/03 11:00:00 254 NTU
+
+OCTOBER
+
+CLAYBANK:
+
+a) For the month of October, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, depth data were deleted due to exchange of 
+datalogger.
+
+10/07/03 12:00:00
+
+GOODWIN ISLANDS:
+
+a) For the month of October, depth values occasionally reported negative and/or
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+10/24/03 09:45:00  46 NTU
+10/29/03 11:15:00  88 NTU
+
+c) For the following dates and times, turbidity data was subtracted by 10 NTU to 
+correct for calibration error.
+
+10/28/03 10:00:00 - 10/31/03 23:45:00
+
+Sweet Hall  MARSH:
+
+a) For the month of October, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+b) For the following dates and times, turbidity readings are suspect. Data 
+retained.
+
+10/11/03 11:00:00 138 NTU
+
+TASKINAS CREEK:
+
+a) For the following dates and times, turbidity values are suspect due to 
+exchange of datalogger.
+
+10/01/03 09:30:00
+
+NOVEMBER
+
+CLAYBANK:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+11/13/03 19:45:00 - 11/13/03 20:00:00 
+11/14/03 06:00:00 - 11/14/03 09:45:00 
+11/14/03 16:45:00 - 11/15/03 00:15:00 
+11/15/03 04:30:00 - 11/15/03 09:45:00 
+11/15/03 18:45:00 - 11/15/03 22:30:00 
+11/29/03 06:30:00 - 11/29/03 10:15:00 
+11/29/03 19:00:00 - 11/30/03 00:15:00 
+11/30/03 07:00:00 - 11/30/03 12:45:00 
+11/30/03 19:45:00 - 11/30/03 23:45:00 
+
+b) For the month of November, turbidity values occasionally reported zeros due 
+to sensor precision.  Data retained.
+
+c) For the month of November, depth values occasionally reported negative and/or 
+zero due to sensor precision.  Data retained.
+
+d) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+11/14/03 16:30:00
+11/15/03 00:30:00
+
+e) For the following dates and times, depth data were deleted due to exchange of 
+datalogger. 
+
+11/05/03 12:15:00
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+11/11/03 10:15:00 
+11/14/03 05:00:00 - 11/14/03 08:15:00 
+11/14/03 15:30:00 - 11/14/03 23:15:00 
+11/15/03 02:45:00 - 11/15/03 08:45:00 
+11/15/03 18:15:00 - 11/15/03 21:00:00 
+11/29/03 07:45:00 
+11/29/03 20:30:00 - 11/29/03 21:45:00 
+11/30/03 06:30:00 - 11/30/03 11:00:00 
+11/30/03 19:30:00 - 11/30/03 23:30:00 
+
+b) For the month of November, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity data was subtracted by 10 NTU to 
+correct for calibration error.
+
+11/01/03 00:00:00 - 11/05/03 11:00:00
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+11/13/03 19:30:00 - 11/14/03 00:15:00
+11/14/03 09:00:00 - 11/14/03 12:00:00
+11/14/03 19:45:00 - 11/15/03 02:15:00
+11/15/03 08:15:00 - 11/15/03 12:00:00
+11/15/03 22:15:00 - 11/16/03 00:45:00
+11/29/03 10:15:00 - 11/29/03 12:45:00
+11/29/03 22:45:00 - 11/20/03 02:00:00
+11/30/03 10:30:00 - 11/30/03 14:30:00
+11/30/03 23:30:00 - 11/30/03 23:45:00
+
+b) For the month of November, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+11/06/03 10:00:00 
+
+d) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+11/13/03 19:15:00
+11/14/03 00:30:00
+11/14/03 08:45:00
+11/15/03 22:00:00
+11/16/03 01:00:00
+11/29/03 10:00:00
+11/29/03 22:30:00
+11/30/03 02:15:00
+
+TASKINAS CREEK:
+
+a) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+11/13/03 17:45:00 - 11/13/03 23:45:00
+11/14/03 07:30:00 - 11/14/03 10:45:00
+11/14/03 22:15:00 - 11/15/03 01:15:00
+11/15/03 06:45:00 - 11/15/03 10:00:00
+11/15/03 21:45:00 - 11/15/03 23:00:00
+
+b) For the following dates and times, depth values are suspect due to exchange 
+of datalogger. Data retained.
+
+11/03/03 13:45:00
+11/19/03 11:45:00
+
+c) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+11/19/03 10:45:00 335 NTU
+11/29/03 07:15:00 388 NTU
+
+DECEMBER
+
+Claybank:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+12/01/03 00:00:00 - 12/01/03 01:15:00 
+12/01/03 07:45:00 - 12/01/03 13:00:00 
+12/22/03 01:30:00 - 12/22/03 03:15:00 
+12/22/03 14:15:00 - 12/22/03 16:30:00 
+12/23/03 01:30:00 - 12/23/03 04:45:00 
+12/23/03 14:45:00 - 12/23/03 17:15:00
+12/27/03 05:45:00 - 12/27/03 07:30:00 
+
+b) For the month of December, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+12/22/03 01:15:00
+12/22/03 03:30:00
+
+GOODWIN ISLANDS:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+12/02/03 10:30:00 
+12/22/03 18:15:00 - 12/22/03 18:30:00
+
+b) For the month of December, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times, turbidity values greater than 1000 were 
+deleted.
+
+12/09/03 01:00:00
+
+Sweet Hall  MARSH:
+
+a) For the following dates and times, all data were deleted due to datalogger 
+being out of the water.
+
+12/01/03 00:00:00 - 12/01/03 03:00:00
+12/01/03 11:45:00 - 12/01/03 15:00:00
+12/02/03 13:00:00 - 12/02/03 15:30:00
+12/23/03 00:30:00 - 12/23/03 04:00:00
+12/23/03 05:00:00 - 12/23/03 07:00:00
+12/23/03 18:45:00 - 12/23/03 19:30:00
+12/27/03 09:15:00 - 12/27/03 10:00:00
+
+b) For the month of December, depth values occasionally reported negative 
+and/or zero due to sensor precision.  Data retained.
+
+c) For the following dates and times depth, specific conductance, salinity, and 
+DO concentration are suspect due to potential depth and specific conductivity 
+sensors being out of water.  Data retained.
+
+12/01/03 11:30:00
+12/27/03 09:15:00
+
+d) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor interference.  Data deleted.
+
+12/14/03 09:45:00 230 NTU
+12/14/03 15:45:00 247 NTU
+12/24/03 11:45:00 453 NTU
+
+e) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+12/12/03 10:00:00 165 NTU
+12/23/03 18:15:00 169 NTU
+
+f) For the following dates and times, depth data were deleted due to exchange of 
+datalogger.
+
+12/02/03 12:15:00 - 12/02/03 12:45:00
+
+TASKINAS CREEK:
+
+a) For the following dates and times, all data are missing due to an internal 
+error within the sonde.
+
+12/17/03 12:15:00 - 12/31/03 23:45:00
+
+b) For the following dates and times, elevated single point turbidity values 
+deleted due to sensor  interference.  Data deleted.
+
+12/11/03 23:00:00 360 NTU
+
+c) For the following dates and times, turbidity readings are suspect.  Data 
+retained.
+
+12/01/03 11:15:00 118 NTU
+12/12/03 12:45:00 171 NTU
+
+
+12. Missing data
+
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.    
+
+
+13. A. Post-deployment Information
+End of deployment Post-calibration Readings in Standard Solutions:
+na = no data available for that particular standard 
+
+Claybank:
+Date		Cond (ms)	DO (AirSat)	pH		 Turb	  Depth
+(post cal)	(Std:10/50)	(Std: 100%)	(Std:7)		(Std:0)	 (Std:0)
+01/09/03	 9.956		 83.9		7.08		 2.9	-0.118
+01/21/03	10.280		100.2		7.09		 0.1	 0.195
+02/03/03	10.003		 95.0		7.07		-0.7	-0.058
+02/19/03	 9.778		 96.5		7.01		 0.3	 0.071
+03/04/03	10.170		 97.9		7.02		 0.8	-0.073
+03/18/03	 9.992		 62.8		7.03		-0.4	-0.170
+04/01/03	10.110		101.8		7.06		 1.3	 0.075
+04/15/03	 9.891		 57.7		7.12		 4.2	-0.048
+04/29/03 	10.230		 62.7		6.99		 3.9	-0.144
+05/13/03	 9.676		 70.3		7.08		 7.3	-0.043
+05/27/03	10.100		 98.2		7.10		-0.2	 0.056
+06/04/03	10.010		 99.2		7.12		 0.0	-0.070
+06/11/03	 9.979		101.7		7.00		-1.3	-0.025
+06/19/03	 9.970		101.5		7.00		 0.0	-0.095
+06/25/03	 9.919		100.3		7.14		 0.7	 0.031
+07/02/03	10.110		 99.8		6.96		 0.0	-0.006
+07/09/03	10.400		 88.7		6.97		-0.5	-0.051
+07/16/03	49.360		 93.5		7.07		 1.7	-0.011
+07/23/03	48.820		 87.4		7.03		 0.2	-0.080
+07/30/03	49.620		 99.9		7.05		 0.6	 0.084
+08/07/03	50.320		 95.8		7.05		 0.1	-0.028
+08/13/03	49.870		 98.7		7.13		 0.7	 0.134
+08/20/03	50.200		 87.5		7.01		 0.4	 0.046
+08/27/03	49.630		 99.7		7.13		 2.6	-0.059
+09/03/03	49.170		 91.1		7.11		 1.5	 0.021
+09/10/03	49.520		 90.7		7.05		 0.9	 0.030
+09/16/03	48.970		 90.0		7.06		-0.2	 0.019
+09/24/03	49.660		 76.3		7.10		 0.0	 0.013
+10/01/03	50.250		 94.2		7.01		 0.5	 0.017
+10/08/03	49.930		 98.4		7.08		-0.3	-0.024
+10/15/03	49.630		100.6		7.09		 0.6	-0.128
+10/24/03	10.040		100.0		7.26		 0.3	 0.100
+10/29/03	10.070		 96.7		7.08		-0.2	-0.022
+11/06/03	10.060		 99.5		7.04		 0.0	 0.014
+11/21/03	10.080		 99.7		7.13		-1.9	-0.025
+12/02/03	10.120		101.2		7.05		 0.0	 0.155
+12/19/03	10.050		 75.3 		7.10		-0.6	-0.046
+
+Goodwin Island:
+Date		Cond (ms)	DO (AirSat)	pH		Turb	Depth
+(post cal)	(Std:10/50)	(Std: 100%)	(Std:7)		(Std:0)	(Std:0)
+01/09/03	10.220		 97.4		6.98		-1.2	-0.113
+01/21/03	10.050		 97.3		7.18		-1.5	 0.196
+02/03/03	10.460		 99.8		7.09		 0.2	-0.056
+02/19/03	 9.897		 97.9		7.05		 0.1	 0.071
+03/04/03	10.170		 92.8		7.00		 0.4	-0.075
+03/18/03	10.080		 89.1		7.06		 0.3	-0.169
+04/01/03	10.110		104.8		7.03		 0.4	 0.083
+04/15/03	10.110		 94.9		7.08		 0.4	-0.042
+04/29/03	10.330		 89.6		7.10		 1.7	-0.146
+05/13/03	 9.776		 58.6		7.10		 2.5	-0.027
+05/27/03	 9.734		 45.6		7.13		 0.3	 0.053
+06/04/03	10.080		 99.5		6.91		 0.2	-0.071
+06/11/03	10.040		111.7		na		-0.1	-0.013
+06/19/03	 9.888		102.2		6.95		 0.0	-0.096
+06/25/03	 9.933		 95.9		7.06		-0.4	 0.035
+07/02/03	10.020		 54.6		7.06		 0.5	-0.023
+07/11/03	 9.875		 43.9		7.01		-0.3	-0.100
+07/16/03	10.320		 91.4		7.21		 1.3	 0.033
+07/23/03	48.770		 51.6		6.95		 1.6	-0.088
+07/30/03	48.750		 94.1		7.09		 0.3	 0.078
+08/07/03	49.590		 92.1		7.10		 0.9	-0.011
+08/13/03	49.180		 94.1		7.04		 0.4	 0.135
+08/20/03	49.310		 86.0		7.00		 2.0	 0.054
+08/27/03	49.220		 85.0		7.08		-0.2	-0.058
+09/03/03	49.590		 83.9		7.15		 0.3	-0.003
+09/10/03	49.340		 57.4		6.99		-0.7	 0.030
+10/06/03	49.400		 39.3		7.01		 0.7	-0.006
+10/08/03	49.440		 97.4		6.94		-0.8	-0.012
+10/15/03	49.640		 96.0		7.07		-1.2	-0.164
+10/23/03	10.100		 92.0		7.05		-0.2	-0.049
+10/29/03	 9.906		100.2		7.15		 0.4	 0.044
+11/06/03	10.090		101.8		7.14		10.4	 0.042
+11/12/03	 9.987		 98.9		7.07		-0.1	-0.062
+11/21/03	10.170		 94.2		7.01		 0.0	-0.083	
+12/02/03	10.040		109.2		7.03		-0.3	 0.157	
+12/19/03	10.200		 71.0		7.03		 0.2	-0.058	
+
+Sweet Hall Marsh:
+Date		Cond (ms)	DO (AirSat)	pH		Turb	Depth
+(post cal)	(Std:10/50)	(Std: 100%)	(Std:7)		(Std:0)	(Std:0)
+01/06/03	9.9600		 97.6		7.01		 0.2	-0.196		
+01/21/03	10.090		 98.0		7.09		 0.0	 0.057
+02/07/03	10.000		100.1		7.01		 1.0	-0.028
+02/20/03	 9.810		108.2		7.10		-0.3	 0.079
+03/07/03	 9.840		 98.6		7.00		 0.1	-0.062
+03/18/03	 9.900		 95.3		7.05		 0.0	-0.191
+04/04/03	10.020		 98.1		7.10		 0.4	-0.017
+04/17/03	10.030		 81.4		7.06		 0.3	 0.045
+05/01/03	10.080		111.4		7.07		 0.6	-0.007
+05/15/03	10.110		 95.7		7.02		 0.7	-0.039
+05/29/03	10.000		101.8		7.10		-0.3	-0.142
+06/12/03	10.310		108.2		7.06		 0.3	 0.082
+06/26/03	10.050		102.7		7.03		 0.4	-0.013
+07/10/03	49.030		103.3		7.01		-0.3	-0.047
+07/24/03	49.570		106.6		7.04		-0.2	 0.010
+08/06/03	49.340		 93.1		7.05		-0.1	-0.009
+08/21/03	49.070		105.4		7.04		-0.8	 0.081
+09/05/03	49.820		105.7		6.99		-0.1	-0.078
+09/16/03	50.000		102.1		7.09		 0.0	-0.077
+09/26/03	49.930		100.1		7.06		 0.0	-0.047
+10/09/03	50.040		103.4		7.02		 0.0	 0.051
+10/23/03	50.130		100.8		7.12		-0.2	-0.007
+11/05/03	10.030		103.2		7.05		-0.4	 0.129
+11/20/03	 9.850		102.2		6.98		 0.0	-0.087
+12/03/03	10.160		102.8		6.97		-0.2	 0.269
+12/18/03	 9.897		 87.4		7.02		-0.8	-0.154		
+
+Taskinas Creek:
+Date		Cond (ms)	DO (AirSat)	pH		Turb	Depth
+		(Std:10/50)	(Std: 100%)	(Std:7)		(Std:0)	(Std:0)
+01/08/03	10.080		 96.3		7.04		 2.8	-0.026
+01/22/03	 9.996		101.5		7.04		-0.3	 0.179
+02/05/03	10.190		 99.8		7.03		-0.2	-0.006
+02/18/03	 9.949		100.7		7.03		-2.8	 0.066
+03/05/03	 9.915		 97.6		7.02		 1.1	-0.166
+03/17/03	10.050		 99.5		7.02		-0.4	-0.009
+04/02/03	10.080		100.3		7.00		 4.9	 0.055
+04/16/03	 9.930		100.8		6.96		 4.3	-0.054
+04/30/03	10.060		 87.3		6.99		 3.4	 0.008
+05/14/03	 9.851		101.0		7.04		 0.4	-0.029
+05/29/03	10.040		 97.4		7.10		 1.4	-0.131
+06/04/03	10.020		102.8		7.01		 1.5	-0.005
+06/11/03	10.030		 99.1		6.95		-0.4	 0.026
+06/19/03	 9.974		 83.1		6.58		 0.4	-0.112
+06/26/03	 9.939		100.6		6.93		 0.0	 0.052
+07/02/03	10.000		103.2		6.98		 0.4	-0.102
+07/10/03	10.180		100.7		7.09		 0.0	-0.028
+07/17/03	50.210		101.0		7.03		-0.1	 0.039
+07/24/03	50.240		 98.8		7.12		 0.4	 0.007
+07/31/03	49.980		104.5		6.94		 0.9	 0.088
+08/06/03	49.860		 99.4		7.12		-0.5	-0.063
+08/14/03	49.810		 99.8		6.97		 0.1	 0.146
+08/21/03	49.950		100.1		7.10		-1.5	-0.053
+08/28/03	50.450		 96.5		6.99		 0.1	-0.035
+09/04/03	50.370		 97.1		7.04		 0.2	-0.009
+09/11/03	50.280		100.7		7.04		 0.6	 0.027
+09/17/03	49.810		100.7		7.02		 0.3	 0.006
+09/25/03	49.970		100.6		6.92		-0.7	-0.032
+10/01/03	49.080		107.6		7.05		 0.8	-0.009
+10/09/03	49.890		102.3		7.02		-0.4	-0.022
+10/16/03	49.870		 99.2		7.03		-0.6	-0.017
+10/21/03	10.030		101.5		6.98		-0.4	 0.036
+10/30/03	10.050		 74.6		7.04		-0.3	 0.032
+11/04/03	10.050		103.1		6.98		-0.3	 0.161
+11/20/03	10.000		 96.7		7.03		 0.2	-0.113
+12/02/03	10.170		102.1		6.95		 0.3	 0.183	
+12/18/03	 9.826		 99.8		7.01		-0.3	-0.038		
+	
+	
+
+13.B Field Verification samples:
+na = no data available
+
+Claybank:
+Date		Salinity	pH	Water Temp	Secchi	DO	
+		ppt			C		m	mg/L
+12/16/02	17.800		7.60	 6.0		0.50	11.3/11.6
+01/09/03	12.100		7.20	 6.0		0.40	11.1/11.3
+01/21/03	17.100		6.40	 2.5		1.05	12.0/11.8
+02/03/03	17.307		na	 2.0		1.20	12.1/11.7
+02/19/03	19.325		8.24	 3.0		1.00	12.3/11.7
+03/04/03	10.557		8.37	 5.5		0.80	12.5/12.3
+03/18/03	14.320		8.37	 9.5		1.00	 9.9
+04/01/03	 8.308		8.34	10.0		0.50	11.2/11.3
+04/15/03	 9.513		7.80	17.5		0.60	 7.6/7.5
+04/29/03 	10.652		7.87	17.0		0.60	 6.2/6.0
+05/13/03	10.793		8.01	19.0		0.10	 na	
+05/27/03	10.947		7.68	19.0		0.40	 6.4/6.4
+06/03/03	 8.500		7.76	19.6		0.65	 7.8/7.7
+06/10/03	10.585		7.68	22.5		0.60	 6.5/6.4
+06/18/03	11.400		7.81	24.5		0.50	 7.6/7.7
+06/24/03	 8.700		7.90	24.0		0.90	 6.1/6.2
+07/01/03	14.000		7.99	27.0		0.70	 6.4/6.4
+07/08/03	11.300		7.97	28.5		0.50	 6.8/7.1
+07/15/03	17.200		7.74	28.8		0.80	 4.9/4.9
+07/22/03	13.100		7.91	28.0		0.40	 7.1/6.8
+07/29/03	17.100		7.82	26.9		0.80	 5.0/5.1
+08/06/03	11.800		8.22	29.0		0.50	 8.7/8.5
+08/12/03	14.700		7.69	26.6		0.50	 4.9/5.0
+08/19/03	15.100		7.74	27.5		0.40	 6.2/5.8
+08/26/03	13.200		8.18	28.5		0.50	 6.9/7.1
+09/02/03	16.100		7.92	27.8		0.40	 6.5
+09/09/03	17.900		7.82	24.6		0.70	 5.0
+09/16/03	16.400		6.98	24.6		0.80	 4.6/4.9
+09/23/03	 9.200		7.86	25.4		0.60	 9.0
+09/24/03	19.300		7.90	25.4		0.60	 8.0/8.1
+09/30/03	 8.100		7.50	22.4		0.50	 5.3/5.5	
+10/07/03	12.700		7.68	21.4		0.60	 5.9/5.9
+10/14/03	11.200		7.60	20.2		0.80	 6.6/6.7	
+10/23/03	15.300		7.82	15.8		0.40	 7.2/7.2
+10/28/03	15.800		7.72	16.7		1.00	 6.8/7.0
+11/05/03	13.500		7.65	19.2		0.80	 9.1	
+11/20/03	10.600		7.70	13.6		0.30	 9.3/9.0
+12/02/03 	 7.500		7.86	11.1		0.60	10.0/10.5
+12/18/03	 6.300		7.65	 5.5		0.40	10.4			
+
+Goodwin Island:
+Date		Salinity	pH	Water Temp	Secchi	DO	
+		ppt			C		m	mg/L
+12/16/02	22.400		7.80	 7.0		0.70	10.6
+01/09/03	20.100		7.10	 6.5		0.80	10.5/10.7
+01/21/03	20.500		na	 2.0		1.10	10.6/10.9
+02/03/03	20.010		na	 2.5		1.30	11.6/12.0
+02/19/03	19.450		8.27	 3.0		1.10	11.8/11.4
+03/04/03	16.596		8.39	 5.0		1.20	10.9/11.4
+03/18/03	15.625		8.47	 9.0		1.40	12.0/11.5
+04/01/03	14.339		8.64	 9.5		0.90	 na
+04/15/03	13.882		8.67	12.5		1.00	12.4
+04/29/03 	14.812		8.74	21.0		2.00	11.1
+05/13/03	17.238		8.33	17.5		0.70	 na
+05/27/03	16.313		8.52	19.0		0.80	 8.0/7.8
+06/03/03	14.700		8.05	19.1		0.80	 9.3/9.0
+06/10/03	15.706		8.31	22.5		0.85	 8.0/8.2
+06/18/03	16.500		7.87	21.5		0.80	 5.5/5.5
+06/24/03	14.600		8.29	23.0		0.70	 7.5/7.4
+07/01/03	14.300		8.18	26.5		0.90	 5.9/5.5
+07/10/03	17.200		8.88	30.0		0.80	14.1/14.0
+07/15/03	19.800		8.01	26.0		1.00	 6.2/6.6
+07/22/03	19.000		8.04	27.0		0.60	 5.8/5.8
+07/29/03	18.800		8.09	26.4		0.60	 5.2/5.3
+08/06/03	19.600		8.04	26.0		0.60	 5.4/5.8
+08/12/03	18.700		8.27	26.4		1.00	 7.4/6.5
+08/19/03	18.300		8.09	26.8		0.50	 6.0/5.7
+08/26/03	17.900		8.48	27.1		0.80	 6.2/6.1
+09/02/03	18.400		8.45	26.7		0.60	 5.8/5.8
+09/09/03	17.800		8.36	24.5		0.50	 7.3/7.5
+09/23/03	16.800		8.26	24.2		0.65	 8.3/8.2
+09/30/03	15.100		7.84	19.5		1.00	 7.8/7.5
+10/07/03	15.100		8.12	19.8		0.80	 8.8
+10/14/03	16.300		8.10	19.7		1.20	 8.8
+10/22/03	17.800		8.00	17.4		1.00	 7.9/7.3
+10/28/03	18.000		8.00	16.0		0.70	 5.2/5.2
+11/05/03	17.800		8.20	19.5		0.80	10.3/10.4
+11/11/03	17.500		8.21	14.6		1.10	 9.2/9.4
+11/20/03	17.700		8.06	13.4		1.00	 9.2/9.1         
+12/01/03	17.300		8.19	10.9		0.40	10.0/9.6			
+12/19/03	14.300		8.13	 6.7		0.50	11.0/10.9
+
+Sweet Hall Marsh:
+Date		Salinity	pH	Water Temp	Secchi	DO	
+		ppt			C		m	mg/L
+12/18/02	0.700		7.20	 5.0		0.80	10.5/10.4
+01/06/03	0.200		7.05	 6.0		0.30	11.1/10.5
+01/21/03	0.600		na	 2.5		0.20	11.2/11.2
+02/05/03	0.532		7.49	 4.3		0.15	10.4
+02/20/03	0.233		na	 3.0		0.10	11.8
+03/07/03	0.107		7.55	 6.0		0.40	 na
+03/17/03	0.126		7.28	11.0		0.40	10.1/9.8
+04/03/03	0.088		8.29	15.0		0.30	 7.4/7.3
+04/17/03	0.066		7.28	15.0		0.30	 8.0/8.0
+05/01/03 	0.100		7.50	20.5		0.40	 7.3/7.2
+05/15/03	0.103		7.36	22.0		0.40	 7.0
+05/29/03	0.000		7.29	19.0		0.60	 6.4
+06/11/03	0.100		6.86	24.3		0.30	 5.5
+06/25/03	0.100		6.95	26.0		0.50	 6.7/6.4
+07/09/03	0.100		6.99	29.9		0.40	 6.3/6.7
+07/23/03	0.100		7.53	27.7		0.60	 6.3
+08/05/03	0.100		6.74	27.9		0.40	 4.9/5.1
+08/20/03	0.100		7.00	28.0		0.60	 5.0/5.3
+09/04/03	0.900		7.08	28.0		0.40	 5.0/4.8
+09/16/03	0.400		6.86	24.7		0.50	 5.5/5.1
+09/25/03	0.100		6.46	23.3		0.40	 2.9
+10/08/03	0.100		6.71	20.3		0.50	 5.0/5.2
+10/23/03	0.600		7.03	17.0		0.50	 6.6/6.8
+11/04/03	0.100		6.70	17.8		0.40	 7.7/7.8
+11/19/03	0.100		6.77	14.0		0.20	 5.9/6.1	
+12/02/03	0.100		na	10.6		0.40	 9.7/9.3
+12/17/03	0.100		6.49	 6.8		0.30	 9.0/8.9
+
+Taskinas Creek:
+Date		Salinity	pH	Water Temp	Secchi	DO	
+		ppt			C		m	mg/L
+
+12/19/02	13.000		7.50	 5.5		0.30	11.6/10.9
+01/08/03	10.100		7.10	 5.3		0.35	12.8/12.3
+01/22/03	13.200		7.49	 0.4		0.60	12.0
+02/05/03	13.173		7.50	 3.5		0.35	10.1/10.5
+02/18/03	12.714		8.05	 1.0		0.30	 8.0
+03/05/03	 3.421		7.39	 7.5		0.60	10.6/10.6
+03/17/03	 5.737		7.85	11.5		0.45	10.0/9.9
+04/02/03	 5.281		7.68	12.0		0.50	 9.6
+04/16/03	 6.416		7.63	17.5		0.30	 7.0/6.5
+04/30/03 	 6.900		7.61	17.0		0.60	 6.0/5.9
+05/14/03	 9.203		7.55	19.5		0.20	 6.3
+05/29/03	 5.329		7.28	20.2		0.25	 na
+06/04/03	 5.100		7.66	21.0		0.20	 7.0/6.6
+06/10/03	 2.900		7.21	24.5		0.30	 3.8/3.3
+06/19/03	 3.900		7.19	24.5		0.25	 3.5/3.4
+06/25/03	 4.900		7.14	26.0		0.30	 4.2/4.3
+07/02/03	 8.200		7.23	26.0		0.20	 4.0/3.7
+07/09/03	 7.600		7.31	29.5		0.30	 4.5/4.6
+07/16/03	10.600		7.31	28.0		0.20	 5.0
+07/23/03	 0.900		7.09	23.6		0.20	 2.7/2.6
+07/30/03	 9.700		7.31	25.4		0.30	 4.5/4.6
+08/05/03	 3.100		7.30	27.2		0.30	 3.7
+08/13/03	 9.400		7.31	28.0		0.20	 4.3/4.3
+08/20/03	 4.000		7.28	27.3		0.30	 4.3/4.0
+08/27/03	11.400		7.36	28.9		0.40	 5.9/5.4
+09/03/03	 7.100		7.36	27.9		0.40	 3.9
+09/10/03	12.100		7.53	22.4		0.20	 5.8/5.5
+09/16/03	10.600		7.69	25.3		0.20	 6.7/6.6
+09/24/03	 6.000		7.49	23.2		0.30	 6.3/6.2
+10/01/03	 1.600		7.50	16.7		0.30	 6.2
+10/08/03	 7.500		6.94	20.1		0.30	 5.3/5.3
+10/15/03	 8.500		7.41	19.1		0.20	 7.3
+10/20/03	 1.800		7.42	15.3		0.30	 7.1/7.3
+10/29/03	10.200		7.44	14.4		0.30	 7.0/7.0
+11/03/03	 2.600		7.26	16.8		0.30	 5.7/5.5		
+11/19/03	 3.800		7.34	14.1		0.40	 6.1/6.3
+12/01/03	 1.500		7.49	 8.1		0.50	 7.4/7.7
+12/17/03	 0.800		7.32	 6.5		0.30	 9.1/9.0
+
+
+14. Other remarks
+
+A) Depth measurements were determined with non-vented pressure transducers and 
+therefore depth data should be considered relative depth. Negative depth values 
+can be due to extremely low water conditions, low-pressure systems, or probes 
+being out of the water.  In the event where probes were clearly out of the 
+water, as verified by specific conductance values, data were deleted.  When 
+specific conductance values did not indicate probe exposure, negative depth 
+values were retained and data was marked as suspect. Significant negative depth 
+values were observed at Sweet Hall Marsh during the months of January through 
+March; data reflects tidal patterns and were retained. 
+
+B) Significant difference in depth between newly deployed and replaced 
+dataloggers were occasionally noted.  Variations in barometric pressure at time 
+of datalogger calibration are responsible, in part, for these observations.
+
+C) Between the time interval 06/10/03 13:30:00 through 08/20/03 10:00:00, a 
+different datalogger cable was used at the Taskinas Creek site.  This resulted 
+in a depth difference of 58 cm shallower than the previous and subsequent 
+deployments.  Because other water quality data are associated with the specific 
+sampling depth, depth data were not adjusted.
+
+D) Significantly elevated single point turbidity values which occured between 
+background values were considered to be a product of sensor interference.  
+Single point turbidity values greater than 200 NTUs for Goodwin Island, Sweet 
+Hall Marsh, and 300 NTUs for Claybank and Taskinas Creek were deleted. Values 
+between 64-199 NTUs for Goodwin Island, 257-299 NTUs for Taskinas Creek, 93-299 
+NTUs for Claybank, 193-199 NTUs for Sweet Hall Marsh were reported as suspect 
+and retained.  These suspect values exceeded 3 standard deviation from mean 
+values based on 2002 site specific data; Goodwin Island: mean = 6, STD = 19; 
+Claybank: mean = 17, STD = 25; Taskinas Creek: mean = 67, STD = 63; Sweet Hall 
+Landing: mean =  48, STD = 48. 
+
+E)  Any time a reference is made to turbidity data being negative and/or zero, 
+it was recorded as a negative in the raw data file and a zero in the edited 
+data 
+file due to the formatting of Excel.  The technician edited none of these data 
+points by hand nor did he/she delete any of them.
+
+F) An extensive algal bloom was observed during the months of March and early 
+April within the York River system.
+
+G)  Water quality within the entire York River estuary, which includes the 
+Goodwin Islands, Clay Bank, Taskinas Creek and Sweet Hall Marsh stations, were 
+significantly impacted by the passage of Hurricane Isabel on September 18, 
+2003.  Short-term impacts (24-48 hrs in duration) from Hurricane Isabel 
+included elevated water depths, turbidity and salinity.  Longer terms impacts 
+(days-weeks), such as lower oxygen levels, were observed in the more tidal 
+freshwater regions of the estuary. 
+
+H) Please note: Time skips can occur due to low batteries, water leakage 
+into the battery compartment, and for no apparent reason.  
+
+
+
+
+
+

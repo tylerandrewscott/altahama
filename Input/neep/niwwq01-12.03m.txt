@@ -1,0 +1,1666 @@
+North Inlet-Winyah Bay (NIW) NERR Water Quality Metadata 
+January - December 2003
+Latest Update:  July 15, 2005
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons
+Wendy Allen, Manager, wallen@belle.baruch.sc.edu	
+Tracy Buck, Research Specialist, tracy@belle.baruch.sc.edu
+Chris Buzzelli, Research Coordinator, cbuzz@belle.baruch.sc.edu
+
+Address:
+	Baruch Marine Laboratory
+	University of South Carolina  
+	PO Box 1630, Georgetown, SC 29442
+	Phone: (843) 546-6219	
+	Baruch Institute home page:  	http://inlet.geol.sc.edu.
+	
+2.  Entry verification
+The .dat and .csv versions of the raw data files were uploaded to a PC from YSI 
+6000 or 6600 dataloggers. Raw data were uploaded and plotted using EcoWatch 
+software. CDMO macros were also used in EXCEL 5.0 to identify anomalous or 
+problem data in the files.  The CDMO cdmomac3.xls macro allows the user to 
+automatically format column widths to the correct number of decimal places based 
+on YSI sensor specifications.  It also allows the user to QA/QC each data logger 
+generated file for missing data points, fill all cells that do not contain data 
+with periods, and find all data points that fall outside the range of what the 
+data logger is designed to measure (i.e. outliers).  The CDMO import.xls macro 
+will allow PC users with 30-minute data to automatically create a monthly Excel 
+file from a two-week deployment and insert periods for missing data, which were 
+later removed for data dissemination purposes and left blank. In addition, in 
+November 1999 a graphing capability was added to this macro allowing users to 
+produce single parameter and missing data point graphs on a monthly basis. 
+
+Comma delimited files are opened in Microsoft EXCEL 5.0 and edited by removing 
+unnecessary headers, footers or spaces and any data which corresponds to the 
+instrument being out of the water for maintenance.  Next, data plots were 
+produced and examined for any anomalies using the CDMO graphing Macro for each 
+variable. Suspect data were evaluated as to being either good or bad based on 
+criteria outlined in the CDMO manual version 4.0.  If the data were determined 
+to be bad, they were deleted from the final edited .txt file and then documented 
+in the metadata.  If it could not be determined whether or not suspect data were 
+bad (as was often the case with turbidity) the data were left in the final 
+edited .txt file and noted in the metadata as anomalous. The dissolved oxygen 
+(DO) and Turbidity (Turb) probes were the most problematic.  In instances where 
+data values increased or decreased in an exponential fashion and or 
+intermittently went outside the accepted range for that instrument and never 
+returned to normal, the data were considered suspect, noted in the metadata, and 
+removed from the final edited data file.  Missing data due to equipment failure 
+or maintenance were replaced with periods(.), which were also later removed for 
+data dissemination purposes and left blank. The date/hour and column reformat 
+macros were then run on the data files before being saved in their final edited 
+form (.txt).  Edited (.txt) and raw (.csv) files were then FTP'd to both the Sun 
+Sparc II and the CDMO server and archived. Tracy Buck edited and archived the 
+2003 data for Thousand Acre, Debidue Creek, Oyster Landing, and Clambank Creek. 
+
+3.  Research Objectives
+The principal objective of this study is to record long-term water quality data 
+for North Inlet/Winyah Bay in order to observe any physical changes or trends in 
+water quality over time.  Four sites were chosen; two to represent our pristine 
+site and the other two to represent impacted sites.  The Oyster Landing site is 
+located near the center of the Reserve and is considered pristine.  The Clambank 
+site is located on a waterway that receives run-off from the undeveloped area of 
+the reserve and is considered a pristine site.  Debidue Creek and Thousand Acre 
+are both located in waterways that receive run-off from heavily developed areas.  
+Measurements were taken every 30 minutes over roughly two week collecting 
+periods at the Oyster Landing, Debidue Creek, Clambank and Thousand Acre sites. 
+
+4.  Research methods (YSI 6000 dataloggers)
+YSI dataloggers are currently mounted in a 4" diameter PVC pipe which is 
+strapped to a treated 2" X 6" board; and then attached via stainless steel bands 
+to a piling at the Thousand Acre, Debidue Creek, Clambank, and Oyster Landing 
+sites.  The PVC pipe that houses the data loggers has two large windows cut out 
+near the bottom for the probes to have direct contact with the water column.  A 
+stop bolt placed through the PVC pipe below the cut out windows keeps the 
+datalogger exactly one foot (30 cm) above the creek bottom.  Every 30 minutes 
+measurements of specific conductivity, salinity, percent saturation, dissolved 
+oxygen, water temperature, pH, turbidity, and water level are recorded.  The 
+two-week sampling interval has been selected due to biofouling of the individual 
+probes and expected battery life.  At the end of each sampling interval, the 
+dataloggers were brought back to the laboratory to be downloaded, cleaned and 
+recalibrated following procedures in YSI Service Manual and the Standard 
+Operating Procedures V3.0 provided by NERR SWMP.  Before the instruments were 
+cleaned and recalibrated a post calibration reading was taken from each 
+instrument in fresh standard to see if any of the instruments exhibited drift 
+(see II-13).  The pH probe was calibrated using a two point method with 7,10 
+standards.  The turbidity probe calibration also used a two-point method using 0 
+& 123 NTU standards.  Specific Conductivity was calibrated using a one-point 
+method and a 10 ms/cm standard that was purchased through YSI, Inc.  The 
+turbidity wiper and DO membrane were changed after each deployment.  After 
+approximately 24 hours of down time for cleaning and overnight relaxing of the 
+DO membrane, the YSI dataloggers were re-deployed.  Sondes are switched out the 
+same day at each site to avoid excessive periods of data loss.
+
+5.  Site location and character
+The North Inlet-Winyah Bay National Estuarine Research Reserve is located on the 
+Southeastern Atlantic coast of the United States in two tidal estuaries, North 
+Inlet and Winyah Bay, near Georgetown, South Carolina.  The North Inlet estuary, 
+located approximately 10 km east of Georgetown, is a bar-built Class C type 
+estuary (Pritchard, 1955).  The North Inlet estuary is composed of numerous 
+winding tidal creeks, and is considered a pristine tidal estuary due to minimal 
+anthropogenic impacts.  The watershed drains a 24.8 km2 area of mostly pine 
+forest and a moderately developed residential watershed to the north.  The 
+Winyah Bay estuary, classified as a Class B type estuary by Pritchard (1955), 
+which originates in the Blue Ridge Mountains of North Carolina, is one of the 
+largest river-estuary ecosystems on the Eastern Seaboard.  It is located 14.4 km 
+south of North Inlet.  Winyah Bay drains the sub-basins of 6 major rivers, which 
+are heavily impacted by agriculture, mining, and industry.  The rivers drain 
+approximately 46,736 km2 of uplands and marshes.  Descriptions of the three 
+sampling stations are as follows:
+
+A) Thousand Acre (TA) - (lat. 33:17:57; long. 79:15:36) The Thousand Acre 
+monitoring site is located in Thousand Acre marsh tidal creek and is on the NW 
+corner of the west bridge of Thousand Acre marsh (this site was relocated 07-19-
+99 to the current location due to heavy siltation and degrading data quality).  
+The present site is about 15m from the mouth of the creek.  At the sampling 
+site, creek depth is approximately 2 m MHW and creek width is approximately 10 
+m.  The creek empties into the northeastern side of the mid portion of Winyah 
+Bay and directly drains pine forested upland and wetlands. Salinity ranges from 
+0 to 15 ppt. and tidal range is approximately 1m.  The bottom is mostly composed 
+of fine sediments and detritus.  Georgetown, 5 km upstream from the Thousand 
+Acre site and on the southern side of Winyah Bay, is the homeport for a number 
+of heavy industries including a steel plant, paper mill, chemical plant, and a 
+coal fired power plant.  A public sewage treatment plant, which discharges into 
+the bay, is also located in Georgetown.
+
+B) Oyster Landing (OL) - (lat.  33:20:58; long.  79:11:34). The Oyster Landing 
+monitoring site is considered a fairly pristine and undisturbed area located at 
+the end of the Oyster Landing pier which is also where the NI-WB Bay NERR 
+weather station site is located.  The pier stretches into the upper reaches of 
+Crabhaul Creek in the mid western portion of North Inlet.  The sampling site is 
+located approximately 2.8 km from the headwaters of Crabhaul Creek.  The creek 
+directly drains pine-forested uplands and wetlands.  Salinity can range from 0-
+32 ppt. and average tidal range is approximately 1.44m.  The creek has an average 
+depth of ~2 m MHW and average width of ~150m MHW.  The bottom mostly is 
+comprised of oyster shell hash with some fine sediment and detritus.
+
+C) Debidue Creek (DC) - (lat 33:21:37, long 79:10:05). The Debidue Creek 
+monitoring site is considered an impacted site that is located approximately 1 
+km south of the Debidue Colony.  The Colony is a large development built on man-
+made canals that directly drain into the northern portion of Debidue Creek.  The 
+DC site is also located in an ocean-dominated Spartina marsh that was formerly 
+surrounded by pine-dominated uplands.  Salinity can range from 0 to full 
+strength seawater and an average tidal range of approximately 2 meters.  The 
+approximate depth and width at MHW at the site is 2.2 and 70 m respectively.  
+The bottom is mostly comprised of oyster shell hash with some fine sediment and 
+detritus.
+
+D) Clambank Creek (CB) - (lat 33:20:02, long 79:11:34).  The Clambank Creek 
+monitoring site is located roughly in the center of the reserve property.  This 
+site is surrounded by a Spartina marsh and drains associated uplands.  Salinity 
+ranged from 0.4 to full strength seawater (from August through December 2001) 
+and an average tidal range of approximately 1.4 meters. At the sampling site, 
+the depth and width at MHW are 2.4m and 40m respectively.  The average depth of 
+the creek is 2.0m at MHW. The bottom is mostly comprised of oyster shell hash 
+and some fine sediment.  This site is considered a pristine site and is 
+influenced by its close proximity to North Inlet.  
+
+6.  Data collection period
+Thousand Acre data collection began January 1, 1995.  Debidue Creek sampling 
+began March 5, 1998. Oyster Landing data collection began in 1995; however, it 
+was not considered a SWMP site until 1996 when the collection site was switched 
+from Caledonia to Oyster Landing. Clambank sampling began in February 1981 
+through June 1995; however, it was not considered a SWMP site until sampling 
+resumed in August of 2001 (08/17).  All sampling is ongoing.
+
+Deployment dates and times (in Eastern Standard Time) for 2002 follow:
+
+BEGAN					ENDED
+Site: Debidue Creek
+12/20/02,	10:00:00,	01/07/03,	11:30:00
+01/08/03,	12:30:00,	01/22/03,	10:30:00
+01/22/03,	11:00:00,	02/11/03,	15:30:00
+02/11/03,	16:00:00,	03/10/03,	13:00:00
+03/10/03,	13:30:00,	03/27/03,	14:00:00
+03/27/03,	14:30:00,	04/16/03,	08:30:00
+04/16/03,	09:00:00,	04/23/03,	13:30:00
+04/23/03,	14:00:00,	05/07/03,	11:00:00
+05/07/03,	11:30:00,	05/20/03,	10:30:00
+05/20/03,	11:00:00,	06/03/03,	10:00:00
+06/03/03,	10:30:00,	06/20/03,	12:30:00
+06/20/03,	13:00:00,	07/07/03,	13:30:00
+07/07/03,	14:00:00,	07/30/03,	09:00:00
+07/30/03,	09:30:00,	08/15/03,	10:30:00
+08/15/03,	11:30:00,	09/29/03,	10:30:00
+09/29/03, 	11:00:00,	10/20/03,	09:00:00
+10/20/03,	10:00:00,	11/03/03,	14:30:00
+11/03/03,	15:00:00,	11/17/03,	14:00:00
+11/17/03,	14:30:00,	12/01/03,	14:30:00
+12/01/03,	15:00:00,	12/15/03,	13:00:00
+12/15/03,	13:30:00,	01/07/04,	10:00:00	
+
+Site: Oyster Landing
+12/20/02,	10:30:00,	01/07/03,	12:00:00
+01/08/03,	11:30:00,	01/23/03,	09:30:00
+01/23/03,	14:00:00,	02/11/03,	15:00:00
+02/11/03,	15:30:00,	03/10/03,	13:30:00
+03/10/03,	14:00:00,	03/26/03,	11:30:00
+03/26/03,	12:00:00,	04/08/03,	09:30:00
+04/08/03,	10:00:00,	04/23/03,	09:30:00
+04/23/03,	10:00:00,	05/07/03,	13:30:00
+05/07/03,	14:00:00,	05/21/03,	12:30:00
+05/21/03,	13:00:00,	06/04/03,	09:30:00
+06/04/03,	10:00:00,	06/20/03,	09:30:00
+06/20/03,	10:00:00,	06/26/03,	14:30:00
+06/26/03,	15:00:00,	07/08/03,	09:00:00
+07/08/03,	09:30:00,	07/21/03,	13:00:00
+07/21/03,	13:30:00,	08/15/03,	11:00:00
+08/15/03,	11:30:00,	09/26/03,	08:30:00
+09/26/03,	09:00:00,	10/15/03,	08:30:00
+10/15/03,	09:00:00,	11/04/03,	11:00:00
+11/04/03,	11:30:00,	11/06/03,	12:00:00
+11/06/03,	12:30:00,	11/17/03,	14:30:00
+11/17/03,	15:00:00,	12/01/03,	14:30:00
+12/01/03,	15:00:00,	12/15/03,	13:30:00
+12/15/03,	14:00:00,	01/07/04,	13:00:00
+
+Site: Thousand Acre
+12/10/02,	10:30:00,	01/09/03,	10:00:00
+01/09/03,	13:00:00,	01/22/03,	13:30:00
+01/22/03,	14:00:00,	02/13/03,	13:00:00
+02/13/03,	13:30:00,	03/04/03,	10:00:00
+03/04/03,	10:30:00,	03/27/03,	14:30:00
+03/27/03,	15:00:00,	04/07/03,	10:30:00
+04/07/03,	11:00:00,	04/22/03,	13:00:00
+04/22/03,	13:30:00,	05/08/03,	12:30:00
+04/22/03,	13:30:00,	05/08/03,	12:30:00
+05/08/03,	13:00:00,	05/21/03,	13:30:00
+05/21/03,	14:00:00,	06/02/03,	13:00:00
+06/02/03,	13:30:00,	06/19/03,	10:00:00
+06/19/03,	10:30:00,	07/02/03,	13:00:00
+07/02/03,	13:30:00,	07/31/03,	09:00:00
+07/31/03,	09:30:00,	08/19/03,	11:30:00
+08/19/03,	12:00:00,	09/29/03,	14:00:00
+09/29/03,	14:30:00,	10/01/03,	10:00:00
+10/01/03,	11:00:00,	10/15/03,	09:30:00
+10/15/03,	10:30:00,	10/31/03,	11:00:00
+10/31/03,	11:30:00,	11/18/03,	14:00:00
+11/18/03,	14:30:00,	12/02/03,	12:00:00
+12/02/03,	12:30:00,	12/16/03,	13:00:00
+12/16/03,	13:30:00,	01/06/04,	11:30:00
+
+Site: Clambank Creek
+12/10/02,	10:00:00,	01/09/03,	10:00:00
+01/09/03,	12:30:00,	01/24/03,	14:00:00
+01/24/03,	14:30:00,	02/13/03,	12:30:00
+02/13/03,	13:00:00,	03/04/03,	09:30:00
+03/04/03,	10:00:00,	03/26/03,	10:30:00
+03/26/03,	11:00:00,	04/07/03,	11:30:00
+04/07/03,	12:00:00,	04/22/03,	12:00:00
+04/22/03,	13:00:00,	05/08/03,	09:30:00
+05/08/03,	10:00:00,	05/20/03,	09:00:00
+05/20/03,	09:30:00,	06/02/03,	12:30:00
+06/02/03,	13:00:00,	06/19/03,	14:00:00
+06/19/03,	14:30:00,	07/01/03,	08:30:00
+07/01/03,	09:00:00,	07/29/03,	13:30:00
+07/29/03,	14:00:00,	08/19/03,	10:30:00
+08/19/03,	11:00:00,	09/26/03,	09:00:00
+09/26/03,	09:30:00,	10/16/03,	14:00:00
+10/16/03,	14:30:00,	10/31/03,	10:30:00
+10/31/03,	11:00:00,	11/18/03,	13:30:00
+11/18/03,	14:00:00,	12/02/03,	11:00:00
+12/02/03,	11:30:00,	12/16/03,	12:30:00
+12/16/03,	13:00:00,	01/06/04,	11:00:00
+
+7. Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance/quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient of third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on CDMO homepage) and online at the CDMO homepage  
+http://cdmo.baruch.sc.edu.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+8.  Associated researchers and projects
+A water chemistry program is associated with the NIW core-monitoring program. 
+Variables sampled include: chlorophyll, dissolved organic carbon, nitrate-
+nitrite, orthophosphate, and ammonia.  (See documentation on the NIW WWW home 
+page for further details).  Thousand Acre is our permanent monitoring station 
+for the NERR monitoring program, but Oyster Landing and Debidue Creek were also 
+sampled beginning in 1998. These stations are also included in our NIW core-
+monitoring program.
+
+A long-term fish survey is also done at the Oyster Landing site bi-weekly.  
+Species present, total weight, individual weights and standard lengths of fish 
+that utilize the marsh at high tide are recorded.  In the winter months 
+(November through February), this sampling is done only once monthly.
+
+The NERR weather station is also located at the Oyster Landing site.  Air 
+temperature and humidity, barometric pressure, solar radiation (total and PAR), 
+wind speed and direction, and precipitation are measured.
+
+II.  Physical Structure Descriptors
+
+9.  Variable sequence, column format, range of measurements, units, resolution, 
+and accuracy 
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+10.  Coded variable indicator and variable code definitions
+Site definitions: OL = Oyster Landing; TA = Thousand Acre, DC = Debidue Creek, 
+CB =Clambank Creek
+
+11.  Data anomalies (suspect data)
+
+Any time a reference is made to turbidity data being negative and/or zero, it 
+was recorded as a negative in the raw data file and a zero in the edited data 
+file due to the formatting of Excel. The technician edited none of these data 
+points by hand nor did he/she delete any of them. 
+
+JANUARY 2003
+
+DEBIDUE CREEK
+
+a).  For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+01/07/03 12:00 through 01/08/03 12:00
+
+b).  For the following dates and times, turbidity data are missing due to the 
+turbidity sensor being out for repair:
+
+01/01/03 00:00 through 01/07/03 11:30
+   
+OYSTER LANDING
+
+a).  For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+01/07/03 12:30 through 01/08/03 11:00
+01/23/03 10:00 through 01/23/03 13:30
+
+b).  For the following dates and times, data are missing because the sonde was 
+pulled to check for water in the battery department because the sonde was 
+displaying anomalous data on the real-time display. The sonde was retrieved at 
+15:36 for maintenance and redeployed at 16:18, missing the 16:00 reading:
+01/31/03 16:00
+
+c).  For the following dates and times, turbidity data are missing due to the 
+turbidity sensor being out for repair:
+
+01/01/03 00:00 through 01/07/03 12:00
+
+d).  For the following date and time the datalogger recorded negative depth 
+data. However, specific conductivity and salinity sensor readings suggest that 
+the datalogger was not out of the water, so suspect that the negative value 
+indicates shallow depth and is simply due to a slight calibration error.  Data 
+were retained.
+
+01/20/2003	16:00:00 through 16:30:00
+01/21/2003	04:00:00 through 04:30:00
+01/21/2003	17:00:00
+
+THOUSAND ACRE
+
+a).  For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+01/09/03 10:30 through 01/09/03 12:30
+
+b).  For the following dates and times, turbidity data are missing due to the 
+turbidity sensor being out for repair:
+
+01/09/03 13:00 through 01/22/03 13:30
+
+c).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect intermittent fouling episodes obscuring optics.  Data were retained.
+
+01/30/2003	05:00:00
+01/30/2003	07:30:00 through 01/30/2003 08:00:00
+
+d).  For the following dates and times, dissolved oxygen data (% and mg/l) 
+dropped dramatically.  This drop was concurrent with a spike in turbidity, so 
+suspect a fouling event during this period.  Data were retained but should be 
+considered suspect.
+
+01/29/03 17:30 through 01/30/03 08:30
+01/30/03 13:00 through 01/31/03 23:30
+
+CLAMBANK CREEK
+
+a).  For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+01/09/03 10:30 through 01/09/03 12:00
+
+b).  For the following dates and times, turbidity data are missing due to the 
+turbidity sensor being out for repair:
+
+01/01/03 00:00:00 through 01/24/03 14:30
+
+c).  For the following dates and times the datalogger recorded negative and/or 
+zero depth data. However, specific conductivity and salinity sensor readings 
+suggest that the datalogger was not out of the water, so suspect that negative 
+and/or zero values indicate shallow depth and are simply due to a slight 
+calibration error.  Data were retained.
+
+01/02/2003	01:00:00 through 01/02/2003 01:30:00
+01/20/2003	03:00:00 through 01/20/2003 03:30:00
+01/20/2003	15:30:00 through 01/20/2003 16:00:00
+01/21/2003	03:30:00 through 01/21/2003 04:30:00
+01/21/2003	16:30:00
+
+
+FEBRUARY 2003
+
+DEBIDUE CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+  
+OYSTER LANDING
+
+a).  For the following date and time the datalogger recorded negative depth 
+data. However, specific conductivity and salinity sensor readings suggest that 
+the datalogger was not out of the water, so suspect that the negative value 
+indicates shallow depth and is simply due to a slight calibration error.  Data 
+were retained.
+
+02/04/2003	17:00:00
+
+b).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect an object passing in front of optics during the time of sampling.  Data 
+were retained.
+
+02/26/2003	15:30:00
+02/28/2003	12:00:00
+
+THOUSAND ACRE
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect a large fouling event that obscured the turbidity probe's optics. All 
+data were retained but should be considered suspect during this period.
+02/03/2003	22:00:00
+02/04/2003	08:00:00
+02/04/2003	09:30:00 through 02/04/2003 10:00:00
+02/04/2003	11:00:00 through 02/04/2003 13:30:00
+02/04/2003	14:30:00
+02/04/2003	15:30:00 through 02/04/2003 19:30:00
+02/04/2003	20:30:00 through 02/05/2003 03:30:00
+02/05/2003	04:30:00 through 02/05/2003 09:00:00
+02/05/2003	10:00:00 through 02/05/2003 13:00:00
+02/05/2003	14:00:00
+02/06/2003	09:00:00
+02/06/2003	10:00:00
+02/06/2003	11:00:00
+02/06/2003	13:00:00
+02/07/2003	11:00:00 through 02/07/2003 13:00:00
+02/07/2003	14:00:00 through 02/07/2003 21:00:00
+02/09/2003	01:00:00
+02/09/2003	02:30:00
+02/09/2003	03:30:00
+02/11/2003	02:00:00 through 02/11/2003 04:00:00
+02/11/2003	05:00:00 
+02/11/2003	06:30:00
+02/11/2003	07:30:00
+02/11/2003	09:30:00
+02/11/2003	10:00:00
+02/11/2003	11:00:00
+02/11/2003	12:00:00 through 02/11/2003 13:30:00
+02/11/2003	14:30:00 through 02/11/2003 18:00:00
+02/12/2003	19:00:00
+02/13/2003	04:00:00 
+02/13/2003	05:30:00
+
+b). It is suspected that this same fouling event that affected turbidity also 
+prevented adequate flow of water over the sonde's remaining probes resulting in 
+a reduction in dissolved oxygen concentrations, reduced ph, and reduced 
+salinity.  However, post deployment calibration checks for all probes were 
+perfect (see section 13), which indicates probes were working properly. All data 
+were retained but should be considered suspect during this period.
+
+02/01/2003 00:00:00 through 02/13/2003 13:00:00
+
+
+CLAMBANK CREEK
+
+a).  For the following date and time the datalogger recorded negative and/or 
+zero depth data. However, specific conductivity and salinity sensor readings 
+suggest that the datalogger was not out of the water, so suspect that the 
+negative and/or zero values indicates shallow depth and is simply due to a 
+slight calibration error.  Data were retained.
+
+02/04/2003	16:30:00 through 17:00:00
+
+
+MARCH 2003
+
+DEBIDUE CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+OYSTER LANDING
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+These spikes began after rain events in late February/early March, and occurred 
+up to but not after the sonde was switched out on 3/10/03.  Suspect that a 
+fouling event due to rainfall may have interfered with the wiper in such a way 
+that it intermittently parked over optics, or debris stuck on the wiper obscured 
+the optics.  Spikes greater than 1000 NTU were deleted during this period.
+
+03/03/2003	00:30:00
+03/03/2003  01:00:00
+03/03/2003	04:00:00
+03/03/2003	07:00:00
+03/03/2003	15:00:00
+03/03/2003	19:00:00
+03/03/2003	20:30:00
+03/04/2003	08:00:00
+03/04/2003	17:00:00
+03/05/2003	02:00:00
+03/05/2003	10:30:00
+03/05/2003	11:30:00
+03/05/2003	13:30:00
+03/05/2003	15:00:00
+03/05/2003	18:00:00
+03/05/2003	19:30:00
+03/05/2003	22:30:00
+03/06/2003	02:00:00
+03/06/2003	04:00:00
+03/06/2003	05:30:00
+03/06/2003	07:00:00
+03/06/2003	09:00:00
+03/06/2003	10:30:00
+03/06/2003	11:30:00
+03/06/2003	14:00:00
+03/06/2003	22:00:00
+03/07/2003	03:30:00
+03/07/2003	05:00:00
+03/07/2003	06:30:00
+03/07/2003	09:00:00
+03/07/2003	10:30:00 through 03/07/2003 11:00:00
+03/07/2003	14:30:00
+03/07/2003	17:00:00
+03/07/2003	18:30:00
+03/07/2003	20:00:00
+03/08/2003	11:00:00
+03/08/2003	15:30:00
+03/08/2003	18:30:00
+03/08/2003	21:00:00
+03/08/2003	22:30:00
+03/09/2003	00:00:00
+03/09/2003	02:30:00
+03/09/2003	05:00:00
+03/09/2003	06:30:00
+03/09/2003	08:00:00
+03/09/2003	10:00:00
+03/09/2003	12:00:00
+03/09/2003	13:30:00
+03/09/2003	16:30:00
+03/09/2003	18:00:00
+03/09/2003	19:30:00
+03/09/2003	21:00:00
+03/09/2003	22:30:00
+03/10/2003	01:30:00
+03/10/2003	04:00:00
+03/10/2003	06:00:00
+03/10/2003	07:30:00
+03/10/2003	10:00:00
+03/10/2003	11:30:00
+03/10/2003	13:00:00
+  
+THOUSAND ACRE
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect a fouling event obscuring optics due to a rain event on 03/19/03.  Data 
+were retained but should be considered suspect.
+
+03/20/2003	16:30:00 through 03/20/2003 18:30:00
+03/21/2003	03:30:00
+03/21/2003	04:30:00 through 03/21/2003 07:30:00
+
+b).  For the following dates and time, dissolved oxygen data (% & mg/l) dropped 
+dramatically, most likely due to a fouling event (see comment a. above).  Data 
+should be considered suspect during these times.
+
+03/20/03 20:00:00
+03/21/03 09:00:00
+
+CLAMBANK CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+
+APRIL 2003
+
+DEBIDUE CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+OYSTER LANDING
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+THOUSAND ACRE
+
+a).  For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+04/07/03 11:00:00
+
+b).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+04/07/03 07:30:00
+
+CLAMBANK CREEK
+
+a).  	For the following dates and times, data are missing due to sonde being out 
+of the water for maintenance:
+
+04/22/03 12:30:00
+
+
+MAY 2003
+
+DEBIDUE CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+OYSTER LANDING
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+THOUSAND ACRE
+
+a).  For the following dates and times, all data are missing for Thousand Acre 
+Creek.  The battery terminal came loose during transport to the site for 
+deployment on 5/21/2003, preventing data from being recorded during this 
+deployment.  This malfunction was not discovered until the scheduled retrieval 
+on 6/2/2003.
+
+05/21/2003 14:00:00 through 05/31/2003 23:30:00
+
+b).  For the following date and time, turbidity data were greater than 1000.  
+This turbidity spike followed a 2-day rain event (5/15-16/2003 0.57" rain), so 
+it is most likely due to particulate-laden runoff.  Data were retained. 
+
+05/16/2003 15:00:00
+
+CLAMBANK CREEK
+
+a).  For the following dates and times, it appears that the sonde did not settle 
+to the bottom of the PVC tube during the first 4 hours of deployment.  Data were 
+retained but the user should be made aware that these readings are not from the 
+typical deployment depth for this site.
+
+05/20/2003 09:00:00 through 12:00:00
+
+
+JUNE 2003
+
+DEBIDUE CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+OYSTER LANDING
+
+a).  For the following dates and times, all data are missing from Oyster Landing 
+due to a YSI malfunction during deployment.  
+
+06/20/03 10:00 through 06/26/03 14:30
+
+b).  For the following dates and times, dissolved oxygen data were deleted from 
+Oyster Landing due to a tear in the membrane.
+
+06/16/03 00:30 through 06/20/03 09:30
+
+THOUSAND ACRE
+
+a).  For the following dates and times, all data are missing from Thousand Acre 
+Creek due to a sonde malfunction.  
+
+06/01/03 00:00 through 06/02/03 13:00
+
+CLAMBANK CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+
+JULY 2003
+
+DEBIDUE CREEK
+
+a).  For the following dates and times, dissolved oxygen data were deleted from 
+Debidue Creek due to a tear in the membrane.
+
+07/10/03 13:00 through 07/30/03 09:00
+
+b).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+07/06/03 01:30
+
+OYSTER LANDING
+
+a).  For the following dates and times, salinity and conductivity data are 
+missing due to a probe malfunction during deployment.
+
+07/19/03 14:30 through 07/21/03 13:00
+
+b).  For the following dates and time, dissolved oxygen (mg/l) and depth data 
+were deleted due to failure of the conductivity probe during deployment.  These 
+data are calculated based in-part on conductivity measurements, so these data 
+are considered unreliable during failure of the conductivity probe.
+
+07/19/03 14:30 through 07/21/03 13:00
+
+c).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect the wiper was jamming over the optics during sampling due to excessive 
+fouling on the probe.  Data were deleted.
+
+07/19/2003	05:30:00
+07/19/2003	08:30:00
+07/19/2003	15:00:00
+07/19/2003	16:00:00
+07/19/2003	17:30:00 through 07/19/2003 18:00:00
+07/19/2003	19:30:00
+07/19/2003	21:30:00
+07/19/2003	23:30:00
+07/20/2003	03:00:00 through 07/20/2003 03:30:00
+07/20/2003	05:00:00
+07/20/2003	06:30:00
+07/20/2003	08:00:00
+07/20/2003	09:30:00
+07/20/2003	11:30:00
+07/20/2003	13:30:00 through 07/20/2003 14:30:00
+07/20/2003	16:30:00 through 07/20/2003 17:00:00
+07/20/2003	19:30:00 through 07/20/2003 20:00:00
+07/20/2003	22:00:00 through 07/20/2003 22:30:00
+07/21/2003	00:30:00 through 07/21/2003 01:00:00
+07/21/2003	02:00:00
+07/21/2003	03:30:00 through 07/21/2003 04:00:00
+07/21/2003	06:00:00
+07/21/2003	08:00:00
+07/21/2003	10:30:00
+
+THOUSAND ACRE
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect heavily fouled water passing over optics due to runoff from a tropical 
+depression.  Data were retained, but should be considered suspect.
+
+07/27/2003 16:00:00 through 07/27/2003 17:30:00
+07/27/2003 18:30:00 through 07/27/2003 19:00:00
+07/27/2003 20:00:00
+07/27/2003 21:00:00 through 07/27/2003 21:30:00
+
+CLAMBANK CREEK
+a). Dissolved oxygen data should be considered suspect due to excessive fouling 
+for deployment 07/29/2003 14:00 through 08/19/2003 10:30. Data were retained. 
+
+b). pH data for deployment 07/29/2003 14:00 through 08/19/2003 10:30 should be 
+considered suspect due to drift caused by fouling of the membranes. 
+
+AUGUST 2003
+
+DEBIDUE CREEK
+
+a).  For the following date and time, data are missing due to the exchanging of 
+sondes during a sampling interval.
+
+08/15/03 11:00
+
+b).  For the following dates and times, all pH data are missing due to a 
+malfunctioning pH probe.
+
+08/15/03 11:30 through 08/31/03 23:30
+
+c).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+08/08/03 21:00
+
+d).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect the wiper was jamming over the optics during sampling.  Data were 
+deleted.
+
+08/21/2003	23:00:00
+08/22/2003	00:00:00
+08/22/2003	02:30:00
+08/22/2003	03:30:00
+08/22/2003	12:30:00
+08/22/2003	14:00:00 through 08/22/2003 14:30:00
+08/22/2003	20:00:00 through 08/22/2003 20:30:00
+08/22/2003	23:00:00
+08/23/2003	01:30:00
+08/23/2003	03:30:00
+08/23/2003	08:30:00
+08/23/2003	10:30:00
+08/23/2003	12:00:00
+08/23/2003	23:30:00
+08/24/2003	05:30:00
+08/24/2003	06:30:00
+08/24/2003	11:00:00
+08/24/2003	13:30:00 through 08/24/2003 14:00:00
+08/24/2003	17:30:00
+08/24/2003	18:30:00
+08/24/2003	20:30:00
+08/25/2003	07:30:00
+08/25/2003	08:30:00
+08/25/2003	09:30:00
+08/25/2003	11:30:00
+08/25/2003	12:30:00
+08/25/2003	16:30:00
+08/25/2003	18:00:00
+08/26/2003	14:00:00
+08/26/2003	15:30:00
+08/26/2003	21:30:00
+08/27/2003	06:30:00
+08/27/2003	07:30:00
+08/27/2003	08:00:00
+08/27/2003	09:30:00
+08/28/2003	04:00:00
+08/28/2003	08:00:00
+08/28/2003	16:00:00
+08/29/2003	10:30:00
+08/29/2003	12:00:00
+
+OYSTER LANDING
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+THOUSAND ACRE
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+08/17/2003 01:30:00
+08/17/2003 10:00:00 through 08/17/2003 10:30:00
+08/17/2003 12:30:00
+
+CLAMBANK CREEK
+
+a).  For the following dates and times, turbidity data were deleted due to heavy 
+fouling of probes. 
+
+08/03/2003	17:30:00 through 08/19/2003 10:30:00
+
+b). Dissolved oxygen data should be considered suspect due to excessive fouling 
+for deployment 07/29/2003 14:00 through 08/19/2003 10:30. Data were retained. 
+
+c). pH data for deployment 07/29/2003 14:00 through 08/19/2003 10:30 should be 
+considered suspect due to drift caused by fouling of the membranes. 
+
+
+SEPTEMBER 2003
+
+DEBIDUE CREEK
+a).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  This was most 
+likely due to runoff from a rain event.  Data were retained but should be 
+considered suspect.
+
+09/03/2003 18:30:00
+
+b).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect the wiper was jamming over the optics during sampling due to excessive 
+fouling on the probe.  Data were deleted.
+
+09/13/2003	21:30:00 through 09/13/2003 22:30:00
+09/14/2003	00:00:00 through 09/14/2003 01:30:00
+09/14/2003	03:00:00
+09/14/2003	04:00:00
+09/14/2003	05:00:00
+09/14/2003	07:00:00
+09/14/2003	09:00:00
+09/14/2003	10:00:00 through 09/14/2003 10:30:00
+09/14/2003	11:30:00
+09/14/2003	13:00:00 through 09/14/2003 13:30:00
+09/15/2003	00:00:00
+09/15/2003	10:00:00 through 09/15/2003 12:30:00
+09/15/2003	18:00:00
+09/15/2003	21:30:00
+09/16/2003	17:30:00
+09/16/2003	19:30:00
+09/17/2003	08:30:00
+09/17/2003	10:00:00
+09/17/2003	11:00:00 through 09/17/2003 11:30:00
+09/17/2003	13:00:00
+09/17/2003	14:00:00
+09/17/2003	15:00:00
+09/18/2003	07:00:00 through 09/18/2003 07:30:00
+09/18/2003	08:30:00
+09/18/2003	12:00:00
+09/18/2003	13:00:00
+09/18/2003	14:30:00
+09/18/2003	16:30:00
+09/18/2003	18:00:00 through 09/18/2003 18:30:00
+09/18/2003	21:00:00
+09/18/2003	23:30:00
+09/19/2003	00:30:00
+09/19/2003	04:30:00
+09/19/2003	05:30:00
+09/19/2003	06:30:00
+09/19/2003	07:30:00
+09/19/2003	08:30:00
+09/19/2003	09:30:00
+09/19/2003	10:30:00
+09/19/2003	11:30:00
+09/19/2003	13:30:00 through 09/19/2003 15:00:00
+09/19/2003	16:00:00
+09/20/2003	08:30:00 through 09/20/2003 09:00:00
+09/20/2003	10:30:00
+09/20/2003	11:00:00
+09/21/2003	09:30:00
+09/21/2003	18:00:00
+09/22/2003	02:30:00
+09/22/2003	09:30:00
+09/22/2003	11:30:00
+09/22/2003	13:30:00
+09/22/2003	15:00:00
+09/22/2003	18:00:00
+09/22/2003	22:00:00
+09/22/2003	23:30:00 through 09/23/2003 00:00:00
+09/23/2003	04:00:00
+09/23/2003	09:30:00
+09/23/2003	15:30:00
+09/23/2003	17:30:00
+09/23/2003	18:30:00
+09/23/2003	21:30:00
+09/23/2003	23:00:00
+09/24/2003	00:30:00
+09/24/2003	01:30:00
+09/24/2003	02:00:00
+09/24/2003	03:00:00
+09/24/2003	04:30:00
+09/24/2003	13:00:00
+09/24/2003	14:30:00
+09/24/2003	16:30:00
+09/24/2003	18:00:00
+09/24/2003	19:30:00
+09/24/2003	21:00:00
+09/24/2003	22:30:00
+09/25/2003	01:30:00
+09/25/2003	08:30:00
+09/25/2003	12:30:00
+09/25/2003	13:30:00
+09/25/2003	14:30:00
+09/25/2003	19:30:00
+09/27/2003	07:30:00
+09/28/2003	04:00:00
+09/28/2003	05:30:00
+09/28/2003	08:30:00
+09/29/2003	02:00:00
+09/29/2003	03:30:00
+09/29/2003	04:30:00
+
+c).  For the following dates and times, pH data are missing due to the probe 
+breaking prior to deployment.
+
+09/01/2003 00:00:00 through 09/29/2003 10:30:00
+
+OYSTER LANDING
+
+a).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+09/17/03 06:30
+
+THOUSAND ACRE 
+
+a).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+09/27/03 15:00
+
+CLAMBANK CREEK
+
+a).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  This was during 
+a high period of turbidity due to a storm event.  Data were retained but should 
+be considered suspect.
+
+09/20/2003 08:00:00
+
+b).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect the wiper was jamming over the optics during sampling due to excessive 
+fouling on the probe.  Data were deleted.
+
+09/25/2003 00:30:00
+09/25/2003 05:30:00
+09/25/2003 06:30:00
+09/25/2003 17:00:00
+09/25/2003 20:00:00
+09/26/2003 03:00:00
+09/26/2003 04:00:00
+
+c).  For the following dates and times, dissolved oxygen data are suspect due to 
+increasing fouling on the membrane during the deployment. Data were retained. 
+09/11/2003 03:00 through 09/23/2003 12:30
+
+d).  For the following dates and times, dissolved oxygen data were deleted from 
+Oyster Landing due to a suspected tear in the membrane toward the end of the 
+deployment.
+
+09/23/2003 13:00 through 09/26/2003 09:00
+
+
+OCTOBER 2003
+
+DEBIDUE CREEK
+
+a).  For the following date and time, all data are missing due to the sonde 
+being out of the water for maintenance.
+
+10/20/2003 09:30
+
+b).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect the wiper was intermittently parking over the optics during sampling.  
+All data >1000 NTU were deleted.
+
+10/23/2003	08:00:00
+10/25/2003	13:00:00
+10/26/2003	14:30:00
+10/27/2003	06:30:00
+10/27/2003	08:30:00
+10/27/2003	11:00:00
+10/27/2003	12:00:00
+10/28/2003	13:30:00
+10/31/2003	02:30:00
+10/31/2003	10:30:00
+10/31/2003	21:30:00
+
+OYSTER LANDING
+
+a).  For the following date and time the sonde was deployed at a shallower depth 
+than normal while maintenance was performed at the sonde site.  Data were 
+retained but the user should be made aware that these readings are not from the 
+typical deployment depth for this site.
+
+10/15/2003 08:30
+
+b).  For the following dates and times, pH data are missing due to a probe 
+malfunction during deployment. 
+
+10/15/2003 09:00 through 10/31/2003 23:30
+
+THOUSAND ACRE 
+
+a).  For the following dates and times, data are missing due to sonde 
+maintenance. 
+
+10/01/2003 10:30
+10/15/2003 10:00
+
+b).  For the following dates and time, turbidity data were greater than 1000.  
+Suspect the wiper was intermittently parking over the optics during sampling.  
+All data >1000 NTU were deleted.
+
+10/01/2003	12:00:00
+10/01/2003	14:30:00
+10/01/2003	16:30:00
+10/01/2003	17:00:00 through 10/01/2003 17:30:00
+10/01/2003	19:00:00
+10/01/2003	20:30:00
+10/01/2003	22:00:00 through 10/01/2003 23:30:00
+10/02/2003	01:00:00 through 10/02/2003 03:00:00
+10/02/2003	04:30:00 through 10/02/2003 05:00:00
+10/02/2003	12:00:00 through 10/02/2003 14:00:00
+10/02/2003	15:30:00 through 10/02/2003 17:00:00
+10/02/2003	18:30:00 through 10/02/2003 19:30:00
+10/02/2003	21:00:00
+10/02/2003	22:30:00
+10/03/2003	01:30:00 through 10/03/2003 02:30:00
+10/03/2003	04:00:00
+10/03/2003	05:30:00 through 10/03/2003 06:30:00
+10/03/2003	12:00:00 through 10/03/2003 12:30:00
+10/03/2003	14:00:00 through 10/03/2003 17:30:00
+10/03/2003	19:00:00
+10/03/2003	20:30:00
+10/03/2003	21:00:00
+10/04/2003	02:30:00 through 10/04/2003 03:00:00
+10/04/2003	04:30:00 through 10/04/2003 05:30:00
+10/04/2003	07:00:00
+10/04/2003	14:00:00
+10/04/2003	15:00:00 through 10/04/2003 20:30:00
+10/04/2003	21:30:00 through 10/04/2003 22:00:00
+10/04/2003	23:30:00
+10/05/2003	01:00:00 through 10/05/2003 03:00:00
+10/05/2003	05:00:00 through 10/05/2003 06:00:00
+10/05/2003	07:00:00
+10/05/2003	08:30:00
+10/05/2003	11:00:00
+10/05/2003	12:30:00
+10/05/2003	14:30:00 through 10/05/2003 15:00:00
+10/05/2003	16:00:00 through 10/05/2003 21:00:00
+10/05/2003	23:00:00 through 10/05/2003 23:30:00
+10/06/2003	01:30:00
+10/06/2003	03:00:00 through 10/06/2003 05:00:00
+10/06/2003	06:00:00 through 10/06/2003 07:30:00
+10/06/2003	09:30:00 through 10/06/2003 10:00:00
+10/06/2003	12:00:00 through 10/06/2003 13:00:00
+10/06/2003	14:30:00 through 10/06/2003 15:00:00
+10/06/2003	18:00:00 through 10/06/2003 20:30:00
+10/06/2003	21:30:00 through 10/06/2003 23:00:00
+10/07/2003	01:00:00 through 10/07/2003 01:30:00
+10/07/2003	03:00:00 through 10/07/2003 09:30:00
+10/07/2003	14:00:00 through 10/07/2003 16:30:00
+10/07/2003	17:30:00 through 10/08/2003 02:00:00
+10/08/2003	03:30:00 through 10/08/2003 06:30:00
+10/08/2003	07:30:00 through 10/08/2003 17:00:00
+10/08/2003	18:00:00 through 10/08/2003 23:00:00
+10/09/2003	00:30:00 
+10/09/2003	01:30:00 through 10/09/2003 02:30:00
+10/09/2003	04:00:00
+10/09/2003	05:30:00 through 10/09/2003 06:00:00
+10/09/2003	07:30:00 through 10/09/2003 23:00:00
+10/10/2003	01:30:00
+10/10/2003	03:00:00
+10/10/2003	04:30:00 through 10/10/2003 06:30:00
+10/10/2003	09:30:00 through 10/10/2003 11:30:00
+10/10/2003	14:00:00
+10/10/2003	15:00:00
+10/10/2003	18:30:00 through 10/10/2003 23:00:00
+10/11/2003	01:30:00
+10/11/2003	03:30:00
+10/11/2003	05:00:00 through 10/11/2003 07:00:00
+10/11/2003	09:30:00 through 10/11/2003 11:00:00
+10/11/2003	14:00:00 through 10/11/2003 15:00:00
+10/11/2003	16:00:00
+10/11/2003	18:30:00
+
+c).  For the following date and time, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+  
+10/22/2003	03:00:00
+
+CLAMBANK CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+
+NOVEMBER 2003
+
+DEBIDUE CREEK
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+This is due to a wiper malfunction and subsequent intermittent parking over 
+optics.  All values greater than 1000 were deleted.  It should be noted that 
+some high values below 1000 are most likely due to partial parking of the brush 
+over the optics and should be considered suspect.  
+
+11/01/2003	01:00:00
+11/01/2003	02:00:00
+11/01/2003	06:30:00
+11/01/2003	08:30:00
+11/02/2003	06:30:00
+11/02/2003	11:30:00
+11/02/2003	12:30:00
+11/02/2003	14:00:00
+11/02/2003	15:00:00
+11/03/2003	02:00:00
+11/03/2003	04:30:00
+
+OYSTER LANDING
+
+a). For the following dates and times, dissolved oxygen data were deleted from 
+Oyster Landing due to a tear in the membrane during the deployment.
+
+11/04/03 11:30 through 11/06/03 12:00
+
+b).  For the following date and time the datalogger recorded negative depth 
+data. However, specific conductivity and salinity sensor readings suggest that 
+the datalogger was not out of the water. Suspect that the negative value 
+indicates shallow depth due to extreme high winds holding the tide out (11/28/03 
+max wind 40 mph, 11/29/03 23 mph) and is simply due to a slight calibration 
+error.  Data were retained.
+
+11/29/03 07:00
+
+c).  For the following dates and times, turbidity data were greater than 1000.  
+This is due to a wiper motor malfunction and subsequent parking over optics.  
+All values greater than 1000 were deleted.
+
+11/14/2003	22:00:00
+11/15/2003	02:30:00
+11/16/2003	13:30:00
+11/17/2003	01:00:00
+11/17/2003	02:00:00
+11/17/2003	04:00:00
+11/17/2003	05:00:00
+11/17/2003	07:30:00
+11/17/2003	09:00:00
+11/17/2003	11:00:00
+11/17/2003	13:00:00
+11/17/2003	14:00:00
+
+d).  For the following dates and times, pH data are missing due to a probe 
+malfunction during deployment. 
+
+11/01/2003 00:00 through 11/04/2003 11:00
+
+
+THOUSAND ACRE
+
+a).  For the following dates and times, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+11/19/2003	00:30:00
+11/19/2003	16:00:00
+11/24/2003	16:00:00
+
+CLAMBANK CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+
+DECEMBER 2003
+
+DEBIDUE CREEK
+pH data for the following deployment should be considered suspect due to 
+internal malfunction affecting pH data. Sonde was sent to YSI for repair in 
+March 2004. 
+12/15/03 13:30 – 01/07/04 10:00
+
+OYSTER LANDING
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+THOUSAND ACRE 
+
+a). For the following dates and times, turbidity data were greater than 1000.  
+Suspect an object passed in front of optics at time of sample.  Data were 
+retained but should be considered suspect.
+
+12/01/03 00:30:00
+12/18/03 13:30:00
+
+CLAMBANK CREEK
+
+No anomalous data for this month. See Section 14 for further documentation.
+
+12. Missing Data 
+
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.    
+
+13. Post Deployment Information
+
+End of Deployment Post-calibration Readings in Standard Solutions:
+NA = no data available for that particular standard
+
+Site	Date	Cond(mS)(Std:10 or 0mS) Salinity(ppt)(Std:0ppt) DO(air sat)(Std:
+100%) pH(Std:7) Depth(Std:0) Turb(Std:0)
+
+DC
+	01/07/03	0.026	0.01	 83.5	7.13	 0.034	 NA	
+	01/22/03	0.013	0.01	103.6	6.99	-0.093	-0.7
+	02/11/03	0.032	0.01	 99.7	7.06	 0.043	 0.1
+	03/10/03	0.036	0.02	104.2	6.95	 0.071	 0.4
+	03/27/03	0.029	0.01	 95.6	7.08	 0.031	 0.5
+	04/16/03	0.016	0.01	 87.7	7.07	 0.073	 0.6
+	04/23/03	0.034	0.01	 97.8	7.10	-0.070	 0.3
+	05/07/03	0.016	0.01	 97.3	6.98	 0.016	 0.0
+	05/20/03	0.066	0.03	 97.5	7.07	 0.049	 0.3
+	06/03/03	0.018	0.01	 98.1	7.10	-0.069	 0.1
+	06/20/03	0.057	0.03	 98.7	7.09	-0.066	 0.8
+	07/07/03	0.020	0.01	 72.5	7.04	 0.078	-0.3
+	07/30/03	0.018	0.01	  NA	7.22	 0.049	 0.2
+	08/15/03	0.020	0.01	 87.2	6.86	-0.017	-0.1
+	09/29/03   *10.13	5.65	 45.0	 NA	 0.054	 0.1
+	10/20/03	0.028	0.01	 80.4	7.02	 0.020	 0.2
+	11/03/03	0.046	0.02	101.0	7.13	-0.047	 3.7
+	11/17/03	0.245	0.12	 99.4	7.07	 0.007	 0.3
+	12/01/03	0.198	0.09	101.5	7.12	-0.051	 0.5
+12/15/03	0.022	0.01	 98.2	7.01	-0.034	 0.1
+    **01/07/03	1.409	0.71	100.7	6.41	 0.105	 0.9
+ *in 10 mS/cm standard	
+**Tap water rather than deionized water was used for post-cal, so turbidity and 
+salinity/conductivity were higher than normal.
+
+OL
+	01/07/03	0.061	0.03	 91.7	7.20	 0.033	 NA
+	01/23/03	0.040	0.02	 97.6	7.10	-0.060	-0.1
+	02/11/03	0.018 0.01	 97.2	7.12	 0.041	-0.1
+	03/10/03	0.017	0.01	104.3	7.05	 0.059	 0.2
+	03/26/03	0.032	0.01	 99.9	7.15	 0.008	 0.0
+	04/08/03	0.030	0.01	 60.0	7.11	 0.184	-1.7
+	04/23/03	0.014	0.01	 98.4	7.05	-0.055	 0.2
+	05/07/03	0.006	0.00	 99.8	7.13	-0.005	-0.2
+	05/21/03	0.022	0.01	 94.8	7.03	 0.012	 0.5
+	06/04/03	0.021	0.01	 92.2	7.05	-0.085	 0.3		
+	06/20/03	0.015	0.01	114.1	6.95	-0.040	 0.3
+	06/26/03	not available due to sonde malfunction
+	07/08/03	0.017	0.01	 99.8	7.00	 0.034	 0.1
+	07/21/03	 NA	 NA	 97.0	7.12	-0.075	-0.8
+	08/15/03	0.026	0.01	 67.6	7.06	 0.016	-0.1
+	09/26/03   *10.12	5.72	 38.9	7.10	 0.053	-0.5
+	10/15/03	0.070	0.03	 94.6	7.02	-0.057	 0.3
+	11/04/03	0.135	0.06	102.6	6.61	 0.149	 0.6
+	11/06/03	0.242	0.11	 NA	7.07	-0.033	 1.1
+	11/17/03	0.307	0.15	 97.8	7.08	-0.004	 0.5
+	12/01/03	0.101	0.05	 97.3	7.11	-0.048	-0.1
+	12/15/03	0.056	0.03	101.0	7.14	-0.015	 0.6
+    **01/17/03	1.396	0.70	 96.3	7.09	 0.072	 2.1
+*in 10 mS/cm standard
+**Tap water rather than deionized water was used for post-cal, so turbidity and 
+salinity/conductivity were higher than normal.
+ 
+TA
+	01/09/03	0.020	0.01	 99.3	6.82	-0.261	 0.1
+	01/22/03	0.016	0.01	110.8	7.10	-0.038	 NA
+	02/13/03	0.100	0.04	100.0	6.98	 0.053	 3.2
+	03/04/03	0.011	0.00	 98.0	7.02	-0.024	 1.1
+	03/27/03	0.010	0.00	 89.4	7.29	 0.037	-2.2
+	04/07/03	0.002	0.00	 97.9	7.01	 0.040	 0.0
+	04/22/03	0.018	0.01	 99.8	7.05	-0.114	 0.3
+	05/08/03	0.008	0.00	120.4	7.00	-0.026	 0.4
+	05/21/03	0.011	0.00	101.3	7.00	 0.031	-0.2
+	06/02/03	not available due to sonde malfunction
+	06/19/03	0.012	0.00	 98.7	7.00	-0.063	-0.3
+	07/02/03	0.005	0.00	 98.0	7.11	-0.043	-0.1
+	07/31/03	0.009	0.00	 99.3	 NA	-0.012	-0.3
+	08/19/03	0.046	0.02	100.3	6.82	-0.009	 0.3
+	09/29/03   *10.20	5.76	110.0	7.05	-0.010	 0.0
+	10/15/03	0.073	0.03	 95.6	7.08	-0.021	 0.6
+	10/31/03	0.028	0.01	100.3	6.97	 0.218	17.8**
+	11/18/03	0.032	0.01	 97.6	7.05	-0.063	 0.1
+	12/02/03	0.026	0.01	100.2	7.10	 0.050	 0.6
+	12/16/03	0.011	0.00	 97.5	7.12	-0.091	 0.4
+	01/06/04	0.028	0.01	 99.4	7.09	-0.026	-0.1
+*in 10 mS/cm standard 
+**bryozoans growing off end of wiper in optics path when parked
+
+CB
+	01/09/03	0.010	0.00	 97.4	7.05	-0.266	 NA 
+	01/24/03	0.017	0.01	 98.5	7.04	 0.078	 NA
+	02/13/03	0.028	0.01	 91.2	6.99	 0.065	-0.6
+	03/04/03	0.078	0.04	 97.4	6.97	-0.002	 1.9
+	03/26/03	0.032	0.01	 51.5	6.71	-0.040	-0.2
+	04/07/03	0.009	0.00	 97.7	7.14	-0.040	 0.3
+	04/22/03	0.016	0.01	 96.4	7.02	-0.122	 0.3
+	05/08/03	0.012	0.00	 99.9	6.99	-0.020	 0.3	
+	05/20/03	0.097	0.04	 96.8	7.04	 0.068	 0.5
+	06/02/03	0.028	0.01	101.0	6.97	-0.062	-0.2
+	06/19/03	0.135	0.06	101.0	7.02	-0.056	 0.2
+	07/01/03	0.037	0.02	 99.1	7.03	 0.108	 0.0
+	07/29/03	0.008	0.00	 83.1	7.27	-0.051	 0.4
+	08/19/03	0.060	0.03	 62.4	 NA	 0.046	 0.1
+	09/26/03   *10.19	5.74	106.1	7.01	-0.025	 0.0
+	10/16/03	0.022	0.01	 52.6	7.09	 0.029	-1.1
+	10/31/03	0.014	0.00	 98.7	6.98	 0.021	-0.2
+	11/18/03	0.246	0.12	 99.8	6.98	-0.070	 1.7
+	12/02/03	0.053	0.02	 99.8	7.04	 0.065	 0.0
+	12/16/03	0.062	0.03	 97.8	6.88	-0.094	 0.8
+	01/06/04	0.054	0.02	 99.0	7.03	-0.015	 0.8
+*in 10 mS/cm standard
+
+14. Other Remarks:
+
+THOUSAND ACRE
+
+01/22/03 14:00 There was a jump in pH after deployment of a different sonde at 
+Thousand Acre.  Suspect that this is due to a slight calibration difference 
+between the two sondes and not any natural fluctuation in pH levels.
+
+02/23/03 A prolonged wind event affected tidal depth on 2/23/03, preventing the 
+tide from rising to a normal level.  This event also affected water temperature.  
+This event was evident at all sites.
+
+03/03 For the month of March, precipitation effects are obvious in salinity and 
+conductivity data at Thousand Acre Marsh.  
+
+04/03 A prolonged wind/storm event affected tidal depth on 04/06-07/03 (23:30-
+00:00) keeping the tide at a higher than normal level (high and low tide).  This 
+event was evident at all sites.
+
+04/03 For the month of April, precipitation effects are obvious in salinity and 
+conductivity data at Thousand Acre Marsh, suppressing salinity to fresh-water 
+concentrations (<3ppt) for the entire month.
+
+04/07/03 11:30:00 There was a jump in pH after deployment of a different sonde 
+at Thousand Acre.  Suspect that this is due to a slight calibration difference 
+between the two sondes and not any natural fluctuation in pH levels.
+
+05/03 For the month of May, precipitation effects are obvious in salinity, 
+conductivity, pH and turbidity data at Thousand Acre Creek.  Heavy & frequent 
+rains coupled with increased riverine discharge into Winyah Bay lowered salinity 
+levels to fresh-water concentrations for the beginning of the month with 
+slightly elevated salinity levels during mid-month spring tides.  Rain events on 
+5/6/03 (0.82") and 5/16/03 (0.43") caused noticeable spikes in turbidity on 
+those dates.
+
+07/03 A wind event affected tidal depth on 07/23/03 at Thousand Acre Marsh, 
+preventing the tide from rising to a normal level. This event was evident at 
+Oyster Landing, Clambank Creek and Debidue Creek as well. 
+
+08/03 A storm event on 08/18/03 effected temperature, pH and depth data at 
+Thousand Acre Marsh for that day.  This storm produced heavy rains (2.1") and 
+heavy winds (20 mph hourly av.).
+
+09/03 During the month of September, the effects of several tropical systems 
+(Hurricane Isabel, Hurricane Fabian, Tropical Depression Henri) are evident in 
+all water quality parameters measured at Thousand Acre Marsh. 
+
+10/03 For the month of October, precipitation effects are obvious in salinity, 
+conductivity, dissolved oxygen and pH data at Thousand Acre Marsh. 
+
+11/03 Due to a probe malfunction, turbidity data between 11/18/03 14:30 and 
+12/02/03 12:00 were collected using a 6026 turbidity probe rather than a 6136 
+turbidity probe.  
+
+11/03 For the month of November, precipitation effects were obvious in salinity, 
+conductivity, pH and DO data, while wind effects were obvious in depth data at 
+Thousand Acre Marsh.
+
+12/03 Due to a turbidity probe malfunction, turbidity data between 12/01/03 
+00:00 and 12/02/03 12:00 were recorded measured with a 6026 turbidity probe 
+rather than a 6136 turbidity probe.
+
+12/03 For the month of December, precipitation effects were obvious in salinity 
+and conductivity data, while wind effects were obvious in depth data at Thousand 
+Acre Marsh.
+
+CLAMBANK CREEK
+
+01/03 For the month of January, precipitation effects are obvious in salinity 
+and conductivity data at Clambank Creek.
+
+02/23/03 A prolonged wind event affected tidal depth on 2/23/03, preventing the 
+tide from rising to a normal level.  This event was evident at all sites.
+
+03/03 For the month of March, precipitation effects are obvious in salinity, 
+conductivity, pH, and turbidity data at Clambank Creek.  Most noticeable are the 
+effects of the 03/20/03 storm which dropped >5 inches of rain in ~2 hours (5.75" 
+measured at Oyster Landing weather station).  
+
+04/03 A prolonged wind/storm event affected tidal depth on 04/06-07/03 (23:30-
+00:00) keeping the tide at a higher than normal level (high and low tide).  This 
+event was evident at all sites.
+
+04/03 For the month of April, precipitation effects are obvious in salinity and 
+conductivity data at Clambank Creek.
+
+05/03 For the month of May, precipitation effects are obvious in salinity, 
+conductivity, and pH data at Clambank Creek.
+
+05/03 A wind event affected tidal depth on 5/31/03 through 6/1/03, preventing 
+the tide from rising to a normal level.  Depth readings affected were between 
+5/31/03 17:00 and 6/1/03 2:00. This event was evident at Oyster Landing and 
+Debidue Creek as well.
+
+07/03 A wind event affected tidal depth on 07/23/03 at Clambank Creek, 
+preventing the tide from rising to a normal level. This event was evident at 
+Oyster Landing, Thousand Acre Marsh and Debidue Creek as well.     
+
+07/03 For the month of July, precipitation effects are obvious in salinity and 
+conductivity data at Clambank Creek.
+
+08/03 A storm event on 08/18/03 effected temperature, pH, salinity, conductivity  
+and depth data at Clambank Creek for that day.  This storm produced heavy rains 
+(2.1") and heavy winds (20 mph hourly av.).
+
+09/03 A jump in dissolved oxygen concentration on 9/26/03 is due to the 
+instrumentation being switched out at that site.  There was a noticeable drift 
+in dissolved oxygen concentrations during September due to an extended 
+deployment of the instrument and excessive fouling during that period.
+
+09/03 During the month of September, the effects of several tropical systems 
+(Hurricane Isabel, Hurricane Fabian, Tropical Depression Henri) are evident in 
+all water quality parameters measured at Clambank Landing. 
+
+10/03 For the month of October, precipitation effects are obvious in salinity 
+and conductivity data at Clambank Creek.  
+
+10/03 A jump in dissolved oxygen concentration on 10/16/03 is due to the 
+instrumentation being switched out at that site. 
+
+11/03 A shift in pH was evident with the change-out of sondes at Clambank Creek.
+
+11/03 For the month of November, precipitation effects were obvious in salinity, 
+conductivity, pH and DO data, while wind effects were obvious in depth data at 
+Clambank Creek.
+
+12/03 A shift in pH was evident with the change-out of sondes at Clambank Creek.
+ 
+12/03 For the month of December, precipitation effects were obvious in salinity 
+and conductivity data, while wind effects were obvious in depth data at Clambank 
+Creek.
+
+DEBIDUE CREEK
+
+02/03 During the second deployment in February, average pH was recorded as 
+approximately 0.2 lower than the first deployment in the month.  This is due to 
+a failing pH probe on the second deployment.  The pH probe was changed after 
+retrieval, but data were not affected enough to merit deletion.
+
+02/23/03 A prolonged wind event affected tidal depth on 2/23/03, preventing the 
+tide from rising to a normal level.  This event was evident at all sites.
+
+03/03 During the second deployment in February, average pH was recorded as 
+approximately 0.3 higher than the first deployment in the month.  This is due to 
+a failing pH probe on the first deployment (see 02/03 note above).  The pH probe 
+was changed after retrieval.  Data were not affected enough to merit deletion.
+
+03/03 For the month of March, precipitation effects are obvious in salinity, 
+conductivity, and pH data at Debidue Creek.  Most noticeable are the effects of 
+the 03/20/03 storm which dropped >5 inches of rain in ~2 hours (5.75" measured 
+at Oyster Landing weather station).  
+
+04/03 A prolonged wind/storm event affected tidal depth on 04/06-07/03 (23:30-
+00:00) keeping the tide at a higher than normal level (high and low tide).  This 
+event was evident at all sites.
+
+04/03 For the month of April, precipitation effects are obvious in salinity and 
+conductivity data at Debidue Creek.
+
+05/03 For the month of May, precipitation effects are obvious in salinity and 
+conductivity data at Oyster Landing.
+
+06/03 A wind event affected tidal depth on 6/1/03 at Debidue Creek, preventing 
+the tide from rising to a normal level. This event was evident at Clambank Creek 
+and Oyster Landing as well.
+
+06/03 For the month of June, precipitation effects are obvious in salinity and 
+conductivity data at Debidue Creek.
+
+07/03 For the month of July, precipitation effects are obvious in salinity and 
+conductivity data at Debidue Creek.  A major storm event on 7/19/03 dropped 
+6.11" of rain (recorded at Oyster Landing MET station).    
+
+07/03 A wind event affected tidal depth on 07/23/03 at Debidue Creek, preventing 
+the tide from rising to a normal level. This event was evident at Clambank 
+Creek, Thousand Acre Marsh and Oyster Landing as well.
+
+08/03 A storm event on 08/18/03 effected salinity, conductivity and depth data 
+at Debidue Creek for that day.  This storm produced heavy rains (2.1") and heavy 
+winds (20 mph hourly av.).
+
+09/03 A jump in dissolved oxygen concentration on 9/29/03 is due to the 
+instrumentation being switched out at that site.  There was a noticeable drift 
+in dissolved oxygen concentrations during September due to an extended 
+deployment of the instrument and excessive fouling during that period.  
+
+09/03 During the month of September, the effects of several tropical systems 
+(Hurricane Isabel, Hurricane Fabian, Tropical Depression Henri) are evident in 
+salinity and depth data measured at Debidue Creek.
+
+10/03 For the month of October, precipitation effects are obvious in salinity 
+and conductivity data at Debidue Creek.
+
+11/03 For the month of November, precipitation effects are obvious in salinity, 
+conductivity and pH data, while wind effects are obvious in depth data at 
+Debidue Creek.  
+
+12/03 For the month of December, precipitation effects are obvious in salinity, 
+conductivity, and pH data, while wind effects are obvious in depth data at 
+Debidue Creek.  
+
+OYSTER LANDING
+
+02/23/03 A prolonged wind event affected tidal depth on 2/23/03, preventing the 
+tide from rising to a normal level.  This event was evident at all sites.
+
+03/03 For the month of March, precipitation effects are obvious in salinity, 
+conductivity, and pH data at Oyster Landing.  Most noticeable are the effects of 
+the 03/20/03 storm which dropped >5 inches of rain in ~2 hours (5.75" measured 
+at Oyster Landing weather station).  
+
+04/03 A prolonged wind/storm event affected tidal depth on 04/06-07/03 (23:30-
+00:00) keeping the tide at a higher than normal level (high and low tide).  This 
+event was evident at all sites.
+
+04/03 For the month of April, precipitation effects are obvious in salinity and 
+conductivity data at Oyster Landing.  These storm events also lowered dissolved 
+oxygen levels at Oyster Landing (possibly due to silt-laden runoff), evident in 
+readings for 04/06-07/03 and 04/25-26/03. 3.04 inches of rain fell on 04/25/03 
+alone.
+
+05/03 For the month of May, precipitation effects are obvious in salinity, 
+conductivity, and pH data at Debidue Creek.
+
+06/03 A wind event affected tidal depth on 6/1/03, preventing the tide from 
+rising to a normal level. This event was evident at Clambank Creek and Debidue 
+Creek as well.
+
+06/03 For the month of June, precipitation effects are obvious in salinity and 
+conductivity data at Oyster Landing.
+
+07/03 For the month of July, precipitation effects are obvious in salinity, 
+conductivity, and pH data at Oyster Landing.  A major storm event on 7/19/03 
+dropped 6.11" of rain (recorded at Oyster Landing MET station).
+
+07/03 A wind event affected tidal depth on 07/23/03 at Oyster Landing, 
+preventing the tide from rising to a normal level. This event was evident at 
+Clambank Creek, Thousand Acre Marsh and Debidue Creek as well.
+
+08/03 A storm event on 08/18/03 effected temperature, pH, salinity, conductivity  
+and depth data at Oyster Landing for that day.  This storm produced heavy rains 
+(2.1") and heavy winds (20 mph hourly av.).
+
+09/03 During the month of September, the effects of several tropical systems 
+(Hurricane Isabel, Hurricane Fabian, Tropical Depression Henri) are evident in 
+all water quality parameters measured at Oyster Landing. 
+
+09/03 A jump in dissolved oxygen concentration and pH on 9/26/03 is due to the 
+instrumentation being switched out at that site.  There was a noticeable drift 
+in dissolved oxygen concentrations and pH during September due to an extended 
+deployment of the instrument and excessive fouling during that period.   
+
+10/03 For the month of October, precipitation effects are obvious in salinity, 
+conductivity, and turbidity data at Oyster Landing. 
+
+11/03 For the month of November, precipitation effects are obvious in salinity 
+and conductivity data, while wind effects are obvious in depth data at Oyster 
+Landing.   
+
+12/03 For the month of December, precipitation effects are obvious in salinity 
+and conductivity data, while wind effects are obvious in depth data at Oyster 
+Landing.

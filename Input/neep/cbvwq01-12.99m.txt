@@ -1,0 +1,981 @@
+Chesapeake Bay Virginia (CBV) NERR Water Quality Metadata
+January – December 1999
+Latest update: November 1, 2002 
+
+I.  Data Set and Research Descriptors
+
+1.  Principal investigators and contact persons 
+
+Virginia Institute of Marine Science
+College of William and Mary
+PO Box 1346, Gloucester Point, VA 23062
+Phone:  (804) 684-7135
+
+Dr. Maurice Lynch, Manager 			
+	E-mail: mlynch@vims.edu;  (804) 684-7151				
+Dr. William Reay, Research Coordinator							
+	E-mail: wreay@vims.edu; (804) 684-7119				
+Eric Wooden, Monitoring Coordinator 
+	  E-mail: ewooden@vims.edu; (804) 684-7129
+
+2. Entry verification
+The data were uploaded to the PC from the YSI 6000 data loggers and reviewed 
+using PC6000 software from YSI.  Graphs were produced and examined using the 
+PC6000 software then printed out and filed in order to aid in reviewing data to 
+correlate any anomalous and outlying data.  Next, files were uploaded in comma 
+delimited format which were opened in Excel 5.0 software and edited to remove 
+extraneous information (headers, footers, spaces, and pre- and post-deployment 
+data).  Monthly templates were used to form complete sets of monthly data sets.  
+Macros supplied by NERRS/CDMO were used to help with editing, formatting and 
+identifying outliers in the database.  Suspect data (as in data believed to 
+result from a damaged or biofouled probe) were evaluated according to Appendix B 
+of the CDMO manual, edited and documented. Missing data due to YSI maintenance 
+(down time) was inserted into the spreadsheet and was denoted by periods (.).  
+Data that was not within calibration range of the instrument were evaluated and 
+removed from the record and denoted by periods (.).  Edited and raw data files 
+were copied and archived in the CBNERRVA file server and uploaded to the CDMO 
+FTP site.  All Taskinas Creek and Goodwin Islands files from 1999 have been 
+verified using the latest update of the CDMO Microsoft Excel 5.0 macro programs 
+which identified outliers (values that fall outside of the calibration – see 
+section II.8 of this document) and other erroneous data.  Outliers were 
+determined according to the instruments’ manufacturers manual.  Eric Wooden 
+collected 1999 Goodwin Island data from 01/00 to 06/00 and Janet Nestlerode 
+collected the 1999 data from 6/00 to 12/00.  Scott Neubauer collected the 1999 
+Taskinas Creek data.  Eric Wooden processed the 1999 data from both sites 
+through the latest update of the CDMO macro and conducted final editing of the 
+data.  Following final editing, Eric Wooden uploaded the database to the 
+CBNERRVA server and to CDMO.  
+
+3. Research Objectives
+Taskinas Creek (TC) Component:
+The Taskinas Creek watershed is representative of an inner coastal plain rural 
+watershed within the southern Chesapeake Bay system.  This watershed is 
+dominated by forested and agricultural land uses with an increasing urban 
+land use component.  The drainage basin is suited for investigating hydrologic 
+and nonpoint source water quality issues associated with changing land use 
+patterns; these issues are of prime importance to the U.S. EPA Chesapeake Bay 
+Program.  Continuously monitored physical water quality parameters (dissolved 
+oxygen, pH, specific conductance, turbidity, and temperature) provide long-term 
+measurements which can be supplemented with shorter-term monitoring and process 
+oriented studies.  Measurements were taken every 15 minutes at the Taskinas 
+Creek site and the YSI dataloggers were maintained, downloaded, cleaned, and 
+calibrated at two-week intervals from early October to the end of May.  The two-
+week intervals of YSI dataloggers deployments are increased to one-week 
+intervals from beginning of June to late September.  This may vary from year to 
+year and site to site depending on the amount of fouling on the instruments.
+ 
+Goodwin Islands (GI) Component:
+The Goodwin Islands represent marsh islands surrounded by intertidal flats, 
+submerged aquatic vegetation (SAV) beds, oyster reefs, and shallow open 
+estuarine waters.  Because minimal human activities occur within upland 
+portions, the Goodwin Islands are suitable as a reference or control site for 
+nonpoint source water quality issues.  Furthermore, due to extensive wetlands, 
+intertidal, and submerged habitats, the Goodwin Islands are used extensively for 
+SAV, material flux, and trophic interaction research activities.  Measurements 
+were taken every 15 minutes at the Goodwin Islands site and the YSI dataloggers 
+were maintained, downloaded, cleaned, and calibrated at two-week intervals from 
+early October to the end of May.  The two-week intervals of YSI dataloggers 
+deployments are increased to one-week intervals from beginning of June to late 
+September.  This may vary from year to year and site to site depending on the 
+amount of fouling on the instruments.
+
+4.  Research methods 
+Taskinas Creek (TC) Component:
+The Chesapeake Bay NERRS of Virginia maintains a long-term water quality-
+monitoring program, which consists of two stations.  The Taskinas Creek station 
+is located in the transitional zone of the York River tributary in the York 
+River State Park.  A simple deployment was arranged with the State Park in 
+September 1995, where the secured unit hung at a fixed depth (0.5 m above the 
+creek bed) from an overhanging tree approximately six meters upstream from 
+the parks canoe landing.  In September 1997, the deployment was modified so that 
+the datalogger remained secure at all times within a 4-inch PVC housing 0.5 m 
+above the bottom.  Three wood pilings were driven into the sediment in an 
+equilateral triangle arrangement and the PVC pipe bolted to one piling.  
+Specific conductivity, pH, depth, dissolved oxygen, temperature, and turbidity 
+are recorded at 15-minute intervals.  Salinity and DO saturation are determined 
+from temperature and specific conductivity readings.  At approximately two-week 
+intervals or one-week intervals depending on the time of year, the data logger 
+is returned to the lab for downloading, cleaning, membrane replacement and 
+recalibration.  Maintenance intervals are determined according to the amount of 
+biofouling that occurs and to accommodate battery life.  A second YSI 6000 
+datalogger is deployed following retrieval of the original YSI datasonde 
+in order to maintain a continuous record.  Field verification of pH, dissolved 
+oxygen, salinity, and temperature are taken during the deployment/retrieval 
+procedure.  PH is tested in the lab with a Fisher Accumet pH Meter Model 600.  
+Dissolved Oxygen was determined by a Winkler tritration.  Salinity was 
+determined by using a Rosemount Analytical Induction Salinometer.  Temperature 
+was measured with a Hanna Instrument HI 9063 microcomputer K-thermocouple 
+thermometer.  All YSI procedures are in accordance with the YSI operating manual 
+methods, sections 3 and 7.  Standards for pH, and conductivity were purchased 
+from YSI.  Turbidity standards were purchased from Advanced Polymer Systems.  
+Data are reviewed and edited according to the YSI Data Review and Editing 
+Protocol in Appendix B of the CDMO manual.  
+
+Goodwin Islands (GI) Component:
+The Chesapeake Bay NERRS of Virginia maintains a second long-term water quality-
+monitoring program at Goodwin Islands, located at the mouth of the York River.  
+This station is located on the southeastern side of the main island in a 
+shallow embayment, approximately 400 meters from shore.  A stable and permanent 
+structure was built in October 1997 where 4-inch PVC pipe is housed inside of a 
+commercially available galvanized steel communications tower with the datalogger 
+0.5 m from the bottom.  Specific conductivity, pH, depth, dissolved oxygen, 
+temperature, and turbidity are recorded at 15-minute intervals.  Salinity and DO 
+saturation are determined from temperature and specific conductivity readings.  
+At approximately two-week intervals or one-week intervals depending on the time 
+of year, the datalogger is returned to the lab for downloading, cleaning, 
+membrane replacement and recalibration.  Maintenance intervals are determined 
+according to the amount of biofouling that occurs and to accommodate battery 
+life.  A second YSI 6000 datalogger is deployed following retrieval of the 
+original YSI datasonde in order to maintain a continuous record.  Field 
+verification of pH, dissolved oxygen, salinity, and temperature are taken during 
+the deployment/retrieval procedure.  PH is tested in the lab with a Fisher 
+Accumet pH Meter Model 600.  Dissolved Oxygen was determined by a Winkler 
+tritration.  Salinity was determined by using a Rosemount Analytical Induction 
+Salinometer.  Temperature was measured with a Hanna Instrument HI 9063 
+microcomputer K-thermocouple thermometer.  All YSI procedures are in accordance 
+with the YSI operating manual methods, sections 3 and 7.  Standards for pH, and 
+conductivity were purchased from YSI.  Turbidity standards were purchased from 
+Advanced Polymer Systems.  Data are reviewed and edited according to the YSI 
+Data Review and Editing Protocol in Appendix B of the CDMO manual.
+
+5.  Site location and character
+
+(1) Goodwin Islands (37 deg 13' 02.65093"; 76 deg 23' 32.75799")
+
+The Goodwin Islands component of the CBNERR-VA is on the mouth of the York River 
+at the northeastern tip of York County. Circulation patterns at the Goodwin 
+Islands are influenced by York River discharge and the wind patterns of the 
+Chesapeake Bay. The Goodwin Islands represent relatively pristine marsh islands 
+surrounded by intertidal flats, submerged aquatic vegetation (SAV) beds, oyster 
+reefs, and shallow open estuarine waters.  Dominant marsh species include 
+Saltmarsh Cordgrass (Spartina alterniflora), Salt Grass (Distichlis spicata), 
+and Saltmeadow Hay (Spartina patens).  Estuarine scrub/shrub vegetation 
+dominates the forested ridges.  The sampling station is located in a shallow 
+embayment on the southeastern side of the main island.  The station is located 
+approximately 400 meters from shore, average water depth on the order of 1m, 
+amongst submerged aquatic vegetation beds dominated by eelgrass (Zostera marina) 
+and Widgeon grass (Ruppia maritima).  Salinity at this site ranges from 9.9-27.5 
+ppt and a multi-year average salinity is 19.3 ppt.  Tides are semi-diurnal and 
+range from 0.4-1.1 m.  The data logger probes are located 0.5 m above the sandy 
+substrate bottom.  Potential activities that could impact the site include light 
+recreational and commercial boating activity.
+
+
+(2) Taskinas Creek (37 deg 24' 54.04617"; 76 deg 42' 51.75733")
+
+The Taskinas Creek watershed is representative of an inner coastal plain rural 
+watershed within the southern Chesapeake Bay system.  Taskinas Creek is a third 
+order stream approximately 3 km in length and flows in a northeasterly direction 
+eventually emptying into the York River.  This watershed is dominated by 
+forested and agricultural land uses with an increasing urban land use component.  
+The non-tidal portion of Taskinas Creek contains feeder streams, which drain 
+oak-hickory forests, maple-gum-oak-ash swamps and freshwater marshes.  Dominant 
+low tidal creek marsh species include Saltmarsh cordgrass (Spartina 
+alterniflora), Salt Grass (Distichlis spicata), and Saltmeadow Hay (Spartina 
+patens) at the creek mouth, three-square (Scirpus americanus and S. olneyi) and 
+Big Cordgrass (Spartina cynosauroides) in the middle marsh reaches, and 
+freshwater mixed (no single species covers more than 50%) wetlands in the 
+upstream reaches.  The data logger station is located near the mouth of Taskinas 
+Creek in the lower tidal creekbank region.  Water depth and width are 
+approximately 2 and 20m, respectively.  Salinity at this site ranges from 0.2-
+20.3 ppt and a multi-year average salinity is 9.6 ppt. Tides are semi-diurnal 
+and range from 0.4-1.2 m.  The data logger probes are located 0.5 m above the 
+mixed substrate (42% fine sand, 30% clay, and 28% silt) bottom.  Potential 
+activities that could impact the site include residential development, selective 
+hardwood logging, and light recreational boating activity.  Wildlife populations 
+have been shown to influence microbiological water quality within the watershed.
+
+6.  Data collection period:
+Sampling at Taskinas Creek (TC) and Goodwin Islands (GI) began January 1999.  
+Sampling was continuous at both sites through December 1999.  
+
+7.  Associated researchers and projects:
+A volunteer water quality monitoring program sponsored by the Alliance for the 
+Chesapeake Bay has been ongoing at Taskinas Creek for several years, beginning 
+January 10, 1990.  This project samples some overlapping parameters including 
+dissolved oxygen and salinity on a two-week basis. 
+
+II. Physical Structure Descriptors
+
+8. Sensor specifications, range of measurements, units, resolution, and 
+accuracy: 
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column.
+
+9. Coded variable indicator and variable code definitions 
+
+Site definitions: TC = Taskinas Creek, GI= Goodwin Islands 
+File definitions: YSI deployment site/month/year (ex.: TC0995 = Taskinas Creek 
+data from September 1995). 
+
+10.  Data anomalies (suspect data):
+Frequent data anomalies were recorded in depth levels for several months 
+potentially due to low-pressure weather fronts.  This data remained in the 
+database.  According to the CDMO Operations Manual Version 3.0, depth 
+measurements taken with the non-vented level probe can be influenced by up to 
+0.39 m (1.3 ft) during some low-pressure hurricane events.  Specific dates and 
+time ranges of potentially influenced data are listed with each respective 
+month.  Starting with July, data were extracted in accordance with Version 3.0 
+of the CDMO Manual.
+
+January 1999:
+
+TC:
+01/07/99	00:45:00				Turbidity spike >1000 NTU removed
+01/07/99	14:00:00				decrease in pH due to difference in 
+calibration of exchanged YSI (calibration .7 lower than field verification) 
+01/18/99	14:30:00				Datalogger out of the water due to low 
+tides		
+01/22/99	12:30:00				Increase in pH due to difference in 
+calibration of exchanged YSI (calibration was correct)
+
+January 1999:
+
+GI:
+01/01/99	00:30:00-01/01/99 02:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/03/99	04:00:00-01/03/99 04:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/03/99	23:00:00				DO data suspect
+01/05/99	01:00:00-01:15:00			DO data suspect
+01/06/99	17:45:00-01/06/99 19:00:00 	Datalogger out of the water due to low 
+tides
+01/06/99	18:15:00-01/06/99 19:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/07/99	05:30:00-01/07/99 07:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/08/99	10:15:00-01/08/99 11:45:00	DO data suspect
+01/12/99	09:15:00-01/12/99 13:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/12/99	21:30:00-01/13/99 01:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/13/99	10:30:00-01/13/99 13:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/13/99	23:00:00-01/14/99 00:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/16/99	14:00:00-01/16/99 14:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/17/99	01:00:00-01/17/99 03:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/17/99	13:15:00-01/17/99 16:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/17/99	14:30:00-01/17/99 15:30:00 	Datalogger out of the water due to low 
+tides
+01/18/99	01:15:00-01/18/99 04:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/18/99	13:45:00-01/18/99 17:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/19/99	03:15:00-01/19/99 04:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/19/99	16:00:00-01/19/99 16:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+01/20/99	05:15:00				Zero turbidity due to low turbidity
+01/20/99	07:45:00				Zero turbidity due to low turbidity
+01/21/99	12:30:00				Zero turbidity due to low turbidity
+01/21/99	16:15:00				Zero turbidity due to low turbidity
+01/21/99	20:45:00				Zero turbidity due to low turbidity
+01/21/99	21:30:00				Zero turbidity due to low turbidity
+01/21/99	22:45:00-01/21/99 23:00:00	Zero turbidity due to low turbidity	
+		
+01/21/99	23:15:00				Zero turbidity due to low turbidity
+01/22/99	00:15:00-01/22/99 00:30:00	Zero turbidity due to low turbidity	
+		
+01/22/99	01:00:00				Zero turbidity due to low turbidity
+01/22/99	01:30:00				Zero turbidity due to low turbidity
+01/22/99	02:00:00				Zero turbidity due to low turbidity
+01/22/99	02:15:00-01/22/99 02:30:00	Zero turbidity due to low turbidity	
+		
+01/22/99	03:00:00				Zero turbidity due to low turbidity
+01/22/99	03:15:00-01/22/99 03:30:00	Zero turbidity due to low turbidity	
+		
+01/22/99	04:15:00-01/22/99 05:15:00	Zero turbidity due to low turbidity	
+		
+01/22/99	05:45:00-01/22/99 06:15:00	Zero turbidity due to low turbidity	
+		
+01/22/99	06:45:00				Zero turbidity due to low turbidity
+01/22/99	07:30:00-01/22/99 09:15:00	Zero turbidity due to low turbidity	
+		
+01/22/99	09:45:00				Zero turbidity due to low turbidity
+01/22/99	10:00:00-01/22/99 10:45:00	Zero turbidity due to low turbidity	
+		
+01/22/99	11:15:00				Zero turbidity due to low turbidity
+01/22/99	12:00:00-01/22/99 12:45:00	Zero turbidity due to low turbidity	
+		
+01/22/99	20:30:00				Zero turbidity due to low turbidity
+01/22/99	21:00:00				Zero turbidity due to low turbidity
+01/22/99	21:15:00				Zero turbidity due to low turbidity
+01/23/99	00:15:00-01/23/99 00:30:00	Zero turbidity due to low turbidity	
+		
+01/23/99	01:15:00				Zero turbidity due to low turbidity
+01/23/99	01:45:00-01/23/99 02:15:00	Zero turbidity due to low turbidity	
+		
+01/23/99	10:00:00				Zero turbidity due to low turbidity
+01/24/99	12:30:00-01/24/99 13:00:00	Zero turbidity due to low turbidity	
+		
+01/24/99	14:45:00-01/24/99 15:00:00	Zero turbidity due to low turbidity	
+		
+01/24/99	16:45:00				Zero turbidity due to low turbidity
+01/24/99	22:45:00				Zero turbidity due to low turbidity
+01/24/99	23:15:00				Zero turbidity due to low turbidity
+01/25/99	08:00:00				Zero turbidity due to low turbidity
+01/25/99	09:15:00				Zero turbidity due to low turbidity
+01/25/99	09:45:00				Zero turbidity due to low turbidity
+01/25/99	16:00:00				Zero turbidity due to low turbidity
+01/25/99	16:30:00				Zero turbidity due to low turbidity
+01/25/99	17:15:00				Zero turbidity due to low turbidity
+01/25/99	17:45:00-01/25/99 18:00:00	Zero turbidity due to low turbidity	
+		
+01/25/99	19:15:00				Zero turbidity due to low turbidity
+01/26/99	13:45:00-01/26/99 15:45:00	DO data suspect				
+01/27/99	23:15:00				Zero/negative depths due to low tides 
+or low-pressure system
+01/27/99	21:15:00				Zero turbidity due to low turbidity
+01/28/99	00:15:00-01/28/99 00:30:00	Zero turbidity due to low turbidity	
+	
+01/28/99	05:45:00				Zero turbidity due to low turbidity
+01/28/99	07:30:00				Zero turbidity due to low turbidity
+01/28/99	11:45:00				Zero turbidity due to low turbidity
+01/28/99	12:00:00-01/28/99 12:15:00	Zero turbidity due to low turbidity	
+		
+01/28/99	13:15:00				Zero turbidity due to low turbidity
+01/28/99	17:30:00				Zero turbidity due to low turbidity
+01/28/99	18:45:00-01/28/99 19:00:00	Zero turbidity due to low turbidity	
+		
+01/28/99	19:30:00				Zero turbidity due to low turbidity
+01/28/99	20:00:00				Zero turbidity due to low turbidity
+01/28/99	20:45:00-01/28/99 21:15:00	Zero turbidity due to low turbidity	
+		
+01/28/99	21:45:00-01/28/99 22:00:00	Zero turbidity due to low turbidity	
+		
+01/28/99	22:30:00				Zero turbidity due to low turbidity
+01/28/99	22:45:00-01/29/99 01:00:00	Zero turbidity due to low turbidity	
+		
+01/29/99	01:15:00				Zero turbidity due to low turbidity
+01/29/99	01:30:00-01/29/99 02:15:00	Zero turbidity due to low turbidity	
+		
+01/29/99	03:00:00				Zero turbidity due to low turbidity
+01/29/99	14:00:00				Turbidity spike >1000 NTU removed
+
+February 1999:
+
+TC:
+02/01/99	04:00:00-02/04/99 09:45:00	Datalogger malfunction resulting in no 
+data collection
+02/04/99	10:00:00				Decrease in pH due to difference in 
+calibration of exchanged YSI (calibration .4 higher than verification sample)
+02/19/99 10:15:00					Increase in pH due to difference in 
+calibration of exchanged YSI (calibration .2 higher than field verification 
+sample)	 
+
+February 1999:
+
+GI:
+
+02/03/99	16:15:00-02/16/99 15:15:00	Salinity data approximately 1.3-1.8 
+ppt higher than field verification samples.  No corrections were made. 
+02/16/99	15:30:00-02/28/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance were calculated.
+02/28/99	13:00:00-02/28/99 15:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+
+
+March 1999:
+
+TC:
+03/03/99	19:00:00				Turbidity spike >1000 NTU removed
+03/05/99	10:15:00				Decrease in pH due to differences in 
+calibration of the datalogger
+
+March 1999:
+
+GI:
+03/01/99	00:00:00- 03/11/99 17:15:00	Salinity values were corrected based 
+on field verification samples and no specific conductance were calculated.
+03/02/99	16:00:00				Datalogger out of the water due to low 
+tides
+03/04/99	02:30:00-03/04/99 06:45:00	Datalogger out of the water due to low 
+tides
+03/05/99	15:45:00-03/05/99 18:15:00	Datalogger out of the water due to low 
+tides
+03/11/99	17:30:00-03/25/99 09:45:00	DO data deleted due to possible 
+punctured membrane 
+03/18/99	02:30:00-03/18/99 04:15:00	Datalogger out of the water due to low 
+tides
+03/01/99	13:45:00-03/01/99 15:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+03/02/99	16:00:00				Zero/negative depths due to low tides 
+or low-pressure system
+03/03/99	15:30:00-03/03/99 16:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+03/04/99	01:00:00-03/04/99 07:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+03/18/99	02:30:00-03/18/99 04:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+03/18/99	14:15:00-03/18/99 16:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+
+
+April 1999:
+
+TC:
+04/20/99	23:30:00				Turbidity spike >1000 NTU removed
+04/22/99	07:30:00				Datalogger out of the water during 
+deployment
+04/30/99	08:00:00				Turbidity spike >1000 NTU removed
+
+
+April 1999:
+
+GI:
+
+04/01/99	14:30:00-04/01/99 16:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+04/02/99	05:15:00				Zero turbidity due to low turbidity 
+04/02/99	03:15:00-04/02/99 04:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+04/08/99	12:30:00-04/22/99 09:45:00	Major malfunction in datalogger 
+resulted in no data collection
+
+May 1999
+
+TC:
+05/11/99	03:45:00				Turbidity spike >1000 NTU removed
+05/28/99	12:30:00-05/31/99 23:45:00	Punctured DO membrane; data removed
+
+May 1999:
+
+GI:
+
+05/21/99	03:00:00-05/21/99 07:00:00	Zero/negative turbidity due to low 
+turbidity
+05/21/99	07:45:00-05/22/99 09:15:00	Zero/negative turbidity due to low 
+turbidity
+05/22/99	10:15:00-05/22/99 10:30:00	Zero/negative turbidity due to low 
+turbidity
+05/23/99	20:30:00				Zero/negative turbidity due to low 
+turbidity
+05/23/99	21:30:00-05/24/99 23:00:00	Zero/negative turbidity due to low 
+turbidity
+05/24/99	23:30:00-05/25/99 00:30:00	Zero/negative turbidity due to low 
+turbidity
+05/25/99	09:15:00-05/25/99 10:00:00	Zero/negative turbidity due to low 
+turbidity
+05/25/99	10:30:00-05/25/99 10:45:00	Zero/negative turbidity due to low 
+turbidity
+05/25/99	12:15:00				Zero/negative turbidity due to low 
+turbidity
+05/25/99	12:45:00-05/25/99 13:15:00	Zero/negative turbidity due to low 
+turbidity
+05/25/99	21:15:00-05/26/99 03:00:00	Zero/negative turbidity due to low 
+turbidity
+05/26/99	21:00:00				Zero/negative turbidity due to low 
+turbidity
+05/26/99	23:00:00-05/27/99 02:15:00	Zero/negative turbidity due to low 
+turbidity
+05-27-99	09:00:00-05/31/99 23:45:00	Depth data deleted due to possible 
+clogging of port with large deposits of clingfish eggs on the YSI.
+
+June 1999:
+
+TC:
+	
+June 1999:
+
+GI:
+06/03/99	09:15:00				Datalogger out of the water during 
+deployment
+06/03/99	09:30:00-06/15/99 11:30:00	Salinity values were corrected based 
+on field verification sample and no	specific conductance was calculated.
+06/10/99	13:45:00				Datalogger out of the water during 
+deployment
+06/15/99	12:15:00-06/17/99 05:00:00	DO data suspect 
+06/15/99	05:30:00-06/15/99 05:45:00	Zero/negative turbidity due to low 
+turbidity
+06/17/99	05:15:00-06/28/99 16:30:00	Datalogger flooded resulting in no 
+data collection
+06/28/99	17:00:00				Turbidity spike >1000 NTU removed
+
+July 1999:
+
+TC:
+	
+July 1999:
+
+GI:
+07/03/99	05:15:00-07/03/99 06:45:00	Datalogger out of the water due to low 
+tides
+07/07/99	08:00:00-07/07/99 08:15:00	Zero/negative turbidity due to low 
+turbidity
+07/08/99	09:45:00-07/08/99 10:00:00	Zero/negative turbidity due to low 
+turbidity
+07/08/99	10:45:00				Zero/negative turbidity due to low 
+turbidity 
+07/08/99	11:15:00				Zero/negative turbidity due to low 
+turbidity
+07/27/99	10:45:00-07/31/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+
+August 1999:
+
+TC:
+08/09/99	11:45:00				Turbidity spike >1000 NTU removed
+08/12/99	07:00:00				Datalogger out of the water during 
+deployment
+08/14/99	09:00:00-08/19/99 13:45:00	Punctured DO membrane
+08/23/99	16:45:00-08/30/99 13:00:00	Datalogger flooded resulting in no 
+data collected
+
+August 1999:
+
+GI:
+
+08/01/99	00:00:00-08/26/99 10:30:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+08/10/99	11:15:00				Datalogger out of the water during 
+deployment
+08/24/99	04:30:00				Turbidity spike >1000 NTU removed
+08/30/99	07:45:00				Depth potential influenced by storm
+08/31/99	09:00:00-08/31/99 23:45:00	Punctured DO membrane
+
+
+September 1999:
+
+TC:
+09/05/99	02:15:00-09/05/99 09:15:00	Turbidity spike >1000 NTU removed
+09/05/99	12:30:00-09/05/99 13:00:00	Turbidity spike >1000 NTU removed
+09/05/99	14:30:00-09/05/99 15:00:00	Turbidity spike >1000 NTU removed
+09/23/99	17:15:00-09/25/99 08:30:00	DO data suspect
+09/15/99	15:15:00				Data influenced by major hurricane
+
+September 1999:
+
+GI:
+09/01/99	00:00:00-09/03/99 10:30:00	Punctured DO membrane; data removed
+09/11/99	11:00:00-09/11/99 14:45:00	DO data suspect
+09/11/99	15:00:00-09/14/99 10:15:00	Punctured DO membrane; data removed
+09/24/99	09:30:00-09/24/99 11:00:00	Datalogger skipped in time and did not 
+collect data
+09/28/99	14:00:00				DO increase due to deployment of new 
+datalogger
+
+October 1999:
+
+TC:
+
+October 1999:
+
+GI:
+
+10/09/99	06:45:00-10/09/99 07:00:00	Datalogger out of the water due to low 
+tides
+10/10/99	05:15:00				Datalogger out of the water due to low 
+tides
+10/28/99	10:30:00-10/31/99 23:45:00	Major malfunction of datalogger 
+resulting in no data collection
+
+10/9/99	14:15:00-10/09/99 16:15:00	Zero/negative turbidity due to low 
+turbidity				
+10/10/99	3:45:00				Zero/negative turbidity due to low 
+turbidity
+10/10/99	5:00:00				Zero/negative turbidity due to low 
+turbidity
+10/11/99	01:00:00-10/11/99 02:30:00	Zero/negative turbidity due to low 
+turbidity				
+10/11/99	03:00:00-10/11/99 05:00:00	Zero/negative turbidity due to low 
+turbidity				
+10/11/99	03:15:00-10/11/99 04:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+10/11/99	16:30:00				DO spike suspect
+10/10/99	04:15:00-10/10/99 04:30:00	Zero/negative turbidity due to low 
+turbidity				
+10/10/99	15:00:00-10/10/99 16:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+10/10/99	15:45:00-10/10/99 16:30:00	Zero/negative turbidity due to low 
+turbidity				
+10/11/99	14:15:00				Zero/negative turbidity due to low 
+turbidity
+10/11/99	15:00:00-10/11/99 15:15:00	Zero/negative turbidity due to low 
+turbidity				
+10/11/99	15:45:00-10/11/99 16:00:00	Zero/negative turbidity due to low 
+turbidity				
+10/14/99	04:00:00-10/14/99 05:30:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/21/99	09:30:00				DO spike suspect
+10/22/99	12:30:00-10/22/99 13:15:00	Zero/negative turbidity due to low 
+turbidity				
+10/24/99	13:45:00				Zero/negative turbidity due to low 
+turbidity
+10/24/99	14:00:00				Zero/negative depths due to low tides 
+or low-pressure system
+10/24/99	14:45:00				Zero/negative depths due to low tides 
+or low-pressure system
+10/24/99	01:30:00-10/24/99 02:30:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/24/99	15:45:00-10/24/99 16:00:00	Zero/negative turbidity due to low 
+turbidity				
+10/25/99	02:15:00-10/25/99 02:45:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/25/99	14:30:00-10/25/99 16:30:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/26/99	17:00:00				Zero/negative turbidity due to low 
+turbidity
+10/26/99	02:00:00-10/26/99 05:00:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/26/99	14:45:00-10/26/99 17:45:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/27/99	2:45:00				Zero/negative turbidity due to low 
+turbidity
+10/27/99	02:15:00-10/27/99 05:45:00	Zero/negative depths due to low tides 
+or low-pressure system			
+10/27/99	03:15:00-10/27/99 03:30:00	Zero/negative turbidity due to low 
+turbidity				
+10/27/99	04:00:00-10/27/99 05:30:00	Zero/negative turbidity due to low 
+turbidity				
+
+
+November 1999:
+
+
+TC:
+11/28/99	23:15:00				Turbidity spike >1000 NTU removed
+
+November 1999:
+
+GI:
+
+11/01/99	00:00:00-11/10/99 14:45:00	Datalogger malfunction resulting in no 
+data collected
+11/10/99	15:00:00-11/30/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+11/10/99	16:15:00-11/10/99 16:45:00	Zero turbidity due to low turbidity
+11/11/99	02:45:00				Zero turbidity due to low turbidity
+11/11/99	03:15:00-11/11/99 03:30:00	Zero turbidity due to low turbidity
+11/11/99	04:30:00-11/11/99 04:45:00	Zero turbidity due to low turbidity
+11/11/99	05:30:00				Zero turbidity due to low turbidity
+11/21/99	10:45:00				Zero turbidity due to low turbidity
+11/21/99	13:15:00				Zero turbidity due to low turbidity
+11/21/99	14:45:00-11/21/99 15:00:00	Zero turbidity due to low turbidity
+11/21/99	23:15:00				Zero turbidity due to low turbidity
+11/22/99	00:00:00				Zero turbidity due to low turbidity
+11/22/99	00:45:00-11/22/99 01:00:00	Zero turbidity due to low turbidity
+11/26/99	17:30:00-11/26/99 18:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+
+
+December 1999:
+
+TC:
+12/01/99	12:30:00				Turbidity spike >1000 NTU removed
+12/05/99	13:30:00				Turbidity spike >1000 NTU removed
+12/19/99	17:15:00				Turbidity spike >1000 NTU removed
+	
+December 1999:
+
+GI:
+
+12/01/99	00:00:00-12/21/99 09:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+12/09/99	02:30:00-12/09/99 02:45:00	Zero turbidity due to low turbidity
+12/09/99	03:15:00-12/09/99 04:45:00	Zero turbidity due to low turbidity
+12/10/99	03:30:00-12/10/99 05:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/10/99	15:45:00-12/10/99 17:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/11/99	16:00:00-12/11/99 19:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/12/99	03:30:00-12/12/99 07:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+
+12/12/99	15:45:00-12/12/99 20:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/12/99	16:45:00-12/12/99 19:00:00	Datalogger out of the water due to low 
+tides
+12/17/99	20:30:00-12/18/99 12:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/17/99	21:15:00-12/17/99 23:45:00	Datalogger out of the water due to low 
+tides
+12/18/99	21:45:00-12/19/99 00:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/20/99	23:00:00				Missing data due to time skip during 
+deployment
+12/21/99	10:00:00				Increase in DO due to exchange of 
+datalogger
+12/21/99	10:00:00				Increase in pH due to difference in 
+calibration of datalogger
+12/21/99	10:00:00				Increase in depth due to difference in 
+calibration of datalogger
+12/21/99	10:15:00	12/21/99 10:30:00	Depth data my be suspect resulting 
+from recent deployment of datalogger
+12/21/99	10:15:00	12/21/99 10:45:00	Turbidity data my be suspect due to 
+deployment of datalogger
+12/23/99 	15:15:00	12/23/99 16:30:00	Datalogger out of the water due to low 
+tides
+12/23/99	15:30:00-12/23/99 16:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/26/99	04:15:00-12/26/99 08:00:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/26/99	04:45:00-12/26/99 07:00:00	Datalogger out of the water due to low 
+tides
+12/26/99	16:15:00-12/26/99 19:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/27/99	17:30:00-12/27/99 20:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/28/99	19:15:00-12/28/99 21:15:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/30/99	07:30:00-12/30/99 10:30:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/30/99	20:00:00-12/30/99 23:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+12/31/99	09:15:00-12/31/99 11:45:00	Zero/negative depths due to low tides 
+or low-pressure system
+
+
+12. Missing data
+
+Missing data is either the result of
+  1) the YSI not deployed 
+  2) YSI out of the water (negative depth with salinity of zero)
+  3) a probe not attached
+  4) a probe malfunction
+
+January 1999:
+
+TC:
+01/07/99	00:45:00				Turbidity spike >1000 NTU removed
+01/18/99	14:30:00				Datalogger out of the water due to low 
+tides		
+
+January 1999:
+
+GI:
+01/06/99	17:45:00-01/06/99 19:00:00 	Datalogger out of the water due to low 
+tides
+01/17/99	14:30:00-01/17/99 15:30:00 	Datalogger out of the water due to low 
+tides 
+01/29/99	14:00:00				Turbidity spike >1000 NTU removed	
+
+February 1999:
+
+TC:
+02/01/99	04:00:00-02/04/99 09:45:00	Datalogger malfunction resulting in no 
+data collection
+
+February 1999:
+
+GI:
+02/16/99	15:30:00-02/28/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance were calculated.
+
+March 1999:
+
+TC:
+03/03/99	19:00:00				Turbidity spike >1000 NTU removed
+
+March 1999:
+
+GI:
+03/01/99	00:00:00-03/11/99 17:15:00	Salinity values were corrected based 
+on field verification samples and no specific conductance were calculated.
+03/02/99	16:00:00				Datalogger out of the water due to low 
+tides
+03/04/99	02:30:00-03/04/99 06:45:00	Datalogger out of the water due to low 
+tides
+03/05/99	15:45:00-03/05/99 18:15:00	Datalogger out of the water due to low 
+tides
+03/11/99	17:30:00-03/25/99 09:45:00	DO data deleted due to possible 
+punctured membrane 
+03/18/99	02:30:00-03/18/99 04:15:00	Datalogger out of the water due to low 
+tides
+
+April 1999:
+
+TC:
+04/20/99	23:30:00				Turbidity spike >1000 NTU removed
+04/22/99	07:30:00				Datalogger out of the water during 
+deployment
+04/30/99	08:00:00				Turbidity spike >1000 NTU removed
+
+
+April 1999:
+
+GI:
+
+04/08/99	12:30:00-04/22/99 09:45:00	Major malfunction in datalogger 
+resulted in no data collection
+
+May 1999
+
+TC:
+05/11/99	03:45:00				Turbidity spike >1000 NTU Removed
+05/28/99	12:30:00-05/31/99 23:45:00	Punctured DO membrane; data removed
+
+May 1999:
+
+GI:
+
+05-27-99	09:00:00-05/31/99 23:45:00	Depth data deleted due to possible 
+clogging of port with large deposits of clingfish eggs on the YSI.
+
+June 1999:
+
+TC:
+	
+June 1999:
+
+GI:
+06/03/99	09:15:00				Datalogger out of the water during 
+deployment
+06/03/99	09:30:00-06/15/99 11:30:00	Salinity values were corrected based 
+on field verification sample and no specific conductance was calculated.
+06/10/99	13:45:00				Datalogger out of the water during 
+deployment
+06/17/99	05:15:00-06/28/99 16:30:00	Datalogger flooded resulting in no 
+data collection
+06/28/99	17:00:00				Turbidity spike >1000 NTU removed
+
+July 1999:
+
+TC:
+	
+July 1999:
+
+GI:
+07/03/99	05:15:00-07/03/99 06:45:00	Datalogger out of the water
+07/27/99	10:45:00-07/31/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+
+August 1999:
+
+TC:
+08/09/99	11:45:00				Turbidity spike >1000 NTU removed
+08/12/99	07:00:00				Datalogger out of the water during 
+deployment
+08/14/99	09:00:00-08/19/99 13:45:00	Punctured DO membrane
+08/23/99	16:45:00-08/30/99 13:00:00	Datalogger flooded resulting in no 
+data collected
+
+August 1999:
+
+GI:
+
+08/01/99	00:00:00-08/26/99 10:30:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+08/10/99	11:15:00				Datalogger out of the water during 
+deployment
+08/24/99	04:30:00				Turbidity spike >1000 NTU removed
+08/31/99	09:00:00-08/31/99 23:45:00	Punctured DO membrane
+
+
+September 1999:
+
+TC:
+09/05/99	02:15:00-09/05/99 09:15:00	Turbidity spike >1000 NTU removed
+09/05/99	12:30:00-09/05/99 13:00:00	Turbidity spike >1000 NTU removed
+09/05/99	14:30:00-09/05/99 15:00:00	Turbidity spike >1000 NTU removed
+
+September 1999:
+
+GI:
+09/01/99	00:00:00-09/03/99 10:30:00	Punctured DO membrane; data removed
+09/11/99	15:00:00-09/14/99 10:15:00	Punctured DO membrane; data removed
+09/24/99	09:30:00-09/24/99 11:00:00	Datalogger skipped in time and did not 
+collect data
+
+October 1999:
+
+TC:
+
+October 1999:
+
+GI:
+
+10/09/99	06:45:00-10/09/99 07:00:00	Datalogger out of the water due to low 
+tides
+10/10/99	05:15:00				Datalogger out of the water due to low 
+tides
+10/28/99	10:30:00-10/31/99 23:45:00	Major malfunction of datalogger 
+resulting in no data collection
+
+
+November 1999:
+
+
+TC:
+11/28/99	23:15:00				Turbidity spike >1000 NTU removed
+
+November 1999:
+
+GI:
+
+11/01/99	00:00:00-11/10/99 14:45:00	Datalogger malfunction resulting in no 
+data collected
+11/10/99	15:00:00-11/30/99 23:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+
+
+December 1999:
+
+TC:
+12/01/99	12:30:00				Turbidity spike >1000 NTU removed
+12/05/99	13:30:00				Turbidity spike >1000 NTU removed
+12/19/99	17:15:00				Turbidity spike >1000 NTU removed
+	
+December 1999:
+
+GI:
+
+12/01/99	00:00:00-12/21/99 09:45:00	Salinity values were corrected based 
+on field verification samples and no specific conductance was calculated.
+12/12/99	16:45:00-12/12/99 19:00:00	Datalogger out of the water due to low 
+tides 
+12/17/99	21:15:00-12/17/99 23:45:00	Datalogger out of the water due to low 
+tides 
+12/20/99	23:00:00				Missing data due to time skip during 
+deployment
+12/23/99 	15:15:00	12/23/99 16:30:00	Datalogger out of the water due to low 
+tides
+12/26/99	04:45:00-12/26/99 07:00:00	Datalogger out of the water due to low 
+tides 
+
+
+12. Remarks
+
+Any regions of data with negative depth values due to low tides or low-pressure 
+systems should be viewed with caution.  In some instances the probes are clearly 
+out of water and have been noted.  Depth data should be considered relative 
+depth. 
+
+Due to conductance calibration error, salinity values were adjusted based on 
+field verification samples taken at each datasonde deployment and retrieval. 
+Datasonde specific conductance data were deleted and replaced with periods.  
+Corrected salinity values are presented in edited and raw data files. Percent 
+dissolved oxygen saturation values were computed based on equations provided by 
+APHA Standard Methods 1989. No changes were made to raw dissolved oxygen 
+concentration data.
+
+
+
+
+

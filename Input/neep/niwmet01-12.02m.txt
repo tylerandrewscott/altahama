@@ -1,0 +1,2467 @@
+NIW NERR Site Weather Station Metadata
+January – December 2002
+Latest Update:  June 8, 2004
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons
+Wendy Allen, 	Manager, wendy@belle.baruch.sc.edu
+Dr. Andrew Lohrer, Research Coordinator (until March 2002), 
+lohrer@belle.baruch.sc.edu
+Jennifer Keesee, Research Specialist, jkeesee@belle.baruch.sc.edu
+Tracy Buck, Research Specialist, tracy@belle.baruch.sc.edu
+	
+Address:
+	Baruch Marine Laboratory
+	University of South Carolina  
+	PO Box 1630, Georgetown, SC 29442
+	Phone: (843) 546-6219	
+	Baruch Institute home page:  	http://inlet.geol.sc.edu.
+
+2.  Entry verification
+
+a) Data Input Procedures:
+
+The 15-minute data, 1-hour average data, and 24-hour data were downloaded from 
+each instrument on the weather station to a Campbell Scientific CR10X datalogger (the 
+CDMO Data Logger Program was loaded into the CR10X and controls the sensors and 
+data collection schedule (see Part B of this section for the data collection schedule)).  The 
+CR10X then interfaced with the PC208W software supplied by Campbell Scientific via a 
+short haul modem at Baruch Marine Lab.  This software was located on a computer to 
+which the data was uploaded (every 5 minutes) via a short haul modem to a computer 
+located at Baruch Marine Lab.  The data was saved as a monthly raw data file (RAW 
+0101.dat) onto a separate hard drive and backed up onto the Baruch Marine Lab server.  
+Once an entire month of data was available, the CDMO Weather Data Management 
+Program (WDMP) converted the files to an Access database.  This program was 
+developed in Visual Basic to interface with the NERRS data collection schedule (see Part 
+B of this section for the data collection schedule).  The WDMP will automatically input 
+and convert the monthly raw data file into an Access Database. There are three main 
+steps the WDMP performs. First, it converts the comma delimited monthly raw data file 
+into an Access Database. Secondly, it checks the data against a predetermined set of error 
+criteria (see Part C of this section). Finally, it produces error and summary reports. Any 
+anomalous data were investigated and are noted below in Anomalous Data section.  Any 
+data corrections that were performed are noted in the Data Correction section below.  
+Common errors noted in the monthly error reports were wind speeds below the 0.5 m/s 
+criteria, temperature change of greater than 3 C in a 15-minute period, and precipitation 
+difference of greater than 5mm in 15 minutes.  All errors of these types were double 
+checked with other data that could support such "anomalous" weather changes and noted 
+in the sections that follow.  Data corrections were performed on some 24-hour maximum 
+and minimum values due to problems further described in that section.  Both raw data 
+files and Access databases were saved to Compact Disc for archival and backed-up on the 
+server. 
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+b) Data Collection Schedule
+
+	i) Data is collected in the following formats:
+
+		1) 15 minute data are instantaneous readings except for PAR and precipitation 
+		data that are totalized from 5 second samples sorted by date and time. 		
+		(Arrays 150 and 151)
+		2) Hourly averages (Arrays 101 and 102) are calculated from 5 second 
+		samples sorted by date and time except for PAR and precipitation data that 	
+		are hourly totals calculated from 15 minute totals (Arrays 105 and 106).
+		3) Daily average (arrays 241 and 242), maximum with time, and minimum 
+		with time (arrays 243 and 244) are calculated from 5 second samples sorted 
+		by date and time except for PAR and precipitation data which are 24 hour 
+		totals calculated from hourly totals (arrays 245 and 246).
+
+	ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), Relative 
+	Humidity (%), LiCor (PAR), Barometric Pressure (mb), Wind Speed (m/s), Wind 
+	Direction (Array 150); Rainfall (mm) (Array 151); Eppley (Array 112)
+
+	iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 101); Wind Speed (m/s), Wind Direction, Wind 
+	Speed	Maximum (Array 102) 
+	 
+	iv) Hourly total parameters: LiCor (PAR) (Array 105); Rainfall (mm) (Array 106)
+
+	v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 241); Wind Speed (m/s), Wind Direction, 
+	Wind Direction Standard Deviation (using Yamartino's Algorithm) (Array 242)
+
+	vi) Daily Total parameter: LiCor (PAR) (Array 245); Rainfall (mm) (Array 246)
+
+	vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 243)
+
+	viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 244)
+
+	
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+	- 15 min sample greater than max for the day
+	- 15 min sample less than the min for the day
+	- 15 min sample greater than 3.0 °C from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+	- Changed by more than 25% from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+	- Precipitation greater than 5 mm in 15 minutes
+	- No precipitation for the month
+
+Wind Speed:
+	- Wind speed greater than 30 m/s
+	- Wind speed less than 0.5 m/s
+
+Wind Direction:
+	- Wind direction greater than 360 degrees
+	- Wind direction less than 0 degrees
+
+Pressure:
+	- Pressure greater than 1040 mb or less than 980 mb
+	- Pressure changes greater than 5 mb per hour
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+	- 15-minute interval not recorded
+
+For all data:
+	- Duplicate interval data	
+
+
+3.  Research objectives (Campbell Weather Station)
+
+The principal objective is to record long-term meteorological data for North Inlet-Winyah 
+Bay in order to observe any environmental changes or trends over time.  The data is also 
+used to complement other biological, chemical, or physical research conducted 
+throughout the reserve, including YSI data. 
+
+4.	Research methods:
+The weather station is located at the end of Oyster Landing pier with the Wind Sentry, 
+Temperature and Humidity sensor, Barometric Sensor and Eppley Pyranometer all 
+located on the approximately 3.5 m aluminum tower following the descriptions outlined 
+in the CDMO Manual V 4.0.  The Tipping Bucket Rain gauge is located to the NE away 
+from the tower and the platform.  The LiCor Sensor is located on the far SE piling of the 
+floating dock away from any obstruction.  The sensors were wired to the CR10X 
+following the protocol in the Campbell Sensor Manuals. 
+
+Samples are taken every 5 seconds continuously throughout the year.  These data are 
+used by the CR10X to produce hourly and daily averages of those measurements of air 
+temperature, relative humidity, barometric pressure, rainfall, wind speed, and wind 
+direction.  An instantaneous sample is also taken every 15 minutes and that data is stored 
+as array 150.  A one-week sampling interval was chosen so that the CR10X would not 
+run out of room and overwrite data, especially is the short haul modem link failed and 
+data could not be sent from the datalogger to the computer.  If this were the case, the data 
+would have to be downloaded at the storage module to a laptop or the storage module 
+would be replaced and brought back to the lab for downloading procedures in Part D 
+Section 4.5 of the CDMO Manual. All collected data is QA/Qced monthly with the 
+SWMP WDMP.  Any error messages are further investigated and the data is changed (if 
+necessary), noted as anomalous, or noted but documented as correct data.
+
+Periodically, sensors on the weather station are inspected for damage or debris.  If any is 
+found, it is repaired and/or cleaned.  The rain gauge tends to collect the most debris and is 
+cleaned out at least weekly.  Sensors are removed and sent back to Campbell Scientific or 
+independent manufacturers for calibrations at least every two years. 
+
+** Please note that when using LiCor data for 2001 through April 2002 there were 
+many instances where the data were deleted or modified.  See the Data 
+Anomalies/Data Corrections for specific dates and times.   If data are needed for the 
+time periods when it was deleted, contact the NI-WB Reserve for raw data that can 
+be used for trend comparisons. **
+
+LiCor:  4/19/00 (J Day 110) to 4/3/02 (J Day 93):  The multipliers were incorrect during 
+this period.  Apparently, when the new sensor was installed on 4/19/00, the 
+multiplier was never changed.  The sensor was re-calibrated in March of 2001, 
+but when it was re-installed the multiplier still wasn't corrected.  The multiplier 
+was finally corrected on 4/3/02 for the sensor in use.  
+	On 12/14/00 the LiCor sensor was moved off of the top of the storage 
+cabinet (on the platform) to the Southeast corner piling of the floating 
+dock (off of the platform).
+	10/19/97 (J Day 292) through the present:  All values less than 0 are 
+currently altered in the raw data to read 0.  These values may indicate an 
+incorrect multiplier, calibration problems, or a sensor malfunction.  
+Because these values are changed in the raw data, we cannot confirm that 
+they are all valid data points.
+
+Relative Humidity:
+	10/19/97 (J Day 292) through the present:  All values over 100% are currently 
+altered in the raw data to read 100%.  These values may indicate super saturated 
+air, calibration problems, or a sensor malfunction.  Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.  
+
+5.  Site location and character:
+The North Inlet-Winyah Bay National Estuarine Research Reserve is located on the 
+Southeastern Atlantic coast of the United States in two tidal estuaries, North Inlet and 
+Winyah Bay, near Georgetown, South Carolina.  The North Inlet estuary, located 
+approximately 10 km east of Georgetown, is a bar-built Class C type estuary (Pritchard, 
+1955).  The North Inlet estuary is composed of numerous winding tidal creeks, and is 
+considered a pristine tidal estuary due to minimal anthropogenic impacts.  The watershed 
+drains a 24.8 km2 area of mostly pine forest and a moderately developed residential 
+watershed to the north.  The Winyah Bay estuary, classified as a Class B type estuary by 
+Pritchard (1955) and composed of waters that originate in the Blue Ridge Mountains of 
+North Carolina, is one of the largest river-estuary ecosystems on the Eastern Seaboard.  It 
+is located 14.4 km south of North Inlet.  Winyah Bay drains the sub-basins of 6 major 
+rivers, which are heavily impacted by agriculture, mining, and industry.  The rivers drain 
+approximately 46,736 km2 of uplands and marshes.  
+
+Description of the specific sampling station follows:
+Oyster Landing (OL) - (lat.  33:20:58; long.  79:11:34). The Oyster Landing monitoring 
+site is considered a fairly pristine and undisturbed area located at the end of the Oyster 
+Landing pier which is also where the NI-WB NERR weather station site is located.  The 
+pier stretches into the upper reaches of Crabhaul Creek in the mid western portion of 
+North Inlet.  The sampling site is located approximately 2.8 km from the headwaters of 
+Crabhaul Creek.  The creek directly drains pine forested uplands and wetlands.  Salinity 
+can range from 0-32 ppt. and average tidal flux is approximately 1.4m.  The creek has an 
+average depth of ~2 m MHW and average width of ~150m MHW.  The bottom mostly is 
+comprised of oyster shell hash with some fine sediment and detritus.
+
+6.  Data collection period:
+Weather data has been collected at the Oyster Landing pier since 1989.  The current 
+weather station has been operational since 1994.  Data was collected for the January-
+December 2002.
+
+7.  Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic courtesy 
+standards, the PI and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are used.  
+Manuscripts resulting from the NOAA/OCRM supported research that are produced for 
+publication in open literature, including refereed scientific journals, will acknowledge 
+that the research was conducted under an award from the Estuarine Reserves Division, 
+Office of Ocean and Coastal Resource Management, National Ocean Service, National 
+Oceanic and Atmospheric Administration.  The data set enclosed within this 
+package/transmission is only as good as the quality assurance/quality control procedures 
+outlined by the enclosed metadata reporting statement.  The user bears all responsibility 
+for its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient of third persons, nor will the 
+Federal government reimburse or indemnify the Recipient for its liability due to any 
+losses resulting in any way from the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see section 1. Principal investigators and contact persons), 
+from the Data Manager at the Centralized Data Management Office (please see personnel 
+directory under the general information link on the CDMO home page) and online at the 
+CDMO home page http://cdmo.baruch.sc.edu.  Data are available in text format and 
+Access data tables.
+
+8.  Associated researchers and projects
+The NERR Water Quality Monitoring Project also has a station located at Oyster 
+Landing.  The principal objective of this study is to record long-term water quality data 
+for North Inlet/Winyah Bay in order to observe any physical changes or trends in water 
+quality over time.  Three sites were chosen; one to represent our pristine site and the 
+other two to represent impacted sites.  The Oyster Landing site is located near the center 
+of the Reserve and is considered pristine.  Debidue Creek and Thousand Acre are both 
+located in waterways that receive run-off from heavily developed areas.  Measurements 
+are taken every 30 minutes over roughly two week collecting periods at the Oyster 
+Landing, Debidue Creek and Thousand Acre sites for all of 2000. 
+
+A water chemistry program is associated with the NIW core-monitoring program. 
+Variables sampled include: chlorophyll, dissolved organic carbon, nitrate-nitrite, 
+orthophosphate, and ammonia.  (See documentation on the NIW WWW home page for 
+further details).  Thousand Acre is our permanent monitoring station for the NERR 
+monitoring program, but Oyster Landing and Debidue Creek were also sampled 
+beginning in 1998.  These stations are also included in our NIW core-monitoring 
+program.
+
+A long term fish survey is also done at the Oyster Landing site bi-weekly.  Species 
+present, total weight, individual weights and standard lengths of fish that utilize the 
+marsh at low tide are recorded.  In the spring/summer/fall months, fish utilizing the marsh 
+at high tide are also sampled.
+
+II.	Physical Structure Descriptors:
+
+9.	Sensor specifications, operating range, accuracy and date of last calibration:
+
+The following sensors were in service from 05/2001 (LiCor 06/26/01)-12/31/02
+
+Eppley Black and White Pyranometer
+Model # 8-48; SN 28070
+Resistance:  353 O at 23°C
+Temperature Compensation Range:  -20 to +40°C
+Sensitivity:  10.35 X 10-6 volts/watts meter-2
+	       7.22 millivolts/cal cm-2  min-1
+Date in Use:  05/17/2001
+Date of last calibration:  02/07/2001
+
+LiCor Quantum Sensor 
+Model # LI190SZ; SN Q18206
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date in Use:  06/26/2001
+Date of last calibration:  03/06/2001
+
+Met One Wind Sensor
+Model # 034A-L; SN 
+Range:  0-50 m/s; 360° mechanical
+Date in Use:  05/17/2001
+Date of last calibration:  09/28/2001
+
+Temperature and Relative Humidity
+Model #:  HMP45C; SN U2520001
+Operating Temperature:  -40 to 60°C
+Temperature Measurement Range: -40 to 60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3% (90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date in Use:  09/18/2001
+Date of Last calibration:  08/21/2001
+
+Barometric Sensor
+Model # CS-105; SN W1530030 (SN R4230013 replaced under warranty)
+Operating Range:	Pressure: 600 to 1060 mb
+			Temperature:  -40 to 60C
+			Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20 to 60C)
+Stability: ± 0.1 mb per year
+Date in Use:  05/17/2001
+Date of Last calibration:  new 05/2001
+
+Tipping Bucket Rain Gauge
+Model #:  TE 525; SN 27988-1200 (new March 2001)
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date in Use:  05/17/2001
+Date of Last calibration:  7/10/02
+
+Back-up Sensors:
+
+Eppley Black and White Pyranometer
+Model # 8-48; SN 28078
+Resistance:  353 O at 23°C
+Temperature Compensation Range:  -20 to +40°C
+Sensitivity:  10.35 X 10-6 volts/watts meter-2
+	       7.22 millivolts/cal cm-2  min-1
+Date in Use:  08/11/1999 thru 05/17/2001
+Date of last calibration: 03/19/1997
+
+LiCor Quantum Sensor 
+Model # LI190SB; SN Q26604
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date in Use:  07/1997 thru 04/1999, 04/1999 thru 04/19/2000, 03/2001 thru 06/26/2001
+Date of last calibration:  04/16/99
+
+Wind Sentry
+Model # 03001-5; SN 8702
+Range:  0-50 m/s; 360° mechanical
+Dates in Use:  07/1997 thru 05/17/2001
+Date of last calibration:  2001
+
+Temperature and Relative Humidity
+Model #:  HMP35C; SN R2620008
+Operating Temperature:  -40 to 60°C
+Temperature Measurement Range: -40 to 60°C 
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date in Use:   07/1997 thru 08/11/1999, 05/17/2001 thru 09/18/2001
+Date of Last calibration:  02/22/01
+
+Barometric Sensor
+Model # CS-105; SN U1120009
+Operating Range:	Pressure: 600 to 1060 mb
+			Temperature:  -40 to 60C
+			Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20 to 60C)
+Stability: ± 0.1 mb per year
+Date in Use:  08/11/1999 thru 05/17/2001
+Date of Last calibration:  new sometime in 1999 
+
+Tipping Bucket Rain Gauge (No longer in use)
+Model #:  Sierra-Misco Environment Ltd. 2500; SN 1425C
+Range:  0.1 mm
+Accuracy: ??
+Date of Use:  07/1997 thru 05/17/2001
+Date of Last calibration:  unknown
+
+
+10.	 Coded variable indicator and variable code definitions.
+
+OL= Oyster Landing
+
+11.	Data anomalies/Data corrections:
+
+
+January 2002
+
+Anomalies: 
+a).  For the following date and time an error message was recorded for wind directions 
+greater than 360 degrees and less than 0 degrees.   Although the data were retained due to 
+the small error (approximately 3 degrees), it should be noted that they are suspect.
+
+Array	Day	Julian Date 	Time	Error Message
+150	1	1	745	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 745 ( 363.12)
+150	1	1	1000	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1000 ( 363.19)
+150	1	1	1115	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1115 ( 363.09)
+150	1	1	1200	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1200 ( 360.53)
+150	1	1	1430	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1430 ( 363.11)
+150	1	1	1645	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1645 ( 362.92)
+150	1	1	1700	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 1700 ( 360.18)
+150	1	1	2115	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 2115 ( 363.07)
+150	1	1	2130	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 2130 ( 362.32)
+150	1	1	2400	Wind direction is greater than 360 or less than 0 on  
+1 ( 1) 2400 ( 360.15)
+150	2	2	245	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 245 ( 363.11)
+150	2	2	500	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 500 ( 360.28)
+150	2	2	845	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 845 ( 360.18)
+150	2	2	1015	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1015 ( 363.12)
+150	2	2	1030	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1030 ( 362.49)
+150	2	2	1300	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1300 ( 363.12)
+150	2	2	1315	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1315 ( 363.12)
+150	2	2	1330	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1330 ( 363.12)
+150	2	2	1415	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1415 ( 362.93)
+150	2	2	1715	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 1715 ( 363.12)
+150	2	2	2115	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 2115 ( 361)
+150	2	2	2300	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 2300 ( 361.72)
+150	2	2	2330	Wind direction is greater than 360 or less than 0 on  
+2 ( 2) 2330 ( 360.23)
+150	3	3	15	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 15 ( 363.12)
+150	3	3	115	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 115 ( 361.63)
+150	3	3	345	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 345 ( 360.28)
+150	3	3	500	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 500 ( 363.17)
+150	3	3	630	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 630 ( 363.17)
+150	3	3	700	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 700 ( 362.11)
+150	3	3	715	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 715 ( 363.17)
+150	3	3	830	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 830 ( 360.44)
+150	3	3	1100	Wind direction is greater than 360 or less than 0 on  
+3 ( 3) 1100 ( 362.78)
+150	4	4	1145	Wind direction is greater than 360 or less than 0 on  
+4 ( 4) 1145 ( 363.24)
+150	5	5	2345	Wind direction is greater than 360 or less than 0 on  
+5 ( 5) 2345 ( 363.22)
+150	8	8	1000	Wind direction is greater than 360 or less than 0 on  
+8 ( 8) 1000 ( 361.24)
+150	11	11	1745	Wind direction is greater than 360 or less than 0 on  
+11 ( 11) 1745 ( 362.04)
+150	13	13	1345	Wind direction is greater than 360 or less than 0 on  
+13 ( 13) 1345 ( 363.15)
+150	14	14	245	Wind direction is greater than 360 or less than 0 on  
+14 ( 14) 245 ( 363.12)
+150	14	14	845	Wind direction is greater than 360 or less than 0 on  
+14 ( 14) 845 ( 362.53)
+150	16	16	530	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 530 ( 362)
+150	16	16	715	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 715 ( 363.21)
+150	16	16	745	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 745 ( 363.24)
+150	16	16	830	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 830 ( 361.04)
+150	16	16	845	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 845 ( 363.21)
+150	16	16	2100	Wind direction is greater than 360 or less than 0 on  
+16 ( 16) 2100 ( 363.18)
+150	18	18	1645	Wind direction is greater than 360 or less than 0 on  
+18 ( 18) 1645 ( 362.35)
+150	21	21	715	Wind direction is greater than 360 or less than 0 on  
+21 ( 21) 715 ( 363.13)
+150	23	23	1745	Wind direction is greater than 360 or less than 0 on  
+23 ( 23) 1745 ( 363.2)
+150	23	23	1800	Wind direction is greater than 360 or less than 0 on  
+23 ( 23) 1800 ( 363.21)
+150	23	23	1815	Wind direction is greater than 360 or less than 0 on  
+23 ( 23) 1815 ( 363.16)
+150	25	25	1115	Wind direction is greater than 360 or less than 0 on  
+25 ( 25) 1115 ( 363.19)
+150	25	25	1430	Wind direction is greater than 360 or less than 0 on  
+25 ( 25) 1430 ( 363.24)
+150	26	26	230	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 230 ( 363.18)
+150	26	26	300	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 300 ( 363.18)
+150	26	26	430	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 430 ( 363.17)
+150	26	26	500	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 500 ( 362.9)
+150	26	26	515	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 515 ( 363.19)
+150	26	26	630	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 630 ( 363.18)
+150	26	26	700	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 700 ( 360.35)
+150	26	26	845	Wind direction is greater than 360 or less than 0 on  
+26 ( 26) 845 ( 362.7)
+
+b).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	10	10	1700	Air temp difference from  10 ( 10) 1700 ( 17.873) to  
+10 ( 10) 1715 ( 14.869) is greater than 3.0 degrees C
+150	19	19	2115	Air temp difference from  19 ( 19) 2115 ( 16.28) to  
+19 ( 19) 2130 ( 11.468) is greater than 3.0 degrees C
+150	30	30	1315	Air temp difference from  30 ( 30) 1315 ( 23.415) to  
+30 ( 30) 1330 ( 19.606) is greater than 3.0 degrees C
+150	13	13	1700	Rel hum difference from  13 ( 13) 1700 ( 35.497) to  
+13 ( 13) 1715 ( 68.055) is greater than 25%
+150	17	17	1515	Rel hum difference from  17 ( 17) 1515 ( 32.147) to  
+17 ( 17) 1530 ( 58.413) is greater than 25%
+101	14	14	400	Air temp average in 1 hour data ( 1.9343) is greater 
+than 15 minute maximum ( 1.6931) by at least 10%
+
+c).  From 7:00 on January 3 (Julian Date 3) to 9:00 on January 4 (Julian Date 4) the 
+WDMP replaced Wind data at Array 102 with 11111.  This was not included in the Error 
+Report after recompiling corrected data.   Extremely cold temperatures combined with 
+sleet may have resulted in the instrument freezing up.  Hourly data at 600 on January 3 
+are suspect.  The wind sensor may have started freezing at this time.  
+
+Array	Day	Julian Date 	Time	Error Message
+102	3	3	600	Wind speed is less than 0.5 m/s from  3 ( 3)  600 to  
+4 ( 4)  900
+
+Corrections:
+a).  Rainfall data for January 3  (Julian Date 3) were corrected by deleting erroneous 15-
+minute and hourly average data and replacing it with 55555 and subtracting .254 from the 
+24 hour averages.   
+
+Array	Day	Julian Date 	Time	Error Message
+151	3	3	1230	Technician changed 151 Array from  3 ( 3) 1230
+
+b).  15 minute and 24 hour wind data on January 3 and January 4 were corrected with 55555 due to 
+possible freezing of sensor.  See Missing Data section for additional remarks.
+
+Array	Day	Julian Date 	Time	Error Message
+150	3	3	700	Technician changed 150 Array data from  3 ( 3) 700 to  4 ( 4) 900
+242	3	3	2400	Technician changed 242 Array from  3 ( 3) 2400 to  4 ( 4) 2400
+243	3	3	2400	Technician changed 243 Array data from  3 ( 3) 2400 to  4 ( 4) 2400
+244	3	3	2400	Technician changed 244 Array data from  3 ( 3) 2400 to  4 ( 4) 2400
+
+c).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads which may have resulted in missing 5-second data. 
+
+Power off and program reload at 14:50 through 15:30
+Array	Day	Julian Date 	Time	Error Message
+101	9	9	1600	Technician changed 101 Array data at 9 ( 9) 1600 
+102	9	9	1600	Technician changed 102 Array at 9 ( 9) 1600 
+241	9	9	2400	Technician changed 241 Array at  9 ( 9) 2400 
+242	9	9	2400	Technician changed 242 Array at  9 ( 9) 2400 
+243	9	9	2400	Technician changed 243 Array data at  9 ( 9) 2400 
+244	9	9	2400	Technician changed 244 Array data at  9 ( 9) 2400 
+
+d).   For the entire month of January all LiCor data were edited and corrected due to an 
+incorrect multiplier being used since June 26, 2001.   The multiplier was corrected on 
+April 3, 2002
+
+e).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from January 1 through January 31, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	1		2400	Technician changed 241 Array data at  1 ( 1) 2400 
+to  31 ( 31) 2400
+
+
+February 2002
+
+Anomalies:
+a).  For the following date and time an error message was recorded for wind directions 
+greater than 360 degrees and less than 0 degrees.   Although the data were retained due to 
+the small error (approximately 3 degrees), it should be noted that they are suspect.
+
+Array	Day	Julian Date 	Time	Error Message
+150	2	33	915	Wind direction is greater than 360 or less than 0 on  
+2 ( 33) 915 ( 363.11)
+150	2	33	945	Wind direction is greater than 360 or less than 0 on  
+2 ( 33) 945 ( 360.36)
+150	3	34	230	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 230 ( 362.75)
+150	3	34	515	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 515 ( 363.16)
+150	3	34	530	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 530 ( 363.18)
+150	3	34	730	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 730 ( 360.26)
+150	3	34	800	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 800 ( 360.99)
+150	3	34	1415	Wind direction is greater than 360 or less than 0 on  
+3 ( 34) 1415 ( 363.11)
+150	4	35	2300	Wind direction is greater than 360 or less than 0 on  
+4 ( 35) 2300 ( 362.74)
+150	5	36	100	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 100 ( 361.58)
+150	5	36	400	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 400 ( 362.1)
+150	5	36	945	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 945 ( 360.49)
+150	5	36	1100	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 1100 ( 363.12)
+150	5	36	1200	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 1200 ( 363.16)
+150	5	36	1245	Wind direction is greater than 360 or less than 0 on  
+5 ( 36) 1245 ( 363.15)
+150	6	37	715	Wind direction is greater than 360 or less than 0 on  
+6 ( 37) 715 ( 363.2)
+150	6	37	1030	Wind direction is greater than 360 or less than 0 on  
+6 ( 37) 1030 ( 363.2)
+150	8	39	1000	Wind direction is greater than 360 or less than 0 on  
+8 ( 39) 1000 ( 362.89)
+150	9	40	945	Wind direction is greater than 360 or less than 0 on  
+9 ( 40) 945 ( 363)
+150	11	42	1630	Wind direction is greater than 360 or less than 0 on  
+11 ( 42) 1630 ( 362.61)
+150	11	42	1745	Wind direction is greater than 360 or less than 0 on  
+11 ( 42) 1745 ( 363.13)
+150	11	42	1845	Wind direction is greater than 360 or less than 0 on  
+11 ( 42) 1845 ( 363.05)
+150	11	42	2100	Wind direction is greater than 360 or less than 0 on  
+11 ( 42) 2100 ( 363.09)
+150	12	43	130	Wind direction is greater than 360 or less than 0 on  
+12 ( 43) 130 ( 360.45)
+150	13	44	845	Wind direction is greater than 360 or less than 0 on  
+13 ( 44) 845 ( 363.24)
+150	13	44	930	Wind direction is greater than 360 or less than 0 on  
+13 ( 44) 930 ( 363.18)
+150	13	44	2345	Wind direction is greater than 360 or less than 0 on  
+13 ( 44) 2345 ( 360.83)
+150	14	45	30	Wind direction is greater than 360 or less than 0 on  
+14 ( 45) 30 ( 361.99)
+150	14	45	145	Wind direction is greater than 360 or less than 0 on  
+14 ( 45) 145 ( 363.18)
+150	14	45	200	Wind direction is greater than 360 or less than 0 on  
+14 ( 45) 200 ( 362.17)
+150	14	45	215	Wind direction is greater than 360 or less than 0 on  
+14 ( 45) 215 ( 360.87)
+150	14	45	315	Wind direction is greater than 360 or less than 0 on  
+14 ( 45) 315 ( 363.23)
+150	15	46	600	Wind direction is greater than 360 or less than 0 on  
+15 ( 46) 600 ( 363.18)
+150	15	46	915	Wind direction is greater than 360 or less than 0 on  
+15 ( 46) 915 ( 363.24)
+150	17	48	2015	Wind direction is greater than 360 or less than 0 on  
+17 ( 48) 2015 ( 361.3)
+150	17	48	2400	Wind direction is greater than 360 or less than 0 on  
+17 ( 48) 2400 ( 363.16)
+150	19	50	830	Wind direction is greater than 360 or less than 0 on  
+19 ( 50) 830 ( 363.29)
+150	22	53	1130	Wind direction is greater than 360 or less than 0 on  
+22 ( 53) 1130 ( 360.21)
+150	22	53	1200	Wind direction is greater than 360 or less than 0 on  
+22 ( 53) 1200 ( 361.35)
+150	23	54	715	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 715 ( 363.18)
+150	23	54	1445	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1445 ( 363.27)
+150	23	54	1530	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1530 ( 363.27)
+150	23	54	1545	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1545 ( 361.49)
+150	23	54	1715	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1715 ( 360.48)
+150	23	54	1730	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1730 ( 363.27)
+150	23	54	1830	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 1830 ( 363.27)
+150	23	54	2115	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 2115 ( 363.23)
+150	23	54	2330	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 2330 ( 363.19)
+150	23	54	2400	Wind direction is greater than 360 or less than 0 on  
+23 ( 54) 2400 ( 363.23)
+150	24	55	315	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 315 ( 363.24)
+150	24	55	330	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 330 ( 363.22)
+150	24	55	500	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 500 ( 363.21)
+150	24	55	515	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 515 ( 361.67)
+150	24	55	645	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 645 ( 363.19)
+150	24	55	700	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 700 ( 363.19)
+150	24	55	715	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 715 ( 360.01)
+150	24	55	1430	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 1430 ( 363.15)
+150	24	55	1545	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 1545 ( 362.43)
+150	24	55	1830	Wind direction is greater than 360 or less than 0 on  
+24 ( 55) 1830 ( 360.5)
+150	25	56	315	Wind direction is greater than 360 or less than 0 on  
+25 ( 56) 315 ( 362.93)
+150	28	59	845	Wind direction is greater than 360 or less than 0 on  
+28 ( 59) 845 ( 362.76)
+
+b).  For the following date and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	24	55	1745	Rel hum difference from  24 ( 55) 1745 ( 27.607) to  
+24 ( 55) 1800 ( 56.22) is greater than 25%
+
+Corrections:
+a).   For the entire month of February all LiCor data were edited and corrected due to an 
+incorrect multiplier being used since June 26, 2001.   The multiplier was corrected on 
+April 3, 2002
+
+b).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from February 1 through February 28, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	32	2400	Technician changed 241 Array data at  1 ( 32) 2400 
+to  28 ( 59) 2400
+
+
+March 2002
+ 
+Anomalies:
+a).  For the month of March there were several times when changes were made to the 
+wind sensor program to try to correct wind directions greater than 360 degrees and less 
+than 0 degrees.  Although the multiplier was adjusted several times during the month, the 
+adjustments would only have changed the wind direction by a few degrees.  All wind 
+direction data for March should be considered suspect because of this.  
+
+b).  On March 7 (Julian Date 66) the wind direction tail had to be adjusted because it was 
+bent and making contact with the weather station tower.  Data recorded while the wind 
+direction tail was being repaired were deleted, however, data prior to discovering the 
+problem were not deleted since we do not know how long the problem existed, therefore, 
+wind data during the week prior to March 7 should be considered suspect.    
+
+c).  For the following date and time an error message was recorded for wind directions 
+greater than 360 degrees and less than 0 degrees.   Although the data were retained due to 
+the small error (approximately 3 degrees), it should be noted that they are suspect.
+
+Array	Day	Julian Date 	Time	Error Message
+150	1	60	830	Wind direction is greater than 360 or less than 0 on  
+1 ( 60) 830 ( 363.29)
+150	1	60	845	Wind direction is greater than 360 or less than 0 on  
+1 ( 60) 845 ( 363.3)
+150	5	64	815	Wind direction is greater than 360 or less than 0 on  
+5 ( 64) 815 ( 361.41)
+150	6	65	2115	Wind direction is greater than 360 or less than 0 on  
+6 ( 65) 2115 ( 361.54)
+150	7	66	815	Wind direction is greater than 360 or less than 0 on  
+7 ( 66) 815 ( 362.99)
+150	10	69	1045	Wind direction is greater than 360 or less than 0 on  
+10 ( 69) 1045 ( 360.05)
+150	10	69	1215	Wind direction is greater than 360 or less than 0 on  
+10 ( 69) 1215 ( 360.04)
+150	10	69	1500	Wind direction is greater than 360 or less than 0 on  
+10 ( 69) 1500 ( 360.76)
+150	11	70	215	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 215 ( 363.09)
+150	11	70	245	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 245 ( 362.72)
+150	11	70	315	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 315 ( 360.25)
+150	11	70	600	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 600 ( 362.76)
+150	11	70	630	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 630 ( 361.99)
+150	11	70	645	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 645 ( 360.32)
+150	11	70	800	Wind direction is greater than 360 or less than 0 on  
+11 ( 70) 800 ( 363.13)
+150	21	80	500	Wind direction is greater than 360 or less than 0 on  
+21 ( 80) 500 ( 362.45)
+150	22	81	700	Wind direction is greater than 360 or less than 0 on  
+22 ( 81) 700 ( 363.27)
+150	22	81	715	Wind direction is greater than 360 or less than 0 on  
+22 ( 81) 715 ( 361.83)
+150	22	81	830	Wind direction is greater than 360 or less than 0 on  
+22 ( 81) 830 ( 363.27)
+150	22	81	945	Wind direction is greater than 360 or less than 0 on  
+22 ( 81) 945 ( 360.43)
+150	26	85	30	Wind direction is greater than 360 or less than 0 on  
+26 ( 85) 30 ( 362.77)
+150	28	87	715	Wind direction is greater than 360 or less than 0 on  
+28 ( 87) 715 ( 363.52)
+150	28	87	730	Wind direction is greater than 360 or less than 0 on  
+28 ( 87) 730 ( 363.13)
+
+d).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	18	77	1700	Air temp difference from  18 ( 77) 1700 ( 22.008) to  
+18 ( 77) 1715 ( 17.732) is greater than 3.0 degrees C
+150	27	86	1245	Air temp difference from  27 ( 86) 1245 ( 23.148) to  
+27 ( 86) 1300 ( 19.938) is greater than 3.0 degrees C
+150	22	81	1915	Rel hum difference from  22 ( 81) 1915 ( 71.37) to  
+22 ( 81) 1930 ( 45.752) is greater than 25%
+150	27	86	1245	Rel hum difference from  27 ( 86) 1245 ( 56.131) to  
+27 ( 86) 1300 ( 82.657) is greater than 25%
+151	12	71	1345	Precip difference from  12 ( 71) 1345 ( 0) to  12 ( 
+71) 1400 ( 7.62) is greater than 5 mm
+151	12	71	1400	Precip difference from  12 ( 71) 1400 ( 7.62) to  12 ( 
+71) 1415 ( 2.032) is greater than 5 mm
+151	13	72	330	Precip difference from  13 ( 72) 330 ( 6.604) to  13 ( 
+72) 345 ( 0) is greater than 5 mm
+
+Corrections:
+a).   For the entire month of March all LiCor data were edited and corrected due to an 
+incorrect multiplier being used since June 26, 2001.   The multiplier was corrected on 
+April 3, 2002
+
+b).  Rainfall data on March 7 (Julian Date 66) were corrected with 55555 due to tipping 
+of the rain gage during cleaning.  
+
+Array	Day	Julian Date 	Time	Error Message
+151	7	66	1345	Technician changed 151 Array at  7 ( 66) 1345
+
+c).  Wind Data on March 7 (Julian Date 66) at 1400 and 2400 were deleted and replaced 
+with 55555 because of erroneous readings recorded when the wind direction tail was 
+manipulated for repair.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	7	66	1400	Technician changed 150 Array data from  7 ( 66) 1400
+102	7	66	1400	Technician changed 102 Array at 7 ( 66) 1400 
+242	7	66	2400	Technician changed 242 Array at  7 ( 66) 2400 
+243	7	66	2400	Technician changed 243 Array data at  7 ( 66) 2400 
+244	7	66	2400	Technician changed 244 Array data at  7 ( 66) 2400 
+
+d).    Wind Data on March 8 (Julian Date 67) at 1000 and 2400 were deleted and replaced 
+with 55555 because of erroneous readings recorded when the wind direction tail was 
+manipulated for testing.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	8	67	1000	Technician changed 150 Array data from  8 ( 67) 1000
+102	8	67	1000	Technician changed 102 Array at 8 ( 67) 1000
+242	8	67	2400	Technician changed 242 Array at 8 ( 67) 2400
+243	8	67	2400	Technician changed 243 Array data at 8 ( 67) 2400
+244	8	67	2400	Technician changed 244 Array data at 8 ( 67) 2400
+
+c).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program changes (to correct wind direction problems) and reloads which may have 
+resulted in missing 5-second data.
+
+Program change reload at 13:35 on March 22
+Array	Day	Julian Date 	Time	Error Message
+101	22	81	1400	Technician changed 101 Array data from 22 ( 81) 1400 
+102	22	81	1400	Technician changed 102 Array from 22 ( 81) 1400 
+241	22	81	2400	Technician changed 241 Array from  22 ( 81) 2400 
+242	22	81	2400	Technician changed 242 Array from  22 ( 81) 2400 
+243	22	81	2400	Technician changed 243 Array data from  22 ( 81) 2400 
+244	22	81	2400	Technician changed 244 Array data from  22 ( 81) 2400 
+
+Program change and reloads from 15:50 to 16:03 on March 25
+Array	Day	Julian Date 	Time	Error Message
+101	25	84	1600	Technician changed 101 Array data from 25 ( 84) 
+1600 to  25 ( 84) 1700
+102	25	84	1600	Technician changed 102 Array from 25 ( 84) 1600 
+to  25 ( 84) 1700
+241	25	84	2400	Technician changed 241 Array from  25 ( 84) 2400 
+242	25	84	2400	Technician changed 242 Array from  25 ( 84) 2400 
+243	25	84	2400	Technician changed 243 Array data from  25 ( 84) 2400 
+244	25	84	2400	Technician changed 244 Array data from  25 ( 84) 2400 
+
+d).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from March 1 through March 31, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	60	2400	Technician changed 241 Array data at  1 ( 60) 2400 
+to  31 ( 90) 2400
+
+
+April 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	3	93	1315	Air temp difference from  3 ( 93) 1315 ( 25.065) to  
+3 ( 93) 1330 ( 21.392) is greater than 3.0 degrees C
+150	7	97	145	Air temp difference from  7 ( 97) 145 ( 11.304) to  7 
+( 97) 200 ( 8.2943) is greater than 3.0 degrees C
+150	7	97	430	Air temp difference from  7 ( 97) 430 ( 8.7702) to  7 
+( 97) 445 ( 12.381) is greater than 3.0 degrees C
+151	3	93	1315	Precip difference from  3 ( 93) 1315 ( 0) to  3 ( 93) 
+1330 ( 11.176) is greater than 5 mm
+151	3	93	1330	Precip difference from  3 ( 93) 1330 ( 11.176) to  3 ( 
+93) 1345 ( 1.524) is greater than 5 mm
+151	25	115	845	Precip difference from  25 ( 115) 845 ( 0) to  25 ( 
+115) 900 ( 5.588) is greater than 5 mm
+151	25	115	930	Precip difference from  25 ( 115) 930 ( 14.986) to  
+25 ( 115) 945 ( 2.794) is greater than 5 mm
+
+
+b).  For the following date and time an error message was recorded for wind directions 
+greater than 360 degrees and less than 0 degrees.   Although the data were retained due to 
+the small error (approximately 3 degrees), it should be noted that they are suspect.
+
+Array	Day	Julian Date 	Time	Error Message
+150	1	91	900	Wind direction is greater than 360 or less than 0 on  
+1 ( 91) 900 ( 363.23)
+150	1	91	1030	Wind direction is greater than 360 or less than 0 on  
+1 ( 91) 1030 ( 363.21)
+150	2	92	630	Wind direction is greater than 360 or less than 0 on  
+2 ( 92) 630 ( 363.13)
+150	3	93	230	Wind direction is greater than 360 or less than 0 on  
+3 ( 93) 230 ( 362.93)
+
+Corrections:
+a).  On April 1 (Julian Date 91) all wind data for 1200 and 2400 were deleted and 
+replaced with 55555.  Manipulation of the wind sensor direction tail at 11:20 interfered 
+with data collection.  
+
+Array	Day	Julian Date 	Time	Error Message
+102	1	91	1200	Technician changed 102 Array from 1 ( 91) 1200 
+242	1	91	2400	Technician changed 242 Array from  1 ( 91) 2400 
+243	1	91	2400	Technician changed 243 Array data from  1 ( 91) 2400 
+244	1	91	2400	Technician changed 244 Array data from  1 ( 91) 2400 
+
+b).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program changes and program reloads (to correct wind direction and LiCor 
+multipliers) and power offs and program reloads for maintenance which may have 
+resulted in missing 5-second data.
+
+Program changes and reload from 14:40 to 15:09 on April 3
+Array	Day	Julian Date 	Time	Error Message
+101	3	93	1500	Technician changed 101 Array data from 3 ( 93) 
+1500 to  3 ( 93) 1600
+102	3	93	1500	Technician changed 102 Array from 3 ( 93) 1500 to  
+3 ( 93) 1600
+241	3	93	2400	Technician changed 241 Array from  3 ( 93) 2400
+242	3	93	2400	Technician changed 242 Array from  3 ( 93) 2400 
+243	3	93	2400	Technician changed 243 Array data from  3 ( 93) 2400 
+244	3	93	2400	Technician changed 244 Array data from  3 ( 93) 2400
+
+Power off and program reload from 13:35 to 14:28 on April 23
+Array	Day	Julian Date 	Time	Error Message
+101	23	113	1500	Technician changed 101 Array data from 23 ( 113) 
+1500 to  23 ( 113) 1500
+102	23	113	1500	Technician changed 102 Array from 23 ( 113) 1500 
+241	23	113	2400	Technician changed 241 Array from  23 ( 113) 2400 
+242	23	113	2400	Technician changed 242 Array from  23 ( 113) 2400 
+243	23	113	2400	Technician changed 243 Array data from  23 ( 113) 2400 
+244	23	113	2400	Technician changed 244 Array data from  23 ( 113) 2400 
+
+c).  From April 1 through April 3 all LiCor data were edited and corrected due to an 
+incorrect multiplier being used since June 26, 2001.   After 1600 on April 3, LiCor data 
+were collected using the correct multiplier.  15 minute Licor data collected on April 3
+from 1530 through 1600 was deleted and replaced with 55555 due to program reloads on 
+April 3 at 15:07 and 15:09.  See above section b.  
+
+d).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from April 1 through April 30, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	91	2400	Technician changed 241 Array data at  1 ( 91) 2400 
+to  30 ( 120) 2400
+
+
+May 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	6	126	215	Air temp difference from  6 ( 126) 215 ( 14.355) to  
+6 ( 126) 230 ( 17.501) is greater than 3.0 degrees C
+150	6	126	230	Air temp difference from  6 ( 126) 230 ( 17.501) to  
+6 ( 126) 245 ( 14.027) is greater than 3.0 degrees C
+150	6	126	245	Air temp difference from  6 ( 126) 245 ( 14.027) to  
+6 ( 126) 300 ( 17.304) is greater than 3.0 degrees C
+150	6	126	500	Air temp difference from  6 ( 126) 500 ( 17.496) to  
+6 ( 126) 515 ( 13.351) is greater than 3.0 degrees C
+150	18	138	1330	Air temp difference from  18 ( 138) 1330 ( 27.401) 
+to  18 ( 138) 1345 ( 23.393) is greater than 3.0 
+degrees C
+150	18	138	1730	Air temp difference from  18 ( 138) 1730 ( 20.017) 
+to  18 ( 138) 1745 ( 16.341) is greater than 3.0 
+degrees C
+150	25	145	1115	Rel hum difference from  25 ( 145) 1115 ( 29.061) 
+to  25 ( 145) 1130 ( 58.586) is greater than 25%
+151	3	123	2000	Precip difference from  3 ( 123) 2000 ( 1.016) to  3 ( 
+123) 2015 ( 6.35) is greater than 5 mm
+151	4	124	2245	Precip difference from  4 ( 124) 2245 ( 6.096) to  4 ( 
+124) 2300 ( .762) is greater than 5 mm
+151	13	133	2145	Precip difference from  13 ( 133) 2145 ( 0) to  13 ( 
+133) 2200 ( 6.35) is greater than 5 mm
+151	13	133	2200	Precip difference from  13 ( 133) 2200 ( 6.35) to  13 
+( 133) 2215 ( .508) is greater than 5 mm
+151	18	138	1345	Precip difference from  18 ( 138) 1345 ( 0) to  18 ( 
+138) 1400 ( 8.89) is greater than 5 mm
+151	18	138	1400	Precip difference from  18 ( 138) 1400 ( 8.89) to  18 
+( 138) 1415 ( .762) is greater than 5 mm
+
+Corrections:
+a).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from May 1 through May 31, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	121	2400	Technician changed 241 Array data at  1 ( 121) 
+2400 to  31 ( 151) 2400
+
+
+June 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	28	179	1600	Air temp difference from  28 ( 179) 1600 ( 30.596) 
+to  28 ( 179) 1615 ( 26.39) is greater than 3.0 
+degrees C
+151	20	171	530	Precip difference from  20 ( 171) 530 ( .508) to  20 ( 
+171) 545 ( 12.192) is greater than 5 mm
+151	20	171	545	Precip difference from  20 ( 171) 545 ( 12.192) to  
+20 ( 171) 600 ( .508) is greater than 5 mm
+151	27	178	1400	Precip difference from  27 ( 178) 1400 ( 0) to  27 ( 
+178) 1415 ( 7.112) is greater than 5 mm
+151	27	178	1415	Precip difference from  27 ( 178) 1415 ( 7.112) to  
+27 ( 178) 1430 ( .254) is greater than 5 mm
+
+Corrections:
+a).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from June 1 through June 30, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	152	2400	Technician changed 241 Array data at  1 ( 152) 
+2400 to  30 ( 181) 2400
+
+
+July 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	5	186	2345	Air temp difference from  5 ( 186) 2345 ( 28.014) to  
+5 ( 186) 2400 ( 24.406) is greater than 3.0 degrees C
+150	13	194	2245	Air temp difference from  13 ( 194) 2245 ( 28.019) 
+to  13 ( 194) 2300 ( 24.41) is greater than 3.0 
+degrees C
+150	14	195	1530	Air temp difference from  14 ( 195) 1530 ( 31.267) 
+to  14 ( 195) 1545 ( 28.261) is greater than 3.0 
+degrees C
+150	20	201	1930	Air temp difference from  20 ( 201) 1930 ( 30.281) 
+to  20 ( 201) 1945 ( 25.673) is greater than 3.0 
+degrees C
+150	22	203	1545	Air temp difference from  22 ( 203) 1545 ( 27.611) 
+to  22 ( 203) 1600 ( 24.137) is greater than 3.0 
+degrees C
+150	22	203	2100	Air temp difference from  22 ( 203) 2100 ( 27.021) 
+to  22 ( 203) 2115 ( 23.882) is greater than 3.0 
+degrees C
+150	19	200	1515	Rel hum difference from  19 ( 200) 1515 ( 35.26) to  
+19 ( 200) 1530 ( 62.173) is greater than 25%
+151	11	192	1700	Precip difference from  11 ( 192) 1700 ( 0) to  11 ( 
+192) 1715 ( 11.176) is greater than 5 mm
+151	11	192	1745	Precip difference from  11 ( 192) 1745 ( 9.906) to  
+11 ( 192) 1800 ( 3.556) is greater than 5 mm
+151	11	192	2315	Precip difference from  11 ( 192) 2315 ( 1.524) to  
+11 ( 192) 2330 ( 10.414) is greater than 5 mm
+151	11	192	2330	Precip difference from  11 ( 192) 2330 ( 10.414) to  
+11 ( 192) 2345 ( 2.794) is greater than 5 mm
+151	12	193	115	Precip difference from  12 ( 193) 115 ( 1.016) to  12 
+( 193) 130 ( 11.938) is greater than 5 mm
+151	12	193	145	Precip difference from  12 ( 193) 145 ( 9.652) to  12 
+( 193) 200 ( 3.048) is greater than 5 mm
+151	18	199	1430	Precip difference from  18 ( 199) 1430 ( 0) to  18 ( 
+199) 1445 ( 6.35) is greater than 5 mm
+151	18	199	1445	Precip difference from  18 ( 199) 1445 ( 6.35) to  18 
+( 199) 1500 ( 0) is greater than 5 mm
+151	22	203	2100	Precip difference from  22 ( 203) 2100 ( 0) to  22 ( 
+203) 2115 ( 6.096) is greater than 5 mm
+
+b).  From July 14 (Julian Date 195) to July 24 (Julian Date 205), the weather station 
+battery was not holding a charge.  There were many instances when no data were 
+recorded at all.  Recorded data that were known to be affected were deleted, however, it 
+is unknown whether or not data that were recorded during low voltage periods is 
+accurate.  Although the data were retained, they should be considered suspect during this 
+time period.  
+
+Corrections:
+a). Any precipitation data recorded between 8:28 EST and 15:50 EST were deleted and 
+replaced with 55555 on July 10 (Julian date 191).    During this time period, the rain gage 
+was being calibrated and recorded erroneous precipitation data.   
+
+Array	Day	Julian Date 	Time	Error Message
+151	10	191	830	Technician changed 151 Array from  10 ( 191) 830 
+to  10 ( 191) 845
+151	10	191	930	Technician changed 151 Array from  10 ( 191) 930 
+to  10 ( 191) 1015
+151	10	191	1415	Technician changed 151 Array from  10 ( 191) 1415 
+to  10 ( 191) 1600
+
+b).  On July 11 (Julian date 192) from 12:56 EST to 15:05 EST all hourly and 24 hour 
+data were deleted and replaced with 55555 due to program changes and reloads which 
+may have resulted in missing 5-second data.
+ 
+Array	Day	Julian Date 	Time	Error Message
+101	11	192	1300	Technician changed 101 Array data from 11 ( 192) 
+1300 to  11 ( 192) 1600
+102	11	192	1300	Technician changed 102 Array from 11 ( 192) 1300 
+to  11 ( 192) 1600
+241	11	192	2400	Technician changed 241 Array from  11 ( 192) 2400 
+242	11	192	2400	Technician changed 242 Array from  11 ( 192) 2400 
+243	11	192	2400	Technician changed 243 Array data from  11 ( 192) 2400 
+244	11	192	2400	Technician changed 244 Array data from  11 ( 192) 2400 
+
+
+c).  On July 14 (Julian Date 195) the weather station battery voltage dropped too low to 
+record data at from 01:45 to 07:00, 07:30 to 08:00, and 23:15 to 24:00.  The WDMP 
+inserted 11111 for missing data, however, because 5-second data were missing, hourly 
+and 24-hour data were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	14	195	900	Technician changed 101 Array data from 14 ( 195) 900 
+102	14	195 	900 	Technician changed 102 Array from 14 ( 195) 900 
+241	14	195	2400	Technician changed 241 Array from  14 ( 195) 2400 
+242	14	195	2400	Technician changed 242 Array from  14 ( 195) 2400 
+243	14	195	2400	Technician changed 243 Array data from  14 ( 195) 2400 
+244	14	195	2400	Technician changed 244 Array data from  14 ( 195) 2400 
+
+d).  On July 15 (Julian Date 196) the weather station battery voltage dropped too low to 
+record data from 00:15 to 8:15, 8:45,  and 21:15 to 2400.  The WDMP inserted 11111 for 
+missing data, however, because 5-second data were missing, hourly and 24-hour data 
+were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	15	196	900	Technician changed 101 Array data from 15 ( 196) 900 
+102	15	196	900	Technician changed 102 Array from 15 ( 196) 900 
+241	15	196	2400	Technician changed 241 Array from  15 ( 196) 2400 
+242	15	196	2400	Technician changed 242 Array from  15 ( 196) 2400 
+243	15	196	2400	Technician changed 243 Array data from  15 ( 196) 2400 
+244	15	196	2400	Technician changed 244 Array data from  15 ( 196) 2400 
+
+e).  On July 16 (Julian Date 197) the weather station battery voltage dropped too low to 
+record data from 00:15 to 11:00 and 21:00 to 2400.  The WDMP inserted 11111 for 
+missing data, however, because 5-second data were missing, hourly and 24-hour data 
+were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	16	197	1200	Technician changed 101 Array data from 16 ( 197) 1200 
+102	16	197	1200	Technician changed 102 Array from 16 ( 197) 1200 
+241	16	197	2400	Technician changed 241 Array from  16 ( 197) 2400 
+242	16	197	2400	Technician changed 242 Array from  16 ( 197) 2400 
+243	16	197	2400	Technician changed 243 Array data from  16 ( 197) 2400 
+244	16	197	2400	Technician changed 244 Array data from  16 ( 197) 2400 
+
+f).  On July 16 all data were deleted and replaced with 55555 from 13:45 to 14:45 EST     
+due to sensors being unwired for battery voltage troubleshooting (the error messages may 
+also reflect deletions for pressure data).  Array 151 was not changed since no 
+precipitation occurred during that time period.    
+
+Array	Day	Julian Date 	Time	Error Message
+101	16	197	1400	Technician changed 101 Array data from 16 ( 197) 
+1400 to  16 ( 197) 1500
+102	16	197	1400	Technician changed 102 Array from 16 ( 197) 1400 
+to  16 ( 197) 1500
+112	16	197	1345	Technician changed 112 Array from 16 ( 197) 1345 
+to  16 ( 197) 1445
+150	16	197	1345	Technician changed 150 Array data from  16 ( 197) 
+1345 to  16 ( 197) 2045
+241	16	197	2400	Technician changed 241 Array from  16 ( 197) 2400 
+242	16	197	2400	Technician changed 242 Array from  16 ( 197) 2400 
+243	16	197	2400	Technician changed 243 Array data from  16 ( 197) 2400 
+244	16	197	2400	Technician changed 244 Array data from  16 ( 197) 2400 
+
+g).  From 13:45 EST on July 16 (Julian Date 197) to 10:15 EST on July 19 (Julian Date 
+200) barometric pressure data were deleted and replaced with 55555 due to erroneous 
+data being recorded when the sensor was incorrectly wired.  
+
+Array	Day	Julian Date 	Time	Error Message
+101	16	197	1400	Technician changed 101 Array data from 16 ( 197) 
+1400 to  16 ( 197) 2000
+150	16	197	1345	Technician changed 150 Array data from  16 ( 197) 
+1345 to  16 ( 197) 2045
+101	17	198	1000	Technician changed 101 Array data from 17 ( 198) 
+1000 to  17 ( 198) 2100
+150	17	198	1000	Technician changed 150 Array data from  17 ( 198) 
+1000 to  17 ( 198) 2145
+101	18	199	1100	Technician changed 101 Array data from 18 ( 199) 
+1100 to  19 ( 200) 800
+150	18	199	1030	Technician changed 150 Array data from  18 ( 199) 
+1030 to  18 ( 199) 1230
+150	18	199	1300	Technician changed 150 Array data from  18 ( 199) 
+1300
+150	18	199	1330	Technician changed 150 Array data from  18 ( 199) 
+1330 to  19 ( 200) 845
+150	19	200	915	Technician changed 150 Array data from  19 ( 200) 
+915 to  19 ( 200) 1015
+
+h).  On July 17 (Julian Date 198) the weather station battery voltage dropped too low to 
+record data from 00:15 to 9:45 and 22:00 to 2400.  The WDMP inserted 11111 for 
+missing data, however, because 5-second data were missing, hourly and 24-hour data 
+were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	17	198	1000	Technician changed 101 Array data from 17 ( 198) 1000  
+102	17	198	1000	Technician changed 102 Array from 17 ( 198) 1000 
+241	17	198	2400	Technician changed 241 Array from  17 ( 198) 2400 
+242	17	198	2400	Technician changed 242 Array from   17 ( 198) 2400  
+243	17	198	2400	Technician changed 243 Array data from   17 ( 198) 2400 
+244	17	198	2400	Technician changed 244 Array data from   17 ( 198) 2400 
+
+i).  On July 18 (Julian Date 199) the weather station battery voltage dropped too low to 
+record data from 00:15 to 10:15.  The WDMP inserted 11111 for missing data, however, 
+because 5-second data were missing, hourly and 24-hour data were deleted and replaced 
+with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	18	199	1100	Technician changed 101 Array data from 18 ( 199) 1100 
+102	18	199	1100	Technician changed 102 Array from 18 ( 199) 1100 
+241	18	199	2400	Technician changed 241 Array from  18 ( 199) 2400 
+242	18	199	2400	Technician changed 242 Array from  18 ( 199) 2400 
+243	18	199	2400	Technician changed 243 Array data from  18 ( 199) 2400
+244	18	199	2400	Technician changed 244 Array data from  18 ( 199) 2400
+
+j).  On July 18 (Julian Date 199) from 12:42 to 12:45 EST the power was turned off at the 
+weather station in order to replace the battery and rewire the barometric pressure sensor 
+and the program was resent at 15:54 EST.  Because 5-second data were missing, hourly 
+and 24-hour data were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	18	199	1100	Technician changed 101 Array data from 18 ( 199) 1300 to 1500
+101	18	199	1300	Technician changed 101 Array data from 18 ( 199) 1300 
+to 18 ( 199) 1400
+102	18	199	1300	Technician changed 102 Array from 18 ( 199) 1300
+to 18 ( 199) 1400 
+241	18	199	2400	Technician changed 241 Array from  18 ( 199) 2400 
+242	18	199	2400	Technician changed 242 Array from  18 ( 199) 2400 
+243	18	199	2400	Technician changed 243 Array data from  18 ( 199) 2400 
+244	18	199	2400	Technician changed 244 Array data from  18 ( 199) 2400 
+
+k).  On July 19 (Julian Date 200) the weather station was powered off from 8:56 EST to 
+9:01EST to rewire the barometric pressure sensor and the program was resent at 9:08 
+EST. Power was turned off again from 10:24 EST to 10:30 and the program was sent 
+again at 10:38 EST.  Because 5-second data were missing, hourly and 24-hour data were 
+deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	19	200	1000	Technician changed 101 Array data from 19 ( 200) 1000 
+to  19 ( 200) 1100 
+102	19	200	1000	Technician changed 102 Array from 19 ( 200) 1000 
+to  19 ( 200) 1100
+241	19	200	2400	Technician changed 241 Array from  19 ( 200) 2400 
+242	19	200	2400	Technician changed 242 Array from  19 ( 200) 2400 
+243	19	200	2400	Technician changed 243 Array data from  19 ( 200) 2400 
+244	19	200	2400	Technician changed 244 Array data from  19 ( 200) 2400 
+
+l).  On July 22 (Julian Date 203) the weather station battery voltage dropped too low to 
+record data from 00:15 to 11:30 and 22:15-24:00.  The WDMP inserted 11111 for 
+missing data, however, because 5-second data were missing, hourly and 24-hour data 
+were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	22	203	1200	Technician changed 101 Array data from 22 ( 203) 
+1200 (also reflects program reload)
+102	22	203	1200	Technician changed 102 Array from 22 ( 203) 1200 
+(also reflects program reload)
+241	22	203	2400	Technician changed 241 Array from 22 ( 203) 2400 
+242	22	203	2400	Technician changed 242 Array from  22 ( 203) 2400 
+243	22	203	2400	Technician changed 243 Array data from  22 ( 203) 2400 
+244	22	203	2400	Technician changed 244 Array data from  22 ( 203) 2400 
+
+m).  On July 22 (Julian Date 203) the program was resent to the weather station at 11:45 
+EST, because 5-second data were missing, hourly and 24-hour data were deleted and 
+replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	22	203	1200	Technician changed 101 Array data from 22 ( 203) 1200 
+(also reflects low battery voltage deletions)
+102	22	203	1200	Technician changed 102 Array from 22 ( 203) 1200 
+(also reflects low battery voltage deletions)
+241	22	203	2400	Technician changed 241 Array from  22 ( 203) 2400 
+242	22	203	2400	Technician changed 242 Array from  22 ( 203) 2400 
+243	22	203	2400	Technician changed 243 Array data from 22 ( 203) 2400 
+244	22	203	2400	Technician changed 244 Array data from  22 ( 203) 2400 
+
+n).  On July 23 (Julian Date 204) the weather station battery voltage dropped too low to 
+record data from 00:15 to 11:30 and 22:00-24:00.  The WDMP inserted 11111 for 
+missing data, however, because 5-second data were missing, hourly and 24-hour data 
+were deleted and replaced with 55555 for the following dates and times.
+
+Array	Day	Julian Date 	Time	Error Message
+101	23	204	1200	Technician changed 101 Array data from 23 ( 204) 1200 
+102	23	204	1200	Technician changed 102 Array from 23 ( 204) 1200 
+241	23	204	2400	Technician changed 241 Array from  23 ( 204) 2400 
+242	23	204	2400	Technician changed 242 Array from  23 ( 204) 2400 
+243	23	204	2400	Technician changed 243 Array data from 23 ( 204) 2400 
+244	23	204	2400	Technician changed 244 Array data from  23 ( 204) 2400 
+
+0).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from July 1 through July 31, 2002.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	182	2400	Technician changed 241 Array from  1 ( 182) 2400 
+to  13 ( 194) 2400
+241	18	199	2400	Technician changed 241 Array from  18 ( 199) 2400 
+to  19 ( 200) 2400
+
+
+August 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+Array	Day	Julian Date 	Time	Error Message
+150	25	237	1745	Air temp difference from  25 ( 237) 1745 ( 28.159) 
+to  25 ( 237) 1800 ( 24.083) is greater than 3.0 
+degrees C
+151	14	226	1100	Precip difference from  14 ( 226) 1100 ( 5.334) to  
+14 ( 226) 1115 ( 0) is greater than 5 mm
+151	25	237	1800	Precip difference from  25 ( 237) 1800 ( .508) to  25 
+( 237) 1815 ( 12.954) is greater than 5 mm
+151	25	237	1815	Precip difference from  25 ( 237) 1815 ( 12.954) to  
+25 ( 237) 1830 ( 3.048) is greater than 5 mm
+151	28	240	400	Precip difference from  28 ( 240) 400 ( 0) to  28 ( 
+240) 415 ( 11.176) is greater than 5 mm
+151	28	240	415	Precip difference from  28 ( 240) 415 ( 11.176) to  
+28 ( 240) 430 ( 1.778) is greater than 5 mm
+151	28	240	515	Precip difference from  28 ( 240) 515 ( 11.684) to  
+28 ( 240) 530 ( 1.27) is greater than 5 mm
+151	28	240	845	Precip difference from  28 ( 240) 845 ( 2.032) to  28 
+( 240) 900 ( 7.366) is greater than 5 mm
+151	28	240	900	Precip difference from  28 ( 240) 900 ( 7.366) to  28 
+( 240) 915 ( 1.778) is greater than 5 mm
+151	30	242	300	Precip difference from  30 ( 242) 300 ( 5.334) to  30 
+( 242) 315 ( 0) is greater than 5 mm
+151	30	242	430	Precip difference from  30 ( 242) 430 ( .254) to  30 ( 
+242) 445 ( 13.97) is greater than 5 mm
+151	30	242	445	Precip difference from  30 ( 242) 445 ( 13.97) to  30 
+( 242) 500 ( 4.318) is greater than 5 mm
+
+Corrections:
+a).  On August 9 (Julian date 221) hourly and 24 hour data at 10:00 and 9:00 (for total 
+LiCor) were deleted and replaced with 55555 due to reinstallation of the CR10X and 
+program reloads which may have resulted in missing 5-second data.  15 minute data were 
+deleted and replaced with 55555 at 8:15 and 8:30 because data were collected before the 
+correct program was sent at 9:30.  
+
+Array	Day	Julian Date 	Time	Error Message
+112	9	221	815	Technician changed 112 Array from 9 ( 221) 815 to  
+9 ( 221) 830
+150	9	221	815	Technician changed 150 Array data from  9 ( 221) 
+815 to  9 ( 221) 830
+151	9	221	815	Technician changed 151 Array from  9 ( 221) 815 to  
+9 ( 221) 830
+241	9	221	2400	Technician changed 241 Array data at  9 ( 221) 2400
+242	9	221	2400	Technician changed 242 Array from  9 ( 221) 2400 
+243	9	221	2400	Technician changed 243 Array data from  9 ( 221) 2400
+244	9	221	2400	Technician changed 244 Array data from  9 ( 221) 2400 
+
+b).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads which may have resulted in missing 5-second data
+
+Program reload at 10:29 and 12:36 EST on August 21
+Array	Day	Julian Date 	Time	Error Message
+101	21	233	1100	Technician changed 101 Array data from 21 ( 233) 1100
+101	21	233	1300	Technician changed 101 Array data from 21 ( 233) 1300 
+102	21	233	1100	Technician changed 102 Array from 21 ( 233) 1100 
+102	21	233	1300	Technician changed 102 Array from 21 ( 233) 1300 
+241	21	233	2400	Technician changed 241 Array from 21 ( 233) 2400 
+242	21	233	2400	Technician changed 242 Array from  21 ( 233) 2400 
+243	21	233	2400	Technician changed 243 Array data from  21 ( 233) 2400 
+244	21	233	2400	Technician changed 244 Array data from  21 ( 233) 2400 
+
+Program reload at 9:03, 9:46, 10:15, and 10:22 EST on August 28
+101	28	240	1000	Technician changed 101 Array data from 28 ( 240) 
+1000 to  28 ( 240) 1100
+102	28	240	1000	Technician changed 102 Array from 28 ( 240) 1000 
+to  28 ( 240) 1100
+241	28	240	2400	Technician changed 241 Array from 28 ( 240) 2400 
+242	28	240	2400	Technician changed 242 Array from  28 ( 240) 2400
+243	28	240	2400	Technician changed 243 Array data from  28 ( 240) 2400 
+244	28	240	2400	Technician changed 244 Array data from  28 ( 240) 2400 
+
+Program reload at 8:30 EST on August 29
+101	29	241	900	Technician changed 101 Array data from 29 ( 241) 900 
+102	29	241	900	Technician changed 102 Array from 29 ( 241) 900 
+241	29	241	2400	Technician changed 241 Array from 29 ( 241)  2400 
+242	29	241	2400	Technician changed 242 Array from  29 ( 241)  2400
+243	29	241	2400	Technician changed 243 Array data from  29 ( 241) 2400
+244	29	241	2400	Technician changed 244 Array data from 29 ( 241) 2400
+
+c).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collect instead of averages.  These 
+data were deleted and replaced with 55555 from August 1 through August 31.  
+
+Array	Day	Julian Date 	Time	Error Message
+241	9	221	2400	Technician changed 241 Array data at  9 ( 221) 
+2400 to  31 ( 243) 2400
+
+d).  15 minute rainfall data at 11:00 was deleted and replaced with 55555.  The funnel 
+was cleaned and the gauge may have been tipped causing erroneous data to be recorded.
+151	30	242	1100	Technician changed 151 Array at  30 ( 242) 1100
+
+
+
+September 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+151	2	245	1415	Precip difference from  2 ( 245) 1415 ( 2.54) to  2 ( 
+245) 1430 ( 12.7) is greater than 5 mm
+151	2	245	1445	Precip difference from  2 ( 245) 1445 ( 8.636) to  2 ( 
+245) 1500 ( 1.016) is greater than 5 mm
+151	16	259	345	Precip difference from  16 ( 259) 345 ( .254) to  16 ( 
+259) 400 ( 7.112) is greater than 5 mm
+151	16	259	400	Precip difference from  16 ( 259) 400 ( 7.112) to  16 
+( 259) 415 ( 0) is greater than 5 mm
+151	25	268	1915	Precip difference from  25 ( 268) 1915 ( 5.588) to  
+25 ( 268) 1930 ( .254) is greater than 5 mm
+151	25	268	2200	Precip difference from  25 ( 268) 2200 ( 3.302) to  
+25 ( 268) 2215 ( 9.144) is greater than 5 mm
+151	25	268	2230	Precip difference from  25 ( 268) 2230 ( 7.112) to  
+25 ( 268) 2245 ( .508) is greater than 5 mm
+151	26	269	430	Precip difference from  26 ( 269) 430 ( 0) to  26 ( 
+269) 445 ( 8.128) is greater than 5 mm
+151	26	269	445	Precip difference from  26 ( 269) 445 ( 8.128) to  26 
+( 269) 500 ( 2.032) is greater than 5 mm
+
+Corrections:
+a).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads which may have resulted in missing 5-second data.
+
+Program reload at 8:00 EST on September 3
+Array	Day	Julian Date 	Time	Error Message
+101	3	246	800	Technician changed 101 Array data from 3 ( 246) 800 
+102	3	246	800	Technician changed 102 Array from 3 ( 246) 800 
+241	3	246	2400	Technician changed 241 Array from  3 ( 246) 2400 
+242	3	246	2400	Technician changed 242 Array from  3 ( 246) 2400 
+243	3	246	2400	Technician changed 243 Array data from  3 ( 246) 2400 
+244	3	246	2400	Technician changed 244 Array data from  3 ( 246) 2400 
+
+Program reload at 10:56 EST on September 6
+101	6	249	1100	Technician changed 101 Array data from 6 ( 249) 1100 
+102	6	249	1100	Technician changed 102 Array from 6 ( 249) 1100 
+241	6	249	2400	Technician changed 241 Array from  6 ( 249) 2400 
+242	6	249	2400	Technician changed 242 Array from  6 ( 249) 2400 
+243	6	249	2400	Technician changed 243 Array data from  6 ( 249) 2400 
+244	6	249	2400	Technician changed 244 Array data from  6 ( 249) 2400 
+
+Program reload at 11:48, 13:26, 13:35, 13:38, and 13:45 EST on September 18
+101	18	261	1200	Technician changed 101 Array data from 18 ( 261) 1200 
+101	18	261	1400	Technician changed 101 Array data from 18 ( 261) 1400 
+102	18	261	1200	Technician changed 102 Array from 18 ( 261) 1200 
+102	18	261	1400	Technician changed 102 Array from 18 ( 261) 1400 
+241	18	261	2400	Technician changed 241 Array from  18 ( 261) 2400 
+242	18	261	2400	Technician changed 242 Array from  18 ( 261) 2400 
+243	18	261	2400	Technician changed 243 Array data from  18 ( 261) 2400 
+244	18	261	2400	Technician changed 244 Array data from  18 ( 261) 2400 
+
+Program reload at 10:56 on September 24
+101	24	267	1100	Technician changed 101 Array data from 24 ( 267) 1100 
+102	24	267	1100	Technician changed 102 Array from 24 ( 267) 1100 
+241	24	267	2400	Technician changed 241 Array from  24 ( 267) 2400 
+242	24	267	2400	Technician changed 242 Array from  24 ( 267) 2400 
+243	24	267	2400	Technician changed 243 Array data from  24 ( 267) 2400 
+244	24	267	2400	Technician changed 244 Array data from  24 ( 267) 2400 
+
+Program reload at 12:59 EST on September 26
+101	26	269	1300	Technician changed 101 Array data from 26 ( 269) 1300 
+102	26	269	1300	Technician changed 102 Array from 26 ( 269) 1300 
+241	26	269	2400	Technician changed 241 Array from  26 ( 269) 2400 
+242	26	269	2400	Technician changed 242 Array from  26 ( 269) 2400 
+243	26	269	2400	Technician changed 243 Array data from  26 ( 269) 2400 
+244	26	269	2400	Technician changed 244 Array data from  26 ( 269) 2400 
+
+Program reload at 11:32 on September 27
+101	27	270	1200	Technician changed 101 Array data from 27 ( 270) 1200 
+102	27	270	1200	Technician changed 102 Array from 27 ( 270) 1200 
+151	27	270	1345	Technician changed 151 Array from  27 ( 270) 1345 
+to  27 ( 270) 1500
+241	27	270	2400	Technician changed 241 Array from  27 ( 270) 2400 
+242	27	270	2400	Technician changed 242 Array from  27 ( 270) 2400 
+243	27	270	2400	Technician changed 243 Array data from 27 ( 270) 2400 
+244	27	270	2400	Technician changed 244 Array data from  27 ( 270) 2400 
+
+b).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from September 1 through September 30, 
+2002.
+Array	Day	Julian Date 	Time	Error Message
+241	1	244	2400	Technician changed 241 Array data at  1 ( 244) 
+2400 to  30 ( 273) 2400
+
+c).  Rainfall data were deleted for the following dates and times.  Water was poured into 
+the rain gauge for troubleshooting, so data were erroneous.
+
+Array	Day	Julian Date 	Time	Error Message
+151	27	270	1345	Technician changed 151 Array from  27 ( 270) 1345 
+to  27 ( 270) 1500
+
+
+October 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	9	282	45	Air temp difference from  9 ( 282) 45 ( 20.039) to  9 
+( 282) 100 ( 23.515) is greater than 3.0 degrees C
+150	9	282	245	Air temp difference from  9 ( 282) 245 ( 23.837) to  
+9 ( 282) 300 ( 20.697) is greater than 3.0 degrees C
+
+Corrections:
+a).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads which may have resulted in missing 5-second data.
+
+Program reload at 10:50 EST on October 1
+Array	Day	Julian Date 	Time	Error Message
+101	1	274	1100	Technician changed 101 Array data from 1 ( 274) 1100 
+102	1	274	1100	Technician changed 102 Array from 1 ( 274) 1100 
+
+Program reload at 7:48 and 13:10EST on October 3 (data did not record, so hourly arrays already 
+11111)
+Array	Day	Julian Date 	Time	Error Message
+241	3	276	2400	Technician changed 241 Array data at  3 ( 276) 2400
+242	3	276	2400	Technician changed 242 Array from  3 ( 276) 2400 
+243	3	276	2400	Technician changed 243 Array data from  3 ( 276) 2400 
+244	3	276	2400	Technician changed 244 Array data from  3 ( 276) 2400 
+
+Program reload at 9:57 EST on October 11
+Array	Day	Julian Date 	Time	Error Message
+101	11	284	1000	Technician changed 101 Array data from 11 ( 284) 1000 
+102	11	284	1000	Technician changed 102 Array from 11 ( 284) 1000 
+241	11	284	2400	Technician changed 241 Array  from  11 ( 284) 2400
+242	11	284	2400	Technician changed 242 Array from  11 ( 284) 2400 
+243	11	284	2400	Technician changed 243 Array data from  11 ( 284) 2400
+244	11	284	2400	Technician changed 244 Array data from  11 ( 284) 2400
+
+Program reload at 7:49 EST on October 14
+Array	Day	Julian Date 	Time	Error Message
+101	14	287	800	Technician changed 101 Array data from 14 ( 287) 800 
+102	14	287	800	Technician changed 102 Array from 14 ( 287) 800 
+241	14	287	2400	Technician changed 241 Array data at  14 ( 287)  2400
+242	14	287	2400	Technician changed 242 Array from  14 ( 287) 2400 
+243	14	287	2400	Technician changed 243 Array data from  14 ( 287) 2400
+244	14	287	2400	Technician changed 244 Array data from  14 ( 287) 2400
+
+Program reload at 8:43 EST on October 28
+Array	Day	Julian Date 	Time	Error Message
+101	28	301	900	Technician changed 101 Array data from 28 ( 301) 900 
+102	28	301	900	Technician changed 102 Array from 28 ( 301) 900 
+241	28	301	2400	Technician changed 241 Array data at  28 ( 301) 2400
+242	28	301	2400	Technician changed 242 Array from  28 ( 301) 2400 
+243	28	301	2400	Technician changed 243 Array data from  28 ( 301) 2400
+244	28	301	2400	Technician changed 244 Array data from  28 ( 301) 2400
+
+b).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from October 1 through October 31, 2002.
+
+Array	Day	Julian Date 	Time	Error Message
+241	3	276	2400	Technician changed 241 Array data at  3 ( 276) 
+2400 to  31 ( 304) 2400
+
+c).  Rainfall data were deleted for the following dates and times.  Water was poured into 
+the rain gauge for troubleshooting, so data were erroneous.
+
+Array	Day	Julian Date 	Time	Error Message
+151	1	274	1245	Technician changed 151 Array at  1 ( 274) 1245
+151	1	274	1330	Technician changed 151 Array at  1 ( 274) 1330
+151	1	274	1400	Technician changed 151 Array at  1 ( 274) 1400
+
+
+November 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+150	11	315	1245	Air temp difference from  11 ( 315) 1245 ( 26.754) 
+to  11 ( 315) 1300 ( 22.411) is greater than 3.0 degrees C
+
+b).  The following data were probably real and left in the database.  
+Array	Day	Julian Date 	Time	Error Message	
+101	29	333	500	Air temp average in 1 hour data ( .05832) is greater 
+than 15 minute maximum ( .04016) by at least 10%
+
+Corrections:
+a).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads and weather station power offs which may have resulted in missing 5-
+second data.
+
+Program reload at 8:40 EST on November 1
+Array	Day	Julian Date 	Time	Error Message
+101	1	305	900	Technician changed 101 Array data from 1 ( 305) 900 
+102	1	305	900	Technician changed 102 Array from 1 ( 305) 900
+241	1	305	2400	Technician changed 241 Array from  1 ( 305) 2400 
+242	1	305	2400	Technician changed 242 Array from  1 ( 305) 2400 
+243	1	305	2400	Technician changed 243 Array data from  1 ( 305) 2400 
+244	1	305	2400	Technician changed 244 Array data from  1 ( 305) 2400
+
+Weather station power off from 15:00 to 15:15 EST on November 4
+Array	Day	Julian Date 	Time	Error Message
+101	4	308	1500	Technician changed 101 Array data from 4 ( 308) 
+1500 to  4 ( 308) 1600
+102	4	308	1500	Technician changed 102 Array from 4 ( 308) 1500 
+to  4 ( 308) 1600
+241	4	308	2400	Technician changed 241 Array from  4 ( 308) 2400 
+242	4	308	2400	Technician changed 242 Array from  4 ( 308) 2400 
+243	4	308	2400	Technician changed 243 Array data from  4 ( 308) 2400
+244	4	308	2400	Technician changed 244 Array data from  4 ( 308) 2400
+
+Program reload at 11:08, 15:50, and 16:22 EST on November 11
+Array	Day	Julian Date 	Time	Error Message
+101	11	315	1200	Technician changed 101 Array data from 11 ( 315) 1200 
+101	11	315	1600	Technician changed 101 Array data from 11 ( 315) 
+1600 to  11 ( 315) 1700	
+102	11	315	1200	Technician changed 102 Array from 11 ( 315) 1200 
+102	11	315	1600	Technician changed 102 Array from 11 ( 315) 1600 
+to  11 ( 315) 1700
+241	11	315	2400	Technician changed 241 Array from  11 ( 315) 2400
+242	11	315	2400	Technician changed 242 Array from  11 ( 315) 2400 
+243	11	315	2400	Technician changed 243 Array data from  11 ( 315) 2400
+244	11	315	2400	Technician changed 244 Array data from  11 ( 315) 2400
+
+Program reload 9:16 and 9:43 EST on November 12
+Array	Day	Julian Date 	Time	Error Message
+101	12	316	1000	Technician changed 101 Array data from 12 ( 316) 1000 
+102	12	316	1000	Technician changed 102 Array from 12 ( 316) 1000 
+241	12	316	2400	Technician changed 241 Array from 12 ( 316) 2400
+242	12	316	2400	Technician changed 242 Array from 12 ( 316) 2400	
+243	12	316	2400	Technician changed 243 Array data from 12 ( 316) 2400	
+244	12	316	2400	Technician changed 244 Array data from 12 ( 316) 2400
+
+Program reload at 15:45 EST on November 14
+Array	Day	Julian Date 	Time	Error Message
+101	14	318	1600	Technician changed 101 Array data from 14 ( 318) 1600 
+102	14	318	1600	Technician changed 102 Array from 14 ( 318) 1600 
+241	14	318	2400	Technician changed 241 Array from  14 ( 318) 2400 
+242	14	318	2400	Technician changed 242 Array from  14 ( 318) 2400 
+243	14	318	2400	Technician changed 243 Array data from  14 ( 318) 2400 
+244	14	318	2400	Technician changed 244 Array data from  14 ( 318) 2400 
+
+Program reload at 10:34 EST on November 15
+Array	Day	Julian Date 	Time	Error Message
+101	15	319	1100	Technician changed 101 Array data from 15 ( 319) 1100 
+102	15	319	1100	Technician changed 102 Array from 15 ( 319) 1100 
+241	14	318	2400	Technician changed 241 Array from   15 ( 319) 2400
+242	14	318	2400	Technician changed 242 Array from  15 ( 319) 2400
+243	14	318	2400	Technician changed 243 Array data from  15 ( 319) 2400
+244	14	318	2400	Technician changed 244 Array data from  15 ( 319) 2400
+
+c).  Since July 7, 1997, incorrect values have been collected for 24 hour barometric 
+pressure data.  Maximum barometric pressures were collected instead of averages.  These 
+data were deleted and replaced with 55555 from November 1 through November 11, 
+2002.
+
+Array	Day	Julian Date 	Time	Error Message
+241	1	305	2400	Technician changed 241 Array from  1 ( 305) 2400 
+to  12 ( 316) 2400
+
+d).  Rainfall data at 8:15 on November 12 were deleted and replaced with 55555.
+The funnel was cleaned and the gauge may have been tipped causing erroneous data to be recorded.
+
+Array	Day	Julian Date 	Time	Error Message
+151	12	316	815	Technician changed 151 Array at  12 ( 316) 815
+
+
+December 2002
+
+Anomalies:
+a).  For the following dates and time anomalous data were retained, as it was consistent 
+with weather conditions.
+
+Array	Day	Julian Date 	Time	Error Message
+151	24	358	1315	Precip difference from  24 ( 358) 1315 ( 3.556) to  
+24 ( 358) 1330 ( 8.89) is greater than 5 mm
+151	24	358	1330	Precip difference from  24 ( 358) 1330 ( 8.89) to  24 
+( 358) 1345 ( .762) is greater than 5 mm
+
+Corrections:
+a).  For the following dates and times all data were deleted and replaced with 55555 due 
+to program reloads and weather station power offs which may have resulted in missing 5-
+second data.
+
+Program reload at 10:56 and 11:06 EST on December 11
+Array	Day	Julian Date 	Time	Error Message
+101	11	345	1100	Technician changed 101 Array data from 11 ( 345) 
+1100 to  11 ( 345) 1200
+102	11	345	1100	Technician changed 102 Array from 11 ( 345) 1100 
+to  11 ( 345) 1200
+241	11	345	2400	Technician changed 241 Array from  11 ( 345) 2400 
+242	11	345	2400	Technician changed 242 Array from  11 ( 345) 2400 
+243	11	345	2400	Technician changed 243 Array data from  11 ( 345) 2400
+244	11	345	2400	Technician changed 244 Array data from  11 ( 345) 2400
+
+b).  Rainfall data  were deleted and replaced with 55555.  The funnel was cleaned and 
+the gauge may have been tipped causing erroneous data to be recorded around 9:30 on 
+December 3 and around 9:20 on December 31.
+
+Array	Day	Julian Date 	Time	Error Message
+151	3	337	930	Technician changed 151 Array at 3 ( 337) 930
+151	31	365	930	Technician changed 151 Array at  31 ( 365) 930
+
+
+12) Missing Data
+
+January 2002
+
+a).   For the following dates and times error messages were recorded as a result of data 
+lost due to power offs and program reloads.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	9	9	1500	Missing 150 Array data (15 minute data) from  9 ( 
+9) 1500 to  9 ( 9) 1530
+101	9	9	1500	Missing 101 Array (Hourly Averages)
+102	9	9	1500	Missing 102 Array (Hourly Average Wind 
+Parameters)
+
+
+102	3	3	700	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  3 ( 3) 700 to  4 ( 4) 900
+
+
+b).  From 7:00 on January 3 (Julian Date 3) to 9:00 on January 4 (Julian Date 4) the 
+WDMP replaced Wind data at Array 102 with 11111.  This was not included in the Error 
+Report after recompiling corrected data.  Extremely cold temperatures combined with 
+sleet may have resulted in the instrument freezing up.  The wind sensor may have 
+started freezing at this time.  
+
+
+February 2002
+None
+
+
+March 2002
+None
+
+
+April 2002
+
+a).   For the following date and time error messages were recorded as a result of data lost 
+due to power offs and program reloads during maintenance to the weather station. 
+
+Array	Day	Julian Date 	Time	Error Message
+150	23	113	1345	Missing 150 Array data (15 minute data) from  23 ( 
+113) 1345 to  23 ( 113) 1415
+101	23	113	1400	Missing 101 Array (Hourly Averages)
+102	23	113	1400	Missing 102 Array (Hourly Average Wind 
+Parameters)
+
+
+May 2002
+None
+
+
+June 2002
+
+Hourly wind data is missing on June 7 at 0400.  Reason is unexplained.  
+
+Array	Day	Julian Date 	Time	Error Message
+102	7	158	400	Missing 102 Array data (Hourly Average Wind Parameters) 
+from  7 ( 158) 400 to  7 ( 158) 500
+
+
+July 2002
+
+a).  The following error message was recorded for unknown reasons.  
+
+Array	Day	Julian Date 	Time	Error Message
+102	9	190	200	Missing 102 Array (Hourly Average Wind Parameters)
+
+b).  From July 14 (Julian Date195) at 01:45 to July 24 (Julian Date 205) at 10:11 there 
+were instances when the battery voltage dropped too low to record data.  This resulted in 
+the following error messages for missing data.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	14	195	145	Missing 150 Array data (15 minute data) from  14 ( 
+195) 145 to  14 ( 195) 700
+150	14	195	730	Missing 150 Array data (15 minute data) from  14 ( 
+195) 730 to  14 ( 195) 800
+150	15	182	15	Missing 150 Array data (15 minute data) from  14 ( 
+195) 2315 to  15 ( 196) 815
+150	15	196	845	Missing 150 Array (15 minute data)
+150	16	182	15	Missing 150 Array data (15 minute data) from  15 (
+196) 2115 to  16 ( 197) 1100
+150	17	182	15	Missing 150 Array data (15 minute data) from  16 (
+197) 2100 to  17 ( 198) 945
+150	18	182	15	Missing 150 Array data (15 minute data) from   17 ( 
+198) 2200 to  18 ( 199) 1015
+150	20	201	2300	Missing 150 Array data (15 minute data) from  20 ( 
+201) 2300 to  22 ( 203) 1130
+150	23	182	15	Missing 150 Array data (15 minute data) from  22 ( 
+203) 2215 to  23 ( 204) 1130
+150	23	204	2200	Missing 150 Array data (15 minute data) from  23 ( 
+204) 2200 to  31 ( 212) 2400
+101	14	195	200	Missing 101 Array data (Hourly Averages) from  14 
+( 195) 200 to  14 ( 195) 800
+101	14	195	2400	Missing 101 Array data (Hourly Averages) from  14 
+( 195) 2400 to  15 ( 196) 800
+101	15	196	2200	Missing 101 Array data (Hourly Averages) from  15 
+( 196) 2200 to  16 ( 197) 1100
+101	16	197	2100	Missing 101 Array data (Hourly Averages) from  16 
+( 197) 2100 to  17 ( 198) 900
+101	17	198	2200	Missing 101 Array data (Hourly Averages) from  17 
+( 198) 2200 to  18 ( 199) 1000
+101	20	201	2300	Missing 101 Array data (Hourly Averages) from  20 
+( 201) 2300 to  22 ( 203) 1100
+101	22	203	2300	Missing 101 Array data (Hourly Averages) from  22 
+( 203) 2300 to  23 ( 204) 1100
+101	23	204	2200	Missing 101 Array data (Hourly Averages) from  23 
+( 204) 2200 to  31 ( 212) 2400
+102	14	195	200	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  14 ( 195) 200 to  14 ( 195) 800
+102	14	195	2400	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  14 ( 195) 2400 to  15 ( 196) 800
+102	15	196	2200	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  15 ( 196) 2200 to  16 ( 197) 1100
+102	16	197	2100	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  16 ( 197) 2100 to  17 ( 198) 900
+102	17	198	2200	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  17 ( 198) 2200 to  18 ( 199) 1000
+102	20	201	2300	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  20 ( 201) 2300 to  22 ( 203) 1100
+102	22	203	2300	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  22 ( 203) 2300 to  23 ( 204) 1100
+102	23	204	2200	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  23 ( 204) 2200 to  31 ( 212) 2300
+241	14	195	2400	Missing 241 data (Daily Averages) from  14 ( 195) 
+2400 to  17 ( 198) 2400
+241	20	201	2400	Missing 241 data (Daily Averages) from  20 ( 201) 
+2400 to  30 ( 211) 2400
+242	14	195	2400	Missing 242 data (Daily Average Wind Parameters) 
+from  14 ( 195) 2400 to  17 ( 198) 2400
+242	20	201	2400	Missing 242 data (Daily Average Wind Parameters) 
+from  20 ( 201) 2400 to  30 ( 211) 2400
+243	14	195	2400	Missing 243 data (Daily Max/Time Values) from  
+14 ( 195) 2400 to  17 ( 198) 2400
+243	20	201	2400	Missing 243 data (Daily Max/Time Values) from  
+20 ( 201) 2400 to  30 ( 211) 2400
+244	14	195	2400	Missing 244 data (Daily Min/Time Values) from  
+14 ( 195) 2400 to  17 ( 198) 2400
+244	20	201	2400	Missing 244 data (Daily Min/Time Values) from  
+20 ( 201) 2400 to  30 ( 211) 2400
+
+c).  The following error messages were recorded for missing data when the power was off 
+at the weather station due to troubleshooting voltage problems. 
+
+Array	Day	Julian Date 	Time	Error Message
+150	18	199	1245	Missing 150 Array (15 minute data)
+150	18	199	1315	Missing 150 Array (15 minute data)
+150	19	200	900	Missing 150 Array (15 minute data)
+101	19	200	900	Missing 101 Array (Hourly Averages)
+102	19	200	900	Missing 102 Array (Hourly Average Wind Parameters)
+
+d).  From July 24 9:11 EST to July 31, 2002, the CR10X was returned to Campbell for 
+testing and repair, therefore, no weather data were collected during this time period.  
+
+
+August 2002
+
+a).  From August 1, 2002 to August 9, 2002 at 8:00, the CR10X was returned to 
+Campbell Scientific for testing and repair, therefore, no weather data were collected 
+during this time period.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	1	213	30	Missing 150 Array data (15 minute data) from  
+1 ( 213) 30 to  9 ( 221) 800
+150	9	221	845	Missing 150 Array data (15 minute data) from  
+9 ( 221) 845 to  9 ( 221) 930
+101	1	213	100	Missing 101 Array data (Hourly Averages) from  
+1 ( 213) 100 to  9 ( 221) 900
+102	1	213	100	Missing 102 Array data (Hourly Average Wind Parameters) 
+from  1 ( 213) 100 to  9 ( 221) 900
+241	1	213	2400	Missing 241 data (Daily Averages) from  1 ( 213) 2400 
+to  8 ( 220) 2400
+242	1	213	2400	Missing 242 data (Daily Average Wind Parameters) from  
+1 ( 213) 2400 to  8 ( 220) 2400
+243	1	213	2400	Missing 243 data (Daily Max/Time Values) from  1 ( 213) 
+2400 to  8 ( 220) 2400
+244	1	213	2400	Missing 244 data (Daily Min/Time Values) from  1 ( 213) 
+2400 to  8 ( 220) 2400
+
+
+September 2002
+	
+a).  The following message resulted when data were not saved to a newly created monthly 
+file.
+
+Array	Day	Julian Date 	Time	Error Message
+150	3	246	745	Missing 150 Array (15 minute data)
+
+
+October 2002
+
+a).  The following error message was recorded for data that are missing for unknown 
+reasons.  
+
+Array	Day	Julian Date 	Time	Error Message
+150	1	274	1445	Missing 150 Array data (15 minute data) from  1 ( 
+274) 1445 to  3 ( 276) 1445
+101	1	274	1600	Missing 101 Array data (Hourly Averages) from  1 
+( 274) 1600 to  3 ( 276) 1400
+102	1	274	1600	Missing 102 Array data (Hourly Average Wind 
+Parameters) from  1 ( 274) 1600 to  3 ( 276) 1400
+241	1	274	2400	Missing 241 Array (Daily Averages) from 1 ( 274) 2400
+to 2 (275) 2400
+242	1	274	2400	Missing 242 Array (Daily Average Wind Parameters)
+from 1 ( 274) 2400 to 2 (275) 2400
+243	1	274	2400	Missing 243 Array (Daily Max/Time Values)  from 1 ( 274) 2400
+to 2 (275) 2400
+244	1	274	2400	Missing 244 Array (Daily Min/Time Values) from 1 ( 274) 2400
+to 2 (275) 2400
+
+
+November 2002
+
+a).  The following error message was received for data missing due to program reloads.
+
+Array	Day	Julian Date 	Time	Error Message
+150	11	315	1115	Missing 150 Array data (15 minute data) from  11 ( 
+315) 1115 to  11 ( 315) 1130
+150	14	318	1545	Missing 150 Array (15 minute data)
+
+150	14	318	1630	Missing 150 Array (15 minute data)
+
+
+December 2002
+None
+
+
+13) Other remarks:
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+Winter 2002	OL pier used by birds during winter months resulting in lots of bird 
+droppings coving weather station equipment.  Data may be suspect.  
+
+1/03/2002	cleaned rain gage 12:20
+
+
+1/09/2002	Power off at weather station 14:50-14:52 to test palm pilot.  At 15:18 tried to 
+upload data with palm Pilot.  At 15:30 turned CR10x off and on.  Resent program-fixed problem.
+  No data for 15:00 through 15:30
+
+
+3/07/2002	13:40 JK adjusted wind direction tail.  It was bent and hitting the lightening 
+rod.  Gave it a spin to make sure not hitting any more.  13:44 JK tipped rain gauge water bucket
+
+3/08/2002	JK made sure wind tail not hitting the antenna-gave it one spin
+
+
+3/22/2002	Craig Knox from Campbell Sci. phoned and suggested that we try changing the 
+multiplier at line 26 from 720 to 712.  He has seen wind directions between 360 and 365 
+with a Met One 034-A.  By changing the multiplier he feels the  problem will be corrected.  
+PC208w program changed according to Craig Knox's instruction.  Program was changed, 
+recompiled, and reloaded at 13:35.  Some data may be lost in the reload.
+
+3/25/2002	14: 00ish Cleaned rain gage, may have tipped.   
+		
+Emailed Bob Scarborough  (RC at Delaware) to ask his advice about wind direction problems.
+He phoned and suggested that I use the long leads length programming to fix the problem.  
+
+PC208w program was changed according to Bob's suggestions.  This occurred during the time
+from 15:50 to 16:03 with the program reload at 16:03.  
+
+3/28/2002	Phoned Met One and spoke to Rod Ralston.    He said that the multiplier needs 
+to be adjusted.  To do this manually spin the sensor to north to see real max value 
+(will need to take laptop to OL Met station).  Divide 360 by the max value and take 
+that number and multiply it times the .288 multiplier in the long lead length programming to 
+get a new multiplier.  
+
+			
+4/1/2002	11:20 manually moved wind sensor to max value for direction.  
+Got a reading of 363.21.
+
+4/2/2002	Emailed Rod Ralston with more questions.  The wind direction 
+value we got when rotating the wind vain was slightly less than the max wind direction 
+from the data (363.21 vs 363.52).  Rod suggested using 363.52, however, he did not 
+realize that we were only seeing this >360 with snapshot 15minute data and that there 
+were not >360 for the hrly or 24 hr data.  Sent him an email explaining how we collect 
+data (5sec, 15min, 1hr, 24hr).  Asked his opinion on how to get the best data.  
+
+4/3/2002	Rod suggested changing multiplier.  14:40 changed multiplier for 
+MetOne (SN X3121) from 0.288 to 0.285 
+
+			360/363.52(max measured wind direction)=0.990 (correction factor
+
+			0.990*0.288(old multiplier)=0.285 new corrected multiplier
+
+			0.285 inserted at section 26 line 8.
+
+Changed wiring info for MetOne from E2 to E1 for blue wire.  E1 is the correct position
+ for where the blue wire is inserted (see section 26 line 4).
+
+Melissa Ide discovered that past technician had used the wrong calibration sheet when 
+she calculated the multiplier for the LiCor (SN 18206). This sensor has been installed
+since 6/26/01 and has been using the multiplier for the LiCor Q26604.  We are unsure as 
+to how long LiCor data are bad.  
+
+To fix the problem as of 4/03/2002, the correct LiCor calibration numbers were used to 
+calculate the multiplier for total fluxes:
+
+				(1/C) x t
+
+				C=calibration constant (4.66 for this sensor) x 0.604  (0.604 
+accounts for the 604ohm shunt resistor)
+				T= datalogger program execution interval in seconds (5sec)
+
+				(1/4.66 x 0.604) x 5 =1.78
+
+				At section 12 line 5 the multiplier for LiCor (SN 18206) was 
+changed from 1.27 to 1.78.
+
+All changes to the program were saved as a new program name ni_wb30h.csi and the program 
+was reloaded at 15:07 and 15:09 (wouldn't connect the first time).  Some data may have been
+lost in the program upload.
+
+4/23/2002	Weather Station Monthly cleaning.   Power at CR10X  turned off at 14:35 DST 
+(13:35 EST)and weather tower lowered for monthly cleaning.  Power turned back on at 15:15 
+DST (14:15 EST) and program reloaded at 15:28 DST (14:28 EST).    
+
+		After reload the yr for the datalogger read 01, not sure how long it 
+was reading this, but it was corrected to read 02 –may have to correct this when going 
+over the 2002 data.  
+
+6/26/02		Cleaned weather station solar panel around 10:13 DST (9:13 EST).  
+Rain seems to have kept other sensors clean.  
+
+7/2/02		Danna Dowdy worked on weather computer to try to get data online.  
+PC208w was off between 9:45 DST (8:45 EST) and 9:57 DST (8:57 EST). 
+
+7/10/02		Rain gage calibration checked according to Campbell protocol (By 
+Jennifer Keesee and Tracy Buck).   All rain data between 9:28 DST (8:28 DST) and 16:50 
+DST (15:50 EST) should be deleted.  No actual precip, all tipping due to cleaning and 
+calibration checks.   
+
+7/11/02		Created a new program and moved array 113 info to the end of 
+final storage area 2 (table 2).  New program named NIWB30i sent to datalogger at 
+13:56 DST (12:56 EST).  Program resent at 14:40 DST with YSI programming commented out.  
+Resent at 15:00, 15:05, 15:35, 15:42, and16:05 DST with YSI time intervals changed.  
+Final interval set fo 2 minutes into a 5 minute interval.  
+
+
+7/15/02		No numerics on weather computer at 8:42 DST.  Restarted computer at 
+8:43 DST due to error message.  No data had recorded past 2300 EST on JD 195 (7/14/02).  
+Resent CR10x program at 8:46 DST.  Battery volts checked and were reading 8.4353 (needs 
+10.5 to operate correctly).  Checked weather station, turned power off and on at 9:20 DST
+and resent program at 9:47 DST.  No numerics , so resent program again at 9:49 DST.  
+Rechecked battery volts at 10:15 DST, they were up to 9.43v.  AT 10:34 DST volts read 
+10.419.  Problems probably due to low voltage.  ? if solar panels adequately charging batteries  Numerics finally came 
+back when battery charged more.  
+
+7/16/02		At 8:48 DST CR10x not connected, due to low battery voltage.  
+Checked volts at weather station with voltmeter.  Battery down to 1.73 volts in morning, 
+solar panel 13.48 when disconnected from battery.  
+
+7/17/02		Battery volts too low 
+
+7/18/02		At 9:46 DST battery volts reading 9.41, cr10x was not connecting.  
+At 13:30 DST  volts up to 10.854.  
+
+		Power turned off at Cr10x at 13:42 DST to 13:45 DST to replace 
+battery and rewire Barometric pressure sensor with red wire disconnected.  Program 
+resent at 13:54 and new battery volts reading 12.296.
+
+		Power off at Cr10x from 14:14-14:15 DST to check pressure wiring.  
+Program resent at 14:24 and pressure still reading 599.88.  
+
+		Power off at Cr10x from 15:42 – 15:44 DST to rewire pressure. 
+Resent program at 15:53 DST, pressure still reading incorrectly.  
+
+7/19/02		A 9:20 DST battery volts reading 11.642, pressure reading 600.00mb.  
+
+		Power off at Cr10x from 9:56 to 10:01 to rewire pressure sensor.  
+Program resent at 10:08 DST, pressure still messed up.  
+
+		Battery volts at 10:29 reading 11.745 v.
+
+		Power off at cr10x at 11:24 DST- 11:30 DST.  Program reload at 
+11:38 DST.  Bar Pressure sensor working correctly once rewired.  
+
+7/22/02		Battery volts reading 9.3992 in morning (9ish DST).  Spoke with 
+Craig Knox at Campbell, he thinks our CR10X has a high current drain and suggests 
+we send it in to be tested.  JK changed program to comment out YSI programming to 
+see if it was draining the battery, but could not send since PC208W would not connect.  
+Around 12:44 DST resent program when computer connected and battery volts 11.316.
+
+7/23/02		Battery volts 9.4191 at 8:45DST.  Computer would not connect 
+until afternoon.  Battery volts up to 11.109 at 13:31 DST.
+
+				
+7/24/02	Powered off weather station at 10:11 DST and disconnected CR10x to send to 
+Campbell.  Should take 7-10 days to be checked and returned.  Shut down weather computer.
+
+8/9/02		CR10X rewired and program reloaded.  Weather data began 
+collecting around 10:30 DST (9:30EST).  
+
+8/21/02 	Program changed briefly to test YSI cable at OL.  YSI programming was 
+commented out again after testing complete and showed that cable ok.  Program was resent 
+at 10:29 EST with YSI uncommented and resent at 12:36 with programming commented out.
+
+8/28/02	9:03 EST changed to program "j" with Table 2 execution interval 
+changed from 300 seconds to 5
+
+	9:46 EST changed program "j" by commenting out line 43 Table 2 Sample P7 0 to 
+allow precipitation to work
+
+		Uncommented above and resent program at 10:15 EST
+
+		Resaved I as "k" with 5 sec interval in table 2, resent at 10:22 EST
+
+8/29/02		still no rainfall recorded, deleted program j at 8:28 EST
+
+		changed Table 2 interval to 5 se in "i" and resaved as "j" at 8:28
+	
+		resent program to station at 8:29 EST
+
+		deleted "k" at 8:30 EST
+
+8/30/02	10:30 EST rain gage blocked with bird droppings with about 1 cup 
+of water in funnel.  Funnel emptied and cleaned.  Bucket may have 
+tipped.  
+
+9/3/02		After creating new monthly file at 8:32 DST (7:32 EST) kept checking to see 
+if adding data to new file, did not add 7:45 data (this data sill added to 8/02 file).  
+Re-associated everything again and checked at 8:00 EST.  8:00EST data saved to correct file.	
+
+9/6/02		10:40EST shut down weather computer—frozen up
+		10:56 EST program "j" resent after comments added
+
+9/9/02		7:30 EST computer restarted—frozen up.
+		Data backed up to PDC50
+
+9/18/02		uncommented YSI in program "I" and commented out Real Time at 11:48, sent at 11:48EST
+
+changed data logger interval to 300seconds from 5s at 1:26EST resent program to CR10X
+
+9/18/02	13:35 resent program "k" with commented out—failed, resent at 1338 failed, 
+resent at 13:45 EST—successful
+
+9/24/02		computer crashed at 10:34 EST when tried to copy raw file, rebooted, computer 
+would not connect to CR10X, possible memory problem.  Restarted and reconnected at 10:56
+
+9/25/02		computer crashed and replaced computer, used old hard drive, collected all
+
+9/26/02	12:56 EST Danna changed rain collection interval from 15minute to 1 minute for 
+(line 40) for D. Allen.  Resaved program as "L" and resent at 12:59
+
+9/27/02	9:00 EST  1.016mm confirmed as real rainfall, should be 245 array for 24 hour total, 
+resent program so 5 sec data bad.  Tracy changed program "L" by changing rain collection 
+interval to 15min from 1 min due to lack of rainfall related to Isodore.  Program resent at 
+11:32.
+	
+	1:44EST Danna and Tracy poured .473L water into rain gauge to trouble shoot CR10X Real 
+time program.  
+
+10/1/02		Danna changed to program "N"  at 11:50 clock time (?).   12:30 
+EST water added to rain gauge to test weather program (no rain 
+this day up to this point)
+	
+10/2/02		Program resent at 8:57 EST				
+
+10/3/02		Program resent at 7:48 EST
+	
+		Program resent at 1:10 EST	
+			
+		RTDM locked up in morning and no 24 hour data in .dat file	
+
+10/11/02	Tropical storm Kyle.  Collect all at 9:53 EST.  changed rainfall 
+interval to 1 minute for rain in relation to Kyle.  Resent program at 9:57
+
+10/14/02	7:30 EST rainfall interval changed back to 15 minute form 1 
+minute, program resent at  7:49 EST
+
+10/28/02	changed rain collection interval to 1 minute (due to prediction of 
+2+ days of rain) and resent program at 8:43:40 EST datalogger time
+
+11/1/02		changed rain collection interval back to 15 minutes and resent 
+program at 8:40 EST
+
+11/4/02	telecomm. Failed at 13:52 (verizon tele co. crossed line during 
+repair work).  Rebooted computer at 14:15 EST      
+
+? 15:00 powered down weather station , 15:15 powered on weather 
+station.  Polarity of lines changed ?
+
+11/11/02	241 Array may have been using max pressure instead of average all along
+
+Computer changed over to new at 10:00am EST PC208W changed at 10:20 am.  
+
+New program NIWB4A sent at 11:08 (all data not showing numerics)
+
+Resent Bob Scarborough's program at 15:30 ? EST,  did not work.  
+Resent program "N" at 15:25
+
+		16:22 changed and resent final program to datalogger
+
+11/12/02	rain gage tipped when Sarah cleaned to bucket 8:30
+
+program "N" resent at 9:16 to check YSI temp reading (only 
+reading not working with new program)
+	
+		9:43 resent new program (temp worked with old).
+
+11/14/02	program resent at 15:45 to correct turbidity  (negative) in real time
+
+11/15/02	program resend at 10:34
+
+12/3/02		Rain gauge tipped when cleaning bird droppings 10:30 EST
+
+12/31/02	Tipped rain gage 9:20ish cleaning out bird lots of droppings.
+
+
+Rain Events: 
+
+Note: monthly totals are not available during months where there was missing data. 
+
+January
+Date	Rain Amount (mm)
+2		8.890
+3		.508
+5		.254
+6		14.224
+11		.254
+12		9.906
+13		5.588
+14		12.954
+19		.254
+20		1.016
+21		1.016
+24		.254
+25		2.032
+31		.254
+
+Monthly Total	n/a
+
+February
+Date	Rain Amount (mm)
+1		.254
+6		10.668
+7		23.368
+10		8.636
+11		.254
+15		.508
+16		.254
+21		1.524
+22		.508
+23		.762
+
+Monthly Total	46.7
+
+March
+Date	Rain Amount (mm)
+2		31.496
+3		7.620
+9		.508
+12		11.176
+13		10.668
+14		.508
+21		7.366
+25		.254
+26		10.160
+31		11.938
+
+Monthly Total	91.7
+
+April
+Date	Rain Amount (mm)
+3		13.970
+10		22.098
+11		2.032
+12		2.032
+13		.254
+25		33.528
+27		1.016
+28		.254
+
+Monthly Total	n/a
+
+May
+Date	Rain Amount (mm)
+1		5.334
+3		13.462
+4		14.224
+5		7.366
+13		7.874
+14		1.016
+18		25.908
+19		2.286
+30		.508
+
+Monthly Total	78.0
+
+June 
+Date	Rain Amount (mm)
+7		2.286
+14		7.112
+15		.254
+18		7.620
+19		7.620
+20		36.576
+21		6.096
+22		33.528
+23		3.302
+24		.508
+25		.254
+27		7.366
+28		5.842
+29		6.858
+30		.254
+
+Monthly Total		125.5
+
+July
+Date 	Rain Amount (mm)
+5		.762
+6		2.540
+8		2.286
+11		72.898
+12		31.242
+13		6.096
+14		4.826
+15		1.778
+18		6.350
+19		3.048
+20		13.970
+22		17.272
+
+Monthly Total	n/a
+
+August
+Date	Rain Amount (mm)
+14		12.700
+15		1.016
+17		.254
+24		6.096
+25		22.606
+26		3.556
+27		10.414
+28		61.214
+29		19.558
+30		30.988
+31		20.574
+
+Monthly Total	n/a
+
+September
+Date	Rain Amount (mm)
+1		1.524
+2		38.608
+3		1.778
+14		3.302
+15		13.462
+16		15.240
+18		.254
+24		.254
+25		50.546
+26		12.954
+
+Monthly Total		137.9
+
+October 
+Date	Rain Amount (mm)
+7		.762
+8		4.064
+10		4.572
+11		12.192
+13		2.032
+15		36.830
+16		.254
+21		4.826
+22		3.810
+24		8.382
+26		.254
+28		1.778
+
+Monthly Total		n/a
+
+November
+Date	Rain Amount (mm)
+4		2.794
+5		1.270
+6		2.540
+7		.508
+9		.254
+10		5.588
+12		14.224
+13		10.668
+15		1.016
+16		10.160
+17		8.128
+20		.254
+
+Monthly Total		n/a
+
+December
+Date	Rain Amount (mm)
+4		2.286
+5		1.016
+6		.254
+10		27.686
+11		2.540
+12		.254
+13		35.052
+19		6.350
+20		2.286
+24		23.622
+25		.508
+30		.254
+31		1.016
+
+Monthly Total		103.1
+
+

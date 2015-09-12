@@ -1,0 +1,860 @@
+Chesapeake Bay Virginia (CBV) NERR Water Quality Metadata
+January - December 1996
+Latest update: November 1, 2002
+
+I.  Data Set and Research Descriptors
+
+1.  Principal investigators and contact persons 
+
+	Dr. Maurice Lynch, Manager 				
+	  E-mail: mlynch@vims.edu;  (804) 684-7151	
+
+	Dr. William Reay, Research Coordinator	
+	  E-mail: wreay@vims.edu; (804) 684-7119		
+
+Virginia Institute of Marine Science
+College of William and Mary
+PO Box 1346, Gloucester Point, VA 23062
+Phone:  (804) 684-7135
+
+
+2. Entry verification
+The data were uploaded to the PC from the YSI 6000 data loggers and reviewed using 
+PC6000 software from YSI. Graphs were produced and examined using the PC6000 software 
+then printed out and filed in order to aid in reviewing  data to correlate any anomalous and 
+outlying data.  Next, files were uploaded in .dat and comma delimited format which were 
+opened in Excel 5.0 software and edited to remove extraneous information (headers, footers, 
+spaces, and pre- and post-deployment data).  Monthly templates were used to form complete 
+sets of monthly data sets.  Macros supplied by NERRS/CDMO were used to help with editing, 
+formatting and identifying outliers in the database.  Suspect data (as in data believed to result 
+from a damaged or biofouled probe) were evaluated according to Appendix B of the CDMO  
+manual, edited and documented.  Missing data due to YSI maintenance (down time) was 
+inserted into the spreadsheet  and was denoted by periods (.).  Data that were not within 
+calibration range of the instrument were evaluated and removed from the record and denoted 
+by periods (.).  Edited and raw data files were copied and archived in the Chesapeake Bay 
+National Estuarine Research Reserve of Virginia (CBNERRVA) file server and uploaded to the 
+CDMO FTP site.  All Taskinas Creek files from 1996 have been verified using the latest 
+update of the Microsoft Excel 5.0 macro programs which identified outliers (values that fall 
+outside of the calibration range - see section II.8 of this document) and other erroneous data.  
+Outliers were determined according to the instruments' manufacturers manual. Rob Breeding, the 
+SWMP Coordinator, and Jeff Shields, the RC, collected and edited data from 1/96-6/96.  
+Bill Seufzer collected and edited data from 7/96-12/96.  Dr. William Reay and Tammy Dorman 
+processed the data through the latest update of the CDMO macro and conducted final editing 
+of the data.  Following final editing, Tammy Dorman uploaded the database to the CBNERRVA 
+server and to CDMO.  
+
+
+3. Research Objectives
+The Taskinas Creek watershed is representative  of an inner coastal plain rural watershed 
+within the southern Chesapeake Bay system.  This watershed  is dominated by forested and 
+agricultural land uses with an increasing urban land use component.  The drainage basin is 
+suited for investigating hydrologic  and nonpoint source water quality issues associated with 
+changing land use patterns; these issues are of prime importance to the U.S. EPA Chesapeake 
+Bay Program.  Continuously monitored physical water quality parameters (dissolved oxygen, 
+pH, specific conductance, turbidity, and temperature) provide long-term measurements which 
+can be supplemented with shorter-term monitoring and process oriented studies.  
+Measurements were taken every 15 minutes at the Taskinas Creek site and the YSI data 
+loggers were maintained, downloaded, cleaned, and calibrated at two-week intervals.  
+
+4.  Research methods 
+The CBNERRVA maintains a long-term water quality-monitoring program, which consists of 
+a single station located in the transitional zone of the York River tributary.  A simple 
+deployment was arranged with the State Park where a secured YSI 6000 unit hangs at a fixed 
+depth (0.5 m above the creek bed) from an overhanging tree approximately six meters 
+upstream from the parks canoe landing.   Specific conductance, pH, depth, temperature, DO 
+saturation, and turbidity are recorded at 15-minute intervals.  Salinity and dissolved oxygen 
+are calculated as a function of temperature and specific conductivity readings.  At 
+approximately two-week intervals, the data logger was returned to the lab for downloading, 
+cleaning, membrane replacement and recalibration.  Maintenance intervals were determined 
+according to the amount of  biofouling that occurred and to accommodate battery life. A 
+second YSI 6000 data logger was deployed following retrieval of the original YSI datasonde in 
+order to maintain a continuous record. All procedures are in accordance with YSI Operating 
+Manual methods, sections 3 and 7.  Standards for pH, and conductivity were purchased from 
+YSI.  Turbidity standard was purchased from Advanced Polymer Systems.  Data was reviewed 
+and edited according to the YSI Data Review and Editing Protocol in Appendix B of the 
+CDMO manual.  
+
+5.  Site location and character
+Taskinas Creek (TC) Component: (Latitude 37 deg 24’ 54.04617” N, Longitude 76 deg 42' 
+51.75733” W)  The Taskinas Creek Component of the CBNERR-VA is on the south shore of 
+the York River in James City County near Williamsburg.  The site is approximately 44 
+kilometers upstream from the river's mouth and 15 kilometers downstream from West Point.  
+Headwaters of Taskinas Creek are near the town of Croaker, which is located approximately 
+10 kilometers north of Williamsburg.  The creek flows in a northeasterly direction covering a 
+distance of about 5.5 kilometers eventually feeding into the York River.  The sampling 
+station is located on the second bend from the mouth of Taskinas Creek within York River 
+State Park, about 6 meters upstream from the parks canoe landing.  The sediment type at 
+this station consists of approximately 42% fine sand, 30% clay, and 28% silt.  The creek is 
+tidal for approximately half of its length with a tidal range of 0.00-1.3m.  The non-tidal 
+portion contains feeder streams, which drain oak-hickory forests, maple-gum-oak-ash 
+swamps and freshwater marshes.  The marshes near the creek mouth are brackish with a 
+salinity range from 3-13 ppt.  The shoreline is moderately low with fringing marsh and tidal 
+flats.  Taskinas Creek mainly drains the undeveloped York River State Park watershed, 
+however the watershed is lightly impacted above the State Park by residential development 
+and selective hardwood logging.  Wildlife populations have been shown to influence 
+microbiological water quality within the watershed.  
+
+6.  Data collection period:
+Ongoing sampling at Taskinas Creek (TC) began September 1995.
+
+7.  Associated researchers and projects:
+A volunteer water quality-monitoring program sponsored by the Alliance for the Chesapeake 
+Bay has been ongoing at Taskinas Creek for several years, beginning January 10, 1990. This 
+project samples some overlapping parameters  including dissolved oxygen and salinity on a 
+two-week basis. 
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units resolution and accuracy (for YSI):
+
+Variable Name	  Range of Measurements (units)	Resolution		Accuracy
+Date		1-12,1-31,00-99 (Mo, Day, Yr)	1 month, 1 day, 1 year	NA
+Time		0-24,0-60,0-60 (Hr, Min, Sec)	1 hour, 1 minute, 1 second	NA
+Temperature	-5.0 to 45.0 (deg C)	0.01 deg C		+/- 0.15 deg C
+SpCond		0-100 (mS/cm)		0.01 mS/cm		+/- 0.5	reading + 0.001 mS/cm
+Salinity		0-70 Parts per thousand (ppt)	0.01 ppt	+/- 1.0% reading or 0.1ppt, 
+(whichever is greater)
+DO		0-200 (% air saturation)	0.1% @ air sat		+/- 2.0% @ air sat
+DO		200-500 (% air saturation)	0.1% @ air sat		+/- 6.0% @ air sat
+DO		0-20 (mg/L)			0.01 mg/L		+/- 0.2 mg/L
+DO		20-50 (mg/L)			0.01 mg/L		+/- 0.6 mg/L
+Depth		0-9.1 (m)			0.001 m		+/- 0.018 m
+pH		2-14 units			0.01 units		+/- 0.2 units
+Turbidity	0-1000 NTU			0.1 NTU		+/- 5% of reading or 2 
+NTU (whichever is greater) 
+
+9. Coded variable indicator and variable code definitions 
+Site definitions: TC = Taskinas Creek.
+File definitions: YSI deployment site/month/year (ex.: TC0995 = Taskinas Creek data from 
+September 1995). 
+
+10.  Data anomalies (suspect data):
+Frequent data anomalies were recorded in depth levels for several months due to low-pressure 
+weather fronts.  This data remained in the record.  According to the CDMO Operations 
+manual version 3.0, depth measurements taken with the non-vented level probe can be 
+influenced up to 0.39m (1.3ft) during severe low-pressure hurricane events.  Depth went 
+negative during periods of low tide and was accompanied by drops in conductivity (and 
+salinity).  It appears that the low tide left the YSI suspended in the open air.  The data were 
+left intact and should be used with caution for the months of January through June.  Starting 
+with July data were extracted in accordance with Version 3.0 of the CDMO Manual.
+
+January 1996:
+TC:
+01/06/96 16:30:00 to 18:15:00	All sensors out of water
+01/06/96 18:30:00 to 01/13/96 10:30:00	Temperature data could be suspect; there is 
+minimal daily variations; temperatures remain negative
+01/18/96 01:15:00 to 02:15:00	All sensors out of water
+01/18/96 13:00:00 to 14:00:00	Negative depth due to low tide or low-pressure system
+01/18/96 14:15:00 to 15:00:00	All sensors out of water
+01/18/96 15:15:00 to 16:30:00	Negative depth due to low tide or low pressure system
+01/19/96 00:30:00 to 02:15:00	Negative depth due to low tide or low pressure system 
+01/19/96 02:30:00 to 03:30:00	All sensors out of water
+01/19/96 03:45:00 to 05:00:00	Negative depth due to low tide or low pressure system
+01/19/96 14:00:00 to 18:15:00	Negative depth due to low tide or low pressure system 
+01/20/96 03:45:00 to 05:15:00	Negative depth due to low tide or low pressure system
+01/20/96 16:15:00 to 17:00:00	All sensors out of water
+01/20/96 17:15:00 to 17:45:00	Negative depth due to low tide or low pressure
+01/21/96 03:15:00 to 03:30:00	Negative depth due to low tide or low pressure system
+01/21/96 03:45:00 to 05:15:00	All sensors out of water
+01/21/96 05:30:00 to 06:30:00	Negative depth due to low tide or low pressure system
+01/21/96 16:15:00 to 18:00:00	Negative depth due to low tide or low pressure system
+01/22/96 18:00:00 to 18:45:00	Negative depth due to low tide or low pressure system
+01/23/96 05:45:00 to 07:15:00	Negative depth due to low tide or low pressure system
+01/23/96 17:45:00 to 20:15:00	Negative depth due to low tide or low pressure system
+01/24/96 05:30:00 to 09:15:00	Negative depth due to low tide or low pressure system
+01/24/96 17:30:00 to 20:00:00	Negative depth due to low tide or low pressure system
+01/24/96 20:15:00		All sensors out of water
+01/24/96 20:30:00 to 21:45:00	Negative depth due to low tide or low pressure system
+01/25/96 06:15:00 to 08:30:00	Negative depth due to low tide or low pressure system
+01/25/96 18:45:00 to 19:00:00	Negative depth due to low tide or low pressure system
+01/25/96 19:15:00 to 21:00:00	All sensors out of water
+01/25/96 21:15:00 to 21:45:00	Negative depth due to low tide or low pressure system
+01/26/96 08:00:00 to 10:15:00	All sensors out of water
+01/26/96 20:45:00 to 21:30:00	Negative depth due to low tide or low pressure system
+01/27/96 09:45:00 to 11:45:00	Negative depth due to low tide or low pressure system
+01/27/96 19:45:00 to 01/28/96 00:30:00	Negative depth due to low tide or low pressure 
+system
+01/28/96 21:30:00 to 21:45:00	Negative depth due to low tide or low pressure system
+01/28/96 22:00:00 to 01/29/96 00:45:00	All sensors out of water
+01/29/96 01:00:00		Negative depth due to low tide or low-pressure system
+01/29/96 10:30:00 to 11:15:00	Negative depth due to low tide or low-pressure system
+01/29/96 11:30:00 to 12:45:00	All sensors out of water
+01/29/96 13:00:00 to 14:15:00	Negative depth due to low tide or low-pressure system	
+01/29/96 22:15:00 to 01/30/96 01:30:00	Negative depth due to low tide or low-pressure 
+system
+01/30/96 13:00:00 to 13:45:00	Negative depth due to low tide or low pressure system
+01/30/96 23:30:00 to 01/31/96 02:30:00	Negative depth due to low tide or low pressure 
+system
+
+February 1996:
+TC:
+02/02/96 12:45:00 to 02/08/96 17:45:00	Temperature data looks suspect; there is 
+minimal daily variations; temp range is -0.5 to 0.5
+02/05/96 17:00:00 to 19:00:00	All sensors were out of water
+02/05/96 19:15:00 to 20:00:00	Negative depth due to low tide or low pressure system
+02/06/96 03:30:00 to 06:45:00	All sensors were out of water
+02/06/96 07:00:00 to 08:30:00	Negative depth due to low tide or low pressure system
+02/06/96 16:45:00 to 19:15:00	All sensors were out of water
+02/06/96 19:30:00 to 22:00:00	Negative depth due to low tide or low pressure system
+02/07/96 04:15:00		Negative depth due to low tide or low-pressure system
+02/07/96 04:30:00 to 08:00:00	All sensors were out of water
+02/07/96 08:15:00 to 09:15:00	Negative depth due to low tide or low-pressure system
+02/07/96 16:30:00 to 17:00:00	Negative depth due to low tide or low-pressure system
+02/07/96 17:15:00 to 20:00:00	All sensors were out of water
+02/07/96 20:15:00 to 20:30:00	Negative depth due to low tide or low-pressure system
+02/08/96 05:00:00 to 05:45:00	Negative depth due to low tide or low-pressure system
+02/08/96 06:00:00 to 08:15:00	All sensors were out of water
+02/08/96 08:30:00 to 09:00:00	Negative depth due to low tide or low-pressure system
+02/08/96 16:30:00 to 17:45:00	Negative depth due to low tide or low-pressure system
+02/08/96 18:00:00 to 20:15:00	All sensors were out of water
+02/08/96 20:30:00 to 21:45:00	Negative depth due to low tide or low-pressure system
+02/09/96 04:30:00 to 06:15:00	Negative depth due to low tide or low-pressure system
+02/09/96 06:30:00 to 08:15:00	All sensors were out of water
+02/09/96 08:30:00 to 10:00:00	Negative depth due to low tide or low-pressure system
+02/09/96 17:15:00 to 18:45:00	Negative depth due to low tide or low-pressure system
+02/09/96 19:00:00 to 20:15:00	All sensors were out of water
+02/09/96 20:30:00 to 21:45:00	Negative depth due to low tide or low-pressure system
+02/10/96 06:00:00 to 07:30:00	Negative depth due to low tide or low-pressure system
+02/10/96 07:45:00 to 08:45:00	All sensors were out of water
+02/10/96 09:00:00 to 10:15:00	Negative depth due to low tide or low-pressure system
+02/10/96 17:45:00 to 19:00:00	Negative depth due to low tide or low-pressure system
+02/10/96 19:15:00 to 21:15:00	All sensors were out of water
+02/10/96 21:30:00 to 23:15:00	Negative depth due to low tide or low-pressure system
+02/11/96 06:30:00 to 09:00:00	Negative depth due to low tide or low-pressure system
+02/11/96 09:15:00 to 09:30:00	All sensors were out of water
+02/11/96 09:45:00 to 12:15:00	Negative depth due to low tide or low-pressure system
+02/11/96 18:15:00 to 23:45:00	Negative depth due to low tide or low-pressure system
+02/12/96 09:30:00 to 12:15:00	Negative depth due to low tide or low pressure system
+02/12/96 21:00:00 to 02/13/96 00:30:00	Negative depth due to low tide or low pressure 
+system
+02/13/96 09:15:00 to 10:00:00	Negative depth due to low tide or low-pressure system
+02/13/96 10:15:00 to 12:45:00	All sensors were out of water
+02/13/96 13:00:00 to 14:15:00	Negative depth due to low tide or low-pressure system
+02/13/96 21:00:00 to 22:15:00	Negative depth due to low tide or low-pressure system
+02/13/96 22:30:00 to 02/14/96 01:00:00	All sensors were out of water
+02/14/96 01:15:00 to 02:15:00	Negative depth due to low tide or low-pressure system
+02/14/96 09:15:00 to 11:15:00	Negative depth due to low tide or low-pressure system
+02/14/96 11:30:00 to 13:45:00	All sensors were out of water
+02/14/96 14:00:00 to 15:30:00	Negative depth due to low tide or low-pressure system	
+02/14/96 21:45:00 to 02/15/96 03:00:00	Negative depth due to low tide or low pressure 
+system
+02/15/96 11:30:00 to 15:00:00	Negative depth due to low tide or low pressure system
+02/16/96 00:30:00 to 02:30:00	Negative depth due to low tide or low pressure system
+02/21/96 23:00:00 to 02/29/96 23:45:00	It appears that the YSI was deployed with the 
+cup over the sensors.  All channels were flat lined so the data was deleted.	
+
+March 1996:
+TC:
+03/01/96 00:00:00 to 03/04/96 11:00:00	It appears that the YSI was deployed with the 
+cup over the sensors.  All channels were flat lined so the data was deleted. 
+03/06/96 15:15:00 to 15:30:00		Negative depth due to low tides or low-pressure system
+03/06/96 15:45:00 to 19:15:00		All sensors out of water 
+03/06/96 19:30:00			Negative depth due to low tides or low-pressure system
+03/06/96 19:30:00 to 21:30:00		Negative turbidity value
+03/07/96 08:45:00			Negative turbidity value
+03/07/96 16:15:00 to 18:30:00		Negative turbidity value
+03/07/96 20:00:00			Negative turbidity value
+03/07/96 21:30:00 to 21:45:00		Negative turbidity value
+03/08/96 18:00:00 to 18:30:00		Negative turbidity value
+03/08/96 18:45:00 to 19:45:00		All sensors were out of water
+03/08/96 20:00:00 to 20:15:00		Negative turbidity value
+03/08/96 22:15:00			Negative turbidity value
+03/09/96 06:15:00 to 08:30:00		Negative turbidity value
+03/09/96 09:15:00			Negative turbidity value
+03/09/96 09:45:00			Negative turbidity value
+03/09/96 10:15:00			Negative turbidity value
+03/09/96 11:00:00 to 13:15:00		Negative turbidity value
+03/09/96 13:45:00			Negative turbidity value
+03/09/96 14:30:00			Negative turbidity value
+03/09/96 15:15:00			Negative turbidity value
+03/09/96 15:45:00 to 16:00:00		Negative turbidity value
+03/09/96 16:30:00			Negative turbidity value
+03/09/96 17:00:00 to 17:45:00		Negative turbidity value
+03/09/96 18:00:00 to 20:30:00		All sensors out of water
+03/09/96 21:45:00			Negative turbidity value
+03/09/96 22:15:00 to 22:30:00		Negative turbidity value
+03/09/96 23:00:00 to 23:15:00		Negative turbidity value
+03/09/96 23:45:00			Negative turbidity value
+03/10/96 00:15:00			Negative turbidity value
+03/10/96 00:45:00			Negative turbidity value
+03/10/96 01:15:00 to 06:45:00		Negative turbidity value
+03/10/96 07:00:00 to 08:45:00		All sensors out of water
+03/10/96 11:45:00			Negative turbidity value
+03/10/96 12:15:00 to 12:30:00		Negative turbidity value
+03/10/96 13:15:00 to 13:45:00		Negative turbidity value
+03/10/96 14:15:00			Negative turbidity value
+03/10/96 15:00:00			Negative turbidity value
+03/10/96 15:30:00			Negative turbidity value
+03/10/96 16:00:00 to 18:15:00		Negative turbidity value
+03/10/96 18:30:00 to 21:15:00		All sensors out of water
+03/10/96 21:45:00			Negative turbidity value
+03/10/96 22:15:00			Negative turbidity value
+03/11/96 01:00:00			Negative turbidity value
+03/11/96 01:30:00 to 08:45:00		Negative turbidity value
+03/11/96 09:15:00			Negative turbidity value
+03/11/96 09:45:00			Negative turbidity value
+03/11/96 11:15:00			Negative turbidity value
+03/11/96 12:30:00 to 12:45:00		Negative turbidity value
+03/11/96 13:15:00			Negative turbidity value
+03/11/96 13:45:00 to 14:30:00		Negative turbidity value
+03/11/96 15:00:00			Negative turbidity value
+03/11/96 15:30:00 to 16:15:00		Negative turbidity value
+03/11/96 16:45:00			Negative turbidity value
+03/11/96 17:30:00 to 19:15:00		Negative turbidity value
+03/11/96 20:00:00 to 20:30:00		Negative turbidity value
+03/11/96 21:00:00 to 21:15:00		Negative turbidity value
+03/11/96 21:45:00 to 22:15:00		Negative turbidity value
+03/11/96 22:45:00			Negative turbidity value
+03/11/96 23:15:00			Negative turbidity value
+03/11/96 23:45:00 to 03/12/96 00:15:00	Negative turbidity value
+03/12/96 00:45:00 to 02:00:00		Negative turbidity value
+03/12/96 08:30:00			Negative turbidity value
+03/12/96 09:30:00 to 12:15:00		Negative turbidity value
+03/12/96 19:30:00			Negative turbidity value
+03/12/96 20:00:00			Negative turbidity value
+03/12/96 20:30:00			Negative turbidity value
+03/12/96 21:00:00			Negative turbidity value
+03/12/96 21:30:00 to 23:00:00		Negative turbidity value
+03/12/96 23:30:00			Negative turbidity value
+03/13/96 00:00:00 to 00:15:00		Negative turbidity value
+03/13/96 07:15:00			Negative turbidity value
+03/17/96 01:30:00 to 02:30:00		Negative turbidity value
+03/17/96 03:00:00 to 04:15:00		Negative turbidity value
+03/17/96 04:45:00			Negative turbidity value
+03/17/96 05:15:00			Negative turbidity value
+03/17/96 05:45:00			Negative turbidity value
+03/17/96 07:30:00			Negative turbidity value
+03/17/96 09:45:00 to 10:00:00		Negative turbidity value
+03/20/96 05:15:00 to 05:45:00		Negative depth due to low tide or low pressure system
+03/24/96 06:45:00 to 07:15:00		Negative turbidity value
+03/24/96 07:30:00 to 15:30:00		Instrument was out of the water due to low tide
+03/24/96 09:00:00			Negative turbidity value
+03/24/96 09:45:00			Negative turbidity value
+03/24/96 11:15:00			Negative turbidity value
+03/24/96 13:45:00			Negative turbidity value
+03/24/96 14:15:00			Negative turbidity value
+03/24/96 16:30:00			Negative turbidity value
+03/24/96 23:00:00 to 23:30:00		Negative turbidity value
+03/26/96 03:00:00			Negative turbidity value
+
+April 1996:
+TC:
+04/02/96 17:15:00 to 17:45:00		Negative turbidity value
+04/02/96 18:15:00			Negative turbidity value
+04/03/96 06:45:00			Negative turbidity value
+04/03/96 08:45:00			Negative turbidity value
+04/03/96 09:45:00			Negative turbidity value
+04/03/96 14:30:00			Negative turbidity value
+04/03/96 21:00:00			Negative turbidity value
+04/03/96 21:30:00			Negative turbidity value
+04/09/96 20:00:00			Negative turbidity value
+04/11/96 13:00:00 to 14:45:00		Negative turbidity value
+04/11/96 18:45:00			Negative turbidity value
+04/11/96 19:15:00 to 22:00:00		Negative turbidity value
+04/11/96 22:30:00 to 23:45:00		Negative depth values due to low tide or low pressure 
+system
+04/12/96 01:30:00			Negative turbidity value
+04/12/96 03:30:00			Negative turbidity value
+04/12/96 10:45:00 to 11:30:00		Negative depth values due to low tide or low pressure 
+system
+04/12/96 11:45:00 to 14:15:00		All sensors out of water
+04/13/96 00:15:00 to 00:45:00		Negative depth values due to low tide or low pressure 
+system
+04/13/96 00:45:00			Negative turbidity value
+04/13/96 01:30:00 to 03:30:00		Negative turbidity value
+04/13/96 16:30:00			Negative turbidity value
+04/15/96 07:45:00			Negative turbidity value
+04/16/96 10:30:00			Negative turbidity value
+04/17/96 17:45:00 to 18:30:00		Negative turbidity value
+04/17/96 19:45:00 to 20:00:00		Negative turbidity value
+04/17/96 20:45:00			Negative turbidity value
+04/17/96 21:30:00			Negative turbidity value
+04/17/96 22:00:00 to 22:30:00		Negative turbidity value
+04/17/96 23:45:00			Negative turbidity value
+04/18/96 01:30:00			Negative turbidity value
+04/18/96 05:45:00 to 06:00:00		Instrument out of water due to low tide
+04/19/96 18:30:00			Negative turbidity value
+04/21/96 08:00:00 to 08:30:00		All sensors out of water
+04/23/96 19:15:00			Negative turbidity value
+04/24/96 10:15:00 to 11:15:00		All sensors out of water
+04/26/96 14:15:00			Negative turbidity value
+04/26/96 14:45:00			Negative turbidity value
+04/26/96 15:15:00			Negative turbidity value
+04/26/96 15:45:00			Negative turbidity value
+04/26/96 16:15:00			Negative turbidity value
+04/26/96 16:45:00			Negative turbidity value
+04/28/96 18:30:00			Negative turbidity value
+04/28/96 20:00:00			Negative turbidity value
+
+May 1996:
+TC:
+05/03/96 14:00:00 to 05/14/96 14:30:00	DO could be suspect; high pre- and low post-
+deployment DO% values
+05/07/96 10:15:00			Negative turbidity value
+05/12/96 10:30:00 to 11:00:00		Negative turbidity value
+05/12/96 11:30:00			Negative turbidity value
+05/12/96 16:15:00			Negative turbidity value
+05/13/96 04:30:00			Negative turbidity value
+05/13/96 12:45:00			Negative turbidity value
+05/13/96 13:15:00			Negative turbidity value
+05/13/96 13:45:00 to 17:15:00		Negative turbidity value
+05/13/96 18:45:00			Negative turbidity value
+05/13/96 20:15:00 to 05/14/96 02:00:00	Negative turbidity value
+05/14/96 02:15:00			Turbidity values exceed 1000 NTU
+05/14/96 02:30:00			Negative turbidity value
+05/14/96 03:00:00 to 03:15:00		Negative turbidity value
+05/14/96 03:45:00			Negative turbidity value
+05/14/96 05:00:00 to 05:15:00		Turbidity values exceed 1000 NTU
+05/14/96 08:00:00			Negative turbidity value
+05/14/96 08:30:00 to 09:00:00		Negative turbidity value
+05/14/96 09:30:00			Turbidity values exceed 1000 NTU
+05/14/96 10:00:00			Turbidity values exceed 1000 NTU
+05/14/96 11:00:00			Turbidity values exceed 1000 NTU
+05/14/96 11:30:00 to 11:45:00		Negative turbidity value
+05/14/96 12:15:00 to 12:45:00		Negative turbidity value
+05/14/96 13:00:00			Turbidity values exceed 1000 NTU
+05/14/96 13:15:00			Negative turbidity value
+05/14/96 13:30:00			Turbidity values exceed 1000 NTU
+05/14/96 13:45:00			Negative turbidity value
+05/14/96 14:00:00			Turbidity values exceed 1000 NTU
+05/15/96 06:00:00			Turbidity values exceed 1000 NTU
+05/15/96 17:30:00 to 19:00:00		Turbidity values exceed 1000 NTU 
+05/30/96 09:30:00 to 05/31/96 23:45:00	DO could be suspect; very low post-
+deployment DO% values; values recorded are 3 times greater than previously recorded data 
+but could be due to biofouling of the previous sonde
+
+June 1996:
+TC:
+06/01/96 00:00:00 to 06/13/96 09:30:00	DO could be suspect; very low post-
+deployment DO% values; values are 3 times greater than previously recorded data but could 
+be due to biofouling of the previous sonde
+
+July 1996:
+TC:	
+07/11/96 12:45:00 to 07/31/96 19:30:00	DO could be suspect; values jumped up then 
+there was a general slow decline in values
+
+August 1996:
+TC:
+08/17/96 22:00:00			Negative turbidity value
+08/18/96 09:15:00			Negative turbidity value
+08/20/96 09:30:00 to 08/31/96 23:45:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error
+08/20/96 10:45:00			Negative turbidity value
+08/22/96 09:15:00			Turbidity value exceed 1000 NTU
+08/24/96 19:45:00			Negative turbidity value
+08/25/96 16:45:00			Negative turbidity value
+08/26/96 04:45:00			Negative turbidity value
+08/29/96 02:30:00			Negative turbidity value
+08/30/96 01:00:00			Negative turbidity value
+08/30/96 03:15:00 to 03:45:00		Negative turbidity value
+08/30/96 04:30:00			Negative turbidity value
+08/30/96 04:45:00 to 05:30:00		Negative DO values
+08/30/96 11:45:00			Negative turbidity value
+08/30/96 12:15:00			Negative turbidity value
+08/30/96 12:45:00			Negative turbidity value
+08/30/96 17:15:00 to 19:00:00		Negative DO values
+08/31/96 05:15:00 to 08:00:00		Negative DO values
+08/31/96 11:00:00			Negative DO values
+08/31/96 12:30:00			Negative DO values
+08/31/96 13:00:00 to 14:15:00		Negative DO values
+08/31/96 15:00:00			Negative DO values
+08/31/96 15:45:00			DO values jump up to 6.2 mg/L from 0.06 mg/L; could 
+be due to the biofouling of the last sonde during deployment
+
+September 1996:
+TC:
+09/01/96 00:00:00 to 09/03/96 14:15:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error
+09/01/96	07:45:00 to 08:15:00	Negative turbidity value
+09/01/96	08:45:00		Negative turbidity value
+09/01/96	09:15:00 to 10:30:00	Negative turbidity value 
+09/01/96	13:15:00 to 14:00:00	Negative turbidity value
+09/01/96	14:30:00 to 15:00:00	Negative turbidity value
+09/01/96	16:15:00 to 17:00:00	Negative turbidity value 
+09/01/96	17:30:00 to 18:00:00	Negative turbidity value 
+09/01/96	18:30:00		Negative turbidity value 
+09/01/96	19:00:00		Negative turbidity value 
+09/01/96	19:30:00		Negative turbidity value 
+09/01/96	20:00:00		Negative turbidity value 
+09/01/96	20:30:00		Negative turbidity value 
+09/01/96	21:00:00		Negative turbidity value 
+09/01/96	21:30:00		Negative turbidity value 
+09/01/96	22:00:00 to 23:15:00	Negative turbidity value 
+09/02/96	01:15:00		Negative turbidity value 
+09/02/96	01:45:00 to 05:00:00	Negative turbidity value 
+09/02/96	05:30:00 to 08:15:00	Negative turbidity value 
+09/02/96	08:45:00		Negative turbidity value 
+09/02/96	09:15:00 to 11:30:00	Negative turbidity value 
+09/02/96	13:00:00		Negative turbidity value 
+09/02/96	14:45:00 to 15:30:00	Negative turbidity value 
+09/02/96	16:00:00 to 17:45:00	Negative turbidity value 
+09/02/96	18:15:00 to 18:45:00	Negative turbidity value 
+09/02/96	19:15:00		Negative turbidity value 
+09/02/96 19:30:00			Turbidity values exceed 1000 NTU
+09/02/96 19:45:00			Negative turbidity value 
+09/02/96 20:00:00			Turbidity values exceed 1000 NTU
+09/02/96 20:15:00			Negative turbidity value 
+09/02/96 20:30:00			Turbidity values exceed 1000 NTU
+09/02/96 20:45:00 to 09/03/96 02:15:00	Negative turbidity value 
+09/03/96 03:00:00			Negative turbidity value 
+09/03/96 04:00:00 to 12:30:00		Negative turbidity value 
+09/03/96 14:15:00			Negative turbidity value 
+09/21/96 15:45:00 to 09/30/96 23:45:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error
+09/26/96 02:00:00 to 09/27/96 12:45:00	Negative turbidity value 
+09/28/96 18:45:00			Turbidity values exceed 1000 NTU
+09/28/96 19:30:00			Turbidity values exceed 1000 NTU
+09/28/96 20:30:00 to 09/29/96 04:45:00	Turbidity values exceed 1000 NTU
+09/29/96 05:00:00 to 05:30:00		Negative turbidity value 
+09/29/96 06:00:00			Turbidity values exceed 1000 NTU
+09/29/96 06:15:00 to 16:15:00		Negative turbidity value 
+
+Depth during September 1996 was noted as too high for this particular site.  However, 
+Hurricane Fran swept through the area September 5 and 6, which may have eventually 
+influenced the depth data.  
+
+October 1996
+TC:
+10/01/96 00:00:00 to 10/07/96 14:45:00	Depth suspect -  too high for site (3.5 - 4.0m);  
+could be cal error
+10/04/96 17:30:00 to 17:45:00	Turbidity value exceeds 1000 NTU
+10/05/96 00:00:00		Turbidity value exceeds 1000 NTU
+10/05/96 00:45:00 to 01:30:00	Turbidity value exceeds 1000 NTU
+10/05/96 01:45:00		Negative turbidity value
+10/05/96 02:15:00		Turbidity value exceeds 1000 NTU
+10/05/96 08:15:00		Turbidity value exceeds 1000 NTU
+10/05/96 09:00:00 to 11:15:00	Turbidity value exceeds 1000 NTU
+10/05/96 11:30:00 to 11:45:00	Negative turbidity value
+10/05/96 12:30:00 to 12:45:00	Turbidity value exceeds 1000 NTU
+10/05/96 13:00:00 to 13:45:00	Negative turbidity value
+10/05/96 14:00:00 to 14:15:00	Turbidity value exceeds 1000 NTU
+10/05/96 20:00:00 to 20:15:00	Turbidity value exceeds 1000 NTU
+10/05/96 20:45:00 to 21:15:00	Turbidity value exceeds 1000 NTU
+10/05/96 21:45:00 to 22:15:00	Turbidity value exceeds 1000 NTU
+10/05/96 22:30:00 		Negative turbidity value
+10/05/96 23:15:00		Turbidity value exceeds 1000 NTU
+10/05/96 23:30:00		Negative turbidity value
+10/05/96 23:45:00 to 10/06/96 00:00:00	Turbidity value exceeds 1000 NTU
+10/06/96 01:00:00 to 02:00:00	Turbidity value exceeds 1000 NTU
+10/06/96 02:45:00 to 03:30:00	Turbidity value exceeds 1000 NTU
+10/06/96 04:30:00		Turbidity value exceeds 1000 NTU
+10/06/96 05:45:00		Turbidity value exceeds 1000 NTU
+10/06/96 06:15:00 to 06:45:00	Turbidity value exceeds 1000 NTU
+10/06/96 07:15:00 to 09:15:00	Turbidity value exceeds 1000 NTU
+10/06/96 09:30:00 to 11:30:00	Negative turbidity value
+10/06/96 13:15:00 to 13:30:00	Turbidity value exceeds 1000 NTU
+10/06/96 14:00:00		Turbidity value exceeds 1000 NTU
+10/06/96 14:15:00 to 15:45:00	Negative turbidity value
+10/06/96 16:00:00 to 16:15:00	Turbidity value exceeds 1000 NTU
+10/06/96 16:45:00 to 17:00:00	Turbidity value exceeds 1000 NTU
+10/06/96 18:00:00 to 18:30:00	Negative turbidity value
+10/06/96 18:45:00		Turbidity value exceeds 1000 NTU
+10/06/96 19:00:00 to 19:30:00	Negative turbidity value
+10/06/96 19:45:00		Turbidity value exceeds 1000 NTU
+10/06/96 20:15:00		Turbidity value exceeds 1000 NTU
+10/06/96 20:30:00 to 21:15:00	Negative turbidity value
+10/06/96 21:30:00 to 22:00:00	Turbidity value exceeds 1000 NTU
+10/06/96 22:30:00		Turbidity value exceeds 1000 NTU
+10/06/96 22:45:00 to 10/07/96 05:00:00	Negative turbidity value
+10/07/96 06:00:00		Turbidity value exceeds 1000 NTU
+10/07/96 06:45:00 to 9:45:00	Turbidity value exceeds 1000 NTU
+10/07/96 10:30:00		Negative turbidity value
+10/07/96 10:45:00 to 11:30:00	Turbidity value exceeds 1000 NTU
+10/07/96 11:45:00 to 12:00:00	Negative turbidity value
+10/07/96 12:15:00 to 12:30:00	Turbidity value exceeds 1000 NTU
+10/07/96 12:45:00 to 14:45:00	Negative turbidity value
+10/07/96 15:30:00 to 10/24/96 15:00:00	Specific conductivity, salinity, DO%, and DO mg/L
+were deleted due to improper salinity calibration
+10/09/96 01:30:00 to 03:15:00	Negative depth value due to low tide or low-pressure 
+systems
+10/09/96 13:30:00 to 14:45:00	Negative depth value due to low tide or low-pressure 
+systems
+10/10/96 01:30:00 to 04:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/10/96 13:15:00 to 16:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/11/96 01:15:00 to 02:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/11/96 02:15:00 to 03:45:00	All sensors out of water
+10/11/96 04:00:00 to 04:45:00	Negative depth value due to low tide or low-pressure 
+systems
+10/11/96 14:00:00 to 14:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/11/96 14:45:00 to 16:45:00	All sensors out of water 
+10/11/96 17:00:00 to 17:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/12/96 02:30:00 to 02:45:00	Negative depth value due to low tide or low-pressure 
+systems
+10/12/96 03:00:00 to 05:00:00	All sensors out of water 
+10/12/96 15:30:00 to 17:00:00	All sensors out of water
+10/12/96 17:30:00		Negative depth value due to low tide or low-pressure 
+systems
+10/13/96 03:00:00		Negative depth value due to low tide or low-pressure 
+systems
+10/13/96 03:15:00 to 05:45:00	All sensors out of water
+10/13/96 06:00:00 to 06:15:00	Negative depth value due to low tide or low-pressure 
+systems
+10/13/96 16:00:00 to 18:15:00	All sensors out of water
+10/13/96 18:30:00 to 19:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/14/96 03:00:00		Negative depth value due to low tide or low-pressure 
+systems
+10/14/96 03:15:00 to 07:00:00	All sensors out of water 
+10/14/96 07:15:00 to 07:45:00	Negative depth value due to low tide or low-pressure 
+systems
+10/14/96 15:30:00 to 16:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/14/96 16:15:00 to 19:15:00	All sensors out of water 
+10/14/96 19:30:00 to 20:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/15/96 03:45:00 to 04:00:00	Negative depth value due to low tide or low-pressure 
+systems
+10/15/96 04:15:00 to 06:45:00	All sensors out of water 
+10/15/96 07:00:00 to 07:15:00	Negative depth value due to low tide or low-pressure 
+systems
+10/15/96 17:15:00 to 17:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/15/96 17:45:00 to 19:30:00	All sensors out of water 
+10/15/96 19:45:00 to 20:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/16/96 04:15:00 to 04:30:00	Negative depth value due to low tide or low-pressure 
+systems
+10/16/96 04:45:00 to 07:45:00	All sensors out of water
+10/17/96 06:45:00 to 08:15:00	Negative depth value due to low tide or low-pressure 
+systems
+
+November 1996:
+TC:
+No Anomalous Data.
+
+December 1996:
+TC:
+12/02/96 16:30:00 to 12/20/96 12:30:00	DO values deleted due to probe malfunction
+12/03/96 04:15:00 to 13:15:00		Negative DO values
+12/03/96 19:45:00 to 23:45:00		Negative DO values
+12/22/96 15:30:00			Instrument out of water due to low tide
+
+12. Missing data
+Missing data is either the result of
+  1) the YSI not deployed
+  2) YSI out of the water (negative depth with salinity of zero)
+  3) a probe not attached
+  4) a probe malfunction
+
+
+January, 1996:
+Note-*not missing data
+TC:
+01/01/96 00:00:00 to 01/04/96 11:15:00	YSI Not Deployed
+01/06/96 16:30:00 to 18:15:00		All sensors out of water
+01/18/96 01:15:00 to 02:15:00		All sensors out of water
+*01/18/96 12:30:00			Replacement sonde deployed 
+01/18/96 12:30:00 to 01/31/96 23:45:00	Turbidity probe not deployed
+01/18/96 14:15:00 to 15:00:00		All sensors out of water
+01/19/96 02:30:00 to 03:30:00		All sensors out of water
+01/20/96 16:15:00 to 17:00:00		All sensors out of water
+01/21/96 03:45:00 to 05:15:00		All sensors out of water
+01/24/96 20:15:00			All sensors out of water
+01/25/96 19:15:00 to 21:00:00		All sensors out of water
+01/26/96 08:00:00 to 10:15:00		All sensors out of water
+01/28/96 22:00:00 to 01/29/96 00:45:00	All sensors out of water
+01/29/96 11:30:00 to 12:45:00		All sensors out of water
+
+February 1996:
+TC:
+02/01/96 00:00:00 to 02/16/96 16:30:00	Turbidity probe not deployed
+02/01/96 14:45:00 to 16:30:00		Maintenance
+02/05/96 17:00:00 to 19:00:00		All sensors were out of water
+02/06/96 03:30:00 to 06:45:00		All sensors were out of water
+02/06/96 16:45:00 to 19:15:00		All sensors were out of water
+02/07/96 04:30:00 to 08:00:00		All sensors were out of water
+02/07/96 17:15:00 to 20:00:00		All sensors out of water
+02/08/96 06:00:00 to 08:15:00		All sensors were out of water
+02/08/96 18:00:00 to 20:15:00		All sensors were out of water
+02/09/96 06:30:00 to 08:15:00		All sensors were out of water
+02/09/96 19:00:00 to 20:15:00		All sensors out of water
+02/10/96 07:45:00 to 08:45:00		All sensors out of water
+02/10/96 19:15:00 to 21:15:00		All sensors were out of water
+02/11/96 09:15:00 to 09:30:00		All sensors out of water
+02/13/96 10:15:00 to 12:45:00		All sensors were out of water
+02/13/96 22:30:00 to 02/14/96 01:00:00	All sensors were out of water
+02/14/96 11:30:00 to 13:45:00		All sensors were out of water
+02/16/96 16:45:00 to 02/21/96 22:45:00	Maintenance
+02/21/96 23:00:00 to 02/29/96 23:45:00	It appears the YSI was deployed with the cup 
+over the sensors. All channels were flat lined so the data was deleted.
+
+March 1996:
+TC:
+03/01/96 00:00:00 to 03/04/96 11:00:00	It appears the YSI was deployed with the cup 
+over the sensors. All channels were flat lined so the data was deleted.
+03/04/96 11:15:00 to 03/06/96 10:45:00	Maintenance
+03/06/96 15:45:00 to 19:15:00		All sensors out of water
+03/08/96 18:45:00 to 19:45:00		All sensors out of water
+03/09/96 18:00:00 to 20:30:00		All sensors out of water
+03/10/96 07:00:00 to 08:45:00		All sensors out of water
+03/10/96 18:30:00 to 21:15:00		All sensors out of water
+03/24/96 07:30:00 to 15:30:00		Instrument was out of the water due to low tide
+03/27/96 07:45:00 to 03/31/96 23:45:00	Maintenance
+
+April 1996:
+TC:
+04/01/96 00:00:00 to 04/02/96 13:00:00	Maintenance
+04/12/96 11:45:00 to 14:15:00		All sensors were out of water
+04/17/96 14:30:00 to 16:15:00		Maintenance
+04/18/96 05:45:00 to 06:00:00		Instrument out of water due to low tide
+04/21/96 08:00:00 to 08:30:00		All sensors out of water
+04/24/96 10:15:00 to 11:15:00		All sensors out of water
+04/29/96 14:15:00 to 04/30/96 23:45:00	Maintenance
+
+May 1996:
+TC:
+05/01/96 00:00:00 to 05/03/96 13:45:00	Maintenance 
+05/14/96 14:45:00 to 15:45:00		Maintenance 
+05/29/96 15:00:00 to 05/30/96 09:15:00	Maintenance 
+05/30/96 09:30:00 to 05/31/96 23:45:00	Turbidity probe not deployed
+
+June 1996:
+TC:
+06/01/96 00:00:00 to 06/13/96 09:30:00	Turbidity probe not deployed
+06/13/96 09:45:00 to 06/26/96 15:00:00	Maintenance
+06/26/96 15:15:00 to 06/30/96 23:45:00	Turbidity probe not deployed
+
+July 1996:
+TC:
+07/01/96 00:00:00 to 07/11/96 09:15:00	Turbidity probe not deployed
+07/11/96 09:30:00 to 12:30:00		Maintenance
+07/11/96 12:45:00 to 07/31/96 19:30:00	Turbidity probe not deployed
+07/31/96 19:45:00 to 23:45:00		Maintenance
+
+August 1996:
+TC:
+08/01/96 00:00:00 to 08/10/96 15:30:00	Maintenance
+08/20/96 09:15:00			Maintenance
+08/20/96 09:30:00 to 08/31/96 23:45:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error
+08/28/96 20:45:00 to 21:30:00		Missing data due to time skip
+08/30/96 01:45:00			Missing data due to time skip
+08/30/96 04:45:00 to 05:30:00		Negative DO values
+08/30/96 07:15:00			Missing data due to time skip
+08/30/96 10:00:00			Missing data due to time skip
+08/30/96 11:00:00			Missing data due to time skip
+08/30/96 11:30:00			Missing data due to time skip
+08/30/96 14:00:00			Missing data due to time skip
+08/30/96 14:30:00			Missing data due to time skip
+08/30/96 15:00:00			Missing data due to time skip
+08/30/96 15:30:00			Missing data due to time skip
+08/30/96 16:00:00			Missing data due to time skip
+08/30/96 17:15:00 to 19:00:00		Negative DO values
+08/30/96 22:15:00 to 08/31/96 00:30:00	Missing data due to time skip
+08/31/96 04:00:00 to 04:30:00		Missing data due to time skip
+08/31/96 05:15:00 to 08:00:00		Negative DO values
+08/31/96 10:15:00			Missing data due to time skip
+08/31/96 11:00:00			Negative DO values
+08/31/96 12:00:00 to 12:15:00		Missing data due to time skip
+08/31/96 12:30:00			Negative DO values
+08/31/96 13:00:00 to 14:15:00		Negative DO values
+08/31/96 15:00:00			Negative DO values
+08/31/96 22:30:00 to 23:45:00		Missing data due to time skip
+
+September 1996:
+TC:
+09/01/96 00:00:00 to 00:30:00		Missing data due to time skip
+09/01/96 00:00:00 to 09/03/96 14:15:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error 
+09/01/96 10:45:00 to 12:45:00		Missing data due to time skip
+09/01/96 16:00:00			Missing data due to time skip
+09/01/96 23:30:00 to 09/02/96 01:00:00	Missing data due to time skip
+09/02/96 05:15:00			Missing data due to time skip
+09/02/96 11:45:00 to 12:45:00		Missing data due to time skip
+09/02/96 13:15:00 to 13:45:00		Missing data due to time skip
+09/02/96 14:30:00			Missing data due to time skip
+09/03/96 02:30:00 to 02:45:00		Missing data due to time skip
+09/03/96 03:15:00 to 03:45:00		Missing data due to time skip
+09/03/96 12:45:00 to 14:00:00		Missing data due to time skip
+09/03/96 14:30:00 to 09/06/96 10:15:00	Maintenance
+09/06/96 10:30:00 to 09/21/96 15:15:00	Turbidity probe not deployed
+09/21/96 15:30:00			Maintenance
+09/21/96 15:45:00 to 09/30/96 23:45:00	Depth suspect - too high for site (3.5 - 4.0m); 
+could be cal error
+
+Depth during September 1996 was noted as too high for this particular site.  However, 
+Hurricane Fran swept through the area September 5 and 6, which may have eventually 
+influenced the depth data.  
+
+October 1996:
+TC:
+10/01/96 00:00:00 to 10/07/96 14:45:00	Depth suspect -  too high for site (3.5 – 4.0m); 
+could be cal error 
+10/07/96 15:00:00 to 15:15:00		Maintenance
+10/07/96 15:30:00 to 10/24/96 15:00:00	Turbidity probe not deployed
+10/07/96 15:30:00 to 10/24/96 15:00:00	Specific conductivity, salinity, DO%, and DO mg/L
+were deleted due to improper salinity calibration
+10/11/96 02:15:00 to 03:45:00		All sensors out of water
+10/11/96 14:45:00 to 16:45:00		All sensors out of water
+10/12/96 03:00:00 to 05:00:00		All sensors out of water
+10/12/96 15:30:00 to 17:00:00		All sensors out of water
+10/13/96 03:15:00 to 05:45:00		All sensors out of water
+10/13/96 16:00:00 to 18:15:00		All sensors out of water
+10/14/96 03:15:00 to 07:00:00		All sensors out of water
+10/14/96 16:15:00 to 19:15:00		All sensors out of water
+10/15/96 04:15:00 to 06:45:00		All sensors out of water
+10/15/96 17:45:00 to 19:30:00		All sensors out of water
+10/16/96 04:45:00 to 07:45:00		All sensors out of water
+10/24/96 15:15:00			Maintenance
+10/24/96 15:30:00 to 10/31/96 23:45:00	Turbidity probe not deployed
+
+November 1996:
+TC:
+11/01/96 00:00:00 to 11/23/96 14:00:00	Turbidity probe not deployed
+11/23/96 14:15:00 to 11/30/96 23:45:00	YSI not deployed
+
+December 1996:
+	Note- *not missing data
+TC:
+12/01/96 00:00:00 to 12/02/96 16:15:00	Maintenance
+12/02/96 16:30:00 to 12/31/96 23:45:00	No turbidity probe
+12/02/96 16:30:00 to 12/20/96 12:30:00	DO values deleted due to probe malfunction
+12/03/96 04:15:00 to 13:15:00		Negative DO values
+12/03/96 19:45:00 to 23:45:00		Negative DO values
+*12/20/96 12:45:00			Replacement sonde deployed
+12/22/96 15:30:00			Instrument out of water due to low tide
+
+12. Remarks
+In 1996, several files were recorded in Daylight Savings Time instead of Eastern Standard 
+Time (EST).  Tammy Dorman corrected the following files so that they would be in 
+accordance with the NERR System Wide Monitoring Program by displaying the date and the 
+time in EST.  
+	TC960503.csv was corrected to EST		TC960819.csv was corrected to EST
+	TC960514.csv was corrected to EST		TC960906.csv was corrected to EST
+	TC960530.csv was corrected to EST		TC960920.csv was corrected to EST
+	TC960626.csv was corrected to EST		TC961007.csv was corrected to EST
+	TC960711.csv was corrected to EST		TC961024.csv was corrected to EST
+	TC960810.csv was corrected to EST
+
+Turbidity data often resulted in anomalous negative data.  The winter of 95/96 saw four 
+major snowfall periods from January through March.  Hurricane Bertha moved through the 
+area 7/12-7/14 with 3-5 inches of rain.  Hurricane Fran moved through the area 9/5-9/6.  The 
+summer of 96 was one of the wettest on record for the state of Virginia.  The following 
+corrections were made in order to align time data sequencing.
+08/10/96 16:45:00 to 08/20/96 10:00:00		Time clock off; corrected
+08/30/96 02:00:00 to 08/31/96 23:15:00		Time clock off; corrected
+09/01/96 01:45:00 to 09/03/96 15:00:00		Time clock off; corrected
+
+Any regions of data with negative depth values due to low tides or low-pressure system should 
+be viewed with caution. In some instances the probes are clearly out of water and have been 
+noted.  Depth data should be considered relative depth.  The instrument was deployed on a 
+rope that was tied to a tree branch and therefore may have been deployed at a slightly 
+different depth for each deployment.  This situation was corrected in the fall of 1996 with 
+the use of a steel cable and mounting hardware that keeps the instrument at a fixed altitude 
+from the creek bottom, however is influenced by the current causing the instrument to sway 
+as the tides change.  Taskinas Creek experiences extremely low tides where it is difficult to 
+determine times when the probes are out of the water and when they are not.  If the YSI 
+would have been more securely deployed and at a fixed depth from the bottom, the problem 
+of exposure from low tides might have been lessened.  Also there is an ongoing problem with 
+land subsidence in Taskinas Creek, which at times affects our deployment because the tree 
+from which our unit is attached, sinks with the land.  Current efforts are being made to 
+construct a more stable and elevation referenced station. 
+
+
+

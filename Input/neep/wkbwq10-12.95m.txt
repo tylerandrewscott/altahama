@@ -1,0 +1,269 @@
+Weeks Bay (WKB) NERR Site Water Quality Metadata
+(YSI Data Loggers)
+October - December 1995
+Updated: July 29,1997
+
+I. Data Set and Research Descriptors
+
+1.	Principal investigator (s) and contact persons:
+
+	1Mr. L. G. Adams, Manager
+	1Mr. Bob McCormack, Interpretive Coordinator
+	2Ms. Jean Cowan, Research Technician
+	2Mr. Mike Dardeau, Research Technician
+
+	1Weeks Bay NERR				2Dauphin Island Sea Lab
+	  11300 U.S. Hwy. 98				  P. O. Box 369-370
+	  Fairhope, AL					  101 Bienville Blvd.
+	  36532						  Dauphin Island, AL
+	ph:  (334) 928-9792				  36528
+							ph:  (334) 861-2141
+
+	e-mail:	ladams@ocean.nos.noaa.gov
+		bmccormack@surf.nos.noaa.gov
+		jwcowan@jaguar1.usouthal.edu
+		mdardeau@jaguar1.usouthal.edu
+
+2.	Entry Verification (Done by J. Cowan):
+
+	Data are uploaded to the PC from the Data loggers and graphs are produced using the PC6000 software.  
+Graphs are evaluated for suspect data, as may result from probe failure.  Notes are made of any unusual data, and 
+sensors are reconditioned as necessary.  Files are then exported as .prn files using the PC6000 software.  The .prn files 
+are imported into EXCEL, edited by removing headers and footers, and saved as EXCEL files.  Data at the beginning 
+and end of each data record that were recorded when the instruments were out of the water are deleted.  These data are 
+identified by field notes that document the times in and out of the water, and by unusual depth data (usually negative or 
+near zero).  The appropriate files are merged to form complete monthly data sets and are saved as separate EXCEL 
+files.  Data that are missing because the instruments were not deployed (as during maintenance periods) are denoted by 
+periods (.).  These times are noted in section 12 (Missing Data) of this document  Two types of post-calibration values 
+are also used to determine operational viability of the sensors while deployed.  One is obtained in the lab by placing 
+uncleaned probes in standard solutions and recording the values given by the Data loggers.  The second type is obtained 
+in the field using a newly calibrated Hydrolab.  Data from this instrument are recorded in the field at the time of the last 
+scheduled reading by the Data loggers.  Both post-calibration values are reported in section 13 (Other Remarks/Notes) 
+of this document, and may be used to determine the quality of the data recorded by the instruments (particularly DO) 
+after two weeks in the field.  Any erroneous data that are identified as being caused by probe failures (as determined 
+upon examination of the data plots, or by post-calibration values) are deleted and replaced with periods, and noted in 
+section 12 (Missing Data) of this document.  Sensor readings that greatly deviate from known values of standards after 
+the two week deployment are not necessarily believed to be a result of probe failure, however.  If biofouling is believed 
+to be the reason for poor agreement between the sensors and the standard values at the end of a deployment, the data 
+are retained and noted in section 11 (Data Anomalies) of this document.  Symptoms of probe failures are extreme noise 
+in the record, unrealistically high or negative data, or noisey or negative readings in standard solutions.  Examples of 
+many such failures are given in the CDMO Manual (Version 3.0). .  Finally, the CDMO macros (update version 11/96) 
+are then run on these new monthly files to identify missing times and/or dates, to format the width and decimal places 
+of columns, and to identify outliers and other erroneous data.
+
+3.	Research Objectives/Study Purpose:
+
+	The Data loggers are programmed to record water quality parameters every 30 minutes.  Presently, 
+two instruments are located in the Weeks Bay Reserve.  One is located at the mouth of Fish River (provides 
+~73% of Weeks Bay’s freshwater), and the other is located the eastern side of Weeks Bay, near the mouth.
+	Beyond the mouth of Weeks Bay is a larger embayment referred to as Bon Secour Bay.  
+Hydrographic profiles made in Bon Secour Bay in past years show that bottom waters (which flow into 
+Weeks Bay on a rising tide) are often anoxic in summer and fall months.  Fish River water quality is also in 
+question, as largely non-point source nutrient loading to this river may be quite high during periods of high 
+river flow.  Therefore, it is of interest to determine if poor water quality periodically observed in Weeks Bay 
+is generated within the bay proper, or is being washed in from Fish River or Bon Secour Bay with changing 
+tides.  By using salinity and water level as tracers, data from these two sites may be used to infer the source 
+and fate of low oxygen water.
+
+4.	Research Methods:
+
+	Data loggers are moored on private docks.  At each dock, a PVC tube is attached to a piling at the 
+end of the dock using ratchets equipped with zinc disks (to help reduce corrosion) and nylon straps.  A chain, 
+attached to the cap of the tube, is shackled to the bail of the Data logger.  Chains and tubes were cut to a 
+length that places the Data logger probes just below the bottom of the tube and 0.5 m above the sediment 
+when in place.  A nylon rope tied to the bottom of the piling also runs through the tube and is attached to 
+the bale of the Data logger to serve as a safeguard against the loss of the Data loggers in the event that the 
+tube breaks away from the piling.
+	The Data loggers are programmed to record temperature, specific conductivity, salinity, dissolved 
+oxygen (DO) percent saturation and concentration, pH, and water level every 30 minutes (central standard 
+time [CST]).  A newly calibrated Hydrolab is also used to record the above parameters at the same time the deployed 
+YSI takes its first reading to insure initial accuracy of the YSI.  The instruments are usually serviced (instruments post-
+calibrated, data uploaded, instruments cleaned and recalibrated) every 14 days; however, they are programmed to log 
+for 30 days in the event they cannot be serviced on schedule.  Just before deployment, window screening (1mm mesh 
+size) is wrapped once around the cage that protects the sensors, and secured with plastic cable ties.  Window screening 
+is also secured in the bottom of the cage with silicone sealant.  This is done to reduce error in the data that may be due 
+to larger animals moving in and out of the cage during the deployment.  This does not, however, preclude smaller 
+animals such as barnacle and polychaete larvae from entering the cage and settling on the sensors.
+	Before the Data loggers are retrieved, a newly calibrated Hydrolab is lowered to the depth of the 
+YSI instrument, and Hydrolab readings are logged at the same time that the YSI’s are programmed to record. 
+Post-calibration values are obtained in the lab by placing uncleaned probes in standard solutions and 
+recording the values given by the Data loggers.
+	Uploading, cleaning, maintenance, and calibration are conducted as described in the YSI Operating Manual 
+(addendum 7/94, sections 3, 4, and 7).  Calibration standards, required for pH and salinity, are purchased from a 
+scientific supply house.  Dissolve oxygen is calibrated using a calibration cup filled with about ¼” of tap water, which 
+creates a 100% water-saturated air environment for the sensors when the sonde is placed in the cup.  The sensors are 
+allowed to equilibrate for at least 15 minutes in the cup before DO (%Saturation) is calibrated.  Servicing the 
+instruments results in a period of about 2 hours of missing data every two weeks at site FR, 
+and a period of 3 to 4 hours of missing data every two weeks at site WB.
+
+5.	Site Location and Character:
+
+	Weeks Bay (30 23’ N, 87 50’ W) is a small, shallow, microtidal sub-estuary, located on the eastern 
+shore of Mobile Bay in the northern Gulf of Mexico.  It is nearly diamond shaped, and its longitudinal axis 
+(3.4 km long) runs nearly north-south from the head, where the Fish River flows in, to the mouth, where 
+water is exchanged with Mobile Bay.  Its widest point (3.1 km) is located near the center of the estuary, 
+where the Magnolia River discharges into eastern side of Weeks Bay.  Average depth is 1.4 m, although 
+there are two areas where depths are significantly greater.  The first is in the mouth of the bay, where the 
+average depth is 6 m; the second is about 200 m upstream of the mouth of the Fish River, where the average 
+depth is 3.5 m.  Tides are principally diurnal, and have a mean range of 0.4 m.
+	The Fish River drainage basin encompasses 1.43 x 108 m2 and contributes approximately 73% to 
+the total incoming freshwater flow;  the Magnolia River supplies the rest.  Mean combined discharge is 9 m3 
+s-1; although freshets up to 4 times larger occur aperiodically throughout the year.  These characteristics 
+result in a freshwater residence time of 13 days under average discharge conditions, with a range from 0.5 to 
+100 days.  Salinity in Weeks Bay varies substantially both temporally and spatially.  During periods of high 
+river flow, salinities in the bay may be fresh from the head to the mouth, except in the deeper holes of the 
+estuary that are not as easily flushed.  However, during periods of low river flow wind velocity and tidal 
+stage are strong factors influencing salinity structure.  Salinities greater than 25 ppt are rarely observed in 
+Weeks Bay, and are usually restricted to the southern portion of the estuary near the mouth.
+	Site FR (Fish River; 30 25’00” N, 87 49’24” W) is located at the mouth of Fish River at a mean 
+depth of about 2m.  Sediment type is sandy-silt, and there are small patches of Vallisineria, spp. growing 
+near (but not directly under) the Data logger.  Land use in the water shed is largely agricultural, with some 
+residential use.  Directly surrounding the site, land use is largely public and semi-public.  Nutrient 
+concentrations at this site are variable and may be quite high, with nitrate and phosphate concentrations 
+ranging from approximately 4-90 µM and <0.5 to 7.5 µM, respectively, over the previous 10 years (Alabama 
+Department of Environmental Management).  Over the past year, salinity ranged from 0.0 to 16.5 ppt at this 
+site.
+	Site WB (Weeks Bay; 30 22’52” N, 87 49’57” W) is located near the south-eastern shore of the 
+Weeks Bay, about 0.5 miles from the mouth of the estuary.  Mean water depth at this site is about 0.9 m; 
+sediment type is sandy-silt.  Land use around this site is almost exclusively residential, with agriculture 
+occurring inland.  Nutrient concentrations are much lower at this site than at site FR; over the past year, 
+nitrate and phosphate concentrations here ranged from 0.1 to 42 µM and 0.04 to 0.45 µM, respectively.  
+Salinity ranged from approximately 0 to 22 ppt over the past year.  
+
+6.	Data Collection Periods:
+
+	The Data loggers were first deployed at both sites on 27 October 1995, and have been 
+continuously in service since then.
+
+7.	Associated Researchers and Projects:
+
+	Weeks Bay Reserve established twenty-four volunteer water quality monitoring sites in the 
+watershed in May 1995.  These sites are monitored once every two weeks for fecal coliform counts, secchi 
+depth, DO concentration, temperature, pH, alkalinity, hardness, and at some sites salinity.
+
+The following Agencies are funded to do work in Weeks Bay by the EPA Watershed Project:
+Alabama Department of Public Health.  Construction and monitoring of alternative on-site treatment systems 
+in Weeks Bay watershed.
+Alabama Water Watch, Auburn University.  Establishing a citizen monitoring group in the Weeks Bay 
+Watershed.
+Baldwin County Soil and Water Conservation District.  Weeks Bay pollution prevention project: Cost-share 
+for agricultural BMP’s.
+Geological Survey of Alabama.  Monitoring agricultural BMP’s (chemical, physical, and biological 
+parameters) on Fish and Magnolia Rivers.
+Geological Survey of Alabama.  Pesticides and groundwater data- thematic map.
+United States Geological Survey.  Two USGS stage and one instream gauging stations are maintained in the 
+Weeks Bay watershed
+
+Other associated research projects that are on-going in the bay include the following:
+Pennock, J. R. and J. H. Cowan, Jr.  Nutrient enhanced production and trophic dynamics in Weeks Bay, 
+Alabama.  Funded by Mississippi-Alabama Sea Grant.
+Lytle, J. S. and T. F. Lytle.  Field validation of pesticide impact in Weeks Bay, Alabama.  Funded by US 
+Environmental Protection Agency.
+
+
+II.	Physical Structure Descriptors
+
+8.	Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable Name	Range of Measurements (Units)	Resolution		Accurary
+Date		1-12, 1-31, 00-99 (Mo, Day, Yr)	1 month, 1 day, 1 year	NA
+Hour		0-24, 0-60, 0-60 (Hr, Min, Sec)	1 hr, 1 min, 1 sec		NA
+Temp		-5-45 ( C)			0.01 C			+/-0.15 C
+Sp Cond		0-100 (mS/cm)			0.01 mS/cm		+/-0.5% of reading+ 
+0.001 mS/cm
+Salinity		0-70 parts per thousand (ppt)	0.01 ppt			+/-1.0% of reading
+								Or 0.1 ppt, whichever is greater
+DO Sat		0-200 (% Air Saturation)		0.1% @ air saturation	+/-2% @ air sat.
+DO Sat		200-500 (% Air Saturation)	0.1% @ air saturation	+/-6% @ air sat.
+DO MG		0-20 (mg/l)			0.01 mg/l		+/-0.2 mg/l
+DO MG		20-50 (mg/l)			0.01 mg/l		+/-0.6 mg/l
+Depth (shallow)	0-9.1 (m)			0.001 m			+/-0.018 m
+pH		2-14 units			0.01 units		+/-0.2 units
+Data are separated by tabs.
+
+9.	Coded Variable Indicator and Variable code definitions:
+	Site Definitions:	FR = Fish River;	WB = Weeks Bay
+
+10.	Data Anomalies (Suspect Data):
+
+Specific information: *
+	October 1995:	None to report.
+	November 1995:	None to report.
+	December 1995:	At site WB 12/1/95 09:30:00 DO data much lower than at earlier 
+times; grass shrimp found in cage during cleaning may have contributed 
+to anomalous data.
+* = Please note #2 in General Information.
+
+General Information:
+1.	While we have always set the Data loggers to record 2 times per hour, we have changed 
+logging times over the course of the past year.  Because a ferry is used to reach the sites, 
+we tried several logging intervals (logging at 00:00 and 30:00, then at 05:00 and 35:00 past 
+the hour) before we came to the final interval that best fits the ferry schedule.  We have 
+settled on logging at 15:00 and 45:00 past the hour, and have done so regularly since 24 
+April 1996.
+
+2.	We have deleted data only when technical difficulties resulted in questionable data.  
+Therefore, we feel that extreme caution should be used when evaluating these data 
+(especially DO % sat. and concentration) because of problems with biofouling.  
+Particularly during the summer months, biofouling can cause severe degradation of the 
+DO and conductivity calibrations over the two week deployments (eg: 07/18/96 site WB).  
+At times the DO deviation from calibration at the end of a two week deployment was 
+greater than 80% ( in a water-saturated air environment).  We have provided Hydrolab 
+readings that were taken in the field at the time of the final logging interval before retrieval 
+of the YSI’s, as well as post-calibration values (for details see section 4, above) in section 
+13 (Other Remarks/Notes) below.  We encourage anyone using the YSI data to first 
+compare them to these Hydrolab and post-calibration values on the given dates before 
+evaluating the data.  If the user desires, it is possible to use these data to correct the YSI 
+data using regression analysis.  If not, then the user should delete compromised data at 
+his or her own discretion.
+
+12.	Missing Data:
+
+January - September 1995
+	Data collection had not yet begun; no data for this period.
+
+October 1995
+	Data collection did not begin until 27 October.  Therefore, the following data are missing:
+	FR:	No data 00:00:00 10/1/95 through 09:30:00 10/27/95.
+	WB:	No data 00:00:00 10/1/95 through 12:30:00 10/27/95.
+
+November 1995
+	FR:	No data 11/17/95 12:30:00 through 15:00:00 down for servicing.
+		No data 11/30/95 04:00:00 through 23:30:00 due to low battery voltage.
+	WB:	No data 11/17/95 11:30:00 through 15:30:00 down for servicing.
+
+December 1995
+	FR:	No data 12/01/95 00:15:00 through 14:45:00 due to low battery voltage/servicing.
+		No data 12/15/95  10:45:00 through 14:00:00 down for servicing.
+	WB:	No data 12/01/95 10:00:00 through 15:00:00 down for servicing.
+		No data 12/15/95 10:15:00 through 14:45:00 down for servicing.
+		No DO data (% sat or mg/l) 12/15/95 15:00:00 through 12/31/95 23:30:00 due to 
+damaged DO membrane.
+
+13.	Other Remarks/Notes:
+
+Hydrolab End of Deployment Field Readings:
+Site 	Date	   Time (CST)	 Temp(C)    Salinity(ppt)	DO(%sat)     DO (mg/l)	Depth (m)     pH
+FR	11/17/95	   12:00:00	 16.27		5.6	78.3		7.54	1.6	      6.86
+	12/01/95	   10:30:00	16.17		4.0	77.7		7.45	1.3	      6.95
+	12/15/95	   10:15:00	14.90		10.0	95.5		9.08	1.5	      7.63
+	*01/02/96 11:00:00	13.20		5.3	81.2		8.13	1.6	      6.75
+WB	11/17/95	   11:00:00	15.30		6.8	130.0		12.64	0.6	      8.49
+	12/01/95	   10:00:00	13.55		5.4	103.0		10.42	0.4	      8.26
+	12/15/95	   09:45:00	17.30		6.3	123.6		11.46	0.4	      8.30
+	*01/02/96 10:00:00	14.03		7.6	105.3		10.21	0.3	      8.30
+	
+End of Deployment YSI Post-calibration Readings in Standard Solutions:
+Site	Date	Conductivity (mS)	Salinity (ppt)	DO (Air Sat.)	DO (mg/l)	pH
+		(Std:  30.1)		(Std: 18.6)	 (Std: 100%)	(Std: Variable)	(Std: 7)
+FR	11/17/95	     29.56			18.4		106.9		9.47		7.07
+	12/01/95	     29.59			18.4		100.2		9.28		7.04
+	12/15/95	     30.12			18.7		96.0		8.50		7.03
+	*01/02/96   29.55			18.4		90.5		8.33		7.06
+WB	11/17/95	     29.40			18.2		115.8		10.27		7.10
+	12/01/95	     29.17			18.0		93.7		8.60		7.05
+	12/15/95	     29.78			18.4		95.9		8.43		7.03
+	*01/02/96   29.50			18.4		69.9		6.38		7.08
+
+*Hydrolab and post-calibration data from 01/02/96 are included in this Metadata form for near-end of deployment 
+comparisons with data colleced from 12/16/95 – 01/02/96.

@@ -1,0 +1,523 @@
+        Waquoit Bay (WQB) NERR Water Quality Metadata
+                        May - July, 1996
+			Latest Update: August 1, 2002
+
+I. Data set and Research Descriptors
+
+1. Principal investigators and contact persons:
+     Dr. Rick Crawford, Research Coordinator (PI)
+     Jennifer Burnes, Research Assistant (contact person)
+     PO Box 3092 Waquoit, MA 02536
+     (508) 457-0495
+     wbnerr@capecod.net
+
+2. Entry verification
+
+The data are uploaded from the YSI 6000 datalogger, to a PC with the YSI PC6000 
+data transfer software. Each file is uploaded in three formats, in the YSI 
+(.dat) format, in comma delimited(labeled .csv) format, and in space delimited 
+(labeled .txt) format. Three copies of each file in all three formats are then 
+archived. The PC6000 software is used to plot the data which are then subject to 
+preliminary review to detect questionable data, outliers, or probe malfunction. 
+The dataloggers are tested for performance regarding field deployment, fouling 
+and calibration. Copies of the plots from each deployment as well as the tests 
+are filed with the respective field log. 
+
+Each comma delimited file is imported into Excel 5.0 where it is processed 
+according to the NERRS CDMO operations manual. Files are merged to contain data 
+on a monthly basis. Missing date and time stamps, along with the known or 
+probable cause are documented in the missing data section of the metadata. If 
+for any reason the time stamps of a file are incorrect, they are corrected and 
+documented in anomalous data. Using a CDMO Excel 5.0 macro data collected at 
+fifteen minute intervals are sieved to contain data collected at 30 minute 
+intervals. When possible, the Import.xls macro is run to fill in missing date 
+and time stamps. If for some reason the Import.xls macro will not run this part 
+of the editing procedure is performed manually. The pre and post-deployment data 
+records or data-tails are removed and then the Import.xls macro is again used to 
+put periods in all cells missing data. At this point the files are saved in 
+comma delimited format with the .csv extension. These files are considered to be 
+the WQBNERR raw data files and are sent to the CDMO for archival.
+
+The CDMO macros are then run to check that every day of each month has the 
+appropriate number of date and time stamps, and to highlight data outliers. All 
+data outliers are documented in the anomalous data section and are removed from 
+the data set at the discretion of the research coordinator. At this point the 
+files are saved in the Excel workbook format with the .xls extension. A graphing 
+program is used to graph each file and run statistical analyses to determine if 
+any other anomalous data is present and needs removing. Any data that is deemed 
+anomalous is documented in the anomalous data section. All removed data is also 
+documented in the missing data section, and replaced with periods. When the 
+editing process is complete the final CDMO Column Reformat macro is run and the 
+file is saved in ASCII text format (with the .txt extension). These files are 
+then sent electronically by FTP to CDMO. 
+
+Data files are archived at the Reserve as follows. Three copies of the WQBNERR 
+monthly raw data files are archived in comma delimited format (with the .csv 
+extension). Three copies of each final monthly data file are archived in the 
+Excel workbook format (with the xls extension), as well as in ASCII format (with 
+the .txt extension). 
+
+3. Research objectives:
+
+It is well known that eutrophication is occurring in many temperate, shallow, 
+coastal estuaries of North America, as well as around the world. Waquoit Bay is 
+representative of shallow coastal embayments that occur from Cape Cod to Sandy 
+Hook, New Jersey. It is within the Virginian biogeographic province, on the 
+transitional border (Cape Cod) between the Virginian and the more northern 
+Acadian biogeographic province. It functions as a natural laboratory from which 
+base line data can be collected to document trends associated with coastal 
+development near these fragile habitats.
+
+The temperate, shallow, coastal estuaries of this region are surrounded by sandy 
+soils. Studies have indicated that non-point sources are the major contributors 
+of nitrogen to these receiving waters. Waquoit Bay receives nitrogen from 
+several non-point sources, including private on-site septic systems (their 
+leachate percolates into groundwater which then enters the bay), run off 
+(domestic and agricultural fertilizers, roads, animals), and atmospheric 
+sources. On-site septic systems have been identified as the major contributing 
+non-point source in these highly developed coastal regions.
+
+Dense housing developments cover two peninsulas that form the western shore of 
+the Childs and Seapit rivers, major contributors of fresh water to the reserve 
+complex. Although these developments are outside of the Reserve boundaries, 
+nitrogen discharged from septic systems, and in fertilizers has significant 
+effects on the functioning of the Waquoit Bay ecosystem. The impacts of this 
+nitrogen loading has been a subject of extensive study by researchers associated 
+with the Reserve since its designation (1988).
+
+It is well known that eutrophication of these ecosystems has led to alterations 
+of habitat, negatively affecting important commercial fin and shellfisheries. In 
+Waquoit Bay, for example, bay scallops (Argopecten irradians) were historically 
+an important shellfishery. It has been shown that scallop survival is related to 
+the vertical structure of eel grass (Zostera marina), and in 1951, vast meadows 
+of eelgrass were documented throughout Waquoit Bay. At this time, eel grass has 
+essentially disappeared from the bay. Thick mats of seaweeds (benthic macroalgae 
+such as Cladophora sp. And Gracilaria sp.) now cover the bottom of the bay where 
+eelgrass meadows thrived two decades ago. As a result, the commercial harvest of 
+bay scallops has collapsed. Unfortunately, the documentation of these changes is 
+minimal, which makes evaluation of the rates of change resulting in these 
+altered habitats difficult. A long term data base will make possible analyses of 
+this type in the future.
+
+Two sites are used to characterize conditions in Waquoit Bay. The control site 
+is located in the central bay (CB). Data from this unit is considered to reflect 
+the general conditions in the bay. This site is well flushed by the tides, is 
+sufficiently exposed to winds from all directions, and is adequately removed 
+from the navigation channel and mooring basins to be minimally affected by 
+boating activities (relative to the rest of the bay). It is not a popular 
+shellfishing spot. The Aimpacted@ site is located in the north basin (NB) at the 
+head of Waquoit Bay. This area is slightly deeper than the rest of the bay, and 
+is sheltered from winds, particularly prevailing southwesterly winds during the 
+summer months. It is presumably less mixed than the rest of the bay. It is 
+located away from any channels, but is the site of more than 200 boat moorings, 
+and is also a popular site for shellfishing. A second data logger has also been 
+deployed at the North Basin site. However, this datalogger is suspended directly 
+from a mooring, placing the probes at a water depth of approximately 0.9m. Data 
+files collected in this manner are labeled North Basin Surface (NS). When 
+examined with reference to the NB data these files have the potential to 
+document stratification of measured water quality parameters occurring in the 
+North Basin.
+
+Research and environmental monitoring at the Reserve is being conducted to 
+expand our knowledge of the impacts of human activities in coastal areas. In 
+addition to the contribution to the general body of knowledge, this work is 
+intended to provide resource managers with information needed to formulate plans 
+and regulations that will foster enhanced management and utilization of coastal 
+resources. The scope of this research and monitoring includes efforts to 
+understand ecosystem response to stresses, either natural or anthropogenic. It 
+also includes the development of techniques to evaluate ecosystem changes, and 
+methods and goals for habitat restoration.
+
+During the last decade, there have been fish kills in the northern basin, as 
+evidenced by sightings of dead and dying fish and shellfish along the shore. 
+Preliminary data indicate that very low concentrations of dissolved oxygen occur 
+near dawn (daybreak hypoxia). Low dissolved oxygen levels are a result of 
+respiration by, among other biota, the seaweeds which have become exceedingly 
+abundant throughout the bay.
+
+Because the bay is so shallow, sufficient sunlight for photosynthesis usually 
+reaches the bottom and dissolved oxygen concentrations increase quickly after 
+sunrise. However, daybreak hypoxia is exacerbated during foggy, calm mornings. 
+If fog sufficiently reduces insolation, oxygen production by photosynthesis may 
+be insufficient to raise dissolved oxygen concentration levels. If such 
+conditions persist, a fish kill is likely to occur. Several species of fish and 
+shellfish have been found to be impacted by fish kills in the bay, including the 
+commercially-important juvenile winter flounder (Pleuronectes americanus), and 
+the hard shell clam, or quahog (Mercenaria mercenaria).  Data from the north 
+basin site and the WBNERR meteorological station will document the frequency, 
+and dynamics of these events. Reserve staff will also collect dissolved oxygen 
+concentration profiles with other instruments in order to define the areal 
+extent of the North Basin habitat that experiences unusually low levels of 
+dissolved oxygen.
+
+In Waquoit Bay, the primary producer community has been dominated by macroalgae 
+since the 1970's, unlike other more typical temperate shallow coastal 
+embayments, which are dominated by phytoplankton. Seaweed-dominated systems are 
+thought to rely on the energy subsidy provided by eutrophication. It is thought 
+that the shift in trophic energy flow through this ecosystem (caused by nutrient 
+loading) may have altered the delicate system equilibrium, allowing macroalgae 
+to proliferate.
+
+It is possible that the system may eventually revert to a phytoplankton-
+dominated system. Increased phytoplankton productivity results in increased 
+turbidity. Consequently, long-term measurements of turbidity will provide 
+baseline measurements of this important parameter that is not only affected by 
+biological phenomena, but also by weather, land use, hydrography, and boating. 
+The addition of the WBNERR meteorological station (anticipated in Spring 1998), 
+and ongoing studies concerning sediment resuspension due to boating, will aid in 
+the analysis. This information will facilitate evaluation of changes as they 
+occur. In the future, these records may be useful for evaluating the efficacy of 
+remediation efforts intended to reduce nitrogen loading to the bay.
+
+4. Research Methods
+
+The 1996 monitoring season began on May 5, 1996, with the deployment of two 
+sondes. One was deployed at the control site (CB) and the other was placed at 
+the northern end of the bay (NB).  During the month of June, the NB data logger 
+generated some large swings in dissolved oxygen  concentration values. Because 
+of a lack of experience with using the instruments and interpreting the data 
+(knowing what was reasonable and what was not), a third logger (NS) was placed 
+next to the NB logger on July 10, 1996 so their outputs could be compared. The 
+comparison of two logger was equivocal so monitoring was suspended in August for 
+testing whereby all three loggers were deployed from a moored platform and the 
+similarities or differences in their outputs could be judged. These data were 
+not collected according to the NERRS monitoring protocol so they are not 
+reported here.
+
+Each datalogger records measurements of temperature, specific conductivity, 
+dissolved oxygen, depth, pH, and turbidity at fifteen minute intervals during 
+deployment periods of approximately two weeks. During the winter months, the 
+deployment period is limited to two weeks by battery life; during summer months 
+the period is limited by biofouling. The sampling period is therefore held 
+constant for the entire sampling season. The sampling season generally runs from 
+March to December. It is, however, dependent on weather, the amount of ice on 
+the bay, and the operational availability of the boat that serves as tender for 
+the loggers. Unfortunately, because the data logger tender is small, the 
+specifications of this system can exceed the limits of safety for data logger 
+deployment/retrieval operations on windy days. As such, data logger deployment 
+and retrieval are limited to fair weather. This contingency may result in 
+interruptions in data collection that exceed those required for routine 
+maintenance and calibration. Every effort is made to keep down time to a 
+minimum. Routine maintenance usually results in a twenty-four to forty-eight 
+hour lapse in data.
+
+Each data logger is anchored with a 75 pound mooring to which two lines are 
+attached. One line is attached to a surface float that marks the location. The 
+other line is also attached to a float but the line is shorter so that the float 
+remains submerged throughout tidal changes. The data logger is attached to the 
+shorter line in a vertical manner so that the sensors (pointing downward) are 
+suspended 0.75 m from the bottom. This system was chosen to minimize 
+opportunities for vandalism, which has been a problem in the past.
+
+After each deployment, dataloggers are brought back to the laboratory for 
+downloading, instrument and sensor cleaning, calibration and testing. These 
+procedures are carried out according to the methods described in the following 
+excerpt from the WBNERR standard operating procedures.
+
+
+
+5. Site location and character
+
+The Waquoit Bay National Estuarine Research Reserve (WBNERR) is located in the 
+northeastern United States on the southern shore of Cape Cod, Massachusetts. 
+About 8,000 people maintain permanent residency in Waquoit Bay's drainage area, 
+which covers parts of the towns of Falmouth, Mashpee, and Sandwich. During 
+summer months, the population swells 2-3 fold. Like many embayments located on 
+glacial outwash plains, Waquoit Bay is shallow, fronted by prominent barrier 
+beaches of South Cape (State Park) Beach and Washburn Island beach, and backed 
+by salt marshes and upland forests. Two narrow, navigable inlets, reinforced 
+with granite jetties, have been constructed through the two barrier beaches to 
+connect Waquoit Bay with Nantucket Sound to the south. A third shallow and 
+generally unnavigable inlet opened through the Washburn Island barrier beach 
+during Hurricane Bob in August 1991. It has not been reinforced and its fate 
+remains uncertain. 
+
+The western shore of uninhabited Washburn Island, with its low, steep bluffs and 
+forested uplands, forms the western boundary of the reserve. However, tidal 
+waters enter and leave the bay proper (and the Reserve) via the so-called Seapit 
+and Eel rivers, which funnel tidal flows along the western shore of Washburn 
+Island, through Eel Pond and ultimately to Nantucket Sound. 
+
+At the northern end of the Bay, an area comprising a separate subwatershed, 
+coastal bluffs of glacial till rise 30 feet above sea level, the highest land 
+within the Reserve. Adjacent to the bluffs, the northern basin of the bay is its 
+deepest area (2 m). Much of the remainder of the bay is only slightly shallower 
+(e.g., 1.6 m). Bourne, Bog, and Caleb ponds are freshwater kettle hole ponds on 
+the northern-most shore of the bay. As components of the same sub-watershed, 
+they have a common albeit minor freshwater outflow into the bay's northern basin 
+via a narrow channel through a brackish marsh. Although small, centuries of this 
+flow has created a significant delta of sand that overlies much finer sediments 
+found at comparable distances offshore. The source of this sand is the sandy 
+beach over which this fresh water discharge must travel.
+
+To the east and south, land in other subwatersheds surrounds several salt and 
+freshwater ponds, including Hamblin and Jehu Ponds, brackish ponds that are 
+connected to the Bay  by the tidal waters of Little and Great rivers, 
+respectively. The shorelines of these ponds are developed with residences which 
+are occupied by both permanent and seasonal residents. Hamblin Pond and Little 
+River are components of one subwatershed, and Jehu Pond and Great River are 
+elements of a separate subwatershed. Further south lies Sage Lot Pond. It is in 
+the least developed subwatershed which also contains the barrier beach and salt 
+marsh system of South Cape Beach State Park (also a component of the Reserve). 
+To the east, in the same subwatershed, lies the highly brackish Flat Pond. It 
+receives minimal tidal flows of salt water from Sage Lot Pond through a narrow, 
+excavated channel. The remainder of the input to Flat Pond is largely 
+groundwater, and run off, both of which are likely affected by an adjacent golf 
+course and an up-scale residential development.
+
+The tidal range of Waquoit Bay is approximately 0.5 m. The salinity in most of 
+the by ranges from 26 to 31 psu. The largest source of freshwater to Waquoit Bay 
+is the Quashnet/Moonakis River.  Quashnet applies to that portion of the river 
+within the town of Mashpee, and "Moonakis" refers to the brackish estuary at the 
+river's mouth, lying in the town of Falmouth. Quashnet will be used hereafter to 
+refer to the entire river. A component of an additional subwatershed, it 
+originates in Johns Pond situated north of the bay and traverses Reserve lands, 
+forests, cranberry bogs, residential areas, and the Quashnet Valley Golf Course 
+before joining the Bay, south of the southern boundary of the bay's northern 
+basin. Although it is the largest source of fresh water, the Quashnet River 
+delivers significantly less nitrogen to Waquoit Bay than does the Childs River, 
+which also originates in Johns Pond.
+
+The Childs River is the second largest input of freshwater to the Bay. A 
+component of an additional subwatershed, it runs through densely developed 
+residential areas. The Childs River subwatershed receives the highest nitrogen 
+loading (and is the largest nitrogen contributor to the Waquoit Bay system) of 
+all the subwatersheds.. Another source of freshwater is the discharge of Red 
+Brook through brackish marshlands into Hamblin Pond. Additional freshwater 
+enters the bay elsewhere through groundwater seepage, precipitation and smaller 
+stream flows. There is little surface water runoff entering directly into the 
+bay due to the high percolation rates of Cape Cod's coarse, sandy soils.
+
+The "control site", considered the baseline unit, is located in the central bay 
+(CB) at latitude 41deg. 34' 00" N, longitude 70 deg. 31' 47" W. The water depth 
+at this site ranges between 1.2 m to 1.7 m. The benthic habitat is primarily 
+characterized by a muck and organic ooze substrate, with prolific benthic 
+macroalgae.
+
+The Massachusetts Military Reservation (MMR) has been designated a Superfund 
+Site with at least one or two toxic plumes traveling in the ground water, having 
+direct impact on Johns and Ashumet Ponds in the upper part of the watershed. 
+Crops of cranberries from commercial bogs located on the Quashnet River have 
+been deemed unfit for consumption due to contamination from ethylene dibromide 
+(EDB) a jet fuel additive. The Quashnet River and the upper Childs River (north 
+of Route 28) components of the Reserve complex have both been found to have 
+sufficient numbers of coliform bacteria to close them to shellfishing. Two 
+probable source of this contamination are failing septic systems, and storm 
+water runoff. Pesticide and herbicide applications on cranberry bogs, golf 
+courses and lawns also impact this ecosystem. 
+
+The CB site is southwest of the mouth of the Quashnet River, a small stream fed 
+primarily by groundwater. The stream's freshwater discharge into Waquoit Bay is 
+typically 5-10 cubic feet per second. The resultant discharge plume at these 
+levels has an undetectable influence on salinity at the CB site. However, 
+occasional releases of impounded water at an upstream cranberry bog 
+significantly increases discharges to upwards of 30 cubic feet per second. The 
+stream's discharge plume from these events results in slight reductions in 
+salinity at the CB site. These discharges occur in the fall (harvest time) and 
+in the coldest periods of winter. They should be of minimal and traceable 
+influence on the data set obtained by the CB data logger.
+
+The north basin (NB and NS) at latitude 41deg. 34' 44" N, longitude 70 deg. 31' 
+58" W is characterized by water depths of 1.6 - 2.4 m. The benthic habitat is 
+similar to the CB site, characterized by muck or organic ooze substrate and 
+benthic macroalgae. This site is subject to the portion of contaminant loading 
+noted above that is mixed and cycled in to this basin. This site is sampled at 
+two depths to document the stratification of dissolved oxygen content especially 
+in respect to daybreak hypoxia.
+
+6. Data collection period
+
+Data collection at CB and NB began on May 2, 1996.  The NS data collection 
+commenced on July 7, 1996. Monitoring was suspended on July 25, 1996.  Testing 
+of the three loggers at the same location began soon afterward but those data 
+were not collected according to NERRS protocol so they are not reported.
+
+(It is now apparent that the NS logger worked fine while NB had problems in June 
+and July. (Whether this was due to instrument malfunction or operator error is 
+not clear.) At the time, however, it was decided to deploy all three in a series 
+of tests to ascertain how the instruments were behaving and to learn more about 
+deployment procedures. Shortly after the side-by-side tests began, the test 
+platform dragged its mooring during a violent storm and one of the loggers was 
+severly damaged. Tests with the other two continued and eventually the damaged 
+logger was repaired. However the technician running the tests subsequently 
+resigned and monitoring did not resume until 1997 when a replacement technician 
+was hired.) 
+
+
+7. Associated researchers and projects
+
+None to report.
+
+II. Physical Structure Descriptors
+
+8. Variable sequence, range of measurements, units, resolution, accuracy:
+
+YSI 6000 datalogger
+
+Variable  Range of Measurements (units)    Resolution               Accuracy
+
+Date      1-12,1-31,00-99, (Mo,Day,Yr)     1 month, 1 day, 1 year   NA
+Time      0-24, 0-60, 0-60, (Hr,Min,Sec,)  1 hr, 1 min, 1 s         NA
+Temp         -5 to 45 (C)                  0.01 C                   +/-0.15C
+SpCond        0-100(mS/cm)                 0.01mS/cm                +/-0.5% of 
+reading + 0.001 mS/cm
+Salinity  0-70 Parts per thousand (ppt)    0.01 ppt                 +/-1.0% of 
+reading or 0.1 ppt, whichever is greater
+DO        0-200 % (air saturation)         0.1% @ air saturation    +/-2% @ air 
+saturation
+DO        200-500 (% air saturation)       0.1% @ air saturation    +/-6% @ air 
+saturation
+DO            0-20 (mg/l)                  0.01 mg/l                +/-0.2mg/l
+DO            20-50 (mg/l)                 0.01mg/l                 +/-0.6mg/l
+Depth         0-9.1 (m)                    0.001m                   +/-0.018m
+pH            2-14 units                   0.01 units               +/-0.2 units
+Turb          0-1000 NTU                   0.1 NTU                  +/-5% of
+reading or 2 NTU, whichever is greater
+
+Data Columns are separated by tabs.
+
+9.Coded variable indicator and variable code definitions
+
+The Waquoit Bay file naming convention is as follows:  WQBNERR raw data files 
+are named as follows: The first two characters are for the day of the month, the 
+third, fourth, and fifth are for the first three letters of the month, the sixth 
+is for the last number of the year, and the seventh and eighth are for the site 
+description (central bay (CB), north basin (NB), or north basin surface (NS)). 
+These files are archived as described above.
+
+After the WQBNERR raw data files are merged into monthly blocks they are named 
+according to the CDMO Operations Manual. The first two characters are the site 
+description, the second and third stand for the month, and the fourth and fifth 
+for the year. The raw unedited monthly files are saved in comma delimited format 
+(with the .csv extension), and are to be archived by the CDMO as the WQBNERR raw 
+data. Outlier files created while running the macros are saved with the same 
+file name but with the .out extension. Final edited files are saved in Excel 
+workbook format (with the .xls extension) and also in ASCII format (with the 
+.txt extension). The raw unedited monthly files, and the final ASCII formatted 
+final files are sent by FTP to the CDMO.
+
+10.  Data anomalies 
+May
+     CB:  logger deployed:  05/02/96 17:00 to 05/22/96 11:30
+                            05/24/96  15:30 to 05/31/96 23:30
+          1.  Many negative spikes in the turbidity data. Unknown cause. They 
+have not been deleted.
+          2. High turbidity spikes (>1000) on 5/13/96 07:30, 05/15/96 03:30
+
+     NB:  logger deployed:  05/02/96 17:00 to 05/22/96 12:30
+                            05/24/96 16:00 to 05/31/96 23:30
+          1. During the May 24-31 deployment, Dissolved Oxygen data were bad, 
+possibly due to a bad membrane installation (e.g., wrinkled or bubbles 
+underneath). Data were not removed to enable comparison with pH data which 
+reveal a low DO event.
+          2. Also during the May 24-31 deployment, the logger was incorrectly 
+set roughly 0.2 m deeper than during the earlier deployment.
+
+ June
+     CB:  logger deployed:  06/01/96 00:00 to 06/12/96 10:00
+               06/13/96 16:00 to 06/30/96 23:30
+          1. Early on the 28th -- roughly between 03:00 & 05:00 -- the salinity 
+began to steadily decline through the remainder of the deployment. Salinity, Specific
+conductivity and DO mg/L were deleted from: 06/28/96 13:00 to 06/30/96 23:30.  
+Cause was unknown but may have been due to an organism occupying the salinity sensor chamber.
+          2. There was a large negative spike in turbidity data (-922 NTU) 06/29 
+@ 02:00. It has not been deleted. 
+
+     NB:  logger deployed:  06/01/96 00:00 to 06/12/96 09:30
+                            06/13/96 16:00 to 06/30/96 23:30
+          1.  Dissolved Oxygen data were very strange (large swings to very high 
+values) but since they were consistent with the following deployment in July the 
+data were not removed. (Given the fact that this consistency did not appear in 
+the output of a second logger used at NB in July--see NS file for July--these 
+data swings are probably spurious.)
+          2.  The Dissolved Oxygen Saturation data at the following records were 
+deleted by the old CDMO macro that deleted values greater than 200 percent (raw 
+data files are missing):
+               06/30/96  10:30
+                         13:00
+                         14:00
+                         15:00 - 16:00
+                         17:00 - 20:30
+                         22:00 - 23:00
+          3.  Salinity and specific conductivity data were incorrect during the 
+June 13-30 deployment apparently due to a bad calibration and were removed.
+          4.  There was one negative turbidity datum, -450 NTU 06/22/96 at 
+06:00.
+
+July
+     CB:  logger deployed:  07/10/96 15:30 to 07/25/96 13:30
+          1. Data were collected during 07/01 - 07/08 (note that the logger was 
+operating at the end of June). These data are missing.
+          2. Dissolved oxygen data are suspect and were deleted from : 
+		07/10/96 14:00 to 07/25/96 13:30
+          3. At 07/10/96 15:00 the logger was apparently lifted from the water 
+(depth = 0 m). The data for this time period was deleted.
+          4. The first sample (07/10/96 14:00) was the highest turbidity 
+recorded. It is probably due to the sediment cloud raised by disturbing the 
+mooring during deployment. 07/11/96 through 7/25/96 there were small negative 
+turbidity values perhaps due to a calibration error. 
+
+     NB:  logger deployed:  07/10/96 15:00 to 07/25/96 13:30.
+          1. Dissolved Oxygen data started at very high values and slowly 
+declined to normal ranges. Since this pattern was consistent with the previous 
+deployment in June, the data were not removed. (Given the fact that this 
+consistency did not appear in the output of a second logger used at NB in July--
+see NS file for July--the high data values are probably spurious.)
+          2. The pH probe apparently began to fail on about 07/20/96. Data from 
+that day onward are considered erroneous.
+
+     NS:  logger deployed:  07/10/96 13:30 to 07/25/96 12:30.
+          1.  There are no data anomalies to report for this deployment.
+     
+
+11.  Missing Data
+May
+     CB:  1. 05/01/96 00:00 to 05/02/96 16:30 sonde not deployed 
+          2. 05/22/96 12:00 to 05/24/96 15:00 Interruption in data collection 
+due to cleaning & recalibration
+
+     NB:  1. 05/01/96 00:00 to 05/02/96 16:30 sonde not deployed
+          2. 05/22/96 13:00 to 05/24/96 15:30 Interruption in data collection 
+due to cleaning and recalibration.
+
+ June
+     CB:  1. 06/12/96 10:30 to 06/13/96 15:30 Interruption in data collection 
+due to cleaning & recalibration
+	  2. Salinity, Specific conductivity and DO mg/L were deleted from: 
+06/28/96 13:00 to 06/30/96 23:30. 
+ 
+
+     NB:  1. 06/12/96 10:00 to 06/13/96 15:30 Interruption in data collection 
+due to cleaning & recalibration
+          2.  The Dissolved Oxygen Saturation data at the following records were 
+deleted by the old CDMO macro that deleted values greater than 200 percent 
+(raw data files are missing):
+               06/30/96  10:30
+                         13:00
+                         14:00
+                         15:00 - 16:00
+                         17:00 - 20:30
+                         22:00 - 23:00
+          3.  Salinity and specific conductivity data were incorrect during the 
+June 13-30 deployment apparently due to a bad calibration and were removed.
+
+
+July
+     CB:  1. 07/25/96 14:00 to 07/31/96 end of monitoring for remainder of year
+          2. Data were collected during 07/01 - 07/08 (note that the logger was 
+operating at the end of June). These data are missing.
+          3. 2. Dissolved oxygen data are suspect and were deleted from : 
+		07/10/96 14:00 to 07/25/96 13:30
+          4. At 07/10/96 15:00 the logger was apparently lifted from the water 
+(depth = 0 m). The data for this time period was deleted.
+
+     NB:  1. 07/01/96 00:00 to 07/13/96 14:30 Interruption in data collection 
+due to cleaning & recalibration
+          2. 07/25/96 14:00 through 07/31/96 23:30 end of monitoring for 
+remainder of year
+
+     NS:  1.  07/01/96 00:00 to 07/10/96 13:00 sonde not deployed
+          2. 07/25/96 13:00 through 07/31/96 23:30 end of monitoring for 
+remainder of year
+     
+

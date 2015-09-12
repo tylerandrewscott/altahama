@@ -1,0 +1,226 @@
+Chesapeake Bay Maryland (CBM) NERR Water Quality Metadata 
+July-November, 1995
+Latest Update: July 26, 2000
+
+I. Data Set and Research Descriptors
+
+1. Principle investigator(s) and contact persons
+Dave Nemazie, Research Coordinator
+University of Maryland Center for Environmental Science
+P.O. Box 775
+Cambridge, MD 21613
+Phone: 410-228-9250, ext. 615
+e-mail: nemazie@ca.umces.edu
+
+2. Entry verification
+The data are uploaded to a PC from the YSI 6000UPG data logger and graphs are 
+produced and quickly examined using the PC6000 software.  Data files are then 
+exported from the PC6000 format into Excel (for Windows NT 3.1) files where the 
+headers, footers, and inappropriate spaces are removed.  Plots of the data are 
+made and suspect data (outliers) are dealt with accordingly.  Removed data 
+points and missing data are replaced with a periods (.).  Edited files are 
+merged to contain one full month for each data logger.  Data is then QA/QC'd 
+using the cdmomac(ro)3.xls macros and Appendix B., YSI 6000 Data Review and 
+Editing Protocol.  Dave Nemazie was responsible for data management.  
+
+
+3. Research Objectives
+The purpose of the monitoring program at CBM NERR is to conform to the NERR SWMP 
+monitoring program looking at trends in water quality over both temporal and 
+spatial scales.  Differences in how marshes can change water quality is being 
+studied by comparing a marsh creek site to a river channel site.  Measurements 
+are taken every 30 minutes over a 5-14 day period at both the Patuxent River 
+Park (PR) and Jug Bay Wetlands Sanctuary (JB) sites.  
+
+4. Research methods (YSI data loggers)
+Each YSI data logger is laid down on a 4" diameter PVC pipe that has been cut in 
+half.  The PVC is nailed to a 4"x4" block of wood which secured to a crab pot.  
+The crab pot with the data logger in it sits on the bottom at both sites.  At 
+each site, the crab pot is locked to a pier.  The YSI probes sit approximately 
+6-10 centimeters above the sediment.  Every 30 minutes up to a two-week period, 
+measurements for specific conductivity, salinity, percent saturation, dissolved 
+oxygen, temperature and water level are recorded.  Within 14 days of deployment, 
+the data is downloaded and either new calibrated probes or a new YSI unit with 
+calibrated probes are placed at each site.  At times, however, probes and/or 
+units could not be replaced resulting in prolong periods (up to 5 days) of 
+missing data.  Calibration procedures are carried out according to the methods 
+described in the YSI Operating Manual. All calibration standards are purchased 
+from scientific warehouses.  
+
+
+5. Site location and character
+The Chesapeake Bay NERR - Maryland has three components in Maryland’s portion of 
+the Chesapeake Bay.  Monie Bay is a mesohaline region on the lower Eastern 
+Shore; Otter Point Creek is a tidal freshwater river and marsh system; and Jug 
+Bay is part of the freshwater portion of the Patuxent River.  Both data loggers 
+are within the Jug Bay component.
+
+1) Patuxent River Park (PRP) - (38 deg 46’ 00” N, 76 deg 42’ 30” W) is on the 
+Prince Goerges County side of the River.  The data logger is on the flank of 
+the River channel off of Jackson Landing.   The Patuxent is approximately 50 
+meters wide at Jackson Landing.  High sedimentation rates have led to a very 
+soft bottom at this point in the Patuxent River.  Salinity rarely reaches 
+above 1 ppt.
+2) Jug Bay Wetlands Sanctuary (JBWS) - (38 deg 46’ 00” N, 76 deg 42’ 30” W) is 
+on the Anne Arundal County side of the River directly across from PRP.  The data 
+logger is in a shallow tidal marsh creek that is approximately 5 meters wide.  
+Wide temperature fluctuations are normal at this site.
+
+6. Data collection period
+Data loggers were placed in the water in early July and removed in late November 
+just after ice began to form at both sites.
+
+7. Associated researchers and projects
+The Jug Bay Wetlands Sanctuary staff has been collecting weekly to monthly 
+temperature, salinity, dissolved oxygen, and nutrient samples at the same 
+location as the data logger at JBWS.  In addition a graduate student has 
+measured Denitrification rates while another student has compared dissolved 
+oxygen measurements using various techniques at the JBWS site.
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000 datalogger
+Variable Name	Range of Measurements 		Resolution		Accuracy
+Date			1-12, 1-31, 00-99		1 month, 1 day, 1 year		NA
+Time			0-24, 0-60, 0-60 		1 hr, 1 min, 1 s			NA
+Temp			-5 to 45 (0 C)		0.01 C			+/-0.15 C
+SpCOND		0-100 (mS/cm)	0.01 mS/cm		+/-0.5% of reading+ 0.001 
+mS/cm
+Salinity		0-70 (ppt)		0.01 ppt		+/- 1.0% of reading or 0.1 
+ppt, (whichever is greater)
+DOsat			0-200 (% air Sat)		0.1% @air sat	+/-2% @air sat.
+DOsat			200-500 (% air Sat)	0.1% @air sat	+/-6% @air sat.
+Domg			0-20 (mg/l)			0.01 mg/l		+/-0.2 mg/l
+DOmg			20-50 (mg/l)		0.01 mg/l		+/-0.6 mg/l
+Depth (shallow)	0-9.1 (m)			0.001 m		+/-0.018 m
+pH			2-14 (units)		0.01 units		+/-0.2 units
+
+
+9.  Coded variable indicator and variable code definitions
+Site definitions: PR = Patuxent River Park; JB = Jug Bay Wetlands Sanctuary
+
+
+10. Data anomalies (suspect data)
+Suspect data from any one measurement and data collected at the same time are 
+removed and replaced with a period (.).
+
+July 1995
+PR: anomalous data removed 7/6/95 15:30:00 because instrument was out of the 
+water. Instrument logged the following date/times twice but with different 
+values: 7/28/95 13:00:00-13:30:00.  The first set of duplicated data was 
+deleted. 
+
+JB: anomalous data removed 7/24/95 07:30:00 to 08:00:00, 12:00:00 to 18:00:00, 
+and 7/25/95 12:30:00 to 7/28/95 10:00:00 due to repeating data which was a 
+result of instrument running in both unattended and discrete mode. 
+
+August 1995
+PR: instrument out of water due to low tide 8/9/95 09:00:30 to 11:00:30; data 
+removed. Erroneous (high) DOmg/L data removed 8/19/95 09:00:30 to 09:30:30. 
+
+JB: Negative depth value on 8/4/95 07:00:00
+
+September 1995
+PR: 
+JB: instrument out of water due to low tide from 9/1/95 15:30:00 to 17:30:00; 
+data removed. Instrument out of water due to low tide 9/2/95 4:30:00 to 06:00:00 
+and from 16:30:00 to 18:00:00; data removed. 
+
+October 1995
+PR: 
+JB: 
+
+November 1995
+PR: 
+JB: Data deleted due to instrument logging error 11/9/95 13:30:00-14:00:00. 
+removed due to ice 11/27/95 13:00:00.
+
+
+December 1995
+PR: 
+JB: 
+
+
+
+11. Missing data 
+
+*Note: No turbidity probes were installed on the YSI instruments for the 1995 
+year.  
+
+July 1995
+PR: data logger was not deployed until 7/6/95 15:00:00. anomalous data removed 
+7/6/95 15:30:00 because instrument was out of the water. pH meter not installed 
+until 7/18/95 18:30:00. data logger removed for calibration 7/18/95 17:30:00-
+18:00:00. Instrument logged the following date/times twice but with different 
+values: 7/28/95 13:00:00-13:30:00.  The first set of duplicated data was 
+deleted. 
+
+JB: data logger was not deployed until 7/7/95 14:00:00. Data logger removed for 
+calibration 7/10/95 14:00:00.data logger removed for calibration 7/18/95 
+14:04:25. data logger removed for calibration 7/21/95 06:47:12 to 07:17:11. 
+anomalous data removed 7/24/95 07:30:00 to 08:00:00, 12:00:00 to 18:00:00, and 
+7/25/95 12:30:00 to 7/28/95 10:00:00 due to repeating data which was a result of 
+instrument running in both unattended and discrete mode. 
+
+August 1995
+PR: data logger removed for calibration 8/1/95 13:30:00. data logger removed for 
+calibration 8/8/95 12:00:00 to 12:30:00. instrument out of water due to low tide 
+8/9/95 09:00:30 to 11:00:30; data removed.  data logger removed for calibration 
+8/16/95 07:00:30. Erroneous (high) DOmg/L data removed 8/19/95 09:00:30 to 
+09:30:30. removed for calibration 8/20/95 08:30:30. Data logger was removed for 
+calibration 8/24/95 13:00:30-13:30:30.  
+
+JB: data logger removed for calibration 8/1/95 07:00:00 and 8/9/95 08:00:00. 
+data logger removed for calibration 8/24/95 11:30:00 – 12:00:00.
+
+September 1995
+PR: data logger removed for calibration 9/1/95 09:00:00-09:30:00. data logger 
+removed for calibration 9/8/95 12:30:00. data logger removed for calibration and 
+low battery 9/18/95 05:30:00 to 12:30:00. data logger removed for calibration 
+9/28/95 13:00:00 to 17:00:00.
+
+JB: data logger removed for calibration 9/1/95 00:00:00 to 10:30:00. instrument 
+out of water due to low tide from 9/1/95 15:30:00 to 17:30:00; data removed. 
+Instrument out of water due to low tide 9/2/95 4:30:00 to 06:00:00 and from 
+16:30:00 to 18:00:00; data removed.  No data due to low battery on 9/11/95 
+09:00:00-10:30:00.  Data missing due to low battery on 9/18/95 03:00:00-
+09:30:00.  Data logger removed for calibration 9/18/95 10:30:00 and 9/28/95 
+11:30:00-17:30:00.
+
+October 1995
+PR: data logger removed for servicing 10/8/95 17:30:00 to 10/13/95 13:30:00. 
+data logger removed for servicing 10/27/95 14:30:00 to 10/31/95 23:30:00.
+
+JB: data logger removed for servicing 10/8/95 18:00:00 to 10/13/95 13:30:00. 
+data logger removed for servicing 10/27/95 14:30:00 to 10/31/95 23:30:00.
+
+November 1995
+PR: still out for servicing from October until 11/1/95 11:00:00. Data logger 
+removed for calibration 11/9/95 12:30:00.  removed due to ice 11/27/95 14:00:00 
+to 11/30/95 23:30:00.
+
+JB: still out for servicing from October until 11/1/95 12:30:00. data logger 
+removed for calibration 11/21/95 14:00:00.  Data deleted due to instrument 
+logging error 11/9/95 13:30:00-14:00:00. removed due to ice 11/27/95 13:00:00.
+
+
+December 1995
+PR: Not deployed due to ice.
+
+JB: Not deployed due to ice.
+
+
+
+12. Other Remarks
+
+The following times were off due to instrument/battery error:
+
+Jug Bay:
+7/10/95 14:34:25-7/18/95 14:04:25	time was off 4 min 25 sec
+7/18/95 14:47:12-7/21/95 07:17:11	time was off 2 min 12 sec
+
+Patuxent River:
+7/6/95 00:00:05-7/10/95 16:30:05	time was off by 5 sec
+8/8/95 13:00:30-8/24/95 13:30:30	time was off by 30 sec

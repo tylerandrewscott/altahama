@@ -1,0 +1,800 @@
+Delaware (DEL) National Estuarine Research Reserve Water Quality Metadata
+January-December 2000
+Latest Revision: October 4, 2001
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+David B. Carter, Environmental Program Manager  dcarter@dnrec.state.de.us 
+Kimberly Cole, Environmental Scientist  kcole@dnrec.state.de.us 
+James D. Hewes, Environmental Scientist (C.P.) jhewes@dnrec.state.de.us        
+Robert Scarborough, Environmental Scientist (P.I.) bscarboroug@dnrec.state.de.us
+Lonnie Dye, Mini-Micro Computer Operator ldye@dnrec.state.de.us	
+Richard Field, Research Scientist, University of Delaware (C.P.) 
+rtfield@earthview.cms.udel.edu 
+Carrie Kopin, Graduate Student, University of Delaware  cykopin@UDel.Edu 
+
+
+Delaware Coastal Management/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation
+P.O. Box 1401
+Dover, Delaware 19903 
+	
+University of Delaware CMS
+107 Robinson Hall, U of D
+Newark, Delaware 19716
+Phone: (302) 831-2695 ext. 4697
+
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6000 upg 
+datalogger to a PC. Edited files are created by removing the headers, footers, 
+and spaces on a PC. Missing data from YSI 6000 maintenance (downtime) is 
+inserted into the spreadsheet and are denoted by periods (.).  Data and graphs 
+are visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QC'd using Excel 5.0 
+CDMO macros.  Edited files are merged to contain one full month of data.  Edited 
+and merged monthly files are also transferred to NERRS Central Data Management 
+Office.  James Hewes and Lonnie Dye are responsible for the editing and 
+archiving of these data.
+
+3.  Research Objectives:
+The principal objective of this study is to record long-term water quality data 
+for Delaware Bay in order to observe any physical changes or trends in water 
+quality over time. The three sites chosen for monitoring will assist in 
+understanding the impacts of both urban and agricultural impacts on the 
+watersheds.  Scotton Landing and Penrose Branch are located within the St. Jones 
+River watershed, while the northern Blackbird Landing component is located in 
+the Blackbird Creek watershed. The St. Jones River is impacted by urbanization 
+upstream and extensive agricultural activity throughout the basin. The Blackbird 
+Creek is one of the least impacted riverine systems in Delaware.  Measurements 
+are taken every 30 minutes over two week collecting periods at the Scotton 
+Landing (SL), Blackbird Landing (BL) and Penrose Branch (PB) sites.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program.  
+Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to a piling 
+at Scotton Landing and a bridge at Blackbird Landing and Penrose Branch using 
+stainless steel brackets and bolts.  Each YSI 6000 is lowered into the PVC pipe 
+that has eight (8) two-inch diameter holes cut out at the bottom for the probes 
+to have direct contact with the water column.  A large stainless steel bolt was 
+placed at the bottom end of the PVC pipe which maintained each YSI 6000 at each 
+site exactly one foot (30 cm) above the river bottom.  Every half-hour over a 
+two-week period, measurements of specific conductivity, salinity, percent 
+saturation, dissolved oxygen, temperature, pH, and water level are recorded.  
+Seven days after the deployment of each YSI 6000, the dissolved oxygen membrane 
+is cleaned with a Kimwipe dipped in methanol.  Two-week sampling intervals were 
+selected due to limitations created by the dissolved oxygen membrane. At the end 
+of each two-week period, the YSI 6000 is brought back to the office for 
+downloading, cleaning, and recalibration. Calibrations performed include: 
+dissolved oxygen, specific conductivity using Oakton 12,880 uS standard, 
+turbidity using AMCO AEPO-1 Standard at 100 NTU and distilled water, pH using 
+Fisher pH 4.00, 7.00 and 10.00 buffers, and depth.  These procedures are carried 
+out according to the methods as described in the YSI Model 6000 Operating and 
+Service Manual.  After approximately six hours of down time for cleaning and 
+recalibration, the YSI 6000's are redeployed for another two-week period. Data 
+files are QA/QC'd using Excel 5.0 CDMO macros.  Edited files are merged to 
+contain one full month of data.  Edited and merged monthly files are also 
+transferred to NERRS Central Data Management Office.
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the State Capitol City, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are three sampling sites, two located in St. Jones 
+component and one in the Blackbird Creek component.
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, just up stream of Delaware Route 113.  The site is 
+influenced by freshwater runoff from the relatively urbanized area upstream. 
+Bottom habitat is made up of a mixture of mud and silt. 
+Depth range: 3.2m(high)- 2.4m (low) 
+Salinity ranges from 8 - 30 ppt.
+Tidal Range: Spring Mean (m) - 1.26
+Neap Mean (m) - 1.13
+Position:  Latitude   39 degree 05'  05.9160"  N
+           Longitude  75 degree 27'  38.1049"  W
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The site is influenced by freshwater runoff from unimpacted 
+forested areas intermixed with agricultural land uses and a small amount of low-
+density development. Bottom habitat is made up of a mixture of mud and silt.
+Depth range: 1.8m (high) - 0.5m (low)
+Salinity ranges from 2-7 ppt.
+Tidal Range: Spring Mean (m) - 1.12
+Neap Mean (m) - 1.13
+Position:   Latitude    39 degree 23'  19.5196"  N
+		Longitude   75 degree 38'  09.5882"  W
+3) Penrose Branch - is located in the headwaters of the St. Jones Basin, north 
+of Dover and along Pearsons Corner Road.  The site is predominately a forested 
+wetland tributary system with agricultural land uses along the sub catchments 
+fringe.  This freshwater tributary has dominant forest canopy with no bottom 
+vegetation. Leaf debris does accumulate at the bottom in some of the lower 
+pockets. 
+Depth range: 0.1m - 1.0 m
+Salinity is 0.00 ppt.
+Tidal Range: Not Applicable, freshwater 
+Position:	Latitude    39 degree 09'  52.77"  N
+		Longitude   75 degree 39'  01.52"  W
+
+6.  Data collection period:
+Scotton Landing data collection began on July 1, 1995.  Blackbird Landing data 
+collection began on July 14, 1995. Penrose Branch data collection began on June 
+1,1996.  All sampling is ongoing.
+
+7.  Associated researchers and projects: 
+An extensive storm water sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted storm water sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin.
+An additional storm water sampling program is underway to analyze the impact of 
+agricultural BMP's at sites in the Blackbird Creek Watershed, St. Jones River 
+Watershed.
+A joint effort underway through NOAA's Center for Coastal Ecosystem Health and 
+the DNERR characterization studies will initiate detailed monthly water quality 
+sampling at three sites in each river over a two year period and will quantify 
+the phytoplankton community with collections from the same sites.   This project 
+was scheduled to be initiated in February 1995.
+(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+
+9. Coded variable indicator and variable code definitions:
+Site definitions:  SL = Scotton Landing, BL = Blackbird Landing, PB = Penrose 
+Branch
+
+10. Data anomalies (suspect data):
+
+January 1, 2000 through March 31, 2000
+
+A. Scotton Landing
+a) No anomalies for the month of January.
+b) D.O. (% and mg/l) values between February 18, 2000 16:30:00 through March 3, 
+2000 08:00:00 were very high due to malfunctioning DO probe - probably caused by 
+freezing conditions, data removed (see Missing Data section).  Probe was 
+replaced during maintenance and values returned to normal levels. 
+
+B. Blackbird Landing
+a) No anomalies for the month of January.
+b) pH February 06, 2000 through February 08, 2000 remains at a constant reading 
+of 6.3 NTU for two days. Probe showed some diagnostic to be out of range prior 
+to deployment but calibrated ok. The probe was replaced on March 1, 2000. 
+c) Drop in specific conductivity, salinity, and pH beginning March 21, 2000 at 
+20:30:00 through end of month due to heavy rainfall. 
+
+C. Penrose Branch
+a) No anomalies for the month of January.
+b) No anomalies for the month of February.
+c) Depth data deleted March 21, 2000 05:30:00 through March 23, 2000 23:30:00 
+due to unusually elevated water depth. Reason unknown. 
+
+April 1, 2000 through June 30, 2000
+
+A. Scotton Landing
+a) No anomalies for the month of April.
+b) No anomalies for the month of May.
+c) Turbidity (NTU) value on June 8, 2000 18:00:00 out of range, 1121, possible 
+obstruction, data retained.
+
+B. Blackbird Landing
+a) No anomalies for the month of April.
+b) Turbidity deleted May 06, 2000 22:00:00 through May 09, 2000 06:00:00 due to 
+fouling of probe. 
+c) Turbidity should be viewed as suspect June 01 00:00:00 through June 08, 2000 
+06:30:00 due to probe being slightly out of range at post deployment. Wiper was 
+also not parked properly during this time period. 
+d) Turbidity (NTU) values between June 15, 2000 20:30:00 through 21:00:00 out of 
+range, 1657 and 1759, possible obstruction, data retained.
+e) Turbidity (NTU) values between June 15, 2000 23:00:00 through 23:30:00 out of 
+range, 1768 and 1768, possible obstruction, data retained.
+f) Turbidity (NTU) value on June 16, 2000 00:30:00 out of range, 1074, possible 
+obstruction, data retained.
+g) Turbidity (NTU) values between June 16, 2000 07:00:00 through 07:30:00 out of 
+range, 1314 and 1763, possible obstruction, data retained.
+h) Turbidity (NTU) values between June 16, 2000 08:30:00 through 09:00:00 out of 
+range, 1715 and 1117, possible obstruction, data retained.
+i) Turbidity (NTU) value on June 19, 2000 07:00:00 out of range, 1784, possible 
+obstruction, data retained.
+j) Turbidity (NTU) value on June 23, 2000 09:30:00 out of range, 1008, possible 
+obstruction, data retained.
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section).  Data indicates that the remaining probes 
+were still submerged during these times.
+b) Time field corrected by 00:19:12 (fast) for data between June 16, 2000 
+16:00:00 through June 28, 2000 07:30:00.
+
+
+July 1, 2000 through September 30, 2000
+
+A. Scotton Landing
+a) D.O. values on July 4, 2000 14:00:00 out of range, -50% and -3.6 mg/l, reason 
+unknown, values returned to normal after 14:30:00, values were deleted (see 
+Missing Data section).
+b) Turbidity (NTU) value on July 8, 2000 20:00:00 out of range, 1072, possible 
+obstruction, data retained.
+c) Turbidity (NTU) value on July 10, 2000 11:30:00 out of range, 1076, possible 
+obstruction, data retained.
+d) Time field corrected by 00:01:10 (fast) for data between July 12, 2000 
+16:30:00 through August 2, 2000 16:30:00.
+e) Turbidity (NTU) value on July 13, 2000 08:30:00 out of range, 1149, possible 
+obstruction, data retained.
+f) Turbidity (NTU) value on July 19, 2000 23:30:00 out of range, 1158, possible 
+obstruction, data retained.
+g) Turbidity (NTU) value on July 30, 2000 06:30:00 out of range, 1164, possible 
+obstruction, data retained.
+h) Turbidity (NTU) value on July 30, 2000 16:30:00 out of range, 1171, possible 
+obstruction, data retained.
+i) No anomalies for the month of August.
+j) No anomalies for the month of September.
+
+
+B. Blackbird Landing
+a) No anomalies for the month of July.
+b) Turbidity values suspect August 02, 2000 13:00:00, 15:00:00 - 18:30:00, and 
+August 07, 2000 at 10:30:00 - 18:30:00, 20:00:00 - 22:00:00, and 23:30:00 due to 
+fouling of probe. 
+c) D.O. values during between August 9, 2000 06:30:00 through 08:30:00 fell 
+below normal range, negative values, in large segments of time.  Location 
+experienced a drought, which caused decrease in depth and anoxic environmental 
+conditions.  All data retained.
+d) DO data deleted August 8, 2000 16:30:00 through August 22, 2000 06:00:00 due 
+to punctured membrane. 
+e) D.O. values during between August 9, 2000 09:30:00 through 10:30:00 fell 
+below normal range, negative values, in large segments of time.  Location 
+experienced a drought, which caused decrease in depth and anoxic environmental 
+conditions.  All data retained.
+f) D.O. value August 9, 2000 11:30:00 fell below normal range, -010.9% and -00.8 
+mg/l. Location experienced a drought, which caused decrease in depth and anoxic 
+environmental conditions.  All data retained.
+g) D.O. value August 9, 2000 13:00:00 fell below normal range, -001.3% and -00.1 
+mg/l. Location experienced a drought, which caused decrease in depth and anoxic 
+environmental conditions.  All data retained.
+h) D.O. value August 10, 2000 01:00:00 fell below normal range, -005.0% and -
+00.4 mg/l. Location experienced a drought, which caused decrease in depth and 
+anoxic environmental conditions.  All data retained.
+i) D.O. value August 10, 2000 04:30:00 fell below normal range, -000.7% and -
+00.1 mg/l. Location experienced a drought, which caused decrease in depth and 
+anoxic environmental conditions.  All data retained.
+j) Salinity and Spec. Conductivity values drop August 14, 2000 10:00:00 to end 
+of month due to heavy rainfall which began on August 13, 2000. 
+k) Turbidity values deleted August 22,2000 16:30:00 through August 24, 2000 
+21:00:00 due to sensor failure. 
+l) DO data deleted August 22, 2000 16:30:00 through August 24, 2000 21:00:00 due 
+to punctured membrane. 
+m) D.O. value August 24, 2000 20:30:00 fell below normal range, -089.4% and -
+07.4 mg/l. Location experienced a drought, which caused decrease in depth and 
+anoxic environmental conditions.  All data retained.
+n) D.O. value on August 24, 2000 21:00:00 out of range, 596.1%, for unknown 
+reasons.  No data after this point in time.  Datum retained.
+n) Turbidity deleted September 08, 2000 16:30:00 through September 12, 2000 
+06:30:00 due to sensor failure. 
+o) D.O. values between September 13, 2000 07:00:00 through 07:30:00 fell below 
+normal range, negative values.  Location experienced a drought, which caused 
+decrease in depth and anoxic environmental conditions.  All data retained.
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section).  Data indicates that the remaining probes 
+were still submerged during these times.
+b) D.O. values deleted between August 4, 2000 16:30:00 and August 13, 2000 
+22:00:00 due to probe failure. 
+c) All data deleted August 14, 2000 20:30:00 through August 15, 2000 18:30:00 
+due to mechanical problems with datalogger, unknown reasons.  
+c) D.O. value August 16, 2000 00:00:00 fell below normal range, -0.99.9% and -
+09.2 mg/l. Location experienced a drought, which caused decrease in depth and 
+anoxic environmental conditions.  All data retained.
+d) D.O. values deleted between August 18, 2000 16:30:00 and September 1, 2000 
+07:30:00 due to probe failure.
+e) DO data deleted September 1, 2000 16:30:00 through September 18, 2000 
+07:30:00 and September 18, 2000 16:30:00 due to probe failure. 
+f) Turbidity (NTU) value on September 15, 2000 12:30:00 out of range, 1214, 
+possible obstruction, data retained.
+
+October 1, 2000 through December 31, 2000
+
+A. Scotton Landing
+a) Turbidity (NTU) values between October 21, 2000 00:30:00 through October 31, 
+2000 08:30:00 out of range (low negative values). Most likely do to calibration 
+error, read as zero, data retained.
+b) No anomalies for the month of November.
+c) Drop in salinity and Spec. conductivity December 17, 2000 23:00:00 due to 
+heavy rainfall which began December 16, 2000.
+
+B. Blackbird Landing 
+a) No anomalies for the month of October.
+b) No anomalies for the month of November.
+c) Drop in salinity and Spec. conductivity December 17, 2000 23:00:00 through 
+December 20, 2000 10:00:00 due to heavy rainfall which began December 16, 2000. 
+
+C. Penrose Branch
+a) Depth probe went dry at various times during the season, so the data were 
+deleted (see Missing Data section).  Data indicates that the remaining probes 
+were still submerged during these times.
+b) Temperature sensor malfunctioned at various times during October, November 
+and December with readings of -10.  D.O., Salinity, and pH values were deleted 
+during those times, see Missing Data section.
+c) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted October 2, 2000 16:30:00 through October 20, 2000 
+08:30:00 and October 20, 2000 16:30:00 through October 31, 2000 23:30:00 due to 
+unreliable data readings. 
+d) Turbidity (NTU) values between October 19, 2000 14:00:00 through October 28, 
+2000 08:00:00 out of range (low negative and/or zero values). Most likely do to 
+calibration error, read as zero, data retained.
+e) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted November 1, 2000 00:00:00 through November 1, 
+2000 09:00:00 due to unreliable data readings. 
+f) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted November 15, 2000 16:30:00 through November 29, 
+2000 08:30:00 due to unreliable data readings. 
+g) pH data deleted November 15, 2000 16:30:00 through November 29, 2000 08:30:00 
+due to possible bad calibration. 
+h) Turbidity (NTU) values between November 16, 2000 15:00:00 through 29, 2000 
+17:30:00 out of range (low negative values). Most likely do to calibration 
+error, read as zero, data retained.
+i) Turbidity (NTU) values between December 14, 2000 10:30:00 through December 
+15, 2000 09:00:00 out of range, above 1000 NTU, possible obstruction, data 
+retained.
+j) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted December 15, 16:30:00 through December 28, 
+09:30:00 due to unreliable data readings. 
+k) Temperature (C) values between December 23, 2000 03:00:00 through December 
+23, 2000 08:00:00 out of range, -00.1, read as zero, data retained.
+
+11. Missing Data
+
+January 1, 2000 through March 31, 2000
+
+A. Scotton Landing
+a) No data are available between January 13, 2000 08:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between January 31, 2000 15:30:00 through February 18, 
+2000 16:00:00 due to late retrieval of datalogger due to ice/snow storms and 
+downtime for maintenance, calibration, and service of datalogger. 
+c) No D.O. data available between February 18, 2000 16:30:00 through March 3, 
+2000 08:00:00, DO probe malfunctioned, data was removed.
+d) No data are available between March 3, 2000 08:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) No data are available between March 17, 2000 08:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between March 29, 2000 10:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+B. Blackbird Landing
+a) No data are available between January 11, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between January 28, 2000 09:30:00 through February 3, 
+2000 16:00:00 downtime for maintenance, calibration, and service of datalogger 
+and no data read between service dates possibly due to sonde being frozen in 
+water column.
+c) No data are available between February 16, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) No data are available between March 1, 2000 07:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) No data are available between March 14, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between March 28, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+C. Penrose Branch
+a) No data are available between January 13, 2000 08:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between January 31, 2000 16:00:00 through February 4, 
+2000 15:00:00 due to late retrieval of datalogger because of ice/snow storms and 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between February 18, 2000 08:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) No data are available between March 3, 2000 09:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) No data are available between March 17, 2000 09:30:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) Depth data deleted March 21, 2000 05:30:00 through March 23, 2000 23:30:00 
+due to unusually elevated water depth. Reason Unknown. 
+g) No data are available between March 29, 2000 09:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+April 1, 2000 through June 30, 2000
+
+A. Scotton Landing
+a) No data are available between April 14, 2000 07:00:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between April 28, 2000 06:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between May 4, 2000 08:00:00 through 15:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+d) No data are available between May 18, 2000 08:30:00 through 15:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+e) No data are available between June 5, 2000 07:30:00 through 16:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+f) No data are available between June 16, 2000 08:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) No data are available between June 28, 2000 08:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+B. Blackbird Landing
+a) pH and Turbidity values are missing on April 4, 2000 13:30:00 for unknown 
+reasons.
+b) No data are available between April 4, 2000 14:00:00 through April 25, 2000 
+16:00:00 for maintenance, calibration and service of datalogger.  Data missing 
+between service dates for unknown reasons. PC6000 file converted to fill in 
+gaps, see Section 12.
+c) Turbidity deleted May 06, 2000 22:00:00 through May 09, 2000 06:00:00 due to 
+fouling of probe. 
+d) No data are available between May 9, 2000 06:30:00 through 15:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+e) No data are available between May 23, 2000 08:00:00 through 16:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+f) No data are available between June 8, 2000 07:00:00 through 16:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+g) No data are available between June 21, 2000 08:00:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+C. Penrose Branch
+a) No data are available between April 14, 2000 08:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) Depth (m) values on April 21, 2000 09:00:00 through 15:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+c) No data available between April 28, 2000 07:00:00 through May 4, 2000 
+15:30:00, data didn't download, reason unknown.
+d) Depth (m) values on May 5, 2000 14:30:00 through May 6, 2000 06:30:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+e) Depth (m) values on May 6, 2000 11:30:00 through May 18, 2000 07:00:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+f) No data are available between May 18, 2000 07:30:00 through 16:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+g) Depth (m) values on May 19, 2000 02:00:00 through 05:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+h) Depth (m) values on May 23, 2000 17:30:00 through May 26, 2000 03:00:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+i) Depth (m) values on May 28, 2000 03:00:00 through 05:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+j) Depth (m) values on May 28, 2000 11:30:00 through 15:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+k) Depth (m) values on June 2, 2000 15:30:00 through 18:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+l) No data are available between June 5, 2000 07:00:00 through 16:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+m) Depth (m) values on June 5, 2000 22:00:00 through June 6, 2000 14:00:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+n) Depth (m) values on June 15, 2000 12:00:00 through 20:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+o) No data are available between June 16, 2000 07:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+p) Depth (m) values on June 21, 2000 15:00:00 through June 23, 2000 06:00:00 
+were deleted because the values were negative readings indicating that the probe 
+was either no longer submerged or almost out of the water.
+q) Depth (m) values on June 25, 2000 16:30:00 through 18:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+r) Depth (m) values on June 26, 2000 16:30:00 through 17:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+s) Depth (m) value on June 26, 2000 18:30:00 was deleted because the value was a 
+negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+t) Depth (m) values on June 27, 2000 00:30:00 through 03:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+u) Depth (m) value on June 27, 2000 17:00:00 was deleted because the value was a 
+negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+v) No data are available between June 28, 2000 07:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+w) Depth (m) values on June 28, 2000 19:00:00 through June 30, 2000 05:30:00 
+were deleted because the values were negative readings indicating that the probe 
+was either no longer submerged or almost out of the water.
+
+
+July 1, 2000 through September 30, 2000
+
+A. Scotton Landing
+a) No D.O. data are available on July 4, 2000 14:00:00, deleted because values 
+were anomalous for unknown reasons.  Data values returned to normal parameters 
+after anomaly occurred.
+b) No data are available between July 12, 2000 08:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data available between August 2, 2000 17:00:00 through September 1, 2000 
+16:00:00 due to downloading errors.
+d) No data are available between September 18, 2000 08:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+B. Blackbird Landing
+a) No data are available between July 11, 2000 07:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between July 25, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between August 8, 2000 06:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) DO data deleted August 8, 2000 16:30:00 through August 22, 2000 06:00:00 due 
+to punctured membrane. 
+e) DO data deleted August 22, 2000 16:30:00 through August 24, 2000 21:00:00 due 
+to punctured membrane. 
+f) No data are available between August 22, 2000 06:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) Turbidity values deleted August 22,2000 16:30:00 through August 24, 2000 
+21:00:00 due to sensor failure.  
+h) No data are available between August 24, 2000 21:30:00 through September 8, 
+2000 16:00:00 downtime for maintenance, calibration, and service of datalogger 
+and datalogger stopped taking readings for unknown reasons, maybe due to water 
+in the battery compartment.
+i) Turbidity deleted September 8, 2000 16:30:00 through September 12, 2000 
+06:30:00 due to sensor failure. 
+j) No data are available between September 12, 2000 07:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+k) No data are available between September 26, 2000 09:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+C. Penrose Branch
+a) Depth (m) values on July 3, 2000 13:30:00 through July 4, 2000 00:00:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+b) Depth (m) value on July 4, 2000 02:30:00 was deleted because the value was a 
+negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+c) Depth (m) values on July 4, 2000 03:30:00 through July 7, 2000 15:30:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+d) Depth (m) values on July 7, 2000 16:30:00 through 18:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+e) Depth (m) values on July 9, 2000 10:30:00 through July 12, 2000 07:30:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no longer submerged or almost out of the water.
+f) No data are available between July 12, 2000 08:00:00 through August 4, 2000 
+16:00:00 downtime for maintenance, calibration, and service of datalogger and 
+mechanical problems with the datalogger.
+g) DO data deleted August 4, 2000 16:30:00 through August 13, 2000 22:00:00 and 
+August 18, 2000 16:30:00 through August 31, 2000 23:30:00 due probe failure. 
+h) Depth (m) values on August 9, 2000 17:30:00 through August 10, 2000 05:30:00 
+were deleted because the values were negative readings indicating that the probe 
+was either no longer submerged or almost out of the water.
+i) Depth (m) values on August 11, 2000 01:30:00 through 04:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+j) Depth (m) values on August 11, 2000 13:00:00 through August 12, 2000 10:30:00 
+were deleted because the values were negative readings indicating that the probe 
+was either no longer submerged or almost out of the water.
+k) Depth (m) values on August 12, 2000 11:30:00 through 18:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+l) Depth (m) value on August 12, 2000 19:30:00 was deleted because the value was 
+a negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+m) Depth (m) values on August 12, 2000 22:00:00 through 22:30:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+n) Depth (m) values on August 13, 2000 00:00:00 through 01:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+o) Depth (m) values on August 13, 2000 02:00:00 through 03:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+p) Depth (m) value on August 13, 2000 18:00:00 was deleted because the value was 
+a negative reading indicating that the probe was either no longer submerged or 
+almost out of the water.
+q) No data are available between August 13, 2000 22:30:00 through August 14, 
+2000 20:00:00, mechanical problems with the datalogger, unknown reasons.
+r) All data deleted August 14, 2000 20:30:00 through August 15, 2000 18:30:00 
+due to mechanical problems with datalogger, unknown reasons.  
+s) No data are available between August 15, 2000 19:00:00 through 23:30:00, 
+mechanical problems with the datalogger, unknown reasons.
+t) No data are available between August 16, 2000 00:00:00 through August 18, 
+2000 16:00:00, mechanical problems with the datalogger, unknown reasons and 
+downtime for maintenance, calibration, and service of datalogger.
+u) DO data deleted September 1, 2000 00:00:00 through September 1, 2000 07:30:00 
+due to probe failure. 
+v) No data are available between September 1, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+w) DO data deleted September 1, 16:30:00 through September 18, 2000 07:30:00 and 
+September 18, 2000 16:30:00 due to probe failure. 
+x) Depth (m) values on September 12, 2000 16:00:00 through September 13, 2000 
+08:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+y) Depth (m) values on September 13, 2000 12:30:00 through 18:00:00 were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer submerged or almost out of the water.
+z) Depth (m) value on September 14, 2000 09:30:00 was deleted because the value 
+was a negative reading indicating that the probe was either no longer submerged 
+or almost out of the water.
+aa) Depth (m) values on September 14, 2000 12:00:00 through September 15, 2000 
+04:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+bb) No data are available between September 18, 2000 08:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+cc) No data are available between September 18, 2000 17:00:00 through September 
+30, 2000 23:30:00, mechanical problems with the datalogger, water in battery 
+compartment.
+
+October 1, 2000 through December 31, 2000
+
+A. Scotton Landing
+a) No data are available between October 2, 2000 08:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger. 
+b) No data are available between October 20, 2000 10:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between November 1, 2000 10:00:00 through November 15, 
+2000 16:00:00 for unknown reasons.  Sonde deployed in working order, however no 
+data was available when retrieved on November 15, 2000 at 11:45:00 for 
+maintenance, calibration, and service of datalogger.
+d) No data are available between November 29, 2000 10:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) No data are available between December 15, 2000 09:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between December 28, 2000 14:30:00 through December 31, 
+2000 23:30:00, unit pulled for winter.
+
+B. Blackbird Landing
+g) No data are available between October 12, 2000 09:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+h) No data are available between October 24, 2000 09:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+i) No data are available between November 8, 2000 10:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+j) No data are available between November 17, 2000 08:30:00 through November 20, 
+2000 16:00:00.  Sonde was retrieved on November 20, 2000 at 10:01:00for 
+maintenance, calibration, and service of datalogger.  Batteries were dead and 
+flashdisk was full, serviced and deployed functioning properly.
+k) No data are available between December 6, 2000 09:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+l) No data are available between December 20, 2000 10:30:00 through December 31, 
+2000 23:30:00, unit pulled for winter.
+
+C. Penrose Branch
+a) No data are available between October 1, 2000 00:00:00 through October 2, 
+2000 16:00:00, mechanical problems with the datalogger, water in battery 
+compartment.  Sonde retrieved on October 2, 2000 at 09:00:00 for maintenance, 
+calibration and service.
+b) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted October 2, 2000 16:30:00 through October 20, 2000 
+08:30:00 and October 20, 2000 16:30:00 through October 31, 2000 23:30:00 due to 
+unreliable data readings. 
+c) D.O., Salinity, and pH values between October 9, 2000 09:30:00 through 
+October 10, 2000 02:00:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+d) D.O., Salinity, and pH values on October 14, 2000 at 15:00:00 were deleted 
+due to temperature sensor malfunction, reading -10.0 value.  Depth and turbidity 
+data were retained.
+e) D.O., Salinity, and pH values between October 15, 2000 16:30:00 through 
+October 20, 2000 06:00:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+f) No data are available between October 20, 2000 09:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) D.O., Salinity, and pH values between October 23, 2000 02:00:00 through 
+October 25, 2000 23:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+h) D.O., Salinity, and pH values between October 2, 2000 13:30:00 through 
+October 26, 2000 17:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+i) D.O., Salinity, and pH values between October 27, 2000 00:00:00 through 
+October 28, 2000 17:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+j) Depth (m) values on October 27, 2000 13:00:00 through October 28, 2000 
+12:30:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+k) D.O., Salinity, and pH values between October 28, 2000 23:00:00 through 
+October 30, 2000 07:00:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+l) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted November 1, 2000 00:00:00 through November 1, 
+2000 09:00:00 due to unreliable data readings. 
+m) No data are available between November 1, 2000 09:30 through November 15, 
+2000 16:00:00 for unknown reasons.  Sonde deployed in working order, however no 
+data was available when retrieved on November 15, 2000 at 09:15:00 for 
+maintenance, calibration, and service of datalogger.
+n) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted November 15, 2000 16:30:00 through November 29, 
+2000 08:30:00 due to unreliable data readings. 
+o) pH data deleted November 15, 2000 16:30:00 through November 29, 2000 08:30:00 
+due to possible bad calibration. 
+p) D.O., Salinity, and pH values on November 15, 2000 at 17:00:00 were deleted 
+due to temperature sensor malfunction, reading -9.8 value.  Depth and turbidity 
+data were retained.
+q) D.O., Salinity, and pH values between November 16, 2000 01:30:00 through 
+November 16, 2000 04:00:00 were deleted due to temperature sensor malfunction, 
+reading between -6.2 and -10.0 values.  Depth and turbidity data were retained.
+r) D.O., Salinity, and pH values between November 16, 2000 13:00:00 through 
+November 16, 2000 19:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+s) D.O., Salinity, and pH values between November 21, 2000 16:00:00 through 
+November 23, 2000 15:00:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+t) D.O., Salinity, and pH values between November 26, 2000 07:30:00 through 
+November 26, 2000 09:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+u) D.O., Salinity, and pH values on November 27, 2000 at 09:00:00 were deleted 
+due to temperature sensor malfunction, reading -10.0 value.  Depth and turbidity 
+data were retained.
+v) D.O., Salinity, and pH values on November 28, 2000 at 03:00:00 were deleted 
+due to temperature sensor malfunction, reading -10.0 value.  Depth and turbidity 
+data were retained.
+w) No data are available between November 29, 2000 09:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+x) Depth (m) values on December 7, 2000 03:30:00 through December 7, 2000 
+07:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+y) Depth (m) values on December 11, 2000 22:30:00 through December 12, 2000 
+09:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+z) No data are available between December 15, 2000 09:30:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+aa) Suspect water temperature and all temperature dependent data (Sp. Cond., 
+Salinity, and DO) were deleted December 15, 16:30:00 through December 28, 
+09:30:00 due to unreliable data readings. 
+bb) Depth (m) values on December 16, 2000 22:00:00 through December 17, 2000 
+09:30:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+cc) Depth (m) values on December 19, 2000 07:00:00 through December 20, 2000 
+09:30:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+dd) D.O., Salinity, and pH values between December 21, 2000 09:00:00 through 
+December 23, 2000 02:30:00 were deleted due to temperature sensor malfunction, 
+reading -10.0 values.  Depth and turbidity data were retained.
+ee) Depth (m) values on December 22, 2000 00:00:00 through December 22, 2000 
+16:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+ff) Depth (m) values on December 24, 2000 12:00:00 through December 24, 2000 
+20:00:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+gg) Depth (m) values on December 27, 2000 00:00:00 through December 28 2000 
+09:30:00 were deleted because the values were negative readings indicating that 
+the probe was either no longer submerged or almost out of the water.
+hh) No data are available between December 28, 2000 10:00:00 through December 
+31, 2000 23:30:00, unit pulled for winter.
+
+12. Other Remarks/Notes
+
+Blackbird Landing
+a) Blackbir.dat file was converted to 042500.csv (to import), contains data for 
+4/25/00 through 5/9/00.  Utilized for bl0400 and bl0500.
+b) Bl092600 was "fixed", had "time out error", however time was okay.  Corrected 
+the format of the time field (but did not have to change the time).  When trying 
+to import it a "time out error" still shows, but it does import.
+
+
+
+

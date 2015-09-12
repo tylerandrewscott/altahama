@@ -1,0 +1,903 @@
+North Inlet-Winyah Bay (NIW) NERR Water Quality Metadata 
+January - December 2000
+Latest Update:  June 25, 2001
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons
+Dr. Dennis Allen, Manager, dallen@belle.baruch.sc.edu	
+Dr. Andrew Lohrer, Research Coordinator, lohrer@belle.baruch.sc.edu
+Jennifer Jarrell, Research Specialist, jjarrell@belle.baruch.sc.edu	
+	
+	Address:
+	Baruch Marine Laboratory
+	University of South Carolina  
+	PO Box 1630, Georgetown, SC 29442
+	Phone: (843) 546-6219	
+	Baruch Institute home page:  	http://inlet.geol.sc.edu.
+	
+
+2.  Entry verification
+The .dat and .csv versions of the raw data files were uploaded to a PC from YSI 
+6000 or 6600 dataloggers. Raw data was uploaded and plotted using EcoWatch 
+software. CDMO macros were also used in EXCEL 5.0 to identify anomalous or 
+problem data in the files.  The CDMO cdmomac3.xls macro allows the user to 
+automatically format column widths to the correct number of decimal places based 
+on YSI sensor specifications.  It also allows the user to QA/QC each data logger 
+generated file for missing data points, fill all cells that do not contain data 
+with periods, and find all data points that fall outside the range of what the 
+data logger is designed to measure (i.e. outliers).  The CDMO import.xls macro 
+will allow PC users with 30-minute data to automatically create a monthly Excel 
+file from a two-week deployment and insert periods for missing data.  In 
+addition, in November 1999 a graphing capability was added to this macro 
+allowing users to produce single parameter and missing data point graphs on a 
+monthly basis. 
+
+Comma delimited files are opened in Microsoft EXCEL 5.0 and edited by removing 
+unnecessary headers, footers or spaces and any data which corresponds to the 
+instrument being out of the water for maintenance.  Next, data plots were 
+produced and examined for any anomalies using the CDMO graphing Macro for each 
+variable. Suspect data were evaluated as to being either good or bad based on 
+criteria outlined in the CDMO manual version 3.0/4.0.  If the data were 
+determined to be bad, they were deleted from the final edited .txt file and then 
+documented in the metadata.  If it could not be determined whether or not 
+suspect data were bad (as was often the case with turbidity) the data was left 
+in the final edited .txt file and noted in the metadata as anomalous. The 
+dissolved oxygen (DO) and Turbidity (Turb) probes were the most problematic.  In 
+instances where data values increased or decreased in an exponential fashion and 
+or intermittently went outside the accepted range for that instrument and never 
+returned to normal, the data was considered suspect, noted in the metadata, and 
+removed from the final edited data file.  Missing data due to equipment failure 
+or maintenance were replaced with periods (.). The date/hour and column reformat 
+macros were then run on the data files before being saved in their final edited 
+form (.txt).  Edited (.txt) and raw (.csv) files were then FTP'd to the Sun 
+Sparc II server and archived. The most current CDMO macros are available on the 
+NERRS CDMO home page.  Dave White and Jennifer Jarrell edited and archived the 
+2000 data for Thousand Acre, Debidue Creek, and Oyster Landing. 
+
+3.  Research Objectives
+The principal objective of this study is to record long-term water quality data 
+for North Inlet/Winyah Bay in order to observe any physical changes or trends in 
+water quality over time.  Three sites were chosen; one to represent our pristine 
+site and the other two to represent impacted sites.  The Oyster Landing site is 
+located near the center of the Reserve and is considered pristine.  Debidue 
+Creek and Thousand Acre are both located in waterways that receive run-off from 
+heavily developed areas.  Measurements were taken every 30 minutes over roughly 
+two week collecting periods at the Oyster Landing, Debidue Creek and Thousand 
+Acre sites. 
+
+4.  Research methods (YSI 6000 dataloggers)
+YSI dataloggers are currently mounted in a 4" diameter PVC pipe which is 
+strapped to a treated 2" X 6" board; and then attached via stainless steel bands 
+to a piling at the Thousand Acre, Debidue Creek and Oyster Landing sites.  The 
+PVC pipe which houses the data loggers has two large windows cut out near the 
+bottom for the probes to have direct contact with the water column.  A stop bolt 
+placed through the PVC pipe below the cut out windows keeps the datalogger 
+exactly one foot (30 cm) above the creek bottom.  Every 30 minutes measurements 
+of specific conductivity, salinity, percent saturation, dissolved oxygen, water 
+temperature, pH, turbidity, and water level are recorded.  The two-week sampling 
+interval has been selected due to biofouling of the individual probes and 
+expected battery life.  At the end of each sampling interval, the dataloggers 
+were brought back to the laboratory to be downloaded, cleaned and recalibrated 
+following procedures in YSI Service Manual and the Standard Operating Procedures 
+V3.0 provided by NERR SWMP.  Downtime for this maintenance is roughly 24 hrs.   
+Before the instruments were cleaned and recalibrated a post calibration reading 
+was taken from each instrument in fresh standard to see if any of the 
+instruments exhibited drift (see II-13).  The pH probe was calibrated using a 
+two point method and either 4,7 or 7,10 standards.  The turbidity probe 
+calibration also used a two-point method using 0 &100 NTU standards.  Specific 
+Conductivity was calibrated using a one-point method and a 10 ms/cm standard 
+which was purchased through Fisher Scientific.  The turbidity wiper and DO 
+membrane were changed after each deployment.  After approximately 24 hours of 
+down time for cleaning and overnight relaxing of the DO membrane, the YSI 
+dataloggers were re-deployed.
+
+
+5.  Site location and character
+The North Inlet-Winyah Bay National Estuarine Research Reserve is located on the 
+Southeastern Atlantic coast of the United States in two tidal estuaries, North 
+Inlet and Winyah Bay, near Georgetown, South Carolina.  The North Inlet estuary, 
+located approximately 10 km east of Georgetown, is a bar-built Class C type 
+estuary (Pritchard, 1955).  The North Inlet estuary is composed of numerous 
+winding tidal creeks, and is considered a pristine tidal estuary due to minimal 
+anthropogenic impacts.  The watershed drains a 24.8 km2 area of mostly pine 
+forest and a moderately developed residential watershed to the north.  The 
+Winyah Bay estuary, classified as a Class B type estuary by Pritchard (1955), 
+which originates in the Blue Ridge Mountains of North Carolina, is one of the 
+largest river-estuary ecosystems on the Eastern Seaboard.  It is located 14.4 km 
+south of North Inlet.  Winyah Bay drains the sub-basins of 6 major rivers, which 
+are heavily impacted by agriculture, mining, and industry.  The rivers drain 
+approximately 46,736 km2 of uplands and marshes.  Descriptions of the three 
+sampling stations are as follows:
+
+A) Thousand Acre (TA) - (lat. 33:17:57; long. 79:15:36) The Thousand Acre 
+monitoring site is located in Thousand Acre marsh tidal creek and is on the NW 
+corner of the west bridge of Thousand Acre marsh (this site was relocated 07-19-
+99 to the current location due to heavy siltation and degrading data quality).  
+The present site is about 15m from the mouth of the creek.  At the sampling 
+site, creek depth is approximately 2 m MHW and creek width is approximately 10 
+m.  The creek empties into the northeastern side of the mid portion of Winyah 
+Bay and directly drains pine forested upland and wetlands. Salinity ranges from 
+0 to 15 ppt. and tidal flux is approximately 1m.  The bottom is most composed of 
+fine sediments and detritus.  Georgetown, 5 km upstream from the Thousand Acre 
+site and on the southern side of Winyah Bay, is the homeport for a number of 
+heavy industries including a steel plant, paper mill, chemical plant, and a coal 
+fired power plant.  A public sewage treatment plant, which discharges into the 
+bay, is also located in Georgetown.
+
+B) Oyster Landing (OL) - (lat.  33:20:58; long.  79:11:34). The Oyster Landing 
+monitoring site is considered a fairly pristine and undisturbed area located at 
+the end of the Oyster Landing pier which is also where the NI-WB Bay NERR 
+weather station site is located.  The pier stretches into the upper reaches of 
+Crabhaul Creek in the mid western portion of North Inlet.  The sampling site is 
+located approximately 2.8 km from the headwaters of Crabhaul Creek.  The creek 
+directly drains pine forested uplands and wetlands.  Salinity can range from 0-
+32 ppt. and average tidal flux is approximately 1.4m.  The creek has an average 
+depth of ~2 m MHW and average width of ~150m MHW.  The bottom mostly is 
+comprised of oyster shell hash with some fine sediment and detritus.
+
+C) Debidue Creek (DC) - (lat 33:21:37, long 79:10:05). The Debidue Creek 
+monitoring site is considered an impacted site that is located approximately 1 
+km south of the Debidue Colony.  The Colony is a large development built on man-
+made canals that directly drain into the northern portion of Debidue Creek.  The 
+DC site is also located in an ocean-dominated Spartina marsh that was formerly 
+surrounded by pine-dominated uplands.  Salinity can range from 0 to full 
+strength sea water and an average tidal flux of approximately 2 meters.  The 
+approximate depth and width at MHW at the site is 2.2 and 70 m respectively.  
+The bottom is mostly comprised of oyster shell hash with some fine sediment and 
+detritus.
+
+
+6.  Data collection period
+Thousand Acre data collection began January 1, 1995.  Debidue Creek sampling 
+began March 5, 1998. Oyster Landing data collection began in 1995, however, it 
+was not considered a SWMP site until 1996 when the collection site was switched 
+from Caledonia to Oyster Landing. All sampling is ongoing.
+
+Deployment dates and times for 2000 follow:
+
+BEGAN						ENDED
+Site:	Debidue Creek
+
+01/01/00, 00:00:00			01/11/00, 10:00:00
+01/14/00, 14:00:00			02/03/00, 08:00:00
+02/09/00, 14:00:00			02/28/00, 14:00:00
+03/01/00, 16:30:00			03/20/00, 13:00:00
+03/23/00, 11:30:00			04/11/00, 13:30:00
+04/14/00, 10:00:00			04/27/00, 14:00:00
+05/04/00, 13:30:00			05/17/00, 07:30:00
+05/19/00, 13:00:00			05/31/00, 01:00:00
+06/10/00, 14:30:00			06/22/00, 10:30:00
+06/23/00, 12:30:00			07/05/00, 09:30:00
+07/06/00, 13:00:00			07/17/00, 08:00:00
+07/18/00, 10:00:00			07/31/00, 08:00:00
+08/01/00, 08:00:00			08/10/00, 16:00:00
+08/11/00, 17:30:00			08/22/00, 10:30:00
+08/22/00, 15:30:00			08/30/00, 07:30:00
+08/31/00, 09:00:00			09/14/00, 08:00:00
+09/15/00, 09:00:00			09/22/00, 13:00:00
+09/23/00, 16:30:00			10/04/00, 12:00:00
+10/05/00, 12:30:00			10/19/00, 10:00:00
+10/20/00, 14:00:00			11/08/00, 09:30:00
+11/09/00, 11:30:00			11/27/00, 09:00:00
+11/28/00, 10:30:00			12/19/00, 11:00:00
+12/20/00. 10:00:00			12/31/00, 24:00:00
+
+Oyster Landing
+
+01/01/00, 00:00:00			01/11/00, 10:30:00
+01/14/00, 13:30:00			02/03/00, 08:00:00
+02/09/00, 15:00:00			02/28/00, 12:00:00
+03/01/00, 16:00:00			03/20/00, 13:00:00
+03/23/00, 11:00:00			04/11/00, 09:30:00
+04/14/00, 15:00:00			04/27/00, 14:30:00
+05/04/00, 15:30:00			05/17/00, 08:00:00
+05/19/00, 15:30:00			06/07/00, 13:00:00
+06/10/00, 14:00:00			06/22/00, 10:30:00
+06/23/00, 15:30:00			07/05/00, 09:00:00
+07/06/00, 15:00:00			07/17/00, 09:00:00
+08/01/00, 08:00:00			08/10/00, 16:30:00
+08/11/00, 17:30:00			08/22/00, 06:30:00
+08/22/00, 14:30:00			08/30/00, 08:00:00
+08/31/00, 11:00:00			09/14/00, 07:00:00
+09/15/00, 08:30:00			09/22/00, 13:00:00
+09/23/00, 16:30:00			10/04/00, 07:30:00
+10/05/00, 14:00:00			10/19/00, 13:30:00
+10/20/00, 13:30:00			11/04/00, 03:00:00
+11/09/00, 17:00:00			11/27/00, 14:30:00
+11/28/00, 14:30:00			12/18/00, 11:30:00
+12/19/00, 16:00:00			12/31/00, 24:00:00
+
+Thousand Acres
+
+01/01/00, 00:00:00			01/11/00, 11:30:00
+01/14/00, 11:30:00			02/03/00, 04:00:00
+02/09/00, 16:00:00			02/28/00, 11:30:00
+03/02/00, 16:00:00			03/20/00, 09:30:00
+03/22/00, 16:00:00			04/07/00, 03:00:00
+04/14/00. 14:30:00			05/01/00, 14:30:00
+05/04/00, 16:00:00			05/17/00, 09:00:00
+05/19/00, 14:00:00			06/07/00, 13:30:00
+06/10/00, 15:00:00			06/22/00, 09:30:00
+06/23/00, 14:30:00			07/05/00, 08:30:00
+07/06/00, 14:00:00			07/17/00, 07:00:00
+07/18/00, 10:30:00			07/31/00, 09:00:00
+08/01/00, 09:00:00			08/10/00, 16:30:00
+08/11/00, 17:00:00			08/22/00, 07:00:00
+08/22/00, 15:00:00			08/30/00, 09:00:00
+08/31/00, 10:30:00			09/14/00, 09:30:00
+09/15/00, 08:00:00			09/22/00, 12:30:00
+09/23/00, 16:00:00			10/04/00, 08:30:00
+10/05/00, 13:00:00			10/19/00, 10:00:00
+10/20/00, 14:30:00			11/08/00, 10:30:00
+11/09/00, 16:00:00			11/27/00, 10:30:00
+11/28/00, 14:00:00			12/18/00, 10:30:00
+12/19/00, 15:30:00			12/31/00, 24:00:00
+
+
+7. Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award 
+from the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance/quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient of third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on CDMO homepage) and online at the CDMO homepage  
+http://inlet.geol.sc.edu/cdmohome.html.  Data are available in text tab-
+delimited format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+8.  Associated researchers and projects
+A water chemistry program is associated with the NIW core-monitoring program. 
+Variables sampled include: chlorophyll, dissolved organic carbon, nitrate-
+nitrite, orthophosphate, and ammonia.  (See documentation on the NIW WWW home 
+page for further details).  Thousand Acre is our permanent monitoring station 
+for the NERR monitoring program, but Oyster Landing and Debidue Creek were also 
+sampled beginning in 1998. These stations are also included in our NIW core-
+monitoring program.
+
+A long-term fish survey is also done at the Oyster Landing site bi-weekly.  
+Species present, total weight, individual weights and standard lengths of fish 
+that utilize the marsh at low tide are recorded.  In the spring/summer/fall 
+month's fish utilizing the marsh at high tide are also sampled.
+
+The NERR weather station is also located at the Oyster Landing site.  Air 
+temperature and humidity, barometric pressure, solar radiation (total and PAR), 
+wind speed and direction, and precipitation are measured.
+
+II.  Physical Structure Descriptors
+
+9.  Variable sequence, column format, range of measurements, units, resolution, 
+and accuracy 
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column header 
+at the top of the page which identifies measurements and units for each column.
+
+
+10.  Coded variable indicator and variable code definitions
+Site definitions: OL = Oyster Landing; TA = Thousand Acre, DC = Debidue Creek
+
+11.  Data anomalies (suspect data)
+
+Note:  Beginning on 04/14/00 data at OL was collected with a new 6600 data 
+logger.  Due to a warm-up period, this logger time-stamps the data at 52 seconds 
+past the 30-minute interval.  Therefore the data required changes to the time 
+stamp in order to use the CDMO macros and generate a finalized text file.  For 
+example, data in final text files recorded at 10:30:00 was actually collected at 
+10:30:52.  Other miscellaneous time stamp changes are recorded in section 14 
+(Other remarks).
+
+JANUARY 2000
+
+DEBIDUE CREEK
+a) For the following dates and times all data was removed as readings were 
+consistent with the probes being out of the water (i.e. negative depth values 
+and inconsistent salinity/Sp. Cond. Values):
+01/05/00		01:00:00
+01/16/00		21:00:00 - 23:00:00	
+01/25/00		18:00:00
+		
+b) For the following dates and times turbidity data was removed as the readings 
+were less than zero:  
+01/15/00		21:00:00-21:30:00		
+01/16/00		03:30:00, 10:30:00, 11:00:00, 19:00:00, 20:00:00, 21:00:00-
+23:00:00
+		
+c) For the following dates and times all turbidity data was removed due to 
+values greater than 1000 NTU that were attributed to a stuck wiper blade:
+01/19/00 19:00:00 thru 01/31/00 23:30:00		
+d) For the following dates and times depth data was removed due to values less 
+than zero:
+01/20/00		14:00:00 - 14:30:00
+
+d) Cold temperatures from 01/14/00 14:00:00 to 02/03/00 08:00:00 caused increase 
+in DO for this time. Data retained. 		
+
+OYSTER LANDING
+None
+
+THOUSAND ACRES
+None	
+
+
+FEBRUARY 2000
+
+DEBIDUE CREEK
+a)	The following dates turbidity data was deleted due to measurements greater 
+than 1000 NTU  (these were determined to be caused by a stuck wiper blade):  
+02/01/00 00:00:00	 thru	02/03/00 08:00:00		
+b) For the following dates and times all data was deleted as depth and Sp. 
+Cond/Salinity data were consistent with the probes being out of the water:
+02/11/00		17:30:00 thru 18:30:00		
+02/14/00		20:00:00 thru 22:30:00		
+02/16/00		23:00:00 thru 02/17/00 00:00:00		
+02/19/00		01:30:00, 02:00:00, 14:30:00,	15:00:00		
+02/20/00		02:00:00 thru 03:30:00		
+
+c) Cold temperatures from 01/14/00 14:00:00 to 02/03/00 08:00:00 caused increase 
+in DO for this time. Data retained. 
+	
+OYSTER LANDING
+a) For the following time period all turbidity data was removed as the probe 
+failed and was being replaced:
+02/09/00 15:00:00 thru 04/11/00 09:30:00
+
+b) For the following date s and times DO values were high and should be 
+considered suspect. Barnacles were found on probe at post deployment. Data 
+retained. 
+02/26/00 14:00:00 - 02/27/00 02:30:00		
+
+THOUSAND ACRES
+a) For the following time period turbidity, DO, pH, and Spec. Conductivity 
+values were anomalous, however these data were retained as they may indicate a 
+siltation event:
+02/19/00 14:30:00 thru 02/28/00 11:30:00				
+
+MARCH 2000
+
+DEBIDUE CREEK
+a) For the following dates turbidity data was high, possibly from algal fouling, 
+and readings remained high most of the deployment.  This data was retained.
+03/13/00 08:30:00 thru 03/20/00 13:00:00				
+
+b) For the following dates and times all data was deleted as the readings were 
+consistent with the probes being out to the water:
+03/06/00		02:00:00		
+03/08/00		03:30:00, 15:30:00 thru 16:30:00		
+03/09/00		04:00:00, 04:30:00, 16:30:00 - 17:00:00		
+03/10/00		05:00:00 - 05:30:00, 17:00:00 - 17:30:00		
+03/12/00		06:30:00 - 08:00:00, 17:30:00 - 19:30:00		
+03/17/00		12:00:00 - 13:00:00		
+c) For the following dates all turbidity data were deleted due to probe failure:
+03/23/00 11:30:00 thru 05/17/00 07:30:00
+
+OYSTER LANDING
+a) For the following time period all turbidity data was removed as the probe 
+failed and was being replaced:
+02/09/00 15:00:00 thru 04/11/00 09:30:00	
+
+THOUSAND ACRES
+a)   	For the following date and time there was a turbidity reading of greater 
+than 1000 and the data was deleted.  A crab was found in the probe guard and it 
+could have caused the high individual reading.
+03/30/00		12:00:00
+
+b) For the following time period turbidity (>1000), DO, pH, and Spec. 
+Conductivity values were anomalous, however these data were retained as they may 
+indicate a siltation event:
+03/09/00 20:00:00 - 03/20/00 09:30:00
+
+APRIL 2000
+
+DEBIDUE CREEK
+a)	For the following time period the turbidity data was deleted due to a 
+probe failure.  The probe was replaced for the 05/19/00 deployment.	
+03/23/00		11:30:00 thru 05/17/00		07:30:00		
+
+b)	For the following dates and times all data was deleted due to readings 
+which indicated that the probes were out of the water (i.e. depth <0, 
+inconsistent salinity and Sp. Cond. Readings):
+04/04/00	02:00:00		
+04/04/00 	13:30:00 - 15:00:00		
+04/05/00	01:30:00 - 03:00:00		
+04/05/00	14:30:00 - 15:00:00		
+04/06/00	15:00:00 - 16:00:00		
+04/07/00	04:00:00 - 04:30:00		
+04/07/00	16:00:00 - 16:30:00		
+04/08/00	17:00:00 - 17:30:00		
+04/09/00	05:00:00 - 07:00:00		
+
+OYSTER LANDING
+a) For the following time period all turbidity data was removed as the probe 
+failed and was being replaced:
+02/09/00 15:00:00 thru 04/11/00 09:30:00	
+
+THOUSAND ACRES
+a) For the following dates turbidity values were greater than 1000 NTU and were 
+not consistent with any other readings or weather events.  The turbidity data 
+was deleted.
+04/02/00 07:00:00		
+
+b) For the following time period turbidity values were high, some greater than 
+1000 NTU, however these data were retained as they coincide with low pH and 
+salinities and may indicate a siltation event:
+04/18/00 00:30:00 thru 04/22/00 12:30:00	
+
+c) For the following time period the DO readings were deleted, as DO readings 
+were negative indicating a probe failure.
+04/18/00 04:30:00 thru 04/30/00 23:30:00		
+
+d) For the following time period all turbidity readings were deleted due to high 
+readings due to a stuck wiper blade:
+04/22/00 18:00:00 thru 05/01/00 14:30:00		
+
+MAY 2000
+
+DEBIDUE CREEK
+a)	For the following time period the turbidity data was deleted due to a 
+probe failure.  The probe was replaced for the 05/19/00 deployment.	
+03/23/00 11:30:00 thru 05/17/00 07:30:00		
+
+OYSTER LANDING
+a) For the following dates and times turbidity values were greater than 1000 NTU 
+and were not consistent with any other readings or weather events.  The 
+turbidity data was deleted.
+05/10/00		03:00:00		
+05/25/00		16:30:00		
+05/26/00		16:30:00		
+05/28/00		20:30:00		
+05/29/00		09:30:00		
+05/31/00		11:30:00		
+
+THOUSAND ACRES
+a)  	For the following time period turbidity values were high, some greater 
+than 1000 NTU, however these data were retained as they coincide with low pH and 
+salinities and may indicate a siltation event:
+05/25/00 20:00:00 thru 05/25/00 21:00:00		
+
+b)  	For the following dates and times turbidity values were greater than 1000 
+NTU and were not consistent with any other readings or weather events.  The 
+turbidity data was deleted.
+05/26/00		21:30:00 	
+05/27/00		19:00:00		
+05/29/00		05:00:00		
+05/29/00		10:30:00		
+05/30/00		02:00:00		
+05/30/00		04:00:00		
+05/30/00		12:30:00		
+
+JUNE 2000
+
+DEBIDUE CREEK
+a)	For the following dates and times all data was deleted due to readings 
+which indicated that the probes were out of the water (i.e. depth <0, 
+inconsistent salinity and Sp. Cond. Readings):
+06/29/00		12:00:00		
+
+OYSTER LANDING
+a) For the following dates and times turbidity values were greater than 1000 NTU 
+and were not consistent with any other readings or weather events.  The 
+turbidity data was deleted.
+06/02/00		01:00:00		
+06/03/00		13:00:00		
+06/05/00		09:30:00		
+06/05/00		12:30:00		
+06/05/00		13:30:00		
+06/05/00		15:30:00		
+06/05/00		16:00:00		
+06/05/00		19:00:00		
+06/05/00		20:30:00		
+06/06/00		13:00:00		
+06/06/00		15:00:00		
+06/06/00		15:30:00		
+06/07/00		10:00:00		
+06/12/00		21:30:00		
+06/16/00		12:00:00		
+06/20/00		04:00:00		
+06/21/00		16:30:00 thru
+06/21/00		18:00:00		
+06/22/00		07:00:00		
+06/23/00		16:30:00		
+06/24/00		19:30:00		
+06/25/00		08:30:00		
+06/25/00		18:00:00		
+06/26/00		08:00:00		
+06/28/00		08:30:00		
+06/28/00		11:00:00		
+06/28/00		11:30:00		
+06/30/00		14:30:00		
+
+THOUSAND ACRES
+a) For the following dates and times turbidity values were greater than 1000 NTU 
+and were not consistent with any other readings or weather events.  The 
+turbidity data was deleted.
+06/01/00		06:00:00		
+06/20/00		20:00:00		
+
+b) For the following time period turbidity, DO, pH, and Spec. Conductivity 
+values were anomalous, however these data were retained as they may indicate a 
+siltation event:
+06/26/00 23:00:00 thru 06/30/00 23:30:00		
+
+JULY 2000
+
+DEBIDUE CREEK
+a) For the following dates and times DO values should be considered suspect. 
+Post deployment readings looked fine. Reason for high values unknown. 
+07/18/00 19:30:00 - 07/31/00 08:00:00
+
+OYSTER LANDING
+a) For the following dates and times turbidity was greater than 1000 NTU.  The 
+data was retained, as the events may have been rain related.
+07/02/00		06:00:00		
+07/02/00		12:30:00		
+07/03/00		22:00:00		
+07/08/00		18:00:00		
+07/16/00		17:00:00		
+07/16/00		18:00:00		
+07/17/00		06:00:00		
+
+THOUSAND ACRES
+a)  	For the following dates and times turbidity values were greater than 1000 
+NTU and were not consistent with any other readings or weather events.  The 
+turbidity data was deleted.
+07/11/00		23:00:00		
+
+
+b)  	For the following time period turbidity values were high, some greater 
+than 1000 NTU, however these data were retained as they coincide with low pH and 
+salinities and may indicate a siltation event:
+07/25/00		13:00:00		
+07/28/00		23:00:00		
+07/29/00		03:00:00		
+07/30/00		01:30:00		
+07/31/00		01:00:00		
+
+c)	High DO spike on 7/18 10:30:00 most likely caused by new deployment and 
+change in temperature.  
+
+AUGUST 2000
+
+DEBIDUE CREEK
+a)  	For the following dates and times turbidity was greater than 1000 NTU.  
+The data was retained, as the events may have been rain related
+08/11/00		20:00:00		
+08/12/00		21:00:00		
+
+b)  	For the following dates and times the DO was deleted.  All readings were 
+skewed and the membrane was cut up upon retrieval.
+08/11/00 17:30:00 thru 08/22/00 10:30:00		
+
+c)  	For the following dates and times the pH readings were deleted due to 
+calibration constants being off.  Suspected probe failure.
+08/22/00 15:30:00 thru 08/30/00 07:30:00		
+
+d)  	For the following dates and times turbidity was deleted due to readings 
+below 0 NTU:
+08/26/00		05:30:00		
+08/28/00		20:00:00		
+
+OYSTER LANDING
+a) For the following time period turbidity data was removed as readings were 
+greater than 1000 NTU and high amounts of fouling and animals in the guard could 
+have caused the anomalies:
+08/20/00 00:30:00 thru	08/22/00 06:30:00						
+
+THOUSAND ACRES
+a) For the following dates and times DO was deleted.  The readings started very 
+high at the beginning of the deployment and drifted down.  This indicated a 
+problem with the membrane before deployment.  
+08/01/00 09:00:00 thru 08/10/00 16:30:00		
+
+b) For the following dates and times turbidity was greater than 1000 NTU.  The 
+data was retained, as the events may have been rain related:
+08/01/00		20:00:00		
+
+SEPTEMBER 2000
+
+DEBIDUE CREEK
+a) Salinity and specific conductivity values were low for the following time 
+period probably due to rain periodically thru the end of the month. Data was 
+retained.
+09/18/00 17:30:00	 thru 09/27/00 04:00:00		
+
+OYSTER LANDING
+a)  	For the following dates and times turbidity was greater than 1000 NTU.  
+The data was retained, as the events may have been rain related:
+09/02/00		04:30:00		
+09/16/00		14:30:00		
+09/28/00		11:00:00		
+
+b)  	For the following time period pH data was deleted due to a probe failure.  
+The probe was replaced.
+09/06/00 02:00:00 thru 09/14/00 07:00:00		
+
+c)  	For the following time period the DO data was deleted due to a probe 
+malfunction:
+09/15/00 08:30:00 thru 10/04/00 07:30:00	
+
+d) For the following time period the pH data was deleted due to probe failure:
+09/17/00 13:30:00 - 09/22/00 13:00:00	 
+
+THOUSAND ACRES
+a) For the following dates and times turbidity values were high with some 
+greater than 1000 NTU, this was probably due to the rain event on 9/25 and all 
+values were retained:
+09/25/00 14:30:00 thru 09/29/00 08:30:00		
+
+b) For the following dates and time the DO readings were low, however these 
+coincide with high turbidity readings and were probably rain event related so 
+the data was retained:
+09/26/00 12:00:00- 09/28/00 21:00:00
+
+c) For the following dates and times the Specific Conductivity and pH readings 
+were low due to rain event. Data retained.
+09/18/00 16:30:00 - 09/28/00 09:00:00
+		
+
+OCTOBER 2000
+
+DEBIDUE CREEK
+a) For the following dates and times turbidity values were less than 0 NTU.  The 
+values were retained.
+10/14/00		09:00:00, 15:30:00		
+
+b) For the following dates salinity values were unusually high.  Extremely low 
+rainfall for the entire month of October was probably responsible and values 
+were retained.
+10/15/00 thru 10/30/00				
+
+OYSTER LANDING
+a) For the following date and time, turbidity reported a negative and/or zero 
+value; data was retained.
+10/18/00		12:30:00		
+
+b) All readings except DO were a little skewed, a failing battery could have 
+affected the readings but all were retained.
+10/20/00 13:30:00- 10/31/00 23:30:00		
+
+c) For the following dates and times the DO values were deleted as the probe was 
+not functioning properly - reading were about twice the normal reading:
+10/20/00 13:30:00 thru 10/31/00 23:30:00
+		
+d)  	For the following time period the DO data was deleted due to a probe 
+malfunction:
+09/15/00 08:30:00 thru 10/04/00 07:30:00	
+
+THOUSAND ACRES 
+
+a) For the following dates and times, turbidity readings were negative and/or 
+zero and all values were retained:
+10/08/00		19:30:00			
+10/10/00		08:00:00				
+10/10/00		20:30:00		
+
+NOVEMBER 2000
+
+DEBIDUE CREEK
+
+a) For the following dates and time the Specific conductivity readings were low.  
+Data was retained.
+11/21/00		23:30:00		
+11/23/00		00:00:00		
+
+b) For the following dates and time, turbidity data was deleted.  Readings were 
+greater than 1000 and probably due to growth of filamentous algae on probe; 
+wiper was also not 180 degrees upon retrieval.
+11/01/00 00:00:00 thru 11/08/00 09:30:00		
+
+c) For the following dates and time the turbidity data was deleted as the wiper 
+blade fell off during the deployment:
+11/09/00 11:30:00 thru 11/27:00 09:00:00	
+
+d) DO increase on 11/21/00 23:30:00 possibly due to cold temperatures at this 
+time. Data retained.	
+
+OYSTER LANDING
+a) For the following time period all DO values were deleted.  The readings 
+looked anomalous and post-deployment check read 140% and the membrane was torn.
+11/01/00 00:00:00 thru 11/04/00 03:00:00		
+
+b) For the following time period pH was removed as the probe did not calibrate 
+at deployment and was subsequently replaced:
+11/09/00 17:00:00 thru 11/27/00 14:30:00		
+
+THOUSAND ACRES
+a) For the following dates and times turbidity was greater than 1000 NTU.  Data 
+was retained as it was probably related to rain events at the end of November.
+11/23/00		18:00:00		
+11/24/00		21:30:00		
+11/25/00		05:00:00 - 07:00:00		
+
+DECEMBER 2000
+
+DEBIDUE CREEK
+a) For the following dates and times all data was deleted due to readings which 
+indicated that the probes were out of the water (i.e. depth <0, inconsistent 
+salinity and Sp. Cond. Readings):
+12/15/00		05:30:00		
+12/17/00		19:00:00 thru 20:00:00		
+12/23/00		00:00:00 thru 00:30:00	
+	
+OYSTER LANDING
+a) For the following dates the turbidity readings were low consistently for the 
+entire month.  The data was not deleted.
+12/05/00-12/31/00
+		
+THOUSAND ACRES
+a) For the following dates and times DO, pH, Specific Conductivity data were a 
+little off due to rain event. Data retained.
+12/17/00 16:00:00 - 12/18/00 10:30:00 
+
+
+12. Missing Data 
+
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.    
+
+13. Post Deployment Information
+
+End of Deployment Post-calibration Readings in Standard Solutions:
+NA = no data available for that particular standard
+
+Site	Date	Cond(mS)(Std 10 or 0mS) Salinity(ppt)(Std: 0 ppt) DO(air sat)(Std: 
+100%) pH(Std: 7) Depth(Std:  0) Turb(Std:  0)
+
+						
+DC	12/22/99		No Data available
+01/14/00		9.68		NA		97.3		7.02	0.142	      0
+	02/09/00		NA		NA		91.4		7.19	0.012	   15.1
+	03/01/00		10		NA		100		7.21	-0.022   28.3
+	03/22/00		10.7		NA		106.1		7.15	0.018     NA
+	04/13/00		9.81		NA		100.4		7.37	0	    0.7
+	05/04/00		9.26		NA		85		6.60	-0.032    NA
+	05/19/00		8.75		NA		62		7.4	0.02	    7.3
+	06/10/00		9.38		NA		105.9		7.5	-0.056	0
+	06/23/00		9.2		NA		109.2		7.07	-0.079	0
+	07/06/00		9.9		NA		93.1		7.42	0.026  	0
+	07/17/00		0.02		NA		95.2		6.88	0.048	    5.4
+	07/31/00		NA		0.03		82.6		7.31	-0.05     0.2
+	08/11/00		9.49		NA		116		6.9	0.113	    1.4
+	08/22/00		0.28		NA		66		7.5	-0.1	   -0.8
+	08/30/00		0.09		NA		60		6.6	0.06     -0.4
+	09/14/00		0.13		NA		93		7.0	0.04     -1.0
+	09/22/00		0.09		NA		81		7.51	0.056	    0.5
+	10/04/00		0.69		NA		82.4		7.26	0.001	   -2.2
+	10/20/00		0.1		0.04		100		7.1	-0.131    114
+	11/09/00		0.50		0.25		98		7.07	-0.011     46
+	11/28/00		0.82		0.40		103		6.97	-0.08	    2.2
+	12/20/00		0.55		0.26		100		6.94	-0.124	0
+	
+
+OL	
+	12/22/99		No data available
+	01/14/00		10.10		NA		109.3		7.02	0.114  	0
+	02/09/00		9.9		NA		109.8		7.01	0.022       NA
+	02/29/00		10.17		NA		108.4		7.12	-0.013	NA
+	03/21/00		10.39		NA		104.9		6.97	-0.02   	NA
+	04/14/00		9.99		NA		95.9		7.0	-0.02	     1.0
+	05/04/00		9.59		NA		97.4		6.98	-0.005    -0.2
+	05/19/00		8.29		NA		83		6.96	0.04	     1.3
+	06/10/00		10		NA		69.7		6.86	-0.069     3.2
+	06/23/00		9.8		NA		105		7.14	-0.047     1.5
+	07/05/00		6.416		NA		100.1		7.21	0.003	     1.0
+	07/17/00		Programming error
+	07/31/00		NA		0.11		105.1		7.06	-0.057     2.0
+	08/11/00		NA		0.02		90		7.14	0.08	      80
+	08/22/00		0.01		NA		88		7.05	-0.1	     0.7
+	08/30/00		0		NA		90		7.07	0.041	    -2.0
+	09/14/00		0.3		NA		148		6.6	0.042      	0
+	09/22/00		0.35		NA		NA		7.15	0.009 	0
+	10/04/00		0.345		NA		81		7.04	0.046	    -0.9
+	10/20/00		0.31		0.15		140		7.23	-0.085    -0.3
+	11/09/00		0.76		0.36		103		7.9	0.017     -0.1
+	11/28/00		0.5		0.24		105.8		7.17	0.008	     0.2
+	12/19/00		0.48		0.23		101.8		7.13	0.196	     0.4
+
+TA
+	12/22/99		9.77		NA		80.8		7.35	-0.025     1.3
+	01/14/00		9.79		NA		108.1		7.14	0.123      4.1
+	02/09/00		9.69		NA		117.8		7.14	0.053     -0.3
+	03/01/00		9.88		NA		91.9		7.31	-0.06      0.5
+	03/22/00		10		NA		100.9		7.13	0.004	     0.5
+	04/13/00		9.96		NA		112.1		7.21	-0.005    1840
+	05/04/00		8.88		NA		53.4		6.88	-0.031     5.6
+	05/19/00		8.39		NA		7.5		6.37	0.04	       0
+	06/10/00		9.58		NA		98		6.92	-0.086    30.3
+	06/23/00		9.93		NA		98.4		7.0	-0.057    -0.3
+	07/06/00		9.66		NA		88		7.32	-0.007     1.0
+	07/17/00		0.05		NA		88.1		7.26	0.055	     1.6
+	07/31/00		NA		0		86.7		6.83	-0.028    -0.2
+	08/11/00		NA		0.2		105		7.39	0.1	     1.3
+	08/22/00		0.6		NA		88		7.2	-0.1	     0.7
+	08/30/00		0.04		NA		86		6.6	0.05       1.0
+	09/14/00		0.02		NA		110		6.8	0.03	   -0.06
+	09/22/00		0.02		NA		87		7.07	0.05	     1.5
+	10/04/00		0.05		0		122.7		6.98	0.081	    -6.3
+	10/20/00		0.08		0.03		82		7.23	-0.081     0.4
+	11/09/00		0.102		0.05		89		7.19	-0.024     2.5
+	11/27/00		0.093		0.04		100.4		7.08	-0.004     2.5
+	12/19/00		0.37		0.17		108.4		7.09	0.234	    -0.4
+
+14. Other Remarks:
+
+DEBIDUE CREEK
+06/10/00-06/22/00	Bad time stamp		Changed times (for example 14:30:00 is 
+actually 14:15:49)
+
+10/05/00-10/19/00	Bad time stamp 		Changed times (for example 10:00:00 is 
+actually 10:12:00)
+
+OYSTER LANDING
+06/07/00 	Probes fouled, small toadfish in guard
+
+THOUSAND ACRES
+08/11/00 	Lots of rain 2+"
+
+08/22/00 -08/30/00	Bad time stamp, changed times (for example 15:00:00 is 
+actually 14:56:21)
+
+08/30/00	Water really turbid
+
+10/08/00	Small crab in guard may be responsible for turbidity spikes.
+
+10/05/00 -10/19/00	Bad time stamp, changed times (for example 10:00:00 is 
+actually 09:56:10)
+
+10/20/00-11/08/00	Bad time stamp, changed times (for example 11:00:00 is 
+actually 10:55:24)
+
+10/20/00	Turbidity probe may not have been functioning properly - data may be 
+suspect.
+
+11/30/00	Controlled burn and rain/snow may have influenced some turbidity 
+data this month and into December.
+
+
+Any time a reference is made to turbidity data being negative and/or zero, it 
+was recorded as a negative in the raw data file and a zero in the edited data 
+file due to the formatting of Excel. The technician edited none of these data 
+points by hand nor did he/she delete any of them. 
+
+

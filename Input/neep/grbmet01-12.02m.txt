@@ -1,0 +1,672 @@
+Great Bay Research Reserve (GRB) NERR Meteorological Metadata 
+January – December 2002
+Latest Update:  September 3, 2004
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator & contact persons:
+
+Jonathan Pennock, Ph.D., Professor of Natural Resources, Director of the Jackson 
+Estuarine Laboratory and the 
+UNH marine Program, email: jonathan.pennock@unh.edu
+Jaimie Wolf, Research Technician, Jackson Estuarine Lab, Adams Point Road, Durham, NH 
+03824, email: jswolf@cisunix.unh.edu 
+
+2) Entry verification 
+After the data is downloaded from the weather station, it is imported into the SWMP 
+Weather Data Management Program. The data is QA/QC'd by the WDMP which generates an error 
+report. The erroneous data are then examined and corrected or deleted using Microsoft 
+Access. After the monthly file has been corrected in Access, it is recompiled in WDMP.
+
+
+a) Data Input Procedures:
+
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each instrument on 
+the weather station to a Campbell Scientific CR10X datalogger.  The CDMO Data Logger 
+Program (nerr.csi) was loaded into the CR10X and controls the sensors and data collection 
+schedule (see 2b of the Entry Verification section for the data collection schedule).  
+The weather station is permanently connected to a Dell computer in the lab. 
+The data were downloaded twice monthly to the PC.  The CR10X then interfaced with the 
+PC208W software supplied by Campbell Scientific.  
+
+The following are common errors that occur in the data sets.  Values are flagged by the 
+WDMP program if wind speed falls below the 0.5 m/s criteria or a temperature change of 
+greater than 3 C in a 15-minute period or a precipitation difference of greater than 5mm 
+in 15 minutes occurs.
+
+Once an entire month of data was available, the CDMO Weather Data Management Program 
+(WDMP) was used to convert the files to an Access database.  This program was developed 
+in Visual Basic to interface with the NERRS data collection schedule (see 2b of the Entry 
+Verification section for the data collection schedule).  
+The WDMP will automatically input and convert the monthly raw data file into and Access 
+Database.  There are three main steps the WDMP performs.  First, it converts the comma 
+delimited monthly raw data file into an Access Database.  Secondly, it checks the data 
+against a predetermined set of error criteria (see Part C of this section).  Finally, it 
+produces error and summary reports. Any anomalous data were investigated and are noted 
+below in Anomalous Data section.  Any data corrections that were performed are noted in 
+the Data Correction section below.  
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+b) Data Collection Schedule
+
+	i) Data is collected in the following formats:
+
+		1) 15 minute data are instantaneous readings except for PAR and precipitation 
+		data that are totalized from 5 second samples sorted by date and time. 		
+		(Arrays 150 and 151)
+		2) Hourly averages (Arrays 101 and 102) are calculated from 5 second 
+		samples sorted by date and time except for PAR and precipitation data that 	
+		are hourly totals calculated from 15 minute totals (Arrays 105 and 106).
+		3) Daily average (arrays 241 and 242), maximum with time, and minimum 
+		with time (arrays 243 and 244) are calculated from 5 second samples sorted 
+		by date and time except for PAR and precipitation data which are 24 hour 
+		totals calculated from hourly totals (arrays 245 and 246).
+
+	ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), Relative 
+	Humidity (%), LiCor (PAR), Barometric Pressure (mb), Wind Speed (m/s), Wind 
+	Direction (Array 150); Rainfall (mm) (Array 151)
+
+	iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 101); Wind Speed (m/s), Wind Direction, Wind 
+	Speed	Maximum (Array 102) 
+	 
+	iv) Hourly total parameters: LiCor (PAR) (Array 105); Rainfall (mm) (Array 106)
+
+	v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative Humidity 
+	(%), Barometric Pressure (mb) (Array 241); Wind Speed (m/s), Wind Direction, 
+	Wind Direction Standard Deviation (using Yamartino's Algorithm) (Array 242)
+
+	vi) Daily Total parameter: LiCor (PAR) (Array 245); Rainfall (mm) (Array 246)
+
+	vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 243)
+
+	viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, Relative 
+	Humidity (%), Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind 
+	Speed (m/s), Time, Battery Voltage, Time (Array 244)
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+	- 15 min sample greater than max for the day
+	- 15 min sample less than the min for the day
+	- 15 min sample greater than 3.0 °C from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+	- Changed by more than 25% from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+	- Precipitation greater than 5 mm in 15 minutes
+	- No precipitation for the month
+
+Wind Speed:
+	- Wind speed greater than 30 m/s
+	- Wind speed less than 0.5 m/s
+
+Wind Direction:
+	- Wind direction greater than 360 degrees
+	- Wind direction less than 0 degrees
+
+Pressure:
+	- Pressure greater than 1040 mb or less than 980 mb
+	- Pressure changes greater than 5 mb per hour
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+	- 15-minute interval not recorded
+
+For all data:
+	- Duplicate interval data	
+
+
+3) Research objectives:
+
+The principal objective is to record long-term meteorological data at the Great Bay 
+Estuary in order to aid with the interpretation of changes in water quality.
+
+4) Research methods:
+
+The Campbell Scientific weatherstation samples every 5 seconds to produce both hourly and 
+daily averages of those measurements of air temperature, relative humidity, barometric 
+pressure, rainfall, wind speed and wind direction.  An instantaneous sample is taken 
+every 15 minutes and that data is stored in array 150.   A two-week sampling interval was 
+chosen so that the CR10X datalogger would not run out of memory and overwrite data. 
+Periodically, sensors on the weatherstation are inspected for damage or debris.  If any 
+is found, it is repaired and/or cleaned. Sensors are removed and sent back to Campbell 
+Scientific for calibration at minimum of every three years. 
+
+5) Site location and character:
+
+The GBNERR weather station is located on the roof of the University of New Hampshire's 
+Jackson Estuarine Laboratory.  The lab is located on the shore of the Great Bay Estuary 
+at Adams Point, which divides the Little Bay and Great Bay portions of the Estuary.   The 
+latitude and Longitude are as follows: N 43º 08.063  W 070º 54.576
+Approximate distance of the weather station are as follows:
+From the 
+	Great Bay sonde: 1 mile
+	Squamscott River sonde: 2 miles
+	Lamprey River sonde: 2.5 miles
+	Oyster River sonde: 4 miles
+	Portsmouth Harbor sonde: 6 miles
+
+The rooftop at Jackson lab is approximately 30 ft above ground and approximately 45 ft 
+above mean high water.  The roof is tar with embedded light colored stones which provides 
+a generally reflective surface that does not absorb and radiate excessive heat.  The 
+CR10X datalogger, air temperature and relative humidity sensors are attached to the lower 
+portion a three-meter tower mounted on the roof.  The rain gauge is affixed to 
+a gable that rises approximately 3' above the roof line.  The light sensor and wind speed 
+and direction sensors are attached at either end of a "T " mounted on top of the tower.  
+There is minimal blocking and shading due to the mounting height of the instruments.  
+
+
+6) Data collection period:
+
+Weather data has been collected at the Great Bay site since April 1997.
+This metadata document covers the period of time from January 1, 2002 to December 31, 
+2002.
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for the 
+NERRS System-wide Monitoring Program,
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the NERRS 
+System-wide Monitoring Program data.  The PI retains the right to be fully credited for 
+having collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully acknowledged in 
+any subsequent publications in which any part of the data are used.  Manuscripts 
+resulting from the NOAA/OCRM supported research that are produced for publication in open 
+literature, including refereed scientific journals, will acknowledge that the research 
+was conducted under an award from the Estuarine Reserves Division, Office of Ocean 
+and Coastal Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only as good 
+as the quality assurance/quality control procedures outlined by the enclosed metadata 
+reporting statement.  The user bears all responsibility for its subsequent use/misuse in 
+any further analyses or comparisons.  The Federal government does not assume liability to 
+the Recipient or third persons, nor will the Federal government reimburse or indemnify 
+the Recipient for its liability due to any losses resulting in any way from the use of 
+this data.
+
+NERR weather data and metadata can be obtained from the Research Technician at the 
+individual NERR site (please see Section 1 Principal investigators and contact persons), 
+from the Data Manager at the Centralized Data Management Office (please see personnel 
+directory under the general information link on the CDMO home page) and online at the 
+CDMO home page http://cdmo.baruch.sc.edu/. Data are available in text format 
+and Access data tables.
+
+8) Associated researchers and projects:
+
+The weather data is used by a number of University and State agency scientists conducting 
+biological, physical and chemical projects in the estuarine and near shore environments.  
+The data is used by the SWMP program to assist in the interpretation of short and long 
+term changes in water column conditions.  Some general examples include 1) using rainfall 
+data to understand changes in salinity, 2) using wind speed and direction to understand 
+changes in turbidity and 3) using PAR data to understand changes in fluorescence and 
+chlorophyll a concentrations.
+
+Examples of other projects and researchers that use the data are:
+
+1.  Microbial source tracking and microbial pollution source identification studies by 
+Dr. Steven Jones at UNH (rainfall data)
+1.	Sediment resuspension and transport studies by Dr. Larry Ward at UNH (wind speed 
+and direction)
+2.	Eel grass modeling by Dr. Fred Short at UNH (light data)
+3.	Wet weather pollution studies by Ms. Natalie Landry and Mr. Chris Nash of NH 
+Department of Environmental Services    
+
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, operating range, accuracy, date of last calibration 
+
+LiCor Quantum Sensor 
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  06-21-01
+
+Wind Sentry
+Model # 03001
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: 06-21-01
+
+Temperature and Relative Humidity
+Model #:  HMP35C
+Operating Temperature:  -35 to 60°C
+Temperature Measurement Range: -40 to 50°C
+Temperature Accuracy: ± 0.2 °C over 0º to 60ºC +/-0.4 @ -35ºC
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3% (90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration: 06-21-01
+
+Barometric Sensor
+Model # CS-105
+Operating Range:	 Pressure – 600-1060 mb
+Temperature:  -40 to 60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20 to 60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  September 2001
+
+MET Heated Tipping Bucket Rain and snow Gauge
+Model #:  385
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: September 2001
+
+10) Coded variable indicator and variable code definitions:  
+
+GB = Great Bay
+
+
+11) Data anomalies 
+
+January 2002
+
+The weather station program was uploaded to a new computer on January 30 at 1412.
+The following data was deleted because some 5 second data is lost during this process, 
+thus making the following hourly and 24 hour averages inaccurate.
+Technician changed 101 Array data from 30 ( 30) 1500	
+Technician changed 102 Array from 30 ( 30) 1500		
+Technician changed 241 Array from  30 ( 30) 2400		
+Technician changed 242 Array from  30 ( 30) 2400		
+Technician changed 243 Array data from  30 ( 30) 2400		
+Technician changed 244 Array data from  30 ( 30) 2400
+
+1/28 1900 Wind speed is less than 0.5 m/s from  28 1900 to  29   900 Data was retained.	
+1/7 0415 Wind direction is greater than 360 or less than 0 on  7  415 (-.09524) Slightly 
+negative numbers 
+sometimes occur when no wind is blowing. The value was changed to 0.
+1/14 1100 Air temp average in 1 hour data ( .05998) is less than 15 minute minimum 
+(.13945) by at least 10%. 
+This data appears okay and is retained.	
+		
+
+February
+
+Rel hum difference from  13 ( 44) 815 ( 54.858) to  13 ( 44) 830 ( 87.043) is greater 
+than 25%	
+Rel hum difference from  19 ( 50) 1915 ( 18.433) to  19 ( 50) 1930 ( 44.376) is greater 
+than 25%		
+Rel hum difference from  19 ( 50) 2015 ( 67.907) to  19 ( 50) 2030 ( 41.83) is greater 
+than 25%		
+Rel hum difference from  19 ( 50) 2045 ( 23.529) to  19 ( 50) 2100 ( 55.036) is greater 
+than 25%	
+Rel hum difference from  19 ( 50) 2330 ( 67.393) to  19 ( 50) 2345 ( 39.296) is greater 
+than 25%	
+Wind speed is less than 0.5 m/s from  21 ( 52)  1000 to  21 ( 52)  2300	
+Data was retained.		
+Wind direction is greater than 360 or less than 0 on  17 ( 48) 115 (-.09524). Value was 
+changed to 0.	
+		
+
+March
+
+Rel hum difference from  14 ( 73) 2115 ( 32.109) to  14 ( 73) 2130 ( 57.851) is greater 
+than 25%	
+Air temp average in 1 hour data on 11 (70) 1100 ( .28106) is greater than 15 minute maximum ( .21637) by 
+at least 10%
+Air temp average in 1 hour data on 29 (88) 100 (-.02469) is greater than 15 minute maximum (-.07555) by 
+at least 10%	
+Data was retained.
+
+
+April
+
+Air temp difference from  14 ( 104) 1430 ( 21.858) to  14 ( 104) 1445 ( 17.732) is 
+greater than 3.0 degrees C
+	
+Air temp difference from  17 ( 107) 300 ( 17.728) to  17 ( 107) 315 ( 13.571) is greater 
+than 3.0 degrees C	
+Air temp difference from  17 ( 107) 1500 ( 33.505) to  17 ( 107) 1515 ( 22.425) is 
+greater than 3.0 degrees C
+This data appears to be correct and was retained.	
+Wind direction is greater than 360 or less than 0 on  11 ( 101) 2345 (-.09519)	
+Wind direction is greater than 360 or less than 0 on  22 ( 112) 815 (-.09521)	
+Wind direction is greater than 360 or less than 0 on  22 ( 112) 1045 (-.09519)
+Slightly negative numbers sometimes occur when no wind is blowing. The values were 
+changed to 0.
+
+
+May
+
+Air temp difference from  31 ( 151) 1615 ( 24.903) to  31 ( 151) 1630 ( 18.786) is 
+greater than 3.0 degrees C
+There was rainfall on the 31st which could account for the drop in temperature. Data is 
+retained.
+Wind direction is greater than 360 or less than 0 on  18 ( 138) 330 (-.09514)
+Slightly negative numbers sometimes occur when no wind is blowing. The values were 
+changed to 0.
+
+
+June
+Air temp difference from  2 ( 153) 1145 ( 20.401) to  2 ( 153) 1200 ( 15.904) is greater 
+than 3.0 degrees C
+There was rain on 6/2 which could account for this temperature drop.
+Air temp difference from  28 ( 179) 1830 ( 22.217) to  28 ( 179) 1845 ( 18.689) is 
+greater than 3.0 degrees C
+Precip difference from  22 ( 173) 1130 ( .762) to  22 ( 173) 1145 ( 8.636) is greater 
+than 5 mm
+Precip difference from  28 ( 179) 1845 ( 11.176) to  28 ( 179) 1900 ( 3.048) is greater 
+than 5 mm
+On 6/22 32mm of rain fell. On 6/28 14mm fell. This would account for the above changes in 
+air temperature and precipitation.
+Technician changed 102 Array data at  3 ( 154) 1200 to  30 ( 181) 2400
+Technician changed 150 Array data at  3 ( 154) 1130 to  30 ( 181) 2400
+Technician changed 242 Array data at  3 ( 154) 2400 to  30 ( 181) 2400
+The wind direction sensor was found to be faulty when it began returning large negative 
+numbers. All wind 
+direction data was deleted from 6/3 1130 to 6/30 2400. The sensor was sent for repair.
+
+
+July
+Air temp difference from  23 ( 204) 1430 ( 31.554) to  23 ( 204) 1445 ( 25.804) is 
+greater than 3.0 degrees C
+Air temp difference from  23 ( 204) 1445 ( 25.804) to  23 ( 204) 1500 ( 22.442) is 
+greater than 3.0 degrees C
+On 7/23 11mm of rain fell.  This could account for the drop in air temperature. Data is 
+correct.
+Wind speed is less than 0.5 m/s from  24 ( 205)  2000 to  25 ( 206)  900  Data was 
+retained.
+Technician changed 102 Array data at  1 ( 182) 100 to  31 ( 212) 2400
+Technician changed 150 Array data at  1 ( 182) 15 to  31 ( 212) 2400
+Technician changed 242 Array data at  1 ( 182) 2400 to  31 ( 212) 2400
+All wind direction data for July was deleted. The sensor was sent out for repair 
+and not returned until 
+August 9.
+
+
+August
+The following data appears to be correct.
+Air temp difference from  13 ( 225) 1745 ( 31.07) to  13 ( 225) 1800 ( 27.922) is greater 
+than 3.0 degrees C
+Air temp difference from  25 ( 237) 1400 ( 27.386) to  25 ( 237) 1415 ( 23.601) is 
+greater than 3.0 degrees C
+Wind direction is greater than 360 or less than 0 on  28 ( 240) 2400 (-.09511) This 
+slightly negative value was changed to 0.
+Technician changed 102 Array from 1 ( 213) 100 to  8 ( 220) 900
+Technician changed 150 Array data from  1 ( 213) 15 to  9 ( 221) 900
+Technician changed 242 Array from  1 ( 213) 2400 to  9 ( 221) 2400
+No wind direction data 8/1 to 8/9 930.  The wind direction sensor was out for repair 
+until August 9. 
+
+
+September
+Air temp difference from  16 ( 259) 730 ( 20.857) to  16 ( 259) 745 ( 17.083) is greater 
+than 3.0 degrees C
+Data was retained. 14mm of rain fell on 9/16 which could account for the drop in air 
+temperature.
+Precip difference from  23 ( 266) 200 ( 2.032) to  23 ( 266) 215 ( 9.652) is greater than 
+5 mm
+Precip difference from  23 ( 266) 215 ( 9.652) to  23 ( 266) 230 ( 3.81) is greater than 
+5 mm
+Rain data is correct. On 9/23 there was a total 38mm rain.
+Wind speed is less than 0.5 m/s from  17 ( 260)  1900 to  18 ( 261)  700
+Wind speed is less than 0.5 m/s from  24 ( 267)  1900 to  25 ( 268)  800
+Wind speed is less than 0.5 m/s from  25 ( 268)  2000 to  26 ( 269)  1000
+This wind speed data appears to be correct.  
+Wind direction is greater than 360 or less than 0 on  11 ( 254) 2030 (-.09511)
+Wind direction is greater than 360 or less than 0 on  19 ( 262) 100 (-.09513)
+These slightly negative numbers were changed to zero.
+
+
+October
+Wind speed is less than 0.5 m/s from  6 ( 279)  2000 to  7 ( 280)  800
+Wind speed is less than 0.5 m/s from  9 ( 282)  2100 to  10 ( 283)  900
+This data appears to be correct.
+Wind direction is greater than 360 or less than 0 on  6 ( 279) 700 (-.09516)
+Wind direction is greater than 360 or less than 0 on  6 ( 279) 2315 (-.09519)
+Wind direction is greater than 360 or less than 0 on  8 ( 281) 115 (-.09517)
+Wind direction is greater than 360 or less than 0 on  22 ( 295) 2230 (-.09524)
+Wind direction is greater than 360 or less than 0 on  22 ( 295) 2245 (-.09524)
+Wind direction is greater than 360 or less than 0 on  23 ( 296) 200 (-.09522)
+These slightly negative numbers were changed to zero.
+
+
+November
+Wind direction is greater than 360 or less than 0 on  3 ( 307) 2130 (-.09528)
+This slightly negative number was changed to zero.
+
+
+December
+Rel hum difference from  10 ( 344) 1630 ( 30.984) to  10 ( 344) 1645 ( 57.014) is greater 
+than 25%
+Rel hum difference from  10 ( 344) 1645 ( 57.014) to  10 ( 344) 1700 ( 31.661) is greater 
+than 25%
+This data appears correct. The relative humidity values recorded on 12/10 by the 
+University of New Hampshire's weather station were similar.
+Wind direction is greater than 360 or less than 0 on  26 ( 360) 1545 (-.09522)
+This slightly negative number was changed to zero.
+Air temp average in 1 hour data on 13 (347) 0900 ( .30336) is less than 15 minute minimum ( .3489) by at 
+least 10%
+Data was retained.
+
+
+12.  Missing data:
+
+January
+No data 1/8 1330 to 1415. The instrument failed to record for unknown reasons.
+150	8	8	1330	Missing 150 Array data (15 minute data) from  8 ( 8) 1330 to  8 ( 8) 1415
+101	8	8	1400	Missing 101 Array (Hourly Averages)
+102	8	8	1400	Missing 102 Array (Hourly Average Wind Parameters)
+
+February
+2/21 815  Missing 150 Array (15 minute data) Instrument failed to record for unknown 
+reasons.	
+
+
+August
+8/29 745  Missing 150 Array (15 minute data) Instrument failed to record for unknown 
+reasons.
+
+
+October
+10/28 at 900
+Missing 150 Array (15 minute data), missing 101 Array (Hourly Averages), missing 102 
+Array
+(Hourly Average Wind Parameters)
+The instrument failed to record for unknown reasons.
+
+
+13. Other remarks
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+Rain Events
+January
+Calendar Day		Daily Precipitation Totals (mm)		
+	6		0.25	
+	7		6.60	
+	8		0.25	
+	13		20.07	
+	15		2.54	
+	17		0.76	
+	19		1.27	
+	20		0.25	
+	21		3.56	
+	24		3.56	
+	29		1.27	
+	30		6.10	
+	31		9.14
+Monthly Total		55.63
+
+February
+Calendar Day		Daily Precipitation Totals (mm)		
+	1		10.41	
+	10		4.06	
+	11		6.10	
+	17		4.57	
+	21		6.60	
+	27		8.64	
+Monthly Total		40.39	
+
+March
+Calendar Day		Daily Precipitation Totals (mm)	
+	2		0.25
+	3		17.78
+	10		7.37
+	16		2.54
+	18		2.03
+	19		2.29
+	20		18.29
+	25		2.03
+	26		16.00
+	27		8.89
+	30		1.78
+Monthly Total		79.25
+
+April
+Calendar Day		Daily Precipitation Totals (mm)	
+	1		15.24
+	3		8.38
+	10		0.25
+	13		1.27
+	14		0.51
+	15		9.91
+	20		0.51
+	22		3.56
+	25		26.92
+	26		0.76
+	28		8.38
+	29		5.33
+Monthly Total		81.03
+
+May
+2	11.938
+9	1.778
+10	4.826
+12	6.858
+13	33.274
+14	7.874
+17	.254
+18	19.558
+27	1.778
+28	1.016
+30	.254
+31	15.240
+
+"Monthly Total"	104.6
+
+
+June
+Calendar Day		Daily Precipitation Totals (mm)	
+	2		3.56
+	5		7.37
+	6		12.70
+	7		13.97
+	11		7.37
+	12		17.02
+	13		0.25
+	15		16.51
+	16		1.52
+	17		0.76
+	22		32.26
+	23		6.86
+	27		5.08
+	28		14.99
+	29		0.25
+Monthly Total		140.46
+
+July
+Calendar Day		Daily Precipitation Totals (mm)	
+	9		0.25
+	15		4.32
+	19		12.19
+	23		11.68
+	28		1.78
+	29		0.25
+Monthly Total		30.48
+
+August
+Calendar Day		Daily Precipitation Totals (mm)	
+	20		0.25
+	22		6.86
+	24		6.35
+	29		20.07
+	30		2.03
+Monthly Total		35.56
+
+September
+Calendar Day		Daily Precipitation Totals (mm)	
+	2		1.52
+	3		3.56
+	4		5.33
+	15		3.56
+	16		14.22
+	23		38.35
+	26		0.76
+	27		14.99
+	28		5.84
+Monthly Total		88.14
+
+October
+Calendar Day		Daily Precipitation Totals (mm)	
+	3		1.02
+	4		3.30
+	11		0.76
+	12		14.48
+	13		11.94
+	14		0.25
+	16		42.42
+	17		0.25
+	23		5.33
+	26		29.97
+Monthly Total		109.73
+
+November
+Calendar Day		Daily Precipitation Totals (mm)	
+	4		0.76
+	6		27.43
+	11		2.79
+	12		3.81
+	18		0.25
+	23		0.25
+	25		1.78
+	27		2.79
+Monthly Total		39.88
+
+December
+Calendar Day		Daily Precipitation Totals (mm)		
+	3		0.25	
+	5		0.76	
+	6		0.51	
+	12		10.67	
+	14		22.35	
+	16		0.51	
+	20		14.22	
+	25		3.56	
+	26		1.02	
+Monthly Total		53.85	
+
+
+

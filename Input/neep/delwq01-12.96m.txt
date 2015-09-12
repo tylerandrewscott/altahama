@@ -1,0 +1,977 @@
+Delaware National Estuarine Research Reserve Site Metadata Form
+Version 3.0 (January -December 1996)
+Latest Update: April 23, 2002
+
+I. Data Set & Research Descriptors
+
+1. Principal investigator(s) & contact persons:
+
+Delaware Coastal Management/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation
+P.O. Box 1401
+Dover, Delaware 19903
+Phone: (302) 739-3451
+
+David B. Carter, Environmental Program Manager (P.I.)
+Nasreen L. Faqiri, Environmental Engineer Intern (April 95 – September 96)
+James D. Hewes, Environmental Scientist Intern (November 96 - November 97)
+Jennifer Lukens, Environmental Scientist
+Carl Yetter, Environmental Engineer (C.P.)
+Richard Field, Research Scientist, University of Delaware (C.P.)
+Vinton Valentine, Graduate Student, University of Delaware
+Alison Bailey, Graduate Student, University of Delaware
+e-mail: 	dcarter@dnrec.state.de.us 
+		jhewes@dnrec.state.de.us 
+		cyetter@dnrec.state.de.us 
+
+University of Delaware CMS
+C/O Lorna Hobart
+107 Robinson Hall, U of D
+Newark, Delaware 19716
+Phone: (302) 831-2695 ext. 4697
+	rtfield@earthview.cms.udel.edu
+	vinton@triton.cms.udel.edu
+	abailey@triton.cms.udel.edu
+
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6000 upg 
+datalogger to a PC.  Edited files are created by removing the headers, footers, 
+and spaces on a PC.  Missing data from YSI 6000 maintenance (downtime) is 
+inserted into the spreadsheet and are denoted by periods (.).  Data and graphs 
+are visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QC’d using Excel 5.0 
+CDMO macros.  Edited files are merged to contain one full month of data.  Edited 
+and merged monthly files are also transferred to NERRS Central Data Management 
+Office.  Nasreen Faqiri was responsible for the editing and archiving of these 
+data from April 95 through September 96; James Hewes is responsible from 
+November 96 to the present, June 98.
+
+Some data were collected using Eastern Daylight Savings Time (EDT).  The 
+following procedure was used to correct the data.  We performed this procedure 
+after Column Reformat and prior to Find Variable Outliers for all affected 
+files.Rename the current file xxxxxxdt.xls, where xxxxxx is the standard CDMO 
+filename.  Copy the first two rows of data from the subsequent monthly file and 
+paste to the end of the current file.  Copy the first two rows of data in the 
+current file and paste to the end of the previous monthly file.  Delete the 
+first two rows of data from the current file.  Select the time column.  Run the 
+timechg macro in EDTtoEST.xls.  Confirm that the time change is correct.  Select 
+the data column.  Run the datechg macro in EDTtoEST.xls. Confirm that the date 
+change is correct.  Save the file as xxxxxx.xls.
+
+3.  Research Objectives:
+Measurements are taken every 30 minutes over two week periods at two sites in 
+the St. Jones River component and one site in the Blackbird Creek component of 
+Delaware's National Estuarine Research Reserve.  The St. Jones River is impacted 
+by urbanization upstream and extensive agricultural activity throughout the 
+basin.  The Blackbird Creek is one of the least impacted riverine systems in 
+Delaware.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program.  
+Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to a piling 
+at Scotton Landing and a bridge at Blackbird Landing and Penrose Branch using 
+stainless steel brackets and bolts.  Each YSI 6000 is lowered into the PVC pipe 
+that has eight (8) two-inch diameter holes cut out at the bottom for the probes 
+to have direct contact with the water column.  A large stainless steel bolt was 
+placed at the bottom end of the PVC pipe which maintained each YSI 6000 at each 
+site exactly one foot (30 cm) above the river bottom.  Every half-hour over a 
+two-week period, measurements of specific conductivity, salinity, percent 
+saturation, dissolved oxygen, temperature, pH, and water level are recorded.  
+Seven days after the deployment of each YSI 6000, the dissolved oxygen membrane 
+is cleaned with a Kimwipe dipped in methanol.  Two-week sampling intervals were 
+selected due to limitations created by the dissolved oxygen membrane.  At the 
+end of each two-week period, the YSI 6000 is brought back to the office for 
+downloading, cleaning, and recalibration. Calibrations performed include: 
+dissolved oxygen, specific conductivity using Oakton 12,880 uS standard, 
+turbidity using AMCO AEPO-1 Standard at 100 NTU and distilled water, pH using 
+Fisher pH 4.00, 7.00 and 10.00 buffers, and depth.  These procedures are carried 
+out according to the methods as described in the YSI Model 6000 Operating and 
+Service Manual.  After approximately six hours of down time for cleaning and 
+recalibration, the YSI 6000's are redeployed for another two-week period. Data 
+files are QA/QC’d using Excel 5.0 CDMO macros.  Edited files are merged to 
+contain one full month of data.  Edited and merged monthly files are also 
+transferred to NERRS Central Data Management Office.
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the State Capitol City, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are three sampling sites, two located in St. Jones 
+component and one in the Blackbird Creek component.
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, just up stream of Delaware Route 113.  The site 
+is influenced by freshwater runoff from the relatively urbanized area 
+upstream.  Salinity ranges from 8 - 30 ppt.
+		  Tidal Range: Spring Mean (m) – 1.26   
+		  Neap Mean (m) – 1.13
+Position:  Latitude     39 degree 05'  05.9160"  N
+           Longitude  75 degree 27'  38.1049"  W
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The site is influenced by freshwater runoff from unimpacted 
+forested areas intermixed with agricultural land uses and a small amount of low-
+density development.  Salinity ranges from 2-7 ppt.
+	Tidal Range: Spring Mean (m) – 1.12
+			  Neap Mean (m) – 1.13
+            Position:  Latitude      39 degree 23'  19.5196"  N
+		           Longitude   75 degree 38'  09.5882"  W
+3)Penrose Branch - is located in the headwaters of the St. Jones Basin, north of 
+Dover and along Pearsons Corner Road.  The site is predominately a forested 
+wetland tributary system with agricultural landaus along the subcatchments 
+fringe.  Salinity is 0.00 ppt.
+	Tidal Range: Not Applicable, freshwater 
+	Position:	Latitude      39 degree 09'  52.77"  N
+		      Longitude   75 degree 39'  01.52"  W
+
+6.  Data collection period:
+Scotton Landing data collection began on July 1, 1995.  Blackbird Landing data 
+collection began on July 14, 1995. Penrose Branch data collection began on June 
+1,1996.  All sampling is ongoing.
+
+7.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted stormwater sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin.An additional stormwater sampling program is 
+underway to analyze the impact of agricultural BMP's at sites in the Blackbird 
+Creek Watershed, St. Jones River Watershed.A joint effort underway through 
+NOAA's Center for Coastal Ecosystem Health and the DNERR characterization 
+studies will initiate detailed monthly water quality sampling at three sites in 
+each river over a two year period and will quantify the phytoplankton community 
+with collections from the same sites.   This project was scheduled to be 
+initiated in February 1995.(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+Variable    Range of Measurements (Units) Resolution        Accuracy
+DATE  1-12, 1-31, 00-99 (Mo,Day,Yr) 1 mo, 1day, 1 yr        N/A
+HOUR  0-24, 0-60, 0-60 (Hr,Day,Sec) 1 hr, 1 min., 1 sec.    N/A
+TEMP       -5 to 45 (degrees C)     0.01 C            +/-0.15 C
+SPCOND      0-100 (mS/cm)           0.01 mS/cm        +/-0.5% of reading + 0.001 
+mS/cm
+SALINITY    0-70 parts per thousand (ppt)	0.01 ppt    +/-1.0% of 
+reading or 0.1 ppt, (whichever is greater)
+DOSAT       0-200 (% air Sat)       0.1% @air sat     +/-2% @air saturation
+DOSAT       200-500 (% air Sat)     0.1% @air sat     +/-6% @air saturation
+DOMG        0-20 (mg/l)             0.01 mg/l         +/-0.2 mg/l
+DOMG        20-50 (mg/l)            0.01 mg/l         +/-0.6 mg/l
+DEPTH       0-9.1 (m)               0.001 m           +/-0.018 m
+PH          2-14 units              0.01 units        +/-0.2 units
+Turb        0-1000 NTU              0.1 NTU           +/-5% of 
+reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.
+
+9. Coded variable indicator and variable code definitions:
+Site definitions:  SL = Scotton Landing, BL = Blackbird Landing, PB = Penrose 
+Branch
+
+10. Data anomalies (suspect data):
+
+January 1, 1996 through March 31, 1996
+
+A. Scotton Landing
+a) The unit was deployed back on the field on January 31, 1996 at 20:00:00.  
+b) The unit was frozen in water from February 16, 1996 at 20:30:00 through 
+February 20, 
+1996 at 
+10:30:00.  
+c) Dissolved Oxygen membrane was not working properly on January 31,1996 at 
+20:00:00 
+through 
+March 5,1996 11:00:00.
+ 
+B. Blackbird Landing
+a) The unit was deployed back on the field on January 31, 1996 at 23:00:00.
+
+April 1, 1996 through June 30, 1996
+
+A. Scotton Landing
+a) Turbidity (NTU) value on May 2, 1996 at 21:00:00 out of range, -0745, 
+possible 
+obstruction, data 
+retained.
+b) Turbidity (NTU) value on May 3, 1996 at 16:30:00 out of range, -0711, 
+possible 
+obstruction, data 
+retained.
+c) Turbidity (NTU) value on May 4, 1996 at 00:00:00 out of range, -0197, 
+possible 
+obstruction, data 
+retained.
+d) Turbidity (NTU) value on May 15, 1996 at 18:30:00 out of range, -0708, 
+possible 
+obstruction, data 
+retained.
+e) Turbidity (NTU) value on May 23, 1996 at 19:00:00 out of range, -0725, 
+possible 
+obstruction, data 
+retained.
+f) Turbidity (NTU) value on June 10, 1996 at 20:00:00 out of range, -0788, 
+possible 
+obstruction, data 
+retained.
+g) Turbidity (NTU) value on June 16, 1996 at 07:00:00 out of range, -0757, 
+possible 
+obstruction, data 
+retained.
+h) Turbidity (NTU) value on June 16, 1996 at 22:30:00 out of range, -0541, 
+possible 
+obstruction, data 
+retained.
+i) Turbidity (NTU) value on June 30, 1996 at 08:00:00 out of range, -0065, 
+possible 
+obstruction, data 
+retained.
+ 
+B. Blackbird Landing
+a) DO values deleted from June 7 1430-1600; possible membrane had not settled yet
+b) Turbidity (NTU) value on June 10, 1996 at 14:30:00 out of range, 1010, 
+possible 
+obstruction, data 
+retained.
+c) Turbidity (NTU) value on June 15, 1996 at 11:00:00 out of range, -0663, 
+possible 
+obstruction, data 
+retained.
+
+C. Penrose Branch
+a) The unit was deployed in the field on May 29, 1996, data collection began on 
+June 1, 1996 
+at 00:00:00.
+b) Depth probe went dry at various times during the season, so the data for 
+depth were deleted 
+(see 
+Missing Data section).  Data indicates that remaining probes were still 
+submerged during these 
+times.
+c) Turbidity (NTU) value on June 3, 1996 at 15:00:00 out of range, -0070, 
+possible 
+obstruction, data 
+retained.
+d) Turbidity (NTU) value on June 3, 1996 at 16:00:00 out of range, -0056, 
+possible 
+obstruction, data 
+retained.
+e) Turbidity (NTU) value on June 9, 1996 at 18:00:00 out of range, -0071, 
+possible 
+obstruction, data 
+retained.
+
+July 1, 1996 through September 30, 1996
+
+A. Scotton Landing
+a) Turbidity (NTU) value on July 3, 1996 at 05:00:00 out of range, -0677, 
+possible 
+obstruction, data 
+retained.
+a) Between July 12, 1996 01:30:00 through July 12, 1996 02:30:00, negative 
+dissolved 
+oxygen (D.O.) 
+values may be due to probe fouling, data were retained.  The negative 
+fluctuations did 
+correlate to 
+normal low D.O. levels and changes in water depth; read negative values as 
+0.00mg/l or 
+%Saturation, 
+as per discussion with YSI technician.
+b) Negative dissolved oxygen (D.O.) value on July 12, 1996 at 04:00:00 may be 
+due to probe 
+fouling; 
+data was retained.  The negative fluctuation did correlate to normal low D.O. 
+levels and 
+changes in 
+water depth; read negative value as 0.00mg/l or %Saturation, as per discussion 
+with YSI 
+technician.
+c) Between July 12, 1996 05:00:00 through July 12, 1996 07:30:00, negative 
+dissolved 
+oxygen (D.O.) 
+values may be due to probe fouling, data were retained.  The negative 
+fluctuations did 
+correlate to 
+normal low D.O. levels and changes in water depth; read negative values as 
+0.00mg/l or 
+%Saturation, 
+as per discussion with YSI technician.
+b) Turbidity (NTU) value on August 3, 1996 at 11:30:00 out of range, -0092, 
+possible 
+obstruction, data 
+retained.
+c) Turbidity (NTU) value on August 14, 1996 at 19:00:00 out of range, -0735, 
+possible 
+obstruction, data 
+retained.
+d) Turbidity (NTU) value on September 3, 1996 at 11:00:00 out of range, 1011, 
+possible 
+rollover, data 
+retained.
+e) Turbidity (NTU) values between September 3, 1996 12:00:00 through September 
+3, 1996 
+14:30:00 are 
+out of range, high negative values correlate to normal high NTU values, possible 
+rollover, 
+data 
+retained.
+f) Turbidity (NTU) values between September 3, 1996 16:00:00 through September 
+3, 1996 
+16:30:00 are 
+out of range, high negative values correlate to normal high NTU values, possible 
+rollover, 
+data 
+retained.
+g) Turbidity (NTU) values between September 3, 1996 19:00:00 through September 
+3, 1996 
+20:30:00 are 
+out of range, high negative values correlate to normal high NTU values, possible 
+rollover, 
+data 
+retained.
+h) Turbidity (NTU) value on September 3, 1996 at 21:30:00 out of range, -0980, 
+possible 
+rollover, data 
+retained.
+i) Turbidity (NTU) value on September 4, 1996 at 02:00:00 out of range, -1066, 
+possible 
+rollover, data 
+retained.
+ 
+B. Blackbird Landing
+b)  Data were collected using Eastern Daylight Savings Time (EDT) from May 10, 
+1996 to 
+November 8, 
+1996.  The final monthly file has been converted to Eastern Standard Time (EST) 
+using the 
+procedure 
+described under Entry Verification section. 
+c)  Turbidity (NTU) value on July 5, 1996 at 23:30:00 out of range, -0737, 
+possible 
+obstruction, data 
+retained.
+a) Turbidity (NTU) value on July 6, 1996 at 00:30:00 out of range, -0737, 
+possible 
+obstruction, data 
+retained.
+b)  Turbidity (NTU) value on July 29, 1996 at 07:30:00 out of range, -0867, 
+possible 
+obstruction, data 
+retained.
+c)  Turbidity (NTU) values between July 30, 1996 20:00:00 through July 31, 1996 
+07:00:00 
+are large 
+positive readings, range 0273-0944.  Reason not apparent, possible rain event.  
+Data 
+retained.
+d)  Turbidity (NTU) values between July 31, 1996 07:30:00 through July 31, 1996 
+12:00:00 
+were out of 
+range, possible obstruction, data retained.
+e)  Depth (m) values on August 16, 1996 at 18:00:00 out of range, -0.01.  Data 
+indicate that 
+the remaining 
+probes were still submerged during this time.  Depth value retained.
+f)  Turbidity (NTU) value on August 19, 1996 at 00:00:00 out of range, -0792, 
+possible 
+obstruction, data 
+retained.
+g)  Turbidity (NTU) values between August 24, 1996 21:00:00 through August 25, 
+1996 
+01:00:00 have 
+large variability, positive range 0381-0859, reason unknown.  Actual negative 
+values 
+recorded below.  
+Data retained.
+h)  Turbidity (NTU) value on August 24, 1996 at 22:30:00 out of range, -0773, 
+possible 
+obstruction, data 
+retained.
+i)  Turbidity (NTU) value on August 25, 1996 at 00:00:00 out of range, -1078, 
+possible 
+obstruction, data 
+retained.
+j)  Turbidity (NTU) values between August 25, 1996 01:30:00 through August 25, 
+1996 
+22:30:00 were 
+out of range, possible obstruction, data retained.
+k)  Turbidity (NTU) values between September 3, 1996 15:30:00 through September 
+3, 1996 
+19:00:00 are 
+large positive readings, range 0217-0349.  Reason not apparent.  Data retained.
+l)  Turbidity (NTU) values between September 4, 1996 01:30:00 through September 
+10, 1996 
+01:00:00 
+have large variability, reason unknown.  Actual negative values recorded below.  
+Reliable data 
+seems 
+to occur between the episodes of negative values.  A number of “rollovers” occur 
+within this 
+time 
+period.  Data retained.
+m)  Turbidity (NTU) values between September 4, 1996 04:00:00 through September 
+4, 1996 
+09:00:00 
+were out of range, possible obstruction, data retained.
+n)  Turbidity (NTU) value on September 4, 1996 at 12:30:00 out of range, -0889, 
+possible 
+obstruction, 
+data retained.
+o)  Turbidity (NTU) values between September 4, 1996 13:30:00 through September 
+5, 1996 
+10:00:00 
+were out of range, possible obstruction, data retained.
+p)  Turbidity (NTU) values between September 5, 1996 15:30:00 through September 
+5, 1996 
+16:30:00 
+were out of range, possible obstruction, data retained.
+q)  Turbidity (NTU) values between September 5, 1996 17:30:00 through September 
+6, 1996 
+01:30:00 
+were out of range, possible obstruction, data retained.
+r)  Turbidity (NTU) values between September 6, 1996 02:30:00 through September 
+6, 1996 
+08:30:00 
+were out of range, possible obstruction, data retained.
+s)  Turbidity (NTU) value on September 7, 1996 at 08:00:00 out of range, -0925, 
+possible 
+obstruction, 
+data retained.
+t)  Turbidity (NTU) values September 7, 1996 11:00:00 through September 7, 1996 
+12:30:00 
+were out of 
+range, possible obstruction, data retained.
+u)  Turbidity (NTU) values between September 7, 1996 14:00:00 through September 
+7, 1996 
+15:00:00 
+were out of range, possible obstruction, data retained.
+v)  Turbidity (NTU) values between September 7, 1996 23:00:00 through September 
+8, 1996 
+00:30:00 
+were out of range, possible obstruction, data retained.
+w)  Turbidity (NTU) values between September 8, 1996 01:30:00 through September 
+8, 1996 
+05:00:00 
+were out of range, possible obstruction, data retained.
+x)  Turbidity (NTU) value on September 8, 1996 at 06:00:00 out of range, 1007, 
+possible 
+obstruction, data 
+retained.
+y)  Turbidity (NTU) values between September 8, 1996 07:00:00 through September 
+8, 1996 
+16:00:00 
+were out of range, possible obstruction, data retained.
+z)  Turbidity (NTU) value on September 8, 1996 at 18:30:00 out of range, -0911, 
+possible 
+obstruction, 
+data retained.
+aa)  Turbidity (NTU) values between September 9, 1996 00:30:00 through September 
+9, 
+1996 08:00:00 
+were out of range, possible obstruction, data retained.
+bb)  Turbidity (NTU) values between September 9, 1996 09:00:00 through September 
+10, 
+1996 01:00:00 
+were out of range, possible obstruction, data retained.
+
+C. Penrose Branch
+a) The data between July 26, 1996 16:00:00 through August 8, 1996 09:30:00 are 
+marked as 
+anomalous 
+because of damage to the flow measurement structure received during the storm of 
+June 25, 
+1996.  
+However, the data between the washout and the repair of the structure may still 
+be usable and 
+were 
+retained.
+b) The datalogger was out of the water between August 5, 1996 at 08:30:00 
+through August 5, 
+1996 at 
+09:30:00 so all data were deleted (see Missing Data section).
+c) Turbidity (NTU) value on August 9, 1996 at 12:00:00 out of range, -0002, 
+possible 
+contamination 
+from storage cup, data retained.
+
+October 1, 1996 through December 31, 1996
+
+A. Scotton Landing
+a) Turbidity (NTU) value on October 1, 1996 at 04:30:00 out of range, 1013, 
+possible 
+obstruction, data 
+retained.
+b) Turbidity (NTU) value on November 5, 1996 at 18:00:00 out of range, -0724, 
+possible 
+obstruction, 
+data retained.
+c) Turbidity (NTU) value on November 7, 1996 at 10:00:00 out of range, -0728, 
+possible 
+obstruction, 
+data retained.
+
+B. Blackbird Landing
+a) Data through November 8, 1996 09:00:00 were collected using Eastern Daylight 
+Savings 
+Time (EDT).  
+The final monthly file has been converted to Eastern Standard Time (EST) using 
+the 
+procedure 
+described under Entry Verification section.
+b) Turbidity (NTU) values on October 10, 1996 at 03:00:00 have a large positive 
+value, 
+0330, reason not 
+apparent, although may be related to a rain event.  Data retained.
+c) Turbidity (NTU) values between October 10, 1996 at 17:00:00 have a large 
+positive value, 
+0422, 
+reason not apparent, although may be related to a rain event.  Data retained.
+d) Turbidity (NTU) values between October 11, 1996 02:00:00 through October 11, 
+1996 
+02:30:00 have a 
+large positive value, 0491-284, reason not apparent, although may be related to 
+a rain event.  
+Data 
+retained.
+e) Turbidity (NTU) values between October 11, 1996 04:00:00 has a large positive 
+value, 
+0558, reason 
+not apparent, although may be related to a rain event.  Data retained.
+f) Turbidity (NTU) values between October 11, 1996 05:30:00 has a large positive 
+value, 
+0508, reason 
+not apparent, although may be related to a rain event.  Data retained.
+g) Turbidity (NTU) values between October 23, 1996 01:30:00 through October 25, 
+1996 
+08:00:00 have 
+large positive variability.  Probe possibly affected by low battery output 
+preceding total loss 
+of power 
+on October 25, 1996.  However, readings may be related to a rain event.  Data 
+retained.
+h) Turbidity (NTU) values on November 1, 1996 at 19:00:00 is large positive 
+reading, 0384.  
+Reason not 
+apparent.  Data retained.
+i) Turbidity (NTU) value on November 15, 1996 at 17:30:00 out of range, -0015, 
+possible 
+obstruction, 
+data retained.
+
+C. Penrose Branch
+d) Turbidity (NTU) value on October 29, 1996 at 12:00:00 out of range, 0000 
+(outlier 
+reading of -0.3), 
+possible contamination from storage cup, data retained.
+e) Depth probe went dry at various times during the month of November, so the 
+data were 
+deleted (see 
+Missing Data section).  Data indicates that the remaining probes were still 
+submerged during 
+these 
+times.
+f) On November 3, 1996 at 19:00:00 dissolved oxygen (D.O.) value out of range, -
+0.03, 
+possible probe 
+fouling, data retained.  Read negative value as 0.00mg/l or %Saturation, as per 
+discussion with 
+YSI 
+technician.
+
+11. Missing data:
+Every two weeks, there is a period of approximately six hours of missing data 
+due to 
+maintenance and 
+calibration requirements.  This missing data is indicated by "." in the file.
+
+January 1, 1996 through March 31, 1996
+
+A. Scotton Landing
+a) Data logger was not deployed between January 1, 1996 00:00:00 through January 
+31, 1996 
+19:30:00.
+b) No data are available January 1, 1996 00:00:00 through January 31, 1996 
+23:30:00 
+(Turbidity), no 
+probe installed.
+c) No data are available between January 31, 1996 20:00:00 through January 31, 
+1996 
+23:30:00 
+(Dissolved Oxygen missing, unknown why.)
+d) No data are available between February 1, 1996 00:00:00 through February 29, 
+1996 
+23:30:00 
+(Dissolved Oxygen missing, unknown why.)
+e) No data are available February 1, 1996 00:00:00 through February 29, 1996 
+23:30:00 
+(Turbidity), no 
+probe installed.
+f) No data are available between February 16, 1996 20:30:00 through February 20, 
+1996 
+10:30:00 (Unit 
+frozen in Water.)
+g) No data are available between March 1, 1996 00:00:00 through March 5, 1996 
+9:00:00 
+(Dissolved 
+Oxygen missing, unknown why.)
+h) No data are available March 1, 1996 00:00:00 through March 31, 1996 23:30:00 
+(Turbidity), no probe 
+installed.
+i) No data are available between March 5, 1996 9:00:00 through 11:00:00.
+j) No data are available between March 19, 1996 9:30:00 through 10:30:00.
+
+B. Blackbird Landing
+a) No data are available between January 1, 1996 00:00:00 through January 31, 
+1996 
+23:30:00, because 
+the datalogger was not deployed.
+b) No data are available February 1, 1996 00:00:00 through February 29, 1996 
+23:30:00 
+(Turbidity), no 
+probe installed.
+c) No data are available between February 16, 1996 8:30:00 through February 18, 
+1996 
+12:30:00.
+d) No data are available March 1, 1996 00:00:00 through March 31, 1996 23:30:00 
+(Turbidity), no probe 
+installed.
+e) No data are available between March 1, 1996 13:30:00 through March 1, 1996 
+16:30:00.
+f) No data are available between March 15, 1996 09:00:00 through March 15, 1996 
+13:30:00.
+g) No data are available between March 29, 1996 11:30:00 through March 29, 1996 
+15:30:00.
+
+April 1, 1996 through June 30, 1996
+
+A. Scotton Landing
+a) No data are available April 1, 1996 00:00:00 through April 30, 1996 23:30:00 
+(Turbidity), 
+no probe 
+installed.
+b) No data are available between April 2, 1996 09:30:00 through April 2, 1996 
+11:00:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between April 16, 1996 14:00:00 through April 16, 1996 
+15:30:00, 
+cause for loss 
+of data unknown.
+d) No data available between April 22, 1996 09:30:00 through April 30, 1996 
+12:00:00, loss 
+of power on 
+April 22, 1996 due to low battery output, unit retrieved on April 30, 1996 for 
+maintenance, 
+calibration, 
+and service.
+e) No data are available between May 14, 1996 09:30:00 through May 15, 1996 
+10:30:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between May 24, 1996 16:30:00 through May 29, 1996 
+12:30:00, 
+cause for loss 
+of data unknown.
+g) No data are available between June 11, 1996 03:30:00 through June 14, 1996 
+08:30:00, 
+loss of power 
+on June 11, 1996 due to low battery output, unit retrieved on June 12, 1996 for 
+maintenance, 
+calibration, and service. 
+h) No data are available between June 26, 1996 11:00:00 through June 26, 1996 
+15:30:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+ 
+B. Blackbird Landing
+a) No data are available April 1, 1996 00:00:00 through April 30, 1996 23:30:00 
+(Turbidity), 
+no probe 
+installed.
+b) No data are available between April 12, 1996 07:30:00 through April 12, 1996 
+12:30:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data are available between April 26, 1996 10:00:00 through April 26, 1996 
+16:30:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available May 1, 1996 00:00:00 through May 31, 1996 23:30:00 
+(Turbidity), 
+no probe 
+installed.
+e) No data are available between May 10, 1996 07:30:00 through May 10, 1996 
+12:30:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between May 24, 1996 09:30:00 through May 30, 1996 
+14:00:00, 
+loss of data 
+due to corrupt data file.
+g) DO values deleted from June 7 1430-1600; possible membrane had not settled yet
+h) No data are available between June 7, 1996 09:00:00 through June 7, 1996 
+14:00:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+i) No data are available between June 18, 1996 10:00:00 through June 21, 1996 
+14:00:00, 
+loss of data 
+due to corrupt data file.
+
+C. Penrose Branch
+a) No data are available between April 1, 1996 00:00:00 through June 1, 1996 
+00:00:00 
+because the 
+datalogger was not yet deployed.
+b) No data are available June 1, 1996 00:00:00 through June 12, 1996 11:00:00 
+(Salinity), 
+probe not 
+activated.
+c) Depth (m) values between June 3, 12:30:00 through June 4, 22:00:00 were 
+deleted because 
+the values 
+were negative readings indicating that the probe was either no longer submerged 
+or almost out 
+of the 
+water.
+d) Depth (m) values between June 7, 12:00:00 through June 9, 04:30:00 were 
+deleted because 
+the values 
+were negative readings indicating that the probe was either no longer submerged 
+or almost out 
+of the 
+water.
+e). No data are available between June 12, 1996 11:30:00 through June 13, 1996 
+15:30:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+f) No data are available between June 26, 1996 09:00:00 through June 30, 1996 
+23:30:00 due 
+to runoff 
+damage to flow control structure
+
+July 1, 1996 through September 30, 1996
+
+A. Scotton Landing
+a) No data are available between July 12, 1996 10:30:00 through July 12, 1996 
+17:00:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+b) No data are available between July 25, 1996 14:00:00 through July 26, 1996 
+15:30:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+c) No data available between August 8, 1996 12:00:00 through August 9, 1996 
+10:30:00 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+d) No data are available between August 22, 1996 10:00:00 through August 22, 
+1996 
+17:30:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+e) No data are available between September 5, 1996 10:00:00 through September 
+16, 1996 
+15:30:00; 
+D.O., pH, and turbidity probes all out of range, corrected pH and turbidity 
+probes in house, 
+installed 
+new D.O. probe from YSI and deployed on September 16, 1996.
+ 
+B. Blackbird Landing
+a) No data are available between July 5, 1996 08:30:00 through July 5, 1996 
+16:00:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+b) Data are available starting July 19, 1996 from University of Delaware Staff.
+b)  No data are available between July 19, 1996 08:30:00 through July 19, 1996 
+15:00:00, 
+downtime for 
+maintenance, calibration, and service of dataloggers.
+c)  No data are available between July 31, 1996 12:30:00 through August 2, 1996 
+13:30:00, 
+loss of power 
+on July 31, 1996 due to low battery output, unit retrieved on August 2, 1996 
+08:30:00 for 
+maintenance, 
+calibration, and service.
+d)  No data are available between August 14, 1996 08:30:00 through August 14, 
+1996 
+09:00:00, loss of 
+power due to low battery output.
+e)  No data are available on August 14, 1996 10:30:00, loss of power due to low 
+battery 
+output.
+f)  No data are available between August 16, 1996 07:30:00 through August 16, 
+1996 
+16:30:00, downtime 
+for maintenance, calibration, and service of dataloggers.
+g)  No data are available between August 25, 1996 23:00:00 through August 30, 
+1996 
+13:00:00, loss of 
+data unknown, unit retrieved on August 30, 1996 08:40:00 for maintenance, 
+calibration, and 
+service.
+h)  No data are available between September 10, 1996 01:30:00 through September 
+13, 1996 
+15:30:00, 
+loss of data unknown, unit retrieved on September 13, 1996 08:10:00 for 
+maintenance, 
+calibration, and 
+service.
+a) No data are available between September 27, 1996 08:30:00 through September 
+27, 1996 
+14:30:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+
+C. Penrose Branch
+a) No data are available between July 1, 1996 00:00:00 through July 26, 1996 
+15:30:00 due 
+to runoff 
+damage to flow control structure.
+b) No data are available between August 5, 1996 08:30:00 through August 5, 1996 
+09:30:00, 
+datalogger 
+out of water due to repairs to flow control structure.
+c) No data are available between August 8, 1996 09:30:00 through August 9, 1996 
+09:30:00, 
+downtime 
+for maintenance, calibration, and service of dataloggers.
+d) Depth (m) values between August 9, 1996 10:00:00 through August 10, 1996 
+15:30:00 
+were deleted 
+because the values were negative readings indicating that the probe was either 
+no longer 
+submerged or 
+almost out of the water.
+e) No data are available between August 22, 1996 08:00:00 through September 10, 
+1996 
+13:30:00 due to 
+high turbidity probe offset, data was not reliable and all data in file was 
+deleted.
+f) Depth (m) values between September 13, 1996 05:30:00 through September 14, 
+1996 
+05:30:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no 
+longer 
+submerged or almost out of the water.
+g) Depth (m) values between September 17, 1996 04:00:00 through September 17, 
+1996 
+05:00:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no 
+longer 
+submerged or almost out of the water.
+h) No data are available between September 17, 1996 10:00:00 through September 
+24, 1996 
+16:00:00, 
+loss of power on September 17, 1996 due to low battery output, unit retrieved on 
+September 
+24, 1996 
+for maintenance, calibration, and service. 
+
+October 1, 1996 through December 31, 1996
+
+A. Scotton Landing
+a) No data are available between October 1, 1996 16:30:00 through October 23, 
+1996 
+11:30:00, bank 
+stabilization and construction of improved public boat ramp at deployment site.  
+Datalogger 
+redeployed on October 23, 1996 after construction and stabilization completed.
+b) No data are available between November 7, 1996 10:30:00 through November 7, 
+1996 
+15:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+c) No data are available between November 15, 1996 13:00:00 through November 19, 
+1996 
+16:30:00 loss 
+of power on November 15, 1996 due to low battery output, unit retrieved on 
+November 19, 
+1996 for 
+maintenance, calibration, and service.
+d) No data are available between December 3, 1996 11:00:00 through December 3, 
+1996 
+15:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+e) No data are available between December 19, 1996 10:00:00 through December 19, 
+1996 
+16:00:00 
+downtime for maintenance, calibration, and service of dataloggers.
+f) No data are available between December 31, 1996 09:30:00 through December 31, 
+1996 
+15:00:00 
+downtime for maintenance, calibration, and service of dataloggers.
+ 
+B. Blackbird Landing
+a) No data are available between October 11, 1996 08:00:00 through October 11, 
+1996 
+16:00:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+b) No data are available between October 25, 1996 08:30:00 through October 25, 
+1996 
+14:30:00, loss of 
+power on October 25, 1996 due to low battery output, unit retrieved on October 
+25, 1996 
+08:50:00 for 
+maintenance, calibration, and service.
+c) No data are available between November 8, 1996 9:30:00 through November 8, 
+1996 
+14:30:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+d) No data are available between November 22, 1996 09:30:00 through November 22, 
+1996 
+16:30:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+e) No data are available between December 6, 1996 09:30:00 through December 6, 
+1996 
+17:30:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+f) No data are available between December 20, 1996 11:00:00 through December 20, 
+1996 
+16:30:00, 
+downtime for maintenance, calibration, and service of dataloggers.
+
+C. Penrose Branch
+a) No data are available between October 8, 1996 10:30:00 through October 8, 
+1996 
+15:00:00 downtime 
+for maintenance, calibration, and service of dataloggers.
+b) No data are available between October 22, 1996 09:30:00 through October 23, 
+1996 
+11:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+c) No data are available between November 7, 1996 10:30:00 through November 7, 
+1996 
+16:00:00 
+downtime for maintenance, calibration, and service of dataloggers.
+d) Depth (m) values between November 8, 1996 17:30:00 through November 8, 1996 
+19:30:00 were 
+deleted because the values were negative readings indicating that the probe was 
+either no 
+longer 
+submerged or almost out of the water.
+e) No data are available between November 19, 1996 11:00:00 through November 19, 
+1996 
+16:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+f) No data are available between November 27, 1996 05:00:00 through December 3, 
+1996 
+16:00:00, loss 
+of power on November 27, 1996 due to low battery output, unit retrieved on 
+December 3, 
+1996 for 
+maintenance, calibration, and service.
+g) No data are available between December 19, 1996 10:30:00 through December 19, 
+1996 
+16:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+h) No data are available between December 31, 1996 10:00:00 through December 31, 
+1996 
+15:30:00 
+downtime for maintenance, calibration, and service of dataloggers.
+

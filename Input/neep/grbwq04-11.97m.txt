@@ -1,0 +1,219 @@
+Great Bay (GRB) NERR Site Water Quality Metadata Form
+(April-Nov. 1997)
+Latest update: August 23, 2001
+
+I. Data Set and Research Descriptors
+
+1.  Principal investigators and contact persons
+Dr. Richard Langan
+Jaimie Wolf, Research Technician
+
+email :	rlangan@christa.unh.edu
+		jswolf@christa.unh.edu
+
+Jackson Estuarine Laboratory
+85 Adams Point Road
+Durham, NH 03824
+Phone: (603)862-2175
+
+2.  Entry verification
+The data are uploaded to a Texas Instruments computer from the YSI dataloggers
+using the PC6000 software. Files were also exported in a comma delimited format. 
+The data is checked visually for any anomalous data points that may not be 
+detected by the CDMO Excel 5.0 macros. Files are then transferred to a Macintosh 
+computer and opened in Excel 5.0 software and edited. The data is checked 
+according to the CDMO Operations Manual, version 3.0.  Missing data from YSI 
+maintenance and other reasons are inserted into the spreadsheet and denoted by 
+periods (.). Edited files are merged to contain one full month of data. 
+Files are verified by means of CDMO Excel 5.0 macros.  Jaimie Wolf performs 
+These tasks.
+
+3.  Research Objectives
+In 1997 YSI 6000 dataloggers were deployed in Great Bay and the Squamscott River 
+As part of the National Estuarine Research Reserves¹ (NERR) Water Quality
+Monitoring Program. The goal is to develop long-term datasets for representative
+estuarine systems in order to track changes in water quality over time. The 
+instruments were deployed for two weeks at a time, depending on season, and
+measurements taken every 30 minutes.  The Squamscott River site is 
+representative of tidal rivers with multiple pollution sources. The Great Bay 
+reference site is considered relatively unimpacted.
+
+
+4.  Research methods (YSI data loggers)
+The data loggers were anchored to the bottom on fixed moorings at a distance of 
+one meter from the bottom.  Every half hour over a two-week period, measurements 
+of specific conductivity, salinity, percent saturation, dissolved oxygen, pH, 
+temperature and water level were recorded.  At the end of the two-week period, 
+the YSI data loggers were brought back to the Jackson Lab for downloading, 
+cleaning and recalibration.  VWR conductivity and pH standards are used for 
+calibration.  Formazin purchased from Hach is used to calibrate turbidity.  The 
+procedures used in the YSI manual were used to verify that the sonde was reading 
+correctly.  Ecowatch was used to check pre- and post-calibrations by using the 
+diagnostics menu of the program.  Most datasondes are sending data in real time 
+via radio transmission to the lab.  The real time data is checked daily to see 
+if it appears correct or if the instrument needs to come in for calibration and 
+cleaning.  The data loggers were then redeployed for another two-week period.
+
+5.  Site location and character
+The Great Bay National Estuarine Research Reserve is located on the northeastern
+coast of the United States in the tidal estuary Great Bay in the southeastern 
+part of New Hampshire.  In the year 1997 there were two sampling sites. 
+
+Great Bay  (GB)
+Central area of Great Bay proper.  The coordinates of the deployment are 
+43°04¹20² latitude and 70°52¹10² longitude.
+Salinity range: 5-32 ppt (seasonally); 0-5ppt from high to low tide.
+Temperature range: -1°C to 27°C (seasonally); 0-3° from high to low tide
+Depth: 5.5 meters at MLW
+Tidal height of 2.7 meters
+Bottom type: Mud and rock channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Squamscott, Lamprey and Winnicut Rivers plus smaller streams. High
+tide influence from Little Bay and associated rivers
+Pollutant influence: clean reference site
+
+Squamscott River (SQ)
+Mid channel in the Squamscott River, 300 m north of the Route 108 bridge.
+Coordinates are 43°02¹30² latitude and 70°55¹20² longitude
+Salinity range: 0-30ppt (seasonally); 5-20 ppt from high to low tide
+Temperature range: -1°C to 28°C (seasonally); 0-5° from high to low tide
+Depth: 3.5 meters at MLW
+Tidal height of 2.7 m
+Bottom type: Mud channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Exeter River, adjacent marshes
+Pollutant influence: Urban stormwater, agriculture, two municipal wastewater
+treatment plants, residential septic systems
+
+6.  Data collection period
+Great Bay data collection began April 3, 1997.  Squamscott River data collection
+began July 21, 1997.  The data loggers had been removed from the water during 
+the winter months due to icing.
+
+7.  Associated researchers and projects
+Great Bay Monitoring Project - Dr. Richard Langan. Supported by NOAA/NERR.
+Physical, chemical and biological indices of estuarine conditions.
+
+Lobster migration and behavior research - Dr. Winsor Watson and Dr. Hunting
+Howell.  Ten years of studies supported by USDA and Sea Grant that track lobster
+abundance, movement and behavior in relation to physical and biological 
+variables in the Great Bay Estuary.
+
+Eelgrass modeling studies: Supported by NOAA/COP.  Modeling changes in eelgrass
+populations.
+
+Oyster disease studies: Supported by EPA/NEP, NOAA/NMFS, NH Fish and Game. 
+Monitoring of the prevalence and intensity of MSX and Dermo infections in
+indigenous oyster populations and their relation to temperature and salinity
+regimes.
+
+Microbial studies of estuarine Vibrio spp.:  Supported by NIH, Sea Grant.  The
+relationship of prevalence and abundance of Vibrios to temperature and salinity
+regimes.
+
+
+
+			II. Physical Structure Descriptors
+
+8.  Sensor specifications, range of measurements, units, resolution,
+and accuracy
+
+Variable Name	Range of Measurements 		Resolution		Accuracy
+DATE			1-12, 1-31, 00-99		(1 month,1 day,1 year)		n/a
+HOUR			0-24, 0-60, 0-60		(1 hour,1 minute,1 second)	n/a
+TEMP			-5 to 45 (C)		 0.01 C				±0.15 C
+SPCOND		0-100 (mS/cm) 	0.01 mS/cm     ±0.5% of reading +0.001 mS/cm 
+SALINITY		0-70 ppt		0.01 ppt		±1.0% of reading or 
+0.1ppt, (whichever is greater)
+DOSAT			0-200 (%Sat)	 	0.1% air sat		±2.0% air sat
+DOSAT			200-500 (%Sat)	 	0.1% air sat		±6.0% air sat
+DOMG			0-20 (mg/l)			0.01 mg/l			±0.2 mg/l
+DOMG			20-50 (mg/l)		0.01 mg/l			±0.6 mg/l
+DEPTH (shallow)	0-9.1 (m)			0.001 m			±0.018 m
+pH			2-14 units			0.01 units			±0.2 units
+
+9.  Coded variable indicator and variable code definitions
+Site definitions: GB = Great Bay, SQ = Squamscott River
+
+10. Data anomalies (suspect data)
+None to report
+
+11. Missing Data
+There is no turbidity data for either site for 1997 because we did not have 
+Turbidity probes at the time. 
+January -March 1997
+	Data loggers out for winter months
+
+April 1997
+	GB:  No data 4/1 00:00 to 4/3 14:30 data logger not yet deployed
+	GB:  No date 4/15 14:00 to 14:30 data logger retrieval time
+	GB:  No pH data 4/15 15:00 to 4/30 23:30 probe on other instrument
+
+May 1997
+	GB: No pH data 5/1 00:00 to 5/5 12:30 probe on other instrument
+    	GB: No data 5/5 13:00 to 15:30 data logger in for servicing	
+	GB: No data 5/20 10:30 to 14:00 data logger in for servicing	
+
+June 1997
+	GB: No data 6/6 10:00 to 14:30 data logger in for servicing	
+	GB: No pH data 6/6 15:00 to 6/26 8:30 the probe could not be calibrated 
+	prior to this deployment
+	GB: No data 6/26 9:00 to 12:00 data logger in for servicing	
+
+July 1997
+	GB: No data 7/14 15:30 to 7/15 10:00 data logger in for servicing	
+	GB: No data for the following time periods in July because battery charge
+	became too low and sonde stopped recording for intermittent periods
+		7/24 18:00 to 23:30
+		7/25 5:00 to 10:00 and 16:00 to 23:00
+		7/26 4:00 to 12:00 and 17:30 to 23:30
+		7/27 6:30 to 11:30 and 20:00 to 23:30
+		7/28 00:00 to 00:30 and 9:30 to 12:00
+		7/30 11:00 to 13:30 and 23:30
+		7/31 00:00 to 2:30 and 11:00 to 15:00
+	SQ: No data 7/1 00:00 to 7/21 14:00 data logger not yet deployed
+	
+
+August 1997
+	GB: No data 8/1 00:00 to 3:30, 12:00 to 16:00 and 23:30 low batteries
+	GB: No data 8/2 00:00 to 8:00, 10:30-18:30 low batteries	
+	GB: No data 8/2 23:30 to 8/5 15:30 data logger in for servicing	
+	GB: No data 8/18 15:00 to 8/19 13:30 data logger in for servicing	
+	GB: No data 8/24 19:30 to 8/31 23:30 water in battery compartment, sonde 
+	stopped recording
+	SQ: No data 8/5 10:30 to 16:30 data logger in for servicing	
+	SQ: No data 8/18 15:00 to 8/19 13:00 data logger in for servicing	
+
+September 1997
+	GB: No data 9/1 00:00 to 9/4 15:30 water in battery compartment, sonde
+	stopped recording
+	GB: No data 9/16 13:30 to 9/17 14:30 data logger in for servicing	
+	GB: No data 9/30 8:30 to 9:30 23:30 data logger in for servicing
+	SQ: No data 9/2 13:30 to 9/3 13:30 data logger in for servicing	
+	SQ: No data 9/16 8:30 to 9/17 8:30 data logger in for servicing	
+	SQ: No data 9/30 9:00 to 23:30 data logger in for servicing		
+
+October 1997
+	GB: No data 10/1 00:00 to 10/1 8:30 data logger in for servicing	
+	GB: No data 10/14 12:30 to 10/15 14:00 data logger in for servicing	
+	GB: No data 10/29 9:30 to 10/30 8:30 data logger in for servicing	
+	SQ: No data 10/1 00:00 to 10/2 9:00 data logger in for servicing	
+	SQ: No data 10/14 9:30 to 10/15 8:30 data logger in for servicing	
+	SQ: No data 10/29 10:00 to 10/30 9:00 data logger in for servicing	
+
+November 1997
+	GB: No data 11/10 15:30 to 11/13 8:30 data logger in for servicing	
+	SQ: No data 11/10 15:00 to 11/13 9:00 data logger in for servicing	
+
+December 1997
+	GB and SQ data loggers out for winter months
+
+
+
+
+
+
+
+
+
+

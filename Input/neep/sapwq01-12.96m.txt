@@ -1,0 +1,681 @@
+Sapelo Island (SAP) NERR Water Quality Metadata
+(January - December 1996)
+Latest Update: November 12, 2001
+
+I. Data Set and Research Descriptors
+1.  Principal Investigators and contact persons:
+Dorset Hurley 
+Research Coordinator 
+SINERR
+Sapelo Island, GA 31327
+(912) 485-2251
+
+Jane Garbisch
+Water Quality Technician
+UGA Marine Institute
+Sapelo Island, GA 31327
+(912) 485 - 2296
+
+
+
+2.  Entry Verification:
+	The data are downloaded to an IBM compatible computer from the Hydrolab 
+Datasonde I, Hydrolab Datasonde III, Hydrolab Recorder, or YSI 6000UPG as a raw 
+file.  The YSI 6000 data are reviewed using the YSI computer program PC6000 that 
+accompanies the YSI 6000 data logger.  After the file is uploaded from the 
+datatlogger, PC6000 is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std. dev.)    The information 
+obtained from this printout is used during file review to detect any gross 
+outliers such as data taken when the datalogger was removed from the water or 
+those caused by instrument failure.   Based on past measurements in the waters 
+near Sapelo Island, it was determined that the following data should be checked:
+		Salinity < 5 ppt or >35 ppt
+		pH < 6.5 or > 8.5
+		Temperature < 10 C or >30 C
+Upon close examination of the questionable data, the data that did appear 
+accurate was kept in the data set while the rest was removed and classified as 
+missing data.  The edited data are formatted according to the guidelines given 
+in the CDMO manual.  The data are imported into a Microsoft Excel file that 
+contains the current month’s cumulative recordings.  When a complete month of 
+data has been recorded the file is ready for review.  The data review includes 
+several steps.  
+The first step is to format the data so that the parameter columns are in the 
+correct order and the data has the correct number of decimal place holders by 
+using the Column Reformat CDMO Excel 5.0 Macro.   Secondly, the Date Hour Count 
+CDMO Excel 5.0 macro is used to determine if there are any dates and times that 
+data was not recorded due to maintenance, battery failure, or other causes.  
+Missing dates and times are inserted into the file and a period is inserted into 
+the cells where data would normally be.  The reason for the missing data is 
+recorded on the Water Quality Editing Log.  Next, the data are filtered using 
+the Find Variable Outlier CDMO Excel 5.0 macro to find readings outside the 
+instrument measurement range and the “normal” range for the site in question.  
+Data outside the instrument range is/are removed from the file and a period is 
+inserted to the cell(s).  An explanation for the missing dates and times are 
+recorded onto the Water Quality Editing Log.  Data that was outside the “normal” 
+range of water quality for a particular site is investigated for validity based 
+on weather data, field observations, QC checks, PC6000 printouts, and instrument 
+diagnostics.  If the data is/are rejected from the file a period is inserted to 
+the cell(s) and an explanation for the missing dates and times are recorded onto 
+the Water quality Editing Log.  The information recorded on the Water Quality 
+Editing Log is transferred to the Metadata form.  The Metadata form is the 
+submitted with the data file to the CDMO.  Greg Schultz, reserve fellow, was 
+responsible for the QA/QC of the database.   
+
+
+3. Research Objectives
+The purpose of research was only to perform long-term water quality 
+monitoring and not a specific experiment.   Sapelo Island is only accessible by 
+passenger ferry.  Due to its isolation, the salt marsh and tidal waters of the 
+SINERR show little evidence of human impact.  The Marsh Landing site receives a 
+large amount of boat traffic, as it is the primary access point for the 
+approximately 100 residents, commuters and daily visitors plus barge off 
+loading.  The Barn Creek site receives moderate boat traffic, and is near a 
+mechanic shop on land and several residences.  The Flume Dock site is a 
+relatively isolated location compared to the other two sites.
+
+
+4. Research Methods:
+Water quality monitoring began at the Flume Dock and Marsh Landing sites in 
+August 1986.  The Barn Creek site was added in May 1995.  Monitoring units are 
+hung vertically from a float or floating dock so they hang two meters below the 
+water's surface.  Hydrolab units were used exclusively until May 1995.  After 
+May 1995, YSI units were used as well as the Hydrolabs. 
+ 
+The sondes are calibrated prior to deployment following manufacturer's 
+instructions. PH is calibrated  using purchased 7.00 and 10.00 pH buffers.  
+Conductivity is calibrated using a solution made from KCl.  DO is calibrated by 
+using current barometric pressure and % saturation and a new DO membrane is used 
+for each deployment.  The probes are cleaned three times weekly while deployed 
+when the warmer months increase the rate of fouling. The dissolved oxygen probes 
+are cleaned once weekly with a cotton swab and soaked in methanol, while the 
+other probes are cleaned with cotton swabs or pipe cleaners and de-ionized 
+water.  After two weeks the units are returned to the lab for downloading, 
+cleaning, and recalibration, according to the manufacturers manual.  No post 
+calibration verifications were performed.  Because the sondes are deployed at a 
+fixed depth, no depth data is reported.  Data were collected at 30-minute 
+intervals.  
+
+5. Site Location and Character:
+The Sapelo Island National Estuarine Research Reserve is located in a tidal 
+estuary on the western side of Sapelo Island off the Georgia coast.  There are 
+currently three monitoring stations, with a fourth to be added.
+1)Marsh Landing -  located on the lower Duplin River at 31?21’4” N, 81?17’46” W 
+near where it meets Doboy Sound.  Docking facilities for the ferry that runs to 
+and from the mainland and other boats are located here.  The site is influenced 
+by tidal currents from Doboy Sound and the Atlantic Ocean.  Salinity ranges from 
+15 to 30 ppt.
+2)Flume Dock - located on the upper Duplin River at 31?28’58”N, 81?16’3”W.  It 
+is influenced by tidal currents which flood the marsh during high tide and 
+recede into the river channel or its side creeks at low tide.  It receives far 
+less boat traffic than Marsh Landing.  Salinity ranges from 10 to 25 ppt.
+3)Barn Creek - located on a tributary of the Duplin River between the Marsh 
+Landing and Flume Dock sites at 31?26’21”N, 81?16’43”W.  A small boat dock and 
+several houses are located nearby.  Salinity ranges from 10 to 25 ppt.
+
+6.  Data collection period:
+Data collection began at Flume Dock on August 23, 1986, at Marsh Landing on 
+August 27, 1986, and at the Barn Creek site on May 24, 1995.
+
+7.  Associated researchers and projects:
+A variety of ecological research projects are conducted in the SINERR by 
+researchers associated with the University of Georgia Marine Institute.  In 
+addition, the Marine Institute has conducted meteorological and hydrological 
+monitoring since 1986.
+
+II. Physical Structure Descriptors
+
+8. Variable sequence, column format, range of measurement, units:
+Hydrolab Datasonde I
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+Ph		2 to 14 (units)			0.01 unit		+/-0.2 units
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/- 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+
+Hydrolab Datasonde III
+
+Variable Name	Range of measurement		Resolution		Accuracy
+Date		1-12, 1-31, 00-99  (Mo., Day, Yr.)	1 month, 1 day, 1 yr	NA
+Time		0-24, 0-60, 0-60 (Hr, min., Sec)	1 hr, 1 min, 1 s		NA
+Temp		-5 to 50 (C)			0.01 C		+/-0.15 C
+SpCond		0 to 100 (mS/cm)		0.01 mS/cm		+/- 0.5%
+Salinity		0 to 70 (ppt)		0.1 ppt			+/-0.2 ppt
+DO		0-200 (%air Saturation)		0.1% @air sat	+/-2% @ air sat.
+DO		0-20 (mg/L)				0.01 mg/L		+/-0.2 mg/L
+Ph		2 to 14 (units)			0.01 unit		+/-0.2 units
+
+
+Hydrolab Recorder
+Variable Name	Range of Measurements		Resolution		Accuracy 
+Date			1-12, 1-31, 00-99 (mo, day, yr)	1 mon, 1 day, 1year	NA
+Time			0-24, 0-60, 0-60 (hr, min, sec)	1 hr, 1 min, 1 sec	NA
+	
+Temp			-5 to 50 (degrees C)			0.01 C		
+	+/- 0.15 C
+SpCond		0 to 100 (mS/cm)			0.01 mS/cm		+/- 0.5%
+Salinity		0-70 (ppt)				.1 ppt			+/- 0.2 
+ppt
+DO%			0-200 (% air saturation)		0.1% air saturation
+	+/- 2%
+DO			0-20 (mg/L)				0.01 mg/L		+/- 0.2 mg/L
+pH			2-14 (units)				0.01 unit		+/- 0.2 
+units
+
+YSI 6000UPG
+Variable Name	Range of Measurements		Resolution		Accuracy 
+Date			1-12, 1-31, 00-99 (mo, day, yr)	1 mon, 1 day, 1year	NA
+Time			0-24, 0-60, 0-60 (hr, min, sec)	1 hr, 1 min, 1 sec	NA
+	
+Temp			-5-45 (degrees C)			0.01 C			+/- 0.15 
+C
+SpCond		0-100 (mS/cm)			0.01 mS/cm		+/- 0.5% of 
+reading + 0.001mS/cm
+Salinity		0-70 (ppt)				0.01 ppt			+/- 1.0% 
+of reading or 0.1 ppt (whichever is greater)
+DO%			0-200 (% air saturation)		0.1% air saturation
+	+/- 2%
+DO%			200-500 (% air saturation)		0.1% air saturation
+	+/- 6%
+DO			0-20 (mg/L)				0.01 mg/L		+/- 0.2 mg/L
+DO			20-50 (mg/L)				0.01 mg/L		+/- 0.6 
+mg/L
+pH			2-14 (units)				0.01 unit		+/- 0.2 
+units
+Turbidity		0-1000 (NTU)				0.1 NTU		+/- 5% 
+or
+										2 NTU (if larger)
+
+							
+9.  Coded variable indicator and variable code definitions:
+Site definitions: ML = Marsh Landing, FD  = Flume Dock, BC = Barn Creek
+
+10. Data Anomalies (suspect data):
+January 1996
+ML:		1/9 10:30 - 1/23 11:30		noisy turb removed
+		1/23 12:00 - 1/31 23:30		sonde failure
+
+February 1996
+FD:		2/7 11:30 - 2/8 1:00		discontinuity in %DO, DO (high values); removed
+		2/8 1:30 - 2/27 11:30		higher DO values with change in sondes
+		2/11 15:30 - 17:30		discontinuity in %DO, DO (high values); removed
+		2/17 6:30 - 2/27 11:30		conductivity, salinity (drift)
+		2/20 11:00 - 2/25 5:30		discontinuity in %DO, DO (high values); removed
+		2/25 16:00 - 22:00		discontinuity in %DO, DO (high values); removed
+		2/26 17:30 - 20:30		discontinuity in %DO, DO (high values); removed
+		2/27 10:00 - 11:30		discontinuity in %DO, DO (high values); removed
+ML:		2/6 12:30 - 2/20 11:00		noisy turb
+		2/6 12:30 - 2/20 11:00		timer or measurements off by 00:18:57; fixed
+		2/14 21:30 - 2/25 6:30		noisy conductivity, salinity 
+		2/17 1:00:0 - 2/20 11:00:00	noisy turb removed
+
+March 1996
+FD:		3/12 13:30 - 14:00		%DO, DO spike (high values); removed
+		3/25 6:00			%DO, DO spike (low values); removed
+		3/25 17:30 - 19:00		%DO, DO spike  (low values); removed
+		3/25 21:00			turb spike (high value); removed
+		3/26 11:30 - 16:00		turb spike (high values); removed
+ML:		3/13 22:00 - 3/31 23:30		noisy conductivity, salinity
+		3/19 12:30 - 03/31 23:30	DO%, DO values deleted due to calibration error
+
+April 1996
+BC:		4/5 20:00, 21:30		turb spike (negative value); removed
+		4/6 22:00 - 23:00		turb spike (high values); removed
+		4/7 22:30 - 4/8 1:00		turb spike (high values); removed
+		4/9 00:00 - 00:30		turb spike (high values); removed
+		4/15 18:00 - 20:30		turb spike (high values); removed
+		4/17 19:00 - 4/18 00:30		turb spike (high values); removed
+		4/18 20:00 - 21:30, 22:30 - 23:00	turb spike (high values); removed
+		4/22 6:00			turb spike (high values); removed
+		4/30 6:00			turb spike (high values); removed
+		4/30 14:30 - 22:00		turb spike (high values); removed
+FD:		4/1 00:00 - 4/2 12:30		DO%, DO values deleted due to calibration error
+		4/1 00:00 - 4/9 10:00		noisy turb removed
+		4/23 10:00 - 4/30 23:30		discontinuity in conductivity, salinity 
+		4/30 10:30 - 4/30 23:30		%DO, DO (drift to high values); removed
+ML:		4/1 00:00 - 4/2 12:30		DO%, DO values deleted due to calibration error
+		4/1 00:00 - 4/24 8:30		noisy conductivity, salinity
+		4/2 13:00 - 4/4 3:30		noisy, out of range turb removed
+		4/4 3:30 - 4/16 11:00		noisy turb
+		4/4 5:00 - 5:30, 6:30 - 8:00, 9:00, 10:30 turbidity spikes (high values)removed
+
+May 1996
+BC:		5/1 2:00 - 4:00, 5:00 - 6:00, 7:30 - 8:00, 9:30, 11:00, 14:00, 15:30, 16:30, 
+		17:30, 19:00, 22:00		turbidity spikes (high values); removed
+		5/2 4:00, 5:00, 6:00, 7:00, 8:00, 9:30, 11:30 - 12:30	turbidity spikes (high values);
+		 removed
+		5/2 14:00 - 5/3 12:00		turbidity spikes (high values); removed
+		5/3 13:00 - 5/18 1:30		noisy, discontinuous %DO, DO & noisy turb
+		5/17 11:30 - 5/18 1:30		noisy, discontinuous %DO, DO & noisy turb removed
+
+FD:		5/1 00:00 - 5/8 15:30		%DO, DO (unreasonably high values);removed
+		5/9 10:00 - 5/15 15:00		downward drift in turb; removed
+		5/17 11:00 - 23:30		%DO, DO (unreasonably high values); removed
+ML:		5/24 11:00			%DO, DO spike (high values); removed
+		5/26 19:00 - 5/31 11:00		%DO, DO (downward drift in values); removed
+		5/31 11:30 - 5/31 23:30		noisy turb removed
+
+June 1996
+BC:		6/1 00:00 - 23:30		turb spike (high values) removed
+		6/3 13:00 - 20:30		turb spike (high values) removed
+		6/12 11:30 - 6/14 10:30		DO,%DO (jump in values) removed
+FD:		6/2 2:00 - 3:30, 9:30, 14:00 - 15:00  %DO, DO (low values) removed
+		6/3 3:00 - 5:30, 10:30		%DO, DO (low values) removed
+		6/3 11:30			conductivity, salinity and DOmg/l spike removed
+		6/4 5:00			%DO, DO (low values) removed
+		6/5 10:30 - 6/6 18:00		%DO, DO (high values) noisy turb 
+		(some negative values); removed
+		6/6 18:30 - 6/19 10:30		sonde failure
+		6/19 11:00 - 6/28 10:00		dip in values for cond, salinity
+		6/28 13:00 - 6/30 23:30		%DO, DO possible membrane puncture; removed
+ML:		6/1 00:00 - 6/12 11:00		noisy turb (some negative values) removed
+		6/12 11:30 - 6/26 10:00		%DO, DO noisy and discontinuous removed
+
+July 1996
+FD:		7/1 00:00 - 7/3 9:30		noisy turb removed
+		7/9 8:00 - 7/17 9:30		noisy %DO, DO, turb; removed
+		7/31 10:00 - 23:30		jump in salinity, conductivity; removed
+ML:		7/8 10:30 - 7/10 11:30		discontinuous %DO, DO (high values); removed
+		7/17 11:00 - 7/18 12:00		pH probe failed (low values)
+
+August 1996
+BC:		8/31 4:00 - 8/31 23:30		noisy %DO, DO; removed
+FD:		8/1 00:00 - 8/7 19:00		discontinuity in conductivity, salinity
+		8/16 10:00			spike in conductivity, salinity 
+removed
+ML:		8/30 13:00 - 8/31 23:30		noisy turbidity removed
+
+September 1996
+BC:		9/1 00:00 - 9/4 9:00		noisy %DO, DO removed
+		9/15 20:30 SpCond and Sal 	apparent probe malfunction
+		9/18 15:00 - 9/30 23:30		noisy turb removed
+FD:		9/6 00:00 - 9/11 9:00		%DO, DO (downward drift) removed
+		9/11 09:00 - 9/25 8:30		large, noisy turb
+ML:		9/1 00:00 - 9/13 8:30		noisy turbidity removed
+
+October 1996
+BC:		10/1 00:00 - 10/2 8:30		noisy turb removed
+		10/29 11:00 - 10/31 23:30	noisy turb removed
+		10/30 3:30-5:30 DO%, DO mg/L	negative values
+FD:		10/28 1:30 			spike in conductivity, salinity removed
+		10/31 17:30 			spike in conductivity, salinity removed
+ML:		10/11 11:30 - 10/24 9:30	noisy turb removed
+		10/21 17:30 - 10/22 12:30	%DO, DO dip in values
+
+November 1996
+BC:		11/1 00:00 - 11/12 9:00 	noisy %DO, DO, turb removed
+FD:		11/20 3:00 			spike in conductivity; salinity, cond and DOmg/l removed
+		11/20 16:30 			spike in conductivity; salinity, cond and DOmg/l removed
+		11/20 17:30 - 11/21 00:00	spike in conductivity; salinity, cond and DOmg/l removed
+		11/21 22:00 - 22:30		spike in conductivity; salinity, cond and DOmg/l removed
+		11/22 10:30			spike in conductivity; salinity, cond and DOmg/l removed
+		11/24 19:30			spike in conductivity; salinity, cond and DOmg/l removed
+        	11/25 20:00 - 20:30		spike in conductivity; salinity, cond and DOmg/l removed
+		11/27 3:30			spike in conductivity; salinity, cond and DOmg/l removed
+		11/28 5:30 - 6:00		spike in conductivity; salinity, cond and DOmg/l removed
+ML:		11/8 10:30 - 11/22 11:30	noisy turb removed
+
+December 1996
+BC:		12/12 9:30			spike in conductivity, salinity removed
+		12/15 12:00 - 13:00		spike in conductivity, salinity removed
+FD:		12/1 00:00 - 12/3 10:30		noisy %DO, DO removed
+		12/3 11:00 - 12/17 11:00	noisy turb removed
+		12/14 15:30 - 12/17 4:00	noisy %DO, DO
+
+11. Missing Data:
+
+Please note that in all cases, depth was fixed at approximately 2 meters.  
+
+January, 1996
+BC:		1/1 00:00 - 1/31 23:30		turb not measured
+
+		1/26 10:30 - 1/31 23:30		%DO not measured
+FD:		1/1 00:00 - 1/1 12:30		DO mg/L, turb not measured
+		1/1 13:00 - 1/16 11:00		no data recorded
+		1/16 11:30 - 1/30 11:00		turb not measured
+		1/30 11:30 - 1/31 23:30		turb not measured
+ML:		1/1 00:00 - 1/2 12:30		%DO  not measured
+		1/2 13:00 - 1/3 12:00		no data recorded
+		1/3 12:30 - 1/9 9:30		turb not measured
+		1/9 10:00			all - sonde out of water for maintenance
+		1/9 10:30 - 1/23 11:30		noisy turb removed
+		1/12 11:00			no data recorded
+		1/23 12:00 - 1/31 23:30		sonde failure
+
+February, 1996
+BC:		2/1 00:00 - 2/9 11:30		%DO, turb not measured
+		2/2 12:30 			all - sonde out of water for maintenance
+		2/9 12:00 - 2/23 11:30		turb not measured
+		2/23 12:00			all - sonde out of water for maintenance
+
+FD:		2/1 00:00 - 2/29 23:30		turb not measured
+		2/7 11:30 - 2/8 1:00		discontinuity in %DO, DO (high values); removed
+		2/11 15:30 - 17:30		discontinuity in %DO, DO (high values); removed
+		2/13 11:30 - 2/13 16:30		no data recorded
+		2/20 11:00 - 2/25 5:30		discontinuity in %DO, DO (high values); removed
+		2/25 16:00 - 22:00		discontinuity in %DO, DO (high values); removed
+		2/26 17:30 - 20:30		discontinuity in %DO, DO (high values);removed
+		2/27 10:00 - 11:30		discontinuity in %DO, DO (high values); removed
+		2/27 12:00			all - sonde out of water for maintenance
+ML:		2/1 00:00 - 2/6 12:00		no data recorded
+		2/17 1:00:0 - 2/20 11:00:00	noisy turb removed
+		2/20 11:30			all - sonde out of water for maintenance
+		2/20 12:00 - 2/29 23:30		%DO, DO, turb not measured
+		2/23 12:30			all - sonde out of water for maintenance
+
+March, 1996
+
+		3/8 11:00 - 3/31 23:30		turb not measured
+FD:		3/1 00:00 - 3/12 13:00		 turb not measured
+		3/12 13:30 - 14:00		%DO, DO spike (high values); removed
+		3/22 12:00			all - sonde out of water for maintenance
+		3/25 6:00			%DO, DO spike (low values); removed
+		3/25 17:30 - 19:00		%DO, DO spike  (low values) removed
+		3/25 21:00			turb spike (high value) removed
+		3/26 11:30 - 16:00		turb spike (high values) removed
+ML:		3/1 00:00 - 3/31 23:30		 turb not measured
+		3/1 00:00 - 3/5 11:00		%DO, DO not measured
+		3/19 7:00			no data recorded
+		3/19 12:00			all - sonde out of water for maintenance
+		3/19 12:30 - 3/31 23:30		DO%, DO values deleted due to calibration error
+
+April, 1996
+BC:		4/1 00:00 - 4/5 10:30		turb not measured
+		4/5 11:00			all - sonde out of water for maintenance
+		4/5 20:00, 21:30		turb spike (negative value) removed
+		4/6 22:00 - 23:00		turb spike (high values) removed
+		4/7 22:30 - 4/8 1:00		turb spike (high values) removed
+		4/9 00:00 - 00:30		turb spike (high values) removed
+		4/15 18:00 - 20:30		turb spike (high values) removed
+		4/17 19:00 - 4/18 00:30		turb spike (high values) removed
+		4/18 20:00 - 21:30, 22:30 - 23:00	turb spike (high values) removed
+		4/22 6:00			turb spike (high values) removed
+		4/30 6:00			turb spike (high values) removed
+		4/30 14:30 - 22:00		turb spike (high values) removed
+FD:		4/1 00:00 - 4/9 10:00		noisy turb removed
+		4/9 10:30 - 4/30 23:30		turb not measured
+		4/26 9:00			all - sonde out of water for maintenance
+		4/30 10:30 - 4/30 23:30		%DO, DO (drift to high values) removed
+ML:		4/1 00:00 - 4/2 12:30		 turb not measured
+		4/1 00:00 - 4/2 12:30		DO%, DO values deleted due to calibration error
+		4/2 13:00 - 4/4 3:30		noisy, out of range turb removed
+		4/4 5:00 - 5:30, 6:30 - 8:00, 9:00, 10:30	turbidity spikes (high values) removed
+		4/9 11:00 			all - sonde out of water for maintenance
+		4/16 11:30			all - sonde out of water for maintenance
+		4/19 11:00			all - sonde out of water for maintenance
+		4/26 11:00			all - sonde out of water for maintenance
+		4/29 11:00- 4/30 23:30		turb not measured
+
+May, 1996
+BC:		5/1 02:00 - 4:00, 5:00 - 6:00,7:30 - 8:00, 9:30, 11:00, 14:00,
+                15:30, 16:30, 17:30, 19:00, 22:00	turbidity spikes (high values) removed
+		5/2 4:00, 5:00, 6:00, 7:00, 8:00, 9:30, 11:30 - 12:30	turbidity spikes 
+		(high values) removed
+		5/2 14:00 - 5/3 12:00		turbidity spikes (high values) removed
+		5/17 11:30 - 5/18 1:30		noisy, discontinuous %DO, DO & noisy turb removed
+		5/18 2:00 - 5/31 13:30		no data recorded
+		5/31 14:00 - 5/31 23:30		turb not measured
+FD:		5/1 00:00 - 5/8 15:30		%DO, DO (unreasonably high values) turb not measured; removed
+		5/8 16:00 - 5/9 9:30		no data recorded
+		5/9 10:00 - 5/15 15:00		downward drift in turb removed
+		5/17 11:00 - 23:30		%DO, DO (unreasonably high values) removed
+		5/20 10:30			all - sonde out of water for maintenance
+		5/22 10:30 - 12:30 		all - sonde out of water, late probe turn on
+		5/22 13:00 - 5/31 23:30		turb not measured
+		5/24 9:30 			all - sonde out of water for maintenanc
+ML:		5/1 00:00 - 5/14 12:00		turb not measured
+		5/6 11:30			all - sonde out of water for maintenance
+		5/10 11:30			all - sonde out of water for maintenance
+		5/14 12:30 - 5/15 10:30		all - sonde out of water for maintenance
+		5/15 11:00 - 5/31 11:00		turb not measured
+		5/24 10:30 			no data recorded
+		5/24 11:00			%DO, DO spike (high values) removed
+		5/26 19:00 - 5/31 11:00		%DO, DO (downward drift in values)removed
+		5/31 11:30 - 5/31 23:30		noisy turb removed 
+
+June, 1996
+BC:		6/1 00:00 - 23:30		turb spike (high values) removed
+		6/3 13:00 - 20:30		turb spike (high values) removed
+		6/12 11:00			all - sonde out of water for maintenance
+		6/12 11:30 - 6/14 10:30		DO,%DO (jump in values) removed
+		6/14 11:00 - 18:00 		all - sonde out of water for maintenance
+		6/14 18:30 - 6/30 23:30		 turb not measured
+FD:		6/1 00:00 - 6/5 10:00		 turb not measured
+		6/2 2:00 - 3:30, 9:30, 14:00 - 15:00  %DO, DO (low values) removed
+		6/3 3:00 - 5:30, 10:30		%DO, DO (low values) removed
+		6/3 11:30			conductivity, salinity and DOmg/l spike removed
+		6/4 5:00			%DO, DO (low values) removed
+		6/5 10:30 - 6/6 18:00		%DO, DO (high values) noisy turb 
+		(some negative values) removed
+		6/6 18:30 - 6/19 10:30		sonde failure
+		6/28 13:00 - 6/30 23:30		%DO, DO possible membrane puncture; removed
+ML:		6/5 11:00			no data recorded
+		6/1 00:00 - 6/12 11:00		noisy turb (some negative values) removed
+		6/12 11:30 - 6/30 23:30		turb not measured
+		6/12 11:30 - 6/26 10:00		%DO, DO noisy and discontinuous removed
+		6/24 10:30			all - sonde out of water for maintenance
+
+July, 1996
+BC:		7/1 00:00 - 7/12 11:00	 	turb not measured
+		7/1 10:00			all - sonde out of water for maintenance
+		7/12 11:30- 7/26 10:00		turb not measured
+		7/26 10:30 - 12:30		all - sonde out of water, late probe turn on
+		7/26 13:00 - 7/31 23:30		turb not measured
+FD:		7/1 00:00 - 7/3 9:30		noisy turb removed
+		7/3 10:00 - 14:00		all - sonde out of water, late probe turn on
+		7/3 14:30 - 7/5 10:00	 	turb not measured
+		7/5 10:30 – 7/9 07:30		no turb??
+		7/9 8:00 - 7/17 9:30		noisy %DO, DO, turb removed
+		7/22 9:30			all - sonde out of water for maintenance
+		7/31 10:00 - 23:30		turb not measured &
+						jump in salinity, conductivity removed
+ML:		7/1 00:00 - 7/31 23:30		turb not measured
+		7/5 11:00			all - sonde out of water for maintenance
+		7/8 10:30 - 7/10 11:30		discontinuous %DO, DO (high values) removed
+		7/10 12:00 - 19:30		all - sonde out of water for maintenance
+		7/17 11:00 - 7/18 12:00		pH probe failed (low values)
+		7/18 12:30 - 7/24 13:30		no data recorded
+	
+August, 1996
+BC:		8/1 00:00 - 8/20 11:00 	 	turb not measured
+		8/14 10:30			all - sonde out of water for maintenance
+		8/20 11:30 - 12:00		all - sonde out of water, late probe turn on
+		8/20 12:30 - 8:31 23:30		turb not measured
+		8/30 9:00			sonde out of water for maintenance
+		8/31 4:00 - 8/31 23:30		noisy %DO, DO removed
+FD:		8/1 00:00 - 8/31 23:30		depth, turb not measured
+		8/5 9:30			all - sonde out of water for maintenance
+		8/12 10:00			all - sonde out of water for maintenance
+		8/14 10:00 - 11:30		all - sonde out of water for maintenance
+		8/16 10:00			spike in conductivity, salinity removed
+		8/19 13:30			all - sonde out of water for maintenance
+		8/26 10:00 			all - sonde out of water for maintenance
+ML:		8/1 00:00 - 8/7 12:00		turb not measured
+		8/7 12:30 - 14:00		all - sonde out of water, late probe turn on
+		8/7 14:30 - 8/30 12:30		turb not measured
+		8/26 17:00			all - sonde out of water for maintenance
+		8/30 13:00 - 8/31 23:30		noisy turbidity removed
+
+September, 1996
+BC:		9/1 00:00 - 9/4 9:00		noisy %DO, DO &turb not measured; removed
+		9/4 9:30 - 9/11 09:30	 	turb not measured
+		9/9 12:00 			all - sonde out of water for maintenance
+		9/11 10:00 - 9/14 19:30		no data, power loss
+		9/15 20:30 			SpCond and Sal , apparent probe malfunction
+		9/14 20:00 - 9/17 23:00		turb not measured
+		9/17 23:30 - 9/18 14:30 	all - sonde out of water for maintenance
+		9/18 15:00 - 9/30 23:30		noisy turb removed
+FD:		9/1 00:00 - 9/11 9:00		turb not measured
+		9/6 00:00 - 9/11 9:00		%DO, DO (downward drift) removed
+		9/11 9:30 - 9/25 8:30		large, noisy turb removed
+		9/20 9:00			all - sonde out of water for maintenance
+		9/25 9:00 - 9/30 23:30		turb not measured
+ML:		9/1 00:00 - 9/13 8:30		noisy turbidity removed
+		9/13 9:00 - 9/30 23:30	 	turb not measured
+		9/27 10:00 - 9/27 16:30		all - sonde out of water, late probe turn on
+
+October, 1996
+BC:		10/1 00:00 - 10/2 8:30		noisy turb removed
+		10/15 11:30 - 12:00		all - sonde out of water, late probe turn on
+		10/15 12:30 - 10/29 10:30	turb not measured
+		10/22 13:30 			all sonde out of water for cleaning
+		10/29 11:00 - 10/31 23:30	noisy turb; removed
+		10/30 3:30-5:30 		DO%, DO mg/L, negative values
+FD:		10/1 00:00 - 10/4 12:00		turb not measured
+		10/4 12:30 - 10/9 9:30		no data recorded, late probe
+		10/9 10:00 – 10/31 23:30	no depth, turb recorded
+		10/22 13:30 - 14:00		all - sonde out of water for maintenance
+		10/22 22:00 - 10/23 00:00	all - sonde out of water for maintenance
+		10/23 10:30 - 12:30		all - sonde out of water for maintenance
+		10/23 22:30 - 10/24 1:30	all - sonde out of water for maintenance
+		10/24 23:30 - 10/25 2:30	all - sonde out of water for maintenance
+		10/25 12:00 - 13:30		all - sonde out of water for maintenance
+		10/26 00:30 - 3:00, 13:00 - 15:30	all - sonde out of water for maintenance
+		10/28 1:30 			spike in conductivity, salinity removed
+		10/28 2:00 - 4:00		all - sonde out of water for maintenance
+		10/28 14:30 - 16:30		all - sonde out of water for maintenance
+		10/29 2:30 - 4:30, 15:30 - 17:00	all - sonde out of water
+		10/30 3:30 - 5:00		all - sonde out of water for maintenance
+		10/31 17:30			spike in conductivity, salinity removed
+ML:		10/1 00:00 - 10/11 11:00	turb not measured 
+		10/11 11:30 - 10/24 9:30	noisy turb removed
+		10/21 17:30 - 10/22 12:30	%DO, DO dip in values removed
+		10/24 10:00 - 10/31 23:30	turb not measured
+
+November, 1996
+BC:		11/1 00:00 - 11/12 9:00 	noisy %DO, DO, turb removed
+		11/12 9:30 - 11/30 23:30	turb not measured
+FD:		11/1 00:00 - 11/30 23:30	turb not measured
+		11/5 10:30 - 11:30, 13:30	all - sonde out of water for maintenance
+		11/20 3:00 			spike in conductivity, salinity removed
+		11/20 16:00			no data, power loss
+		11/20 3:00 			spike in conductivity; salinity, cond and DOmg/l removed
+		11/20 16:30 			spike in conductivity; salinity, cond and DOmg/l removed
+		11/20 17:30 - 11/21 00:00	spike in conductivity; salinity, cond and DOmg/l removed
+		11/21 22:00 - 22:30		spike in conductivity; salinity, cond and DOmg/l removed
+		11/22 10:30			spike in conductivity; salinity, cond and DOmg/l removed
+		11/24 19:30			spike in conductivity; salinity, cond and DOmg/l removed
+        	11/25 20:00 - 20:30		spike in conductivity; salinity, cond and DOmg/l removed
+		11/27 3:30			spike in conductivity; salinity, cond and DOmg/l removed
+		11/28 5:30 - 6:00		spike in conductivity; salinity, cond and DOmg/l removed
+ML:		11/1 00:00 - 11/8 7:00		turb not measured
+		11/8 7:30 - 10:00		no data recorded
+		11/8 10:30 - 11/22 11:30	noisy turb removed
+		11/12 15:30 			all - sonde out of water for maintenance
+		11/22 12:00 - 11/30 23:30 	turb not measured
+
+December, 1996
+BC:		12/1 00:00 - 12/10 15:00	turb not measured
+		12/4 8:00			all - sonde out of water for maintenance
+		12/10 15:30 			all - sonde out of water for maintenance
+		12/10 16:00 - 12/20 11:30	turb not measured
+		12/12 9:30			spike in conductivity, salinity removed
+		12/15 12:00 - 13:00		spike in conductivity, salinity removed
+		12/20 12:00 - 12/31 23:30	turb not measured
+FD:		12/1 00:00 - 12/3 10:30		noisy %DO, DO removed
+		12/1 00:00 - 12/3 10:30		turb not measured
+		12/3 11:00 - 12/17 11:00	noisy turb removed
+		12/17 11:30 - 12/31 23:30 	turb not measured
+ML:		12/1 00:00 - 12/31 23:30	turb not measured
+		12/6 11:00 			all - sonde out of water for maintenance
+
+12. Remarks:
+
+The following is a list of each site and deployment dates. Type of Sonde 
+deployed is indicated by the letter H for hydrolab or Y for YSI.
+
+BC
+1/2 Y
+1/12 Y
+ 1/26 H
+2/9 Y 
+2/23 Y
+3/8 Y
+3/22 Y
+ 4/5 Y
+4/9 H
+4/19 Y
+5/3 Y
+5/17 Y
+5/31 Y
+6/14 H
+6/28 Y
+7/12 Y
+7/26 H
+8/9 H
+ 8/20 Y
+9/4 H
+9/18 Y
+10/2 Y
+1015 Y
+10/29 Y
+11/12 Y
+11/26 Y
+12/10 Y
+12/20 Y
+
+FD
+1/16 Y
+1/30 Y
+2/9 Y
+2/13 Y
+2/23 Y
+2/27 H
+3/12 Y
+3/26 Y
+4/9 H
+4/23 Y
+5/8 Y
+5/22 H
+6/5 Y
+6/19 Y
+7/3 H
+7/5 Y
+7/17 Y
+7/31 H
+8/114 H
+8/28 H
+9/11 Y
+9/24 Y
+10/9 H
+10/21 H
+11/5 H
+11/19 H
+12/3 Y
+12/17 Y
+
+ML
+1/3 Y
+1/9 Y
+2/6 Y
+2/20 H
+3/5 Y
+3/19 H
+4/2 Y
+4/16 Y
+4/29 H
+5/15 Y
+6/12 Y
+6/26 Y
+7/10 H
+7/24 Y
+8/7 Y
+8/19 H
+8/30 Y
+9/13 H
+9/27 H
+10/11 Y
+10/24 Y
+11/8 Y
+11/22 H
+12/6 H
+12/20 H
+
+
+
+
+
+
+		

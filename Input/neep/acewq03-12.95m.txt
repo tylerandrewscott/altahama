@@ -1,0 +1,555 @@
+          ACE Basin National Estuarine Research Reserve
+              March - December 1995 Metadata Report
+edited: 9/19/97
+
+I.   Data Set & Research Descriptors
+1.   Principal investigator & contact persons:
+     Dr. Elizabeth Wenner, Research Coordinator
+        E-mail: wennere@mrd.dnr.state.sc.us;  (803)762-5050 
+     Saundra Upchurch, Reserve Biologist
+        E-mail: upchurchs@mrd.dnr.state.sc.us;  (803)795-6350 ext. 2032
+     Christopher Graffeo, Reserve Technician
+        E-mail: graffeoc@mrd.dnr.state.sc.us; (803)795-6350 ext. 2078
+
+2.   Entry verification:
+     The data are directly downloaded from the YSI Model 6000 sonde to a comma delimited
+file. It is imported into Excel 5.0 and edited according to the CDMO guidelines. The file is
+exported as a tab-delimited file to the CDMO. Saundra Upchurch and Christopher Graffeo are
+responsible for these tasks. 
+
+3.   Experimental design:
+     Agriculture and silviculture are not major industries within the Reserve boundaries but
+impacts due to development on Edisto Island may be a problem. EPA-EMAP sampling in the
+South Edisto River indicated that contaminant levels were higher than expected. Based on
+discussions with local CZM personnel and our knowledge of land use within the Reserve, the
+South Edisto River drainage basin appears to be best suited for studying contrasting hydrographic
+conditions and land use patterns. One station is located by Edisto Island, within a tributary off Big
+Bay Creek.  Surrounded by residential and commercial development and likely subject to nonpoint
+source pollution, this station is designated as the "treatment" site. The second station is located
+by Bailey Island, within a tributary off St. Pierre Creek. No urban development occurs in this area
+surrounding the second station; thereby this station will serve as our "control" site.
+
+4.   Research methods:
+     The YSI monitoring program in the ACE Basin NERR was started in March 1995 at two
+tributaries off Big Bay and St. Pierre creeks. Prior to the YSI deployment, a 12 foot galvanized
+pole was driven two feet into the mud, and a 4 inch diameter PVC pipe, with pre-cut holes, was
+bolted onto the pole, approximately 0.1 m (1 ft) above the creek bottom. The holes, or windows,
+were cut out at the bottom of the pipes for the probes to have direct contact with the water
+column.
+     Sampling periods vary from one to three weeks, and measurements of specific
+conductance, dissolved oxygen, pH, water temperature and water level are recorded every 15
+minutes. At the end of the sampling period, the YSI data loggers are brought back into the
+laboratory for downloading, cleaning and calibration. These procedures are carried out according
+to the methods outlined in the YSI Operating and Service Manual. Down time for cleaning,
+calibrating, and servicing range from 24 to 48 hours.
+     At the April 28 datalogger redeployment, the data loggers at both sites were moved to
+deeper sections of the two tributaries because the probes of the data loggers were not submerged
+continuously at their former locations. The new locations are within one meter of the former
+locations. Starting August 11, the logging interval was changed from 15 minutes to 30 minutes.
+
+5.   Site location and character:
+     The two sampling sites are located in two tributaries off South Edisto River. The
+descriptions of the sites are as follows:
+     Station A--this site is located in a tidal marsh creek off Big Bay Creek (GPS coordinates:
+32 29.662N and 80 19.427W). Surrounded by residential and commercial development and likely
+subject to nonpoint source pollution, this station is designated as the "treatment" site. Pollution
+sources include houses bordering the creek, many with little setback from the bordering Spartina
+marsh; 20 docks in the area constructed of creosote, concrete and Wolmanized pilings; boat
+dockage and heavy boat traffic through the creek; a paved road and three boat ramps off the creek;
+a marina with 75 slips, CCA treated bulkheads and fueling areas located about 0.5 miles
+downstream; two commercial seafood docks with 8-10 commercial shrimp boats; and three
+restaurants. The creek is closed to shellfish harvesting indicating a high concentration of fecal
+coliforms. Vegetation in the area includes salt marsh dominated by Spartina alterniflora with
+isolated areas of Salicornia. Upland fringe areas consist of cabbage palmetto, live oak and cedars.
+Reefs of American oyster (Crassostrea virginica) fringe the creek banks. At the time of
+reconnaissance, depth of the creek midway through ebb tide was 5 feet and salinity was 23%.
+     Station B--this site is located in a tidal creek off St. Pierre Creek (GPS coordinates: 32
+31.724N and 80 21.573W). It is surrounded by a wide expanse of Spartina alterniflora marsh.
+Extensive mud flats and oyster reefs fringe the banks. Upland areas are dominated by maritime
+forest with wax myrtles, live oaks, and palmettos. No development and no agriculture occur in
+this portion of the reserve. This creek is subject to little boat traffic. At the time of
+reconnaissance, depth at low tide was 2.5 feet and salinity was 21%.
+
+6.   Data collection period:
+BEGAN                  ENDED
+ Big Bay
+03/03/95, 18:00:00 03/13/93, 12:30:00
+03/14/95, 18:00:00 03/31/95, 23:45:00
+04/01/95, 00:00:00 04/10/95, 11:00:00
+04/11/95, 18:15:00 04/24/95, 11:45:00
+04/28/95, 18:15:00 04/30/95, 23:45:00
+05/01/95, 00:00:00 05/08/95, 11:30:00
+05/11/95, 11:15:00 05/15/95, 06:30:00
+06/02/95, 12:00:00 06/19/95, 12:00:00
+07/21/95, 12:00:00 07/26/95, 12:00:00
+07/28/95, 12:00:00 07/31/95, 23:45:00
+08/01/95, 00:00:00 08/02/95, 08:15:00
+08/04/95, 12:00:00 08/09/95, 12:00:00
+08/11/95, 18:00:00 08/25/95, 12:30:00
+09/01/95, 00:00:00 09/15/95, 00:00:00
+09/18/95, 13:00:00 09/30/95, 23:30:00
+10/01/95, 00:00:00 10/02/95, 13:00:00
+10/09/95, 18:00:00 10/31/95, 23:30:00
+11/01/95, 00:00:00 11/01/95, 10:30:00
+11/03/95, 14:00:00 11/30/95, 23:30:00
+12/01/95, 00:00:00 12/01/95, 10:30:00
+12/13/95, 18:00:00 12/31/95, 23:30:00
+ St. Pierre
+03/03/95, 18:00:00 03/13/95, 13:00:00
+03/14/95, 18:00:00 03/31/95, 23:45:00
+04/01/95, 00:00:00 04/10/95, 11:45:00
+04/11/95, 18:15:00 04/15/95, 18:00:00
+04/28/95, 18:15:00 04/30/95, 23:45:00
+05/01/95, 00:00:00 05/08/95, 10:45:00
+05/11/95, 11:45:00 05/25/95, 11:30:00
+06/02/95, 12:00:00 06/19/95, 12:00:00
+06/26/95, 15:00:00 06/30/95, 23:45:00
+07/01/95, 00:00:00 07/01/95, 12:45:00
+07/07/95, 12:00:00 07/13/95, 12:00:00
+07/21/95, 12:00:00 07/26/95, 12:00:00
+07/28/95, 12:00:00 07/31/95, 23:45:00
+08/01/95, 00:00:00 08/02/95, 07:45:00
+08/04/95, 12:00:00 08/09/95, 12:00:00
+08/11/95, 18:00:00 08/25/95, 13:00:00
+09/01/95, 00:00:00 09/15/95, 00:00:00
+09/18/95, 13:00:00 09/30/95, 23:30:00
+10/01/95, 00:00:00 10/02/95, 13:00:00
+10/09/95, 18:00:00 10/31/95, 23:30:00
+11/01/95, 00:00:00 11/01/95, 10:00:00
+11/03/95, 14:00:00 11/30/95, 23:30:00
+12/01/95, 00:00:00 12/01/95, 10:00:00
+12/13/95, 18:00:00 12/31/95, 23:30:00
+
+7. Associated researchers and projects:
+   In 1993, the Reserve staff initiated a long-term survey of the decapod crustaceans and
+juvenile fish that utilize the estuarine waters of the Reserve as a nursery ground. There are four
+sampling stations in each of the three major rivers, Ashepoo, Combahee and South Edisto, of the
+Reserve. Stations are located along a salinity gradient, ranging from polyhaline to oligohaline or
+limnetic. Sampling is done each month during daylight flood tide. Trawls are 10 minutes long and
+tows are made against the tide. Several physical parameters are measured at each station: air and
+water temperature, salinity, wind speed and direction, water depth and tidal stage. Cloud cover
+and rainfall conditions are also recorded at each station. To date, we have caught seventy-one
+species of fish and twenty-eight species of decapod crustacean species.
+   Drs. Judith and Peddrick Weis are studying the impacts of Chromated Copper Arsenate
+(CCA)-treated wood on the surrounding benthic communities at several Reserve sites, including
+the ACE Basin and North Inlet-Winyah Bay. The objective of their study is to determine to what
+degree and over what distances benthic fauna may be adversely affected by the contaminants. In
+our Reserve, surface sediment grabs were collected near CCA-treated wood and concrete marine
+structures in Big Bay Creek and near an undisturbed salt marsh along St. Pierre Creek. The
+sediment samples will be analyzed for particle size distribution, organic carbon, copper,
+chromium and arsenic, and the benthic biota will be identified and analyzed for copper, chromium
+and arsenic as well for species richness, abundance, and biomass. Motile consumers such as crabs
+and fish will be analyzed for metals to investigate trophic transfer of wood-derived contaminants.
+The Weis' are in the process of analyzing the data.
+   Drs. Geoff Scott and Tom Mathews are assessing the distribution of contaminants (i.e. trace
+metals, PAHs, pesticides) in sediments within the rivers of the Reserve. Surface sediment grabs
+were collected from twelve sites in the Reserve. Ten sites are located along a salinity
+gradient in Ashepoo, Combahee and South Edisto rivers, and two sites are located in the vicinity
+of our data logger sites. Surface sediment grabs were collected in 1994 from each site, and the
+samples will be analyzed for trace metals (Al, As, Cd, Cr, Cu, Pb, Zn, etc.), PAHs and
+pesticides. Results will be available by September 1995.
+
+II.          Physical Structure Descriptors
+8. Variable sequence, range of measurements, units,  resolution, and accuracy:
+Variable Name  Range of Measurements (Units)      Resolution     Accuracy
+DATE         1-12, 1-31, 00-99 (mo,day,yr)        1 mo, 1 d, 1 yr     N/A
+HOUR         0-24, 0-60, 0-60 (hr,min,sec)        1 h, 1 m, 1 s  N/A
+TEMP         -5 to +45oC             0.01oC       0.1 C+/- 0.4 C 
+SPCOND       0-100 mS/cm             0.01 mS/cm   +/- % reading +0.001                              mS/cm 
+SALINITY     0-70 parts per thousand (ppt)        0.01 ppt  +/-1% or reading or                     0.1 ppt(whichever is greater) 
+DO           0-200 % air saturation (air sat)     0.1 % air sat  +/-2 % air sat
+DO           200-500 % air saturation (air sat)   0.1 % air sat  +/-6 % air sat
+DO           0-20 mg/L               0.1 mg/L      +/-0.2 mg/L
+DO           20-50 mg/L              0.1 mg/L      +/-0.6 mg/L
+DEPTH        0-9.1 meters            0.001 m      +/-0.018 m
+pH           2-14 units              0.01 units   +/-0.2 units
+TURBIDITY    0-1000 NTU              0.1 NTU      +/-5% of 
+                                     reading or 2 NTU(whichever is greater)
+
+9. Coded variable indicator and variable code definitions:
+    SP=St. Pierre       BB=Big Bay
+
+10.          Data anomalies:
+March 1-31, 1995 Sampling Period
+   Big Bay
+a) Between March 14- 31, specific conductance, salinity, and dissolved oxygen, expressed in
+   mg/L, data were deleted because the specific conductance readings exceeded the normal range
+   of values for estuarine waters (>50.0 mS/cm) (see Missing Data section).The salinity and
+   dissolved oxygen data were deleted because these values are calculated from specific
+   conductance readings.
+b) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were probably due to low barometric pressure weather systems.
+   3/21/95              15:45:00-18:30:00
+   3/22/95              05:30:00-07:15:00            16:45:00-19:30:00
+   3/23/95              05:45:00-08:15:00            17:45:00-20:15:00
+   3/26/95              23:00:00
+   3/27/95              11:30:00-12:00:00            22:30:00-23:45:00
+   3/28/95              00:00:00-00:45:00            11:15:00-13:00:00
+   3/29/95              01:00:00      13:15:00-13:30:00
+   3/30/95              13:30:00-14:15:00 
+   3/31/95              02:15:00-02:45:00            13:45:00-14:30:00
+   St. Pierre
+a) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   3/04/95              04:45:00
+   3/07/95              04:45:00      06:30:00       16:15:00  18:45:00
+   3/08/95              05:45:00-06:45:00            17:15:00-18:15:00   20:00:00-20:30:00
+   3/09/95              08:00:00
+   3/16/95              00:00:00      02:15:00       12:30:00  14:30:00
+   3/17/95              13:00:00      15:15:00
+   3/18/95              01:45:00      03:45:00-04:00:00        14:00:00-14:15:00   15:45:00-16:00:00
+   3/19/95              03:30:00-04:00:00            15:15:00  16:15:00-16:30:00
+   3/20/95              03:45:00-04:00:00            05:00:00-05:15:00   15:30:00  17:30:00
+   3/21/95              04:30:00-04:45:00            06:30:00  15:45:00-16:00:00   18:45:00
+   3/22/95              05:00:00-05:15:00            07:15:00-07:30:00   16:45:00-17:00:00
+          19:30:00-19:45:00
+   3/23/95              05:45:00-06:00:00            08:15:00-08:30:00
+          17:30:00-18:00:00           20:00:00-20:30:00
+   3/25/95              09:00:00-09:30:00            21:15:00-22:00:00
+   3/26/95              10:15:00-10:45:00            22:00:00
+   3/27/95              10:15:00      12:15:00-12:30:00        22:15:00
+   3/28/95              01:00:00-01:15:00            10:30:00  13:15:00  23:30:00-23:45:00
+   3/29/95              01:15:00-01:30:00            12:00:00  13:45:00-14:00:00
+   3/30/95              00:30:00-00:45:00            02:00:00-02:15:00   12:15:00  14:45:00
+   3/31/95              00:45:00      03:15:00       13:00:00-13:15:00   15:00:00
+b) The following records include specific conductance values below level expected for
+   mesohaline/polyhaline waters (<18 mS/cm), but the data were not deleted. Spikes in
+   dissolved oxygen also occurred during these periods. Extremely low tides or heavy rainfall
+   may have caused the unusual readings.
+   3/03/95              18:00:00-18:30:00
+   3/04/95              03:00:00      15:00:00-17:00:00
+   3/05/95              16:00:00-17:00:00
+   3/06/95              15:45:00-18:00:00
+   3/11/95              20:30:00-22:00:00
+   3/12/95              09:30:00-10:30:00            21:15:00-23:45:00
+   3/13/95              10:00:00-12:00:00
+   3/14/95              23:30:00
+   3/15/95              12:00:00-13:30:00
+   3/26/95              10:00:00-10:45:00
+c) At various times during low tides, data were deleted because the data logger went dry (see
+   Missing Data section).
+April 1-30, 1995 Sampling Period
+   Big Bay
+a) Between April 1 and 10, specific conductance, salinity, and dissolved oxygen, expressed in
+   mg/L, data were deleted because the specific conductance readings exceeded the normal range
+   of values for estuarine waters (>50.0 mS/cm) (see Missing Data section).The salinity and
+   dissolved oxygen data were deleted because these values are calculated from specific
+   conductance readings.
+b) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   4/01/95              15:00:00
+   4/02/95              15:00:00-15:30:00
+   4/04/95              16:00:00-17:15:00
+   4/05/95              04:45:00-05:00:00
+   4/13/95              11:30:00-13:00:00
+   4/14/95              01:00:00-02:00:00
+   4/15/95              14:30:00-14:45:00
+   4/16/95              15:00:00-15:45:00
+   4/17/95              14:30:00-16:45:00
+   4/18/95              05:00:00-05:15:00            15:30:00-17:15:00
+   4/19/95              16:15:00-18:00:00
+   4/20/95              06:30:00-06:45:00            17:00:00-19:00:00
+   4/21/95              06:45:00-07:45:00            18:15:00-20:15:00
+   4/22/95              06:45:00-08:45:00            19:15:00-21:00:00
+   4/23/95              08:00:00-09:30:00
+   4/24/95              10:00:00-10:30:00
+   4/30/95              14:15:00
+c) Between April 28-30, pH data were deleted because the sensor cracked during deployment
+   (see Missing Data section).
+   St. Pierre
+a) At various times during low tides, data were deleted because the data logger went dry (see
+   Missing Data section).
+b) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   4/01/95              02:00:00-03:30:00            14:15:00-15:30:00
+   4/02/95              02:30:00-02:45:00            04:30:00  14:30:00  16:00:00
+   4/04/95              04:30:00      15:30:00-15:45:00        17:30:00-17:45:00
+   4/05/95              04:15:00-04:30:00            05:30:00-06:00:00
+   4/12/95              11:15:00-11:45:00            23:00:00-23:15:00
+   4/13/95              00:45:00      10:45:00       13:30:00  23:15:00-23:30:00
+   4/14/95              02:15:00      12:15:00-12:30:00        13:45:00-14:00:00
+   4/15/95              00:45:00      02:30:00-02:45:00        12:30:00
+c) The following records include specific conductance values below level expected for
+   mesohaline/polyhaline waters (<18 mS/cm), but the data were not deleted. Extremely low
+   tides or heavy rainfall may have caused the low readings.
+   4/01/95              14:45:00
+   4/03/95              15:30:00-16:15:00
+d) Between April 11-15, pH data were deleted because the sensor cracked during deployment. 
+May 1-31, 1995 Sampling Period
+   Big Bay
+a) Between May 1-8, pH data were deleted because the sensor cracked during deployment.
+b) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   5/01/95              14:30:00-15:00:00
+   5/02/95              14:45:00-16:00:00
+   St. Pierre
+a) Between May 2-8, dissolved oxygen (DO) data were deleted because the DO membrane was
+   damaged during deployment (see Missing Data section).
+b) Between May 11-25, pH data were deleted because pH sensor cracked during deployment
+   (see Missing Data section).
+June 1-30, 1995 Sampling Period
+   Big Bay
+   Between June 2-19, dissolved oxygen (DO) data were deleted because the DO membrane was
+   damaged during deployment (see Missing Data section).
+   St. Pierre
+a) The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   06/12/95             13:00:00
+   06/13/95             01:45:00-02:30:00
+b) Between June 15-19, dissolved oxygen data were deleted due to downward drifts in the
+   readings (see Missing Data section). The downward drifts were due to the fouling of the
+   membrane by algae and tunicates.
+c) Between June 26-30, pH data were deleted because the sensor cracked during deployment 
+   (see Missing Data section).
+July 1-31, 1995 Sampling Period
+   St. Pierre
+a) On July 1, pH data were deleted because the sensor cracked during deployment (see Missing
+   Data section).
+b) Between July 21-26, pH data were deleted because the sensor cracked during deployment (see
+   Missing Data section).
+c) At 16:15 on July 29, dissolved oxygen datum was deleted because the reading was negative.
+ August 1-31, 1995 Sampling Period
+   Big Bay
+   Between August 1-2, dissolved oxygen (DO) data were deleted because the DO membrane
+   was damaged during deployment (see Missing Data section).
+   St. Pierre
+   Between August 22-25, dissolved oxygen data (DO) were deleted because the DO membrane
+   was damaged during deployment (see Missing Data section).
+September 1-30, 1995 Sampling Period
+   Big Bay
+   Between September 18-30, dissolved oxygen (DO) data were deleted because the DO
+   membrane was damaged during deployment (see Missing Data section).
+   St. Pierre
+   Between September 13-15 and 19-30, dissolved oxygen (DO) data were deleted because the
+   DO membrane was damaged during deployment (see Missing Data section).
+October 1-31, 1995 Sampling Period
+   Big Bay
+a) Between October 1-2, dissolved oxygen (DO) data were deleted because the DO membrane
+   was damaged during deployment (see Missing Data section). 
+b) Between October 27-31, DO data were deleted because of downward drifts in the readings
+   (see Missing Data section).
+   St. Pierre
+   Between October 1-2, dissolved oxygen (DO) data were deleted because the DO membrane
+   was damaged during deployment (see Missing Data section).
+November 1-30, 1995 Sampling Period
+   Big Bay
+a) On November 1, dissolved oxygen data were deleted because of a downward drift in the
+   readings (see Missing Data section).
+b) On November 3, dissolved oxygen data were deleted because the readings, expressed as %
+   air sat., were negative (see Missing Data section).
+December 1-31, 1995 Sampling Period
+   Big Bay
+   The following records include negative depth readings but the data were not deleted because
+   specific conductance and dissolved oxygen readings indicated that the sonde was submerged.
+   The negative depth values were due to low barometric pressure weather systems.
+   12/19/95             23:00:00-23:30:00
+   12/20/95             00:00:00-01:00:00
+   St. Pierre
+   At 00:00 on December 20, the negative depth datum was not deleted because specific
+   conductance and dissolved oxygen readings indicated that the sonde was submerged. The
+   negative depth values were due to low barometric pressure weather systems.      
+
+11. Missing data:
+March 1-31, 1995 Sampling Period
+   Big Bay
+a) Between 00:00 on March 1 and 17:45 on March 3, no data are available because the loggers
+   were not yet deployed.
+b) Between 12:45 on March 13 and 18:00 on March 14, no data are available due to downtime
+   for cleaning, calibrating, and servicing of data loggers.
+c) Between 18:15 on March 14 and 23:45 on March 31, salinity, specific conductance, and
+   dissolved oxygen (mg/L) data were deleted because the values were out of range for estuarine
+   waters (>50 mS/cm).
+   St. Pierre
+a) Between 00:00 on March 1 and 17:45 on March 3, no data are available because the data
+   loggers were not yet deployed.
+b) Between 13:15 on March 13 and 18:00 on March 14, no data are available due to downtime
+   for cleaning, calibrating, and servicing of data loggers.
+c) The data in the following records were deleted because the data logger went dry.
+   3/04/95              03:15:00-04:30:00
+   3/07/95              05:00:00-06:15:00            16:30:00-18:30:00
+   3/08/95              18:30:00-19:45:00
+   3/09/95              05:45:00-07:45:00
+   3/14/95              23:45:00
+   3/15/95              00:00:00-01:00:00
+   3/16/95              00:15:00-02:00:00            12:45:00-14:15:00
+   3/17/95              01:00:00-03:00:00            13:15:00-15:00:00
+   3/18/95              02:00:00-03:30:00            14:30:00-15:30:00
+   3/19/95              15:30:00-16:00:00
+   3/20/95              04:15:00-04:45:00            15:45:00-17:15:00
+   3/21/95              05:00:00-06:15:00            16:15:00-18:30:00
+   3/22/95              05:30:00-07:00:00            17:15:00-19:15:00
+   3/23/95              06:15:00-08:00:00            18:15:00-19:45:00
+   3/26/95              22:15:00-23:00:00
+   3/27/95              10:30:00-12:00:00            22:30:00-23:45:00
+   3/28/95              00:00:00-00:45:00            10:45:00-13:00:00
+   3/29/95              00:00:00-01:00:00            12:15:00-13:30:00
+   3/30/95              01:00:00-01:45:00            12:30:00-14:30:00
+   3/31/95              01:00:00-03:00:00            13:30:00-14:45:00
+April 1-30, 1995 Sampling Period
+   Big Bay
+ a)       Between 00:00 on April 1 and 11:00 on April 10, specific conductance (mS/cm), salinity and
+          dissolved oxygen (expressed as mg/L) data collected were deleted because the values were
+          out of range for estuarine waters (>50 mS/cm).
+c) Between 11:15 on April 10 and 18:00 on April 11, no data are available due to downtime for
+   cleaning, calibrating, and servicing of data loggers.
+d) Between 12:00 on April 24 and 18:00 on April 28, no data are available due to downtime for
+   cleaning, calibrating, and servicing of data loggers.
+e) Between 18:15 on April 28 and 23:45 on April 30, pH data were deleted because the sensor
+   cracked during deployment.
+   St. Pierre
+ a)       The data in the following records were deleted because the data logger went dry.
+   4/02/95              03:00:00-04:15:00            14:45:00-15:45:00
+   4/03/95              16:30:00
+   4/04/95              16:00:00-17:15:00
+   4/05/95              04:45:00-05:15:00
+   4/12/95              23:30:00-23:45:00
+   4/13/95              00:00:00-00:30:00            11:00:00-13:15:00   23:45:00
+   4/14/95              00:00:00-02:00:00            12:45:00-13:30:00
+   4/15/95              01:00:00-02:15:00            12:45:00-15:00:00
+b) Between 12:00 on April 10 and 18:00 on April 11, no data are available due to downtime for
+   calibrating and servicing of loggers.
+c) Between April 11-15, pH data were deleted.
+d) Between 18:15 on April 15 and 13:00 on April 24, no data are available due to insufficient
+   battery voltage to operate data logger.
+e) Between 13:15 on April 24 and 18:00 on April 28, no data are available due to downtime for
+   cleaning, calibrating, and servicing of data loggers.
+f) Between April 28-30, no pH data are available because there was no sensor on the data
+   logger.
+May 1-31, 1995 Sampling Period
+   Big Bay
+a) Between May 1-8, pH data were deleted because the sensor cracked during deployment.
+b) Between May 11-15, no pH data are available because there was no sensor on the data
+   logger.
+c) Between 11:45 on May 8 and 11:00 on May 11, no data are available due to downtime for
+   cleaning, calibrating, and servicing of data loggers and for boat repairs.
+d) Between 06:45 on May 15 and 23:45 on May 31, no data are available due to battery failure;
+   to conflicts with regular monthly trawl sampling; and to downtime for cleaning, calibrating,
+   and servicing of data loggers.
+   St. Pierre
+a) Between 09:00 on May 2 and 10:45 on May 8, dissolved oxygen (DO) data were deleted
+   because DO membrane was damaged during deployment.
+b) Between May 1-8, no pH data are available because there was no sensor on the data logger.
+c) Between 11:00 on May 8 and 11:30 on May 11, no data are available due to downtime for
+   cleaning, calibrating, and servicing of data loggers and for boat repairs.
+d) Between May 11-25, pH data were deleted because the sensor cracked during deployment.
+e) Between 11:45 on May 25 and 23:45 on May 31, no data are available due to conflicts with
+   regular monthly trawl sampling and to downtime for cleaning, calibrating, and servicing.
+June 1-30, 1995 Sampling Period
+   Big Bay
+a) Between 00:00 on June 1 and 11:45 on June 2, no data are available due to conflicts with
+   regular monthly trawl sampling and to downtime for cleaning, calibrating, and servicing.
+b) Between 12:00 on June 2 and 12:00 on June 19, dissolved oxygen (DO) data were deleted
+   because DO membrane was damaged during deployment.
+c) Between June 2-19, no pH data are available because there was no sensor on the data logger.
+d) Between 12:15 on June 19 and 23:45 on June 30, no data are available because the logger
+   was sent to YSI for repairs. The data logger did not recognize the sensors during calibration
+   because the PC600 board is not working properly.
+   St. Pierre
+a) Between 00:00 on June 1 and 11:45 on June 2, no data are available due to conflicts with
+   regular monthly trawl sampling and to downtime for cleaning, calibrating, and servicing.
+b) Between 12:00 on June 2 and 12:00 on June 19, no pH data are available because there was
+   no sensor on the data logger.
+c) Between 00:00 on June 15 and 12:00 on June 19, dissolved oxygen (DO) data were deleted
+   because of DO membrane fouling.
+d) Between 12:15 on June 19 and 14:45 hr on June 26, no data are available due to conflicts
+   with regular monthly trawl sampling and to downtime for cleaning, calibrating, and servicing
+   of data loggers.
+e)        Between 15:00 on June 26 and 23:45 on June 30, pH data were deleted because the sensor
+          cracked during deployment.
+July 1-31, 1995 Sampling Period
+   Big Bay
+a) Between 00:00 on July 1 and 11:45 on July 21, no data are available for the period because
+   data logger was sent to YSI for repairs.
+b) Between 12:15 on July 26 and 11:45 on July 28, no data are available due to downtime for
+   servicing and calibrating of data loggers.
+   St. Pierre
+a) Between 13:00 on July 1 and 12:30 on July 5, no data are available due to low battery
+   voltage.
+b) Between 12:45 on July 5 and 11:45 on July 7, no data are available due to downtime for
+   servicing and calibrating of data loggers.
+c) During July 1 and 21-26, pH data were deleted because the sensor cracked during
+   deployment.
+d) Between July 7-13 and 26-31, no pH data are available because there was no sensor on the
+   data logger.
+e) Between 12:15 on July 13 and 11:45 on July 21, no data are available due to downtime for
+   servicing and calibrating of data loggers and to operator error.
+f) Between 12:15 on July 26 and 11:45 on July 28, no data are available for the period due to
+   downtime for servicing and calibrating of data loggers.
+g) At 16:15 on July 29, dissolved oxygen datum was deleted because the reading was negative.
+August 1-31, 1995 Sampling Period
+   Big Bay
+a) Between 12:30 on August 1 and 08:15 on August 2, dissolved oxygen (DO) data were deleted
+   because DO membrane was damaged during deployment.
+b) Between 08:30 on August 2 and 11:45 on August 4, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+c) Between 12:15 on August 9 and 17:45 on August 11, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+d) Between 13:00 on August 25 and 23:30 on August 31, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+   St. Pierre
+a) During August, no pH data are available because there was no sensor on the data logger.
+b) Between 08:00 on August 2 and 11:45 on August 4, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+c) Between 12:15 on August 9 and 17:45 on August 11, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+d) Between 18:30 on August 22 and 13:00 on August 25, dissolved oxygen (DO) data were
+   deleted because DO membrane was damaged during deployment.
+e) Between 13:30 on August 25 and 23:30 on August 31, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+September 1-30, 1995 Sampling Period
+   Big Bay
+a) During September, no pH data are available because there was no sensor on the data logger.
+b) Between 00:30 on September 15 and 12:30 on September 18, no data are available due to
+   downtime for servicing and calibrating of data loggers.
+c) Between 13:00 on September 18 and 23:30 on September 30, dissolved oxygen (DO) data
+   were deleted because DO membrane was damaged during deployment.
+   St. Pierre
+a) During September, no pH data are available because there was no sensor on the data logger.
+b) Between 00:30 on September 15 and 12:30 on September 18, no data are available due to
+   downtime for servicing and calibrating of data loggers.
+c) Between 19:00 on September 13 and 00:00 on September 15 and between 02:30 on
+   September 19 and 23:30 on September 30, dissolved oxygen (DO) data were deleted because
+   the DO membrane was damaged during deployment.
+October 1-31, 1995 Sampling Period
+   Big Bay
+a) During October, no pH data are available because there was no sensor on the data logger.
+b) Between 00:00 on October 1 and 13:00 on October 2, dissolved oxygen (DO) data were
+   deleted because the DO membrane was damaged during deployment.
+c) Between 13:30 on October 2 and 17:30 on October 9, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+d) Between 18:00 on October 27 and 23:30 on October 31, dissolved oxygen data were deleted
+   due to downward drifts in the readings.
+   St. Pierre
+a) During October, no pH data are available because there was no sensor on the data logger.
+b) Between 13:30 on October 2 and 17:30 on October 9, no data are available due to downtime
+   for servicing and calibrating of data loggers.
+c) Between 00:00 on October 1 and 13:00 on October 2, dissolved oxygen (DO) data were
+   deleted because the DO membrane was damaged during deployment.
+November 1-30, 1995 Sampling Period
+   Big Bay
+a) On November 1, no pH data are available because there was no sensor on the data logger.
+b) Between 00:00 and 10:30 on November 1, dissolved oxygen data were deleted due to
+   downward drifts in the readings.
+c) Between 11:00 on November 1 and 13:30 on November 3, no data are available due to
+   downtime for servicing and calibrating of data loggers.
+d) Between 15:00-15:30 on November 3, dissolved oxygen data were deleted because the
+   readings were negative.
+   St. Pierre
+a) On November 1, no pH data are available because there was no sensor on the data logger. 
+b) Between 10:30 on November 1 and 13:30 on November 3, no data are available due to
+   downtime for servicing and calibrating of data loggers.
+December 1-31, 1995 Sampling Period
+   Big Bay
+a) Between 11:00 on December 1 and 17:30 on December 13, no data are available due to
+   downtime for servicing and calibrating of data loggers and to conflicts with other sampling
+   efforts.
+   St. Pierre
+a) Between 10:30 on December 1 and 17:30 on December 13, no data are available due to
+   downtime for servicing and calibrating of data loggers and to conflicts with other sampling
+   efforts.

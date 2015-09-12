@@ -1,0 +1,1503 @@
+Apalachicola NERR Meteorological Metadata 
+January – December 2001
+Last Update: August 24, 2004
+
+I. Data Set & Research Descriptors
+
+
+1) Principal investigator & contact persons:
+
+Lee Edmiston, Research Coordinator
+lee.edmiston@dep.st.fl.us
+850.670.4783
+
+Chad Bedee, Environmental Specialist II
+chad.bedee@dep.st.fl.us
+850.670.4783
+
+Address: 	350 Carroll Street
+		Eastpoint, FL 32328
+
+
+2.)	Entry verification 
+
+	a)  Data Input Procedures:
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each instrument 
+on the weather station to a Campbell Scientific CR10 datalogger.  The CDMO Data Logger 
+Program (nerr.csi) was loaded into the CR10 and controls the sensors and data collection 
+schedule (see 2b of the Entry Verification section for the data collection schedule).  The 
+CR10 then interfaced with the PC208W software supplied by Campbell Scientific.  
+
+Once an entire month of data was available, the CDMO Weather Data Management 
+Program (WDMP) was used to convert the files to an Access database.  This program was 
+developed in Visual Basic to interface with the NERRS data collection schedule (see 2b of 
+the Entry Verification section for the data collection schedule).  The WDMP will 
+automatically input and convert the monthly raw data file into an Access Database.  There 
+are three main steps the WDMP performs.  First, it converts the comma delimited monthly 
+raw data file into an Access Database.  Second, it checks the data against a predetermined set 
+of error criteria (see Part C of this section).  Finally, it produces error and summary 
+reports. 
+Any anomalous data were investigated and are noted below in the Anomalous Data section.  
+Any data corrections that were performed are noted in the Data Correction section below. 
+The most common error reported was for the wind speed less than 0.5 m/s criteria.  Other 
+common errors were temperature changes greater than 3 ºC and precipitation differences 
+greater than 5 mm.
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+B.	Data Collection Schedule
+	
+1. 	Data is collected in the following formats.
+a.    Sample data points are collected every 15 minutes.
+b.	Hourly averages are collected every 60 minutes.
+c.	Daily average, maximum with time, and minimum with time every 24 hours.
+
+2. 	15 minute sample point parameters
+Array 150: Date, Time, Air Temperature (c), Relative Humidity (%), LiCor (par), 
+Barometric Pressure (mb), Wind Speed (m/s), Wind Direction
+Array 151: Rainfall (mm)
+		
+3.	Hourly average parameters
+Array 101: Date, Time, Air Temperature (c), Relative Humidity (%), LiCor (par), 
+Barometric Pressure (mb)
+Array 102: Date, Time, Wind Speed (m/s), Wind Direction, Wind Speed Maximum (m/s)
+
+4.	Daily Averages parameters
+Array 241: Date, Time, Air Temperature (c), Relative Humidity (%), LiCor (par), 
+Barometric Pressure (mb)
+Array 242: Date, Time, Wind Speed (m/s), Wind Direction, Wind Direction Standard 
+Deviation (using Yamartino's Algorithm)
+
+5.	Daily Maximum parameters
+Array 243: Date, Time, Air Temperature (c), Time, Relative Humidity (%), Time,  LiCor 
+(par), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, Battery Voltage, 
+Time
+
+6.	Daily Minimum parameters
+Array 244: Date, Time, Air Temperature (c), Time, Relative Humidity (%), Time,  LiCor 
+(par), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, Battery Voltage, 
+Time
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes
+- Max and min temp recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+- Not changed by more than 25% from the previous 15 minutes
+- Max and min humidity recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month
+
+Wind Speed:
+- Wind speed greater than 30 m/s
+- Wind speed less than .5 m/s for 12 hours
+
+Wind Direction:
+- Wind direction not greater than 360 degrees
+- Wind direction not less than 0 degrees
+
+Pressure:
+- Pressure greater than 1040 mb or less than 980 mb
+- Pressure changes greater than 5 mb per hour
+- Maximum and minimum values recorded for the day
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- Duplicate interval data	
+
+
+3.) Research objectives:
+
+Data collected from the East Bay weather station will complement those data taken from 
+the East Bay water quality station.  Positioning the weather station in East Bay will allow 
+the Reserve to monitor changes in rainfall, photosynthetically active radiation, temperature, 
+and other weather parameters influencing the water quality of East Bay.  East Bay drains the 
+Tate's Hell Swamp area, which was altered in the late 1960's and early 1970's by timber 
+companies.  An EPA grant allowed the Northwest Florida Water Management District to 
+begin restoration of the site in 1995 to reduce non-point source runoff.  
+
+
+4.) Research methods:
+
+There are no analyses, data collection intervals, or QA/QC plans for the WDMP in 
+Apalachicola other than those expressed in Version 4.0 of the CDMO manual.
+
+
+5.) Site location and character:
+
+The Apalachicola National Estuarine Research Reserve is located in the northwestern 
+part of Florida, generally called the panhandle.  It is located adjacent to the City of 
+Apalachicola, and encompasses most of the Apalachicola Bay system, including 52 miles of 
+the lower Apalachicola River.  Passes, both natural and manmade, connect Apalachicola Bay 
+to the northeastern Gulf of Mexico.  The sampling site is located in the upper reaches of East 
+Bay.   East Bay is separated from Apalachicola Bay by two bridges and a causeway and is 
+located to the north of Apalachicola Bay proper.  The bay is 8.2 km long, has an average 
+depth of approximately 1.0 m MHW, and an average width of 1.8 km. The tides in East Bay 
+are mixed and range from 0.3 m to 1.0 m (average 0.5 m).
+  The weather station is located at latitude 29 deg 47.454' N and longitude 84 deg 53.004' W.  
+This site is less than 0.5 nautical miles west of the Apalachicola water quality station.  The 
+site is located near the tip of a peninsula, which separates Blount's Bay from West Bayou.  
+The peninsula is dominated by marsh vegetation (mainly Juncus roemerianus).  There is a 
+cabbage palm hammock along the southern shoreline of the peninsula.  The dominant upland 
+habitat is primarily pineland forest to the northwest, which includes slash pine, saw 
+palmetto, and sand pine.  
+The weather station sensors are mounted at the top of a 3-meter tower.  The Tower is 
+mounted on a 6' platform.  The tipping bucket rain gauge is mounted on a 4' platform 
+approximately 15 feet from the weather station platform.  There is nothing nearby to shade 
+the tower and the nearest wind block is the edge of the pine forest about one-half to three-
+quarters of a mile north to northwest of the station.
+
+
+6.) Data collection period:  January-December, 2001
+
+The Apalachicola weather monitoring station was erected on August 27, 1999 and began 
+monitoring on September 3, 1999.  The data submitted with this report encompasses data 
+collected from 0000 hours January 1 through 2400 hrs December 31, 2001.  Actual module 
+deployment during this time period began on 12/6/2000 at 1050 hrs and ended 1/17/02 at 
+0825.
+
+
+7.) Distribution  
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to analyze, 
+synthesize and publish summaries of the NERRS System-wide Monitoring Program data.  
+The PI retains the right to be fully credited for having collected and processed the data.  
+Following academic courtesy standards, the PI and NERR site where the data were collected 
+will be contacted and fully acknowledged in any subsequent publications in which any part 
+of the data are used.  Manuscripts resulting from the NOAA/OCRM supported research that 
+are produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine Reserves 
+Division, Office of Ocean and Coastal Resource Management, National Ocean Service, 
+National Oceanic and Atmospheric Administration.  The data set enclosed within this 
+package/transmission is only as good as the quality assurance/quality control procedures 
+outlined by the enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal government 
+does not assume liability to the Recipient or third persons, nor will the Federal government 
+reimburse or indemnify the Recipient for its liability due to any losses resulting in any way 
+from the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 Principal investigators and contact persons), from 
+the Data Manager at the Centralized Data Management Office (please see personnel directory 
+under the general information link on the CDMO home page) and online at the CDMO home 
+page http://cdmo.baruch.sc.edu.  Data are available in text format and Access 
+data tables.
+
+
+8.) Associated researchers and projects:
+
+Northwest Florida Water Management District
+Tate's Hell Restoration Project
+Apalachicola Bay Freshwater Needs Study
+ 
+Other than ANERR monitoring, no other projects associated with the weather station have 
+been established yet.
+
+
+II. Physical Structure Descriptors
+
+
+9.) Sensor Specifications
+
+LiCor Quantum Pyranometer
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  Time of Purchase, late 1996
+
+
+Wind Sentry: RM Young Model # 03001
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: At deployment, Aug 27, 1999.
+
+Temperature and Relative Humidity: Vaisala Model #:  HMP35C
+Operating Temperature:-40-+60°C
+Temperature Measurement Range: -40-+60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3%(90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration:  Time of Purchase, late 1996
+
+Barometric Sensor: Vaisala model CS-105
+Operating Range:	
+Pressure:	– 600-1060 mb
+Temperature:	-40-+60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20-60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  time of purchase, late 1996
+
+Precipitation: Tipping Bucket Rain Gauge FIT Model #:  TE 525
+
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: time of purchase, late 1996
+
+
+10.) Coded variable indicator and variable code definitions:  
+
+Site Definitions:  The weather data master table files for the Apalachicola NERR are coded 
+EB, indicating the location of the weather station (East Bay) within the greater 
+Apalachicola Bay system.
+
+
+11.)	Data anomalies/Data corrections:
+
+*Please note that both Julian Day and Calendar Day are recorded and indicated as follows 
+in the documentation below: JulD=Julian Day and CalD=Calendar Day.  
+
+
+January 2001
+
+Array	CalD	JulianD	Time	Error
+102	4	4	1900	Wind speed is less than 0.5 m/s from 4 (4) 1900 to 5 (5) 700	
+The wind speed data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	6	6	1215	Air temp difference from 6 (6) 1215 (14.016) to 6 (6) 1230 
+				(10.861) is greater than 3.0 degrees C
+
+102	6	6	2100	Wind speed is less than 0.5 m/s from 6 (6) 2100 to 7 (7) 1000	
+The air temperature and wind speed data above are considered correct and remain unchanged.
+
+
+Array	CalD	JulianD	Time	Error
+102	14	14	1900	Wind speed is less than 0.5 m/s from 14 (14) 1900 to 15 (15) 1100
+The wind speed data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	23	23	1815	Rel hum difference from 23 (23) 1815 (39.436) to 23 (23) 
+				1830 (70.988) is greater than 25%
+The relative humidity data above are considered correct and remain unchanged.
+
+102	27	27	2000	Wind speed is less than 0.5 m/s from 27 (27) 2000 to 28 (28)900
+The wind speed data above are considered correct and remain unchanged.
+
+
+
+February 2001
+
+Array	CalD	JulianD	Time	Error
+102	6	37	2000	Wind speed is less than 0.5 m/s from 6 (37) 2000 to 7 (38)900
+The wind speed data above are considered correct and remain unchanged.
+
+
+
+March 2002
+
+Array	CalD	JulianD	Time	Error
+150	8	67	15	Air temp is less than minimum temp (10.252) for this date 
+errors occurred for every 15-minute record from 0015 to 0830.
+
+101	8	67	100	Air temp average in 1 hour data (8.8236) is less than 24 hour 
+minimum ( 10.252) errors occurred for every hourly record from 0100 to 1100.
+
+The above errors were associated with the storage module exchange at 1132 on 67 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1200 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	8	67	1200	Technician changed entire 101 Array data from 8 ( 67) 1200
+
+102	8	67	1200	Technician changed entire 102 Array from 8 ( 67) 1200 
+
+241	8	67	2400	Technician changed entire 241 Array from  8 ( 67) 2400 
+
+242	8	67	2400	Technician changed entire 242 Array from  8 ( 67) 2400 
+
+243	8	67	2400	Technician changed entire 243 Array data from  8 ( 67) 2400 
+
+244	8	67	2400	Technician changed entire 244 Array data from  8 ( 67) 2400 
+
+
+Array	CalD	JulianD	Time	Error	
+151	8	67	1145	Precip difference from 8 (67) 1145 (11.176) to 8 (67) 1200 
+				(1.27) is greater than 5 mm.
+The rain data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	12	71	2315	Precip difference from 12 (71) 2315 (9.652) to 12 (71) 2330 
+				(17.272) is greater than 5 mm
+
+151	12	71	2330	Precip difference from 12 (71) 2330 (17.272) to 12 (71) 2345
+				(8.636) is greater than 5 mm
+
+151	12	71	2345	Precip difference from 12 (71) 2345 (8.636) to  12 (71) 2400 
+				(16.764) is greater than 5 mm
+All rain data recorded on 71 considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	13	72	45	Precip difference from 13 (72) 45 (17.018) to 13 (72) 100 
+				(22.352) is greater than 5 mm
+
+151	13	72	115	Precip difference from 13 (72) 115 (21.844) to 13 (72) 130 
+					(10.414) is greater than 5 mm
+
+151	13	72	130	Precip difference from 13 (72) 130 (10.414) to 13 (72) 145 
+				(.762) is greater than 5 mm
+All rain data recorded on 72 are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	20	79	200	Air temp difference from 20 (79) 200 (15.232) to 20 (79) 
+				215 (11.033) is greater than 3.0 degrees C
+
+151	20	79	145	Precip difference from 20 (79) 145 (.254) to 20 (79) 200 
+				(9.652) is greater than 5 mm
+
+151	20	79	200	Precip difference from 20 (79) 200 (9.652) to 20 (79) 215 
+				(.508) is greater than 5 mm	
+The air temperature and precipitation data on 79 are considered correct and remain 
+unchanged.  The air temperature drop is probably associated with the indicated rain 
+event.
+
+Array	CalD	JulianD	Time	Error
+151	25	84	845	Precip difference from 25 (84) 845 (1.016) to 25 (84) 900 
+ 				(13.716) is greater than 5 mm
+
+151	25	84	900	Precip difference from 25 (84) 900 (13.716) to 25 (84) 915
+ 				(2.54) is greater than 5 mm
+All precipitation data recorded on 84 are considered correct and remain unchanged.
+
+
+
+April 2001
+
+Array	CalD	JulianD	Time	Error
+150	5	95	15	Air temp is less than minimum temp (17.642) for this date 
+				errors occurred for every 15-min array from 015 to 0545.
+
+101	5	95	100	Air temp average in 1 hour data (17.207) is less than 24 hour 
+		minimum (17.642) errors occurred for every hourly array from 0100 to 0600.
+
+101	5	95	100	Pressure average in 1 hour data (1017.8) is less than 24 hour 
+		minimum (1018.1) errors occurred for every hourly array from 0100 to 0600.
+
+The above errors were associated with the storage module exchange at 1330 on 95 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1400 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	5	95	1400	Technician changed entire 101 Array data from 5 ( 95) 1400
+
+102	5	95	1400	Technician changed entire 102 Array from 5 ( 95) 1400
+
+241	5	95	2400	Technician changed entire 241 Array from  5 ( 95) 2400
+
+242	5	95	2400	Technician changed entire 242 Array from  5 ( 95) 2400
+
+243	5	95	2400	Technician changed entire 243 Array data from  5 ( 95) 2400
+
+244	5	95	2400	Technician changed entire 244 Array data from  5 ( 95) 2400 
+
+
+Array	CalD	JulianD	Time	Error
+150	20	110	800	Air temp difference from 20 (110) 800 (14.79) to 20 (110) 
+				815 (19.574) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+
+
+May 2001
+
+Array	CalD	JulianD	Time	Error
+150	2	122	700	Air temp is less than minimum temp ( 18.876) for this date
+
+150	2	122	715	Air temp is less than minimum temp ( 18.876) for this date
+
+101	2	122	300	Pressure average in 1 hour data ( 1013.2) is less than 24 hour 
+				minimum ( 1013.3)
+
+101	2	122	400	Pressure average in 1 hour data ( 1013) is less than 24 hour 
+				minimum ( 1013.3)
+
+101	2	122	500	Pressure average in 1 hour data ( 1013) is less than 24 hour 
+				minimum ( 1013.3)
+	
+The above errors were associated with the storage module exchange at 1340 on 122.  
+Hourly arrays for 1400 and all 24-hour arrays were deleted for this date.  Corrections are 
+listed below: 
+
+Array	CalD	JulianD	Time	Error
+101	2	122	1400	Technician changed entire 101 Array data from 2 ( 122) 1400 
+
+102	2	122	1400	Technician changed entire 102 Array from 2 ( 122) 1400 
+
+241	2	122	2400	Technician changed entire 241 Array from  2 ( 122) 2400 
+
+242	2	122	2400	Technician changed entire 242 Array from  2 ( 122) 2400 
+
+243	2	122	2400	Technician changed entire 243 Array data from  2 ( 122) 2400 
+
+244	2	122	2400	Technician changed entire 244 Array data from  2 ( 122) 2400 
+
+
+Array	CalD	JulianD	Time	Error
+150	13	133	1245	Rel hum difference from 13 (133) 1245 (44.515) to 13 (133) 
+				1300 (0) is greater than 25%
+
+150	13	133	1300	Rel hum difference from 13 (133) 1300 (0) to 13 (133) 1315 
+				(44.247) is greater than 25%
+
+150	13	133	1330	Rel hum difference from 13 (133) 1330 (43.378) to 13 (133) 
+				1345 (.13347) is greater than 25%
+
+150	13	133	1345	Rel hum difference from 13 (133) 1345 (.13347) to 13 (133) 
+				1400 (64.932) is greater than 25%
+The relative humidity data recorded at 1300 and 1345 were considered incorrect and deleted.  
+Corrections are listed below: 
+
+Array	CalD	JulianD	Time	Error
+150	13	133	1300	Technician changed rhum 150 Array data from  13 ( 133) 1300 
+
+150	13	133	1345	Technician changed rhum 150 Array data from  13 ( 133) 1345 
+
+
+Array	CalD	JulianD	Time	Error
+150	24	144	2030	Rel hum difference from 24 (144) 2030 (76.193) to 24 (144) 
+				2045 (.13356) is greater than 25%
+
+150	24	144	2045	Rel hum difference from 24 (144) 2045 (.13356) to 24 (144) 
+				2100 (75.335) is greater than 25%
+The relative humidity datum recorded at 2045 was considered incorrect and deleted.  Corrections
+are listed below: 
+
+Array	CalD	JulianD	Time	Error
+150	24	144	2045	Technician changed rhum 150 Array data from  24 ( 144) 2045 
+
+
+
+June 2001
+
+Array	CalD	JulianD	Time	Error
+150	8	159	645	Air temp is less than minimum temp (24.691) for this date
+
+150	8	159	700	Air temp is less than minimum temp (24.691) for this date
+
+150	8	159	715	Air temp is less than minimum temp (24.691) for this date
+
+150	8	159	730	Air temp is less than minimum temp (24.691) for this date
+
+101	8	159	800	Air temp average in 1 hour data (24.681) is less than 24 hour 
+				minimum (24.691)
+
+The above errors were associated with the storage module exchange at 0937 on 159 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1000 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+
+101	8	159	1000	Technician changed entire 101 Array from  8 ( 159) 1000 
+
+102	8	159	1000	Technician changed entire 102 Array from  8 ( 159) 1000 
+
+241	8	159	2400	Technician changed entire 241 Array from  8 ( 159) 2400 
+
+242	8	159	2400	Technician changed entire 242 Array from  8 ( 159) 2400 
+
+243	8	159	2400	Technician changed entire 243 Array data from  8 ( 159) 2400 
+
+244	8	159	2400	Technician changed entire 244 Array data from  8 ( 159) 2400 
+
+
+Array	CalD	JulianD	Time	Error
+150	10	161	1215	Air temp difference from 10 (161) 1215 (29.57) to 10 (161) 
+				1230 (26.489) is greater than 3.0 degrees C
+The data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	11	162	600	Precip difference from 11 (162) 600 (3.302) to 11 (162) 615 
+				(9.144) is greater than 5 mm
+
+151	11	162	630	Precip difference from 11 (162) 630 (11.176) to 11 (162) 
+				645 (2.54) is greater than 5 mm
+
+151	11	162	1345	Precip difference from 11 (162) 1345 (1.27) to 11 (162) 
+				1400 (10.414) is greater than 5 mm
+
+151	11	162	2130	Precip difference from 11 (162) 2130 (3.302) to 11 (162) 
+				2145 (12.954) is greater than 5 mm
+
+151	11	162	2145	Precip difference from 11 (162) 2145 (12.954) to 11 (162) 
+				2200 (5.334) is greater than 5 mm
+
+151	11	162	2230	Precip difference from 11 (162) 2230 (6.096) to 11 (162) 
+				2245 (.762) is greater than 5 mm
+All rain data recorded on 162 are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	15	166	1730	Rel hum difference from 15 (166) 1730 (59.795) to 15 (166) 
+				1745 (0) is greater than 25%
+
+150	15	166	1745	Rel hum difference from 15 (166) 1745 (0) to 15 (166) 1800 
+				(61.397) is greater than 25%
+
+The relative humidity datum recorded at 1745 was considered incorrect, deleted and replaced 
+with 55555.  Correction is listed below:
+
+Array	CalD	JulianD	Time	Error
+150	15	166	1745	Technician changed rhum 150 Array data from  15 ( 166) 1745
+
+	
+Array	CalD	JulianD	Time	Error
+150	17	168	1330	Rel hum difference from 17 (168) 1330 (55.253) to 17 (168) 
+				1345 (0) is greater than 25%
+
+150	17	168	1345	Rel hum difference from 17 (168) 1345 (0) to 17 (168) 1400 
+				(60.592) is greater than 25%
+The relative humidity data recorded at 1345 was considered incorrect, deleted and 
+replaced with 55555.  Correction is listed below: 
+
+Array	CalD	JulianD	Time	Error
+150	17	168	1345	Technician changed rhum 150 Array data from  17 ( 168) 1345 
+
+
+Array	CalD	JulianD	Time	Error
+150	18	169	1730	Air temp difference from 18 (169) 1730 (27.734) to 18 
+				(169) 1745 (23.922) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	22	173	1215	Air temp difference from 22 (173) 1215 (28.645) to 22 
+				(173) 1230 (24.956) is greater than 3.0 degrees C
+
+150	22	173	1230	Air temp difference from 22 (173) 1230 (24.956) to 22 
+				(173) 1245 (21.796) is greater than 3.0 degrees C
+
+150	22	173	2130	Air temp difference from 22 (173) 2130 (24.167) to 22 
+				(173) 2145 (20.726) is greater than 3.0 degrees C 
+
+151	22	173	1300	Precip difference from 22 (173) 1300 (5.588) to 22 (173) 
+				1315 (.508) is greater than 5 mm
+The air temperature and precipitation data above are considered correct and remain 
+unchanged.  They are probably the result of the same rain event.
+
+Array	CalD	JulianD	Time	Error
+150	23	174	1200	Air temp difference from 23 (174) 1200 (27.562) to 23
+				(174) 1215 (23.158) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	24	175	2345	Rel hum difference from 24 (175) 2345 (87.508) to 24 (175) 
+				2400 (.0668) is greater than 25%
+
+150	24	175	2400	Rel hum difference from 24 (175) 2400 (.0668) to 25 (176) 
+				15 (81.505) is greater than 25%
+The relative humidity datum recorded at 2400 was considered incorrect, deleted and
+replaced with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	24	175	2400	Technician changed rhum 150 Array data from  24 ( 175) 2400 
+
+Array	CalD	JulianD	Time	Error
+150	25	176	1545	Rel hum difference from 25 (176) 1545 (45.66) to 25 (176) 
+				1600 (100) is greater than 25%
+
+150	25	176	1600	Rel hum difference from 25 (176) 1600 (100) to 25 (176) 
+				1615 (44.057) is greater than 25%
+The relative humidity datum recorded at 1600 was considered incorrect, deleted 
+and replaced with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	25	176	1600	Technician changed rhum 150 Array data from  25 ( 176) 1600 
+
+
+Array	CalD	JulianD	Time	Error
+150	29	180	400	Rel hum difference from 29 (180) 400 (100) to 29 (180) 415 
+				(0) is greater than 25%
+
+150	29	180	415	Rel hum difference from 29 (180) 415 (0) to 29 (180) 430 
+				(100) is greater than 25%
+The relative humidity datum recorded at 0415 was considered incorrect, deleted and replaced
+with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	29	180	415	Technician changed rhum 150 Array data from  29 ( 180) 415   
+
+
+Array	CalD	JulianD	Time	Error
+151	29	180	1000	Precip difference from 29 (180) 1000 (8.382) to 29 ( 180) 
+				1015 (2.032) is greater than 5 mm
+
+151	29	180	1215	Precip difference from 29 (180) 1215 (.254) to 29 (180) 
+				1230 (11.938) is greater than 5 mm
+
+151	29	180	1230	Precip difference from 29 (180) 1230 (11.938) to 29 (180) 
+				1245 (1.524) is greater than 5 mm
+All precipitation data recorded on 180 are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	30	181	1500	Precip difference from 30 (181) 1500 (.254) to 30 (181) 
+				1515 (10.414) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+
+
+
+July 2001
+
+Array	CalD	JulianD	Time	Error
+151	2	183	415	Precip difference from 2 (183) 415 (5.588) to 2 (183) 430
+ 				(0.508) is greater than 5 mm.
+The precipitation datum above is considered correct and remains unchanged. 
+
+
+Array	CalD	JulianD		Error
+150      6       187		An "air temperature less than minimum temperature (24.642)     
+for this date" error occurred for every observation between 0030 and 0630 then again between 
+0915 and 1145. 
+
+101      6	187		An "Air temperature average in one hour data is less than 
+24 hr minimum" error occurred every hour between 0100 and 0700 and again between 1000 and 1200.
+
+101	6	187		An "Pressure average in one hour data is less than 24 h
+minimum" error occurred  at 0400 and again every hour between 0900 and 1200. 
+
+The above errors were associated with the storage module exchange at 1415 on 187 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1500 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	6	187	1500	Technician changed entire 101 Array from  6 ( 187) 1500 				to  6 ( 187) 2400
+
+102	6	187	1500	Technician changed entire 102 Array from  6 ( 187) 1500
+
+241	6	187	2400	Technician changed entire 241 Array from  6 ( 187) 2400 
+				to  6 ( 187) 2400
+
+242	6	187	2400	Technician changed entire 242 Array from  6 ( 187) 2400 
+				to  6 ( 187) 2400
+
+243	6	187	2400	Technician changed entire 243 Array data from  6 ( 187) 2400 
+				to  6 ( 187) 2400
+
+244	6	187	2400	Technician changed entire 244 Array data from  6 ( 187) 2400 
+				to  6 ( 187) 2400
+
+
+Array	CalD	JulianD	Time	Error
+150	8	189	1430	Air temp difference from 8 (189) 1430 (31.405) to 8 (189) 
+				1445 (28.299) is greater than 3.0 degrees C.
+
+150	8	189	1515	Air temp difference from 8 (189) 1515 (25.799) to 8 (189) 
+				1530 (22.464) is greater than 3.0 degrees C.
+
+151	8	189	1530	Precip difference from 8 (189) 1530 (21.59) to 8 (189) 1545 
+				(15.494) is greater than 5 mm.
+
+151	8	189	1545	Precip difference from 8 (189) 1545 (15.494) to 8 (189) 
+				1600 (1.778) is greater than 5 mm.
+The temperature and precipitation data above were probably the result of the same 
+rain event.  They are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	9	190	1515	Air temp difference from 9 (190) 1515 (31.626) to 9 (190) 
+				1530 (27.098) is greater than 3.0 degrees C
+
+150	9	190	1400	Rel hum difference from 9 (190) 1400 (60.922) to 9 (190) 
+				1415 (95.62) is greater than 25%
+
+150      9	190	1415	Rel hum difference from 9 (190) 1415 (95.62) to 9 (190) 
+				1430 (63.057) is greater than 25%
+The air temperature data above are considered correct and remain unchanged.  
+The relative humidity datum recorded at 1415 on 190 was considered incorrect, deleted and 
+replaced with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	9	190	1415	Technician changed rhum 150 Array data from  9 ( 190) 1415 
+
+
+Array	CalD	JulianD	Time	Error
+150	10	191	915	Rel hum difference from 10 (191) 915 (87.447) to 10 (191) 
+				930 (0) is greater than 25%
+
+150	10	191	930	Rel hum difference from 10 (191) 930 (0) to 10 (191) 945 
+				(83.572) is greater than 25%
+The relative humidity datum recorded at 0930 was considered incorrect, deleted and replaced
+with 55555.  Correction is below: 
+
+150	10	191	930	Technician changed rhum 150 Array data from  10 ( 191) 930 
+
+
+Array	CalD	JulianD	Time	Error
+151	11	192	800	Precip difference from 11 (192) 800 (.254) to 11 (192) 815 
+				(5.588) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+
+151	12	193	1100	Precip difference from 12 (193) 1100  (128) to 12 (193) 
+				1115 (.254) is greater than 5 mm
+
+151	12	193	1200	Precip difference from 12 (193) 1200 (2.54) to 12 (193) 
+				1215 (17.018) is greater than 5 mm
+	
+151	12	193	1215	Precip difference from 12 (193) 1215 (17.018) to 12 (193) 
+				1230 (6.096) is greater than 5 mm
+The rain data above are considered correct and remain unchanged.
+
+150	17	198	1900	Rel hum difference from 17 (198) 1900 (84.975) to 17 (198) 
+				1915 (.06675) is greater than 25%
+
+150	17	198	1915	Rel hum difference from 17 (198) 1915 (.06675) to 17 (198) 
+				1930 (88.184) is greater than 25%
+The relative humidity datum recorded at 1915 on 198 is considered incorrect, deleted and 
+replaced with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	17	198	1915	Technician changed rhum 150 Array data from  17 ( 198) 1915 
+
+
+Array	CalD	JulianD	Time	Error
+150	19	200	1200	Air temp difference from 19 (200) 1200 (30.68) to 19 (200) 
+				1215 (26.828) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	18	199	1545	Precip difference from 18 (199) 1545 (11.938) to 18 (199) 
+				1600 (6.096) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150      20	201	1500	Air temp difference from 20 (201) 1500 (31.188) to 20 
+				(201) 1515 (25.344) is greater than 3.0 degrees C
+
+151	20	201	1515	Precip difference from 20 (201) 1515 (3.556) to 20 (201) 
+				1530 (11.684) is greater than 5 mm
+
+151	20	201	1530	Precip difference from 20 (201) 1530 (11.684) to 20 (201) 
+				1545 (2.54) is greater than 5 mm
+The air temperature and precipitation data above are considered correct and remain 
+unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	21	202	1745	Precip difference from 21 (202) 1745 (1.27) to 21 (202) 
+				1800 (7.874) is greater than 5 mm
+
+151	21	202	1815	Precip difference from 21 (202) 1815 (8.128) to 21 (202) 
+				1830 (.508) is greater than 5 mm
+The precipitation data above are considered correct and remains unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	22	203	1830	Air temp difference from 22 (203) 1830 (29.328) to 22
+				(203) 1845 (25.303) is greater than 3.0 degrees C
+
+151	22	203	1845	Precip difference from 22 (203) 1845 (5.334) to 22 (203) 
+				1900 (.254) is greater than 5 mm
+The air temperature and precipitation data above are considered correct and remain 
+unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	24	205	800	Precip difference from 24 (205) 800 (7.874) to 24 (205) 815 
+				(1.27) is greater than 5 mm
+
+151	24	205	915	Precip difference from 24 (205) 915 (6.604) to 24 (205) 930 
+				(.762) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150      28	209	 1230    Air temp difference from 28 (209) 1230 (30.42) to 28 (209) 
+				1245 (27.362) is greater than 3.0 degrees C
+
+150	 28	209	 1430    Air temp difference from 28 (209) 1430 (30.341) to 28
+ 				(209) 1445 (25.258) is greater than 3.0 degrees C
+The above air temperature data are considered correct and remains unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	30	211	1900	Rel hum difference from 30 (211) 1900 (75.745) to 30 (211) 
+				1915 (.06674) is greater than 25%
+
+150	30	211	1915	Rel hum difference from 30 (211) 1915 (.06674) to 30 (211) 
+				1930 (83.701) is greater than 25%
+The relative humidity datum recorded at 1915 on 211 was deleted and replaced with 
+55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	30	211	1915	Technician changed rhum 150 Array data from  30 ( 211) 1915 
+
+
+
+August 2001
+
+Array	CalD	JulianD	Time	Error
+151	1	213	1345	Precip difference from 1 (213) 1345 (.508) to 1 (213) 1400  
+				(6.604) is greater than 5 mm
+
+151	1	213	1400	Precip difference from 1 (213) 1400 (6.604) to 1 (213) 1415 
+				(.508) is greater than 5 mm
+The precipitation data above are considered correct and remains unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	5	217	1200	Precip difference from 5 (217) 1200 (4.064) to 5 ( 17) 1215 
+				(11.684) is greater than  mm
+
+151	5	217	1215	Precip difference from 5 (217) 1215 (11.684) to 5 (217) 
+				1230 (1.27) is greater than 5 mm
+
+151	5	217	1715	Precip difference from 5 (217) 1715 (6.35) to 5 (217) 1730 
+				(.508) is greater than 5 mm
+	
+151	6	218	245	Precip difference from 6 (218) 245 (.508) to 6 (218) 300 
+				(6.35) is greater than 5 mm
+
+151	6	218	430	Precip difference from 6 (218) 430 (1.016) to 6 (218) 445 
+				(6.858) is greater than 5 mm
+The precipitation data shown above are associated with Tropical Storm Barry. They 
+are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	9	221		Air temperature is less than minimum temperature (24.915) for 
+this date errors occurred on every 15 min instantaneous reading from 0015 to 0715.  
+
+Array	CalD	JulianD	Time	Error
+101	9	221		Air temp average in 1 hour data is less than 24 hour minimum 
+(24.915) for this date error occurred for every hour between  0100 and 0700.	
+
+The above errors were associated with the storage module exchange at 1051 on 221 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1100 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	9	221	1100	Technician changed entire 101 Array data from 9 ( 221) 1100 
+				to  9 ( 221) 1100
+
+102	9	221	1100	Technician changed entire 102 Array from 9 ( 221) 1100 
+				to  9 ( 221) 1100
+
+241	9	221	2400	Technician changed entire 241 Array from  9 ( 221) 2400 
+				to  9 ( 221) 2400
+
+242	9	221	2400	Technician changed entire 242 Array from  9 ( 221) 2400 
+				to  9 ( 221) 2400
+
+243	9	221	2400	Technician changed entire 243 Array data from  9 ( 221) 2400 
+				to  9 ( 221) 2400
+
+244	9	221	2400	Technician changed entire 244 Array data from  9 ( 221) 2400 
+				to  9 ( 221) 2400
+
+
+Array	CalD	JulianD	Time	Error	
+150	11	223	1245	Air temp difference from 11 (223) 1245 (29.623) to 11
+				(223) 1300 (25.825) is greater than 3.0 degrees C
+The temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	18	230	1200	Air temp difference from 18 (230) 1200 (31.225) to 18 
+				(230) 1215 (26.751) is greater than 3.0 degrees C.
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error	
+150	20	232	1430	Rel hum difference from 20 (232) 1430 (61.728) to 20 (232) 
+				1445 (100) is greater than 25%
+	
+150	20	232	1445	Rel hum difference from 20 (232) 1445 (100) to 20 (232) 
+				1500 (65.532) is greater than 25%
+The relative humidity datum recorded at 1445 on 232 was considered incorrect, deleted and
+replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	20	232	1445	Technician changed rhum 150 Array data from  20 ( 232) 1445 
+
+
+Array	CalD	JulianD	Time	Error
+150	21	233	1545	Rel hum difference from 21 (233) 1545 (66.802) to 21 (233) 
+				1600 (0.06674) is greater than 25%
+
+150	21	233	1600	Rel hum difference from 21 (233) 1600 (0.06674) to  21 (233) 
+				1615 (42.31) is greater than 25%
+The relative humidity datum recorded at 1600 on 233 was considered incorrect, deleted and
+replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	21	233	1600	Technician changed rhum 150 Array data from  21 ( 233) 1600 
+
+Array	CalD	JulianD	Time	Error
+
+150	22	234	1130	Rel hum difference from 22 (234) 1130 (39.579) to 22 (234) 
+				1145 (0) is greater than 25%
+
+150	22	234	1145	Rel hum difference from 22 (234) 1145 (0) to 22 (234) 1200 
+				(39.175) is greater than 25%
+
+150	22	234	1630	Rel hum difference from 22 (234) 1630 (51.784) to 22 (234) 
+				1645 (0.06673) is greater than 25%
+
+150	22	234	1645	Rel hum difference from 22 (234) 1645 (.06673) to 22 (234) 
+				1700 (48.581) is greater than 25%
+The relative humidity data recorded at 1145 and 1645 on 234 were considered incorrect, deleted
+and replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	22	234	1145	Technician changed rhum 150 Array data from  22 ( 234) 1145 
+150	22	234	1645	Technician changed rhum 150 Array data from  22 ( 234) 1645 
+
+Array	CalD	JulianD	Time	Error
+150	25	237	1115	Rel hum difference from 25 (237) 1115 (55.526) to 25 (237) 
+				1130 (100) is greater than 25%
+
+150	25	237	1130	Rel hum difference from 25 (237) 1130 (100) to 25 (237) 
+				1145 (56.191) is greater than 25%
+The relative humidity datum recorded at 1130 on 237 was considered incorrect, deleted
+and replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	25	237	1130	Technician changed rhum 150 Array data from  25 ( 237) 1130 
+
+Array	CalD	JulianD	Time	Error
+150	29	241	1500	Rel hum difference from 29 (241) 1500 (64.864) to 29 (241) 
+				1515 (0) is greater than 25%
+
+150	29	241	1515	Rel hum difference from 29 (241) 1515 (0) to 29 (241) 1530 
+				(68.267) is greater than 25%
+The relative humidity datum recorded at 1515 on 241 was considered incorrect , deleted
+and replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	29	241	1515	Technician changed rhum 150 Array data from  29 ( 241) 1515 
+
+
+
+
+September 2001
+
+Array	CalD	JulianD	Time	Error
+151	1	244	200	Precip difference from 1 (244) 200 (6.858) to 1 (244) 215 
+				(254) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	3	246	1215	Precip difference from 3 (246) 1215 (9.906) to 3 (24) 1230 
+				(0.254) is greater than 5 mm 
+
+150	3	246	1200	Air temp difference from 3 (246) 1200 (27.164) to 3 (246) 
+				1215 (23.521) is greater than 3.0 degrees C 
+The precipitation and air temperature data above are considered correct and remain 
+unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	6	249	2300	Precip difference from 6 (249) 2300 (5.334) to 6 (249) 2315 
+				(0 .254) is greater than 5 mm 
+The precipitation data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+151	11	254	1815	Precip difference from 11 (254) 1815 (0 .508) to 11 (254) 
+				1830 (7.62) is greater than 5 mm
+	
+151	11	254	1830	Precip difference from 11 (254) 1830 (7.62) to 11 (254) 
+				1845 (0.508) is greater than 5 mm 
+		
+150	11	254	1715	Air temp difference from 11 (254) 1715 (30.385) to 11(254) 
+				1730 (27.384) is greater than 3.0 degrees C
+The precipitation and temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	12	255	1900	Air temp difference from 12 (255) 1900 (26.871) to 12 (255) 
+				1915 (23.606) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+150	13	256	1715	Air temp difference from 13 (256) 1715 (28.058) to 13 (256) 
+				1730 (23.868) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+150	21	264		Air temperature is less than minimum temperature 
+(22.195) for this date errors occurred on every 15 min instantaneous reading from 0015 to 0830.  
+
+Array	CalD	JulianD	Time	Error
+101	21	264		Air temp average in 1 hour data is less than 24 hour 
+minimum for this date error occurred for every hour between  0100 and 0800.
+		
+The above errors were associated with the storage module exchange at 1054 on 264 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1100 and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	21	264	1100	Technician changed entire 101 Array data from 21 ( 264) 1100 
+				
+102	21	264	1100	Technician changed entire 102 Array from 21 ( 264) 1100 
+				
+241	21	264	2400	Technician changed entire 241 Array from  21 ( 264) 2400 
+				
+242	21	264	2400	Technician changed entire 242 Array from  21 ( 264) 2400 
+				
+243	21	264	2400	Technician changed entire 243 Array data from  21 ( 264) 2400 
+		
+244	21	264	2400	Technician changed entire 244 Array data from  21 ( 264) 2400 
+			
+
+Array	CalD	JulianD	Time	Error
+150	30	273	1945	Rel hum difference from 30 (73) 1945 (65.273) to 30 (273) 
+				2000 (100) is greater than 25%
+
+150	30	273	2000	Rel hum difference from 30 (273) 2000 (100) to 30 (273)  
+				2015 (64.145) is greater than 25%
+The relative humidity datum recorded at 2000 on 273 was considered incorrect, deleted and
+replaced with 55555.  Correction is below:
+
+Array	CalD	JulianD	Time	Error
+150	30	273	2000	Technician changed rhum 150 Array data from  30 ( 273) 2000 		
+
+	
+
+October 2001
+
+Array	CalD	JulianD	Time	Error
+150	 2	275	1815	Air temp difference from 2 (275) 1815 (22.389) to 2 (275) 
+				1830 (19.359) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	10	283	1945	Rel hum difference from 10 (283) 1945 (86.21) to 10 (283) 
+				2000 (0) is greater than 25%
+
+150	10	283	2000	Rel hum difference from 10 (283) 2000 (0) to 10 (283) 2015 
+				(88.08) is greater than 25%
+The relative humidity datum recorded at 2000 on 283 was considered incorrect, deleted and
+replaced with 55555. Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	10	283	2000	Technician changed rhum 150 Array data from  10 ( 283) 2000 
+
+Array	CalD	JulianD	Time	Error
+151	13	286	2400	Precip difference from 13 (286) 2400 (1.778) to 14 (287) 15 
+				(9.652) is greater than 5 mm
+The precipitation data above are considered correct and remain unchanged.
+	
+Array	CalD	JulianD	Time	Error
+150	14	287	115	Air temp difference from 14 (287) 115 (25.137) to 14 (287) 
+				130 (21.814) is greater than 3.0 degrees C
+
+151	14	287	30	Precip difference from 14 (287) 30 (5.588) to 14 (287) 45
+				(0.254) is greater than 5 mm
+
+151	14	287	130	Precip difference from 14 (287) 130 (1.778) to 14 (287) 145 
+				(14.224) is greater than 5 mm
+
+151	14	287	145	Precip difference from 14 (287) 145 (14.224) to 14 (287) 
+				200 (1.524) is greater than 5 mm
+The air temperature and precipitation data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+101	25	298		Pressure average in 1 hour data is less than 24 hour 
+minimum ( 1012.7) errors occurred for every hourly array between 0100 and 0700.
+
+The above errors were associated with the storage module exchange at 0956 on 298 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1000  and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	25	298	1000	Technician changed entire 101 Array data from 25 ( 298) 1000 
+
+102	25	298	1000	Technician changed entire 102 Array from 25 ( 298) 1000
+
+241	25	298	2400	Technician changed entire 241 Array from  25 ( 298) 2400 
+
+242	25	298	2400	Technician changed entire 242 Array from  25 ( 298) 2400 
+
+243	25	298	2400	Technician changed entire 243 Array data from  25 ( 298) 2400 
+
+244	25	298	2400	Technician changed entire 244 Array data from  25 ( 298) 2400 
+
+
+
+November 2001
+
+Array	CalD	JulianD	Time	Error
+150	9	313	1515	Rel hum difference from 9 (313) 1515 (37.053) to 9 (313) 
+				1530 (62.287) is greater than 25%
+The relative humidity data above are considered correct and remain unchanged.
+
+
+
+December 2001
+
+Array	CalD	JulianD	Time	Error
+150	3	337		Air temp is less than minimum temp (14.764) for this date 
+				errors occurred for every 15 min array between 0015 and 0915.
+	
+101	3	337		Air temp average in 1 hour data is less than 24 hour 
+minimum (14.764) errors occurred for every hourly array between 0100 and 0900.
+
+Array	CalD	JulianD	Time	Error
+101	3	337		Pressure average in 1 hour data is less than 24 hour 
+minimum (1018.6) errors occurred for every hourly array between 0100 and 0700.
+
+The above errors were associated with the storage module exchange at 0952 on 337 which resulted
+in missing 5 second data which is used to calculate hourly and daily arrays. Therefore, hourly
+arrays (101, 102) for 1000  and all 24-hour arrays (241, 242, 243, 244) were deleted 
+and replaced with 55555 for this date.  Corrections are listed below:
+
+Array	CalD	JulianD	Time	Error
+101	3	337	1000	Technician changed entire 101 Array data from 3 ( 337) 1000 
+
+102	3	337	1000	Technician changed entire 102 Array from 3 ( 337) 1000 
+
+241	3	337	2400	Technician changed entire 241 Array from  3 ( 337) 2400 
+
+242	3	337	2400	Technician changed entire 242 Array from  3 ( 337) 2400 
+
+243	3	337	2400	Technician changed entire 243 Array data from  3 ( 337) 2400 
+
+244	3	337	2400	Technician changed entire 244 Array data from  3 ( 337) 2400 
+	
+
+Array	CalD	JulianD	Time	Error
+150	23	357	215	Air temp difference from 23 (357) 215 (11.499) to 23 (357) 
+				230 (17.82) is greater than 3.0 degrees C
+The air temperature data above are considered correct and remain unchanged.
+
+Array	CalD	JulianD	Time	Error
+150	27	361	915	Rel hum difference from 27 (361) 915 (91.351) to 27 (361) 
+				930 (66.18) is greater than 25%
+
+150	27	361	1945	Rel hum difference from 27 (361) 1945 (98.408) to  
+				27 (361) 2000 (0.0669) is greater than 25%
+
+150	27	361	2000	Rel hum difference from 27 (361) 2000 (0.0669) to 27 (361) 
+				2015 (100) is greater than 25%
+
+The relative humidity datum recorded at 0915 on 361 is considered correct and 
+remains unchanged.  The relative humidity data recorded at 2000 was considered 
+incorrect, deleted and replaced with 55555.  Correction is below: 
+
+Array	CalD	JulianD	Time	Error
+150	27	361	2000	Technician changed 150 Array data from  27 ( 361) 2000 
+
+
+
+
+12)	  Missing data:  
+
+  
+January 2001
+
+Missing data for the following dates and times may have been due to daytime cloud cover and 
+lack of battery charging during daylight hours, resulting in insufficient battery power
+during nighttime hours.  There were no manipulations of the weather station, such as module
+exchange or sensor maintenance, performed on these dates.
+
+Array	CalD	JulianD	Time	Error
+150	7	7	2145	Missing 150 Array data (15 minute data) from 7 (7) 2145 
+				to 8 (8) 300
+
+101	7	7	2200	Missing 101 Array data (Hourly Averages) from 7 (7) 2200 
+				to 8 (8) 300
+
+102	7	7	2200	Missing 102 Array data (Hourly Average Wind 
+				Parameters) from  7 ( 7) 2200 to  8 ( 8) 300
+
+241	7	7	2400	Missing 241 Array (Daily Averages)
+
+242	7	7	2400	Missing 242 Array (Daily Average Wind Parameters)
+
+243	7	7	2400	Missing 243 Array (Daily Max/Time Values)
+
+244	7	7	2400	Missing 244 Array (Daily Min/Time Values)
+
+
+
+August 2001
+
+Missing data for the following dates and times may have been due to daytime cloud cover and 
+lack of battery charging during daylight hours, resulting in insufficient battery power
+during nighttime hours.  There were no manipulations of the weather station, such as module
+exchange or sensor maintenance, performed on these dates.
+
+Array	CalD	JulianD	Time	Error
+150	20	232	2330	Missing 150 Array data (15 minute data) from  20 ( 232) 2315 
+				to  21 ( 233) 500
+
+101	20	232	2400	Missing 101 Array data (Hourly Averages) from 20 (232) 
+				2400 to 21 (233) 500
+
+102	20	232	2400	Missing 102 Array data (Hourly Average Wind 
+				Parameters) from 20 ( 232) 2400 to  21 ( 233) 400
+
+241	20	232	2400	Missing 241 Array (Daily Averages)
+
+242	20	232	2400	Missing 242 Array (Daily Average Wind Parameters)
+
+243	20	232	2400	Missing 243 Array (Daily Max/Time Values)
+
+244	20	232	2400	Missing 244 Array (Daily Min/Time Values)
+
+
+
+November 2001
+
+Missing data for the following dates and times may have been due to daytime cloud cover and 
+lack of battery charging during daylight hours, resulting in insufficient battery power
+during nighttime hours.  There were no manipulations of the weather station, such as module
+exchange or sensor maintenance, performed on these dates.
+
+Array	CalD	JulianD	Time	Error
+241	1	305	2400	Missing 241 Array (Daily Averages)
+
+242	1	305	2400	Missing 242 Array (Daily Average Wind Parameters)
+
+243	1	305	2400	Missing 243 Array (Daily Max/Time Values)
+
+244	1	305	2400	Missing 244 Array (Daily Min/Time Values)
+
+
+101	2	306	2300	Missing 101 Array data (Hourly Averages) from 2 (306) 2300 
+				to 3 (307) 300
+
+102	2	306	2300	Missing 102 Array data (Hourly Average Wind Parameters) 
+				from  2 (306) 2300 to  3 (307) 300
+
+150	2	306	2215	Missing 150 Array data (15 minute data) from  2 ( 306) 2215 
+				to  3 ( 307) 400
+
+
+December 2001
+
+Missing data for the following dates and times may have been due to daytime cloud cover and 
+lack of battery charging during daylight hours, resulting in insufficient battery power
+during nighttime hours.  There were no manipulations of the weather station, such as module
+exchange or sensor maintenance, performed on these dates.
+
+Array	CalD	JulianD	Time	Error
+150	19	353	345	Missing 150 Array data (15 minute data) from 19 (353) 	
+				345 to 19 (353) 1000
+
+101	19    	353     400 	Missing 101 Array data (Hourly Averages) from 19 (353) 
+				400 to 19 (353) 1000
+
+102	19	353	400	Missing 102 Array data (Hourly Average Wind Parameters) 
+				from 19 ( 353) 400 to  19 ( 353) 900
+
+
+
+13) Other Remarks/notes
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+We seem to get a lot of relative humidity errors.  Usually, these occur in 150 arrays when 
+the relative humidity reading will jump to 100 or fall to zero in one 15-min record and 
+then go back to the range of values occurring prior to the error.  We are in the process of 
+ordering new sensors and will have the current ones calibrated this summer.
+
+During the storage module exchange on January 17, 2001 the wind vane appeared to be 
+oriented too much to the east (more than 30 degrees).  Technician used hand-bearing 
+compass and backed the vane up to orient as near due north as possible.  The orientation 
+was then checked with Research Coordinator and other staff during the February module 
+exchange and determined that orientation was correct at its present position.
+
+Rain Events: 
+January
+Date	RainAmount (mm)
+11	14.224
+12	.254
+15	.254
+18	.254
+19	10.414
+20	.508
+23	.762
+30	8.636
+31	9.652
+
+
+February
+Date	RainAmount (mm)
+16	.254
+17	1.016
+22	2.794
+23	15.748
+26	.508
+27	1.270
+
+
+March
+Date	RainAmount (mm)
+4	1.270
+8	12.446
+9	10.160
+12	64.516
+13	101.600
+14	5.588
+15	6.096
+17	6.858
+18	20.574
+19	23.114
+20	11.938
+25	21.590
+26	.254
+28	2.794
+29	42.418
+31	.508
+
+
+April
+Date	RainAmount (mm)
+3	.254
+4	1.016
+8	.254
+9	.254
+11	.254
+14	5.588
+15	1.016
+25	2.032
+
+
+May
+Date	RainAmount (mm)
+2	.254
+29	3.302
+Monthly Total	3.6
+
+
+
+June 
+Date	RainAmount (mm)
+1	8.636
+8	3.048
+9	2.032
+10	11.684
+11	90.678
+12	10.668
+13	13.716
+17	2.286
+18	15.748
+19	.254
+21	.254
+22	12.192
+23	.762
+24	.254
+29	48.006
+30	27.686
+
+
+July
+Date 	RainAmount (mm)
+1	.254
+2	6.096
+6	.254
+8	45.974
+10	16.002
+11	5.842
+12	42.418
+14	25.146
+15	.254
+17	1.524
+18	18.288
+19	4.064
+20	17.780
+21	23.876
+22	5.588
+24	38.100
+26	.254
+28	.254
+29	.254
+30	.254
+31	3.302
+
+
+August
+Date	Rainamount (mm)
+
+
+
+September
+Date	RainAmount (mm)
+1	19.812
+2	2.032
+3	15.494
+4	4.318
+6	8.890
+8	.254
+11	9.906
+12	8.382
+13	5.080
+14	.254
+20	7.620
+21	.254
+23	1.016
+24	20.320
+27	.254
+
+
+October 
+Date	Rainamount (mm)
+3	.254
+4	.254
+5	1.524
+6	1.778
+13	1.778
+14	38.100
+24	.508
+25	.254
+
+
+November
+Date	Rainamount (mm)
+9	.254
+13	.508
+14	2.286
+20	.254
+23	22.352
+24	.254
+26	.254
+27	.254
+28	.508
+30	4.064
+
+
+December
+Date	RainAmount (mm)
+3	.254
+6	.254
+7	.254
+8	.254
+9	.254
+10	.762
+11	.508
+12	.254
+14	.254
+17	.762
+21	.254
+23	4.318
+24	.508
+25	.254
+26	.508
+27	51.054
+28	5.588
+

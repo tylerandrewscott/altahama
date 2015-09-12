@@ -1,0 +1,899 @@
+Padilla Bay (PDB) NERR Water Quality Metadata 
+January - December 2002
+Latest Update: September 12, 2003
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator & contact persons:
+
+Address: Padilla Bay NERR 
+10441 Bayview-Edison Road 
+Mount Vernon, WA 98273-9668
+
+Contact Persons:
+Dr. Douglas Bulthuis, Research Coordinator
+phone: (360) 428-1558; email: bulthuis@padillabay.gov
+Robin Cottrell, Lab Manager
+phone: (360) 428-1558; email: cottrell@padillabay.gov
+
+
+
+2) Entry verification:
+
+The data are downloaded from the YSI 6600s to a Windows based PC. Graphs of all 
+data are printed using EcoWatch software and are examined for suspect, 
+anomalous, or outlying data.  The files are then exported as .csv files and the 
+CDMO macros are used for final formatting and a second check for outliers and 
+missing data. The CDMO cdmomac3.xls macro allows the user to automatically 
+format column widths to the correct number of decimal places based on YSI sensor 
+specifications.  It also allows the user to QA/QC each data logger generated 
+file for missing data points, fill all cells that do not contain data with 
+periods, and find all data points that fall outside the range of what the data 
+logger is designed to measure (outliers).  The CDMO import.xls macro allows PC 
+users with 30-minute data to automatically create a monthly Excel file from a 
+two-week deployment and insert periods for missing data.  It also has a graphing 
+capability that allows users to produce single parameter and missing data point 
+graphs on a monthly basis. After formatting the data, some files are more 
+closely checked for anomalies in DeltaGraph Pro(r). Edited and raw files are 
+archived on a PC hard drive and on a Macintosh hard drive at Padilla Bay NERR. 
+This process of entry verification was completed by Robin Cottrell for the 2002 
+data. Final verification and this metadata documentation were completed by Robin 
+Cottrell and Douglas Bulthuis.
+
+
+3) Research objectives:
+
+The Bay View Channel site has been set out to detect and monitor short-term 
+variability and long-term changes in the south end of Padilla Bay. The Ploeg 
+Channel site has been set out to detect and monitor short-term variability and 
+long-term change in the north end of Padilla Bay to contrast and compare to the 
+south end. The Joe Leary Slough site has been set at the mouth of the slough to 
+measure the effects of tidal "closure" of the tide gates on water in the slough 
+and to detect long-term changes in water quality in the slough associated with 
+an implementation of a non point source pollution watershed action plan. 
+Measurements are taken every 30 minutes at all sites unless otherwise noted in 
+data anomalies. 
+
+4) Research methods:
+
+YSI 6600 dataloggers were deployed in Joe Leary Slough in a vertical position, 
+1.7 m from the bottom of the slough in a 4 in. diameter PVC pipe with a metal 
+bar secured at the bottom as a stop. That portion of pipe around the sensors is 
+cut out so that only two one-inch wide strips of deployment pipe remain around 
+the sensor guard to allow water circulation around the probes. The PVC pipe is 
+attached to a steel pipe that was driven into the sediment. (This slough was 
+dredged in the fall of 2000 so the area of deployment is much deeper than it had 
+been the previous 5 years. To keep the data comparable the YSI is deployed at 
+the same height relative to Mean Sea Level.) 
+ 
+YSI 6600 dataloggers were deployed in Padilla Bay in a tributary of Bayview 
+Channel. They were deployed using the same design as that in Joe Leary Slough, 
+except that the PVC pipe was attached to two steel pipes. To keep marine fauna 
+from interfering with operation of the sensors "Gutter Guard" (a sheet of 
+plastic 1/4 inch mesh) is formed into a cylinder to fit inside the sensor guard. 
+The depth of the YSI was -1.1 m (depth below MLLW) and about 0.75 m above the 
+bottom along the sloping edge of a small channel draining the surrounding 
+intertidal flats.
+
+YSI 6600 dataloggers were deployed in Ploeg Channel using the same design as 
+that in Bayview Channel including the use of mesh to protect the sensors. The 
+depth of the YSI was 0.5 m above the bottom along the sloping edge of a channel 
+draining the surrounding intertidal flats.
+
+In all cases, measurements of temperature, specific conductivity, salinity, 
+percent saturation of dissolved oxygen, depth, pH and turbidity are recorded 
+every half hour. At the end of each deployment, the YSI 6600 is brought back 
+into the laboratory for downloading, cleaning, and recalibration. Before final 
+cleaning and recalibration a post-deployment check is done that consists of 
+recording sensor readings in the standard solutions. The results of these checks 
+are used to help evaluate the validity of the logged data.
+
+All calibrations are conducted according to the protocols in the YSI 
+Environmental Operations Manual for the 6-Series Environmental Monitoring 
+Systems. For the conductivity calibration, a conductivity standard of 50 mS/cm 
+was used. The pH calibration is a 2-point calibration using standard buffer 
+solutions with a pH of 7 and 10. The KCl solution and Teflon membrane on the 
+dissolved oxygen probe are changed prior to each YSI 6600 deployment and the new 
+oxygen membrane is allowed to stabilize overnight in water saturated air before 
+calibration. A 2-point calibration is used for the turbidity probe and the 
+wiper pad is changed prior to each deployment. The standards used are 
+distilled/deionized water for zero and 4000 NTU Formazin solution diluted to 100 
+NTU.
+
+5) Site location and character:
+
+General: Padilla Bay (48º 30' N; 122º 30' W) is a shallow embayment in northern 
+Puget Sound. The tide flats are dominated by the eelgrass Zostera marina, which 
+covers approximately 3,000 ha. Zostera japonica, a recent invader to the region, 
+now covers about 350 ha of the bay. Tides in Padilla Bay are mixed semi-diurnal 
+with a mean range of 1.55 m. Salinity in the bay varies from about 15 to 30 PSU. 
+
+Padilla Bay is an "orphaned" estuary in that the Skagit River no longer empties 
+directly into it. Most of the land in the 9300 ha Padilla Bay watershed is 
+agricultural, and is drained by four sloughs which empty into the bay. The 
+salinity in Padilla Bay reflects both the sloughs that flow into the bay and the 
+greater Puget Sound-Georgia Basin estuary in which Padilla Bay is located. Major 
+freshwater flows into this area of the Puget Sound-Georgia Basin estuary come 
+from the Fraser and Nooksack Rivers to the north and from the Skagit River to 
+the south.
+
+Joe Leary Slough Site: (48º 31' 05.3" N; 122º 28' 22.8" W) Joe Leary Slough 
+drains land that is predominantly annual crop agriculture and pasture land with 
+some low-density housing. The slough is characterized by high fecal and nutrient 
+inputs, high turbidity, and low dissolved oxygen concentrations. During the 
+summer, there is low flow and the depth ranges from 0.5-1.5 m. During winter 
+flooding, the slough can reach a depth of 4 m. There is a dam at the mouth of 
+the slough with twelve 4 ft. diameter outfall pipes that have one-way hinged 
+tide gates. Upstream water flows out of Joe Leary Slough when water height in 
+Padilla Bay is lower than water height in Joe Leary Slough (i.e. ebbing tide and 
+low water). Some saline water from Padilla Bay seeps through the tide gates 
+during high water, salinity at this site can vary from 0 to 30 PSU. The bottom 
+of the slough is composed of very soft sediment, which is periodically dredged, 
+most recently October 2000. The deployment site is on the freshwater side of the 
+tide gates. The latitude/longitude were measured with a Trimble GeoExplorer II 
+and differentially corrected with post processing providing a manufacturer's 
+stated accuracy of ± 5 m.
+
+Bayview Channel Site: (48º 29' 46.6" N; 122º 30' 01.8" W) Bayview Channel, a 
+major Padilla Bay tributary/distributary, floods and drains intertidal flats 
+including eelgrass beds, mats of macroalgae, and flats without macro-vegetation. 
+The YSI 6000 or 6600 is located in a tributary channel to Bayview Channel. The 
+tributary drains predominately eelgrass (Zostera marina and Z.Japonica) covered 
+intertidal flats. Bottom sediments beneath the deployment site are fine silt and 
+clay overlying sand, depth at this site ranges from about 0.75 to 5 m. 
+Pollutants entering the bay include general non-point source, agricultural non-
+point source, and fecal coliform bacteria from agriculture, failing septic tanks 
+and wildlife. The latitude/longitude were measured with a Trimble GeoExplorer II 
+and differentially corrected with post processing providing a manufacturer's 
+stated accuracy of ± 5 m.
+
+Ploeg Channel Site: (48º 33' 23.5" N; 122º 31' 46.7" W) Ploeg Channel floods and 
+drains intertidal flats at the north end of Padilla Bay that are comprised of 
+mud flats and eelgrass beds (Zostera marina and Z.Japonica) in approximately 
+equal amounts. Bottom sediments beneath the deployment site are sandy without 
+macro vegetation, depth at this site ranges from about 0.75 to 5m. Pollutants 
+entering the bay include general non-point source, agricultural non-point 
+source, and fecal coliform bacteria from agriculture, failing septic tanks and 
+wildlife. The latitude/longitude were measured with a Trimble GeoExplorer II and 
+differentially corrected with post processing providing a manufacturer's stated 
+accuracy of ± 5 m.
+
+
+6) Data collection period: Data collection was continuous from January 1 to 
+December 31 at all the sites sampled this year. 
+
+Deployment and retrieval times are listed below. The times indicate the first 
+and last measurements made with each deployment. (Deployments using the new 
+6600EDS sonde are noted with EDS.)
+
+BEGAN					ENDED
+
+Bayview Channel Site
+12/19/01, 15:00:00				01/15/02, 11:30:00
+01/15/02, 12:30:00				01/31/02, 10:30:00
+01/31/02, 11:00:00				02/12/02, 14:00:00
+02/12/02, 14:30:00				02/26/02, 08:30:00
+02/26/02, 09:30:00				03/22/02, 09:30:00
+03/22/02, 10:00:00				04/04/02, 09:00:00
+04/04/02, 09:30:00				04/18/02, 09:00:00
+04/18/02, 09:30:00				05/10/02, 14:30:00
+05/10/02, 15:00:00				05/22/02, 12:00:00
+05/22/02, 12:30:00				06/05/02, 12:30:00
+06/05/02, 13:00:00				06/20/02, 14:00:00
+06/20/02, 14:30:00				07/17/02, 11:00:00
+07/17/02, 11:30:00				08/15/02, 11:00:00
+08/15/02, 11:30:00				08/28/02, 09:00:00
+08/28/02, 09:30:00				09/12/02, 10:00:00
+09/12/02, 10:30:00				09/26/02, 08:30:00
+09/26/02, 09:00:00				10/10/02, 12:30:00
+10/10/02, 13:00:00				10/24/02, 14:00:00
+10/24/02, 14:30:00				11/19/02, 14:00:00
+11/19/02, 14:30:00				12/16/02, 13:00:00
+12/16/02, 13:30:00				12/31/02, 10:00:00
+12/31/02, 10:30:00				01/21/03, 11:00:00
+
+Ploeg Channel Site
+12/19/01, 14:30:00				01/15/02, 11:00:00
+01/15/02, 11:30:00				01/31/02, 10:30:00
+01/31/02, 11:00:00				02/12/02, 14:30:00
+02/12/02, 15:00:00				02/27/02, 09:30:00
+02/27/02, 10:00:00				03/22/02, 10:00:00
+03/22/02, 10:30:00				04/04/02, 10:00:00
+04/04/02, 10:30:00				04/18/02, 09:30:00
+04/18/02, 10:00:00				05/10/02, 14:30:00
+05/10/02, 15:00:00				05/22/02, 12:30:00
+05/22/02, 13:00:00				06/05/02, 13:00:00
+06/05/02, 13:30:00				06/20/02, 12:30:00
+06/20/02, 13:30:00				07/17/02, 10:00:00
+07/17/02, 10:30:00				08/15/02, 11:30:00
+08/15/02, 12:00:00				08/28/02, 09:30:00
+08/28/02, 10:00:00				09/12/02, 09:00:00
+09/12/02, 09:30:00				09/26/02, 09:30:00
+09/26/02, 10:00:00				10/10/02, 12:00:00
+10/10/02, 12:30:00				10/24/02, 14:30:00
+10/24/02, 00:30:00				11/19/02, 14:30:00
+11/19/02, 15:00:00				12/31/02, 09:30:00
+12/31/02, 10:00:00				01/21/03, 11:30:00
+
+Joe Leary Site
+01/03/02, 15:30:00				01/14/02, 14:30:00
+01/14/02, 15:00:00				02/01/02, 12:30:00
+02/01/02, 13:00:00				02/15/02, 10:00:00
+02/15/02, 10:30:00				02/22/02, 12:30:00
+02/22/02, 13:30:00				03/01/02, 14:30:00
+03/01/02, 15:00:00				03/08/02, 10:30:00
+03/08/02, 11:00:00				03/14/02, 16:00:00
+03/14/02, 16:30:00				03/26/02, 14:30:00
+03/26/02, 15:00:00				04/05/02, 10:00:00
+04/05/02, 10:30:00				04/15/02, 13:30:00
+04/15/02, 14:30:00				04/29/02, 12:30:00
+04/29/02, 13:00:00				05/09/02, 12:00:00
+05/09/02, 12:30:00				05/17/02, 10:00:00
+05/17/02, 10:30:00				05/30/02, 13:00:00
+05/30/02, 13:30:00				06/10/02, 12:00:00
+06/10/02, 12:30:00				06/21/02, 14:00:00
+06/21/02, 14:30:00				07/02/02, 13:30:00
+07/02/02, 14:00:00				07/12/00, 09:30:00
+07/12/00, 10:00:00				07/19/02, 09:00:00
+07/19/02, 09:30:00				07/26/02, 12:00:00
+07/26/02, 12:30:00				08/08/02, 10:00:00
+08/16/02, 13:00:00				08/28/02, 13:00:00
+08/28/02, 13:30:00(EDS)				09/16/02, 13:00:00
+09/16/02, 13:30:00				09/27/02, 11:00:00
+09/27/02, 11:30:00(EDS)				10/18/02, 11:30:00
+10/18/02, 12:00:00				10/28/02, 11:30:00
+10/28/02, 12:00:00(EDS)				11/08/02, 12:00:00
+11/08/02, 12:30:00				11/19/02, 13:00:00
+11/19/02, 13:30:00(EDS)				12/10/02, 11:30:00
+12/10/02, 12:00:00				12/23/02, 11:30:00
+12/23/02, 12:00:00				01/13/03, 14:30:00
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.
+
+8) Associated researchers and projects:
+None
+
+II. Physical Structure Descriptors
+
+9) Variable sequence, range of measurements, units, resolution, and accuracy:
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+10) Coded variable indicator and variable code definitions:
+
+File definitions: YSI deployment site/file definition/month/year (e.g. bywq0902= 
+Bayview Channel water quality data from September 2002)
+by=Bayview Channel, bp=Ploeg Channel, jl=Joe Leary.
+
+11) Data anomalies:
+January 1-31, 2002
+Bayview Channel
+During the following periods the DO membrane was damaged so dissolved oxygen 
+data were deleted: 
+01/04/2002 13:30:00 - 01/15/2002 11:30:00 
+There is no data at 12:00:00 on 01/15/2002 because the data logger was being 
+switched out at that time. 
+The DO reading at the post-calibration check for the deployment from 01/15 to 
+01/31 was unusually low, 84.4%. This is uncommon for this site; there is no 
+evidence of problems with this probe in subsequent deployments so it may be an 
+operator error during calibration. An error of this type was discovered in other 
+calibration checks done by a new tech that was being trained during this time. 
+Therefore, DO may be suspect for this deployment. 
+A small negative turbidity reading of  -0.1 NTU during the following period is 
+within the accuracy specified for this sensor and was formatted to zero by 
+Excel.
+01/09/2002	14:00:00
+ 
+Ploeg Channel
+The post-calibration conductivity value for the deployment period of 01/15 at 
+11:30:00 to 01/31 at 10:30:00 was low, 48.84 mS/cm in a solution of 50.0 mS/cm. 
+This could be due to fouling in the probe orifice or compromised calibration 
+solution. 
+
+
+Joe Leary
+During the following period there is no data because the datalogger batteries 
+died during this deployment:
+01/01/2002	00:00:00 to 01/03/2002     15:00:00
+During the following period turbidity data were deleted because the turbidity 
+probe malfunctioned:
+01/14/2002     15:00:00 to 01/31/20002     23:30:00
+
+
+February 1 - 28, 2002
+Bayview Channel
+There is no data on 02/26 at 09:00:00 because the data logger was being switched 
+out at that time.
+
+Ploeg Channel
+None
+
+Joe Leary
+During the following period turbidity data were deleted because the turbidity 
+probe malfunctioned:
+02/01/2002     00:00:00 to 02/01/20002     12:30:00
+During the following period turbidity data was high and erratic so it was 
+deleted, this occurred during a period of high turbidity due to a major rain 
+event on February 21 and 22 so may have been due to debris interference:
+02/21/2002	18:00:00
+There is no data on 02/22 at 13:00:00 because the data logger was being switched 
+out at that time.
+
+March 1 - 31, 2002
+Bayview Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+03/06/2002	21:30:00
+03/09/2002	10:30:00
+Small negative turbidity readings of -1.0 NTU occurring intermittently from 
+03/23 through 03/31 are within the accuracy specified for this sensor and should 
+be interpreted as zero.
+
+Ploeg Channel
+None
+
+Joe Leary
+During the following period pH data was deleted because it was the first reading 
+taken after a new datalogger was deployed and was the highest reading of that 
+deployment indicating the probe may not have had time to equilibrate before the 
+reading, other data looks good:
+03/08/2002	11:00:00
+For the deployment period of 03/14 at 16:30:00 to 03/26 at 14:30:00 the post-
+calibration turbidity value was high, 112 NTU in 100 NTU solution, this is 
+outside the specified accuracy for this probe, cause unknown. Turbidity values 
+during the deployment of this probe may be higher than actual values. 
+
+April 1 - 30, 2002
+Bayview Channel
+During the following period turbidity data was deleted because it was high and 
+erratic, cause unknown:
+04/15/2002     10:00:00
+Small negative turbidity readings of –1.0 and -2.0 NTU occurring intermittently 
+from 04/18 through 04/30 are within the accuracy specified for this sensor and 
+should be interpreted as zero.
+
+Ploeg Channel
+During the following period turbidity data was deleted because it was high and 
+erratic, cause unknown:
+04/13/2002     18:30:00
+Small negative turbidity readings of –2.0 NTU occurring intermittently from 
+04/18 through 04/30 are within the accuracy specified for this sensor and should 
+be interpreted as zero.
+
+Joe Leary
+There is no data on 04/15 at 14:00:00 because the data logger was being switched 
+out at that time.
+During the following period turbidity data was deleted because it was high and 
+erratic, cause unknown:
+04/26/2002     16:30:00
+High values for salinity, dissolved oxygen and pH on April 5th indicate one or 
+more of the tide gates was open and leaking marine water into the fresh water 
+side of the dike.
+
+May 1 - 31, 2002
+Bayview Channel
+During the following period turbidity data was deleted because it was high and 
+erratic, cause unknown:
+05/28/2002     14:30:00
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+05/22/2002     12:30:00 to 05/31/2002    23:30:00
+The post-calibration turbidity value was low, 86.3 NTU in 100 NTU solution, 
+which is outside the specified accuracy for this probe. This was a new model 
+(#6136) turbidity probe and YSI eventually recalled them to replace the motor 
+and lubricant. Turbidity values during the deployment of this probe, 05/22 at 
+12:30:00 to 05/30 at 23:30:00, may be lower than actual values. 
+Small negative turbidity readings of -1.0 NTU occurring intermittently from 
+05/22 through 05/24 are within the accuracy specified for this probe and should 
+be interpreted as zero.
+
+Ploeg Channel
+During the following period turbidity data was deleted because it was high and 
+erratic, cause unknown:
+05/13/2002     15:00:00
+Small negative turbidity readings of -2 NTU occurring intermittently from 
+05/01 through 05/22 at 12:30:00 are within the accuracy specified for this 
+probe and should be interpreted as zero. 
+Small negative turbidity readings of -2 NTU occur intermittently from 05/22 
+at 13:00:00 through 05/31 at 23:30:00. The accuracy specified for this probe is 
+± 2 NTU and some of the low readings fall outside of this range but all negative 
+readings should be interpreted as zero. This was a new model (#6136) turbidity 
+probe and YSI eventually recalled them to replace the motor and lubricant.
+The post-calibration DO% value for the deployment period of 05/10 at 15:00:00 to 
+05/22 at 12:30:00 was low, 83.4%. The last reading pre-deployment was also 83.4% 
+so it appears the calibration may have been wrong. Dissolved oxygen data from 
+this deployment period should be considered lower than the actual values.
+
+Joe Leary
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+05/01/2002	10:00:00
+05/02/2002	02:00:00
+High values for salinity, dissolved oxygen and pH on the night of May 25th 
+indicate one or more of the tide gates was open and leaking marine water into 
+the fresh water side of the dike.
+The post-calibration salinity value for the deployment period of 05/17 at 
+10:30:00 to 05/30 at 13:00:00 was low, 49.07 mS/cm in a solution of 50.0 mS/cm. 
+This could be due to fouling in the probe orifice or compromised calibration 
+solution. 
+
+June 1 - 30, 2002
+Bayview Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+06/01/2002	20:00:00
+06/04/2002	07:30:00
+06/21/2002	03:30:00
+06/28/2002	09:30:00
+06/30/2002	05:00:00 
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+06/01/2002     00:00:00 to 06/05/2002     12:30:00
+06/20/2002     14:30:00 to 06/30/2002     23:30:00
+The post-calibration turbidity value for the deployment period of 06/01 at 
+00:00:00 to 06/05 at 12:30:00 was low, 86.3 NTU in 100 NTU solution, which is 
+outside the specified accuracy for this probe. This was a new model (#6136) 
+turbidity probe and YSI eventually recalled them to replace the motor and 
+lubricant. Turbidity values during the deployment of this probe may be lower 
+than actual values. 
+Small negative turbidity readings of -1.0 NTU occurring intermittently from 
+06/01 through 06/30 are within the accuracy specified for this probe and should 
+be interpreted as zero.
+
+Ploeg Channel
+There is no data on 06/20/2002 at 13:00:00 because the data logger was being 
+switched out at that time.
+During the following periods dissolved oxygen data was deleted because the data 
+indicated the DO membrane had been damaged.
+06/07/2002	09:30:00 - 06/30/2002	     23:30:00
+Small negative turbidity readings of -3 NTU occur intermittently from 06/01 
+at 00:00:00 through 06/05at 13:00:00. The accuracy specified for this probe is ± 
+2 NTU and some of the low readings fall outside of this range but they should 
+all be interpreted as zero. This was a new model (#6136) turbidity probe and YSI 
+eventually recalled them to replace the motor and lubricant. The post-
+calibration turbidity value was low, 90.6 NTU in 100 NTU solution, which is 
+outside the specified accuracy for this probe, cause unknown. Turbidity values 
+during the deployment of this probe, 06/05 at 13:30:00 to 06/20 at 12:30:00, may 
+be lower than actual values. 
+
+Joe Leary 
+Twice this month the post-calibration turbidity value was low. During the 
+deployment from 06/01 at 00:00:00 to 06/10 at 12:00:00 the value was 91.1 NTU in 
+100 NTU solution and for the deployment from 06/21 at 14:30:00 to 06/30 at 
+23:30:00 the value was 94.1. Both values are outside the specified accuracy for 
+this probe. These were new model (#6136) turbidity probes and YSI eventually 
+recalled them to replace the motor and lubricant. Turbidity values during the 
+deployment of these probes may be lower than actual values. 
+The post-calibration DO% value for the deployment period of 06/01 at 00:00:00 to 
+06/10 at 12:00:00 was low, 91.6%. This may be due to biofouling, which is not 
+uncommon at this site; DO readings (especially toward the end of this 
+deployment) may be lower than actual values.
+
+July 1 - 31, 2002
+Bayview Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+07/06/2002	01:30:00, 21:00:00
+07/07/2002	13:00:00
+07/10/2002	13:30:00
+07/12/2002	20:00:00
+07/13/2002	02:00:00
+07/15/2002	02:00:00, 05:00:00
+07/16/2002	03:30:00, 07:00:00
+07/17/2002	06:00:00
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+07/01/2002     00:00:00 to 07/17/2002     11:00:00
+A small negative dissolved oxygen reading of -0.1% during the following period 
+is within the accuracy specified for this sensor.
+07/27/2002	02:00:00
+Small negative turbidity readings of -1.0 NTU occurring intermittently from 
+07/01 through 07/09 are within the accuracy specified for this probe and should 
+be interpreted as zero.
+
+Ploeg Channel
+All dissolved oxygen data for this month was deleted; data indicated the DO 
+membrane had been damaged.
+Small negative turbidity readings of -2 NTU occur intermittently from 07/01 
+at 00:00:00 through 07/31 at 23:30:00. The accuracy specified for this probe is 
+± 2 NTU and some of the low readings fall outside of this range but they should 
+all be interpreted as zero. This was a new model (#6136) turbidity probe and YSI 
+eventually recalled them to replace the motor and lubricant. The post-
+calibration turbidity value for the deployment from 07/01 at 00:00:00 through 
+07/17 at 10:00:00 was low, 86.6 NTU in 100 NTU solution, which is outside the 
+specified accuracy for this probe so turbidity values during this period may 
+be lower than actual values. 
+
+Joe Leary
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+07/02/2002	14:00:00 to 07/12/2002     09:30:00
+During the following periods pH data were deleted because the post calibration 
+value, 7.25 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe: 07/26/2002	12:30:00 to 07/31/2002     23:30:00
+The post-calibration turbidity value was low for the deployment period of 07/01 
+at 00:00:00 to 07/02 at 13:30:00, 94.1 NTU in 100 NTU solution, which is outside 
+the specified accuracy for this probe. This was a new model (#6136) turbidity 
+probe and YSI eventually recalled them to replace the motor and lubricant. 
+Turbidity values during the deployment of this probe may be lower than actual 
+values.
+The post-calibration turbidity value was low for the deployment period of 07/26 
+at 12:30:00 to 07/30 at 23:30:00, 89.9 NTU in 100 NTU solution, which is outside 
+the specified accuracy for this probe. Turbidity values during the deployment of 
+this probe may be lower than actual values, cause unknown. 
+The post-calibration DO% value for the deployment period of 07/02 at 14:00:00 to 
+07/12 at 09:30:00 was low, 89.5%. This may be due to biofouling, which is not 
+uncommon at this site; DO readings (especially toward the end of this 
+deployment) may be lower than actual values.
+High values for salinity and dissolved oxygen on the evening of July 8th and the 
+morning of July 9th indicate that one or more of the tide gates was open and 
+leaking marine water into the fresh-water side of the dike.
+
+August 1 - 31, 2002
+Bayview Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+08/13/2002	08:30:00
+08/19/2002	12:30:00
+Small negative dissolved oxygen readings of -1.6 % during the following periods 
+are within the accuracy specified for this sensor and should be interpreted as 
+zero.
+08/05/2002	20:30:00
+08/05/2002	21:00:00
+08/05/2002	21:30:00
+During the following periods there was a dip in the salinity readings from 29.8 
+to 27.8 ppt, cause is unknown but may be due to temporary blockage of the sensor 
+orifice:
+08/21/2002	22:00:00
+08/21/2002	22:30:00
+
+Ploeg Channel
+Small negative turbidity readings of < -1.0 NTU occurring intermittently from 
+8/1 through 8/11 are within the accuracy specified for this probe and should be 
+interpreted as zero.
+During the following periods dissolved oxygen data was deleted because the DO 
+membrane had been damaged:
+08/01/2002	00:00:00 - 08/15/2002	     11:30:00
+During the following period all data were deleted because the datalogger was not 
+fully deployed to the bottom of the pipe, this was evident from the salinity and 
+depth readings:
+08/15/2002     12:00:00 to 08/28/2002     09:30:00
+
+Joe Leary
+During the following period there is no data, the file was deleted before it had 
+been downloaded from the datalogger:
+08/08/2002	10:30:00 to 08/16/2002    12:30:00 
+During the following periods pH data were deleted because the post calibration 
+value, 7.25 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe: 08/01/2002	00:00:00 to 08/08/2002    10:00:00
+The post-calibration salinity value for the deployment period of 08/16 at 
+13:00:00 to 08/28 at 13:00:00 was low, 49.04 mS/cm in a solution of 50.0 mS/cm. 
+This could be due to fouling in the probe orifice or compromised calibration 
+solution. 
+
+
+September 1 - 30, 2002
+Bayview Channel
+During the following periods pH data were removed because the post calibration 
+value, 6.73 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe:
+09/26/2002     09:00:00 to 09/30/2002     23:30:00
+During the following period there was a dip in the salinity reading from 29.8 to 
+27.9 ppt, cause is unknown but may be due to temporary blockage of the sensor 
+orifice:
+09/04/2002	20:00:00
+
+Ploeg Channel
+On 09/16 at 01:30:00 there was a steep drop in salinity to 12.68 ppt from 30.17 
+ppt, the low reading was followed by a value of 30.06 ppt, cause for the drop is 
+unknown. 
+From 09/26 at 10:00:00 to 09/30 at 23:30:00 small negative turbidity 
+readings of -2 NTU are within the accuracy specified for this probe and should 
+be interpreted as zero.
+The post-calibration turbidity value for the deployment from 09/12 at 09:30:00 
+through 09/26 at 09:30:00 was low, 81.9 NTU in 100 NTU solution, which is 
+outside the specified accuracy for this probe so turbidity values during this 
+period may be lower than actual values. 
+
+Joe Leary 
+During the following periods pH data were deleted because the post calibration 
+value, 7.34 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe:
+09/16/2002	13:30:00 to 09/27/2002     11:00:00
+High salinities from 09/25 through 09/28 indicate the tide gates were leaking 
+marine water into the freshwater side of the dike, this can happen when debris 
+gets caught in one or more of the gates.
+
+October 1 - 31, 2002
+Bayview Channel
+During the following periods pH data were removed because the post calibration 
+value, 6.73 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe:
+10/01/2002     00:00:00 to 10/10/2002     12:30:00
+The post-calibration turbidity value was low for the deployment period of 10/24 
+at 14:30:00 to 10/31 at 23:30:00, 77.6 NTU in 100 NTU solution, which is outside 
+the specified accuracy for this probe. This was a new model (#6136) turbidity 
+probe and YSI eventually recalled them to replace the motor and lubricant. 
+Turbidity values during the deployment of this probe may be lower than actual 
+values; also during this time there were numerous small negative turbidity 
+readings of -3 NTU; the accuracy for this sensor is ±2.0 NTU and some of the 
+low readings fall outside of this range but they should all be interpreted as 
+zero.
+
+Ploeg Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+10/03/2002	18:30:00
+10/06/2002	19:00:00
+10/08/2002	05:00:00, 07:00:00
+10/17/2002	01:00:00
+During the following period all data were deleted because the datalogger was not 
+fully deployed to the bottom of the pipe, this was evident from the salinity and 
+depth readings:
+10/24/2002     15:00:00 to 10/26/2002     00:00:00
+From 10/01 at 00:00:00 to 10/10 at 12:00:00 and 10/26 at 13:30:00 to 10/28 at 
+19:00:00 small negative turbidity readings of -2 NTU are within the accuracy 
+specified for this sensor and should be interpreted as zero.
+
+Joe Leary
+During the following period turbidity data was high and erratic so it was 
+deleted, cause unknown:
+10/10/2002	04:30:00
+10/10/2002	14:00:00
+
+November 1 - 30, 2002
+Bayview Channel
+During the following period turbidity data was high and erratic so it was 
+deleted, cause unknown:
+11/09/2002	05:30:00
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+11/19/2002     14:30:00 to 11/30/2002     23:30:00
+The post-calibration turbidity value was low for the deployment period of 11/01 
+at 00:00:00 to 11/19 at 14:00:00, 77.6 NTU in 100 NTU solution, which is outside 
+the specified accuracy for this probe. This was a new model (#6136) turbidity 
+probe and YSI eventually recalled them to replace the motor and lubricant. 
+Turbidity values during the deployment of this probe may be lower than actual 
+values; also during this time there were numerous small negative turbidity 
+readings of -3.4 NTU; the accuracy for this sensor is ±2.0 NTU and some of the 
+low readings fall outside of this range but they should all be interpreted as 
+zero.
+During the following period turbidity data has been deleted because the wiper 
+pad was missing from the turbidity probe when the datalogger was retrieved at 
+the end of this deployment period:
+11/19/2002     14:30:00 to 11/30/2002     23:30:00
+
+Ploeg Channel
+During the following period turbidity data was high and erratic so it was 
+deleted, cause unknown:
+11/14/2002	07:00:00
+Small negative turbidity readings of -1 NTU occurring intermittently from 
+11/01 through 11/05 are within the accuracy specified for this probe and should 
+be interpreted as zero.
+During the following periods pH data were deleted because the post calibration 
+value, 6.57 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe:
+11/19/2002    15:00:00 to 11/30/2002     23:30:00
+
+Joe Leary
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+11/19/2002	13:30:00 to 11/30/2002     23:30:00
+High values for salinity and dissolved oxygen on November 21st and 22nd indicate 
+that one or more of the tide gates was open and leaking marine water into the 
+fresh-water side of the dike.
+
+
+December 1 - 31, 2002
+Bayview Channel
+During the following period dissolved oxygen data were deleted because the DO 
+membrane was damaged, probably caused by crustaceans found inside the sensor 
+guard.
+12/12/2002     01:30:00 to 12/16/2002     13:00:00
+During the following period turbidity data were deleted because the wiper pad 
+was missing from the turbidity probe when the datalogger was retrieved at the 
+end of this deployment period:
+12/01/2002     00:00:00 to 12/16/20002     13:00:00
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+12/01/2002     00:00:00 to 12/16/2002     13:00:00
+12/31/2002     10:30:00 - 23:30:00
+The post-calibration conductivity value for the deployment period of 12/31 at 
+10:30:00 - 23:30:00 was low, 46.0 mS/cm in a solution of 50.0 mS/cm. This could 
+be due to fouling in the probe orifice or compromised calibration solution. 
+Salinity values during this period may be lower than actual values.
+
+
+Ploeg Channel
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+12/08/2002	19:00:00
+12/18/2002	21:30:00
+During the following periods pH data were deleted because the post calibration 
+value, 6.57 in a 7.0 pH solution, was outside the specified accuracy for this 
+probe:
+12/01/2002     00:00:00 to 12/31/2002     09:30:00
+
+Joe Leary
+During the following periods pH data were deleted because the slope of the 
+sensor as indicated by the millivolt readings during calibration were out of the 
+acceptable range:
+12/01/2002	00:00:00 to 12/10/2002     11:30:00
+During the following periods turbidity data were high and erratic so they were 
+deleted, cause unknown:
+12/02/02 	20:00:00
+12/04/02	20:30:00
+High values for salinity and dissolved oxygen December 8th through the 10th 
+indicate that one or more of the tide gates was open and leaking marine water 
+into the fresh-water side of the dike.
+
+
+12) Missing data:
+Missing data are denoted by a period in the data set.  Data are missing due to 
+equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For more details on deleted data, see 
+the Anomalous Data Section (11.).  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.  
+
+13) Post deployment information
+End of deployment post-calibration readings in standard solutions (new model 
+6136 turbidity probes are indicated with a +):
+
+Site	Date		pH	Sp. Conductivity (mS/cm)Turbidity	DO (Air Sat.)	
+		     (Std. 7)(Std. 50)	      	(Std. 100 NTU)(Std. 100%)	
+BY	01/15/02	7.12		48.95			97.7		damaged
+	01/31/02	6.82		49.52			97.3		84.4
+	02/12/02	7.22		50.38			101.4		100.4
+	02/26/02	7.09		49.46			98.3		98.4
+	03/22/02	6.88		50.53			101.8		99.3
+	04/04/02	6.93		48.65			101.9		100.7
+	04/18/02	7.05		50.35			98.2		103.7
+	05/10/02	7.24		50.22			101.1		98.5
+	05/22/02	6.78		49.71			99.5		101.7
+	06/05/02	7.27		49.67			86.3(+)	98.3
+	06/20/02	6.81		49.05			95.9		106.3
+	07/17/02	7.24		49.75			97.2(+)	99.1
+	08/15/02	7.01		50.06			100.4		102.8
+	08/28/02	6.98		49.66			99.4		96.6
+	09/12/02	7.19		50.52			100.4		105.3
+	09/26/02	7.22		48.88			100.2		99.6
+	10/10/02	6.73		48.35			96.1		102.7
+	10/24/02	7.12		50.77			97.1		103.4
+	11/19/02	7.07		51.12			77.6(+)	101.4
+	12/16/02	6.57		49.45			102.6(+)	damaged
+	12/31/02	7.02		50.52			104.4		94.9
+	01/21/03	6.84		46.0			95.1		100.9
+
+Site	Date		pH	Sp. Conductivity (mS/cm)Turbidity	DO (Air Sat.)	
+		     (Std. 7)(Std. 50)	     		(Std. 100 NTU)(Std. 100%)	
+BP	
+	01/15/02	7.22		48.91			96.9		104.7
+	01/31/02	6.87		48.84			96.3		98.4
+	02/12/02	7.08		50.73			99.7		99.9
+	02/27/02	6.99		50.35			101.1		100.0
+	03/22/02	6.77		50.06			101.0		102.2
+	04/04/02	6.95		48.31			101.5		91.1
+	04/18/02	7.0		50.28			98.5		118.1
+	05/10/02	7.22		50.59			98.3		100.4
+	05/22/02	6.88		49.74			100.3(+)	83.4
+	06/05/02	7.24		49.65			95.3(+)	105.1
+	06/20/02	6.61		48.59			90.6		damaged
+	07/17/02	7.24		49.82			86.6(+)	damaged
+	08/15/02	7.07		46.40			101.1(+)	damaged
+	08/28/02	6.72		48.94			84.7(+)	99.7
+	09/12/02	7.24		50.07			100.7		98.7
+	09/26/02	7.15		48.77			81.9(+)	94.4
+	10/10/02	6.77		49.01			96.1(+)	105.1
+	10/24/02	7.21		50.81			96.3		100.9
+	11/19/02	6.90		50.16			95.4(+)	102.5
+	12/31/02	6.57		49.80			97.8		101.6
+	01/21/03	7.01		49.29			97.0		101.3
+
+Site	Date		pH	Sp. Conductivity (mS/cm)Turbidity	DO (Air Sat.)	
+		      (Std. 7)	(Std. 50)	      (Std. 100 NTU)(Std. 100%)	
+JL	
+	01/03/02	6.82		49.14			99.1		104.5
+	01/14/02	7.19		49.02			98.0		93.6
+	02/01/02	6.95		50.34			malfunction	99.8
+	02/22/02	7.08		50.15			103.0		97.0
+	02/15/02	6.92		48.34			91.4		91.6
+	03/01/02	7.01		48.60			98.1		98.0
+	03/08/02	6.99		48.57			103.4		103.2
+	03/14/02	6.91		49.58			101.7		95.4
+	03/26/02	7.03		50.43			112.0		98.7
+	04/05/02	7.17		50.04			100.4		97.7
+	04/15/02	6.90		49.19			100.6		97.4
+	04/29/02	7.08		50.49			97.7		96.1
+	05/09/02	6.95		49.27			100.0		103.6
+	05/17/02	7.01		49.40			99.9		102.2
+	05/30/02	7.22		49.07			97.2		99.7
+	06/10/02	6.94		49.67			91.9(+)	91.6
+	06/21/02	6.88		50.11			96.0		99.8
+	07/02/02	6.9		50.04			94.1(+)	102.0
+	07/12/02	7.5		49.51			97.1		94.8
+	07/19/02	6.98		50.09			97.0		99.4
+	07/26/02	7.07		49.24			99.7		99.5
+	08/08/02	7.25		51.59			89.9		91.0
+	08/28/02	7.15		49.04			102.4(+)	99.9
+	09/16/02	7.19		49.57			97.2(+)	102.1
+	09/27/02	7.34		49.67			100.7		100.3
+	10/18/02	7.09		50.28			100.1(+)	102.8
+	10/28/02	6.83		48.61			95.7(+)	104.2
+	11/08/02	7.10		50.92			104.7(+)	100.6
+	11/19/02	7.17		49.67			96.1		100.2
+	12/10/02	6.57		49.84			97.2(+)	101.6
+	12/23/02	6.98		50.53			97.0		104.4
+	01/13/03	6.81		49.85			98.0		100.3
+
+
+	
+14) Other Remarks/notes
+Generally high turbidities in Joe Leary Slough correspond to heavy rain events 
+as on February 21 and 22 when a two-day total of 35.6 mm of precipitation was 
+recorded at our weather station. At the two bay sites, Bayview and Ploeg 
+Channel, wind is often the driving force affecting turbidity as on April 22 when 
+both bay sites had elevated turbidities in the afternoon and wind average speed 
+for the day was 5.4 m/s with a maximum gust of 17.3 m/s.As noted in data 
+anomalies section there were problems with a new model of turbidity probe, 
+#6136 (denoted in post deployment section with +). It would calibrate without 
+error but post-calibration readings in a 100 NTU standard were often low. These 
+probes were recalled for an upgrade to replace the lubricant and install a new 
+wiper motor.

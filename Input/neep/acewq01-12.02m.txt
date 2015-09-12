@@ -1,0 +1,1424 @@
+ACE Basin (ACE) National Estuarine Research Reserve Water Quality Metadata 
+January-December 2002 
+Latest update: May 12, 2003
+
+I.	Data Set & Research Descriptors
+1.	Principal investigator & contact persons:
+Addresses: 
+SCDNR/Marine Resources Division					
+217 Fort Johnson Road			
+Charleston, SC  29412			
+(843) 953-9300				
+
+ACE Basin NERR field station
+15717 Bennett's Point Road
+Green Pond, SC 29446
+(843) 844-8822
+
+Contact Persons:	
+Dr. Elizabeth Wenner, Research Coordinator
+   E-mail: wennere@mrd.dnr.state.sc.us ;  (843) 953-9226 
+Saundra Upchurch, Reserve Biologist
+   E-mail: upchurchs@mrd.dnr.state.sc.us ;  (843) 953-9223
+Amy Whitaker Dukes, Reserve Technician
+   E-mail: whitakera@mrd.dnr.state.sc.us ; (843) 953-9225
+Amy E. Cook, Reserve Technician
+	E-mail: cooka@mrd.dnr.state.sc.us ; (843) 953-9225 	
+
+2.	Entry verification:
+		The data are directly downloaded from the YSI Model 6000 and/or a 
+Model 6600EDS sonde to comma-delimited files (*.csv) and PC6000 files (*.dat). 
+The comma-delimited files are imported into Excel 98 where they are formatted 
+and processed by macros that are supplied by the Centralized Data Management 
+Office (CDMO). Various macros are designed to: 1) check data files for missing 
+data points, 2) fill all cells that do not contain data with periods (.), 3) 
+convert the data columns to the CDMO-approved formats for time, date and numeric 
+variables, 4) find all data that are out of acceptable range for the data 
+logger's sensors and output the anomalous data to an output file (*.dat), and 5) 
+save the files as Excel worksheets (*.xls).
+	The anomalous data are evaluated to determine whether to flag or delete 
+the suspect data.  Data are flagged if the values are: 1) outside the range 
+expected for the site, 2) outside the range of measurements established for the 
+sensors, 3) outside the range of accuracy established for the sensors, or 4) 
+outside the range established for good water quality conditions (i.e., dissolved 
+oxygen <28%).  Data are deleted if the anomalies are attributed to: 1) a sensor 
+malfunction, 2) exposure of sensors during low tides, or 3) fouling of sensors 
+by aquatic organisms, debris, or sediment.  Sensor malfunctions are detected if 
+the voltage reading of the sensor is outside the range established for the 
+sensor or the sensor will not calibrate.  Fouling of sensors is detected by 
+comparing in-situ sensor readings with measurements (see Research Methods 
+section).  In addition, sensor readings that differ significantly (>10%) from 
+standard solution (i.e., conductivity) suggest that the sensor was fouled during 
+deployment.  After corrections are made to the Excel worksheet (*.xls), the 
+files are exported as tab-delimited files  (*.txt) to the CDMO.  Saundra 
+Upchurch, Amy Whitaker Dukes, and Amy E. Cook are responsible for these tasks.
+
+3.	Research Objectives:
+		 
+	The ACE Basin water quality-monitoring program began on March 3, 1995 at 
+two tributaries off Big Bay and St. Pierre creeks (see Site Location and 
+Character section for description of sites).  The water quality deployment sites 
+were constructed prior to the first deployment (see Research Methods section).  
+Initially, the YSI electronic data loggers, at Big Bay and St. Pierre Creeks, 
+were programmed to measure the water temperature, specific conductance, 
+dissolved oxygen, water level, and pH at 15-minute intervals (the sampling 
+interval was changed to 30 minutes prior to the August 11, 1995 deployment 
+period).  Starting April 11, 1996 deployment period, turbidity monitoring was 
+added to the program.  In 2002, the SWMP program expanded the spatial coverage 
+of the monitoring program to include two additional data logger deployment 
+sites.   In October of 2002, water quality data loggers were deployed in Fishing 
+Creek and Mosquito Creek.   
+	Based on discussions with local Coastal Zone Management (CZM) personnel 
+and our knowledge of land use within the Reserve, the South Edisto River 
+drainage basin appears well suited for studying contrasting hydrographic 
+conditions and land use patterns. One NERR water quality monitoring station has 
+been established near Edisto Beach within a tributary of Big Bay Creek.  
+Surrounded by residential and commercial development and subject to nonpoint 
+source pollution, this station is designated as the "treatment" site.  The 
+second NERR water quality monitoring station has been situated near Bailey 
+Island, within a tributary of St. Pierre Creek.  Urban development in the 
+immediate area of this station has been sparse to date so this station will 
+serve as the "control" site.  Similar to the two initial monitoring stations, 
+the new sites contrast hydrographic conditions, land use patterns in the ACE.  
+The third NERR water quality-monitoring station is located within a tributary of 
+Fishing Creek on Jehosse Island, and both the South Edisto and North Edisto 
+Rivers influence the creek.  The island is owned and operated by the U.S. Fish 
+and Wildlife Service and serves as a wildlife refuge for native and migrating 
+birds and many of South Carolina's endangered species.  This station will serve 
+as a second "control" site.  The fourth NERR water quality monitoring station is 
+situated in Mosquito Creek, a tributary of the Ashepoo River.   Surrounded by 
+rural development and agriculture, Mosquito Creek is subject to increased 
+nutrient loading and possibly herbicides and pesticides.  This station will 
+serve as a second "treatment" site.
+	In July 1997, the Reserve staff initiated nutrient studies.  The objective 
+of the study is to ascertain the annual and tidal fluctuations in nutrient 
+levels near our two data logger sites. Nutrient levels are measured during a 
+complete tidal cycle each month, and the samples are analyzed for ammonia, 
+nitrite-nitrate, and ortho-phosphate concentrations.  In February of 2002, 
+nutrient collection and analysis was established and became apart of the SWMP 
+protocol.  Nutrients and Chlorophyll-a samples are collected monthly at all four 
+deployment sites, and a diel (24-hour sampling) is conducted monthly at St. 
+Pierre Creek.    
+
+4.	Research Methods
+		Each data logger is deployed at each permanent monitoring station, 
+three in the South Edisto River watershed and one in the Ashepoo watershed.  
+Each deployment mount is cleaned and maintained on a monthly basis.  The 
+monitoring station at Big Bay Creek was constructed in 1995, and consisted of a 
+PVC pipe mounted vertically on a pole. This monitoring station was replaced in 
+Oct of 2001 because of its old age, high potential for fouling to the data, and 
+growth of oysters on the mount.  The new mount consists of two 5-foot PVC pipes 
+mounted vertically on two overlapping 12-foot galvanized poles.  The new mount 
+design allows for easy access to the YSI data sondes.  To facilitate water flow 
+across the sensors, approximately one-inch diameter holes are drilled into the 
+PVC pipes.  The pipes are also positioned to ensure that the sensors are 
+approximately 0.5 meters from the creek bottom.  In 1997, the St. Pierre Creek 
+station was modified: the PVC pipe is mounted horizontally in a pyramid-shaped 
+cage (2.5 ft long x 1.5 ft high) tethered to the original 12-foot galvanized 
+pole.  Later that year, we began to put the data loggers in 1/8-inch mesh net 
+bags before placing them in the PVC pipe to reduce damage by crabs and fish.  In 
+April of 2000, the St. Pierre station was moved and modified.  The station was 
+moved to the other side of the creek, and the pyramid-shaped cage was deployed 
+vertically at the base of the pole. In September of 2001, the St. Pierre 
+deployment mount was replaced with three 5-foot PVC pipes mounted vertically on 
+two overlapping 12-foot galvanized poles. To facilitate water flow across the 
+sensors, approximately one-inch diameter holes were drilled into the PVC pipes.  
+The Fishing Creek monitoring station was constructed in October of 2002, and 
+consists of a 5-gallon bucket cut in half and filled with concrete.  PVC pipe is 
+attached horizontally, with floats fastened at either end, to the bucket with a 
+one-foot lead line through a stainless steal eyebolt set in the concrete.  When 
+the data logger is deployed, it floats horizontally approximately 0.5 meters 
+from the creek bottom.  In October of 2002, the Mosquito Creek monitoring 
+station was constructed using three overlapping 12-foot galvanized poles with 
+three 5-foot PVC pipes mounted vertically. To facilitate water flow across the 
+sensors, approximately two-inch diameter holes were drilled into the PVC pipes.  
+The deployment mount is secured by u-brackets to a bridge for extra support.  
+During the summer, the data loggers are left at the sites for one to two weeks, 
+and the sampling period is extended up to one month during the cooler months.
+	At the end of the sampling period, the data loggers are brought back to 
+the laboratory for cleaning, post calibration, and servicing, by methods 
+outlined in the YSI Operating and Service Manual.  After cleaning the data 
+loggers, the dissolved oxygen (DO) membrane is replaced and is allowed to 
+stretch for 24 hours before calibration begins.  The pH, conductivity, depth, 
+and turbidity sensors are calibrated, using the following standards: pH 7 and 
+10, conductivity standard of 58.64mS/cm, depth in the air, and turbidity 
+standards of 0 and 200 NTU, respectively for the 6026 turbidity probe.  In 
+August of 2002, the Reserve upgraded the turbidity probes to the new 6136 probe, 
+which is calibrated in standards of 0 and 123 NTU, respectively.  The water 
+level sensor is zeroed in air, and the chlorophyll is zeroed in distilled water.  
+The DO sensor is calibrated in air-saturated water.  In addition to the 
+procedures outlined in the CDMO manual, we conduct a DO membrane integrity test 
+prior to deployment to determine if the membrane was damaged during calibration.
+	Several quality assurance checks are used to determine if the sensor 
+readings drifted significantly during deployment. In-situ measurements of 
+dissolved oxygen, expressed in mg/L, salinity, pH, and water temperature are 
+taken during deployment and retrieval of the data sondes.  Water samples are 
+collected at the same depth as the sensors.  Water temperature, salinity, and pH 
+are measured directly with a thermistor, refractometer and pH meter, 
+respectively, and dissolved oxygen level is determined by the Winkler titration.  
+As of November 2001, second sets of in-situ measurements are recorded using an 
+YSI 600 XL data sonde with an YSI 650 Multi-Parameter Display System (MDS).  
+	Post-deployment measurements of all the parameters except turbidity are 
+taken before cleaning the data loggers.  Turbidity is post calibrated after the 
+sonde has been cleaned to insure the accuracy of the standard.  Sensors are 
+immersed in the appropriate standard solutions (i.e., pH) and readings are 
+recorded. A DO membrane integrity test also is conducted to determine if the 
+membrane was damaged during deployment.  The results of these checks are used to 
+evaluate the validity of the data (see Post Deployment Information section). 
+
+5. Site Locations and Character:
+ACE Basin National Estuarine Research Reserve is one of the largest undeveloped 
+estuaries on the East Coast. The study area encompasses the Ashepoo, Combahee 
+and South Edisto River basins, which empty into St. Helena Sound.  The NERR 
+consists of approximately 150,000 acres of diverse estuarine wetlands providing 
+preserved habitats for fish and wildlife 
+		Three sampling sites are in separate tributaries of the South Edisto 
+River and one is in a tributary of the Ashepoo River.  Each site averages a year 
+round tidal range of approximately 2.0 m (6.5 feet), with a maximum of 2.48 m 
+(8.2 feet) and a minimum of 1.45 m (4.8 feet).  The descriptions of the sites 
+are as follows: 
+Station A, Big Bay Creek - GPS coordinates: 32.4897N and -80.3202W 
+This site is in a tidal marsh creek off Big Bay Creek. Surrounded by residential 
+and commercial development and subject to nonpoint source pollution, this 
+station is designated as a "treatment" site. Pollution sources include houses 
+bordering the creek, many of them with little setbacks from the bordering 
+Spartina marsh; forty docks in the area constructed of creosote, concrete and 
+Wolmanized pilings; boat dockage and heavy boat traffic through the creek; a 
+paved road and three boat ramps off the creek; a marina with 75 slips, CCA 
+treated bulkheads and fueling areas located about 0.5 miles downstream; two 
+commercial seafood docks with 8-10 commercial shrimp boats; and three 
+restaurants. The creek is closed to shellfish harvesting because of the human 
+development in the vicinity. Vegetation in the area includes salt marsh 
+dominated by Spartina alterniflora with isolated areas of Salicornia. Upland 
+fringe areas consist of cabbage palmetto, live oak and cedars. Reefs of American 
+oyster (Crassostrea virginica) fringe the creek banks.  In 2002, the yearly 
+average creek depth at a late ebb tide was 1.06 m (3.5 feet) and salinity was 
+32.3 parts per thousand (ppt).
+
+Station B, St. Pierre Creek - GPS coordinates: 32.5233N and -80.3568W 
+This site is in a tidal creek off St. Pierre Creek. It is surrounded by a wide 
+expanse of Spartina alterniflora marsh. Extensive mud flats and oyster reefs 
+fringe the banks.  Maritime forest communities comprised of species such as wax 
+myrtles, live oaks, and palmettos dominate the upland areas.  This station is 
+designated as a "control" site, because development in the immediate area is 
+sparse, and the creek is subject to relatively light boat traffic.  In 2002, the 
+yearly average creek depth at a late ebb tide was 2.0 m (6.6 feet) and salinity 
+was 30.7 parts per thousand (ppt).
+
+Station C, Fishing Creek - GPS coordinates: 32.6358 N and -80.3655W 
+This site is in a tidal creek off Fishing Creek. Located within the boundaries 
+of Jehosse Island, a protected Wildlife Management Area, this site is surrounded 
+by extensive Spartina cynosuroides marsh and vast mud flats.  The upland areas 
+of Jehosse Island consist of long leaf pines, live oaks, and contain managed 
+drainage impoundments.  Once considered working rice fields, these impoundments 
+are well-managed wetlands filled with thriving brackish marshes and not subject 
+to pesticides and herbicides.  Relatively subject to light boat traffic (i.e. 
+commercial crab harvesters) and sparse development, this station is designated 
+as a "control" site.  In 2002, the yearly average creek depth at a late ebb tide 
+was 1.2 m (3.8 feet) and salinity was 10.6 parts per thousand (ppt).
+
+Station D, Mosquito Creek - GPS coordinates: 32.5558 N and -80.4380W 
+This site is in the tidal creek of Mosquito Creek. Surrounded by intermediate 
+rural, residential and agricultural development, and subject to nonpoint source 
+pollution, this station is designated as a "treatment" site. Several impoundment 
+trunks open and drain into the creek increasing the nutrient load and possibly 
+introducing herbicides and pesticides.  Other pollution sources include several 
+houses bordering the creek, ten docks constructed of creosote, concrete and 
+Wolmanized pilings; medium boat traffic through the creek; one boat ramps off 
+the creek; a commercial seafood and fueling area is located about 0.5 miles 
+downstream, with three commercial shrimp boats. Vegetation in the area includes 
+salt marsh dominated by Spartina alterniflora and Juncus roemerianus.  Upland 
+fringe areas consist of cabbage palmetto, live oaks and pine trees.  In 2002, 
+the yearly average creek depth at a late ebb tide was 4.8 m (15.7 feet) and 
+salinity was 19.5 parts per thousand (ppt).
+   	Fishing Creek and Mosquito Creek data collection began in October of 2002, 
+and with the limited data collected, accurate discussions of trends in water 
+quality at these monitoring stations are not feasible.  
+
+	The following discussions of trends in water quality at Big Bay and St. 
+Pierre monitoring stations are based on data collected from March 1995 through 
+December 1997.  During this period, water temperature at both monitoring sites 
+exhibited a seasonal pattern with lowest values occurring in December-January.  
+The lowest monthly water temperature observed was 8.9 oC, which occurred in 
+February 1996 at St. Pierre Creek; whereas maximum temperatures occurred in July 
+and August with the highest monthly water temperature 38.9 oC occurring in July 
+1995 at Big Bay Creek.  Diurnal variation in temperature was evident with 
+warmest temperatures occurring from 1300 hr to 1800 hr at both sites.  Salinity 
+also exhibited seasonal variability during the same period, with lowest values 
+occurring in March at Big Bay and St. Pierre creeks.  Another period of low 
+average monthly salinity occurred at Big Bay Creek in December 1997.  Average 
+annual salinity for both sites was in the polyhaline regime, with a mean of 29.4 
+‰ at Big Bay Creek and 26.3‰ at St. Pierre Creek; however, for all years, 
+salinity ranged from 0.3-41.7 ‰ at Big Bay and from 0-41.7‰ at St. Pierre Creek.  
+Local precipitation and evaporation conditions are most likely the major 
+contributors to monthly variability in salinity.  Analysis of the data indicates 
+that tidal stage strongly influences salinity.  As expected, highest values of 
+salinity occurred on the flood tide. 
+	It appears that tidal stage also influences pH. Spectral analysis revealed 
+a periodicity for pH and water depth with a sinusoidal period at ~ 12 hrs., 
+representing tidal periodicity.  Time series plots of pH indicated variability 
+of ~1 standard unit (su) on a daily basis. The pH at both sites was very 
+similar, ranging from 5.3-8.4; however, the preponderance of measurements were 
+>7 at both sites.  The pH observed at the two monitoring sites appears to be 
+attributable to natural conditions. Marked variations in pH can also occur 
+diurnally due to changes in primary production and respiration.
+	Dissolved oxygen concentrations appeared to track depth for part of the 
+cycle, with lowest values occurring on low tides.  Afternoon and evening values 
+were not as low as early morning values, suggesting a diurnal component.  
+Dissolved oxygen values at the two monitoring sites were generally high 
+throughout the year with averages of 83.6% saturation and 6.6 mg/l for Big Bay 
+Creek and 78.5% saturation and 6.3 mg/l for St. Pierre Creek, with highest 
+values in winter and lowest in summer.  Hypoxic events (<28% air saturation) 
+were observed in every season, but summer was clearly the season with the 
+greatest percent of time when DO was < 28%. Whereas, supersaturation (>100% air 
+saturation) occurred primarily in the winter, with values exceeding 120% at both 
+creeks. There are a few differences among the sites such as, hypoxic conditions 
+occur more frequently at St. Pierre Creek.
+	Unlike the other parameters monitored at Big Bay and St. Pierre creeks, 
+there appears to be no distinct seasonal trend in turbidity; however, monthly 
+variability appeared greater at the St. Pierre site. This may be due to 
+fluctuations in the amount of detritus being washed form the extensive salt 
+marsh and upland sites that surround St. Pierre Creek.
+	It appears that metal leachates from the pilings, even the new ones, in 
+reasonably tidal flushed areas, along Big Bay Creek have negligible ecological 
+effects, according to the 1994 study by Weis and Weis.  Their findings indicated 
+that concentrations of the metals (Cr, Cu, and As) in sediments adjacent to 
+pilings along Big Bay Creek were generally not significantly elevated, and there 
+were no consistent differences in the benthic communities between the Big Bay 
+and St. Pierre monitoring sites.
+	However, the highest values of PAHs encountered (299.0 ng/g) during a 
+study by Drs. Geoff Scott and Tom Mathews from 1993-1995 were in the South 
+Edisto watershed at Big Bay Creek; this station also had detectable levels of 
+PCBs, concentrations as well.  Whereas, the concentrations in St. Pierre Creek 
+were below the level of detection for persistent pesticides and for PCBs.  At 
+most 34 sites, contaminant levels were below the level of detection for 
+persistent pesticides and for PCBs, suggesting that the ACE is a relatively 
+pristine system.
+	
+6. Data collection period:
+		BEGAN						ENDED
+					Big Bay Site
+		12/03/01 - 11:00:00			01/02/02 - 07:30:00
+		No data was recorded between 01/02/02 at 08:00:00 thru 01/07/02 at 
+14:30:00
+		01/07/02 - 15:00:00			01/22/02 - 12:00:00
+		01/22/02 - 12:30:00			02/05/02 - 11:30:00
+		02/05/02 - 12:00:00			02/19/02 - 12:00:00
+		02/19/02 - 12:30:00			03/05/02 - 12:30:00
+		03/05/02 - 13:00:00			03/25/02 - 09:30:00
+		03/25/02 - 10:00:00			04/03/02 - 10:30:00
+		04/03/02 - 11:00:00			04/22/02 - 07:30:00
+		04/22/03 - 08:00:00			05/07/02 - 07:30:00
+		05/07/02 - 08:00:00			05/23/02 - 09:00:00
+		05/23/02 - 09:30:00			06/05/02 - 12:30:00
+		06/05/02 - 13:00:00			06/21/02 - 09:00:00
+		06/21/02 - 09:30:00			07/10/02 - 09:30:00
+		07/10/02 - 10:00:00			07/18/02 - 07:30:00
+		07/18/02 - 08:00:00			08/01/02 - 13:00:00
+		Data collection with YSI 6600 EDS data sondes began on 08/01/02
+		08/01/02 - 13:30:00			08/20/02 - 09:00:00
+		08/20/02 - 09:30:00			09/12/02 - 10:30:00
+		09/12/02 - 11:00:00			10/08/02 - 09:30:00
+		10/08/02 - 10:00:00			11/04/02 - 09:00:00
+		11/04/02 - 09:30:00			12/12/02 - 10:30:00
+		12/12/02 - 11:00:00			01/14/03 - 08:30:00
+				
+					St. Pierre Site
+		12/03/01 - 12:00:00			12/10/01 - 21:30:00
+		No data was recorded between 12/10/01 at 22:00:00 thru 01/07/02 at 
+13:30:00
+		01/07/02 - 14:00:00			01/22/02 - 11:00:00
+		01/22/02 - 11:30:00			02/05/02 - 12:30:00
+		02/05/02 - 13:00:00			02/19/02 - 11:00:00
+		02/19/02 - 11:30:00			03/05/02 - 11:30:00
+		03/05/02 - 12:00:00			03/25/02 - 10:00:00
+		03/25/02 - 10:30:00			04/03/02 - 10:00:00
+		04/03/02 - 10:30:00			04/22/02 - 08:00:00
+		04/22/02 - 08:30:00			05/07/02 - 08:30:00
+		05/07/02 - 09:00:00			05/23/02 - 10:00:00
+		05/23/02 - 10:30:00			06/05/02 - 10:30:00
+		06/05/02 - 11:00:00			06/21/02 - 10:00:00
+No data was recorded between 06/21/02 at 10:30:00 thru 07/10/02 at 08:30:00
+		07/10/02 - 09:00:00			07/18/02 - 08:00:00
+		07/18/02 - 08:30:00			08/01/02 - 13:30:00
+		Data collection with YSI 6600 EDS data sondes began on 08/01/02
+		08/01/02 - 14:00:00			08/20/02 - 09:30:00
+		08/20/02 - 10:00:00			08/29/02 - 21:00:00
+		No data was recorded between 08/29/02 at 21:30:00 thru 09/12/02 at 
+10:00:00
+		09/12/02 - 10:30:00			10/08/02 - 10:00:00
+		10/08/02 - 10:30:00			11/04/02 - 10:00:00
+		11/04/02 - 10:30:00			12/12/02 - 09:30:00
+		12/12/02 - 10:00:00			01/01/03 - 09:00:00
+
+					Fishing Creek
+		10/16/02 - 12:30:00			11/15/02 - 11:30:00
+		11/15/02 - 12:00:00			12/16/02 - 11:30:00
+		12/16/02 - 12:00:00			01/14/03 - 10:30:00
+
+					Mosquito Creek
+		10/15/02 - 11:30:00			11/19/02 - 10:30:00
+		11/19/02 - 11:00:00			12/16/02 - 12:00:00
+		12/16/02 - 12:30:00			01/14/03 - 11:30:00
+ 
+7. Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, is as follows.
+
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from the NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals. Will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and Coastal 
+Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility for 
+its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.  
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page 
+http://cdmo.baruch.sc.edu.  Data are available in text tab-delimited format, 
+Microsoft Excel spreadsheet format and comma-delimited format.
+
+8. 	Associated researchers and projects:
+Dr. Charles Wenner of SCDNR/Marine Resources Research Institute received funding 
+through the National Marine Fisheries Service in January of 2001 to continue an 
+ongoing survey of red drum (Sciaenops ocellatus) in the South Edisto and 
+Combahee River basins, by electro-fishing in tidal freshwater and low salinity 
+brackish water.  Although red drum are the target species, all catches are 
+separated, measured and weighted to provide a distribution and population size 
+for each species.    
+The ACE Basin NERR received initial funding from the U.S. Environmental 
+Protection Agency to establish a National Atmospheric Deposition Program site in 
+the Reserve. Sampling efforts began on January 1, 2002 and will continue for 
+five years. Weekly precipitation samples are collected and analyzed for 
+atmospheric pollutants.  The precipitation collector is located on Bear Island, 
+a Wildlife Management Area inside the NERR.
+In March of 2002, the Reserve participated in a beta test of the new YSI 6600 
+EDS - Extended Deployment System data sonde.  The ACE Basin was one of five 
+estuarine sites, selected by Mike Lizotte at ENDECO/YSI to collect water quality 
+data using the new data sonde.  The new data sonde is outfitted with a synthetic 
+squirrel-hair wiper that is attached to the turbidity wiper, which swipes the DO 
+membrane and the pH sensor to clear them of any debris or bio-foul.  The data 
+sonde was deployed beside an existing 6000 data sonde in St. Pierre Creek from 
+March 15, 2002 to April 15, 2002.  The data sets were compared by YSI, and the 
+6600 EDS proved to extend the accuracy and longevity of DO measurements for up 
+to 60 days with minimal drift.  The results from this beta test convinced 
+Reserve staff to upgrade all YSI data sondes to the new 6600 EDS, which included 
+the new 6136 turbidity probe.  The new data sondes were deployed in August of 
+2002.  
+	The ACE Basin participated in the NOAA funded, NERR Invasive Decapod Pilot 
+project.     Sampling efforts began in August of 2002, and will continue through 
+June of 2003.  Utilizing the established NERR systems, four northwestern NERR 
+sites and five southeastern NERR sites were selected to participate in the pilot 
+project.  The project was designed to understand which crabs have invaded which 
+sites.  Identical crab collectors are deployed at the participating Reserves, 
+and all crabs found in collectors are identified, measured, and counted.  The 
+sex and general condition of crabs (reproductive status, molt stage, obvious 
+parasites, etc.) are noted as well.  
+	Dr. Clark Alexander of Skidaway Institute and ACE Basin Reserve staff 
+conducted a spatial distribution of salinity, at high slack water, in each of 
+the rivers of the ACE Basin in September of 2002.  This study was initiated 
+after severe drought conditions impacted the NERR during the summer of 2002.  A 
+second sample will be conducted in April of 2003.  
+	The results of addition studies conducted in the ACE Basin can be obtained 
+by contacting the Reserve.  
+	
+II. Physical Structure Descriptors
+9. Variable sequence, range of measurements, units, resolution, and accuracy:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+Probe Identification:			Standards for Calibration:
+Turbidity 6026 Probe			Advanced Polymer Systems Inc.
+							200 NTU
+Turbidity 6136 Probe			Advanced Polymer System Inc.
+							123 NTU 
+pH 116031 Probe				Micro Essential Laboratory Inc.
+							Hydrion Buffer 7.00 and 10.00
+Specific Conductivity 6030 Probe	J.T. Baker, Potassium Chloride Crystal
+							58.64 mS/cm	
+Chlorophyll 99L Probe			Rhodamine B
+							0.05 grams in 500 milliliters of DI 
+water
+
+10. Coded variable indicator and variable code definitions:
+		SP = St. Pierre 
+		BB = Big Bay
+		FC = Fishing Creek
+		MC = Mosquito Creek
+
+11. Data anomalies:	
+
+January 1-31, 2002 Sampling Period
+	Big Bay
+a)	During the following periods of the December 3 - January 7 
+deployment, the batteries died.  There were no data collected.	
+		01/02/02	08:00:00		THRU			01/07/02	14:30:00
+b)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings are above 120% air saturation.
+		01/10/02	13:30:00
+		01/11/02	13:30:00-14:30:00
+		01/18/02	14:30:00
+		01/19/02	15:00:00-15:30:00
+		01/20/02	16:00:00
+		01/22/02	16:30:00-17:00:00
+c)	During the following periods, the salinity readings are suspect 
+because values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to an extremely low tide and a rainfall event.  
+Temperature readings were low, supporting the hypothesis that values were due to 
+rain.
+		01/13/02	02:30:00-03:30:00
+d) During the following periods of the January 22 - February 5 deployment.  The 
+pH readings are suspect because the probe failed during the end of deployment, 
+indicated by a downward drift in readings.  
+		1/22/02	12:30:00		THRU			01/31/02	10:30:00
+e) During the following periods of the January 22 - February 5 deployment, the 
+pH readings were deleted. The pH probe failed during the end of deployment.  
+Indicated by a downward drift in readings.  The sensor did not read within the 
+required range during the post-deployment calibration check on pH 10.
+		01/31/02	11:00:00		THRU			01/31/02	23:30:00
+
+		
+	St. Pierre
+a)	During the following periods of the December 3 - January 7 
+deployment, the batteries died.  There were no data collected.	
+		01/01/02	00:00:00		THRU			01/07/02	13:30:00
+b)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings are above 120% air saturation.
+		01/16/02	17:00:00
+		01/17/02	14:30:00-18:00:00
+		01/18/02	14:30:00-18:30:00
+		01/19/02	14:00:00-18:30:00
+		01/20/02	15:30:00-17:00:00
+		01/22/02	17:30:00-18:00:00
+c)	At 01:30:00 on January 8, the turbidity spiked (1164 NTU).  The high spike 
+was possibly due to an animal, a clump of plant matter, or sediment that passed 
+by the sensor optics during the sampling interval.
+
+
+February 1-28, 2002 Sampling Period
+	Big Bay
+a)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings are above 120% air saturation.
+		02/11/02	14:00:00-15:00:00
+		02/12/02	15:00:00-16:00:00
+		02/14/02	15:30:00-16:30:00
+		02/18/02	15:30:00
+		02/19/02	15:30:00-17:30:00
+		02/20/02	16:00:00-17:00:00
+		02/21/02	16:30:00-17:30:00
+b)	During the following periods, the depth readings are negative.  The 
+depth data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		02/07/02	22:00:00-23:30:00
+		02/26/02	00:00:00-01:30:00;  14:00:00
+		02/27/02	01:00:00-03:00:00;  13:30:00-16:00:00
+		02/28/02	03:00:00-04:00:00
+c)	During the following periods of the January 22 - February 5 deployment, 
+the pH readings were deleted. The pH probe failed during the end of deployment.  
+Indicated by a downward drift in readings.  The sensor did not read within the 
+required range during the post-deployment calibration check on pH 10.
+		02/01/02	00:00:00		THRU		02/05/02	11:30:00
+
+
+	St. Pierre
+a)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings are above 120% air saturation.
+		02/19/02	15:30:00-18:00:00
+
+
+March 1-31, 2002 Sampling Period
+	Big Bay
+a)	During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are above 120% air saturation.
+		03/06/02	17:30:00
+		03/10/02	13:30:00
+		03/14/02	14:30:00-15:30:00
+		03/15/02	15:00:00-16:00:00
+b)	During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		03/02/02	17:00:00-17:30:00
+		03/03/02	05:00:00-06:30:00; 16:30:00-19:00:00
+		03/04/02	05:30:00-07:30:00
+		03/10/02	12:00:00
+		03/11/02	00:00:00
+		03/13/02	13:00:00-14:30:00
+		03/14/02	01:00:00-03:00:00; 14:00:00-15:00:00
+		03/15/02	02:00:00-03:00:00; 14:00:00-15:30:00
+		03/16/02	03:00:00; 14:30:00-16:30:00
+		03/17/02	03:00:00-04:00:00; 15:30:00-16:30:00
+		03/18/02	16:30:00
+		03/24/02	22:00:00-22:30:00
+c)	During the March 5 - March 25 deployment, the pH readings were suspect.  The sensor read within the required range during the post-deployment calibration checks on pH 7 and pH 10.  The recorded pH values were consistently high, compared to pH readings of other deployments. 
+
+
+	St. Pierre
+a) During the March 5 - March 25 deployment, dissolved oxygen (DO) readings are suspect due to the irregular pattern of values along with a high DO charge.  The DO probe passed post calibration checks and was within range.  
+b) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.  
+		03/10/02	17:00:00
+		03/16/02	10:00:00; 22:00:00
+		03/17/02	04:00:00-05:30:00; 10:30:00-11:00:00; 21:00:00-23:00:00
+		03/18/02	04:00:00-06:30:00; 08:00:00-11:00:00; 17:00:00; 
+20:30:00-23:30:00
+		03/19/02	00:00:00-00:30:00; 04:00:00-07:00:00; 09:00:00-12:30:00; 
+15:30:00-19:00:00; 20:30:00-23:30:00
+		03/20/02	00:00:00-02:00:00; 03:00:00-08:00:00; 11:30:00-12:30:00
+		03/21/02	01:30:00
+
+
+April 1-30, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		04/16/02	05:00:00-06:00:00
+		04/17/02	06:30:00
+		04/21/02	22:30:00
+b)	During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		04/29/02	04:30:00-05:00:00;  15:00:00-16:30:00
+
+
+St. Pierre
+a)	During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		04/18/02	07:30:00
+		04/20/02	08:30:00
+b)	At 17:30:00 on April 12 and 20:30:00 on April 29, the turbidity spiked 
+(1571, 1310 NTU) respectively.  The high spike was possibly due to an animal, a 
+clump of plant matter, or sediment that passed by the sensor optics during the 
+sampling interval.
+
+
+May 1-31, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		05/29/02	06:00:00
+		05/31/02	07:00:00
+b) During the following periods, the salinity and specific conductivity readings 
+were deleted. The low readings were possibly due to minimal flow of water 
+through the electrodes.
+		05/09/02	12:00:00
+		05/10/02	12:00:00-12:30:00
+c) During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		05/08/02	10:30:00-11:30:00
+		05/09/02	11:30:00-12:30:00
+		05/10/02	12:00:00-13:30:00
+		05/13/02	13:30:00-15:00:00
+		05/14/02	02:00:00-04:30:00; 14:30:00-15:00:00
+		05/18/02	06:00:00;  18:00:00-19:00:00
+d)	At 08:30:00 on May 15, the turbidity spiked (2154 NTU). The high spike was 
+possibly due to an animal, a clump of plant matter, or sediment that passed by 
+the sensor optics during the sampling interval.
+
+
+St. Pierre
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		05/13/02	02:30:00;  04:30:00
+		05/15/02	04:00:00-04:30:00;  05:30:00-06:00:00
+		05/16/02	05:30:00
+		05/17/02	05:30:00;  07:30:00
+		05/18/02	06:00:00
+		05/28/02	03:30:00-04:00:00
+		05/29/02	04:30:00-05:30:00
+		05/30/02	05:00:00-05:30:00;  06:30:00;  17:00:00
+		05/31/02	05:30:00-06:30:00;  07:30:00;  17:30:00-18:00:00
+b)	At 02:00:00 on May 31, the turbidity spiked (1555 NTU).  The high spike 
+was possibly due to an animal, a clump of plant matter, or sediment that passed 
+by the sensor optics during the sampling interval.
+c)	During the May 23 to June 5 deployment, the turbidity readings were suspect.  The sensor read within the required range during the post-deployment calibration checks on 0.0 NTU and 200 NTU.  The recorded turbidity values were consistently high near the end of the deployment, and were possibly due to ambient conditions.
+
+
+June 1-30, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		06/01/02	07:30:00-08:30:00
+		06/02/02	07:30:00;  08:30:00-09:30:00;  21:00:00
+		06/03/02	09:30:00-10:00:00;  21:30:00-22:00:00
+		06/04/02	09:30:00-10:30:00;  22:00:00-23:00:00
+		06/05/02	07:30:00-11:30:00
+		06/16/02	07:30:00
+		06/17/02	21:00:00
+		06/29/02	07:00:00
+b) During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to extremely low tides and/or rainfall events.
+		06/22/02	12:30:00-13:00:00
+		06/25/02	05:30:00;  10:00:00-15:00:00
+c) During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		06/24/02	13:00:00-13:30:00
+		06/25/02	14:00:00-14:30:00
+		06/26/02	15:00:00
+		06/27/02	04:00:00
+		06/28/02	04:00:00-05:00:00
+		06/29/02	05:00:00
+d) During the following periods, the turbidity spiked ranging from 1018 NTU to 
+1119 NTU.  The high spikes were possibly due to an extremely low tides and/or a 
+rainfall event.
+		06/25/02	06:00:00;  10:30:00;  11:30:00;  12:30:00-13:00:00
+
+
+	St. Pierre
+a)	During the following periods of the June 21- July 10 deployment, the 
+datalogger was not actively logging.  There were no data collected. 
+		06/21/02	10:30:00		THRU			06/30/02	23:30:00
+b)	During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		06/01/02	05:30:00-08:30:00;  19:00:00
+		06/02/02	06:00:00-08:30:00;  09:30:00
+		06/03/02	06:30:00-10:00:00;  20:30:00-21:00:00
+		06/04/02	07:00:00-11:00:00
+		06/05/02	09:00:00- 10:30:00
+		06/08/02	00:00:00-00:30:00;  11:00:00-12:30:00
+		06/09/02	01:00:00
+		06/10/02	02:00:00
+		06/11/02	02:00:00-03:00:00;  04:00:00
+		06/12/02	03:00:00;  04:00:00
+		06/13/02	03:30:00-04:00:00
+		06/14/02	04:30:00-05:00:00
+		06/15/02	05:00:00;  06:30:00
+		06/16/02	06:00:00-08:00:00
+		06/17/02	06:30:00-08:30:00
+		06/18/02	08:00:00-08:30:00
+		06/19/02	08:00:00;  09:00:00;  22:00:00
+		06/20/02	09:30:00-10:30:00	
+c)	During the following periods, the salinity readings are suspect.  Salinity values experienced a drastic decrease possibly due to a heavy rainfall event and a low tide.
+	06/18/02    07:00:00-08:00:00
+
+d)	During the following periods, the turbidity spiked ranging from 1003 NTU 
+to 1643 NTU.  The high spikes were possibly due to an extremely low tides and/or 
+a rainfall event.
+		06/03/02	15:00:00-23:30:00
+		06/04/02	00:00:00-00:30:00;  01:30:00
+		06/18/02	06:30:00-08:30:00 
+e)	During the May 23 to June 5 deployment, the turbidity readings were suspect.  The sensor read within the required range during the post-deployment calibration checks on 0.0 NTU and 200 NTU.  The recorded turbidity values were consistently high near the end of the deployment, and were possibly due to ambient conditions.
+
+
+July 1-31, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		07/01/02	08:00:00
+		07/09/02	02:00:00
+		07/10/02	03:00:00-04:00:00
+		07/27/02	06:00:00
+		07/29/02	06:00:00-06:30:00
+		07/30/02	06:00:00-08:00:00
+		07/31/02	07:00:00-08:00:00
+b) During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		07/10/02	13:00:00-14:30:00
+		07/11/02	02:30:00-03:00:00;  13:30:00-15:30:00
+		07/14/02	16:30:00-17:30:00
+		07/15/02	05:30:00-06:00:00
+
+
+	St. Pierre
+a)	During the following periods of the June 21- July 10 deployment, the 
+datalogger was not actively logging.  There were no data collected. 
+		07/01/02	00:00:00		THRU			07/10/02	08:30:00
+b)	During the following periods of the July 18 - August 1 deployment, 
+the dissolved oxygen (DO) and DO concentrations were deleted.  The DO readings 
+dropped near zero, indicating the membrane was suffocated, and was possibly 
+caused by an influx of fresher water heavily saturated with mud.  The DO probe 
+recovered after this isolated event.  
+ 		07/31/02	19:30:00		THRU			07/31/02	23:30:00
+c)	During the following periods of the July 18 - August 1 deployment, the 
+turbidity spikes were deleted.  The high spikes were possibly caused by an 
+influx of fresher water heavily saturated with mud.  
+		07/31/02	19:30:00		THRU			07/31/02	23:30:00
+d)	During the following periods of the July 18 - August 1 deployment, all 
+data for temperature, specific conductivity, salinity, depth, and pH parameters 
+were suspect.  The recorded values were possibly caused by an influx of fresher 
+water heavily saturated with mud.  
+ 		07/31/02	19:30:00		THRU			07/31/02	23:30:00
+e)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings are below 28% air saturation.
+		07/15/02	05:30:00-06:00:00
+		07/16/02	06:30:00-07:00:00
+		07/17/02	06:30:00-08:30:00
+		07/18/02	07:30:00-08:00:00
+		07/25/02	03:00:00
+		07/26/02	02:30:00;  03:30:00-04:00:00
+		07/27/02	03:30:00-04:00:00;  05:00:00
+		07/28/02	04:00:00-05:30:00
+		07/29/02	04:30:00-06:30:00
+		07/30/02	05:30:00;  06:30:00-07:00:00
+		07/31/02	07:00:00
+f)	At 01:00:00 on July 12, turbidity spiked (1617).  The high spike was 
+possibly caused by an animal, a clump of plant matter, or sediment that passed 
+by the sensor optics during the sampling interval.   Furthermore, a low tide 
+and/or rainfall event may have contributed to the turbidity spiking. 
+
+
+August 1-31, 2002 Sampling Period
+	Big Bay
+a) At 13:30:00 on August 1 an YSI 6600 EDS data sonde was deployed.
+b) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		08/01/02	06:00:00-07:30:00
+		08/27/02	05:30:00
+		08/31/02	07:00:00
+c) During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to an extremely low tides and rainfall events.
+		08/25/02	04:00:00-05:00:00;  17:00:00-17:30:00
+		08/30/02	03:30:00-06:30:00;  17:00:00-18:00:00
+d) During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		08/18/02	10:00:00-10:30:00
+		08/19/02	11:00:00
+		08/24/02	02:30:00-03:00:00
+e)	During the following periods, the turbidity spiked ranging from 1000 NTU 
+to 1491 NTU. The high spikes were possibly caused by low tides and a rainfall 
+event.
+		08/25/02	03:30:00-04:00:00;  17:30:00-18:00:00
+
+
+	St. Pierre
+a)	At 14:00:00 on August 1 an YSI 6600 EDS data sonde was deployed.
+b)	During the following periods of the August 20 - September 12 
+deployment, the interval time was set to 1 minute and the batteries died.  There 
+were no data collected.
+		08/29/02	21:30:00		THRU			08/31/02	23:30:00
+c)	During the following periods of the July 18 - August 1 deployment, 
+the dissolved oxygen (DO) and DO concentrations were deleted.  The DO readings 
+dropped near zero, indicating the membrane was suffocated, and was possibly 
+caused by an influx of fresher water heavily saturated with mud.  The DO probe 
+recovered after this isolated event.  
+ 		08/01/02	00:00:00		THRU			08/01/02	08:30:00
+d)	During the following periods of the July 18 - August 1 deployment, the 
+turbidity readings were deleted.  The high readings were possibly caused by an 
+influx of fresher water heavily saturated with mud.
+		08/01/02	00:00:00		THRU			08/01/02	01:00:00
+e)	During the following periods of the July 18 - August 1 deployment, 
+all data for temperature, specific conductivity, salinity, depth, and pH 
+parameters were suspect.  The recorded values were possibly caused by an influx 
+of fresher water heavily saturated with mud.  
+		08/01/02	00:00:00		THRU			08/01/02	13:30:00
+f)	During the following periods of the July 18 - August 1 deployment, 
+dissolved oxygen (DO) readings were suspect.  The suspect readings occurred 
+after an initial drop in DO, however the probe recovered and passed post 
+calibration checks.  
+		08/01/02	09:00:00		THRU			08/01/02	13:30:00
+g)	During the following periods of the July 18 - August 1 deployment, 
+turbidity readings were suspect.  The suspect readings occurred after a series 
+of high turbidity readings, however the probe recovered and passed post 
+calibration checks.  
+		08/01/02	01:30:00		THRU			08/01/02	13:30:00
+h)	During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		08/12/02	05:00:00
+		08/14/02	07:00:00
+		08/15/02	07:30:00
+		08/16/02	08:00:00-08:30:00
+		08/17/02	09:00:00;  22:30:00
+		08/21/02	00:30:00-01:00:00
+		08/22/02	01:30:00-02:00:00
+		08/23/02	02:00:00-02:30:00
+		08/24/02	02:30:00-03:30:00
+		08/27/02	05:00:00
+i)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were likely due to low tide and a rainfall event.
+		08/25/02	16:30:00-17:00:00
+j)	During the following period, the depth reading is negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen reading indicate 
+the datalogger was submerged during this period.
+		08/19/02	11:00:00
+k)	At 16:30:00 & 17:00:00 on August 25, (1669, 1576) turbidity spiked 
+respectively.  The high spikes were possibly caused by low tide and a rainfall 
+event.
+l)	During the following periods, the turbidity data were deleted because NTU 
+values were less than zero.  The negative values may have been caused by debris 
+on the lens, a wiper malfunction, or an animal interface.
+		08/20/02	10:30:00;  12:00:00-14:30:00;  19:00:00
+		08/21/02	00:30:00-03:30:00;  07:00:00;  10:00:00-13:00:00;  
+14:00:00-15:30:00;  19:30:00-20:00:00
+		08/22/02	01:00:00-04:00:00;  08:00:00;  11:30:00-16:00:00;  
+20:00:00-21:00:00
+		08/23/02	02:00:00-04:30:00;  08:30:00;  12:00:00-12:30:00;  
+14:30:00-15:30:00;  17:00:00;  21:00:00-21:30:00
+		08/24/02	01:30:00-05:00:00;  09:00:00;  12:30:00-17:30:00;  
+21:30:00-22:00:00
+		08/25/02	02:30:00;  05:00:00;  15:00:00-15:30:00
+		08/26/02	10:30:00;  22:30:00-23:00:00
+		08/27/02	11:00:00;  23:30:00
+		08/28/02	05:30:00;  06:30:00-08:00:00;  17:00:00-19:00:00;  
+20:00:00-21:00:00
+		08/29/02	18:00:00;  19:00:00-20:30:00
+
+
+September 1-30, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		09/02/02	09:30:00
+		09/14/02	09:30:00
+		09/16/02	11:00:00
+		09/17/02	00:00:00
+		09/23/02	04:00:00
+		09/28/02	05:30:00-07:00:00
+		09/29/02	06:30:00-08:00:00
+b) During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to a low tide and a rainfall event.
+		09/15/02	10:00:00-11:00:00
+c) During the following periods, the depth readings are negative and/or zero.  
+The depth data were not deleted because the salinity and dissolved oxygen 
+readings indicate the data logger was submerged during these periods.
+		09/11/02	05:00:00
+d)	During the following periods, the turbidity spiked ranging from 1425 NTU 
+to 2094 NTU.  The high spike was possibly caused by an animal, a clump of plant 
+matter, or sediment that passed by the sensor optics during the sampling 
+interval.  Furthermore, a low tide and/or rainfall event may have contributed to 
+the turbidity spiking. 
+		09/09/02	18:00:00
+		09/15/02	11:00:00-12:00:00
+
+
+	St. Pierre
+a)	During the following periods of the August 20 - September 12 deployment 
+the interval time was set to 1 minute and the batteries died.  There were no 
+data collected.
+		09/01/02	00:00:00		THRU			09/12/02	10:00:00
+b)	During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		09/13/02	07:00:00
+		09/14/02	21:00:00
+		09/18/02	00:00:00
+		09/19/02	00:30:00
+		09/20/02	01:30:00
+		09/21/02	02:00:00
+		09/22/02	02:30:00-03:00:00
+		09/23/02	03:00:00
+		09/24/02	03:00:00-03:30:00
+		09/25/02	04:00:00
+		09/28/02	05:30:00-06:30:00
+		09/29/02	06:30:00-07:00:00
+		09/30/02	08:30:00-09:00:00
+c)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to low tides and rainfall events.
+		09/15/02	10:00:00-10:30:00;  20:00:00
+d)	At 10:30:00 & 11:00:00 on September 15, turbidity spiked (1263,1384), 
+respectively.  The high spikes were possibly caused by a low tide and a rainfall 
+event.
+
+
+October 1-31, 2002 Sampling Period
+	Big Bay
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		10/13/02	08:00:00-08:30:00
+b) During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to low tides and rainfall events.
+		10/10/02	19:30:00-21:00:00
+		10/11/02	03:00:00-06:30:00
+		10/29/02	05:00:00-07:30:00
+c)	During the following periods, the pH readings are suspect because values 
+spiked.  The pH sensor read within the required range during the post-deployment 
+calibration check on pH 7 and pH 10. The high spikes were possibly caused by a 
+low tide and a rainfall event.  
+		10/10/02	20:00:00-21:00:00
+d)	At 19:30:00 & 20:00:00 on October 10, turbidity spiked (1632,1415), 
+respectively.  The high spikes were possibly caused by a low tide and a rainfall 
+event.
+
+
+	St. Pierre
+a) During the following periods, dissolved oxygen (DO) readings are suspect 
+because readings are below 28% air saturation.
+		10/01/02	09:00:00;  22:30:00
+		10/02/02	23:00:00
+		10/03/02	23:30:00
+		10/04/02	00:00:00
+		10/05/02	01:00:00
+		10/06/02	01:30:00-02:00:00
+		10/07/02	02:30:00
+		10/08/02	03:00:00-03:30:00
+		10/10/02	05:00:00-05:30:00
+		10/12/02	19:30:00
+		10/13/02	07:00:00-07:30:00;  08:30:00
+		10/18/02	01:00:00
+		10/20/02	01:30:00
+		10/21/02	02:00:00
+		10/22/02	02:00:00
+		10/23/02	03:00:00
+		10/27/02	05:30:00
+		10/28/02	06:30:00
+		10/30/02	08:30:00
+b) During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to an ebb tide and a rainfall event.
+		10/11/02	02:30:00-04:30:00
+c)	During the following periods, the turbidity spiked ranging from 1137 NTU 
+to 1627 NTU. The high spike was possibly caused by an animal, a clump of plant 
+matter, or sediment that passed by the sensor optics during the sampling 
+interval.  Furthermore, extremely low tides with heavy rainfall events may have 
+contributed to the turbidity spiking. 
+		10/03/02	03:30:00
+		10/04/02	05:00:00
+		10/06/02	08:30:00
+		10/08/02	02:00:00;  07:30:00
+		10/29/02	08:00:00-08:30:00
+		10/30/02	16:00:00
+d)	During the October 8 to November 4 deployment, the turbidity readings were suspect.  The recorded values consistently increased throughout the deployment.  The post-deployment calibration check for the 123 NTU was low (105.7 NTU).  The probe was sent to Mike Lizotte at YSI, and the problem was corrected.  
+
+
+	Fishing Creek
+a)	During the following periods, the datalogger were not deployed.
+		10/01/02	00:00:00		THRU			10/16/02	12:00:00
+	
+b)	At 19:00:00 on October 29, the turbidity spiked (1775 NTU).  The high 
+spike was possibly due to an animal, a clump of plant matter, or sediment that 
+passed by the sensor optics during the sampling interval.
+
+	Mosquito Creek
+a)	During the following periods, the datalogger were not deployed.
+		10/01/02	00:00:00		THRU			10/15/02	11:00:00
+
+November 1-30, 2002 Sampling Period
+	Big Bay
+a)	During the following periods, data were deleted because the datalogger 
+went dry.
+		11/05/02	02:00:00
+		11/07/02	02:30:00-03:30:00
+		11/17/02	23:30:00
+		11/18/02	00:00:00-01:00:00
+		11/30/02	10:00:00-11:00:00;  21:30:00-23:30:00
+b)	During the following periods, the salinity and specific conductivity 
+readings were deleted because the low readings were possibly due to minimal flow 
+of water through the electrodes.
+		11/06/02	16:30:00
+		11/30/02	09:30:00
+c)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to low tides and/or rainfall events.
+		11/12/02	09:00:00-09:30:00;  18:30:00-20:00:00
+		11/13/02	05:30:00-09:30:00
+d)	During the following periods, the depth readings are negative and/or zero.  
+The depth data were not deleted because the salinity and dissolved oxygen 
+readings indicate the data logger was submerged during these periods.
+		11/04/02	14:00:00-14:30:00
+		11/05/02	01:30:00;  02:30:00;  15:00:00
+		11/06/02	02:00:00-03:30:00;  15:00:00-17:00:00
+		11/22/02	15:00:00-16:00:00
+		11/23/02	02:30:00-03:00:00
+		11/29/02	21:30:00-22:30:00
+		11/30/02	09:00:00-09:30:00;  11:30:00;  21:00:00
+e)	During the following periods, the turbidity spiked ranging from 1033 NTU 
+to 2551 NTU.  The high spikes were possibly caused by an animal, a clump of 
+plant matter, or sediment that passed by the sensor optics during the sampling 
+interval.   Furthermore, heavy rainfall events may have contributed to the 
+turbidity spiking.
+		11/12/02	01:30:00;  09:00:00-10:00:00;  11:00:00;  12:00:00;  
+14:00:00-14:30:00;  15:30:00;  18:30:00;  21:00:00;  22:00:00-22:30:00;  
+23:30:00
+		11/13/02	00:30:00;  03:30:00;  05:30:00;  09:00:00;  10:00:00-
+10:30:00;  12:00:00;  13:00:00;  14:30:00;  16:00:00-16:30:00;  17:30:00;  
+23:00:00
+		11/14/02	00:00:00;  04:00:00;  05:30:00;  07:00:00-08:30:00;  
+09:30:00;  11:00:00;  13:00:00;  14:30:00-15:00:00;  16:00:00-17:00:00;  
+18:00:00-18:30:00
+		11/15/02	00:00:00;  01:00:00;  04:00:00;  05:30:00-06:00:00;  
+13:00:00-14:30:00
+		11/16/02	04:00:00;  07:00:00-07:30:00
+		11/18/02	21:00:00
+		11/20/02	10:00:00
+		11/21/02	05:30:00;  07:00:00
+	
+
+	St. Pierre
+a)	During the following periods, data were deleted because the 
+datalogger went dry.
+		11/06/02	14:30:00-16:00:00
+		11/30/02	22:30:00-23:30:00
+b)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to low tides and rainfall events.
+		11/13/02	09:00:00
+		11/16/02	22:00:00-23:00:00
+c)	During the following periods, the depth readings are negative and/or zero.  
+The depth data were not deleted because the salinity and dissolved oxygen 
+readings indicate the data logger was submerged during these periods.
+		11/04/02	14:00:00
+		11/05/02	01:30:00
+		11/06/02	02:30:00-03:00:00;  14:00:00;  16:30:00
+		11/30/02	10:00:00-11:00:00;  21:30:00-22:00:00
+d)	During the following periods of the November 4 to December 12 
+deployment, the pH readings were suspect.  The pH sensor failed during the 
+deployment.		
+		11/04/02	10:30:00		THRU		11/17/02	21:00:00
+e)	During the following periods of the November 4 to December 12 
+deployment, the pH readings were deleted.  The pH sensor failed during the 
+deployment.  The sensor did not read within the required range during the post-
+deployment calibration check on pH 10.
+		11/17/02	21:30:00			THRU			11/30/02
+	23:30:00
+f)	During the following periods, the turbidity spiked ranging from 1006 NTU 
+to 1590 NTU.  The high spikes were possibly caused by an animal, a clump of 
+plant matter, or sediment that passed by the sensor optics during the sampling 
+interval.  Furthermore, extremely low tides with heavy rainfall events may have 
+contributed to the turbidity spiking.
+		11/03/02	11:30:00-14:30:00;  19:30:00
+g)	During the October 8 to November 4 deployment, the turbidity readings were suspect.  The recorded values consistently increased throughout the deployment.  The post-deployment calibration check for the 123 NTU was low (105.7 NTU).  The probe was sent to Mike Lizotte at YSI, and the problem was corrected. 
+			 
+
+	Fishing Creek
+a)	During the following periods, dissolved oxygen (DO) readings are 
+suspect because readings dip below 28% air saturation.
+		11/30/02	23:30:00
+b)	During the following periods of the November 15 - December 16 deployment, salinity and specific conductivity were deleted.  The data sonde was deployed vertically in the water column causing air to be trapped within the cavity of the probe.  Therefore, the probe did not record salinity and specific conductivity values during the beginning of the deployment.  The probe recovered and passed the post-calibration check.
+11/15/02    12:00:00           THRU                11/20/02    08:00:00
+
+c)	At 07:00:00 on November 30, the turbidity spiked (1134 NTU).  The 
+high spike was possibly caused by an animal, a clump of plant matter, or 
+sediment that passed by the sensor optics during the sampling interval.
+		
+	Mosquito Creek
+a)	At 00:30:00 on November 6, no data were recorded by the datalogger.  
+The reason for the missing reading is not known at this time. 
+b)	During the following periods, the turbidity readings are suspect.  
+Turbidity consistently spiked at the end of the deployment.  A large bloom in 
+alga growth was present at the retrieval of the datalogger.  The alga growth 
+likely influenced the turbidity readings.
+		11/02/02	22:00:00		THRU			11/19/02	10:30:00
+
+December 1-31, 2002 Sampling Period
+	Big Bay
+a)	During the following periods, data were deleted because the 
+datalogger went dry.
+		12/01/02	00:00:00;  11:00:00-11:30:00;  23:00:00-23:30:00
+		12/02/02	00:00:00
+		12/03/02	00:30:00-01:30:00
+		12/04/02	01:30:00
+		12/21/02	01:30:00-03:00:00;  15:00:00-15:30:00
+		12/22/02	02:30:00-03:30:00;  15:30:00-16:30:00
+		12/23/02	03:00:00-04:30:00
+		12/25/02	17:30:00-19:00:00
+		12/26/02	06:30:00-07:00:00
+		12/29/02	10:00:00;  21:30:00-23:00:00
+		12/30/02	23:00:00-23:30:00
+b)	During the following periods, the salinity and specific conductivity 
+readings were deleted.  The low readings were possibly due to minimal flow of 
+water through the electrodes.
+		12/03/02	00:00:00
+		12/21/02	14:30:00
+		12/30/02	22:30:00
+c)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to low tides and/or rainfall events.
+		12/01/02	10:30:00
+		12/04/02	01:00:00
+		12/14/02	22:00:00-22:30:00
+		12/20/02	14:30:00
+		12/21/02	01:00:00
+		12/23/02	16:30:00
+		12/29/02	09:30:00
+d)	During the following periods, the depth readings are negative.  The depth 
+data were not deleted because the salinity and dissolved oxygen readings 
+indicate the data logger was submerged during these periods.
+		12/01/02	00:30:00
+		12/05/02	02:00:00-02:30:00;  15:30:00-16:00:00
+		12/14/02	21:30:00-23:00:00
+		12/20/02	01:30:00;  13:30:00-15:30:00
+		12/24/02	04:00:00-05:00:00;  17:00:00-17:30:00
+		12/25/02	06:00:00-06:30:00;  17:00:00;  19:30:00
+		12/31/02	12:00:00-12:30:00;  23:00:00-23:30:00
+
+	
+	St. Pierre
+a) During the following periods of the December 12 to January 14 deployment, the 
+dissolved oxygen (DO) and DO mg/L readings were deleted because the membrane was 
+punctured. The probe failed the post-calibration DO membrane integrity test.  
+The last DO reading from the previous deployment was 76.6%; the first DO reading 
+of this deployment was 120.7%, indicating that the DO membrane was punctured 
+prior to deployment. 
+		12/12/02 	10:00:00		THRU			12/31/02	23:30:00
+b)	During the following periods, the salinity readings are suspect because 
+values were less than 18ppt.  These readings are not within normal 
+polyhaline/euhaline salinity range (18 and 40 ppt) for this site.  The low 
+readings were possibly due to an extremely low tide.	
+		12/03/02	00:30:00
+c)	During the following periods, the depth readings are negative and/or 
+zeero.  The depth data were not deleted because the salinity and dissolved 
+oxygen readings indicate the data logger was submerged during these periods.
+		12/01/02	00:00:00
+		12/03/02	00:00:00-00:30:00
+		12/20/02	14:30:00
+		12/21/02	01:30:00-03:00:00
+		12/22/02	16:00:00
+		12/25/02	17:30:00-19:00:00
+d)	During the following periods of the November 4 to December 12 
+deployment, the pH readings were deleted.  The pH sensor failed during the 
+deployment.  The sensor did not read within the required range during the post-
+deployment calibration check on pH 10.
+		12/01/02	00:00:00		THRU		12/12/02	09:30:00
+
+
+Fishing Creek
+a)	During the following periods, the turbidity spiked ranging from 1112 
+NTU to 1893 NTU.  The high spike was possibly caused by an animal, a clump of 
+plant matter, or sediment that passed by the sensor optics during the sampling 
+interval.  Furthermore, a low tide and/or a rainfall event may have contributed 
+to the turbidity spiking.
+		12/09/02	08:00:00
+		12/21/02	10:30:00
+		12/22/02	07:30:00;  23:00:00
+		12/25/02	09:00:00
+		12/26/02	21:30:00
+		12/27/02	08:00:00;  23:00:00
+		12/30/02	04:30:00
+	
+Mosquito Creek
+	No anomalous data.
+
+
+12. Missing Data
+	Missing data are denoted by a period in the data set.  Data are missing 
+due to equipment failure, probes not installed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems.  For more details on deleted data, see 
+the Anomalous Data Section (11.).  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data. 
+
+
+13. Post Deployment Information
+	A. Control sonde End of Deployment Readings:
+Site ID	Date 	Salinity			DO(mg/l)	pH
+			(Std: 18-40 ppt)    (Std: Variable) (Std: 7.00&10.00)
+
+Big Bay
+		01/07/02	--			--		--
+		01/22/02	33.11			9.05		8.16
+		02/05/02	33.37			7.98		6.77
+		02/19/02	32.02			8.61		8.26		
+		03/05/02	32.27			8.59		8.08
+		03/25/02	31.45			5.47		7.79
+		04/03/02	33.23			5.31		7.74
+		04/22/02	33.39			3.09		7.49
+		05/07/02	34.59			4.07		7.62
+		05/23/02	35.22			5.84		7.94
+		06/05/02	34.08			3.94		7.63
+		06/21/02	33.68			3.51		7.39
+		07/10/02	33.51			4.03		7.62
+		07/18/02	33.70			2.81		7.28
+		08/01/02	33.84			5.35		7.89
+		08/20/02	35.60			3.06		7.46
+		09/12/02	31.79			5.17		7.79
+		10/08/02	32.72			5.92		8.05
+		11/04/02	33.81			6.94		8.08
+		12/12/02	27.27			8.38		7.81
+		01/14/03	25.18			8.39		7.84	
+
+St. Pierre
+		01/07/02	--			--		--
+		01/22/02	29.50			10.12		8.06
+		02/05/02	34.40			8.14		7.64
+		02/19/02	29.55			8.57		7.97		
+		03/05/02	31.83			8.77		7.71
+		03/25/02	28.42			5.28		7.48
+		04/03/02	32.18			5.56		7.47
+		04/22/02	31.25			3.04		7.37
+		05/07/02	34.09			3.69		7.24
+		05/23/02	34.47			4.58		7.59
+		06/05/02	35.01			1.03		7.02
+		06/21/02	31.23			2.60		7.30
+		07/10/02	--			--		--
+		07/18/02	34.52			1.47		7.25
+		08/01/02	33.67			5.12		7.76
+		08/20/02	34.78			3.05		7.44
+		09/12/02	32.68			4.03		7.62
+		10/08/02	33.56			4.46		8.00
+		11/04/02	31.10			6.03		7.97
+		12/12/02	24.71			7.36		6.53
+		01/14/03	23.92			8.70		8.01
+
+Fishing Creek
+		11/15/02	6.78			5.57		7.06
+		12/16/02	3.62			8.72		7.21
+		01/14/03	4.81			9.19		7.13
+	
+Mosquito Creek
+		11/19/02	7.10			7.11		7.32
+		12/16/02	9.97			9.10		7.49
+		01/14/03	9.43			9.44		7.55
+	
+B. End of Deployment Post-Calibration Readings in Standard Solutions:
+Site ID
+	Date	Conductivity(mS)	DO (Air Sat.)	       pH	pH
+		(Std: 58.64)	(Std: 100%)		 (Std: 7.00&10.00)
+
+Big Bay
+	01/07/02	57.55			98.70			6.88	9.93	
+	01/22/02	56.96			98.30			6.78	9.69
+	02/05/02	59.01			92.80			6.81	6.80
+	02/19/02	54.51			100.40		6.93	9.88
+	03/05/02	57.01			100.30		7.15	10.13
+	03/25/02	55.51			96.80			7.15	10.12
+	04/03/02	58.60			99.00			6.99	10.00
+	04/23/02	57.05			93.60			7.13	10.14
+	05/07/02	57.94			98.80			7.01	10.08
+	05/23/02	59.80			98.90			6.99	9.94
+	06/05/02	56.52			92.90			7.04	10.04
+	06/21/02	56.83			106.00		7.09	10.10
+	07/10/02	57.86			99.50			7.03	10.06
+	07/18/02	58.10			98.50			7.05	10.06
+	08/01/02	57.59			97.50			7.09	10.03
+	08/20/02	58.18			101.90		7.03	10.02
+	09/12/02	58.49			100.90		7.05	10.03
+	10/08/02	57.12			100.00		7.02	10.07
+	11/04/02	59.03			97.40			7.05	10.08
+	12/12/02	57.70			106.90		7.08	9.94
+	01/14/03	57.59			100.10		7.08	10.08
+
+St. Pierre
+	01/07/02	56.60			91.10			7.02	9.94	
+	01/22/02	54.62			101.00		7.02	10.00
+	02/05/02	60.48			97.70			6.87	9.86
+	02/19/02	56.02			96.70			7.00	9.99
+	03/05/02	58.62			101.10		7.00	9.99
+	03/25/02	55.90			104.50		7.05	10.03
+	04/03/02	58.53			99.10			7.11	10.09
+	04/23/02	57.49			99.00			7.00	9.95
+	05/07/02	57.52			101.60		6.96	9.98
+	05/23/02	59.89			90.30			6.97	9.93
+	06/05/02	56.68			93.40			6.97	9.97
+	06/21/02	55.66			106.90		7.00	10.01
+	07/10/02	--			--			--	--
+	07/18/02	59.70			95.60			6.98	10.00
+	08/01/02	57.07			99.50			7.04	--
+	08/20/02	58.71			102.50		6.98	10.00
+	09/12/02	58.90			96.30			7.06	10.03
+	10/08/02	58.34			103.40		7.10	10.15
+	11/04/02	59.62			101.80		7.11	10.10
+	12/12/02	57.09			99.50			6.83	6.84
+	01/14/03	58.37			73.10			7.14	10.15
+
+Fishing Creek
+	11/15/02	60.24			100.50		7.18	10.15		
+	12/16/02	57.75			100.90		7.09	10.11
+	01/14/03	58.56			100.00		7.09	10.12
+	
+Mosquito Creek
+	11/19/02	58.98			101.70		7.14	10.10
+	12/16/02	58.35			98.80			7.09	10.09
+	01/14/03	58.41			101.80		7.07	10.06
+
+14. Other Remarks
+Dissolved Oxygen (DO) Blanket Statements: 
+a) DO less than 28% air saturation (hypoxia) is frequently observed in the ACE 
+Basin NERR during the warmer months, especially April to September, however 
+hypoxia was also observed in October in both Big Bay and St. Pierre Creek.  
+Hypoxia events are common in the salt march environment and occurred 
+consistently during late ebb, low slack, and early flood tides.  Natural factors 
+can contribute to these low DO measurements including insufficient water 
+circulation, elevated water temperature, and the lack of stratification in 
+shallow estuarine habitats.  
+b) DO greater than 120% air saturation (supersaturation) is frequently observed 
+in the ACE Basin NERR during the colder months, especially January to March.  
+Supersaturation events are not uncommon in shallow estuarine waters and usually 
+occur during late daylight hours as water temperature rises, thus elevating 
+primary productivity.  The supersaturation event in August corresponded with the 
+highest water levels, suggesting an environmental cause.
+c) DO measurements between 100% and 120% air saturation are not listed in the 
+metadata.  These DO readings consistently occur in the ACE Basin NERR and are 
+not considered to be suspect.
+
+Salinity (parts per thousand) Blanket Statement: Salinity readings recorded 
+within the normal polyhaline/euhaline salinity range (18 and 40 ppt) at both St. 
+Pierre and Big Bay creeks are not considered anomalous data.  Salinity readings 
+are highly influenced by rainfall and low tide events that could result in lower 
+than normal salinity readings.  
+
+pH Blanket Statement: During consecutive deployments from January to June in 
+2002, recorded pH readings varied at St Pierre Creek between two alternating 
+probes.  Although each probe calibrated and post-calibrated within range, the 
+values recorded indicated a difference in the pH range between deployments.   
+The data were not deleted.   
+
+Depth (meters) Blanket Statement: Negative depth readings were recorded in both 
+St. Pierre and Big Bay Creeks.  The data were not deleted because the salinity 
+and dissolved oxygen readings indicated the data logger was submerged during 
+these periods. The depth sensor on an YSI data sonde is calibrated inside a 
+laboratory using a barometric pressure of 760 millabars.  Changes in barometric 
+pressure while the data sonde is deployed often result in negative depth values, 
+especially at low tides.
+ 
+Turbidity (NTU) Blanket Statement: In January of 2002, Mike Lizotte, a 
+representative for YSI, brought to the attention of CDMO and NERR staff, that 
+turbidity standards used in calibration not purchased directly from YSI may be 
+producing less than accurate data.  The Advanced Polymer Systems Incorporated 
+(APS) turbidity standard used by the ACE Basin NERR for calibration during 2002 
+deployments is not compatible with YSI turbidity probes.  During the fall of 
+2002, Mike Lizotte, compared the APS turbidity standard, used by the Reserve, 
+against the YSI turbidity standard.  A newly calibrated YSI turbidity probe was 
+placed in each standard, the values recorded, and the variance between standards 
+was calculated to be an approximate five to seven percent difference in NTU 
+values.  This comparison proved a significant difference in the accuracy of the 
+turbidity standards.  As of January of 2003, each Reserve is required to use an 
+YSI approved NTU standard, Hach Stable Cal, or diluted formazine to calibrate 
+turbidity probes.
+
+
+

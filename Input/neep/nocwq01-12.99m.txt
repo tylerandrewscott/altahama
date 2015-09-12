@@ -1,0 +1,776 @@
+North Carolina (NOC) NERR Water Quality Metadata 
+January - December 1999
+Last Update: January 11, 2011
+    
+I. Data Set & Research Descriptors
+
+1) Principal Investigator(s) and Contacts:
+
+Principal Investigator:
+
+Dr. Steve W. Ross
+Research Coordinator
+North Carolina NERR
+Center for Marine Science Research
+7205 Wrightsville Ave.
+Wilmington, NC 28403
+910-395-3905
+rosss@uncwil.edu
+
+Contact Persons:
+
+Dr. Steve W. Ross
+See above
+
+William E. Thompson
+Research Technician
+North Carolina NERR 
+Center for Marine Science Research
+7205 Wrightsville Ave.
+Wilmington, NC 28403
+910-350-2027
+william.e.thompson@worldnet.att.net
+
+
+2) Entry Verification Process:
+
+The data are uploaded using the computer program EcoWatch that accompanies the 
+YSI 6000 datalogger.  After the file is uploaded from the water quality 
+instrument, EcoWatch is used to plot the data and perform basic statistical 
+analysis (i.e., min., max., mean, std.dev.).  This information is printed out 
+and attached to the Field Log for the particular deployment. This printout is 
+used during file review to detect any gross outliers such as data taken when the 
+water quality instrument was removed from the water or those caused by 
+instrument failure. The data are imported into a Microsoft Excel file that 
+contains the current month's cumulative recordings. When a complete month of 
+data has been recorded the file is then reviewed.  The first step is to format 
+the data so that the parameter columns are in the correct order and the data 
+have the correct number of decimal place holders. The CDMO 5.0 Excel macro is 
+used to check for any dates and times that data were not recorded due to 
+maintenance, battery failure, or other causes. Missing dates and times are 
+inserted into the file and a period is inserted into the cells where data would 
+normally be. An explanation for the missing data is recorded onto the Water 
+Quality Editing Log.  Next, the data are filtered using an Excel macro to find 
+readings outside the instrument measurement range and the "normal" range 
+for the site in question. Data outside the instrument range are removed from the 
+file and a period is inserted into the cell(s).  An explanation for the missing 
+dates and times are recorded onto the Water Quality Editing Log. Data outside 
+the "normal" range of water quality for a particular site were investigated for 
+validity based on weather data, field observations, QC checks, PC6000 printouts, 
+and instrument diagnostics. If the data are rejected from the file a period is 
+inserted into the cell(s) and an explanation for the missing dates and 
+times are recorded onto metadata form.  The metadata form is then submitted with 
+the data file to the CDMO.  William Thompson, Research Technician, was 
+responsible for data management during 1999.  
+
+
+3) Research Objectives:
+
+Water quality instruments are deployed at the Masonboro Island and Zeke's Island 
+components of North Carolina's National Estuarine Research Reserve and are 
+anchored to the bottom of the selected sites. Measurements are taken at 30 
+minute intervals for approximately two week periods. These sites are 
+relatively unimpacted by manmade perturbations and are considered long-term 
+monitoring locations.  The goal is to establish long-term water quality 
+monitoring at relatively unimpacted sites by collecting data for each day of the 
+year.  
+
+
+4) Research Methods:
+
+The Estuarine Water Quality Monitoring Program began on 2 March 1992 at the 
+Masonboro Island component, and 19 May 1994 at the Zeke's Island component. The 
+procedures described below were instituted in June 1995 and thus do not cover 
+data recorded previously. At this time we are only performing long-term water 
+quality monitoring and not a specific experiment.
+
+Before each YSI 6000 is deployed, calibration and maintenance is performed 
+following the manufacturer's instructions (YSI Manual addendum 7/94, sections 
+3,4, and 7).  Calibration standards are only required for pH, turbidity and 
+salinity; all other parameters are done as described in the manual.  Buffer 
+solutions for 3 point pH calibration (pH 4,7 and 10) are purchased pre-made from 
+a scientific supply house. The salinity standard is obtained from filtered 
+seawater taken from Masonboro Sound and analyzed at the Center for Marine 
+Science Research (CMSR) in Wilmington, NC using an osmometer. The dissolved 
+oxygen membranes are replaced before deployment and are allowed to settle at 
+least 24 hrs prior to deployment. 
+
+During deployment the weather conditions and tide stage are recorded in the 
+field observation log. Measurements of DO, pH, salinity, specific conductance, 
+and temperature are taken with a calibrated YSI 6000 or other field instruments 
+to check the accuracy of the instrumentation before deployment (as of October 
+1995). The water quality instrument is placed inside a locked steel cage, then 
+anchored approximately 10cm off the bottom, and chained to a post at the 
+monitoring site. Every 30 minutes during the sampling period measurements are 
+taken for temperature, specific conductance, salinity, dissolved oxygen 
+saturation, dissolved oxygen concentration, depth, pH, and turbidity. 
+
+At the end of the sample period the water quality instrument is brought back to 
+the laboratory.  The weather and water quality measurements are again noted in 
+the field observation log. The calibration drift and the effect of biofouling on 
+the water quality instrument are checked by comparing data readings in 
+calibration standards. The water quality data are then uploaded, and the 
+instrument is cleaned and calibrated as noted previously. 
+
+
+5) Site Location and Character:
+
+The four components of North Carolina's National Estuarine Research Reserve 
+(from north to south) are: Currituck Banks, Rachel Carson, Masonboro Island and 
+Zeke's Island. They are located along the southeastern coast of the United 
+States in the Atlantic Ocean. Currently, only data from Masonboro and 
+Zeke's Island components are transferred to the CDMO. The two sites are: 
+
+1. Research Creek, Masonboro Island
+The Masonboro Island site is 0.72 km north east from the mouth of Whiskey Creek, 
+and east of the Intracoastal Waterway (ICW), in a small navigable channel called 
+Research Creek at 34 deg 09' 21.7" latitude and 77 deg 50' 59.9" longitude. The 
+site has a salinity range of 18-35 ppt and a tidal range that averages 1.2 
+meters.  Depth varies, but typically it can be found to range from 0.38 to 2.11 
+meters.  Bottom type substratum consists of sand and detritus based sediment.  
+There are no major pollutants from the land.  The site is removed from the 
+shoreline, in a creek surrounded by salt marsh that has minimal to no boat 
+traffic.  
+
+2. East Cribbing, Zeke's Island
+The Zeke's Island site is located 1.8 km south of Federal Point boat launch in a 
+tidal basin estuary at 33 deg 56' 23.5" latitude and 77 deg 56' 28.1" longitude. 
+This site receives minimal freshwater input from leakage of the Cape Fear River 
+through the 5.6 km rock jetty that separate the two bodies of water. Thus, the 
+ocean tidal input through New Inlet is a major factor in maintaining the high 
+salinity; however, during rainy periods major drops in salinity may occur. The 
+site has a salinity range of 15-35 ppt and a tidal range that averages 2 meters.
+Depth varies, but typically it can be found to range from 0.11 to 2.30 meters.  
+Bottom type substratum consists of sand and detritus based sediment.  There are 
+no pollutants from land. The site is surrounded by marsh and dunes not 
+accessible to road traffic and minimal boat traffic.  
+
+6) Data Collection Period
+
+Research Creek data collection began on 2 March 1992, while
+East Cribbing data collection commenced on 19 May 1994. Both continue through 
+December 31 of this year.
+
+Deployment and Retrieval Dates for 1999
+
+Began					Ended
+Research Creek:
+12/21/98, 12:00				01/18/99, 10:00
+01/18/99, 10:00				02/15/99, 13:30
+02/15/99, 13:30				03/11/00, 13:30
+03/11/99, 13:30				04/09/99, 13:30
+04/09/99, 13:30				05/09/99, 12:00
+05/09/99, 12:00				06/23/99, 11:30
+06/23/99, 11:30				07/28/99, 16:30
+07/28/99, 16:30				08/13/99, 13:00
+08/13/99, 13:00				09/21/99, 09:00
+09/21/99, 09:00				11/09/99, 09:30
+11/09/99, 09:30				12/03/99, 10:30
+12/03/99, 10:30				01/10/00, 13:00
+
+East Cribbing:
+12/21/98, 10:30				01/18/99, 14:00
+01/14/99, 14:00				02/11/99, 14:30
+02/11/99, 14:30				03/10/99, 14:00
+03/10/99, 14:00				04/12/00, 15:00
+04/12/99, 15:00				05/20/99, 11:00
+05/20/99, 11:00				06/21/99, 14:30
+06/21/99, 14:30				07/20/99, 15:00
+07/20/99, 15:00				08/26/99, 12:00
+08/26/99, 12:00				09/16/99, 16:00
+09/17/99, 10:00				11/08/99, 11:00
+11/08/99, 11:00				12/10/99, 12:00
+12/10/99, 12:00				12/22/99, 11:00
+12/22/99, 11:00				01/10/00, 13:00	
+
+
+7) Associated Researchers and Projects
+
+Lancaster, J./UNC Chapel Hill
+Ross, S./NOC NERR
+Masonboro Island surf zone fish survey
+
+
+Ross, S./NOC NERR
+Grimshaw, P./NOC NERR
+Effects of non-point source pollution on estuarine water quality
+ 
+
+Ross, S./NOC NERR
+Stokesbury, K./NOC NERR
+EMAP - Estuaries
+
+
+ II. Physical Structure Descriptors
+
+8) Sensor specifications, range of measurements, units, resolution, and 
+accuracy: 
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+9) Coded variable indicator and variable code definitions:
+
+Site definitions:		RC= South Research Creek, Masonboro Island* 
+ 				EC= East Crib, Zeke's Island*
+
+File definitions: site/month/year (ex.: zi0899 = Zeke's Island
+				     data from August of 1999). 
+
+*The RC site was formerly designated as Masonboro Island (MS) and EC was formerly designated as Zeke’s Island (ZI).  Name changes were made on 1/11/2011 to be consistent with later station designations made necessary by the addition of an additional station in each component, and to clearly indicate that the station location throughout the North Carolina Reserve’s historical data set.  Raw file names were not changed. Please contact the Reserve directly or the NERRS Centralized Data Management Office for more information on this update.
+
+10) Data anomalies (suspect data):
+
+This section list data that is extreme for the aquatic system being monitored 
+or are outside the measurement range of the instrument. The cause of such 
+anomalies maybe a bad calibration, boat traffic disturbances, malfunction of the 
+instrument, or the measurements may be correct.
+
+
+Research Creek, January
+
+01/02/99 03:30:00-01/03/99 23:30:00 Turbidity data removed, probable probe 
+blockage
+01/16/99	05:30:00	    High turbidity event.
+01/16/99	19:30:00	    High turbidity event.
+01/16/99	20:00:00	    High turbidity event.
+01/17/99	08:00:00	    High turbidity event.
+01/24/99	10:30:00-19:30:00   High turbidity event.
+01/25/99	00:30:00	    High turbidity event.
+01/25/99	02:30:00-07:00:00   High turbidity event.
+01/26/99	03:30:00	    High turbidity event.
+01/30/99	04:30:00-09:00:00   High turbidity event.
+01/30/99	11:00:00	    High turbidity event.
+01/31/99	16:30:00	    High turbidity event.
+01/31/99	17:00:00	    High turbidity event.
+01/31/99	22:30:00	    High turbidity event.
+01/31/99	23:30:00	    High turbidity event.
+
+
+Research Creek, February
+
+02/01/99	00:00:00-04:30:00   High turbidity event.
+02/01/99	05:30:00	    High turbidity event.
+02/01/99	15:30:00	    High turbidity event.
+02/02/99	01:00:00	    High turbidity event.
+02/02/99	01:30:00	    High turbidity event.
+02/02/99	10:30:00	    High turbidity event.
+02/02/99	14:00:00	    High turbidity event.
+02/02/99	14:30:00	    High turbidity event.
+02/02/99	16:00:00-17:00:00   High turbidity event.
+02/02/99	22:30:00	    High turbidity event.
+02/03/99	00:00:00	    High turbidity event.
+02/03/99	00:30:00	    High turbidity event.
+02/03/99	11:30:00	    High turbidity event.
+02/03/99	12:00:00	    High turbidity event.
+02/03/99	18:30:00	    High turbidity event.
+02/03/99	19:00:00	    High turbidity event.
+02/04/99	08:00:00	    High turbidity event.
+02/04/99	17:30:00	    High turbidity event.
+02/04/99	19:00:00	    High turbidity event.
+02/05/99	03:30:00	    High turbidity event.
+02/05/99	12:30:00	    High turbidity event.
+02/06/99	15:30:00-16:30:00   High turbidity event.
+02/06/99	19:00:00	    High turbidity event.
+02/06/99	20:00:00	    High turbidity event.
+02/06/99	21:30:00	    High turbidity event.
+02/06/99	23:00:00	    High turbidity event.
+02/07/99	03:00:00	    High turbidity event.
+02/07/99	03:30:00	    High turbidity event.
+02/10/99	00:30:00	    High turbidity event.
+02/11/99	19:30:00	    High turbidity event.
+02/11/99	20:00:00	    High turbidity event.
+02/11/99	21:00:00	    High turbidity event.
+02/12/99	15:30:00	    High turbidity event.
+02/12/99	17:00:00	    High turbidity event.
+
+
+Research Creek, March
+
+03/07/99	01:30:00	    High turbidity event.
+03/18/99	20:00:00	    High turbidity event.
+03/18/99	22:30:00	    High turbidity event.
+03/21/99	17:00:00	    High turbidity event.
+03/25/99	21:00:00	    High turbidity event.
+03/25/99	23:30:00	    High turbidity event
+
+
+Research Creek, April
+
+04/16/99	01:00:00-02:30:00   High turbidity event.
+04/16/99	10:30:00	    High turbidity event.
+04/16/99	13:00:00	    High turbidity event.
+04/16/99	13:30:00	    High turbidity event.
+04/16/99	14:30:00	    High turbidity event.
+04/16/99	15:30:00	    High turbidity event.
+04/16/99	19:30:00	    High turbidity event.
+04/16/99	20:30:00	    High turbidity event.
+04/16/99	22:00:00	    High turbidity event.
+04/16/99	22:30:00	    High turbidity event.
+04/17/99	00:30:00	    High turbidity event.
+04/19/99    04:30:00        Negative Turbidity, data removed.
+04/19/99    12:00:00        Negative Turbidity, data removed.
+04/23/99	03:00:00	    High turbidity event.
+04/23/99	04:00:00	    High turbidity event.
+04/30/99	20:30:00-22:00:00   High turbidity event.
+
+
+Research Creek, May
+
+05/01/99	16:30:00	    High turbidity event.
+05/01/99	17:00:00	    High turbidity event.
+05/08/99	13:30:00	    High turbidity event.
+05/16/99	01:00:00-06:00:00   High turbidity event.
+05/16/99	07:30:00-08:30:00   High turbidity event.
+05/16/99	11:00:00	    High turbidity event.
+05/16/99	13:00:00	    High turbidity event.
+05/16/99	14:00:00	    High turbidity event.
+05/17/99	13:00:00	    High turbidity event.
+05/17/99	23:30:00	    High turbidity event.
+05/19/99	00:00:00	    High turbidity event.
+05/19/99	01:30:00	    High turbidity event.
+05/30/99    03:30:00        Negative DO, data removed.
+
+
+Research Creek, June
+
+06/01/99 through 06/30/99	DO data appears abnormally high and should be 
+considered suspect.  Upon retrieval of the sonde it was noted that the sonde was 
+buried in the sediment and that the DO electrodes were corroded.  Data retained.  
+06/10/99	14:00:00	    High turbidity event.
+06/12/99	13:30:00	    High turbidity event.
+06/12/99	23:00:00	    High turbidity event.
+06/12/99	23:30:00	    High turbidity event.
+06/13/99	00:00:00-23:30:00   High turbidity event.
+06/14/99	00:00:00-16:00:00   High turbidity event.
+06/27/99    21:00:00            Negative DO, data removed.
+
+Research Creek, July
+
+07/03/99        23:00:00            Negative turbidity values, data deleted.
+07/10/99        09:00:00-09:30:00   Negative turbidity values, data deleted.
+07/15/99 18:00:00-07/16/99 05:00:00 Temp data erratic suggesting sonde failure, 
+all data removed.
+07/19/99        17:30:00            Negative turbidity values, data deleted.
+07/21/99 16:00:00-07/28/99 15:00:00 Negative DO values, data deleted.
+07/26/99 07:00:00-07/28/99 10:30:00 Negative turbidity values, data deleted.
+
+
+Research Creek, August
+
+08/29/99        23:30:00            Negative turbidity value, deleted.
+08/21/99 through 08/31/99		Anomalous specific conductivity, DO and pH; 
+data appear to be responding to a real event.  Data retained.   
+
+Research Creek, September
+
+09/01/99 through 9/21/99		Anomalous specific conductivity, DO and pH; 
+data appear to be responding to a real event.  Data retained.   
+09/01/99 20:30:00-09/09/99 13:30:00 DO failure, data deleted.
+09/07/99    03:00:00            Negative turbidity, deleted.
+09/14/99    01:30:00            Negative turbidity, deleted.
+09/15/99 through 09/16/99	Depth data was anomalously high, but it is 
+possible it was documenting a real event.  
+09/16/00 05:30:00-09/21/99 06:30:00 Turbidity probe failure, data deleted.
+09/21/99 07:00:00-16:00:00          Sonde failure, no data.
+09/22/99	04:30:00	    High turbidity event.
+09/26/99	02:30:00	    High turbidity event.
+
+
+Research Creek, December
+
+12/26/99	17:00:00	    High  turbidity event.
+12/27/99	10:30:00	    High  turbidity event.
+12/27/99	13:00:00	    High  turbidity event.
+	
+
+
+East Cribbing, January
+
+01/08/99	20:00:00-21:30:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/08/99	23:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/09/99	00:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/09/99	11:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/09/99	21:00:00-22:00:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/09/99	23:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/09/99	23:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/12/99	22:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/12/99	23:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/13/99	00:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/13/99	15:30:00-16:30:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/13/99	21:30:00-23:30:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	01:00:00-04:00:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	15:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	17:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	17:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	19:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	20:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	21:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/14/99	22:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/15/99	00:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/15/99	03:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/15/99	17:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/16/99	00:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/16/99	03:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/16/99	17:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/16/99	18:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	02:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	03:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	04:00:00-05:30:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	14:30:00-15:30:00   Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	16:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	17:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/17/99	18:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/18/99	01:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/18/99	02:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/18/99	03:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/18/99	05:00:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/18/99	05:30:00	    Turbidity -1, possible calibration stray, value 
+changed to 0.
+01/23/99 19:30:00-01/23/99 21:30:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/24/99 07:30:00-01/24/99 10:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/24/99 21:00:00-01/25/99 00:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/25/99 09:30:00-01/25/99 11:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/25/99 22:00:00-01/25/99 23:30:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/26/99 10:30:00-01/26/99 12:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/26/99 22:30:00-01/27/99 01:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/27/99 12:30:00-01/27/99 13:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/29/99 01:30:00-01/29/99 02:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/30/99 02:00:00-01/30/99 03:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/30/99 15:30:00-01/31/99 16:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/31/99 16:30:00-01/31/99 17:30:00 Sonde possibly exposed at low tide, all data 
+removed.
+
+
+East Cribbing, March
+
+03/06/99	01:30:00	    High turbidity event.
+03/09/99	17:00:00	    High turbidity event.
+
+
+East Cribbing, May
+
+05/13/99	00:00:00	    High turbidity event.
+05/13/99	02:30:00	    High turbidity event.
+05/20/99	19:00:00-20:30:00   Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/21/99	07:30:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/21/99	20:00:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/21/99	20:30:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/22/99	02:30:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/25/99	23:00:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/26/99        01:00:00            Turbidity negative, possible sensor 
+blockage. Data removed.
+05/27/99	07:00:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/29/99	04:00:00	    Turbidity negative, possible calibration stray.  
+Changed to 0.
+05/26/99 through 05/31/99	DO data should e considered suspect and used with 
+caution.  Data retained.  
+
+East Cribbing, June
+
+06/01/99 through 06/17/99	DO data should e considered suspect and used with 
+caution.  Data retained.  
+06/03/99	09:30:00	    Turbidity negative 1, changed to 0
+06/07/99 00:00:00-06/10/99 04:30:00 Turbidity negative, possible probe blockage. 
+Data removed.
+06/13/99	11:00:00	    High turbidity event.
+06/13/99	23:30:00	    High turbidity event.
+06/14/99        07:30:00            Turbidity negative, possible probe blockage.
+06/14/99        15:30:00            Turbidity negative, possible probe blockage.
+06/15/99        08:00:00            Turbidity negative, possible probe blockage.
+06/21/99	15:30:00	    High turbidity event.
+
+
+East Cribbing, July
+
+07/04/99	00:30:00-01:30:00   High turbidity event.
+07/13/99	10:30:00	    High turbidity event.
+07/19/99	19:00:00	    High turbidity event.
+07/19/99	19:30:00	    High turbidity event.
+07/20/99	11:30:00	    High turbidity event.
+07/20/99	13:30:00	    High turbidity event.
+07/31/99	02:00:00	    High turbidity event.
+07/31/99	02:30:00	    High turbidity event.
+07/31/99	08:00:00	    High turbidity event.
+07/31/99	11:00:00-17:30:00   High turbidity event.
+07/31/99	18:30:00	    High turbidity event.
+07/31/99	22:00:00-23:00:00   High turbidity event.
+
+
+East Cribbing, August
+
+08/01/99	00:30:00-01:30:00   High turbidity event.
+08/01/99	02:30:00	    High turbidity event.
+08/01/99	03:00:00	    High turbidity event.
+08/01/99	04:00:00-23:30:00   High turbidity event.
+08/02/99	00:00:00-23:30:00   High turbidity event.
+08/03/99	00:00:00-23:30:00   High turbidity event.
+08/04/99	00:00:00-04:30:00   High turbidity event.
+
+
+11) Missing data:
+
+This section lists any missing data within the corresponding data files. Missing 
+data maybe caused by many reasons including maintenance periods, power loss, and 
+data that have been removed because of instrument malfunction. Approximately 
+every 2-3 weeks, there may be a period of between 1 to 24 hrs (occasionally 
+longer) of missing data due to maintenance and calibration. During the 
+maintenance period all parameters will be missing.
+
+A record and explanation of missing data that are not related to routine 
+maintenance is kept in the Field Log for the particular deployment. All 
+parameters recorded when the water quality instrument is exposed to air 
+during a sample, either by an extremely low tide or physical displacement from 
+its original location, are removed. Special note should be made regarding 
+missing dissolved oxygen (DO) saturation (%), DO concentration (mg/l), specific 
+conductance, salinity, and temperature measurements. If the DO saturation 
+(%) data are removed, due to sensor malfunction or other circumstances, the DO 
+concentration (mg/l) will also be missing. The DO concentration (mg/l) is 
+calculated from DO saturation (%) and temperature data. This is also true for 
+specific conductance and salinity data. Salinity (ppt) is determined by the YSI 
+6000 using specific conductance and temperature data. If the temperature sensor 
+malfunctions and the corresponding data are removed, all parameters requiring 
+these data (DO saturation, DO concentration, specific conductance, salinity, and 
+pH) for calculation or temperature compensation will also be removed.
+
+
+Research Creek, January
+
+01/02/99 03:30:00-01/03/99 23:30:00 Turbidity data removed, probable probe 
+blockage.
+
+
+Research Creek, February
+
+02/15/99	15:30:00	    Maintenance.
+
+
+Research Creek, March
+
+03/11/99	13:30:00	    Maintenance.
+03/26/99 11:30:00-03/31/99 23:30:00 Instrument failure, no data collected.
+
+
+Research Creek, April
+
+04/01/99 00:00:00-04/09/99 13:30:00 Instrument failure.
+04/19/99	04:30:00	    Negative Turbidity, data removed.
+04/19/99	12:00:00	    Negative Turbidity, data removed.
+		
+
+
+Research Creek, May
+
+05/30/99 01:30:00-05/30/99 03:30:00 Negative DO data, removed.
+
+
+Research Creek, June
+
+06/27/99	21:00:00	    Negative DO, data removed.
+
+
+Research Creek, July
+
+07/03/99	23:00:00	    Negative turbidity values, data deleted.
+07/10/99	09:00:00	    Negative turbidity values, data deleted.
+07/10/99	09:30:00	    Negative turbidity values, data deleted.
+07/15/99 18:00:00-07/16/99 05:00:00 Temp data erratic suggesting sonde failure, 
+data removed.
+07/19/99	17:30:00	    Negative turbidity values, data deleted.
+07/21/99 16:00:00-07/28/99 15:00:00 Negative DO values, data deleted.
+07/26/99 07:00:00-07/28/99 10:30:00 Negative turbidity values, data deleted.
+07/28/99 15:30:00-07/31/99 23:30:00 Sonde vandalized, no data.
+
+
+Research Creek, August
+
+08/01/99 00:00:00-08/13/99 13:00:00 Sonde vandalized, no data.
+08/29/99	23:30:00	    Negative turbidity value, deleted.
+
+
+Research Creek, September
+09/01/99 20:30:00-09/09/99 10:30:00 DO failure, data deleted.
+09/07/99     	03:00:00	    Negative turbidity, deleted
+09/14/99     	01:30:00	    Negative turbidity, deleted
+09/16/99 05:30:00-09/21/99 06:30:00 Turbidity probe failure, data deleted.
+09/21/99 07:00:00-09/21/99 16:00:00 Sonde failure, no data.
+09/24/99     	13:30:00    	    Maintenance.
+
+
+Research Creek, November
+
+11/08/99 14:30:00-11/09/99 11:00:00 Maintenance.
+
+
+East Cribbing, January
+
+01/23/99 19:30:00-01/23/99 21:30:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/24/99 07:30:00-01/24/99 10:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/24/99 21:00:00-01/25/99 00:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/25/99 09:30:00-01/25/99 11:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/25/99 22:00:00-01/25/99 22:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/26/99 10:30:00-01/26/99 12:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/26/99 22:30:00-01/27/99 01:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/27/99 12:30:00-01/27/99 13:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/29/99 01:30:00-01/29/99 02:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/30/99 02:00:00-01/30/99 03:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/30/99 15:30:00-01/30/99 16:00:00 Sonde possibly exposed at low tide, all data 
+removed.
+01/31/99 16:30:00-01/31/99 17:30:00 Sonde possibly exposed at low tide, all data 
+removed.
+
+
+East Cribbing, March
+
+03/30/99 02:30:00-03/31/99 23:30:00 Instrument power failure.
+
+
+East Cribbing, April
+
+04/01/99 00:00:00-01/12/99 14:00:00 Sonde power failure.
+
+
+East Cribbing, May
+
+05/26/99	01:00:00	    Turbidity negative, possible sensor blockage.  Data 
+removed
+
+
+East Cribbing, June
+
+06/07/99 00:00:00-06/10/99 04:30:00 Turbidity negative, possible probe blockage. 
+Data removed.
+06/14/99	07:30:00	    Turbidity negative, possible probe blockage. Data 
+removed
+06/14/99	15:30:00	    Turbidity negative, possible probe blockage. Data 
+removed
+06/15/99	08:00:00	    Turbidity negative, possible probe blockage. Data 
+removed
+06/17/99 16:30:00-06/21/99 13:30:00 Maintenance.
+
+
+East Cribbing, August
+
+08/04/99 05:00:00-08/26/99 11:00:00 Internal sonde failure.  No data collected.
+
+
+East Cribbing, September
+
+09/20/99 13:30:00-09/21/99 16:30:00 Maintenance, no data collected.
+
+
+East Cribbing, October
+
+10/21/99 08:00:00-10/31/99 23:30:00 Battery failure.
+
+
+East Cribbing, November
+
+11/01/99 00:00:00-11/08/99 10:30:00 Battery Failure
+
+
+East Cribbing, December
+
+12/10/99 12:00:00-12/10/99 13:00:00 Maintenance.
+
+
+12) Notes:
+
+High turbidity values above instruments top range (1000 NTU), caused by blockage 
+of light transmittance by an obstruction are left in the file.
+
+Start of each sample was delayed in the ms0899 file by from 9 to 5 minutes after 
+the hour and half hour.  Time was corrected in the file to the hour and half 
+hour.
+
+
+

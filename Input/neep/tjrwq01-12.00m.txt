@@ -1,0 +1,902 @@
+Tijuana River Estuary (TJR) NERR Water Quality Metadata 
+January - December 2000
+Last Revised December 7, 2001
+
+I. Data Set and Research Descriptors
+1. Principal Investigators and contact persons
+Greg Abbott, Research Coordinator		301 Caspian Way
+							Imperial Beach, CA 91932
+							phone: (619)575-6313
+							e-mail: gabbott@ixpress.com
+
+Tessa Roper, Reserve Manager			301 Caspian Way
+							Imperial Beach, CA 91932
+							phone: (619) 575-3613
+							e-mail: troper@ixpres.com
+
+Michelle Cordrey, Research Specialist	Pacific Estuarine Research
+									Laboratory
+							San Diego State University
+							San Diego, CA  92182-1870
+							phone: (619)594-7422
+							E-mail: mcordrey@perl.sdsu.edu
+
+2.  Entry Verification:
+
+	The data are uploaded directly from the YSI model 6000upg
+dataloggers to the YSI PC6000 software into a file appended with the suffix
+".dat". The data are also downloaded directly from the datalogger into a
+spreadsheet importable file appended with the suffix ".csv". The data are
+then reviewed for major problems (i.e. logger out of water, probe
+malfunction, battery failure, etc.) using the YSI PC6000 plotting software.
+The resulting plot is printed out  and saved in a folder named "datalogger
+deployment log".  The .csv file is imported into Excel 5.0 for Macintosh,
+where it is edited and formatted.
+	The tails of each sampling period are deleted and any suspect data
+are identified with the aid of Excel CDMO 5.0 macros.  Suspect data are
+evaluated and dealt with according to CDMO Operations Manual (ver.3.0)
+guidelines.  The parameter columns are checked for proper order and
+formatted to the correct decimal places using the "column reformat" macro
+supplied by the CDMO.  Missing data fields are inserted into the Excel
+spreadsheet and are denoted by periods (.).  Reasons for any missing or
+anomalous data are entered directly into the data file and the edited file
+is saved as a two-week excel file.  When an entire month of two-week edited
+data files have been collected, the files are edited and combined into a one
+month excel file.   Dates and times when data were not collected are
+entered directly into the excel file, along with a reason for the missing
+data (from the deployment log).  All editing and missing data documentation
+are also recorded in an excel file named "missing data log".  The
+information in the "missing data log" is transferred to the metadata form.
+The edited and raw files are archived on a Sun Sparc 20 workstation and
+backed up to tape weekly.  Data and metadata files are uploaded via ftp to
+the CDMO. The person responsible for the data management is Michelle
+Cordrey.
+
+
+3.  Research Objectives:
+
+	The Tijuana Estuarine Research Reserve is impacted heavily by both
+periodic raw sewage outflows and urban development. Only about a quarter of
+the reserve's 2,531 acres are tidally influenced, with few channels deep
+enough for datalogger deployment.  Two stations were originally set up:  a
+treatment station was set up close to the mouth on the Southern end of
+the Oneonta Slough, while a control station was set up on the northern
+end of Oneonta Slough.  The treatment station location was chosen because
+it would be the site most affected by sewage outflow. Deployment at the
+treatment station, however, was continually halted by both shifting
+sediment and massive wracks of kelp (Macrocystis pyrifera), which would
+often bury the deployment set-up on incoming tides.  After a number of
+different deployment equipment designs were implemented, with no success,
+logging at this site was terminated.
+	We currently have three dataloggers installed at the reserve.  The
+original control station in the northern end of Oneonta Slough is still
+in place.  A second datalogger is installed at the Tidal Linkage site, a channel 
+in the northeast section of the estuary that was dredged in 1997 to increase 
+tidal flushing.  A third datalogger station is located at the inlet to the Model 
+Marsh, a recently-constructeed 20-acre restoration site in the southern arm of 
+the estuary.  The Tidal Linkage was opened to tidal flushing in the spring of 
+1997, whereas the Model Marsh was opened in February 2000.  Installation of 
+dataloggers at these two restoration sites will allow us to make comparisons 
+between constructed and natural site hydrology over time.
+
+
+4.  Research Methods (Dataloggers)
+
+	A 4 inch diameter PVC pipe was strapped to a 6 ft length of steel
+fencing post and driven into the sediment until refusal prior to datalogger
+deployment in the center of the channel.  The bottom of the pipe is raised
+one foot off of the channel bottom and is capped. Multiple 1.5" holes have been
+drilled in the bottom  cap and sides to permit unrestricted flow to the
+sensors.  The datalogger units are then placed into and rest on the bottom
+of the tubes during deployment.  The sampling period is two weeks, with
+measurements taken every 30 minutes.  Measurements for specific
+conductivity, salinity, dissolved oxygen (percent saturation), dissolved
+oxygen (mg/l), temperature, turbidity and water level are recorded.  At the
+end of each two week period, the YSI data logger unit  is replaced by
+another YSI datalogger unit and brought back to the laboratory for
+downloading, cleaning and recalibration. These procedures are carried out
+according to the methods described in the YSI Operations Manual (see
+sections 3 and 7). Calibration standards for specific conductivity, pH and
+turbidity are purchased pre-made from VWR scientific.  The QA/QC procedures
+for the collected data are followed as given in the CDMO Operations Manual
+version 3.0.
+
+	In May 1997 sampling at the Tidal Linkage station began.  All deployment, 
+calibration and QA/QC procedures were followed exactly as they are at the 
+Oneonta Slough station.
+
+	Additionally, starting on May 23, 1997 plastic mesh sleeves were
+placed on sondes at both stations to inhibit crabs from interfering with
+the sensors.
+
+	On October 25, 2000 logging began at the Model Marsh station.
+
+
+
+5.  Site location and character
+General site Characteristics (TJR)
+a) Tidal exchange (extremes): approx. -2 +7 MLLW,
+b) Salinity: 4 ppt (extreme rain events) to 38 ppt
+d) Latitude and longitude:  32 deg. 34 min. N, 117 deg. 07 min. W
+c) Potential impacts: storm drain runoff from military airfield and
+adjacent residential areas, occasional sewage spills (10-15 MGD) into the
+Tijuana River from Mexico.  The area surrounding the estuary is heavily
+developed by residential housing as is the watershed which drains into the
+estuary.  Approximately 2/3 of the watershed is in Mexico.  A military 
+helicopter-training base borders the Northeastern section of the reserve.  
+Vegetation in the area is dominated by common pickleweed (Spartina virginica) 
+and Pacific cordgrass (Spartina foliosa).
+
+Specific Site characteristics: Oneonta Slough (OS)
+a) Orientation of site:  The Datalogger station is located on the upper portion 
+of Oneonta Slough.  The channel runs north to south and is located on the 
+northwestern edge of the reserve. Latitude is 32( 34' 04.8" N, longitude is 117( 
+07' 52.3" W.
+b) The elevation of the channel bottom directly below the datalogger is
+approx. -0.55m NGVD.
+c) Channel width is approx. 20 meters.  Datalogger site is located 1km from 
+mouth
+d) Bottom type: sand and sediment
+e) Area adjacent to west side of channel is developed. There is a 50-meter 
+buffer of natural vegetation between development and the channel.  Area adjacent 
+to east side of channel is relatively natural.
+f) Direct impacts are estimated to be runoff from streets into channel during 
+rain events.
+
+Specific Site Characteristics: The Tidal Linkage (TL)
+a) Orientation of site:  Datalogger station is located in the middle of the 
+constructed channel known as the Tidal Linkage.  The channel runs northwest to 
+Southwest and is located adjacent to the visitor's center in the northeastern 
+section of the reserve. Latitude is 32 deg 34 min 24.9 sec N, longitude is 117 
+deg 07 min 32.2 sec N.  In November of 1999 the datalogger site was moved 
+approximately 180 meters northwest to a deeper section of the same channel.  The 
+latitude of the new site is 32( 34' 27.9" N, the longitude is 117( 07' 37.8" W.
+b) The elevation of the channel bottom at the site prior to November 1999
+is approximately -0.9m NGVD.
+c) Channel width:  Approximately 5 meters at both the old and new sites
+d) Bottom type: mostly mud at both old and new sites.
+
+Specific Site Characteristics:  Model Marsh (MM)
+a) Orientation of site: The datalogger station is located in the middle of a 
+natural channel, which runs north to south.  The channel is approximately 20 
+meters north of a newly constructed 20-acre mudflat restoration area in the 
+southern section of the reserve.  The latitude of the site is 32( 32' 52.05" N, 
+the longitude is 117( 07' 22.9" W.
+b) The elevation of the channel bottom -.186m NGVD.
+c) Channel width: 5 meters
+d) Bottom type:  Mostly mud with some sand
+
+
+6. Data Collection periods:
+Unless otherwise noted, YSI model 6000upg dataloggers were used to collect data.
+
+Oneonta Slough
+Began					Ended
+12/21/99	16:00:00		01/06/00	15:30:00
+01/07/00	15:30:00		01/16/00	20:30:00
+01/25/00	17:00:00		02/08/00	14:30:00
+02/10/00	17:00:00		02/29/00	13:00:00
+03/01/00	16:00:00		03/16/00	14:00:00
+03/17/00	15:30:00		04/04/00	13:30:00
+04/06/00	15:30:00		04/26/00	12:30:00
+04/27/00	15:30:00		05/09/00	11:00:00
+05/10/00	14:00:00		05/30/00	12:00:00
+06/02/00	15:00:00		06/15/00	13:30:00
+06/21/00	11:30:00		07/11/00	15:00:00
+07/14/00	14:30:00		08/03/00	09:00:00
+08/08/00	12:00:00		09/07/00	12:00:00
+11/13/00	15:00:00		11/28/00	15:00:00
+	model YSI 6600 used
+11/28/00	15:00:00		12/13/00	15:30:00
+12/19/00	14:30:00		01/15/01	08:30:00
+	model YSI 6600 used
+
+
+Tidal Linkage
+Began				Ended
+12/03/1999	16:30:00	01/02/2000	16:30:00
+01/07/2000	15:30:00	01/24/2000	16:30:00
+04/27/2000	15:30:00	05/10/2000	14:00:00
+05/12/2000	13:30:00	05/30/2000	12:00:00
+06/02/2000	15:00:00	06/15/2000	14:00:00
+06/21/2000	12:00:00	07/11/2000	14:30:00
+Logging at TL station discontinued for rest of 2000 on 7/11/2000
+
+Model Marsh
+Began				Ended
+10/25/2000	17:00:00	11/07/2000	16:00:00
+12/01/2000	16:00:00	12/13/2000	14:30:00
+12/19/2000	13:30:00	01/15/2001	09:30:00
+
+
+7.  Associated researchers and projects
+
+Sharook Madon (PERL) is using temperature data from the dataloggers in a
+model to evaluate the value of marsh surface access in killi fish growth.
+Greg Williams and Janelle West (PERL) are looking at shifts in fish and
+invertebrate assemblages associated with the 1997 - 1998 El Nino event. The
+Tidal Linkage channel is the ongoing site of research being conducted by PERL, 
+which focuses on methods for increasing the success of saltmarsh re-vegetation 
+projects.
+
+
+II. Physical Structure Descriptors
+
+8.  Variable sequence, column format, range of measurements, units for:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+
+9.  Coded variable indicator and variable code definitions
+Site definitions:  OS = Oneonta Slough  TL = Tidal Linkage  MM = Model Marsh
+
+10.  Data anomalies (suspect data): 
+
+January 2000
+OS
+01/01/2000(00:00)-01/06(15:30), depth - converted from feet to meters
+01/01/2000(00:00)-01/06(15:30), specific conductivity and salinity -
+Average values anomalously low.  Calibration error suspected. Data were
+Removed.
+01/01/2000(00:00)-01/06(15:30), pH - values anomalously low.  Probe failure 
+suspected. Data were removed.
+01/07/2000(15:30)-01/05(14:24), pH - values anomalously low.  Probe failure 
+suspected. Data were removed.
+Negative Turbidity Values:
+Date		Time		Turb
+01/01/00	06:30:00	-0001
+01/03/00	15:00:00	-0001
+01/03/00	16:30:00	-0001
+01/03/00	21:30:00	-0001
+01/04/00	08:00:00	-0001
+01/04/00	21:30:00	-0001
+01/05/00	06:00:00	-0001
+01/05/00	17:00:00	-0001
+
+
+TL
+
+01/07/2000(15:30)-01/24(16:30), pH missing - no probe installed.
+01/07/2000(15:30)-01/24(16:30), salinity low due to small rain event; data were 
+retained.
+01/13/2000(18:30)-01/14(00:00), all parameters missing - some sensors out
+of water.  Data were removed.
+01/14/2000(20:30)-01/15(00:30), all parameters missing - some sensors out
+of water.  Data were removed.
+01/15/2000(22:00)-01/16(01:00), all parameters missing - some sensors were
+out of water.  Data were removed.
+01/16/2000(23:00)-01/17(01:30), all parameters missing - some sensors were
+out of water.  Data were removed.
+The following turbidity spikes were recorded. Data were not removed:
+Date		Time		Turb
+01/11/2000	20:00:00	0133
+01/24/2000	16:30:00	0101
+The following small negative depth values were recorded.  Data were not removed:
+Date		Time
+01/01/2000	02:00:00
+01/07/2000	15:30:00 - 21:30:00
+01/08/2000	02:00:00 - 06:00:00
+01/08/2000	16:00:00 - 22:00:00
+01/09/2000	03:30:00 - 06:30:00
+01/09/2000	16:30:00 - 22:30:00
+01/10/2000	04:00:00 - 07:00:00
+01/10/2000	16:00:00 - 23:00:00
+01/11/2000	05:00:00 - 07:30:00
+01/11/2000	16:30:00 - 23:30:00
+01/12/2000	06:00:00 - 08:00:00
+01/12/2000	17:00:00 - 19:30:00
+01/13/2000	17:00:00 - 18:00:00
+01/14/2000	00:30:00
+01/14/2000	08:30:00 - 14:00:00
+01/14/2000	17:30:00 - 20:00:00
+01/15/2000	01:00:00
+01/15/2000	09:30:00 - 16:00:00
+01/15/2000	19:00:00 - 21:30:00
+01/16/2000	01:30:00
+01/16/2000	12:30:00 - 17:30:00
+01/16/2000	21:00:00 - 22:30:00
+01/17/2000	02:00:00
+01/17/2000	12:30:00 - 18:00:00
+01/17/2000	23:00:00 - 23:30:00
+01/18/2000	00:00:00 - 02:30:00
+01/18/2000	14:30:00 - 18:30:00
+01/19/2000	00:00:00 - 03:30:00
+01/19/2000	15:30:00 - 19:00:00
+01/20/2000	01:00:00 - 04:00:00
+01/20/2000	16:30:00 - 20:00:00
+01/21/2000	01:30:00 - 05:00:00
+01/21/2000	17:00:00 - 20:30:00
+01/22/2000	02:00:00 - 06:00:00
+01/22/2000	17:00:00 - 21:00:00
+01/23/2000	03:00:00 - 07:00:00
+01/23/2000	17:00:00 - 22:00:00
+01/24/2000	04:00:00 - 08:00:00
+01/24/2000	16:00:00
+
+
+February	 2000
+OS
+Negative turbidity data due to calibration errors, data were retained:
+02/11/2000	01:30:00	-0001
+02/12/2000	02:00:00	-0001
+02/12/2000	02:30:00	-0002
+02/12/2000	03:00:00	-0002
+02/12/2000	03:30:00	-0001
+02/12/2000	04:00:00	-0001
+02/13/2000	03:30:00	-0001
+02/13/2000	04:00:00	-0001
+02/13/2000	05:00:00	-0001
+02/13/2000	23:00:00	-0001
+02/13/2000	23:30:00	-0001
+02/14/2000	04:00:00	-0001
+02/14/2000	04:30:00	-0002
+02/14/2000	05:00:00	-0001
+02/15/2000	00:00:00	-0001
+02/15/2000	01:00:00	-0001
+02/15/2000	05:30:00	-0001
+02/15/2000	06:00:00	-0001
+02/15/2000	06:30:00	-0002
+02/15/2000	07:00:00	-0002
+02/15/2000	07:30:00	-0001
+02/15/2000	13:00:00	-0001
+02/15/2000	13:30:00	-0001
+02/16/2000	02:30:00	-0001
+02/17/2000	16:30:00	-0001
+02/17/2000	17:00:00	-0002
+02/17/2000	17:30:00	-0001
+02/17/2000	20:30:00	-0001
+02/17/2000	21:00:00	-0001
+02/17/2000	21:30:00	-0001
+02/17/2000	22:00:00	-0001
+02/17/2000	23:30:00	-0001
+02/18/2000	00:00:00	-0001
+02/18/2000	01:30:00	-0001
+02/18/2000	02:30:00	-0001
+02/18/2000	03:00:00	-0001
+02/18/2000	03:30:00	-0001
+02/18/2000	04:00:00	-0001
+02/18/2000	04:30:00	-0001
+02/18/2000	17:00:00	-0001
+02/18/2000	18:30:00	-0001
+02/18/2000	22:00:00	-0001
+02/19/2000	19:00:00	-0001
+02/19/2000	21:30:00	-0001
+02/19/2000	22:00:00	-0001
+02/19/2000	22:30:00	-0001
+
+02/01/2000(00:00)-02/08(14:30), pH - values anomalously low. Probe failure
+suspected. Data were removed.
+02/01/2000(00:00)-02/08(14:30), turbidity missing - Minimum values were too
+low (many < -5).  Calibration error suspected.  Data were removed
+02/12/2000(06:30)-02/16(06:00), salinity readings were abnormally low.
+Likely caused by storm event. Data were not removed
+02/20/2000(14:30)-02/29(13:00), turbidity readings were abnormally high.
+Likely caused by storm event. Data were not removed
+02/20/2000(14:30)-02/29(13:00), specific conductivity and salinity -
+readings abnormally low due to storm event.
+02/01/2000(02:00)-02/29(13:00), depth - abnormally high minimum depth
+values.  Most likely caused by sedimentation at mouth of estuary.
+	Data were not removed
+
+TL
+No data collected during this month. 
+
+March 2000
+OS
+03/24/2000(16:00)-03/31(23:30), turbidity missing - wiper parked on optics.
+Data were removed.
+Turbidity outliers (>1000) most likely caused by rain event. Data were retained.
+03/05/2000 21:30 - 22:30
+03/06/2000 07:00 - 08:00
+Drop in salinity due to rain event. Data were retained.
+03/05/2000 (18:30) - 03/15 (02:00)
+
+TL
+No data collected during this month. 
+
+April 2000
+OS
+04/17/2000(09:00)-04/26(12:30), DO% and DOmg - slope fell during deployment. 
+Data were removed.
+04/13/2000(00:30)-04/26(12:30), turbidity - average minimum values are 
+anomalously high.  Likely caused by rain event. Data were not removed.
+Drop in salinity due to rain event. Data were retained.
+04/18/2000 (01:00) - 04/19 (19:00)
+The following turbidity spikes were recorded:
+Date		Time		Turb
+04/18/00	08:30:00	0386
+Negative Turbidity Values
+Date		Time		Turb
+04/27/2000	19:00:00	-0001
+04/28/2000	05:00:00	-0001
+04/28/2000	17:30:00	-0001
+04/28/2000	18:00:00	-0001
+04/28/2000	18:30:00	-0001
+04/28/2000	19:00:00	-0001
+04/28/2000	19:30:00	-0001
+04/28/2000	20:00:00	-0001
+04/29/2000	06:00:00	-0001
+04/29/2000	06:30:00	-0001
+04/29/2000	07:00:00	-0001
+04/29/2000	13:30:00	-0001
+04/29/2000	19:00:00	-0001
+04/29/2000	19:30:00	-0001
+04/30/2000	06:00:00	-0001
+04/30/2000	06:30:00	-0001
+04/30/2000	07:00:00	-0001
+
+
+
+TL
+Date		Time		Turb
+04/27/2000	19:00:00	0250
+04/28/2000	17:30:00	0231
+04/29/2000	16:30:00	0267
+04/30/2000	13:00:00	0462
+04/30/2000	13:30:00	0152
+
+
+May 2000
+OS
+The following negative turbidity values were recorded.  Data were not removed:
+Date		Time		Turb
+05/01/2000	06:30:00	-0001
+05/01/2000	07:30:00	-0001
+05/01/2000	08:00:00	-0001
+05/02/2000	08:00:00	-0001
+05/02/2000	08:30:00	-0001
+05/03/2000	09:00:00	-0001
+05/03/2000	09:30:00	-0001
+05/04/2000	09:30:00	-0001
+05/14/2000	07:30:00	-0001
+05/15/2000	08:00:00	-0001
+05/15/2000	08:30:00	-0001
+05/15/2000	11:00:00	-0001
+05/15/2000	11:30:00	-0001
+
+
+TL
+The following turbidity spikes were recorded. Data were not removed:
+Date		Time		Turb
+05/01/2000	21:00:00	0146
+05/03/2000	21:30:00	0102
+05/05/2000	00:00:00	0402
+05/06/2000	16:30:00	0137
+05/07/2000	16:00:00	0143
+05/07/2000	17:00:00	0301
+05/08/2000	15:00:00	0406
+05/08/2000	16:00:00	0379
+05/09/2000	13:00:00	0338
+05/13/2000	10:00:00	0129
+05/13/2000	16:30:00	0318
+05/14/2000	17:00:00	0314
+
+June 2000
+OS
+No data anomalies.
+
+TL
+The following turbidity spikes were recorded.  Data were not removed:
+Date		Time		Turb
+06/03/2000	14:30:00	0433
+06/03/2000	16:30:00	0425
+06/03/2000	18:30:00	0476
+06/04/2000	12:00:00	0457
+06/04/2000	13:30:00	0444
+06/04/2000	14:00:00	0227
+06/04/2000	14:30:00	0227
+06/04/2000	16:00:00	0161
+06/04/2000	19:30:00	0225
+06/05/2000	12:00:00	0341
+06/05/2000	14:00:00	0436
+06/05/2000	17:00:00	0228
+06/05/2000	18:00:00	0366
+06/05/2000	18:30:00	0122
+06/05/2000	20:30:00	0321
+06/06/2000	15:30:00	0437
+06/06/2000	16:00:00	0228
+06/06/2000	17:00:00	0447
+06/06/2000	17:30:00	0341
+06/06/2000	18:00:00	0228
+06/06/2000	19:00:00	0305
+06/06/2000	19:30:00	0226
+06/06/2000	20:00:00	0296
+06/06/2000	21:00:00	0412
+06/06/2000	22:30:00	0372
+06/07/2000	13:30:00	0228
+06/07/2000	18:30:00	0229
+06/08/2000	14:30:00	0187
+06/08/2000	15:00:00	0229
+06/08/2000	20:30:00	0131
+06/09/2000	16:30:00	0228
+06/10/2000	15:00:00	0229
+06/10/2000	15:30:00	0385
+06/10/2000	16:00:00	0231
+06/10/2000	18:30:00	0394
+06/11/2000	00:30:00	0129
+06/11/2000	03:30:00	0196
+06/11/2000	08:30:00	0139
+06/11/2000	16:00:00	0452
+06/11/2000	16:30:00	0149
+06/11/2000	21:30:00	0184
+06/12/2000	01:30:00	0151
+06/12/2000	02:30:00	0101
+06/12/2000	18:00:00	0199
+06/12/2000	18:30:00	0225
+06/13/2000	16:30:00	0393
+06/13/2000	17:00:00	0493
+06/13/2000	17:30:00	0226
+06/14/2000	17:30:00	0109
+
+
+July 2000
+OS
+07/01/2000(00:00)-07/11(15:00), Turbidity - minimum values abnormally high 
+throughout deployment.  Data were removed
+07/07/2000(22:30)-07/11(15:00), DO% and DO mg - removed at end of deployment
+The following slightly negative turbidity values were recorded. Data were
+not removed:
+
+Date 		Time
+07/14/2000	21:00:00
+07/15/2000	02:00:00
+07/15/2000	04:00:00
+07/15/2000	05:00:00 - 06:30:00
+07/15/2000	08:00:00
+07/15/2000	09:00:00
+07/15/2000	09:30:00
+07/15/2000	10:00:00
+07/15/2000	11:00:00
+07/15/2000	12:00:00
+07/15/2000	21:00:00 - 21:30:00
+07/16/2000	03:30:00 - 07:00:00
+07/16/2000	08:30:00 - 13:30:00
+07/16/2000	21:30:00 - 22:00:00
+07/17/2000	02:30:00
+07/17/2000	03:30:00 - 07:30:00
+07/17/2000	10:00:00 - 11:30:00
+07/17/2000	12:30:00
+07/17/2000	19:30:00
+07/17/2000	22:30:00
+07/18/2000	02:30:00
+07/18/2000	05:00:00 - 08:00:00
+07/18/2000	09:30:00 - 13:00:00
+07/18/2000	16:00:00
+07/18/2000	23:00:00
+07/19/2000	03:30:00
+07/19/2000	05:00:00
+07/19/2000	07:00:00 - 08:30:00
+07/19/2000	11:00:00 - 12:30:00
+07/19/2000	13:00:00
+07/19/2000	21:00:00
+07/19/2000	23:30:00
+07/20/2000	06:00:00
+07/20/2000	08:00:00
+07/20/2000	08:30:00
+07/20/2000	11:00:00 - 15:30:00
+07/20/2000	22:00:00 - 23:30:00
+07/21/2000	00:00:00 - 00:30:00
+07/21/2000	05:00:00 - 09:00:00
+07/21/2000	11:30:00 - 14:00:00
+07/21/2000	23:30:00
+07/22/2000	00:00:00 - 01:30:00
+07/22/2000	06:00:00 - 07:30:00
+07/22/2000	08:30:00
+07/22/2000	12:00:00 - 16:00:00
+07/23/2000	00:30:00 - 02:00:00
+07/23/2000	07:00:00 - 09:30:00
+07/23/2000	14:30:00 - 16:30:00
+07/23/2000	18:30:00
+07/23/2000	20:30:00 - 21:00:00
+07/24/2000	02:00:00 - 03:00:00
+07/24/2000	04:00:00
+07/24/2000	07:00:00
+07/24/2000	08:00:00 - 10:00:00
+07/24/2000	14:30:00 - 19:00:00
+07/24/2000	20:00:00
+07/24/2000	21:00:00 - 21:30:00
+07/24/2000	23:30:00
+07/25/2000	01:00:00
+07/25/2000	04:00:00
+07/25/2000	05:00:00 - 07:00:00
+07/25/2000	08:00:00 - 10:30:00
+07/25/2000	15:30:00
+07/25/2000	16:30:00
+07/25/2000	17:00:00
+07/25/2000	18:00:00
+07/25/2000	21:30:00 - 23:30:00
+07/26/2000	00:00:00 - 00:30:00
+07/26/2000	05:00:00 - 11:30:00
+07/26/2000	17:30:00 - 18:30:00
+07/26/2000	23:00:00 - 23:30:00
+07/27/2000	00:00:00 - 03:30:00
+07/27/2000	05:30:00 - 12:30:00
+07/27/2000	16:30:00
+07/27/2000	17:30:00
+07/27/2000	18:30:00
+07/27/2000	19:00:00
+07/27/2000	19:30:00
+07/27/2000	20:30:00
+07/28/2000	00:00:00 - 03:00:00
+07/28/2000	06:00:00 - 13:00:00
+07/28/2000	14:00:00
+07/29/2000	02:00:00
+07/29/2000	07:00:00 - 14:30:00
+07/29/2000	21:00:00
+07/30/2000	02:00:00 - 03:30:00
+07/30/2000	07:00:00 - 07:30:00
+07/30/2000	09:00:00 - 15:30:00
+07/30/2000	17:30:00
+07/30/2000	21:30:00
+07/31/2000	03:00:00 - 03:30:00
+07/31/2000	04:30:00
+07/31/2000	09:00:00
+07/31/2000	10:00:00 - 12:30:00
+07/31/2000	13:30:00
+07/31/2000	15:30:00
+07/31/2000	23:00:00
+
+
+TL
+The following Turbidity spikes were recorded.  Data were not removed:
+Date		Time		Turb
+07/09/2000	14:30:00	0228
+
+
+August 2000
+OS
+Negative turbidity values. Data were not deleted:
+Date		Time		Turb
+08/01/2000	04:00:00	-0001
+08/01/2000	04:30:00	-0001
+08/01/2000	05:00:00	-0001
+08/01/2000	11:00:00	-0001
+08/01/2000	11:30:00	-0001
+08/01/2000	12:00:00	-0001
+08/01/2000	12:30:00	-0002
+08/01/2000	14:30:00	-0001
+08/01/2000	15:30:00	-0001
+08/01/2000	16:00:00	-0001
+08/01/2000	19:30:00	-0001
+08/01/2000	23:30:00	-0001
+08/02/2000	03:30:00	-0001
+08/02/2000	11:00:00	-0001
+08/02/2000	11:30:00	-0001
+08/02/2000	12:00:00	-0001
+08/02/2000	12:30:00	-0001
+08/02/2000	13:00:00	-0001
+08/02/2000	13:30:00	-0001
+08/02/2000	14:00:00	-0001
+08/03/2000	00:00:00	-0001
+
+
+September 2000
+OS
+09/03/2000(16:00)-09/06(15:30), DO% and DOmg variation low - corresponds to
+changes in tidal cycle.  Data were not removed
+
+October 2000
+OS
+No data collected for entire month. 
+
+MM
+10/29/2000 (23:30) - 10/31 (23:30); drop in salinity due to rain event. Data 
+were retained.
+
+November 2000
+OS
+11/13/2000(15:00)-11/28(14:30), Depth - converted from feet to meters
+The following Turbidity spikes were recorded.  Data were not removed:
+Date 		Time		Turb
+11/16/2000	23:00:00	0177
+11/19/2000	15:30:00	0116
+11/19/2000	16:00:00	0116
+
+MM
+11/01/2000 (00:00) - 11/4 (20:30); drop in salinity due to rain event. Data were 
+retained.
+
+December 2000
+OS
+12/19/2000(14:30)-12/31(23:30), depth - converted from feet to meters
+
+MM
+No data anomalies
+
+
+11. Missing Data:
+January 2000
+
+OS
+01/01/2000(00:00)-01/06(15:30), specific conductivity and salinity -
+Average values anomalously low.  Calibration error suspected.  Data were removed
+01/01/2000(00:00)-01/06(15:30), pH - values anomalously low.  Probe failure 
+suspected. Data were removed
+01/07/2000(15:30)-01/16(20:30), pH - values anomalously low.  Probe failure 
+suspected. Data were removed
+01/06/2000(16:00)-01/07(15:00), all parameters missing - maintenance and 
+calibration
+01/16/2000(21:00)-01/25(16:30), all parameters missing - maintenance and 
+calibration
+01/25/2000(17:00)-01/31(23:30), pH and turbidity missing - no probes installed.
+
+TL
+01/01/2000(00:00)-01/02(16:30), pH - no probe installed
+01/02/2000(17:00)-01/07(15:00), all parameters missing - maintenance and 
+calibration
+01/07/2000(15:30)-01/24(16:30), pH - no probe installed
+01/13/2000(18:30)-01/14(00:00), all parameters missing - some sensors out of 
+water.  Data were removed
+01/14/2000(20:30)-01/15(00:30), all parameters missing - some sensors out of 
+water.  Data were removed
+01/15/2000(22:00)-01/16(01:00), all parameters missing - some sensors were out 
+of water.  Data were removed
+01/16/2000(23:00)-01/17(01:30), all parameters missing - some sensors were out 
+of water.  Data were removed
+01/24/2000(17:00)-01/31(23:30), all parameters missing - no logger deployed.
+
+February 2000
+OS
+02/01/2000(00:00)-02/08(14:30), pH - values anomalously low. Probe failure 
+suspected. Data were removed.
+02/01/2000(00:00)-02/08(14:30), Turbidity - Minimum values were too low
+(many < -5).  Calibration error suspected.  Data were removed.
+02/08/2000(15:00)-02/10(16:30), all parameters missing - maintenance and 
+calibration
+02/10/2000(17:00)-02/29(13:00), pH - no probe installed
+02/29/2000(02:00)-02/29(13:00), DO% and DO mg missing
+02/29/2000(13:30)-02/29(23:30), all parameters missing - maintenance and 
+calibration
+
+TL
+02/01/2000(00:00)-02/29(23:30), all parameters missing - no logger deployed due 
+to sedimentation problems with site.  
+
+March 2000
+OS
+03/01/2000(00:00)-03/01(15:30), all parameters missing - maintenance and 
+calibration
+03/01/2000(16:00)-03/16(14:00), pH - no probe installed
+03/16/2000(14:30)-03/17(15:00), all parameters missing - maintenance and 
+calibration
+03/24//2000(16:00)-03/31(23:30), Turbidity - wiper parked on optics.  Data were 
+removed
+
+TL
+03/01/2000(00:00)-03/31(23:30), all parameters missing - no logger deployed due 
+to sedimentation problems with site.  
+
+April 2000
+OS
+04/04/2000(14:00)-04/06(15:00), all parameters missing - maintenance and 
+calibration.
+04/17/2000(09:00)-04/26(12:30), DO% and DO mg - slope fell during deployment. 
+Data were removed.
+04/26/2000(13:00)-04/27(15:00), all parameters missing - maintenance and
+calibration.
+
+TL
+04/01/2000 (00:00) - 04/27 (15:00), all parameters missing - no logger deployed 
+due to sedimentation problems with site.  
+
+May 2000
+OS
+05/09/2000(11:30)-05/10(13:30), all parameters missing - maintenance and
+calibration.
+05/30/2000(12:30)-05/31(23:30), all parameters missing - maintenance and
+calibration.
+
+TL
+05/10/2000 (14:30) - 05/12 (13:00), all parameters missing - no logger deployed 
+due to sedimentation problems with site.
+05/30/2000 (12:30) - 05/31 (23:30), all parameters missing - no logger deployed 
+due to sedimentation problems with site.
+
+June 2000
+OS
+06/01/2000(00:00)-06/02(15:00), all parameters missing - maintenance and
+calibration
+06/15/2000(14:00)-06/21(11:30), all parameters missing - maintenance and
+calibration
+
+TL
+06/01/2000 (00:00) - 06/02 (14:30), all parameters missing - no logger deployed 
+due to sedimentation problems with site.
+06/15/2000 (14:30) - 06/21 (11:30), all parameters missing - no logger deployed 
+due to sedimentation problems with site.
+
+July 2000
+OS
+07/01/2000(00:00)-07/11(15:00), turbidity - minimum values abnormally high 
+throughout deployment.  Data were removed
+07/07/2000(22:30)-07/11(15:00), DO% and DO mg - removed at end of deployment.
+07/11/2000(15:30)-07/14(14:00), all parameters missing - maintenance and 
+calibration
+
+TL 
+07/11/2000 (15:00) - 07/31 (23:30), all parameters missing - no logger deployed 
+due to sedimentation problems with site.  Site was discontinued for remainder of 
+the year while reserve staff tries to re-site it somewhere else.  
+
+August 2000
+OS
+08/03/2000(09:30)-08/08(11:30), all parameters missing - maintenance and 
+calibration
+08/08/2000(12:00)-08/31(23:30), turbidity data deleted - wiper parked on optics
+
+September 2000
+OS
+09/01/2000(00:00)-09/07(12:00), turbidity - wiper parked on optics. Data were 
+removed.
+09/07/2000(12:30)-09/30(23:30), all parameters missing - New deployment holder 
+is installed.  No data collected.
+
+October 2000
+OS
+10/01/2000(00:00)-10/16(18:00), all parameters missing - New deployment
+holder being installed.  No data collected
+10/16/2000(18:30)-10/30(16:00), all parameters missing.  YSI 6600 used.
+Water leakage into internal bulkhead. No data was recovered.
+
+MM
+Logging at MM station began 10/25/2000 (17:00).
+10/25/2000 (17:00)-10/31(23:30), turbidity missing - no probe installed.
+
+November 2000
+OS
+11/01/2000 (00:00)-11/13(14:30), all parameters missing - No logger deployed
+11/13/2000 (15:00)-11/28(14:30), specific conductivity and salinity - average 
+values were abnormally low. Calibration error suspected.  Data were removed.
+11/28/2000 (15:00), all parameters missing - maintenance and calibration
+11/28/2000 (15:30)-11/30(23:30), turbidity - No probe installed.
+
+MM
+11/01/2000 (00:00)-11/07(16:00), turbidity missing - no probe installed.
+11/07/2000 (16:30)-11/30(23:30), all parameters missing - no logger deployed.
+
+December 2000
+OS
+12/01/2000(00:00)-12/13(15:30), turbidity - no probe installed.
+12/13/2000(16:00)-12/19(14:00), all parameters missing - maintenance and 
+calibration
+12/19/2000(14:30)-12/31(23:30), turbidity - no probe installed
+
+MM
+12/01/2000(00:00)-12/01(15:30), all parameters missing - no logger deployed.
+12/01(16:00)-12/13(14:30), turbidity  - no probe installed
+12/13(15:00)-12/19(13:00), all parameters missing - maintenance and calibration
+12/19(13:30)-12/31(23:30), turbidity - no probe installed.
+
+
+
+12. Other Remarks/Notes:
+Channel depth is very shallow at the Tidal Linkage site, so any minor freshwater 
+inputs will result in large variation of salinity, even if depth does not 
+reflect any significant rainfall. Events such as these are noted in metadata. 
+Tidal Linkage also has severe sedimentation problems preventing in the datasonde 
+from being deployed.  This occurred throughout the year and was discontinued 
+from August through the rest of the year.  
+

@@ -1,0 +1,662 @@
+Padilla Bay (PDB) NERR Water Quality Metadata 
+January - December 2000
+Latest update: 19 July 2001
+
+I.	Data Set and Research Descriptors
+
+1.	Principal investigator and contact persons
+Dr. Douglas Bulthuis, Research Coordinator
+Padilla Bay NERR
+10441 Bayview-Edison Road
+Mount Vernon, WA  98273-9668
+Phone: (360) 428-1558
+Email: bulthuis@padillabay.gov
+
+Robin Cottrell, Research Assistant
+Padilla Bay NERR
+10441 Bayview-Edison Road
+Mount Vernon, WA  98273-9668
+Phone: (360) 428-1558
+Email: cottrell@padillabay.gov
+
+2.	Entry verification
+	The data are downloaded from the YSI 6000s or 6600s to an IBM compatible 
+PC.  Graphs of all data are printed using Ecowatch software and are examined for 
+suspect, anomalous, or outlying data.  Files are converted to Macintosh Excel 
+files and edited for transfer to the NERRS CDMO.  Files are merged to contain 
+one full month of data.  Missing data (from maintenance and downloading down 
+time) are inserted into the spreadsheet and are denoted by a period (.).  
+Suspect data are deleted and replaced by periods (.).  After formatting the 
+data, some files are more closely checked for anomalies in DeltaGraph Pro(r).  
+Edited and raw files are archived on a Macintosh hard drive at Padilla Bay NERR.   
+No CDMO Excel 5.0 macros were used.  Robin Cottrell completed this process of 
+entry verification for the 2000 data.  Robin Cottrell and Douglas Bulthuis 
+completed final verification and this metadata documentation.
+
+3.	Research Objectives
+	The Bay View Channel site has been set out to detect and monitor short-
+term variability and long-term changes in Padilla Bay.  The Joe Leary Slough 
+site has been set at the mouth of the slough to measure the effects of tidal 
+"closure" of the tide gates on water in the slough and to detect long-term 
+changes in water quality in the slough associated with implementation of a non 
+point source pollution watershed action plan.  Measurements are taken every 30 
+minutes at both sites unless otherwise noted in data anomalies.
+
+4.	Research methods
+	A YSI 6000 or 6600 were deployed in Joe Leary Slough in a vertical 
+position, 0.25 m above the bottom of the slough (from 1 January to 11 October 
+and at a depth of 1.7 m from December 20-13), in a 4 in. diameter PVC pipe which 
+has holes and slits drilled in it to allow water circulation around the probes.  
+The PVC pipe is attached to a steel pipe that was driven into the sediment.
+
+	During September to December 2000, the lower part of Joe Leary Slough was 
+dredged, including the area where the datasonde was deployed.  In order to 
+prevent damage to the datasonde, the deployment apparatus was removed and no 
+data collected from October 12 to December 19.  After the dredging was completed 
+the area was examined.  The dredging had changed the configuration of the 
+channel so that there was very little flow of water over the spot that the 
+datasonde had been deployed for the last 5 years.  Therefore the deployment site 
+was moved about 6 m away so that the deployment would, once again, be near the 
+center of the flow toward the tide gate tubes.  Because the bottom was dredged 
+out, the area of deployment is now much deeper than it had been.  In order to 
+keep the data comparable with the previous 5 years of data collection, the YSI 
+was deployed at the same height relative to Mean sea Level.  However, because 
+the bottom was dredged out under this area, the new depth of the datasonde is 
+1.7 m above the bottom from December 20 - 31, 2000.
+
+	Some dissolved oxygen data from Joe Leary Slough were anomalous and could 
+be explained if there were poor exchange between the water inside the deployment 
+tube and water outside the deployment tube.  Therefore during four days in 
+October 1998 and 10 days in December 1998, YSI datasondes were deployed inside 
+and outside the deployment tube simultaneously at the same depth.  All data were 
+very similar inside and outside the deployment tube (or fluctuated in parallel 
+indicating differences in calibration) during October and December with the 
+exception of the dissolved oxygen data during October.  During four tidal cycles 
+in October 1998, the dissolved oxygen concentration inside the deployment tube 
+did not increase with increasing salinity as much as dissolved oxygen in the 
+water outside the deployment tube.  (In Joe Leary Slough, salinity values 
+typically fluctuate from 0 to 10, 20 or even 30 PSU with each tidal cycle, with 
+higher oxygen concentrations usually observed in the high salinity water.)  The 
+October dissolved oxygen data could indicate that organic material with a high 
+oxygen demand may have accumulated inside the deployment tube and/or epiphytic 
+and bacterial growth along the openings in the deployment tube may be exerting a 
+high oxygen demand on the water in the tube.  If exchange between the water 
+inside and outside the pipe were slow enough, the material and organisms inside 
+the tube could exert a measurable decrease in dissolved oxygen.  When the same 
+experiment was repeated in December 1998, there was no difference in dissolved 
+oxygen inside and outside the deployment tube.  Therefore, dissolved oxygen data 
+from Joe Leary Slough need to be interpreted with caution because there may be 
+times when the data indicate dissolved oxygen concentrations inside the 
+deployment tube that are different than concentrations in Joe Leary Slough 
+outside the deployment tube. In order to reduce the possibility of such 
+differences occurring, the deployment pipe was replaced so that during 2000, the 
+cutout portion of the deployment pipe around the sonde guard was increased and 
+only two one-inch wide strips of deployment pipe remained around the sensor 
+guard.  This relatively unrestricted flow should reduce the possibility of such 
+differences in dissolved oxygen inside and outside the pipe during 2000.
+
+	A YSI 6000 or 6600 were deployed in Padilla Bay in a tributary of Bayview 
+Channel.  They were deployed using the same design as that in Joe Leary Slough, 
+except that the PVC pipe was attached to two steel pipes.   The depth of the YSI 
+was -1.1 m (depth below MLLW) and about 0.75 m above the bottom along the 
+sloping edge of a small channel draining the surrounding intertidal flats. 
+
+	In all cases, measurements of temperature, specific conductivity, 
+salinity, percent saturation of dissolved oxygen, depth and pH are recorded 
+every half hour.  At the end of each sampling period, the YSI 6000 or 6600 is 
+brought back into the laboratory for downloading, cleaning, and recalibration.   
+
+	All calibrations are conducted according to the protocols in the YSI 6000 
+Operation and Service Manual.  For the conductivity calibration, a conductivity 
+standard of 50 mS/cm was used.  The pH calibration is a 2 point calibration 
+using standard pH buffer solutions with a pH of 7 and 10.  The KCl solution and 
+Teflon membrane on the dissolved oxygen probe are changed prior to each YSI 6000 
+or 6600 deployment and the new oxygen membrane is allowed to soak overnight in 
+water saturated air before calibration.
+	
+5.	Site location and character
+	General:  Padilla Bay (48° 30' N; 122° 30' W) is a shallow embayment in 
+northern Puget Sound.  The tide flats are dominated by the eelgrass Zostera 
+marina, which covers approximately 3,000 ha.  Zostera japonica, a recent invader 
+to the region, now covers about 350 ha of the bay.  Tides are mixed semi-diurnal 
+with a mean range of 1.55 m.  Salinity varies from about 15 to 30 PSU.
+
+	Padilla Bay is an "orphaned" estuary in that the Skagit River no longer 
+empties directly into it.  Most of the land in the 9300 ha Padilla Bay watershed 
+is agricultural, and is drained by four sloughs which empty into the bay.  The 
+salinity in Padilla Bay reflects both the sloughs that flow into the bay and the 
+greater Puget Sound-Georgia Basin estuary in which Padilla Bay is located.  
+Major freshwater flows into this area of the Puget Sound-Georgia Basin estuary 
+come from the Fraser and Nooksack Rivers to the north and from the Skagit 
+River to the south.
+
+	Joe Leary Slough Site  (48° 31' 05.3" N; 122° 28' 22.8" W) Joe Leary 
+Slough drains land that is predominantly annual crop agriculture and pasture 
+land with some low-density housing.  The slough is characterized by high fecal 
+and nutrient inputs, high turbidity, and low dissolved oxygen concentrations.  
+During the summer, there is low flow and the depth ranges from 0.5-1.5 m.  
+During winter flooding, the slough can reach a depth of 4 m.   There is a dam at 
+the mouth of the slough with twelve 4 ft. diameter outfall pipes that have one-
+way hinged tide gates.   Upstream water flows out of Joe Leary Slough when water 
+height in Padilla Bay is lower than water height in Joe Leary Slough (i.e. 
+ebbing tide and low water).  Some saline water from Padilla Bay seeps through 
+the tide gates during high water.  The bottom of the slough is composed of very 
+soft sediment, which is periodically dredged.  A YSI 6000 (or 6600) is deployed 
+on the freshwater side of the tide gates.  The depth of the datasonde was about 
+0.25 m above the bottom for the last five years and from January 1 through 
+October 11, 2000.  The depth was changed to 1.7 m above the bottom from December 
+20 -31, 2000 (see Research Methods above).  The latitude/longitude were measured 
+with a Trimble GeoExplorer II and differentially corrected with post processing 
+providing a manufacturer's stated accuracy of ± 5m.
+
+	Bayview Channel Site  (48° 29' 46.6" N; 122° 30' 01.8" W) Bayview Channel, 
+a major Padilla Bay tributary/distributary, floods and drains intertidal flats 
+including eelgrass beds, mats of macroalgae, and flats without macro-vegetation.  
+The YSI 6000 (or 6600) is located in a tributary channel to Bayview Channel.  
+The tributary drains predominately eelgrass (Zostera marina and Z. Japonica) 
+covered intertidal flats.  Bottom sediments beneath the YSI 6000 are fine silt 
+and clay overlying sand.   The YSI 6000 is deployed in a black PVC pipe that is 
+attached to two steel pipes set in the sediment.  When deployed, the datasonde 
+is located about 0.75 m above the bottom Pollutants entering the bay include 
+general non-point source, agricultural non-point source, and fecal coliform 
+bacteria from agriculture, failing septic tanks and wildlife.  The 
+latitude/longitude were measured with a Trimble GeoExplorer II and ifferentially 
+corrected with post processing providing a manufacturer's stated accuracy of ± 
+5m.
+
+6.	Data collection period
+	Data collection was continuous from January 1 to December 31 at the Bay 
+View Channel site and from January 1 to October 11 and from December 11 to 31 at 
+the Joe Leary Site except for times of downloading, cleaning and recalibration 
+as noted in the missing data section.  No data collection was attempted in Joe 
+Leary Slough from October 12 to December 19 because of dredging of the slough in 
+the area where the sonde is deployed (see Research Methods, above).
+	 
+	Deployment and retrieval times at the Joe Leary Slough site and the Bay 
+View Channel site are listed below.  The times indicate the first and last 
+measurements made with each deployment.
+	
+Joe Leary Slough (JL)
+
+Deployment Date/Time		Retrieval Date/Time
+
+(MM/DD/YY)	(HH:MM:SS)		(MM/DD/YY)	(HH:MM:SS)
+01/06/00	16:30:00		02/01/00	15:00:00
+02/01/00	16:00:00		02/29/00	16:00:00
+02/29/00	17:00:00		03/14/00	13:30:00
+03/14/00	14:00:00		03/29/00	13:00:00	
+03/29/00	14:00:00		04/19/00	13:30:00
+04/19/00	14:00:00		05/04/00	09:30:00
+05/04/00	10:30:00		05/23/00	14:30:00
+05/23/00	15:00:00		06/06/00	12:00:00
+06/06/00	13:00:00		06/20/00	14:00:00
+06/20/00	15:00:00		07/05/00	12:30:00
+07/05/00	14:00:00		07/19/00	11:00:00
+07/19/00	11:30:00		07/25/00	14:00:00
+07/25/00	14:30:00		08/08/00	11:30:00
+08/08/00	12:00:00		08/22/00	14:30:00
+08/22/00	15:00:00		09/11/00	10:00:00
+09/11/00	11:00:00		09/27/00	14:30:00
+09/27/00	15:00:00		10/11/00	14:00:00
+12/20/00	15:30:00		01/16/01	13:00:00
+
+Bay View Channel (BY)
+
+Deployment Date/Time		Retrieval Date/Time
+
+(MM/DD/YY)	(HH:MM:SS)		(MM/DD/YY)(HH:MM:SS)
+12/23/99	16:00:00		02/03/00	13:30:00
+02/03/00	14:30:00		03/07/00	14:00:00
+03/07/00	15:00:00		04/11/00	09:00:00
+04/11/00	10:00:00		05/16/00	14:00:00
+05/16/00	14:30:00		06/23/00	08:00:00
+06/23/00	09:00:00		08/18/00	06:00:00
+08/18/00	06:30:00		09/07/00	14:30:00
+09/07/00	15:00:00		10/11/00	15:00:00
+10/11/00	15:30:00		11/16/00	14:00:00
+11/16/00	14:30:00		12/14/00	09:30:00
+12/14/00	10:00:00		01/23/01	14:00:00
+
+	
+7. Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data. The PI retains the right to be fully credited for having collected 
+and processed the data. Following academic courtesy standards, the PI and NERR 
+site where the data were collected will be contacted and fully acknowledged in 
+any subsequent publications in which any part of the data are used. Manuscripts 
+resulting from the NOAA/OCRM supported research that are produced for ublication 
+in open literature, including refereed scientific journals, will acknowledge 
+that the research was conducted under an award from the Estuarine Reserves 
+Division, Office of Ocean and Coastal Resource Management, National Ocean 
+Service, National Oceanic and Atmospheric Administration. The data set enclosed 
+within this package/transmission is only as good as the quality assurance and 
+quality control procedures outlined by the enclosed metadata reporting 
+statement. The user bears all responsibility for its subsequent use/misuse in 
+any further analyses or comparisons. The Federal government does not assume 
+liability to the Recipient or third persons, nor will the Federal government 
+reimburse or indemnify the Recipient for its liability due to any losses 
+resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://inlet.geol.sc.edu/cdmohome.html. Data are available in text tab-delimited 
+format, Microsoft Excel spreadsheet format and comma-delimited format.
+
+8.	Associated researchers and projects
+	None
+
+II.	Physical Structure Descriptors
+
+9.	Variable sequence, range of measurements, units, resolution, accuracy:
+
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+*During 1997 records were kept of the atmospheric pressure during calibration of 
+depth and the apparent depth after each two to four week deployment.  The data 
+indicated that depth readings could read as much as 0.28 m above or below true 
+depth.  Therefore, although the sensor may accurately read ± 0.001 m, changes in 
+atmospheric pressure when deployed indicate depth may be ± 0.3 m.  
+
+10.	Coded variable code definitions
+JL - Joe Leary Slough Site; BY - Bayview Channel Site.
+
+11.	Data anomalies
+
+January 
+JL:  
+No data for all parameters until 6 Jan at 1630 because the batteries failed 
+during deployment. 
+Dissolved oxygen data from 0400 on 23 Jan through the end of the month were low; 
+cause is unknown but may be related to debris found in the sonde guard. There 
+was also evidence of beaver activity at this site. Data were retained. 
+	
+BY:  
+There was no pH probe installed during January. 
+The DO membrane was damaged after 2330 on 17 Jan, as indicated by an abrupt drop 
+in the readings eventually falling to negative values, so all DO data after that 
+date have been deleted. During the following periods turbidity readings were 
+high and erratic so the data were deleted.
+			
+Date		Time
+01/02/2000	23:30:00
+01/03/2000	0:00:00 - 1:00:00
+01/03/2000	2:30:00 - 4:00:00
+01/03/2000	5:30:00, 7:30:00
+01/06/2000	6:30:00
+01/11/2000	2:00:00, 11:30:00, 21:30:00
+01/13/2000	13:00:00
+01/16/2000	10:00:00, 15:00:00
+01/20/2000	20:30:00
+01/29/2000	8:00:00 - 8:30:00
+		
+
+February 
+
+JL:  
+Dissolved oxygen data from 1 Feb at 0000 through 1500 were low; cause is 
+unknown but may be related to debris found in the sensor guard. There was 
+evidence of beaver activity at this site. Data were retained.
+There are no data for all parameters on 29 Feb at 1630 due to a 40 second delay 
+in the new 6600 software when logging samples. The last sample was cut off when 
+downloading because 16:30 was specified instead of 16:30:40.
+During the following periods turbidity values were high and erratic so the data 
+were deleted:
+
+02/12/2000	16:00:00
+02/17/2000	22:00:00 - 23:30:00
+02/18/2000	0:00:00 - 0:30:00, 21:00:00 - 23:30:00	
+02/19/2000	0:00:00 - 1:00:00, 3:00:00
+02/20/2000	2:00:00 - 3:00:00, 5:00:00
+02/21/2000	16:00:00
+02/27/2000	15:30:00 - 16:00:00, 19:00:00 - 22:30:00
+02/28/2000	16:30:00, 17:30:00, 18:30:00 - 23:30:00
+02/29/2000	0:00:00 - 1:00:00, 2:30:00 - 6:00:00
+02/29/2000	10:00:00 - 11:00:00, 13:00:00
+
+BY:  
+There are no pH data from 0000 on 1 Feb through 1330 on 3 Feb because there was 
+no pH probe.  
+Dissolved oxygen data from 1 Feb, 0000 to 3 Feb, 1330 and 21 Feb, 1800 to 29 
+Feb, 2330 has been deleted due to damaged DO membranes. 
+Erratic high turbidity values on 9 Feb at 0900 and 1230 and 29 Feb at 1030 
+were removed.
+
+March 
+
+JL: 
+During the following periods turbidity values were high and erratic so the data 
+were deleted. 
+
+03/12/2000	20:30:00
+03/13/2000	21:30:00, 22:00:00, 23:00:00
+03/14/2000	1:00:00
+03/15/2000	19:00:00, 20:00:00
+03/16/2000	12:30:00
+03/21/2000	17:30:00
+03/22/2000	12:30:00
+03/27/2000	18:00:00
+
+BY:  
+Dissolved oxygen data from 1 March, 0000 to 7 March, 1400 have been deleted due 
+to a damaged DO membrane. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted:
+
+03/7/2000	8:30:00
+03/16/2000	10:30:00, 12:30:00, 14:30:00
+03/27/2000	23:00:00
+
+April 
+
+JL:  
+Dissolved oxygen data from 12 April, 2100 through 2200 have been deleted due to 
+negative values. 
+Dissolved oxygen data from 13 April, 2300 to 19 April, 1330 have been deleted 
+due to anomalously low readings (including negative numbers) at the end of 
+logger deployment. 
+Turbidity data on 7 April at 1000 and from 12 April, 0630 to 19 April, 1330 has 
+been deleted due to high and erratic readings, the latter probably due to debris 
+inside the sensor guard.
+
+BY: 
+There are no data for all parameters on 11 April at 0930 due to a 40 second 
+delay in the 6600 software when logging samples. The last sample was cut off 
+when downloading because 09:30 was specified instead of 09:30:40. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted.
+
+04/10/2000	13:00:00
+04/15/2000	 6:00:00
+04/18/2000	16:30:00
+04/19/2000	15:30:00
+04/26/2000	7:30:00, 9:30:00
+04/27/2000	3:30:00, 7:30:00, 13:00:00
+04/29/2000	23:30:00
+04/30/2000	20:00:00
+
+May 
+
+JL:  
+There are no data for all parameters on 4 May at 1000 due to a 40 second delay 
+in the 6600 software when logging samples. The last sample was cut off when 
+downloading because 10:00 was specified instead of 10:00:40. 
+On 16 May at 2200 there was dip in values for temp, pH, salinity and D.O. and a 
+small peak in turbidity, cause unknown. Data were retained. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted, this was probably due to debris caught in the sensor guard:
+
+05/26/00    19:00:00, 20:30:00
+05/27/00    13:00:00
+05/28/00	0:30:00, 13:00:00, 13:30:00, 15:30:00, 20:30:00, 21:30:00
+05/29/00	2:00:00, 4:00:00, 7:30:00, 9:00:00, 10:30:00 to 11:30:00, 
+13:30:00, 19:30:00, 20:30:00
+05/30/00    1:30:00, 2:00:00, 4:30:00, 5:00:00, 7:00:00
+05/31/00	13:30:00, 14:30:00, 15:30:00, 18:00:00 to 19:30:00, 
+21:00:00 to 23:30:00
+
+DO oxygen dips down to 22.1% and 2.3 mg/L on 05/17/00 13:30:00. Cause unknown. 
+Data were retained. 
+
+BY: 	Salinity values took an unusual dip beginning at 1230 on 25 May and 
+continuing low until 530 on 26 May, cause unknown. Data retained. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted, cause unknown:
+
+05/01/00	20:00:00, 21:30:00
+05/02/00	0:30:00, 2:00:00, 4:30:00, 7:00:00, 10:30:00, 18:30:00
+05/04/00	5:30:00
+05/06/00	14:00:00, 16:00:00, 17:00:00 to 18:00:00, 19:30:00
+05/08/00	7:00:00
+05/10/00	22:00:00, 23:00:00
+05/11/00	10:00:00
+05/12/00	0:30:00, 2:30:00 to 4:00:00, 17:30:00
+05/14/00	17:00:00
+05/15/00	6:00:00
+05/16/00	11:00:00
+05/24/00	14:30:00, 15:00:00
+
+
+June 
+
+JL:  
+There is no data for all parameters on 6 June at 1230 and 20 June at 1430 due to 
+a 40 second delay in the 6600 software when logging samples. The last 
+sample was cut off when downloaded because 12:30 (or 14:30) was the time 
+specified instead of 12:30:40 (or 14:30:40). 
+Dissolved oxygen values were deleted from 20 June at 1500 through the end of the 
+month because the D.O. membrane was damaged soon after deployment. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted:
+
+06/01/00	8:00:00, 8:30:00, 17:30:00
+06/02/00	4:00:00
+06/05/00	19:00:00
+06/06/00	1:00:00, 3:00:00
+06/13/00	1:00:00
+06/24/00	4:30:00
+
+BY: 	
+Dissolved oxygen values were deleted from 29 June at 1630 to 2330 on 30 June 
+because of an abrupt drop to negative values. Damage to the D.O. membrane is 
+suspected but was not apparent at retrieval or during the calibration check. 
+Turbidity values that were high and erratic were deleted for 4 June at 1200, 7 
+June at 1500, and 19 June at 1030.
+
+July 
+
+JL:    
+Dissolved oxygen values were deleted from 1 July at 0000 through 5 July at 1230 
+because the D.O. membrane was damaged. 
+There are no data for all parameters on 5 July at 1300 due to a 40 second delay 
+in the 6600 software when logging samples. The last sample was cut off when 
+downloaded because 13:00 was the time specified instead of 13:00:40. 
+There were no data for all parameters at 1330 on 5 July because of exchange of 
+datasondes. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted, this was probably due to debris in the sensor guard:
+
+07/04/00	23:00:00
+07/15/00	19:30:00
+07/16/00	7:00:00, 7:30:00	
+07/17/00	1:30:00. 13:30:00, 15:00:00, 20:30:00, 22:00:00	
+07/18/00	9:30:00
+07/19/00	0:00:00, 3:30:00, 5:30:00, 6:00:00, 7:00:00, 8:30:00,9:00:00
+
+BY: 
+All dissolved oxygen data were deleted because of suspected damage to the 
+D.O. membrane. Damage was not evident visually or at calibration check but 
+readings were abnormally low for this site during July and early in this 
+deployment negative values were recorded (see June notes). 
+Turbidity values that were high and erratic were deleted for July dates and 
+times as follows: 7 July at 630; 13 July at 330; 23 July at 800 and 1030; 29 
+July at 2130; 30 July at 0530. 
+
+August 
+
+JL:   
+One high (over 1000 NTU) turbidity value at 1230 on 22 August was deleted. 
+Dissolved oxygen should be interpreted with caution from 1500 on 22 August 
+through the end of the month, because later in this deployment (in September) 
+there was obvious damage to the D.O. membrane. 
+
+BY:   
+Dissolved oxygen data were deleted from 1 August at 0000 to 18 August at 
+0600 because of suspected damage to the D.O. membrane. (See July notes). 
+Turbidity values that were high and erratic were deleted for August dates and 
+times as follows: 4 August at 1230; 5 August at 1900; 6 August at 1700 and 
+2000; 19 August at 0100 and 1730; 29 August at 0430 and 2100.
+
+September 
+
+JL:    
+Dissolved oxygen values were deleted from 2 September at 0430 through 11 
+September at 1000 due to a damaged D.O. membrane. 
+There are no data for all parameters on 11 September at 1030 due to a 40 second 
+delay in the 6600 software when logging samples. The last sample was cut off 
+when downloaded because 10:30 was the time specified instead of 10:30:40.  
+Turbidity values that were high and erratic were deleted for 14 September at 
+0600 and 16 September at 1600. 
+One salinity value on 12 September at 0700 was deleted because it was erratic 
+and high, cause unknown. 
+Dredging in Joe Leary slough was first noticed on Monday, 25 September but may 
+have been started earlier on the weekend. Dredging began at the Bay View - 
+Edison Road bridge and progressed westward toward the tide gates where the 
+datasonde was deployed.  Turbidity peaks began to increase during the low tides 
+of 23 September. All data from this point on should be interpreted with caution 
+due to the dredging that went on for many weeks.  
+During the following periods depth values were negative (largest was -0.09m) so 
+they were deleted. There was no evidence that the probes had been exposed to the 
+air:
+
+09/20/00	6:00:00, 6:30:00
+09/21/00	5:30:00 - 8:30:00	
+09/22/00	7:00:00 - 9:00:00
+09/23/00	8:00:00 - 10:00:00
+09/24/00	9:00:00 - 11:00:00
+09/26/00	12:00:00
+
+BY:   
+Salinity values took an unusual dip beginning at 1800 on 26 September and 
+remained low until 0500 on 27 September, cause unknown. Data were retained. 
+Dissolved oxygen data were deleted from 7 September at 1500 through the end of 
+the month because of damage to the D.O. membrane. 
+During the following periods turbidity values were high and erratic so the data 
+were deleted, cause unknown.
+
+09/01/2000	20:30:00
+09/02/2000	14:30:00, 17:00:00, 17:30:00
+09/06/2000	7:00:00, 14:00:00, 14:30:00, 23:30:00
+09/07/2000	11:00:00
+09/09/2000	19:30:00
+
+October 
+
+JL:   
+Joe Leary slough was being dredged during this abbreviated deployment and all 
+parameters reflect this altered environment. The sonde was pulled from this 
+site on 11 October at 1400 to keep it from being damaged. 
+No data for all parameters from that time until the site was reinstalled in 
+December.
+
+BY:   
+Dissolved oxygen data from 1 October, 0000 to 11 October at 1500 has been 
+deleted due to damage to the DO membrane. 
+Turbidity values that were high and erratic were deleted for October dates and 
+times as follows: 7 October at 2000; 27 October at 0230.
+
+November 
+
+JL:   
+No data for all parameters. There was no datalogger deployed because the 
+channel was being dredged.
+
+BY:   
+No data anomalies.
+
+December 
+
+JL:    
+The Joe Leary slough deployment site was relocated after the slough was dredged. 
+At the new site the sonde is positioned about 1.7 meters above the bottom of the 
+slough to keep it at approximately the same level, in relationship to the tide 
+gates, as it was before dredging.  During this deployment the sonde was about 
+0.15 m above the planned depth of 1.7 m because the security chain was too 
+short. The data from Joe Leary Slough beginning in December 2000 reflects this 
+change in the depth configuration at the deployment site.  In particular, high 
+salinity water seeped through the tide gates each tidal cycle (see Section 5 
+above) and filled the bottom of the slough up to the height of the datasonde 
+from January thorough October 2000. Starting in December, this water flowed into 
+the deeper portions of the slough that had been dredged.  Thus, from December 
+2000, the salinity at the datasonde is lower than the rest of the year because 
+the high salinity water remained in the newly formed deeper parts of the slough 
+and did not mix into the water layers where the sonde was located. Deployment 
+began 12/20 1530 due to dredging.
+
+BY:   
+The data for dissolved oxygen and salinity from 1600 on 24 December through the 
+end of the month were deleted. The D.O. membrane was damaged (probably by the 
+crustacean found living in the sensor guard) and something had packed debris 
+into the salinity probe orifice, perhaps living there, causing erratically low 
+readings. 
+Salinity data from 14 December at 1000 up to deleted data should be interpreted 
+with caution even though it looks reasonable.  
+Turbidity values that were high and erratic, probably due to debris or animals 
+in the sensor guard, were deleted for December dates and times as follows: 2 
+December at 1900; 13 December at 0500; 22 December at 0030.
+
+
+12.	Missing data
+Missing data are denoted by a period in the data set. Data are missing due to 
+equipment failure where no probes deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems. For more details on deleted data, see 
+the Anomalous Data Section (11). To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+13. 	Post deployment information
+End of Deployment Post-calibration Readings in Standard Solutions:
+
+Site Date Spec.Cond. Std:50(mS) D.O.(Air Sat.)Std:100% TurbidityStd:100NTU 
+pHStd: 7
+
+BY 03 Feb 2000        49.0	  Damaged			 100.8		   N/A
+BY 07 March 2000	   50.17      Damaged                100.7               6.99
+BY 11 April 2000     49.97      Damaged(after deployment)97.7              7.59
+BY 16 May 2000       49.7       99.3                    96.3               7.04
+BY 23 June 2000      50.37      100.1                   97.8               7.12
+BY 18 August 2000    48.05      94 (damaged?)          101.4               7.14
+BY 07 September 2000 49.7       99.3                    96.5               7.03
+BY 11 October 2000   48.95      Damaged                 97.5               6.94
+BY 16 November 2000  50.22      101.8                  115.3               7.0
+BY 23 January 2000   139-43(unstable)Damaged           97.2                7.12
+
+JL 01 February 2000  50.54      102.4                  102.2               7.01
+JL 29 February 2000  49.07       99.7                   96.3               7.08
+JL 14 March 2000     48.97      104.2                   99.7               7.08
+JL 29 March 2000     51.14      101.5                   99.7               7.11
+JL 19 April 2000     50.63       93.9                   99.0               6.98
+JL 04 May 2000       50.01       99.6                   99.3               7.03
+JL 23 May 2000       49.15       92.2                  103.4               7.01
+JL 06 June 2000      50.22      101.3                  102.7               7.27
+JL 20 June 2000      49.17       97.6                  100.7               7.03
+JL 05 July 2000      50.21      Damaged                101.0               7.11
+JL 19 July 2000      49.45       99.5                   97.1               6.95
+JL 25 July 2000      50.47       98.0                  101.5               7.02
+JL 08 August 2000    49.91       30.2                   99.8               7.21
+JL 22 August 2000    49.62       96.4                   98.5               7.0
+JL 11 September 2000 48.43      Damaged                101.9               6.83
+JL 27 September 2000  51.0        95.8                  100.6               7.14
+JL 11 October 2000   49.02       99.2                   94.6               7.05
+JL 16 January 2001   50.17      101.5                  100.5               6.9
+
+14.	Other Remarks/notes
+
+None.

@@ -1,0 +1,790 @@
+Chesapeake Bay Virginia (CBV) NERR Water Quality Metadata
+(January - December 1997)
+Latest update: November 1, 2002
+
+I.  Data Set and Research Descriptors
+
+1.  Principal investigators and contact persons 
+
+Dr. Maurice Lynch, Manager 				
+  E-mail: mlynch@vims.edu;  (804) 684-7151	Virginia Institute of Marine Science
+						College of William and Mary
+Dr. William Reay, Research Coordinator		PO Box 1346
+E-mail: wreay@vims.edu; (804) 684-7119		Gloucester Point, VA 23062
+						Phone:  (804) 684-7135
+
+2. Entry verification
+The data were uploaded to the PC from the YSI 6000 data loggers and reviewed using 
+PC6000 software from YSI.  Graphs were produced and examined using the PC6000 software 
+then printed out and filed in order to aid in reviewing data to correlate any anomalous and 
+outlying data.  Next, raw data files were uploaded in .dat format and in comma delimited 
+format.  The comma delimited files were imported into Microsoft Excel 5.0 as .csv files and 
+then saved in .xls format.  Files were then edited to remove extraneous information (headers, 
+footers, spaces, and pre- and post-deployment data).  Monthly templates were used to form 
+complete sets of monthly data sets.  Macros supplied by NERRS/CDMO were used to help 
+with editing, formatting and identifying outliers in the database.  Suspect data (as in data 
+believed to result from a damaged or biofouled probe) were evaluated according to Appendix 
+B of the CDMO manual, edited and documented. Missing data due to YSI maintenance (down 
+time) was inserted into the spreadsheet and was denoted by periods (.).  Data that was not 
+within calibration range of the instrument were evaluated and removed from the record and 
+denoted by periods (.).  Data that fall outside the normal range of water quality for a site was 
+investigated for validity based on QC checks, weather data, field observations, instrument 
+diagnostics and PC6000 graphs.  Edited and raw data files were copied and archived in the 
+CBNERRVA file server and uploaded to the CDMO FTP site in text format.  All Taskinas 
+Creek and Goodwin Islands files from 1997 have been verified using the latest update of the 
+Microsoft Excel 5.0 macro programs which identified outliers (values that fall outside of the 
+calibration – see section II.8 of this document) and other erroneous data.  Outliers were 
+determined according to the instruments and manufacturers manual.  Bill Seufzer collected 
+and edited data from 01/97-06/97, during which time Dr. Jeff Shields was the RC for the CBV NERR. 
+In July 1997, a new RC was hired, Dr. William Reay, and a new SWMP coordinator, Tammy Dorman, who
+collected and edited data from 07/97- 12/97.  Data was processed through the latest update of 
+the CDMO macro and conducted final editing of the data.  Both W. Reay and T. Dorman cleaned 
+up the data.  Following final editing, Tammy Dorman uploaded the database to the CBNERRVA server
+and to CDMO.  
+
+3. Research Objectives
+Taskinas Creek (TC) Component:
+The Taskinas Creek watershed is representative of an inner coastal plain rural watershed 
+within the southern Chesapeake Bay system.  This watershed is dominated by forested and 
+agricultural land uses with an increasing urban land use component.  The drainage basin is 
+suited for investigating hydrologic and nonpoint source water quality issues associated with 
+changing land use patterns; these issues are of prime importance to the U.S. EPA Chesapeake 
+Bay Program.  Continuously monitored physical water quality parameters (dissolved oxygen, 
+pH, specific conductance, turbidity, and temperature) provide long-term measurements which 
+can be supplemented with shorter-term monitoring and process oriented studies.  
+Measurements were taken every 15 minutes at the Taskinas Creek site and the YSI 
+dataloggers were maintained, downloaded, cleaned, and calibrated at two-week intervals.
+
+Goodwin Islands (GI) Component: 
+The Goodwin Islands represent marsh islands surrounded by intertidal flats, submerged aquatic 
+vegetation (SAV) beds, oyster reefs, and shallow open estuarine waters.  Because minimal 
+human activities occur within upland portions, the Goodwin Islands are suitable as a reference 
+or control site for nonpoint source water quality issues.  Furthermore, due to extensive 
+wetlands, intertidal, and submerged habitats, the Goodwin Islands are used extensively for 
+SAV, material flux, and trophic interaction research activities.  Measurements were taken 
+every 15 minutes at the Goodwin Islands site and the YSI dataloggers were maintained, 
+downloaded, cleaned, and calibrated at two-week intervals.
+
+4.  Research methods 
+Taskinas Creek (TC) Component:
+The Chesapeake Bay NERRS of Virginia maintains a long-term water quality-monitoring 
+program, which consists of two stations.  The Taskinas Creek station is located in the 
+transitional zone of the York River tributary in the York River State Park.  A simple 
+deployment was arranged with the State Park in September 1995, where the secured unit hung 
+at a fixed depth (0.5 m above the creek bed) from an overhanging tree approximately six 
+meters upstream from the parks canoe landing.  In September 1997, the deployment was 
+modified so that the datalogger remained secure at all times within a 4-inch PVC housing 0.5 
+m above the bottom.  Three wood pilings were driven into the sediment in an equilateral 
+triangle arrangement and the PVC pipe bolted to one piling.  Specific conductivity, pH, 
+depth, DO saturation, temperature, and turbidity are recorded at 15-minute intervals.  Salinity 
+and dissolved oxygen are determined from temperature and specific conductivity readings.  At 
+approximately two-week intervals, the data logger is returned to the lab for downloading, 
+cleaning, membrane replacement and recalibration.  Maintenance intervals are determined 
+according to the amount of biofouling that occurs and to accommodate battery life.  A 
+second YSI 6000 datalogger is deployed following retrieval of the original YSI datasonde in 
+order to maintain a continuous record.  All procedures are in accordance with the YSI 
+operating manual methods, sections 3 and 7.  Standards for pH, and conductivity were 
+purchased from YSI.  Turbidity standards were purchased from Advanced Polymer Systems.  
+Beginning in August/September 1997, water samples were taken at the time of datalogger 
+deployment and retrieval.  The samples were then taken back to the lab and analyzed for the 
+following components:  dissolved oxygen, pH and salinity while temperature was taken in the 
+field.  These values were compared to the datalogger readings at the time the water sample 
+was taken to identify any discrepancies in the data as well as the sonde's performance. Data 
+are reviewed and edited according to the YSI Data Review and Editing Protocol in Appendix 
+B of the CDMO manual.
+
+Goodwin Islands (GI) Component:
+The Chesapeake Bay NERRS of Virginia maintains a second long-term water quality-
+monitoring program at Goodwin Islands, located at the mouth of the York River.  This 
+station is located on the southeastern side of the main island in a shallow embayment, 
+approximately 400 meters from shore.  A stable and permanent structure was built in October 
+1997 where 4-inch PVC pipe is housed inside of a commercially available galvanized steel 
+communications tower with the datalogger 0.5 m from the bottom.  Specific conductivity, 
+pH, depth, DO saturation, temperature, and turbidity are recorded at 15-minute intervals.  
+Salinity and dissolved oxygen are determined from temperature and specific conductivity 
+readings.  At approximately two-week intervals, the datalogger is returned to the lab for 
+downloading, cleaning, membrane replacement and recalibration.  Maintenance intervals are 
+determined according to the amount of biofouling that occurs and to accommodate battery 
+life.  A second YSI 6000 datalogger is deployed following retrieval of the original YSI 
+datasonde in order to maintain a continuous record.  All procedures are in accordance with 
+the YSI operating manual methods, sections 3 and 7.  Standards for pH, and conductivity 
+were purchased from YSI. Turbidity standards were purchased from Advanced Polymer 
+Systems.  Beginning in August/September 1997, water samples were taken at the time of 
+datalogger deployment and retrieval.  The samples were then taken back to the lab and 
+analyzed for the following components:  dissolved oxygen, pH and salinity while temperature 
+was taken in the field.  These values were compared to the datalogger readings at the time the 
+water sample was taken to identify any discrepancies in the data as well as the sonde's 
+performance. Data are reviewed and edited according to the YSI Data Review and Editing 
+Protocol in Appendix B of the CDMO manual.
+
+5.  Site location and character
+Taskinas Creek (TC) Component: (37 deg 24' 54.04617"; 76 deg 42' 51.75733")
+The Taskinas Creek Component of the CBNERR-VA is on the south shore of the York River 
+in James City County near Williamsburg.  The site is approximately 44 kilometers upstream 
+from the river's mouth and 15 kilometers downstream from West Point.  Headwaters of 
+Taskinas Creek are near the town of Croaker, which is located 10 kilometers north of 
+Williamsburg.  Fed by numerous perennial streams, Taskinas Creek is approximately 3 
+kilometers in length and flows in a northeasterly direction eventually emptying into the 
+York River.  Tidal range within the creek is 0.0-1.3 m.   The sampling station is located on 
+the second bend from the mouth of Taskinas Creek within the York River State Park, about 
+6 meters upstream from the park’s canoe landing.  The sediment type at this station consists 
+of approximately 42% fine sand, 30% clay, and 28% silt.  The non-tidal portion contains 
+feeder streams, which drain oak-hickory forests, maple-gum-oak-ash swamps and freshwater 
+marshes.  The marshes near the creek mouth are brackish with a salinity range from 3-13 
+ppt.  The shoreline is moderately low with fringing marsh and tidal flats.  Taskinas Creek 
+mainly drains the undeveloped York River State Park watershed, however the watershed is 
+lightly impacted above the State Park by residential development and selective hardwood 
+logging.  Wildlife populations have been shown to influence microbiological water quality 
+within the watershed.
+ 
+Goodwin Islands (GI) Component: (37 deg 13' 02.65093"; 76 deg 23' 32.75799")
+
+The Goodwin Islands component of the CBNERR-VA is on the mouth of the York River at 
+the northeastern tip of York County.  This site is approximately 22 kilometers downstream 
+from the Virginia Institute of Marine Science. Circulation patterns at the Goodwin Islands are 
+influenced by York River discharge and the wind patterns of the Chesapeake Bay.  The 
+sampling station is located in a shallow embayment on the southeastern side of the main 
+island amongst submerged aquatic vegetation beds dominated by Zostera marina.  The 
+Goodwin Islands represents a pristine, well-flushed polyhaline system with salinity ranges 
+from 13-24 ppt and tidal ranges from 0.5-1.0 m.  Spartina alterniflora dominates the low 
+marsh, which covers 70% of the emergent marsh area.  Estuarine scrub/shrub vegetation 
+dominates the forested ridges, with the dominant shrub Myrica cerifera (wax myrtle).  The 
+Goodwin Islands are undeveloped and only accessible by boat.  This site is used extensively by 
+VIMS for SAV research. 
+
+6.  Data collection period:
+Ongoing sampling at Taskinas Creek (TC) began September 1995.  Ongoing sampling at 
+Goodwin Islands (GI) began mid-October 1997.  
+
+Sonde Deployments at Taskinas Creek:		Deployments at Goodwin Islands:
+
+First Reading:	Last Reading:			First Reading:	Last Reading:
+12/20/96 12:45	01/14/97 16:30			10/21/97 13:15	11/04/97 13:15
+01/14/97 16:45	02/11/97 15:30			11/04/97 13:30	11/18/97 09:00
+02/11/97 15:45	03/10/97 14:00			11/18/97 09:30	12/04/97 13:30
+03/10/97 14:30	04/08/97 14:45			12/04/97 13:45	12/18/97 10:15
+04/08/97 15:00	04/30/97 16:15			12/18/97 10:30	01/06/98 10:30
+04/30/97 16:30	05/30/97 16:30		
+06/02/97 11:15	06/25/97 14:45		
+06/25/97 15:00	07/16/97 14:45		
+07/23/97 14:30	08/06/97 12:45		
+08/07/97 14:15	08/21/97 12:00		
+08/21/97 12:15	09/09/97 10:45		
+09/09/97 11:00	09/23/97 10:30		
+09/23/97 10:45	10/06/97 15:15		
+10/06/97 16:30	10/23/97 11:15		
+10/23/97 11:30	11/11/97 15:45		
+11/11/97 16:00	11/21/97 10:00		
+11/21/97 10:15	12/03/97 12:45		
+12/03/97 13:15	12/18/97 12:15		
+12/18/97 12:30	01/07/98 12:00		
+
+January 1998 data are not included in this metadata.  
+
+7.  Associated researchers and projects:
+
+A volunteer water quality monitoring program sponsored by the Alliance for the Chesapeake 
+Bay has been ongoing at Taskinas Creek for several years, beginning January 10, 1990.  This project samples some 
+overlapping parameters including dissolved oxygen and salinity on a two-week basis. 
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units resolution and accuracy (for YSI):
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/- 0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/- 0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/- 2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+
+9. Coded variable indicator and variable code definitions 
+
+Site definitions: TC = Taskinas Creek, GI= Goodwin Islands 
+File definitions: YSI deployment site/month/year (ex.: TC0997 = Taskinas Creek data from 
+September 1997). 
+
+10.  Data anomalies (suspect data):
+Frequent data anomalies were recorded in depth levels for several months potentially due to 
+low-pressure weather fronts.  This data remained in the database.  According to the CDMO 
+Operations Manual Version 3.0, depth measurements taken with the non-vented level probe 
+can be influenced by up to 0.39 m (1.3 ft) during some low-pressure hurricane events.  
+Specific dates and time ranges of potentially influenced data are listed with each respective 
+month.
+ 
+January 1997:
+TC:
+No anomalous data.
+
+February 1997:
+TC:
+02/19/97 14:30:00 to 02/20/97 18:30:00	DO values plummet to zero but recover; pre- 
+and post- okay
+02/26/97 06:45:00 to 08:00:00	DO values plummet toward zero but recover; pre- and 
+post- okay
+02/28/97 06:45:00 to 23:45:00	DO values plummet to zero but recover; pre- and 
+post- okay
+
+March 1997:
+TC:
+03/01/97 00:00:00 to 16:00:00	DO values plummet but recover; pre- and post- values 
+okay
+03/02/97 16:00:00 to 16:15:00	Low DO spike but recovers
+03/07/97 14:45:00 to 18:15:00	DO values plummet toward zero but recover; pre- and 
+post- okay
+03/08/97 02:00:00 to 03/09/97 00:15:00	DO values plummet but recover; pre- and 
+post- values okay
+03/10/97 14:30:00 to 03/11/97 17:30:00	DO mg/L values incorrect due to incorrect 
+spcond values; data deleted
+03/10/97 14:30:00 to 03/31/97 23:45:00	Salinity/Spcond too high for site; could have 
+been a calibration error or probe malfunction; data deleted
+03/11/97 17:45:00 to 03/31/97 23:45:00	DO membrane puncture early in study; data 
+deleted
+
+Note:  YSI told us that only the DO mg/L values were affected by the incorrect spcond 
+calibration.  DO % saturation should be correct since it is not calculated from conductivity 
+values. 
+
+April 1997:
+TC:
+04/01/97 00:00:00 to 04/08/97 14:45:00	DO membrane puncture early in study; data 
+deleted
+04/01/97 00:00:00 to 04/08/97 14:45:00	Salinity/Spcond too high for site; could have 
+been a calibration error or probe malfunction; data deleted
+04/30/97 16:30:00 to 23:45:00	Negative DO values probably due to a membrane 
+puncture prior to deployment; data deleted
+
+May 1997:
+TC:
+05/01/97 00:00:00 to 05/30/97 16:30:00	Negative DO values probably due to a 
+membrane puncture prior to deployment; data deleted
+05/02/97 10:30:00 	Small negative turbidity values due to calibration error
+
+June 1997:
+TC:
+06/11/97 00:45:00 to 03:00:00	Small negative turbidity values due to calibration error
+06/11/97 11:30:00 to	12:15:00Negative DO values; data deleted
+06/11/97 15:15:00		Negative DO values; data deleted 
+06/11/97 20:45:00 to 21:15:00	Negative DO values; data deleted
+06/11/97 23:45:00 to 06/12/97 00:45:00	Negative DO values; data deleted 
+06/12/97 01:15:00 to 02:00:00	Negative DO values; data deleted 
+06/12/97 02:30:00 to 02:45:00	Negative DO values; data deleted 
+06/12/97 03:45:00 to 08:15:00	Negative DO values; data deleted 
+06/12/97 08:45:00 to 09:45:00	Negative DO values; data deleted 
+06/12/97 12:00:00 to 15:45:00	Negative DO values; data deleted 
+06/12/97 16:45:00 to 18:00:00	Negative DO values; data deleted 
+06/12/97 21:15:00 to 21:45:00	Negative DO values; data deleted
+06/13/97 00:30:00 to 00:45:00	Negative DO values; data deleted 
+06/13/97 01:15:00		Turbidity spike > 1000 NTU 
+06/13/97 01:30:00 to 02:00:00	Negative DO values; data deleted 
+06/13/97 03:15:00 to 04:00:00	Turbidity spike > 1000 NTU
+06/13/97 04:30:00 to 11:15:00	Negative DO values; data deleted 
+06/13/97 13:00:00 to 13:45:00	Negative DO values; data deleted 
+06/13/97 14:15:00 to 16:30:00	Negative DO values; data deleted 
+06/13/97 16:45:00 to 17:00:00	Turbidity spike > 1000 NTU
+06/13/97 17:45:00 to 23:45:00	Negative DO values; data deleted 
+06/14/97 01:30:00		Negative DO values; data deleted 
+06/14/97 02:00:00		Negative DO values; data deleted
+06/14/97 03:00:00		Negative DO values; data deleted 
+06/14/97 04:00:00 to 04:15:00	Negative DO values; data deleted 
+06/14/97 05:45:00 to 10:00:00	Negative DO values; data deleted 
+06/14/97 14:15:00 to 15:00:00	Negative DO values; data deleted 
+06/14/97 15:00:00 to 15:15:00	Small negative turbidity values due to calibration error
+06/14/97 15:45:00		Negative DO values; data deleted 
+06/14/97 15:45:00		Small negative turbidity values due to calibration error
+06/14/97 16:15:00		Negative DO values; data deleted 
+06/14/97 16:15:00		Small negative turbidity values due to calibration error 
+06/14/97 16:45:00		Small negative turbidity values due to calibration error
+06/14/97 16:45:00 to 17:00:00	Negative DO values; data deleted 
+06/14/97 17:45:00 to 18:00:00	Negative DO values; data deleted
+06/14/97 18:45:00 to 19:30:00	Negative DO values; data deleted 
+06/14/97 20:15:00		Negative DO values; data deleted 
+06/14/97 20:45:00 to 22:15:00	Small negative turbidity values due to calibration error
+06/14/97 21:30:00 to 23:30:00	Negative DO values; data deleted 
+06/14/97 22:30:00 to 22:45:00	Turbidity spike > 1000 NTU
+06/14/97 23:00:00		Small negative turbidity values due to calibration error
+06/14/97 23:15:00 to 23:30:00	Turbidity spike > 1000 NTU
+06/14/97 23:45:00		Small negative turbidity values due to calibration error
+06/15/97 03:30:00 to 05:45:00	Negative DO values; data deleted 
+06/15/97 05:30:00		Small negative turbidity values due to calibration error
+06/15/97 06:45:00 to 11:30:00	Negative DO values; data deleted 
+06/15/97 13:45:00 to 19:00:00	Negative DO values; data deleted 
+06/15/97 16:45:00 to 17:00:00	Small negative turbidity values due to calibration error
+06/15/97 17:45:00		Small negative turbidity values due to calibration error
+06/15/97 19:30:00 		Small negative turbidity values due to calibration error
+06/15/97 19:45:00 to 20:00:00	Turbidity spike > 1000 NTU
+06/15/97 20:00:00 to 20:30:00	Negative DO values; data deleted 
+06/15/97 21:00:00 to 21:15:00	Negative DO values; data deleted 
+06/15/97 23:30:00		Negative DO values; data deleted 
+06/16/97 00:00:00 to 01:15:00	Negative DO values; data deleted 
+06/16/97 01:45:00 to 03:45:00	Negative DO values; data deleted 
+06/16/97 03:30:00		Small negative turbidity values due to calibration error 
+06/16/97 05:15:00 		Turbidity spike > 1000 NTU
+06/16/97 05:30:00		Small negative turbidity values due to calibration error
+06/16/97 06:45:00		Turbidity spike > 1000 NTU
+06/16/97 09:45:00		Turbidity spike > 1000 NTU
+6/16/97 10:45:00 to 11:15:00	Turbidity spike > 1000 NTU
+06/16/97 15:15:00		Turbidity spike > 1000 NTU
+06/16/97 16:00:00 to 16:15:00	Small negative turbidity values due to calibration error
+06/16/97 17:00:00		Small negative turbidity values due to calibration error
+06/16/97 17:30:00 to 17:45:00	Small negative turbidity values due to calibration error
+06/16/97 20:30:00 		Small negative turbidity values due to calibration error
+06/16/97 20:45:00		Turbidity spike > 1000 NTU
+06/16/97 21:00:00		Small negative turbidity values due to calibration error
+06/16/97 21:15:00		Turbidity spike > 1000 NTU
+06/19/97 05:15:00		Negative DO values; data deleted 
+06/19/97 05:45:00 to 06:00:00	Negative DO values; data deleted 
+06/19/97 09:45:00		Negative DO values; data deleted 
+06/20/97 03:30:00 to 03:45:00	Negative DO values; data deleted 
+06/20/97 04:30:00		Negative DO values; data deleted 
+06/20/97 05:15:00 to 05:30:00	Negative DO values; data deleted 
+06/20/97 06:00:00		Negative DO values; data deleted
+06/20/97 06:45:00 to 07:00:00	Negative DO values; data deleted 
+06/20/97 07:45:00		Negative DO values; data deleted 
+06/20/97 11:15:00		Negative DO values; data deleted 
+06/20/97 11:45:00		Negative DO values; data deleted 
+06/20/97 16:15:00 to 16:30:00	Negative DO values; data deleted 
+06/22/97 13:15:00 to 06/25/97 14:45:00	DO problem-maybe membrane puncture; data 
+deleted
+06/23/97 13:45:00		Small negative turbidity values due to calibration error
+
+Note:  Entire DO record from 06/02/97 11:15:00 to 06/25/97 14:45:00 should be viewed as 
+suspect.  Very low DO values were recorded and the post- deployment do value was negative.  
+
+July 1997:
+TC:
+07/01/97 15:45:00 to 07/16/97 14:45:00	DO membrane puncture-data deleted
+07/03/97 18:30:00 to 18:45:00	Small negative turbidity values due to calibration error 
+07/03/97 19:30:00		Small negative turbidity values due to calibration error 
+07/03/97 21:30:00 to 23:30:00	Small negative turbidity values due to calibration error 
+07/04/97 00:00:00 to 03:15:00	Small negative turbidity values due to calibration error 
+07/04/97 04:15:00 to 08:30:00	Small negative turbidity values due to calibration error 
+07/04/97 09:00:00 to 19:30:00	Small negative turbidity values due to calibration error 
+07/04/97 20:00:00 to 22:30:00	Small negative turbidity values due to calibration error 
+07/04/97 23:00:00 to 07/05/97 01:45:00	Small negative turbidity values due to 
+calibration error 
+07/05/97 02:15:00 to 05:15:00	Small negative turbidity values due to calibration error 
+07/05/97 05:45:00 to 08:00:00	Small negative turbidity values due to calibration error 
+07/05/97 08:45:00 to 13:30:00	Small negative turbidity values due to calibration error 
+07/05/97 14:00:00		Small negative turbidity values due to calibration error 
+07/05/97 14:45:00 to 16:30:00	Small negative turbidity values due to calibration error 
+07/05/97 17:00:00 to 18:30:00	Small negative turbidity values due to calibration error 
+07/05/97 19:15:00 to 20:15:00	Small negative turbidity values due to calibration error 
+07/05/97 20:45:00 to 22:15:00	Small negative turbidity values due to calibration error 
+07/05/97 22:45:00 to 23:00:00	Small negative turbidity values due to calibration error 
+07/05/97 23:30:00 to 07/06/97 05:15:00	Small negative turbidity values due to 
+calibration error 
+07/06/97 05:45:00 to 07:00:00	Small negative turbidity values due to calibration error 
+07/06/97 07:30:00 to 08:15:00	Small negative turbidity values due to calibration error 
+07/06/97 08:45:00 to 09:15:00	Small negative turbidity values due to calibration error 
+07/06/97 10:00:00 to 11:30:00	Small negative turbidity values due to calibration error 
+07/06/97 12:00:00 to 14:15:00	Small negative turbidity values due to calibration error 
+07/06/97 15:30:00 to 15:45:00	Small negative turbidity values due to calibration error 
+07/06/97 16:30:00 to 17:30:00	Small negative turbidity values due to calibration error
+07/06/97 18:00:00 to 21:45:00	Small negative turbidity values due to calibration error
+07/06/97 22:45:00 to 07/07/97 00:30:00	Small negative turbidity values due to 
+calibration error
+07/07/97 01:00:00 to 02:30:00	Small negative turbidity values due to calibration error
+07/07/97 04:15:00 to 05:00:00	Small negative turbidity values due to calibration error
+07/07/97 05:30:00 to 07:45:00	Small negative turbidity values due to calibration error
+07/07/97 09:00:00 to 09:15:00	Small negative turbidity values due to calibration error
+07/07/97 10:00:00 to 10:15:00	Small negative turbidity values due to calibration error
+07/07/97 11:45:00 to 13:00:00	Small negative turbidity values due to calibration error
+07/07/97 13:30:00 to 14:00:00	Small negative turbidity values due to calibration error
+07/07/97 14:30:00 to 16:45:00	Small negative turbidity values due to calibration error
+07/07/97 17:30:00 to 20:00:00	Small negative turbidity values due to calibration error
+07/07/97 20:45:00 to 07/08/97 02:45:00	Small negative turbidity values due to 
+calibration error
+07/08/97 03:45:00 to 05:00:00	Small negative turbidity values due to calibration error
+07/08/97 05:30:00		Small negative turbidity values due to calibration error
+07/08/97 06:00:00 to 07:30:00	Small negative turbidity values due to calibration error
+07/08/97 08:00:00 to 08:45:00	Small negative turbidity values due to calibration error
+07/08/97 09:15:00 to 10:15:00	Small negative turbidity values due to calibration error
+07/08/97 10:45:00 to 12:15:00	Small negative turbidity values due to calibration error
+07/08/97 12:45:00		Small negative turbidity values due to calibration error
+07/08/97 13:30:00		Small negative turbidity values due to calibration error
+07/08/97 14:00:00		Small negative turbidity values due to calibration error
+07/08/97 14:30:00 to 15:00:00	Small negative turbidity values due to calibration error
+07/08/97 15:30:00 to 16:00:00	Small negative turbidity values due to calibration error
+07/08/97 16:30:00 to 16:45:00	Small negative turbidity values due to calibration error
+07/08/97 17:15:00 to 21:30:00	Small negative turbidity values due to calibration error
+07/08/97 22:00:00 to 07/09/97 00:15:00	Small negative turbidity values due to 
+calibration error
+07/09/97 00:45:00 to 01:30:00	Small negative turbidity values due to calibration error
+07/09/97 02:15:00		Small negative turbidity values due to calibration error
+07/09/97 03:15:00 to 03:30:00	Small negative turbidity values due to calibration error
+07/09/97 04:00:00		Small negative turbidity values due to calibration error
+07/09/97 04:30:00 to 05:00:00	Small negative turbidity values due to calibration error
+07/09/97 05:45:00 to 06:45:00	Small negative turbidity values due to calibration error
+07/09/97 07:15:00 to 08:30:00	Small negative turbidity values due to calibration error
+07/09/97 09:00:00 to 09:30:00	Small negative turbidity values due to calibration error
+07/09/97 10:00:00 to 11:00:00	Small negative turbidity values due to calibration error
+07/09/97 11:30:00 to 11:45:00	Small negative turbidity values due to calibration error
+07/09/97 12:15:00 to 12:45:00	Small negative turbidity values due to calibration error
+07/09/97 13:15:00		Small negative turbidity values due to calibration error
+07/09/97 13:45:00 to 14:00:00	Small negative turbidity values due to calibration error
+07/09/97 14:30:00 to 15:45:00	Small negative turbidity values due to calibration error
+07/09/97 16:15:00 to 21:30:00	Small negative turbidity values due to calibration error
+07/09/97 22:00:00 to 07/10/97 02:30:00	Small negative turbidity values due to 
+calibration error
+07/10/97 03:00:00 to 06:15:00	Small negative turbidity values due to calibration error
+07/10/97 06:45:00 to 07:00:00	Small negative turbidity values due to calibration error
+07/10/97 07:30:00 to 09:15:00	Small negative turbidity values due to calibration error
+07/10/97 09:45:00 to 11:30:00	Small negative turbidity values due to calibration error
+07/10/97 12:00:00 to 14:00:00	Small negative turbidity values due to calibration error
+07/10/97 14:45:00 to 15:15:00	Small negative turbidity values due to calibration error
+07/10/97 15:45:00		Small negative turbidity values due to calibration error
+07/10/97 16:15:00 to 18:30:00	Small negative turbidity values due to calibration error
+07/10/97 19:00:00		Small negative turbidity values due to calibration error
+07/10/97 19:30:00 to 20:00:00	Small negative turbidity values due to calibration error
+07/10/97 20:30:00 to 07/11/97 02:15:00	Small negative turbidity values due to 
+calibration error
+07/11/97 02:45:00		Small negative turbidity values due to calibration error
+07/11/97 03:15:00 to 06:30:00	Small negative turbidity values due to calibration error
+07/11/97 07:15:00 to 08:30:00	Small negative turbidity values due to calibration error
+07/11/97 09:00:00		Small negative turbidity values due to calibration error
+07/11/97 09:30:00 to 10:45:00	Small negative turbidity values due to calibration error 
+07/11/97 11:30:00 to 07/12/97 08:00:00	Small negative turbidity values due to 
+calibration error
+07/12/97 08:30:00 to 19:15:00	Small negative turbidity values due to calibration error
+07/12/97 19:45:00		Small negative turbidity values due to calibration error
+07/12/97 20:15:00 to 07/13/97 08:00:00	Small negative turbidity values due to 
+calibration error
+07/13/97 08:30:00 to 09:00:00	Small negative turbidity values due to calibration error
+07/13/97 09:30:00		Turbidity spike > 1000 NTU
+07/13/97 10:00:00 to 10:15:00	Small negative turbidity values due to calibration error
+07/13/97 10:45:00		Small negative turbidity values due to calibration error
+07/13/97 11:15:00 to 12:00:00	Small negative turbidity values due to calibration error
+07/13/97 14:45:00		Small negative turbidity values due to calibration error
+07/13/97 15:30:00		Small negative turbidity values due to calibration error
+07/13/97 23:30:00 to 07/14/97 00:15:00	Small negative turbidity values due to 
+calibration error
+07/14/97 00:30:00		Turbidity spike > 1000 NTU
+07/14/97 00:45:00		Small negative turbidity values due to calibration error
+07/14/97 01:15:00		Small negative turbidity values due to calibration error
+07/14/97 01:30:00		Turbidity spike > 1000 NTU
+07/14/97 02:15:00		Turbidity spike > 1000 NTU
+07/14/97 08:45:00		Small negative turbidity values due to calibration error
+07/14/97 09:45:00		Small negative turbidity values due to calibration error
+07/14/97 10:45:00 to 11:00:00	Small negative turbidity values due to calibration error
+07/14/97 11:30:00		Small negative turbidity values due to calibration error
+07/14/97 12:00:00 to 14:30:00	Small negative turbidity values due to calibration error
+07/14/97 15:45:00		Small negative turbidity values due to calibration error
+07/14/97 16:15:00		Small negative turbidity values due to calibration error
+07/15/97 05:15:00 to 07:15:00	Small negative turbidity values due to calibration error
+07/15/97 08:15:00 to 09:00:00	Small negative turbidity values due to calibration error
+07/15/97 09:15:00		Turbidity spike > 1000 NTU
+07/15/97 09:30:00 to 11:30:00	Small negative turbidity values due to calibration error
+07/15/97 13:30:00		Small negative turbidity values due to calibration error
+07/15/97 15:00:00 to 20:00:00	Small negative turbidity values due to calibration error
+07/15/97 20:30:00 to 23:45:00	Small negative turbidity values due to calibration error
+07/16/97 00:30:00 to 00:45:00	Small negative turbidity values due to calibration error
+07/16/97 01:15:00 to 05:45:00	Small negative turbidity values due to calibration error
+07/16/97 06:15:00 to 06:30:00	Small negative turbidity values due to calibration error
+07/16/97 07:00:00 to 07:15:00	Small negative turbidity values due to calibration error
+07/16/97 07:45:00 to 08:15:00	Small negative turbidity values due to calibration error
+07/16/97 08:45:00 to 13:15:00	Small negative turbidity values due to calibration error
+07/16/97 13:45:00 to 14:45:00	Small negative turbidity values due to calibration error
+07/30/97 10:15:00		Small negative turbidity values due to calibration error
+
+August 1997:
+TC:
+08/05/97 14:00:00 to 08/06/97 12:45:00	DO membrane puncture; data deleted
+08/19/97 06:30:00		Small negative turbidity values due to calibration error
+08/20/97 14:30:00 to 08/21/98 12:00:00	DO membrane puncture; data deleted
+
+September 1997:
+TC:
+09/12/97 13:00:00		Very low depth due to low tide
+09/12/97 22:30:00		Small negative turbidity values due to calibration error
+09/23/97 10:45:00 to 09/30/97 23:45:00	Suspect DO data because of high DO charge 
+and negative readings which are characteristic of biofouled anodes. Also probe recorded 
+supersaturated readings in air before deployment (163%); data deleted  
+
+October 1997:
+TC:
+10/01/97 00:00:00 to 10/06/97 15:15:00	Suspect DO data because of high DO charge 
+and negative readings which are characteristic of biofouled anodes. Also recorded 
+supersaturated readings in air before deployment (163%); data deleted
+
+10/06/97 16:30:00 to 10/23/97 11:15:00	Depth was adjusted by subtracting 0.51m from the depth
+data.  The 0.51m adjustment was determined by taking the mean difference in depth values from 
+this deployment compared to the previous and post deployed data loggers.
+
+October 1997:
+GI:
+10/26/97 11:15:00		Turbidity spike > 500 NTU
+10/26/97 11:30:00		Small calibration error with turbidity; could be rollover 
+from turbidity spike
+
+November 1997:
+TC:
+11/27/97 01:00:00 to 03:45:00	Negative depths due to low tide
+
+November 1997:
+GI:
+11/01/97 02:45:00		Small calibration error with turbidity
+11/02/97 19:15:00 to 20:00:00	Spcond drops suddenly; unknown cause
+11/02/97 20:45:00 to 21:30:00	Spcond drops suddenly; unknown cause
+11/03/97 16:00:00		Turbidity spike > 400 NTU
+11/03/97 16:15:00 to 16:30:00	Small calibration error with turbidity; could be rollover 
+from turbidity spike
+11/03/97 21:45:00		Turbidity spike > 800 NTU
+11/25/97 22:15:00 to 11/26/97 01:30:00	Negative depths due to low tide
+11/26/97 10:45:00 to 15:00:00	Negative depths due to low tide
+11/26/97 21:15:00 to 22:30:00	Negative depths due to low tide
+11/26/97 22:30:00 to 11/27/97 02:30:00	Instrument out of water due to extremely low 
+tide
+11/27/97 02:30:00 to 03:45:00	Negative depths due to low tide
+11/27/97 11:00:00 to 11:45:00	Negative depths due to low tide
+11/27/97 12:00:00, 12:30:00-14:15:00	Instrument out of water due to extremely low tide
+11/27/97 14:30:00 to 15:30:00	Negative depths due to low tide
+11/27/97 22:45:00 to 23:15:00	Negative depths due to low tide
+11/27/97 23:30:00 to 11/28/97 02:30:00	Instrument out of water due to extremely low 
+tide
+11/28/97 02:45:00 Instrument out of water due to extremely low tide
+11/28/97 03:00:00 to 03:15:00	Negative depths due to low tide
+11/28/97 12:00:00 to 12:30:00	Negative depths due to low tide
+11/28/97 12:45:00 to 15:00:00	Instrument out of water due to extremely low tide
+11/28/97 15:15:00 to 16:00:00	Negative depths due to low tide
+11/29/97 00:30:00 to 02:30:00	Negative depths due to low tide
+
+December 1997:
+TC:
+No anomalous data. 
+
+December 1997:
+GI:
+12/04/97 16:30:00 to 19:45:00	Negative depths due to low tide
+12/06/97 19:00:00 to 22:15:00	Negative depths due to low tide
+12/07/97 07:00:00 to 07:45:00 	Negative depths due to low tide
+12/07/97 08:00:00 to 09:30:00	Instrument out of water due to extremely low tide 
+12/07/97 09:45:00 to 10:30:00	Negative depths due to low tide
+12/07/97 19:45:00 to 21:00:00	Negative depths due to low tide
+12/07/97 21:15:00 to 21:30:00	Instrument out of water due to extremely low tide
+12/08/97 08:30:00 to 10:30:00	Instrument out of water due to extremely low tide
+12/08/97 20:45:00 to 23:00:00	Instrument out of water due to extremely low tide
+12/08/97 23:15:00 to 23:30:00	Negative depths due to low tide
+12/15/97 16:15:00		Instrument out of water due to extremely low tide
+12/16/97 16:00:00 to 17:30:00	Negative depths due to low tide
+12/17/97 04:15:00 to 04:45:00	Negative depths due to low tide
+12/30/97 01:30:00 to 05:00:00	Negative depths due to low tide
+12/30/97 13:30:00 to 17:45:00	Negative depths due to low tide
+12/31/97 01:00:00 to 02:00:00	Negative depths due to low tide
+12/31/97 02:15:00 to 05:00:00	Instrument out of water due to extremely low tide
+12/31/97 05:15:00 to 06:00:00	Negative depths due to low tide
+12/31/97 14:00:00		Negative depths due to low tide 
+12/31/97 14:15:00 to 19:00:00	Instrument out of water due to extremely low tide
+
+12. Missing data
+
+Missing data is either the result of
+  1) the YSI not deployed
+  2) YSI out of the water (negative depth with salinity of zero)
+  3) a probe not attached
+  4) a probe malfunction
+  5) maintenance
+
+January 1997:
+TC:
+01/01/97 00:00:00 to 01/31/97 23:45:00	No turbidity probe deployed
+
+February 1997:
+TC:
+02/01/97 00:00:00 to 02/28/97 23:45:00	No turbidity probe deployed
+
+March 1997:
+TC:
+03/01/97 00:00:00 to 03/31/97 23:45:00	No turbidity probe deployed
+03/10/97 14:15:00			Maintenance
+03/10/97 14:30:00 to 03/11/97 17:30:00	DO mg/L values incorrect due to incorrect 
+spcond values; data deleted 
+03/10/97 14:30:00 to 03/31/97 23:45:00	Salinity/Spcond too high for site, could have 
+been a calibration error or probe malfunction; data deleted
+03/11/97 17:45:00 to 03/31/97 23:45:00	DO membrane puncture early in study; data 
+deleted
+
+Note:  YSI told us that only the DO mg/L values were affected by the incorrect spcond 
+calibration.  DO % saturation should be correct since it is not calculated from conductivity 
+values.
+
+April 1997:
+TC:
+04/01/97 00:00:00 to 04/08/97 14:45:00	No turbidity probe deployed
+04/01/97 00:00:00 to 04/08/97 14:45:00	DO membrane puncture early in study; data 
+deleted
+04/01/97 00:00:00 to 04/08/97 14:45:00	Salinity/Spcond too high for site, could have 
+been a calibration error or probe malfunction; data deleted
+04/13/97 18:00:00		Missing data due to time skip	
+04/20/97 23:00:00		Missing data due to time skip
+04/21/97 02:00:00 		Missing data due to time skip
+04/21/97 11:45:00 		Missing data due to time skip	
+04/30/97 16:30:00 to 23:45:00	Negative DO values probably due to a membrane 
+puncture prior to deployment; data deleted
+
+May 1997:
+TC:
+05/01/97 00:00:00 to 05/30/97 16:30:00	Negative DO values probably due to a 
+membrane puncture prior to deployment; data deleted
+05/30/97 16:45:00 to 05/31/97 23:45:00	Maintenance
+
+June 1997:
+TC:
+06/01/97 00:00:00 to 06/02/97 11:00:00	Maintenance
+06/11/97 11:30:00 to	12:15:00 Negative DO values; data deleted
+06/11/97 15:15:00		Negative DO values; data deleted 
+06/11/97 20:45:00 to 21:15:00	Negative DO values; data deleted
+06/11/97 23:45:00 to 06/12/97 00:45:00	Negative DO values; data deleted 
+06/12/97 01:15:00 to 02:00:00	Negative DO values; data deleted 
+06/12/97 02:30:00 to 02:45:00	Negative DO values; data deleted 
+06/12/97 03:45:00 to 08:15:00	Negative DO values; data deleted 
+06/12/97 08:45:00 to 09:45:00	Negative DO values; data deleted 
+06/12/97 12:00:00 to 15:45:00	Negative DO values; data deleted 
+06/12/97 16:45:00 to 18:00:00	Negative DO values; data deleted 
+06/12/97 21:15:00 to 21:45:00	Negative DO values; data deleted
+06/13/97 00:30:00 to 00:45:00	Negative DO values; data deleted 
+06/13/97 01:30:00 to 02:00:00	Negative DO values; data deleted 
+06/13/97 04:30:00 to 11:15:00	Negative DO values; data deleted 
+06/13/97 13:00:00 to 13:45:00	Negative DO values; data deleted 
+06/13/97 14:15:00 to 16:30:00	Negative DO values; data deleted 
+06/13/97 17:45:00 to 23:45:00	Negative DO values; data deleted 
+06/14/97 01:30:00		Negative DO values; data deleted 
+06/14/97 02:00:00		Negative DO values; data deleted
+06/14/97 03:00:00		Negative DO values; data deleted 
+06/14/97 04:00:00 to 04:15:00	Negative DO values; data deleted 
+06/14/97 05:45:00 to 10:00:00	Negative DO values; data deleted 
+06/14/97 14:15:00 to 15:00:00	Negative DO values; data deleted 
+06/14/97 15:45:00		Negative DO values; data deleted 
+06/14/97 16:15:00		Negative DO values; data deleted 
+06/14/97 16:45:00 to 17:00:00	Negative DO values; data deleted 
+06/14/97 17:45:00 to 18:00:00	Negative DO values; data deleted
+06/14/97 18:45:00 to 19:30:00	Negative DO values; data deleted 
+06/14/97 20:15:00		Negative DO values; data deleted 
+06/14/97 21:30:00 to 23:30:00	Negative DO values; data deleted 
+06/15/97 03:30:00 to 05:45:00	Negative DO values; data deleted 
+06/15/97 06:45:00 to 11:30:00	Negative DO values; data deleted 
+06/15/97 13:45:00 to 19:00:00	Negative DO values; data deleted 
+06/15/97 20:00:00 to 20:30:00	Negative DO values; data deleted 
+06/15/97 21:00:00 to 21:15:00	Negative DO values; data deleted 
+06/15/97 23:30:00		Negative DO values; data deleted 
+06/16/97 00:00:00 to 01:15:00	Negative DO values; data deleted 
+06/16/97 01:45:00 to 03:45:00	Negative DO values; data deleted 
+06/19/97 05:15:00		Negative DO values; data deleted 
+06/19/97 05:45:00 to 06:00:00	Negative DO values; data deleted 
+06/19/97 09:45:00		Negative DO values; data deleted 
+06/20/97 03:30:00 to 03:45:00	Negative DO values; data deleted 
+06/20/97 04:30:00		Negative DO values; data deleted 
+06/20/97 05:15:00 to 05:30:00	Negative DO values; data deleted 
+06/20/97 06:00:00		Negative DO values; data deleted
+06/20/97 06:45:00 to 07:00:00	Negative DO values; data deleted 
+06/20/97 07:45:00		Negative DO values; data deleted 
+06/20/97 11:15:00		Negative DO values; data deleted 
+06/20/97 11:45:00		Negative DO values; data deleted 
+06/20/97 16:15:00 to 16:30:00	Negative DO values; data deleted 
+06/22/97 13:15:00 to 06/25/97 14:45:00	DO problem-maybe membrane puncture; data 
+deleted
+
+July 1997:
+TC:
+07/01/97 15:45:00 to 07/16/97 14:45:00	DO membrane puncture-data deleted
+07/16/97 15:00:00 to 07/23/97 14:15:00	Maintenance
+
+August 1997:
+TC:
+08/05/97 14:00:00 to 08/06/97 12:45:00	DO membrane puncture-data deleted
+08/06/97 13:00:00 to 08/07/97 14:00:00	Maintenance
+08/20/97 14:30:00 to 08/21/98 12:00:00	DO membrane puncture; data deleted
+
+September 1997:
+TC:
+09/23/97 10:45:00 to 09/30/97 23:45:00	Suspect DO data because of high DO charge 
+and negative readings which are characteristic of biofouled anodes. Also probe recorded 
+supersaturated readings in air before deployment (163%); data deleted  
+
+October 1997:
+TC:
+10/01/97 00:00:00 to 10/06/97 15:15:00	Suspect DO data because of high DO charge 
+and negative readings which are characteristic of biofouled anodes. Also probe recorded 
+supersaturated readings in air before deployment (163%); data deleted  
+10/06/97 15:30:00 to 16:15:00	Maintenance
+
+October 1997:
+GI:
+10/01/97 00:00:00 to 10/21/97 13:00:00	Instrument not deployed
+
+November 1997:
+TC:
+11/07/97 08:45:00 to 11/11/97 15:45:00	Battery died
+
+November 1997:
+GI:
+11/18/97 09:15:00			Maintenance
+11/26/97 22:30:00 to 11/27/97 02:30:00	Instrument out of water due to extremely low 
+tide
+11/27/97 12:00:00 - 12:30:00 to 14:15:00 Instrument out of water due to extremely low tide
+11/27/97 23:30:00 to 11/28/97 02:30:00	Instrument out of water due to extremely low 
+tide
+11/28/97 02:45:00 Instrument out of water due to extremely low tide
+11/28/97 12:45:00 Instrument out of water due to extremely low tide
+11/28/97 13:00:00 to 15:00:00	Instrument out of water due to extremely low tide
+
+December 1997:
+TC:
+12/03/97 13:00:00			Maintenance
+
+December 1997:
+GI:
+12/02/97 03:15:00 to 12/04/97 13:30:00	Battery died
+12/07/97 08:00:00 to 09:30:00	Instrument out of water due to extremely low tide
+12/07/97 21:15:00 to 21:30:00	Instrument out of water due to extremely low tide
+12/08/97 08:30:00 to 10:30:00	Instrument out of water due to extremely low tide	
+12/08/97 20:450:00 to 23:00:00	Instrument out of water due to extremely low tide
+12/15/97 16:15:00		Instrument out of water due to extremely low tide
+12/31/97 02:15:00 to 05:00:00	Instrument out of water due to extremely low tide
+12/31/97 14:15:00 to 19:00:00	Instrument out of water due to extremely low tide
+
+12. Remarks
+Any regions of data with negative depth values due to low tides or low-pressure systems 
+should be viewed with caution.  In some instances the probes are clearly out of water and have 
+been noted.  Depth data should be considered relative depth.  From September 1995 to 
+September 1997 at Taskinas Creek, the instruments were deployed on a rope that was tied to 
+a tree branch, during which the instrument may have been deployed at a slightly different 
+depth for each deployment.  In September 1997 at Taskinas Creek, a permanent structure 
+was placed inside of 4-inch PVC housing at a fixed depth from the bottom.  Problems with 
+exposure from low tides and currents have been resolved.  In October 1997, a permanent 
+structure was also installed at the Goodwin Islands where the datalogger is deployed inside 4-
+inch PVC pipe at a fixed depth from the bottom. 
+
+Please note that in December of 1997, construction work began and is ongoing at the York 
+River State Park in an effort to reduce erosion problems from the steep banks into the creek.  
+This may be effecting the Taskinas Creek deployment readings, especially for turbidity.  All 
+construction work is taking place about 75 feet upstream from the deployment site.  
+
+The time clock in the dataloggers was off during the following times: 
+
+November 1997:
+TC:
+11/11/97 16:01:33 to 11/21/97 10:16:33	Time clock was off +1min 33sec; was 
+corrected.
+
+November 1997:
+GI:
+11/04/97 13:35:33 to 11/18/97 09:05:33	Time clock was off +5 min 33 sec; was 
+corrected.
+
+
+
+

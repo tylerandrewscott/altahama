@@ -1,0 +1,629 @@
+Elkhorn Slough (ELK) NERR Water Quality Metadata Report 
+January to December, 1997 
+Latest Update: November 9, 2001
+
+
+I. Data Set and Research Descriptors
+
+1. Principal Investigators and Contact Persons
+								Elkhorn Slough NERR
+								1700 Elkhorn Rd
+John C. Haskins, Research Assistant 		Watsonville, CA 95076
+									(408) 728-2822
+
+2. Entry verification:
+Data were uploaded to the PC from the YSI 6000 and graphs were produced and 
+examined using the PC 6000 software. Data were also uploaded in a comma-
+delimited format from the YSI to the PC. Edited files were created by removing 
+headers, footers, and spaces on a PC in Excel 5.0. Suspect data were evaluated 
+using QA/QC Excel 5.0 macros (version 3.0) from CDMO. Missing data from YSI 
+maintenance were inserted into the spreadsheet and were denoted by periods (.). 
+Edited files were merged to create one full month of data. Edited and raw data 
+were archived at Elkhorn Slough NERR, then uploaded to CDMO NERR server. John 
+Haskins, is responsible for the editing and archiving of data.
+
+3. Research objectives:
+Non-point source pollution is among the highest research priorities within the 
+Elkhorn Slough watershed. Agriculture and specifically strawberry production, is 
+a significant land use in the watershed, with agricultural production making up 
+one quarter of land use and strawberries comprising about 8% of the Elkhorn 
+Slough watershed.  Agricultural runoff has led to high concentrations of 
+nutrients and some pesticides in the slough.  Several studies have shown that 
+agricultural practices have an impact on the species composition and ecological 
+processes in Elkhorn Slough.  Two sites within the slough water are being 
+monitored.  One site (SM) is in the Reserve at the edge of the channel next to a 
+Salicornia marsh that is surrounded by a mixture of native and introduced 
+grasses and shrubs in the uplands.  This is a relatively pristine location with 
+minimal inputs of agricultural runoff.  Azevedo Pond (AP), the second site, is 
+surrounded by strawberry fields with a very narrow (about 3 m) fringe of marsh.  
+The farm surrounding the pond is part of a project to develop best management 
+practices and new growing techniques.  
+
+4. Research methods: 
+The Elkhorn Slough water-monitoring program began on June 26, 1995. Both sites 
+described above are monitored simultaneously. Prior to YSI deployment at SM, a 
+20 foot length of 4 inch diameter PVC pipe was placed in the slough to house the 
+YSI. Holes were drilled in the pipe to remove 10% of the pipe's surface area and 
+to allow waterflow across the YSI. The pipe was positioned vertically in the 
+slough with one end pushed into the soft bottom sediments and the other end 
+secured to shore. A bolt in the pipe maintains the YSI exactly one foot (30cm) 
+above the bottom.Prior to YSI deployment at AP, a supportive framework of rope 
+and PVC was placed at the site to house the YSI. The structure maintains the YSI 
+exactly one foot (30cm) above the pond bottom. Every 15 minutes over a 30-day 
+period, measurements of specific conductivity, salinity, dissolved oxygen, 
+temperature, depth, and pH are recorded. 30 day periods were chosen due to the 
+limitations of the dissolved oxygen membrane and battery power. 
+	At the end of each 30 day period, the YSI is brought back into the lab for 
+downloading, cleaning, and recalibration. Data is downloaded on PC and graphs 
+are printed using the PC 6000 software.  Sonde body and probes are  cleaned.  DO 
+membrane is changed and allowed to re-equilibrate for at least one hour before 
+calibration.  Calibration is as outlined in the user manual.  Buffer solutions 
+of pH 7 and pH 10 are purchased from a scientific supply house and used for two 
+point calibration.  A salinity standard of 32.035 ppt is also purchased and used 
+for calibration. After approximately four hours of down time, the YSIs are 
+redeployed for another 30 days.
+
+5. Site location and character:
+Elkhorn Slough is located on the West Coast of the United States in Central 
+California. It connects with the Pacific Ocean in central Monterey Bay near Moss 
+Landing, California.  The Elkhorn Slough National Estuarine Research Reserve 
+encompasses about 1400 acres on the south and east side of the slough.  A range 
+of habitats is represented from uplands of oak and grassland, to saltmarsh, 
+tidal mudflat, and open water.  The tidal range in Elkhorn Slough is 
+approximately 2 meters. Annually, surface salinity varies between 4.2-40.5 psu 
+at the head of the slough, between 15.4-34.7 psu in the mid region and between 
+14.5-34.0 psu at the mouth.  Elkhorn Slough is a seasonal estuary with the major 
+freshwater inputs during the winter rainy season.  Carneros Creek empties into 
+the head of the slough and has significant flow between December and April.  
+Periodic freshwater inputs from the Salinas River to Elkhorn Slough occur when 
+the mouth of the Salinas River is closed and flow is diverted through the old 
+channel which empties into the mouth of Elkhorn Slough.YSI datasondes are 
+deployed at two sampling sites: South Marsh (SM) and Azevedo Pond (AP).  SM (36° 
+49'N, 121° 44'W) is in a side channel of the slough on the Elkhorn Slough 
+National Estuarine Research Reserve.   The major runoff to this site is from 
+grasslands and uplands on the Reserve and is relatively unimpacted by 
+anthropogenic influences.  Water depth at this site is approximately 2 meters 
+and bottom sediments are silty-clays.  The adjacent intertidal mudflats are 
+often colonized by macroalgae such as Ulva and Enteromorpha.  AP (36° 50'N, 121° 
+45'W) is in a pond which receives fertilizer and pesticide runoff from a 
+strawberry field in year-round production. The YSI is located about 10m from a 
+culvert connecting the pond to the slough.  Two culverts restrict the tidal 
+range within the pond to 0.5 m.  Water depth of the sonde is approximately 1 
+meter.  Bottom sediments are mainly organic rich silts.  Extensive mats of 
+macroalgae (Ulva and Enteromorpha) occur within the pond.
+
+6. Data collection period:
+Sampling at both sites began simultaneously on June 26, 1995 and data collection 
+is ongoing. 
+
+7. Associated researchers and projects:
+Elkhorn Slough National Estuarine Research Reserve and the Elkhorn Slough 
+Foundation have had an ongoing program to monitor estuarine water quality in the 
+central Monterey Bay region since 1988.  Currently, 24 stations are monitored 
+monthly for temperature, salinity, dissolved oxygen, pH, turbidity, nitrate, 
+ammonium and dissolved inorganic phosphate concentrations.  Two of these 
+stations  on the Reserve are about 400 m from the SM site.  Data collection 
+began at these two stations in September 1989.  A monthly monitoring station is 
+also located at Azevedo Pond within 10 m of the YSI deployment.  Monthly data 
+from the Azevedo Pond are available from March 1992.
+	The University of California Santa Cruz Agroecology Program has an ongoing 
+project to examine the effects of agricultural production on an adjacent 
+wetland.  Matthew Werner, Marc Los Huertos, Felecia Rein, Sean Swezey, Mark 
+Silberstein, Andrew De Vogelaere, Ron Tjeerdema have been the principal 
+investigators.  They have made a detailed baseline characterization of wetlands 
+and an adjacent field under chemically-intensive strawberry production.  The 
+Monterey Bay Regional Studies Program at UCSC awarded graduate fellowships to 
+Marc Los Huertos and Felecia Rein to study the effects of native vegetation 
+buffer zones on movement of sediment and agricultural run-off.  The overall 
+goals of this program are to test alternative farming practices that can 
+mitigate negative effects on wetlands while providing a sustainable livelihood 
+for farmers.  This research is occurring on the Azevedo Ranch in a pond and 
+pocket marsh adjacent to the AP YSI deployment site.
+	Nicole Beck from the University of California Santa Cruz is investigating 
+the role of diel oxygen fluctuations in controlling redox cycles and nutrient 
+balances in Azevedo Pond at the AP YSI deployment site.  This research examines 
+how changes in tidal flushing over an annual cycle within the pond affects 
+dissolved oxygen, nitrate, phosphate, and the iodate/iodide couple (an indicator 
+of redox conditions).
+	Bess Ward from the University of California Santa Cruz is investigating 
+several aspects of the ecology of nitrifying bacteria in Elkhorn Slough.  These 
+projects include: characterizing and identifying the nitrifier community and 
+monitoring seasonal changes in bacterial numbers, productivity and activity of 
+nitrifying bacteria at 3 sites in Elkhorn Slough.  One of those sites is a pond 
+on the Azevedo Ranch adjacent to the AP YSI deployment site.
+
+
+II. Physical Structure Descriptors
+
+8. Variable sequence, column format, range of measurements, units:
+
+YSI 6000 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.
+
+
+9. Coded variable indicator and variable code definitions:
+	SM = South Marsh	AP = Azevedo Pond
+
+10. Data Anomalies (suspect data):
+
+January 1-31, 1997
+Azevedo Pond
+a) All DO data at 0715 on 24 Jan, 0830, 0900-0915 and 1000-1100 on 27 Jan, 2300 
+on 27 Jan to 0030 on 28 Jan, 1315-1330, 1430, 1515-1545 and 1630-1715 on 28 Jan, 1700, 
+2015, 2100-2115 and 2145-2315 on 29 Jan, 0745-0915 on 30 Jan and 1715 on 30 Jan to 
+0200 on 31 Jan are negative due to a suspected drift in calibration.  Data removed.
+b) All remaining DO values from 0700 on 24 Jan to the end of the month are 
+suspect due to the DO probe's inability to hold calibration.  Data not removed.
+
+South Marsh
+a) All DO data at 0000 on 1 Jan through 1800 on 22 Jan are negative due to a suspected 
+drift in calibration and the DO probe's inability to hold calibration.  Data removed.
+
+February 1-28, 1997
+Azevedo Pond
+a) DO data at 0215 on 2 Feb, 0515-0730 on 20 Feb, 0700 and 0730-800 on 21 Feb, 
+0545-0845 on 22 Feb and 0645-0815 on 23 Feb were negative due to a suspected drift in 
+calibration.  Data removed.
+b) All remaining DO data from 0500 on 20 Feb until the end of the month are 
+suspect due to the DO probe's inability to hold calibration.  Data not removed.
+
+South Marsh
+a) DO data at 1145-1300 on 24 Feb, 2100 on 24 Feb to 0215 on 25 Feb, 0530-0615, 
+0645, 0730-0915, 1115-1245 and 1330 on 25 Feb and 1530 on 25 Feb to 2345 on 28 Feb are 
+negative due to a suspected drift in calibration.  Data removed.
+b) All remaining DO data at 1330 on 22 Feb until the end of the month are 
+suspect due to the DO probe's inability to hold calibration.  Data not removed.
+
+March 1-31, 1997
+Azevedo Pond
+a) DO data at 0045-0230 on 2 Mar, 0100-0330 on 3 Mar and 0230-0415 on 4 Mar are 
+negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) DO data at 0000-0215, 0545-0815 and 1600-2030 on 1 Mar, 1545-2245 on 6 Mar, 
+1645 on 7 Mar to 1745 on 19 Mar are negative due to a suspected drift in calibration and 
+the DO probe's inability to hold calibration.  Data removed.
+b) DO data at 2245 on 22 Mar through 2345 on 21 Mar are negative due to a suspected 
+drift in calibration and the DO probe's inability to hold calibration.  Data removed.
+
+April 1 - 30, 1997
+Azevedo Pond
+a) DO data at 0600-0800 on 14 Apr, 0615-0830 on 15 Apr, 0215-0900 on 16 Apr, 
+0200-0900 on 17 Apr, 0400-0845 on 18 Apr, 0315 on 19 Apr and 0500 and 0600 on 20 Apr are 
+negative due to a suspected drift in calibration.  Data removed.
+b) All remaining DO data from 0500 on 14 Apr until the end of the month are 
+suspect due to the DO probe's inability to hold calibration.  Data not removed.
+
+South Marsh
+a) DO data at 0000 on 1 Apr through 1900 on 18 Apr are negative due to a suspected drift in 
+calibration and the DO probe's inability to hold calibration.  Data removed.
+
+
+May 1-31, 1997
+Azevedo Pond
+a) DO data at 2330 on 12 May to 0845 on 13 May, 0915 on 13 May, 2145 on 13 May 
+to 0915 on 14 May, 2000 on 14 May to 0930 on 15 May, 2215 on 15 May to 0915 on 16 May, 
+2215 on 16 May to 1000 on 17 May, 0000 to 1030 on 18 May, 0200-0930 on 19 May, 0330-
+0900 on 20 May, 0615-0730 on 21 May, 2330 on 27 May to 0200 on 28 May, 2230 on 28 May 
+to 0400 on 29 May, 2315 on 29 May to 0630 on 30 May and 0115-0915 on 31 May are 
+negative due to a suspected drift in calibration.  Data removed.
+b) All remaining DO data from 2300 on 12 May until the end of the month are 
+suspect due to the DO probe's inability to hold calibration.  Data not removed.
+
+South Marsh
+a) DO data at 1130 on 3 May, 0630 on 7 May to 1300 on 18 May, 1415-1615, 1745-
+1800, 1830-2000 and 2130-2300 on 18 May, 0215-1530 on 19 May, 2215 on 19 May to 0030 
+on 20 May, 0115-0130, 0330-1400 on 20 May, and 1415 on 20 Mar through 1700 on 25 Mar,
+1600 on 28 May through 2345 on 31 May are negative due to a suspected drift in calibration.  
+Data removed.
+b) All remaining DO data for the month of May are suspect due to the DO probe's 
+inability to hold calibration.  Data not removed.
+
+June 1-30, 1997
+Azevedo Pond
+c) DO data at 0245-0900 on 1 Jun, 0400-0815 on 2 Jun, 0600-0730 on 3 Jun, 0745 
+on 4 Jun, 0700-0930 on 10 Jun, and 0630 on 11 June to 2345 30 June are negative 
+due to a suspected drift in calibration and inability to old calibration.  Data removed.
+
+South Marsh
+a) DO data at 0000 on 1 Jun through 1600 on 27 Jun are negative due 
+to a suspected drift in calibration due to the DO probe's inability to hold calibration.  Data removed.
+
+
+July 1-31, 1997
+Azevedo Pond
+a) DO data at 0000 on 1 Jul through 1430 on 2 Jul are negative 
+due to a suspected drift in calibration and inability to old calibration.  Data removed.
+b) DO data at 0345-0945 on 13 Jul, 0745-0815 on 15 Jul, 0145-0230 on 25 Jul, 0330-1030 on 26 Jul,
+ 0615-0945 on 27 Jul, 0615-0930 on 28 Jul and 0800 on 29 Jul are negative due to a suspected 
+drift in calibration.  Data removed. 
+b) All remaining DO data from the beginning of the month through 1345 on 2 Jul 
+are suspect due to the DO probe's inability to hold calibration.  Data not removed.
+c) All remaining DO data from 0300 on 13 Jul to 1045 on 30 Jul are suspect due 
+to a suspected drift in calibration.  A new DO probe was installed on 2 Jul.  Data not removed.
+
+August 1-31, 1997
+Azevedo Pond
+a) DO (%) data at 0800-0900 on 24 Aug and 0700-0845 on 25 Aug and DO (mg/l) data 
+at 0845 on 25 Aug are negative due to a suspected drift in calibration.  Data removed.
+b) All remaining DO data from 0700 on 24 Aug to 0945 on 27 Aug are suspect due 
+to a suspected drift in calibration.  Data not removed.
+c) Turbidity data at 0315-0515 and 1500-1530 on 2 Aug, 2145-2345 on 15 Aug, 0015 
+and 0100-0145 on 16 Aug and 1200-1215 on 20 Aug are negative due to a suspected high 
+roll-over in measurement.  Data not removed.
+d) Turbidity data at 1745 on 2 Aug, 1445, 1915 and 2145 on 4 Aug, 915 on 5 Aug, 
+2045 on 7 Aug, 0600 on 8 Aug, 1245 and 1615 on 24 Aug and 2045 on 29 Aug are negative for 
+unknown reasons.  Data not removed.
+
+South Marsh
+a) All DO data at 0530 on 5 Aug until 0930 on 20 Aug removed due to a suspected 
+puncture of the DO membrane.
+
+September 1-30, 1997
+Azevedo Pond
+a) DO data at 0030-0045 and 0630-0830 on 6 Sep, 2345 on 6 Sep to 0900 on 7 Sep, 
+2300 on 7 Sep to 0900 on 8 Sep, 0145-0830 on 9 Sep, 0045-0900 on 10 Sep, 0215-0900 on 11 
+Sep and 0600-0815 on 12 Sep are negative due to a suspected drift in calibration.  Data 
+removed.
+b) Turbidity data at 1845 on 23 Sep and 0830 on 24 Sep are zero for unknown 
+reasons.  Data removed.
+
+South Marsh
+a) All DO data from 1715 on 7 Sep to 0730 on 17 Sep removed due to a suspected 
+puncture of the DO membrane.
+b) All variables deleted because sonde was out of the water on 9/3 1130-1145.
+
+October 1-31, 1997
+Azevedo Pond
+a) DO data at 0730-0745 on 4 Oct, 0345-0545 on 10 Oct, 0300-0315 on 21 Oct and 
+0215-0430 on 22 Oct are negative due to a suspected drift in calibration.  Data removed.
+b)Turbidity data are negative 1415 1 Oct, 0145 Oct 17, and 0030 Oct 31, data was 
+not removed.
+
+South Marsh
+a) All DO data from 1430 on 4 Oct to 0800 on 16 Oct, and from 0900 on 26 Oct to 
+1215 on 28 Oct  removed due to a suspected puncture of the DO membrane.
+b) All data missing from 1230 on 28 Oct to the end of the month due to a short 
+in the connection between the turbidity probe and the sonde port.
+c) Turbidity data are negative 1200 and 1215 28 Oct for unknown reasons, data 
+was not removed.
+
+November 1-30, 1997
+Azevedo Pond
+a) DO data at 245 on 5 Nov, 0245-0330 on 6 Nov, 0315-0430 on 7 Nov, 0230-0500 on 
+8 Nov and 0430-0515 on 9 Nov are negative due to a suspected drift in calibration.  
+Data removed.
+b) Depth data at 0200-0430 on 26 Nov are negative; most likely due to a low 
+pressure weather system that was in the area.  Data not removed.
+c) Turbidity data are negative 2100 16 Nov, data was not removed.
+
+South Marsh
+a) All data missing until 1530 on 12 Nov due to a short in the connection 
+between the turbidity probe and the sonde port.  Sonde re-deployed at 1600 on 12 Nov.
+b) Anomalous DO spike from 135.3% to 21.8% on 11/28 0100-0130. 
+
+December 1-31, 1997
+Azevedo Pond
+a) Turbidity value of 1001 at 1330 on 8 Dec is just out of range for unknown 
+reasons.  Data not removed.
+b) Turbidity was negative 1230 7 Nov, data was not removed. 
+c) Depth data at 0000-0100 on 5 Dec, 2330 on 5 Dec to 0130 on 6 Dec, 0030-0200 
+on 7 Dec, 2330 on 17 Dec to 0030 on 18 Dec, 2300 on 20 Dec to 0200 on 21 Dec and 2000 on 
+21 Dec to 0230 on 22 Dec are negative; most likely due to a low pressure weather 
+systems that were in the area.  Data not removed.
+d) Specific Conductivity/Salinity decreased to near zero on the following dates 
+due to low tides: 12/23 0000-0030, 12/24 0030-0330, 12/25 0200-0330, 12/26 0400, 
+12/27 0400-0430.
+
+South Marsh
+a) Turbidity data at 0200 on 21 Dec zero due to a suspected calibration problem.  
+Data not removed.
+    
+11. Missing Data
+
+January 1- 31, 1997
+Azevedo Pond
+a) All data missing from 1415 on 5 Jan to 1545 on 9 Jan because sonde was out of 
+the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) All DO data at 715 on 24 Jan, 0830, 0900-0915 and 1000-1100 on 27 Jan, 2300 
+on 27 Jan to 0030 on 28 Jan, 1315-1330, 1430, 1515-1545 and 1630-1715 on 28 Jan, 1700, 2015, 
+2100-2115 and 2145-2315 on 29 Jan, 0745-0915 on 30 Jan and 1715 on 30 Jan to 0200 on 
+31 Jan were negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh  
+a) All data missing at 1815 on 22 Jan to 0930 on 23 Jan because sonde was out of 
+the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed
+c) All DO data at 0000 on 1 Jan through 1800 on 22 Jan are negative due to a suspected 
+drift in calibration and the DO probe's inability to hold calibration.  Data removed.
+
+February 1-28, 1997
+Azevedo Pond
+a) All data missing from 1615 on 8 Feb to 1715 on 11 Feb because sonde was out 
+of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0215 on 2 Feb, 0515-0730 on 20 Feb, 0700 and 0730-0800 on 21 Feb, 
+0545-0845 on 22 Feb and 0645-0815 on 23 Feb were negative due to a suspected drift in 
+calibration.  Data removed.
+
+South Marsh
+a) All data missing from 0815 -1315 on 22 Feb because sonde was out of water for 
+downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 1145-1300 on 24 Feb, 2100 on 24 Feb to 0215 on 25 Feb, 0530-0615, 
+0645, 0730-0915, 1115-1245 and 1330 on 25 Feb and 1530 on 25 Feb to 2345 on 28 Feb are 
+negative due to a suspected drift in calibration.  Data removed.
+
+March 1 - 31, 1997
+Azevedo Pond
+a) All data missing from 1445 on 10 Mar until the end of the month because sonde 
+was out of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0045-0230 on 2 Mar, 0100-0330 on 3 Mar and 0230-0415 on 4 Mar were 
+negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) All data missing from 1800-1845 on 19 Mar because sonde was out of the water 
+for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0000-0215, 0545-0815 and 1600-2030 on 1 Mar, 1545-2245 on 6 Mar, 
+1645 on 7 Mar to 1745 on 19 Mar are negative due to a suspected drift in calibration. 
+Data removed.
+d) DO data at 2245 on 22 Mar through 2345 on 21 Mar are negative due to a suspected 
+drift in calibration and the DO probe's inability to hold calibration.  Data removed.
+
+
+April 1 - 30, 1997
+Azevedo Pond
+a) All data missing from beginning of month until 1545 on 10 Apr because sonde 
+was out of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0600-0800 on 14 Apr, 0615-0830 on 15 Apr, 0215-0900 on 16 Apr, 
+0200-0900 on 17 Apr, 0400-0845 on 18 Apr, 315 on 19 Apr and 0500 and 0600 on 20 Apr are 
+negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) All data missing from 1915 on 18 Apr to 1645 on 25 Apr because sonde was out 
+of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0000 on 1 Apr through 1900 on 18 Apr are negative due to a suspected drift in 
+calibration and the DO probe's inability to hold calibration.  Data removed.
+
+May 1 - 31, 1997
+Azevedo Pond 
+a) All data missing from 0815-1145 on 10 May because sonde was out of the water 
+for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 2330 on 12 May to 0845 on 13 May, 0915 on 13 May, 2145 on 13 May 
+to 0915 on 14 May, 2000 on 14 May to 0930 on 15 May, 2215 on 15 May to 0915 on 16 May, 
+2215 on 16 May to 1000 on 17 May, 0000-1030 on 18 May, 0200-0930 on 19 May, 0330-0900 
+on 20 May, 0615-0730 on 21 May, 2330 on 27 May to 0200 on 28 May, 2230 on 28 May to 
+0400 on 29 May, 2315 on 29 May to 0630 on 30 May and 0115-0915 on 31 May are 
+negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) All data missing from 1715 on 25 May to 1545 on 28 May because sonde was out 
+of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 1130 on 3 May, 0630 on 7 May to 1300 on 18 May, 1415-1615, 1745-
+1800, 1830-2000 and 2130-2300 on 18 May, 0215-1530 on 19 May, 2215 on 19 May to 0030 
+on 20 May, 0115-0130, 0330-1400 on 20 May, and 1415 on 20 Mar through 1700 on 25 Mar,
+1600 on 28 May through 2345 on 31 May are negative due to a suspected drift in calibration.  
+Data removed.
+
+June 1 - 30, 1997
+Azevedo Pond
+a) All data missing from 0945-1545 on 5 Jun because sonde was out of the water 
+for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) DO data at 0245-0900 on 1 Jun, 0400-0815 on 2 Jun, 0600-0730 on 3 Jun, 0745 
+on 4 Jun, 0700-0930 on 10 Jun, and 0630 on 11 June to 2345 30 June are negative 
+due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) No data collected from 1615-2045 on 27 Jun because sonde was out of the water 
+for downloading and calibration.
+b) No data collected from 1445 on 30 Jun until the end of the month due to an o-
+ring failure that caused flooding of the battery compartment and sonde shut-down.
+c) No turbidity data because turbidity probe was not installed.
+d) DO data at 0000 on 1 Jun through 1600 on 27 Jun are negative due 
+to a suspected drift in calibration due to the DO probe's inability to hold calibration.  Data removed.
+
+
+July 1-31, 1997
+Azevedo Pond
+a) All data missing from 1445-1715 on 2 Jul and from 1100-1445 on 30 Jul because 
+sonde was out of the water for downloading and calibration.
+b) No turbidity data until 1500 on 30 Jul because turbidity probe was not 
+installed.
+c) DO data at 0000 on 1 Jul through 1430 on 2 Jul are negative 
+due to a suspected drift in calibration and inability to old calibration.  Data removed.
+d) DO data at 0345-0945 on 13 Jul, 0745-
+0815 on 15 Jul, 0145-0230 on 25 Jul, 0330-1030 on 26 Jul, 0615-0945 on 27 Jul, 0615-0930 on 
+28 Jul and 0800 on 29 Jul are negative due to a suspected drift in calibration.  Data 
+removed.
+
+South Marsh
+a) All data missing until 1330 on 25 Jul because of an o-ring failure, sonde 
+shut-down and then the sonde was out of the water for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed until1500 30 Jul.
+
+August 1-31, 1997
+Azevedo Pond
+a) All data missing at 1000-1445 on 27 Aug because sonde was out of the water 
+for downloading and calibration.
+b) DO (%) data at 0800-0900 on 24 Aug and 0700-0845 on 25 Aug and DO (mg/l) data 
+at 0845 on 25 Aug are negative due to a suspected drift in calibration.  Data removed.
+c) Turbidity data at 0315-0515 and 1500-1530 on 2 Aug, 2145-2345 on 15 Aug, 0015 
+and 0100-0145 on 16 Aug and 1200-1215 on 20 Aug are negative due to a suspected high 
+roll-over in measurement.  Data removed.
+
+South Marsh
+a) All data missing from 0945-1245 on 20 Aug because sonde was out of water for 
+downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) All DO data from 0530 on 5 Aug until 0930 on 20 Aug removed due to a 
+suspected puncture of the DO membrane.
+
+
+September 1-30, 1997
+Azevedo Pond
+a) All data missing at 0930-1645 on 24 Sep because sonde was out of the water 
+for downloading and calibration.
+b) All data missing at 1345 on 17 Sep and 1045-1100 on 18 Sep because sonde was 
+out of the water for downloading of data.
+c) DO data at 0030-0045 and 0630-0830 on 6 Sep, 2345 on 6 Sep to 0900 on 7 Sep, 
+2300 on 7 Sep to 0900 on 8 Sep, 0145-0830 on 9 Sep, 0045-0900 on 10 Sep, 0215-0900 on 11 
+Sep and 0600-0815 on 12 Sep are negative due to a suspected drift in calibration.  Data 
+removed.
+
+South Marsh
+a) All data missing from 0745-1415 on 17 Sep because sonde was out of the water 
+for downloading and calibration.
+b) No turbidity data because turbidity probe was not installed.
+c) All DO data at 1715 on 7 Sep to 0730 on 17 Sep removed due to a suspected 
+puncture of the DO membrane.
+d) All variables deleted because sonde was out of the water on 9/3 1130-1145.
+
+October 1-31, 1997
+Azevedo Pond
+a) All data missing at 1030-1445 on 22 Oct because sonde was out of the water 
+for downloading and calibration.
+b) All data missing at 1345 on 7 Oct because sonde was out of the water for 
+downloading of data.
+c) DO data at 0730-0745 on 4 Oct, 0345-0545 on 10 Oct, 0300-0315 on 21 Oct and 
+0215-0430 on 22 Oct are negative due to a suspected drift in calibration.  Data removed.
+
+South Marsh
+a) All data missing from 0815-1245 on 16 Oct because sonde was out of the water 
+for downloading and calibration.
+b) No turbidity data until 1300 on 16 Oct because turbidity probe was not 
+installed
+c) All DO data from 1430 on 4 Oct to 0800 on 16 Oct, and from 0900 on 26 Oct to 
+1215 on 28 Oct  removed due to a suspected puncture of the DO membrane.
+d) All data missing from 1230 on 28 Oct to end of  the month due to a short in 
+the connection between the turbidity probe and the sonde port.
+
+November 1-30, 1997
+Azevedo Pond
+a) All data missing at 1245-1545 on 19 Nov because sonde was out of the water 
+for downloading and calibration.
+b) DO data at 0245 on 5 Nov, 0245-0330 on 6 Nov, 0315-0430 on 7 Nov, 0230-0500 
+on 8 Nov and 0430-0515 on 9 Nov are negative due to a suspected drift in calibration.  
+Data removed.
+
+South Marsh
+a) All data missing until 1530 on 12 Nov due to a short in the connection 
+between the turbidity probe and the sonde port.  Sonde re-deployed at 1600 on 12 Nov.
+
+December 1-31, 1997
+Azevedo Pond
+a) All data missing from 0930-1430 on 17 Dec because sonde was out of water for 
+downloading and calibration.
+
+South Marsh
+a) All data missing from 1000-1330 on 10 Dec because sonde was out of water for 
+downloading and calibration.
+
+12. Other Remarks/Notes
+
+April 1 - 30, 1997
+Azevedo Pond
+Post Calibration on 10 May
+DO charge = 46.1, DO% = 80.5 in water saturated air
+
+May 1 - 31, 1997
+South Marsh
+Post Calibration on 28 May
+DO charge = 34.7, DO% = 67.6 in water saturated air
+
+June 1 - 30, 1997
+Azevedo Pond
+Post Calibration on 2 Jul
+DO charge = 0.2, DO% = -5.1 in water saturated air
+South Marsh
+Post Calibration on 27 Jun
+DO charge = 35.9, DO% = 86.9 in water saturated air
+  
+July 1-31, 1997
+Azevedo Pond  
+New DO probe installed on 2 Jul 1997
+  
+August 1-31, 1997
+Azevedo Pond
+Fresh pH buffer for calibration opened 30 Jul
+Post Calibration on 27 Aug
+DO charge = 29.8, DO% = 105.8 in water saturated air    
+Turbidity probe un-responsive
+
+September 1-30, 1997
+Azevedo Pond
+Post Calibration on 24 Sep
+DO charge = 28.8, DO% = 83.0 in water saturated air
+South Marsh
+Post Calibration on 17 Sep
+DO charge = 57.4, DO% = 322.1 in water saturated air
+Algae (approx. 3 cm) attached and alive near tip of DO probe.
+
+October 1-31, 1997
+Azevedo Pond
+Post Calibration on 22 Oct
+DO charge = 27.7, DO% = 92.3 in water saturated air
+South Marsh
+Post Calibration on 16 Oct
+DO charge = 28.8, DO% = 82.9 in water saturated air
+
+November 1-30, 1997
+Azevedo Pond
+Post Calibration on 19 Nov
+DO charge = 27.7, DO% = 92.3 in water saturated air
+pH (7.00) = 6.91, pH (10.00) = 9.81
+Salinity (32.035) = 33.40, cell constant = 5.13646
+Turbidity (di H2O) = 27.8, Turbidity (100 NTU) = 120.4
+Depth = 0.009m
+South Marsh
+Post Calibration on 12 Nov
+DO charge = 127.8, DO% = 238.7 in water saturated air
+pH (7.00) = 6.85, pH (10.00) = 9.91
+Salinity (32.035) = 30.77, cell constant = 5.1203
+Turbidity (di H2O) = 256.2, Turbidity (100 NTU) = 264.0
+*Turbidity motor struggling to wipe.  Probe pin shorted-out to sonde body.
+Depth = -0.055
+
+December 1-31, 1997
+Azevedo Pond
+Post Calibration on 16 Dec
+DO charge = 29.8, DO% = 929.0 in water saturated air
+pH (7.00) = 7.08, pH (10.00) = 10.12
+Salinity (32.035) = 32.01, cell constant = 4.97051
+Turbidity (di H2O) = 11.0, Turbidity (100 NTU) = 112.3
+Depth = -0.011m
+South Marsh
+Post Calibration on 10 Dec
+DO charge = 32.9, DO% = 90.4 in water saturated air
+pH (7.00) = 7.12, pH (10.00) = 10.05
+Salinity (32.035) = 32.28, cell constant = NA
+Turbidity (di H2O) = 3.9, Turbidity (100 NTU) = 102.5
+Depth = NA
+

@@ -1,0 +1,1324 @@
+Great Bay (GRB) NERR Water Quality Metadata
+(April-December 2002)
+Latest update: September 15, 2003
+
+I.  Data Set & Research Descriptors
+
+1. Principal investigators and contact persons
+
+NH Department of Fish and Game		Jackson Estuarine Laboratory 
+225 Main Street					85 Adams Point Road 
+Durham, NH 03824					Durham, NH 03824
+603-868-1095  (voice)				Phone: (603)862-2175 
+603-868-3305  (fax)
+
+Brian Smith, Research Coordinator, email: bmsmith@starband.net
+
+Jaimie Wolf, Research Technician, email: jswolf@cisunix.unh.edu
+
+Jonathan Pennock, Ph.D., Professor of Natural Resources, Director of the 
+Jackson Estuarine Laboratory and the UNH marine Program 
+email: Jonathan.Pennock@unh.edu
+
+2. Entry verification
+The data are transmitted every thirty minutes from YSI 6600 datasondes via VHF 
+packet radio using Ecowatch software to a base station PC. Files are first 
+examined and graphed using Ecowatch software.  Missing and/or  anomalous data 
+are noted. Files are then transferred to a Macintosh computer and opened in 
+Microsoft Excel software and edited. Missing data due to routine YSI maintenance 
+and probe failure or communication errors are inserted into the spreadsheet and 
+denoted by periods (.). Edited files are merged to contain one full month of 
+data.  Files are verified by means of CDMO Excel macros. The CDMO cdmomac3.xls 
+macro will allow the user to automatically format column widths to the correct 
+number decimal places based on the YSI sensor specifications. It also 
+allows the user to QA/QC each data logger generated file for missing data 
+points, fill all cells that do not contain data with periods, and find all data 
+points that fall outside the range of what the datalogger is designed to measure 
+(outliers). The CDMO import.xls macro will allow PC users with 30-minute data to 
+automatically create a monthly Excel file from a two-week deployment and insert 
+periods for missing data. Edited files are merged to contain one full month of 
+data. In addition, in November 1999 a graphing capability was added to this 
+macro allowing users to produce single parameter and missing point graphs on a 
+monthly basis. All files are graphed in Excel and examined by Jaimie Wolf in 
+order that anomalous data points can be identified.
+
+
+
+3. Research Objectives
+In 2002, YSI 6600 datasondes were deployed in Great Bay and in the Squamscott, 
+Oyster and Lamprey Rivers part of the National Estuarine Research Reserves' 
+(NERRS) System-wide Monitoring Program (SWMP). The goal is to develop and 
+maintain temporally intensive long-term datasets of physio-chemical parameters 
+of water quality at locations that are representative of the Great Bay Estuarine 
+System. The Great Bay site is relatively unimpacted, while the three tidal river 
+sites (Lamprey, Oyster and Squamscott) have large drainage basins and are 
+impacted by both point (wastewater treatment plants) and nonpoint sources of 
+pollution. In addition to establishing a baseline of water quality, and 
+understanding the spatial and temporal variability of important indicators of 
+estuarine water quality, the data is used by a number of researchers in the 
+analysis of physical and biological processes.
+
+4. Research Methods
+Datasondes are programmed to obtain measurements of specific conductivity, 
+salinity, dissolved oxygen, percent saturation, pH, temperature, water level, 
+and turbidity every half-hour. All sondes used in 2002 were model 6600 equipped 
+with non-vented depth sensors. The instruments are deployed continuously during 
+ice-free seasons, except for brief periods when they are removed for cleaning, 
+maintenance and recalibration. Pre and post-deployment calibrations are 
+performed using the diagnostics menu of the YSI Ecowatch program and QA/QC 
+procedures developed by NERR Research Coordinators and YSI engineers. 
+VWR conductivity and pH standards are used for calibration. Hach formazin is 
+used to calibrate turbidity probes. The sonde in Great Bay is deployed in a YSI 
+EM 550 buoy, while the Lamprey and Squamscott river stations are piling mounted 
+deployments (see below).  Due to shallow depths and narrow channels, the Oyster 
+River sonde has to be deployed with the least amount of vertical expression 
+above bottom.  This is accomplished by placing it horizontally in a perforated 
+PVC pipe with four weighted "legs" to keep the instrument above bottom.  The 
+Oyster River sonde is hard-wired to a radio telemetry station on shore 
+(approximately 25 meters away). Because the sonde at the central Great Bay site 
+(GB) is deployed in an EM 550 surface buoy, it does not measure depth data. 
+Depth data for the GB site was obtained using time adjusted water level data 
+from the Squamscott River site (SQ).
+
+5. Site Location and Character
+
+Site #1 Great Bay  (GB)
+Location
+Central area of Great Bay proper.  The coordinates of the deployment are 
+43∫ 04' 20" N latitude and 70∫ 52' 10" W longitude.
+Salinity range: 5-32 ppt (seasonally); 0-5ppt from high to low tide. However, 
+the summer of 2002 was an atypically hot and dry season, which resulted in 
+higher than normal salinity values. 
+Temperature range: -1∫C to 24∫C (seasonally); 0-3( from high to low tide
+Depth: 6.5 meters at MLW
+Tidal height of 2.7 meters
+Bottom type: Mud and rock channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Squamscott, Lamprey and Winnicut Rivers plus smaller 
+streams. High tide influence from Little Bay and associated rivers
+Pollutant influence: clean reference site
+
+Deployment
+The instrument is attached to an EM 550 communications buoy equipped 
+with a YSI 1240 VHF radio transmitter.  The instrument is configured 
+with the probes held at a depth of 1 meter below the surface. 
+
+Site #2 Squamscott River (SQ)
+Location
+Mid channel of the Squamscott River at the Boston and Maine Railroad 
+bridge, Stratham, NH.
+Coordinates are 43∫ 02' 30" N latitude and 70∫ 55' 20" W longitude
+Salinity range: 0-30ppt (seasonally); 5-20 ppt from high to low tide. However, 
+the summer of 2002 was an atypically hot and dry season, which resulted in 
+higher than normal salinity values. 
+Temperature range: -1∫ C to 27∫ C (seasonally);difference of 0-5( from high to 
+low 
+tide
+Depth: 3.5 meters at MLW
+Tidal height of 2.7 m
+Bottom type: Mud/oyster channel bottom
+Tidal velocity: maximum 50 cm/sec
+Watersheds: Exeter River, adjacent marshes
+Pollutant influence: Urban stormwater, agriculture, two municipal 
+wastewater treatment plants, residential septic systems
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling 
+at a fixed 0.5m height above the bottom and connected to a YSI 1240 
+radio transmitter mounted on the piling.
+
+Site #3 Lamprey River (LR)
+Location 
+West bank of the tidal portion of the Lamprey River, approximately 300 m 
+downstream of the dam at Route 108 in Newmarket, NH
+Coordinates are 43∫ 04' 48" N latitude and 70∫ 56' 04" W longitude
+Salinity range 0 to 27 (seasonally); difference of up to 15 ppt between high and 
+low tides. However, the summer of 2002 was an atypically hot and dry season, 
+which resulted in higher than normal salinity values. 
+Temperature range -11/4C to 27( (seasonally); difference of up to 51/4C  between 
+high and low tides
+Depth: 3.5 m
+Tidal height 2.7 m
+Bottom type: mud/rock
+Tidal velocity: maximum 40 cm/sec
+Watershed: Lamprey River
+Pollutant influence:  Urban stormwater, adjacent marina, upstream and downstream 
+wastewater treatment plants, upstream agriculture
+
+Deployment
+The sonde is deployed in a perforated PVC cylinder attached to a piling at a 
+fixed height of 0.5 m above the bottom connected to a YSI 1240 radio transmitter 
+mounted on the piling. All files from this site in 2001 were obtained in the 
+unattended mode. We could not get a line of sight between the sonde radio and 
+the base station.
+
+Site #4 Oyster River (OR)
+Location:  in the center channel of the tidal portion of the Oyster River, 
+approximately 300 m downstream of the head of tide dam adjacent to Jackson’s 
+Landing in Durham, NH.
+Coordinates (in Decimal Degrees) are 43.134∫ N latitude 70.911∫ W 
+longitude 
+Salinity range 0 to 32 (seasonally); difference of up to 15 ppt between 
+high and low tides
+Temperature range -1∫C to 27∫C( (seasonally); difference of up to 5°C 
+between high and low tides
+Depth: 0.3 m at mlw, 3 m at highest high tides
+Tidal height 2.7 m (maximum)
+Bottom type: mud
+Tidal velocity: maximum 40 cm/sec
+Watershed: Oyster River
+Pollutant influence:  urban stormwater, mooring field and crew dock, downstream 
+wastewater treatment plant, upstream agriculture, residential on-site sewage 
+disposal
+
+Deployment
+Deployed horizontally in perforated PVC pipe with four weighted "legs" that 
+keeps the instrument above bottom.  The Oyster River sonde is hard-wired to a 
+radio telemetry station on shore (approximately 25 meters away).
+
+ 
+
+6.  Data collection period
+Great Bay data collection began April 10, 2002 and ended November 30, 2002.  
+Squamscott River data collection began April 10, 2002 and ended  December 3, 
+2002.  Lamprey River data collection began April 19, 2002 and ended December 2, 
+2001.  Oyster River data collection began April 17, 2002 and ended December 2, 
+2002.  The instruments are removed from the water during the winter months due 
+to icing.
+
+Deployment dates for 2002. Periods where the new EDS instruments are indicated.
+
+DEPLOYMENT DATES 2002				
+GREAT BAY 				
+Deployment		Retrieval	EDS
+4/10/02	1400	5/16/02	1200	
+5/17/02	900	6/10/02	1300	
+6/10/02	1500	7/3/02	1430	
+7/3/02	1500	7/15/02	1130	YES
+7/15/02	1200	7/30/02	100	
+7/30/02	930	8/7/02	1300	
+8/7/02	1330	8/26/02	1030	
+8/26/02	1100	9/11/02	1100	
+9/11/02	1030	9/26/02	1330	YES
+9/26/02	1400	10/25/02	1200	
+10/25/02	1130	11/13/02	1000	
+11/13/02	1000	12/4/02	1230	YES
+				
+SQUAMSCOTT				
+4/10/02	1530	5/8/02	830	
+5/9/02	1130	5/27/02	1200	
+5/28/02	1400	6/18/02	830	
+6/20/02	900	6/25/02	1430	
+6/25/02	1500	7/11/02	1400	
+7/11/02	1500	8/5/02	830	YES
+8/5/02	1130	8/22/02	1330	YES
+8/22/02	1400	9/12/02	1430	
+9/12/02	1500	10/3/02	900	
+10/3/02	930	10/30/02	1430	
+10/30/02	1500	11/6/02	1030	YES
+11/6/02	1100	11/18/02	1230	
+11/18/02	1300	12/3/02	1000	YES
+				
+LAMPREY				
+4/19/02	1530	5/8/02	930	
+5/9/02	1200	5/28/02	1400	
+5/29/02	1430	6/21/02	1200	
+6/21/02	1230	7/10/02	1330	YES
+7/10/02	1400	7/25/02	1230	
+7/25/02	1300	8/6/02	1100	
+8/6/02	1130	8/23/02	1300	
+8/23/02	1330	9/9/02	1400	YES
+9/9/02	1500	10/2/02	1030	
+10/2/02	930	10/30/02	1030	YES
+10/30/02	1030	11/18/02	1100	YES
+11/18/02	1200	12/2/02	1000	
+				
+OYSTER				
+4/17/02	1430	5/13/02	1430	
+5/14/02	1500	5/30/02	1400	
+5/31/02	1430	6/24/02	1300	
+6/24/02	1400	7/3/02	930	YES
+7/3/02	1000	7/16/02	1500	
+7/16/02	1530	8/9/02	1030	YES
+8/9/02	1130	8/20/02	1100	
+8/20/02	1200	9/5/02	930	YES
+9/5/02	1000	10/1/02	800	
+10/1/02	830	10/29/02	1500	YES
+10/29/02	1600	11/19/02	1200	
+11/19/02	1930	12/2/02	1400	
+
+7. Distribution:
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data. Following academic courtesy 
+standards, the PI and NERR site where the data were collected will be contacted 
+and fully acknowledged in any subsequent publications in which any part of the 
+data are used. Manuscripts resulting from this NOAA/ORCM supported research that 
+are produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration. The data set enclosed within this package/transmission is only 
+as good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement. The user bears all responsibility for its 
+subsequent use/misuse in any further analyses or comparisons. The Federal 
+government does not assume liability to the Recipient or third persons, nor 
+will the Federal government reimburse or indemnify the Recipient for its 
+liability due to any losses resulting in any way from the use of this data. NERR 
+water quality data and metadata can be obtained from the Research Coordinator at 
+the individual NERR site (please see section 2.2-1 Principal investigators and 
+contact persons), from the Data Management at the Centralized Data Management 
+Office (please see personnel directory under the general information link on the 
+CDMO home page) and online at the CDMO home page http://cdmo.baruch.sc.edu/. 
+Data are available in text tab-delimited format, Microsoft Excel spreadsheet 
+format and comma-delimited format. 
+
+8.  Associated researchers and projects:
+
+Lobster migration and behavior research - Dr. Winsor Watson and Dr. Hunting 
+Howell.  Ten years of studies supported by USDA and Sea Grant that track lobster 
+abundance, movement and behavior in relation to physical and biological 
+variables in the Great Bay Estuary.
+
+Eelgrass modeling studies.  Dr. Fred Short.  Supported by NOAA/UNH 
+CICEET. Modeling changes in eelgrass populations .
+
+Oyster disease studies: Supported by EPA/NEP, NOAA/NMFS, NH Fish and 
+Game. Monitoring of the prevalence and intensity of MSX and Dermo infections in 
+indigenous oyster populations and their relation to temperature and salinity 
+regimes.
+
+Comprehensive water quality monitoring studies supported by the New Hampshire 
+Estuaries Project (NHEP) and the NH Department of Environmental Services 
+(NHDES).
+
+Bathymetric modeling and tidal elevation studies conducted by the NOAA-UNH Joint 
+Hydrographic Center 
+
+Oyster reef mapping and restoration conducted by the NH Fish and Game, the 
+Jackson Estuarine Laboratory, and the NOAA-UNH Joint Hydrographic Center and the 
+Center for Coastal and Ocean Mapping.
+
+Microbial source tracking studies using ribotyping conducted by Dr. Stephen 
+Jones, Jackson Estuarine Laboratory and supported by NH DES, NHEP and CICEET  
+
+Monitoring and mapping groundwater inflows in the Great Bay Estuary. Dr. Robert 
+Roseen , Fay Rubin and Dr. Thomas Ballestero.  Supported by NOAA/UNH CICEET
+
+EPA national Coastal Assessment Program, Dr. Stephen H. Jones, Project Director
+
+Anadramous and juvenile fish population assessments conducted by the NH Fish and 
+game Department
+
+
+II. Physical Structure Descriptors
+
+9.  Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column. 
+
+10.  Coded variable indicator and variable code definitions:
+Site definitions: GB = Great Bay, SQ = Squamscott River, LR = Lamprey 
+River, OR = Oyster River
+
+11. Data Anomalies:
+Anomalous data is usually the result of fouling of the probes, probe failure, 
+out of range data, or defective equipment. Removed anomalous and retained 
+suspect data are listed below. 
+Occasionally the values for specific conductivity and salinity will drift 
+downward at the end of deployments. This is most likely caused by sediment 
+build-up on the probe.
+
+Great Bay
+April 
+No data 4/1 0000 to 4/10 1330 sonde not yet deployed.
+No depth data 4/10 1400 to 1430 no corresponding SQ data.
+No data 4/27 0200 sonde failed to record for unknown reasons.
+
+May
+No data 5/8 0200  sonde failed to record for unknown reasons.
+No depth data 5/8 0900 to 5/9 1030 no corresponding SQ data.
+No data 5/13 0830 to 5/16 1200 sonde stopped recording for unknown reasons. Upon 
+retrieval it was noted that the batteries were fully charged and sufficient 
+memory remained.  Possible equipment failure.
+No data 5/17 2030 sonde failed to record for unknown reasons.
+No depth data 5/27 1200 to 5/28 1330 no corresponding SQ data.
+
+The following dissolved oxygen values were out of range and deleted. Possible 
+reason, intermittent interference by floating algae or eelgrass.
+Date		Time		DO %	DO mg/L
+5/22/02	9:30:00	62.8	6.03
+5/22/02	10:00:00	47.8	4.56
+5/22/02	10:30:00	45.7	4.36
+5/22/02	11:00:00	46.7	4.45
+5/22/02	11:30:00	46.4	4.42
+5/22/02	12:00:00	47.5	4.52
+5/22/02	12:30:00	48.3	4.57
+5/22/02	13:00:00	47.9	4.52
+5/22/02	13:30:00	47.8	4.51
+5/22/02	14:00:00	47.3	4.46
+5/22/02	14:30:00	47.8	4.52
+5/22/02	15:00:00	47.6	4.52
+5/22/02	15:30:00	45.5	4.28
+5/22/02	16:00:00	45.5	4.26
+5/22/02	16:30:00	45.7	4.3
+5/22/02	17:00:00	44.5	4.19
+5/22/02	17:30:00	44	4.16
+5/22/02	18:00:00	43.2	4.09
+5/22/02	19:00:00	68.6	6.52
+5/23/02	9:00:00	57.4	5.47
+5/23/02	9:30:00	45.5	4.32
+5/23/02	10:00:00	42.5	4.04
+5/23/02	10:30:00	42.4	4
+5/23/02	11:00:00	44.3	4.08
+5/23/02	11:30:00	44.6	4.14
+5/23/02	12:00:00	46.2	4.26
+5/23/02	12:30:00	46.8	4.31
+5/23/02	13:00:00	45.3	4.17
+5/23/02	13:30:00	43.9	4.04
+5/23/02	14:00:00	42.8	3.93
+5/23/02	14:30:00	41.7	3.83
+5/23/02	15:00:00	40.8	3.73
+5/23/02	15:30:00	40.1	3.71
+5/23/02	16:00:00	46.5	4.3
+5/23/02	16:30:00	43.4	3.98
+5/23/02	17:00:00	43.2	3.96
+5/23/02	17:30:00	43.4	3.97
+5/23/02	18:00:00	42.4	3.92
+5/23/02	18:30:00	42.3	3.91
+5/23/02	19:00:00	41.7	3.87
+5/24/02	8:00:00	57	5.32
+5/24/02	8:30:00	46.7	4.35
+5/24/02	9:00:00	43.9	4.08
+5/24/02	9:30:00	43	4.01
+5/24/02	10:00:00	42.6	3.97
+5/24/02	10:30:00	42.3	3.93
+5/26/02	5:00:00	55.4	5.06
+5/26/02	12:00:00	53.3	4.86
+5/26/02	23:00:00	53.7	4.87
+5/28/02	1:30:00	54.5	4.89
+5/28/02	3:30:00	56.3	4.97
+5/29/02	10:30:00	58.2	5.13
+5/29/02	11:00:00	53.3	4.69
+5/29/02	11:30:00	52.9	4.65
+5/29/02	12:00:00	52.1	4.6
+5/29/02	12:30:00	51.2	4.52
+5/29/02	13:30:00	58.4	5.16
+5/29/02	14:30:00	57.2	5.05
+5/29/02	15:30:00	56.2	4.96
+5/29/02	16:30:00	61.2	5.25
+5/30/02	10:30:00	57	4.89
+5/30/02	11:00:00	53.6	4.58
+5/30/02	11:30:00	53.4	4.54
+5/30/02	12:00:00	51.9	4.47
+5/30/02	13:30:00	54.9	4.76
+5/30/02	14:00:00	51.4	4.46
+5/30/02	15:00:00	54.5	4.74
+
+June
+No pH data 6/10 1330 to 6/13 1230. pH values plunged to <3. Data was deleted. 
+This was a new pH probe, which passed pre-deployment calibration. On the 13th it 
+was replaced in the field with a different probe. However, toward the end of the 
+deployment the replacement probe recorded steadily dropping below-normal pH 
+values. This was evidently an equipment rather than probe failure. 
+
+No depth data 6/11 2200. No corresponding SQ data.
+No depth data 6/1/ 0830 to 6/20 0800 no corresponding SQ data.
+
+pH data 6/24 1800 to 6/30 2330 was deleted.
+
+The following dissolved oxygen data was below normal range possibly due to 
+interference by floating eelgrass or algae.
+Date		Time		DO%	Do mg/L
+6/6/02	22:30:00	53.60	4.58
+6/20/02	22:00:00	48.50	4.05
+6/20/02	22:30:00	59.00	4.94
+6/21/02	4:30:00	48.50	4.05
+6/21/02	10:30:00	56.40 4.68 
+6/21/02	11:00:00 	16.40 1.35
+6/22/02	5:30:00	42.00	3.43
+6/23/02	0:00:00	47.60	3.93
+6/30/02	15:30:00	57.70	4.49
+6/30/02	16:00:00	55.60	4.33
+6/30/02	16:30:00	54.90	4.29
+6/30/02	17:00:00	54.80	4.27
+6/30/02	17:30:00	54.20	4.23
+6/30/02	18:00:00	54.10	4.21
+6/30/02	18:30:00	53.30	4.14
+6/30/02	19:00:00	52.70	4.02
+6/30/02	19:30:00	51.60	3.93
+6/30/02	20:00:00	50.40	3.81
+6/30/02	20:30:00	44.10	3.35
+6/30/02	21:00:00	43.10	3.29
+6/30/02	21:30:00	44.60	3.38
+6/30/02	22:00:00	43.30	3.3
+6/30/02	22:30:00	45.20	3.44
+6/30/02	23:00:00	47.10	3.58
+6/30/02	23:30:00	49.20	3.74
+
+July
+No depth data 7/11 1400 no corresponding SQ data
+
+No data 7/29 0700 to 0930, 1230 to 1300, 1600 to 1830 , 7/30 0130 to 0900 sonde 
+failed to report for unknown reasons.
+
+Dissolved oxygen data 7/1 1630 to 7/3 1430 below normal range probably due to 
+end of deployment fouling. Data was deleted.
+
+Dissolved oxygen data from approximately 7/22 until the end of the deployment on 
+7/30 0100 is out of range (high) and should be considered suspect. Data was 
+retained. Probable end of deployment fouling.
+
+Dissolved oxygen data 7/30 1200 to 2030 well below normal range, possibly due to 
+floating eelgrass interfering with the probe. Data was deleted.
+
+7/1 0000 to 7/3 1430 pH data out of range (low 2.6-5.13) due to equipment 
+defect. Data was deleted.
+
+The pH data at the beginning of the 7/30 deployment is lower than would be 
+expected. Possible probe or equipment malfunction. Data from 7/30 0930 to 7/31 
+2330 is suspect but was retained.
+
+7/25 1200 all data was deleted because it appeared the instrument may have 
+been lifted out of the water, based on the salinity and depth data.
+
+The following turbidity values were <-0.4 and were deleted.
+Date		Time     	Turbidity
+7/30/02	12:00:00	-2
+7/30/02	15:00:00	-1.7
+7/31/02	10:00:00	-1.5
+7/31/02	14:30:00	-1.4
+7/31/02	18:30:00	-1.4
+7/31/02	23:00:00	-1.5
+
+The following turbidity values were out of range and deleted.
+Date		Time     	Turbidity
+7/6/02	16:00:00	359.8
+7/30/02	20:30:00	193.8
+7/30/02	23:30:00	302.3
+7/31/02	0:00:00	293.8
+7/31/02	8:30:00	484.9
+7/31/02	9:00:00	687.9
+7/31/02	11:00:00	993.2
+7/31/02	12:00:00	742
+7/31/02	12:30:00	334.4
+7/31/02	13:00:00	343.8
+7/31/02	14:00:00	555.7
+7/31/02	16:00:00	630.1
+7/31/02	17:00:00	368.7
+7/31/02	19:00:00	381.8
+7/31/02	21:00:00	659.1
+7/31/02	21:30:00	467.1
+7/31/02	22:30:00	162.4
+7/31/02	23:30:00	395.9
+
+August
+No depth data 8/5 0930 to 1130 and 8/22 1400 no corresponding SQ data.
+The sonde failed to report for unknown reasons on the following dates.
+8/29 0030 and 2300, 8/30 0330 to 0430, 0530, 0630 to 1200, 1300, 1400 to 1500, 
+1600, 1700 to 2330, 8/31 0000 to 2330
+
+The specific conductivity/temperature probe failed on approximately 8/26 1730. 
+(Temperature as high as 50C and salinity 43ppt).
+Salinity, specific conductivity, temperature, dissolved oxygen data from 8/26 
+1030 to 8/30 1630 were deleted. Data out of range.
+The faulty probe was replaced.
+
+8/6 1500 to 8/7 0530 DO out of range (low) possibly due to eelgrass interfering 
+with probe. Data was deleted.
+
+8/24 1030 to 8/25 0730 DO values unusually low, possible eelgrass interference. 
+Data is suspect but was retained.
+
+There were 313 turbidity values over 100. These were deleted. However all 
+turbidity data from approximately 8/10 to 8/26 should be considered suspect 
+because the values are unusually high for this site. Possible probe malfunction. 
+The wiper may have stuck over the optics.
+
+There were 150 negative turbidity values <-0.4. Data was deleted.
+
+
+September
+No data 9/1 0000 to 9/11 1000. This instrument ceased recording midway through 
+its 8/26 - 9/11 deployment. No cause was found. The batteries were fully 
+charged, internal memory had 300 days of logging remaining. The sonde ran well 
+in the lab and during subsequent. The reason that it stopped logging is unknown. 
+
+Dissolved oxygen values suddenly plunged on 9/20 1730 and remained abnormally 
+low (40 - 53%DO) until 9/26 0430. This occurred for a shorter period of time 
+from 9/26 1130 to 1330. During the summer and fall in Great Bay large racks of 
+floating eelgrass sometimes become wrapped around the sonde and buoy apparatus, 
+thus impeding the flow of water and oxygen, and affecting the probe readings. 
+Since this occurred mid-deployment, and the data subsequently recovered, it can 
+be assumed that eelgrass or algae was entangled on the datalogger for  a period 
+of time. Data was deleted.
+
+9/27 0300 to 9/29 0330 specific conductivity, salinity, temperature data was out 
+of range and deleted. There was no obvious reason for this aberrant data. 
+Because it occurred mid-deployment and the values returned to normal, fouling 
+can probably be ruled out.  Possible temporary interference by floating mats of 
+eelgrass or algae.
+
+Dissolved oxygen (mg/L) data was also out of range for this period and was 
+deleted. %DO is suspect but retained.
+
+There were 190 negative turbidity values <-0.4. Data was deleted.
+
+The following turbidity data was out of range and deleted.
+9/15/02	21:00:00	841.6
+
+October
+No data 10/6 0530, 1000, 1100, 1200, 1430, 1900-1930
+
+No data 10/6 2130 to 10/25 1100 (end of deployment). Instrument stopped 
+recording for unknown reasons. This sonde worked well in the lab after 
+deployment. Battery life was 11.8 volts, 341 days remaining in memory, Ecowatch 
+software on 10/25 indicated that the instrument was still logging data. However 
+there is no data for the dates listed above. It stopped communicating with the 
+1240 radio at the same time it stopped recording data. Several days of erratic 
+data precede the end of the data on 10/6.  Occasionally large thick 
+mats of floating eelgrass have been found wrapped around the buoy and sonde at 
+this site. It's possible that this occurred. This sonde worked well during three 
+subsequent deployments at two different sites and its post deployment 
+calibrations on 10/25 were acceptable.
+
+
+10/1 0930 to 10/6 2100 pH, DO, salinity, specific conductivity and temperature 
+data were all very aberrant for this period of time, possibly due to eelgrass 
+interference. Data was deleted.
+
+10/27 0800 to 10/30 0230 dissolved oxygen data was very erratic and abnormal, 
+with percent DO values as low as 41. Possible probe malfunction or fouling. The 
+data was deleted.
+
+195 negative turbidity values were deleted.
+
+
+November
+No data 11/8 1500, 11/11 1330, 2200 to 2230, 11/12 0300 to 11/13 0930. The 
+instrument failed to record data for unknown reasons.
+
+No dissolved oxygen data 11/4 1600 to 11/8 1430, 11/8 1530. The data was 
+extremely out of range, perhaps owing to eelgrass entanglement, and was deleted.
+
+During the second week in November the water temperature rises, rather than 
+falling, as would be expected. There was an air temperature warm up that week so 
+data is correct.
+
+The following pH value was out of range and deleted.
+6.99 at 1000 on 11/13.
+
+There were 196 turbidity values <-0.4 and 283 >100. Data was deleted.
+
+On 11/18 and during the period between 11/21 and 11/17 the turbidity values that 
+were retained are unusually high for this site.  It is possible that the probe 
+(6136) malfunctioned. The data should be considered suspect.
+
+December
+No data for the month of December. On 12/2 the real time data revealed that the 
+sonde was out of the water at low tide. It was subsequently determined that the 
+entire buoy apparatus broke free of its mooring sometime on 12/1 (a Sunday).
+Since it was impossible to know precisely what time this happened, there is no 
+December data for the GB site. The buoy and instrument were recovered on shore 
+on 12/4.
+
+
+Squamscott River
+April 
+There are approximately 34 points where turbidity data were deleted because they 
+fell outside the accepted range (>100).
+
+No data 4/1 0000 to 4/10 1500 sonde not yet deployed.
+
+No data 4/20 0200 and 4/27 0200. Sonde failed to record for unknown reasons.
+
+May
+No data 5/10 1130 Sonde failed to record for unknown reasons.
+No data 5/24 1100 Sonde failed to record for unknown reasons.
+
+No DO data 5/9 1130 to 5/31 2330 Data below acceptable range, probe failure. 
+Data were deleted.
+
+178 points turbidity data over 100 were deleted. 
+
+5/28 2230 to 5/30 1800 it appeared the turbidity wiper was stuck over the optics 
+during this period since most values were over 1500. Turbidity data deleted.
+
+June
+No data 6/11 2330 sonde failed to record for unknown reasons.
+
+Water temperature climbs to above normal range at the end of June - beginning of 
+July. However the air temperature for much of that time was in the high 80's to 
+low 90's (F). Data is correct.
+
+No DO data 6/1 0000 to 6/18 0830. DO values were well below the acceptable range 
+(probably due to probe failure) and were deleted. Post deployment DO calibration 
+value on 6/18 was 62.3%.
+
+291 points turbidity over 100 were deleted, including 6/20 0900 to 6/25 1430 
+deployment during which the turbidity wiper must have stuck over the optics 
+because all values were over 1600 for this period. Defect in turbidity probes 
+(6136).
+
+July
+63 slightly negative turbidity data ranging from -0.5 to -3.1. These were 
+retained.
+
+Three turbidity values over 1000 were deleted.
+7/13/02	17:30:00	1029.1
+7/14/02	0:00:00	2560.3
+7/16/02	8:00:00	2484.9
+
+August
+The following turbidity data were removed - outside acceptable range.
+8/3/02	14:00:00	120.8
+8/6/02	20:00:00	107.6
+8/7/02	17:00:00	1402.8
+8/9/02	9:00:00	187.2
+8/9/02	10:00:00	101.1
+8/11/02	9:30:00	343.5
+8/12/02	8:00:00	408.5
+8/13/02	7:30:00	168.7
+8/13/02	8:30:00	2486.6
+8/15/02	0:00:00	308.2
+8/18/02	13:00:00	333.4
+8/19/02	11:30:00	811.9
+8/20/02	17:00:00	149.1
+8/22/02	6:00:00	663.6
+8/30/02	9:30:00	178.1
+
+There were 53 slightly negative turbidity values ranging from -0.5 to -3.5. 
+These data were retained.
+
+September
+These DO % and mg/L values were out of range and deleted.
+9/29/02	13:00:00		150.1	11.76
+9/29/02	13:30:00		186.7	14.5
+
+9/28 and 9/29 numerous DO% values fall below 60. These data are below normal 
+range and suspect. Data were retained.
+
+These turbidity values were out of range and deleted.
+9/20/02	13:00:00	1185.7
+9/29/02	2:00:00	990.2
+
+After the 9/12 deployment until the end of the month, depth data is slightly 
+higher than usual. This could be due to a blockage in the pvc tube which would 
+cause the sonde to sit a bit higher in the water.
+
+October
+Dissolved oxygen data aberrant and many points were out of range for the period 
+10/1 0000 to 10/3 0900. Probably due to end of deployment fouling. Data was 
+deleted.
+
+DO and pH began to rise to aberrant levels shortly after the 10/30 deployment. 
+DO and pH data for 10/30 1530 to 2330 was deleted. Possible interference by 
+floating eelgrass or algae.
+
+After 10/16 the salinity at low tides is quite a bit lower than during the first 
+half of the month.  This is due to large rain events on 10/16 and 10/26. The 
+data is correct.
+
+The following negative turbidity data was removed.
+Date		Time		Turb
+10/30/02	17:00:00	-3.4
+10/30/02	20:30:00	-6.2
+10/31/02	10:00:00	-4.6
+10/31/02	10:30:00	-4.2
+10/31/02	11:00:00	-2.5
+10/31/02	11:30:00	-1.2
+
+There were 58 positive turbidity values that were out of range and deleted. Most 
+of these occurred during a deployment where the newer (6136) defective turbidity 
+probe was employed.
+
+November
+The SQ instrument stopped communicating with its radio on 11/8 and resumed on 
+11/16. Since 11/16 was a Saturday, it wasn't discovered until 11/18 that the 
+temperature probe had failed. (Water temperature recorded as high as 44C.) At 
+that time the sonde was replaced at this site. 
+
+11/9 1200 to 11/18 1230 salinity, specific conductivity, temperature data 
+deleted(see above). For the same period of time dissolved oxygen mg/L data was 
+also deleted because it was aberrant as well. DO probe may have failed, or 
+membrane fouled. Post deployment DO% calibration value  was 58.8.
+
+DO data 11/1 0000 to 11/6 1030 steadily rises to out of range levels, possibly 
+due to fouling. Data was deleted. The probe had good pre and post deployment 
+calibrations. This instrument was an EDS sonde and had to be retrieved after 8 
+days of deployment when the radio communication indicated the DO was too high.
+
+DO data 11/12 1930 to 11/18 1230 was deleted due to probe malfunction. 
+
+DO data 11/18 1300 to 11/27 1400, 11/29 1600 to 1900, 11/30 1000 to 1400 and 
+1600 to 2300 was extremely aberrant and deleted. There was no obvious reason, 
+the instrument had acceptable pre and post deployment calibrations. Possible 
+instrument failure.
+
+There were 331 high turbidity values ranging from 103.8 to 1848.5. Most occurred 
+during deployment of the defective 6136 turbidity probe. Data was deleted 
+through 11/6 1030.  
+
+There were 85 negative turbidity values ranging from -0.5 to -6.7. Data was 
+deleted. 
+
+December
+No data 12/3 1030 to 12/31 2330. Sonde removed from the water for the winter 
+months.
+
+No dissolved oxygen data 12/1 0000 to 12/3  1000.  Data was extremely aberrant 
+and deleted. No obvious reason, the probe passed pre and post deployment 
+calibrations.
+
+There were 13 turbidity values <-0.4 and >100. These were deleted.
+
+
+
+Oyster River
+
+April
+No data 4/1 0000 to 4/17 1400. sonde not yet deployed.
+
+The following turbidity data were out of range and deleted.
+04/18/2002	13:30:00	0345
+04/26/2002	18:00:00	0146
+04/26/2002	18:30:00	0279
+04/26/2002	19:00:00	0185
+04/27/2002	07:00:00	0100
+04/28/2002	19:30:00	1313
+04/29/2002	09:00:00	0100
+04/30/2002	01:00:00	0115
+
+May
+The following dissolved oxygen % and mg/L values were out of range and deleted. 
+When the sonde was retrieved on 5/13 the DO membrane had 2 punctures, possibly 
+from crabs, which are found in the sonde guards from time to time. 
+5/11/02	13:30:00	48.7	4.57
+5/12/02	19:30:00	26.5	2.51
+5/13/02	14:00:00	28.4	2.8
+The following dissolved oxygen % and mg/L values were out of range and deleted. 
+5/28/02	23:30:00	34.1	3
+
+The following turbidity data was out of range (probably due to probe 
+malfunction) and deleted.
+5/3/02	12:30:00	102.6
+5/3/02	13:00:00	101.1
+5/3/02	13:30:00	199.3
+5/3/02	14:00:00	130.9
+5/3/02	14:30:00	122.8
+5/3/02	15:00:00	120.5
+5/3/02	15:30:00	105.2
+5/3/02	16:00:00	150.1
+5/10/02	12:30:00	1333
+5/10/02	23:00:00	956.4
+5/11/02	8:30:00	1076.9
+5/11/02	22:30:00	1188.7
+5/12/02	23:00:00	1242
+5/15/02	8:30:00	123.1
+5/15/02	9:00:00	158.6
+5/15/02	9:30:00	175.8
+5/15/02	10:00:00	149.7
+5/15/02	11:30:00	119.2
+5/15/02	12:00:00	109.9
+5/15/02	12:30:00	142.8
+5/16/02	10:00:00	102.7
+5/19/02	9:30:00	205.9
+5/19/02	12:30:00	108.2
+5/19/02	13:00:00	105.7
+5/28/02	16:00:00	1347.2
+
+June
+When the sonde was redeployed on 5/31 it was placed in a slightly shallower 
+location than it had been. This was corrected on 6/6 when the sonde was moved 
+back. As a result of the shallower water, the specific conductivity and salinity 
+values are lower than at the usual site. The data was retained. 
+
+The following DO data was out of range and deleted:
+6/24/02	16:00:00	43.7	3.56
+
+Dissolved oxygen values very high beginning approximately 6/25 until the end of 
+the month. Perhaps due to fouling or probe malfunction. Data is retained but 
+suspect.
+
+There were 80 out of range turbidity data points ranging from 121.4 to 2644.5. 
+Data was deleted. These high values could be caused either by debris or the 
+turbidity wiper covering the optics.
+
+There were 90 slightly negative turbidity data points ranging from -1 to -5. 
+Data was retained.
+
+July
+There were 188 turbidity values that exceeded 100. They ranged from 100.9 to 
+2406.4. Data was deleted.
+
+Between 7/1 0000 and 7/16 1500 there were 39  slightly negative turbidity values 
+ranging from -0001 to -0004. Data was retained.
+
+During the second July deployment which began 7/16 most turbidity values (571) 
+were negative ranging from -0.5 to  -15.1. This instrument was fitted with a new 
+turbidity probe that subsequently was found to be defective. All turbidity data 
+from 7/16 1530 to 7/31 2330 was deleted.
+
+Dissolved oxygen values 7/1 0000 to 7/3 0930 are out of normal range.  This is 
+possibly due to end of deployment probe fouling. Data is retained.
+
+7/7 1600  DO% 13.7 and mg/L  1.03  deleted. Out of range.	
+
+During 7/6 -7/8 some dissolved oxygen values were below the normal range. Data 
+is suspect but retained.
+
+August
+The salinity and specific conductivity values tail off at the ends of both 
+August deployments, (8/9 and 8/20) probably due to sediment fouling. Data is 
+retained.
+
+No data 8/10 1600 to 8/11 1530. It was discovered by reviewing live data being 
+transmitted from the Oyster River site via 1240 radios that the instrument was 
+out of the water at low tide. Apparently it had been moved, perhaps dragged by a 
+boat. The instrument was repositioned the following day. Data was deleted.
+
+New YSI 6136 turbidity probes were used for the three August deployments. It was 
+later found that these probes were defective. During  two deployments (8/1 to 
+8/9 and 8/20 to 8/31) 298 values above the upper range of 99 were found (ranging 
+from 99.7 to 419.1) and 184 negative values between -0.5 and -18.1.
+
+All August turbidity data from this site was deleted.
+
+No pH data 8/9 1100 to 8/20 1130. The data was out of range due to equipment 
+failure and was deleted. The pH probe was new and had successful pre and post 
+deployment calibrations. The sonde was found to have internal problems when it 
+was later returned to YSI for repair.
+
+During August dissolved oxygen values often exceeded 130%. This could be due to 
+fouling or sediment on the probe membrane. All DO data was retained but %DO 
+values over 130 and associated DO mg/l should be considered suspect.
+
+September
+No turbidity data 9/1 2030 to 9/5 0930. The above mentioned faulty 6136 
+turbidity probe was used during this deployment (which began at the end of 
+August). Most values were in excess of 100 with the range 102 - 957.3. Because 
+the probe later was found to be defective, all turbidity data during this period 
+was deleted. It appears the wiper became stuck over the optics.
+
+The DO levels drop below normal levels towards the end of the deployment (9/5) 
+probably due to fouling, data was retained. Also below normal DO values were 
+recorded from 9/13 until the end of the month. As mentioned in the dissolved 
+oxygen probe data qualifier, the reliability of DO data after the first 96 hours 
+post-deployment may be inaccurate due to membrane fouling and should be 
+considered suspect.
+
+There were three slightly negative turbidity values. These were retained.
+9/1/02	12:30:00	-0002
+
+The following turbidity values were out of range and deleted.
+9/20/02	5:00:00	161.5
+9/26/02	1:00:00	107
+9/26/02	13:30:00	198.3
+
+October
+Based on the depth and other data obtained during the 10/1 to 10/29 deployment, 
+it was discovered that the instrument had been moved on 10/14. This sonde is not 
+attached in a fixed position but rather, attached to a mooring. It appears that 
+it was dragged from its position, possibly by a boat on 10/1 at 0730. This was 
+apparent when the data was downloaded post-deployment on 10/29. The instrument 
+was in a shallower location and it appears to have been out of the water at low 
+tide. All data between 10/14 0730 and 10/29 1500 is therefore inaccurate and was 
+deleted.
+
+The following turbidity values were out of range and deleted.
+Date		Time		Turb
+10/6/02	4:00:00	235.7
+10/7/02	8:30:00	577.2
+10/9/02	18:30:00	189.1
+10/12/02	10:00:00	155.8
+10/12/02	13:30:00	210.6
+10/13/02	14:30:00	287.9
+10/30/02	20:30:00	177.7
+
+Some dissolved oxygen data after 10/29 is higher than the normal expected range. 
+Data over 140% should be considered suspect as the post-deployment DO value was 
+126.6%.
+
+November
+No data 11/29 0330. The sonde failed to record for unknown reasons.
+
+The following DO values were out of range and deleted.
+Date		Time		DO% DO mg/L
+11/04/2002	13:00:00	071.8	07.2
+11/04/2002	13:30:00	062.1	06.3
+11/04/2002	14:00:00	066.7	06.7
+
+Any DO data prior to the 11/19 deployment should be considered suspect. Post-
+deployment DO value was 126.6 % Possible reason, fouling of membrane.
+
+Water temperature rises from 11/7 to 11/16. This is not usually seen in 
+November, as typically there is a steady temperature drop. However during this 
+time period a warm-up spell occurred with air temperatures as high as 70 degrees 
+F. (20C). Data is correct.
+
+All data was deleted for 11/18 16:30 to 11/19 1200, 11/19 1930 - 2100 and 11/23 
+2100 to 11/25 0100. It was apparent from the salinity and depth data that the 
+instrument had been moved during these periods and was periodically out of the 
+water.
+
+The following turbidity values were above normal range and deleted.
+Date	  	Time		Turb
+11/05/2002	11:00:00	0453
+11/08/2002	01:30:00	1657
+11/08/2002	02:00:00	0329
+11/10/2002	03:30:00	0128
+11/10/2002	15:00:00	1063
+11/11/2002	13:00:00	0245
+11/12/2002	06:30:00	0977
+11/12/2002	07:00:00	0241
+11/12/2002	09:00:00	0174
+11/12/2002	12:00:00	2682
+11/12/2002	13:00:00	0443
+11/12/2002	13:30:00	0237
+11/12/2002	14:30:00	0560
+11/14/2002	16:30:00	0253
+11/18/2002	09:00:00	0513
+
+
+
+December
+No data 12/2 1430 to 12/31 2330. Instrument removed for the winter.
+
+The following turbidity values were out of range and deleted.
+Date		Time		Turb
+12/01/2002	16:00:00	392.3
+12/01/2002	19:30:00	1497.8
+12/02/2002	06:30:00	310.4
+
+Lamprey River
+April
+No data 4/1 0000 to 4/19 1500. sonde not yet deployed.
+
+There were 380 negative turbidity data points that fell below -0.4. The data was 
+deleted. This turbidity probe was calibrated successfully before deployment; 
+however, the post deployment turbidity reading 2 weeks later was 45.3. So 
+possible probe malfunction was responsible for the excessive negative readings.
+
+One turbidity point was beyond the upper range and was deleted.
+4/25/02	3:00:00	164
+
+
+May
+No dissolved oxygen data 5/29 1500 to 5/30 0630. About an hour after deployment, 
+the sonde recorded negative numbers for about 15 hours. It then recovered and 
+began reporting correct data again. Possibly something stuck to the membrane for 
+this period of time. Data was removed.
+
+No turbidity data 5/1 0000 to 5/8 0930 All values were negative. This probe had 
+a successful pre-deployment calibration, however its post-deployment turbidity 
+reading in zero standard was 45.3. Apparently the probe malfunctioned. The data 
+was deleted.
+
+The following turbidity negative turbidity values were deleted. The 6136 
+turbidity probe used during this deployment was the probe that subsequently 
+proved to be faulty.
+5/29/02	14:30:00	-1
+5/29/02	15:00:00	-0.9
+5/29/02	18:30:00	-0.6
+5/29/02	19:00:00	-0.7
+5/29/02	19:30:00	-0.5
+5/29/02	20:00:00	-0.5
+5/29/02	20:30:00	-0.5
+5/29/02	21:00:00	-0.5
+5/29/02	21:30:00	-0.7
+5/29/02	22:00:00	-0.6
+5/29/02	22:30:00	-1
+5/29/02	23:00:00	-0.8
+5/29/02	23:30:00	-1
+5/30/02	0:00:00	-1.1
+5/30/02	0:30:00	-1.2
+5/30/02	1:00:00	-1.2
+5/30/02	1:30:00	-1.1
+5/30/02	2:00:00	-1.1
+5/30/02	12:00:00	-0.6
+5/30/02	12:30:00	-0.8
+5/30/02	13:00:00	-0.7
+5/30/02	13:30:00	-1
+5/30/02	14:00:00	-0.8
+5/30/02	14:30:00	-1
+5/30/02	15:00:00	-0.5
+5/30/02	23:00:00	-0.5
+5/30/02	23:30:00	-0.7
+5/31/02	0:00:00	-0.9
+5/31/02	0:30:00	-0.6
+5/31/02	1:00:00	-1
+5/31/02	1:30:00	-1
+5/31/02	12:30:00	-0.7
+5/31/02	13:00:00	-0.7
+5/31/02	13:30:00	-0.8
+5/31/02	14:00:00	-0.8
+5/31/02	14:30:00	-1.1
+5/31/02	15:00:00	-1
+
+Between approximately 5/13 and 5/24 the pH values are unusually low. However 
+there were close to 4 inches of rain during this period and the salinity values 
+are near zero. Low pH is not unexpected during fresh water conditions, however 
+numbers below 6 should be considered suspect. Data was retained.
+
+June
+No date 6/10 1000 to 1100. The instrument was brought into the lab to replace a 
+cap onto the data port because the sonde had ceased communicating with the 1240 
+radio. 
+
+No dissolved oxygen data 6/18 2330 to 6/21 1230. The values were very high, 
+beyond accepted range, probably due to end of deployment fouling of the 
+membrane. Data was deleted.
+
+No pH data 6/3 1100 to 6/8 1900. This sonde had good pre and post deployment pH 
+calibrations. During the period in question, the pH values plunged to 
+unacceptable levels, as low as pH 4. Normal readings resumed before the end of 
+the deployment so this probably was not an equipment failure, but rather 
+something obstructing the probe, which then broke free, so that the pH values 
+returned to a normal range. Data was deleted.
+
+There were 563 negative turbidity values <-0.4. Most of these occurred from 
+6/21 to the end of the month during a deployment during which the defective 6136 
+turbidity probe was employed. Data was deleted.
+
+July
+The dissolved oxygen data from approximately 7/16 1800 to 7/25 0800 is 
+abnormally low. This is probably due to end of deployment fouling of the probe. 
+Data is suspect but retained.
+
+pH data 7/10 1400 to 7/25 1230 is out of range (too low). This was most likely 
+due to equipment or probe failure. The pH probe passed pre-deployment 
+calibration, but the post deployment value was 6.24 in standard 7.  The Lamprey 
+River site does not communicate with our telemetry system so problems with data 
+cannot be discovered until the data is downloaded. This pH data was deleted.
+
+The following turbidity values were above normal range and deleted.
+Date	           Time     	Turbidity
+7/21/02	20:30:00	298.1
+7/22/02	12:30:00	278.5
+7/22/02	13:00:00	319.9
+7/22/02	13:30:00	958.5
+7/23/02	16:00:00	173.4
+7/24/02	6:30:00	235.5
+7/24/02	8:30:00	280.3
+7/24/02	9:00:00	415
+7/24/02	9:30:00	382.8
+7/24/02	11:00:00	271.2
+7/25/02	10:00:00	144.9
+
+There were approximately 150 negative turbidity values <-0.4. These were 
+deleted. It appeared that the wiper may have stuck over the optics from time to 
+time.
+
+August
+Between 8/13 0300 and 8/23 1300 the salinity and specific conductivity data was 
+extremely erratic and out of range. Probable cause probe malfunction or fouling. 
+The probe had an acceptable post-deployment calibration. Data was deleted as 
+well as the associated dissolved oxygen mg/l data.
+
+Dissolved oxygen data was out of normal range from 8/1 1700 to 8/4 2300 and 8/27 
+1230 to 1800, possibly due to fouling. Data was deleted.
+
+Numerous %DO values for August exceed 130 or fall below 50. These are suspect 
+but retained. 
+
+pH values out of range 8/6 1130 to 8/23 1300. Post-deployment pH value in 
+standard 7 was 6.04. Probe failure. Data deleted.
+
+The following turbidity values were above normal range and deleted.
+Date		Time		Turbidity
+8/3/02	2:30:00	490.9
+8/3/02	3:00:00	260.1
+8/3/02	3:30:00	143.9
+8/15/02	20:30:00	141.4
+8/16/02	19:00:00	459.8
+8/19/02	6:00:00	172.4
+8/19/02	14:00:00	105.4
+8/22/02	10:00:00	695
+
+There were 148 negative turbidity values <-0.4. Most occurred during the 
+deployment of the defective 6136 turbidity probe. Data was deleted.
+
+September
+No data 9/13 0030 to 9/30 2330. The instrument stopped recording on 9/13. 
+Because this site is not included in our radio telemetry system, it was not 
+discovered until the sonde was downloaded on 10/2 that it stopped recording on 
+9/13. Upon inspection, no obvious reason was found, the batteries were fully 
+charged and the internal memory had capacity for 288 days of logging. The 
+instrument would run in the lab. This sonde was sent back to YSI and it was 
+discovered that it had a bad seal on the cable connector, which allowed 
+water to get into the pins on the bottom of the sonde connector.
+
+Salinity, specific conductivity, pH and dissolved oxygen data from 9/9 1500  to 
+9/13 0000 are suspect because the sonde used for this deployment was 
+subsequently found to be faulty after it was returned to YSI. Data was retained.
+
+All turbidity data was deleted from this file because it was either negative or 
+>3000NTU. Probe failure or malfunction.
+
+October
+No data 10/1 0000 to 10/2 0900 sonde failed to record for unknown reasons.
+
+Salinity and specific conductivity data for approximately the first two weeks of 
+October do not show the typical tidally influenced fluctuations because there 
+was very little rain during this period so the salinity remained high. Data is 
+correct.
+
+From 10/2 0930 to approximately 10/11 1030 the dissolved oxygen values are 
+uncharacteristically low possibly due to membrane fouling. Data is suspect but 
+retained.
+
+No turbidity data 10/2 0930 to 10/30 1000. There were almost 800 data points out 
+of range (-3.1 to 1809). Because  the turbidity probe used (YSI 6136) was later 
+found to have a defect, all data from  this deployment was removed.
+
+The following turbidity values were <-0.4 and deleted.
+Date			Time		Turb
+10/30/2002	13:00:00	-2.1
+10/30/2002	13:30:00	-2.5
+10/30/2002	14:00:00	-2.7
+10/30/2002	14:30:00	-3.1
+10/30/2002	15:00:00	-2.4
+10/30/2002	15:30:00	-0.5
+10/31/2002	02:30:00	-2.5
+10/31/2002	03:00:00	-2.1
+10/31/2002	03:30:00	-2.7
+10/31/2002	04:00:00	-2.3
+10/31/2002	04:30:00	-1.1
+10/31/2002	12:30:00	-0.5
+10/31/2002	14:30:00	-2.6
+10/31/2002	15:00:00	-2.8
+10/31/2002	15:30:00	-2.9
+10/31/2002	16:00:00	-1.6
+10/31/2002	16:30:00	-2.0
+10/31/2002	23:30:00	-0.8
+
+November
+Water temperature rises from 11/7 to 11/16. This is not usually seen in 
+November, as typically there is a steady temperature drop. However during this 
+time period a warm-up spell occurred with air temperatures as high as 70 degrees 
+F. Data is correct.
+
+During these periods, 11/18 1730 to 11/22 1300 and 11/23 2100 to 11/26 1700. pH, 
+DO, salinity, specific conductivity, and temperature data were abnormal.  Data 
+flat lined rather than fluctuating as would be expected. The post deployment 
+calibrations were satisfactory so this was possibly a temporary instrument 
+malfunction. Another possibility is that floating algae or debris was 
+temporarily blocking the probes. Data was removed. Depth data during these 
+periods was aberrant and also removed. This indicated that the instrument 
+may have been moved.
+
+The following turbidity data was out of range and deleted.
+Date		Time	      Turb
+11/01/2002	09:30:00	285.2
+11/04/2002	10:00:00	118.8
+11/06/2002	22:00:00	327.3
+11/10/2002	11:00:00	1146.3
+11/10/2002	17:00:00	257.3
+11/13/2002	20:00:00	569.1
+11/13/2002	20:30:00	274.5
+11/13/2002	21:30:00	134.3
+
+There were 202 negative turbidity values <-0.4. Data was deleted.
+
+From 11/22 1330 to 11/30 23:30 pH values are below the normal range. This data 
+is suspect but retained.
+
+December
+No data 12/3 1030 to 12/31 2330 Instrument was removed for the winter.
+
+From 12/1 through 12/3, some pH values drop below normal range and should be 
+considered suspect. However post-deployment calibration (7 in 7 standard) was 
+satisfactory. Data was retained.
+
+12. Missing Data:
+All missing data is noted with a period (.). Data are missing due to equipment 
+failure, probe failure, or maintenance/calibration of equipment. For more 
+details on the deleted data, see the Data Anomalies Section. To find out more 
+details about missing data, please contact the research technician at the Great 
+Bay site.
+
+
+13. Post deployment information							
+Readings in standard solutions; ph (7), DO (saturated air), specific 
+conductivity (100mS/cm) or salinity (0ppt), depth(0.0 m), turbidity (0.0 NTU).
+							
+
+	Deployment 						
+Site	Date	          DO%    pH	Depth	Turb	Sp. Co.Sal. (0ppt)
+GB	4/10/02	93.1	6.98	-0.15	13.4		0.02
+	5/17/02	101.8	7.26	0.007	-0.4		0.87
+	6/10/02	87.3	2.19	-0.011	-7.1	99.04	
+	7/3/02	101.6	7	0.019	9.1	98.14	
+	7/15/02	101.7	6.94	-0.148	2.6	102.1	
+	7/30/02	100.7	7.59	0.064	-1.6	100.4	
+	8/7/02	76.8	6.89	-0.004	2.2	101.3	
+	8/26/02	64.2	7	-0.278	16.6	64.3	
+	9/11/02	106	6.96	0.052	0.2	102.1	
+	9/26/02	107.2	7.16	0.002	-2.4	98.74	
+	10/25/02	100.4	6.99	-0.133	-0.1	109.3	
+	11/13/02	108.5	6.76	0.323	40.9	100.7	
+							
+	SQUAMSCOTT						
+	4/10/02	106	7.15	-0.072	2.8	99.09	
+	5/9/02	103.3	7.07	0.008	6.3		0.03
+	5/28/02	62.3	7.08	-0.047	17.3		0.65
+	6/20/02	70.7	6.99	-0.147	-2.3	105.2	0.72
+	6/25/02	101.6	6.9	-0.094	5.5	98.14	
+	7/11/02	107.1	6.89	-0.045	3.2	98.63	
+	8/5/02	98.6	7.02	0.064	4.1	97.52	
+	8/22/02	106.2	6.86	-0.056	1.9	98.18	
+	9/12/02	99.2	7	0.294	-0.1	98.54	
+	10/3/02	105.1	6.95	-0.068	0.2	99.58	
+	10/30/02	103.6	7	-0.206	-4.3	101.5	
+	11/6/02	58.8	6.88	0.078	13.7	62.97	
+	11/18/02	105.6	6.88	0.228	41.9	101.3	
+							
+	LAMPREY						
+	4/19/02	99.3	7.12	0.032	45.3	93.23	
+	5/9/02	108.5	6.89	0.013	6.7		0.01
+	5/29/02	251	7.53	-0.075	3.1		0.5
+	6/21/02	98	6.84	-0.13	2.2	98.97	
+	7/10/02	93.6	6.24	0.093	-4	96.63	
+	7/25/02	125.7	6.94	-0.119	6.2	99.8	
+	8/6/02	92.8	6.04	0.64	0.1	98.84	
+	8/23/02	102.6	7.1	-0.083	-2.5	98.62	
+	9/9/02	100.1	6.88	-0.005	3954	106.8	
+	10/2/02	103.7	6.97	0.003	0.9	102.1	
+	10/30/02	99.9	7.09	-0.134	-4.5	110.1	
+	11/18/02	102.3	7	0.149	0.9	98	
+							
+	OYSTER						
+	4/17/02	58	7.06	-0.225	0.2	80	
+	5/14/02	98.5	7.06	0.99	-0.1	97.44	
+	5/31/02	101.9	7.14	0.147	8.8		0.63
+	6/24/02	85.9	6.92	-0.53	-0.3	91.24	
+	7/3/02	99.1	7	0.002	7.8	88.59	
+	7/16/02	98.1	7.22	0.124	-18.1	86.36	
+	8/9/02	86.3	7.1	-0.062	0.2	96.53	
+	8/20/02	101	7.32	0.041	106	83.5	
+	9/5/02	71.8	7.11	0.045	-1.4	98.55	
+	10/1/02	101.2	6.95	0.033	2.6	100.6	
+	10/29/02	126.6	7.28	0.038	2.9	109.6	
+	11/19/02	112.2	6.95	-0.019	-0.1	101.3	.
+
+

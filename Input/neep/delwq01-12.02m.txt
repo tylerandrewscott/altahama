@@ -1,0 +1,1706 @@
+Delaware (DEL) National Estuarine Research Reserve Metadata 
+January-December 2002
+Latest Revision: May 27, 2003
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+Robert Scarborough, Environmental Scientist (P.I.)
+Email: Bob.Scarborough@state.de.us 
+Michael G. Mensinger, Environmental Scientist
+Email: Mike.Mensinger@state.de.us
+David B. Carter, Environmental Program Manager
+e-mail: 	Dave.Carter@state.de.us    
+        		
+Delaware Coastal Programs/National Estuarine Research Reserve Program
+Dept. of Natural Resources & Environmental Control
+Division of Soil & Water Conservation
+818 Kitts Hummock Road
+Dover, Delaware 19901
+Phone: (302) 739-3436
+
+	
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6600 
+datalogger to a PC.  Removing the headers, footers, and spaces on a PC creates 
+edited files.  Missing data from YSI 6000 maintenance (downtime) is inserted 
+into the spreadsheet and are denoted by periods (.).  Data and graphs are 
+visually inspected to find possible anomalies.  Edited and raw files are 
+currently stored on 3.5-inch diskettes.  [Edited and raw data will be archived 
+and stored on IBM 41T workstation].  Data files were QA/QC'd using Excel 5.0 
+CDMO macros. The CDMO cdmomac3.xls macro will allow the user to automatically 
+format column widths to the correct number of decimal places based on YSI sensor 
+specifications.  It also allows the user to QA/QC each data logger generated 
+file for missing data points, fill all cells that do not contain data with 
+periods, and find all data points that fall outside the range of what the data 
+logger is designed to measure (outliers).  The CDMO import.xls macro will allow 
+PC users with 30-minute data to automatically create a monthly Excel file from a 
+two-week deployment and insert periods for missing data.  In addition, in 
+November 1999 a graphing capability was added to this macro allowing users to 
+produce single parameter and missing data point graphs on a monthly basis. 
+Edited files are merged to contain one full month of data.  Edited and merged 
+monthly files are also transferred to NERRS Central Data Management Office.  
+Michael Mensinger is responsible for the editing and archiving of these data.
+
+3.  Research Objectives:
+The principal objective of this study is to record long-term water quality data 
+for Delaware Bay in order to observe any physical changes or trends in water 
+quality over time. The three sites chosen for monitoring will assist in 
+understanding the impacts of both urban and agricultural impacts on the 
+watersheds.  Scotton Landing, Lebanon Landing, and Division Street are located 
+within the St. Jones River watershed, while the Blackbird Landing component is 
+located in the Blackbird Creek watershed.  Measurements are taken every 30 
+minutes over two week collecting periods at the Scotton Landing (SL), Blackbird 
+Landing (BL), Lebanon Landing (LL), and Division Street (DS) sites.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton 
+Landing (St. Jones River) and Blackbird Landing (Blackbird Creek).  In June 1996 
+Penrose Branch (St. Jones River Basin) was added to the monitoring program. 
+Penrose Branch sampling was later discontinued on December 26, 2001. In January 
+2002 the Lebanon Landing, and Division Street sites were added to 
+the monitoring program.  Prior to deployment, a 4" diameter schedule 80 PVC pipe 
+was mounted to a piling at Scotton Landing and a bridge at Blackbird Landing 
+using stainless steel brackets and bolts.  These methods were also used to 
+install a pipe to a piling at the Lebanon Landing dock, and the pumping station 
+bank wall at Division Street. Each YSI 6600 is lowered into the PVC pipe that 
+has eight (8) two-inch diameter holes cut out at the bottom for the probes to 
+have direct contact with the water column.  A large stainless steel bolt was 
+placed at the bottom end of the PVC pipe which maintained each YSI 6600 at each 
+site exactly one foot (30 cm) above the river bottom.  Every half-hour over a 
+two-week period, measurements of specific conductivity, salinity, percent 
+saturation, dissolved oxygen, temperature, pH, and water level are recorded.  
+Seven days after the deployment of each YSI 6600, the dissolved oxygen membrane 
+is cleaned with a Kimwipe dipped in methanol.  Two-week sampling intervals were 
+selected due to limitations created by the dissolved oxygen membrane. At the end 
+of each two-week period, the YSI 6600 is brought back to the office for 
+downloading, cleaning, and recalibration. Calibrations performed include: 
+dissolved oxygen, specific conductivity using Oakton 12,880 uS standard, 
+turbidity using AMCO AEPO-1 Standard at 100 NTU and distilled water, pH using 
+Fisher pH 4.00, 7.00 and 10.00 buffers, and depth.  These procedures are carried 
+out according to the methods as described in the YSI Model 6600 Operating and 
+Service Manual.  After approximately six hours of down time for cleaning and 
+recalibration, the YSI 6600's are redeployed for another two-week period. Data 
+files are QA/QC'd using Excel 5.0 CDMO macros.  Edited files are merged to 
+contain one full month of data.  Edited and merged monthly files are also 
+transferred to NERRS Centralized Data Management Office.
+
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component 
+sites, the St. Jones River and Blackbird Creek components.  Both components are 
+located along the Delaware Bay Coast.   The St. Jones River Component is located 
+in central Kent County Delaware, east of the State Capitol City, Dover.  The 
+Blackbird Creek component is located in the unincorporated area of Southern New 
+Castle County.  There are four sampling sites, three located in the St. Jones 
+component and one in the Blackbird Creek component.
+
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton 
+Landing Public Fishing Pier, just up stream of Delaware Route 113.  The river is 
+22.3 km long (mainstream linear dimension), has an average depth of 4m MHW and 
+the width is 50 m. At the sampling site, the depth is 3.2 m MHW and the width is 
+40 m. The sediment is clayey silt with no bottom vegetation. The watershed-
+draining site is 19778 ha. The site is influenced by freshwater runoff from the 
+relatively urbanized area upstream. Pollutants in the area include PCB's, PAH's, 
+and pesticides.
+
+Salinity ranges from 1- 30 ppt.
+Tidal Range: Spring Mean (m) - 1.26
+Neap Mean (m) - 1.13
+Position: 	Latitude 39 degree 05'  05.9160"  N                              	
+		Longitude  75 degree 27'  38.1049"  W
+
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird 
+Landing Road.  The creek is 25.8 km long (mainstream linear dimension), has an 
+average depth of 3 m MHW, and an average width of 90 m. At the sampling site, 
+the depth is 1.8 m MHW and width is 110 m. The sediment is silty clay with no 
+bottom vegetation. The watershed draining site is 4694 ha. The site is 
+influenced by freshwater runoff from unimpacted forested areas intermixed with 
+agricultural land uses and a small amount of low-density development.  There is 
+very little pollutant presence in the area. 
+	
+Salinity ranges from 0-9 ppt.
+Tidal Range: Spring Mean (m) - 1.12
+Neap Mean (m) - 1.13
+Position:  Latitude      39 degree 23'  19.5196"  N
+	     Longitude   75 degree 38'  09.5882"  W
+
+3) Lebanon Landing- is located in the mid portion of the St. Jones River at the 
+Lebanon Landing Public Fishing Pier, farther upstream from the Scotton Landing 
+monitoring site. The St. Jones River is 22.3 km long (mainstream linear 
+dimension), has an average depth of 4m MHW and the width is 50 m. At the 
+sampling site, the depth is 3.0 m MHW and the width is 
+28 m. The sediment is clayey silt with no bottom vegetation. The watershed-
+draining site is 19778 ha. The site is influenced by freshwater runoff from the 
+relatively urbanized area upstream. Pollutants in the area include PCB's, PAH's, 
+and pesticides. .
+
+Salinity ranges from 0 to 28ppt.
+Tidal Range: Spring Mean (m) - 0.855
+Neap Mean (m) -  0.671
+Position:	 Latitude      39 degree 06'  51.8"  N
+		 Longitude   75 degree 29'  57.1"  W
+
+4) Division Street- is located in the upper portion of the St. Jones River near 
+the USGS station on Division Street. The site is influenced by runoff from the 
+urbanized surroundings. The St. Jones River is 22.3 km long (mainstream linear 
+dimension), has an average depth of 4m MHW and the width is 50 m. At the 
+sampling site, the depth is 0.6m MHW and the width is 
+26 m. The sediment is clayey silt with no bottom vegetation. The site is fresh 
+water and is influenced by urban freshwater runoff. The watershed draining site 
+is 4694 ha. Pollutants in the area include PCB's, PAH's, and pesticides.
+
+Salinity Range: Fresh water (0.1 ppt)
+Tidal Range: Not Applicable, freshwater
+Position:	Latitude      39 degree 09'  49.4"  N
+Longitude   75 degree 31'  08.7"  W
+
+
+
+6.  Data collection period:
+
+Data collection began for these sites on the following dates:
+
+a) Scotton Landing: July 1, 1995
+b) Blackbird Landing: July 14, 1995
+c) Lebanon Landing: January 01, 2002
+d) Division Street: January 31, 2002
+
+
+All sampling is ongoing. The deployment/retrieval dates and times for 2001 are 
+as follows:
+
+Scotton Landing
+
+BEGAN				ENDED
+
+12/26/2001, 16:00:00		01/11/2002, 10:00:00
+01/11/2002, 15:00:00		02/01/2002, 10:30:00
+02/01/2002, 16:00:00		02/21/2002, 08:00:00
+02/21/2002, 15:30:00		03/12/2002, 10:00:00
+03/12/2002, 17:00:00		04/03/2002, 08:00:00
+04/03/2002, 14:30:00		04/15/2002, 07:30:00
+04/15/2002, 13:30:00		05/01/2002, 07:00:00
+05/01/2002, 15:30:00		05/15/2002, 06:30:00
+05/15/2002, 15:00:00		05/31/2002, 07:00:00
+05/31/2002, 15:00:00		06/11/2002, 07:00:00
+06/11/2002, 14:30:00		06/26/2002, 08:30:00
+06/26/2002, 15:00:00		07/09/2002, 07:30:00
+07/09/2002, 14:00:00		07/24/2002, 11:30:00
+07/24/2002, 16:00:00		08/06/2002, 07:00:00
+08/06/2002, 13:00:00		08/21/2002, 07:30:00
+08/21/2002, 14:00:00		09/04/2002, 05:30:00
+09/04/2002, 13:00:00		09/19/2002, 09:00:00
+09/19/2002, 15:00:00		10/02/2002, 07:00:00
+10/02/2002, 13:00:00		10/16/2002, 14:00:00
+10/16/2002, 18:00:00		11/06/2002, 09:00:00
+11/06/2002, 15:00:00		11/27/2002, 08:00:00
+11/27/2002, 14:00:00		12/18/2002, 08:00:00
+12/18/2002, 14:30:00		01/08/2003, 08:00:00 
+
+Blackbird Landing
+
+BEGAN				ENDED
+
+12/19/2001, 16:00:00		01/02/2002 14:00:00
+01/02/2002, 17:00:00		01/16/2002, 06:30:00
+01/16/2002, 17:00:00		02/06/2002, 08:30:00
+02/06/2002, 16:30:00		03/01/2002, 08:30:00
+03/01/2002, 16:30:00		03/06/2002, 07:00:00
+03/06/2002, 17:00:00		03/07/2002, 12:30:00
+03/07/2002, 17:30:00		03/20/2002, 07:00:00
+03/20/2002, 17:00:00		04/11/2002, 06:00:00
+04/11/2002, 15:30:00		04/25/2002, 06:00:00
+04/25/2002, 15:30:00		05/10/2002, 06:00:00
+05/10/2002, 14:30:00		05/22/2002, 06:00:00
+05/22/2002, 16:30:00		06/05/2002, 06:00:00
+06/05/2002, 15:30:00		06/17/2002, 07:30:00
+06/17/2002, 16:00:00		07/03/2002, 05:30:00
+07/03/2002, 15:00:00		07/17/2002, 06:00:00
+07/17/2002, 15:30:00		07/31/2002, 05:30:00
+07/31/2002, 15:00:00		08/14/2002, 06:00:00
+08/14/2002, 15:00:00		08/30/2002, 05:30:00
+08/30/2002, 15:30:00		09/11/2002, 05:30:00
+09/11/2002, 15:00:00		09/25/2002, 06:00:00
+09/25/2002, 15:00:00		10/15/2002, 06:00:00
+10/15/2002, 14:00:00		10/29/2002, 11:00:00
+10/29/2002, 17:30:00		11/15/2002, 06:00:00
+11/15/2002, 16:00:00		12/04/2002, 06:00:00
+***Deployments ended due to ice conditions***
+
+Lebanon Landing
+
+BEGAN				ENDED
+
+12/31/2001, 23:30:00		01/11/2002, 09:30:00
+01/11/2002, 15:00:00		01/21/2002, 10:30:00
+01/21/2002, 13:30:00		02/01/2002, 10:30:00
+02/01/2002, 16:00:00		02/21/2002, 08:30:00
+02/21/2002, 15:30:00		03/12/2002, 10:30:00
+03/12/2002, 16:00:00		04/03/2002, 08:00:00
+04/03/2002, 14:30:00		04/15/2002, 07:30:00
+04/15/2002, 14:00:00		05/01/2002, 07:30:00
+05/01/2002, 15:00:00		05/15/2002, 07:00:00
+05/15/2002, 15:00:00		05/31/2002, 07:30:00
+05/31/2002, 14:30:00		06/11/2002, 10:30:00
+06/11/2002, 14:30:00		06/26/2002, 08:30:00
+06/26/2002, 15:00:00		07/09/2002, 07:30:00
+07/09/2002, 14:00:00		07/24/2002, 12:00:00
+07/24/2002, 16:30:00		08/06/2002, 07:30:00
+08/06/2002, 14:30:00		08/21/2002, 07:30:00
+08/21/2002, 14:30:00		09/04/2002, 06:00:00
+09/04/2002, 12:30:00		09/19/2002, 09:00:00
+09/19/2002, 15:00:00		10/02/2002, 07:30:00
+10/02/2002, 13:00:00		10/16/2002, 14:30:00
+10/16/2002, 18:00:00		11/06/2002, 09:30:00
+11/06/2002, 15:00:00		11/27/2002, 08:30:00
+11/27/2002, 14:00:00		12/18/2002, 08:30:00
+12/18/2002, 15:00:00		01/08/2003, 08:30:00
+
+Division Street
+
+BEGAN				ENDED
+
+01/31/2002, 16:00:00		02/21/2002, 09:00:00
+02/21/2002, 15:30:00		03/12/2002, 10:30:00
+03/12/2002, 16:30:00		04/03/2002, 08:30:00
+04/03/2002, 14:30:00		04/15/2002, 08:00:00
+04/15/2002, 14:00:00		05/01/2002, 08:00:00
+05/01/2002, 15:00:00		15/15/2002, 07:00:00
+05/15/2002, 14:00:00		05/31/2002, 08:00:00
+05/31/2002, 15:00:00		06/11/2002, 07:30:00
+06/11/2002, 14:30:00		06/26/2002, 07:30:00
+06/26/2002, 15:00:00		07/09/2002, 08:00:00
+07/09/2002, 14:00:00		07/24/2002, 11:00:00
+07/24/2002, 17:00:00		08/06/2002, 08:00:00
+08/06/2002, 13:30:00		08/21/2002, 08:00:00
+08/21/2002, 14:30:00		09/04/2002, 06:00:00
+09/04/2002, 12:00:00		09/19/2002, 09:30:00
+09/19/2002, 15:00:00		10/02/2002, 08:00:00
+10/02/2002, 13:00:00		10/17/2002, 09:00:00
+10/17/2002, 15:00:00		11/06/2002, 09:30:00
+11/06/2002, 15:30:00		11/27/2002, 08:30:00
+11/27/2002, 14:30:00		12/18/2002, 08:30:00
+12/18/2002, 15:00:00		01/08/2003, 09:00:00
+
+
+a) Distribution
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program,
+
+	NOAA/ERD retains the right to analyze, synthesize, and publish summaries 
+of the NERRS System-wide Monitoring Program data. The PI retains the right to be 
+fully credited for having collected and processed the data. Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used. Manuscripts resulting from the NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and Coastal 
+Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration. The data set enclosed within this packet/transmission is only as 
+good as the quality assurance and quality control procedures outlined by the 
+enclosed metadata reporting statement. The user bears all responsibility for its 
+subsequent use/misuse in any further analyses or comparisons. The Federal 
+government does not assume liability to the Recipient of third persons, nor will 
+the Federal government reimburse or indemnify the Recipient for its liability 
+due to any losses resulting in any way from the use of this data.
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see section 1. Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under general information 
+link on CDMO homepage) and online at the CDMO homepage 
+http://cdmo.baruch.sc.edu/. Data are available in text tab-delimited 
+format, Microsoft Excel spreadsheet format, and comma-delimited format.
+		
+8.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway 
+in the upper reaches of the St. Jones River Basin.  This project includes flow 
+weighted stormwater sampling to quantify pollutant loads from each of the major 
+land uses found in the Basin.
+An additional stormwater sampling program is underway to analyze the impact of 
+agricultural BMP's at sites in the Blackbird Creek Watershed, St. Jones River 
+Watershed. 
+A joint effort underway through NOAA's Center for Coastal Ecosystem Health and 
+the DNERR characterization studies will initiate detailed monthly water quality 
+sampling at three sites in each river over a two year period and will quantify 
+the phytoplankton community with collections from the same sites.   This project 
+was scheduled to be initiated in February 1995.
+(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+9.  Variable sequence, range of measurements, units, resolution, and accuracy:
+YSI 6000/6600 datalogger
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line
+column header at the top of the page which identifies measurements and 
+units for each column.
+
+The reliability of the dissolved oxygen (DO) data after 96 hours post-deployment 
+for non-EDS (Extended Deployment System) data sondes may be problematic due to 
+fouling which forms on the DO probe membrane during some deployments
+(Wenner et al. 200*).  Many Reserves have upgraded to YSI 6600 EDS data sondes, 
+which increase DO accuracy and longevity by reducing the environmental effects 
+of fouling.  The user is therefore advised to consult the metadata and to 
+exercise caution when utilizing the DO data beyond the initial 96-hour time 
+period.  However, this potential drift is not always problematic for some uses 
+of the data, ie. periodicity analysis. It should be noted that the amount of 
+fouling is site specific and that not all data are affected.  The Research 
+Coordinator at the specific NERR site should be contacted concerning the 
+reliability of the DO data because of the site and seasonal variation in the 
+fouling of the DO sensor. All data sondes used at DNERR sites in 2002 were non-
+EDS models.
+
+The NERRS System-Wide Monitoring Program utilizes YSI data sondes that can
+be equipped with either depth or water level sensors.  Both sensors measure 
+water depth, but by convention, level sensors refer to atmospherically vented 
+measurements and depth refers to non-vented measurements.  Standard calibration 
+protocols for the non-vented sensor use the atmosphere pressure at the time of 
+calibration.  Therefore, changes in atmospheric pressure between calibrations 
+appear as changes in water depth.  The error is equal to approximately 1.03 cm 
+for every 1millibar change in atmospheric pressure.  This error is eliminated 
+for level sensors because they are vented to the atmosphere throughout the 
+deployment time interval.  If proper atmospheric pressure data is available, 
+non-vented sensor depth measurements can be corrected for deployments between 
+calibrations. Readings for both vented and non-vented sensors are automatically 
+compensated for water density changes due to variations in temperature and 
+salinity.  The Research Coordinator at the specific NERR site should be 
+contacted in order to obtain information regarding atmospheric pressure data 
+availability. All data sondes used at the DNERR sites in 2002 were non-vented 
+models.
+
+
+10. Coded variable indicator and variable code definitions:
+Site definitions: SL = Scotton Landing, BL = Blackbird Landing, LL= Lebanon 
+Landing, DS= Division Street 
+
+11. Data anomalies (suspect data):
+
+
+January 1, 2002 through March 31, 2002
+
+A. Scotton Landing
+
+a) No anomalous data for the month of January.
+b) No data are available between January 11, 2002 10:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between February 01, 2002 11:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) Turbidity (NTU) value on February 05, 2002 23:30:00 out of range, 1605, 
+possible obstruction, data retained.
+e) No data are available between February 21, 2002 08:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) Turbidity (NTU) value on March 04, 2002 15:00:00 out of range, 1671, possible 
+obstruction, data retained
+g) No data are available between March 12, 2002 10:30:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+B. Blackbird Landing
+
+a) Turbidity (NTU) value on January 02, 2002 11:30:00 out of range, 1421, 
+possible obstruction, data retained.
+b) No data are available between January 02, 2002 14:30:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) Turbidity (NTU) value on January 04, 2002 02:30:00 out of range, 1716, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on January 04, 2002 16:00:00 out of range, 1718, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on January 14, 2002 00:30:00 out of range, 1734, 
+possible obstruction, data retained.
+f) Turbidity (NTU) value on January 15, 2002 21:30:00 out of range, 1563, 
+possible obstruction, data retained.
+g) No data are available between January 16, 2002 07:00:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+h) Turbidity (NTU) value on February 01, 2002 10:00:00 out of range, 1769, 
+possible obstruction, data retained.
+i) Turbidity (NTU) value on February 02, 2002 00:30:00 out of range, 1773, 
+possible obstruction, data retained.
+j) Turbidity (NTU) value on February 04, 2002 14:00:00 out of range, 1748, 
+possible obstruction, data retained.
+k) Turbidity (NTU) value on February 05, 2002 05:30:00 out of range, 1732, 
+possible obstruction, data retained.
+l) No data are available between February 06, 2002 09:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+m) Turbidity (NTU) value on February 11, 2002 09:00:00 out of range, 1408, 
+possible obstruction, data retained.
+n) Turbidity (NTU) value on February 11, 2002 11:30:00 out of range, 1407, 
+possible obstruction, data retained.
+o) Turbidity (NTU) values on February 11, 2002 21:30 through February 12, 2002 
+00:30:00 large consecutive block of high positive values followed by return to 
+normal lower level. Reason not apparent, data retained.
+p) Turbidity (NTU) value on February 12, 2002 23:30:00 out of range, 1402, 
+possible obstruction, data retained.
+q) Turbidity (NTU) value on February 13, 2002 00:00:00 out of range, 1402, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on February 17, 2002 11:00:00 out of range, 1406, 
+possible obstruction, data retained.
+s) Turbidity (NTU) value on February 25, 2002 07:30:00 out of range, 1412, 
+possible obstruction, data retained.
+t) Turbidity (NTU) values on February 28, 2002 10:00:00 through 13:00:00 show 
+large consecutive block of high positive values. Reason not apparent, data 
+retained.
+u) Turbidity (NTU) values on February 28, 2002 22:00:00 through 23:30:00 show 
+large consecutive block of high positive values. Reason not apparent, data 
+retained.
+v) No data are available between March 01, 2002 09:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+w) Depth (m) value on March 4, 2002 11:30:00 is zero. After assessing the 
+corresponding conductivity/salinity readings, it appears that all probes 
+remained in the water. Due to the potential error in depth reading attributed to 
+changes in barometric pressure, data was retained.
+x) No data are available between March 06, 2002 07:30:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+y) Turbidity values from March 06, 2002 17:00:00 through March 07, 2002 12:30:00 
+are not valid, data deleted. Sonde software needed to be updated in order to use 
+the new 6136 probe. Upon learning this, the software was immediately upgraded on 
+March 07, 2002. 
+z) No data are available between March 07, 2002 13:00:00 through 17:00:00 
+downtime for maintenance, calibration, and service of datalogger. Sonde software 
+was updated to Version 2.16 (old version was 2.14).
+aa) No data are available between March 20, 2002 07:30:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+C. Lebanon Landing
+
+a) Turbidity (NTU) values absent between January 01, 2001 00:00:00 through 
+January 21, 2001 10:30:00, turbidity sensor turned off while awaiting new 
+turbidity probe from YSI.
+b) No data are available between January 11, 2002 10:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between January 21, 2002 11:00:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) DO (% and mg/l) readings from January 21, 2002 14:00:00 through February 01, 
+2002 10:30:00 were substantially lower than previous and future data sets. 
+Values decreased substantially after deployment on January 21, 2002 and returned 
+to normal range after deployment on February 01, 2002. Low DO readings are 
+abnormal for colder water temperatures at this site, data removed from data set. 
+e) No data are available between February 01, 2002 11:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between February 21, 2002 09:00:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) No data are available between March 12, 2002 11:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+h) Turbidity (NTU) value on March 17, 2002 13:00:00 out of range, 1005, possible 
+obstruction, data retained.
+
+D. Division Street
+
+a) No data are available between January 02, 2002 00:00:00 through January 31, 
+2002 15:30:00, sonde tube for new site was not installed at this time.
+b) Turbidity (NTU) values absent between January 31, 2001 16:00:00 through March 
+12, 2002 10:30:00, new model 6136 turbidity probes were not shipped, therefore 
+readings and probe usage were impossible.  
+c) No data are available between February 21, 2002 09:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) No anomalous data for the month of March.
+e) No data are available between March 12, 2002 11:00:00 through 16:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+April 1, 2002 through June 30, 2002
+
+A. Scotton Landing
+
+a) No data are available between April 03, 2002 08:30:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between April 15, 2002 08:00:00 through 13:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) No data are available between May 01, 2002 07:30:00 through 15:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+d) No data are available between May 15, 2002 07:00:00 through 14:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+e) Turbidity (NTU) value on May 20, 2002 11:30:00 out of range, 1674, possible 
+obstruction, data retained.
+f) Turbidity (NTU) value on May 22, 2002 23:30:00 out of range, 1666, possible 
+obstruction, data retained.
+g) No data are available between May 31, 2002 07:30:00 through 14:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+h) No data are available between June 11, 2002 07:30:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+i) D.O. values (% saturation and concentration) between June 11, 2002 14:30:00 
+through June 26, 2002 08:30:00 were unreliable; DO membrane found to be torn 
+upon retrieval of sonde, data removed.
+j) Turbidity (NTU) value on June 25, 2002 17:30:00 out of range, 1477, possible 
+obstruction, data retained.
+k) No data are available between June 26, 2002 09:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+B. Blackbird Landing
+
+a) No data are available between April 11, 2002 06:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between April 25, 2002 06:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) Turbidity (NTU) value on May 09, 2002 04:00:00 out of range, 1980, possible 
+obstruction, data retained.
+d) All parameters suspect due to low battery reading of 8.2 volts beginning May 
+08, 2002 07:00:00 through end of deployment May 10, 2002 06:00:00.
+e) D.O. values (% saturation and concentration) between May 08, 2002 19:30:00 
+through May 10,2002 03:30:00 were deleted. The graph of these values flatlined 
+at the end of deployment and were not consistent with the rest of the data set.
+f) D.O. values (%saturation and mg/l) between May 10, 2002 04:00:00 through 
+05:00:00 were deleted due to negative and zero values on these readings.
+g) D.O. values (% saturation and concentration) on May 10, 2002 05:30:00, 0% and 
+000.0 mg/l were deleted. The graph of these values flatlined at the end of 
+deployment and were not consistent with the rest of the data set.
+h) D.O. values (% saturation and concentration) on May 10, 2002 06:00:00 were 
+deleted due to negative and zero values, -000.2% and 00.0 mg/l, associated with 
+these readings.
+i) No data are available between May 10, 2002 06:30:00 through 14:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+j) No data are available between May 22, 2002 06:30:00 through 16:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+k) D.O. values (% saturation and concentration) between May 28, 2002 00:00:00 
+and June 05, 2002 06:00:00 were deleted due to suspect values caused by D.O. 
+probe membrane rupture discovered on June 05, 2002.
+l) No data are available between June 05, 2002 06:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+m) Turbidity (NTU) value on June 08, 2002 08:00:00 out of range, 1854.3, 
+possible obstruction, data retained.
+n) Turbidity (NTU) value on June 10, 2002 16:00:00 out of range, 1030.2, 
+possible obstruction, data retained.
+o) Turbidity (NTU) value on June 12, 2002 20:00:00 out of range, 1867.5, 
+possible obstruction, data retained.
+p) Low DO values beginning June 13, 2002 03:30:00 through end of deployment 
+possibly due to cloudy/stormy weather. PAR values in weather data show declines 
+from 50,000 down to 8,000 inhibiting biological processes. Data retained. 
+q) Turbidity (NTU) value on June 14, 2002 23:00:00 out of range, 2571.7, 
+possible obstruction, data retained.
+r) Turbidity (NTU) value on June 16, 2002 10:30:00 out of range, 1703.2, 
+possible obstruction, data retained.
+s) No data are available between June 17, 2002 08:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+t) Turbidity (NTU) value on June 21, 2002 06:00:00 out of range, 1119.7, 
+possible obstruction, data retained.
+u) Turbidity (NTU) value on June 23, 2002 09:00:00 out of range, 1871.2, 
+possible obstruction, data retained.
+
+
+C. Lebanon Landing
+
+a) Turbidity (NTU) value on April 03, 2002 08:00:00 out of range, 1293, possible 
+obstruction, data retained.
+b) No data are available between April 03, 2002 08:30:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) Turbidity (NTU) value on April 10, 2002 22:30:00 out of range, 1919, possible 
+obstruction, data retained.
+d) No data are available between April 15, 2002 08:00:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) Dissolved Oxygen values were deleted April 22, 2002 06:00:00 through end of 
+deployment May 01, 2002 07:30:00 due to torn membrane. 
+f) Turbidity (NTU) value on April 20, 2002 06:00:00 out of range, 2067, possible 
+obstruction, data retained.
+g) Turbidity (NTU) value on April 20, 2002 17:30:00 out of range, 1059, possible 
+obstruction, data retained.
+h) Turbidity (NTU) value on April 25, 2002 16:30:00 out of range, 1635, possible 
+obstruction, data retained.
+i) No data are available between May 01, 2002 08:00:00 through 14:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+j) Dissolved Oxygen values were deleted May 01, 2002 15:00:00 through end of 
+deployment May 15, 2002 07:00:00 due to torn membrane. 
+k) No data are available between May 15, 2002 07:30:00 through 14:30:00 downtime 
+for maintenance, calibration, and service of datalogger.
+l) D.O. values (% saturation and concentration) between May 15, 2002 15:00:00 
+through May 31, 2002 07:30:00 are unreliable due to membrane rupture. Data were 
+deleted for this timeframe.
+m) High pH values possibly due to calibration difficulties were deleted between 
+May 15, 2002 15:00:00 through May 31, 2002 07:30:00. 
+n) Turbidity (NTU) value on May 23, 2002 06:00:00 out of range, 1699, possible 
+obstruction, data retained.
+o) Turbidity (NTU) value on May 23, 2002 06:30:00 out of range, 1697, possible 
+obstruction, data retained.
+p) No data are available between May 31, 2002 08:00:00 through 14:00:00 downtime 
+for maintenance, calibration, and service of datalogger.
+q) Turbidity (NTU) value on June 03, 2002 17:30:00 out of range, 1891, possible 
+obstruction, data retained.
+r) Turbidity (NTU) value on June 08, 2002 04:00:00 out of range, 1747, possible 
+obstruction, data retained.
+s) Turbidity (NTU) value on June 08, 2002 16:30:00 out of range, 1848, possible 
+obstruction, data retained.
+t) Turbidity (NTU) value on June 09, 2002 08:30:00 out of range, 1096, possible 
+obstruction, data retained.
+u) Turbidity (NTU) value on June 10, 2002 17:00:00 out of range, 1931, possible 
+obstruction, data retained.
+v) Turbidity (NTU) value on June 10, 2002 21:00:00 out of range, 1886, possible 
+obstruction, data retained.
+w) Turbidity (NTU) value on June 11, 2002 01:30:00 out of range, 1450, possible 
+obstruction, data retained.
+x) No data are available between June 11, 2002 11:00:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+y) No data are available between June 26, 2002 09:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+z) D.O. values (% saturation and concentration) between June 29, 2002 04:00:00 
+through June 30, 2002 23:30:00 are unreliable due to membrane rupture. Data were 
+deleted for this timeframe.
+
+
+D. Division Street
+a) No data are available between April 03, 2002 09:00:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) No data are available between April 15, 2002 08:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) Turbidity (NTU) values from April 15, 2002 14:30:00 through 19:00:00 are out 
+of range, small negative numbers, most likely due to calibration error thus data 
+retained and should be read as zero.
+d) Turbidity (NTU) value on April 15, 2002 20:30:00 out of range, -0001, most 
+likely due to calibration error, data retained and read as should be read as 
+zero.
+e) Turbidity (NTU) value on April 15, 2002 22:00:00 out of range, -0001, most 
+likely due to calibration error, data retained and read as should be read as 
+zero.
+f) Turbidity (NTU) value on April 16, 2002 02:30:00 out of range, -0001, most 
+likely due to calibration error, data retained and read as should be read as 
+zero.
+g) Turbidity (NTU) values from April 16, 2002 09:30:00 through 23:00:00 are out 
+of range, small negative numbers, most likely due to calibration error thus data 
+retained and should be read as zero.
+h) Turbidity (NTU) values from April 17, 2002 00:00:00 through 00:30:00 are out 
+of range, small negative numbers, most likely due to calibration error thus data 
+retained and should be read as zero.
+i) Turbidity (NTU) value on April 17, 2002 01:30:00 out of range, -0001, most 
+likely due to calibration error, data retained and read as should be read as 
+zero.
+j) Turbidity (NTU) values from April 17, 2002 04:30:00 through 05:00:00 out of 
+range, 0000, data retained.
+k) Turbidity (NTU) values from April 17, 2002 08:30:00 through April 18, 2002 
+01:00:00 are out of range, small negative numbers, most likely due to 
+calibration error thus data retained and should be read as zero.
+l) Turbidity (NTU) values from April 18, 2002 02:30:00 through 04:00:00 are out 
+of range, small negative and zero values, most likely due to calibration error 
+thus data retained and should be read as zero.
+m) Turbidity (NTU) value on April 18, 2002 06:00:00 out of range, 0000, data 
+retained.
+n) Turbidity (NTU) values from April 18, 2002 07:30:00 through 08:00:00 are out 
+of range, small negative numbers, most likely due to calibration error thus data 
+retained and should be read as zero.
+o) Turbidity (NTU) values from April 18, 2002 10:30:00 out of range, 0000, data 
+retained.
+p) Turbidity (NTU) values from April 18, 2002 11:30:00 through 12:00:00 out of 
+range, 0000, data retained.
+q) Turbidity (NTU) value on April 19, 2002 16:30:00 is small negative value, -
+0001, most likely due to calibration error, data retained.
+r) Dissolved oxygen (percent saturation and concentration) were deleted April 
+19, 2002 21:00:00 through April 27, 2002 04:00:00 due to ruptured membrane. 
+s) Turbidity (NTU) value on April 20, 2002 02:30:00 is small negative value, -
+0003, most likely due to calibration error, data retained.
+t) Turbidity (NTU) value on April 20, 2002 03:30:00 is small negative value, -
+0002, most likely due to calibration error, data retained.
+u) Turbidity (NTU) value on April 20, 2002 04:30:00 is zero value, data 
+retained.
+v) Turbidity (NTU) values from April 20, 2002 05:30:00 through 07:30:00 are out 
+of range, small negative numbers, most likely due to calibration error thus data 
+retained and should be read as zero.
+w) Turbidity (NTU) value on April 20, 2002 09:00:00 is small negative value, -
+0001, most likely due to calibration error, data retained.
+x) Turbidity (NTU) value on April 20, 2002 11:30:00 is small negative value, -
+0001, most likely due to calibration error, data retained.
+y) Turbidity (NTU) value on April 20, 2002 12:30:00 is zero value, data 
+retained.
+z) Turbidity (NTU) values from April 20, 2002 13:30:00 through 15:30:00 are 
+small negative values, -0001, most likely due to calibration error, data 
+retained.
+aa) No data available from April 27, 2002 04:30:00 through May 01, 2002 
+08:00:00.  
+Sonde did not record data due to battery failure caused by sonde taking readings 
+at 1 minute intervals. The dswq050102.csv file was created by pulling the 30 
+minute readings out of the original DAT file.
+bb) No data are available between May 01, 2002 08:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+cc) No data are available between May 15, 2002 07:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+dd) Turbidity (NTU) value on May 28, 2002 21:30:00 out of range, 1131, due to 
+fouling, data retained.
+ee) Turbidity (NTU) value on May 28, 2002 22:00:00 out of range, 1288, due to 
+fouling, data retained.
+ff) Turbidity (NTU) value on May 28, 2002 23:30:00 out of range, 1469, due to 
+fouling, data retained.
+gg) Turbidity (NTU) value on May 29, 2002 01:00:00 out of range, 1470, due to 
+fouling, data retained.
+hh) Turbidity (NTU) value on May 30, 2002 19:30:00 out of range, 1504, due to 
+fouling, data retained.
+ii) No data are available between May 31, 2002 08:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+jj) No data are available on June 05, 2002 13:30:00, sonde out of water for DO 
+membrane wipe.
+kk) No data are available between June 11, 2002 08:00:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+ll) No data are available between June 26, 2002 08:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+July 1, 2002 through September 30, 2002
+
+A. Scotton Landing
+
+a) Turbidity (NTU) value on July 06, 2002 16:30:00 out of range, 1229.9, 
+possible obstruction, data retained.
+b) Turbidity (NTU) value on July 07, 2002 04:30:00 out of range, 1134.8, 
+possible obstruction, data retained.
+c) Turbidity (NTU) value on July 08, 2002 15:00:00 out of range, 1105.7, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on July 08, 2002 21:30:00 out of range, 1196, 
+possible obstruction, data retained.
+e) Turbidity (NTU) value on July 09, 2002 0:00:00 out of range, 1109, possible 
+obstruction, data retained.
+f) Turbidity (NTU) value on July 09, 2002 03:00:00 out of range, 1766.1, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on July 09, 2002 03:30:00 out of range, 1309.1, 
+possible obstruction, data retained.
+h) No data are available between July 09, 2002 08:00:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+i) Turbidity (NTU) value on July 20, 2002 16:30:00 out of range, 1337.7, 
+possible obstruction, data retained.
+j) No data are available between July 24, 2002 12:00:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+k) D.O. values (% saturation and concentration) from August 04, 2002 03:30:00 
+through August 06, 2002 07:00:00 were deleted. D.O. membrane rupture caused 
+negative values from August 04, 2002 14:00:00 through 16:30:00; rupture believed 
+to occur near the period of negative values.
+l) Turbidity (NTU) value on August 05, 2002 15:00:00 out of range, 1156.5, 
+possible obstruction, data retained.
+m) No data are available between August 06, 2002 07:30:00 through 12:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+n) No data are available between August 21, 2002 08:00:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+o) Turbidity (NTU) value on August 21, 2002 19:30:00 out of range, 1449.2, 
+possible obstruction, data retained.
+p) No data are available between September 04, 2002 06:00:00 through 12:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+q) Turbidity (NTU) value on September 14, 2002 00:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+r) Turbidity (NTU) value on September 14, 2002 04:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+s) Turbidity (NTU) value on September 14, 2002 05:00:00 out of range, 0000. Most 
+likely due to calibration error, data retained.
+t) Turbidity (NTU) value on September 16, 2002 05:30:00 out of range, 0000. Most 
+likely due to calibration error, data retained.
+u) Turbidity (NTU) value on September 16, 2002 06:30:00 out of range, 0000. Most 
+likely due to calibration error, data retained.
+v) Turbidity (NTU) value on September 17, 2002 04:30:00 out of range, -001. Most 
+likely due to calibration error, data retained.
+w) No data are available between September 19, 2002 09:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+x) Turbidity (NTU) value on September 19, 2002 22:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+y) Turbidity (NTU) value on September 20, 2002 10:30:00 out of range, 0000. Most 
+likely due to calibration error, data retained.
+z) Turbidity (NTU) value on September 23, 2002 07:30:00 out of range, 0000. Most 
+likely due to calibration error, data retained.
+aa) Turbidity (NTU) value on September 24, 2002 00:30:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+bb) Turbidity (NTU) value on September 25, 2002 01:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+cc) Turbidity (NTU) value on September 27, 2002 11:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+dd) Turbidity (NTU) value on September 27, 2002 23:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+ee) Turbidity (NTU) value on September 28, 2002 00:00:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+ff) Turbidity (NTU) value on September 28, 2002 00:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+gg) Turbidity (NTU) value on September 28, 2002 02:30:00 out of range, -0001. 
+Most likely due to calibration error, data retained.
+hh) Turbidity (NTU) value on September 29, 2002 01:30:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+ii) Turbidity (NTU) value on September 29, 2002 11:30:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+jj) Turbidity (NTU) value on September 30, 2002 00:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+kk) Turbidity (NTU) value on September 30, 2002 00:30:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+ll) Turbidity (NTU) value on September 30, 2002 01:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+mm) Turbidity (NTU) value on September 30, 2002 03:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+nn) Turbidity (NTU) value on September 30, 2002 04:00:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+oo) Turbidity (NTU) value on September 30, 2002 04:30:00 out of range, 0000. 
+Most likely due to calibration error, data retained.
+
+B. Blackbird Landing
+
+a) No data are available between July 03, 2002 06:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) D.O. values (% sat and concentration) between July 09, 2002 06:30:00 through 
+July 10, 2002 11:00:00 were suspect and deleted. D.O. values lower than rest of 
+data set and increased immediately after D.O. membrane methanol wipe on July 10, 
+2002 11:11:00-11:20:00 EST.
+c) Turbidity (NTU) value on July 14, 2002 10:30:00 out of range, 1189, possible 
+obstruction, data retained.
+d) No data are available between July 17, 2002 06:30:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) No data are available between July 31, 2002 06:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) Turbidity (NTU) value on August 09, 2002 06:30:00 out of range, 1855, 
+possible obstruction, data retained.
+g) Turbidity (NTU) value on August 11, 2002 14:30:00 out of range, 1439, 
+possible obstruction, data retained.
+h) Turbidity (NTU) value on August 11, 2002 17:00:00 out of range, 1129, 
+possible obstruction, data retained.
+i) No data are available between August 14, 2002 06:30:00 through 14:30:00, 
+downtime for maintenance, calibration, and service of datalogger.
+j) No data are available between August 30, 2002 06:00:00 through 15:00:00, 
+downtime for maintenance, calibration, and service of datalogger.
+k) Turbidity (NTU) value on September 05, 2002 06:30:00 out of range, 1854, 
+possible obstruction, data retained.
+l) No data are available between September 11, 2002 06:00:00 through 14:30:00, 
+downtime for maintenance, calibration, and service of datalogger.
+m) Turbidity (NTU) value on September 14, 2002 01:00:00 out of range, 1032, 
+possible obstruction, data retained.
+n) Turbidity (NTU) value on September 24, 2002 14:30:00 out of range, 1234, 
+possible obstruction, data retained.
+o) No data are available between September 25, 2002 06:30:00 through 14:30:00, 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+C. Lebanon Landing
+
+a) D.O. values (% saturation and concentration) between July 01, 2002 00:00:00 
+through July 03, 2002 11:00:00 are unreliable due to membrane rupture. Data were 
+deleted for this timeframe.
+b) No data are available between July 03, 2002 11:30:00 through 13:00:00, 
+downtime for emergency maintenance due to ruptured D.O. membrane. Membrane 
+discovered during routine D.O. membrane wipe with methanol.
+c) No data are not available between July 09, 2002 08:00:00 through 13:30:00, 
+downtime for maintenance, calibration, and service of data logger.
+d) D.O. data (% saturation and concentration) from July 14, 2002 06:30:00 
+through July 17 12:30:00 were deleted due to ruptured D.O. membrane.
+e) No data are available between July 17, 2002 13:00:00 through 14:00:00, 
+downtime for emergency maintenance due to ruptured D.O. membrane. Membrane 
+discovered during routine D.O. membrane wipe with methanol.
+f) All parameters were deleted July 22, 2002 19:00:00 through July 24, 2002 
+12:00:00 due to vandalism of sonde. 
+g) No data are available between July 24, 2002 12:30:00 through 16:00:00, 
+downtime for maintenance, calibration, and service of data logger.
+h) No data are available between August 06, 2002 08:00:00 through 14:00:00, 
+downtime for maintenance, calibration, and service of data logger.
+i) D.O. values (% saturation and concentration) deleted August 13, 2002 19:00:00 
+through August 14, 2002 10:00:00 due to ruptured membrane. 
+j) No data are available between August 14, 2002 10:30:00 through 12:30:00, 
+downtime for emergency maintenance due to ruptured D.O. membrane. Membrane 
+discovered during routine D.O. membrane wipe with methanol, data deleted.
+k) No data are available between August 21, 2002 08:00:00 through 14:00:00, 
+downtime for maintenance, calibration, and service of data logger.
+l) Turbidity (NTU) values between August 22, 2002 21:30:00 through 22:00:00 out 
+of range, small negative numbers, -0003 and -0001. Most likely due to 
+calibration error, data retained.
+m) Turbidity (NTU) value on August 23, 2002 01:30:00 out of range, small 
+negative number, -0002. Most likely due to calibration error, read as zero, data 
+retained.
+n) Turbidity (NTU) value on August 23, 2002 07:30:00 out of range, small 
+negative number, -0003. Most likely due to calibration error, read as zero, data 
+retained.
+o) Turbidity (NTU) values between August 23, 2002 08:30:00 through 13:30:00 out 
+of range, small negative numbers, ranging from -0002 and -0006. Most likely due 
+to calibration error, read as zero, data retained.
+p) Turbidity (NTU) value on August 23, 2002 14:00:00 out of range, zero value. 
+Most likely due to calibration error, data retained.
+q) Turbidity (NTU) values from August 26, 2002 11:30:00 through September 04, 
+2002 06:00:00 are out of range or unreliable due to Turbidity probe failure, all 
+values deleted.
+r) No data are not available between September 04, 2002 06:30:00 through 
+12:00:00, downtime for maintenance, calibration, and service of data logger.
+s) Low anomalous Dissolved Oxygen (percent saturation and concentration) data 
+were deleted September 06, 2002 20:30:00 and 21:00:00. Readings were 1.5% and 
+00.1 mg/L, and 1.9% and 00.2 mg/L respectively. Reason unknown. 
+t) Low anomalous Dissolved Oxygen (percent saturation and concentration) data 
+were deleted September 09, 2002 03:30:00. Readings were 1.6% and 00.1 mg/L. 
+Reason unknown. 
+u) Turbidity (NTU) value on September 11, 2002 21:30:00 out of range, 1116, 
+possible obstruction, data retained.
+v) Turbidity (NTU) value on September 12, 2002 08:30:00 out of range, 1430, 
+possible obstruction, data retained.
+w) No data are not available between September 19, 2002 09:30:00 through 
+14:30:00, downtime for maintenance, calibration, and service of data logger.
+x) Turbidity (NTU) value on September 20, 2002 23:30:00 out of range, 1881, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on September 22, 2002 20:00:00 out of range, 1921, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on September 23, 2002 03:00:00 out of range, 1895, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on September 25, 2002 10:30:00 out of range, 1855, 
+possible obstruction, data retained.
+
+D. Division Street
+
+a) Turbidity (NTU) value on July 01, 2002 03:00:00 out of range, 1045, possible 
+obstruction, data retained.
+b) No data are available between July 09, 2002 08:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+c) Turbidity (NTU) value on July 12, 2002 20:00:00 out of range, 2002, possible 
+obstruction, data retained. 
+d) Turbidity (NTU) value on July 12, 2002 21:30:00 out of range, 1987, possible 
+obstruction, data retained.
+e) Turbidity (NTU) value on July 13, 2002 13:30:00 out of range, 2021, possible 
+obstruction, data retained.
+f) Turbidity (NTU) value on July 14, 2002 04:00:00 out of range, 1622, possible 
+obstruction, data retained.
+g) Turbidity (NTU) value on July 14, 2002 05:30:00 out of range, 1961, possible 
+obstruction, data retained.
+h) Turbidity (NTU) value on July 14, 2002 23:00:00 out of range, 1971, possible 
+obstruction, data retained.
+i) Turbidity (NTU) value on July 15, 2002 20:00:00 out of range, 1928, possible 
+obstruction, data retained.
+j) Turbidity (NTU) value on July 17, 2002 20:30:00 out of range, 1801, possible 
+obstruction, data retained.
+k) Turbidity (NTU) value on July 18, 2002 14:00:00 out of range, 1214, possible 
+obstruction, data retained.
+l) Turbidity (NTU) value on July 20, 2002 05:30:00 out of range, 1510, possible 
+obstruction, data retained.
+m) Turbidity (NTU) value on July 21, 2002 04:30:00 out of range, 1418, possible 
+obstruction, data retained.
+n) No data are available between July 24, 2002 11:30:00 through 16:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+o) Turbidity (NTU) value on July 30, 2002 12:30:00 out of range, 2471, possible 
+obstruction, data retained.
+p) Turbidity (NTU) value on July 31, 2002 22:30:00 out of range, 2205, possible 
+obstruction, data retained.
+q) Turbidity (NTU) value on July 31, 2002 23:00:00 out of range, 2117, possible 
+obstruction, data retained.
+r) Turbidity (NTU) value on July 31, 2002 23:30:00 out of range, 2190, possible 
+obstruction, data retained.
+s) Turbidity (NTU) values from August 01, 2002 00:00:00 through August 06, 2002 
+08:00:00 were removed; most readings high or out of range due to wiper failure 
+and parking over sensor.
+t) Depth data from August 06, 2002 01:30:00 through 05:00:00 indicate sonde is 
+out of water. Due to the vertical distance between the depth sensor and other 
+probes, coupled with possibility for barometric pressure related error, the data 
+have been retained.
+u) No data are available between August 06, 2002 08:30:00 through 13:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+v) Turbidity (NTU) value on August 10, 2002 04:30:00 out of range, 1353, 
+possible obstruction, data retained.
+w) Turbidity (NTU) value on August 10, 2002 19:30:00 out of range, 1306, 
+possible obstruction, data retained.
+x) Turbidity (NTU) value on August 11, 2002 08:00:00 out of range, 1351, 
+possible obstruction, data retained.
+y) Turbidity (NTU) value on August 15, 2002 18:00:00 out of range, 1383, 
+possible obstruction, data retained.
+z) Turbidity (NTU) value on August 16, 2002 02:00:00 out of range, 1372, 
+possible obstruction, data retained.
+aa) Turbidity (NTU) value on August 16, 2002 08:00:00 out of range, 1346, 
+possible obstruction, data retained.
+bb) Turbidity (NTU) value on August 16, 2002 16:30:00 out of range, 1380, 
+possible obstruction, data retained.
+cc) Turbidity (NTU) value on August 17, 2002 20:00:00 out of range, 1378, 
+possible obstruction, data retained.
+dd) Turbidity (NTU) value on August 17, 2002 21:30:00 out of range, 1376, 
+possible obstruction, data retained.
+ee) Turbidity (NTU) value on August 17, 2002 23:30:00 out of range, 1326, 
+possible obstruction, data retained.
+ff) No data are available between August 21, 2002 08:30:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+gg) Depth data from August 22, 2002 15:00:00 through August 23, 2002 01:00:00 
+indicate sonde is out of water. Due to the vertical distance between the depth 
+sensor and other probes, coupled with possibility for barometric pressure 
+related error, the data have been retained.
+hh) Depth data from August 23, 2002 02:00:00 through August 24, 2002 01:00:00 
+indicate sonde is out of water. Due to the vertical distance between the depth 
+sensor and other probes, coupled with possibility for barometric pressure 
+related error, the data have been retained.
+ii) Depth data from August 24, 2002 04:30:00 through August 25, 2002 02:00:00 
+indicate sonde is out of water. Due to the vertical distance between the depth 
+sensor and other probes, coupled with possibility for barometric pressure 
+related error, the data were retained.
+jj) Depth data from August 25, 2002 03:30:00 through August 26, 2002 02:30:00 
+indicate sonde is out of water. Due to the vertical distance between the depth 
+sensor and other probes, coupled with possibility for barometric pressure 
+related error, the data were retained.
+kk) Depth data from August 26, 2002 06:00:00 through August 27, 2002 07:00:00 
+indicate sonde is out of water. Due to the vertical distance between the depth 
+sensor and other probes, coupled with possibility for barometric pressure 
+related error, the data were retained.
+ll) Depth data from August 27, 2002 13:00:00 through 15:00:00 indicate sonde is 
+out of water. Due to the vertical distance between the depth sensor and other 
+probes, coupled with possibility for barometric pressure related error, the data 
+were retained.
+mm) High specific conductivity and salinity readings August 19, 2002 23:00:00 
+through August 21, 2002 08:00:00, and August 21, 2002 14:00:00 through August 
+29, 2002 03:30 possibly caused by urban salts associated with run off. Data 
+retained. 
+nn) No data are available between September 04, 2002 06:30:00 through 11:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+oo) Turbidity (NTU) value on September 10, 2002 11:00:00 out of range, 1585, 
+possible obstruction, data retained.
+pp) Depth data from September 10, 2002 23:30:00 through September 11, 2002 
+02:30:00 indicate sonde is out of water. Due to the vertical distance between 
+the depth sensor and other probes, coupled with possibility for barometric 
+pressure related error, the data were retained.
+qq) Depth data from September 11, 2002 06:00:00 through September 11, 2002 
+09:00:00 indicate sonde is out of water. Due to the vertical distance between 
+the depth sensor and other probes, coupled with possibility for barometric 
+pressure related error, the data were retained.
+rr) No data are available between September 19, 2002 10:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+
+October 1, 2002 through December 31, 2002
+
+A. Scotton Landing
+
+a) Turbidity values from October 01, 2002 02:00:00 through 02:30:00 are very low 
+values, 0000. This is probably due to a calibration error as the post deployment 
+reading on October 16, 2002 was -11.4 NTU.
+b) Turbidity value on October 01, 2002 13:00:00 is a very low value, 0000, 
+probably due to a calibration error.
+c) Turbidity value on October 02, 2002 02:00:00 is a very low value, 0000, 
+probably due to a calibration error. 
+d) Turbidity value from October 02, 2002 03:00:00 through 03:30:00 are small 
+negative values, -0001, probably due to a calibration error.
+e) Turbidity value on October 02, 2002 06:00:00 is a small negative value, -
+0001, probably due to a calibration error.
+f) Turbidity values from October 02, 2002 06:30:00 through 07:00:00 are very low 
+values, 0000, probably due to a calibration error.
+g) No data are available between October 02, 2002 07:30:00 through 12:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+h) Turbidity values from October 02, 2002 13:00:00 through 20:30:00 are negative 
+values ranging from -0004 to -0013. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+i) Turbidity values from October 03, 2002 02:00:00 through 06:00:00 are negative 
+values ranging from -0006 to -0012. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+j) Turbidity values from October 03, 2002 07:00:00 through 08:00:00 are negative 
+values, -0010, -0012, -0012. This is probably due to a calibration error as the 
+post deployment reading on October 16, 2002 was -11.4 NTU.
+k) Turbidity values from October 03, 2002 14:00:00 through 17:30:00 are negative 
+values ranging from -0005 to -0010. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+l) Turbidity values from October 03, 2002 20:30:00 through 21:30:00 are negative 
+values, -0006, -0012, -0005 . This is probably due to a calibration error as the 
+post deployment reading on October 16, 2002 was -11.4 NTU.
+m) Turbidity values from October 04, 2002 03:30:00 through 05:00:00 are negative 
+values ranging from -0009 to -0013. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+n) Turbidity value on October 04, 2002 10:00:00 is a small negative value, -
+0001, probably due to a calibration error as the post deployment reading on 
+October 16, 2002 was -11.4 NTU.
+o) Turbidity values from October 04, 2002 16:00:00 through 17:00:00 are negative 
+values, -0011, -0009, -0008. This is probably due to a calibration error as the 
+post deployment reading on October 16, 2002 was -11.4 NTU.
+p) Turbidity values from October 05, 2002 05:30:00 through 06:30:00 are negative 
+values, -0011, -0010, -0005. This is probably due to a calibration error as the 
+post deployment reading on October 16, 2002 was -11.4 NTU.
+q) Turbidity values from October 05, 2002 10:00:00 through 10:30:00 are negative 
+values, -0011, -0008. This is probably due to a calibration error as the post 
+deployment reading on October 16, 2002 was -11.4 NTU.
+r) Turbidity values from October 05, 2002 17:30:00 through 22:30:00 are negative 
+values ranging from -0007 to -0013. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+s) Turbidity values from October 06, 2002 05:30:00 through 08:00:00 are negative 
+values ranging from -0004 to -0011. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+t) Turbidity values from October 06, 2002 18:00:00 through 20:00:00 are negative 
+values ranging from -0005 to -0012. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+u) Turbidity value on October 06, 2002 23:30:00 is a negative value, -0011. This 
+is probably due to a calibration error as the post deployment reading on October 
+16, 2002 was -11.4 NTU.
+v) Turbidity value on October 07, 2002 00:00:00 is a small negative value, -
+0003. This is probably due to a calibration error as the post deployment reading 
+on October 16, 2002 was -11.4 NTU.
+w) Turbidity values from October 07, 2002 06:30:00 through 08:00:00 are negative 
+values ranging from -0006 to -0010. This is probably due to a calibration error 
+as the post deployment reading on October 16, 2002 was -11.4 NTU.
+x) Turbidity value on October 07, 2002 08:30:00 is a very small value, 0000. 
+This is probably due to a calibration error as the post deployment reading on 
+October 16, 2002 was -11.4 NTU.
+y) Turbidity values from October 07, 2002 11:30:00 through 12:30:00 are negative 
+values, -0001, -0007, and -0011. This is probably due to a calibration error as 
+the post deployment reading on October 16, 2002 was -11.4 NTU.
+z) Turbidity values from October 07, 2002 19:30:00 through October 08, 2002 
+00:30:00 are negative values ranging from -0005 to -0012. This is probably due 
+to a calibration error as the post deployment reading on October 16, 2002 was -
+11.4 NTU.
+aa) Turbidity values from October 08, 2002 07:00:00 through 09:30:00 are 
+negative values ranging from -0006 to -0011. This is probably due to a 
+calibration error as the post deployment reading on October 16, 2002 was -11.4 
+NTU.
+bb) Turbidity values from October 08, 2002 20:30:00 through 22:00:00 are 
+negative values ranging from -0002 to -0010. This is probably due to a 
+calibration error as the post deployment reading on October 16, 2002 was -11.4 
+NTU.
+cc) Turbidity values from October 09, 2002 01:00:00 through 01:30:00 are 
+negative values, -0011 and -0009. This is probably due to a calibration error as 
+the post deployment reading on October 16, 2002 was -11.4 NTU.
+dd) Turbidity values from October 09, 2002 08:00:00 through 09:00:00 are 
+negative values, -0006, -0011, and -0011. This is probably due to a calibration 
+error as the post deployment reading on October 16, 2002 was -11.4 NTU.
+ee) Turbidity value on October 09, 2002 14:00:00 is a negative value, -0011. 
+This is probably due to a calibration error as the post deployment reading on 
+October 16, 2002 was -11.4 NTU.
+ff) Turbidity values from October 09, 2002 21:00:00 through 23:30:00 are 
+negative values ranging from -0002 to -0011. This is probably due to a 
+calibration error as the post deployment reading on October 16, 2002 was -11.4 
+NTU.
+gg) Turbidity values from October 10, 2002 01:00:00 through 02:00:00 are 
+negative values, -0006, -0006, and -0011. This is probably due to a calibration 
+error as the post deployment reading on October 16, 2002 was -11.4 NTU.
+hh) Turbidity value on October 10, 2002 08:30:00 is a small negative value, -
+0001. This is probably due to a calibration error as the post deployment reading 
+on October 16, 2002 was -11.4 NTU.
+ii) Turbidity value on October 10, 2002 22:30:00 is a small negative value, -
+0002. This is probably due to a calibration error as the post deployment reading 
+on October 16, 2002 was -11.4 NTU.
+jj) Turbidity values on October 10, 2002 23:00:00 is a small value, 0000. This 
+is probably due to a calibration error as the post deployment reading on October 
+16, 2002 was -11.4 NTU.
+kk) Turbidity values from October 11, 2002 10:00:00 through 11:00:00 are 
+negative values, -0003, -0003, and -0001. This is probably due to a calibration 
+error as the post deployment reading on October 16, 2002 was -11.4 NTU.
+ll) Turbidity values from October 11, 2002 23:30:00 through October 12, 2002 
+00:00:00 are a small negative values, -0004 and -0003. This is probably due to a 
+calibration error as the post deployment reading on October 16, 2002 was -11.4 
+NTU.
+mm) Turbidity values from October 12, 2002 11:00:00 through 11:30:00 are small 
+negative values, -0002 and -0001. This is probably due to a calibration error as 
+the post deployment reading on October 16, 2002 was -11.4 NTU.
+nn) Turbidity values from October 13, 2002 00:00:00 through 00:30:00 are small 
+negative values, -0002 and -0002. This is probably due to a calibration error as 
+the post deployment reading on October 16, 2002 was -11.4 NTU.
+oo) Turbidity value on October 13, 2002 12:00:00 is a small negative value, -
+0001. This is probably due to a calibration error as the post deployment reading 
+on October 16, 2002 was -11.4 NTU.
+pp) Turbidity value on October 14, 2002 03:30:00 is a small value, 0000. This is 
+probably due to a calibration error as the post deployment reading on October 
+16, 2002 was -11.4 NTU.
+qq) Turbidity value on October 14, 2002 05:00:00 is a small value, 0000. This is 
+probably due to a calibration error as the post deployment reading on October 
+16, 2002 was -11.4 NTU.
+rr) Turbidity value on October 14, 2002 06:00:00 is a small negative value, -
+0002. This is probably due to a calibration error as the post deployment reading 
+on October 16, 2002 was -11.4 NTU.
+ss) No data are available between October 16, 2002 14:30:00 through 17:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+tt) No data are available between November 06, 2002 09:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+uu) No data are available between November 27, 2002 08:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+vv) No data are available between December 18, 2002 08:30:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+ww) Turbidity (NTU) value on December 18, 2002 16:00:00 is out of range, 1431, 
+possible obstruction, data retained.
+xx) Turbidity (NTU) value on December 20, 2002 12:30:00 is out of range, 1059, 
+possible obstruction, data retained.
+yy) Turbidity (NTU) value on December 21, 2002 02:00:00 is out of range, 1149, 
+possible obstruction, data retained.
+zz) Turbidity (NTU) value on December 21, 2002 11:00:00 is out of range, 1272, 
+possible obstruction, data retained.
+aaa) Turbidity (NTU) value on December 22, 2002 10:30:00 is out of range, 1128, 
+possible obstruction, data retained.
+bbb) Turbidity (NTU) value on December 23, 2002 18:30:00 is out of range, 1045, 
+possible obstruction, data retained.
+ccc) Turbidity (NTU) value on December 23, 2002 23:00:00 is out of range, 1394, 
+possible obstruction, data retained.
+ddd) Turbidity (NTU) value on December 24, 2002 14:30:00 is out of range, 1430, 
+possible obstruction, data retained.
+eee) Turbidity (NTU) value on December 24, 2002 23:00:00 is out of range, 1194, 
+possible obstruction, data retained.
+fff) Turbidity (NTU) value on December 25, 2002 03:00:00 is out of range, 1351, 
+possible obstruction, data retained.
+ggg) Turbidity (NTU) values from December 25, 2002 12:30:00 through 13:30:00 are 
+out of range, 1438, 1394, 1037, possible obstruction, data retained.
+hhh) Turbidity (NTU) value on December 25, 2002 17:00:00 is out of range, 1391, 
+possible obstruction, data retained.
+iii) Turbidity (NTU) values from December 29, 2002 18:30:00 through 19:00:00 are 
+out of range, 1435, 1345, possible obstruction, data retained.
+jjj) Turbidity (NTU) values on December 30, 2002 20:00:00 is out of range, 1070, 
+possible obstruction, data retained.
+
+B. Blackbird Landing
+
+a) No data are available between October 15, 2002 06:30:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) Turbidity (NTU) value on October 17, 2002 04:30:00 out of range, 1001, 
+possible obstruction, data retained.
+c) Turbidity (NTU) value on October 26, 2002 19:30:00 out of range, 1673, 
+possible obstruction, data retained.
+d) Turbidity (NTU) value on October 27, 2002 22:30:00 out of range, 1748, 
+possible obstruction, data retained.
+e) No data are available between October 29, 2002 11:30:00 through 17:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between November 15, 2002 06:30:00 through 15:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) No data are available between December 04, 2002 06:30:00 through December 31 
+23:30:00. Sonde was not redeployed due to extreme ice conditions.
+
+C. Lebanon Landing
+
+a) No data are available between October 02, 2002 08:00:00 through 12:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) Turbidity (NTU) value on October 20, 2002 15:00:00 out of range, 1043, 
+possible obstruction, data retained.
+c) No data are available between October 16, 2002 15:00:00 through 17:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) No data are available between November 06, 2002 10:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+e) Turbidity (NTU) value on November 07, 2002 20:00:00 out of range, 1353, 
+possible obstruction, data retained.
+f) No data are available between November 27, 2002 09:00:00 through 13:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) No data are available between December 18, 2002 09:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+
+D. Division Street
+
+a) No data are available between October 02, 2002 08:30:00 through 12:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+b) High specific conductivity and salinity readings October 07, 2002 14:00:00 
+through October 10, 2002 07:30:00 possibly caused by urban salts associated with 
+run off. Data retained. 
+c) No data are available between October 17, 2002 09:30:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+d) There are no anomalous data for the month of October.
+e) No data are available between November 06, 2002 10:00:00 through 15:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+f) No data are available between November 27, 2002 09:00:00 through 14:00:00 
+downtime for maintenance, calibration, and service of datalogger.
+g) There are no anomalous data for the month of November.
+h) No data are available between December 18, 2002 09:00:00 through 14:30:00 
+downtime for maintenance, calibration, and service of datalogger.
+i) Depth (m) value on December 20, 2002 10:30:00 is zero. There is no evidence 
+from the conductivity/salinity values, or other values, to indicate water level 
+fell below any probes. Due to the vertical distance between the depth sensor and 
+other probes, coupled with possibility for barometric pressure related error, 
+the data were retained.
+j) Depth (m) value on December 20, 2002 11:00:00 is a small negative number, -
+0.01. There is no evidence from the conductivity/salinity values, or other 
+values, to indicate water level fell below any probes. Due to the vertical 
+distance between the depth sensor and other probes, coupled with possibility for 
+barometric pressure related error, the data were retained.
+k) Depth (m) values between December 25, 2002 07:30:00 through 10:00:00 are 
+small negative values. There is no evidence from the conductivity/salinity 
+values to indicate water level fell below any probes. Due to the vertical 
+distance between the depth sensor and other probes, coupled with possibility for 
+barometric pressure related error, the data were retained.
+
+
+12. Missing  Data
+
+Missing data are denoted by a period in the data set. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers, or elimination of data due to 
+calibration (both pre and post) problems. For more details on deleted data, see 
+the Anomalous Data Section (11.). To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+13. Post deployment information
+
+
+a) Retrieval Readings: this section contains the field readings upon retrieval 
+of the sonde.
+
+Key to abbreviations:	
+* Cloud Cover: (S=sunny, PC=partly cloudy, OC= overcast, LR=light rain, HR=heavy 
+rain, TS=thunderstorm)
+* Wave Height: (C=calm, SM=smooth, M=moderate, R=rough)
+* Wind Speed: Beaufort Wind Strength Scale
+* N/A: reading for parameter is not available-explanations usually found on 
+field data sheets, but are not all included in this document for length reasons.
+
+
+Scotton Landing Retrieval Values
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C) pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+SL	1/11/2002	42.8	6.0	4-7	HR	C	2.6	7.7	N/A	2.1	N/A
+	102.9	11.55	42.93	26.8
+SL	2/1/2002	68.9	20.5	25-31	PC	R	9.3	7.5	0.2	N/A	Slack 
+High	83.7	8.55	29.26	18.0
+SL	2/21/2002	65.3	18.5	8-12	PC	SM	6.8	8.2	0.15	N/A	Ebb
+	95.4	10.55	24.94	15.1
+SL	3/12/2002	65.3	18.5	<1	OC	S	7.2	8.6	0.15	2.35	Slack 
+High	84.4	8.63	39.38	24.8
+SL	4/3/2002	N/A	N/A	19-24	S	M	13.8	N/A	0.2	1.2	Ebb
+	70.5	6.88	16.02	9.4
+SL	4/15/2002	73.2	22.9	4-7	PC	SM	18.5	N/A	0.25	1.35	Ebb
+	63.3	5.78	7.73	4.3
+SL	5/1/2002	N/A	N/A	N/A	PC	SM	15.2	8.9	0.2	0.9	Ebb
+	61.9	5.98	11.49	6.5
+SL	5/15/2002	54.3	12.4	8-12	S	SM	18.2	8	0.2	1.05	Ebb
+	53.9	5.01	3938	2.1
+SL	5/31/2002	74.3	23.5	4-7	S	SM	23.5	7.4	0.3	N/A	Ebb
+	40.5	3.11	26.6	16.3
+SL	6/11/2002	75.92	24.4	1-3	PC	SM	23.3	7.6	N/A	1.8	Flood
+	41.8	3.32	12.67	7.3
+SL	6/26/2002	87.3	30.7	4-7	S	M	27.8	N/A	0.35	1.8	N/A
+	37.7	2.65	29.27	18.1
+SL	7/9/2002	82.2	27.9	13-18	PC	SM	25.7	N/A	0.35	2.05	Flood
+	42.7	3.16	30.22	18.7
+SL	7/24/2002	75.4	24.1	8-12	OC	M	27.1	N/A	0.4	N/A	Slack 
+High	41.5	2.88	37.91	24.0
+SL	8/6/2002	74.0	23.3	8-12	PC	M	29.3	7.4	0.4	2.4	Slack 
+High	36.8	2.48	36.46	22.9
+SL	8/21/2002	75.2	24.0	8-12	S	SM	28.1	7.3	0.2	2.4	Slack 
+High	39.7	2.66	42.5	27.3
+SL	9/4/2002	73.2	22.9	1-3	PC	SM	22.5	7.3	0.25	2.3	Slack 
+High	30.0	2.43	19.77	11.8
+SL	9/19/2002	72.0	22.2	4-7	S	SM	23.2	7.4	0.35	2.4	Slack 
+High	53.2	3.95	38.23	24.3
+SL	10/2/2002	68.2	20.1	1-3	OC	C	21.8	7.5	0.7	2.0	Slack 
+High	49.4	3.84	32.63	20.4
+SL	10/16/2002	55.4	13.0	8-12	LR	M	15.4	7.4	0.1	N/A	Ebb
+	N/A	N/A	28.99	17.9
+SL	11/6/2002	N/A	N/A	N/A	OC	M	9.3	7.6	0.25	2.5	Slack 
+High	77.7	8.04	26.27	16.0
+SL	11/27/2002	41.0	5.0	8-12	OC	M	7.8	7.5	0.2	1.6	Ebb	68
+	5.69	8.45	4.7
+SL	12/18/2002	31.5	-0.3	4-7	S	SM	1.7	7.7	0.25	2.5	Slack 
+High	95.3	12.09	Error	12.9
+SL	1/8/2003	39.2	4.0	1-3	OC	SM	2.6	7.7	0.2	1.4	Ebb
+	87.7	11.73	1052	0.5
+
+Lebanon Landing Retrieval Values
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C) pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+LL	1/11/2002	46.4	8.0	4-7	HR	C	1.9	7.9	N/A	2.7	flood
+	88.0	11.35	10.55	10.9
+LL	1/21/2002	44.6	7	4-7	OC	SM	2.8	8.6	0.35	2.2	ebb
+	88.4	11.97	1583	0.8
+LL	2/1/2002	68.9	20.5	25-31	PC	R	10	7.7	0.3	N/A	slack 
+high	77.1	8.26	13.57	7.9
+LL	2/21/2002	62.6	17	1-3	PC	C	8.2	8.2	0.4	2.7	ebb
+	95.2	10.7	11.58	6.6
+LL	3/12/2002	58.1	14.5	1-3	OC	C	9	8.4	0.15	2.9	slack 
+high	73.3	7.70	21.41	12.8
+LL	4/3/2002	N/A	N/A	19-24	S	M	15	N/A	0.15	2.5	ebb
+	85.8	8.54	3298	1.7
+LL	4/15/2002	72.3	22.4	4-7	PC	SM	19.8	N/A	0.2	2.1	ebb
+	76.1	6.93	1079	0.5
+LL	5/1/2002	65.1	18.4	0	PC	C	15.8	8.6	0.2	2.5	ebb
+	73.9	7.42	1629	0.8
+LL	5/15/2002	59.4	15.2	4-7	S	SM	16.6	8	0.2	1.85	ebb
+	57.5	5.48	520	0.3
+LL	5/31/2002	73.9	23.3	4-7	S	SM	24.9	7.4	0.4	2.7	ebb
+	44.5	3.55	12.91	7.5
+LL	6/11/2002	85.6	29.8	1-3	PC	SM	24.2	7.4	N/A	2.7	flood
+	49.8	4.14	6.3	3.4
+LL	6/26/2002	90.0	32.2	1-3	S	SM	29.1	N/A	0.3	2.6	flood
+	40.6	3.05	8.98	5
+LL	7/9/2002	83.1	28.4	1-3	PC	SM	25.9	N/A	0.3	2.6	flood
+	59.8	4.56	16.05	9.4
+LL	7/24/2002	76.3	24.6	8-12	OC 	M	27.8	N/A	0.45	2.8	slack 
+high	36.4	2.52	30.65	19
+LL	8/6/2002	75.0	23.9	4-7	PC	SM	29	7.2	0.2	2.6	slack 
+high	25.5	1.83	22.68	13.6
+LL	8/21/2002	76.8	24.9	8-12	S	SM	28.1	7.2	0.3	2.5	slack 
+high	27.6	1.92	33.1	20.6
+LL	9/4/2002	72.9	22.7	0	PC	SM	23.4	7.5	0.2	2.5	slack 
+high	45.2	3.72	4.99	2.7
+LL	9/19/2002	74.5	23.6	4-7	S	SM	23.2	7.3	0.45	2.8	slack 
+high	35.8	2.78	26.13	16
+LL	10/2/2002	73.8	23.2	0	S	SM	21.7	7.4	0.35	2.8	slack 
+high	49.5	3.95	21.94	13.2
+LL	10/16/2002	55.4	13	1-3	LR	M	15.6	7.5	0.3		ebb
+	54.3	4.97	22.92	13.9
+LL	11/6/2002	N/A	N/A	N/A	OC	SM	8.8	7.8	0.35	3.1	slack 
+high	75.9	8.60	7.53	4.2
+LL	11/27/2002	41.4	5.2	4-7	OC	M	N/A	7.5	0.25	2.6	ebb
+	N/A	N/A	N/A	N/A
+LL	12/18/2002	27.7	-2.4	4-7	S	SM	2.9	7.8	0.5	2.3	slack 
+high	80.3	10.71	2509	1.2
+LL	1/8/2003	40.3	4.6	1-3	OC	SM	2.5	7.6	0.3	2.3	ebb
+	89.4	12.17	353	0.2
+
+Blackbird Landing Retrieval Values
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C) pH	Secchi Disk(meters) Total Depth(meters)  Tide(Ebb,Slack,Flood) 
+DO(%sat) DO(mg/l)	Sp. Cond(ms) Salinity(ppt)
+BL	1/2/2002	69.8	21.0	4-7	S	SM	0.1	7.7	0.25	1.8	Flood
+	100.3	13.96	5.84	6.2
+BL	1/16/2002	37.4	3.0	<1	S	C	3.4	8.1	N/A	1.2	Slack 
+Low	88.2	11.62	27.25	1.4
+BL	2/6/2002	42.8	6.0	1-3	S	SM	1.9	8.2	0.25	1.9	Slack 
+High	90.4	12.22	5.54**	5.6
+BL	3/1/2002	46.4	8.0	4-7	S	SM	4	8.4	0.2	0.6	Slack 
+Low	90.4	11.5	4445	2.4
+BL	3/6/2002	36.5	2.5	4-7	PC	SM	3.6	8.3	0.2	2.1	Slack 
+High	N/A	N/A	8.3	4.6
+BL	3/7/2002	N/A	N/A	4-7	PC	SM	N/A	N/A	N/A	N/A	Slack 
+Low	N/A	N/A	N/A	N/A
+BL	3/20/2002	61.7	16.5	13-15	HR	SM	9.5	8.8	0.2	2.3	Slack 
+High	87.5	9.77	6.35	3.5
+BL	4/11/2002	45.1	7.3	0	S	SM	14.4	N/A	0.15	0.7	Slack 
+Low	57.7	5.9	576	0.3
+BL	4/25/2002	52.5	11.4	1-3	OC	SM	15.2	N/A	0.2	1.4	Slack 
+Low	92.6	9.2	3482	1.8
+BL	5/10/2002	64.2	17.9	0	PC	C	N/A	8.2	0.15	1.6	Slack 
+Low	N/A	N/A	N/A	N/A
+BL	5/22/2002	45.5	7.5	0	S	C	15.3	7.8	0.1	1.75	Slack 
+High	54.2	5.38	1696	0.9
+BL	6/5/2002	72.5	22.5	1-3	PC	C	24.4	7.8	0.2	1.9	Slack 
+High	44.3	3.69	3462	1.8
+BL	6/17/2002	72.7	22.6	0	S	C	22.8	N/A	0.25	2.1	Slack 
+High	51.9	4.38	3376	1.8
+BL	7/3/2002	80.6	27	0	S	C	29.3	N/A	0.2	1.65	Slack 
+High	46.9	3.59	4169	2.2
+BL	7/17/2002	66.4	19.1	0	S	C	26.3	N/A	0.25	2	Slack 
+High	47.8	3.61	6.42	3.5
+BL	7/31/2002	76.1	24.5	0	S	C	28.7	7.5	0.3	2.2	Slack 
+High	42.5	3.24	10.06	5.6
+BL	8/14/2002	78.3	25.7	1-3	S	C	28.4	7.3	0.2	2	Ebb
+	36.3	2.69	12.79	7.3
+BL	8/30/2002	66.0	18.9	0	OC	C	21.7	7.3	0.2	2.2	Ebb
+	46.5	3.91	12.84	7.4
+BL	9/11/2002	68.9	20.5	0	PC	C	25.4	7.3	0.2	2.5	Slack 
+High	47.9	3.8	13.13	7.5
+BL	9/25/2002	61.3	16.3	0	PC	C	21.6	7.3	0.2	1.5	Slack 
+High	50.8	4.22	15.68	9.1
+BL	10/11/2002	45.9	7.7	0	PC	C	15.6	7.5	0.25	1.7	Flood
+	45.8	4.39	11.07	6.3
+BL	10/29/2002	47.5	8.6	1-3	OC	M	11.4	7.5	0.25	1.2	Ebb	67
+	7.12	N/A	1.6
+BL	11/15/2002	46.2	7.9	0	PC	C	10	7.6	N/A	1.6	Ebb
+	68.2	7.65	1693	0.9
+BL	12/4/2002	25.5	-3.6	0	N/A	N/A	N/A: ice	N/A: ice	N/A: ice
+	N/A: ice	N/A: ice	N/A: ice	N/A: ice	N/A: ice	N/A: ice
+
+Division Street Retrieval Values
+Site	Date	Air Temp(F)	Air Temp(C)	Wind Spd(mph) Cloud Cover Wave Ht.	H20 
+Temp(C) pH	Secchi Disk(meters) Total Depth(meters)  DO(%sat) DO(mg/l)	Sp. 
+Cond(ms) Salinity(ppt)
+DS	2/21/2002	60.8	16.0	4-7	OC	SM	8.4	9	0.5	0.5	
+	91.9	10.77	251.2	0.1
+DS	3/13/2002	51.8	11	1-3	OC	C	9.1	9.4	0.6	0.6	
+	87.1	10.04	253.2	0.1
+DS	4/3/2002	N/A	N/A	19-24	S	SM	14.5	N/A	0.45	0.6
+	103.1	10.51	189.9	0.1
+DS	4/15/2002	72.3	22.39	4-7	PC	SM	17.7	N/A	0.45	0.6	
+	88.2	8.41	186.6	0.1
+DS	5/1/2002	66.2	19	1-3	PC	C	16.1	8.6	0.45	0.6	
+	94.1	9.22	189.8	0.1
+DS	5/15/2002	60.4	15.8	1-3	S	SM	18.4	8	0.35	0.6	
+	78.3	7.3	151.3	0.1
+DS	5/31/2002	80.2	26.8	1-3	S	SM	23.2	8.4	0.45+	0.45	
+	46.1	3.98	160.7	0.1
+DS	6/11/2002	75.9	24.4	1-3	PC	C	22.9	8	N/A	0.3	
+	64.7	5.54	158.6	0.1
+DS	6/26/2002	82.8	28.2	1-3	S	SM	27.1	N/A	0.35	0.6	
+	22.1	1.78	163.6	0.1
+DS	7/9/2002	82.2	27.9	8-12	PC	SM	24	N/A	0.5+	0.5	
+	9.3	0.79	191.8	0.1
+DS	7/24/2002	81.3	27.4	4-7	OC	SM	27.4	N/A	0.25	0.6	
+	67.3	5.22	181.9	0.1
+DS	8/6/2002	75.7	24.3	1-3	S	SM	26.3	7.5	0.4	0.5	
+	19.9	1.61	215.8	0.1
+DS	8/21/2002	79.5	26.4	4-7	S	SM	24.7	7.4	0.4	0.5
+	31	2.69	694	0.1
+DS	9/4/2002	72.3	22.4	1-3	PC	C	22	7.9	0.3	0.65
+	82.5	7.21	205.6	0.1
+DS	9/19/2002	71.8	22.1	N/A	S	SM	22.1	7.9	0.4	0.5	
+	61.8	5.47	222	0.1
+DS	10/2/2002	71.2	21.8	1-3	S	SM	21.6	7.7	0.35	0.55	
+	50.9	4.42	207.5	0.1
+DS	10/17/2002	60.8	16.0	1-3	S	SM	16	8.2	0.45	0.8	
+	92.2	9.06	167.1	0.1
+DS	11/6/2002	N/A	N/A	N/A	OC	SM	9.2	8	0.6	0.7	
+	96.8	11.1	162.6	0.1
+DS	11/27/2002	41.5	5.3	1-3	OC	M	N/A	7.5	0.5	0.7	
+	N/A	N/A	N/A	N/A
+DS	12/18/2002	30.0	-1.1	1-3	S	SM	3.6	7.7	0.6	0.75	
+	88.2	11.64	141.8	0.1
+DS	1/8/2003	42.4	5.8	4-7	OC	SM	3.0	7.3	0.7	0.8	
+	93.5	12.60	142.2	0.1
+
+
+b) End of Deployment Post-calibration Readings in Standard Solution: 
+
+Scotton Landing Post Calibration Readings
+Site	Date	DO (air sat) (Std: 100%)	Sp Cond. (ms/cm) (Std: 12.88) 
+pH(Std:7)	pH(Std:10)	pH(Std:4)	Turbidity(Std: 0 NTU)
+Turbidity(Std: 100 NTU)	Depth
+								
+SL	1/11/2002	100.0	12.88	7.00	10.00	4.01	0.0	100.1	0.000
+SL	2/1/2002	100.0	12.88	7.00	10.00	4.08	0.0	100.1	0.000
+SL	2/21/2002	100.0	12.88	7.00	10.00	3.99	0.0	100.0	0.000
+SL	3/12/2002	100.0	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+SL	4/3/2002	100.0	12.88	7.00	9.99	4.00	0.0	123.0	0.000
+SL	4/15/2002	100.0	12.88	7.00	9.99	4.02	0.0	123.0	0.000
+SL	5/1/2002	100.0	12.88	7.00	10.01	4.02	0.0	122.9	0.000
+SL	5/15/2002	100.0	12.88	7.00	10.00	3.97	0.0	123.1	0.000
+SL	5/31/2002	100.0	12.89	7.00	10.01	4.05	0.0	123.0	0.000
+SL	6/11/2002	100.0	12.88	7.00	10.01	4.04	0.0	123.1	0.000
+SL	6/26/2002	100.0	12.88	7.00	10.00	4.1	0.0	123.0	0.000
+SL	7/9/2002	100.0	12.88	7.00	10.01	4.07	0.0	123.0	0.000
+SL	7/24/2002	100.0	12.88	7.00	10.01	4.11	0.2	122.6	0.000
+SL	8/6/2002	100.0	12.88	7.00	10.00	4.09	0.0	123.1	0.000
+SL	8/21/2002	100.0	12.88	7.00	10.00	4.04	0.0	123.0	0.000
+SL	9/4/2002	100.0	12.88	7.00	10.00	4.04	0.0	123.0	0.000
+SL	9/19/2002	100.0	12.88	7.00	10.00	4.05	0.0	123.1	0.000
+SL	10/2/2002	100.0	12.88	7.00	10.00	4.06	0.0	123.1	0.000
+SL	10/16/2002	100.0	12.88	7.00	10.00	4.01	-0.9	122.5	0.000
+SL	11/6/2002	100.0	12.88	7.00	10.00	4.00	-0.1	123.0	0.000
+SL	11/27/2002	100.0	12.88	7.00	10.01	4.00	0.0	123.0	0.000
+SL	12/18/2002	100.0	12.88	7.00	9.99	4.02	0.0	100.0	0.001
+SL	1/8/2003	100.0	12.89	7.00	10.00	4.01	0.0	100.3	0.000
+
+Lebanon Landing Post Calibration Readings
+Site	Date	DO (air sat) (Std: 100%)	Sp Cond. (ms/cm) (Std: 12.88) 
+pH(Std:7)	pH(Std:10)	pH(Std:4)	Turbidity(Std: 0 NTU)
+Turbidity(Std: 100 NTU)	Depth
+LL	1/11/2002	100.0	12.88	7.00	10.00	3.99	N/A	N/A	0.000
+LL	1/21/2002	100.0	12.88	7.00	10.00	3.97	0.0	100.0	0.000
+LL	2/1/2002	100.0	12.88	7.00	10.00	4.01	0.0	100.0	0.001
+LL	2/21/2002	100.0	12.88	7.00	10.00	4.01	0.0	100.0	0.001
+LL	3/12/2002	100.0	12.91	7.00	9.99	4.00	-0.5	123.0	0.000
+LL	4/3/2002	100.0	12.88	6.99	10.00	4.00	-0.2	123.0	0.001
+LL	4/15/2002	100.0	12.91	7.00	10.01	4.03	-0.1	123.0	0.000
+LL	5/1/2002	100.0	12.91	7.00	10.00	4.04	0.0	123.0	0.001
+LL	5/15/2002	100.0	12.88	7.00	10.00	3.98	0.1	123.0	0.000
+LL	5/31/2002	100.0	12.88	7.00	10.00	4.02	1.7	123.0	0.000
+LL	6/11/2002	100.0	12.88	7.00	10.00	4.02	0.0	123.0	0.001
+LL	6/26/2002	100.0	12.88	7.00	10.00	4.02	0.0	123.0	0.100
+LL	7/9/2002	100.0	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+LL	7/24/2002	100.0	12.88	7.00	10.00	4.06	0.2	123.0	0.000
+LL	8/6/2002	100.0	12.88	7.00	10.01	4.05	1.4	123.0	0.000
+LL	8/21/2002	100.0	12.88	7.00	10.00	4.04	0.1	123.0	0.000
+LL	9/4/2002	100.0	12.88	7.00	10.00	4.14	0.1	100.0	0.000
+LL	9/19/2002	100.0	12.88	7.00	10.00	4.04	-0.6	123.0	0.000
+LL	10/2/2002	100.0	12.88	7.00	10.00	4.05	-0.1	123.0	0.000
+LL	10/16/2002	100.0	12.88	7.00	10.00	4.04	-1.6	123.0	0.000
+LL	11/6/2002	100.0	12.88	7.00	10.00	4.01	-0.1	123.2	0.000
+LL	11/27/2002	100.0	12.88	7.00	10.00	4.03	0.0	123.1	0.000
+LL	12/18/2002	100.0	12.94	7.00	10.00	4.09	0.0	123.1	0.000
+LL	1/8/2003	100.0	12.89	7.00	10.00	4.03	0.0	123.0	0.000
+
+Division Street Post Calibration Readings
+Site	Date	DO (air sat) (Std: 100%)	Sp Cond. (ms/cm) (Std: 12.88) 
+pH(Std:7)	pH(Std:10)	pH(Std:4)	Turbidity(Std: 0 NTU)
+Turbidity(Std: 100 NTU)	Depth
+DS	1/31/2002	100.0	12.88	7.00	9.99	4.01	N/A	N/A	0.000
+DS	2/21/2002	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A
+DS	3/12/2002	100.0	12.88	7.00	10.01	4.00	-0.5	100.0	0.000
+DS	4/3/2002	100.0	12.88	7.00	10.01	4.01	-1.1	123.0	0.000
+DS	4/15/2002	100.0	12.88	7.01	10.00	4.15	-0.3	131.9	0.000
+DS	5/1/2002	100.0	12.88	7.00	10.00	4.00	0.0	116.6	0.000
+DS	5/15/2002	100.0	12.88	7.00	10.00	4.01	-0.2	140.2	0.000
+DS	5/31/2002	100.0	12.90	7.00	10.00	4.07	0.0	119.5	0.002
+DS	6/11/2002	100.0	12.88	7.00	10.01	3.95	0.0	123.0	0.000
+DS	6/26/2002	100.0	12.88	7.00	10.00	4.07	-1.7	123.1	0.000
+DS	7/9/2002	100.0	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+DS	7/24/2002	100.0	12.88	7.00	10.00	4.03	-0.3	121.8	0.001
+DS	8/6/2002	100.0	12.88	7.00	10.01	4.05	0.0	100.0	0.001
+DS	8/21/2002	100.0	12.88	7.00	10.01	4.03	-0.1	99.4	0.000
+DS	9/4/2002	100.0	12.88	7.00	10.00	4.02	0.0	100.0	0.000
+DS	9/19/2002	100.0	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+DS	10/2/2002	100.0	12.88	7.00	10.00	4.02	0.0	123.0	0.000
+DS	10/17/2002	100.0	12.88	7.00	10.00	4.02	0.0	123.0	0.001
+DS	11/6/2002	100.0	12.88	7.00	10.00	4.06	0.0	123.0	0.000
+DS	11/27/2002	100.0	12.89	7.00	10.00	3.99	-0.1	123.0	0.000
+DS	12/18/2002	100.0	12.89	6.00	10.00	4.02	0.0	123.0	-0.001
+DS	1/8/2003	100.0	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+
+Blackbird Landing Post Calibration Readings
+Site	Date	DO (air sat) (Std: 100%)	Sp Cond. (ms/cm) (Std: 12.88) 
+pH(Std:7)	pH(Std:10)	pH(Std:4)	Turbidity(Std: 0 NTU)
+Turbidity(Std: 100 NTU)	Depth
+BL	1/2/2002	100.0		12.88	7.00	10.00	4.00	0.0	100.0	0.000
+BL	1/16/2002	100.0		12.88	7.00	10.00	4.00	0.0	100.0	0.000
+BL	2/6/2002	100.0		12.89	7.00	10.00	4.02	0.0	100.0	0.000
+BL	3/1/2002	100.0		12.9	7.00	10.00	4.01	0.0	100.0	0.001
+BL	3/6/2002	100.0		12.88	7.00	10.00	4.03	0.0	123.1	0.000
+BL	3/7/2002	100.0		12.88	7.00	10.00	4.01	0.0	123.0	0.000
+BL	3/20/2002	100.0		12.88	7.00	10.01	4.03	0.0	123.0	0.000
+BL	4/11/2002	100.0		12.88	7.00	10.00	4.00	-0.1	123.0	0.000
+BL	4/25/2002	100.0		12.88	7.00	10.01	4.01	0.0	123.0	0.000
+BL	5/10/2002	100.0		12.88	7.00	10.00	4.02	0.0	123.0	0.000
+BL	5/22/2002	100.0		12.89	7.00	10.00	4.09	0.0	123.0	0.000
+BL	6/5/2002	100.0		12.88	7.00	10.00	4.04	0.0	123.0	0.000
+BL	6/17/2002	100.0		12.88	7.00	10.00	4.01	0.0	123.0	0.000
+BL	7/3/2002	100.0		12.88	7.00	10.00	4.04	0.0	123.0	0.000
+BL	7/17/2002	100.0		12.88	7.00	10.00	4.09	0.0	121.1	0.001
+BL	7/31/2002	100.0		12.88	7.00	10.01	4.05	0.0	122.8	0.000
+BL	8/14/2002	100.0		12.88	7.00	10.01	4.03	0.0	133.4	0.000
+BL	8/30/2002	100.0		12.88	7.00	10.01	4.09	0.0	123.0	0.000
+BL	9/11/2002	100.0		12.88	7.00	10.00	4.08	0.0	123.0	0.000
+BL	9/25/2002	100.00	12.88	7.00	10.00	4.00	0.0	123.0	0.000
+BL	10/15/2002	100.00	12.88	6.99	10.02	4.02	0.0	122.2	0.000
+BL	10/29/2002	100.00	12.88	7.00	10.00	4.03	0.0	123.0	0.000
+BL	11/15/2002	100.00	12.88	7.00	10.00	4.06	0.0	123.0	0.000
+
+14. Other Remarks/Notes
+
+
+a) D.O probe warm up times were discussed at the 2002 NERR Technician Training 
+Session. It was agreed that the entire system would employ a 60 second warm up 
+time for the DO sensor. Sonde start times are now set 1 minute prior to desired 
+reading time to compensate for the 60 second warm up period. Warm up times were 
+changed as follows: Scotton Landing (deployment on February 21, 2002), Lebanon 
+Landing (deployment on February 01, 2002), Division Street (deployment on 
+January 31, 2002), and Blackbird Landing (deployment on February 06, 2002). 
+Autosleep functions were also checked on these dates and turned on wherever 
+necessary.
+
+b) A new model 6136 turbidity probe was introduced in 2002 by YSI. This new 
+probe will replace the old 6026 model. The dates of change for each site are as 
+follows: Scotton Landing (deployment on March 12, 2002), Lebanon Landing 
+(deployment on March 12, 2002), Division Street (deployment on April 03, 2002), 
+Blackbird Landing (deployment on March 06, 2002). Model 6026 probes acted as 
+stand ins due to 6136 calibration difficulties/probe failure at the following 
+sites at these date time ranges:
+
+(a) Lebanon Landing:
+- September 04, 2002 12:30:00 through September 19, 2002 09:00:00
+(b) Scotton Landing:
+- December 18, 2002 14:30:00 through January 08, 2003 08:00:00
+(c) Division Street:
+- August 06, 2002 13:30:00 through August 21, 2002 08:00:00
+- August 21, 2002 14:30:00 through September 04, 2002 06:00:00
+- September 04, 2002 12:00:00 through September 19, 2002 09:30:00
+
+c) Calibration procedures changed with the introduction of the new turbidity 
+probe model. The turbidity probe must now be 3 inches from calibration fluid cup 
+bottom. The calibration fluid cup will now always sit directly on a black 
+surface (prior procedure used cup suspended over black surface). 
+
+d) YSI introduced a new sonde guard with the new turbidity probes. The new guard 
+measures 8 1/2" and will replace the old 6 1/2" guard. Please note the 2" 
+difference between the new and old guards in regards to depth data. Guard change 
+dates are synonymous with turbidity probe change dates.
+
+e) Raw data file llwq040302.csv contains corrupted times from March 20, 2002 
+18:00:00 to end of March when imported into program. Times were copied and 
+pasted to fix time column.
+
+f) Sonde software was updated from version 2.14 to version 2.16 for the 
+following 6600 series sondes: Scotton Landing (March 12, 2002), Lebanon Landing 
+(March 12,2002), Division Street (March 12, 2002), Blackbird Landing (March, 
+07,2002)
+
+g) The sonde time for Lebanon Landing was changed (set back 10 minutes) on June 
+11, 2002.
+
+h) The sonde time for Scotton Landing was changed (set back 1 minute) on July 
+09, 2002.
+
+i) The sonde time for Blackbird Landing was changed (set ahead 7 minutes) on 
+July, 31, 2002.
+
+j) There were a few instances at this NERR site where turbidity recorded small 
+negative values (-0001). Because turbidity has a range of accuracy of +/-2 NTU, 
+the technician did not edit or deleted these values in any way. 
+
+

@@ -1,0 +1,512 @@
+South Slough (SOS) NERR Meteorological Metadata
+January – December 2003
+Latest Update: June 21, 2004
+
+I. Data Set & Research Descriptors
+
+1)	Principal investigators and contact persons:
+
+Address: 	South Slough National Estuarine Research Reserve
+	PO Box 5417
+	Charleston, OR 97420
+	Phone:	(541) 888-5558
+	Fax: 	(541) 888-5559
+
+Contact Persons:
+           Dr. Steven Rumrill, Research Program Coordinator
+	E-mail:  steve.rumrill@state.or.us; (541) 888-2581 ext. 302
+           Sue Powell, Estuarine and Coastal Monitoring Coordinator
+	E-mail:  sue.powell@ state.or.us; (541) 888-2581 ext. 304	
+
+2)	Entry verification 
+a) Data Input Procedures:
+
+The CDMO Data Logger Program was loaded into a Campbell Scientific Instruments (CSI) 
+CR10X datalogger station located on the weather tower.  The program controls the sensors, 
+storing meteorological information sampled every 5 seconds from each instrument on the 
+CR10X.  Data are output to a file in three arrays: array 15 stores 15 minute average, max and 
+min data; array 60 stores hourly average, max and min data; and array 144 stores daily 
+average, max and min data.  The CR10X interfaces with the PC208W software supplied by 
+CSI.  The station is hardwired into the Estuarine and Coastal Science laboratory IBM-
+compatible PC where CSI’s Real-Time Data Management Program refreshes the numeric 
+output on screen every 5 seconds.  Visual checks of station performance are noted 
+continuously throughout the workday.  The 15-minute, 1-hour, and 24-hour array data are 
+automatically updated to a file on the computer every 15 minutes.  The data are saved as a 
+monthly raw data file (i.e., cmstn0103month.dat) onto a separate hard drive and backed up on 
+two computers.
+      
+Data were processed in two ways.  From 01/01/03 through 10/19/03, the CDMO Weather 
+Data Management Program (WDMP) was used to process a month of data.  The WDMP was 
+developed in Visual Basic to interface with the NERRS data collection schedule (see 2b of 
+the Entry Verification section for the data collection schedule).  The WDMP converts the 
+comma delimited monthly raw data file into an Access database; checks the data against a 
+predetermined set of error criteria (see section 2c); and produces error and summary reports.  
+Any anomalous data were investigated and are noted below in Anomalous Data section.  Any 
+data corrections that were performed are documented in the Data Correction section.  
+      
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank. 
+ 
+A new program (NERR_4.csi) was uploaded on 10/20/03, and after that time, files were 
+exported from PC208W in a comma-delimited format (.dat). The files were opened in MS 
+Excel for pre-processing with the EQWin format macro which was developed by CDMO to 
+reformat the header columns, insert station codes, insert a date column (mm/dd/yyy), correct 
+the time column format, and reformat the data to the appropriate number of decimal places.  
+The data were then copied into the EQWin weather.eqi file where the data were checked and 
+archived in a database.  EQWin queries, reports, and graphs were used to determine data 
+outliers (values which fall outside the range that the instrument is designed to measure) and 
+large changes in the data.  EQWin was also used to generate statistics, view graphs, create 
+customized queries and reports of the data, cross query the water, weather, and nutrient data, 
+and finally export the data to the CDMO.  Any anomalous data corrections that were 
+performed are noted in the Data Anomalies/Corrections below (Section 11).  
+
+Sue Powell has been responsible for the weather station since 2001, including QA/QC 
+processing of the data and compiling the metadata.
+      
+The most common reported errors/anomalies in 2003 were:
+1.	Sudden increases in Temperature
+2.	Wind Speed less than 0.5 m/s
+3.	High precipitation rates
+
+b) Data Collection Schedule (i-Vi with prior to installation of the NERR_4.CSI program)
+i) Data is collected in the following formats:
+(a)	Sample data points are collected every 15 minutes.  With installation of program
+NERR_4.CSI, 15 minute averages are collected every 15 minutes.  
+(b)	Hourly averages are collected every 60 minutes.
+(c)	Daily average, maximum with time, and minimum with time are collected every 
+24-hours.
+
+ii) 15 minute sample point parameters include:  Date, Time, Air Temperature (oC), 
+Relative Humidity (%), LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), 
+Wind Direction (degrees), and Rainfall (mm). 
+
+iii) Hourly average parameters include:  Date, Time, Air Temperature (oC), Relative 
+Humidity (%), LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), Wind 
+Direction (degrees), and Wind Direction Standard Deviation (using Yamartino's 
+Algorithm). 
+
+iv) Daily Average parameters include:  Date, Time, Air Temperature (oC), Relative 
+Humidity (%), LiCor (par), Barometric Pressure (mb), Wind Speed (m/s), and Wind 
+Direction (degrees) (degrees). 
+
+v) Daily Maximum parameters include: Date, Time, Air Temperature (oC), Time, 
+Relative Humidity (%), Time, LiCor (par), Time, Barometric Pressure (mb), Time, 
+Wind Speed (m/s), Time, Battery Voltage, and Time. 
+
+vi) Daily Minimum parameters: Date, Time, Air Temperature (oC), Time, Relative 
+Humidity (%), Time, LiCor (par), Time, Barometric Pressure (mb), Time, Wind 
+Speed (m/s), Time, Battery Voltage, and Time. 
+
+vii) With installation of the new NERR_4.CSI program, the following parameters were collected:
+Year, Julian Date, Time, Average (c), Temperature Maximum Temperature (c), 
+Maximum Temperature Time, Minimum Temperature (c), Minimum Temperature Time, 
+Relative Humidity Average (%), Relative Humidity Max (%), Relative Humidity Max 
+Time, Relative Humidity Min (%), Relative Humidity Min Time, Barometric Pressure Average (mb), 
+Barometric Pressure Max (mb), Barometric Pressure Max Time, Barometric Pressure Min (mb), 
+Barometric Pressure Min Time, Wind Speed Average (m/s) Wind Direction Average (degrees), 
+Wind Speed Std Dev (m/s), Wind Speed Maximum (m/s), Wind Speed Maximum Time, Wind Speed Minimum 
+(m/s), Wind Speed Minimum Time, Precipitation Total (mm), PAR Total (millimoles/M2), 
+Voltage Average (volts), Cumulative Rainfall (mm)
+
+c) Error/Anomalous Data Criteria
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 oC from the previous 15 minutes
+- Max and min temp recorded for the day
+- 1-hour average not greater than 10% above the greatest 15-min sample recorded in the hour
+
+Relative Humidity:
+- Not changed by more than 25% from the previous 15 minutes
+- Not greater or less than the max and min humidity recorded for the day
+- 1-hour average not greater than 10% above the greatest 15-min sample recorded in the hour
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month
+
+Wind Speed:
+- Wind speed greater than 30 m/s
+- Wind speed less than 0.5 m/s
+
+Wind Direction:
+- Wind direction not greater than 360 degrees
+- Wind direction not less than 0 degrees
+
+Pressure:
+- Pressure greater than 1040 mb or less than 980 mb
+- Pressure changes greater than 5 mb per hour
+- Not greater or less than the maximum and minimum values recorded for the day
+- 1-hour average not greater than 10% above the greatest 15-min sample recorded in the hour
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- Duplicate interval data	
+
+3)	Research objectives: 
+
+The South Slough NERR operates the SWMP Meteorological Station to provide continuous 
+measurements of local weather conditions affecting the South Slough estuary.  The nearest 
+National Weather Service certified station is located at the North Bend Airport, 11.5 km NE 
+from the mouth of South Slough.  At that location, the weather observers’ primary function is 
+to provide current meteorological information to pilots.  Only 24-hour weather data is 
+recorded, including maximum and minimum temperature, precipitation, and prevailing wind 
+direction.
+      
+Because the SWMP weather station is located at the mouth of South Slough, recorded data 
+provides information more pertinent to the microclimates affecting the estuary.  The principal 
+objective is to record long-term meteorological data for South Slough in order to observe any 
+environmental changes or trends over time.  In addition, the station provides real-time data to 
+assess the short-term effects of local weather.  The station is part of a framework to evaluate 
+the relative contributions of oceanic forcing and watershed inputs to hydrodynamics, nutrient 
+dynamics, and other ecological processes within the South Slough estuary.  Data were 
+recorded every 5 seconds and 15 minutes over approximately 2-week collecting intervals. 
+
+4)	Research methods: 
+
+The Campbell Scientific weather station samples every 5 seconds to produce 15 minute, hourly and 
+daily averages of Air Temperature, Relative Humidity, Barometric Pressure, Rainfall, Wind 
+Speed, and Wind Direction.  An instantaneous sample is taken every 15 minutes and those 
+data are stored in array 150 (until 10/19/03) or array 15 (after 10/20/03).  Array 60 stores 
+hourly averages, and max and min data; and array 144 stores daily average, and max and min 
+data.  The data are automatically downloaded to a PC in the laboratory via a local network 
+link.  A 4MB storage module was installed on 10/20/03 to increase the capacity of the 
+CR10X data storage.  In case the direct network line fails, a Palm Pilot (m105) or a laptop 
+computer can be used to download data.  
+
+The sensors are inspected monthly for damage or fouling and the solar panels, PAR sensor, 
+and the rain gauge are cleaned.  A Kestrel 4000 handheld is used as a general check of the 
+sensors as well as a sling psychrometer for an additional relative humidity comparison.  Back 
+in the laboratory, data as close as possible to the field check are downloaded from the nearby 
+North Bend Weather Station and compared to station data. The Spike Needle Strips (Bird-X, 
+Inc.) that were installed on a frame around the rain gauge to prevent bird roosting have been 
+very effective.  Annually, all sensors are calibrated on site by Robb Hibbs of MeasureTek, 
+Inc.  Data recorded during station maintenance are deleted. 
+
+5)	Site location and character: 
+
+South Slough is characterized as a drowned river-mouth estuary.  Located five miles 
+southwest of Coos Bay, Oregon, South Slough is one of seven tidal inlets that collectively 
+form the Coos estuary.  The South Slough National Estuarine Research Reserve is 
+representative of the mid-Pacific portion of the Lower Columbian Bioregion, extending from 
+Cape Mendocino, CA north to the Columbia River, OR.  The Reserve includes 4,700 acres 
+with 600 acres of tidal marshes, mudflats and open water channels.
+      
+Within the South Slough, there are three primary sub-systems that provide much of the 
+freshwater input to the area.  Only two sub-systems, the Sengstacken and Winchester arms, 
+are within Reserve boundaries.  The Sengstacken arm drains a semi-pristine area with no 
+development and serves as a reference site for the riverine portion of the estuary.  The 
+Winchester arm is similarly located in an area with development limited to one small farm 
+(<10 cattle) high in the watershed.  The area functions as a management-treatment site for 
+salt marsh restoration activities in the Winchester Tidelands Restoration Project.  Valino 
+Island marks the northern boundary of the Reserve and is a marine-dominated area.
+
+Charleston Meteorological Station:  [43deg 20.703’ N, 124deg 19.724’ W]
+The station is located 1.2 kms northwest of the Charleston water quality monitoring site.  A 
+10-meter tall navigation tower that formerly belonged to the Corps of Engineers is situated 
+on the northeast corner of the Oregon Institute of Marine Biology campus.  The tower is 
+about 20 meters from the inner boat marina at Charleston harbor.  Three 12-13 meter tall 
+shore pines lie directly south of the tower and may slightly shelter the station from southerly 
+winds, but the sensor array is never shaded.  The weather station is above the nearest 
+building, which is about 8 meters away.  A 40-meter-tall forested ridge that has a northeast to 
+southwest alignment is located about 60 meters from the weather tower and may interfere 
+with winds from the southwest.  On the tower platform, a 3-meter tall mast holds the Wind 
+Sentry, Temperature and Humidity, Barometric, and LiCor sensors array and the CR-10.  
+Because there is no open field available, the Rain Gauge is set on top of a platform on the 
+southwest corner of the tower.  Other sensor placement is in accordance with the NERR SWMP
+Campbell Scientific CR10X Based Meteorological Monitoring Station Standard Operating Procedure.
+      
+Safety apparatus for ascending the tower is in accordance with OSHA regulations.  A sliding 
+trolley runs in a track during ascension of the ladder.  The trolley is connected by a carabiner 
+to a chest harness and belt.  While working on the tower platform, a 4-meter-long tether 
+secures the person to a tower strut.  
+
+6)	Data collection period: 
+
+The Charleston station was installed on 08/21/01.  The station is hard-wired to the SWMP 
+laboratory in 2002 and the data are downloaded automatically.  The WordPad program is 
+used to divide the data into individual months.  Data were collected for the entire year in 
+2003.
+
+7)	Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for 
+the NERRS System-wide Monitoring Program:
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic courtesy 
+standards, the PI and NERR site where the data were collected will be contacted and 
+fully acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM-supported research that are 
+produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine 
+Reserves Division, Office of Ocean and Coastal Resource Management, National 
+Ocean Service, National Oceanic and Atmospheric Administration.  The data set 
+enclosed within this package/transmission is only as good as the quality 
+assurance/quality control procedures outlined by the enclosed metadata reporting 
+statement.  The user bears all responsibility for its subsequent use/misuse in any 
+further analyses or comparisons.  The Federal government does not assume liability 
+to the Recipient or third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any way from 
+the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 - Principal investigators and contact persons), 
+from the Data Manager at the Centralized Data Management Office (please see personnel 
+directory under the general information link on the CDMO home page) and online at the 
+CDMO home page http://cdmo.baruch.sc.edu.  Data are available in text format 
+and Access data tables.
+
+8)	Associated researchers and projects: 
+
+The South Slough NERR maintains four water quality monitoring stations along the estuarine 
+gradient within the South Slough estuary.  These stations collect continuous information to 
+address three primary topics:  1) short-term variability and long-term changes in estuarine 
+water parameters within different regions of the estuary (i.e., localized impacts of seasonal 
+storm events, variability in water quality parameters in association with re-establishment of 
+tidal circulation, interannual differences in rainfall, magnitude and influence of El Niño – La 
+Niña events, spatial extent of oceanic and tidal forcing, and long-term changes associated 
+with the Pacific Decadal Oscillation, etc.); 2) verification, calibration, and future refinement 
+of an existing two-dimensional water quality model (CE-QUAL-W2) developed to predict 
+levels of coliform bacteria and dispersion of environmental toxins; and 3) collection of 
+fundamental baseline data for future development of a three-dimensional tidal hydrodynamic 
+model for the greater South Slough/Coos Bay estuaries.
+      
+A water chemistry component is also associated with the core monitoring program.  
+Variables measured include: nitrogen, phosphorus, chlorophyll, dissolved organic carbon, 
+total suspended solids, and silica.  Grab samples are collected for both high and low tides at 4 
+sampling sites, and automated samplers collect diel samples to compare marine and riverine 
+sites during wet and dry seasons.
+      
+The SSNERR water quality monitoring project has been incorporated into the State of 
+Oregon Coastal Non-Point Pollution Control Program (S. 6217) developed by the Oregon 
+Department of Land Conservation and Development and the Oregon Department of 
+Environmental Quality in July 1995.
+
+II. Physical Structure Descriptors
+
+9)	Sensor specifications, operating range, accuracy, date of last calibration 
+
+Sensor Name:			Vaisala Analog barometer
+Model:				CS 015
+Operating Range:		600-1060 mbar
+Temperature:  			-40-+60 deg. C
+Humidity:  			non-condensing
+Accuracy: 			±0.5 to 6.0 mb (+20-60C)
+Stability: 			± 0.1 mb per year
+Date of Last calibration:	10/20/2003:
+Calibration Drift:		0.0%
+
+Sensor Name:			Temperature and Relative Humidity
+Model:				HMP45C 
+Temperature:			-40 - +60 deg. C
+Temperature Accuracy: 		± 0.3 °C @ 25°C
+Rel. Humidity Range:		0 - 100% non-condensing
+Rel. Humidity Accuracy:  	+/-2% RH (0-90%) and +/-3% (90-100%) at 20oC
+Date of Last calibration:	10/20/2003:
+Uncertainty of calibration: 	± 0.26% RH, 2.99% Temp
+
+Sensor Name:			LiCor Quantum Sensor
+Model:				# LI190SB
+Stability:			<±2% change over 1 yr
+Operating Temperature:		-40 to 65°C 
+Sensitivity:			typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:	400 to 700 nm 
+Date of Last calibration:	10/20/2003
+Calibration Drift:		1.3%
+
+
+Sensor Name:			R.M. Young Wind Sentry
+Model:				05106
+Range:				0-60 m/s; 360° mechanical, 355° electrical
+Date of last calibration: 	10/20/2003
+Calibration Drift:		2.7% Wind Speed, -8° offset was corrected
+
+Sensor Name:			Tipping Bucket Rain Gauge
+Model:				RG-2000-C
+Range:				0.25 mm per bucket tip
+Accuracy:			+/-1.0% at 14”/hr
+Date of Last calibration:	10/20/2003
+Calibration Drift:		5.0% low – adjusted to w/in 2%
+
+10)	Coded variable indicator and variable code definitions: 
+
+Site definitions:  CM = Charleston Meteorological Station (different from the Charleston 
+(CH) YSI water quality monitoring site)
+
+11)	Data anomalies/Data corrections: 
+
+January 2003
+On 01/09/03 at 0915, the station was powered down for maintenance.  A 40W solar panel 
+was installed that coupled a deep cycle marine battery powers the NL100.  The original 10W 
+solar panel powers the CR10X data collection.  A signal splitter sends real-time and WDMP 
+data through the network link to the laboratory.
+
+The following data were not recorded during the maintenance and the hourly and daily 
+records were replaced by 55555:
+Array	Day	Julian	Time	Error Message
+101	9	9	1000	Technician changed 101 Array data from 9 (9) 1000 to 9 (9) 1000
+102	9	9	1000	Technician changed 102 Array from 9 (9) 1000 to 9 (9) 1000
+241	9	9	2400	Technician changed 241 Array from 9 (9) 2400 to 9 (9) 2400
+242	9	9	2400	Technician changed 242 Array from 9 (9) 2400 to 9 (9) 2400
+243	9	9	2400	Technician changed 243 Array data from 9 (9) 2400 to 9 (9) 2400
+244	9	9	2400	Technician changed 244 Array data from 9 (9) 2400 to 9 (9) 2400
+
+The following data appear to be correct:
+150	7	7	1315	Air temp diff from 7 (7) 1315 (16.158) to 7 (7) 1330 (12.743) is > 3.0o C
+102	26	26	2000	Wind speed is less than 0.5 m/s from 26 (26) 2000 to 27 (27) 800
+
+February 2003
+The following datum was verified with the North Bend Airport Meteorological Station and is 
+correct:
+Array	Day	Julian	Time	Error Message
+102	13	44	800	Wind speed is less than 0.5 m/s from 13 (44) 800 to 13 (44) 2200
+
+March 2003
+A new program was uploaded on 03/05/03 at 09:07.  The following data were deleted:
+Array	Day	Julian	Time	Error Message
+101	5	64	1000	Technician changed 101 Array data from 5 (64) 1000 to 5 (64) 1000
+102	5	64	1000	Technician changed 102 Array from 5 (64) 1000 to 5 (64) 1000
+241	5	64	2400	Technician changed 241 Array from 5 (64) 2400 to 5 (64) 2400
+242	5	64	2400	Technician changed 242 Array from 5 (64) 2400 to 5 (64) 2400
+243	5	64	2400	Technician changed 243 Array data from 5 (64) 2400 to 5 (64) 2400
+244	5	64	2400	Technician changed 244 Array data from 5 (64) 2400 to 5 (64) 2400
+
+A large Pacific storm system was responsible for fluctuations in the meteorological record, including
+high precipitation.  As the low pressure system moved through, the barometric pressure decreased from 
+3/12/03 thorugh 3/15/03.  The minimum pressure recorded was 988.8 mb on 3/14/03 at 20:30, 21:00 and 21:15.
+
+April 2003
+None
+
+May 2003
+None
+
+June 2003
+The following data appear to be correct:
+Array	Day	Julian	Time	Error Message
+150	5	156	745	Air T diff from 5 (156) 745 (15.818) to 5 (156) 800 (18.95) is > 3.0o C
+150	28	179	1915	Air T diff from 28 (179) 1915 (15.147) to 28 (179) 1930 (11.93) is > 3.0 oC
+
+July 2003
+None
+
+August 2003
+None
+
+September 2003
+None
+
+October 2003
+The following data appear to be correct:
+Array	Day	Julian	Time	Error Message
+102	3	276	2000	Wind speed is less than 0.5 m/s from 3 (276) 2000 to 4 (277) 1100
+
+On 10/20/03, the station was taken off line for annual maintenance from 1000 to 1715 so no 
+data were recorded.  A new CR10X program (NERR_4_1.csi) was uploaded that changed 
+data formats for analysis from the WDMP to EQWin programs.  The MeasureTek weather 
+consultant advised us to delete the following data which may have been compromised due to 
+station startup:
+Array	Day	Julian	Time	Error Message
+All data	20	293	1715	All data from 20 (293) 1715 to 21 (294) 0000
+
+November 2003
+A new program (NERR_4_2.csi) upgrading real-time data collection was uploaded on 
+11/14/03 at 09:20.  The following data were deleted:
+Array	Day	Julian	Time	Error Message
+15	14	318	0930	All data on 14 (318) at 0930
+60	14	318	1000	All data on 14 (318) at 1000
+144	15	319	0000	All data on 15 (319) at 0000
+
+During a 1-year rain event, the North Bend Weather Station recorded 59.69 mm of 
+precipitation for 24 hours. The following data appear to be correct:
+Stncode		Smpldate	Usrcodes	Smpltime	Class	Totprcp
+soscmmet	11/28/2003	332		19:00		15	05.1
+
+December 2003
+During a 5-year rain event, the North Bend Weather Station recorded of 102.87 mm of 
+precipitation for 4 hours. The following data appear to be correct:
+Stncode		Smpldate	Usrcodes	Smpltime	Class	Totprcp
+soscmmet	12/13/2003	347		11:00		15	06.4
+soscmmet	12/13/2003	347		11:15		15	09.7
+
+12)	Missing data: 
+
+January 2003
+The following data were not recorded during station maintenance:
+Array	Day	Julian	Time	Error Message
+150	9	9	915	Missing 150 Array (15 minute data) 
+
+March - September 2003
+None
+
+October 2003
+The following data were not recorded during station maintenance:
+Array	Day	Julian	Time	Error Message
+All	293	20	1000	Missing all data due to station maintenance until 1715 
+
+November 2003
+None
+
+December 2003
+None
+
+13)	Other Remarks/notes
+Precipitation data recorded at the North Bend Airport compared to CM weather station:
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.
+
+LiCor:  
+Prior to the installation of the new NERR_4.CSI program, all values less 
+than 0 were altered in the raw data to read 0. These values may indicate an incorrect 
+multiplier, calibration problems, or a sensor malfunction. Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity:
+Prior to the installation of the new NERR_4.CSI program, all values over 
+100% were altered in the raw data to read 100%.  These values may indicate super 
+saturated air, calibration problems, or a sensor malfunction.  Because these values 
+are changed in the raw data, we cannot confirm that they are all valid data points. 
+
+
+Monthly Precipitation in mm
+
+Site
+CM	Jan	Feb	Mar	Apr	May	Jun	Jul	Aug	Sep	Oct	Nov	 Dec
+	262.4	96.3	247.6	217.4	41.1	3.0	1.0	4.6	21.3	53.6	239.01 404.62
+
+NBWS	255.52 108.71 255.78 254.00 42.42 3.30 0.00 3.30 32.00 51.05 256.79 424.94
+
+Local	245.36 96.27 226.06 227.58 42.67 2.54 0.00 3.05	25.91	44.45	232.16 397.26
+
+Histor. 258.31 202.69 194.56 114.30	76.71	41.40	11.43	18.03	42.93	131.32 241.05 270.26
+
+
+CM		2003 data from SWMP Charleston Meteorological Station – located 11.5 km 
+                SW of NBWS and 8 km SW of local weather spotter
+NBWS		North Bend Weather Station at FAA Airport 2003 data
+Local		Weather spotter M. Lee located 5 km S of NBWS
+Histor		Mean data recorded at NBWS from 1931-2001
+

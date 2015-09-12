@@ -1,0 +1,1035 @@
+Chesapeake Bay Maryland (CBM) NERR Water Quality Metadata 
+March 2003-December 2003
+Latest Update: April 29, 2004
+
+I. Data Set and Research Descriptors
+
+1.	Principle investigator(s) and contact persons
+
+Julie Bortz, Research Coordinator
+e-mail: jbortz@dnr.state.md.us 
+Chesapeake Bay National Estuarine Research Reserve Maryland
+Tawes State Office Building, E-2
+530 Taylor Avenue
+Annapolis, Maryland 21401
+Phone: (410) 260-8989
+Fax: (410) 260-8709
+
+John Zimmerelli, Research Technician
+Mailing Address:
+1919 Lincoln Drive
+Annapolis, Maryland 21401
+Phone: (410) 263-3369
+Fax: (410) 263-2468
+email: jzimmerelli@dnr.state.md.us
+
+Chris Trumbauer, Research Technician
+Mailing Address:
+1919 Lincoln Drive
+Annapolis, Maryland 21401
+Phone: (410) 263-3369
+Fax: (410) 263-2468
+email: ctrumbauer@dnr.state.md.us
+
+
+
+2. Entry verification
+Raw data were uploaded from the YSI 6600EDS data loggers to a PC, 
+graphs were produced and data were visually examined after each deployment using 
+the EcoWatch software. Data files were then exported from the EcoWatch format 
+into Excel (for Windows 2000) files, where the headers, footers, and 
+inappropriate spaces were removed.  Raw data was archived, plotted and suspect 
+data (outliers) or trends noted initially to verify accurate instrument 
+operation for service as needed prior to redeployment.  John Zimmerelli and 
+Chris Trumbauer were responsible for these tasks.
+
+Data from each deployment was processed initially using macros in the CDMO 
+cdmomac3.xls program.  Steps in the program include procedures which allow users 
+to automatically format column widths to the correct number of decimal places 
+based on YSI sensor specifications.  It also allows users to QA/QC each data 
+logger generated file for missing data points, fill all cells that do not 
+contain data with periods, and find all data points that fall outside the range 
+of what the data logger is designed to measure (outliers). The CDMO import.xls 
+macro allows PC users with 30-minute data to automatically create a monthly 
+Excel file from a two-week deployment and insert periods for missing data. 
+Periods were later removed for data dissemination purposes and left blank. In 
+2004, John Zimmerelli with the help of Mark Trice at the Department of Natural 
+Resources changed the import macro to allow PC users to import 15-minute data 
+into this form. In addition, in November 1999 a graphing capability was added to 
+this macro allowing users to produce single parameter and missing data point 
+graphs on a monthly basis.
+
+Raw data from successive deployments were merged using the CDMO import.xls 
+macros to produce monthly files.  Resulting monthly Excel files at each site 
+(eg. JB0302.xls) consist of continuous data for all variables measured, with a 
+period (.) to denote any missing data.  At this point, these data have not been 
+modified except for replacement of missing entries with a period. Data were then 
+processed using the CDMO cdmomac3.xls macros as an initial step in QA/QC
+procedures to identify outliers, defined simply as values outside the respective 
+sensor specifications.  Results are retained as monthly Excel files for each 
+site (eg. JB0302outliers.xls). 
+
+The final data processing involved identification and documentation of data 
+points judged to be anomalous (suspect) or erroneous due to extreme natural 
+events or equipment malfunctions using various procedures including 
+recommendations from CDMO Operations Manual Appendix B, YSI 6000 Data Review and 
+Editing Protocol.  Anomalous data were retained in cases where no definite 
+reason for deletion was found.  Periods during which data were found to result 
+from equipment malfunctions, failure, tampering or exposure to air by low tides 
+were identified, times with causes or related observations documented below and 
+respective data removed or deleted. These resulting edited data and 
+documentation (metadata) were archived, formatted in comma delimited file format 
+and submitted to the CDMO for further QA/QC.  John Zimmerelli and Katie Diblasi
+were responsible for these tasks.
+
+3. Research Objectives        
+The purpose of the monitoring program at CBM NERR is to conform to the NERR SWMP 
+monitoring program looking at trends in water quality over both temporal and 
+spatial scales. Observed effects of water quality, habitats and living resources 
+in the river channel site and the nearby emergent tidal fresh marshes are being 
+studied using various comparative field sampling methods with the backdrop of 
+long term high resolution data from four representative fixed monitoring sites.  
+Water quality measurements were taken every 15 minutes from April through 
+December 2003 at the Jug Bay Wetlands Sanctuary (RR) site that conform to 
+seasonal measurements collected each year since 1995.  In 2003, the Patuxent 
+River Park (PR)site was moved to Mataponi Creek (MC), and the CBM NERR expanded 
+its water quality component by two (2) stations.  These new stations were 
+installed at Otter Point Creek (OC) and Ironpot Landing (IP), and measurements 
+were taken every 15 minutes from April through December of 2003.
+
+4. Research methods (YSI dataloggers)
+
+Dataloggers and methods of deployments were replaced and upgraded during 2003 
+after tests of existing YSI 6000 data loggers and consultation with YSI 
+technicians determined new dataloggers with upgraded sensor packages to be 
+more cost effective.  Deployment methods were changed considerably in 2003 to 
+ensure a better quality of data.  New deployment apparatus' were constructed out 
+of 4" diameter PVC pipe and suspended vertically in the water column.  2" 
+diameter holes were cut into the PVC pipes at 2" intervals to guarantee free 
+flow of water through the PVC pipe.  The pipe was painted with Interlux Micron 
+Extra w/ Biolux antifouling paint.  The pipe was then attached to a 2X4 using 
+copper plated clevis hangers.  The 2X4 was then bolted to a piling with the 
+bottom of the PVC pipe resting on the bottom of the river.  A stop bolt was 
+placed 0.25 meters from the bottom of the pipe to keep the YSI instrument at a 
+constant depth.  Measurements for temperature, specific conductance, salinity, 
+percent oxygen saturation, dissolved oxygen concentration, water depth, pH, 
+turbidity, and Chlorophyll were recorded every 15 minutes.  Deployments ranged 
+from one to three weeks, depending on biofouling intensity (temperature 
+dependent).  When a deployment concluded, dataloggers were replaced with newly 
+serviced and calibrated instruments.  At the time of replacement two (2) 
+simultaneous overlapping readings were taken between the old and new YSI 
+instruments, as well as an in situ reading with a series 3 Hydrolab sonde.  All 
+simultaneous overlapping readings were taken prior to the previously deployed 
+sonde being disturbed in any way.  Once retrieved, the sondes are wrapped in a 
+damp towel and placed in a cooler for transport back to the lab.  The sondes 
+are then stored in the cooler overnight at the lab, continuing to log data every 
+15 minutes.  DO post-calibration record is taken from this logged data the 
+following morning.  Logging is then stopped, and YSI sondes are post calibrated 
+using the same standards as used in the calibration.  Deployment data was 
+collected, data was downloaded, archived, and then visually examined.  Efforts 
+were made to relate sensor conditions to any apparent outliers or anomalies (eg. 
+battery charge status, or normal DO data at the beginning of a deployment may be 
+distinguished from erroneous data resulting from a known malfunction, such as a 
+punctured DO membrane due to crabs).  Data loggers and sensors were cleaned, 
+serviced and calibrated according to the methods described in the YSI Operating 
+Manual and SWMP Operating Procedures.  Laboratory calibration procedures were 
+carried out in accordance with the YSI operating manual methods.  Standards for 
+turbidity were purchased from YSI.  Standards for pH and Chlorophyll were 
+purchased from Fisher Scientific, a YSI approved vendor.  Specific conductance 
+standards were prepared in-house, from A.C.S. certified KCl.  Data were reviewed 
+and edited according to the YSI Data Review and Editing Protocol in Appendix B 
+of the CDMO manual.  After cleaning the data loggers, the dissolved oxygen (DO) 
+membrane were replaced and allowed to stretch for at least 24 hours before 
+calibration.  The pH, specific conductance, depth, turbidity, and chlorophyll 
+sensors were calibrated using the following methods: 2-point pH 7 and 10, 
+specific conductance standard of the nearest concentration of river (ranging 
+from 0.294 mS/cm to 58.64 mS/cm), zeroed depth in the air, 2-point turbidity 
+standards of 0 (deionized water) and 123 NTUs for the 6136 turbidity sensor, and 
+2-point chlorophyll standards of 0 (deionized water) and temperature dependant 
+Rhodamine WT fluorescense standard typically at or near 118 ug/l as Chlorophyll.  
+The DO sensor was calibrated using the YSI reccommended wet towel method.  As a 
+quality insurance check, YSI datalogger records during sonde deployment and 
+retrieval are compared to the series 3 Hydrolab instrument.  Post-deployment 
+measurements of all the parameters were recorded before cleaning the data 
+loggers. Sensors were immersed in  the appropriate standard solutions (i.e., pH) 
+and readings recorded using discreet sampling.  
+
+5. Site location and character
+The Chesapeake Bay Maryland NERR has three components in Maryland's portion of 
+Chesapeake Bay.  Monie Bay is a mesohaline region on the lower Eastern Shore; 
+Otter Point Creek is a tidal freshwater tributary of the Bush River; and Jug Bay 
+is part of the freshwater portion of the Patuxent River.  Three (3) of the data 
+loggers during 2003 were within the Jug Bay component and one (1) logger was in 
+the Otter Point Creek component.
+
+     Mataponi Creek (MC) 38° 44.599'N, 76° 42.446'W (NAD83) or 38.74331667,
+			  -76.70743333 (GIS format)
+ 
+Site MC is located in a small tributary off the upper tidal headwaters of the 
+Patuxent River, Maryland.  MC is 2.4 km upstream of the mouth, midchannel in 
+the creek, which is approximately 7m wide.  The southern bank is steep and 
+covered mainly with hardwood trees while the Northern bank is tidal marsh.  The 
+sonde was deployed vertically in a perforated PVC pipe.  Average depth at this 
+site is roughly 0.7 meters with a mean tidal fluctuation of approximately 0.6 
+m..  The YSI is deployed 0.25 m off of the creek bottom.  Salinities at this 
+site rarely exceed 0.1 ppt.  The bottom habitat is soft sediment, and SAV 
+grassbeds are abundant during the summer months.  Because this site is located 
+along the main channel of the Mataponi Creek, water quality is reflective of the 
+general quality of water flowing along the main portion of the creek. The SAV 
+community as this site is seasonally very dense and thus water quality is 
+thought to be strongly influenced by the presence of SAV during the summer 
+months.
+
+     Railroad Bridge (RR) 38° 46.877'N, 76° 42.822'W (NAD 83) or 38.78128333,
+			 -76.7137 (GIS format)
+
+Jug Bay is a 722-acre tidal estuary providing a narrow transition zone between 
+brackish marshes and upland freshwater wetlands. The broad, shallow waters of 
+Jug Bay support a profusion of freshwater plants and animals. Vegetation crowds 
+the river channel and forms an interlaced pattern of tidal and nontidal marshes, 
+swamps and forested wetlands surrounded by upland woods and fields.  Site RR is 
+located in the mainstem of the upper tidal headwaters of the Patuxent River, 
+Maryland.  The site is slightly upstream (roughly 0.3km) from Jackson's Landing 
+at the Patuxent River Park (previous PR site). This section of the Patuxent 
+river is approximately 70m wide and average depth at the site is 1.4m.  The YSI 
+is deployed 0.25 m off of the river bottom.  Bottom habitat is soft sediment, 
+and grassbeds are evident in the area during summer months.  Mean tidal  
+fluctuation is approximately 0.6 m.  Salinity in 2003 ranged from 0.05 - 0.4 
+ppt.  In 2003 this site was moved from 38° 46' 50.6" N, 76° 42' 29.1" W (Jug 
+Bay) to its present location because of the shallow nature of the old site.  The 
+new site location (RR) is at the end of the old railroad bed and is deployed 
+vertically in a perforated PVC pipe near midchannel of the Patuxent River.  
+Because this site is located along the main channel of the Patuxent River, water 
+quality is reflective of the general quality of water flowing along the main 
+portion of the river.  The site is roughly 1km downstream of the confluence of 
+the Western Branch tributary and the Patuxent River Mainstem, thus water quality 
+is influenced by Western Branch.  A large wastewater treatment plant (averaging 
+10-20 mgd ) discharges directly into the Western Branch tributary of the 
+Patuxent River just upstream of IP.  
+
+	Iron Pot Landing (IP) 38° 47.760'N, 76° 43.248' W (NAD 83) 
+				or 38.796, -76.7208 (GIS Format)
+
+Site IP is located 2.09km from the mouth of Western Branch.  IP is attached 
+vertically off of a small pier near midchannel of the river and has an average 
+depth of 1.6m.  The YSI is deployed 0.25 m off of the river bottom.  The site is 
+roughly 1km downstream of a large (10-20 mgd) wastewater treatment plant 
+effluent.  The river is approximately 15m wide and flows through extensive 
+riparian buffers.  Both banks of the river are flanked by hardwood flora.  Tides 
+are semi-diurnal and mean tidal fluctuation is approximately 0.6 m.  Salinity at 
+this site is generally 0.1 ppt.  Bottom habitat is soft sediment, and grassbeds 
+are evident during the summer months.  This site is part of the NERR build out 
+and is new for 2003.
+
+	Otter Point Creek (OC) 39° 27.047'N, 76° 16.474'W (NAD 83) 
+				or 39.45078333, -76.27456667 (GIS Format)
+
+Otter Point Creek is a tributary of the Bush River in the upper Chesapeake Bay 
+and consists of 672 acres of open water, tidal marshes, forested wetlands and 
+upland hardwood forests, surrounded by major highways, large residential 
+communities, and heavy commercial and industrial development.  Site OC is 
+located approximately 0.3km from the Anita C. Leight Estuary Center.  OC is 
+deployed vertically in a perforated PVC pipe and has an average depth of 0.7m.  
+The YSI is deployed 0.25 m off of the creek bottom.  Bottom habitat is extremely 
+soft sediment, and grass beds inundate the site during summer months.  Salinity 
+at this station rarely rises above 0.1 ppt.  Tides in Otter Point Creek are 
+semi-diurnal and have a mean range of about 0.3 m. The average water levels are 
+generally lower in the winter due to north and northwest winds that increase the 
+egress from Chesapeake Bay.  The sonde was periodically exposed to very low  
+tides, and sediments at the site are extremely fine and flocculent.  Because of 
+the shallowness of the tidal marsh, coupled with the dramatic daily changes in 
+the depth and width of the stream, deployments at the site presented many 
+problems.  These problems included periodic exposure of the sonde, very high 
+turbidity and sedimentation rates associated with tidal infiltration and wind 
+and wave generated resuspension which caused severe fouling of the probes.  
+Water quality at the site represented extreme shallow water habitats.  Thus it 
+is not uncommon to see very large fluctuations in temperature and dissolved 
+oxygen at this site ranging from complete anoxia to full saturation, due in part 
+to the shallow nature of the site and the effects of marsh processes on water 
+quality.  Additionally, the site was dominated by dense SAV communities from 
+June-October 2003 and thus water quality conditions were likely influenced by 
+the presence of these macrophytes.
+
+
+6. Data collection period
+Data collection using sondes at Railroad Bridge (Jug Bay Wetlands Sanctuary) 
+(RR) began on April 4, 2003 and continued through December 31, 2003; Mataponi 
+Creek (MTI) began April 22,2003 and continued through December 31, 2003; Iron 
+Pot Landing (IP) began April 4, 2003 and continued through December 31, 2003; 
+and Otter Point Creek (OC) began April 15, 2003 and continued through December 
+23, 2003.
+
+*Deployment/retrieval times were off by an hour due to data collected in 
+Daylight Savings Times. 
+
+Datalogger deployments:
+BEGAN                    ENDED
+
+(RR) Railroad 
+04/04/03  13:00:00	04/15/03  10:30:00
+04/15/03  10:45:00	04/29/03  07:30:00
+04/29/03  07:45:00	05/20/03  08:00:00
+05/20/03  08:15:00	06/03/03  10:30:00
+06/03/03  10:45:00	06/17/03  08:15:00
+06/17/03  08:30:00	07/01/03  06:30:00
+07/01/03  06:45:00	07/15/03  07:30:00
+07/15/03  07:45:00	07/29/03  08:00:00
+07/29/03  08:15:00	08/12/03  08:30:00
+08/12/03  08:45:00	08/26/03  09:30:00
+08/26/03  09:45:00	09/10/03  07:15:00
+09/10/03  07:30:00	09/23/03  08:00:00
+09/23/03  08:15:00	10/07/03  08:15:00
+10/07/03  08:30:00	10/22/03  08:45:00
+10/22/03  09:00:00	11/04/03  10:15:00
+11/04/03  10:30:00	11/26/03  09:30:00
+11/26/03  09:45:00	12/11/03  10:00:00
+12/11/03  10:15:00	12/23/03  09:45:00
+12/23/03  10:00:00	12/31/03  23:45:00
+  
+     
+(MC) Mataponi Creek
+
+
+04/22/03  09:30:00	05/06/03  13:15:00
+05/06/03  13:30:00	05/28/03  11:15:00
+05/28/03  11:30:00	06/10/03  15:15:00
+06/10/03  15:30:00	06/24/03  11:00:00
+06/24/03  11:15:00	07/08/03  10:45:00
+07/08/03  11:00:00	07/22/03  09:45:00
+07/22/03  10:00:00	08/05/03  10:00:00
+08/05/03  10:15:00	08/19/03  10:45:00
+08/19/03  11:00:00	09/02/03  14:00:00
+09/02/03  14:15:00	09/23/03  12:00:00
+09/23/03  12:15:00	10/07/03  10:30:00
+10/07/03  10:45:00	10/22/03  11:15:00
+10/22/03  11:30:00	11/04/03  11:45:00
+11/04/03  12:00:00	11/13/03  11:30:00
+11/13/03  11:45:00	11/26/03  12:30:00
+11/26/03  12:45:00	12/11/03  12:00:00
+12/11/03  12:15:00	12/23/03  07:45:00
+12/23/03  08:00:00	12/31/03  23:45:00
+
+
+(IP) Iron Pot Landing
+
+04/04/03  14:00:00	04/15/03  12:15:00
+04/15/03  12:30:00	04/29/03  08:45:00
+04/29/03  09:00:00	05/13/03  09:30:00
+05/13/03  09:45:00	05/28/03  10:00:00
+05/28/03  10:15:00	06/10/03  12:45:00
+06/10/03  13:00:00	06/24/03  09:30:00
+06/24/03  09:45:00	07/08/03  09:30:00
+07/08/03  09:45:00	07/22/03  08:30:00
+07/22/03  08:45:00	08/05/03  09:00:00
+08/05/03  09:15:00	08/19/03  09:45:00
+08/19/03  10:00:00	09/02/03  13:15:00
+09/02/03  13:30:00	09/23/03  10:15:00
+09/23/03  10:30:00	10/07/03  09:15:00
+10/07/03  09:30:00	10/14/03  09:45:00
+10/14/03  10:00:00	10/22/03  09:45:00
+10/22/03  10:00:00	11/04/03  11:00:00
+11/04/03  11:15:00	11/26/03  11:30:00
+11/26/03  11:45:00	12/11/03  11:00:00
+12/11/03  11:15:00	12/23/03  08:45:00
+12/23/03  09:00:00	12/31/03  23:45:00
+
+(OC) Otter Point Creek
+
+04/15/03  13:30:00	05/08/03  12:15:00
+05/08/03  12:30:00	05/21/03  09:45:00
+05/21/03  10:00:00	06/04/03  08:30:00
+06/04/03  08:45:00	06/18/03  11:45:00
+06/18/03  12:00:00	07/02/03  11:30:00
+07/02/03  11:45:00	07/16/03  09:00:00
+07/16/03  09:15:00	07/30/03  09:45:00
+07/30/03  10:00:00	08/13/03  10:15:00
+08/13/03  10:30:00	08/27/03  12:00:00
+08/27/03  12:15:00	09/02/03  11:00:00
+Station pulled for pier reconstruction from 9/2/03 - 10/14/03.
+10/14/03  09:00:00	10/29/03  10:45:00
+10/29/03  11:00:00	11/12/03  11:15:00
+11/12/03  11:30:00	11/25/03  12:00:00
+11/25/03  12:15:00	12/09/03  11:15:00
+12/09/03  11:30:00	12/23/03  12:30:00
+Meter pulled for ice and lack of depth.
+
+
+
+7. Distribution
+NOAA/ERD retains the right to analyze, synthesize and publish summaries of the 
+NERRS System-wide Monitoring Program data.  The PI retains the right to be 
+fully credited for having collected and processed the data.  Following academic 
+courtesy standards, the PI and NERR site where the data were collected will be 
+contacted and fully acknowledged in any subsequent publications in which any 
+part of the data are used.  Manuscripts resulting from this NOAA/OCRM supported 
+research that are produced for publication in open literature, including 
+refereed scientific journals, will acknowledge that the research was conducted 
+under an award from the Estuarine Reserves Division, Office of Ocean and 
+Coastal Resource Management, National Ocean Service, National Oceanic and 
+Atmospheric Administration.  The data set enclosed within this 
+package/transmission is only as good as the quality assurance and quality 
+control procedures outlined by the enclosed metadata reporting statement.  The 
+user bears all responsibility for its subsequent use/misuse in any further 
+analyses or comparisons.  The Federal government does not assume liability to 
+the Recipient or third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any 
+way from the use of this data. 
+
+NERR water quality data and metadata can be obtained from the Research 
+Coordinator at the individual NERR site (please see Section 2.2-1 Principal 
+investigators and contact persons), from the Data Manager at the Centralized 
+Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home 
+page http://cdmo.baruch.sc.edu/. Data are available in text tab-delimited 
+format, Microsoft Excel spreadsheet format and comma-delimited format.   
+
+8. Associated researchers and projects
+The Jug Bay Wetlands Sanctuary staff has been collecting weekly to monthly 
+temperature, salinity, dissolved oxygen, and nutrient samples at the same 
+location as the data logger at JB until 2003.   The Anita C. Leight Estuary 
+Center at Otter Point Creek, in conjunction with CBNERR/MD staff has also been 
+collecting bi-weekly to monthly temperature, salinity, dissolved oxygen, total 
+suspended solids, chlorophyll a, and nutrient samples at the same location as 
+datalogger OC for 2003.  Additional discrete data is also available that 
+provides increased spatial coverage of many of the same parameters around both 
+RR and OC sites for 2003.
+
+II.  Physical Structure Descriptors
+
+9.  Variable name, range of measurements, 
+
+YSI 6600 datalogger
+
+
+Variable      Range of Measurements          Resolution           Accuracy
+Date          1-12, 1-31, 00-99 (Mo,Day,Yr)  1 mo, 1 day, 1 yr    NA
+Time          0-24, 0-60, 0-60 (Hr,Min,Sec)  1 hr, 1 min, 1 s     NA
+Temp               -5 to 45 (c)              0.01  C              +/-0.15C
+Sp COND            0-100(mS/cm)              0.01mS/cm            +/-0.5% Of 
+reading + 0.001mS/Cm
+Salinity      0-70 Parts per thousand (ppt)  0.01 ppt             +/- 1% of 
+Reading or 0.1 ppt, (whichever is greater)
+DO            0-200 (% air saturation)       0.1% @air sat        +/-2% @air 
+Saturation
+DO            200-500 (% air saturation      0.1% @ air sat       +/- 6% @ 
+Saturation
+DO                 0-20 (mg/l)               0.01 mg/l            +/- 0.2mg/l
+DO                 20-50 (mg/l)              0.01 mg/l            +/- 0.6mg/l
+Depth (shallow)    0-9.1 (m)                 0.001m               +/- 0.018m
+PH                 2-14 units                0.01 units           +/- 0.2units
+Turb               0-1000 NTU                0.1 NTU              +/- 5% of 
+Reading or 2 NTU (whichever is greater)
+
+Data columns are separated by tabs.  Each file contains a two line column 
+header at the top of the page which identifies measurements and units for each 
+column.
+
+10.  Coded variable indicator and variable code definitions
+Site definitions: RR = Railroad Bridge (Jug Bay Wetlands Sanctuary); MC = 
+Mattaponi Creek; IP =Iron Pot Landing; OC = Otter Point Creek.
+
+
+11. Data anomalies (suspect data)
+Any data outliers detected using CDMO macros and any data deletions are detailed 
+below. Suspect and outlier data were detected and considered for deletion from 
+the edited data using combination of methods, including ECOWATCH graphical 
+software and CDMO macros.  All outliers are detailed below. Any data determined 
+to be due to instrument errors or malfunctions were retained in raw data. 
+Missing data and any intended deletions from edited data were replaced with a 
+period (.) in accordance with CDMO QA/QC guidelines and detailed below. 
+According to the CDMO Operations Manual Version 4.0, depth measurements taken 
+with the non-vented level probe can be influenced by up to 0.39 m (1.3 ft) 
+during some low-pressure hurricane events.  Specific dates and time ranges of 
+potentially influenced data are listed with each respective month.
+
+Railroad Bridge
+Sonde deployment at RR began 4/4/03 at 13:00:00.  
+
+April 2003
+Turbidity spikes deleted due to transient material blocking optic.  
+04/21/2003	00:15:00	
+04/23/2003	00:45:00	
+04/27/2003	01:45:00 - 02:00:00
+
+May 2003
+Erratic Turbidity data deleted, possibly due to Wiper Malfunction. 
+05/09/2003	11:45:00 - 05/14/2003	22:15:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+05/08/2003	18:15:00			
+05/08/2003	18:45:00	
+05/09/2003	05:00:00 - 5:15:00
+05/15/2003	03:30:00 - 04:15:00	
+05/15/2003	12:15:00
+05/15/2003	13:00:00
+05/15/2003	16:00:00
+05/17/2003	09:30:00
+05/17/2003	13:00:00
+05/17/2003	20:15:00
+05/17/2003	22:30:00
+05/17/2003	23:00:00
+05/18/2003	00:00:00
+05/18/2003	01:00:00
+05/18/2003	01:30:00
+05/18/2003	02:15:00
+05/18/2003	07:45:00
+05/18/2003	11:00:00
+05/18/2003	13:30:00
+05/18/2003	21:30:00
+05/18/2003	22:15:00
+05/19/2003	01:15:00
+05/19/2003	08:45:00 - 05/20/2003	08:15:00
+
+
+Removed the following Turbidity data because wiper fell off during deployment 
+and fouling interfered with readings.
+05/26/2003	08:15:00 - 05/28/2003	09:00:00
+
+Turbidity spike deleted due to transient material blocking optic.  
+05/31/2003	04:30:00
+
+June 2003
+
+Turbidity spikes deleted due to transient material blocking optic.  
+06/02/2003	17:30:00	
+06/02/2003	21:30:00
+06/03/2003	06:15:00
+
+Erratic Turbidity data removed, wiper may be blocking optic sensor.  
+06/14/2003	18:45:00 - 06/17/2003 08:15:00
+
+July 2003
+Turbidity spike deleted due to transient material blocking optic.  
+07/11/2003	20:45:00
+
+August 2003
+The following reading was taken with the check sonde, "Cindy."  The deployed 
+meter was out of the water for data retrieval.  There is no depth reading for 
+this data point because the check sonde does not have a depth sensor.  
+08/19/2003	08:45:00
+
+September 2003
+Turbidity spikes deleted due to transient material blocking optic.  
+09/07/2003	16:45:00	
+
+October 2003
+The following reading was logged by the check sonde, "Ophelia."  The deployed 
+sonde was out of the water for data retrieval.  There is no depth reading for 
+this data point because the check sonde does not have a depth sensor.  
+10/01/2003	08:30:00
+
+The pH read 0.25 units high on post-cal on 10/08, and read high by 0.45 units on 
+the 10/9 in-situ match-up with Hydrolab instrument.  Consider pH for this 
+deployment as suspect. 
+10/01/2003 08:15:00 - 10/07/2003 08:30:00.
+
+The following readings were logged by the check sonde, "Babs." The deployed 
+sonde was out of the water for data retrieval.  There is no depth reading for 
+these data points because the check sonde does not have a depth sensor.  
+10/14/2003	08:15:00 - 08:30:00
+
+The pH in situ matchup on 10/28/2003 is off by 0.4 units from "check" meter and 
+off 0.3 from Hydrolab.  Deleted pH data for entire deployment.  
+10/22/2003 09:00:00 - 10/28/2003 09:30:00
+
+The following readings were logged with check meter "Babs."  The deployed meter 
+was out of the water for data retrieval. However, the readings are inconsistent 
+with the rest of the data set and were deleted. 
+10/28/2003	09:45:00 - 10:00:00
+
+November 2003
+DO post-calibration and in-situ matchup reading low by more than 1.0 mg/l.  All 
+DO data deleted for this deployment.
+11/04/2003	10:30:00 - 11/13/2003	09:30:00
+
+December 2003
+Turbidity spikes deleted due to transient material blocking optic.  
+12/27/2003	14:00:00
+
+MATAPONI CREEK
+Sonde deployment at MC began 4/22/03 at 09:30:00.  
+
+April 2003
+Instrument out of water for following periods due to extreme low tide.		
+04/23/2003	16:00:00 - 04/23/2003	19:00:00
+04/24/2003	04:45:00 - 04/24/2003	06:00:00
+04/24/2003	17:00:00 - 04/24/2003	19:00:00	
+04/28/2003	21:30:00 - 04/28/2003	22:00:00
+04/29/2003	21:45:00 - 04/29/2003	23:30:00	
+
+Turbidity spikes deleted due to transient material blocking optic.  
+04/23/2003	16:30:00
+04/23/2003	18:45:00
+
+
+May 2003
+Negative depths retained in data set for month of May because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings.  
+(Depth Not Vented)
+
+DO probe malfunction at 09:15 on 5/6.  Deleted DO data after this date. 	
+5/6/2003	 9:15:00 - 5/6/2003	12:45:00
+
+Sonde logged no data due to software error (version "pre-2.20.")
+5/6/2003	13:00:00 - 5/13/2003	11:00:00
+
+Instrument out of water for following periods due to low water.			
+5/13/2003	18:30:00 - 5/13/2003	22:15:00
+5/14/2003	8:30:00 - 5/14/2003	11:00:00
+5/14/2003	20:45:00 - 5/14/2003	22:30:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+5/26/2003	09:15:00	
+
+June 2003
+Negative depths retained in data set for month of June because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+Meter was out of water for period of time	due to extreme low tide		
+6/1/2003	22:00:00 - 6/2/2003	1:00:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+6/14/2003	0:15:00
+
+July 2003
+Negative depths retained in data set for month of June because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+August 2003
+Following record taken from check meter, check meter does not have depth sensor.
+8/12/2003	11:15:00
+
+pH outlier removed									
+8/12/2003	11:15:00
+
+September 2003
+Instrument appears to be out of water during following interval			
+9/18/2003	08:45:00 - 9/18/2003	22:30:00
+
+Anomalous DO spike in data on 09/02/2003 14:30:00 was deleted. Reason for spike 
+unknown.  
+
+October 2003
+Negative depths retained in data set for month of October because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+In-situ match-up readings on 10/14/03 exhibit high deviation from check meter 
+and Hydrolab instrument.  It is likely due to variation in depth rather than 
+instrument malfunction.  SAV beds at sight make it difficult to put YSI, check 
+YSI, and Hydrolab at same depth.  Data retained but should be considered 
+suspect.
+10/14/03	12:30:00
+
+Following record logged by check meter (Babs), meter does not have depth sensor.
+10/14/2003	11:30:00	
+
+pH reading low in post-cal and in-situ matchups.  pH data deleted for the 
+following dates and times.					
+10/14/2003	11:30:00 - 10/22/2003	11:45:00
+
+Instrument out of water, data deleted:
+10/28/2003	11:30:00
+
+
+November 2003
+Negative depths retained in data set for month of November because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+
+December 2003
+Negative depths retained in data set for month of December because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+Turbidity spikes deleted due to transient material blocking optic.  
+12/2/2003	20:00:00 - 	20:15:00
+12/17/2003	20:30:01	
+
+turbidity post-cal was reading low by >10% - data deleted.
+12/11/2003	12:30:00 - 12/23/2003	8:00:00
+
+
+IRON POT LANDING
+Sonde deployment at IP began 4/4/03 at 14:00:00. Step changes in depth were evident
+throughout the deployment year because depth was not calibrated to zero and a non-
+vented depth probe was in use as opposed to a vented depth probe which was unavailable.  
+
+April 2003
+None
+
+May 2003
+Turbidity spikes deleted due to transient material blocking optic.  
+05/12/2003	09:00:00 - 05/12/2003 11:45:00
+
+Turbidity matchup for retrieval of the sonde on 5/28/03 is off. Determined the 
+approximate point where upward drift started and deleted all subsequent data for 
+that deployment.  
+05/23/2003	11:00:00 - 05/28/2003	10:15:00	
+
+Depth measurements were lower than normal after deployment on 5/28 10:30 through 6/3 1230. 
+Sonde appeared to be in the water during this time.    
+
+June 2003
+Depth measurements were lower than normal after deployment on 5/28 10:30 through 6/3 1230.
+Sonde appeared to be in the water during this time.       
+
+The following negative depth readings were removed.  The data recorded at these 
+times was not deleted because the meter was not out of the water.  There may 
+have been something blocking the depth sensor. 
+06/03/2003	12:30:00 - 12:45:00
+
+Depth measurements suddenly spiked after deployment on 6/3 12:45 through 6/3 1415 but 
+returned.  Sonde appeared to be in the water during this time.     
+
+The following turbidity data point was found as an outlier by the NERR macro, 
+but was not deleted.  The high turbidity value was a result of a rain event.  
+There may have been a sewage overflow upstream.  Turbidity values did not return 
+to under 50 NTU until 6/28/2003 at about 14:00:00. 
+6/27/2003	19:45:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+06/14/2003	08:45:00		
+06/16/2003	00:45:00 - 06/17/2003 09:45:00 
+06/20/2003	04:45:00
+06/20/2003	10:00:00	
+
+July 2003
+Erratic Turbidity data removed, likely due to wiper malfunttion.  
+07/01/2003	11:00:00
+07/07/2003	00:30:00 - 07/07/2003	23:45:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+07/20/2003	14:30:00 - 07/22/2003	08:45:00
+
+August 2003
+Erratic Turbidity data deleted. Could be wiper malfunction or something caught 
+on probe or wiper.  
+08/04/2003	15:15:00 - 08/05/2003	09:30:00
+
+The following reading was taken from check sonde.  The deployed meter was out of 
+the water for data retrieval.  The check sonde used was "CINDY," which does not 
+have a depth sensor.  Therefore, we do not have a depth reading for this data 
+point.    
+08/12/2003	10:00:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+08/22/2003	02:30:00
+08/30/2003	01:15:00
+
+Datalogger out of the water for the following dates and times. Data deleted. 
+08/26/2003 11:30:00 
+
+
+September 2003
+Erratic Turbidity data removed.  Likely something caught on probe or wiper is 
+blocking optic.  
+09/22/2003	00:00:00 - 09/23/2003	10:30:00
+
+October 2003
+The following reading was logged with check meter "Ophelia."  The deployed meter 
+was out of the water for data retrieval.  No Depth recorded for this data point.  
+10/01/2003	10:00:00
+
+DO membrane punctured.  The following DO data set deleted.
+10/07/2003	09:30:00 - 10/14/2003	09:45:00
+
+Drop in dissolved oxygen on 10/20/2003 18:30:00 (13.7%). Data suspect, but 
+retained. 	
+
+Check sonde (BABS) in water for the following 2 readings. The deployed sonde  
+was out of the water for data retrieval.  "Babs" does not have a depth sensor, 
+so there are no depth readings for these intervals.  
+10/14/2003	10:00:00 - 10:15:00
+
+The deployed sonde, "HeMan," had a bad DO membrane, so it was not redeployed. 
+The check sonde could not be deployed immediately because it was needed for 
+other sites.  "Babs" was returned at Iron Pot Landing at the end of the field 
+day.  It was re-deployed at 12:30:00.  Thus there is no data for the following 
+period:
+10/14/2003 10:00:00 - 12:15:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+10/16/2003	00:15:00
+10/16/2003	01:30:00
+10/17/2003	04:30:00
+10/18/2003	01:15:00
+10/18/2003	18:00:00
+10/19/2003	17:30:00
+10/30/2003	05:00:00
+
+Sonde was out of water for the following reading.  Data was recorded with check 
+sonde, but determined to be anomolous.  All parameters were removed for the 
+following sates/times: 
+10/28/2003	12:45:00
+
+No Depth data recorded for the following period because we had to deploy a 
+backup sonde because the DO membrane was punctured on the deployed meter.  The 
+backup sonde ("Babs") had no depth sensor.  
+10/14/03 12:30:00 - 10/22/03 10:00:00.
+
+November 2003
+No data logged for the following intervals.  Sonde not set to log.
+11/13/2003	11:00:00 - 11:15:00
+
+December 2003
+Turbidity spikes deleted due to transient material blocking optic.  
+12/11/2003	08:45:00
+12/12/2003	00:30:00
+12/14/2003	00:00:00
+
+
+OTTER POINT CREEK
+Sonde deployment at OC began 4/15/03 at 13:30:00.
+
+April 2003
+Instrument out of water for following periods due to extreme low tide.		
+4/17/2003	01:30:00 - 04:00:00
+4/17/2003	14:30:00 - 16:45:00
+4/20/2003	08:00:00 – 09:15:00
+4/23/2003	21:30:00 - 21:45:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+4/15/2003	16:15:00	
+
+Turbidity spikes deleted due to transient material blocking optic.  
+04/30/2003	02:00:00
+
+May 2003
+Negative depths retained in data set for month of May because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+Instrument out of the water for following readings due to extreme low tide	
+5/13/2003	22:45:00 - 5/14/2003	1:15:00
+5/22/2003	07:00:00 - 5/22/2003	08:30:00
+
+June 2003
+Negative depths retained in data set for month of June because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+Instrument out of the water for following readings due to extreme low tide	
+6/1/2003	14:30:00 - 6/2/2003	0:15:00
+
+Erratic Turbidity data removed.  Likely something caught on probe or wiper is 
+blocking optic.  
+6/20/2003	13:30:00 - 6/28/2003	01:15:00		
+6/29/2003	01:45:00 - 03:15:00	
+06/30/2003	18:00:00
+
+July 2003
+Negative depths retained in data set for month of July because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+Erratic Turbidity data removed.  Likely something caught on probe or wiper is 
+blocking optic.  
+7/1/2003	16:30:00 - 17:30:00
+
+August 2003
+Negative depths retained in data set for month of August because salinity showed 
+meter to be in water, possibly changes in pressure caused negative readings. 
+(Depth Not Vented)
+
+Turbidity spikes deleted due to transient material blocking optic.  
+8/10/2003	05:15:00
+
+Instrument out of water due to extreme low tide.  
+8/20/2003	12:30:00
+
+September 2003
+Station pulled for pier reconstruction.   No data during following period:
+9/2/2003 10:15:00 - 09/30/2003  23:45:00 
+
+October 2003
+Negative depths retained in data set for month of October because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+Station pulled for pier reconstruction.   No data during following period:
+10/01/2003 00:00:00 - 10/14/2003  08:45:00
+
+Instrument out of water during extreme low tides.  Following records removed. 
+10/17/2003	06:30:00 - 11:00:00
+10/17/2003	16:45:00 - 21:30:00
+10/18/2003	07:45:00 - 10:30:00
+10/22/2003	09:15:00 - 16:00:00
+10/22/2003	20:00:00 - 10/23/2003	02:45:00
+10/23/2003	11:15:00 - 13:30:00
+
+Sonde out of water for data retrieval, data inserted from check sonde "Cindy."
+10/21/2003	09:30:00
+
+November 2003
+Negative depths retained in data set for month of November because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+Data deleted during extreme low tides when sonde was out of the water.		
+11/8/2003	12:45:00 - 16:30:00
+11/9/2003	01:15:00 - 5:00:00
+11/13/2003	16:45:00 - 11/14/2003		21:45:00
+11/15/2003	04:00:00 - 11/15/2003		21:30:00
+11/16/2003	07:30:00 - 08:45:00
+11/20/2003	11:00:00 - 13:15:00
+11/29/2003	15:45:00 - 21:45:00
+11/30/2003	06:15:00 - 10:15:00
+11/30/2003	18:30:00 - 22:30:00
+
+December 2003
+Negative depths retained in data set for month of December because salinity 
+showed meter to be in water, possibly changes in pressure caused negative 
+readings. (Depth Not Vented)
+
+Turbidity spikes deleted due to transient material blocking optic.  
+12/8/2003	20:15:00	
+12/05/2003	12:00:00 - 13:00:00
+12/05/2003 	13:30:00
+12/06/2003	01:00:00 - 01:15:00
+
+Following data deleted - instrument out of water during extreme low tides. 
+12/1/2003	07:30:00 - 13:45:00
+12/1/2003	16:15:00 - 12/2/2003	3:00:00
+12/2/2003	06:45:00 - 12/3/2003	14:30:00
+12/5/2003	10:45:00 - 11:00:00
+12/6/2003	02:00:00 - 14:30:00
+12/7/2003	00:45:00 - 16:45:00
+12/13/2003	05:15:00 - 08:00:00
+12/13/2003	13:45:00 - 18:15:00
+12/17/2003	08:15:00 - 10:00:00
+12/19/2003	09:15:00 - 12:00:00
+12/19/2003	23:15:00 - 12/20/2003	00:15:00
+12/20/2003	10:30:00 - 12:30:00
+12/23/2003	01:15:00 - 04:45:00
+
+Depth data deleted due to possible influence of freezing temperatures resulting 
+in ice formation on depth sensor. 
+12/21/2003 01:45:00 – 04:30:00
+
+Turbidity spikes deleted due to transient material blocking optic.  
+12/13/2003	04:30:00 - 05:00:00						
+
+
+12) Missing data
+Missing data are denoted by a period in the data set. Periods were later removed 
+for data dissemination purposes and left blank. Data are missing due to 
+equipment failure where no probes were deployed, maintenance/calibration of 
+equipment, elimination of obvious outliers or elimination of data due to 
+calibration problems (both pre and post).  For more details on deleted data, see 
+the Data Anomalies Section.  To find out more details about missing data, 
+contact the Research Coordinator at the site submitting the data.
+
+For the following deployments, the dataloggers were not equipped with depth 
+sensors, therefore depth data was not collected:
+Site MC	11/04/2003 	12:15:00 – 11/13/2003 11:45:00
+Site IP 04/08/2003	10:00:00 – 04/15/2003 12:30:00
+
+
+13) Post Deployment Information
+End of deployment Post-calibration Readings in Standard Solutions:
+na = no data available for that particular standard 
+
+RR:
+Date		SpCond		DO		pH			Turb		Depth
+mm/dd/yy	ms/cm		Air Sat					NTU		m
+	`	Std:0.294	Std: 100%	Std:7.0/10.0		Std:0/123.0	Std:0(air)
+4/16/03		0.298		101.2		7.09/10.00		0.3/121.9	na
+5/1/03		0.290		99.4		7.07/10.05		0.7/122.0	na
+5/21/03		0.500		104.9		6.98/9.94		-0.5/111.5	na
+6/4/03		0.305		101.0		7.00/9.95		0.2/125.6	na
+6/20/03		0.287		104.7		7.05/10.09		0.8/128.0	na
+7/2/03		0.297		100.1		7.03/10.03		0.3/109.3	na
+7/17/03		0.288		100.4		7.00/10.06		1.7/124.1	na
+8/01/03		0.301		100.9		7.05/10.01		-.07/105.4	na
+8/15/03		0.302		110.3		7.07/9.95		0.4/127.8	na
+		Std:0.720
+8/28/03		0.704		101.8		6.96/10.04		0.9/127.6	na
+9/11/03		0.743		108.4		7.03/9.98		2.0/126.3	na
+		Std:0.294
+9/24/03		0.293		103.2		7.04/10.01		2.6/119.4	na
+10/8/03		0.295		101.5		7.19/10.18		-1.0/119.1	na
+10/23/03	0.288		93.6		7.06/10.04		1.1/88.4	na
+11/5/03		0.298		101.7		7.05/10.01		0.2/123.4	na
+11/27/03	0.306		100.8		7.05/10.10		1.4/123.2	na
+12/12/03	0.279		101.3		7.08/10.04		0.0/117.8	na
+12/30/03	0.296		103.7		7.02/10.01		0.6/116.0	na
+1/8/04		0.292		100.9		7.01/10.03		-0.2/113.5	na
+
+MC:
+Date		SpCond		DO		pH			Turb		Depth
+mm/dd/yy	ms/cm		Air Sat					NTU		m
+	`	Std:0.294	Std: 100%	Std:7.0/10.0		Std:0/123.0	Std:0(air)
+5/14/03		0.292		122.5		7.06/10.06		-0.2/118.0	na
+5/30/03		0.306		94.4		7.02/9.99		0.1/121.2	na
+6/12/03		0.292		98.2		7.05/10.01		4.0/126.0	na
+6/27/03		0.302		103.8		6.96/9.96		1.0/123.0	na
+7/10/03		0.284		101.7		7.03/10.04		2.1/125.3	na
+7/25/03		0.367		100.7		7.00/10.07		-0.9/120.3	na
+8/7/03		0.290		100.5		6.98/9.99		0.1/125.4	na
+8/21/03		0.302		106.2		7.00/9.87		0.8/126.0	na
+9/3/03		0.300		102.3		7.02/9.93		3.3/123.3	na
+9/24/03		0.292		103.5		6.90/9.55		-0.6/123.2	na
+10/8/03		0.301		99.4		7.04/10.06		1.5/128.4	na
+10/23/03	0.290		101.4		6.75/9.35		2.1/113.4	na
+11/05/03	0.303		98.8		7.02/10.02		-2.5/120.7	na
+11/13/03	0.296		103.5		7.00/10.00		0.1/124.4	na
+11/27/03	0.319		105.9		7.08/10.04		1.2/123.2	na
+12/12/03	0.299		101.9		6.99/9.97		-0.4/117.8	na
+12/31/03	0.291		103.8		7.03/10.02		-0.4/104.9	na
+1/8/04		0.298		103.8		7.07/10.08		-0.2/112.2	na
+		
+IP:
+Date		SpCond		DO		pH			Turb		Depth
+mm/dd/yy	ms/cm		Air Sat					NTU		m
+	`	Std:0.294	Std: 100%	Std:7.0/10.0		Std:0/123.0	Std:0(air)
+4/16/03		0.300		116.5		7.13/10.03		0.7/123.2	na
+5/1/03		0.290		97.7		7.06/10.05		0.5/122.7	na
+5/14/03		0.300		105.6		7.01/10.00		0.2/122.8	na
+5/30/03		0.300		101.4		7.03/10.00		0.6/121.8	na
+6/12/03		0.310		80.5		7.10/10.10		4.6/124.6	na
+6/27/03		0.291		100.6		6.99/10.02		1.1/123.3	na
+7/10/03		0.287		99.7		6.99/10.01		6.9/125.6	na
+7/25/03		0.313		99.2		na (probe broken)	0.7/121.0	na
+8/08/03		0.284		100.5		7.02/9.99		0.6/123.9	na
+8/21/03		0.302		96.3		6.99/9.97		0.5/126.3	na
+9/3/03		0.296		99.5		7.07/10.10		0.9/123.7	na
+9/24/03		0.287		101.8		7.02/9.96		0.2/122.8	na
+10/8/03		0.298		104.0		7.02/10.03		0.4/127.4	na
+10/17/03	0.295		-4.9		7.04/10.06		0.2/120.6	na
+		Std:6.668
+10/23/03	6.607		100.4		6.98/10.101		4.1/121.9	na
+		Std:0.294
+11/5/03		0.293		99.4		7.04/10.06		1.1/123.9	na
+11/27/03	0.304		105.6		7.01/10.03		1.5/123.4	na
+12/12/03	0.303		103.1		7.00/9.97		0.4/116.7	na
+12/31/03	0.297		102.8		na (probe broken)	2.0/117.0	na
+1/8/03		0.295		104.7		7.00/10.00		1.0/113.3	na
+
+OC:
+Date		SpCond		DO		pH			Turb		Depth
+mm/dd/yy	ms/cm		Air Sat					NTU		m
+	`	Std:0.294	Std: 100%	Std:7.0/10.0		Std:0/123.0	Std:0(air)
+5/9/03		0.289		98.4		7.07/10.06		0.3/121.7	na
+5/22/03		0.293		100.6		7.00/10.00		0.2/122.0	na
+6/6/03		0.302		99.6		7.05/9.98		0.7/123.8	na
+6/19/03		0.282		101.4		6.98/10.07		3.2/122.8	na
+7/3/03		0.300		103.8		7.03/10.00		1.7/119.2	na
+7/17/03		0.290		102.6		7.05/10.05		1.0/123.7	na
+8/01/03		0.301		101.4		7.00/10.03		0.2/123.7	na
+8/14/03		0.299		101.5		7.05/10.06		0.8/126.5	na
+8/28/03		0.295		107.3		6.97/10.02		-0.2/133.4	na
+9/3/03		0.289		101.5		7.06/10.00		0.3/122.3	na
+10/30/03	0.292		98.5		7.06/10.10		0.4/131.7	na
+11/13/03	0.298		101.7		7.04/10.01		-0.3/122.2	na
+11/27/03	0.304		101.3		6.94/9.93		1.9/122.8	na
+12/10/03	0.307		102.8		7.00/10.01		-0.4/120.1	na
+12/31/03	0.287		99.4		7.01/9.98		2.0/118.2	na
+
+
+14) Other Remarks/Notes
+Hurricane Isabel swept through the area on September 19, 2003 influencing water 
+quality data, especially depth, for all sites.  

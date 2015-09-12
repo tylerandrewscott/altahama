@@ -1,0 +1,516 @@
+Weeks Bay (WKB) NERR Water Quality Metadata
+January - December 1997 (last update 16 May 2002)
+
+I. Data Set and Research Descriptors
+
+1.	Principal investigator(s) and contact persons:
+
+	Mr. L. G. Adams, Manager (lg.adams@noaa.gov)
+	Mr. Bob McCormack, Interpretive Coordinator (bob.mccormack@noaa.gov)
+	Mr. Scott W. Phipps, Research Fellow (scott.phipps@noaa.gov)
+	
+	Weeks Bay NERR				
+	11300 U.S. Hwy. 98				
+	Fairhope, AL 36532					
+								
+	ph:  (334) 928-9792					
+								
+
+2.	Entry Verification (Done by S. Phipps):
+
+	Data are uploaded to the PC from the YSI 6000 Data loggers and graphs are produced using the PC6000 
+software.  Graphs are evaluated for suspect data, as may result from probe failure.  Notes are made of 
+any unusual data, and sensors are reconditioned as necessary.  Files are then exported as .prn files using 
+the PC6000 software.  The .prn files are imported into EXCEL, edited by removing headers and footers, 
+and saved as EXCEL files.  Data at the beginning and end of each data record that were recorded when 
+the instruments were out of the water are deleted.  These data are identified by field notes that document 
+the times in and out of the water, and by unusual depth data (usually negative or near zero).  The 
+appropriate files are merged to form complete monthly data sets and are saved as separate EXCEL files.  
+Data that are missing because the instruments were not deployed (as during maintenance periods) are 
+denoted by periods (.).  These times are noted in section 11 (Missing Data) of this document  Two types 
+of post-calibration values are also used to determine operational viability of the sensors while deployed.  
+One is obtained in the lab by placing uncleaned probes in standard solutions and recording the values 
+given by the Data loggers.  The second type is obtained in the field using a newly calibrated Data logger.  
+Data from this instrument are recorded in the field at the time of the last scheduled reading by the Data 
+loggers.  Both post-calibration values are reported in section 12 (Other Remarks/Notes) of this 
+document, and may be used to determine the quality of the data recorded by the instruments (particularly 
+DO) after two weeks in the field.  Any erroneous data that are identified as being caused by probe failures 
+(as determined upon examination of the data plots, or by post-calibration values) are deleted and replaced 
+with periods, and noted in section 11 (Missing Data) of this document.  Sensor readings that greatly 
+deviate from known values of standards after the two week deployment are not necessarily believed to be 
+a result of probe failure, however.  If biofouling is believed to be the reason for poor agreement between 
+the sensors and the standard values at the end of a deployment, the data are retained and noted in section 
+10 (Data Anomalies) of this document.  Symptoms of probe failures are extreme noise in the record, 
+unrealistically high or negative data, or noisey or negative readings in standard solutions.  Examples of 
+many such failures are given in the CDMO Manual (Version 3.0). .  Finally, the CDMO Excel 5.0 macros (update 
+version 11/96) are then run on these new monthly files to identify missing times and/or dates, to format 
+the width and decimal places of columns, and to identify outliers and other erroneous data. Scott Phipps is 
+responsible for all data management.
+
+3.	Research Objectives/Study Purpose:
+
+	The Data loggers are programmed to record water quality parameters every 30 minutes.  
+Presently, two instruments are located in the Weeks Bay Reserve.  One is located at the mouth of Fish 
+River (provides ~73% of Weeks Bay's freshwater), and the other is located the eastern side of Weeks 
+Bay, near the mouth.
+	Beyond the mouth of Weeks Bay is a larger embayment referred to as Bon Secour Bay.  
+Hydrographic profiles made in Bon Secour Bay in past years show that bottom waters (which flow into 
+Weeks Bay on a rising tide) are often anoxic in summer and fall months.  Fish River water quality is also 
+in question, as largely non-point source nutrient loading to this river may be quite high during periods of 
+high river flow.  Therefore, it is of interest to determine if poor water quality periodically observed in 
+Weeks Bay is generated within the bay proper, or is being washed in from Fish River or Bon Secour 
+Bay with changing tides.  By using salinity and water level as tracers, data from these two sites may be 
+used to infer the source and fate of low oxygen water.
+
+4.	Research Methods:
+
+	Data loggers are moored on private docks.  At each dock, a PVC tube is attached to a piling at the 
+end of the dock using ratchets equipped with zinc disks (to help reduce corrosion) and nylon straps.  A 
+chain, attached to the cap of the tube, is shackled to the bail of the Data logger.  Chains and tubes were 
+cut to a length that places the Data logger probes just below the bottom of the tube and 0.5 m above the 
+sediment when in place.  A nylon rope tied to the bottom of the piling also runs through the tube and is 
+attached to the bale of the Data logger to serve as a safeguard against the loss of the Data loggers in the 
+event that the tube breaks away from the piling.
+	The Data loggers are programmed to record temperature, specific conductivity, salinity, dissolved 
+oxygen (DO) percent saturation and concentration, pH, and water level every 30 minutes (central 
+standard time [CST]).  A newly calibrated Data logger is also used to record the above parameters at the 
+same time the deployed YSI takes its first reading to insure initial accuracy of the YSI.  The instruments 
+are usually serviced (instruments post-calibrated, data uploaded, instruments cleaned and recalibrated) 
+every 14 days; however, they are programmed to log for 30 days in the event they cannot be serviced on 
+schedule.  Just before deployment, window screening (1mm mesh size) is wrapped once around the cage 
+that protects the sensors, and secured with plastic cable ties.  Window screening is also secured in the 
+bottom of the cage with silicone sealant.  This is done to reduce error in the data that may be due to larger 
+animals moving in and out of the cage during the deployment.  This does not, however, preclude smaller 
+animals such as barnacle and polychaete larvae from entering the cage and settling on the sensors.
+	Before the Data loggers are retrieved, a newly calibrated Data logger is lowered to the depth of the 
+deployed instrument, and readings are logged at the same time that the deployed instruments are 
+programmed to record.  Post-calibration values are obtained in the lab by placing uncleaned probes in 
+standard solutions and recording the values given by the Data loggers.
+	Uploading, cleaning, maintenance, and calibration are conducted as described in the YSI 
+Operating Manual (addendum 7/94, sections 3, 4, and 7).  Calibration standards, required for pH and 
+salinity, are purchased from a scientific supply house.  Dissolve oxygen is calibrated using a calibration 
+cup filled with about 1/2 cm tap water, which creates a 100% water-saturated air environment for the 
+sensors when the sonde is placed in the cup.  The sensors are allowed to equilibrate for at least 15 
+minutes in the cup before DO (%Saturation) is calibrated.  Servicing the instruments results in a period of 
+about 2 hours of missing data every two weeks at site FR, and a period of 3 to 4 hours of missing data 
+every two weeks at site WB.
+
+5.	Site Location and Character:
+
+	Weeks Bay (30 23' N, 87 50' W) is a small, shallow, microtidal sub-estuary, located on the 
+eastern shore of Mobile Bay in the northern Gulf of Mexico.  It is nearly diamond shaped, and its 
+longitudinal axis (3.4 km long) runs nearly north-south from the head, where the Fish River flows in, to 
+the mouth, where water is exchanged with Mobile Bay.  Its widest point (3.1 km) is located near the 
+center of the estuary, where the Magnolia River discharges into eastern side of Weeks Bay.  Average 
+depth is 1.4 m, although there are two areas where depths are significantly greater.  The first is in the 
+mouth of the bay, where the average depth is 6 m; the second is about 200 m upstream of the mouth of 
+the Fish River, where the average depth is 3.5 m.  Tides are principally diurnal, and have a mean range 
+of 0.4 m.
+	The Fish River drainage basin encompasses 1.43 x 108 m2 and contributes approximately 73% to 
+the total incoming freshwater flow;  the Magnolia River supplies the rest.  Mean combined discharge is 9 
+m3 s-1; although freshets up to 4 times larger occur aperiodically throughout the year.  These 
+characteristics result in a freshwater residence time of 13 days under average discharge conditions, with a 
+range from 0.5 to 100 days.  Salinity in Weeks Bay varies substantially both temporally and spatially.  
+During periods of high river flow, salinities in the bay may be fresh from the head to the mouth, except 
+in the deeper holes of the estuary that are not as easily flushed.  However, during periods of low river 
+flow wind velocity and tidal stage are strong factors influencing salinity structure.  Salinities greater than 
+25 ppt are rarely observed in Weeks Bay, and are usually restricted to the southern portion of the estuary 
+near the mouth.
+	Site FR (Fish River; 30 25'00" N, 87 49'24" W) is located at the mouth of Fish River at a mean 
+depth of about 2m.  Sediment type is sandy-silt, and there are small patches of Vallisineria, spp. growing 
+near (but not directly under) the Data logger.  Land use in the water shed is largely agricultural, with 
+some residential use.  Directly surrounding the site, land use is largely public and semi-public.  Nutrient 
+concentrations at this site are variable and may be quite high, with nitrate and phosphate concentrations 
+ranging from approximately 4-90 µM and <0.5 to 7.5 µM, respectively, over the previous 10 years 
+(Alabama Department of Environmental Management).  Over the past year, salinity ranged from 0.0 to 
+16.5 ppt at this site.
+	Site WB (Weeks Bay; 30 22'52" N, 87 49'57" W) is located near the south-eastern shore of the 
+Weeks Bay, about 0.5 miles from the mouth of the estuary.  Mean water depth at this site is about 0.9 m; 
+sediment type is sandy-silt.  Land use around this site is almost exclusively residential, with agriculture 
+occurring inland.  Nutrient concentrations are much lower at this site than at site FR; over the past year, 
+nitrate and phosphate concentrations here ranged from 0.1 to 42 µM and 0.04 to 0.45 µM, respectively.  
+Salinity ranged from approximately 0 to 22 ppt over the past year.  
+
+6.	Data Collection Periods:
+
+	The Data loggers were first deployed at both sites on 27 October 1995, and have been 
+continuously in service since then.
+
+7.	Associated Researchers and Projects:
+
+	Weeks Bay Reserve established twenty-four volunteer water quality monitoring sites in the 
+watershed in May 1995.  These sites are monitored once every two weeks for fecal coliform counts, 
+secchi depth, DO concentration, temperature, pH, alkalinity, hardness, and at some sites salinity.
+
+The following Agencies are funded to do work in Weeks Bay by the EPA Watershed Project:
+Alabama Department of Public Health.  Construction and monitoring of alternative on-site treatment 
+	systems in Weeks Bay watershed.
+Alabama Water Watch, Auburn University.  Establishing a citizen monitoring group in the Weeks Bay 
+	Watershed.
+Baldwin County Soil and Water Conservation District.  Weeks Bay pollution prevention project: Cost-
+	share for agricultural BMP’s.
+Geological Survey of Alabama.  Monitoring agricultural BMP’s (chemical, physical, and biological 
+	parameters) on Fish and Magnolia Rivers.
+Geological Survey of Alabama.  Pesticides and groundwater data- thematic map.
+United States Geological Survey.  Two USGS stage and one instream gauging stations are maintained in 
+	the Weeks Bay watershed
+
+Other associated research projects that are on-going in the bay include the following:
+Pennock, J. R. and J. H. Cowan, Jr.  Nutrient enhanced production and trophic dynamics in Weeks 
+	Bay, Alabama.  Funded by Mississippi-Alabama Sea Grant.
+Lytle, J. S. and T. F. Lytle.  Field validation of pesticide impact in Weeks Bay, Alabama.  Funded by 
+	US Environmental Protection Agency.
+Phipps, S. W.  Effect of the arsenic/phosphorus ratio on benthic microalgal assemblage structure in an 
+	estuary.  Funded by NOAA/Sanctuaries and Reserves Division, Graduate Fellowship Program.
+
+
+II.	Physical Structure Descriptors
+
+8.	Variable sequence, range of measurements, units, resolution, and accuracy:
+
+Variable Name	Range of Measurements (Units)	Resolution		Accurary
+
+Date		1-12, 1-31, 00-99 (Mo, Day, Yr)	1 month, 1 day, 1 year	NA
+
+Hour		0-24, 0-60, 0-60 (Hr, Min, Sec)	1 hr, 1 min, 1 sec	NA
+
+Temp		-5-45 ( C)			0.01 C			+/-0.15 C
+
+Sp Cond		0-100 (mS/cm)			0.01 mS/cm		+/-0.5% of 		
+									reading+ 
+									0.001 mS/cm
+      
+Salinity	0-70 parts per thousand (ppt)	0.01 ppt		+/-1.0% of 		
+									reading
+									Or 0.1 ppt, 		
+									whichever is 		
+									greater
+
+DO Sat		0-200 (% Air Saturation)	0.1% @ air sat.		+/-2% @ 
+									air sat.
+
+DO Sat		200-500 (% Air Saturation)	0.1% @ air sat.		+/-6% @ 		
+									air sat.
+
+DO MG		0-20 (mg/l)			0.01 mg/l		+/-0.2 mg/l
+
+DO MG		20-50 (mg/l)			0.01 mg/l		+/-0.6 mg/l
+
+Depth (shallow)   0-9.1 (m)			0.001 m			+/-0.018 m
+
+pH		2-14 units			0.01 units		+/-0.2 units
+
+Data are separated by tabs.
+
+9.	Coded Variable Indicator and Variable code definitions:
+	Site Definitions:	FR = Fish River;	WB = Weeks Bay
+
+
+
+
+10.	Data Anomalies (Suspect Data):
+
+Specific information: *
+January 1997:		At site FR no post deployment calibration recorded at end of deployment 1/2/97.
+			At site FR no DO data 1/16/97, 12:45:00 through 1/28/97, 10:15:00 due to torn 
+				membrane on probe.
+			At site WB post deployment calibration of pH probe was negative for deployment 
+				1/2/97 to 1/16/97, however, data appear normal. 
+February 1997:  	At site FR DO record is very noisey towards the end of deployment 1/28/97 to 
+				2/13/97 due to an accumulation of mud around the sensor.
+			At site WB barnacle fouling bad throughout the month, barnacle found on the DO 
+				membrane at end of deployment 2/13/97, sp. cond. and salinity post 
+				calibration very unstable at end of deployment 2/27/97. 
+March 1997:		At site WB barnacle set reported on 3/13/97; DO data from 			
+				2/26 - 3-13 may have been compromised.
+			At site WB sonde stopped recording data on 3/21/97 due to battery failure, and 
+				data from earlier portion of the deployment (3/13/97 to 3/21/97) may be 
+				suspect.
+			At site WB deployment 3/13/97 to 3/21/97 recorded data at 13:44 and 43:44 past 
+				the hour, reason unknown.
+April 1997: 		At site FR construction of a bulkhead began near this site on or about 4/11/97 and 
+				proceeded for approx. 2 weeks.
+			At site FR at end of deployment 4/11/97 to end of month, sensors were very 
+				muddy (perhaps due to bulkhead construction) and data may have been 
+				compromised.
+			At site WB 4/1/97 through 4/24/97; barnacles, mud and tubeworms were quite 
+				bad during these deployments, data may have been compromised.
+May 1997:		At site FR none to report
+			At site WB No DO (% sat or mg/l) data 4/24/97 13:45:00 through 4/30/97 23:45:00 due
+				to malfunctioning sensor, wildly erratic outlier data were deleted upon 
+				recomendation from YSI upon their receipt and evaluation of the sensor.
+June 1997:		At site FR none to report
+			At site WB barnacle set reported on 6/5/97; DO data from 5/22 - 6/5 		
+				may have been compromised.
+			At site WB Time was off 6/5/97, 09:14:19 to 6/19/97, 08:14:19
+			At site WB battery voltage dropped at end of deployment; data 		
+				from 6/5 - 6/19 may have been compromised.
+July 1997:		At site FR sonde taking data at 00:05:34 and 00:35:34, 7/31 to 8/14; this problem 
+				recurring in the same sonde (and only that sonde) periodically, reason 
+				unknown.
+			At site WB tube-building worms, barnacles, snails covering sensors on 	
+				7/3/97; DO data may be uncorrectable, may be			
+				compromised from 6/19 - 7/3.
+			At site WB tube-building worms covering sensors on 8/1/97; DO 		
+				data may have been compromised from 7/3 - 7/17.
+August 1997:		At site FR sonde taking data at 00:05:34 and 00:35:34, 7/31/97 to 8/14/97 and 
+				from 8/14/97 to 8/28/97 at 00:01:24 and 00:31:24; reason unknown. 
+			At site WB probes and cage heavily fould by mud and tube building worms on 
+				8/14/97; DO data may have been compromised.
+			At site WB tube-building worms on sensors on 8/28/97; DO and pH 	
+				data may have been compromised.
+September 1997:		At site FR sonde taking data at 00:01:24 and 00:31:24, 9/1/97 to 9/11/97 and from 
+				9/11/97 to 9/25/97 at 00:16:36 and 00:46:36; reason unknown. 
+			At site FR heavy biofouling all month at each service, data may be compromised 
+				at the ends of deployments.
+			At site WB heavy biofouling all month at each service, data may be compromised 
+				at the ends of deployments.
+October 1997:		At site FR much fouling during the portion of the month that data were recorded 
+				(see section on missing data) but data seems okay.
+			At site WB worm inside pH probe 10/8/97, pH data suspect from 9/25 - 10/8
+November 1997:		At site FR pH data is suspect from 12/18/97 12:30:00 till the end of the month; 
+				probe would only calibrate at pH 7.0, would not calculate slope, on post 
+				calibration probe initially gave negative readings and then slowly rose to 
+				normal.
+			At site WB none to report
+December 1997:		At site FR Do record erratic on 12/3 and 12/4
+			At site WB probes may have been out of the water or very close to the surface 
+				several times during the deployment 12/18 - 1/6 due to very low tides, 
+				causing erratic pH, DO, Salinity, and conductivity readings.
+* = Please note #2 in General Information.
+
+General Information:
+1.	While we have always set the Data loggers to record 2 times per hour, we have changed logging 
+times over the course of the past year.  Because a ferry was used to reach the sites, several logging 
+intervals were tried before we came to the final interval that best fit the ferry schedule (logging at 15:00 
+and 45:00 past the hour).  As the ferry is no longer used,  we have returned to logging at 00:00 and 
+30:00 past the hour, and have done so regularly since November 1997.
+
+2.	We have deleted data only when technical difficulties resulted in questionable data.  Therefore, 
+we feel that extreme caution should be used when evaluating these data (especially DO % sat. and 
+concentration) because of problems with biofouling.  Particularly during the summer months, biofouling 
+can cause severe degradation of the DO and conductivity calibrations over the two week deployments (eg: 
+07/18/96 site WB) at times recording negative DO values.  At times the DO deviation from calibration at the end of a two week deployment was 
+greater than 80% ( in a water-saturated air environment).  We have made note of any data that we 
+consider to be suspect because of biofouling, based on post-calibration values reported by the sensors.  
+We also have provided the control sonde readings that were taken in the field at the time of the final 
+logging interval before retrieval of the deployed Data loggers, as well as the post-calibration values (for 
+details see section 4, above) in section 12 (Other Remarks/Notes) below.  We encourage anyone using 
+the deployment data to first compare them to these discrete control sonde readings and post-calibration 
+values on the given dates before evaluating the data.  If the user desires, it is possible to use these data to 
+correct the deployed YSI data using regression analysis.  If not, then the user should delete compromised 
+data at his or her own discretion.
+
+11.	Missing Data:
+Note: Turbidity probes were not deployed for entire year.
+January 1997
+	FR:	No data 1/1/97 00:00:00 through 1/2/97 12:15:00; due to battery failure. (see metadata file 
+		for end of Dec. 1996)
+		No pH data 1/02/97 12:45:00 through 1/16/97 10:15:00; (no pH probe deployed, waiting 
+		for delivery of replacement probe)
+		No data 1/16/97 10:45:00 through 12:15:00; down for servicing.
+		No DO (% sat or mg/l) data 1/16/97 12:45:00 through 1/28/97 10:15:00; (DO probe 
+		malfunctioning due to torn membrane)
+		No data 1/28/97 10:45:00 through 12:15:00; down for servicing.
+
+February 1997
+	FR:	No data 2/13/97 10:45:00 through 12:15:00; down for servicing.
+		No data 2/27/97 10:45:00 through 12:45:00; down for servicing.
+
+March 1997
+	FR:	No data 3/13/97 11:15:00 through 12:45:00; down for servicing.
+	WB:	No data 3/21/97 14:15:00 through 3/31/97 23:45:00; due to battery failure.
+
+April 1997
+	FR:	No data 4/01/97 10:45:00 through 12:45:00; down for servicing.
+		No data 4/11/97 09:45:00 through 11:15:00; down for servicing.
+		No data 4/24/97 10:15:00 through 12:45:00; down for servicing.
+	WB:	No data 4/01/97 00:15:00 through 09:15:00; due to battery failure
+		No data 4/24/97 09:15:00 through 13:15:00; down for servicing.
+		No DO (% sat or mg/l) data 4/24/97 13:45:00 through 4/30/97 23:45:00 due to 	
+		malfunctioning sensor, wildly erratic outlier data were deleted upon recomendation from 
+		YSI upon their receipt and evaluation of the sensor.
+
+May 1997
+	FR:	No data 5/12/97 09:45:00 through 11:45:00; down for servicing.
+		No data 5/22/97 09:45:00 through 11:45:00; down for servicing.
+	WB:	No DO (% sat or mg/l) data 5/01/97 00:15:00 through 5/12/97 08:45:00 due to 	
+		malfunctioning sensor, wildly erratic outlier data were deleted upon recomendation from 
+		YSI upon their receipt and evaluation of the sensor.
+
+June 1997
+	FR:	No data 6/5/97 09:45:00 through 11:15:00; down for servicing.
+		No data 6/19/97 09:45:00 through 11:15:00; down for servicing.
+	WB:	No data 6/18/97 02:44:19 through 6/19/97 08:14:19; due to battery failure.
+
+July 1997
+	FR:	No data 7/3/97 09:45:00 through 11:15:00; down for servicing.
+		No pH data 7/3/97 11:45:00 through 7/17/97 09:15:00; (no pH probe deployed, waiting 
+		for delivery of replacement probe)
+		No data 7/17/97 09:45:00 through 11:15:00; down for servicing.
+		No data taken for 07:15:00 on 7/20/97, however data from 06:45:00 		
+		and 07:45:00 appear normal.
+		No data 7/31/97, 09:45:00 through 12:15:00; down for servicing.
+	WB:	No data 7/17/97 10:15:00 through 7/31/97 09:15:00; deployed sonde did not record any 
+		data, apparently due to an interruption in programming for the unattended mode caused by 
+		a defective cable connection.
+		No DO data 7/31/97, 09:45:00 till end of month; bad probe.
+
+August 1997
+	FR:	No data 8/14/97 9:35:00 through 11:35:00; down for servicing.
+		No data 8/28/97 9:45:00 through 12:45:00; down for servicing.
+	WB:	No DO data from beginning of month to 8/14/97, 08:15:00; bad probe.
+		No DO data 8/27/97, 21:45:00 to 8/28/97, 08:45:00; abrupt probe failure.
+		No data 8/28/97 9:15:00 through 12:45:00; down for servicing.
+
+September 1997
+	FR:	No data 9/11/97 9:31:24 through 12:01:24; down for servicing.
+		No data 9/25/97 9:46:36 through 11:46:36; down for servicing.
+	WB:	No data 9/11/97 9:15:00 through 12:45:00; down for servicing.
+		No data 9/18/97 8:45:00 through 9/25/97 8:15:00; due to battery failure.
+
+October 1997
+	FR:	No data 10/8/97 11:15:00 through 15:15:00; down for servicing.
+		No data 10/23/97 12:15:00 through 10/31/97 23:45:00 due to battery failure.
+	WB:	No data 10/8/97 10:45:00 through 10/23/97 11:15:00 sonde did not begin sampling in the 
+		unattended mode, reason unknown.
+
+November 1997
+	FR:	No data 11/01/97 00:15:00 through 11/7/97 16:00:00 due to battery failure.
+		No data 11/20/97 10:00:00 through 13:00:00; down for servicing.
+		No pH data 11/07/97 16:30:00 through 12/18/97 08:30:00, no pH probe was deployed.
+	WB:	No data 11/07/97 09:45:00 through 15:30:00; down for servicing.
+		No data 11/20/97 9:30:00 through 12:30:00; down for servicing.
+December 1997
+	FR:	No data 12/04/97 10:00:00 through 13:30:00; down for servicing.
+		No data 12/18/97 9:00:00 through 12:30:00; down for servicing.
+		No pH data 12/01/97 00:00:00 through 12/18/97 08:30:00, no pH probe was deployed.
+		No data 12/29/97 7:00:00 through 12/31/97; water leaked into the battery compartment of 
+		the sonde and unattended sampling stopped.
+	WB:	No data 12/04/97 09:30:00 through 13:30:00; down for servicing.
+		No data 12/18/97 09:00:00 through 13:00:00; down for servicing.
+		No DO data 12/18/97, 13:30:00 through the end of the month; bad probe.
+		
+
+12.	Other Remarks/Notes:
+
+Control Sonde End of Deployment Readings:
+Site  Date          Time(CST)	Temp( C)    Salinity(ppt)    DO(%sat)   DO(mg/l)	Depth (m)	pH
+FR    01/16/97   10:15:00	11.27		5.0		100.3		10.69	1.5		7.19
+         01/28/97   10:15:00	15.18		0.6		72.2		7.28	1.7		6.40
+         02/13/97   10:15:00	11.56		3.5		100.3		10.65	1.9		7.28
+         02/28/97   10:15:00	16.22		0.5		79.5		7.80	1.9		6.56
+         03/13/97   10:45:00	20.81		1.7		92.4		8.20	2.0		7.18
+         04/01/97   10:15:00	18.50		1.0		90.0		8.50	1.5		7.50
+         04/11/97   09:15:00	19.26		8.1		101.8		8.97	2.0		7.78
+         04/24/97	  09:45:00	20.62		5.7		91.2		7.90	1.8		7.05
+         05/12/97   09:15:00	21.20		2.6		93.0		8.30	1.9		7.90
+         05/22/97   09:15:00	25.80		1.7		94.41		7.63	2.0		7.73
+	06/05/97	09:15:00	25.20		1.2		81.6		6.6	2.4		7.20
+	06/19/97	09:15:00	26.6		1.1		80.0		6.4	2.2		7.7
+	07/03/97	09:45:00	29.05		0.2		71.7		5.53	2.0		6.83
+	07/17/97	09:15:00	28.66		0.6		71.5		5.56	2.1		6.78
+	07/31/97	10:15:00	27.6		0.0		79.3		6.26	2.2		6.24
+	08/14/97	09:15:00	29.88		3.9		81.8		6.06	2.2		6.88
+	08/28/97	09:15:00	30.21		8.3		85.6		6.12	2.1		7.96
+	09/11/97	09:15:00	29.38		9.9		75.00		5.40	2.1		8.13
+	09/25/97	09:15:00	28.9		6.7		92.7		6.83	2.3		7.65
+	10/08/97	10:45:00	27.71		13.9		77.9		5.65	1.95		8.03
+	10/23/97	12:45:00	22.4		16.35		98.0		7.74	1.68		8.18
+	11/07/97	09:50:00	17.8		5.6		78.6		7.22	1.5		-----*
+	11/20/97	09:30:00	15.29		9.28		113.7		10.66	1.5		-----*
+	12/04/97	09:30:00	17.0		2.23		73.3		7.03	1.5		------
+	12/18/97	08:30:00	14.0		6.7		113.8		11.6	1.3		------
+WB
+	01/02/97	09:45:00	19.97		6.6		62.3		5.48	0.4		6.58
+	01/16/97	09:45:00	9.81		10.3		114.8		12.2	0.35		7.97
+	01/28/97	09:45:00	15.4		5.3		83.0		8.1	0.4		6.87
+	02/13/97	09:45:00	11.3		10.2		97.0		9.95	0.7		7.17
+	02/27/97	09:45:00	17.55		2.8		90.6		8.53	0.5		6.71
+	03/13/97	09:45:00	20.49		4.5		87.3		7.72	0.8		7.67
+	04/01/97	09:45:00	18.20		3.8		94.3		8.77	0.3		7.60
+	04/11/97	08:45:00	19.62		17.5		89.8		7.41	0.6		7.54
+	04/24/97	08:45:00	20.79		11.4		99.5		8.32	0.6		7.47
+	05/12/97	08:45:00	21.49		3.5		93.1		8.07	0.6		8.31
+	05/22/97	08:45:00	26.2		3.6		92.2		7.35	0.7		7.97
+	06/05/97	08:45:00	25.97		4.8		81.4		6.40	0.9		7.53
+	06/19/97	08:45:00	27.39		2.4		85.7		6.72	0.9		7.66
+	07/03/97	08:45:00	30.16		2.6		83.6		6.20	0.7		7.55
+	07/17/97	08:45:00	30.17		7.92		90.5		6.65	0.9		7.92
+	07/31/97	08:45:00	30.21		4.6		86.2		6.31	0.9		7.30
+	08/14/97	08:45:00	30.5		8.2		99.6		7.05	0.8		8.06
+	08/28/97	08:45:00	28.4		10.5		98.6		7.17	0.7		8.97
+	09/11/97	08:45:00	27.75		13.7		78.5		5.68	0.7		7.99
+	09/18/97	08:15:00	28.3		13.7		92.6		6.60	0.9		8.16
+	10/08/97	10:15:00	26.2		15.7		88.6		6.57	0.6		8.04
+	10/23/97	11:15:00	19.19		15.76		119.0		10.01	0.34		8.36
+	11/07/97	09:20:00	15.91		10.7		88.0		8.15	0.3		-----*
+	11/20/97	09:00:00	13.67		10.85		117.0		11.36	0.2		-----*
+	12/04/97	09:00:00	16.6		10.09		97.8		9.0	0.2		7.73
+	12/18/97	09:00:00	12.3		9.2		126.5		12.78	0.1		8.37
+
+* No pH probe on the control sonde.
+
+
+End of Deployment Post-calibration Readings in Standard Solutions:
+Site    Date  	Conductivity (mS)	Salinity (ppt)	DO (Air Sat.)	DO (mg/l)	pH
+		(Std:  30.1)		(Std: 18.6)	(Std: 100%)	(Std: Variable)	(Std: 7)
+FR 01/16/97	30.05			18.6		104.8		11.4		-----
+      01/28/97	29.90			18.5		------		------		7.04
+      02/13/97	29.18			18.0		75.5		7.20		7.17
+      02/27/97	30.20			18.7		100.6		8.64		7.20
+      03/13/97	29.45			18.2		99.0		8.76		7.36
+      04/01/97	30.00			18.6		106.0		9.90		7.00
+      04/11/97	29.89			18.5		111.2		------		7.20
+      04/24/97	29.50			18.2		81.7		7.50		6.87
+      05/12/97	30.13			18.7		87.2		7.85		7.49
+      05/22/97	30.25			18.7		96.0		8.37		6.92
+      06/05/97	30.11			18.6		95.9		------		7.01
+	06/19/97	30.33			18.8		91.8		7.32		7.01
+	07/03/97	30.05			18.6		80.5		6.16		7.14
+	07/17/97	30.42			18.6		92.5		7.29		------
+	07/31/97	29.95			18.5		99.6		8.08		7.05
+	08/14/97	30.46			18.9		93.2		7.08		6.72
+	08/28/97	30.05			18.6		89.0		7.37		7.02
+	09/11/97	29.98			18.5		56.5		4.69		7.54
+	09/25/97	29.83			18.4		113.8		9.58		6.98
+	10/08/97	29.92			18.5		14.0		1.14		6.96
+	10/23/97	29.72			18.5		90.2		7.43		4.36
+	11/20/97	30.9			19.23		115.6		10.34		------
+	12/04/97	29.86			18.52		101.0		8.99		------
+	12/18/97	29.62			18.37		88.6		7.88		------
+WB
+	01/02/97	29.50			18.2		57.5		5.14		7.48
+	01/16/97	30.5			19.0		91.9		9.54		(neg.)
+	01/28/97	29.7			18.4		93.4		8.66		7.27
+	02/13/97	28.56			17.66		39.9		3.71		(neg.)
+	02/27/97	(unstable)		(unstable)	20.6		1.77		7.04
+	03/13/97	24.10			14.65		38.5		3.41		7.04
+	04/11/97	26.89			16.5		38.7		3.46		7.04
+	04/24/97	26.2			16.0		48.5		4.27		6.75
+	05/12/97	30.1			18.6		94.6		8.53		6.14
+	05/22/97	29.5			18.27		75.7		6.46		6.40
+	06/05/97	28.83			17.8		61.8		5.21		6.80
+	06/19/97	29.1			18.0		69.5		5.66		(neg.)
+	07/03/97	29.45			18.2		50.0		3.94		6.33
+	07/17/97	28.80			17.79		24.0		1.93		6.78
+	08/14/97	27.23			16.73		-99.5		-2.75		6.58
+	08/28/97	29.18			18.0		2.7		0.21		6.98
+	09/11/97	28.97			17.9		1.8		0.14		7.50
+	09/18/97	29.33			18.1		84.4		7.12		7.04
+	10/08/97	29.42			18.21		97.0		8.11		7.02
+	10/23/97	28.80			17.79		96.2		8.34		5.98
+	11/07/97	29.90			18.5		103.9		9.57		7.08
+	11/20/97	30.26			18.8		100.0		9.04		7.13
+	12/04/97	29.68			18.4		102.4		9.24		7.06
+	12/18/97	29.88			18.5		130.8		12.0		7.57
+	
+
+
+
+
+
+
+
+
+

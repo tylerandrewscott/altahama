@@ -1,0 +1,915 @@
+Apalachicola NERR Meteorological Metadata 
+January - December 2003
+Last Update: August 24, 2004
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator & contact persons:
+
+Lee Edmiston, Research Coordinator
+lee.edmiston@dep.state.fl.us
+850.670.4783
+
+Jennifer Wanat, Environmental Specialist II
+jennifer.wanat@dep.state.fl.us
+850.670.4783
+
+Lauren Levi, Environmental Specialist II
+lauren.levi@dep.state.fl.us
+850.670.4783
+
+Address: 	Florida Department of Environmental Protection
+		Apalachicola National Estuarine Research Reserve
+		350 Carroll Street
+		Eastpoint, FL 32328
+
+2) Entry verification:
+
+a) Data Input Procedures:
+
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each instrument on the weather 
+station to a Campbell Scientific CR10X datalogger. The CDMO Data Logger Program (nerr_301.csi) was 
+loaded into the CR10X and controls the sensors and data collection schedule (see 2b of the Entry 
+Verification section for the data collection schedule).  The CR10X then interfaced with the PC208W software 
+supplied by Campbell Scientific.  
+
+Once an entire month of data were available, the CDMO Weather Data Management Program (WDMP) was 
+used to convert the files to an Access database.  This program was developed in Visual Basic to interface 
+with the NERRS data collection schedule (see 2b of the Entry Verification section for the data collection 
+schedule).  The WDMP will automatically input and convert the monthly raw data file into an Access 
+Database.  There are three main steps the WDMP performs.  First, it converts the comma delimited monthly 
+raw data file into an Access Database.  Second, it checks the data against a predetermined set of error 
+criteria (see Part C of this section).  Finally, it produces error and summary reports. Any anomalous data 
+were investigated and are noted below in the Anomalous Data section. Any data corrections that were 
+performed are noted in the Data Correction section below. The most common error reported was the 
+"technician changed array data...".  These data changes were primarily due to sensor malfunction and wiring 
+problems.  In these instances the erroneous data were deleted by the technician and replaced with the code 
+"55555".  Other common errors were temperature changes greater than 3 ºC and precipitation differences 
+greater than 5 mm.
+
+As of November 3rd, 2003, the new CDMO Data Logger program (NERR_4.csi) was loaded on the 
+CR10X. The Data Logger program controls the sampling of the sensors. Meteorological conditions are 
+measured every 5 seconds from each sensor and stored on the CR10X. Data are output to a file in three 
+arrays: array 15 stores 15 minute averages, max and min data; array 60 stores hourly data; max and min 
+data; and array 144 stores daily average, max and min data. Storage modules are used to interface between 
+the CR10X and the PC208W software supplied by Campbell Scientific. New 4M storage modules were used 
+to store the larger output needed for the new program.  EQwin now replaces the WDMP as the NERR MET primary 
+QA/QC program. 
+
+Files are exported from PC208W in a comma-delimited format (.DAT file) and opened in Microsoft Excel for 
+pre-processing with the EQWin format macro that was developed by the CDMO to reformat the header 
+columns, insert station codes, insert a date column (mm/dd/yyyy), correct the time column format and 
+reformat the data to the appropriate number of decimal places. The pre-processed file is then ready to be 
+copied into the EQWin weather.eqi file where the data are QA/QC'd and archived in the database. EQWin 
+queries, reports and graphs are used to discover data set outliers (values that fall outside the range that 
+the instrument is designed to measure) and large changes in the data. EQWin is also used to generate 
+statistics, view graphs, create customized queries and reports of the data, cross-query the water, weather 
+and nutrient data and finally export the data to the CDMO. Any anomalous data are investigated and noted 
+below in the Anomalous/ Suspect Data Section. Any data corrections that were performed are noted in the 
+Deleted Data Section below. 
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+b) Data Collection Schedule:
+
+i) data are collected in the following formats:
+
+	1) 15 minute data are instantaneous readings except for PAR and precipitation data 
+	that are totalized from 5-second samples sorted by date and time. (Arrays 150 and 
+	151).
+	2) Hourly averages (Arrays 101 and 102) are calculated from 5 second samples sorted 
+	by date and time except for PAR and precipitation data that are hourly totals calculated 
+	from 15 minute totals (Arrays 105 and 106).
+	3) Daily average (arrays 241 and 242), maximum with time, and minimum with time 
+	(arrays 243 and 244) are calculated from 5 second samples sorted by date and time 
+	except for PAR and precipitation data which are 24 hour totals calculated from hourly 
+	totals (arrays 245 and 246).
+
+ii) 15 minute sample point parameters: Date, Time, Air Temperature (°C), Relative Humidity (%), 
+LiCor (PAR), Barometric Pressure (mb), Wind Speed (m/s), Wind Direction (Array 150); Rainfall 
+(mm) (Array 151)
+
+iii) Hourly average parameters: Date, Time, Air Temperature (°C), Relative Humidity (%), 
+Barometric Pressure (mb) (Array 101); Wind Speed (m/s), Wind Direction, Wind Speed Maximum 
+(Array 102) 
+	 
+iv) Hourly total parameters: LiCor (PAR) (Array 105); Rainfall (mm) (Array 106)
+
+v) Daily Average parameters: Date, Time, Air Temperature (°C), Relative Humidity (%), 
+Barometric Pressure (mb) (Array 241); Wind Speed (m/s), Wind Direction, Wind Direction 
+Standard Deviation (using Yamartino's Algorithm) (Array 242)
+
+vi) Daily Total parameter: LiCor (PAR) (Array 245); Rainfall (mm) (Array 246)
+
+vii) Daily Maximum parameters: Date, Time, Air Temperature (°C), Time, Relative Humidity (%), 
+Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, Battery 
+Voltage, Time (Array 243)
+
+viii) Daily Minimum parameters: Date, Time, Air Temperature (°C), Time, Relative Humidity (%), 
+Time, LiCor (PAR), Time, Barometric Pressure (mb), Time, Wind Speed (m/s), Time, Battery 
+Voltage, Time (Array 244)
+
+Note: As of November 3, 2003 1000 data collected with the new CR10X program (NERR_4.csi) are in the 
+following format:
+
+i) 15 minute data are averages/totals of 5 second sampling over the period of 15 minutes. 
+
+ii) 60 minute data are averages/totals of 5 second sampling over the period of 1 hour. 
+
+iii) 24 hour data are averages/totals of 5 second sampling over the period of 24 hours.
+
+iv) Parameters collected during each interval include:
+date, Julian date, time, average temperature (°C), Maximum and minimum temperature, 
+time at maximum and minimum temperature, Relative humidity, maximum and minimum relative humidity, 
+time at maximum and minimum relative humidity, average barometric pressure, minimum and 
+maximum barometric pressure, time at max and min barometric pressure, wind speed, 
+wind direction, standard deviation of wind direction, maximum and minimum wind speed, 
+time at minimum and maximum wind speed, total precipitation, total photosynthetically 
+active radiation, and battery voltage.
+
+c) Error/Anomalous Data Criteria:
+
+Air Temp:
+	- 15 min sample greater than max for the day
+	- 15 min sample less than the min for the day
+	- 15 min sample greater than 3.0 °C from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Relative Humidity:
+	- Changed by more than 25% from the previous 15 minutes
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Rainfall:
+	- Precipitation greater than 5 mm in 15 minutes
+	- No precipitation for the month
+
+Wind Speed:
+	- Wind speed greater than 30 m/s
+	- Wind speed less than 0.5 m/s
+
+Wind Direction:
+	- Wind direction greater than 360 degrees
+	- Wind direction less than 0 degrees
+
+Pressure:
+	- Pressure greater than 1040 mb or less than 980 mb
+	- Pressure changes greater than 5 mb per hour
+	- Max and Min values not recorded for the day
+	- 1-hour average greater than 10% above the greatest 15 min sample recorded in the hour
+
+Time:
+	- 15-minute interval not recorded
+
+For all data:
+	- Duplicate interval data	
+
+3) Research objectives:
+
+Data collected from the East Bay weather station complements those data taken from the East Bay water 
+quality station. Positioning the weather station in East Bay allows the Reserve to monitor changes in 
+rainfall, photosynthetically active radiation, temperature, and other weather parameters influencing the 
+water quality of East Bay.  East Bay drains the Tate's Hell Swamp area, which was altered in the late 
+1960's and early 1970's by timber companies. An EPA grant allowed the Northwest Florida Water Management 
+District to begin restoration of the site in 1995 to reduce non-point source runoff.
+
+4) Research methods:
+
+There were no other analyses, data collection intervals, or QA/QC procedures for the WDMP in Apalachicola 
+other than those expressed in Version 4.0 of the CDMO manual.
+
+5) Site location and character:
+
+The Apalachicola National Estuarine Research Reserve is located in the northwestern part of Florida, 
+generally called the panhandle.  It is located adjacent to the City of Apalachicola, and encompasses most of 
+the Apalachicola Bay system, including 52 miles of the lower Apalachicola River.  Passes, both natural and 
+manmade, connect Apalachicola Bay to the northeastern Gulf of Mexico.  The sampling site is located in the 
+upper reaches of East Bay.   East Bay is separated from Apalachicola Bay by two bridges and a causeway 
+and is located to the north of Apalachicola Bay proper.  The bay is 8.2 km long, has an average depth of 
+approximately 1.0 m MHW, and an average width of 1.8 km. The tides in East Bay are mixed and range 
+from 0.3 m to 1.0 m (average 0.5 m). The weather station is located at latitude 29 47.454' N and longitude 
+84 53.004' W.  This site is less than 0.5 nautical miles west of the Apalachicola water quality station.  
+The site is located near the tip of a peninsula, which separates Blount's Bay from West Bayou.  The 
+peninsula is dominated by marsh vegetation (mainly Juncus roemerianus).  There is a cabbage palm hammock 
+along the southern shoreline of the peninsula.  The dominant upland habitat is primarily pineland forest 
+to the northwest, which includes slash pine, saw palmetto, and sand pine. The weather station sensors are 
+mounted at the top of a 3-meter tower.  The tower is mounted on a 6' platform.  The tipping bucket rain 
+gauge is mounted on a 4' platform approximately 15 feet from the weather station platform.  There is nothing 
+nearby to shade the tower and the nearest wind block is the edge of the pine forest about one-half to three-
+quarters of a mile north to northwest of the station.
+
+6) Data collection period: January-December, 2003
+
+The Apalachicola weather monitoring station was erected on August 27, 1999 and began monitoring on 
+September 3, 1999.  The data submitted with this report encompasses data collected from 0015 hours 
+January 1, 2003 through 0000 hrs December 31, 2003.  Actual module deployment during this time period 
+began on 12/3/2002 at 1330 hrs and ended 2/2/2004 at 1400.
+
+7) Distribution  
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy for the NERRS 
+System-wide Monitoring Program, NOAA/ERD retains the right to analyze, synthesize and publish 
+summaries of the NERRS System-wide Monitoring Program data.  The PI retains the right to be fully 
+credited for having collected and processed the data.  Following academic courtesy standards, the PI and 
+NERR site where the data were collected will be contacted and fully acknowledged in any subsequent 
+publications in which any part of the data are used.  Manuscripts resulting from the NOAA/OCRM supported 
+research that are produced for publication in open literature, including refereed scientific journals, will 
+acknowledge that the research was conducted under an award from the Estuarine Reserves Division, Office 
+of Ocean and Coastal Resource Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only as good as the quality 
+assurance/quality control procedures outlined by the enclosed metadata reporting statement.  The user 
+bears all responsibility for its subsequent use/misuse in any further analyses or comparisons.  The Federal 
+government does not assume liability to the Recipient or third persons, nor will the Federal government 
+reimburse or indemnify the Recipient for its liability due to any losses resulting in any way from the use 
+of this data. NERR weather data and metadata can be obtained from the Research Coordinator at the 
+individual NERR site (please see Section 1 Principal investigators and contact persons), from the Data 
+Manager at the Centralized Data Management Office (please see personnel directory under the general 
+information link on the CDMO home page) and online at the CDMO home page Http://cdmo.baruch.sc.edu.  
+Data are available in text format and Access data tables.
+
+8) Associated researchers and projects:
+
+Northwest Florida Water Management District
+Tate's Hell Restoration Project
+Apalachicola Bay Freshwater Needs Study
+
+Tamplin, M. L., et.al./ Univ. of Florida, Institute of Food and Agricultural Sciences
+Association of Multiple-Antibiotic-Resistance Profiles with Point and Nonpoint Sources of Escherichia 
+coli in Apalachicola Bay
+
+Iverson, R., Mortazavi, B./ Florida State University, Department of Oceanography
+c-14 Primary Productivity
+Nutrient Enrichment
+
+Chanton, J./ Florida State University, Department of Oceanography 
+Food Web Relationships Utilizing Stable Isotope Ratios.
+
+Niu, X./ Florida State University, Department of Statistics Edmiston, H.L., Bailey, G.O./ APA NERR Time 
+Series Models for Salinity and Other Environmental Factors in the Apalachicola 
+Estuarine System (1998).  Estuarine, Coastal, and Shelf Science 46:549-563.
+
+Edmiston, H.L., Lewis, G., Wanat, J.,  Levi, L., Miller, K., Stewart,J. /Apalachicola 
+National Estuarine Research Reserve.
+Distribution and density of fishes and benthic invertebrates in Apalachicola Bay.
+
+Caffrey, J. /University of West Florida
+Development of an in situ instrument for measuring nitrogen in natural waters.
+
+Childs, C./Florida State University, Dept. of Oceanography.
+A spatial and temporal assessment of factors affecting denitrification in Apalachicola 
+Bay.
+
+Wilber, P., et.al./NOAA Coastal Services Center & Edmiston, L., et al./Apalachicola 
+National Estuarine Research Reserve
+Benthic habitat mapping in Apalachicola Bay
+
+Donatto Surratt/Florida A&M University 
+Compare and contrast the historic and current trophic status of Apalachicola Bay using 
+stable isotopes in sediments.
+
+Dulaiova, H. / Florida State University, Dept. of Oceanography.
+Determination of the distribution and volume of groundwater entering Apalachicola 
+Bay from St. George Island.  
+
+Putland, J. / Florida State University, Dept. of Oceanography.
+Planktonic food web variations related to salinity and nutrient patterns in Apalachicola 
+Bay.
+
+Stewart, J., Edmiston, H.L. / Apalachicola National Estuarine Research Reserve.
+Growth and spat recruitment related to environmental conditions at oyster bars in 
+Apalachicola Bay.
+
+Jennifer Putland
+Florida State University Department of Oceanography
+NOAA Graduate Research Fellowship
+"Planktonic food web variations related to salinity and nutrient patterns
+in Apalachicola Bay."
+
+II. Physical Structure Descriptors
+
+9) Sensor Specifications:
+
+LiCor Quantum Pyranometer
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration:  Time of Purchase, April 2002
+In Use Dates are from 00:00 1/01/2003 through 00:00 12/31/2003
+
+Wind Sentry: RM Young Model # 03001-5
+Range:  0-50 m/s; 360° mechanical
+Date of last directional calibration: At deployment, June 14, 2002 
+In Use Dates are from 00:00 1/01/2003 through 00:00 12/31/2003
+
+Temperature and Relative Humidity: Vaisala Model #:  HMP45AC
+Operating Temperature: -40 to 60°C
+Temperature Measurement Range: -40 to 60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3% (90-100%)
+Uncertainty of calibration: ± 0.6% RH
+Date of Last calibration:  1/31/2002
+In Use Dates are from 00:00 1/01/2003 through 00:00 12/31/2003
+
+Barometric Sensor: Vaisala model CS-105
+Operating Range:	
+Pressure:	600 to 1060 mb
+Temperature: -40 to 60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (20 to 60°C)
+Stability: ± 0.1 mb per year
+Date of Last calibration:  time of purchase, April 2002
+In Use Dates are from 00:00 1/01/2003 through 00:00 12/31/2003
+
+Precipitation: Tipping Bucket Rain Gauge FIT Model #:  TE 525
+Range:  0.1 mm
+Accuracy:  1.0% at <2"/hr
+Date of Last calibration: April 4, 2002
+In Use Dates are from 00:00 1/01/2003 through 00:00 12/31/2003
+
+Storage Module (prior to November 3rd, 2003 at 0845)
+Model #: SM192
+Storage capacity: 192,896 bytes
+Operating range: Temperature: -35° to +65°C
+Processor: Hitachi 6303
+Baud Rates: 300, 1200, 9600, 76800
+Memory Type: user selectable for either ring style (default) or fill and drop
+Power requirements: 5 +/-0.4 VDC @100mA
+
+Storage Module (after November 3rd, 2003 at 0845)
+Model #: SM4M
+Storage capacity: 2 million low-resolution data values
+Program storage: stores up to 8 programs with a total capacity of 128 KB
+Processor: Hitachi H8S
+Operating system: 64KB, flash memory based, user downloadable
+Operating range: Temperature: -35° to +65°C
+Baud rates: 9600, 76800
+Memory type: user selectable for either ring style (default) or fill and drop.
+Power requirements: 5 +/-0.3 VDC @ 100mA
+
+Campbell Scientific CR10X Wiring Panel has 128K of flash memory (EEPROM), in which it stores the 
+operating system and it's program (that it uses to run the weather station). Additionally, there are 
+128K of SRAM, which it uses to run the program and store its measurements and for final data storage.
+
+10) Coded variable indicator and variable code definitions:  
+
+Site Definitions:  The weather data master table files for the Apalachicola NERR are coded APAEBMET, 
+indicating the location of the weather station (East Bay) within the greater Apalachicola Bay system.
+
+11) Data anomalies:
+
+January 2003
+Array		Day		   Julian		Time               	Error	
+102	  	 19	       		19	        2100	   	Wind speed is less than 0.5 m/s 
+from 19 (19) 2100 to 20 (20) 900 
+
+The Wind Speed datum above is considered correct and unchanged.
+
+
+February 2003
+Array		Day		   Julian		Time               	Error	
+151	   	6	        	37           2215        	 
+Precip difference from 6 (37) 2215 (3.048) to 6 (37) 2230 (11.684) is greater than 5 mm
+151	   	6	         	37           2230         	
+Precip difference from 6 (37) 2230 (11.684) to 6 (37) 2245 (3.556) is greater than 5 mm
+151	         6	                37           2315        
+Precip difference from 6 (37) 2315 (5.588) to 6 (37) 2330 (.508) is greater than 5 mm
+151	          16	                47           615            	
+Precip difference from 16 (47) 615 (.254) to 16 (47) 630 (13.97) is greater than 5 mm
+151	          16	                47           630             	
+Precip difference from 16 (47) 630 (13.97) to 16 (47) 645 (7.62) is greater than 5 mm
+151	          22	                53           830	             
+Precip difference from 22 (53) 830 (1.016) to 22 (53) 845 (6.096) is greater than 5 mm
+151	          27	                58           500             	
+Precip difference from 27 (58) 500 (4.064) to 27 (58) 515 (11.43) is greater than 5 mm
+151	         27	                 58            530	            
+Precip difference from 27 (58) 530 (12.7) to 27 (58) 545 (5.334) is greater than 5 mm
+
+The above precipitation data are considered correct and remains unchanged.
+ 
+
+March 2003
+Array		Day		   Julian		Time               	Error	
+151	          1	                60              445	                
+Precip difference from 1 (60) 445 (3.556) to 1 (60) 500 (9.144) is greater than 5 mm
+151	          1	                60              530               	 
+Precip difference from 1 (60) 530 (9.652) to 1 (60) 545 (1.016) is greater than 5 mm
+151	          1	                60              1615             	 
+Precip difference from 1 (60) 1615 (1.016) to 1 (60) 1630 (7.62) is greater than 5 mm
+151	          1	                60              1645             	 
+Precip difference from 1 (0) 1645 (11.938) to 1 (60) 1700 (6.096) is greater than 5 mm
+151	          7	                66              1030              	
+Precip difference from 7 (66) 1030 (3.556) to 7 (66) 1045 (9.398) is greater than 5 mm
+151	          7	                66              1045             	 
+Precip difference from 7 (66) 1045 (9.398) to 7 (66) 1100 (2.286) is greater than 5 mm
+151	          9	                68              600                
+Precip difference from 9 (68) 600 (23.876) to 9 (68) 615 (4.826) is greater than 5 mm
+
+The above precipitation data are considered correct and remains unchanged
+
+102	          9	               68               600               	 
+Max hourly wind speed is greater than 30 m/s on 9 (68) 600 (0)
+
+The above wind speed datum is considered correct and remains unchanged
+
+
+April 2003
+Array		Day		   Julian		Time               	Error		
+150	        24	              114              700               	 
+Air temp difference from 24 (114) 700 (16.684) to 24 (114) 715 (20.027) is greater than 3.0 degrees C
+150	        25	              115              1015              	
+Air temp difference from 25 (115) 1015 (21.789) to 25 (115) 1030 (18.449) is greater than 3.0 degrees C
+
+The temperature data above are considered correct when compared with precipitation and wind data for 
+those days. They remain unchanged.
+
+
+May 2003
+Array		Day		   Julian		Time               	Error	
+151       	 22             	142               1100             
+Precip difference from 22 (142) 1100 (.508) to 22 (142) 1115 (7.62) is greater than 5 mm 
+
+The above Precipitation datum is considered correct and remains unchanged.
+
+
+June 2003
+Array		Day		   Julian		Time               	Error	
+150	         3	             154               1015               	
+Air temp difference from 3 (154) 1015 (26.778) to 3 (154) 1030 (22.437) is greater than 3.0 degrees C
+150	         6	             157               2300	               
+Air temp difference from 6 (157) 2300 (26.043) to 6 (157) 2315 (22.905) is greater than 3.0 degrees C
+150	        20	            171               1715              	 
+Air temp difference from 20 (171) 1715 (25.107) to 20 (171) 1730 (21.968) is greater than 3.0 degrees C
+150	        22	            173               1300              	 
+Air temp difference from 22 (173) 1300 (26.353) to 22 (173) 1315 (23.285) is greater than 3.0 degrees C
+150	        26	           177                1045               	
+Air temp difference from 26 (177) 1045 (28.026) to 26 (177) 1100 (24.889) is greater than 3.0 degrees C
+150	        29	           180                845                	
+Air temp difference from 29 (180) 845 (26.776) to 29 (180) 900 (22.903) is greater than 3.0 degrees C
+150	        30	           181                1615              	
+Air temp difference from 30 (181) 1615 (28.101) to 30 (181) 1630 (24.964) is greater than 3.0 degrees C
+
+The above Temperature data are considered correct and remain unchanged
+
+
+151	        6	             157                2315              	
+Precip difference from 6 (157) 2315 (2.286) to 6 (157) 2330 (9.398) is greater than 5 mm
+151	        6	             157                2330              	
+Precip difference from 6 (157) 2330 (9.398) to 6 (157) 2345 (2.794) is greater than 5 mm
+151	        7	            158                 1615              	
+Precip difference from 7 (158) 1615 (.762) to 7 (158) 1630 (7.112) is greater than 5 mm
+151	        7	            158                 1630              	
+Precip difference from 7 (158) 1630 (7.112) to 7 (158) 1645 (1.27) is greater than 5 mm
+151	        20	          171                  930	              
+ Precip difference from 20 (171) 930 (2.032) to 20 (171) 945 (10.668) is greater than 5 mm
+151	       20	           171                 1030	              
+Precip difference from 20 (171) 1030 (1.27) to 20 (171) 1045 (11.684) is greater than 5 mm
+151	       20	           171                 1115        	     
+ Precip difference from 20 (171) 1115 (11.176) to 20 (171) 1130 (16.256) is greater than 5 mm
+151	       20	           171                 1130             	
+ Precip difference from 20 (171) 1130 (16.256) to 20 (171) 1145 (3.048) is greater than 5 mm
+151	       20	           171                 1730             	
+ Precip difference from 20 (171) 1730 (10.414) to 20 (171) 1745 (3.556) is greater than 5 mm
+151	       22	           173                 1300	              
+Precip difference from 22 (173) 1300 (4.064) to 22 (173) 1315 (18.796) is greater than 5 mm
+151	       22	           173                 1315               	
+Precip difference from 22 (173) 1315 (18.796) to 22 (173) 1330 (4.318) is greater than 5 mm
+151	       29	           180                  915                	
+Precip difference from 29 (180) 915 (10.922) to 29 (180) 930 (1.27) is greater than 5 mm
+
+The above precipitation data are considered correct and remain unchanged.
+
+
+July 2003
+Array		Day		   Julian		Time               	Error	
+150	       1	              182                1930               	
+Air temp difference from 1 (182) 1930 (28.102) to 1 (182) 1945 (24.563) is greater than 3.0 degrees C
+150	       2	              183                845                 	
+Air temp difference from 2 (183) 845 (26.977) to 2 (183) 900 (23.972) is greater than 3.0 degrees C
+150	       11	            192                1015               	
+Air temp difference from 11 (192) 1015 (30.017) to 11 (192) 1030 (26.945) is greater than 3.0 degrees C
+150	      15	             196                1145               	
+Air temp difference from 15 (196) 1145 (27.89) to 15 (196) 1200 (23.552) is greater than 3.0 degrees C
+150	      19	             200                1000               	
+Air temp difference from 19 (200) 1000 (29.692) to 19 (200) 1015 (26.288) is greater than 3.0 degrees C
+150	      19	             200                1130	              
+ Air temp difference from 19 (200) 1130 (29.821) to 19 (200) 1145 (24.745) is greater than 3.0 degrees C
+150	      24	             205                1145              	 
+Air temp difference from 24 (205) 1145 (29.283) to 24 (205) 1200 (25.477) is greater than 3.0 degrees C
+150	      24	             205                1545               	
+ Air temp difference from 24 (205) 1545 (26.897) to 24 (205) 1600 (22.358) is greater than 3.0 degrees C
+150	      25	             206                 1400	              
+ Air temp difference from 25 (206) 1400 (29.358) to 25 (206) 1415 (25.017) is greater than 3.0 degrees C
+150	      27	             208                 1145	              
+ Air temp difference from 27 (208) 1145 (30.213) to 27 (208) 1200 (26.209) is greater than 3.0 degrees C
+150	      29	             210                 1045               	
+Air temp difference from (29 210) 1045 (28.414) to 29 (210) 1100 (24.142) is greater than 3.0 degrees C
+150	      30	             211                  945                 	
+Air temp difference from 30 (211) 945 (27.224) to 30 (211) 1000 (24.086) is greater than 3.0 degrees C
+150	      31	             212                 1045	               
+Air temp difference from 31 (212) 1045 (29.217) to 31 (212) 1100 (26.211) is greater than 3.0 degrees C
+
+The above temperature data are considered correct and remain unchanged.
+
+
+151	       1	             182                  1945	              
+Precip difference from 1 (182) 1945 (2.54) to 1 (182) 2000 (12.446) is greater than 5 mm
+151	       2	             183                  45	                   
+Precip difference from 2 (183) 45 (5.842) to 2 (183) 100 (.254) is greater than 5 mm
+151	       2	             183                  900	                 
+Precip difference from 2 (183) 900 (1.016) to 2 (183) 915 (6.096) is greater than 5 mm
+151	       2	             183                  915                 	
+Precip difference from 2 (183) 915 (6.096) to 2 (183) 930 (11.176) is greater than 5 mm
+151	2	              183                  930                 
+Precip difference from 2 (183) 930 (11.176) to 2 (183) 945 (1.016) is greater than 5 mm
+151	3	              184                  245                 	
+Precip difference from 3 (184) 245 (2.794) to 3 (184) 300 (9.398) is greater than 5 mm
+151	3	              184                  300	                 
+Precip difference from 3 (184) 300 (9.398) to 3 (184) 315 (2.794) is greater than 5 mm
+151	4	              185                  1000               
+Precip difference from 4 (185) 1000 (7.366) to 4 (185) 1015 (.508) is greater than 5 mm
+151	     12	             193                  1300                
+Precip difference from 12 (193) 1300 (.762) to 12 (193) 1315 (8.382) is greater than 5 mm
+151	      12	             193                  1315	                
+Precip difference from 12 (193) 1315 (8.382) to 12 (193) 1330 (.508) is greater than 5 mm
+151	       22	            203                  930                  	
+Precip difference from 22 (203) 930 (2.54) to 22 (203) 945 (15.24) is greater than 5 mm
+151	       22	           203                   945                  	
+Precip difference from 22 (203) 945 (15.24) to 22 (203) 1000 (8.636) is greater than 5 mm
+151	       24	           205                  1600                 	
+Precip difference from 24 (205) 1600 (14.732) to 24 (205) 1615 (4.572) is greater than 5 mm
+151	       31	           212                  1100               	 
+Precip difference from 31 (212) 1100 (7.112) to 31 (212) 1115 (1.524) is greater than 5 mm
+
+The above precipitation data are considered correct and remain unchanged.
+
+
+August 2003
+Array		Day		   Julian		Time               	Error	
+150	       4	             216                  1030	                 
+Air temp difference from 4 (216) 1030 (28.625) to 4 (216) 1045 (24.085) is greater than 3.0 degrees C
+150	       4	             216                  1400                 
+	Air temp difference from 4 (216) 1400 (29.815) to 4 (216) 1415 (25.744) is greater than 3.0 degrees C
+150	       7	             219                  845	                  
+ Air temp difference from 7 (219) 845 (28.369) to 7 (219) 900 (23.893) is greater than 3.0 degrees C
+150	      12	           224                   2145	               
+ Air temp difference from 12 (224) 2145 (25.977) to 12 (224) 2200 (22.704) is greater than 3.0 degrees C
+150	      18	           230                  1345                 	
+Air temp difference from 18 (230) 1345 (30.761) to 18 (230) 1400 (26.822) is greater than 3.0 degrees C
+
+The above temperature data are considered correct and remain unchanged.
+
+
+151	       5	            217                  1130	                  
+Precip difference from 5 (217) 1130 (6.858) to 5 (217) 1145 (1.27) is greater than 5 mm
+151	       7	            219                   900                    	
+Precip difference from 7 (219) 900 (10.414) to 7 (219) 915 (2.032) is greater than 5 mm
+151	       8	           220                    230                    	
+Precip difference from 8 (220) 230 (5.842) to 8 (220) 245 (13.716) is greater than 5 mm
+151	       8	           220                    245                  	  
+Precip difference from 8 (220) 245 (13.716) to 8 (220) 300 (2.032) is greater than 5 mm
+151	       12	         224                   2145	                   
+Precip difference from 12 (224) 2145 (1.524) to 12 (224) 2200 (21.082) is greater than 5 mm
+151	       12	         224                   2200                	   
+Precip difference from 12 (224) 2200 (21.082) to 12 (224) 2215 (9.398) is greater than 5 mm
+151	       12	         224                   2215                   
+Precip difference from 12 (224) 2215 (9.398) to 12 (224) 2230 (.254) is greater than 5 mm
+151	       21	        233                    845                  	   
+Precip difference from 21 (233) 845 (13.208) to 21 (233) 900 (5.08) is greater than 5 mm
+
+The above precipitation data are considered correct and remain unchanged.
+
+
+September 2003
+Array		Day		   Julian		Time               	Error	
+150	       14	          257                 1315                 	  
+Air temp difference from 14 (257) 1315 (29.214) to 14 (257) 1330 (25.548) is greater than 3.0 degrees C
+151	        4	           247                  615            
+        	
+Precip difference from 4 (247) 615 (9.398) to 4 (247) 630 (2.54) is greater than 5 mm
+151	        5	           248                   415                  	  
+Precip difference from 5 (248) 415 (.254) to 5 (248) 430 (7.366) is greater than 5 mm
+151	        5	           248                   445                  	  
+recip difference from 5 (248) 445 (7.62) to 5 (248) 500 (2.286) is greater than 5 mm
+151	       25	          268                   1700                	  
+Precip difference from 25 (268) 1700 (.762) to 25 (268) 1715 (8.636) is greater than 5 mm
+
+The above temperature and precipitation data are considered correct and remain unchanged.
+
+
+October 2003
+Array		Day		   Julian		Time               	Error	
+151	        8	            281                 1630                  	
+Precip difference from 8 (281) 1630 (8.128) to 8 (281) 1645 (.254) is greater than 5 mm
+151	        28	          301                  900                  
+Precip difference from 28 (301) 900 (2.286) to 28 (301) 915 (7.874) is greater than 5 mm
+151	        28	          301                  915                   
+Precip difference from 28 (301) 915 (7.874) to 28 (301) 930 (1.016) is greater than 5 mm
+
+The above precipitation data are considered correct and remain unchanged.
+
+
+102	         5	           278                 1900                   	
+Wind speed is less than 0.5 m/s from 5 (278) 1900 to 6 (279) 800
+102	         6	           279                 2000                   	
+Wind speed is less than 0.5 m/s from 6 (279) 2000 to 7 (280) 800
+102	        23	          296                 2200	                  
+ Wind speed is less than 0.5 m/s from 23 (296) 2200 to 24 (297) 1000
+
+The above wind speed data are considered correct and remain unchanged. 
+
+
+November 2003 
+The following rainfall data are correct and were not deleted.
+15 minute Precip on 11/5/03 @ 01:15
+15 minute Precip on 11/5/03 @ 01:30
+15 minute Precip on 11/5/03 @ 01:45
+15 minute Precip on 11/5/03 @ 02:00
+15 minute Precip on 11/5/03 @ 02:15
+15 minute Precip on 11/5/03 @ 02:30
+15 minute Precip on 11/18/03 @ 23:00
+15 minute Precip on 11/18/03 @ 23:30
+15 minute Precip on 11/18/03 @ 23:45
+15 minute Precip on 11/19/03 @ 02:45
+15 minute Precip on 11/24/03 @ 09:15
+15 minute Precip on 11/24/03 @ 09:30
+
+
+December 2003
+There were no anomalous data recorded.
+
+
+12) Deleted Data
+
+January 2003
+Array	Day	Julian	Time               	Error	
+101	1	1	100	 Technician changed 101 Array data at 1 (1) 100 to 31 (31) 2400
+150	1	1	15	 Technician changed 150 Array data at 1 (1) 15 to 31 (31) 2400
+241	1	1	2400	 Technician changed 241 Array data at 1 (1) 2400 to 31 (31) 2400
+243	1	1	2400	 Technician changed 243 Array data at 1 (1) 2400 to 31 (31) 2400
+244	1	1	2400	 Technician changed 244 Array data at 1 (1) 2400 to 31 (31) 2400
+
+The above errors are associated with a malfunctioning temperature and relative humidity sensor. 
+Temperature and relative humidity data for the above arrays and time periods were considered incorrect and 
+were deleted (All temperature and relative humidity data for entire month of January have been deleted).
+
+
+February 2003
+Array	Day	Julian	Time		Error	
+101	1	32      100		Technician changed 101 Array data at 1 (32) 100 to 28 (59) 2400
+150	1	32      15		Technician changed 150 Array data at 1 (32) 15 to 28 (59) 2400
+241	1	32      2400		Technician changed 241 Array data at 1 (32) 2400 to 28 (59) 2400
+243	1	32      2400		Technician changed 243 Array data at 1 (32) 2400 to 28 (59) 2400
+244	1       32      2400		Technician changed 244 Array data at 1 (32) 2400 to 28 (59) 2400
+
+The errors above are associated with a malfunctioning temperature and relative humidity sensor. 
+Temperature and relative humidity data for the above arrays and time periods were considered incorrect and 
+were deleted (All temperature and relative humidity data for entire month of February have been deleted).
+
+
+March 2003
+Array	Day	Julian	Time		Error	
+101	1	60	100		Technician changed 101 Array data from 1 (60) 100 to 10 (69) 900
+150	1	60	15		Technician changed 150 Array data from 1 (60) 15 to 10 (69) 830
+241	1	60	2400		Technician changed 241 Array from 1 (60) 2400 to 10 (69) 2400
+243	1	60	2400		Technician changed 243 Array data from 1 (60) 2400 to 10 (69) 2400
+244	1	60	2400		Technician changed 244 Array data from 1 (60) 2400 to 10 (69) 2400
+
+The above errors are associated with malfunctioning temperature and relative humidity sensor. Temperature 
+and relative humidity data for the above arrays and time periods were considered incorrect and deleted.
+
+
+150	21	80	2345		Technician changed 150 Array data from 21 (80) 2345 to 21 (80) 2345
+
+Array was deleted due to all sensors recording values out of range. This event coincides with the beginning 
+of the powering-down event that occurred between 2345 on March 21st and 530 on March 22nd.
+	
+
+101	22	81	600		Technician changed 101 Array data from 22 (81) 600 to 22 (81) 600
+102	22	81	600		Technician changed 102 Array from 22 (81) 600 to 22 (81) 600
+
+Hourly arrays were deleted due to missing data during the beginning of the hour. This event coincided with 
+the end of the powering-down event.
+
+241	 22	81	2400		Technician changed 241 Array from 22 (81) 2400 to 22 (81) 2400
+242	22	81	2400		Technician changed 242 Array from 22 (81) 2400 to 22 (81) 2400
+243	22	81	2400		Technician changed 243 Array data from 22 (81) 2400 to 22 (81) 2400
+244	22	81	2400		Technician changed 244 Array data from 22 (81) 2400 to 22 (81) 2400
+
+Twenty-four hour data were deleted for March 22, 2003 due to a powering down event by the CR10X 
+datalogger for 6 hours in the morning.
+
+
+April 2003 through December 2003
+There were no data deleted during this time period.
+
+
+13) Missing Data
+
+January 2003 and February 2003
+There were no missing data within these months
+
+March 2003
+Array	Day	Julian	Time	Error	
+150	21	80	2345	Missing 150 Array data (15 minute data) from 21 (80) 2345 to 22 (81) 515
+101	21	80	2400	Missing 101 Array data (Hourly Averages) from 21 (80) 2400 to 22 (81) 600
+102	21	80	2400	Missing 102 Array data (Hourly Average Wind Parameters) from 21 (80) 2400 
+to 22 (81) 500
+
+241	21	80	2400	Missing 241 Array (Daily Averages)
+242	21	80	2400	Missing 242 Array (Daily Average Wind Parameters)
+243	21	80	2400	Missing 243 Array (Daily Max/Time Values)
+244	21	80	2400	Missing 244 Array (Daily Min/Time Values)
+
+The CR10X datalogger did not collect data for the above missing data period due to a powering-down event.
+
+April 2003 through December 2003
+There were no missing data during these months.
+
+
+14) Other Remarks/notes
+
+A new temperature/RH sensor was installed on July 25, 2002 at 0745. All temperature/RH data collected 
+from the installation date through March 10, 2003 at 0830 were incorrect due to a faulty sensor. After 
+discussions with Bob Scarborough and Campbell Scientific, as well as rewiring the sensor, it was finally 
+decided that the new sensor was faulty. The temperature/RH sensor was repaired in February of 2003, 
+installed on March 10, 2003 at 0845 and is now functioning correctly.
+
+Tropical Storm Bill passed over the Apalachicola Bay area on June 30, 2003
+
+The wires to two of the sensors had been chewed when the Weather Station was serviced on November 3rd. 
+The actual wiring appeared to have not been damaged, so the places that had been stripped were repaired 
+with electrical tape. The data file appears to have not been corrupted by this event. 
+
+When the new CR10X program was loaded on the CR10X, it was discovered that the time stamp was a year 
+behind. The year was adjusted on November 17th, 2003. Two raw files have incorrect year values: 
+data069.dat and data070.dat. The year was corrected after the file was run through the Eqwinformat.xls 
+macro and before entry into EQWin.
+
+LiCor:  
+Prior to the installation of the new NERR_4.CSI program, all values less 
+than 0 were altered in the raw data to read 0. These values may indicate an incorrect 
+multiplier, calibration problems, or a sensor malfunction. Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity:
+Prior to the installation of the new NERR_4.CSI program, all values over 
+100% were altered in the raw data to read 100%.  These values may indicate super 
+saturated air, calibration problems, or a sensor malfunction.  Because these values 
+are changed in the raw data, we cannot confirm that they are all valid data points. 
+
+
+Rain Events: All measurements in mm.
+
+144	1/2/2003	2	01.5
+144	1/11/2003	11	02.8
+144	1/13/2003	13	00.5
+144	1/14/2003	14	00.8
+144	1/23/2003	23	00.3
+144	2/4/2003	35	04.8
+144	2/5/2003	36	04.3
+144	2/7/2003	38	35.1
+144	2/10/2003	41	02.3
+144	2/11/2003	42	00.8
+144	2/17/2003	48	42.4
+144	2/23/2003	54	22.4
+144	2/25/2003	56	00.3
+144	2/27/2003	58	08.9
+144	2/28/2003	59	43.2
+144	3/1/2003	60	00.3
+144	3/2/2003	61	96.5
+144	3/4/2003	63	17.8
+144	3/5/2003	64	03.8
+144	3/6/2003	65	00.3
+144	3/7/2003	66	03.8
+144	3/8/2003	67	21.1
+144	3/10/2003	69	50.8
+144	3/11/2003	70	00.3
+144	3/17/2003	76	06.9
+144	3/18/2003	77	09.1
+144	3/19/2003	78	00.5
+144	3/30/2003	89	01.3
+144	3/31/2003	90	11.7
+144	4/5/2003	95	00.3
+144	4/6/2003	96	00.3
+144	4/9/2003	99	31.5
+144	4/10/2003	100	04.1
+144	4/18/2003	108	00.3
+144	4/26/2003	116	11.9
+144	5/20/2003	140	03.6
+144	5/21/2003	141	05.8
+144	5/22/2003	142	05.6
+144	5/23/2003	143	45.2
+144	6/3/2003	154	00.5
+144	6/4/2003	155	10.4
+144	6/5/2003	156	00.5
+144	6/6/2003	157	00.8
+144	6/7/2003	158	27.4
+144	6/8/2003	159	92.5
+144	6/14/2003	165	03.8
+144	6/18/2003	169	05.8
+144	6/19/2003	170	16.8
+144	6/20/2003	171	03.0
+144	6/21/2003	172	106.7
+144	6/22/2003	173	06.1
+144	6/23/2003	174	36.6
+144	6/24/2003	175	00.3
+144	6/25/2003	176	00.3
+144	6/27/2003	178	02.3
+144	6/29/2003	180	02.3
+144	6/30/2003	181	27.4
+144	7/1/2003	182	02.0
+144	7/2/2003	183	18.5
+144	7/3/2003	184	42.2
+144	7/4/2003	185	46.0
+144	7/5/2003	186	23.6
+144	7/7/2003	188	04.6
+144	7/12/2003	193	01.8
+144	7/13/2003	194	10.2
+144	7/16/2003	197	15.7
+144	7/17/2003	198	01.3
+144	7/18/2003	199	00.3
+144	7/20/2003	201	08.1
+144	7/21/2003	202	05.3
+144	7/23/2003	204	40.9
+144	7/24/2003	205	06.1
+144	7/25/2003	206	20.3
+144	7/26/2003	207	14.5
+144	7/28/2003	209	00.3
+144	7/30/2003	211	02.8
+144	7/31/2003	212	01.8
+144	8/1/2003	213	09.1
+144	8/2/2003	214	00.8
+144	8/3/2003	215	00.8
+144	8/5/2003	217	25.9
+144	8/6/2003	218	08.1
+144	8/7/2003	219	02.8
+144	8/8/2003	220	24.6
+144	8/9/2003	221	24.9
+144	8/10/2003	222	00.5
+144	8/13/2003	225	34.8
+144	8/14/2003	226	00.3
+144	8/16/2003	228	00.8
+144	8/17/2003	229	04.1
+144	8/19/2003	231	07.4
+144	8/20/2003	232	00.8
+144	8/22/2003	234	30.5
+144	8/23/2003	235	09.7
+144	8/24/2003	236	06.6
+144	8/28/2003	240	02.5
+144	8/29/2003	241	00.8
+144	9/1/2003	244	06.1
+144	9/4/2003	247	14.0
+144	9/5/2003	248	16.5
+144	9/6/2003	249	37.3
+144	9/7/2003	250	08.6
+144	9/8/2003	251	01.3
+144	9/15/2003	258	01.5
+144	9/23/2003	266	23.4
+144	9/24/2003	267	00.5
+144	9/26/2003	269	16.5
+144	9/28/2003	271	00.8
+144	10/2/2003	275	08.4
+144	10/9/2003	282	21.3
+144	10/11/2003	284	14.5
+144	10/12/2003	285	73.2
+144	10/15/2003	288	00.3
+144	10/18/2003	291	00.3
+144	10/26/2003	299	00.3
+144	10/27/2003	300	03.8
+144	10/28/2003	301	03.0
+144	10/29/2003	302	39.9
+144	10/31/2003	304	00.3
+144	11/4/2003	308	01.0
+144	11/5/2003	309	00.3
+144	11/6/2003	310	61.0
+144	11/14/2003	318	00.3
+144	11/18/2003	322	00.3
+144	11/19/2003	323	32.5
+144	11/20/2003	324	11.9
+144	11/23/2003	327	00.3
+144	11/24/2003	328	00.3
+144	11/25/2003	329	19.8
+144	11/29/2003	333	16.3
+144	12/5/2003	339	10.7
+144	12/11/2003	345	06.6
+144	12/14/2003	348	11.9
+144	12/15/2003	349	08.1
+144	12/17/2003	351	00.3
+144	12/18/2003	352	11.2
+144	12/24/2003	358	10.7
+144	12/25/2003	359	03.0
+144	12/31/2003	365	01.5

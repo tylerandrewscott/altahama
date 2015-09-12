@@ -1,0 +1,694 @@
+North Carolina (NOC) National Estuarine Research Reserve 
+Research Creek Meteorological Metadata Report
+January - December 2003
+Latest Update: November 2, 2004
+
+I.  Data Set and Research Descriptors
+
+1.  Principal investigator(s) and contact persons
+		
+		Contact Persons:
+		Research Coordinator
+		
+		Paula G. May, Research Biologist, mayp@uncw.edu
+
+		Address:
+		5600 Marvin K. Moss Lane
+		Wilmington, NC  28409
+		(910) 350-2021
+		(910) 395-3942 fax
+		www.ncnerr.org
+
+2.  Entry verification
+
+The 15-minute data, one-hour average, maximum and minimum data, and 24-hour 
+average, totals, maximum and minimum data were downloaded from each instrument 
+on the weather station to a Campbell Scientific CR10X datalogger.  The CDMO 
+datalogger program was loaded into the CR10X and controls the sensors and data 
+collection schedule.  The CR10X then interfaced with the PC208W software 
+supplied by Campbell Scientific.  This software was located on a computer at the 
+NOC NERR lab, to which the data were uploaded every hour via telemetry.  The 
+data were saved in two separate areas on the computer and the Real Time Data 
+Display software (provided by Campbell), displayed the near real time data in 
+graphs and charts.  
+
+The data were saved as monthly raw data files (comma-delimited format) on 
+another computer and backed up on zip discs.  Data files were opened in 
+Microsoft Excel for pre-processing with the EQWin format macro that was 
+developed by the CDMO to reformat the header columns, insert station codes, 
+insert a date column (mm/dd/yyyy), correct the time column format and reformat 
+the data to the appropriate number of decimal places.  The pre-processed file is 
+then ready to be copied into the EQWin weather.eqi file where the data were 
+QA/QC checked and archived in a database.  EQWin queries, reports and graphs are 
+used to discover data set outliers (values that fall outside the range that the 
+instrument is designed to measure) and large changes in the data.  EQWin is also 
+used to generate statistics, view graphs, create customized queries and reports 
+of the data, cross query the water, weather, and nutrient data and finally 
+export the data to the CDMO.  Any anomalous data were investigated and noted 
+below in the Anomalous/Suspect Data Section.  Any data corrections that were 
+performed are noted in the Deleted Data Section below.  The most common reported 
+errors/anomalies in 2003 were precipitation differences greater than 5mm in 15 
+minutes.  All errors of these types were double checked with other data that 
+could support such "anomalous" weather changes and were noted in the sections 
+that follow.
+
+Raw data files and EQWin databases were saved on multiple computers, archived on 
+Zip discs and/or compact discs, and backed-up on the CDMO server.  Paula May was 
+responsible for error checking and compiling 2003 weather data.
+
+The Centralized Data Management Office converted all SWMP weather data collected 
+with CR10X program versions prior to version 4.0 which was distributed in October 
+2003.  This was necessary in order to merge the old data format (12 array output) 
+with the new data format found in version 4.0(3 array output).  The new format 
+produces averages, maximums and minimums every fifteen minutes (array 15), every 
+hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the 
+daily 241, 242, 243, 244, 245 and 246 data were converted to the new 144 array.  
+With the new format, the use of 55555's to code for deleted data and 11111's to 
+code for missing data has been abandoned.  Hence, all 55555's or 11111's contained 
+in the SWMP weather data collected prior to Version 4.0 of the CR10X program were 
+removed and left blank.  
+
+3.  Research Objectives
+
+The principal objectives are to establish long-term monitoring of the weather in 
+the vicinity of Masonboro Island, to obtain better data on storms and to be able 
+to correlate the weather, water quality, chlorophyll and nutrient data.  In 
+addition, the weather data collected will be used in support of other ongoing 
+projects within the Reserve and nearby area.
+
+4.  Research methods 
+
+The Campbell Scientific weather station samples every 5 seconds continuously 
+throughout the year.  These data are used by the CR10X to produce 15 minute 
+averages, maximum and minimums (array 15), hourly averages, maximums and 
+minimums (array 60) and daily averages, maximums and minimums (array 144) of air 
+temperature, relative humidity, barometric pressure, rainfall, wind speed, and 
+wind direction.  Data are stored in a storage module connected to the CR10X and 
+also downloaded hourly to a PC located in the NOCNERR lab via telemetry using 
+the PC208W software package.  Data are periodically compared to values recorded 
+by other local weather stations to verify accuracy.  Data are also quality 
+checked using EQWin.  The reports, graphs and queries of meteorological data are 
+printed and reviewed.  Anomalous data and errors are further investigated and 
+data are corrected, deleted (if necessary) or left unchanged and noted in the 
+metadata report. 
+ 	
+  The weather station and sensors are inspected monthly for cleaning and/or 
+repair.  Sensors are replaced and/or calibrated according to the manufacturer's 
+guidelines (annually or biannually).  
+
+5.  Site location and character 
+
+The components of North Carolina's National Estuarine Research Reserve (from 
+north to south) are: the Northern Sites component, Rachel Carson, Masonboro 
+Island, Zeke's Island, and the Southern Sites component.  They are located along 
+the southeastern coast of the United States in the Atlantic Ocean. Currently, 
+only data from Masonboro Island and Zeke's Island components are transferred to 
+the CDMO.  The four water quality sites and meteorological station are: 
+
+a) Research Creek, Masonboro Island
+The first Masonboro Island site (formerly called Masonboro Island (MS)) is 0.72 
+km north east from the mouth of Whiskey Creek, and east of the Intracoastal 
+Waterway (ICW), in a small navigable channel called Research Creek at 
+34°09'21.7" latitude and 77° 50'59.9" longitude. The site has a salinity range 
+from 18-35 ppt and a tidal range that averages 1.7 meters.  The creek bottom is 
+characterized by sand and detritus based sediment with areas of soft mud with a 
+depth ranging from 0.34 to 2.45 m.  The sole source of freshwater is rain.  
+Spartina spp. marsh and dunes surround the site, which is relatively unimpacted 
+by manmade perturbations and it is not accessible to road traffic.  The site 
+does experience minimal boat traffic.  
+
+b) Loosin Creek, Masonboro Island
+The second Masonboro Island site (added in 2002) is 1.2 km east of the ICW, and 
+2.5 km south west of Masonboro Inlet, in a small navigable channel called Loosin 
+Creek at 34° 10'20.0" latitude and 77° 49'58.1" longitude. The site has a 
+salinity range from 18-35 ppt and a tidal range that averages 1.7 meters.  The 
+creek bottom is characterized by sand and detritus based sediment with areas of 
+soft mud with a depth ranging from 0.1 to 2.5 m.  The sole source of freshwater 
+is rain.  Spartina spp. marsh and dunes surround the site, which is relatively 
+unimpacted by manmade perturbations and it is not accessible to road traffic.  
+The site does experience minimal boat traffic.    
+
+c) East Cribbings, Zeke's Island
+The first Zeke's Island site (formerly called Zeke's Island (ZI)) is located 1.8 
+km south of Federal Point boat launch in a tidal basin estuary at 33° 56'23.5" 
+latitude and 77° 56'28.1" longitude. This site receives minimal freshwater input 
+from leakage of the Cape Fear River through the 5.6 km rock jetty that separates 
+the two bodies of water.  The site has a salinity range from 15-35 ppt and a 
+tidal range that averages 2 meters.  Depth varies, but typically it can be found 
+to range from 0.11 to 2.30 meters.  Bottom type substratum consists of large 
+rocks (the cribbings) with sand and detritus based sediment.  There are no 
+pollutants from land.  Marsh and dunes surround the site; not accessible to road 
+traffic and minimal boat traffic.
+
+d) Zeke's Basin, Zeke's Island
+The second Zeke's Island site (added in 2002) is located 0.8 km south east of 
+the Federal Point boat launch in a tidal basin estuary at 33° 57'17.0" latitude 
+and 77° 56'6.0" longitude. This site receives minimal freshwater input from 
+leakage of the Cape Fear River through the 5.6 km rock jetty that separates the 
+two bodies of water.  The site has a salinity range from 11-35 ppt and a tidal 
+range that averages 2 meters.  Depth varies, but typically it can be found to 
+range from 0.1 to 2 meters. Bottom type substratum consists of sand and detritus 
+based sediment with a layer of soft sulfuric mud.  There are no pollutants from 
+land.  Marsh and dunes surround the site; not accessible to road traffic and 
+minimal boat traffic.
+
+e) Research Creek Meteorological Station
+The meteorological site is located on Masonboro Island, 2.09 km from the NOC 
+NERR lab, and approximately 76.2 m from the Masonboro Island water quality 
+deployment site.  The weather station is located on an inactive dredge spoil 
+island next to Research Creek east of the Intracoastal Waterway.  It is directly 
+across the Intracoastal Waterway from Whiskey Creek, at 34° 9.328'N, 77° 
+51.054'W.  The station sits at an elevation of approximately 4.88 m above sea 
+level, slightly offset from the highest point of the spoil, which has a maximum 
+elevation of approximately 5.8 m.  The site has scrub surrounding the periphery, 
+and grassy cover in the central areas. The weather station consists of a 3-meter 
+aluminum tower that holds the wind sensor (wind speed and direction) at a height 
+of 3.68 m and the Li-COR sensor at a height of 3.66 m.  The temperature and 
+relative humidity sensor is mounted on the tower at 2.39 m and the barometric 
+pressure, which is inside of the CR10X housing, is mounted at a height of 1.75 
+m.  The rain gauge is located on a separate platform 7.62 m east south east of 
+the tower and is mounted at a height of 1.79 m.  The sensors were wired to the 
+CR10X (Campbell datalogger) according to the protocol in the Meteorological 
+Monitoring SOP. 
+
+6.  Data collection period
+
+Collection of meteorological data began on 15 March 1997 and continues through
+the present.  Instruments were deployed prior to this date; however, data were 
+for initial testing and verification of functions, and have since been discarded.
+
+7.  Distribution
+
+According to the Ocean and Coastal Resource Management (OCRM) Data Dissemination 
+Policy for the NERRS System Wide Monitoring Program (SWMP), 
+
+National Oceanic and Atmospheric Administration (NOAA)/Estuarine Reserves 
+Division (ERD) retains the right to analyze, synthesize and publish summaries of 
+the NERRS SWMP data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publication in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award from 
+the ERD, OCRM, National Ocean Service (NOS), NOAA.  The data enclosed within the 
+package/transmission are only as good as the quality assurance/quality control 
+procedures outlined by the enclosed metadata reporting statement.  The user 
+bears all responsibility for its subsequent use/misuse in any further analyses 
+or comparisons.  The Federal government does not assume liability to the 
+Recipient of third persons, nor will the Federal government reimburse or 
+indemnify the Recipient for its liability due to any losses resulting in any way 
+from the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at 
+the individual NERR site (see section I. 1. Principal investigators and contact 
+persons), from the Data Manager at the Centralized Data Management Office (see 
+personnel directory under the general information link on the CDMO home page) 
+and online at the CDMO home page http://cdmo.baruch.sc.edu/.  Data are available 
+in text format and Access data tables.
+
+8.  Associated researchers and projects
+
+Meteorological data will be used to augment other research components of the 
+System Wide Monitoring Program (SWMP) that currently include water quality, 
+chlorophyll and nutrient monitoring.  The principal objective of the water 
+quality monitoring is to record long-term water quality data in order to observe 
+and document any physical and chemical changes or trends in water quality over 
+time.  The objective of the chlorophyll and nutrient monitoring study is to 
+ascertain the annual and tidal fluctuations in nutrient and chlorophyll a levels 
+surrounding the four water quality sites.    
+
+Additional projects are ongoing and continually changing.  Check with the 
+Research Coordinator or other contact person for an updated list of research 
+(see section I.1.).
+
+II.  Physical Structure Descriptors
+
+9.  Sensor specifications 
+
+Ecoharmony tipping bucket rain gauge
+Model # TB4.  
+Range: 0 to 600 mm/hr
+Accuracy: 0.01 inches per bucket tip; +/- 3% for intensities from 25-600 mm/hr
+Date of last calibration:  10/30/02
+
+Campbell Scientific Temperature and Relative Humidity 
+Model # HMP35C (deployed from 01/01/03 to 11/3/03)
+Range: -35 to +50°C; 0 to 100%
+Accuracy: +/- 0.4°C; @ 20°C +/- 2% RH (0 - 90% RH), +/- 3% RH (90 - 100% RH)
+Date of last calibration: 10/05/01 (installed 10/01/02)
+
+Campbell Scientific Temperature and Relative Humidity 
+Model # HMP45ASP (deployed from 11/03/03 to 12/31/03)
+Range of -40 to 60°C; 0 to 100% non-condensing
+Accuracy is +/- 0.2°C @ 20°C;  @ 20°C +/- 2% RH (0 - 90% RH), +/- 3% RH (90 - 
+100% RH)
+Date of last calibration: 03/06/03 (installed new on 11/03/03)
+
+LiCor Pyranometer Quantum Sensor.  
+Model # LI190SZ
+Range: 1% up to 10,000 µmoles s-1m-2, 400-700 nm
+Accuracy: 5 µA per 1000 µmoles s-1m-2, with a stability of <+/- 2% change per 
+year
+Date of last calibration: 11/08/01 (installed on 11/03/03)
+
+Vaisala Ultrasonic Wind Sensor
+Model # 425 
+Range: 0 to 65 m/s (0 to 144 mph, 0 to 125 knots); 0 to 360°
+Accuracy: ±0.135 m/s (±0.3 mph, ±0.26 knots) or 3% of reading, whichever is 
+greater; 
+±2°
+Date of last calibration: N/A (no calibration needed) installed new on 07/15/02
+
+Vaisala Barometric Pressure 
+Model # PTB101B 
+Range: 600 to 1060 mb 
+Accuracy: +/- 0.45 mb
+Date of last calibration: 10/25/01 (installed on 11/03/03)
+
+Storage Module
+Model#: SM192
+Storage capacity: 192,896 bytes
+Operating range: Temperature: -35ºC to +65ºC
+Processor: Hitachi 6303
+Baud rates: 300, 1200, 9600, 76800
+Memory type: user selectable for either ring style (default) or fill and drop.
+Power requirements: 5 +/-0.4 VDC @ 100mA
+
+Storage Module
+Model#: SM4M
+Storage capacity: 2 million low-resolution data values
+Program storage: stores up to 8 programs with a total capacity of 128 KB
+Processor: Hitachi H8S
+Operating System: 64 KB, flash memory based, user downloadable
+Operating range: Temperature: -35ºC to +65ºC
+Baud rates: 9600, 76800
+Memory type: user selectable for either ring style (default) or fill and drop.
+Power requirements: 5 +/-0.3 VDC @ 100mA
+
+Campbell Scientific CR10X Wiring Panel has 128K of flash memory (EEPROM), in 
+which it stores the operating system and it's program (that it uses to run the 
+weather station).  Additionally, there are 128K of SRAM, which it uses to run 
+the program and store its measurements and for final data storage.  
+
+10.  Coded variable definitions
+
+NOC - North Carolina			rel hum - relative humidity
+RC - Research Creek			°C - degrees Celsius
+temp - temperature			mb - millibars
+m/s - meters per second			V - volt
+par - photosynthetic active radiation	ppt - parts per thousand
+µA - microamps				µmoles - micromoles
+
+Sampling station:	Sampling site code:	Station code:
+Research Creek		RC			nocrcmet
+
+11.  Anomalous/Suspect Data
+
+15 minute sample rainfall amount differences of over 5 mm in 15 minutes can 
+occur during storms and indicate intense precipitation bursts during 
+thunderstorms or frontal passages.  
+
+The following precipitation data appear to be correct:
+
+STNCODE	SMPLDATE	USRCODES	SMPLTIME	CLASS	TotPrcp
+nocrcmet	02/07/2003  38		02:15		15	06.3
+nocrcmet	03/11/2003	70		14:15		15	05.8
+nocrcmet	03/20/2003	79		13:15		15	07.4
+nocrcmet	03/20/2003	79		13:30		15	06.3
+nocrcmet	04/07/2003	97		15:30		15	07.4
+nocrcmet	04/09/2003	99		06:00		15	05.6
+nocrcmet	04/10/2003	100		03:00		15	06.6
+nocrcmet	04/25/2003	115		14:00		15	11.2
+nocrcmet	04/25/2003	115		15:15		15	10.4
+nocrcmet	04/25/2003	115		15:30		15	05.3
+nocrcmet	05/03/2003	123		23:00		15	11.2
+nocrcmet	05/23/2003	143		05:45		15	05.6
+nocrcmet	05/23/2003	143		06:00		15	05.1
+nocrcmet	05/23/2003	143		06:15		15	07.4
+nocrcmet	05/23/2003	143		07:45		15	07.9
+nocrcmet	05/27/2003	147		17:00		15	06.9
+nocrcmet	06/15/2003	166		07:30		15	05.8
+nocrcmet	07/09/2003	190		22:45		15	06.9
+nocrcmet	07/23/2003	204		18:15		15	09.7
+nocrcmet	08/03/2003	215		12:00		15	09.9
+nocrcmet	08/04/2003	216		10:00		15	12.4
+nocrcmet	08/07/2003	219		05:45		15	06.6
+nocrcmet	08/08/2003	220		05:45		15	11.9
+nocrcmet	08/10/2003	222		21:45		15	05.3
+nocrcmet	08/23/2003	235		16:45		15	09.9
+nocrcmet	08/23/2003	235		17:00		15	05.3
+nocrcmet	09/22/2003	265		16:15		15	05.1
+nocrcmet	09/22/2003	265		17:30		15	06.6
+nocrcmet	10/08/2003	281		03:15		15	06.6
+nocrcmet	10/08/2003	281		03:30		15	06.9
+nocrcmet	10/08/2003	281		03:45		15	07.9
+nocrcmet	10/08/2003	281		04:30		15	06.9
+nocrcmet	10/08/2003	281		05:30		15	09.7
+nocrcmet	10/08/2003	281		15:30		15	09.4
+nocrcmet	10/08/2003	281		19:15		15	05.6
+nocrcmet	10/29/2003	302		02:30		15	09.1
+nocrcmet	10/29/2003	302		02:45		15	07.9
+nocrcmet	12/10/2003	344		17:30		15	05.6
+nocrcmet	12/10/2003	344		21:30		15	05.3
+
+Beginning on 24 September, the value of -99999 was recorded by the CR10X for 
+wind speed periodically throughout the data set for unknown reasons.  The values 
+were not removed, but should be noted as erroneous.
+
+After the Licor sensor was replaced on 3 November, slightly negative values for 
+PAR data were recorded for numerous periods of time when no light was present.  
+These data were corrected by changing the values to zero.
+
+
+12.  Deleted data:
+
+Inaccurate precipitation data were collected due to testing and/or cleaning of 
+the rain gauge.  Precipitation data for the following dates and times were 
+removed:
+Array		Date		Time
+15		02/03/03	14:30
+60		02/03/03	15:00
+144		02/03/03	00:00
+15		03/19/03	12:45
+60		03/19/03	13:00
+144		03/19/03	00:00
+15		05/22/03	15:30
+60		05/22/03	16:00
+144		05/22/03	00:00
+15		06/13/03	16:30
+60		06/13/03	17:00
+144		06/13/03	00:00
+
+When the CR10X is powered down for maintenance or other causes or the program 
+reloaded, all temporary 5 second data for that calendar date are lost at the 
+moment of power down.  When the CR10X is powered again the 5 second data from 
+that point on for that date are again stored in the daily temporary file for 
+that calendar date.  Consequently, the daily averages, maximums and minimums for 
+all parameters, which are calculated for the calendar date using the 5 second 
+data file, will be incorrect for the calendar date because only a portion of the 
+day's data will be used for calculation.  The same applies to the hourly and 15 
+minute averages, maximums and minimums for the time period immediately following 
+a power down event.  Current protocol is to delete the daily data for these 
+dates as well as any hourly and 15 minute averages so affected.
+
+All data for the following dates and times were deleted due to power downs 
+and/or program reloads:
+Array		Date		Time 
+144		06/13/03	00:00
+60		11/03/03	17:00
+144		11/04/03	00:00
+15		11/05/03	15:15-15:30
+60		11/05/03	16:00
+144		11/06/03	00:00
+15		11/12/03	15:15
+60		11/12/03	16:00
+144		11/13/04	00:00
+15		11/13/03	16:15
+60		11/13/03	17:00
+144		11/14/03	00:00
+
+All data for the following dates and times were deleted due to failure of the 
+external battery to hold a charge at night and during the early hours of morning 
+when the battery was not charged by the solar panel:
+Array		Date		Time 
+60		09/07/03	08:00
+144		09/07/03	00:00
+60		09/08/03	07:00
+144		09/08/03	00:00
+144		09/09/03	00:00
+
+Wind speed and wind direction data were deleted for the following dates and 
+times due to erroneous values recorded for unknown reasons:
+Array		Date		Time 
+15		07/22/03	09:15
+15		07/22/03	16:15
+15		10/29/03	05:15
+
+An erroneous value for wind speed was deleted for array 60 at 06:00 on 10/29/03. 
+
+All wind data were deleted from 16:45 on 11/03/03 through 16:00 on 11/13/03 due 
+to errors in the CR10X program causing erroneous values to be recorded. 
+
+An erroneous value of 447 was recorded periodically throughout the data set from 
+April through December for wind speeds, wind speed maximums, and wind speed 
+minimums for unknown reasons.  These values were deleted from the data set.
+
+13.  Missing data
+
+Data are missing due to equipment or associated specific probes not being 
+deployed, equipment failure, time of maintenance or calibration of equipment, or 
+repair/replacement of a sampling station platform.  For more details on deleted 
+data, see the Deleted Data Section (12).  If additional information on missing 
+data is needed, contact the Research Coordinator at the reserve submitting the 
+data.
+
+All data for the following dates and times are missing due to power downs and/or 
+program reloads:
+Array		Date		Time 
+15		06/13/03	15:15-16:00
+60		06/13/03	16:00
+15		11/03/03	11:15-16:30
+60		11/03/03	12:00-16:00
+
+All data for the following dates and times are missing due to failure of the 
+external battery to hold a charge at night and during the early hours of morning 
+when the battery was not charged by the solar panel:
+Array		Date				Time
+15		09/06/03-09/07/03		22:45-07:30
+60		09/06/03-09/07/03		23:00-07:00
+144		09/06/03			00:00
+15		09/08/03			01:30-06:45
+60		09/08/03			02:00-06:00
+15		09/09/03			06:00-07:00
+60		09/09/03			06:00-07:00
+
+
+14. Other remarks/notes
+
+Hurricane Isabel passed over the area on 18 September 2003.
+
+LiCor:  
+Prior to the installation of the new NERR_4.CSI program, all values less 
+than 0 were altered in the raw data to read 0. These values may indicate an incorrect 
+multiplier, calibration problems, or a sensor malfunction. Because these values are 
+changed in the raw data, we cannot confirm that they are all valid data points.
+
+Relative Humidity:
+Prior to the installation of the new NERR_4.CSI program, all values over 
+100% were altered in the raw data to read 100%.  These values may indicate super 
+saturated air, calibration problems, or a sensor malfunction.  Because these values 
+are changed in the raw data, we cannot confirm that they are all valid data points. 
+
+Rain Events: 
+
+January
+Date		Daily Precipitation Totals (mm)
+01/01/2003	23.9
+01/16/2003	0.5
+01/17/2003	0.5
+01/21/2003	3.3
+01/22/2003	0.8
+01/29/2003	0.5
+01/30/2003	3.8
+
+Monthly Total (mm)	33.3
+
+February
+Date		Daily Precipitation Totals (mm)
+02/01/2003	0.3
+02/04/2003	8.4
+02/06/2003	4.8
+02/07/2003	17.8
+02/10/2003	11.7
+02/16/2003	26.7
+02/17/2003	4.3
+02/21/2003	0.3
+02/22/2003	4.6
+02/26/2003	2.5
+02/27/2003	10.9
+
+Monthly Total (mm)	92.3
+
+March
+Date		Daily Precipitation Totals (mm)
+03/01/2003	2.0
+03/02/2003	5.8
+03/04/2003	0.3
+03/05/2003	0.8
+03/06/2003	5.1
+03/07/2003	14.5
+03/09/2003	0.5
+03/11/2003	15.0
+03/12/2003	0.3
+03/15/2003	12.7
+03/16/2003	0.8
+03/17/2003	6.1
+03/18/2003	0.5
+03/20/2003	51.6
+03/21/2003	1.5
+03/24/2003	0.5
+03/30/2003	7.6
+
+Monthly Total (mm)	125.6
+
+April
+Date		Daily Precipitation Totals (mm)
+04/06/2003	2.8
+04/07/2003	21.8
+04/08/2003	8.4
+04/09/2003	35.8
+04/10/2003	26.4
+04/11/2003	8.4
+04/17/2003	0.3
+04/25/2003	48.3
+04/26/2003	4.1
+04/30/2003	0.5
+
+Monthly Total (mm)	156.8
+
+May
+Date		Daily Precipitation Totals (mm)
+05/01/2003	1.8
+05/02/2003	1.5
+05/03/2003	16.3
+05/04/2003	2.5
+05/06/2003	1.3
+05/08/2003	4.1
+05/15/2003	4.1
+05/19/2003	2.8
+05/22/2003	8.1
+05/23/2003	70.6
+05/26/2003	0.3
+05/27/2003	15.5
+05/29/2003	2.0
+05/31/2003	14.0
+
+Monthly Total (mm)	144.9
+
+June
+Date		Daily Precipitation Totals (mm)
+06/03/2003	6.6
+06/04/2003	7.4
+06/07/2003	0.5
+06/08/2003	6.6
+06/14/2003	6.9
+06/15/2003	10.7
+06/16/2003	1.8
+06/18/2003	0.3
+06/19/2003	7.9
+06/20/2003	1.5
+
+Monthly Total (mm)	50.2
+
+July
+Date		Daily Precipitation Totals (mm)
+07/01/2003	0.8
+07/02/2003	8.1
+07/07/2003	0.3
+07/09/2003	13.7
+07/10/2003	1.0
+07/11/2003	5.3
+07/12/2003	13.5
+07/13/2003	0.3
+07/14/2003	19.1
+07/19/2003	6.9
+07/23/2003	17.0
+07/24/2003	1.3
+07/25/2003	7.4
+07/26/2003	0.3
+07/28/2003	0.3
+07/31/2003	4.1
+
+Monthly Total (mm)	99.4
+
+August
+Date		Daily Precipitation Totals (mm)
+08/02/2003	0.8
+08/03/2003	14.7
+08/04/2003	19.6
+08/05/2003	3.6
+08/06/2003	15.2
+08/07/2003	17.5
+08/08/2003	20.1
+08/09/2003	14.2
+08/10/2003	10.4
+08/11/2003	4.6
+08/18/2003	5.6
+08/23/2003	16.8
+
+Monthly Total (mm)	143.1
+
+September
+Date		Daily Precipitation Totals (mm)
+09/03/2003	2.0
+09/04/2003	9.4
+09/05/2003	2.0
+09/06/2003	5.3
+09/10/2003	25.9
+09/18/2003	49.5
+09/22/2003	23.1
+09/23/2003	2.5
+09/24/2003	0.3
+09/28/2003	0.5
+
+Monthly Total (mm)	120.5
+
+October
+Date		Daily Precipitation Totals (mm)
+10/02/2003	0.3
+10/07/2003	6.6
+10/08/2003	112.5
+10/09/2003	31.8
+10/10/2003	3.3
+10/11/2003	0.8
+10/14/2003	10.2
+10/18/2003	0.3
+10/21/2003	0.3
+10/25/2003	3.3
+10/26/2003	1.0
+10/27/2003	7.1
+10/28/2003	42.9
+10/29/2003	37.1
+10/30/2003	0.3
+
+Monthly Total (mm)	257.8
+
+November
+Date		Daily Precipitation Totals (mm)
+11/05/2003	0.3
+11/07/2003	3.8
+11/19/2003	1.5
+11/20/2003	30.7
+11/21/2003	0.3
+11/24/2003	0.3
+11/26/2003	0.3
+11/29/2003	1.3
+
+Monthly Total (mm)	38.5
+
+December
+Date		Daily Precipitation Totals (mm)
+12/05/2003	12.7
+12/11/2003	39.4
+12/15/2003	42.2
+12/18/2003	2.8
+12/24/2003	14.0
+12/25/2003	9.4
+12/31/2003	0.3
+
+Monthly Total (mm)	120.8
+
+
+Annual Total (mm)	1383.2
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,713 @@
+Rookery Bay (RKB) NERR Water Quality Metadata
+Covering Period of January - December, 1997
+Metadata File Name: RKB01-12.97m.txt
+Latest Update: April 12, 2002
+
+
+I.  Dataset and Research Descriptors
+
+1. Principal investigator & contact person.
+Dr.Todd E. Hopkins, Research Coordinator	
+Rookery Bay NERR					
+300 Tower Rd.						
+Naples, FL 34113						
+Tel:  941-417-6310						
+Fax: 941-417-6315					
+Email:  hopkins_t@dep.state.fl.us		
+
+Contact:
+Pat O’Donnell
+Rookery Bay NERR	
+300 Tower Rd.
+Naples, FL 34113
+Tel:  941-417-6310
+Fax: 941-417-6315
+Email:  odonnell_p@dep.state.fl.us
+
+2. Entry verification.
+	The data contained herein were directly downloaded from the YSI 6000 data 
+sonde to the PC6000 software on a DOS-based 486 computer.  The data were 
+immediately exported to Excel on a Macintosh PowerPC.  Charting and plotting routines 
+within Excel and within Kaleidograph were used to verify the accuracy of the data.  In 
+addition, the Excel 5.0 Macros provided by the CDMO were used to format and check the 
+dataset for outliers beyond what the probes measure.  Outliers and erroneous data were 
+also checked manually using the protocol defined in Appendix B of CDMO Operations 
+Manual (v. 3.0).
+
+3. Research objectives.
+	Henderson Creek, the area in which both our data sondes are deployed, is the 
+Reserve’s principal water conduit feeding the estuary and the Gulf of Mexico.  
+Henderson’s watershed is almost entirely under public ownership, though historically 
+much of its acreage was privately owned and developed.  Consequently, the Henderson 
+system represents a restored watershed and estuary and serves as a management model 
+for southwestern Florida.  For this reason, the Reserve is interested in long-term 
+monitoring of its water quality.  In addition, we have begun a new research initiative 
+which concerns the coastal linkages of processes and effects between estuaries and 
+nearshore marine settings (just offshore in the Gulf of Mexico).  These two research 
+purposes have dictated the placement of the two YSI data sondes.  The first sonde, which 
+has been in place since early November, 1996, is located high within the estuary where 
+salinities fluctuate drastically through tidal cycles and through seasonal changes in 
+climate.  The second sonde was first deployed in mid-January, 1997 (delay was caused by 
+a need to receive permission from the Coast Guard for its deployment on an “Aid-to-
+Navigation” [ATON] marker).  It is located far downstream within the estuary, at the 
+estuary’s mouth to the Gulf (Big Marco Pass). 
+
+4. Research methods.
+	Both sondes are housed within 4-inch diameter, PVC pipes which are attached to 
+“aid-to-navigation” pilings.  The pipes are oriented vertically, hug the pilings, and are 
+attached with stainless steel hose clamps.  The bottom portion of the pipe is open and sits 
+6 inches above the bottom.  Probe tips are therefore taking measurements approximately 
+6-8 inches above the substrate.  Numerous 1-inch diameter holes are drilled 
+circumferentially around the lowest 8 inches of the pipe to ensure adequate water flow 
+around the probes.  Sondes are hung by galvanized steel chain inside the pipes; the chain 
+is bolted to the piling.  A ‘kryptonite’ bicycle lock is used to secure the sonde inside the 
+housing.
+	Beginning in March, the sonde deployed at Site #2 (Big Marco Pass) was further 
+protected from fouling by restricting the openings within the sonde guard with plastic 
+screening.  During the first couple of deployments at this site, arthropods (crabs & 
+amphipods) and, in one case, a toad fish, took up residence within the sonde guard and 
+undoubtedly interfered with the probes.  As a precaution, plastic mesh (with 0.5 cm 
+square holes) was attached on the inside of the guard’s circumference and on the inside of 
+the guard’s lowermost disk.  Small, plastic wire ties were used to secure the mesh.
+	Prior to deployment, the sondes are calibrated for pH, specific conductivity, 
+turbidity and dissolved oxygen following the procedures outlined in the YSI Operating 
+and Service Manual.  A two point calibration is used for pH(Fisher buffers 7& 10) and 
+turbidity(0 & 40 NTU from Advanced Polymer Systems, Inc.).  A 0.5M KCL solution is 
+prepared to calibrate specific conductivity while dissolved oxygen is calibrated by % 
+saturation.  Sondes are deployed for up to 2 weeks time. After approximately 2 weeks 
+time the fouling on the probes becomes critical.  Sampling period is set for 30-minute 
+intervals (readings are made every 30 minutes on the half hour).  The following physical 
+water quality parameters are recorded:  temperature, specific conductivity, salinity, 
+dissolved oxygen(mg/l), dissolved oxygen(% saturation), depth, pH and turbidity.  A 
+post-deployment calibration is done after the sonde is taken out of the water using the 
+same calibration protocol.  
+In April, southwestern Florida switched from Eastern Standard Time (EST) to 
+Eastern Daylight Savings Time (EDT).  NOTE:  All data within this metadata file and 
+the original data files are reported in Eastern Standard Time (EST).
+
+5. Site location & character.
+	RKB’s monitoring sites are located at the up- and downstream ends of Henderson 
+Creek, the principal estuarine system within the Reserve.
+	The “Upper Henderson” site is located on the upper region of Henderson Creek.  
+The piling is located right of center (while facing downstream) of the creek channel, 
+approximately 50 meters downstream of State Hwy 951’s crossing of Henderson Creek.
+	UTM GPS coordinates (using UTM zone 17, datum NAD-27):
+		E429855.23
+		N2881137.96
+	Lat/Long:	
+		26° 02’ 56.46587” N
+		81° 42’  4.21595” W
+	This segment of Henderson Creek is bordered by red mangrove forest.  A 
+residential area, consisting of trailer parks, is located immediately upstream.  These may 
+be delivering point-source pollutants.
+	The substrate within the channel is composed of organic-rich, black mud.  The 
+water depth varies between 0.5 and 1.5 meters, depending on the state of the tide.  
+Salinities fluctuate daily with the tides and seasonally with rainfall.  For the months of 
+November and December, 1996, salinities varied between 15 - 32 ppt.
+	The “Big Marco Pass” site’s sonde housing is affixed to ATON day marker #2 at 
+the confluence of Calhoun Channel and Isle of Capris Pass, just inshore of Big Marco 
+Pass (for whom the locality is named).  Waters leaving the estuaries from both the 
+Calhoun and Isle of Capris passes are consequently sampled by this sonde; waters 
+traveling within Johnson Bay and Henderson Creek are represented.  ATON marker #2 is 
+positioned on the south edge of the intracoastal waterway canal.  A housing development 
+on Isle of Capris is located nearby to the south; the northern edge is lipped by red 
+mangrove islands.
+	UTM GPS coordinates (using UTM zone 17, datum NAD-27):
+		E426177		
+		N2873406
+	Lat/Long:
+		25° 58’ 44.47” N
+		81° 44’ 15.00” W
+	The substrate within the channel is composed of quartz sand.  Swift tidal currents 
+travel through the channel, but a healthy epibenthos is supported (including, but not 
+limited to, sponges, ascidians, crabs, and amphipods).  Salinities here are marine (33-35 
+ppt); there appears to be little freshwater influence.  Depth ranges from 1.2 - 2.3 m, 
+depending upon the state of the tide.
+	To reference these sites on a nautical chart, see NOAA chart #11430 – “Lostmans 
+River to Wiggens Pass”.
+
+6. Data collection period.
+	24 sonde deployments occurred between January & December 1997 at Upper 
+Henderson Creek; 16 deployments occurred during the same months at Big Marco Pass.
+
+Site #1 -- Upper Henderson Creek:
+	1st Reading:						Last Reading: 
+	12/23/96,  14:30					01/06/97,  11:30
+	01/06/97,  12:00					01/22/97,  14:00
+	01/22/97,  14:30					02/05/97,  14:30
+	02/05/97,  15:00					02/21/97,  14:30
+	02/21/97,  15:00					03/24/97,  14:00
+	03/24/97,  15:30					04/07/97,  15:00
+	04/07/97,  15:30					04/22/97,  13:30
+	04/22/97,  14:00					05/06/97,  13:30
+	05/06/97,  14:00					05/27/97,  10:00
+	05/27/97,  10:30					06/11/97,  14:00
+	06/11/97,  14:30					06/25/97,  14:30
+	06/25/97,  15:30					07/09/97,  15:00
+	07/09/97,  15:30					07/23/97,  14:30
+	07/23/97,  15:00					08/06/97,  15:00
+	08/06/97,  15:30					08/20/97,  13:00
+	08/20/97,  13:30					09/04/97,  13:30
+	09/04/97,  14:00					09/17/97,  12:30
+	09/17/97,  13:06					10/07/97,  15:36
+	10/07/97,  16:30					11/05/97,  15:30
+	11/05/97,  16:00					11/20/97,  16:30
+	11/20/97,  17:00					12/02/97,  16:00
+	12/02/97,  16:30					12/16/97,  15:30
+	12/16/97,  16:00					12/31/97,  14:30
+	12/31/97,  15:00					01/13/98,  13:30
+
+Site #2 -- Big Marco Pass*:
+	1st Reading:						Last Reading: 
+	01/22/97,  15:30					02/12/97,  13:30
+	02/13/97,  16:00					02/21/97,  15:00
+	02/21/97,  15:30					03/07/97,  12:00
+	03/24/97,  16:00					04/14/97,  11:00
+	04/14/97,  11:30					04/29/97,  10:00
+	04/29/97,  10:30					05/14/97,  10:30
+	05/14/97,  11:00					05/27/97,  11:00
+	05/27/97,  11:30					06/11/97,  11:30
+	06/11/97,  12:30					06/25/97,  10:30
+	06/25/97,  11:00					07/09/97,  15:30
+07/09/97,  16:00					07/23/97,  12:30 **
+	11/06/97,  12:30					11/20/97,  17:00
+	11/20/97,  17:30					12/02/97,  15:00
+	12/02/97,  16:00					12/16/97,  15:00
+	12/16/97,  15:30					12/31/97,  13:30
+	12/31/97,  14:00					01/13/98,  13:00
+	
+* [Sonde at this site was deployed for the first time on 1/22/97.  No data exist for 1/1 
+through 1/22.] See Site #2: Big Marco Pass, January 1997 section in “Missing Data”.
+
+** [Sonde at this site was taken out of the water for maintainence on 07/23/98.  Sonde 
+was not replaced until 11/06/98 due to lack of personnel on site. No data exist from 
+07/23/98 – 11/06/98.]  See Site #2: Big Marco Pass, July 1997 through November 1997 
+sections in “Missing Data”.
+
+7. Associated researchers & projects.
+	Dr. Mike Shirley (at RKBNERR - email: shirley_m@dep.state.fl.us) has a 
+telemetered YSI 600 monitoring station recording the same physical water quality 
+parameters (minus turbidity) at a site downstream from the Upper Henderson Creek site.  
+This unit is deployed, serviced and calibrated using different protocols.  These data are 
+also available upon request.
+
+
+II.  Physical Structure Descriptors
+
+8. Sensor specifications, range of measurements, units, resolution, and accuracy.
+Variable name:	Range of measurements (units):	Resolution:	Accuracy:
+Date	1-12,1-31,00-99  (Mo,Day,Yr)	1 mo, 1 day, 1yr	NA
+Time	0-24,0-60,0-60  (Hr,Min,Sec)	1 hr, 1 min, 1 s	NA
+Temp	-5 to 45°C	0.01°C	+/- 0.15°C
+SpCond	0 - 100 mS/cm	0.01 mS/cm           +/- 0.5% of reading 	
+			 + 0.001 mS/cm
+Sal	0 - 70 ppt	0.01 ppt	+/- 1.0% of reading 	
+			or 0.1 ppt , which-	
+			ever is greater
+dO %	0 - 200 % air saturation	0.1% @air satur.	+/- 2% @air satur.
+dO %	200 - 500 % air saturation	0.1% @air satur.	+/- 6% @air satur.
+dO mg/L	0 - 20 mg/L	0.01 mg/L	+/- 0.2 mg/L
+dO mg/L	20 - 50 mg/L	0.01 mg/L	+/- 0.6 mg/L
+Depth	0 - 9.1 m	0.001 m	+/- 0.018 m
+pH	2 - 14 units	0.01 units	+/- 0.2 units
+Turb	0 - 1000 NTU	0.1 NTU	+/- 5% of reading or 
+			2 NTU, whichever 	
+			is greater
+
+9. Coded variable code definitions.
+	UH = Upper Henderson Creek
+	BM = Big Marco Pass
+
+10. Data anomalies.
+
+Site #1: Upper Henderson Creek, January 1997:
+(a) Dissolved oxygen.  DO values are suspect due to membrane damage and will 
+be deleted from the dataset for the following dates/times:
+01/01/97  00:00 through 01/06/97  11:30
+
+Site #1: Upper Henderson Creek, February 1997:
+	No data anomalies occurred.
+
+Site #1: Upper Henderson Creek, March 1997:
+(a) 	Dissolved oxygen.  The DO membrane was damaged during cleaning on 
+03/07/97, therefore all  DO values will be deleted for the following 
+dates/times:
+		03/07/97  12:00 through 03/14/97  14:00
+
+Site #1: Upper Henderson Creek, April 1997:
+(a)	Turbidity.  Anomalous turbidity values (possibly due to fouling) are 
+considered suspect but will remain in the dataset for the following dates/times:	
+04/21/97  09:30 through 04/22/97  13:30
+
+Site #1: Upper Henderson Creek, May 1997:
+(a) Turbidity.  Anomalous turbidity values (possibly due to fouling) are 
+considered suspect but will remain in the dataset for the following dates/times:
+05/06/97  01:00 through 05/06/97  13:30
+
+(b)	Turbidity. Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.  Negative turbidity 
+values were recorded for the following dates/times:
+05/09/97  23:00
+05/13/97  11:00, 21:30, 22:00
+05/27/97  21:30, 22:30
+05/28/97  12:00
+05/29/97  01:30, 02:30
+05/31/97  03:00
+
+Site #1: Upper Henderson Creek, June 1997:
+(a) Dissolved oxygen.  DO values for the following dates/times are exceedingly 
+low.  The values increase markedly at the time of deployment of a fresh sonde 
+suggesting membrane fouling restricted measurement during the last couple 
+days of deployment.  Data for the following dates/times are believed to be 
+erroneous but they were not removed from the dataset:
+		06/09/97  05:30 through 06/11/97  14:00
+
+(b) Turbidity.  One turbidity anomaly(970.1 NTU) occurred at:
+		06/22/97  10:00
+
+(c)	Turbidity. Numerous negative values for turbidity observed throughout this 
+month of data are considered suspect.  These observations will remain in the 
+database until a decision is made on how to deal with such data.
+
+Site #1: Upper Henderson Creek, July 1997:
+(a) Dissolved Oxygen.  DO values were out of range (negative) for the probe and 
+were deleted from the dataset for the following dates/times:
+07/05/97  10:00, 10:30
+07/06/97  04:00, 04:30, 10:00, 10:30
+07/07/97  06:30-10:30
+07/08/97  05:30, 08:00
+
+(b)	Turbidity.  Negative and high(>1000 NTU) values for turbidity observed 
+throughout this month of data are considered suspect.  These observations will 
+remain in the database until a decision is made on how to deal with such data.
+
+Site #1: Upper Henderson Creek, August 1997:
+(a) Dissolved Oxygen.  DO values from 08/20-09/04 dropped to negative values 
+soon after deployment and remained low throughout the deployment(possibly 
+due to fouling).   All DO values were considered suspect and deleted from the 
+dataset for the following dates/times:
+08/20/97  13:30 through 08/31/97  23:30
+
+(b)	Turbidity.  Numerous negative values for turbidity observed throughout this 
+month of data are considered suspect.  These observations will remain in the 
+database until a decision is made on how to deal with such data.
+
+Site #1: Upper Henderson Creek, September 1997:
+(a)	Dissolved oxygen.  DO values remained negative from the 08/20-09/04 
+deployment(see description above - Site #1, August 1997).  All DO values 
+were considered suspect and deleted from the dataset for the following 
+dates/times:
+09/01/97  00:00 through 09/04/97  13:30
+
+(b)	Turbidity. Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.  Negative turbidity 
+values were recorded for the following dates/times:
+		09/04/97  22:15
+		09/05/97  00:45, 01:15, 10:45
+		09/06/97  00:15
+
+Site #1: Upper Henderson Creek, October 1997:
+(a) Dissolved oxygen.  DO values were out of range(>500% or negative) due to 
+membrane damage and were deleted from the dataset for the following 
+dates/times:
+10/22/97  20:30 through 10/31/97  23:30 
+
+(b)	Turbidity.  High values for turbidity(possibly due to fouling) observed at the 
+end of this deployment are considered suspect.  These observations will 
+remain in the database until a decision is made on how to deal with such data.  
+High turbidity values occurred for the following dates/times:
+10/15/97  20:30
+10/29/97  12:30 through 10/31/97  23:30
+
+
+Site #1: Upper Henderson Creek, November 1997:
+(a) Dissolved oxygen.  DO values were out of range(>500% or negative) due to 
+membrane damage and were deleted from the dataset for the following 
+dates/times:
+11/01/97  00:00 through 11/05/97  15:30
+
+(b) Dissolved oxygen.  On 11/24 at 16:00, DO values increased 
+dramatically(>150%, >10 mg/l). All DO values are considered suspect and deleted 
+for the following dates/times:
+11/24/97  16:00 through 11/30/97  23:30
+
+(c) Turbidity.  Negative and high(>1000 NTU) values for turbidity(possibly due 
+to fouling) observed throughout this month of data are considered suspect. 
+These observations will remain in the database until a decision is made on 
+how to deal with such data.  Anomalous data were recorded for the following 
+dates/times:
+11/01/97  00:00 through 11/05/97  15:30
+11/20/97  19:30
+
+Site #1: Upper Henderson Creek, December 1997:
+(a) Dissolved oxygen.  All DO values are considered suspect and deleted from 
+the dataset for the following dates/times:
+12/01/97  00:00 through 12/02/97  16:00
+	
+(b) Dissolved oxygen.  On 12/3 at 01:30, DO values increased 
+dramatically(>500%, >40mg/l).  Salinity and ph values also increased during 
+the same flooding tide cycle.  The out of range DO values(% sat and mg/l) 
+will be deleted from the dataset for the following dates/times:
+12/03/97  01:30 - 02:30
+
+(c) Dissolved oxygen.  All DO values are considered suspect and deleted from the 
+dataset for the following dates/times:
+12/03/97  03:00 through 12/16/97  15:30
+		
+(d) Dissolved oxygen.  DO values were out of range(negative) and were deleted 
+from the dataset for the following dates/times:
+12/24/97  05:00 – 08:00
+12/25/97  05:00 – 09:30
+12/26/97  06:30 – 08:00
+12/27/97  07:00 – 08:00
+
+(e)	Turbidity.  Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data. Negative turbidity 
+values were recorded for the following dates/times:
+		12/10/97  11:00
+
+Site #2: Big Marco Pass, January 1997:
+(a) Turbidity.   Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, February 1997:
+(a) Dissolved oxygen.  DO values were out of range(>500% or negative) due to 
+membrane damage and were deleted from the dataset for the following 
+dates/times:
+02/04/97  15:30 through 02/12/97 13:30
+
+(b) Salinity.  On 02/05, salinity and specific conductivity fluctuated widely, at 
+times with salinities > 50 ppt.  Salinity and specific conductivity data were 
+deleted from the dataset for the following dates/times:
+02/05/97  05:00 through 02/12/97  13:30
+
+(c)	Dissolved oxygen.  The DO probe used during this deployment was later 
+found to be malfunctioning.  Dissolved oxygen values were deleted from the 
+dataset for the following dates/times:
+		02/21/97  15:30 through 02/28/97  23:30
+		
+(d) Turbidity.  Negative and high(>1000 NTU) values for turbidity observed 
+throughout this month of data are considered suspect.  These observations will 
+remain in the database until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, March 1997:
+(a)	Dissolved oxygen.  The DO probe used during this deployment was later 
+found to be malfunctioning.  Dissolved oxygen values were deleted from the 
+dataset for the following dates/times:
+03/01/97  00:00 hours through 03/07/97  12:00
+		
+(b)	Dissolved oxygen.  In late March, unusually high DO values were recorded, 
+beginning with values near 400% and gradually decreasing to 190%.  
+However, values did predictably oscillate between minima and maxima in 
+concert with tidal cyclicity.  The DO maxima progressively decreased through 
+time despite the oscillation and eventually asymptoted out at values near 
+200%.  Pre- and post-calibrations and pre- and post-deployment DO charges 
+were normal, and the membrane was undamaged at time of sonde retrieval.  
+Consequently the anomaly is unexplained.  Data are viewed as suspect, but 
+they will remain in the dataset due to the inherent pattern of cyclicity for the 
+following dates/times:
+03/24/97  16:00  through 03/31/97 at 23:30
+
+(c) Turbidity.  Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, April 1997:
+(a) Dissolved oxygen.  The same oscillatory phenomenon described for the March 
+record at Big Marco Pass continues (see above).  Values oscillate around 
+200%, and then abruptly drop to ~110% after the sonde swap on 04/14.  Data 
+are interpreted as suspect, but will remain in the dataset for the following 
+dates/times:
+04/01/97  00:00 through 04/14/97  11:00
+
+(b) Turbidity.  Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, May 1997:
+(a)	Turbidity.  Negative and high(>1000 NTU) values for turbidity observed 
+throughout this month of data are considered suspect.  These observations will 
+remain in the database until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, June 1997:
+(a) Dissolved oxygen. An abrupt drop from 118% to 22% occurred and was 
+followed by 10.5 hours of negative values.  Dissolved oxygen then returned to 
+more normal, positive values, topping out at approximately 70%.  The record 
+from 6/16 at 22:30 through the end of the sonde deployment on 6/25 at 10:30 
+shows normal tidal oscillations but never regains values above ~75%.  When a 
+fresh sonde was deployed at 11:00 on 6/25, values returned to over 100%.  
+This behavior is unexplained.  The negative DO values(% sat and mg/l) were 
+deleted from the dataset for the following dates/times: 
+06/15/97  20:00 through 06/16/97  06:00
+
+(b) Dissolved oxygen. The oxygen probe was damaged while deployed and was 
+sent back to YSI for repairs.  DO data(% sat and mg/l)  for the following 
+dates/times have been deleted from the dataset:
+06/30/97  14:30 - 23:30
+
+(c) Turbidity.  Negative values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, July 1997:
+(a) Dissolved oxygen.  DO values rose above 500% due to damage to the probe. 
+All DO values(% sat and mg/l) will be deleted from the dataset for the 
+following dates/times:
+07/01/97  00:00 through 07/23/97  12:30
+
+(b)	Turbidity.  Negative and high(>1000 NTU) values for turbidity observed 
+throughout this month of data are considered suspect.  These observations will 
+remain in the database until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, August 1997:
+There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, September 1997:
+There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, October 1997:
+There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, November 1997:
+(a) Turbidity.  High values for turbidity observed throughout this month of 
+data are considered suspect.  These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+Site #2: Big Marco Pass, December 1997:
+(a) Turbidity.  Negative values for turbidity observed throughout this month of 
+data are considered suspect. These observations will remain in the database 
+until a decision is made on how to deal with such data.
+
+11. Missing data.
+
+Site #1: Upper Henderson Creek, January 1997:
+(a)	DO values(% sat and mg/l) were suspect due to membrane damage and were 
+deleted from the dataset for the following dates/times:
+01/01/97  00:00 through 01/06/97  11:30
+
+Site #1: Upper Henderson Creek, February 1997:
+(a) All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+		02/10/97  11:30
+
+(b) The sonde batteries mysteriously died while deployed and no data was 
+recorded for the following dates/times:
+		02/10/97  21:00 through 02/21/97  14:30
+
+Site #1: Upper Henderson Creek, March 1997:
+(a) DO values(% sat and mg/l) were deleted due to membrane damage (see Data 
+Anomalies) for the following dates/times:
+03/07/97  12:00 through 03/14/97  14:00 
+
+(b) There was no trained individual at Rookery Bay to deploy a fresh sonde, 
+therefore no data was recorded for the following dates/times:
+03/14/97  14:30 through 03/24/97  15:00
+
+Site #1: Upper Henderson Creek, April 1997:
+	No data are missing.
+
+Site #1: Upper Henderson Creek, May 1997:
+	No data are missing.
+
+Site #1: Upper Henderson Creek, June 1997:
+(b) All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+06/25/97  15:00
+
+Site #1: Upper Henderson Creek, July 1997:
+(a) Dissolved oxygen values were out of range (negative) for the probe and were 
+deleted from the dataset for the following dates/times:
+07/05/97 : 10:00, 10:30
+07/06/97 : 04:00, 04:30, 10:00, 10:30
+07/07/97 : 06:30 – 10:30
+07/08/97 : 05:30, 08:00
+	
+Site #1: Upper Henderson Creek, August 1997:
+(a)	Dissolved oxygen values(% sat and mg/l) were considered suspect due to 
+fouling and deleted from the dataset for the following dates/times:
+08/20/97  13:30 through 08/31/97  23:30
+
+Site #1: Upper Henderson Creek, September 1997:
+(a)	Dissolved oxygen values(% sat and mg/l)  were considered suspect due to 
+fouling and deleted from the dataset for the following dates/times:
+09/01/97  00:00 through 09/04/97  13:30
+
+(b) All variables were deleted on 09/04/97 at 13:45 to accommodate the format 
+guidelines of the CDMO.  The values were recorded as follows:
+Temperature				30.0
+Specific Conductivity			17.00
+Salinity				  9.9
+Dissolved Oxygen(% saturation)	40.7
+Dissolved Oxygen(mg/l)		  2.9
+Depth					  1.48
+PH					  7.2
+Turbidity				  8
+	
+(c)	All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+		09/17/97  12:45
+
+Site #1: Upper Henderson Creek, October 1997:
+(a)	All variables are missing for the following dates/times due to low battery 
+voltage:
+		10/07/97  13:00 - 16:00
+
+(b) Dissolved oxygen values(% sat and mg/l)  were out of range(>500% or 
+negative) due to membrane damage and were deleted from the dataset for the 
+following dates/times:
+10/22/97  20:30 through 10/31/97  23:30 
+
+Site #1: Upper Henderson Creek, November 1997:
+(a) Dissolved oxygen values(% sat and mg/l) were out of range(>500% or 
+negative) due to membrane damage and were deleted from the dataset for the 
+following dates/times:
+11/01/97  00:00 through 11/05/97  15:30
+
+(b) Dissolved oxygen.  On 11/24 at 16:00, DO values increased 
+dramatically(>150%, >10 mg/l). All DO values are considered suspect and deleted 
+for the following dates/times:
+11/24/97  16:00 through 11/30/97  23:30
+
+Site #1: Upper Henderson Creek, December 1997:
+(a) Dissolved oxygen.  All DO values are considered suspect and deleted from the 
+dataset for the following dates/times:
+12/01/97  00:00 through 12/02/97  16:00
+
+(b) Dissolved oxygen values(% sat and mg/l)  were out of range(negative) and 
+were deleted from the dataset for the following dates/times:
+12/03/97  01:30 - 02:30
+12/24/97  05:00 - 08:00
+12/25/97  05:00 - 09:30
+12/26/97  06:30 - 08:00
+12/27/97  07:00 - 08:00
+
+(c) Dissolved oxygen.  All DO values are considered suspect and deleted from the 
+dataset for the following dates/times:
+12/03/97  03:00 through 12/16/97  15:30
+
+(d) All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+12/31/97  14:30
+
+Site #2: Big Marco Pass, January 1997:
+(a) The first deployment at this locality began on 01/22/97 at 15:30.  No data were 
+recorded for the following dates/times:
+01/01/97  00:00 through 01/22/97  15:00
+
+Site #2: Big Marco Pass, February 1997:
+(a) Dissolved oxygen values were deleted due to membrane damage(see Data 
+Anomalies)for the following dates/times:
+02/04/97  15:30 through 02/12/97  13:30
+
+(b)	Salinity and specific conductivity values were deleted due to widely 
+fluctuating values(see Data Anomalies) for the following dates/times:
+02/05/97  05:00 through 02/12/97  13:30
+
+(c)	The sonde switched off after a 21-day deployment (as the sonde was 
+programmed to do).  Boat problems prevented a sonde swap prior to 02/12/97. 
+Consequently no data were recorded for the following dates/times:
+02/12/97  14:00 through 02/13/97  15:30
+
+(d)	Dissolved oxygen values were deleted due to a malfunctioning probe(see Data 
+Anomalies) for the following dates/times: 
+02/21/97  15:30 through 02/28/97  23:30
+
+Site #2: Big Marco Pass, March 1997:
+(a) Dissolved oxygen values were deleted due to a malfunctioning probe(see Data 
+Anomalies) for the following dates/times: 
+03/01/97  00:00 through 03/07/97  12:00
+
+(b) There was no trained individual at Rookery Bay to deploy a fresh sonde, 
+therefore no data was recorded for the following dates/times:
+03/07/97  12:30 through 03/24/97  15:30
+
+Site #2: Big Marco Pass, April 1997:
+	No data are missing.
+
+Site #2: Big Marco Pass, May 1997:
+	No data are missing.
+
+Site #2: Big Marco Pass, June 1997:
+(a) All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+06/11/97  12:00
+
+(b) Negative dissolved oxygen data(%sat and mg/l) were out of range for the 
+probe and were deleted for the following dates/times:
+06/15/97  20:00 through 06/16/97  06:00
+
+(c) Dissolved oxygen data(%sat and mg/l) were deleted due to a damaged probe 
+for the following dates/times:
+06/30/97  14:30 - 23:30
+
+Site #2: Big Marco Pass, July 1997:
+(a) Dissolved oxygen values(% sat and mg/l) were considered suspect due to 
+probe damage and were deleted from the dataset for the following dates/times:
+07/01/97  00:00 through 07/23/97  12:30
+
+(b) The sonde was not re-deployed at this locality on 7/23, therefore no data are 
+reported for the following dates/times:
+07/23/97  13:00 through 07/31/97  23:30
+
+Site #2: Big Marco Pass, August 1997:
+	There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, September 1997:
+	There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, October1997:
+	There was no sonde deployed at this locality this month.
+
+Site #2: Big Marco Pass, November 1997:
+(a) The sonde was not re-deployed at this locality until 11/06 at 12:30. No data 
+are reported for the following dates/times: 
+11/01/97  00:00 through 11/06/97  12:00
+
+Site #2: Big Marco Pass, December 1997:
+(a) Turbidity data is missing due to probe removal for repairs for the following 
+dates/times:
+12/02/97  16:00 through 12/16/97  15:00
+
+(b) All variables are missing due to mis-timed sonde deployment for the 
+following dates/times:
+12/02/97  15:30
+
+12. Other remarks/notes.
+
+Site #1: Upper Henderson Creek, September 1997:
+(a)	Data recorded at this site was logged at 00:15 and 00:45 minutes after every 
+hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+		09/04/97  13:45 through 09/17/97  12:15
+
+(b) Data recorded at this site was logged at 00:06 and 00:36 minutes after every 
+hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+	09/17/97  13:06 through 09/30/97  23:36
+
+Site #1: Upper Henderson Creek, October 1997:
+(a)	Data recorded at this site was logged at 00:06 and 00:36 minutes after every 
+hour instead of the standard 00:00 and 00:30 intervals for the following 
+dates/times:
+	10/01/97  00:06 through 10/07/97  15:36
+
+
+The water control structure(weir) located upstream from the Upper Henderson Creek 
+station was altered on the following dates:
+
+Gates Opened:				Gates closed:
+07/02/97				07/08/97
+07/22/97
+07/31/97				09/11/97
+09/16/97
+09/29/97
+10/03/97				10/07/97
+					10/29/97
+
+
+16
+

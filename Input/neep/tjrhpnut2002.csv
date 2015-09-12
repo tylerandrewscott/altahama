@@ -1,0 +1,4 @@
+"StationCode","isSWMP","DateTimeStamp","Historical","ProvisionalPlus","CollMethd","REP","F_Record","PO4F","F_PO4F","NH4F","F_NH4F","NO2F","F_NO2F","NO3F","F_NO3F","NO23F","F_NO23F","CHLA_N","F_CHLA_N",
+"tjrhpnut  ","S",09/02/2002 12:15,1,1,1         ,1         ,"",0.069,<4>  ,0.127,<4>  ,0.0080,<4>  ,0.0,<4>  C                   ,0.0080,<4>  ,"",<0>  ,
+"tjrhpnut  ","S",09/02/2002 12:15,1,1,1         ,2         ,"",0.084,<4>  ,0.135,<4>  ,0.0030,<4>  B                   ,"",<4>  C - B               ,0.01,<4>  ,"",<0>  ,
+

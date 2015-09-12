@@ -1,0 +1,180 @@
+Delaware National Estuarine Research Reserve Site Metadata Form
+Version 1.0 (July-December 1995)
+Latest Update August 12, 1997
+
+
+I. Data Set & Research Descriptors
+
+1.  Principal investigator(s) & contact persons:
+David B. Carter, Environmental Program Manager
+Nasreen L. Faqiri, Environmental Engineer Intern 
+Jennifer Lukens, Environmental Scientist
+Carl Yetter, Environmental Engineer
+
+e-mail: 	dcarter@dnrec.state.de.us            	Delaware Coastal Management/National  
+      	nfaqiri@dnrec.state.de.us            	Estuarine Research Reserve Program
+     	 jlukens@dnrec.state.de.us          	Dept. of Natural Resources & Environmental Control
+      	cyetter@dnrec.state.de.us               	Division of Soil & Water Conservation
+                                                          	P.O. Box 1401
+                                                          	Dover, Delaware  19903
+                                                          	Phone: (302) 739-3451
+
+2.  Entry Verification:
+The data is directly downloaded in a spreadsheet format from the YSI 6000 UPG datalogger to a PC.  Edited files 
+are created by removing headers, footers, and spaces on a PC.  Missing data from YSI 6000 maintenance (downtime) 
+is inserted into the spreadsheet and are denoted by periods (.) as well as any data anomalies.  Data and graphs are 
+visually inspected to find possible anomalies. An Excel Software macro is used to find variable outliers in the data 
+set.  Edited and raw files are currently stored on DCMP local area network Hard Drive and on 3.5 inch floppy 
+diskettes.   Edited files are merged to contain one full month of data.  Edited and merged monthly files are also 
+transferred to NERRs Central Data Management Office.
+
+3.  Experimental Design:
+Measurements are taken every 30 minutes over two week periods at one site in each component river of Delaware's 
+National Estuarine Research Reserve (St. Jones River and Blackbird Creek).  The St. Jones River is impacted by 
+urbanization upstream and extensive agricultural activity throughout the basin.  The Blackbird Creek is one of the 
+least impacted riverine systems in Delaware.
+
+4.  Research Methods:
+The YSI 6000 datalogger monitoring program was started in July 1995 at Scotton Landing (St. Jones River) and 
+Blackbird Landing (Blackbird Creek).  Prior to deployment, a 4" diameter schedule 80 PVC pipe was mounted to a 
+piling at Scotton Landing and a bridge at Blackbird Landing using stainless steel brackets and bolts.  Each YSI 6000 
+is lowered into the PVC pipe which has eight (8) two inch diameter holes cut out at the bottom for the probes to have 
+direct contact with the water column.  A large stainless steel bolt was placed at the bottom end of the PVC pipe 
+which maintained each YSI 6000 at each site exactly one foot (30 cm) above the river bottom.  Every half hour over 
+a two week period, measurements of specific conductivity, salinity, percent saturation, dissolved oxygen, 
+temperature, pH, and water level are recorded.  Seven days after the deployment of each YSI 6000, the dissolved 
+oxygen membrane is cleaned with a Kimwipe dipped in methanol.  Two week sampling intervals were selected due 
+to limitations created by the dissolved oxygen membrane.  At the end of each two week period, the YSI 6000 is 
+brought back to the office for downloading, cleaning, and recalibration.  These procedures are carried out according 
+to the methods as described in the YSI Model 6000 Operating and Service Manual.  After approximately six hours of 
+down time for cleaning and recalibration, the YSI 6000's are redeployed for another two week period.
+
+5.  Site location and character:
+The Delaware National Estuarine Research Reserve is comprised of two component sites, the St. Jones River and 
+Blackbird Creek components.  Both components are located along the Delaware Bay Coast.   The St. Jones  River 
+Component is located in central Kent County Delaware, east of the State Capitol City, Dover.  The Blackbird Creek 
+component is located in the unincorporated area  of Southern New Castle County.  There are two sampling sites, one 
+located in each DNERR component.
+1) Scotton Landing - is located in the Lower St. Jones River at the Scotton Landing Public Fishing Pier, just up 
+stream of Delaware Route 113.  The site is influenced by freshwater runoff from the relatively urbanized area 
+upstream.  Salinity ranges from 8 - 30 ppt.
+             Position:  Latitude     39 degree 05'  05.9160"  N
+                             Longitude  75 degree 27'  38.1049"  W
+2) Blackbird Landing - is located in the upper Blackbird Creek at Blackbird Landing Road.  The site is influenced by 
+freshwater runoff from unimpacted forested areas intermixed with agricultural land uses and a small amount of low 
+density development.  Salinity ranges from 2-7 ppt.
+            Position:  Latitude      39 degree 23'  19.5196"  N
+                            Longitude   75 degree 38'  09.5882"  W
+
+6.  Data collection period:
+Scotton Landing data collection began on July 1, 1995.  Blackbird Landing data collection began on July 14, 1995.  
+All sampling is ongoing.  No Turbidity reading for 1995 in either of the two sites.
+
+7.  Associated researchers and projects: 
+An extensive stormwater sampling and hydrodynamic modeling project is underway in the upper reaches of the St. 
+Jones River Basin.  This project includes flow weighted stormwater sampling to quantify pollutant loads from each 
+of the major landuses found in the Basin.
+A joint effort underway through NOAA's Coastal Service Center and the DNERR characterization studies will 
+initiate detailed monthly water quality sampling at three sites in each river over a two year period and will quantify 
+the phytoplankton community with collections from the same sites. 
+(See Section I.1. for research contacts.)
+
+II.  Physical Structure Descriptors
+
+8.  Variable sequence, range of measurements, units, resolution, and accuracy:
+Variable Name	Range of Measurements (Units)	Resolution		Accuracy
+DATE		1-12, 1-31, 00-99 (Mo,Day,Yr)	1 month, 1day, 1 year	N/A
+HOUR		0-24, 0-60, 0-60 (Hr,Day,Sec)	1 hour, 1 min., 1 sec.	N/A
+TEMP		-5 to 45 (degrees C)		0.01 C			+/-0.15 C
+SPCOND	0-100 (mS/cm)			0.01 mS/cm		+/-0.5% of reading +
+									0.001 mS/cm
+SALINITY	0-70 parts per thousand (ppt)	0.01 ppt			+/-1.0% of reading or
+									0.1 ppt, (whichever is greater)
+DOSAT		0-200 (% air Saturation)		0.1% @air saturation	+/-2% @air saturation
+DOSAT		200-500 (% air Saturation)		0.1% @air saturation	+/-6% @air saturation
+DOMG		0-20 (mg/l)			0.01 mg/l		+/-0.2 mg/l
+DOMG		20-50 (mg/l)			0.01 mg/l		+/-0.6 mg/l
+DEPTH		0-10 (m)				0.001 m			+/-0.018 m
+pH		2-14 units			0.01 units		+/-0.2 units	
+Turb		0-1000 NTU			0.1 NTU			+/-5% of reading or 2 NTU
+									(whichever is greater)
+Data columns are separated by tabs.
+
+9. Coded variable indicator and variable code definitions:
+Site definitions:  SL = Scotton Landing, BL = Blackbird Landing
+
+10. Data anomalies (suspect data):
+
+July, 1995: 
+SL: DO probe was believed to be reading higher than actual DO levels during its July 13-27,1995 deployment. Time 
+(seconds) change from :00 to :45 on July 14 09:30 to July 31 23:30.
+BL: DO membrane is suspected of possible minor fouling between 7/25 and 7/26 due to sediment and algae build-up 
+on membrane surface. 
+
+August, 1995: 
+BL:  Time (seconds) change from :00 to :45 on August 15 13:30 to August 29 10:30.
+
+September, 1995: 
+BL:  The salinity value from 9/26 through 9/30, 1995 were off due to calibration error. Therefore those readings 
+were deleted out and replaced by (.).
+
+October, 1995: 
+BL:  The salinity value from 10/01 through 10/10, 1995 were off due to calibration error. 	Therefore those readings 
+were deleted out and replaced by (.).  Time (minutes & seconds) change from 00:00 to 01:54 on October 24 15:00 to 
+October 31 23:30.
+
+November, 1995: None to report
+
+December, 1995:  None to report
+
+11. Missing data:
+Every two weeks, there is a period of approximately six hours of missing data due to maintenance and calibration 
+requirements.  This missing data is indicated by (.) in the file.
+
+July,  1995
+    SL: July 13,1995 18:00:00 through July 27, 1995 08:30:00. - Dissolved Oxygen (both % & mg/l missing)
+        July 27, 1995 from 09:00:00 through 14:00:00. - All data missing
+    BL: No readings until July 14, 1995 16:00:00 (Start of data collection) 
+        July 27, 1995 from 13:00:00 through 16:00:00. - All data missing
+    SL & BL:  No turbidity readings for entire month
+
+August,  1995
+    SL: August 1, 1995 at 09:30:00. All data missing- Datalogger being cleaned
+        August 12, 1995 at 14:30:00 through August 15, 1995 at 09:00:00. - All data missing
+        August 22, 1995 at 09:00:00. All data missing - Datalogger being cleaned
+        August 29, 1995 at 07:00:00 through 10:30:00. - All data missing
+    BL: August 12, 1995 at 16:30:00 through August 15, 1995 at 15:30:45. - All data missing
+        August 29, 1995 at 10:30:45. - All data missing
+    SL & BL:  No turbidity readings for entire month
+
+September,  1995
+    SL: September 12, 1995 10:00:00 through September 12, 1995 12:30:00. - All data missing
+           September 23,1995 22:00:00 through September 26,1995 11:00:00 . - All data missing
+    BL: September 12, 1995 from 07:00:00 through 14:00:00. - All data missing
+           September 26, 1995 from 09:00:00 through 15:30:00. - All data missing
+           September 26, 1995 from 16:00:00 through September 30, 1995 23:30:00. - SpCond and Sal missing due to 
+	calibration error
+    SL & BL:  No turbidity readings for entire month
+
+ 
+October,  1995
+     SL:  October 10, 1995 08:30:00 through 10:30:00 - All data missing
+            October 24, 1995 08:00:00 through 10:30:00 - All data missing
+     BL: October 1, 1995 from 00:00:00 through October 10, 1995 07:30:00.- SpCond and Sal missing due to 
+	calibration error
+            October 10, 1995 from 08:00:00 through 11:30:00 - All data missing.
+            October 24, 1995 from 13:00:00 to 16:01:54 - All data missing.
+    SL & BL:  No turbidity readings for entire month
+
+November, 1995
+     SL: November 7,1995 from 08:00:00 through 11:00:00. - All data missing
+            November 21,1995 from 09:00:00 through 11:00:00. - All data missing
+     BL: November 7, 1995 09:30:00 through November 28, 1995 09:30:00. - All data missing
+    SL & BL:  No turbidity readings for entire month
+
+December,  1995
+     SL: December 5, 1995 10:00:00 through December 31, 1995 23:30:00 (Due to staffing Limitation).
+     BL: December 5, 1995 08:00:00 through December 31, 1995 23:30:00 (Due to staffing Limitation).
+    SL & BL:  No turbidity readings for entire month
+
+

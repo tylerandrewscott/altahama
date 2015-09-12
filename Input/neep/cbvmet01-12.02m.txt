@@ -1,0 +1,726 @@
+Chesapeake Bay Virginia (CBV) NERR Meteorological Metadata
+January - December 2002
+Latest update: February 11, 2005
+
+I. Data Set & Research Descriptors
+
+1) Principal investigator & contact persons:
+
+Virginia Institute of Marine Science
+College of William and Mary
+PO Box 1346, Gloucester Point, VA 23062
+Phone:  (804) 684-7135
+
+Dr. William Reay, Director							
+	E-mail: wreay@vims.edu; (804) 684-7119				
+Eric Wooden, Stewardship Coordinator 
+	E-mail: ewooden@vims.edu; (804) 684-7129
+
+2) Entry verification 
+
+a) Data Input Procedures:
+
+The 15-minute, 1-hour average, and 24-hour data were downloaded from each 
+instrument on the weather station to a Campbell Scientific CR10X datalogger.  
+The CDMO Data Logger Program (nerr.csi) was loaded into the CR10X and controls 
+the sensors and data collection schedule (see 2b of the Entry Verification 
+section for the data collection schedule).  The CR10X then interfaced with the 
+PC208W software supplied by Campbell Scientific.  This software was located on a 
+laptop computer to which the data was downloaded manually in the field.  Data 
+was downloaded monthly from a storage module located within the weather station.    
+Once an entire month of data was available, the CDMO Weather Data Management 
+Program (WDMP) was used to convert the files to an Access database.  This 
+program was developed in Visual Basic to interface with the NERRS data 
+collection schedule (see 2b of the Entry Verification section for the data 
+collection schedule).  The WDMP will automatically input and convert the monthly 
+raw data file into and Access Database.  There are three main steps the WDMP 
+performs.  First, it converts the comma delimited monthly raw data file into an 
+Access Database.  Secondly, it checks the data against a predetermined set of 
+error criteria (see Part C of this section).  Finally, it produces error and 
+summary reports. Any anomalous data were investigated and are noted below in 
+Anomalous Data section.  Any data corrections that were performed are noted in 
+the Data Correction section below. Eric Wooden performed all data management.  
+
+Gemteck's EQwin version 5 and the CDMO developed Microsoft Excel EQWinFormat.xls macro now replaces 
+the WDMP as the NERR MET database management program and primary QA/QC program.  
+
+The Centralized Data Management Office converted all SWMP weather data collected with CR10X 
+program versions prior to version 4.0 which was distributed in October 2003.  This was necessary 
+in order to merge the old data format (12 array output) with the new data format found in version 4.0
+(3 array output).  The new format produces averages, maximums and minimums every fifteen minutes 
+(array 15), every hour (array 60) and every day (array 144) for any sensors hooked up to the CR10X.   
+Specifically, the 150 and 151 fifteen minute data were converted to the new 15 array;   
+the hourly 101, 102, 105 and 106 data were converted to the new 60 array; and the daily 241, 242, 
+243, 244, 245 and 246 data were converted to the new 144 array.  With the new format, the use of 
+55555's to code for deleted data and 11111's to code for missing data has been abandoned.  
+Hence, all 55555's or 11111's contained in the SWMP weather data collected prior to Version 4.0 
+of the CR10X program were removed and left blank.  
+
+For data collection, the CR10X datalogger was programmed to collect data in the 
+following formats:
+i)	15-minute data are collected instantaneously for Air Temperature (C), 
+Relative Humidity (%), Barometric Pressure (mb), Wind Speed (m/s), and 
+Wind Direction (degrees).  15-minute Precipitation (mm) and PAR 
+(mmol/m^2) data are totaled from 5-second readings, prior to NERR_4.CSI
+
+ii)	15-minute average, maximum and minimum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb) and Wind Speed (m/s) with NERR_4.CSI.
+
+iii)	Hourly average, maximum, and minimum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb), Wind Speed (m/s), and Wind Direction (degrees).  Hourly 
+totals for PAR (mmol/m^2) and Precipitation (mm) are totals of 15-minute 
+readings.
+
+iv)	Daily average, maximum and minumum data are averages of 5-second 
+readings for Air Temperature (oC), Relative Humidity (%), Barometric 
+Pressure (mb), Wind Speed (m/s), and Wind Direction (degrees).  Daily totals 
+for PAR (mmol/m^2) and Precipitation (mm) are totals of 15-minute readings.
+
+Data were stored on a Campbell Scientific storage module (SM192 or SM4M), which 
+was retrieved monthly.  The data were downloaded and pre-processed as described in 
+Section 2.  QA/QC of the data was conducted using either the WDMP or EQWin.  
+WDMP error reports and EQWin queries were based on the following anomalous data 
+criteria:
+
+Air Temp:
+- 15 min sample not greater than max for the day
+- 15 min sample not less than the min for the day
+- 15 min sample not greater than 3.0 C from the previous 15 minutes (WDMP only)
+- Max and min temp recorded for the day (WDMP only)
+- 1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 50 C or less than –30 C (EQWin only)
+
+Relative Humidity:
+-Not changed by more than 25% from the previous 15 minutes (WDMP only)
+-Max and min humidity recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the   
+hour (WDMP only)
+-Sample not greater than 100% or less than 0% (EQWin only)
+
+Pressure:
+- Pressure not greater than 1040 mb or less than 980 mb (WDMP only)
+- Pressure changes greater than 5 mb per hour (WDMP only)
+- Maximum and minimum values recorded for the day (WDMP only)
+-1-hour average not greater than 10% above the greatest 15 min sample recorded in the 
+hour (WDMP only)
+-Sample not greater than 1060 mb or less than 900 mb (EQWin only)
+
+Wind Speed:
+- Wind speed not greater than 65 m/s or less than 0.5 m/s (WDMP only)
+-Wind speed not greater than 30 m/s (EQWin only)
+-Wind speed not less than 0.5 m/s for 12 consecutive hours (EQWin only)
+
+Wind Direction:
+- Wind direction not greater than 360 degrees or less than 0 degrees
+
+Rainfall:
+- Precipitation not greater than 5 mm in 15 min
+- No precipitation for the month (WDMP only)
+
+Photosynthetically Active Radiation (PAR):
+ -Sample not greater than 5000 mmol/m^2 or less than –0.5 mmol/m^2
+
+Time:
+- 15-minute interval recorded
+
+For all data:
+- No duplicate data		
+
+
+3) Research objectives:
+
+The principal objective is to record long-term meteorological data within the 
+York River watershed in order to observe any environmental changes or trends 
+over time.  Samples were taken every 5 seconds and 15 minutes over roughly one-
+week collecting intervals.  
+
+
+4) Research methods:
+
+The Campbell Scientific weather station samples every 5 seconds to produce both 
+hourly and daily averages of those measurements of air temperature, relative 
+humidity, barometric pressure, rainfall, wind speed and wind direction.  An 
+instantaneous sample is taken every 15 minutes and that data is stored in array 
+150.   A one-month sampling interval was chosen so that the storage 
+module would not run out of room and overwrite data.  Periodically, sensors on 
+the weather station are inspected for damage or debris.  If any is found, it is 
+repaired and/or cleaned.  Sensors are removed and sent back to Campbell 
+Scientific for calibration at minimum of every two years.  
+
+
+5) Site location and character:
+
+Taskinas Creek (TC) Component:
+The Chesapeake Bay NERRS of Virginia maintains a long-term water quality-
+monitoring program, and stream gauge station at Taskinas creek station.  The 
+Taskinas Creek station is located in the transitional zone of the York River 
+tributary in the York River State Park.
+
+The Chesapeake Bay National Estuarine Research Reserve in Virginia is located on 
+the York River, a tributary of the Chesapeake Bay.  The weather station is 
+located at York River State Park that borders the York River and includes the 
+Taskinas Creek tributary.  The bordering river is 50 km long, 38 kilometers from 
+the mouth of the river, and it 2.25 kilometer wide near the weather station, 
+and.  The weather station in located (37°24' 50.79850" N, 76°42' 44.51934" 
+W) on a bluff (11m elevation) 60m from the York River in a manicured lawn area 
+of the park.  No trees or other major structures within a 35m radius of weather 
+station.  The stream gauge located 2km NW (288 degree of weather station and the 
+water quality station located 200m  (298 degree) of weather station.  The 
+weather station has a landscape fence around it to keep visitors of the park 
+away from the weather station.  All the instruments, the Wind Sentry, 
+Temperature and Humidity sensor, Barometric Sensor, and LiCor Sensor all located 
+on the approximately 3.5 m aluminum tower following the descriptions outlined in 
+the Campbell Scientific CR10X Based Meteorological Monitoring Station Standard
+Operating Procedure.  The Tipping Bucket Rain gauge is located within 2m of 
+the tower.  The sensors were wired to the CR10X following the protocol in the 
+CDMO Manual.  
+
+
+6) Data collection period:
+
+Weather data has been collected at the Taskinas Creek since 1996.  The current 
+weather station has been operational since 1996. Data was collected for the 
+entire year in 2002.  
+
+
+7) Distribution
+
+According to the Ocean and Coastal Resource Management Data Dissemination Policy 
+for the NERRS System-wide Monitoring Program, NOAA/ERD retains the right to 
+analyze, synthesize and publish summaries of the NERRS System-wide Monitoring 
+Program data.  The PI retains the right to be fully credited for having 
+collected and processed the data.  Following academic courtesy standards, the PI 
+and NERR site where the data were collected will be contacted and fully 
+acknowledged in any subsequent publications in which any part of the data are 
+used.  Manuscripts resulting from the NOAA/OCRM supported research that are 
+produced for publication in open literature, including refereed scientific 
+journals, will acknowledge that the research was conducted under an award from 
+the Estuarine Reserves Division, Office of Ocean and Coastal Resource 
+Management, National Ocean Service, National Oceanic and Atmospheric 
+Administration.  The data set enclosed within this package/transmission is only 
+as good as the quality assurance/quality control procedures outlined by the 
+enclosed metadata reporting statement.  The user bears all responsibility 
+for its subsequent use/misuse in any further analyses or comparisons.  The 
+Federal government does not assume liability to the Recipient or third persons, 
+nor will the Federal government reimburse or indemnify the Recipient for its 
+liability due to any losses resulting in any way from the use of this data.
+
+NERR weather data and metadata can be obtained from the Research Coordinator at 
+the individual NERR site (please see Section 1 Principal investigators and 
+contact persons), from the Data Manager at the Centralized Data Management 
+Office (please see personnel directory under the general information link on the 
+CDMO home page) and online at the CDMO home page http://cdmo.baruch.sc.edu.  
+Data are available in text format.
+
+
+8) Associated researchers and projects:
+
+Taskinas Creek watershed is a site of limited impact due to development or 
+recreational use.  There is a water quality station and a stream gauge station 
+at this site.  This site is being developed as a control site for watershed work 
+in the area. 
+
+
+II. Physical Structure Descriptors
+
+9) Sensor specifications, operating range, accuracy, date of last calibration 
+
+CSI LiCor Quantum Sensor 
+Model # LI190SB
+Stability:  <±2% change over 1 yr
+Operating Temperature:  -40 to 65°C
+Sensitivity:  typically 5 µA per 1000µmoles s-1 m-2
+Light spectrum wavelength:  400 to 700 nm
+Date of last calibration: 8/2000 installed 1/2001
+
+CSI Wind Sentry
+Model # 03001-5, #03301-5
+Range:  0-50 m/s; 360° mechanical
+Date of last calibration: 12/2000 installed 1/2001
+
+CSI Temperature and Relative Humidity
+Model #:  HM45C
+Operating Temperature:  -40 to +60°C
+Temperature Measurement Range: -40 to +60°C
+Temperature Accuracy: ± 0.2 °C @ 20°C
+Relative Humidity Measurement Range:  0-100% non-condensing
+RH Accuracy:  +/-2% RH (0-90%) and +/-3% (90-100%)
+Uncertainty of calibration: ± 1.2% RH
+Date of Last calibration:  10/2000 installed 1/2001 
+
+CSI Barometric Sensor
+Model #PTB101B
+Operating Range:	 Pressure: 600 to 1060 mb
+Temperature:  -40 to +60C
+Humidity:  non-condensing
+Accuracy: ±0.5 to 6.0 mb (+20 to 60C)
+Stability: ± 0.1 mb per year
+Date of Last calibration: 7/2000 installed 1/2001 
+
+Fluid Isolation Technology Tipping Bucket Rain Gauge
+Model #:  RG-2000-C
+Range:  0.1 mm
+Accuracy:  1.0% at <14"/hr
+Date of Last calibration:  1/2001 
+
+
+10) Coded variable indicator and variable code definitions:  
+
+Sampling station:	Sampling site code:	Station code:
+Taskinas Creek		TC			cbvtcmet
+
+11) Data anomalies/Data corrections:
+
+CalD=Calendar Day.  
+
+
+January 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	1	1115	Technician change <0 wind direction to 0
+101	1	1100	Air temp avg (.06637) < 15 minute min (.1813) by at least 10%
+150	5	845	Air temp diff >3C from 5 845 (-4.6644) to 5 900 (-1.4522)
+150	11	1400	Humidity diff >25% from 11 1400 (72.788) to 11 1415 (42.337)
+101	22	800	Air temp avg (.30376) < 15 minute min (.38781) by at least 10%
+150	25	330	Air temp diff >3C from 25 330 (13.141) to 25 345 (9.7351) 
+150	30	2215	Air temp diff >3C from 30 2215 (19.393) to 30 2230 (16.056) 
+150	31	1100	Technician change <0 wind direction to 0
+
+
+February 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	4	1345	Air temp diff >3C from 4 1345 (6.8936) to 4 1400 (3.4201) 
+150	4	1345	Humidity diff from >25% 4 1345 (43.153) to 4 1400 (77.622) 
+150	4	1600	Humidity diff from >25% 4 1600 (82.806) to 4 1615 (32.615) 
+102	6	1700	Wind speed is less than 0.5 m/s from 6 1700 to 7 500
+102	9	1800	Wind speed is less than 0.5 m/s from 9 1800 to 10 700
+150	17	1200	Air temp diff >3C from 17 1200 (9.9578) to 17 1215 (6.6816)
+101	24	2300	Air temp avg (-.44018)< 15 minute min (-.5602) by at least 10%
+
+
+March 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+151	2	2215	Precip diff >5mm from 2 2215 (5.842) to 2 2230 (.254) 
+102	12	1200	Wind speed is less than 0.5 m/s from 12 1200 to 13 300
+101	22	900	Air temp avg (.38076) < 15 minute min (.50866) by at least 10%
+150	24	730	Air temp diff >3C from 24 730 (3.4492) to 24 745 (6.4572)
+
+
+April 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	3	1630	Air temp diff >3C from 3 1630 (27.138) to 3 1645 (16.741) 
+150	3	1630	Humidity diff >25% from 3 1630 (38.202) to 3 1645 (90.012) 
+150	10	1100	Technician change <0 wind direction to 0
+150	15	1430	Air temp diff >3C from 15 1430 (28.265) to 15 1445 (24.199) 
+150	15	1445	Air temp diff >3C from 15 1445 (24.199) to 15 1500 (19.2) 
+151	15	1500	Precip diff >5mm from 15 1500 (5.842) to 15 1515 (.508) 
+150	17	1545	Air temp diff >3C from 17 1545 (33.23) to 17 1600 (29.106) 
+150	25	1545	Air temp diff >3C from 25 1545 (23.821) to 25 1600 (18.553) 
+
+
+May 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	2	1545	Air temp diff >3C from 2 1545 (27.734) to 2 1600 (20.204) 
+150	7	1730	Air temp diff >3C from 7 1730 (25.473) to 7 1745 (21.742) 
+150	7	1745	Air temp diff >3C from 7 1745 (21.742) to 7 1800 (18.414) 
+151	7	1745	Precip diff >5mm from 7 1745 (7.874) to 7 1800 (26.416) 
+151	7	1800	Precip diff >5mm from 7 1800 (26.416) to 7 1815 (.508) 
+151	9	1945	Precip diff >5mm from 9 1945 (13.716) to 9 2000 (3.556) 
+150	13	1900	Air temp diff >3C from 13 1900 (27.609) to 13 1915 (20.943) 
+150	18	815	Air temp diff >3C from 18 815 (24.827) to 18 830 (21.556) 
+150	18	830	Air temp diff >3C from 18 830 (21.556) to 18 845 (14.223) 
+
+
+June 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	6	1530	Air temp diff >3C from 6 1530 (32.638) to 6 1545 (28.44) 
+150	6	1630	Air temp diff >3C from 6 1630 (26.73) to 6 1645 (23.004) 
+151	6	1945	Precip diff >5mm from 6 1945 (1.27) to 6 2000 (7.112) 
+150	26	1700	Air temp diff >3C from 26 1700 (32.043) to 26 1715 (25.513) 
+150	26	1700	Humidity diff >25% from 26 1700 (54.316) to 26 1715 (87.106) 
+150	27	1915	Air temp diff >3C from 27 1915 (26.742) to 27 1930 (22.476) 
+
+
+July 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+102	7	1700	Wind speed is less than 0.5 m/s from 7 1700 to 8 700
+102	14	100	Wind speed is less than 0.5 m/s from 14 100 to 14 1300
+150	27	1600	Air temp diff >3C from 27 1600 (27.466) to 27 1615 (23.868) 
+
+
+August 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	16	1600	Air temp diff >3C from 16 1600 (30.849) to 16 1615 (26.918) 
+150	24	1400	Air temp diff >3C from 24 1400 (31.734) to 24 1415 (25.936) 
+102	26	1800	Wind speed is less than 0.5 m/s from 26 1800 to 27 1100
+102	27	1300	Wind speed is less than 0.5 m/s from 27 1300 to 28 1400
+102	29	1400	Wind speed is less than 0.5 m/s from 29 1400 to 30 900
+102	30	1500	Wind speed is less than 0.5 m/s from 30 1500 to 31 1000
+
+
+September 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	4	1445	Air temp diff >3C from 4 1445 (32.971) to 4 1500 (28.441) 
+102	8	1300	Wind speed is less than 0.5 m/s from 8 1300 to 9 700
+150	14	1445	Air temp diff >3C from 14 1445 (25.887) to 14 1500 (22.354) 
+151	14	1500	Precip diff >5mm from 14 1500 (12.446) to 14 1515 (1.27) 
+102	25	600	Wind speed is less than 0.5 m/s from 25 600 to 25 2100
+150	25	1030	Missing 150 Array (15 minute data)
+101	25	1100	Technician changed 101 Array data from 25 1100 to 25 1100
+102	25	1100	Technician changed 102 Array from 25 1100 to 25 1100
+102	25	2300	Wind speed is less than 0.5 m/s from 25 2300 to 26 1900
+241	25	2400	Technician changed 241 Array from 25 2400 to 25 2400
+242	25	2400	Technician changed 242 Array from 25 2400 to 25 2400
+243	25	2400	Technician changed 243 Array data from 25 2400 to 25 2400
+244	25	2400	Technician changed 244 Array data from 25 2400 to 25 2400
+151	27	1545	Precip diff >5mm from 27 1545 (7.366) to 27 1600 (.254)
+
+The following hourly and daily data were deleted due to 5 second data loss resulting from 
+data download on September 25 at 1030:
+101	25	1100	Technician changed 101 Array data from 25 1100 to 25 1100
+102	25	1100	Technician changed 102 Array from 25 1100 to 25 1100
+241	25	2400	Technician changed 241 Array from 25 2400 to 25 2400
+242	25	2400	Technician changed 242 Array from 25 2400 to 25 2400
+243	25	2400	Technician changed 243 Array data from 25 2400 to 25 2400
+244	25	2400	Technician changed 244 Array data from 25 2400 to 25 2400
+
+
+October 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+102	2	1400	Wind speed is less than 0.5 m/s from 2 1400 to 3 500
+102	10	1700	Wind speed is less than 0.5 m/s from 10 1700 to 11 1300
+102	15	1000	Wind speed is less than 0.5 m/s from 15 1000 to 15 2300
+102	24	1400	Wind speed is less than 0.5 m/s from 24 1400 to 25 500
+102	26	1900	Wind speed is less than 0.5 m/s from 26 1900 to 27 1100
+102	27	2200	Wind speed is less than 0.5 m/s from 27 2200 to 28 1400
+
+
+November 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+151	14	1345	Precip diff >5mm from 14 1345 (.254) to 14 1400 (7.366) 
+102	15	1700	Wind speed is less than 0.5 m/s from 15 1700 to 16 1200
+150	26	30	Air temp diff >3C from 26 30 (5.8326) to 26 45 (9.1064) 
+101	28	500	Air temp avg (.06331) > 15 minute max (.05347) by at least 10%
+
+
+December 2002 TC
+
+The following data appear to be correct: 
+
+Array	CalD	Time	Error Message
+150	6	815	Pressure diff >5mb from 6 815 (1006) to 6 830 (1020.1) 
+101	19	1500	Technician changed 101 Array data from 19 1500 to 19 1500
+102	19	1500	Technician changed 102 Array from 19 1500 to 19 1500
+150	19	1430	Missing 150 Array (15 minute data)
+241	19	2400	Technician changed 241 Array from 19 2400 to 19 2400
+242	19	2400	Technician changed 242 Array from 19 2400 to 19 2400
+243	19	2400	Technician changed 243 Array data from 19 2400 to 19 2400
+244	19	2400	Technician changed 244 Array data from 19 2400 to 19 2400
+
+The following hourly and daily data were deleted due to 5 second data loss resulting from 
+data download on December 19 at 1430:
+
+Array	CalD	Time	Error Message
+101	19	1500	Technician changed 101 Array data from 19 1500 to 19 1500
+102	19	1500	Technician changed 102 Array from 19 1500 to 19 1500
+241	19	2400	Technician changed 241 Array from 19 2400 to 19 2400
+242	19	2400	Technician changed 242 Array from 19 2400 to 19 2400
+243	19	2400	Technician changed 243 Array data from 19 2400 to 19 2400
+244	19	2400	Technician changed 244 Array data from 19 2400 to 19 2400
+
+
+12) Missing data:
+
+
+January 2002 TC
+None
+
+
+February 2002 TC
+None
+
+
+March 2002 TC
+None
+
+
+April 2002 TC
+None
+
+
+May 2002 TC 
+None
+
+
+June 2002 TC
+None
+
+
+July 2002 TC
+None
+
+
+August 2002 TC
+None
+
+
+September 2002 TC
+
+The loss of this 150 array occurred during manual downloading of data.  No loss of rainfall 
+data occurred since it was not raining during download:
+
+Array	CalD	Time	Error Message
+150	25	1030	Missing 150 Array (15 minute data)
+
+ 
+October 2002 TC
+None
+
+
+November 2002 TC
+None
+
+
+December 2002 TC
+
+The loss of this 150 array occurred during manual downloading of data.  No loss of rainfall 
+data occurred since it was not raining during download. 
+
+Array	CalD	Time	Error Message
+150	19	1430	Missing 150 Array (15 minute data)
+
+ 
+13) Other Remarks/notes
+
+Rain Events: 
+
+January 2002
+Date	RainAmount (mm)
+4	.508
+6	28.448
+7	1.016
+12	3.556
+13	5.080
+19	27.940
+20	1.270
+21	4.826
+22	.254
+23	4.826
+24	.254
+25	7.366
+Monthly Total	85.3
+
+
+February 2002
+Date	RainAmount (mm)
+4	.508
+7	23.368
+8	.254
+10	.254
+27	.508
+Monthly Total	24.9
+
+
+March 2002
+Date	RainAmount (mm)
+2	16.764
+3	4.064
+12	1.270
+13	2.794
+17	22.098
+18	9.652
+19	.508
+20	5.842
+21	.254
+26	12.700
+27	2.540
+31	28.956
+Monthly Total	107.4
+
+
+April 2002
+Date	RainAmount (mm)
+1	2.794
+3	5.080
+10	5.334
+12	.508
+15	7.620
+18	3.048
+19	.508
+20	1.270
+21	3.810
+22	19.050
+25	11.176
+27	8.128
+28	9.144
+Monthly Total	77.5
+
+
+May 2002
+Date	RainAmount (mm)
+2	19.050
+4	3.810
+5	1.270
+6	.254
+7	35.814
+8	.254
+9	32.004
+10	.254
+13	8.636
+18	10.414
+Monthly Total	111.8
+
+
+June 2002
+Date	RainAmount (mm)
+6	26.670
+14	10.414
+15	.508
+17	2.540
+26	4.318
+27	3.810
+28	.254
+Monthly Total	48.5
+
+
+July 2002
+Date	RainAmount (mm)
+10	1.016
+14	37.084
+15	12.700
+18	.254
+20	1.016
+23	2.286
+24	14.478
+25	1.524
+26	5.080
+27	.762
+28	.254
+30	.254
+Monthly Total	76.7
+
+
+August 2002
+Date	RainAmount (mm)
+15	1.270
+16	1.778
+17	4.064
+18	.254
+24	19.812
+27	2.794
+28	2.032
+29	.762
+30	.508
+31	.762
+Monthly Total	34.0
+
+
+September 2002
+Date	RainAmount (mm)
+1	1.524
+2	.508
+3	.508
+4	.508
+5	.508
+7	.254
+8	.254
+11	.254
+14	14.478
+15	3.048
+16	10.922
+17	.254
+23	.254
+26	20.066
+27	11.684
+28	.254
+Monthly Total	65.3
+
+
+October
+Date	RainAmount (mm)
+10	21.336
+11	33.782
+12	1.016
+15	4.318
+16	14.732
+17	.254
+21	8.636
+22	.254
+23	.254
+25	.762
+26	13.462
+28	31.750
+29	17.018
+30	14.224
+Monthly Total	161.8
+
+
+November 2002
+Date	RainAmount (mm)
+1	.254
+4	6.604
+5	13.208
+6	11.176
+11	.254
+12	9.144
+13	2.794
+14	8.382
+16	26.670
+17	15.240
+19	.254
+21	11.938
+Monthly Total	105.9
+
+
+December 2002
+Date	RainAmount (mm)
+5	18.542
+6	11.176
+7	1.016
+11	7.620
+13	17.526
+14	.254
+19	.762
+20	4.318
+24	19.050
+25	7.620
+28	.254
+31	2.540
+Monthly Total	90.7
+
+2002 Year Total	989.8

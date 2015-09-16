@@ -58,6 +58,10 @@ wq.data = wq.data %>% filter(wq.data$Station.Abbrev %in% state.abb)
 wq.data$State.Name = cbind(state.abb,state.name)[,2][match(wq.data$Station.Abbrev,cbind(state.abb,state.name)[,1])]
 
 
+head(wq.data)
+
+
+
 oregon.wq <- filter(wq.data,State.Name =='Oregon')
 
 ggplot() + geom_path(aes(x=long,y=lat,group=group), data= oregon.df[oregon.df$long<=-122,]) +

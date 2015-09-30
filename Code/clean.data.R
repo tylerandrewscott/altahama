@@ -40,36 +40,12 @@ library(rWBclimate)
 library(stargazer)
 library(texreg)
 library(xtable)
-
-oregon <- readOGR(dsn='../quinalt/SpatialData/government_units/','state_nrcs_a_or')
-
-oregon@data$id = rownames(oregon@data)
-oregon.points = fortify(oregon, region="id")
-oregon.df = join(oregon.points, oregon@data, by="id")
-
-
 library(ggplot2);library(plyr);library(dplyr)
-ggplot(wq.data,aes(y=Latitude.Decimal.Degrees,x=Longitude.Decimal.Degrees)) + geom_point() + facet_wrap(~Sampling.Year)
-plot(sed.data$Longitude.Decimal.Degrees,sed.data$Latitude.Decimal.Degrees)
+
 
 wq.data$Station.Abbrev = gsub('[[:digit:]]|[[:punct:]]','',wq.data$Station.Name)
-
 wq.data = wq.data %>% filter(wq.data$Station.Abbrev %in% state.abb)
 wq.data$State.Name = cbind(state.abb,state.name)[,2][match(wq.data$Station.Abbrev,cbind(state.abb,state.name)[,1])]
-
-
-head(wq.data)
-
-
-
-oregon.wq <- filter(wq.data,State.Name =='Oregon')
-
-ggplot() + geom_path(aes(x=long,y=lat,group=group), data= oregon.df[oregon.df$long<=-122,]) +
-  geom_point(aes(x=Longitude.Decimal.Degrees,y=Latitude.Decimal.Degrees),data=oregon.wq,col='blue',pch=19)
-                   
-                   oregon.wq$Longitude.Decimal.Degrees))
-
-head(oregon.df)
 
 library(RCurl)
 library(mosaic)
@@ -95,6 +71,21 @@ wq.data$Column[grep('Bottom',wq.data$Water.Column.Sampled)] <- 'Bottom'
 wq.data$Column[grep('Mid',wq.data$Water.Column.Sampled)] <- 'Mid'
 wq.data$Column[grep('Varies',wq.data$Water.Column.Sampled)] <- 'Varies'
 
+#Create phosphorus metric
+wq.data = wq.data %>% group_by(Water.Measurement.Name) %>% mutate(Value = scale(Value)) %>% 
+  mutate(Water.Meas.Master = as.character(Water.Measurement.Name)) %>% ungroup()
+
+wq.data$Water.Meas.Master[grep('Phos|phos',wq.data$Water.Meas.Master)] = 'Phos'
+wq.data$Water.Meas.Master[grep('Nitr|nitr',wq.data$Water.Meas.Master)] = 'Nitr'
+wq.data$Water.Meas.Master[grep('Dissolved oxygen',wq.data$Water.Meas.Master)] = 'DO'
+wq.data$Water.Meas.Master[grep('Ammonium NH4',wq.data$Water.Meas.Master)] = 'NH4'
+wq.data$Water.Meas.Master[grep('Total suspended solids',wq.data$Water.Meas.Master)] = 'TSS'
+
+
+wq.data <- wq.data %>% filter(!duplicated(paste(Sampling.Collection.Date,Station.Name,Water.Column.Sampled,Water.Meas.Master)))
+
+metric.vector = c('DO','NH4','Phos','Nitr','TSS')
+
 wq.data <- filter(wq.data,!is.na(Water.Column.Sampled))
 wq.data$Latitude.Decimal.Degrees <- wq.data$Latitude.Decimal.Degrees - mean(wq.data$Latitude.Decimal.Degrees)
 wq.data$Longitude.Decimal.Degrees <- wq.data$Longitude.Decimal.Degrees - mean(wq.data$Longitude.Decimal.Degrees)
@@ -107,40 +98,64 @@ month.absolute.reference <- data.frame(
 
 wq.data <- join(wq.data,month.absolute.reference)
 
-metric.vector <- c("Dissolved oxygen",'Total suspended solids','Turbidity','pH','Total phosphorus','Nitrate and nitrite',
-'Ammonium NH4','Salinity')
 
-library(plyr)
-library(dplyr)
+
 mod.list = NULL
 
-for (i in metric.vector)
+for (i in 1:length(metric.vector))
 {
-  print(i)
   sub.metric = 
-    filter(wq.data,wq.data$Water.Measurement.Name==i,!is.na(Value),Value >=0) %>%
-    filter(!is.na(Column)) 
-  sub.metric$log.metric <- log(sub.metric$Value+0.01) 
-  sub.metric$log.metric <- sub.metric$log.metric - mean(sub.metric$log.metric)
-
+    filter(wq.data,wq.data$Water.Meas.Master==metric.vector[i],!is.na(Value)) 
+  #sub.metric$log.metric <- log(sub.metric$Value+0.01) 
+  #sub.metric$log.metric <- sub.metric$log.metric - mean(sub.metric$log.metric)
   require(INLA)
   #Model 0: No spatial effect
   form0 <-  y ~ 0 + b0 +  Latitude.Decimal.Degrees + Longitude.Decimal.Degrees + 
-   Conditional*Full + Column + f(State.Name,model='iid') + f(Month,model='iid')+
-    f(Year,model='iid') 
-  
+   Conditional*Full + f(Column,model='iid') + f(State.Name,model='iid') + f(Month,model='iid')+
+    f(Year,model='iid') + f(absolute.month,model='rw2')
+
   m <- inla(form0, family='gaussian', 
-               data=data.frame(y=sub.metric$log.metric, sub.metric,b0=1), 
+               data=data.frame(y=sub.metric$Value, sub.metric,b0=1), 
                control.predictor=list(compute=TRUE),
                control.fixed = list(expand.factor.strategy='model.matrix'),
                #     control.inla=list(strategy='laplace'), #note that we are here using laplace, default in R-INLA is the simplified laplace approximation (run faster)
-               control.compute=list(dic=TRUE, cpo=TRUE))
+               control.compute=list(dic=TRUE, cpo=TRUE,waic=TRUE))
   mod.list[[i]] <- m
 }
 
+table(wq.data$Month)
+wq.data$absolute.month
+
+summary(mod.list[[6]])
+table(sub.metric$Conditional)
+table(sub.metric$State.Name)
+
+
+dic.values3 = NULL
+for (i in 1:length(mod.list))
+{
+  dic.values3[i] = mod.list[[i]]$dic$dic
+}
+
+
+table(sub.metric$Full,sub.metric$State.Name)
+summary(mod.list[[1]])
+
+
+table(wq.data$State.Name,wq.data$Water.Meas.Master)
+
+
+dic.values2 - dic.values3
+
+dic.values2
+dic.values3
+
+mod.list[[1]]$dic$dic
+
 library(texreg)
-m$summary.fixed
-summary(m$fixed)
+
+
+round(mod.list[[7]]$summary.fixed,2)
 
 metric.vector[7]
 summary(mod.list[[7]])$fixed[4:5,]
@@ -150,7 +165,6 @@ summary(mod.list[[7]])$fixed[4:5,]
 library(INLA)
 
 inla.setOption(num.threads=16) 
-
 
 
 

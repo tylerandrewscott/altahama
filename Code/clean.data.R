@@ -50,6 +50,12 @@ wq.data$State.Name = cbind(state.abb,state.name)[,2][match(wq.data$Station.Abbre
 library(RCurl)
 library(mosaic)
 library(lubridate)
+
+
+cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")
+
+
+
 wq.data$sample.date = parse_date_time(wq.data$Sampling.Collection.Date,'dmy')
 
 cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")

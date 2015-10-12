@@ -29,6 +29,9 @@ library(xtable)
 library(magrittr)
 library(ihs)
 
+library(spdep)
+library(INLA)
+
 
 change.file.names = paste0('Input/',grep('LandCoverChange',list.files('Input/'),value=TRUE))
 data.list = lapply(as.list(change.file.names),read.csv)
@@ -43,8 +46,20 @@ focal.change.df <- change.df %>%
   filter(fromClass != toClass) %>% 
   filter(ToYear-FromYear<=5) %>%
   group_by(CountyName,FIPS,StateAbbrev,FromYear,ToYear) %>% summarise(TotalChange = sum(SquareMiles)) %>%
-  mutate(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1))) 
+  #mutate(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1))) %>%
+  mutate(uq = paste(FIPS,FromYear,ToYear,sep='.'))
 
+good.focal.change.df <- change.df %>% 
+  filter(fromClass %in% grep('Developed|Cultivated|Pasture',uq.classes,value=TRUE)) %>% 
+  filter(toClass %in% grep('Grass|Forest|Estuar|Wetland|Water|Palustrine',uq.classes,value=TRUE)) %>% 
+  filter(fromClass != toClass) %>% 
+  filter(ToYear-FromYear<=5) %>%
+  group_by(CountyName,FIPS,StateAbbrev,FromYear,ToYear) %>% summarise(TotalChange = sum(SquareMiles)) %>%
+  # mutate(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1))) %>%
+  mutate(uq = paste(FIPS,FromYear,ToYear,sep='.'))
+
+
+focal.change.df$TotalChange <- focal.change.df$TotalChange - good.focal.change.df$TotalChange[match(focal.change.df$uq,good.focal.change.df$uq)]
 
 total.file.names = paste0('Input/',grep('LandCover[[:digit:]]',list.files('Input/'),value=TRUE))
 data.list = lapply(as.list(total.file.names),read.csv)
@@ -52,102 +67,306 @@ total.df = join_all(data.list,type='full')
 
 area.df = total.df %>% group_by(Year,FIPS,StateAbbrev,CountyName) %>% summarise(Area = sum(SquareMiles)) %>% dplyr::select(-Year)
 
+area.df <- area.df %>% data.frame(.) %>% dplyr::select(-Year) %>% mutate(uq = paste(FIPS,CountyName)) %>% filter(!duplicated(uq)) %>% dplyr::select(-uq)
+
 focal.change.df <- join(focal.change.df,area.df)
 
-county.pop.2011 = read.delim('Input/county.acs.2011.txt',skip=10)
-head(county.pop.2011)
 
-county.pop.2006 = read.csv('Input/county.acs.2006.csv',skip=1)
+focal.change.df$PercentChange <- 100*  (focal.change.df$TotalChange / focal.change.df$Area)
+
+
+
+#ADd county population change
+county.pop.2011 = read.csv('Input/county.acs.2011.csv',skip=1)
+colnames(county.pop.2011) <- c('Id','FIPS','Geog','Pop.2011','Drop');county.pop.2011 <- dplyr::select(county.pop.2011,-Drop,-Id)
+
+
+county.pop.2009 = read.csv('Input/county.acs.2009.csv',skip=1)
+colnames(county.pop.2009) <- c('Id','FIPS','Geog','Pop.2009','Drop');county.pop.2009 <- dplyr::select(county.pop.2009,-Drop,-Id)
+
 county.pop.2000 = read.csv('Input/county.census.2000.csv',skip=1)
-county.pop.1990 = read.delim('Input/county.census.1990.txt',skip=1)
-
-head(county.pop.1990)
-
+colnames(county.pop.2000) <- c('Id','FIPS','Geog','Pop.2000','Drop')
+county.pop.2000 <- dplyr::select(county.pop.2000,-Drop,-Id)
 
 county.pop.1990 = read.delim('Input/county.census.1990.2000.txt',sep=',',header=T)
 names <- colnames(county.pop.1990)[-1]
 county.pop.1990 <- county.pop.1990[,-ncol(county.pop.1990)]
 colnames(county.pop.1990) <- names
+county.pop.1996 = county.pop.1990 %>% dplyr::select(FIPS,X1996,Name) %>% dplyr::rename(Pop.1996 = X1996,Geog = Name)
+
+county.pops = join_all(list(county.pop.1996,county.pop.2000,county.pop.2009,county.pop.2011),type='full',by='FIPS')
+
+county.pops <- county.pops %>% rename(Pop.2006 = Pop.2009, Pop.2001 = Pop.2000) %>% dplyr::select(-Geog)
+
+library(tidyr)
+county.pops.long <- county.pops %>% gather(Year,Pop,Pop.1996:Pop.2011) %>% mutate(FromYear = as.numeric(gsub('Pop.','',Year)),ToYear = FromYear + 5) 
+county.pops.long$ToPop <- (county.pops.long$Pop[match(paste(county.pops.long$FIPS,county.pops.long$ToYear),paste(county.pops.long$FIPS,county.pops.long$FromYear))])
+county.pops.long$FromPop <- county.pops.long$Pop
+county.pops.long$Perc.Change.Pop <- (county.pops.long$Pop[match(paste(county.pops.long$FIPS,county.pops.long$ToYear),paste(county.pops.long$FIPS,county.pops.long$FromYear))]- county.pops.long$Pop)/
+  county.pops.long$Pop
+county.pops.long$Perc.Change.Pop = county.pops.long$Perc.Change.Pop*100
+county.pops.long$FromYear[county.pops.long$FromYear == 2011] <- 2010
+county.pops.long$ToYear[county.pops.long$ToYear == 2011] <- 2010
+
+county.pops.long <- county.pops.long %>% dplyr::select(-Pop,-Year)
+focal.change.df <-join(focal.change.df,county.pops.long)
+
+focal.change.df$State <- state.name[match(focal.change.df$StateAbbrev,state.abb)]
+
+state.gdp <- read.csv('Input/state.gdp.pc.csv')
+state.gdp <- state.gdp %>% dplyr::select(-IndustryId,-IndustryClassification,-Description,-GeoFIPS,-ComponentId,-ComponentName,-Region)
 
 
-county.pop.1990$Name
+state.gdp.by.year <- state.gdp %>% gather(Year,GDPpc,-GeoName) %>% mutate(Year  = as.numeric(gsub('X','',Year))) %>% rename(State = GeoName)
 
-sum(!is.na(county.pop.1990$Name))
+for (i in 1:nrow(focal.change.df))
+{
+  focal.change.df$state.gdp.pc[i] <- 
+    state.gdp.by.year %>% dplyr::filter(State == focal.change.df$State[i],Year >= focal.change.df$FromYear[i],Year <= focal.change.df$ToYear[i]) %>% summarise(mean(GDPpc,na.rm=T)) %>% as.numeric(.)
+}
 
+focal.change.df$state.gdp.pc <- unlist(focal.change.df$state.gdp.pc)
 
-head(county.pop.1990)
-county.pop.1990$Name
-sum(!is.na(county.pop.1990$Name))
-class(county.pop.1990)
-head(county.pop.1990,20)
-dim(county.pop.1990)
-colnames(county.pop.1990)
-head(county.pop.1990,10)
+#change in gdp per capita across period
+#Note: 1997 is first year of new data from bls, so assigne 2007 data to 2006:
+break.1997 <- state.gdp.by.year[state.gdp.by.year$Year==1997,]
+break.1997$Year <- 1996
+state.gdp.by.year <- join(state.gdp.by.year,break.1997,type='full')
+focal.change.df$Perc.Change.State.GDP <-   100 * (state.gdp.by.year$GDPpc[match(paste(focal.change.df$State,focal.change.df$ToYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))] - state.gdp.by.year$GDPpc[match(paste(focal.change.df$State,focal.change.df$FromYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))])/state.gdp.by.year$GDPpc[match(paste(focal.change.df$State,focal.change.df$FromYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))]
 
-head(county.pop.2000)
-
-head(test)
-
-
-
-
-library(INLA)
+library(RCurl)
+library(mosaic)
+library(lubridate)
 
 
+cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")
+cnp.history <- cnp.history %>% mutate(Conditional = mdy(Conditional),Conditional.Year = year(Conditional),Full = mdy(Full),Full.Year =year(Full),state.name = State)
+state.ref = data.frame(state.abb,state.name)
+cnp.history <- join(cnp.history,state.ref)
 
-head(focal.change.df)
+focal.change.df$Conditional.Year <- cnp.history$Conditional.Year[match(focal.change.df$StateAbbrev,cnp.history$state.abb)]
+focal.change.df$Full.Year <- cnp.history$Full.Year[match(focal.change.df$StateAbbrev,cnp.history$state.abb)]
 
-area.df[area.df$CountyName=='Baldwin',]
-head(area.df)
-rm(data.list)
+focal.change.df$Full.Approval.Active <- ifelse(focal.change.df$Full.Year<=focal.change.df$FromYear,1,0)
+focal.change.df$Cond.Approval.Active <- ifelse(focal.change.df$Conditional.Year<=focal.change.df$FromYear,1,0)
+focal.change.df$Full.Approval.Active[is.na(focal.change.df$Full.Approval.Active)] <- 0 
+focal.change.df$Cond.Approval.Active[is.na(focal.change.df$Cond.Approval.Active)] <- 0 
+focal.change.df$Area100sqm <- focal.change.df$Area/100
 
+focal.change.df$TotalChangePerYear = focal.change.df$TotalChange/(focal.change.df$ToYear-focal.change.df$FromYear)
 
-head(total.df)
-
-test <- change.df %>%  filter(fromClass == toClass) %>% group_by(CountyName,ToYear,FromYear) %>% summarise(Total = sum(SquareMiles))
-  
-  
-head(test)  
-  
-  
-filter(toClass %in% grep('Developed|Cultivated|Pasture',uq.classes,value=TRUE)) %>% 
-  filter(fromClass %in% grep('Grass|Forest|Estuar|Wetland|Water|Palustrine',uq.classes,value=TRUE)) %>% 
-  filter(fromClass != toClass) %>% 
-  filter(ToYear-FromYear<=5) %>%
-  group_by(CountyName,FIPS,StateAbbrev,FromYear,ToYear) %>% summarise(TotalChange = sum(SquareMiles)) %>%
-  mutate(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1)))
+focal.change.df <- focal.change.df %>% filter(StateAbbrev!='DC') %>% mutate(FIPS = as.character(FIPS),ToPop10k = ToPop/10000,state.gdp.pc.1k = state.gdp.pc/1000)
 
 
+us.county = readOGR(dsn = '../duckabush/','tl_2013_us_county')
+us.county = us.county[as.numeric(as.character(us.county$STATEFP))<=56,]
+us.county = us.county[as.numeric(as.character(us.county$STATEFP))%in% c(2,3,14,15)==FALSE,]
+us.county$CFIPS = as.numeric(as.character(paste0(us.county$STATEFP,us.county$COUNTYFP)))
+focal.change.df$CFIPS <- as.numeric(focal.change.df$FIPS)
+us.county = us.county[us.county$CFIPS %in% focal.change.df$CFIPS,]
+
+row.names(us.county) <- as.character(seq(1,nrow(us.county)))
+us.county@data$rows <- row.names(us.county)
+county.nb <- poly2nb(us.county,queen=FALSE)
+nb2INLA("county.adj", county.nb)
+graph = inla.read.graph(filename='county.adj')
+county.ADJ = 'county.adj'
+
+focal.change.df$rowID <-  as.numeric(as.character(row.names(us.county)[match(focal.change.df$CFIPS, us.county@data$CFIPS)]))
+
+form.test <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+  as.factor(Full.Approval.Active) + f(ToYear,model = 'iid') + 
+  f(rowID,model='bym',graph = county.ADJ)
+
+mod.test <- inla(form.test,family='gaussian',,data = focal.change.df,
+                 control.compute=list(dic=TRUE,waic=TRUE))
+
+form.test <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+  as.factor(Cond.Approval.Active) + f(ToYear,model = 'iid') + 
+  f(rowID,model='bym',graph = county.ADJ)
+
+mod.test <- inla(form.test,family='gaussian',data = focal.change.df,
+                 control.compute=list(dic=TRUE,waic=TRUE))
+
+
+summary(mod.test)
 
 
 
-start = list(mu = 0, sigma = 2, lambda = 0, k = 1)
-X.var <- focal.change.df$TotalChange
-X.f = X ~ X.var
-test = ihs::ihs.mle(X.f,start=start)
-warnings()
-print(test)
+summary(mod.test)
+
+
+
+#focal.change.df$CFIPS[nchar(focal.change.df$CFIPS)==4] <- paste0(0,focal.change.df$CFIPS[nchar(focal.change.df$CFIPS)==4])
+#row.names(us.county) <- seq(1,length())
+
+
+
+
+
+
+table(nchar(focal.change.df$CFIPS))
+
+
+focal.change.df$CFIPS[is.na(match(focal.change.df$CFIPS, us.county@data$CFIPS))]
+
+sort(us.county@data$CFIPS)
+
+
+
+
+test = nb2mat(county.nb, style="B")
+
+adjmat<-as(nb2mat(county.nb, style="B"), "dgTMatrix") #Binary adjacency matrix
+
+
+form.test <- TotalChange ~ 1 + #Perc.Change.Pop + Perc.Change.State.GDP +
+  f(CFIPS,model='bym',graph = county.ADJ)
+
+
+
+
+
+
+county.ADJ = 'county.adj'
+
+
+
+#Load libraries
+
+
+#Load data from a shapefile included in the spdep package
+nc.sids <- readShapePoly(system.file("etc/shapes/sids.shp", package="spdep")[1])
+
+#Create adjacency matrix
+nc.nb <- poly2nb(nc.sids)
+
+?poly2nb
+#Compute expted number of cases
+nc.sids$EXP<-nc.sids$BIR74*sum(nc.sids$SID74)/sum(nc.sids$BIR74)
+
+#Compute proportion of non-white births
+nc.sids$NWPROP<-nc.sids$NWBIR74/nc.sids$BIR74
+
+#Convert the adjacency matrix into a file in the INLA format
+nb2INLA("nc.adj", nc.nb)
+
+#Create areas IDs to match the values in nc.adj
+nc.sids$ID<-1:100
+m1<-inla(SID74~NWPROP+f(nc.sids$ID, model="besag", graph="nc.adj"),
+         family="poisson", E=nc.sids$EXP, data=as.data.frame(nc.sids),
+         control.predictor=list(compute=TRUE))
+
+#Alternatively, a sparse matrix can be used
+adjmat<-as(nb2mat(nc.nb, style="B"), "dgTMatrix") #Binary adjacency matrix
+m2<-inla(SID74~NWPROP+f(nc.sids$ID, model="besag", graph=adjmat),
+         family="poisson", E=nc.sids$EXP, data=as.data.frame(nc.sids),
+         control.predictor=list(compute=TRUE))
+
+
+#Get realtive risk estimates
+nc.sids$RR1<-m1$summary.fitted.values[,1]
+nc.sids$RR2<-m2$summary.fitted.values[,1]
+
+#Display relative risk estimates to show that both examples fit the same model
+spplot(nc.sids, c("RR1", "RR2"))
+
+
+
+
+
+
+
+
+mod <- lm(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + as.character(FIPS) + as.factor(ToYear) + State,data = focal.change.df)
+
+
+mod1 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + (1|FIPS) + (1|ToYear) ,data = focal.change.df)
+mod2 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+               as.factor(Cond.Approval.Active) + 
+               (1|FIPS) + (1|ToYear) ,data = focal.change.df)
+mod3 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+               as.factor(Full.Approval.Active) + 
+               (1|FIPS) + (1|ToYear) ,data = focal.change.df)
+as.factor(Full.Approval.Active) + as.factor(Cond.Approval.Active):as.factor(Full.Approval.Active) + 
+BIC(mod1,mod2,mod3)
+
+
+
+
+summary(mod2)
+summary(mod3)
+
+
+
+table(focal.change.df$Full.Approval.Active,focal.change.df$Cond.Approval.Active)
+
+summary(mod2)
+names(focal.change.df)
+focal.change.df$State
+BIC(mod)
+
+
+table(focal.change.df$Full.Approval.Active)
+str(focal.change.df)
+
+
+round(focal.change.df$ToPop10k,2)
+
+
+
+focal.change.df$Area
+
+
+sum(is.na(focal.change.df$TotalChange))
+sum(is.na(focal.change.df$FIPS))
+sum(is.na(focal.change.df$Perc.Change.State.GDP))
+
+focal.change.df[is.na(focal.change.df$Perc.Change.State.GDP),]
+
+focal.change.df[focal.change.df$FIPS==9015,]
+
+?summarise
+
+library(lme4)
+
+mod <- lmer(TotalChange ~ Perc.Change.Pop + Area100sqm + ToYear + Cond.Approval.Active + Full.Approval.Active + 
+              Cond.Approval.Active:Full.Approval.Active - 1 + 
+              (1|FIPS) + (1|StateAbbrev),data = focal.change.df)
+
+
+table(focal.change.df$FIPS)
+dim(focal.change.df)
+
+
+
+
+
+
+
+hist(focal.change.df$TotalChange.ihs)
+hist(focal.change.df$TotalChange)
+
+summary(focal.change.df$TotalChange)
+summary(focal.change.df$TotalChange.ihs)
+
+ggplot(focal.change.df,aes(x=as.factor(ToYear),y=TotalChange.ihs)) + geom_boxplot() + theme_bw()
+
+test = focal.change.df$TotalChange
+
 summary(test)
 
-coef(test)
+hist(log(test + sqrt((test^test)+1)))
+
+
+(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1))) 
+
+hist(log(test + 0.01))
+lmer(TotalChange.ihs)
 
 
 
 
 
-focal.change.df$`sum(SquareMiles)`==0
-hist(focal.change.df$`sum(SquareMiles)`)
-
-max(focal.change.df$`sum(SquareMiles)`)
-focal.change.df[focal.change.df$CountyName=='Pierce',]
-hist(focal.change.df$`sum(SquareMiles)`)
-head(focal.change.df)
-
-head(focal.change.df)
 
 
-head(change.df)
-
-
-
-head(change.df)

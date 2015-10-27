@@ -1,4 +1,7 @@
 rm(list=ls())
+
+onscreen = TRUE
+
 require(foreign)
 require(plyr)
 require(dplyr)
@@ -76,30 +79,6 @@ focal.change.df <- join(focal.change.df,area.df)
 focal.change.df$PercentChange <- 100*  (focal.change.df$TotalChange / focal.change.df$Area)
 
 library(tidyr)
-bea.west = read.csv('Input/bea_west_income.csv') ; bea.west = bea.west[-c(min(grep('Legend',bea.west$GeoFips)):nrow(bea.west)),] 
-bea.mw = read.csv('Input/bea_mw_income.csv') ; bea.mw = bea.mw[-c(min(grep('Legend',bea.mw$GeoFips)):nrow(bea.mw)),] 
-bea.atl = read.csv('Input/bea_atl_income.csv') ; bea.atl = bea.atl[-c(min(grep('Legend',bea.atl$GeoFips)):nrow(bea.atl)),] )
-bea.gulf = read.csv('Input/bea_gulf_income.csv') 
-
-; bea.gulf = bea.gulf[-c(min(grep('Legend',bea.gulf$GeoFips)):nrow(bea.gulf)),] 
-bea.ne = read.csv('Input/bea_ne_income.csv') ; bea.ne = bea.ne[-c(min(grep('Legend',bea.ne$GeoFips)):nrow(bea.ne)),] 
-
-bea.all = join_all(list(bea.west,bea.atl,bea.mw,bea.gulf,bea.ne),type='full')
-bea.long = gather(bea.all,Year,Value,-Description,-GeoFips,-GeoName,-LineCode)
-
-bea.long$Year = as.numeric(as.character(gsub('X','',bea.long$Year)))
-
-
-bea.long = bea.long[nchar(as.character(bea.long$GeoFips))<=5,]
-bea.long$GeoFips = as.character(bea.long$GeoFips)
-
-bea.long$GeoFips[nchar(bea.long$GeoFips)==4] = paste0(0,bea.long$GeoFips[nchar(bea.long$GeoFips)==4])
-
-
-focal.change.df[focal.change.df$FIPS %in% bea.long$GeoFips==FALSE,]
-
-focal.change.df[focal.change.df$CountyName=='Zapata',]
-bea.long[bea.long$GeoName=='Zapata',]
 
 
 #ADd county population change
@@ -226,7 +205,7 @@ focal.change.df$Area100sqm <- focal.change.df$Area/100
 
 focal.change.df$TotalChangePerYear = focal.change.df$TotalChange/(focal.change.df$ToYear-focal.change.df$FromYear)
 
-focal.change.df <- focal.change.df %>% filter(StateAbbrev!='DC') %>% mutate(FIPS = as.character(FIPS),ToPop10k = ToPop/10000,state.gdp.pc.1k = state.gdp.pc/1000)
+focal.change.df <- focal.change.df %>% filter(StateAbbrev!='DC') %>% mutate(FIPS = as.character(FIPS),ToPop10k = ToPop/10000,FromPop10k = FromPop/10000,state.gdp.pc.1k = state.gdp.pc/1000)
 
 us.county = readOGR(dsn = '../duckabush/','tl_2013_us_county')
 us.county = us.county[as.numeric(as.character(us.county$STATEFP))<=56,]
@@ -245,224 +224,160 @@ county.ADJ = 'county.adj'
 focal.change.df$rowID <-  as.numeric(as.character(row.names(us.county)[match(focal.change.df$CFIPS, us.county@data$CFIPS)]))
 
 
-
+#model settings
+correctionfactor = 10
+pintercept = 0.001
+DIC = TRUE
+WAIC = TRUE
+CPO = TRUE
 ### Land Cover Chqnge Models
 
-form.full.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+form.full.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + FromPop10k + 
   as.factor(Full.Approval.Active) + f(ToYear,model = 'iid') + 
   f(rowID,model='bym',graph = county.ADJ)
 
-mod.full.lc <- inla(form.full.lc,family='gaussian',,data = focal.change.df,
-                 control.compute=list(dic=TRUE,waic=TRUE))
+mod.full.lc <- inla(form.full.lc,family='gaussian',data = focal.change.df,
+                    control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                    control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                    verbose=T,
+                    control.inla = list(
+                      correct = TRUE,
+                      correct.factor = correctionfactor))
 
-form.cond.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
+form.cond.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + FromPop10k + 
   as.factor(Cond.Approval.Active) + f(ToYear,model = 'iid') + 
   f(rowID,model='bym',graph = county.ADJ)
 
 mod.cond.lc <- inla(form.cond.lc,family='gaussian',data = focal.change.df,
-                 control.compute=list(dic=TRUE,waic=TRUE))
+                    control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                    control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                    verbose=T,
+                    control.inla = list(
+                      correct = TRUE,
+                      correct.factor = correctionfactor))
 
+form.both.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + FromPop10k + 
+  as.factor(Cond.Approval.Active) + as.factor(Full.Approval.Active) + f(ToYear,model = 'iid') + 
+  f(rowID,model='bym',graph = county.ADJ)
 
-form.collab.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
-  as.factor(Part.Outreach.Active)+
-  as.factor(Part.Advisory.Active)+
-  as.factor(Part.Input.Active) +
-  as.factor(Part.Outreach.Active):as.factor(Part.Advisory.Active) +
-  as.factor(Part.Input.Active):as.factor(Part.Advisory.Active) +
-  as.factor(Part.Outreach.Active):as.factor(Part.Input.Active) +
+mod.both.lc <- inla(form.both.lc,family='gaussian',data = focal.change.df,
+                    control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                    control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                    verbose=T,
+                    control.inla = list(
+                      correct = TRUE,
+                      correct.factor = correctionfactor))
+
+form.collab.coord.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + FromPop10k + 
+  as.factor(Full.Approval.Active) + 
   as.factor(Coord.Formal.Agreements.Active) + 
   as.factor(Coord.Spec.Responsibilities.Active) + 
   as.factor(Coord.Institution.Active)+
-  as.factor(Coord.Formal.Agreements.Active):as.factor(Coord.Spec.Responsibilities.Active) + 
-  as.factor(Coord.Institution.Active):as.factor(Coord.Spec.Responsibilities.Active)+
-  as.factor(Coord.Institution.Active):as.factor(Coord.Formal.Agreements.Active)+
-   + f(ToYear,model = 'iid') + 
+  #as.factor(Coord.Formal.Agreements.Active):as.factor(Coord.Spec.Responsibilities.Active) + 
+  #as.factor(Coord.Institution.Active):as.factor(Coord.Spec.Responsibilities.Active)+
+  #as.factor(Coord.Institution.Active):as.factor(Coord.Formal.Agreements.Active)+
+    f(ToYear,model = 'iid') + 
   f(rowID,model='bym',graph = county.ADJ)
 
-mod.collab.lc <- inla(form.collab.lc,family='gaussian',data = focal.change.df,
-                   control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                   control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                   verbose=T,
-                   control.inla = list(
-                     correct = TRUE,
-                     correct.factor = correctionfactor))
 
 
+mod.collab.coord.lc <- inla(form.collab.coord.lc,family='gaussian',data = focal.change.df,
+                      control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                      control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                      verbose=T,
+                      control.inla = list(
+                        correct = TRUE,
+                        correct.factor = correctionfactor))
+
+form.collab.part.lc <- TotalChange ~ 1 + Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + FromPop10k + 
+  as.factor(Full.Approval.Active) + 
+  as.factor(Part.Outreach.Active)+
+  as.factor(Part.Advisory.Active)+
+  as.factor(Part.Input.Active) +
+  #  as.factor(Part.Outreach.Active):as.factor(Part.Advisory.Active) +
+  #  as.factor(Part.Input.Active):as.factor(Part.Advisory.Active) +
+  #  as.factor(Part.Outreach.Active):as.factor(Part.Input.Active) +
+  f(ToYear,model = 'iid') + 
+  f(rowID,model='bym',graph = county.ADJ)
+
+
+mod.collab.part.lc <- inla(form.collab.part.lc,family='gaussian',data = focal.change.df,
+                           control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                           control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                           verbose=T,
+                           control.inla = list(
+                             correct = TRUE,
+                             correct.factor = correctionfactor))
 library(texreg)
 
-
-
-
-#focal.change.df$CFIPS[nchar(focal.change.df$CFIPS)==4] <- paste0(0,focal.change.df$CFIPS[nchar(focal.change.df$CFIPS)==4])
-#row.names(us.county) <- seq(1,length())
-
-
-
-
-
-
-table(nchar(focal.change.df$CFIPS))
-
-
-focal.change.df$CFIPS[is.na(match(focal.change.df$CFIPS, us.county@data$CFIPS))]
-
-sort(us.county@data$CFIPS)
-
-
-
-
-test = nb2mat(county.nb, style="B")
-
-adjmat<-as(nb2mat(county.nb, style="B"), "dgTMatrix") #Binary adjacency matrix
-
-
-form.test <- TotalChange ~ 1 + #Perc.Change.Pop + Perc.Change.State.GDP +
-  f(CFIPS,model='bym',graph = county.ADJ)
-
-
-
-
-
-
-county.ADJ = 'county.adj'
-
-
-
-#Load libraries
-
-
-#Load data from a shapefile included in the spdep package
-nc.sids <- readShapePoly(system.file("etc/shapes/sids.shp", package="spdep")[1])
-
-#Create adjacency matrix
-nc.nb <- poly2nb(nc.sids)
-
-?poly2nb
-#Compute expted number of cases
-nc.sids$EXP<-nc.sids$BIR74*sum(nc.sids$SID74)/sum(nc.sids$BIR74)
-
-#Compute proportion of non-white births
-nc.sids$NWPROP<-nc.sids$NWBIR74/nc.sids$BIR74
-
-#Convert the adjacency matrix into a file in the INLA format
-nb2INLA("nc.adj", nc.nb)
-
-#Create areas IDs to match the values in nc.adj
-nc.sids$ID<-1:100
-m1<-inla(SID74~NWPROP+f(nc.sids$ID, model="besag", graph="nc.adj"),
-         family="poisson", E=nc.sids$EXP, data=as.data.frame(nc.sids),
-         control.predictor=list(compute=TRUE))
-
-#Alternatively, a sparse matrix can be used
-adjmat<-as(nb2mat(nc.nb, style="B"), "dgTMatrix") #Binary adjacency matrix
-m2<-inla(SID74~NWPROP+f(nc.sids$ID, model="besag", graph=adjmat),
-         family="poisson", E=nc.sids$EXP, data=as.data.frame(nc.sids),
-         control.predictor=list(compute=TRUE))
-
-
-#Get realtive risk estimates
-nc.sids$RR1<-m1$summary.fitted.values[,1]
-nc.sids$RR2<-m2$summary.fitted.values[,1]
-
-#Display relative risk estimates to show that both examples fit the same model
-spplot(nc.sids, c("RR1", "RR2"))
-
-
-
-
-
-
-
-
-mod <- lm(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + as.character(FIPS) + as.factor(ToYear) + State,data = focal.change.df)
-
-
-mod1 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + (1|FIPS) + (1|ToYear) ,data = focal.change.df)
-mod2 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
-               as.factor(Cond.Approval.Active) + 
-               (1|FIPS) + (1|ToYear) ,data = focal.change.df)
-mod3 <- lmer(TotalChange ~  Perc.Change.Pop + Perc.Change.State.GDP + state.gdp.pc.1k + Area100sqm + ToPop10k + 
-               as.factor(Full.Approval.Active) + 
-               (1|FIPS) + (1|ToYear) ,data = focal.change.df)
-as.factor(Full.Approval.Active) + as.factor(Cond.Approval.Active):as.factor(Full.Approval.Active) + 
-BIC(mod1,mod2,mod3)
-
-
-
-
-summary(mod2)
-summary(mod3)
-
-
-
-table(focal.change.df$Full.Approval.Active,focal.change.df$Cond.Approval.Active)
-
-summary(mod2)
-names(focal.change.df)
-focal.change.df$State
-BIC(mod)
-
-
-table(focal.change.df$Full.Approval.Active)
-str(focal.change.df)
-
-
-round(focal.change.df$ToPop10k,2)
-
-
-
-focal.change.df$Area
-
-
-sum(is.na(focal.change.df$TotalChange))
-sum(is.na(focal.change.df$FIPS))
-sum(is.na(focal.change.df$Perc.Change.State.GDP))
-
-focal.change.df[is.na(focal.change.df$Perc.Change.State.GDP),]
-
-focal.change.df[focal.change.df$FIPS==9015,]
-
-?summarise
-
-library(lme4)
-
-mod <- lmer(TotalChange ~ Perc.Change.Pop + Area100sqm + ToYear + Cond.Approval.Active + Full.Approval.Active + 
-              Cond.Approval.Active:Full.Approval.Active - 1 + 
-              (1|FIPS) + (1|StateAbbrev),data = focal.change.df)
-
-
-table(focal.change.df$FIPS)
-dim(focal.change.df)
-
-
-
-
-
-
-
-hist(focal.change.df$TotalChange.ihs)
-hist(focal.change.df$TotalChange)
-
-summary(focal.change.df$TotalChange)
-summary(focal.change.df$TotalChange.ihs)
-
-ggplot(focal.change.df,aes(x=as.factor(ToYear),y=TotalChange.ihs)) + geom_boxplot() + theme_bw()
-
-test = focal.change.df$TotalChange
-
-summary(test)
-
-hist(log(test + sqrt((test^test)+1)))
-
-
-(TotalChange.ihs = log(TotalChange + sqrt(TotalChange^TotalChange + 1))) 
-
-hist(log(test + 0.01))
-lmer(TotalChange.ihs)
-
-
-
-
+tex.cond.lc <- texreg::createTexreg(
+  coef.names = mod.cond.lc$names.fixed,
+  coef = mod.cond.lc$summary.lincomb.derived$mean,
+  ci.low = mod.cond.lc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.cond.lc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.cond.lc$dic$dic,mod.cond.lc$waic$waic))
+
+tex.full.lc <- texreg::createTexreg(
+  coef.names = mod.full.lc$names.fixed,
+  coef = mod.full.lc$summary.lincomb.derived$mean,
+  ci.low = mod.full.lc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.full.lc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.full.lc$dic$dic,mod.full.lc$waic$waic))
+
+tex.both.lc <- texreg::createTexreg(
+  coef.names = mod.both.lc$names.fixed,
+  coef = mod.both.lc$summary.lincomb.derived$mean,
+  ci.low = mod.both.lc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.both.lc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.both.lc$dic$dic,mod.both.lc$waic$waic))
+
+if(onscreen)
+{
+htmlreg(l=list(tex.cond.lc,tex.full.lc,tex.both.lc),leading.zero=TRUE,
+        omit.coef = c('b0'),ci.test = 0,digits = 3,
+        custom.model.names = c('Conditional','Full','Conditional:Full'),
+        file = 'Output/Version1/lc.approval.table.html')}
+
+if(!onscreen)
+{
+  htmlreg(l=list(tex.cond.lc,tex.full.lc,tex.both.lc),leading.zero=TRUE,
+          omit.coef = c('b0'),ci.test = 0,digits = 3,
+          custom.model.names = c('Conditional','Full','Conditional:Full'),
+          file = '../Output/Version1/lc.approval.table.html')}
+
+
+tex.collab.coord.lc <- texreg::createTexreg(
+  coef.names = mod.collab.coord.lc$names.fixed,
+  coef = mod.collab.coord.lc$summary.lincomb.derived$mean,
+  ci.low = mod.collab.coord.lc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.collab.coord.lc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.collab.coord.lc$dic$dic,mod.collab.coord.lc$waic$waic))
+
+tex.collab.part.lc <- texreg::createTexreg(
+  coef.names = mod.collab.part.lc$names.fixed,
+  coef = mod.collab.part.lc$summary.lincomb.derived$mean,
+  ci.low = mod.collab.part.lc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.collab.part.lc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.collab.part.lc$dic$dic,mod.collab.part.lc$waic$waic))
+
+if(!onscreen)
+{
+htmlreg(l=list(tex.collab.coord.lc,tex.collab.part.lc),leading.zero=TRUE,
+        omit.coef = c('b0'),ci.test = 0,digits = 3,
+        custom.model.names = c('Coordination','Participation'),
+        file = '../Output/Version1/lc.collab.table.html')}
+
+if(onscreen)
+{
+  htmlreg(l=list(tex.collab.coord.lc,tex.collab.part.lc),leading.zero=TRUE,
+          omit.coef = c('b0'),ci.test = 0,digits = 3,
+          custom.model.names = c('Coordination','Participation'),
+          file = 'Output/Version1/lc.collab.table.html')}
 
 
 

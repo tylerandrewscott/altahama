@@ -238,7 +238,7 @@ bea.tex = read.csv('Input/bea_tex_inc.csv')
 bea.west = read.csv('Input/bea_west_income.csv')
 bea.gulf = read.csv('Input/bea_gulf_income.csv')
 bea.ne = read.csv('Input/bea_ne_income.csv')
-bea.va = read.csv('Input/bea_va_inc.csv')
+bea.va = read.csv('Input/bea_va_income.csv')
 bea = join_all(list(bea.mw,bea.atl,bea.tex,bea.west,bea.ne,bea.va,bea.gulf),type='full')
 
 beal = gather(bea,Year,Value,-GeoFips,-GeoName,-LineCode,-Description)
@@ -249,7 +249,11 @@ beal$uq = paste(beal$GeoFips,beal$Year)
 focal.change.df$From.County.Per.Capita = beal$Value[match(paste(focal.change.df$CFIPS,focal.change.df$FromYear),beal$uq)]
 focal.change.df$To.County.Per.Capita = beal$Value[match(paste(focal.change.df$CFIPS,focal.change.df$ToYear),beal$uq)]
 
-sort(focal.change.df$CFIPS[is.na(focal.change.df$From.County.Per.Capita)])
+
+sort(focal.change.df$CountyName[is.na(focal.change.df$From.County.Per.Capita)])
+
+unique(bea.va$GeoName)
+
 
 unique(beal$GeoFips[as.numeric(beal$GeoFips)<=51830&as.numeric(beal$GeoFips>=51059)])
 

@@ -155,6 +155,11 @@ library(mosaic)
 library(lubridate)
 
 
+locgov = read.csv('Input/COG_2012_ORG03.US01_with_ann.csv')
+locgov = locgov %>% rename(State.Name = GC.display.label.1)
+
+match(focal.change.df$State.Name)
+
 
 
 

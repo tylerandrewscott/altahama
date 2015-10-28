@@ -128,36 +128,34 @@ state.gdp <- read.csv('Input/state.gdp.pc.csv')
 state.gdp = state.gdp[state.gdp$GeoName %in% state.ref$state.name,]
 state.gdp <- state.gdp %>% dplyr::select(-IndustryId,-IndustryClassification,-Description,-GeoFIPS,-ComponentId,-ComponentName,-Region)
 
+
+
 state.gdp.by.year <- state.gdp %>% gather(Year,GDPpc,-GeoName) %>% mutate(Year  = as.numeric(gsub('X','',Year))) %>% rename(State = GeoName)
+
+extra96 = state.gdp.by.year[state.gdp.by.year$Year==1997,]
+extra96$Year = 1996
+state.gdp.by.year = join(state.gdp.by.year,extra96,type='full')
 
 state.gdp.by.year$State = as.character(state.gdp.by.year$State)
 
-focal.change.df$state.gdp.pc = NA
-for (i in 1:nrow(focal.change.df))
-{
-  focal.change.df$state.gdp.pc[i] =
-  state.gdp.by.year %>% dplyr::filter(State == focal.change.df$State.Name[i],
-                                      Year >= focal.change.df$FromYear[i],
-                                      Year <= focal.change.df$ToYear[i]) %>%
-  summarise(mean(GDPpc,na.rm=T)) %>% as.numeric(.)
-}
+
+focal.change.df$To.Year.state.gdp.pc = state.gdp.by.year$GDPpc[match(paste(focal.change.df$State.Name,focal.change.df$ToYear),
+paste(state.gdp.by.year$State,state.gdp.by.year$Year))]
+
+focal.change.df$From.Year.state.gdp.pc = state.gdp.by.year$GDPpc[match(paste(focal.change.df$State.Name,focal.change.df$FromYear),
+                                                                     paste(state.gdp.by.year$State,state.gdp.by.year$Year))]
+
 
 focal.change.df = focal.change.df %>% filter(CountyName != 'District of Columbia')
 
-#change in gdp per capita across period
-#Note: 1997 is first year of new data from bls, so assigne 2007 data to 2006:
-break.1997 <- state.gdp.by.year[state.gdp.by.year$Year==1997,]
-
-break.1997$Year <- 1996
-
-state.gdp.by.year <- join(state.gdp.by.year,break.1997,type='full')
-
-focal.change.df$Perc.Change.State.GDP <-  100 * (state.gdp.by.year$GDPpc[match(paste(focal.change.df$State.Name,focal.change.df$ToYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))] - 
-           state.gdp.by.year$GDPpc[match(paste(focal.change.df$State.Name,focal.change.df$FromYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))])/state.gdp.by.year$GDPpc[match(paste(focal.change.df$State.Name,focal.change.df$FromYear),paste(state.gdp.by.year$State,state.gdp.by.year$Year))]
+focal.change.df$Perc.Change.State.GDP = 100 * (focal.change.df$To.Year.state.gdp.pc-focal.change.df$From.Year.state.gdp.pc)/focal.change.df$From.Year.state.gdp.pc 
 
 library(RCurl)
 library(mosaic)
 library(lubridate)
+
+
+
 
 
 cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")
@@ -249,8 +247,12 @@ beal$uq = paste(beal$GeoFips,beal$Year)
 focal.change.df$From.County.Per.Capita = beal$Value[match(paste(focal.change.df$CFIPS,focal.change.df$FromYear),beal$uq)]
 focal.change.df$To.County.Per.Capita = beal$Value[match(paste(focal.change.df$CFIPS,focal.change.df$ToYear),beal$uq)]
 
+focal.change.df$To.County.Per.Capita[is.na(focal.change.df$To.County.Per.Capita)]
 
-sort(focal.change.df$CountyName[is.na(focal.change.df$From.County.Per.Capita)])
+
+focal.change.df$state.gdp.pc.1k
+
+
 
 unique(bea.va$GeoName)
 

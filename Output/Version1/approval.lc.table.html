@@ -1,0 +1,253 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<table cellspacing="0" align="center" style="border: none;">
+<caption align="bottom" style="margin-top:0.3em;">Statistical models</caption>
+<tr>
+<th style="text-align: left; border-top: 2px solid black; border-bottom: 1px solid black; padding-right: 12px;"></th>
+<th style="text-align: left; border-top: 2px solid black; border-bottom: 1px solid black; padding-right: 12px;"><b>Developed</b></th>
+<th style="text-align: left; border-top: 2px solid black; border-bottom: 1px solid black; padding-right: 12px;"><b>Deforestation</b></th>
+<th style="text-align: left; border-top: 2px solid black; border-bottom: 1px solid black; padding-right: 12px;"><b>Wetlands</b></th>
+<th style="text-align: left; border-top: 2px solid black; border-bottom: 1px solid black; padding-right: 12px;"><b>Cultivated</b></th>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">(Intercept)</td>
+<td style="padding-right: 12px; border: none;">0.340</td>
+<td style="padding-right: 12px; border: none;">-0.744</td>
+<td style="padding-right: 12px; border: none;">0.234<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.077</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.339; 1.011]</td>
+<td style="padding-right: 12px; border: none;">[-1.535; 0.045]</td>
+<td style="padding-right: 12px; border: none;">[0.065; 0.401]</td>
+<td style="padding-right: 12px; border: none;">[-0.675; 0.827]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">FromYear.county.const.emp</td>
+<td style="padding-right: 12px; border: none;">-190.476<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">26.670<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">8.934<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-4.313</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-211.903; -169.075]</td>
+<td style="padding-right: 12px; border: none;">[7.856; 45.466]</td>
+<td style="padding-right: 12px; border: none;">[1.093; 16.764]</td>
+<td style="padding-right: 12px; border: none;">[-21.346; 12.708]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">FromYear.county.nat.emp</td>
+<td style="padding-right: 12px; border: none;">0.243<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.001</td>
+<td style="padding-right: 12px; border: none;">0.039<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.023</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.176; 0.311]</td>
+<td style="padding-right: 12px; border: none;">[-0.054; 0.057]</td>
+<td style="padding-right: 12px; border: none;">[0.018; 0.060]</td>
+<td style="padding-right: 12px; border: none;">[-0.059; 0.013]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">total.munic</td>
+<td style="padding-right: 12px; border: none;">-0.030</td>
+<td style="padding-right: 12px; border: none;">-0.044<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.013<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.012</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.068; 0.008]</td>
+<td style="padding-right: 12px; border: none;">[-0.072; -0.015]</td>
+<td style="padding-right: 12px; border: none;">[-0.024; -0.003]</td>
+<td style="padding-right: 12px; border: none;">[-0.028; 0.004]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">total.special.districts</td>
+<td style="padding-right: 12px; border: none;">0.017<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.038<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.001</td>
+<td style="padding-right: 12px; border: none;">0.002</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.005; 0.029]</td>
+<td style="padding-right: 12px; border: none;">[0.029; 0.048]</td>
+<td style="padding-right: 12px; border: none;">[-0.002; 0.005]</td>
+<td style="padding-right: 12px; border: none;">[-0.004; 0.007]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">From.County.Per.Capita</td>
+<td style="padding-right: 12px; border: none;">5.531</td>
+<td style="padding-right: 12px; border: none;">6.166</td>
+<td style="padding-right: 12px; border: none;">12.466</td>
+<td style="padding-right: 12px; border: none;">4.663</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-56.525; 67.534]</td>
+<td style="padding-right: 12px; border: none;">[-55.877; 68.158]</td>
+<td style="padding-right: 12px; border: none;">[-49.348; 74.229]</td>
+<td style="padding-right: 12px; border: none;">[-57.349; 66.623]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Change.County.Per.Capita</td>
+<td style="padding-right: 12px; border: none;">0.011<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.000</td>
+<td style="padding-right: 12px; border: none;">-0.005<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.006<sup style="vertical-align: 0px;">*</sup></td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.006; 0.017]</td>
+<td style="padding-right: 12px; border: none;">[-0.005; 0.006]</td>
+<td style="padding-right: 12px; border: none;">[-0.007; -0.003]</td>
+<td style="padding-right: 12px; border: none;">[0.000; 0.011]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Perc.Change.Pop</td>
+<td style="padding-right: 12px; border: none;">0.018<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.004</td>
+<td style="padding-right: 12px; border: none;">0.003</td>
+<td style="padding-right: 12px; border: none;">0.010<sup style="vertical-align: 0px;">*</sup></td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.010; 0.026]</td>
+<td style="padding-right: 12px; border: none;">[-0.010; 0.003]</td>
+<td style="padding-right: 12px; border: none;">[-0.000; 0.005]</td>
+<td style="padding-right: 12px; border: none;">[0.003; 0.017]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Area100sqm</td>
+<td style="padding-right: 12px; border: none;">-0.487<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.259<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.043<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.041<sup style="vertical-align: 0px;">*</sup></td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.564; -0.409]</td>
+<td style="padding-right: 12px; border: none;">[0.202; 0.315]</td>
+<td style="padding-right: 12px; border: none;">[-0.064; -0.022]</td>
+<td style="padding-right: 12px; border: none;">[0.009; 0.074]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">FromPop10k</td>
+<td style="padding-right: 12px; border: none;">-0.015<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.023<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.005<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.002</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.024; -0.006]</td>
+<td style="padding-right: 12px; border: none;">[-0.031; -0.015]</td>
+<td style="padding-right: 12px; border: none;">[-0.008; -0.002]</td>
+<td style="padding-right: 12px; border: none;">[-0.003; 0.007]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Forested</td>
+<td style="padding-right: 12px; border: none;">0.083</td>
+<td style="padding-right: 12px; border: none;">0.169<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.010</td>
+<td style="padding-right: 12px; border: none;">-0.050</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.033; 0.198]</td>
+<td style="padding-right: 12px; border: none;">[0.072; 0.265]</td>
+<td style="padding-right: 12px; border: none;">[-0.024; 0.044]</td>
+<td style="padding-right: 12px; border: none;">[-0.104; 0.005]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Ag</td>
+<td style="padding-right: 12px; border: none;">0.293<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.334<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.016</td>
+<td style="padding-right: 12px; border: none;">0.471<sup style="vertical-align: 0px;">*</sup></td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.091; 0.495]</td>
+<td style="padding-right: 12px; border: none;">[-0.493; -0.175]</td>
+<td style="padding-right: 12px; border: none;">[-0.072; 0.039]</td>
+<td style="padding-right: 12px; border: none;">[0.386; 0.556]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Wetlands</td>
+<td style="padding-right: 12px; border: none;">0.011<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.006<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.002<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.000</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[0.010; 0.013]</td>
+<td style="padding-right: 12px; border: none;">[-0.007; -0.005]</td>
+<td style="padding-right: 12px; border: none;">[0.002; 0.003]</td>
+<td style="padding-right: 12px; border: none;">[-0.001; 0.000]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">Dev</td>
+<td style="padding-right: 12px; border: none;">4.072<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.704<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.543<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">-0.020</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[3.576; 4.564]</td>
+<td style="padding-right: 12px; border: none;">[0.307; 1.101]</td>
+<td style="padding-right: 12px; border: none;">[0.392; 0.693]</td>
+<td style="padding-right: 12px; border: none;">[-0.288; 0.248]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">as.factor(Cond.Approval.Active)1</td>
+<td style="padding-right: 12px; border: none;">0.015</td>
+<td style="padding-right: 12px; border: none;">0.121</td>
+<td style="padding-right: 12px; border: none;">0.007</td>
+<td style="padding-right: 12px; border: none;">-0.159</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[-0.160; 0.190]</td>
+<td style="padding-right: 12px; border: none;">[-0.034; 0.275]</td>
+<td style="padding-right: 12px; border: none;">[-0.058; 0.072]</td>
+<td style="padding-right: 12px; border: none;">[-0.328; 0.010]</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;">as.factor(Full.Approval.Active)1</td>
+<td style="padding-right: 12px; border: none;">1.150<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">1.178<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.102<sup style="vertical-align: 0px;">*</sup></td>
+<td style="padding-right: 12px; border: none;">0.629<sup style="vertical-align: 0px;">*</sup></td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;"></td>
+<td style="padding-right: 12px; border: none;">[1.004; 1.295]</td>
+<td style="padding-right: 12px; border: none;">[1.048; 1.307]</td>
+<td style="padding-right: 12px; border: none;">[0.048; 0.156]</td>
+<td style="padding-right: 12px; border: none;">[0.487; 0.771]</td>
+</tr>
+<tr>
+<td style="border-top: 1px solid black;">DIC</td>
+<td style="border-top: 1px solid black;">40074.498</td>
+<td style="border-top: 1px solid black;">37839.231</td>
+<td style="border-top: 1px solid black;">20692.603</td>
+<td style="border-top: 1px solid black;">39741.640</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid black;">WAIC</td>
+<td style="border-bottom: 2px solid black;">40144.599</td>
+<td style="border-bottom: 2px solid black;">37883.872</td>
+<td style="border-bottom: 2px solid black;">20770.586</td>
+<td style="border-bottom: 2px solid black;">39764.953</td>
+</tr>
+<tr>
+<td style="padding-right: 12px; border: none;" colspan="5"><span style="font-size:0.8em"><sup>*</sup> 0 outside the confidence interval</span></td>
+</tr>
+</table>

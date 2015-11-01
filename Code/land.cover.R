@@ -154,9 +154,12 @@ cnp.history <- cnp.history %>% mutate(Conditional = mdy(Conditional),
 dplyr::select(State,Conditional,Full,Full.Year,Conditional.Year) %>% rename(state.name = State)
 cnp.history <- cnp.history %>% join(.,state.ref) %>% rename(StateAbbrev = state.abb)
 
+
+
 net.change.df = net.change.df %>% join(.,cnp.history) %>%
   mutate(Full.Approval.Active = ifelse(is.na(Full.Year),0,ifelse(Full.Year<=FromYear,1,0)),
          Cond.Approval.Active = ifelse(is.na(Conditional.Year),0,ifelse(Conditional.Year<=FromYear,1,0)))
+
 
 plan.attributes = fetchGoogle("https://docs.google.com/spreadsheets/d/18R3pvK_RcajdhxPEnQIEq9ZJFFr392uMHaHLWNA5yek/pub?output=csv")
 
@@ -235,8 +238,6 @@ Perc.Change.Developed = 100 * (Change.Developed/Developed),
 Perc.Change.Cultivated = 100 * (Change.Ag/Ag),
 Perc.Change.Wetland = 100 * (Change.Wetland/Wetland))
 
-net.change.df$Cond.Approval.Active
-
 
 #model settings
 correctionfactor = 10
@@ -251,7 +252,7 @@ form.approval.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = net.change.df,
@@ -266,7 +267,7 @@ form.approval.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Pe
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Wetland<- inla(form.approval.Wetland,family='gaussian',data = net.change.df,
@@ -281,7 +282,7 @@ form.approval.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Forest <- inla(form.approval.Forest,family='gaussian',data = net.change.df,
@@ -296,7 +297,7 @@ form.approval.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Populat
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Ag <- inla(form.approval.Ag,family='gaussian',data = net.change.df,
@@ -314,7 +315,7 @@ form.coordination.Developed = Change.Developed ~ 1 + From.Population.Density.100
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear +
+  special_districts + municipal +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -332,7 +333,7 @@ form.coordination.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -350,7 +351,7 @@ form.coordination.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ 
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -368,7 +369,7 @@ form.coordination.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Pop
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -388,7 +389,7 @@ form.participation.Developed = Change.Developed ~ 1 + From.Population.Density.10
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear +
+  special_districts + municipal +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -406,7 +407,7 @@ form.participation.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSq
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -424,7 +425,7 @@ form.participation.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -442,7 +443,7 @@ form.participation.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Po
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + FromYear + 
+  special_districts + municipal + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -604,9 +605,6 @@ htmlreg(l=list(mod.coordination.Developed,mod.coordination.Forested,mod.coordina
         custom.model.names = c('Developed','Forested','Wetland','Ag'),
         file = '../Output/Version1/coord.table.html')}
 
-
-net.change.df %>% dplyr::select(Change.Developed,Change.Forest,Change.Ag,Change.Wetland) %>%
-  summarise_each(funs(min,mean,max),contains('Change'))
 
 sum.changes = net.change.df %>% dplyr::select(Change.Developed,Change.Forest,Change.Ag,Change.Wetland)
 library(stargazer)

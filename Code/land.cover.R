@@ -1,5 +1,6 @@
 rm(list=ls())
 
+Use.Percent.Change = TRUE
 onscreen = TRUE
 obs.years = c(1996,2001,2006,2010)
 require(foreign)
@@ -220,7 +221,8 @@ county.ADJ = 'county.adj'
 us.county@data$FIPS = us.county@data$CFIPS
 net.change.df$rowID <-  as.numeric(as.character(row.names(us.county)[match(net.change.df$FIPS, us.county@data$FIPS)]))
 
-net.change.df = net.change.df %>% mutate(Annual.Average.Employ.Const.1k = Annual.Average.Employ.Const/1000,
+net.change.df = net.change.df %>% 
+  mutate(Annual.Average.Employ.Const.1k = Annual.Average.Employ.Const/1000,
 Annual.Average.Employ.NaturalRes.1k = Annual.Average.Employ.NaturalRes/1000,
 From.Per.Capita.Income.1k = as.numeric(as.character(From.Per.Capita.Income)) / 1000,
 Perc.Change.Per.Capita.Income = 100 * ((as.numeric(as.character(To.Per.Capita.Income)) - 
@@ -236,7 +238,20 @@ Prop.Cultivated = 100 * (Ag/CountyArea),
 Perc.Change.Forested = 100 * (Change.Forest/Forest),
 Perc.Change.Developed = 100 * (Change.Developed/Developed),
 Perc.Change.Cultivated = 100 * (Change.Ag/Ag),
-Perc.Change.Wetland = 100 * (Change.Wetland/Wetland))
+Perc.Change.Wetland = 100 * (Change.Wetland/Wetland),
+Prop.Employ.NaturalRes =  100 * (Annual.Average.Employ.NaturalRes/as.numeric(From.Population))
+)
+
+
+if(Use.Percent.Change)
+{
+  net.change.df %>% mutate(
+    Change.Developed = 100 * (Change.Developed/Developed),
+    Change.Wetland = 100 * (Change.Wetland/Wetland),
+    Change.Forest = 100 * (Change.Developed/Forest),
+    Change.Ag = 100 * (Change.Ag/Ag)
+  )
+}
 
 
 #model settings
@@ -250,7 +265,8 @@ CPO = TRUE
 ### Land Cover Chqnge Models
 form.approval.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
@@ -265,7 +281,8 @@ mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = n
 
 form.approval.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
@@ -280,7 +297,8 @@ mod.approval.Wetland<- inla(form.approval.Wetland,family='gaussian',data = net.c
 
 form.approval.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+ 
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
@@ -295,7 +313,8 @@ mod.approval.Forest <- inla(form.approval.Forest,family='gaussian',data = net.ch
 
 form.approval.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
@@ -313,7 +332,8 @@ mod.approval.Ag <- inla(form.approval.Ag,family='gaussian',data = net.change.df,
 ### Coordination Models
 form.coordination.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal +
   Coord.Formal.Agreements.Active + 
@@ -331,7 +351,8 @@ mod.coordination.Developed<- inla(form.coordination.Developed,family='gaussian',
 
 form.coordination.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
@@ -349,7 +370,8 @@ mod.coordination.Wetland<- inla(form.coordination.Wetland,family='gaussian',data
 
 form.coordination.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
@@ -367,7 +389,8 @@ mod.coordination.Forest <- inla(form.coordination.Forest,family='gaussian',data 
 
 form.coordination.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Coord.Formal.Agreements.Active + 
@@ -387,7 +410,8 @@ mod.coordination.Ag <- inla(form.coordination.Ag,family='gaussian',data = net.ch
 ### Participation Models
 form.participation.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal +
   Part.Outreach.Active+
@@ -405,7 +429,8 @@ mod.participation.Developed<- inla(form.participation.Developed,family='gaussian
 
 form.participation.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Part.Outreach.Active+
@@ -423,7 +448,8 @@ mod.participation.Wetland<- inla(form.participation.Wetland,family='gaussian',da
 
 form.participation.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Part.Outreach.Active+
@@ -441,7 +467,8 @@ mod.participation.Forest <- inla(form.participation.Forest,family='gaussian',dat
 
 form.participation.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   special_districts + municipal + 
   Part.Outreach.Active+
@@ -613,3 +640,9 @@ stargazer(sum.changes,title='Land Cover Change Variables',
           data.frame=TRUE,style = 'jpam',type = 'html',digits = 2)
 
 
+
+WAIC
+11457.231
+19168.575
+11205.430
+11698.312

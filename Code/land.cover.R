@@ -251,7 +251,7 @@ form.approval.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = net.change.df,

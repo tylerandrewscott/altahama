@@ -120,9 +120,6 @@ locgov$GEO.id2[nchar(as.character(locgov$GEO.id2))==4] = paste0(0,locgov$GEO.id2
 
 net.change.df = locgov %>% rename(FIPS = GEO.id2) %>% dplyr::select(FIPS,total_govts,total_subcounty,municipal,special_districts) %>% join(net.change.df,.)
 
-require(openxlsx)
-
-
 
 
 al96 = openxlsx::read.xlsx('Input/allhlcn96.xlsx',sheet=1)
@@ -149,6 +146,7 @@ ec.industries = join_all(list(ec.nat,ec.const,ec.recreat,ec.man)) %>% rename(FIP
 
 net.change.df = join(net.change.df,ec.industries)
 
+state.ref = data.frame(state.abb,state.name)
 cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")
 cnp.history <- cnp.history %>% mutate(Conditional = mdy(Conditional),
                                       Conditional.Year = year(Conditional),
@@ -159,7 +157,6 @@ cnp.history <- cnp.history %>% join(.,state.ref) %>% rename(StateAbbrev = state.
 net.change.df = net.change.df %>% join(.,cnp.history) %>%
   mutate(Full.Approval.Active = ifelse(is.na(Full.Year),0,ifelse(Full.Year<=FromYear,1,0)),
          Cond.Approval.Active = ifelse(is.na(Conditional.Year),0,ifelse(Conditional.Year<=FromYear,1,0)))
-
 
 plan.attributes = fetchGoogle("https://docs.google.com/spreadsheets/d/18R3pvK_RcajdhxPEnQIEq9ZJFFr392uMHaHLWNA5yek/pub?output=csv")
 
@@ -180,10 +177,6 @@ net.change.df = join(net.change.df,plan.attributes) %>% mutate(
   Part.Advisory.Active = ifelse(is.na(year(Part.Advisory)),0,ifelse(year(Part.Advisory)<=FromYear,1,0)),
   Part.Outreach.Active = ifelse(is.na(year(Part.Outreach)),0,ifelse(year(Part.Outreach)<=FromYear,1,0)))
   
-
-
-
-state.ref = data.frame(state.abb,state.name)
 state.gdp <- read.csv('Input/state.gdp.pc.csv')
 state.gdp <- state.gdp %>% dplyr::select(-IndustryId,-IndustryClassification,-Description,-GeoFIPS,-ComponentId,-ComponentName,-Region) %>%
   filter(GeoName != 'United States') %>% rename(state.name = GeoName) %>% gather(Year,GDP,-state.name)
@@ -242,6 +235,8 @@ Perc.Change.Developed = 100 * (Change.Developed/Developed),
 Perc.Change.Cultivated = 100 * (Change.Ag/Ag),
 Perc.Change.Wetland = 100 * (Change.Wetland/Wetland))
 
+net.change.df$Cond.Approval.Active
+
 
 #model settings
 correctionfactor = 10
@@ -271,7 +266,7 @@ form.approval.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Pe
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Wetland<- inla(form.approval.Wetland,family='gaussian',data = net.change.df,
@@ -286,7 +281,7 @@ form.approval.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Forest <- inla(form.approval.Forest,family='gaussian',data = net.change.df,
@@ -301,7 +296,7 @@ form.approval.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Populat
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
+  special_districts + municipal + FromYear + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
 mod.approval.Ag <- inla(form.approval.Ag,family='gaussian',data = net.change.df,
@@ -319,7 +314,7 @@ form.coordination.Developed = Change.Developed ~ 1 + From.Population.Density.100
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear +
+  special_districts + municipal + FromYear +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -337,7 +332,7 @@ form.coordination.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -355,7 +350,7 @@ form.coordination.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ 
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -373,7 +368,7 @@ form.coordination.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Pop
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -393,7 +388,7 @@ form.participation.Developed = Change.Developed ~ 1 + From.Population.Density.10
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear +
+  special_districts + municipal + FromYear +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -411,7 +406,7 @@ form.participation.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSq
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -429,7 +424,7 @@ form.participation.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -447,7 +442,7 @@ form.participation.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Po
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Annual.Average.Employ.NaturalRes.1k + Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  total_subcounty + municipal + FromYear + 
+  special_districts + municipal + FromYear + 
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -618,6 +613,5 @@ library(stargazer)
 stargazer(sum.changes,title='Land Cover Change Variables',
           out = 'Output/Version1/cover.summary.html',
           data.frame=TRUE,style = 'jpam',type = 'html',digits = 2)
-
 
 

@@ -749,16 +749,16 @@ if(onscreen)
 {
   htmlreg(l=list(tex.approval.Developed.Perc,tex.approval.Forest.Perc,tex.approval.Wetland.Perc,tex.approval.Ag.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
           file = 'Output/Version1/approval.table.html')
   htmlreg(l=list(tex.participation.Developed.Perc,tex.participation.Forest.Perc,tex.participation.Wetland.Perc,tex.participation.Ag.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
           file = 'Output/Version1/part.table.html')
   htmlreg(l=list(tex.coordination.Developed.Perc,tex.coordination.Forest.Perc,
                  tex.coordination.Wetland.Perc,tex.coordination.Ag.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
           file = 'Output/Version1/coord.table.html')
 }
 

@@ -3,6 +3,7 @@ rm(list=ls())
 Use.Percent.Change = TRUE
 onscreen = TRUE
 obs.years = c(1996,2001,2006,2010)
+library(mosaic)
 require(foreign)
 require(plyr)
 require(dplyr)
@@ -42,14 +43,14 @@ data.list = lapply(as.list(change.file.names),read.csv)
 change.df = join_all(data.list,type='full')
 
 
-  
+
 change.df = change.df  %>% filter(StateAbbrev != 'DC',fromClass != toClass, ToYear-FromYear<=5) %>% dplyr:: select(-CCAP_ClassID)
 
 levels(change.df$fromClass) = levels(change.df$toClass) = c("Bare" , "Ag"        ,             "Forest"       ,        "Developed"      ,     "Wetland"      ,   
- "Wetland"   ,  "Wetland"  ,   "Wetland"  ,"Forest"   ,            "Grassland"     ,                
- "Developed"   ,    "Developed"    ,    "Developed"   ,  "Forest"   ,                NA     ,                     
- "Wetland"      ,   "Wetland"   , "Wetland"  ,  "Wetland", "Ag"    ,               
-"Scrub/Shrub"   ,    "Shore/Water"   ,        "Shore/Water"    ,      NA        , NA)
+                                                            "Wetland"   ,  "Wetland"  ,   "Wetland"  ,"Forest"   ,            "Grassland"     ,                
+                                                            "Developed"   ,    "Developed"    ,    "Developed"   ,  "Forest"   ,                NA     ,                     
+                                                            "Wetland"      ,   "Wetland"   , "Wetland"  ,  "Wetland", "Ag"    ,               
+                                                            "Scrub/Shrub"   ,    "Shore/Water"   ,        "Shore/Water"    ,      NA        , NA)
 
 change.df  = change.df  %>% filter(!is.na(toClass),!is.na(fromClass)) 
 
@@ -63,32 +64,34 @@ net.change.df = join(to.df,from.df,type='full')
 net.change.df = net.change.df %>% mutate(NetChange = ToSquareMiles - FromSquareMiles,
                                          FIPS = ifelse(nchar(as.character(FIPS))==4,paste0(0,as.character(FIPS)),as.character(FIPS)))
 
-net.change.df = net.change.df %>% dplyr::select(-ToSquareMiles,-FromSquareMiles) %>% spread(Class,NetChange)
+net.change.df = net.change.df %>% dplyr::select(-ToSquareMiles,-FromSquareMiles) %>% mutate(Class = paste0('Change.',Class)) %>% spread(Class,NetChange)
 
-  lc96 = read.csv('Input/LandCover1996.csv')
-  lc01 = read.csv('Input/LandCover2001.csv')
-  lc06 = read.csv('Input/LandCover2006.csv')
-  lc10 = read.csv('Input/LandCover2010.csv')
-  lc = join_all(list(lc96,lc01,lc06,lc10),type='full')
-  
+
+lc96 = read.csv('Input/LandCover1996.csv')
+lc01 = read.csv('Input/LandCover2001.csv')
+lc06 = read.csv('Input/LandCover2006.csv')
+lc10 = read.csv('Input/LandCover2010.csv')
+lc = join_all(list(lc96,lc01,lc06,lc10),type='full')
+
 levels(lc$LCName) = c("Bare" ,       "Ag"        ,             "Forest"       ,        "Wetland"      ,     "Wetland"      ,   
                       "Wetland"   ,  "Wetland"  ,             "Forest"  ,         "Grassland"   ,            "Developed"     ,                
                       "Developed"   ,    "Developed"    ,    "Forest"   ,        "Developed"   ,             "Shore/Water"     ,                     
                       "Wetland"      ,   "Wetland"   ,       "Wetland"  ,       "Wetland",               "Ag"    ,               
                       "Scrub/Shrub"   ,    NA   ,               NA  ,           "Shore/Water"   )    
-                      
+
 
 TotalLandCover = lc %>% filter(!is.na(LCName)) %>% dplyr::select(-CCAP_ClassID,-StateFIPS,-CountyName) %>% mutate(FIPS = ifelse(nchar(as.character(FIPS))==4,paste0(0,as.character(FIPS)),as.character(FIPS))) %>% 
-  rename(CoverTotal = LCName) %>% group_by(FIPS,Year,CoverTotal) %>% summarise(SquareMiles = sum(SquareMiles)) %>% spread(CoverTotal,SquareMiles)
+  rename(CoverTotal = LCName) %>% group_by(FIPS,Year,CoverTotal) %>% summarise(SquareMiles = sum(SquareMiles)) %>% mutate(CoverTotal = paste0('Total.',CoverTotal)) %>%
+  spread(CoverTotal,SquareMiles)
 
-names(net.change.df)[6:length(names(net.change.df))] = paste0('Change.',names(net.change.df)[6:length(names(net.change.df))])
 
 net.change.df$Year = net.change.df$FromYear 
+
 net.change.df = net.change.df %>% mutate(Year = FromYear) %>% join(.,TotalLandCover)
 
 net.change.df = TotalLandCover %>% gather(Type,Area,-FIPS,-Year) %>% group_by(FIPS,Year) %>% summarise(CountyArea = sum(Area)) %>% 
- join(net.change.df,.) 
-  
+  join(net.change.df,.) 
+
 
 
 bea.mw = read.csv('Input/bea_mw_income.csv')
@@ -119,9 +122,7 @@ net.change.df$To.Per.Capita.Income = beal$Income.Per.Capita[match(paste0(net.cha
 locgov = read.csv('Input/COG_2012_ORG014_with_ann.csv')
 locgov$GEO.id2[nchar(as.character(locgov$GEO.id2))==4] = paste0(0,locgov$GEO.id2[nchar(as.character(locgov$GEO.id2))==4])
 
-net.change.df = locgov %>% rename(FIPS = GEO.id2) %>% dplyr::select(FIPS,total_govts,total_subcounty,municipal,special_districts) %>% join(net.change.df,.)
-
-
+net.change.df = locgov %>% rename(FIPS = GEO.id2) %>% dplyr::select(FIPS,total_govts,total_subcounty,municipal,special_districts,total_subcounty) %>% join(net.change.df,.)
 
 al96 = openxlsx::read.xlsx('Input/allhlcn96.xlsx',sheet=1)
 al01 = openxlsx::read.xlsx('Input/allhlcn01.xlsx',sheet=1)
@@ -152,7 +153,7 @@ cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56z
 cnp.history <- cnp.history %>% mutate(Conditional = mdy(Conditional),
                                       Conditional.Year = year(Conditional),
                                       Full = mdy(Full),Full.Year =year(Full),state.name = State) %>% 
-dplyr::select(State,Conditional,Full,Full.Year,Conditional.Year) %>% rename(state.name = State)
+  dplyr::select(State,Conditional,Full,Full.Year,Conditional.Year) %>% rename(state.name = State)
 cnp.history <- cnp.history %>% join(.,state.ref) %>% rename(StateAbbrev = state.abb)
 
 
@@ -180,12 +181,13 @@ net.change.df = join(net.change.df,plan.attributes) %>% mutate(
   Part.Input.Active = ifelse(is.na(year(Part.Input)),0,ifelse(year(Part.Input)<=FromYear,1,0)),
   Part.Advisory.Active = ifelse(is.na(year(Part.Advisory)),0,ifelse(year(Part.Advisory)<=FromYear,1,0)),
   Part.Outreach.Active = ifelse(is.na(year(Part.Outreach)),0,ifelse(year(Part.Outreach)<=FromYear,1,0)))
-  
+
 state.gdp <- read.csv('Input/state.gdp.pc.csv')
 state.gdp <- state.gdp %>% dplyr::select(-IndustryId,-IndustryClassification,-Description,-GeoFIPS,-ComponentId,-ComponentName,-Region) %>%
   filter(GeoName != 'United States') %>% rename(state.name = GeoName) %>% gather(Year,GDP,-state.name)
 state.gdp$Year = gsub('X','',state.gdp$Year)
 
+net.change.df = net.change.df %>% filter(StateAbbrev %in% c("VT",'IL') ==FALSE)
 
 library(RCurl)
 library(mosaic)
@@ -223,35 +225,26 @@ net.change.df$rowID <-  as.numeric(as.character(row.names(us.county)[match(net.c
 
 net.change.df = net.change.df %>% 
   mutate(Annual.Average.Employ.Const.1k = Annual.Average.Employ.Const/1000,
-Annual.Average.Employ.NaturalRes.1k = Annual.Average.Employ.NaturalRes/1000,
-From.Per.Capita.Income.1k = as.numeric(as.character(From.Per.Capita.Income)) / 1000,
-Perc.Change.Per.Capita.Income = 100 * ((as.numeric(as.character(To.Per.Capita.Income)) - 
-                                   as.numeric(as.character(From.Per.Capita.Income)))/as.numeric(as.character(From.Per.Capita.Income))),
-From.Population.Density.100pSqM =  (as.numeric(as.character(From.Population))/CountyArea)/100,
-Perc.Population.Change =  100 * ((as.numeric(as.character(To.Population)) - as.numeric(as.character(From.Population)))/
-                                     as.numeric(as.character(From.Population))),
-Area.100sqM = CountyArea/100,
-Prop.Forested = 100 * (Forest/CountyArea),
-Prop.Wetland = 100 * (Wetland/CountyArea),
-Prop.Developed = 100 * (Developed/CountyArea),
-Prop.Cultivated = 100 * (Ag/CountyArea),
-Perc.Change.Forested = 100 * (Change.Forest/Forest),
-Perc.Change.Developed = 100 * (Change.Developed/Developed),
-Perc.Change.Cultivated = 100 * (Change.Ag/Ag),
-Perc.Change.Wetland = 100 * (Change.Wetland/Wetland),
-Prop.Employ.NaturalRes =  100 * (Annual.Average.Employ.NaturalRes/as.numeric(From.Population))
-)
-
-
-if(Use.Percent.Change)
-{
-  net.change.df %>% mutate(
-    Change.Developed = 100 * (Change.Developed/Developed),
-    Change.Wetland = 100 * (Change.Wetland/Wetland),
-    Change.Forest = 100 * (Change.Developed/Forest),
-    Change.Ag = 100 * (Change.Ag/Ag)
+         Annual.Average.Employ.NaturalRes.1k = Annual.Average.Employ.NaturalRes/1000,
+         From.Per.Capita.Income.1k = as.numeric(as.character(From.Per.Capita.Income)) / 1000,
+         Perc.Change.Per.Capita.Income = 100 * ((as.numeric(as.character(To.Per.Capita.Income)) - 
+                                                   as.numeric(as.character(From.Per.Capita.Income)))/as.numeric(as.character(From.Per.Capita.Income))),
+         From.Population.Density.100pSqM =  (as.numeric(as.character(From.Population))/CountyArea)/100,
+         Perc.Population.Change =  100 * ((as.numeric(as.character(To.Population)) - as.numeric(as.character(From.Population)))/
+                                            as.numeric(as.character(From.Population))),
+         Area.100sqM = CountyArea/100,
+         Prop.Forested = 100 * (Total.Forest/CountyArea),
+         Prop.Wetland = 100 * (Total.Wetland/CountyArea),
+         Prop.Developed = 100 * (Total.Developed/CountyArea),
+         Prop.Cultivated = 100 * (Total.Ag/CountyArea),
+         Perc.Change.Forest = 100 * (Change.Forest/(Total.Forest+0.01)),
+         Perc.Change.Developed = 100 * (Change.Developed/(Total.Developed+0.01)),
+         Perc.Change.Ag = 100 * (Change.Ag/(Total.Ag+0.01)),
+         Perc.Change.Wetland = 100 * (Change.Wetland/(Total.Wetland+0.01)),
+         Prop.Employ.NaturalRes =  100 * (Annual.Average.Employ.NaturalRes/as.numeric(From.Population)),
+         subcounty_density = total_subcounty/Area.100sqM
   )
-}
+
 
 
 #model settings
@@ -261,17 +254,141 @@ DIC = TRUE
 WAIC = TRUE
 CPO = TRUE
 
+treat.indicator = net.change.df %>% dplyr::select(StateAbbrev,Full.Approval.Active) %>% 
+  group_by(StateAbbrev) %>%
+  summarise(amean = mean(Full.Approval.Active)) %>%
+  mutate(ever.approved = ifelse(amean>0,1,0)) %>% dplyr::select(-amean)
+
+net.change.df = join(net.change.df,treat.indicator)
+
+# ### Land Cover Chqnge Models
+# form.approval.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ 
+#   Perc.Population.Change +
+#   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+#   Prop.Employ.NaturalRes+
+#   #Annual.Average.Employ.Const.1k +
+#   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+#   subcounty_density + Area.100sqM+
+#   #ever.approved +
+#   #ever.approved:Full.Approval.Active +
+#   Cond.Approval.Active +
+#   Full.Approval.Active +
+#   #f(StateAbbrev,model='iid') +
+#   f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+# 
+# mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = net.change.df,
+#                               control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+#                               control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+#                               verbose=T,
+#                               control.inla = list(
+#                                 correct = TRUE,
+#                                 correct.factor = correctionfactor))
+# 
+# summary(mod.approval.Developed)
+# 
+# form.approval.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+#   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+#   Prop.Employ.NaturalRes+
+#   #Annual.Average.Employ.Const.1k +
+#   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+#   subcounty_density + Area.100sqM+
+#   #ever.approved +
+#   #ever.approved:Full.Approval.Active +
+#   Cond.Approval.Active +
+#   Full.Approval.Active +
+#   #f(StateAbbrev,model='iid') +
+#   f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+# 
+# mod.approval.Wetland<- inla(form.approval.Wetland,family='gaussian',data = net.change.df,
+#                             control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+#                             control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+#                             verbose=T,
+#                             control.inla = list(
+#                               correct = TRUE,
+#                               correct.factor = correctionfactor))
+# 
+# form.approval.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+#   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+#   Prop.Employ.NaturalRes+ 
+#   #Annual.Average.Employ.Const.1k +
+#   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+#   subcounty_density + Area.100sqM+
+#   #ever.approved +
+#   #ever.approved:Full.Approval.Active +
+#   Cond.Approval.Active + Full.Approval.Active +
+#   #f(StateAbbrev,model='iid') +
+#   f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+# 
+# mod.approval.Forest <- inla(form.approval.Forest,family='gaussian',data = net.change.df,
+#                             control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+#                             control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+#                             verbose=T,
+#                             control.inla = list(
+#                               correct = TRUE,
+#                               correct.factor = correctionfactor))
+# 
+# form.approval.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+#   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+#   Prop.Employ.NaturalRes+
+#   #Annual.Average.Employ.Const.1k +
+#   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+#   subcounty_density + Area.100sqM+
+#   #ever.approved +
+#   #ever.approved:Full.Approval.Active +
+#   Cond.Approval.Active +
+#   Full.Approval.Active +
+#   #f(StateAbbrev,model='iid') +
+#   f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+# 
+# mod.approval.Ag <- inla(form.approval.Ag,family='gaussian',data = net.change.df,
+#                         control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+#                         control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+#                         verbose=T,
+#                         control.inla = list(
+#                           correct = TRUE,
+#                           correct.factor = correctionfactor))
+# 
+
+
 
 ### Land Cover Chqnge Models
-form.approval.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.approval.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Density.100pSqM+ 
+  Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+  subcounty_density + Area.100sqM+
+  #ever.approved +
+  #ever.approved:Full.Approval.Active +
+  Cond.Approval.Active +
+  Full.Approval.Active +
+  #f(StateAbbrev,model='iid') +
+  f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = net.change.df,
+mod.approval.Developed.Perc<- inla(form.approval.Developed.Perc,family='gaussian',data = net.change.df,
+                                   control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                                   control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                                   verbose=T,
+                                   control.inla = list(
+                                     correct = TRUE,
+                                     correct.factor = correctionfactor))
+
+
+form.approval.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  subcounty_density + Area.100sqM+
+  #ever.approved +
+  #ever.approved:Full.Approval.Active +
+  Cond.Approval.Active +
+  Full.Approval.Active +
+  #f(StateAbbrev,model='iid') +
+  f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+
+mod.approval.Wetland.Perc<- inla(form.approval.Wetland.Perc,family='gaussian',data = net.change.df,
                                  control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
                                  control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
                                  verbose=T,
@@ -279,147 +396,61 @@ mod.approval.Developed<- inla(form.approval.Developed,family='gaussian',data = n
                                    correct = TRUE,
                                    correct.factor = correctionfactor))
 
-form.approval.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
-  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Prop.Employ.NaturalRes+
-  #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
-
-mod.approval.Wetland<- inla(form.approval.Wetland,family='gaussian',data = net.change.df,
-                              control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                              control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                              verbose=T,
-                              control.inla = list(
-                                correct = TRUE,
-                                correct.factor = correctionfactor))
-
-form.approval.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.approval.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+ 
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+  subcounty_density + Area.100sqM+
+  #ever.approved +
+  #ever.approved:Full.Approval.Active +
+  Cond.Approval.Active + Full.Approval.Active +
+  #f(StateAbbrev,model='iid') +
+  f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.approval.Forest <- inla(form.approval.Forest,family='gaussian',data = net.change.df,
-                            control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                            control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                            verbose=T,
-                            control.inla = list(
-                              correct = TRUE,
-                              correct.factor = correctionfactor))
+mod.approval.Forest.Perc <- inla(form.approval.Forest.Perc,family='gaussian',data = net.change.df,
+                                 control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                                 control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                                 verbose=T,
+                                 control.inla = list(
+                                   correct = TRUE,
+                                   correct.factor = correctionfactor))
 
-form.approval.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.approval.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + Cond.Approval.Active + Cond.Approval.Active:Full.Approval.Active +
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+  subcounty_density + Area.100sqM+
+  #ever.approved +
+  #ever.approved:Full.Approval.Active +
+  Cond.Approval.Active +
+  Full.Approval.Active +
+  #f(StateAbbrev,model='iid') +
+  f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.approval.Ag <- inla(form.approval.Ag,family='gaussian',data = net.change.df,
-                            control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                            control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                            verbose=T,
-                            control.inla = list(
-                              correct = TRUE,
-                              correct.factor = correctionfactor))
-
+mod.approval.Ag.Perc <- inla(form.approval.Ag.Perc,family='gaussian',data = net.change.df,
+                             control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                             control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                             verbose=T,
+                             control.inla = list(
+                               correct = TRUE,
+                               correct.factor = correctionfactor))
 
 
 ### Coordination Models
-form.coordination.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.coordination.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal +
+  subcounty_density + Area.100sqM+
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.coordination.Developed<- inla(form.coordination.Developed,family='gaussian',data = net.change.df,
-                              control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                              control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                              verbose=T,
-                              control.inla = list(
-                                correct = TRUE,
-                                correct.factor = correctionfactor))
-
-form.coordination.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
-  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Prop.Employ.NaturalRes+
-  #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Coord.Formal.Agreements.Active + 
-  Coord.Spec.Responsibilities.Active + 
-  Coord.Institution.Active+
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
-
-mod.coordination.Wetland<- inla(form.coordination.Wetland,family='gaussian',data = net.change.df,
-                            control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                            control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                            verbose=T,
-                            control.inla = list(
-                              correct = TRUE,
-                              correct.factor = correctionfactor))
-
-form.coordination.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
-  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Prop.Employ.NaturalRes+
-  #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Coord.Formal.Agreements.Active + 
-  Coord.Spec.Responsibilities.Active + 
-  Coord.Institution.Active+
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
-
-mod.coordination.Forest <- inla(form.coordination.Forest,family='gaussian',data = net.change.df,
-                            control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                            control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                            verbose=T,
-                            control.inla = list(
-                              correct = TRUE,
-                              correct.factor = correctionfactor))
-
-form.coordination.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
-  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Prop.Employ.NaturalRes+
-  #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Coord.Formal.Agreements.Active + 
-  Coord.Spec.Responsibilities.Active + 
-  Coord.Institution.Active+
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
-
-mod.coordination.Ag <- inla(form.coordination.Ag,family='gaussian',data = net.change.df,
-                        control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
-                        control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
-                        verbose=T,
-                        control.inla = list(
-                          correct = TRUE,
-                          correct.factor = correctionfactor))
-
-
-### Participation Models
-form.participation.Developed = Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
-  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
-  Prop.Employ.NaturalRes+
-  #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal +
-  Part.Outreach.Active+
-  Part.Advisory.Active+
-  Part.Input.Active +
-  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
-
-mod.participation.Developed<- inla(form.participation.Developed,family='gaussian',data = net.change.df,
+mod.coordination.Developed.Perc<- inla(form.coordination.Developed.Perc,family='gaussian',data = net.change.df,
                                   control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
                                   control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
                                   verbose=T,
@@ -427,18 +458,18 @@ mod.participation.Developed<- inla(form.participation.Developed,family='gaussian
                                     correct = TRUE,
                                     correct.factor = correctionfactor))
 
-form.participation.Wetland = Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.coordination.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Part.Outreach.Active+
-  Part.Advisory.Active+
-  Part.Input.Active +
+  subcounty_density + Area.100sqM+
+  Coord.Formal.Agreements.Active + 
+  Coord.Spec.Responsibilities.Active + 
+  Coord.Institution.Active+
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.participation.Wetland<- inla(form.participation.Wetland,family='gaussian',data = net.change.df,
+mod.coordination.Wetland.Perc<- inla(form.coordination.Wetland.Perc,family='gaussian',data = net.change.df,
                                 control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
                                 control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
                                 verbose=T,
@@ -446,18 +477,18 @@ mod.participation.Wetland<- inla(form.participation.Wetland,family='gaussian',da
                                   correct = TRUE,
                                   correct.factor = correctionfactor))
 
-form.participation.Forest = Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.coordination.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Part.Outreach.Active+
-  Part.Advisory.Active+
-  Part.Input.Active +
+  subcounty_density + Area.100sqM+
+  Coord.Formal.Agreements.Active + 
+  Coord.Spec.Responsibilities.Active + 
+  Coord.Institution.Active+
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.participation.Forest <- inla(form.participation.Forest,family='gaussian',data = net.change.df,
+mod.coordination.Forest.Perc <- inla(form.coordination.Forest.Perc,family='gaussian',data = net.change.df,
                                 control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
                                 control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
                                 verbose=T,
@@ -465,24 +496,102 @@ mod.participation.Forest <- inla(form.participation.Forest,family='gaussian',dat
                                   correct = TRUE,
                                   correct.factor = correctionfactor))
 
-form.participation.Ag = Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+form.coordination.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
-  special_districts + municipal + 
-  Part.Outreach.Active+
-  Part.Advisory.Active+
-  Part.Input.Active +
+  subcounty_density + Area.100sqM+
+  Coord.Formal.Agreements.Active + 
+  Coord.Spec.Responsibilities.Active + 
+  Coord.Institution.Active+
   f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
 
-mod.participation.Ag <- inla(form.participation.Ag,family='gaussian',data = net.change.df,
+mod.coordination.Ag.Perc <- inla(form.coordination.Ag.Perc,family='gaussian',data = net.change.df,
                             control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
                             control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
                             verbose=T,
                             control.inla = list(
                               correct = TRUE,
                               correct.factor = correctionfactor))
+
+
+### Participation Models
+form.participation.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  subcounty_density + Area.100sqM+
+  Part.Outreach.Active+
+  Part.Advisory.Active+
+  Part.Input.Active +
+  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+
+mod.participation.Developed.Perc<- inla(form.participation.Developed.Perc,family='gaussian',data = net.change.df,
+                                   control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                                   control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                                   verbose=T,
+                                   control.inla = list(
+                                     correct = TRUE,
+                                     correct.factor = correctionfactor))
+
+form.participation.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  subcounty_density + Area.100sqM+
+  Part.Outreach.Active+
+  Part.Advisory.Active+
+  Part.Input.Active +
+  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+
+mod.participation.Wetland.Perc<- inla(form.participation.Wetland.Perc,family='gaussian',data = net.change.df,
+                                 control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                                 control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                                 verbose=T,
+                                 control.inla = list(
+                                   correct = TRUE,
+                                   correct.factor = correctionfactor))
+
+form.participation.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  subcounty_density + Area.100sqM+
+  Part.Outreach.Active+
+  Part.Advisory.Active+
+  Part.Input.Active +
+  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+
+mod.participation.Forest.Perc <- inla(form.participation.Forest.Perc,family='gaussian',data = net.change.df,
+                                 control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                                 control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                                 verbose=T,
+                                 control.inla = list(
+                                   correct = TRUE,
+                                   correct.factor = correctionfactor))
+
+form.participation.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM+ Perc.Population.Change +
+  From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
+  Prop.Employ.NaturalRes+
+  #Annual.Average.Employ.Const.1k +
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  subcounty_density + Area.100sqM+
+  Part.Outreach.Active+
+  Part.Advisory.Active+
+  Part.Input.Active +
+  f(StateAbbrev,model='iid') + f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
+
+mod.participation.Ag.Perc <- inla(form.participation.Ag.Perc,family='gaussian',data = net.change.df,
+                             control.compute=list(dic=DIC, cpo=CPO,waic=WAIC),
+                             control.fixed= list(prec.intercept = pintercept, correlation.matrix = TRUE),
+                             verbose=T,
+                             control.inla = list(
+                               correct = TRUE,
+                               correct.factor = correctionfactor))
 
 
 
@@ -523,126 +632,190 @@ tex.approval.Wetland <- texreg::createTexreg(
 
 
 
-tex.coordination.Developed <- texreg::createTexreg(
-  coef.names = mod.coordination.Developed$names.fixed,
-  coef = mod.coordination.Developed$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Developed$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Developed$summary.lincomb.derived$`0.975quant`,
+tex.approval.Developed.Perc <- texreg::createTexreg(
+  coef.names = mod.approval.Developed.Perc$names.fixed,
+  coef = mod.approval.Developed.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.approval.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.approval.Developed.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Developed$dic$dic,mod.coordination.Developed$waic$waic))
+  gof =  c(mod.approval.Developed.Perc$dic$dic,mod.approval.Developed.Perc$waic$waic))
 
 
-tex.coordination.Forest <- texreg::createTexreg(
-  coef.names = mod.coordination.Forest$names.fixed,
-  coef = mod.coordination.Forest$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Forest$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Forest$summary.lincomb.derived$`0.975quant`,
+tex.approval.Forest.Perc <- texreg::createTexreg(
+  coef.names = mod.approval.Forest.Perc$names.fixed,
+  coef = mod.approval.Forest.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.approval.Forest.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.approval.Forest.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Forest$dic$dic,mod.coordination.Forest$waic$waic))
+  gof =  c(mod.approval.Forest.Perc$dic$dic,mod.approval.Forest.Perc$waic$waic))
 
 
-tex.coordination.Ag <- texreg::createTexreg(
-  coef.names = mod.coordination.Ag$names.fixed,
-  coef = mod.coordination.Ag$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Ag$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Ag$summary.lincomb.derived$`0.975quant`,
+tex.approval.Ag.Perc <- texreg::createTexreg(
+  coef.names = mod.approval.Ag.Perc$names.fixed,
+  coef = mod.approval.Ag.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.approval.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.approval.Ag.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Ag$dic$dic,mod.coordination.Ag$waic$waic))
+  gof =  c(mod.approval.Ag.Perc$dic$dic,mod.approval.Ag.Perc$waic$waic))
 
 
-tex.coordination.Wetland <- texreg::createTexreg(
-  coef.names = mod.coordination.Wetland$names.fixed,
-  coef = mod.coordination.Wetland$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Wetland$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Wetland$summary.lincomb.derived$`0.975quant`,
+tex.approval.Wetland.Perc <- texreg::createTexreg(
+  coef.names = mod.approval.Wetland.Perc$names.fixed,
+  coef = mod.approval.Wetland.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.approval.Wetland.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.approval.Wetland.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Wetland$dic$dic,mod.coordination.Wetland$waic$waic))
+  gof =  c(mod.approval.Wetland.Perc$dic$dic,mod.approval.Wetland.Perc$waic$waic))
 
-
-
-tex.participation.Developed <- texreg::createTexreg(
-  coef.names = mod.participation.Developed$names.fixed,
-  coef = mod.participation.Developed$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Developed$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Developed$summary.lincomb.derived$`0.975quant`,
+tex.coordination.Developed.Perc <- texreg::createTexreg(
+  coef.names = mod.coordination.Developed.Perc$names.fixed,
+  coef = mod.coordination.Developed.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Developed$dic$dic,mod.participation.Developed$waic$waic))
+  gof =  c(mod.coordination.Developed.Perc$dic$dic,mod.coordination.Developed.Perc$waic$waic))
 
 
-tex.participation.Forest <- texreg::createTexreg(
-  coef.names = mod.participation.Forest$names.fixed,
-  coef = mod.participation.Forest$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Forest$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Forest$summary.lincomb.derived$`0.975quant`,
+tex.coordination.Forest.Perc <- texreg::createTexreg(
+  coef.names = mod.coordination.Forest.Perc$names.fixed,
+  coef = mod.coordination.Forest.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.coordination.Forest.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.coordination.Forest.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Forest$dic$dic,mod.participation.Forest$waic$waic))
+  gof =  c(mod.coordination.Forest.Perc$dic$dic,mod.coordination.Forest.Perc$waic$waic))
 
 
-tex.participation.Ag <- texreg::createTexreg(
-  coef.names = mod.participation.Ag$names.fixed,
-  coef = mod.participation.Ag$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Ag$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Ag$summary.lincomb.derived$`0.975quant`,
+tex.coordination.Ag.Perc <- texreg::createTexreg(
+  coef.names = mod.coordination.Ag.Perc$names.fixed,
+  coef = mod.coordination.Ag.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Ag$dic$dic,mod.participation.Ag$waic$waic))
+  gof =  c(mod.coordination.Ag.Perc$dic$dic,mod.coordination.Ag.Perc$waic$waic))
 
 
-tex.participation.Wetland <- texreg::createTexreg(
-  coef.names = mod.participation.Wetland$names.fixed,
-  coef = mod.participation.Wetland$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Wetland$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Wetland$summary.lincomb.derived$`0.975quant`,
+tex.coordination.Wetland.Perc <- texreg::createTexreg(
+  coef.names = mod.coordination.Wetland.Perc$names.fixed,
+  coef = mod.coordination.Wetland.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.coordination.Wetland.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.coordination.Wetland.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Wetland$dic$dic,mod.participation.Wetland$waic$waic))
+  gof =  c(mod.coordination.Wetland.Perc$dic$dic,mod.coordination.Wetland.Perc$waic$waic))
 
 
 
+tex.participation.Developed.Perc <- texreg::createTexreg(
+  coef.names = mod.participation.Developed.Perc$names.fixed,
+  coef = mod.participation.Developed.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.participation.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.participation.Developed.Perc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.participation.Developed.Perc$dic$dic,mod.participation.Developed.Perc$waic$waic))
+
+
+tex.participation.Forest.Perc <- texreg::createTexreg(
+  coef.names = mod.participation.Forest.Perc$names.fixed,
+  coef = mod.participation.Forest.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.participation.Forest.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.participation.Forest.Perc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.participation.Forest.Perc$dic$dic,mod.participation.Forest.Perc$waic$waic))
+
+
+tex.participation.Ag.Perc <- texreg::createTexreg(
+  coef.names = mod.participation.Ag.Perc$names.fixed,
+  coef = mod.participation.Ag.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.participation.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.participation.Ag.Perc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.participation.Ag.Perc$dic$dic,mod.participation.Ag.Perc$waic$waic))
+
+
+tex.participation.Wetland.Perc <- texreg::createTexreg(
+  coef.names = mod.participation.Wetland.Perc$names.fixed,
+  coef = mod.participation.Wetland.Perc$summary.lincomb.derived$mean,
+  ci.low = mod.participation.Wetland.Perc$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.participation.Wetland.Perc$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.participation.Wetland.Perc$dic$dic,mod.participation.Wetland.Perc$waic$waic))
+
+
+screenreg(l=list(tex.approval.Developed,tex.approval.Forest,tex.approval.Wetland,tex.approval.Ag),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
+          custom.model.names = c('Developed','Forested','Wetland','Ag'))
 library(texreg)
 
 if(onscreen)
 {
-htmlreg(l=list(tex.approval.Developed,tex.approval.Forest,tex.approval.Wetland,tex.approval.Ag),leading.zero=TRUE,
-        omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
-        custom.model.names = c('Developed','Forested','Wetland','Ag'),
-        file = 'Output/Version1/approval.table.html')
-htmlreg(l=list(tex.participation.Developed,tex.participation.Forest,tex.participation.Wetland,tex.participation.Ag),leading.zero=TRUE,
-        omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
-        custom.model.names = c('Developed','Forested','Wetland','Ag'),
-        file = 'Output/Version1/part.table.html')
-htmlreg(l=list(tex.coordination.Developed,tex.coordination.Forest,
-               tex.coordination.Wetland,tex.coordination.Ag),leading.zero=TRUE,
-        omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
-        custom.model.names = c('Developed','Forested','Wetland','Ag'),
-        file = 'Output/Version1/coord.table.html')
+  htmlreg(l=list(tex.approval.Developed.Perc,tex.approval.Forest.Perc,tex.approval.Wetland.Perc,tex.approval.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          file = 'Output/Version1/approval.table.html')
+  htmlreg(l=list(tex.participation.Developed.Perc,tex.participation.Forest.Perc,tex.participation.Wetland.Perc,tex.participation.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          file = 'Output/Version1/part.table.html')
+  htmlreg(l=list(tex.coordination.Developed.Perc,tex.coordination.Forest.Perc,
+                 tex.coordination.Wetland.Perc,tex.coordination.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          file = 'Output/Version1/coord.table.html')
 }
+
 
 
 if(!onscreen)
 {
-  htmlreg(l=list(mod.approval.Developed,mod.approval.Forested,mod.approval.Wetland,mod.approval.Ag),leading.zero=TRUE,
-          omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
+  htmlreg(l=list(tex.approval.Developed.Perc,tex.approval.Forest.Perc,tex.approval.Wetland.Perc,tex.approval.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
           custom.model.names = c('Developed','Forested','Wetland','Ag'),
           file = '../Output/Version1/approval.table.html')
-htmlreg(l=list(mod.participation.Developed,mod.participation.Forested,mod.participation.Wetland,mod.participation.Ag),leading.zero=TRUE,
-        omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
-        custom.model.names = c('Developed','Forested','Wetland','Ag'),
-        file = '../Output/Version1/part.table.html')
-htmlreg(l=list(mod.coordination.Developed,mod.coordination.Forested,mod.coordination.Wetland,mod.coordination.Ag),leading.zero=TRUE,
-        omit.coef = c('(Intercept)'),ci.test = 0,digits = 3,
-        custom.model.names = c('Developed','Forested','Wetland','Ag'),
-        file = '../Output/Version1/coord.table.html')}
+  htmlreg(l=list(tex.participation.Developed.Perc,tex.participation.Forest.Perc,tex.participation.Wetland.Perc,tex.participation.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          file = '../Output/Version1/part.table.html')
+  htmlreg(l=list(tex.coordination.Developed.Perc,tex.coordination.Forest.Perc,
+                 tex.coordination.Wetland.Perc,tex.coordination.Ag.Perc),leading.zero=TRUE,
+          omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
+          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          file = '../Output/Version1/coord.table.html')}
 
 
-sum.changes = net.change.df %>% dplyr::select(Change.Developed,Change.Forest,Change.Ag,Change.Wetland)
+sum.changes = net.change.df %>% dplyr::select(Perc.Change.Developed,Perc.Change.Forest,Perc.Change.Ag,Perc.Change.Wetland)
 library(stargazer)
 stargazer(sum.changes,title='Land Cover Change Variables',
           out = 'Output/Version1/cover.summary.html',
           data.frame=TRUE,style = 'jpam',type = 'html',digits = 2)
 
+install.packages('coefplot')
+library(coefplot)
+
+temp = mod.approval.Ag.Perc$summary.fixed %>% mutate(Vars = rownames(.)) %>% rename(upper = `0.975quant`,lower = `0.025quant`) %>% filter(Vars != '(Intercept)') %>%
+  mutate(Where.Plot = 1:nrow(.),Mod = 'Ag')
+temp1 = mod.approval.Forest.Perc$summary.fixed %>% mutate(Vars = rownames(.)) %>% rename(upper = `0.975quant`,lower = `0.025quant`) %>% filter(Vars != '(Intercept)') %>%
+  mutate(Where.Plot = 1:nrow(.),Mod = 'Forest')
+temp2 = mod.approval.Developed.Perc$summary.fixed %>% mutate(Vars = rownames(.)) %>% rename(upper = `0.975quant`,lower = `0.025quant`) %>% filter(Vars != '(Intercept)') %>%
+  mutate(Where.Plot = 1:nrow(.),Mod = 'Developed')
+temp3 = mod.approval.Wetland.Perc$summary.fixed %>% mutate(Vars = rownames(.)) %>% rename(upper = `0.975quant`,lower = `0.025quant`) %>% filter(Vars != '(Intercept)') %>%
+  mutate(Where.Plot = 1:nrow(.),Mod = 'Wetland')
+
+temp.all = join_all(list(temp,temp1,temp2,temp3),type='full')
+library(ggthemes)
 
 
-WAIC
-11457.231
-19168.575
-11205.430
-11698.312
+ggplot(temp.all,aes())    
+       
+       ) + geom_errorbarh(aes(xmin = lower,xmax=upper,y = Where.Plot),width=.25,size=1) 
+?geom_errorbarh
+
+theme_tufte(ticks=F) + geom_hline(h=0,lty=2) +
+  scale_x_discrete(breaks=temp$Where.Plot,labels=temp$Vars,limits=c(0,14))
+
+temp$Where.Plot
+?geom_errorbar
+?geom_linerange
+
+
+
+
+

@@ -393,6 +393,7 @@ form.coordination.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.D
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Developed.Active +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -412,6 +413,7 @@ form.coordination.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Densi
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Wetland.Active +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -431,6 +433,7 @@ form.coordination.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Forest.Active +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -450,6 +453,7 @@ form.coordination.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Ag.Active +
   Coord.Formal.Agreements.Active + 
   Coord.Spec.Responsibilities.Active + 
   Coord.Institution.Active+
@@ -471,6 +475,7 @@ form.participation.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Developed.Active +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -490,6 +495,7 @@ form.participation.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Dens
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Wetland.Active +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -509,6 +515,7 @@ form.participation.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Densit
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Forest.Active +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +
@@ -528,6 +535,7 @@ form.participation.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSq
   #Annual.Average.Employ.Const.1k +
   Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
   subcounty_density + Area.100sqM+
+  Approval.Ag.Active +
   Part.Outreach.Active+
   Part.Advisory.Active+
   Part.Input.Active +

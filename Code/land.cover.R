@@ -1,5 +1,5 @@
 rm(list=ls())
-
+mean.centered=TRUE
 Use.Percent.Change = TRUE
 onscreen = TRUE
 obs.years = c(1996,2001,2006,2010)
@@ -293,7 +293,23 @@ DIC = TRUE
 WAIC = TRUE
 CPO = TRUE
 
-
+if(mean.centered)
+{
+  net.change.df %>% mutate(
+    Perc.Change.Developed = Perc.Change.Developed - mean(Perc.Change.Developed),
+    From.Population.Density.100pSqM = From.Population.Density.100pSqM - mean(From.Population.Density.100pSqM),
+    Perc.Population.Change = Perc.Population.Change - mean(Perc.Population.Change),
+    From.Per.Capita.Income.1k = From.Per.Capita.Income.1k - mean(From.Per.Capita.Income.1k),
+    Perc.Change.Per.Capita.Income = Perc.Change.Per.Capita.Income - mean(Perc.Change.Per.Capita.Income),
+    Prop.Employ.NaturalRes = Prop.Employ.NaturalRes - mean(Prop.Employ.NaturalRes),
+    Prop.Forested = Prop.Forested - mean(Prop.Forested),
+    Prop.Wetland = Prop.Wetland - mean(Prop.Wetland),
+    Prop.Cultivated = Prop.Cultivated - mean(Prop.Cultivated),
+    Prop.Developed = Prop.Developed - mean(Prop.Forested),
+    subcounty_density = subcounty_density - mean(subcounty_density),
+    Area.100sqM = Area.100sqM - mean(Area.100sqM)
+  )
+}
 
 ### Land Cover Chqnge Models
 form.approval.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Density.100pSqM+ 
@@ -759,6 +775,21 @@ library(coefplot)
 net.change.df %>% dplyr::select(FromYear,FIPS,contains('Approved')) %>% dplyr::select(-ever.approved) %>% gather(Cover.Type,Approval.Year,-FIPS,-FromYear) %>%
   group_by(FromYear,Cover.Type) %>% dplyr::summarise(Active = sum(Approval.Year<=FromYear),No = n() - Active)
 
+
+forc = net.change.df %>% mutate(period = paste(FromYear,ToYear,sep='-')) %>%
+  dplyr::group_by(State,period) %>% 
+  dplyr::summarise(state.mean = mean(Perc.Change.Forest),for.app = mean(Approval.Forest.Active))
+
+ggplot(data = forc) + 
+  geom_bar(aes(x=period,y=state.mean,group=State,fill=as.factor(for.app)),
+           stat='identity',position='dodge') 
+
+ggplot(data=forc) +
+  geom_line(aes(x=period,y=state.mean,group=State),lty=2,colour='grey80') + 
+  geom_point(aes(x=period,y=state.mean,colour=as.factor(for.app)),pch=19,size=3)  + 
+  scale_x_discrete(expand=c(0,0)) + theme_tufte(ticks=F)+
+scale_colour_colorblind(name='Forestry Subarea',labels=c('Unapproved','Approved'))
+  
 
 
 

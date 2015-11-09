@@ -296,20 +296,22 @@ CPO = TRUE
 if(mean.centered)
 {
   net.change.df =   net.change.df %>% mutate(
-    Perc.Change.Developed = Perc.Change.Developed - mean(Perc.Change.Developed),
-    From.Population.Density.100pSqM = From.Population.Density.100pSqM - mean(From.Population.Density.100pSqM),
-    Perc.Population.Change = Perc.Population.Change - mean(Perc.Population.Change),
-    From.Per.Capita.Income.1k = From.Per.Capita.Income.1k - mean(From.Per.Capita.Income.1k),
-    Perc.Change.Per.Capita.Income = Perc.Change.Per.Capita.Income - mean(Perc.Change.Per.Capita.Income),
-    Prop.Employ.NaturalRes = Prop.Employ.NaturalRes - mean(Prop.Employ.NaturalRes),
-    Prop.Forested = Prop.Forested - mean(Prop.Forested),
-    Prop.Wetland = Prop.Wetland - mean(Prop.Wetland),
-    Prop.Cultivated = Prop.Cultivated - mean(Prop.Cultivated),
-    Prop.Developed = Prop.Developed - mean(Prop.Forested),
-    subcounty_density = subcounty_density - mean(subcounty_density),
-    Area.100sqM = Area.100sqM - mean(Area.100sqM)
+    Perc.Change.Developed = Perc.Change.Developed - mean(Perc.Change.Developed,na.rm=T),
+    From.Population.Density.100pSqM = From.Population.Density.100pSqM - mean(From.Population.Density.100pSqM,na.rm=T),
+    Perc.Population.Change = Perc.Population.Change - mean(Perc.Population.Change,na.rm=T),
+    From.Per.Capita.Income.1k = From.Per.Capita.Income.1k - mean(From.Per.Capita.Income.1k,na.rm=T),
+    Perc.Change.Per.Capita.Income = Perc.Change.Per.Capita.Income - mean(Perc.Change.Per.Capita.Income,na.rm=T),
+    Prop.Employ.NaturalRes = Prop.Employ.NaturalRes - mean(Prop.Employ.NaturalRes,na.rm=T),
+    Prop.Forested = Prop.Forested - mean(Prop.Forested,na.rm=T),
+    Prop.Wetland = Prop.Wetland - mean(Prop.Wetland,na.rm=T),
+    Prop.Cultivated = Prop.Cultivated - mean(Prop.Cultivated,na.rm=T),
+    Prop.Developed = Prop.Developed - mean(Prop.Forested,na.rm=T),
+    subcounty_density = subcounty_density - mean(subcounty_density,na.rm=T),
+    Area.100sqM = Area.100sqM - mean(Area.100sqM,na.rm=T)
   )
 }
+
+
 
 ### Land Cover Chqnge Models
 form.approval.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Density.100pSqM+ 

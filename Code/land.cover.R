@@ -295,7 +295,7 @@ CPO = TRUE
 
 if(mean.centered)
 {
-  net.change.df %>% mutate(
+  net.change.df =   net.change.df %>% mutate(
     Perc.Change.Developed = Perc.Change.Developed - mean(Perc.Change.Developed),
     From.Population.Density.100pSqM = From.Population.Density.100pSqM - mean(From.Population.Density.100pSqM),
     Perc.Population.Change = Perc.Population.Change - mean(Perc.Population.Change),

@@ -275,7 +275,7 @@ net.change.df = net.change.df %>%
                 Prop.Forested = 100 * (Total.Forest/CountyArea),
                 Prop.Wetland = 100 * (Total.Wetland/CountyArea),
                 Prop.Developed = 100 * (Total.Developed/CountyArea),
-                Prop.Cultivated = 100 * (Total.Ag/CountyArea),
+                Prop.Ag = 100 * (Total.Ag/CountyArea),
                 Perc.Change.Forest = 100 * (Change.Forest/(Total.Forest+0.01)),
                 Perc.Change.Developed = 100 * (Change.Developed/(Total.Developed+0.01)),
                 Perc.Change.Ag = 100 * (Change.Ag/(Total.Ag+0.01)),
@@ -293,10 +293,15 @@ DIC = TRUE
 WAIC = TRUE
 CPO = TRUE
 
+
+
 if(mean.centered)
 {
   net.change.df =   net.change.df %>% mutate(
     Perc.Change.Developed = Perc.Change.Developed - mean(Perc.Change.Developed,na.rm=T),
+    Perc.Change.Forest = Perc.Change.Forest - mean(Perc.Change.Forest,na.rm=T),
+    Perc.Change.Ag = Perc.Change.Ag - mean(Perc.Change.Ag,na.rm=T),
+    Perc.Change.Wetland = Perc.Change.Wetland - mean(Perc.Change.Wetland,na.rm=T),
     From.Population.Density.100pSqM = From.Population.Density.100pSqM - mean(From.Population.Density.100pSqM,na.rm=T),
     Perc.Population.Change = Perc.Population.Change - mean(Perc.Population.Change,na.rm=T),
     From.Per.Capita.Income.1k = From.Per.Capita.Income.1k - mean(From.Per.Capita.Income.1k,na.rm=T),
@@ -304,7 +309,7 @@ if(mean.centered)
     Prop.Employ.NaturalRes = Prop.Employ.NaturalRes - mean(Prop.Employ.NaturalRes,na.rm=T),
     Prop.Forested = Prop.Forested - mean(Prop.Forested,na.rm=T),
     Prop.Wetland = Prop.Wetland - mean(Prop.Wetland,na.rm=T),
-    Prop.Cultivated = Prop.Cultivated - mean(Prop.Cultivated,na.rm=T),
+    Prop.Ag = Prop.Ag - mean(Prop.Ag,na.rm=T),
     Prop.Developed = Prop.Developed - mean(Prop.Forested,na.rm=T),
     subcounty_density = subcounty_density - mean(subcounty_density,na.rm=T),
     Area.100sqM = Area.100sqM - mean(Area.100sqM,na.rm=T)
@@ -319,7 +324,7 @@ form.approval.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.Densi
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   #ever.approved +
   #ever.approved:Full.Approval.Active +
@@ -342,7 +347,7 @@ form.approval.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Density.1
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   #ever.approved +
   #ever.approved:Full.Approval.Active +
@@ -364,7 +369,7 @@ form.approval.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density.100
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+ 
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   #ever.approved +
   #ever.approved:Full.Approval.Active +
@@ -385,7 +390,7 @@ form.approval.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM+ Pe
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   #ever.approved +
   #ever.approved:Full.Approval.Active +
@@ -409,7 +414,7 @@ form.coordination.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.D
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Developed.Active +
   Coord.Formal.Agreements.Active + 
@@ -429,7 +434,7 @@ form.coordination.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Densi
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Wetland.Active +
   Coord.Formal.Agreements.Active + 
@@ -449,7 +454,7 @@ form.coordination.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Forest.Active +
   Coord.Formal.Agreements.Active + 
@@ -469,7 +474,7 @@ form.coordination.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSqM
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Ag.Active +
   Coord.Formal.Agreements.Active + 
@@ -491,7 +496,7 @@ form.participation.Developed.Perc = Perc.Change.Developed ~ 1 + From.Population.
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Developed.Active +
   Part.Outreach.Active+
@@ -511,7 +516,7 @@ form.participation.Wetland.Perc = Perc.Change.Wetland ~ 1 + From.Population.Dens
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Wetland.Active +
   Part.Outreach.Active+
@@ -531,7 +536,7 @@ form.participation.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Densit
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Forest.Active +
   Part.Outreach.Active+
@@ -551,7 +556,7 @@ form.participation.Ag.Perc = Perc.Change.Ag ~ 1 + From.Population.Density.100pSq
   From.Per.Capita.Income.1k + Perc.Change.Per.Capita.Income + 
   Prop.Employ.NaturalRes+
   #Annual.Average.Employ.Const.1k +
-  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Cultivated + 
+  Prop.Forested + Prop.Developed + Prop.Wetland + Prop.Ag + 
   subcounty_density + Area.100sqM+
   Approval.Ag.Active +
   Part.Outreach.Active+

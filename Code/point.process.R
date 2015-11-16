@@ -231,7 +231,6 @@ uscounty= uscounty[uscounty@data$FIPS %in% counties@data$CFIPS ==FALSE,]
 spydf_counties <- gBuffer(uscounty, byid=TRUE, width=0)
 drop.counties = unionSpatialPolygons(spydf_counties,IDs = rep(1,length(uscounty)),10000)
 
-
 ###Step 1) Prepare the mesh
 mesh <- inla.mesh.2d(cbind(nca.chem$LON_DD, nca.chem$LAT_DD), max.edge=c(1000, 1000), cut=.2)
 #mesh <- inla.mesh.2d(boundary=county.bdry, cutoff=1, max.edge=c(20,200))

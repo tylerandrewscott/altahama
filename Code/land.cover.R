@@ -152,7 +152,7 @@ net.change.df = join(net.change.df,ec.industries)
 
 net.change.df = net.change.df %>% mutate(StateAbbrev = as.character(StateAbbrev)) 
   
-  
+ 
   
 state.ref = data.frame(state.abb,state.name)
 cnp.history = fetchGoogle("https://docs.google.com/spreadsheets/d/1dbSJRtuSah56zBwjk-YySYwJ09ryURrofbJ6Nne5rv0/pub?output=csv")
@@ -191,7 +191,12 @@ net.change.df = join(net.change.df,plan.attributes) %>% dplyr::mutate(
 focal = fetchGoogle("https://docs.google.com/spreadsheets/d/1j3AxfTyOhYimF0ea_Puctma5qYNgOzjfPxKuMT-zw6A/pub?output=csv")
 
 cat.approv = focal %>% dplyr::select(-contains('Background'),-Measure.Source,-Sub.Category,-Measure.Num,-Sub.Topic,-Measure.Text,-Illinois) %>%
-  gather(State,Approval.Date,-Measure.Name,-Topic)  %>% mutate(Approval.Year = year(mdy(Approval.Date))) %>% dplyr::select(-Approval.Date)
+  gather(State,Approval.Date,-Measure.Name,-Topic) %>%
+  mutate(Approval.Year = year(mdy(Approval.Date)))
+cat.approv$Approval.Year[!is.na(cat.approv$Approval.Date)&cat.approv$Approval.Date=='Exempt'] = 'Exempt'
+cat.approv = cat.approv %>% dplyr::select(-Approval.Date)
+cat.approv$Approval.Year = ifelse(is.na(cat.approv$Approval.Year),2040,cat.approv$Approval.Year)
+
 
 cats.approved = cat.approv %>% dplyr::select(-Measure.Name) %>% dplyr::group_by(Topic,State) %>% dplyr::mutate(Approval.Year  = ifelse(is.na(Approval.Year),2040,Approval.Year)) %>%
   dplyr::summarise(Year.Cat.Approved = max(Approval.Year)) %>% spread(Topic,Year.Cat.Approved) %>%  
@@ -200,25 +205,43 @@ dplyr::group_by(State) %>% dplyr::mutate(Approved.Wetland = max(hydromodificatio
   dplyr::select(-wetlands.riparian,-hydromodification)
 
 
-
 net.change.df = net.change.df %>% dplyr::mutate(State = gsub(' ','',as.character(state.name))) %>% join(.,cats.approved) %>% 
-  dplyr::mutate(Approval.Ag.Active = ifelse(FromYear >= Approved.Ag,1,0),
-         Approval.Forest.Active = ifelse(FromYear >= Approved.Forest,1,0),
-         Approval.Wetland.Active = ifelse(FromYear >= Approved.Wetland,1,0),
-         Approval.Developed.Active = ifelse(FromYear >= Approved.Developed,1,0))
+  dplyr::mutate(Approval.Ag.Active = ifelse(Approved.Ag=='Exempt','Exempt',ifelse(FromYear >= Approved.Ag,'Yes','No')),
+         Approval.Forest.Active = ifelse(Approved.Forest=='Exempt','Exempt',ifelse(FromYear >= Approved.Forest,'Yes','No')),
+         Approval.Wetland.Active = ifelse(Approved.Wetland=='Exempt','Exempt',ifelse(FromYear >= Approved.Wetland,'Yes','No')),
+         Approval.Developed.Active = ifelse(Approved.Developed=='Exempt','Exempt',ifelse(FromYear >= Approved.Developed,'Yes','No')))
 
 
+        
 state.gdp <- read.csv('Input/state.gdp.pc.csv')
 state.gdp <- state.gdp %>% dplyr::select(-IndustryId,-IndustryClassification,-Description,-GeoFIPS,-ComponentId,-ComponentName,-Region) %>%
   filter(GeoName != 'United States') %>%dplyr::rename(state.name = GeoName) %>% gather(Year,GDP,-state.name)
 state.gdp$Year = gsub('X','',state.gdp$Year)
 
-net.change.df = net.change.df %>% filter(StateAbbrev %in% c("VT",'IL') ==FALSE)
+
+
+net.change.df  = net.change.df %>% filter(StateAbbrev %in% c("VT",'IL') ==FALSE)
+
+
 
 library(RCurl)
 library(mosaic)
 library(lubridate)
 library(gdata)
+
+zhome = read.csv('Input/County_Zhvi_SingleFamilyResidence.csv')
+zhome = zhome %>% dplyr::select(-Metro) %>% gather(Year.Month,MedianHomePrice,-RegionName,-State,-StateCodeFIPS,-MunicipalCodeFIPS)
+zhome$Year.Month = ymd(paste0(gsub('X','',zhome$Year.Month),'.1'))
+zhome$Year = year(zhome$Year.Month)
+zhome$StateCodeFIPS = ifelse(nchar(zhome$StateCodeFIPS)==1,paste0('0',zhome$StateCodeFIPS),zhome$StateCodeFIPS)
+
+temp = ifelse(nchar(as.character(zhome$MunicipalCodeFIPS)) == 2, paste0('0',as.character(zhome$MunicipalCodeFIPS)),as.character(zhome$MunicipalCodeFIPS))
+zhome$FIPS = paste0(zhome$StateCodeFIPS,ifelse(nchar(temp)==1,paste0('00',temp),temp))
+
+zhome = zhome %>% dplyr::group_by(Year,FIPS) %>% dplyr::summarise(med.year.homeprice = mean(MedianHomePrice,na.rm=T))
+
+net.change.df = join(net.change.df,zhome)
+
 
 # bea.mw = read.csv('Input/bea_mw_income.csv')
 # bea.atl = read.csv('Input/bea_atl_income.csv')
@@ -233,6 +256,7 @@ library(gdata)
 # beal = beal[grep('capita',beal$Description),]
 # beal$GeoFips[nchar(beal$GeoFips)==4] = paste0(0,beal$GeoFips[nchar(beal$GeoFips)==4])
 # beal$uq = paste(beal$GeoFips,beal$Year)
+
 
 treat.indicator = net.change.df %>% dplyr::select(StateAbbrev,Full.Approval.Active) %>% 
   dplyr::group_by(StateAbbrev) %>%
@@ -286,6 +310,8 @@ net.change.df = net.change.df %>%
 
 
 
+
+
 #model settings
 correctionfactor = 10
 pintercept = 0.001
@@ -315,6 +341,16 @@ if(mean.centered)
     Area.100sqM = Area.100sqM - mean(Area.100sqM,na.rm=T)
   )
 }
+
+net.change.df = net.change.df %>% mutate(
+Approval.Forest.Exempt = ifelse(Approval.Forest.Active=='Exempt',1,0),
+Approval.Forest.Active = ifelse(Approval.Forest.Active=='Yes',1,0),
+Approval.Developed.Exempt = ifelse(Approval.Developed.Active=='Exempt',1,0),
+Approval.Developed.Active = ifelse(Approval.Developed.Active=='Yes',1,0),
+Approval.Wetland.Exempt = ifelse(Approval.Wetland.Active=='Exempt',1,0),
+Approval.Wetland.Active = ifelse(Approval.Wetland.Active=='Yes',1,0),
+Approval.Ag.Exempt = ifelse(Approval.Ag.Active=='Exempt',1,0),
+Approval.Ag.Active = ifelse(Approval.Ag.Active=='Yes',1,0))
 
 
 
@@ -374,6 +410,7 @@ form.approval.Forest.Perc = Perc.Change.Forest ~ 1 + From.Population.Density.100
   #ever.approved +
   #ever.approved:Full.Approval.Active +
   #Cond.Approval.Active + Full.Approval.Active +
+  Approval.Forest.Exempt + 
   Approval.Forest.Active +
   #f(StateAbbrev,model='iid') +
   f(ToYear, model = 'iid') + f(rowID,model='bym',graph = county.ADJ)
@@ -796,7 +833,9 @@ ggplot(data=forc) +
   geom_point(aes(x=period,y=state.mean,colour=as.factor(for.app)),pch=19,size=3)  + 
   scale_x_discrete(expand=c(0,0)) + theme_tufte(ticks=F)+
 scale_colour_colorblind(name='Forestry Subarea',labels=c('Unapproved','Approved'))
-  
 
+
+summary(mod.approval.Forest.Perc)
+table(net.change.df$Approved.Forest,net.change.df$State)
 
 

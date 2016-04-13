@@ -617,14 +617,14 @@ mod.participation.Forest.Perc <- inla(form.participation.Forest.Perc,family='gau
 #   gof =  c(mod.approval.Developed$dic$dic,mod.approval.Developed$waic$waic))
 # 
 # 
-# tex.approval.Forest <- texreg::createTexreg(
-#   coef.names = mod.approval.Forest$names.fixed,
-#   coef = mod.approval.Forest$summary.lincomb.derived$mean,
-#   ci.low = mod.approval.Forest$summary.lincomb.derived$`0.025quant`,
-#   ci.up = mod.approval.Forest$summary.lincomb.derived$`0.975quant`,
-#   gof.names = c('DIC','WAIC'),
-#   gof =  c(mod.approval.Forest$dic$dic,mod.approval.Forest$waic$waic))
-# 
+tex.approval.Forest <- texreg::createTexreg(
+  coef.names = mod.approval.Forest$names.fixed,
+  coef = mod.approval.Forest$summary.lincomb.derived$mean,
+  ci.low = mod.approval.Forest$summary.lincomb.derived$`0.025quant`,
+  ci.up = mod.approval.Forest$summary.lincomb.derived$`0.975quant`,
+  gof.names = c('DIC','WAIC'),
+  gof =  c(mod.approval.Forest$dic$dic,mod.approval.Forest$waic$waic))
+
 # 
 # tex.approval.Ag <- texreg::createTexreg(
 #   coef.names = mod.approval.Ag$names.fixed,
@@ -642,17 +642,17 @@ mod.participation.Forest.Perc <- inla(form.participation.Forest.Perc,family='gau
 #   ci.up = mod.approval.Wetland$summary.lincomb.derived$`0.975quant`,
 #   gof.names = c('DIC','WAIC'),
 #   gof =  c(mod.approval.Wetland$dic$dic,mod.approval.Wetland$waic$waic))
+# # 
 # 
-
-
-tex.approval.Developed.Perc <- texreg::createTexreg(
-  coef.names = mod.approval.Developed.Perc$names.fixed,
-  coef = mod.approval.Developed.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.approval.Developed.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.approval.Developed.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.approval.Developed.Perc$dic$dic,mod.approval.Developed.Perc$waic$waic))
-
+# 
+# tex.approval.Developed.Perc <- texreg::createTexreg(
+#   coef.names = mod.approval.Developed.Perc$names.fixed,
+#   coef = mod.approval.Developed.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.approval.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.approval.Developed.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.approval.Developed.Perc$dic$dic,mod.approval.Developed.Perc$waic$waic))
+# 
 
 tex.approval.Forest.Perc <- texreg::createTexreg(
   coef.names = mod.approval.Forest.Perc$names.fixed,
@@ -661,15 +661,15 @@ tex.approval.Forest.Perc <- texreg::createTexreg(
   ci.up = mod.approval.Forest.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
   gof =  c(mod.approval.Forest.Perc$dic$dic,mod.approval.Forest.Perc$waic$waic))
-
-
-tex.approval.Ag.Perc <- texreg::createTexreg(
-  coef.names = mod.approval.Ag.Perc$names.fixed,
-  coef = mod.approval.Ag.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.approval.Ag.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.approval.Ag.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.approval.Ag.Perc$dic$dic,mod.approval.Ag.Perc$waic$waic))
+# 
+# 
+# tex.approval.Ag.Perc <- texreg::createTexreg(
+#   coef.names = mod.approval.Ag.Perc$names.fixed,
+#   coef = mod.approval.Ag.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.approval.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.approval.Ag.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.approval.Ag.Perc$dic$dic,mod.approval.Ag.Perc$waic$waic))
 
 
 tex.approval.Wetland.Perc <- texreg::createTexreg(
@@ -679,14 +679,14 @@ tex.approval.Wetland.Perc <- texreg::createTexreg(
   ci.up = mod.approval.Wetland.Perc$summary.lincomb.derived$`0.975quant`,
   gof.names = c('DIC','WAIC'),
   gof =  c(mod.approval.Wetland.Perc$dic$dic,mod.approval.Wetland.Perc$waic$waic))
-
-tex.coordination.Developed.Perc <- texreg::createTexreg(
-  coef.names = mod.coordination.Developed.Perc$names.fixed,
-  coef = mod.coordination.Developed.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Developed.Perc$dic$dic,mod.coordination.Developed.Perc$waic$waic))
+# 
+# tex.coordination.Developed.Perc <- texreg::createTexreg(
+#   coef.names = mod.coordination.Developed.Perc$names.fixed,
+#   coef = mod.coordination.Developed.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.coordination.Developed.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.coordination.Developed.Perc$dic$dic,mod.coordination.Developed.Perc$waic$waic))
 
 
 tex.coordination.Forest.Perc <- texreg::createTexreg(
@@ -697,15 +697,15 @@ tex.coordination.Forest.Perc <- texreg::createTexreg(
   gof.names = c('DIC','WAIC'),
   gof =  c(mod.coordination.Forest.Perc$dic$dic,mod.coordination.Forest.Perc$waic$waic))
 
-
-tex.coordination.Ag.Perc <- texreg::createTexreg(
-  coef.names = mod.coordination.Ag.Perc$names.fixed,
-  coef = mod.coordination.Ag.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.coordination.Ag.Perc$dic$dic,mod.coordination.Ag.Perc$waic$waic))
-
+# 
+# tex.coordination.Ag.Perc <- texreg::createTexreg(
+#   coef.names = mod.coordination.Ag.Perc$names.fixed,
+#   coef = mod.coordination.Ag.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.coordination.Ag.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.coordination.Ag.Perc$dic$dic,mod.coordination.Ag.Perc$waic$waic))
+# 
 
 tex.coordination.Wetland.Perc <- texreg::createTexreg(
   coef.names = mod.coordination.Wetland.Perc$names.fixed,
@@ -715,15 +715,15 @@ tex.coordination.Wetland.Perc <- texreg::createTexreg(
   gof.names = c('DIC','WAIC'),
   gof =  c(mod.coordination.Wetland.Perc$dic$dic,mod.coordination.Wetland.Perc$waic$waic))
 
-
-
-tex.participation.Developed.Perc <- texreg::createTexreg(
-  coef.names = mod.participation.Developed.Perc$names.fixed,
-  coef = mod.participation.Developed.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Developed.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Developed.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Developed.Perc$dic$dic,mod.participation.Developed.Perc$waic$waic))
+# 
+# 
+# tex.participation.Developed.Perc <- texreg::createTexreg(
+#   coef.names = mod.participation.Developed.Perc$names.fixed,
+#   coef = mod.participation.Developed.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.participation.Developed.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.participation.Developed.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.participation.Developed.Perc$dic$dic,mod.participation.Developed.Perc$waic$waic))
 
 
 tex.participation.Forest.Perc <- texreg::createTexreg(
@@ -735,13 +735,13 @@ tex.participation.Forest.Perc <- texreg::createTexreg(
   gof =  c(mod.participation.Forest.Perc$dic$dic,mod.participation.Forest.Perc$waic$waic))
 
 
-tex.participation.Ag.Perc <- texreg::createTexreg(
-  coef.names = mod.participation.Ag.Perc$names.fixed,
-  coef = mod.participation.Ag.Perc$summary.lincomb.derived$mean,
-  ci.low = mod.participation.Ag.Perc$summary.lincomb.derived$`0.025quant`,
-  ci.up = mod.participation.Ag.Perc$summary.lincomb.derived$`0.975quant`,
-  gof.names = c('DIC','WAIC'),
-  gof =  c(mod.participation.Ag.Perc$dic$dic,mod.participation.Ag.Perc$waic$waic))
+# tex.participation.Ag.Perc <- texreg::createTexreg(
+#   coef.names = mod.participation.Ag.Perc$names.fixed,
+#   coef = mod.participation.Ag.Perc$summary.lincomb.derived$mean,
+#   ci.low = mod.participation.Ag.Perc$summary.lincomb.derived$`0.025quant`,
+#   ci.up = mod.participation.Ag.Perc$summary.lincomb.derived$`0.975quant`,
+#   gof.names = c('DIC','WAIC'),
+#   gof =  c(mod.participation.Ag.Perc$dic$dic,mod.participation.Ag.Perc$waic$waic))
 
 
 tex.participation.Wetland.Perc <- texreg::createTexreg(
@@ -758,18 +758,18 @@ library(texreg)
 
 if(onscreen)
 {
-  htmlreg(l=list(tex.approval.Developed.Perc,tex.approval.Forest.Perc,tex.approval.Wetland.Perc,tex.approval.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.approval.Forest.Perc,tex.approval.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
+          custom.model.names = c('Forested','Wetland'),single.row =TRUE,
           file = 'Output/Version1/approval.table.html')
-  htmlreg(l=list(tex.participation.Developed.Perc,tex.participation.Forest.Perc,tex.participation.Wetland.Perc,tex.participation.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.participation.Forest.Perc,tex.participation.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
+          custom.model.names = c('Forested','Wetland'),single.row =TRUE,
           file = 'Output/Version1/part.table.html')
-  htmlreg(l=list(tex.coordination.Developed.Perc,tex.coordination.Forest.Perc,
-                 tex.coordination.Wetland.Perc,tex.coordination.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.coordination.Forest.Perc,
+                 tex.coordination.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),single.row =TRUE,
+          custom.model.names = c('Forested','Wetland'),single.row =TRUE,
           file = 'Output/Version1/coord.table.html')
 }
 
@@ -777,18 +777,18 @@ if(onscreen)
 
 if(!onscreen)
 {
-  htmlreg(l=list(tex.approval.Developed.Perc,tex.approval.Forest.Perc,tex.approval.Wetland.Perc,tex.approval.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.approval.Forest.Perc,tex.approval.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Forested','Wetland'),
           file = '../Output/Version1/approval.table.html')
-  htmlreg(l=list(tex.participation.Developed.Perc,tex.participation.Forest.Perc,tex.participation.Wetland.Perc,tex.participation.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.participation.Forest.Perc,tex.participation.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Forested','Wetland'),
           file = '../Output/Version1/part.table.html')
-  htmlreg(l=list(tex.coordination.Developed.Perc,tex.coordination.Forest.Perc,
-                 tex.coordination.Wetland.Perc,tex.coordination.Ag.Perc),leading.zero=TRUE,
+  htmlreg(l=list(tex.coordination.Forest.Perc,
+                 tex.coordination.Wetland.Perc),leading.zero=TRUE,
           omit.coef = c('(Intercept)'),ci.test = 0,digits = 2,caption = 'Percent Net Change',
-          custom.model.names = c('Developed','Forested','Wetland','Ag'),
+          custom.model.names = c('Forested','Wetland'),
           file = '../Output/Version1/coord.table.html')}
 
 

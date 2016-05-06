@@ -42,7 +42,7 @@ change.file.names = paste0('Input/',grep('LandCoverChange',list.files('Input/'),
 data.list = lapply(as.list(change.file.names),read.csv)
 change.df = join_all(data.list,type='full')
 
-
+levels(change.df$toClass)
 
 change.df = change.df  %>% filter(StateAbbrev != 'DC',StateAbbrev != 'VT',fromClass != toClass, ToYear-FromYear<=5) %>% dplyr::select(-CCAP_ClassID)
 

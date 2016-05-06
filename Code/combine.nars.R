@@ -25,6 +25,13 @@ colnames(benthic.2000) = tolower(colnames(benthic.2000))
 benthic.all = join(benthic.2000,benthic.2010,type='full')
 
 
+
+cbind(benthic.2000$taxa.total.count,
+benthic.2000$
+
+names(benthic.2010)
+rbenthic.2000$total.biomass..g.
+
 table(is.na(benthic.2010$benthic_index))
 
 table(!is.na(benthic.2010$oti),!is.na(benthic.2010$nca_bi))
